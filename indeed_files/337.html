@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang='en-US' xml:lang='en-US' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<script type="text/javascript">var _rollbarConfig = {"accessToken":"cbedf802895842e69f3824e4c21c6f88","hostWhiteList":["cloudfront\\.net","bookbub\\.com","kobubob\\.dev"],"ignoredMessages":["SecurityError \\(DOM Exception 18\\)","Facebook Pixel Error","Script error"],"captureUncaught":true,"captureUnhandledRejections":true,"payload":{"environment":"production"}};</script>
+<script type="text/javascript">!function(r){function e(t){if(o[t])return o[t].exports;var n=o[t]={exports:{},id:t,loaded:!1};return r[t].call(n.exports,n,n.exports,e),n.loaded=!0,n.exports}var o={};return e.m=r,e.c=o,e.p="",e(0)}([function(r,e,o){"use strict";var t=o(1).Rollbar,n=o(2);_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://d37gvrvc0wt4s1.cloudfront.net/js/v1.9/rollbar.min.js";var a=t.init(window,_rollbarConfig),i=n(a,_rollbarConfig);a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,i)},function(r,e){"use strict";function o(r){return function(){try{return r.apply(this,arguments)}catch(e){try{console.error("[Rollbar]: Internal error",e)}catch(o){}}}}function t(r,e,o){window._rollbarWrappedError&&(o[4]||(o[4]=window._rollbarWrappedError),o[5]||(o[5]=window._rollbarWrappedError._rollbarContext),window._rollbarWrappedError=null),r.uncaughtError.apply(r,o),e&&e.apply(window,o)}function n(r){var e=function(){var e=Array.prototype.slice.call(arguments,0);t(r,r._rollbarOldOnError,e)};return e.belongsToShim=!0,e}function a(r){this.shimId=++c,this.notifier=null,this.parentShim=r,this._rollbarOldOnError=null}function i(r){var e=a;return o(function(){if(this.notifier)return this.notifier[r].apply(this.notifier,arguments);var o=this,t="scope"===r;t&&(o=new e(this));var n=Array.prototype.slice.call(arguments,0),a={shim:o,method:r,args:n,ts:new Date};return window._rollbarShimQueue.push(a),t?o:void 0})}function l(r,e){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){var o=e.addEventListener;e.addEventListener=function(e,t,n){o.call(this,e,r.wrap(t),n)};var t=e.removeEventListener;e.removeEventListener=function(r,e,o){t.call(this,r,e&&e._wrapped?e._wrapped:e,o)}}}var c=0;a.init=function(r,e){var t=e.globalAlias||"Rollbar";if("object"==typeof r[t])return r[t];r._rollbarShimQueue=[],r._rollbarWrappedError=null,e=e||{};var i=new a;return o(function(){if(i.configure(e),e.captureUncaught){i._rollbarOldOnError=r.onerror,r.onerror=n(i);var o,a,c="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(o=0;o<c.length;++o)a=c[o],r[a]&&r[a].prototype&&l(i,r[a].prototype)}return e.captureUnhandledRejections&&(i._unhandledRejectionHandler=function(r){var e=r.reason,o=r.promise,t=r.detail;!e&&t&&(e=t.reason,o=t.promise),i.unhandledRejection(e,o)},r.addEventListener("unhandledrejection",i._unhandledRejectionHandler)),r[t]=i,i})()},a.prototype.loadFull=function(r,e,t,n,a){var i=function(){var e;if(void 0===r._rollbarPayloadQueue){var o,t,n,i;for(e=new Error("rollbar.js did not load");o=r._rollbarShimQueue.shift();)for(n=o.args,i=0;i<n.length;++i)if(t=n[i],"function"==typeof t){t(e);break}}"function"==typeof a&&a(e)},l=!1,c=e.createElement("script"),d=e.getElementsByTagName("script")[0],p=d.parentNode;c.crossOrigin="",c.src=n.rollbarJsUrl,c.async=!t,c.onload=c.onreadystatechange=o(function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){c.onload=c.onreadystatechange=null;try{p.removeChild(c)}catch(r){}l=!0,i()}}),p.insertBefore(c,d)},a.prototype.wrap=function(r,e){try{var o;if(o="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._wrapped){r._wrapped=function(){try{return r.apply(this,arguments)}catch(e){throw e._rollbarContext=o()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e,e}},r._wrapped._isWrap=!0;for(var t in r)r.hasOwnProperty(t)&&(r._wrapped[t]=r[t])}return r._wrapped}catch(n){return r}};for(var d="log,debug,info,warn,warning,error,critical,global,configure,scope,uncaughtError,unhandledRejection".split(","),p=0;p<d.length;++p)a.prototype[d[p]]=i(d[p]);r.exports={Rollbar:a,_rollbarWindowOnError:t}},function(r,e){"use strict";r.exports=function(r,e){return function(o){if(!o&&!window._rollbarInitialized){var t=window.RollbarNotifier,n=e||{},a=n.globalAlias||"Rollbar",i=window.Rollbar.init(n,r);i._processShimQueue(window._rollbarShimQueue||[]),window[a]=i,window._rollbarInitialized=!0,t.processPayloads()}}}}]);</script>
+
+<title>Positions - BookBub</title>
+<link rel="stylesheet" media="all" href="//d2616tuem1neks.cloudfront.net/assets/pages/positions-f43c75534856dc9a970f975f07dd531e939b2f2f8c96de8bcdab962675d0e3f9.css" />
+<link rel="stylesheet" media="screen" href="//d2616tuem1neks.cloudfront.net/assets/bundles/nav_search_app-e02414fa97fad083659361ccd2dabcdbddc7a67035e795a174271e910137ce3c.css" />
+
+<!--[if lt IE 9]>
+<script src="//d2616tuem1neks.cloudfront.net/assets/html5shiv-bea8a926e5ac0a38fd85520797efaea2133065e1cab184c8da6e258762209917.js"></script>
+<script src="//d2616tuem1neks.cloudfront.net/assets/respond-43cb4ccdea9f28bdf449e25fedc9e831efb57d0e0d385b35c4f75ab44c4c93f2.js"></script>
+<link href="//d2616tuem1neks.cloudfront.net/assets/respond-proxy-db0b6e913c871c2ea0e75a8e12eca8e89918e19f51a1095106fe4ff25c21c878.html" id="respond-proxy" rel="respond-proxy" />
+<link href="https://www.bookbub.com/assets/respond.proxy-a3479b45d477eb8429f4be8a396050d90f894559a72068ec3593ec43f586d138.gif" id="respond-redirect" rel="respond-redirect" />
+<script src="https://www.bookbub.com/assets/respond.proxy-a8be789b03c1bd5b217e1763fc08d936a75302cba3946d5c69b6ded940b3dd2a.js"></script>
+<![endif]-->
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="UhBv5A29xMDZjmOq8+sv6WeJSjszCa93cy2RT2ZZnjaqr6gDQQvpwUw9m0FmhyvU9sPVjS2fi8sl87P1U7pe9A==" />
+<meta content='width=device-width, initial-scale=1.0, user-scalable=no' name='viewport'>
+<meta content='Get free and bargain bestsellers for Kindle, Nook, and more. Sign up for free today, and start reading instantly!' name='description'>
+<meta content='311548868887910' property='fb:app_id'>
+<meta content='2fd24df97ba071a5364fba7b5b11eaa1' name='p:domain_verify'>
+<meta content='' property='og:title'>
+<meta content='' property='og:description'>
+<meta content='' property='og:url'>
+<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+<link href='/favicon.ico?v=2' rel='shortcut icon'>
+<link rel="icon" type="image/x-icon" href="//d2616tuem1neks.cloudfront.net/assets/modules/touch_icons/BB_196x196-4d921958436d636c840694fb7ecfdc9485c1627f21761ae20854f8641b0010ba.png" sizes="196x196" />
+<link rel="apple-touch-icon" type="image/x-icon" href="//d2616tuem1neks.cloudfront.net/assets/modules/touch_icons/BB_60x60-14d298022b6ad188e455994d0ed1abbaa567a95852f7dbfe5c698617c968a18f.png" />
+<link rel="apple-touch-icon" type="image/x-icon" href="//d2616tuem1neks.cloudfront.net/assets/modules/touch_icons/BB_76x76-8870963c9958cf0748b0e474b2c870a5b789ff9bc238a9a5c8103a5ea34b4032.png" sizes="76x76" />
+<link rel="apple-touch-icon" type="image/x-icon" href="//d2616tuem1neks.cloudfront.net/assets/modules/touch_icons/BB_120x120-d308901dede3921e44fe4b4d7ee5f994b46de227bbf8a7fe9d73a5e7ca146660.png" sizes="120x120" />
+<link rel="apple-touch-icon" type="image/x-icon" href="//d2616tuem1neks.cloudfront.net/assets/modules/touch_icons/BB_152x152-e91c5c90e8ea555dd4426b0f1b1771d4d9db59f716e442dfb08d56d9e49ea288.png" sizes="152x152" />
+<script>
+  var bb_use_external_scripts = true;
+  if (bb_use_external_scripts) {
+    (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"4020175"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+  }
+  window.randomAjaxDelays = false;
+</script>
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27140214-5']);
+  _gaq.push(['_setDomainName', 'bookbub.com']);
+  _gaq.push(['_setCustomVar', 1, 'Platform', 'lello', 3]);
+  _gaq.push(['_setCustomVar', 2, 'Design', 'current', 3]);
+  _gaq.push(['_setCustomVar', 3, 'Deals Design', 'current', 3]);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview' ]);
+  
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+    <script src="//cdn.optimizely.com/js/341799421.js"></script>
+    <script>
+     (function(d) {
+       var e = d.createElement('script');
+       e.src = d.location.protocol + '//tag.bounceexchange.com/2354/i.js';
+       e.async = true;
+       d.getElementsByTagName("head")[0].appendChild(e);
+     }(document));
+    </script>
+
+</head>
+<body data-current-region='us'>
+<div class='site-alert' id='browser-notice' style='display:none; margin:0; padding:0'>
+<div class='container'>
+<p><strong>Great books are timeless, web browsers are not.</strong> It looks like your browser is out of date. We do our best to support a wide variety of browsers and devices, but BookBub works best in a modern browser. For help upgrading, check out <a href="http://www.whatbrowser.org/">http://www.whatbrowser.org/</a>.</p>
+</div>
+</div>
+<div class='site-alert' id='cookie-notice' style='display:none; margin: 0; padding: 0'>
+<div class='container'>
+<p><strong>BookBub offers a great personalized experience.</strong> Unfortunately, your browser doesn't accept cookies, which limits how good an experience we can provide.  For more info on how to enable cookies, check out <a href="http://www.whatarecookies.com/enable.asp">http://www.whatarecookies.com/</a>.</p>
+</div>
+</div>
+
+<div data='{&quot;appState&quot;:{},&quot;user&quot;:{&quot;loggedIn&quot;:false,&quot;tokened&quot;:false,&quot;userId&quot;:null,&quot;emailAddress&quot;:null,&quot;authorsFollowingCount&quot;:null,&quot;countryCode&quot;:null},&quot;features&quot;:{&quot;adBillingEnabled&quot;:false,&quot;preorderBillingEnabled&quot;:false,&quot;authorShowFollowers&quot;:true,&quot;browseAuthors&quot;:true,&quot;partnerSignupCompanyNameSelect&quot;:false,&quot;profileBooks&quot;:true,&quot;socialProfileCreationPromptForRatingsReactions&quot;:true,&quot;socialInviteFriends&quot;:true,&quot;socialRecommendationsFeed&quot;:false,&quot;socialBuzzCarouselLaunchPage&quot;:false,&quot;pdAdsOutage&quot;:false,&quot;destinationLaunch&quot;:false,&quot;discoverAuthorsNewCards&quot;:false,&quot;pdAdFormSuggestedLinksV2&quot;:true,&quot;pdAdsCpc&quot;:false},&quot;profile&quot;:{},&quot;userSettings&quot;:{&quot;followAuthorsOfBooksRated&quot;:null},&quot;captcha&quot;:{&quot;show&quot;:true,&quot;sitekey&quot;:&quot;6Leddx4UAAAAAFNhJY68nZ9caoR0ItG41x7S-06D&quot;}}' id='user-store-data'></div>
+
+<div data='{&quot;taftBaseUri&quot;:&quot;https://taft.bookbub.com/api&quot;,&quot;braintreeDisabled&quot;:false,&quot;partnerContactUrl&quot;:&quot;https://partners.bookbub.com/contact/new&quot;,&quot;billingFaqUrl&quot;:&quot;http://support.bookbub.com/customer/en/portal/topics/955309-bookbub-ads-billing/articles&quot;}' id='config-store-data'></div>
+
+
+<div id='page-viewport'>
+<div id='page-content'>
+<div id='offcanvas-fade'></div>
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KMTG65"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KMTG65');</script>
+  <!-- End Google Tag Manager -->
+
+<div class='header-nav'>
+<div class='container'>
+<div class='row no-gutters'>
+<div class='col-xs-1 visible-xs visible-sm'>
+<a class="btn btn-icon header-offpage-nav-button header-button" href="#"><i class="fa fa-bars "></i></a>
+</div>
+<div class='col-xs-5 col-md-2 logo-col'>
+<a class="header-logo img-responsive" id="logo-header" href="/home"><img src="//d2616tuem1neks.cloudfront.net/assets/modules/header_nav/logo-header-af50437c530957a7fb991875732302c597fd41dac0f0796d19c9cb565d7280fe.png" alt="Logo header" /></a>
+</div>
+<div class='col-xs-6 visible-xs-visible-sm hidden-md hidden-lg hidden-xl mobile-icons'>
+<a class="header-search-nav-button header-button" href="#"><i class="fa fa-search "></i></a>
+</div>
+<div class='col-md-5 hidden-xs hidden-sm'>
+<div id='nav-search-app'></div>
+</div>
+<div class='text-right action-buttons hidden-xs hidden-sm'>
+<div class='col-md-1'></div>
+<div class='col-md-1'></div>
+<a class="header-page-button deals-link  col-md-1" href="/ebook-deals/latest">Deals</a>
+<a class="header-page-button  col-md-1" href="/discover-authors">Authors</a>
+<a class="header-page-button active col-md-1" href="/users/sign_in">Sign In</a>
+</div>
+</div>
+</div>
+</div>
+<div class='visible-sm visible-xs'></div>
+<div class='search-bar-mobile'>
+<div id='nav-search-app-mobile'></div>
+</div>
+
+<div class='offpage-header-nav visible-xs visible-sm'>
+<div class='list-group'>
+<a class="header-logo img-responsive strong-bottom-border list-group-item" href="/home"><img src="//d2616tuem1neks.cloudfront.net/assets/modules/header_nav/logo-header-af50437c530957a7fb991875732302c597fd41dac0f0796d19c9cb565d7280fe.png" alt="Logo header" /></a>
+<a class="list-group-item strong-bottom-border" href="/users/sign_in">Sign In
+</a><a class="list-group-item weak-bottom-border" href="/ebook-deals/latest">Latest Deals
+</a><a class="list-group-item strong-bottom-border" href="/discover-authors">Discover Authors
+</a><a class="list-group-item strong-bottom-border" href="/deals/invite">Invite Friends
+</a><a class="list-group-item weak-bottom-border" href="/manage-preferences">Settings
+</a><a class="list-group-item strong-bottom-border" href="https://help.bookbub.com/">Help Center
+</a></div>
+</div>
+
+<div class='jumbotron' id='positions-jumbotron'>
+<div class='container'>
+<div class='row'>
+<div class='col-sm-10 col-sm-offset-1'>
+<div class='text-left vertical-3'>
+<div id='overview_link'></div>
+<h1 class='vertical-0 standard'>BookBub Careers</h1>
+<h2 class='vertical-1'>Join our team and help us connect readers to books and authors they'll love.</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+<body>
+<div id='wrapper'>
+<div id='app_body'>
+<div id='header'>
+<h1 class='app-title'>Data Analyst</h1>
+<a href="/positions">(View all jobs)</a>
+<div class='location'>Cambridge, MA</div>
+</div>
+<div id='content'>
+<p><strong>Who We Are</strong></p>
+<p><span style="font-weight: 400;">BookBub is one of the fastest growing consumer tech startups in Boston. Millions of readers use BookBub every day to find great books, and our service helps thousands of leading publishers and authors drive sales and find new fans. Connecting readers with great deals on ebooks is just the beginning for BookBub. We're growing our team to launch new consumer-facing book discovery features, tools for authors and publishers, and other web and mobile products that address the digital transition of the publishing industry.</span></p>
+<p> </p>
+<p><strong>The Job</strong></p>
+<p><span style="font-weight: 400;">BookBub is seeking a talented individual to help with strategic business analysis and data-based research projects. Projects will involve teams across BookBub, including Editorial, Business Development, Product, and Marketing. The Data Analyst will be a key member of business teams, contributing analysis and ideas that will shape the direction of the company. Responsibilities may include:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Supporting teams with analysis around business operations including pricing, new category launches, A/B testing, and partner communication metrics</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Conducting targeted, project-based research and analysis around book performance and sales metrics to inform internal operations, conference presentations, press materials, blog posts, product research, and more</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Creating data science based models and algorithms to improve personalization of the BookBub service</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Analyzing marketing data to improve the performance of campaign elements including ads, landing pages, blog posts, and more</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Modeling, analyzing, and optimizing customer acquisition channels</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Maintaining and proactively optimizing daily performance statistics for BookBub’s Featured Deals product</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Gathering and analyzing author and reader feedback to help improve products and optimize communication strategy</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Serving as an internal resource around performance reporting, problem solving, and industry knowledge</span></li>
+</ul>
+<p> </p>
+<p><strong>Your Experience </strong></p>
+<p><span style="font-weight: 400;">Ideal candidates for the position will have an inquisitive, investigative nature and interest in business strategy. They will also be excited about working in a highly engaging startup environment. They will have:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A Bachelor's degree in Finance, Economics or a related field</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">1+ years of experience in or exposure to data analytics</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Excellent problem-solving, analytical, and quantitative skills</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Experience collecting, analyzing, and synthesizing data to achieve business objectives</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Proficiency with Excel (familiarity with or ability to pick up SQL a plus)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Strong written and verbal communication skills</span></li>
+</ul>
+<p><span style="font-weight: 400;">Bonus points if you enjoy reading books!</span></p>
+<p> </p>
+<p><strong>Benefits</strong></p>
+<p><strong><span style="font-weight: 400;">BookBub offers competitive benefit options including medical, dental, vision, 401k, and take-what-you-need PTO.</span></strong></p>
+<p><strong><span style="font-weight: 400;"><em>BookBub strives to be an inclusive workplace and we value learning from different perspectives. We seek to foster an environment filled with people from a wide variety of backgrounds, experiences, abilities, and perspectives. We do not discriminate on the basis of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, or veteran status. We are proud to be an equal opportunity employer.</em></span></strong></p>
+</div>
+</div>
+</div>
+<div id='grnhse_app'></div>
+<script src="https://boards.greenhouse.io/embed/job_board/js?for=bookbub"></script>
+<div class='questions' id='wrapper'>
+Questions? We'd love to hear from you at
+<a class='email' href='mailto:careers@bookbub.com'>careers@bookbub.com</a>
+</div>
+</body>
+<div class='page-footer'>
+<div class='footer stackable'>
+<div class='container'>
+<div class='row'>
+<div class='col-md-3 col-sm-3'>
+<div class='row footer-header'>
+<div class='col-lg-7 col-md-8 col-sm-10 col-xs-6 footer-logo-container'>
+<a href="https://www.bookbub.com/home"><img class="footer-logo img-responsive" src="//d2616tuem1neks.cloudfront.net/assets/modules/footer/logo-footer-30f41b9f59b0778251ce0c06d4167fd482b9628bbc4a50beb9ab7bbf48b23fd4.png" alt="Logo footer" /></a>
+</div>
+<div class='col-sm-12 col-xs-6 footer-social-container'>
+<span>
+<a class="social-links" href="http://www.facebook.com/BookBub"><i class="fa fa-facebook-square fa-lg"></i>
+<div class='sr-only'>visit our facebook page</div>
+</a><a class="social-links" href="http://twitter.com/BookBub"><i class="fa fa-twitter-square fa-lg"></i>
+<div class='sr-only'>visit our twitter page</div>
+</a><a class="social-links" href="http://pinterest.com/BookBub"><i class="fa fa-pinterest-square fa-lg"></i>
+<div class='sr-only'>visit our pinterest page</div>
+</a></span>
+</div>
+</div>
+</div>
+<div class='link-panel col-md-3 col-sm-3'>
+<h3>Company</h3>
+<ul class='list-unstyled'>
+<li><a href="https://www.bookbub.com/home/about.php">About</a></li>
+<li><a href="https://www.bookbub.com/careers">Careers</a></li>
+<li><a href="https://www.bookbub.com/for-the-press">For the Press</a></li>
+<li><a href="https://www.bookbub.com/home/privacy.php">Privacy &amp; Terms</a></li>
+<li><a href="https://www.bookbub.com/contact/new">Contact</a></li>
+</ul>
+</div>
+<div class='link-panel col-md-3 col-sm-3'>
+<h3>Readers</h3>
+<ul class='list-unstyled'>
+<li><a href="https://www.bookbub.com/home/overview.php">What is BookBub?</a></li>
+<li><a href="https://www.bookbub.com/home/in_the_news">In the News</a></li>
+<li><a href="https://www.bookbub.com/ebook-deals/free-ebooks">Free Ebooks</a></li>
+<li><a href="https://www.bookbub.com/ebook-deals/free-kindle-books">Free Kindle Books</a></li>
+<li><a href="http://media.bookbub.com/">The BookBub Blog</a></li>
+<li><a href="https://www.bookbub.com/deals/invite">Invite Your Friends</a></li>
+<li><a href="https://help.bookbub.com/">Help</a></li>
+</ul>
+</div>
+<div class='link-panel col-md-3 col-sm-3'>
+<h3>Publishers &amp; Authors</h3>
+<ul class='list-unstyled'>
+<li><a href="https://www.bookbub.com/partners">Partners Overview</a></li>
+<li><a href="https://partners.bookbub.com/campaigns/select_book?source=pbb_footer_submit-new-deal">Submit New Deal</a></li>
+<li><a href="https://partners.bookbub.com/?source=psite_footer_partner-dashboard">Partner Dashboard</a></li>
+<li><a href="https://partners.bookbub.com/authors?source=psite_footer_claim-a-profile">Claim an Author Profile</a></li>
+<li><a href="https://insights.bookbub.com">BookBub Partners Blog</a></li>
+<li><a href="https://www.bookbub.com/partners/faq">Partner FAQ</a></li>
+</ul>
+</div>
+</div>
+<div class='row'>
+<div class='link-panel copyright col-sm-12'>
+<p class='small'>&copy; 2017 BookBub.  All rights reserved.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<script src="//d2616tuem1neks.cloudfront.net/assets/dll/dll.production-b925dddf46ffdcd1c14ee9e39235a3c61384b8c4c59aa4ee2f6b5f4d1b604c63.js?v=2"></script>
+<script src="//d2616tuem1neks.cloudfront.net/assets/bundles/react_global-420d5dc203311410606c40b2661aad4b8b1bc6483b7a87ede439b0e757587550.js?v=2" crossorigin="anonymous"></script>
+<script src="//d2616tuem1neks.cloudfront.net/assets/pages/positions-16e481d8d427b6679ba8967effe17a0dede19261a5c5deffc98fba9a3dc76614.js?v=2" crossorigin="anonymous"></script>
+<script src="//d2616tuem1neks.cloudfront.net/assets/bundles/nav_search_app-dd92c93ce59056dd34d7eaa9c9e224fa751417f50c40f546b4a738ff63783063.js?v=2" crossorigin="anonymous"></script>
+
+<!--[if lte IE 9]>
+<script src="//d2616tuem1neks.cloudfront.net/assets/placeholder-shim-d75e2ce6a0a7bec6a76cceff1ad95b2c5ff7aa42d90a5d7457f8c41b2ff76b3e.js"></script>
+<script>
+  $(function () {$('input, textarea').placeholder();});
+</script>
+<![endif]-->
+<script>
+  var rawCookie = $.cookie("bbOptimizelyExperiment");
+  if (undefined !== rawCookie && '' !== rawCookie) {
+    var experimentData = JSON.parse(rawCookie);
+
+    if(null !== experimentData && '' !== experimentData) {
+      var internalPostUrl = "/optimizely_test_tracker"
+
+      for(var k in experimentData){
+        var experiment = experimentData[k];
+        if(true !== experiment.recorded ) {
+          $.ajax({
+            type: "POST",
+            url: internalPostUrl,
+            data: { "experiment_id" : experiment.experimentId,
+                    "variation_id" : experiment.variationId,
+                    "experiment_name" : experiment.experimentName,
+                    "variation_name" : experiment.variationName,
+                    "optimizely_end_user_id" : experiment.optimizelyEndUserId },
+            success: function(response) {
+              experiment.recorded = true;
+              experimentData[k ] = experiment;
+              $.cookie("bbOptimizelyExperiment", JSON.stringify(experimentData));
+            }
+          });
+        }
+      }
+    }
+  }
+</script>
+
+<img class="app-nexus-pixel" alt="" width="1" height="1" src="https://t.bookbub.com/v1/pixel" />
+
+    <div style="display:none">
+      <script type="text/javascript">
+      /* <![CDATA[ */
+        var google_conversion_id = 953595422;
+        var google_conversion_label = "_aL4CILphwQQnuzaxgM";
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+      /* ]]> */
+      </script>
+      <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+      </script>
+    </div>
+    <noscript>
+    <div style="display:inline;">
+    <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/953595422/?value=0&amp;label=_aL4CILphwQQnuzaxgM&amp;guid=ON&amp;script=0"/>
+    </div>
+    </noscript>
+
+</div>
+</div>
+
+</body>
+</html>

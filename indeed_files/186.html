@@ -1,0 +1,727 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.core.css">
+<link type="text/css" rel="stylesheet" href="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.theme.css">
+<link type="text/css" rel="stylesheet" href="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.datepicker.css">
+<link type="text/css" rel="stylesheet" href="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.dialog.css">
+
+
+<style type="text/css">
+
+    select:focus, a:focus {
+        outline: #1e90ff solid 2px
+    }
+
+    input[type=submit] {
+        background: #00438C;
+    }
+
+    input[type=button] {
+        background: #00438C;
+    }
+
+    input[type=submit]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=button]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=submit]:focus {
+        background: #1e90ff;
+    }
+
+    input[type=button]:focus {
+        background: #1e90ff
+    }
+
+    .ui-dialog .ui-dialog-buttonpane {
+        text-align: right;
+    }
+
+    .ui-dialog .ui-dialog-buttonpane button {
+        float: none;
+    }
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+        /*border: 1px solid #000;*/
+        /*}*/
+
+</style>
+
+
+
+<style type="text/css">
+    .alert-error {
+        color: #990000;
+        font-weight: bold;
+    }
+
+    td.top {
+        vertical-align: top !important;
+    }
+
+    td.left {
+        float: none;
+        text-align: left;
+    }
+
+    td.right {
+        float: none;
+        text-align: right;
+    }
+
+    .nowrapFormLabel {
+        white-space: nowrap;
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 120%
+    }
+
+    h2 {
+        font-size: 110%
+    }
+
+    h3 {
+        font-size: 100%
+    }
+
+    .hidden-accessibility-text {
+        position: absolute;
+        left: -2000px;
+        top: 0;
+        width: 1;
+        height: 1;
+        overflow: hidden;
+        font-size: 0.1em;
+    }
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+    .ofcc305table textfield, .ofcc305table select,
+    .ofcc305table input, .ofcc305table a {
+        font-size:12px !important;
+        font-family:Arial,sans-serif,Helvetica !important;
+    }
+
+    #cws-search-results th, #cws-job-alerts th {
+        border-top: #CCCCCC 2px solid;
+        border-bottom: #CCCCCC 2px solid;
+    }
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+        border-bottom: #CCCCCC 2px solid;
+        padding-bottom: 3px;
+    }
+</style>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<base href="http://villagecare.org/careers/"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+  <title>VillageCare :: Careers</title>
+  <link href="/stylesheets/vcny.css?1285963507" media="all" rel="stylesheet" type="text/css" />
+  <meta name="description" content="" />
+  <script src="/javascripts/prototype.js?1285963507" type="text/javascript"></script>
+
+  <script src="/javascripts/scriptaculous.js?1285963507" type="text/javascript"></script>
+
+
+  
+<script src="/javascripts/application.js?1285963507" type="text/javascript"></script>
+  <!--[if lt IE 8]><link href="/stylesheets/vcny_ie7.css?1285963507" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <!--[if lt IE 7]><link href="/stylesheets/vcny_ie6.css?1285963507" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+  <link href="/blog.atom" rel="alternate" title="VillageCare Blog" type="application/atom+xml" />
+  
+</head>
+<STYLE type="text/css">
+#taleoContent {
+padding: 0px;
+margin: 0px;
+margin-top: 15px;
+border: none;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-size-adjust: none;
+font-style: normal;
+font-stretch: normal;
+font-weight: normal;
+font-variant: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+text-decoration: none;
+text-indent: 0px;
+text-shadow: none;
+text-transform: none;
+white-space: normal;
+word-spacing: normal;
+}
+
+#taleoContent td, #taleoContent th {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-size-adjust: none;
+font-style: normal;
+font-stretch: normal;
+font-weight: normal;
+font-variant: normal;
+line-height: normal;
+letter-spacing: normal;
+text-align: left;
+text-decoration: none;
+text-indent: 0px;
+text-shadow: none;
+text-transform: none;
+white-space: normal;
+word-spacing: normal;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-right:5px;
+  padding-left:5px;
+}
+
+#taleoContent textarea {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-size-adjust: none;
+font-style: normal;
+font-stretch: normal;
+font-weight: normal;
+font-variant: normal;
+height: auto;
+width: auto;
+
+}
+
+#taleoContent textfield {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-size-adjust: none;
+font-style: normal;
+font-stretch: normal;
+font-weight: normal;
+font-variant: normal;
+height: auto;
+width: auto;
+
+}
+
+#taleoContent select {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-size-adjust: none;
+font-style: normal;
+font-stretch: normal;
+font-weight: normal;
+font-variant: normal;
+height: auto;
+width: auto;
+}
+
+#taleoContent input {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-size-adjust: none;
+font-style: normal;
+font-stretch: normal;
+font-weight: normal;
+font-variant: normal;
+height: auto;
+width: auto;
+}
+
+#taleoContent table {width: 100%;}
+
+
+label {white-space:nowrap;}
+
+#graybox_big {
+
+padding-top: 0;
+margin-top: 0;
+
+}
+
+hr {
+color: white;
+}
+
+</STYLE>
+
+<body id="careers" >
+  <a name="top"></a>
+  
+  <div id="vcny-home">
+    <div id="wrapper">
+      <div id="header">
+        <h2 id="logo"><a href="/"><span>VCNY</span></a></h2>
+        <fieldset id="search">	
+          <form action="/search" style="margin:0;padding:0;">
+            <input type="text" class="box" name="q" value="Search" onfocus="if(this.value=='Search')this.value='';" />
+            <input type="image" class="image" src="/images/search_arrow.gif" style="border-width:0px;" />
+          </form>
+          <script language="javascript" type="text/javascript">
+  function jump(link){
+    //alert(link);
+    document.location=link;
+  }
+</script>
+
+<select onchange="jump(this.value);">
+  <option value="#">I'm looking for...</option>
+  <option value="/residentialcare/">Residential Care</option>
+  <option value="/communitycare/">Community Care</option>
+  <option value="/VillageCareMAX/">VillageCareMAX</option>
+  <option value="/careers/">Career Opportunities</option>
+  <option value="/news/">News & Press Releases</option>
+  <option value="/volunteer/">Volunteer Opportunities</option>
+  <option value="/donate/">Making A Donation</option>
+  <option value="/Event_Information/">Events Info</option>
+</select>
+
+        </fieldset>
+        <div id="top_nav">
+          
+  <ul id="nav">
+      <li>
+        <a href="/">Home</a>
+          
+
+      </li>
+      <li>
+        <a href="/about/">About Us</a>
+          
+
+      </li>
+      <li>
+        <a href="/communitycare/">Community</a>
+          
+  <ul id="list_item_35">
+      <li>
+        <a href="/communitycare/AADHC/">AIDS Adult Day Health Care</a>
+      </li>
+     <li>
+        <a href="/communitycare/case_management/">Community Case Management</a>
+      </li>
+     <li>
+        <a href="/communitycare/empowermentcenter/">Empowerment Center</a>
+      </li>
+     <li>
+        <a href="/communitycare/aps/">Adult Protective Services</a>
+      </li>
+      <li>
+        <a href="/communitycare/assisted_living/">VillageCare at 46 & Ten</a>
+      </li>
+      </li>
+  </ul>
+
+      </li>
+      <li>
+        <a href="/postacute/">Post-Acute Care </a>
+          
+  <ul id="list_item_43">
+      <li>
+      <li>
+        <li>
+        <a href="/postacute/vcrnc/">VillageCare Rehabilitation & Nursing Center</a>
+      </li>
+ <li>
+        <a href="/postacute/homecare/">VillageCare Home Care</a>
+      </li>
+  </ul>
+
+      </li>
+      <li>
+        <a href="/VillageCareMAX/">VillageCareMAX</a>
+      </li>
+      <li>
+        <a href="/careers/">Join Our Team</a>
+      </li>
+      <li>
+        <a href="/volunteer/">Volunteer</a>
+      </li>
+          <li>
+        <a href="/Event_Information/">Events</a>
+      </li><li>
+        <a href="/donate/">Donate</a>
+      </li>
+        </div>
+      </div>
+
+      <div id="content">
+  
+  <div id="left_col">
+    <h1>Careers</h1>
+    
+  
+
+    
+<div><p><img width="561" height="230" alt="" src="/uploads/Media/careers.jpg" /></p>
+</div>
+    
+
+
+    
+        <a href="/">Home</a>
+      » Careers
+    
+    <div class="graybox" id="graybox_big">
+      
+
+
+    
+<div>
+
+<p style="text-align: justify;">
+
+<div id='taleoContent'>
+<script type='text/javascript' src="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/tbe-basic-cws.js"></script>
+<script type='text/javascript' src="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/engine.js"></script>
+<script type='text/javascript' src="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/interface/CwsDWRFacade.js"></script>
+<script type="text/javascript">
+function jobAlertShowEmailSection() {
+   document.theForm.showEmailSection.value = true;
+   document.theForm.submit();
+}
+function cancelForm() {
+   document.loginForm.showPwdSection.value=false;
+   document.loginForm.showEmailSection.value=false;
+   document.loginForm.action=document.theForm.action;
+   document.loginForm.submit();
+}
+</script><script type='text/javascript'> CwsDWRFacade._path = 'http://chc.tbe.taleo.net/chc01/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; </script>
+<script type="text/javascript">
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chc.tbe.taleo.net/chc01/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chc.tbe.taleo.net/chc01/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();</script>
+
+
+
+
+
+
+<table border=0 cellspacing=0 cellpadding=2 width='100%' role='presentation'>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='6' href=''http://chc.tbe.taleo.net/chc01/ats/careers/searchResults.jsp;jsessionid=C203A49090B10B2B07289B134BD3E0E6?org=VILLCARE&cws=1'' title='Back to Search Results' >Back to Search Results</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='7' href=''http://chc.tbe.taleo.net/chc01/ats/careers/jobSearch.jsp;jsessionid=C203A49090B10B2B07289B134BD3E0E6?org=VILLCARE&cws=1&rid=1737'' title='New Search' >New Search</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'></td></tr><tr><td colspan=2><h1>Data Analyst</h1></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Program:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>VillageCareMAX</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Location:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>Manhattan</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Employment Duration:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>Regular Full-Time</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Job Code:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>1737</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Standard Weekly Hours:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>35</b></td>
+</tr>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'>
+<h1><span class='head1'>About VillageCare</span></h1></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'>VillageCare is a community-based, non-profit organization serving people with chronic care needs, as well as seniors and individuals in need of continuing care and rehabilitation services. VillageCare provides care and services for more than 12,000 unique individuals annually through its residential and community programs.  Guided by the people we serve, we provide leadership to improve the health and quality of life of the diverse communities we serve and the quality of care and well-being of the people we serve.</td>
+</tr>
+<tr>
+<tr><td colspan=2><hr width='100%' size='1' color='silver'></td></tr>
+<tr><td colspan=2><h1>Description</h1></td></tr>
+<tr><td colspan=2><p style="line-height: normal;"><span style="font-family: calibri;"><strong><span style="font-size: 12pt;">Description: </span></strong></span> <span style="font-size: 12pt;">VillageCareMax is seeking a Data Analyst for a full-time in house position. The qualified candidate will provide analytical support across business functions including, but not limited to, care management, utilization management, quality, business operations, compliance, and claims. &nbsp;The position is an integral part of Analytics team, competent to work with various teams and capable of independently carrying out all essential data related tasks:</span></p>
+
+<p style="margin: 0in 0in 12pt; line-height: normal;">&nbsp;</p>
+
+<p style="margin: 0in 0in 12pt; line-height: normal;"><strong><span style="font-size: 12pt;"><span style="font-family: calibri;">Responsibilities:</span></span></strong></p>
+
+<ul>
+	<li style="line-height: normal; font-weight: normal; margin-top: 0in; margin-bottom: 12pt;"><span style="font-size: 14px;">Compiles, analyzes and interprets varied and complex healthcare, clinical and utilization data for Analytics department, supporting across business functions including, but not limited to, care management, utilization management, quality, business operations, compliance, and claims</span></li>
+	<li style="color: rgb(0, 0, 0); line-height: normal; font-family: Calibri , sans-serif; font-size: 11pt; font-weight: normal; margin-top: 0in; margin-bottom: 0pt;"><span style="font-size: 14px;">Develop and maintain customized reports and dashboards for various departments using various tools (SQL, Access, Excel, BI Tools, etc.)</span></li>
+	<li style="color: rgb(0, 0, 0); line-height: normal; font-family: Calibri , sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0in; margin-bottom: 12pt;"><span style="font-size: 14px;">Ability to run complex queries, manipulates, transform, and generate reports using SQL, MS Access, MS Excel, and BI tools</span></li>
+	<li style="color: rgb(0, 0, 0); line-height: normal; font-family: Calibri , sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0in; margin-bottom: 12pt;"><span style="font-size: 14px;"><span style="font-size: 14px;">Work with VillageCare IT department in automation of information through dashboard development to track or monitor metrics or data, subsequent to analysis, including validation and testing. Participates in the design and development of dashboards that will automate the collection or analyzing of data</span></span></li>
+	<li style="color: rgb(0, 0, 0); line-height: normal; font-family: Calibri , sans-serif; font-size: 11pt; font-weight: normal; margin-top: 0in; margin-bottom: 0pt;"><span style="font-size: 14px;">Works closely with all levels of business users to clearly define reporting requirements in support of strategic decision making.This includes standard reports, ad-hoc analysis, dashboards, and scorecards</span></li>
+	<li style="color: rgb(0, 0, 0); line-height: normal; font-family: Calibri , sans-serif; font-size: 11pt; font-weight: normal; margin-top: 0in; margin-bottom: 0pt;"><span style="font-size: 14px;">Utilize various software tools and identify the best format to present and communicate data to provide clear, concise and easy&ndash;to-understand information&nbsp;</span></li>
+	<li style="color: rgb(0, 0, 0); line-height: normal; font-family: Calibri , sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0in; margin-bottom: 0pt;"><span style="font-size: 14px;">Perform other duties and responsibilities as assigned </span></li>
+</ul>
+
+<p style="color: rgb(0, 0, 0); line-height: normal; font-family: Calibri , sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0in; margin-bottom: 0pt;">&nbsp;</p>
+
+<p style="margin: 0in 0in 12pt; line-height: normal;"><strong><span style="font-size: 12pt;">Requirements:</span></strong></p>
+
+<p style="margin: 18.75pt 0in 0pt 0.25in; line-height: 15pt;"><strong><span style="font-size: 12pt;">Education:</span></strong> <span style="font-size: 14px;">Bachelor&#39;s degree in Computer Science, Mathematics, Statistics, Engineering or other relevant field required.&nbsp; </span><span style="font-size: 12pt;"><span style="font-size: 14px;">Having a master&#39;s degree in a related field is highly preferred</span>.</span></p>
+
+<p style="margin: 18.75pt 0in 0pt 0.25in; line-height: 15pt;"><strong><span style="font-size: 12pt;">**This role is not a Remote position and we do not provide&nbsp;</span><font size="3">sponsorship**&nbsp;</font></strong></p>
+
+<p style="margin: 18.75pt 0in 0pt 0.25in; line-height: 15pt;"><strong><span style="font-size: 12pt;">Experience:</span></strong></p>
+
+<ul>
+	<li><span style="font-size: 14px;">Minimum of 2-5&nbsp;years&rsquo; experience in business intelligence and analytics performing increasingly complex data analysis and report/dashboard development, preferably in a health care setting</span></li>
+</ul>
+
+<ul>
+	<li><span style="font-size: 14px;">Advanced proficiency skills in Access ( criteria statements , database and report creation), SQL programming ( write complex, highly-optimized queries) , and Excel (Macros, etc.), required</span></li>
+	<li><span style="font-size: 14px;">Programming experience using statistical tools (i.e. SAS, R, SPSS, etc.) preferred</span></li>
+	<li><span style="font-size: 14px;">Familiarity with Business Intelligence Tools (Tableau, MicroStrategy) is a huge plus</span></li>
+	<li><span style="font-size: 14px;">Knowledge of data warehousing methodologies, principles, and platforms a plus</span></li>
+	<li><span style="font-size: 14px;">Extensive business understanding of healthcare industry; Familiar with clinical, enrollment and utilization data preferred</span></li>
+	<li><span style="font-size: 14px;">Ability to utilize other data management systems to pull and analyze information to draw conclusions and recommendations</span></li>
+	<li><span style="font-size: 14px;">Ability to communicate analytical findings both orally and in written form</span></li>
+	<li><span style="font-size: 14px;">Strong work ethic</span></li>
+	<li><span style="font-size: 14px;">Willingness to question the validity and accuracy of data</span></li>
+	<li><span style="font-size: 14px;">Ability to work collaboratively as part of a team and independently as needed</span></li>
+	<li><span style="font-size: 14px;">Strong analytical and logical skills paired with strong attention to detail</span></li>
+	<li><span style="font-size: 14px;">Ability to work under pressure and meet deadlines</span></li>
+</ul></td></tr>
+</tr>
+<tr>
+<tr><td class='left'><br>
+<form action='http://chc.tbe.taleo.net/chc01/ats/careers/apply.jsp;jsessionid=C203A49090B10B2B07289B134BD3E0E6?org=VILLCARE&cws=1&rid=1737' method='post' name='apply'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='org' value='VILLCARE'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='_csrf' value='v1:;1507571802834:;YlLJKa7BFF7H7sxGooTQo4r2oaGeJXRZyumgmAhHuOU=' /><input type='submit' name='tbe_cws_submit' value='Apply for this Position' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="24"></form></td>
+</td>
+<td align='right' colspan=1><br>
+<form action='http://chc.tbe.taleo.net/chc01/ats/careers/email.jsp;jsessionid=C203A49090B10B2B07289B134BD3E0E6?org=VILLCARE&cws=1' method='post' name='send'>
+<input type='hidden' name='org' value='VILLCARE'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='rid' value='1737'>
+<input type='hidden' name='_csrf' value='v1:;1507571802834:;YlLJKa7BFF7H7sxGooTQo4r2oaGeJXRZyumgmAhHuOU=' /><input type='submit' name='tbe_cws_submit' value='Send to a Friend' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="25"></form>
+</td></tr>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br></td>
+</tr>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'>
+<h1><span class='head1'>Are you a returning applicant?</span></h1></td>
+</tr>
+<tr>
+<form action='http://chc.tbe.taleo.net/chc01/ats/careers/applyModal.jsp;jsessionid=C203A49090B10B2B07289B134BD3E0E6?org=VILLCARE&cws=1' method='post' name='TBE_theForm'>
+<input type='hidden' name='org' value='VILLCARE'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='rid' value='1737'>
+<input type='hidden' name='currentTime' value='1507571802834'>
+<input type='hidden' name='signature' value='RrPWrzYY2C8/iNaseT9HTBHjagiaZbl4Hxkc1it4RN8='>
+<input type='hidden' name='et' value='CAND'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='_csrf' value='v1:;1507571802834:;YlLJKa7BFF7H7sxGooTQo4r2oaGeJXRZyumgmAhHuOU=' /><tr><td colspan=2>
+<table border=0 cellpadding=2 cellspacing=0 role="presentation"><tr>
+<td nowrap colspan=2>Previous Applicants:</td>
+</tr>
+<tr>
+<td nowrap align='right'><label for='email'>Email:</label></td>
+<td class='nowrap'><input type='text' id='email' name='email' maxlength=50 autocomplete='off' tabindex='33'></td>
+</tr>
+<input type='text' style='display:none'>
+<input type='password' style='display:none'>
+<tr>
+<td nowrap align='right'><label for='cwsPassword'>Password:</label></td>
+<td class='nowrap'><input type='password' id='cwsPassword' name='cwsPassword' maxlength=30 autocomplete='off' tabindex='34'></td>
+</tr>
+<tr><td nowrap colspan=2>
+<input type='submit' name='tbe_cws_submit' value='Add to My Jobs' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="35"></td></tr>
+<tr><td nowrap colspan=2><br>
+If you do not remember your password <a href='http://chc.tbe.taleo.net/chc01/ats/careers/forgotID.jsp?org=VILLCARE&cws=1' tabIndex='36'>click here</a>.<br><br></td></tr>
+</table>
+</td></tr></form>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='39' href='http://chc.tbe.taleo.net/chc01/ats/careers/searchResults.jsp;jsessionid=C203A49090B10B2B07289B134BD3E0E6?org=VILLCARE&cws=1' title='Back to Search Results' >Back to Search Results</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='40' href='http://chc.tbe.taleo.net/chc01/ats/careers/jobSearch.jsp;jsessionid=C203A49090B10B2B07289B134BD3E0E6?org=VILLCARE&cws=1&rid=1737' title='New Search' >New Search</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br><div align='right'><img src='http://tbe.taleo.net/graphics/Taleo_powered_by_small.gif' alt='Powered By Taleo' border='0'></div><br><br></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        //jQuery Calendar
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+    </script>
+
+</div>
+</p>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <div id="right_col">
+    
+    
+    
+  
+
+
+
+  </div>
+  <div id="footer">
+    <div class="bars">
+      <div class="content">
+        
+<div><div class="image"><a href="http://www.villagecare.org"><img height="70" alt="" width="257" align="left" border="0" src="/images/logo-vcny-footer.gif" /></a></div>
+<div class="adr">VillageCare<br />
+<div class="street-address">120 Broadway Suite 2840</div>
+<span class="locality">New York</span>, <span class="region">NY</span> <span class="postal-code">10271</span>
+<div class="tel"><span class="value">212.337.5600</span></div>
+<p><a class="email" href="mailto:info@vcny.org">info@villagecare.org</a></p>
+<p><a href="https://www.facebook.com/pages/VillageCare/128773730342"><img src="/uploads/Image/facebook-icon-custom1.png" width="55" height="55" border="0" alt="" /></a><a href="http://www.twitter.com/villagecare"><img src="/uploads/Image/social_twitter_box_blue.png" width="55" height="55" border="0" alt="" /></a></p>
+</div>
+<p> </p>
+</div>
+      </div>
+    </div>
+    
+<div><p class="center" align="center"><a href="/hipaa"><br />
+HIPAA</a> | <a href="/privacy">WEB PRIVACY POLICY</a> | <a href="/sitemap">SITE MAP </a>| <a href="/contact">CONTACT US</a> | <a href="/newsletters/new">RECEIVE OUR NEWSLETTER</a> |<a href="/compliance"> COMPLIANCE POLICY</a></p>
+<p class="center" align="center"> </p>
+<p class="center" align="center"> </p>
+</div>
+  </div>
+</div>
+
+    </div>
+    
+  </div>
+  
+  <script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+  var pageTracker = _gat._getTracker("UA-3812536-1");
+  pageTracker._initData();
+  pageTracker._trackPageview();
+  </script>
+
+</body>
+</html>
+
+
+

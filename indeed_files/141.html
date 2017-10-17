@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html class='   psc_dir-ltr psc_form-xlarge' dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2014, Oracle and/or its affiliates. All rights reserved. -->
+<head>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script language='JavaScript'>
+var  totalTimeoutMilliseconds = 2073600000; 
+var  warningTimeoutMilliseconds = 2073600000; 
+var timeOutURL = 'https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/?cmd=expire';
+var timeoutWarningPageURL = 'https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/s/WEBLIB_TIMEOUT.PT_TIMEOUTWARNING.FieldFormula.IScript_TIMEOUTWARNING';
+var sRCRequestURL = 'https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/s/WEBLIB_PTRC.ISCRIPT1.FieldFormula.IScript_RC_REQUEST';
+</script> 
+
+<link id=PSSTYLEREQ_4_css rel='stylesheet' type='text/css' href='/cs/jobsprod/cache/PSSTYLEREQ_4.css' />
+<link id=PSSTYLEDEF_ALT_4_css rel='stylesheet' type='text/css' href='/cs/jobsprod/cache/PSSTYLEDEF_ALT_4.css' />
+<title>Applicant Home</title>
+<script LANGUAGE='JavaScript'>
+try {
+document.domain = "is.berkeley.edu";
+}
+catch(err) {;}
+</script>
+<script language='JavaScript'>
+var winName='win0';
+var winParent = null;
+var modalID = null;
+var modalZoomName = null;
+var baseKey_win0 = "\x1b";
+var altKey_win0 = "05678\xbc\xbe\xbf\xde";
+var ctrlKey_win0 = "JKM";
+var saveWarningKeys_win0 = "";
+var firstFocusID = null;
+var isNewSaveWarn = true;
+var bAccessibility_win0 =false;
+var bFMode =false;
+var bDoModal_win0 = false;
+var bJSModal_win0 = false;
+var bPromptPage_win0 = false;
+var bTabOverTB_win0 = false;
+var bTabOverPg_win0 = false;
+var bTabOverNonPS_win0 = false;
+var strCurrUrl='https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL?Page=HRS_CE_JOB_DTL&Action=A&JobOpeningId=23936&&PAGE=HRS_CE_JOB_DTL';
+var strReqURL='';
+var bIncInNavigation='T';
+var szPinCrefID='HC_HRS_CE_GBL2';
+var szPinCrefReg='T';
+var szPinCrefLabel='Careers';
+var szCrefID='HC_HRS_CE_GBL2';
+var szCrefReged='T';
+var szCrefVisible='T';
+var szCrefLabel='Careers';
+var localNodes = ['HRMS', 'PSFT_HR', 'PSFT_HR_UC'];
+bGenDomInfo = false;
+var szCalendarType = 'G';
+var bMenuSrchPage = false;
+var bWSRP=0;var szMenuSrchText = "-999999-";
+var disablePNSubscriptions=1;var modalCloseUrl = '/cs/jobsprod/cache/PT_TRANS_16PIX_1.png';
+var modalCloseAlt = 'Close';
+var modalResizeUrl= '/cs/jobsprod/cache/PT_RESIZE_IMG_1.gif';
+var modalResizeAlt = 'Drag to resize';
+var modalMoveAlt = 'Drag to move';
+</script>
+<script language='JavaScript'>
+var PFieldList_win0 = [['HRS_DEPT_I_DESCR',1]];
+</script>
+<script LANGUAGE='JavaScript'>
+try {
+document.domain = "is.berkeley.edu";
+}
+catch(err) {;}
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/jobsprod/cache/PT_COMMON_MIN_983.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/jobsprod/cache/PT_AJAX_NET_MIN_983.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/jobsprod/cache/PT_SAVEWARNINGSCRIPT_MIN_983.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/jobsprod/cache/PT_PAGESCRIPT_win0_MIN_983.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/jobsprod/cache/PT_EDITSCRIPT_win0_MIN_983.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/jobsprod/cache/PT_RC_JS_MIN_983.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/jobsprod/cache/PT_POPUPSCRIPT_win0_MIN_1.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/jobsprod/cache/PT_GRIDSCRIPT_win0_MIN_983.js'>
+</script>
+<script language='JavaScript' type='text/javascript' src='/cs/jobsprod/cache/PT_TYPEAHEAD_win0_MIN_983.js'>
+</script>
+<script language='JavaScript'>
+var nResubmit=0;
+var nLastAction=0;
+var loader=null;
+if (typeof(bCleanHtml) == 'undefined')
+	var bCleanHtml = false;
+setupTimeout2();
+var postUrl_win0='https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL';
+function aAction_win0(form, id, params, bAjax, bPrompt)
+{
+setupTimeout2();
+if ((id != '#ICSave'))
+processing_win0(1,3000);
+aAction0_win0(form, id, params, bAjax, bPrompt);
+}
+function submitAction_win0(form, id, event)
+{
+setupTimeout2();
+if (!ptCommonObj2.isICQryDownload(form, id))
+ { processing_win0(1,3000); }
+preSubmitProcess_win0(form, id);
+var spellcheckpos = id.indexOf('$spellcheck');
+if ((spellcheckpos != -1) && (id.indexOf('#KEYA5') != -1))
+	form.ICAction.value = id.substring(0,spellcheckpos);
+else 
+	form.ICAction.value=id;
+var actionName = form.ICAction.value;
+form.ICXPos.value=ptCommonObj2.getScrollX();
+form.ICYPos.value=ptCommonObj2.getScrollY();
+bcUpdater.storeBcDomData();
+if ((typeof(bAutoSave) != 'undefined') && bAutoSave)
+	form.ICAutoSave.value = '1';
+if (!ptCommonObj2.isAJAXReq(form, id) && !ptCommonObj2.isPromptReq(id)){
+if (nLastAction == 1 && nResubmit > 0) return;
+form.ICResubmit.value=nResubmit;
+form.submit();
+if (!ptCommonObj2.isICQryDownload(form, id))
+	nResubmit++;
+}
+else if (ptCommonObj2.isPromptReq(id))
+	pAction_win0(form, id, arguments[2]);
+else
+	aAction_win0(form, actionName);
+cancelBubble(event);
+}
+</script>
+<script language='javascript'>
+var pt_calHeadstyle=" class='PTCALHEAD' "
+var pt_calWeekHeadstyle=" class='PTCALWEEKHEAD' "
+function dateitemrefs()
+{
+this.pt_dateheader = "/cs/jobsprod/cache/PT_PORTAL_IC_CLOSE_SD_1.gif";
+this.pt_datering = "/cs/jobsprod/cache/PT_CURRENT_DATE_SD_1.gif";
+this.pt_datesel = "/cs/jobsprod/cache/PT_SELECTED_DATE_SD_1.gif";
+this.pt_nextmonth = "/cs/jobsprod/cache/PT_RIGHT_SCROLL_SD_1.gif";
+this.pt_prevmonth= "/cs/jobsprod/cache/PT_LEFT_SCROLL_SD_1.gif";
+this.pt_daystitle_hijri = "/cs/jobsprod/cache/PT_DATE_TITLE_S6_1.GIF";
+this.pt_daystitle_thai = "/cs/jobsprod/cache/PT_DATE_TITLE_S0_1.GIF";
+this.pt_daystitle_s0 = "/cs/jobsprod/cache/PT_DATE_TITLE_S0_1.GIF";
+this.pt_daystitle_m1 = "/cs/jobsprod/cache/PT_DATE_TITLE_M1_1.GIF";
+this.pt_daystitle_t2 = "/cs/jobsprod/cache/PT_DATE_TITLE_T2_1.GIF";
+this.pt_daystitle_w3 = "/cs/jobsprod/cache/PT_DATE_TITLE_W3_1.GIF";
+this.pt_daystitle_t4 = "/cs/jobsprod/cache/PT_DATE_TITLE_T4_1.GIF";
+this.pt_daystitle_f5 = "/cs/jobsprod/cache/PT_DATE_TITLE_F5_1.gif";
+this.pt_daystitle_s6 = "/cs/jobsprod/cache/PT_DATE_TITLE_S6_1.GIF";
+}
+ 
+function LoadCalendar()
+{
+var dateitems = new dateitemrefs();
+loadImages(dateitems);
+}
+function DatePrompt_win0(dtfield,promptfield,yrfmt,bsubmit)
+{
+setupTimeout2();
+openDate_win0(dtfield, promptfield, "MDY/"+yrfmt,bsubmit,"G",0);
+}
+</script>
+<script language='JavaScript'  ptdefer='defer'>
+if (typeof ptStyleSheet == "undefined") {
+ptStyleSheet = 'PSSTYLEDEF_ALT';
+}
+function onLoadExt_win0() {
+modalZoomName = null;
+var oWin=window;
+var oDoc=document;
+ptTAObj_win0.init(oWin,oDoc,oDoc.win0,'/cs/jobsprod/cache/PT_SRT2UP_SEL_1.gif','/cs/jobsprod/cache/PT_SRT2DN_SEL_1.gif','/cs/jobsprod/cache/PT_PORTAL_IC_CLOSE_1.gif',500);
+var pt_pageinfo = document.getElementById('pt_pageinfo_win0');
+if (pt_pageinfo) {
+pt_pageinfo.setAttribute('Page', 'HRS_CE_JOB_DTL');
+pt_pageinfo.setAttribute('Component', 'HRS_CE');
+pt_pageinfo.setAttribute('Menu', 'HRS_HRAM');
+pt_pageinfo.setAttribute('Mode', 'CLASSIC');
+}
+g_bAccessibilityMode=false;
+var actn='';
+if (!isCrossDomainTop()) top.document.title=document.title;
+setKeyEventHandler_win0();ptEvent.add(window,'scroll',positionWAIT_win0);
+ptCommonObj2.generateABNSearchResults(document.win0);
+getGblSrchPageNum(actn);
+if (gSrchRsltPageNum <= 5) getAllRelatedActions();
+
+ptCommonObj2.moveUnivSrchDiv();
+if (typeof(ptLongEditCounter) != 'undefined' && ptLongEditCounter != null)
+   ptLongEditCounter.onLoadLongEditCounter();
+if (typeof(HelppopupObj_win0) != 'undefined' && HelppopupObj_win0 != null)
+ HelppopupObj_win0.StopPopup('win0');
+doModalOnLoad_win0(false, false);
+ResetGlyph_win0();
+self.scroll(0,0);
+objToBeFocus = null;
+if (typeof oWin == 'undefined') setEventHandlers_win0('ICFirstAnchor_win0', 'ICLastAnchor_win0', false);
+ else
+ oWin.setEventHandlers_win0('ICFirstAnchor_win0', 'ICLastAnchor_win0', false);
+setFocus_win0('HRS_CE_WRK2_HRS_CE_EML_FRND',-1);
+ptLoadingStatus_empty(0);
+setupTimeout2();
+processing_win0(0,3000);
+ptConsole2.enable();
+
+UpdateBreadCrumbs();
+GenerateABN();
+GenerateFakeBC();
+bcUpdateForPTF();if (typeof(myAppsWindowOpenJS) != 'undefined' && myAppsWindowOpenJS != null && myAppsWindowOpenJS != '')
+ {
+try {eval(myAppsWindowOpenJS);} catch(e) {}
+  myAppsWindowOpenJS=null;
+}
+ResetGlyph_win0();setPageletInfoInCtxmenu_win0("false");
+GetDomData(win0, "TargetContent", "#GetDomInfo");
+}
+try{ptEvent.load(onLoadExt_win0);}catch(e){}
+</script></head>
+<body tabindex='-1'  class='PSPAGE' >
+<DIV id='pt_pageinfo_win0' Page='HRS_CE_JOB_DTL' Component='HRS_CE' Menu='HRS_HRAM' Mode='%Mode'></DIV>
+<form id='HRS_CE' name='win0' method='post' action="https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL"  autocomplete='off' class='PSForm'>
+<DIV class='ps_box-toolshiddens'  id='win0divPSTOOLSHIDDENS'><div class='ps_modalmask_cover psc_hidden' id='pt_modalMaskCover'>&nbsp;</div><div class='ps_modalmask psc_hidden' id='pt_modalMask'>&nbsp;</div><div id='pt_modals' class='PSMODAL'><div id='ptModalShadow' class='popupDragFrame' style='cursor:nw-resize'>&nbsp;</div></div>
+<div class='ps_ajax_console psc_hidden' id='pt_console'></div><div class='ps_typeahead psc_hidden' id='pt_typeahead0'><span id='pt_typeahead' class='spanTextDropdown'>&nbsp;</span></div><div id='WAIT_win0' style='display:none;position:absolute;right:0;'><img id='processing' align='left' src='/cs/jobsprod/cache/PT_PROCESSING_1.gif' alt='Processing... please wait' title='Processing... please wait' /></div>
+ <div id='SAVED_win0' style='display:none;position:absolute;right:0;'><table border='0' cellpadding='0' cellspacing='0'><tr><td><img src='/cs/jobsprod/cache/PTPORTAL_POPBOX_LEFT_1.gif' width='7' height='39' border='0' alt=''/></td><td id='saveWait_win0' width='35' align='center' valign='middle' background='/cs/jobsprod/cache/PTPORTAL_POPBOX_CENTER_1.gif'><img src='/cs/jobsprod/cache/PT_LOADER_1.gif' width='24' height='24' alt=''/></td><td nowrap='nowrap' background='/cs/jobsprod/cache/PTPORTAL_POPBOX_CENTER_1.gif'><span id='ptStatusText_win0' dir='ltr' class='PSPROCESSING'>&nbsp;</span></td><td><img src='/cs/jobsprod/cache/PTPORTAL_POPBOX_RIGHT_1.gif' width='6' height='39' alt=''/></td><td>&nbsp;</td></tr></table></div><DIV class='x'  id='win0divPSHIDDENFIELDS' style='display:none'><input type='hidden' name='ICType' id='ICType' value='Panel' />
+<input type='hidden' name='ICElementNum' id='ICElementNum' value='0' />
+<input type='hidden' name='ICStateNum' id='ICStateNum' value='1' />
+<input type='hidden' name='ICAction' id='ICAction' value='None' />
+<input type='hidden' name='ICXPos' id='ICXPos' value='0' />
+<input type='hidden' name='ICYPos' id='ICYPos' value='0' />
+<input type='hidden' name='ResponsetoDiffFrame' id='ResponsetoDiffFrame' value='-1' />
+<input type='hidden' name='TargetFrameName' id='TargetFrameName' value='None' />
+<input type='hidden' name='FacetPath' id='FacetPath' value='None' />
+<input type='hidden' name='ICFocus' id='ICFocus' value='' />
+<input type='hidden' name='ICSaveWarningFilter' id='ICSaveWarningFilter' value='0' />
+<input type='hidden' name='ICChanged' id='ICChanged' value='-1' />
+<input type='hidden' name='ICAutoSave' id='ICAutoSave' value='0' />
+<input type='hidden' name='ICResubmit' id='ICResubmit' value='0' />
+<input type='hidden' name='ICSID' id='ICSID' value='WFwoZ8S0JHm17uHheiJL4KSW6saItnQkgGCGmoVdTjo=' />
+<input type='hidden' name='ICActionPrompt' id='ICActionPrompt' value='false' />
+<input type='hidden' name='ICTypeAheadID' id='ICTypeAheadID' value='' />
+<input type='hidden' name='ICBcDomData' id='ICBcDomData' value='' />
+<input type='hidden' name='ICFind' id='ICFind' value='' />
+<input type='hidden' name='ICAddCount' id='ICAddCount' value='' />
+<input type='hidden' name='ICAPPCLSDATA' id='ICAPPCLSDATA' value='' />
+</DIV>
+</DIV>
+<a name='ICFirstAnchor_win0' id='ICFirstAnchor_win0'></a>
+<DIV class='ps_header_panel' id='PT_HEADER_PANEL'></DIV>
+<DIV class='' id='win0divPAGEBAR'></DIV>
+<DIV class='ps_box-pagetabs' id='win0divPSPANELTABS'></DIV>
+<DIV class='ps_pagecontainer' id='win0divPAGECONTAINER'><table class='PSPAGECONTAINER' role='main' aria-labelledby='app_label'><tr><td>
+<DIV class='ps_pspagecontainer' id='win0divPSPAGECONTAINER'><table role='presentation'  border='0' id='ACE_width' cellpadding='0' cellspacing='0' class='PSPAGECONTAINER' cols='14' width='587'>
+<tr>
+<td width='2' height='6'></td>
+<td width='2'></td>
+<td width='7'></td>
+<td width='1'></td>
+<td width='106'></td>
+<td width='19'></td>
+<td width='59'></td>
+<td width='31'></td>
+<td width='99'></td>
+<td width='109'></td>
+<td width='133'></td>
+<td width='5'></td>
+<td width='7'></td>
+<td width='7'></td>
+</tr>
+<tr>
+<td height='41' colspan='3'></td>
+<td colspan='11'  valign='top' align='left'>
+<DIV  id='win0divHRS_PAGE_WRK_HRS_PAGE_TITLE'><span role='heading' aria-level='1'  class='PAPAGETITLE' id='HRS_PAGE_WRK_HRS_PAGE_TITLE'>Job Description</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='76' colspan='2'></td>
+<td colspan='10'  valign='top' align='left'>
+<DIV  id='win0div$ICField3$0'><table role='presentation'  border='0' id='ACE_$ICField3$0' cellpadding='0' cellspacing='0' cols='4' width='568' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='8' height='4'></td>
+<td width='123'></td>
+<td width='2'></td>
+<td width='435'></td>
+</tr>
+<tr>
+<td height='5'></td>
+<td colspan='2' rowspan='2'  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_WRK_POSTING_TITLElbl$0'><span  class='PSEDITBOXLABEL' >Job Title:</span> </DIV></td>
+</tr>
+<tr>
+<td height='19'></td>
+<td rowspan='2'  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_WRK_POSTING_TITLE$0'><span  class='PSEDITBOX_DISPONLY' id='HRS_JO_WRK_POSTING_TITLE$0'>Data Analyst (7199U) #23936</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='5'></td>
+<td colspan='2' rowspan='2'  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_WRK_HRS_JOB_OPENING_IDlbl$0'><span  class='PSEDITBOXLABEL' >Job ID:</span> </DIV></td>
+</tr>
+<tr>
+<td height='23'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_WRK_HRS_JOB_OPENING_ID$0'><span  class='PSEDITBOX_DISPONLY' id='HRS_JO_WRK_HRS_JOB_OPENING_ID$0'>23936</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='20'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_CE_JO_LCTNSlbl$0'><label for='HRS_CE_WRK2_HRS_CE_JO_LCTNS$0' id='HRS_CE_WRK2_HRS_CE_JO_LCTNS_LBL$0' class='PSLONGEDITLABEL' >Location:</label>
+</DIV></td>
+<td colspan='2'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_CE_JO_LCTNS$0'><span  class='PSLONGEDITBOX' style='word-wrap:break-word;overflow:hidden;display:block; width:437px;  overflow:auto;' id='HRS_CE_WRK2_HRS_CE_JO_LCTNS$0'>Off Campus-Berkeley</span>
+</DIV></td>
+</tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='6' colspan='14'></td>
+</tr>
+<tr>
+<td height='1' colspan='4'></td>
+<td colspan='2' rowspan='4'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_FULL_PART_TIMElbl$0'><span  class='PSEDITBOXLABEL' >Full/Part Time:</span> </DIV></td>
+</tr>
+<tr>
+<td height='21' colspan='4'></td>
+<td colspan='8'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_FULL_PART_TIME$0'><span  class='PSEDITBOX_DISPONLY' id='HRS_CE_WRK2_HRS_FULL_PART_TIME$0'>Full-Time</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='1' colspan='4'></td>
+<td colspan='2' rowspan='3'></td>
+<td rowspan='4'  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_DTL_I_DEPTIDlbl$0'><span  class='PSEDITBOXLABEL' >Department</span> </DIV></td>
+</tr>
+<tr>
+<td height='1' colspan='4'></td>
+<td colspan='5' rowspan='3'  valign='top' align='left'>
+<DIV  id='win0divHRS_DEPT_I_DESCR$0'><span  class='PSEDITBOX_DISPONLY' id='HRS_DEPT_I_DESCR$0'>Univ Dev and Alumni Rel</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='1' colspan='4'></td>
+<td colspan='2' rowspan='2'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_REG_TEMPlbl$0'><span  class='PSEDITBOXLABEL' >Regular/Temporary:</span> </DIV></td>
+</tr>
+<tr>
+<td height='22' colspan='4'></td>
+<td colspan='2'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_REG_TEMP$0'><span  class='PSEDITBOX_DISPONLY' id='HRS_CE_WRK2_HRS_REG_TEMP$0'>Regular</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='17' colspan='4'></td>
+<td colspan='7'  valign='top' align='left'>
+<hr width='100%' align='left'  class='PSHORIZONTALRULE'  />
+</td>
+</tr>
+<tr>
+<td height='1' colspan='4'></td>
+<td rowspan='3' nowrap='nowrap'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_CE_EML_FRND'><a  id = 'Left' role='presentation' class='PSPUSHBUTTON'><span style='background-Color: transparent;'><input type='button' name='HRS_CE_WRK2_HRS_CE_EML_FRND' id='HRS_CE_WRK2_HRS_CE_EML_FRND' tabindex='104' value='Email to Friend'  class='PSPUSHBUTTON' style='width:98px; ' onclick="submitAction_win0(document.win0,this.id,event);" /></span></a>
+</DIV></td>
+</tr>
+<tr>
+<td height='4' colspan='4'></td>
+<td colspan='2' rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_SCH_SAVE_BTN'><a  id = 'Left' role='presentation' class='PSPUSHBUTTON'><span style='background-Color: transparent;'><input type='button' name='HRS_CE_WRK2_HRS_SCH_SAVE_BTN' id='HRS_CE_WRK2_HRS_SCH_SAVE_BTN' tabindex='105' value='Save Job'  class='PSPUSHBUTTON' style='width:70px; ' onclick="submitAction_win0(document.win0,this.id,event);" title='Save Jobs'  /></span></a>
+</DIV></td>
+<td colspan='3' rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK_HRS_APPLY_PB'><a  id = 'Left' role='presentation' class='PSPUSHBUTTON'><span style='background-Color: transparent;'><input type='button' name='HRS_CE_WRK_HRS_APPLY_PB' id='HRS_CE_WRK_HRS_APPLY_PB' tabindex='106' value='Apply Now'  class='PSPUSHBUTTON' style='width:74px; ' onclick="submitAction_win0(document.win0,this.id,event);" /></span></a>
+</DIV></td>
+</tr>
+<tr>
+<td height='20' colspan='4'></td>
+<td colspan='4'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_REF_JB_RETURN'><span id='HRS_CE_WRK2_HRS_REF_JB_RETURN$span'  class='PSHYPERLINK' ><a name='HRS_CE_WRK2_HRS_REF_JB_RETURN' id='HRS_CE_WRK2_HRS_REF_JB_RETURN'  ptlinktgt='pt_peoplecode' tabindex='108' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'HRS_CE_WRK2_HRS_REF_JB_RETURN');"  class='PSHYPERLINK' >Return to Previous Page</a></span>
+</DIV></td>
+</tr>
+<tr>
+<td height='19' colspan='4'></td>
+<td colspan='7'  valign='top' align='left'>
+<hr width='100%' align='left'  class='PSHORIZONTALRULE'  />
+</td>
+</tr>
+<tr>
+<td height='566'></td>
+<td colspan='12'  valign='top' align='left'>
+<DIV  id='win0div$ICField36$0'><table role='presentation'  border='0' id='ACE_$ICField36$0' cellpadding='0' cellspacing='0' cols='3' width='577' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='10' height='2'></td>
+<td width='562'></td>
+<td width='5'></td>
+</tr>
+<tr>
+<td height='558'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PST_DSCR$0'><table role='presentation'  border='0' id='ACE_HRS_JO_PST_DSCR$0' cellpadding='0' cellspacing='0' cols='2' width='561' class='PABACKGROUNDINVISIBLE' style='border-style:none' >
+<tr>
+<td width='5' height='10'></td>
+<td width='556'></td>
+</tr>
+<tr>
+<td height='26'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$0'><span  class='PABOLDTEXT' id='HRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$0'>About Berkeley</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='36'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_DESCRLONG$0'><span  class='PSLONGEDITBOX' style='word-wrap:break-word;overflow:hidden;display:block; width:556px;  overflow:auto;' id='HRS_JO_PDSC_VW_DESCRLONG$0'>The University of California, Berkeley, is one of the world’s most iconic teaching and research institutions. Since 1868, Berkeley has fueled a perpetual renaissance, generating unparalleled intellectual, economic and social value in California, the United States and the world. Berkeley’s culture of openness, freedom and acceptance—academic and artistic, political and cultural—make it a very special place for students, faculty and staff.<br /><br />Berkeley is committed to hiring and developing staff who want to work in a high performing culture that supports the outstanding work of our faculty and students. In deciding whether to apply for a staff position at Berkeley, candidates are strongly encouraged to consider the alignment of the Berkeley Workplace Culture with their potential for success at http://jobs.berkeley.edu/why-berkeley.html.</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='26'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$1'><span  class='PABOLDTEXT' id='HRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$1'>Application Review Date</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='36'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_DESCRLONG$1'><span  class='PSLONGEDITBOX' style='word-wrap:break-word;overflow:hidden;display:block; width:556px;  overflow:auto;' id='HRS_JO_PDSC_VW_DESCRLONG$1'>The First Review Date for this job is: 10/13/17</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='26'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$2'><span  class='PABOLDTEXT' id='HRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$2'>Departmental Overview</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='36'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_DESCRLONG$2'><span  class='PSLONGEDITBOX' style='word-wrap:break-word;overflow:hidden;display:block; width:556px;  overflow:auto;' id='HRS_JO_PDSC_VW_DESCRLONG$2'>Advancement Operations Unit Overview<br />Advancement Operations develops and delivers the centralized business systems and services that support the work of UC Berkeley’s 30 decentralized fundraising units—helping them collaborate and communicate in order to maximize their collective results. Advancement Operations also provides governance through its role as the official source of alumni and fundraising data. The unit offers services that include advancement data management and enhancement, business intelligence and analytics, business process analysis and design, advancement training and communication, and customer support. Advancement Operations also oversees information technology systems and tools, including the Cal Advancement Data System (CADS), the database in which advancement professionals conduct research and record fundraising activity. Advancement Operations encompasses four units: Advancement Information Management, Information Technology, Planning and Analysis, and Advancement Training and Outreach.<br /><br />Advancement Information Management Unit Overview<br />Advancement Information Management (AIM) is the office of record for data related to alumni, donors, and friends of UC Berkeley. AIM helps the advancement community meet programmatic and campaign goals by providing accurate, complete data that documents the campus’s relationship with its constituents. AIM archives, enhances, and manages the data and delivers it through efficient processes and effective systems in a secure environment. In addition, AIM supports the campus advancement community with customer service on all CADS issues and works with campus units to provide meaningful information about that data through reporting and analysis services. <br /><br />Position Overview<br />As a member of the reporting and analytics team, the Data Systems Analyst uses skills as an experienced data management professional with full understanding of industry practices and campus methodologies, policies and procedures to analyze large­scale data sets and problems and resolves a wide range of business issues. Works on projects such as providing fundraising performance analytics, improving business processes around data management, leading projects to provide data services and tools to optimize advancement operations, and more. <br /><br />Demonstrates good judgment in selecting methods and techniques for obtaining solutions. Interfaces with campus clients to provide expert customer service and guidance in the use of advancement data. Evaluates data sets, procedures, and services and recommends or designs new processes, services, reports and analysis to meet business requirements or to improve information acquisition, flow, and architecture. Creates functional and technical specifications for business processes and systems to document and implement requestor requirements. Ensures accuracy and completeness of data; establishes and maintains data security. Participates in and leads cross­functional projects of diverse scope, size, impact, and budget.</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='26'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$3'><span  class='PABOLDTEXT' id='HRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$3'>Responsibilities</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='36'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_DESCRLONG$3'><span  class='PSLONGEDITBOX' style='word-wrap:break-word;overflow:hidden;display:block; width:556px;  overflow:auto;' id='HRS_JO_PDSC_VW_DESCRLONG$3'>•	Applies professional and broadly defined IT and business analysis and data administration concepts to manage and perform complex assignments. <br />•	Provides analysis for complex information requirements and documents those using formal data definition techniques and naming standards. Creates complex specifications for processes and systems to meet user requirements. Prepares analysis reports to meet requirements.<br />•	Gathers, analyzes, prepares and summarizes information from subject matter experts and technical personnel; summarizes business and user needs, documenting requirements and revising existing system logic difficulties as necessary; and develops recommendations for data management resource plans, including approaches, trends, sources and uses, etc. <br />•	Performs complex data management or resource research and studies for a variety of internal department constituents; plans metadata acquisition for sets of unstructured data objects, such as collections of images, documents or recordings. <br />•	Under supervision, designs and implements capture of metadata from technical processes such as software design and database management. Maintains advancement data dictionary<br />•	Validates requirements against needs.<br />•	Applies professional project management concepts; and is able to apply IT and project management policies and procedures in managing complex assignments.<br />•	Implements the project management process in support of the campus&#039; products and services involving departmental or cross-functional teams focused on the delivery of new or existing products.Applies professional project management concepts; and is able to apply IT and project management policies and procedures in managing complex assignments.<br />•	Implements the project management process in support of the campus&#039; products and services involving departmental or cross-functional teams focused on the delivery of new or existing products.</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='26'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$4'><span  class='PABOLDTEXT' id='HRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$4'>Required Qualifications</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='36'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_DESCRLONG$4'><span  class='PSLONGEDITBOX' style='word-wrap:break-word;overflow:hidden;display:block; width:556px;  overflow:auto;' id='HRS_JO_PDSC_VW_DESCRLONG$4'>•	Requires strong knowledge of data management systems, practices and standards.<br />•	Must have knowledge relating to logical data design, data warehouse design, data integration or the management of web content or other unstructured data.<br />•	Must be able to prepare simple data models unassisted.<br />•	Must be familiar with important types of data models, such as logical/relational models, dimensional models and document models.<br />•	Must be familiar with data model patterns in one or more common business or academic domains.<br />•	Must be familiar with logical data design and data mapping or data conversion.<br />•	Must be self-motivated and independent, able to work with a minimum of supervision and able to work well with stakeholders and project staff.<br />•	Ability to adapt quickly in a rapidly changing environment.<br />•	Ability to prioritize and multi-task across numerous work streams.<br />•	Should be familiar with data quality and governance issues and requirements.<br />•	Strong analytical and design skills, including the ability to abstract information requirements from real-world processes to understand information flows in computer systems.<br />•	Ability to represent relevant information in abstract models.<br />•	Critical thinking skills and attention to detail.<br />•	Good interviewing and listening skills.<br />•	Very good written and oral communication skills.<br /><br />Education/Training:<br />•	Bachelors degree in related area and/or equivalent experience/training</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='26'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$5'><span  class='PABOLDTEXT' id='HRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$5'>Salary &amp; Benefits</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='36'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_DESCRLONG$5'><span  class='PSLONGEDITBOX' style='word-wrap:break-word;overflow:hidden;display:block; width:556px;  overflow:auto;' id='HRS_JO_PDSC_VW_DESCRLONG$5'>Salary is commensurate with experience.<br /><br />For information on the comprehensive benefits package offered by the University visit: <br /><br />http://ucnet.universityofcalifornia.edu/compensation-and-benefits/index.html</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='26'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$6'><span  class='PABOLDTEXT' id='HRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$6'>How to Apply</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='36'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_DESCRLONG$6'><span  class='PSLONGEDITBOX' style='word-wrap:break-word;overflow:hidden;display:block; width:556px;  overflow:auto;' id='HRS_JO_PDSC_VW_DESCRLONG$6'>Please submit your cover letter and resume as a single attachment when applying.</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='26'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$7'><span  class='PABOLDTEXT' id='HRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$7'>Conviction History Background</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='36'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_DESCRLONG$7'><span  class='PSLONGEDITBOX' style='word-wrap:break-word;overflow:hidden;display:block; width:556px;  overflow:auto;' id='HRS_JO_PDSC_VW_DESCRLONG$7'>This is a designated position requiring fingerprinting and a background check due to the nature of the job responsibilities.&nbsp; Berkeley does hire people with conviction histories and reviews information received in the context of the job responsibilities.&nbsp;&nbsp;&nbsp; The University reserves the right to make employment contingent upon successful completion of the background check.<br />­</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='26'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$8'><span  class='PABOLDTEXT' id='HRS_JO_PDSC_VW_HRS_JO_DESCR_TYP$8'>Equal Employment Opportunity</span>
+</DIV></td>
+</tr>
+<tr>
+<td height='26'></td>
+<td  valign='top' align='left'>
+<DIV  id='win0divHRS_JO_PDSC_VW_DESCRLONG$8'><span  class='PSLONGEDITBOX' style='word-wrap:break-word;overflow:hidden;display:block; width:556px;  overflow:auto;' id='HRS_JO_PDSC_VW_DESCRLONG$8'>The University of California is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or protected veteran status. For more information about your rights as an applicant see: http://www.eeoc.gov/employers/upload/poster_screen_reader_optimized.pdf<br />For the complete University of California nondiscrimination and affirmative action policy see:<br />http://policy.ucop.edu/doc/4000376/NondiscrimAffirmAct</span>
+</DIV></td>
+</tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='6' colspan='3'></td>
+</tr>
+</table>
+</DIV></td>
+</tr>
+<tr>
+<td height='8' colspan='14'></td>
+</tr>
+<tr>
+<td height='17' colspan='4'></td>
+<td colspan='7'  valign='top' align='left'>
+<hr width='100%' align='left'  class='PSHORIZONTALRULE'  />
+</td>
+</tr>
+<tr>
+<td height='4' colspan='4'></td>
+<td rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_CE_EML_FRND$24$'><a  id = 'Left' role='presentation' class='PSPUSHBUTTON'><span style='background-Color: transparent;'><input type='button' name='HRS_CE_WRK2_HRS_CE_EML_FRND$24$' id='HRS_CE_WRK2_HRS_CE_EML_FRND$24$' tabindex='222' value='Email to Friend'  class='PSPUSHBUTTON' style='width:98px; ' onclick="submitAction_win0(document.win0,this.id,event);" /></span></a>
+</DIV></td>
+<td colspan='2' rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_SCH_SAVE_BTN$21$'><a  id = 'Left' role='presentation' class='PSPUSHBUTTON'><span style='background-Color: transparent;'><input type='button' name='HRS_CE_WRK2_HRS_SCH_SAVE_BTN$21$' id='HRS_CE_WRK2_HRS_SCH_SAVE_BTN$21$' tabindex='223' value='Save Job'  class='PSPUSHBUTTON' style='width:70px; ' onclick="submitAction_win0(document.win0,this.id,event);" title='Save Jobs'  /></span></a>
+</DIV></td>
+<td colspan='3' rowspan='2' nowrap='nowrap'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK_HRS_APPLY_PB$22$'><a  id = 'Left' role='presentation' class='PSPUSHBUTTON'><span style='background-Color: transparent;'><input type='button' name='HRS_CE_WRK_HRS_APPLY_PB$22$' id='HRS_CE_WRK_HRS_APPLY_PB$22$' tabindex='224' value='Apply Now'  class='PSPUSHBUTTON' style='width:74px; ' onclick="submitAction_win0(document.win0,this.id,event);" /></span></a>
+</DIV></td>
+</tr>
+<tr>
+<td height='20' colspan='4'></td>
+<td colspan='4'  valign='top' align='left'>
+<DIV  id='win0divHRS_CE_WRK2_HRS_REF_JB_RETURN$49$'><span id='HRS_CE_WRK2_HRS_REF_JB_RETURN$49$$span'  class='PSHYPERLINK' ><a name='HRS_CE_WRK2_HRS_REF_JB_RETURN$49$' id='HRS_CE_WRK2_HRS_REF_JB_RETURN$49$'  ptlinktgt='pt_peoplecode' tabindex='226' onclick='javascript:cancelBubble(event);' href="javascript:submitAction_win0(document.win0,'HRS_CE_WRK2_HRS_REF_JB_RETURN$49$');"  class='PSHYPERLINK' >Return to Previous Page</a></span>
+</DIV></td>
+</tr>
+<tr>
+<td height='15' colspan='4'></td>
+<td colspan='7'  valign='top' align='left'>
+<hr width='100%' align='left'  class='PSHORIZONTALRULE'  />
+</td>
+</tr>
+</table>
+</DIV>
+</td></tr>
+</table>
+</DIV>
+<DIV class='ps_box-pagetabs' id='win0divPSPANELTABLINKS'></DIV>
+<div id='DetachDiv' height=0 width=0 frameborder=0></div>
+<a name='ICLastAnchor_win0' id='ICLastAnchor_win0'></a>
+
+<!-- Embedded Help popup Begin -->
+<div id='HelppopupDiv_win0' style='display:none; position:absolute; top:0; left:0'>t</div>
+<div id='HelpDragFrame_win0' class='popupDragFrame'>&nbsp;</div><table id='HelppopupContainer_win0' width='20' border='0' cellpadding='0' cellspacing='0' style='opacity:1; display:none; position:absolute; top:0; left:0' >
+<tr>
+<td id='HelppopupInner_win0' class='HelppopupInner' align='left' valign='top' style='position:absolute;z-Index:302;'>
+<div id='HelppopupTitleBar_win0' class='PTPOPUP_HEADER HelppopupTitleBar' style='width:341px'><div id='HelppopupTitleBarLeftImage'></div><div id='HelppopupTitleBarMiddle_win0' style='width:333px' class='HelppopupTitleBarMiddle' dir='ltr'>
+<table>
+<td id='HelppopupTitle_win0' style='width:290px; cursor: move;'><span class='PTPOPUP_TITLE'>Help</span></td>
+<td style='width:45px'><img id='#HELPPOPUPCLOSE' style='cursor:pointer' title='Close' alt='Close' align='right' onclick='HelppopupObj_win0.StopPopup("win0");' src='/cs/jobsprod/cache/PT_PORTAL_IC_CLOSE_1.gif'/></td>
+</table>
+</div><div id='HelppopupTitleBarRightImage'></div></div><div id='HelpdivpopupFrame_win0' class='MOBGImage HelpdivpopupFrame' tabindex='-1' onclick='HelppopupObj_win0.SetFocusFlag(false);' style='border: 1px #bcbaba solid; padding:12px; overflow:auto;'>test</div><div id='HelppopupShadow' class='popupShadow' style='position:absolute;z-index:-1;'><div id='HelppopupShadowTopRightCorner' class='popupShadowTopRightCorner' style='height:10px;'>&nbsp;</div><div id='HelppopupShadowTop' class='popupShadowTop' >&nbsp;</div><div id='HelppopupShadowBottom' class='popupShadowBottom' style='height:10px'><div id='HelppopupShadowBottomLeftCorner' class='popupShadowBottomLeftCorner' style='height:10px;width:10px'>&nbsp;</div><div id='HelppopupShadowBottomMiddle' class='popupShadowBottomMiddle' style='height:10px;'>&nbsp;</div><div id='HelppopupShadowBottomRightCorner' class='popupShadowBottomRightCorner' style='height:10px;width:10px'>&nbsp;</div></div></div></td>
+</tr>
+</table>
+<!-- Embedded Help popup End  -->
+<div id='pt_fakeBC' style='display:none'><ul><li class="pthnavhiearchysep pthbcdispiblock">&nbsp;</li>
+<li class="pthnavbarcref ptabncrefbc ptfakercfbc pthbcdispiblock" id="pthnavbccref_PT_FAKE_HRS_CE_GBL" ><a class=abnanchor href="https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL?Page=HRS_CE_JOB_DTL&amp;Action=A&amp;JobOpeningId=23936&amp;" role="menuitem" target="TargetContent">Careers</a><div class="pthnavcrefimg">&nbsp;</div></li>
+</ul></div><div id='ptus_universalSrch' style='display:none;'><span>Default Local Node:</span><input type='text' readonly='readonly' name='ptus_defaultlocalnode' id='ptus_defaultlocalnode' value='PSFT_HR' /><br /><span>DbName:</span><input type='text' readonly='readonly' name='ptus_dbname' id='ptus_dbname' value='HRSPROD' /><br /><span>Portal:</span><input type='text' readonly='readonly' name='ptus_portal' id='ptus_portal' value='EMPLOYEE' /><br /><span>Node:</span><input type='text' readonly='readonly' name='ptus_node' id='ptus_node' value='HRMS' /><br /><span>WorkCenter Id:</span><input type='text' readonly='readonly' name='ptus_workcenterid' id='ptus_workcenterid' value='' /><br /><span>Url:</span><input type='text' readonly='readonly' name='ptus_componenturl' id='ptus_componenturl' value='https://jobsprod.is.berkeley.edu/psp/jobsprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL' /><br /></div></form>
+<div id='popupDragFrame' class='popupDragFrame'>&nbsp;</div>
+<!-- Mouse-over popup Begin -->
+<table id='win0MOpopupContainer' width='20' border='0' cellpadding='0' cellspacing='0' style='display:none; position:absolute; top:0; left:0;' onMouseOver="MOpopupObj_win0.StartPopup('win0MOpopupContainer', '');" onMouseOut="MOpopupObj_win0.StopPopup();"><tr>
+<td id='win0MOpopupInner' height='25' width='20' align='left' valign='top' class='MOBGImage'>
+<div id='win0MOdivpopupFrame' tabindex='-1' onclick='MOpopupObj_win0.SetFocusFlag(false);' style='overflow:auto; width:20px; height: 60px; padding:8px; box-shadow:0 0 5px #000000; background-color:white; border: 1px solid #666666;'>test</div></td>
+</tr>
+</table>
+<!-- Mouse-over popup End  -->
+</body>
+<script language='JavaScript'>
+var nMaxSavedStates=5;
+var sHistURL="https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL?page=HRS_CE_JOB_DTL&Page=HRS_CE_JOB_DTL&Action=A&JobOpeningId=23936&";
+var bHtml5Doc = true;
+var bClearBackState=false;
+var bPageTransfered=false;
+var bTransferAnimate=false;
+var bCleanHtml = true;
+var bDefer = true;
+document.deferFldArr_win0 = new Array();
+document.hiddenFldArr_win0 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','ICFocus','ICSaveWarningFilter','ICChanged','ICAutoSave','ICResubmit','ICSID','ICActionPrompt','ICTypeAheadID','ICBcDomData','ICFind','ICAddCount','ICAPPCLSDATA');
+document.chgFldArr_win0 = new Array();
+AddToHistory('Hrs Ce Job Dtl', '', '', 'HRS_CE_JOB_DTL', 1, 0, 1, 0,  0);
+var bCleanHtml = true;
+var bDefer = true;
+document.hiddenFldArr_win0 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','ICFocus','ICSaveWarningFilter','ICChanged','ICAutoSave','ICResubmit','ICSID','ICActionPrompt','ICTypeAheadID','ICBcDomData','ICFind','ICAddCount','ICAPPCLSDATA');
+document.chgFldArr_win0 = new Array();
+var bCDATA = false;
+var bAccessibleLayout = false;
+var bLoadCompleted = true;
+</script></html>

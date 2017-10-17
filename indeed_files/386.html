@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cambridge Inc Careers</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+
+
+
+<link rel="STYLESHEET" type="text/css" href="https://cbridgeinc-careers.silkroad.com:443/map_images/main/SiteGen/Careers/Admin/Skins/Generic_Settings.css" />
+
+<!--
+<link rel="STYLESHEET" type="text/css" href="https://cbridgeinc-careers.silkroad.com:443/map_images/main/SiteGen/Careers/Admin/Skins/openhire.css" />
+-->
+
+ <!--[if lt IE 9]>
+  <script src="https://cbridgeinc-careers.silkroad.com:443//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+  <script src="https://cbridgeinc-careers.silkroad.com:443/eprise/main/SiteGen/Skins/ps_resp_layout/SupportPages/respond.js"></script>
+
+  <![endif]-->
+
+
+<link rel="shortcut icon" href="https://cbridgeinc-careers.silkroad.com:443/main/SiteGen/Careers/Content/Uploads/Images/skin/favicon.ico" />
+
+<script type="text/javascript" src="https://cbridgeinc-careers.silkroad.com:443/map_images/main/SiteGen/Skins/ps_resp_layout/SupportPages/incJavascript.js"></script>
+<script type="text/javascript" src="https://cbridgeinc-careers.silkroad.com:443/map_images/main/SiteGen/Skins/ps_resp_layout/SupportPages/niftycube.js"></script>
+<script type="text/javascript">function clear_search() {document.search_form.search_phrase.value= "";}</script>
+<script type="text/javascript">
+
+window.onload=function() {
+     
+    if(""=="yes") {
+          
+     }
+
+           
+  var anchors = document.querySelectorAll('a[href]');
+
+  Array.prototype.forEach.call(anchors, function (element, index) {
+
+    //alert("href is " + element.href);
+    var sSearchString = "oh_jobwrapper/";
+    var sHref = element.href;
+    var nIndex = sHref.toLowerCase().indexOf(sSearchString);
+
+    if (nIndex >0) {
+           //strip CF string prepended by Open Hire call to CFHTTP
+
+            var sNewHref = sHref.substr( nIndex+sSearchString.length );
+           element.href = sNewHref;
+
+  //alert("New href is " + sNewHref);
+
+     } //end strip CF crap prepended by Open Hire call to CFHTTP
+});
+
+}  //end onload
+
+</script>
+
+<script src="https://cbridgeinc-careers.silkroad.com:443/eprsup/jquery/1.11.1/jquery.min.js"></script>
+ 
+<script src="https://cbridgeinc-careers.silkroad.com:443/eprise/main/SiteGen/Skins/ps_resp_layout/SupportPages/doubletaptogo.min.js"></script>
+
+<script>
+var $jqPS = jQuery.noConflict(true);
+	$jqPS( function()
+	{
+		$jqPS( '#nav_main li:has(ul)' ).attr('aria-haspopup','true').doubleTapToGo();
+
+	});
+</script>
+
+
+
+
+
+
+<meta name="description" content="&nbsp;" />
+<meta name="keywords" content="," />
+
+
+<!---->
+<!--<script type="text/javascript" src="https://cbridgeinc-careers.silkroad.com:443/eprise/RedCarpetDotNet/PhysicalMaps/JS/TurboTask.js"></script>-->
+
+<script>
+function funcWriteBreadcrumbNav(BreadCrumbList) {
+	var sOutputBreadcrumbNav = new String();
+	var sClass = null;
+	var sUrl = null;
+	var sText = null;
+	var nLevel = null;
+	var aryThisLink = null;
+
+                    var sBreadCrumbOnOff ="Off";
+                    if (sBreadCrumbOnOff.length ==0) sBreadCrumbOnOff = "Off";
+                    if (sBreadCrumbOnOff.toLowerCase() == "off") return sOutputBreadcrumbNav;
+                    if ("" == "8") return sOutputBreadcrumbNav;
+
+//alert("BreadCrumbList is " + BreadCrumbList);
+
+       var sTemp = "";
+	
+	//Added variables to grab information for the current page
+
+	var sCurrentPath = "https://cbridgeinc-careers.silkroad.com/Careers/UnplacedPages/OH_JobWrapper";
+	var sCurrentPage = "OpenHire Internal Page [do not delete]";
+
+	var arySubNav = unescape(BreadCrumbList);
+	//arySubNav = arySubNav.split("");
+	arySubNav = arySubNav.split(";");
+
+    //sOutputBreadcrumbNav += "<div id='breadcrumbs'>"
+
+	var nLen = arySubNav.length;
+	for(var i = 0; i < nLen; i++) {
+		//aryThisLink = arySubNav[i].split("");
+		aryThisLink = arySubNav[i].split(",");
+		sText = aryThisLink[0];
+                var bIgnore=false;
+                if ( sText == "OpenHire Internal Page [do not delete]") bIgnore= true;
+		sUrl = aryThisLink[1];
+		sClass = (parseInt(aryThisLink[2])) ? "_on" : "";
+		pageLevel = aryThisLink[3];
+		
+		sOutputBreadcrumbNav += "<!-- breadcrumb trail -->";
+		// items
+
+         var sIndex = sText.indexOf("_subnav");
+         //   sOutputBreadcrumbNav += sIndex;
+
+        if(sText!=sTemp && sIndex < 0){ // added to prevent duplicates in list
+			if (i<nLen-1) {
+				//--- loop thru regular items
+				//sOutputBreadcrumbNav += "<a href='https://cbridgeinc-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/" + sUrl + "'>" + sText.toLowerCase() + "</a> &gt; ";
+				if (!bIgnore) sOutputBreadcrumbNav += "<a href='https://cbridgeinc-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/" + sUrl + "'>" + sText + "</a> &gt; ";
+				
+			//check if page is a bodylink	
+			} else  if (!bIgnore) {
+                             if (i>=nLen-1 && sUrl!=sCurrentPath ){
+				//--write out last page in bc list
+				     sOutputBreadcrumbNav += "<a href='https://cbridgeinc-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/" + sUrl + "'>" + sText + "</a> ";
+				      //--- bl-last item
+                                 if (sCurrentPage != "OpenHire Internal Page [do not delete]" ) {
+				     sOutputBreadcrumbNav += "&gt; <span class='breadcrumb_item" + sClass + "'>" + sCurrentPage + "</span>";
+                                  }
+			   } else {
+				//--- last item
+				sOutputBreadcrumbNav += "<span class='breadcrumb_item" + sClass + "'>" + sText + "</span>";
+			   }
+                     }
+			
+              sTemp = sText;
+	     }
+
+			
+	}
+	
+    sOutputBreadcrumbNav += "<!-- end breadcrumb trail -->";
+    //sOutputBreadcrumbNav += "</div>";
+
+	return sOutputBreadcrumbNav;
+}
+</script>
+
+
+
+
+
+			<meta property="og:title" content="Data Analyst - Arlington, Virginia, United States - Cambridge International Systems" />
+			<meta property="og:description" content="Cambridge International Systems has a career opportunity for a Data Analyst to support our NAVY/BUMED customer in Falls Church, VA. Qualified candidates must possess an active secret clearance.
+The Virtual Health Data Analyst performs descriptive..." />
+			<meta property="og:type" content="website" />
+			<meta property="og:url" content="https://cbridgeinc-openhire.silkroad.com/epostings/index.cfm?fuseaction=app.jobinfo&jobid=440&version=1" />
+		<script type='text/javascript' src='../javascript/fCountChar.js'></script><!-- OpenHire: 2017.5 -->
+					<link rel="P3Pv1" href="/w3c/p3p.xml" />
+					<link rel="stylesheet" href="/ats/themes/silkroad/jquery-ui.css?v=1.8.12" />
+					<link rel="stylesheet" href="/uilib/assets/styles/uilib.css?v=2017.5" />
+					<link rel="stylesheet" href="/epostings/assets/styles/main.css?v=2017.5" />
+					<!-- /epostings/assets/styles/app/dspjob.css --> 
+					<script>var productVersion = "2017.5"; var timeoutSeconds = 3600; var timeoutWarningSeconds = 300; var displayTimeWarning = 0; var isCandidateLoggedIn = false; var companyId = 17289; var ep_version = 1;</script>
+					<script src="/uilib/plugins/jquery/jquery.min.js?v=1.4.4"></script>
+					<script src="/uilib/plugins/jquery/jquery-ui.min.js?v=1.8.12"></script>
+					<script src="/uilib/plugins/jquery/i18n/jquery.ui.datepicker-en.js"></script>
+					<script src="/uilib/assets/scripts/uilib.js?v=2017.5"></script>
+					
+					<script src="/epostings/assets/scripts/main.js?v=2017.5"></script>
+					<!-- /epostings/assets/scripts/app/dspjob.js --> </head>
+<body  class="yui-skin-sam" id="ps-body">
+
+
+<div id="page_container">
+<!--NOT A HOME PAGE-->
+<header id="main_header">
+
+   <div id="box_header">
+     <div id="pslogo"><a href="http://cbridgeinc.com/"><img src="https://cbridgeinc-careers.silkroad.com:443/main/SiteGen/Careers/Content/Uploads/Images/skin/logo-back.png" border=0></a></div>
+
+
+
+   </div>
+
+
+<div id="box_subheader">
+  <nav id="nav_main" role="navigation">
+    <a href="https://cbridgeinc-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/#nav_main" title="Show navigation">Show navigation</a>
+    <a href="https://cbridgeinc-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/#" title="Hide navigation">Hide navigation</a>
+    <ul id="nav_main_list">
+
+       <li aria-haspopup="true" ><a href="https://cbridgeinc-careers.silkroad.com:443/Careers/Home_1.html" title="Home" >Home</a></li><li aria-haspopup="true" ><a href="https://cbridgeinc-careers.silkroad.com:443/" title="Careers" >Careers</a></li><li aria-haspopup="true" ><a href="https://cbridgeinc-careers.silkroad.com:443/Careers/About_Us.html" title="Employment Information" >Employment Information</a>			<ul>
+				<li>
+					<a href="https://cbridgeinc-careers.silkroad.com:443/Careers/About_Us/Benefits.html">Benefits</a>
+				</li>
+				<li>
+					<a href="https://cbridgeinc-careers.silkroad.com:443/Careers/About_Us/Commitment_to_Diversity.html">Commitment to Diversity</a>
+				</li>
+			</ul>
+</li><li aria-haspopup="true"  class="active"><a href="https://cbridgeinc-careers.silkroad.com:443/Careers/EmploymentListings.html" title="Employment Listings" >Employment Listings</a>			<ul>
+				<li>
+					<a href="https://cbridgeinc-openhire.silkroad.com/epostings/submit.cfm?version=1&company_id=17289">Search Current Openings</a>
+				</li>
+				<li>
+					<a href="https://cbridgeinc-openhire.silkroad.com/epostings/submit.cfm?fuseaction=app.res_login&company_id=17289&version=1">Update Your Profile</a>
+				</li>
+				<li>
+					<a href="https://cbridgeinc-openhire.silkroad.com/epostings/submit.cfm?fuseaction=app.res_bgjobagent&company_id=17289&version=1">Create a Job Agent</a>
+				</li>
+				<li>
+					<a href="https://cbridgeinc-openhire.silkroad.com/epostings/submit.cfm?fuseaction=app.bgagentlogin&company_id=17289&version=1">Update Job Agent</a>
+				</li>
+			</ul>
+</li><li aria-haspopup="true" ><a href="https://cbridgeinc-careers.silkroad.com:443/Careers/Frequently-Asked-Questions.html" title="FAQs" >FAQs</a></li><li aria-haspopup="true" ><a href="https://cbridgeinc-careers.silkroad.com:443/Careers/Announcements1.html" title="News" >News</a></li>
+
+    </ul>
+  </nav>
+</div>
+
+  <nav id="breadcrumbs" role="breadcrumb">
+     <style>
+#breadcrumbs {
+ display: none;
+}
+</style>
+<script language="JavaScript">
+  var sPageName = "OH_JobWrapper";
+  if (sPageName.length !=0) sPageName = sPageName.toLowerCase();
+
+ // if(sPageName !="home.html")
+    document.write(funcWriteBreadcrumbNav("Careers,https://cbridgeinc-careers.silkroad.com;Employment%20Listings,https://cbridgeinc-careers.silkroad.com/Careers/EmploymentListings.html"));
+</script>
+  </nav>
+</header>
+  <div id="body_container"> <!-- 0_Col -->
+      
+    <div id="box_col_center_0_Col">
+
+
+
+<div id="dialog-confirm" class="ui-dialog" title="Session Timeout Approaching">
+  <p><span class="ui-icon ui-icon-alert" style="float:left"></span>Your user session will timeout in 5 minutes.  Please click OK to continue with your application.</p>
+</div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+function URLReplacePlus(strIn) {
+	var a = "+";
+	var b = "%43";
+	var c = strIn;
+	var i = c.indexOf(a);
+	var l = b.length;
+	while (i != -1) { c = c.substring(0,i) + b + c.substring(i + a.length,c.length); i = c.indexOf(a,i); }
+	return c;
+}
+
+function emailFriend()
+{
+	var loc, coname, jobtitle;
+	coname=document.applyjob.companyname.value;
+	coname=URLReplacePlus(coname);
+	coname=escape(coname);
+	jobtitle=document.applyjob.job_title.value;
+	jobtitle=URLReplacePlus(jobtitle);
+	jobtitle=escape(jobtitle);
+
+	var applyJob = document.getElementById("applyJob");
+	var jobid = applyJob.jobid.value;
+	var source = applyJob.source.value;
+	var jobOwner = applyJob.JobOwner.value;
+	var version = applyJob.version.value;
+
+	var jobAttrib = "jobid=" + jobid + "&source=" + source + "&jobOwner=" + jobOwner;
+
+	loc = "http://cbridgeinc-openhire.silkroad.com/epostings/submit.cfm?fuseaction=app.mailform&company_id=17289&companyname="+coname+"&job_title="+jobtitle+"&version=1&server=cbridgeinc-openhire.silkroad.com&mapping=/epostings/&showtemp=0&" + jobAttrib;
+
+	window.open(loc,"emform","resizable=yes,scrollbars=yes,width=650,height=400");
+}
+/* ]]> */
+</script>
+
+		<form id="applyJob" method="post" action="index.cfm?fuseaction=app.presubmission">
+			
+				<input type="hidden" name="gotofuse" value="app.newsubmission" />
+			
+			<input type="hidden" name="submissiontype" value="4" />
+			<input type="hidden" name="previewedit" value="1" />
+			<input type="hidden" name="altsource" value="1" />
+			<input type="hidden" name="jobid" value="440" />
+			<input type="hidden" name="job_title" value="Data Analyst (440-289)" />
+			<input type="hidden" name="JobOwner" value="992337" />
+			
+			<input type="hidden" name="source" value="Indeed.com" />
+			<input type="hidden" name="company_id" value="17289" />
+			<input type="hidden" name="companyname" value="Cambridge International Systems" />
+			<input type="hidden" name="version" value="1" />
+			<input type="hidden" name="location_id" value="65825" />
+			<input type="hidden" name="resumetype" value="0" />
+			
+			<input type="hidden" name="backaction" value="fuseaction=app.dspjob&version=1&company_id=17289&jobBoardId=3338&jobid=440" />
+			
+			
+				<p id="jobTitleDiv" class="cssDspJobTitle">
+					Data Analyst
+				</p>
+			
+			<dl>
+				
+					<dt id="trackCodeDiv" class="cssDspJobHead">
+						Tracking Code
+					</dt>
+					<dd id="jobCodeDiv" class="cssDspJobBody">
+						440-289 
+					</dd>
+				
+				
+					<dt id="dspJobTxtDescDiv" class="cssDspJobHead">
+						Job Description
+					</dt>
+					<dd id="jobDesciptionDiv" class="cssDspJobBody">
+						<p>Cambridge International Systems has a career opportunity for a Data Analyst to support our NAVY/BUMED customer in Falls Church, VA. Qualified candidates must possess an active secret clearance.</p>
+<p>The Virtual Health Data Analyst performs descriptive, diagnostic, predictive, and prescriptive analytics on information systems and databases in order to make better data driven informed decisions on factual evidence vice intuition; discover hidden insights from the recognition of patterns within our organization and patient populations; identify the causation of certain events and extrapolating probable future events that will drive our actions towards positive outcomes.</p>
+<p>&nbsp;</p>
+<p>The Virtual Health Data Analyst:</p>
+<ul>
+<li>Translates numbers into live dashboards.</li>
+<li>Reports and answer ad hoc questions using Virtual Health visit/encounter data to report on metrics and to help Navy Medicine make better decisions for Virtual Health delivery.</li>
+<li>Analyzes data within Military Health System (MHS) databases and provide reports on an as needed basis.</li>
+<li>Works with detailed source data in analyzing and evaluating organizational performance engineering design, reporting and administration under the Balance Scorecard (BSC) framework.&nbsp;</li>
+<li>Translates Balanced Scorecard (BSC) performance data into web-based BSC subscriptions.</li>
+<li>Performs design analyses to translate user requirements into plans for organizational performance engineering initiatives and implementation plans.</li>
+<li>Provides technical and process guidance support weekly.&nbsp;</li>
+<li>Provides methodologies for evaluating moderately complex tasks.</li>
+<li>Works with analysts and users to identify current operating procedures and clarify program objectives.&nbsp; Outlines steps required to develop BSC-based initiative / implementation plan, including diagrams and charts.&nbsp; Assists users to resolve operations problems and provides technical assistance to users.&nbsp;</li>
+<li>Assists in identifying and implementing solutions to improve data quality (medical coding, MEPRS usage, algorithms, data enhancing capabilities).</li>
+</ul>
+<p>&nbsp;</p>
+					</dd>
+				
+				
+					<dt id="dspJobTxtReqExpDiv" class="cssDspJobHead">
+						Required Experience
+					</dt>
+					<dd id="jobExperienceRqdDiv" class="cssDspJobBody">
+						<ul>
+<li>Bachelor&rsquo;s degree from an accredited college or university in engineering, economics, computer science, math/physics, business management or other related disciplines.</li>
+<li>US Citizen with active secret clearance.</li>
+<li>At least 3 years&rsquo; experience as a data analyst, data scientist or business data analyst with technical expertise regarding data models, database design development, data mining and segmentation techniques.</li>
+<li>Strong knowledge of and experience with reporting packages (Business Objects etc.), databases (SQL etc.), programming (XML, JavaScript, or ETL frameworks).&nbsp;</li>
+<li>Knowledge of statistics and experience using statistical packages for analyzing datasets (Excel, SPSS, SAS, R, Python Modules, etc.).</li>
+<li>Strong analytical skills with the ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracy.</li>
+<li>Adept at queries, report writing and presenting findings.&nbsp;</li>
+<li>Familiarity with healthcare concepts and patient services, especially in regards to application of data analytics.&nbsp;</li>
+<li>Proficiency with the&nbsp; following Navy/MHS information systems: CHCS, AHLTA, Essentris, MEPRS/DMHRSi, MHS Mart (M2), MHS Data Repository (MDR).</li>
+</ul>
+<p>Preferred: Meets or exceeds DOD 8570 requirements for IAM-I (i.e. Security + CE).</p>
+					</dd>
+				
+					<dt id="dspJobTxtJobLocDiv" class="cssDspJobHead">
+						Job Location
+					</dt>
+					<dd id="jobPositionLocationDiv" class="cssDspJobBody">
+						Arlington, Virginia, United States
+					</dd>
+				
+					<dt id="dspJobTxtPosTypeDiv" class="cssDspJobHead">
+						Position Type
+					</dt>
+					<dd id="translatedJobPostingTypeDiv" class="cssDspJobBody">
+						Full-Time/Regular
+					</dd>
+				
+			</dl>
+			
+			
+			<div class="footerActionBar">
+				<div id="applyBubble" class="actionBubble">
+					<div class="actionBubble-header">
+						<h4>
+							Apply
+						</h4>
+					</div>
+					<div class="actionBubble-content">
+						
+						<input type="button" class="ui-form-field-button" id="newResumeButton" value="New Resume/CV" onclick="document.getElementById('applyJob').submit();" />
+						
+								<br />
+								<br />
+								<input type="button" class="ui-form-field-button" id="existingResumeButton" value="Existing Resume/CV" onclick="window.location='submit.cfm?fuseaction=app.presubmission&amp;gotofuse=app.res_login&amp;id=23&amp;jobid=440&amp;company_id=17289&amp;version=1&amp;jobowner=&amp;aid=0&amp;fid=0&amp;bystate=0&amp;bylocation=NULL&amp;bycountry=0&amp;bycat=NULL&amp;keywords='" />
+							
+					</div>
+				</div>
+				
+					<div id="shareBubble" class="actionBubble">
+						<div class="actionBubble-header">
+							<h4>
+								Share
+							</h4>
+						</div>
+						<div class="actionBubble-content">
+							<!-- AddThis Button BEGIN -->
+							<div class="addthis_toolbox addthis_default_style" addthis:url="https://cbridgeinc-openhire.silkroad.com/epostings/index.cfm?fuseaction=app.jobinfo&amp;jobid=440&amp;version=1" addthis:title="Cambridge International Systems - Data Analyst">
+								<a class="addthis_button_linkedin">
+								</a>
+								<a class="addthis_button_facebook">
+								</a>
+								<a class="addthis_button_twitter">
+								</a>
+								<a class="addthis_button_email">
+								</a>
+								<a class="addthis_button_compact">
+								</a>
+							</div>
+							<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d34add83780e935"></script>
+							<!-- AddThis Button END -->
+						</div>
+					</div>
+				
+			</div>
+			<div id="backPageButton1Div" class="cssDspJobHead">
+				<a id="returnLink" href="/epostings/index.cfm?fuseaction=app.welcome&amp;company_id=17289&amp;version=1&amp;byBusinessUnit=&amp;bycountry=0&amp;bystate=0&amp;bylocation=NULL&amp;keywords=&amp;byCat=NULL&amp;proximityCountry=&amp;postalCode=&amp;radiusDistance=&amp;isKilometers=&amp;tosearch=no&startflag=0">
+					Return To Job Listings
+				</a>
+				<input type="hidden" name="returnParm" value="/epostings/index.cfm?fuseaction=app.welcome&amp;company_id=17289&amp;version=1&amp;byBusinessUnit=&amp;bycountry=0&amp;bystate=0&amp;bylocation=NULL&amp;keywords=&amp;byCat=NULL&amp;proximityCountry=&amp;postalCode=&amp;radiusDistance=&amp;isKilometers=&amp;tosearch=no&startflag=0" />
+			</div>
+		</form>
+	<br />
+ 
+
+</div>
+
+  </div>
+
+
+</div>
+
+<footer id="box_footer">
+<div id="footer_extra">
+
+
+
+</div>
+<div>
+
+<p>
+© 2016 Cambridge International Systems, Inc. |
+<a title="Cambridge Privacy Policy" href="https://cbridgeinc-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/privacy-policy">Privacy</a>
+|
+<a title="Cambridge Copyright Information" href="https://cbridgeinc-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/copyright">Copyright</a>
+<a href="https://cbridgeinc-careers.silkroad.com:443/Careers/SiteMap.html">| Site Map |</a>
+
+
+<a title="Cambridge Facebook" target="_blank" href="https://www.facebook.com/cambridgeinternationalsystems">
+<img style="float:right; height:34px; margin:2px; width:34px" src="https://cbridgeinc-careers.silkroad.com/main/SiteGen/Careers/Content/Uploads/Images/skin/facebook.png" alt="Cambridge Facebook">
+</a>
+<a title="Cambridge Twitter" target="_blank" href="https://twitter.com/@cbridgeinc">
+<img style="float:right; height:34px; margin:2px; width:34px" src="https://cbridgeinc-careers.silkroad.com/main/SiteGen/Careers/Content/Uploads/Images/skin/twitter.png" alt="Cambridge Twitter">
+</a>
+<a title="Cambridge LinkedIn " target="_blank" href="https://www.linkedin.com/company/665867">
+<img style="float:right; height:34px; margin:2px; width:34px" src="https://cbridgeinc-careers.silkroad.com/main/SiteGen/Careers/Content/Uploads/Images/skin/linkedin.png" alt="Cambridge LinkedIn">
+</a>
+</p>
+</div>
+</footer>
+
+<!--[if lt IE 8]>&nbsp;<![endif]--><!--THERE MUST BE SOMETHING HERE ELSE IE6 AND IE7 WILL IGNORE BOTTOM PAGE MARGIN-->
+
+<!-- NEW LEAF MENU ADMIN TOOLBAR START HERE -->
+
+   <div id="leafToolbar" class="leafToolbarStyle" >
+
+        <span id="toolbar_options" style="float:right; display:inline"></span>
+
+   </div> 
+
+
+
+
+</body>
+</html> 
+		<!--
+		Browser Locale: en_US
+		Site Default Locale: en
+		isSupportedLocale: Yes
+		isPortalSupportedLocale: No
+		determineSupportedLocale: en_US
+		determinePortalSupportedLocale: en
+		localeSupportedID: 1
+		
+		Session Locale: {"GOVERNMENTIDREGEX":"","FORMATLOCALECODE":"en_US","LOCALEID":1674,"TRANSLATELOCALEID":1655,"LOCALESUPPORTEDID":1,"POSTALCODEREGEX":"^\\d{5}([\\-]\\d{4})?$","TRANSLATELOCALECODE":"en","LOCALECODE":"en_US","POSTALADDRESSXSLT":"<xsl:stylesheet xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\" version=\"1.0\"><xsl:template match=\"/PostalAddress\"><div class=\"ui-PostalAddress\"><xsl:if test=\"Recipient/PersonName/FormattedName != ''\"><div class=\"ui-PostalAddress-Row\"><span class=\"ui-PostalAddress-FormattedName\"><xsl:value-of select=\"Recipient/PersonName/FormattedName\"/></span></div></xsl:if><div class=\"ui-PostalAddress-Row\"><span class=\"ui-PostalAddress-StreetName\"><xsl:value-of select=\"DeliveryAddress/StreetName\"/></span><xsl:if test=\"DeliveryAddress/AddressLine != ''\"><span class=\"ui-PostalAddress-AddressLine\"><xsl:value-of select=\"DeliveryAddress/AddressLine\"/></span></xsl:if></div><div class=\"ui-PostalAddress-Row\"><span class=\"ui-PostalAddress-Municipality\"><xsl:value-of select=\"Municipality\"/></span>,\n\t\t      <span class=\"ui-PostalAddress-Region\"><xsl:value-of select=\"Region\"/></span> \n\t\t\t  <span class=\"ui-PostalAddress-PostalCode\"><xsl:value-of select=\"PostalCode\"/></span></div><xsl:if test=\"CountryCode != ''\"><div class=\"ui-PostalAddress-Row\"><span class=\"ui-PostalAddress-CountryCode\"><xsl:value-of select=\"CountryCode\"/></span></div></xsl:if></div></xsl:template></xsl:stylesheet>","FORMATLOCALEID":1674,"PHONEREGEX":"^([+])?([1]( |-|\\.)?)?(\\(?[1-9]{1}[0-9]{2}\\)?|[1-9]{1}[0-9]{2})( |-|\\.)?([0-9]{3}( |-|\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$"}
+		-->
+	

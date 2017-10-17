@@ -1,0 +1,415 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html>
+<head>
+	<title>Fieldglass: FCP</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<meta http-equiv="PRAGMA" content="NO-CACHE"/>
+	<meta name="Fieldglass FCP" content="R2011.31"/>
+
+	<!-- FAVICON -->
+	<link rel="shortcut icon" href="/images/interface/logo.ico?v=4">
+
+	<!-- STYLESHEETS -->
+	<link href="/scripts/default/fieldglass_default.vdc37de5379e107f79e0cf2b81f4a8719.css" title="default" rel="stylesheet" type="text/css"/>
+	<link href="/scripts/default/new_default.vc7dd705a56fac589bbb6e05e02f0132c.css" title="default" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="/scripts/jquery-ui.v986791b7e45385c514552ee31d67c7a6.css" />
+	<link href="/scripts/default/document.v64397511cdd5582c29c6d832bf60a4f0.css" title="default" rel="stylesheet" type="text/css">
+	
+	<!-- JAVASCRIPT -->
+    <script type="text/javascript" src="/scripts/jquery/jquery.min.v4f252523d4af0b478c810c2547a63e19.js"></script>
+    <script type="text/javascript" src="/scripts/jquery/jquery.plugins.min.v3d862ee65fb24a4809c3fdac003e03fe.js"></script>
+    <script type="text/javascript" src="/scripts/fieldglass_default.vb7de26ffd12c1748413c9d9481235915.js"></script>
+    <script type="text/javascript" src="/scripts/fieldglass_menu.va1a540a00598688f30b6af1d744b532a.js"></script>
+	<script type="text/javascript" src="/scripts/fcp_default.v8c3006b048bb7e8a6228b4c5f2ca693c.js"></script>
+	<script type="text/javascript" src="/scripts/calendar.v81c7890aa2d2935aaf08c1012c516817.js"></script>
+	<script type="text/javascript" src="/scripts/jquery/jquery.ui.va9f30ae1611a71053e4cfd86f0d636d9.js"></script>
+
+	 <script type="text/javascript">
+	 document.onmousedown = documnetOnMouseDown;
+	 window.onfocus = clearOpenMenuMode;
+	    if (!isIE){
+	        $.getScript("/scripts/firefoxScript.js");
+	    }
+	    $(function() {
+		    initBrowserLayout();
+		    initMenuLayout();
+	    });
+	</script>
+
+
+</head>
+
+
+<body class="layoutBase" onbeforeunload="beforeUnload()">
+
+<div id="main">
+    <div id="header" >
+			<div id="left">
+				
+				<span
+					style="font-size: 10pt; font-weight: bold; color: red; margin-left: 10px; display: inline-block; vertical-align: top; padding-top: 5px"></span>
+			</div>
+			
+			<div id="right">
+				
+			</div>
+		</div>
+
+    <!--HEADER END-->
+
+    <div id="oDownload" style="display:none"></div>
+    <!-- Fields for column resize  -->
+    <input id="widths" type="hidden">
+    <input id="listId" type="hidden">
+
+    <!-- MENU BAR -->
+    
+		
+
+
+
+
+
+
+
+<div class="mainMBar1 clearfix">
+<div class="mainMBar2 clearfix">
+<span class="mainMBar3"></span>
+<ul id="menuBarId" class="menu">
+           
+
+    
+    	<li class="menuLink" id="homeMenuTitle"><a href="/home.jsp" title="Home" aria-label="Home"></a></li>
+    	<li class="menuLink"><a href="/job_search_basic.do">Search</a></li>    	
+    	
+        <li class="menuLink fr registerBtn"><a href="/fcp_candidate_register_form-1.jsp">Register</a></li>
+        
+        
+        <li class="menuLink fr signIn"><a href="/login.jsp">Sign In</a></li>
+        
+    
+
+    
+    
+
+    
+</ul>
+</div>
+</div>
+
+    
+
+     <div class="printLine"></div> 
+
+<div class="detailPageWrap">
+<div class="badgeWrapper">
+<div class="badgeWrapperInner">
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+                    
+             
+			
+	
+			
+			
+                
+					
+			
+			
+			
+			
+
+            
+
+			
+
+            <ul id="listpanlink" class="clearfix emptyCell "><li class="listLink fl"><a   tabIndex="0" class="grayLink backIcon " href="/job_search_basic.jsp">Go to Search Results</a></li><li class="listLink fr"><a   tabIndex="0" class="printIcon" onmouseover="skipDisableButtons=true;" href="javascript:printDocument();">Print</a></li></ul><div class="badge clearfix">
+<h1><ul class="badgeHeader clearfix"><li class="titlehdr doc_job_posting">Open Job</li><li class="documentStyle">KAISJP00097463</li></ul></h1><h2 class="titleStyle">Business Analyst</h2><ul class="badgeList clearfix"><li><div class="label nobr">Status</div>
+ <div class="values ">Not Applied</div></li>
+<li><div class="label nobr">Next Step</div>
+ <div class="values ">Apply</div></li>
+<li><div class="label nobr">Posted On</div>
+ <div class="values "></div></li>
+<li><div class="label nobr">Job Type</div>
+ <div class="values ">Temporary Full Time</div></li>
+<li><div class="label nobr">Location Detail</div>
+ <div class="values ">Pasadena, CA USA</div></li>
+<li><div class="label nobr">Category</div>
+ <div class="values ">Business Professional</div></li>
+</ul></div>
+
+
+
+
+
+
+
+        
+
+<div  id="detailActionButtons">    
+	             
+	            
+               
+	         
+              
+                  
+                  
+                      
+                  
+              
+               
+              
+<!-- ACTIONS BAR -->
+<input type="button"   value="Apply" disabled="disabled" enableAfterLoad="yes" class="primaryButton" onclick="window.location.href = 'job_apply_forward_form.do?action=Apply&id=z1708251814057815649891a';" />
+<input type="button"   value="Email To Friend" disabled="disabled" enableAfterLoad="yes" class="formButton" onclick="manageModal('email_to_friend.do?id=','','width=520,height=400');" />
+<!--MENU END-->
+
+            </div>
+<span id="errorContainer"><span class="errorText" ></span></span>
+
+
+</div>
+</div>
+<div id="document" class="tabContent">
+
+</div>
+
+    <!--BODY START-->
+    <div class="contentWrapper">
+        
+    <table class="viewTable"  style="width:100%">
+    <colgroup>
+        <col width="50%" />
+        <col width="50%" />
+    </colgroup>
+    <tr>
+    <td>
+    
+    <h3><div class="left">Submitted Details</div></h3>
+    <table class="box" summary="Submitted Details" >
+        <colgroup>
+            <col width="50%">
+            <col width="50%">
+        </colgroup>
+          
+          
+          <tr>
+          
+              <td>Position Start</td>
+              <td>09/04/2017</td>
+          
+          
+      	</tr>
+      	
+         
+        </table>
+        
+    </td>
+    <td>
+	<h3>Description</h3>
+     <table class="box" summary="Description" >
+        <colgroup>
+            <col width="50%">
+            <col width="50%">
+        </colgroup>
+	    <tr>
+			<td colspan="4" class="detailsText">
+				<div id="jobBoardPostingDescription">
+			    	
+		    	</div>                        	
+             </td>
+		</tr>
+        
+        </table>
+        </td>
+        </tr>
+        
+
+  
+        
+        
+        <tr>
+        <td colspan ="2">
+        
+        					
+				    <h3><div class="left">Qualifications</div></h3>
+				    <table class="box" summary="Qualifications" >
+				        <colgroup>
+				            <col width="50%">
+				            <col width="50%">
+				        </colgroup>
+                    <tr>
+                            
+                                
+                                
+                                	
+                                    	
+<!-- Qualifications-->
+<script type="text/javascript" src="/scripts/quals.v65bc5dde304e3170bc03d1f48e6d31d7.js"></script>
+<tr>
+<th  class="subheaders">Qualification</th>
+<th class="subheaders">Rating</th></tr>
+<tr><th class="tertiaryHeader"  colspan="2">ATS &#x28;Admin&#x2f;BPC&#x29;</th></tr>
+<tr>
+<th scope="row" style="vertical-align:middle;background-color: #fff;border-bottom: 1px solid #e6e6e6;word-break:break-word" ><div title="Managing&#x20;a&#x20;quantitative&#x20;expression&#x20;of&#x20;a&#x20;plan&#x20;for&#x20;a&#x20;defined&#x20;period&#x20;of&#x20;time.&#x20;It&#x20;may&#x20;include&#x20;planned&#x20;sales&#x20;volumes&#x20;and&#x20;revenues,&#x20;resource&#x20;quantities,&#x20;costs&#x20;and&#x20;expenses,&#x20;assets,&#x20;liabilities&#x20;and&#x20;cash&#x20;flows."  >Budget Management</div></th>
+<td class="sectionQualCategory" style="vertical-align:middle;padding-top:0px; padding-bottom:0px;"><table class=" Rating noPrint " style="cursor:default"><tr id="qual_z1410151308190515931991e"><td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+</tr></table>&nbsp;
+<div class="noScreen">0 (No Familiarity) of 5 (Expert)</div> and <span title="years of experience">0 Yrs.</span></td></tr>
+<tr>
+<th scope="row" style="vertical-align:middle;background-color: #fff;border-bottom: 1px solid #e6e6e6;word-break:break-word" ><div title=""  >Business Requirements Management</div></th>
+<td class="sectionQualCategory" style="vertical-align:middle;padding-top:0px; padding-bottom:0px;"><table class=" Rating noPrint " style="cursor:default"><tr id="qual_z1410151307157283918591e"><td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+</tr></table>&nbsp;
+<div class="noScreen">0 (No Familiarity) of 5 (Expert)</div> and <span title="years of experience">0 Yrs.</span></td></tr>
+<tr>
+<th scope="row" style="vertical-align:middle;background-color: #fff;border-bottom: 1px solid #e6e6e6;word-break:break-word" ><div title="A&#x20;set&#x20;of&#x20;interrelated&#x20;desktop&#x20;applications,&#x20;servers&#x20;and&#x20;services,&#x20;collectively&#x20;referred&#x20;to&#x20;as&#x20;an&#x20;office&#x20;suite,&#x20;for&#x20;the&#x20;Microsoft&#x20;Windows&#x20;and&#x20;Mac&#x20;OS&#x20;X&#x20;operating&#x20;systems"  >Microsoft Office</div></th>
+<td class="sectionQualCategory" style="vertical-align:middle;padding-top:0px; padding-bottom:0px;"><table class=" Rating noPrint " style="cursor:default"><tr id="qual_z1410151300598145521791e"><td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+</tr></table>&nbsp;
+<div class="noScreen">0 (No Familiarity) of 5 (Expert)</div> and <span title="years of experience">0 Yrs.</span></td></tr>
+<tr>
+<th scope="row" style="vertical-align:middle;background-color: #fff;border-bottom: 1px solid #e6e6e6;word-break:break-word" ><div title=""  >Program Planning and Coordination</div></th>
+<td class="sectionQualCategory" style="vertical-align:middle;padding-top:0px; padding-bottom:0px;"><table class=" Rating noPrint " style="cursor:default"><tr id="qual_z1410151307582555339291e"><td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+</tr></table>&nbsp;
+<div class="noScreen">0 (No Familiarity) of 5 (Expert)</div> and <span title="years of experience">0 Yrs.</span></td></tr>
+<tr>
+<th scope="row" style="vertical-align:middle;background-color: #fff;border-bottom: 1px solid #e6e6e6;word-break:break-word" ><div title="The&#x20;maintenance&#x20;of&#x20;a&#x20;desired&#x20;level&#x20;of&#x20;quality&#x20;in&#x20;a&#x20;service&#x20;or&#x20;product,&#x20;especially&#x20;by&#x20;means&#x20;of&#x20;attention&#x20;to&#x20;every&#x20;stage&#x20;of&#x20;the&#x20;process&#x20;of&#x20;delivery&#x20;or&#x20;production."  >Quality Assurance</div></th>
+<td class="sectionQualCategory" style="vertical-align:middle;padding-top:0px; padding-bottom:0px;"><table class=" Rating noPrint " style="cursor:default"><tr id="qual_z1410151305598622687591e"><td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+</tr></table>&nbsp;
+<div class="noScreen">0 (No Familiarity) of 5 (Expert)</div> and <span title="years of experience">0 Yrs.</span></td></tr>
+<tr>
+<th scope="row" style="vertical-align:middle;background-color: #fff;border-bottom: 1px solid #e6e6e6;word-break:break-word" ><div title="Phase&#x20;of&#x20;the&#x20;software&#x20;testing&#x20;process.&#x20;During&#x20;UAT,&#x20;actual&#x20;software&#x20;users&#x20;test&#x20;the&#x20;software&#x20;to&#x20;make&#x20;sure&#x20;it&#x20;can&#x20;handle&#x20;required&#x20;tasks&#x20;in&#x20;real-world&#x20;scenarios,&#x20;according&#x20;to&#x20;specifications."  >User Acceptance Testing &#x28;UAT&#x29;</div></th>
+<td class="sectionQualCategory" style="vertical-align:middle;padding-top:0px; padding-bottom:0px;"><table class=" Rating noPrint " style="cursor:default"><tr id="qual_z1410151305171612274291e"><td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+<td class="" title="No Familiarity"></td>
+</tr></table>&nbsp;
+<div class="noScreen">0 (No Familiarity) of 5 (Expert)</div> and <span title="years of experience">0 Yrs.</span></td></tr>
+
+<!-- Qualifications End -->
+
+                                    
+                                
+                            
+                    </tr>
+                    </table>
+        </td>
+        
+        </tr>
+        
+          
+        
+    </table>
+    
+    </div>
+
+    <!-- BOTTOM MENU BAR -->
+    
+
+    <!-- ======================================================================== -->
+    <!-- MAIN END                                                                 -->
+    <!-- ======================================================================== -->
+    <div  id="disclaimer">
+        <div class="footerLeft"><div class="cl">Confidential and Proprietary Information of SAP America, Inc.<br/> <a href="/PrivacyPolicy.en_US.pdf" target="_blank">Privacy Policy</a> &nbsp;&nbsp;&nbsp; <a href="/TermsOfUse.en_US.pdf" target="_blank">Terms of Use</a> </div></div><div class="footerRight">SAP Fieldglass July 2017 | 02<br/>&copy; 2017 SAP SE or an SAP affiliate company. All rights reserved.</div>
+    <div class="cl"></div>
+    </div>
+
+</div>
+<div id="modalPanel" class="jqmWindow"></div>
+<div ID="calendar1"  style="display:none">
+    <div id='topCalFrame' ></div>
+    <div id='bottomCalFrame' ></div>
+</div>
+</div>
+</body>
+</html>
+
+ <script>
+    function manageModal(url, aguments, width, height) {
+        setAdditionalCallBack(manageModalCallBack);
+        fgShowModalDialog(url, aguments, width, height);
+
+    }
+    function manageModalCallBack(retValue){
+        window.location.href = "/job_posting.do?id="
+    }
+ </script>

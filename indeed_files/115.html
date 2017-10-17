@@ -1,0 +1,457 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.core.css">
+<link type="text/css" rel="stylesheet" href="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.theme.css">
+<link type="text/css" rel="stylesheet" href="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.datepicker.css">
+<link type="text/css" rel="stylesheet" href="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.dialog.css">
+
+
+<style type="text/css">
+
+    select:focus, a:focus {
+        outline: #1e90ff solid 2px
+    }
+
+    input[type=submit] {
+        background: #00438C;
+    }
+
+    input[type=button] {
+        background: #00438C;
+    }
+
+    input[type=submit]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=button]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=submit]:focus {
+        background: #1e90ff;
+    }
+
+    input[type=button]:focus {
+        background: #1e90ff
+    }
+
+    .ui-dialog .ui-dialog-buttonpane {
+        text-align: right;
+    }
+
+    .ui-dialog .ui-dialog-buttonpane button {
+        float: none;
+    }
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+        /*border: 1px solid #000;*/
+        /*}*/
+
+</style>
+
+
+
+<style type="text/css">
+    .alert-error {
+        color: #990000;
+        font-weight: bold;
+    }
+
+    td.top {
+        vertical-align: top !important;
+    }
+
+    td.left {
+        float: none;
+        text-align: left;
+    }
+
+    td.right {
+        float: none;
+        text-align: right;
+    }
+
+    .nowrapFormLabel {
+        white-space: nowrap;
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 120%
+    }
+
+    h2 {
+        font-size: 110%
+    }
+
+    h3 {
+        font-size: 100%
+    }
+
+    .hidden-accessibility-text {
+        position: absolute;
+        left: -2000px;
+        top: 0;
+        width: 1;
+        height: 1;
+        overflow: hidden;
+        font-size: 0.1em;
+    }
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+    .ofcc305table textfield, .ofcc305table select,
+    .ofcc305table input, .ofcc305table a {
+        font-size:12px !important;
+        font-family:Arial,sans-serif,Helvetica !important;
+    }
+
+    #cws-search-results th, #cws-job-alerts th {
+        border-top: #CCCCCC 2px solid;
+        border-bottom: #CCCCCC 2px solid;
+    }
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+        border-bottom: #CCCCCC 2px solid;
+        padding-bottom: 3px;
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="https://www.blackstone.com/favicon.ico" type="image/x-icon">
+
+	<link href="https://www.blackstone.com/css/bcom" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,800,700" rel="stylesheet">
+
+	<title>Careers at Blackstone</title>
+
+	<style>
+		.all-content {
+			width: 100%;
+			overflow-x: hidden;
+		}
+
+		input[type="submit"] {
+			background-color: #0098c3;
+			border-width: 0 !important;
+			padding: 5px 10px !important;
+			font-family: "Open Sans", sans-serif !important;
+			font-weight: 300 !important;
+			font-size: 16px !important;
+		}
+
+		#taleoContent > div > table:first-of-type > tbody > tr:first-of-type hr {
+			display: none;
+		}
+
+		.head1 {
+			font-family: Lora, serif;
+			font-weight: 400;
+			line-height: 1.1;
+			font-size: 30px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="all-content" id="mainWrapper">
+		<nav id="BXNavPlaceholder" data-host="https://www.blackstone.com"></nav>
+		<div id="taleoContent" class="containerBody">
+			<div id="N_8962512a-0e5a-41a3-bf80-7aa28acc1220"></div>
+
+			<div class="col-xs-12">
+<script type='text/javascript' src="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/tbe-basic-cws.js"></script>
+<script type='text/javascript' src="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/engine.js"></script>
+<script type='text/javascript' src="https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/interface/CwsDWRFacade.js"></script>
+<script type='text/javascript'> CwsDWRFacade._path = 'https://chc.tbe.taleo.net/chc01/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; </script>
+<script type="text/javascript">
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chc.tbe.taleo.net/chc01/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chc.tbe.taleo.net/chc01/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();</script>
+
+
+
+
+
+
+<table border=0 cellspacing=0 cellpadding=2 width='100%' role='presentation'>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'></td></tr><tr><td colspan=2><h1>Marketing Analyst</h1></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Location:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>New York</b></td>
+</tr>
+<tr>
+<tr><td colspan=2><hr width='100%' size='1' color='silver'></td></tr>
+<tr><td colspan=2><h1>Description</h1></td></tr>
+<tr><td colspan=2><p><strong>Marketing Analyst &ndash; Private Wealth Solutions</strong></p>
+
+<p>&nbsp;</p>
+
+<p><span style="font-family: times new roman , serif;"><span style="font-size: 12.0pt;">Employer: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Blackstone</span></span></p>
+
+<p style="margin-left: 2.0in;text-indent: -2.0in;"><span style="font-family: times new roman , serif;"><span style="font-size: 12.0pt;">Firm Overview: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Blackstone is one of the world&rsquo;s leading investment firms. We seek to create positive economic impact and long-term value for our investors, the companies we invest in, and the communities in which we work. We do this by using extraordinary people and flexible capital to help companies solve problems. Our asset management businesses, with over $370 billion in assets under management, include investment vehicles focused on private equity, real estate, public debt and equity, non-investment grade credit, real assets and secondary funds, all on a global basis. Further information is available at www.blackstone.com. Follow Blackstone on Twitter @Blackstone.</span></span></p>
+
+<p style="margin-left: 2.0in;text-indent: -2.0in;">&nbsp;</p>
+
+<p><span style="font-family: times new roman , serif;"><span style="font-size: 12.0pt;">Business Unit: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Private Wealth Solutions</span></span></p>
+
+<p><span style="font-family: times new roman , serif;"><span style="font-size: 12.0pt;">Job Title:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Marketing Analyst</span></span></p>
+
+<p style="margin-bottom: 1.0E-4pt;line-height: 15.6pt;"><span style="font-family: times new roman , serif;"><span style="font-size: 12.0pt;">Job Description:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p>
+
+<p style="margin: 0.0in 0.0in 1.0E-4pt 2.0in;line-height: normal;"><span style="font-family: times new roman , serif;"><span style="font-size: 12.0pt;">Private Wealth Solutions Group is a rapidly growing business within Blackstone focused on delivering Blackstone&rsquo;s suite of alternative investments to individual investors via financial intermediaries. </span></span></p>
+
+<p style="margin: 0.0in 0.0in 1.0E-4pt 2.0in;line-height: normal;">&nbsp;</p>
+
+<p style="margin: 0.0in 0.0in 1.0E-4pt 2.0in;line-height: normal;"><span style="font-family: times new roman , serif;"><span style="font-size: 12.0pt;">We are looking for a dedicated and energetic self-starter to join our marketing team who will be part of a small team in a fast-paced and entrepreneurial environment reporting to the head of Private Wealth Solutions Marketing. This position provides an opportunity to be an early entrant into a new and growing business and a chance to experience all aspects of the marketing cycle.&nbsp;&nbsp; </span></span></p>
+
+<p style="margin: 0.0in 0.0in 1.0E-4pt 2.0in;line-height: normal;">&nbsp;</p>
+
+<p style="margin: 0.0in 0.0in 1.0E-4pt 2.0in;line-height: normal;">&nbsp;</p>
+
+<p style="margin: 0.0in 0.0in 1.0E-4pt 2.0in;line-height: normal;"><u><span style="font-family: times new roman , serif;"><span style="font-size: 12.0pt;">Key responsibilities include:</span></span></u></p>
+
+<p style="margin: 0.0in 0.0in 1.0E-4pt 2.5in;line-height: normal;">&nbsp;</p>
+
+<ul>
+	<li><span style="font-family: times new roman , serif;">Owning monthly and quarterly product literature updates.</span></li>
+	<li><span style="font-family: times new roman , serif;">Work with partner firms (Wirehouses and IBDs) to ensure all collateral is approved and available.</span></li>
+	<li><span style="font-family: times new roman , serif;">Implement and perform regular product website updates and maintenance requests within given timelines, including use of Google Analytics. </span></li>
+	<li><span style="font-family: times new roman , serif;">Manage and execute marketing campaigns utilizing marketing automation (Pardot), Powerpoint Audiocasts (Brainshark) and CRM (Salesforce) platform to drive business growth across targeted financial advisor segments. </span></li>
+	<li><span style="font-family: times new roman , serif;">Assist in all aspects of executing client events and provide conference planning support.</span></li>
+</ul>
+
+<p style="margin-left: 2.0in;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p style="margin: 0.0in 0.0in 1.0E-4pt 2.0in;line-height: normal;"><span style="font-family: times new roman , serif;">Many of these tasks involve an extended process of input and approvals.&nbsp; The marketing analyst would need to coordinate across business units, Blackstone shared services and external partner firms to ensure accurate, targeted, and compliant execution.&nbsp; </span></p>
+
+<p style="margin: 6.0pt 0.0in 10.0pt 2.0in;text-indent: -2.0in;">&nbsp;</p>
+
+<p style="margin: 6.0pt 0.0in 10.0pt 2.0in;text-indent: -2.0in;"><span style="font-family: times new roman , serif;"><span style="font-size: 12.0pt;">Qualifications:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p>
+
+<p style="margin: 6.0pt 0.0in 10.0pt 2.0in;"><u><span style="font-family: times new roman , serif;"><span style="font-size: 12.0pt;">Qualified candidates will have:</span></span></u> <span style="font-family: times new roman , serif;"> <span style="font-size: 12.0pt;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p>
+
+<ul>
+	<li><span style="font-family: times new roman , serif;">Diligence in managing projects and a very strong attention to detail.</span></li>
+	<li><span style="font-family: times new roman , serif;">High degree of organization and ability to own an initiative from concept to completion.</span></li>
+	<li><span style="font-family: times new roman , serif;">Working knowledge and affinity for a variety of tech tools (MS Excel, Powerpoint, Brainshark, Salesforce, Pardot, InDesign, etc.).</span></li>
+	<li><span style="font-family: times new roman , serif;">Ability to work well in a fast paced and demanding environment of recurring and opportunistic projects.</span></li>
+	<li><span style="font-family: times new roman , serif;">Understanding of a financial intermediary business segment (home office, financial advisor) is a plus.</span></li>
+	<li><span style="font-family: times new roman , serif;">Excellent academic credentials with one to two years of work experience, preferably at an asset management firm or a financial services sector.</span></li>
+</ul>
+
+<p style="margin: 6.0pt 0.0in 10.0pt 2.0in;text-indent: -2.0in;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<p><span style="font-family: times new roman , serif;"><span style="font-size: 12.0pt;">All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, age, disability, sexual orientation, national origin or any other category protected by law.&nbsp;</span></span></p></td></tr>
+</tr>
+<tr>
+<tr><td class='left'><br>
+<form action='https://chc.tbe.taleo.net/chc01/ats/careers/apply.jsp;jsessionid=A622A6CA886CB833C7C945350464532B?org=BLACKSTONE&cws=1&rid=5008' method='post' name='apply'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='org' value='BLACKSTONE'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='_csrf' value='v1:;1507571673795:;jnesu3dFq1FjjhGBGJa0Y8xePwzbBLdqL/osr65PSmg=' /><input type='submit' name='tbe_cws_submit' value='Apply for this Position' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="6"></form></td>
+</td>
+<td align='right' colspan=1><br>
+</td></tr>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br></td>
+</tr>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'>
+<h1><span class='head1'>Are you a returning applicant?</span></h1></td>
+</tr>
+<tr>
+<form action='https://chc.tbe.taleo.net/chc01/ats/careers/applyModal.jsp;jsessionid=A622A6CA886CB833C7C945350464532B?org=BLACKSTONE&cws=1' method='post' name='TBE_theForm'>
+<input type='hidden' name='org' value='BLACKSTONE'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='rid' value='5008'>
+<input type='hidden' name='currentTime' value='1507571673795'>
+<input type='hidden' name='signature' value='wErKo3yq1exB7u2aRZimxB09QjcWk9r4X4CvBGTux3E='>
+<input type='hidden' name='et' value='CAND'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='_csrf' value='v1:;1507571673795:;jnesu3dFq1FjjhGBGJa0Y8xePwzbBLdqL/osr65PSmg=' /><tr><td colspan=2>
+<table border=0 cellpadding=2 cellspacing=0 role="presentation"><tr>
+<td nowrap colspan=2>Previous Applicants:</td>
+</tr>
+<tr>
+<td nowrap align='right'><label for='email'>Email:</label></td>
+<td class='nowrap'><input type='text' id='email' name='email' maxlength=50 autocomplete='off' tabindex='18'></td>
+</tr>
+<input type='text' style='display:none'>
+<input type='password' style='display:none'>
+<tr>
+<td nowrap align='right'><label for='cwsPassword'>Password:</label></td>
+<td class='nowrap'><input type='password' id='cwsPassword' name='cwsPassword' maxlength=30 autocomplete='off' tabindex='19'></td>
+</tr>
+<tr><td nowrap colspan=2>
+<input type='submit' name='tbe_cws_submit' value='Add to My Jobs' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="20"></td></tr>
+<tr><td nowrap colspan=2><br>
+If you do not remember your password <a href='https://chc.tbe.taleo.net/chc01/ats/careers/forgotID.jsp?org=BLACKSTONE&cws=1' tabIndex='21'>click here</a>.<br><br></td></tr>
+</table>
+</td></tr></form>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='24' href='https://chc.tbe.taleo.net/chc01/ats/careers/searchResults.jsp;jsessionid=A622A6CA886CB833C7C945350464532B?org=BLACKSTONE&cws=1' title='Back to Search Results' >Back to Search Results</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='25' href='https://chc.tbe.taleo.net/chc01/ats/careers/jobSearch.jsp;jsessionid=A622A6CA886CB833C7C945350464532B?org=BLACKSTONE&cws=1&rid=5008' title='New Search' >New Search</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br><div align='right'><img src='https://tbe.taleo.net/graphics/Taleo_powered_by_small.gif' alt='Powered By Taleo' border='0'></div><br><br></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        //jQuery Calendar
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+    </script>
+
+</div>
+	</div>
+
+	<footer>
+		<div class="sf_cols footer-bottom row containerBody">
+			<div class="sf_colsOut col-sm-3">
+				<div class="sf_colsIn sf_2cols_1in_25">
+					<img title="Blackstone" src="https://www.blackstone.com/images/default-source/assets/logos/blackstone-logo.png?sfvrsn=2&MaxWidth=100&MaxHeight=&ScaleUp=false&Quality=High&Method=ResizeFitToAreaArguments&Signature=2F77EE56AD241C5D7EA85958A59B7216B2784612" alt="Blackstone">
+				</div>
+			</div>
+			<div class="sf_colsOut col-sm-9 col-xs-12 footer-bottom-text">
+				<div class="sf_colsIn sf_2cols_2in_75">
+					<div class="sfContentBlock">
+						<div class="copyright">
+							&copy; <span id="copyYear">2016</span> The Blackstone Group L.P.
+						</div>
+
+						<span class="footer-cont">
+							<a href="/transparency-disclosure">Transparency &amp; Disclosure</a> |
+							<a href="/legal">Legal</a> |
+							<a href="/privacy">Privacy</a> |
+							<a href="/cookie-notice">Cookie Notice</a> |
+							<a href="/japanese-disclaimer">Japan Disclaimer</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://www.blackstone.com/js/navinject.js"></script>
+	<script>
+		var _NavJSInit = NavJS.init;
+		NavJS.init = function () {
+			$('.bx-navbar .search-dropdown').replaceWith('<li><a href="https://www.blackstone.com/search"><i class="fa fa-search"></i></a></li>');
+			_NavJSInit();
+		}
+	</script>
+</body>
+</html>
+
+
+

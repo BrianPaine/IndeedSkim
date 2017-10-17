@@ -1,0 +1,910 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+  <html>
+    <head>
+      <title>Paysbig</title>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+      <link rel="stylesheet" href="styles.css">
+      <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,300italic,400italic' rel='stylesheet' type='text/css'>
+      
+<script language="JavaScript">
+<!--
+ var clientGC; 
+ var clientRUGC; 
+ var canGC; 
+ var clientRUGC; 
+ clientRUGC = 'UA-42758025-2'; 
+ canRUGC = 'UA-42758025-1'; 
+ var isNS = ( navigator.appName.indexOf( "Netscape" ) != -1 );
+ var isCr = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+ var isFF4 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/4' ) != -1 );
+ var isFF5 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/5' ) != -1 );
+ var isFF6 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/6' ) != -1 );
+ var isFF7 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/7' ) != -1 );
+ var isFF8 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/8' ) != -1 );
+ var isFF9 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/9' ) != -1 );
+ var isFF10 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/10' ) != -1 );
+ var isFF11 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/11' ) != -1 );
+ var isFF12 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/12' ) != -1 );
+ var isFF13 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/13' ) != -1 );
+ var isFF14 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/14' ) != -1 );
+ var isFF15 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/15' ) != -1 );
+ var isFF16 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/16' ) != -1 );
+ var isFF17 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/17' ) != -1 );
+ var isFF18 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/18' ) != -1 );
+ var isFF19 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/19' ) != -1 );
+ var isFF20 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/20' ) != -1 );
+ var isFF21 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/21' ) != -1 );
+ var isFF22 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/22' ) != -1 );
+ var isFF23 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/23' ) != -1 );
+ var isFF24 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/24' ) != -1 );
+ var isFF25 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/25' ) != -1 );
+ var isFF26 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/26' ) != -1 );
+ var isFF27 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/27' ) != -1 );
+ var isFF28 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/28' ) != -1 );
+ var isFF29 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/29' ) != -1 );
+ var isFF30 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/30' ) != -1 );
+ var isFF31 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/31' ) != -1 );
+ var isFF32 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/32' ) != -1 );
+ var isFF33 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/33' ) != -1 );
+ var isFF34 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/34' ) != -1 );
+ var isFF35 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/35' ) != -1 );
+ var isFF36 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/36' ) != -1 );
+ var isFF37 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/37' ) != -1 );
+ var isFF38 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/38' ) != -1 );
+ var isFF39 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/39' ) != -1 );
+ var isFF40 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/40' ) != -1 );
+ var isFF4plus = isFF4 || isFF5 || isFF6 || isFF7 || isFF8 || isFF9 || isFF10 || isFF11 || isFF12 || isFF13 || isFF14 || isFF15 || isFF16 || isFF17 || isFF18 || isFF19 || isFF20 || isFF21 || isFF22 || isFF23 || isFF24 || isFF25 || isFF26 || isFF27 || isFF28 || isFF29 || isFF30 || isFF31 || isFF32 || isFF33 || isFF34 || isFF35 || isFF36 || isFF37 || isFF38 || isFF39 || isFF40;
+ var keyFilter = [9, 37, 38, 39, 40];
+ function selectAll(txt) {
+   txt.select();
+   txt.focus();
+ }
+ function keyHandler(evnt, max) {
+  var str = (isNS)?evnt.target.value:evnt.srcElement.value;
+  var key = (isNS)?evnt.which:evnt.keyCode;
+  var name = (isNS)?evnt.target.name:evnt.srcElement.name;
+  if (isProcessKeyType(key)) {
+   if (str.length >= max) {
+    var esize = document.forms[0].elements.length;
+    for (i=0; i<esize; i++) {
+    if (name == document.forms[0].elements[i].name) {
+      break;
+     }
+    }
+    var ndx = i+1;
+    while (ndx != i) {
+     if ((document.forms[0].elements[ndx].type != 'submit') && (document.forms[0].elements[ndx].type != 'hidden')) {
+      break;
+     }
+     ndx++;
+     if (ndx >= esize) {
+      ndx = 0;
+     }
+    }
+    document.forms[0].elements[ndx].focus();
+   }
+  }
+ }
+ function isProcessKeyType(key) {
+   for (i=0; i<keyFilter.length; i++) {
+     if (key == keyFilter[i])
+       return false;
+   }
+   return true;
+ }
+ function widget(evt) {
+  var img = (isNS)?evt.target:evt.srcElement;
+  var x = (isNS)?evt.pageX-img.x:evt.offsetX;
+  var y = (isNS)?evt.pageY-img.y:evt.offsetY;
+  var hstr = img.src; 
+  hstr = hstr.substring(0, hstr.indexOf("keep=keep")+9); 
+  time = new Date(); 
+  tstr = new String(time.getTime()); 
+  img.src = hstr+"&time="+tstr+"&x="+x+"&y="+y; 
+ }
+ function optionndx(img) { 
+   var h = new String(img.height); 
+   for (i=0; i<document.forms[0].elements.length; i++) { 
+     if (img.id==document.forms[0].elements[i].name) { 
+       document.forms[0].elements[i].value = h.substring(h.length-1, h.length); 
+     } 
+   } 
+ } 
+ 
+ function check_all(field) { 
+   if(!field.length) { 
+     field.checked = true; 
+   } 
+   for (i = 0; i < field.length; i++) { 
+     field[i].checked = true; 
+   } 
+ } 
+ 
+ function uncheck_all(field) { 
+   if(!field.length) { 
+     field.checked = false; 
+   } 
+   for (i = 0; i < field.length; i++) { 
+     field[i].checked = false; 
+   } 
+ } 
+ 
+ function setTimeOffsetVars (Link) { 
+   z = new Date(); 
+   Minutes = z.getTimezoneOffset(); 
+   Hours = Minutes / 60; 
+   Link.href = Link.href + "&tohours=" + Hours + "&tominutes=" + Minutes; 
+   return true; 
+ } 
+ 
+<!-- Image Preloader - takes an array of images to preload --> 
+function preloadImages( imgArray ) { 
+  var tmpImageList = new Array (); 
+  for (counter in imgArray) { 
+     tmpImageList[counter] = new Image(); 
+     tmpImageList[counter].src = imgArray[counter]; 
+  } 
+} 
+        function menuHoverToggle(t) {            st = t.src;            start = st.indexOf("_select.gif");            if (start > 0) {                  st = st.substring(0, start);                  st = st+".gif";                  t.src = st;            } else {                  start = st.indexOf(".gif");                  if (start > 0) {                        st = st.substring(0, start);                        st = st+"_select.gif";                        t.src = st;                  }            }         } 
+function textAreaRestrict(tac, rs) {
+  var cname=tac.name+".tacounter";
+  var ta = window.document.getElementById(cname);
+  var cnt = tac.value.length;
+  if (cnt >= rs) {
+     tac.value = tac.value.substring(0, rs);
+     ta.style.background="#FF1111";
+  } else {
+     ta.style.background="#EEEEEE";
+  }
+  ta.innerHTML=cnt+' of '+rs;
+}
+function initComponentAjax(url) { 
+var componentReq; 
+  if (window.XMLHttpRequest) { 
+     componentReq = new XMLHttpRequest(); 
+  } else if (window.ActiveXObject) { 
+     componentReq = new ActiveXObject('Microsoft.XMLHTTP'); 
+  } 
+  componentReq.open('POST', url, true); 
+  componentReq.onreadystatechange =  
+function componentRequest() { 
+  if (componentReq.readyState == 4) { 
+      if (componentReq.status == 200) { 
+           var changeId = componentReq.getResponseHeader("changeId"); 
+           var urlstr = componentReq.responseText;  
+           var tarNode = window.document.getElementById(changeId); 
+           if(changeId) { 
+             if(changeId.indexOf('client') != -1) { 
+               if(clientGC) { 
+					       _gaq.push(['_setAccount', clientGC]); 
+					       _gaq.push(['_trackPageview', changeId]); 
+                 if(clientRUGC) { 
+                   _gaq.push(['b._setAccount', clientRUGC]);
+                   _gaq.push(['b._trackPageview', changeId]);
+                 } 
+               } 
+             } else if((changeId.indexOf('content') != -1)||(changeId.indexOf('internal') != -1)) { 
+               if(canGC) { 
+					       _gaq.push(['_setAccount', canGC]); 
+					       _gaq.push(['_trackPageview', changeId]); 
+                 if(canRUGC) { 
+                   _gaq.push(['b._setAccount', canRUGC]);
+                   _gaq.push(['b._trackPageview', changeId]);
+                 } 
+               } 
+             } 
+           } 
+           if(isNS) { 
+               var newNode = tarNode.cloneNode(false); 
+               newNode.innerHTML='<span style="display:none;">a</span>'+urlstr; 
+               tarNode.parentNode.replaceChild(newNode, tarNode); 
+               if(isCr || isFF4plus || isNS) { 
+                   var scripts = newNode.getElementsByTagName('script'); 
+                   for(i=0; i<scripts.length; i++) { 
+                       window[ "eval" ].call( window, scripts[i].innerHTML ); 
+                   } 
+               } 
+           } else { 
+               var newNode = tarNode.cloneNode(false); 
+               tarNode.parentNode.replaceChild(newNode, tarNode); 
+               newNode.innerHTML='<span style="display:none;">a</span>'+urlstr; 
+                   var scripts = newNode.getElementsByTagName('script'); 
+                   var i = 0; 
+                   for(i=0; i<scripts.length; i++) { 
+                       window[ "eval" ].call( window, scripts[i].innerHTML ); 
+                   } 
+           } 
+      } 
+  } 
+} 
+  componentReq.send(null); 
+} 
+var ajReq; 
+function initInstAjax(url) { 
+  if (window.XMLHttpRequest) { 
+     ajReq = new XMLHttpRequest(); 
+  } else if (window.ActiveXObject) { 
+     ajReq = new ActiveXObject('Microsoft.XMLHTTP'); 
+  } 
+  ajReq.open('POST', url, true); 
+  ajReq.onreadystatechange = function() { 
+     if (ajReq.readyState == 4) { 
+        if (ajReq.status == 200) { 
+          if (ajReq.responseText.length > 0) { 
+             var instPkg = eval( "(" + ajReq.responseText + ")" );  
+             for(idx in instPkg.elements) { 
+                 var element = instPkg.elements[idx]; 
+                 window.document.getElementById(element.id).innerHTML = element.html; 
+             } 
+             for(idx in instPkg.fields) { 
+                 var field = instPkg.fields[idx]; 
+                 window.document.getElementById(field.name).value = field.value; 
+             } 
+          } 
+        } 
+     } 
+  } 
+  ajReq.send(null); 
+} 
+function initInstAjaxWithPagin(url) { 
+  if (window.XMLHttpRequest) { 
+     ajReq = new XMLHttpRequest(); 
+  } else if (window.ActiveXObject) { 
+     ajReq = new ActiveXObject('Microsoft.XMLHTTP'); 
+  } 
+  ajReq.open('POST', url, true); 
+  ajReq.onreadystatechange = function() { 
+     if (ajReq.readyState == 4) { 
+        if (ajReq.status == 200) { 
+          if (ajReq.responseText.length > 0) { 
+             var instPkg = eval( "(" + ajReq.responseText + ")" );  
+             for(idx in instPkg.elements) { 
+                 var element = instPkg.elements[idx]; 
+                 window.document.getElementById(element.id).innerHTML = element.html; 
+             } 
+             for(idx in instPkg.fields) { 
+                 var field = instPkg.fields[idx]; 
+                 window.document.getElementById(field.name).value = field.value; 
+             } 
+if(typeof toppaginationscript === 'function') { 
+toppaginationscript(); 
+} 
+if(typeof bottompaginationscript === 'function') { 
+bottompaginationscript(); 
+} 
+          } 
+        } 
+     } 
+  } 
+  ajReq.send(null); 
+} 
+function getData(urlval,modal,title)  {
+ var myModal = $('#'+modal);
+ modalBody = $('#'+modal+' .modal-body');
+ modalTitle = $('#'+modal+' .modal-header .modal-title');
+ modalTitle.html(title);
+ modalBody.html("<p style='font-style:italic;text-align:center;padding:10px;'>Loading data..</p>");
+ modalBody.load(urlval);
+ myModal.modal('show');
+ }
+function formPop(url) {
+   var body = document.getElementsByTagName("body")[0];
+   var div = document.createElement("div");
+   var closer = document.createElement("closer");
+   closer.style.position = "absolute";
+   var yloc = body.scrollTop+20;
+   yloc = yloc+"px";
+   closer.style.top = yloc;
+   closer.style.left = "30px";
+   closer.style.width = "800px";
+   closer.style.height = "20px";
+   closer.style.textAlign = "right";
+    if (document.all) {
+          div.style.filter = "alpha(opacity:95)";
+    } else {
+          div.style.opacity = "0.95";
+    }
+    closer.style.backgroundImage="url(images/icons/nav_bar.gif)";
+    closer.style.backgroundRepeat="repeat-x";
+    closer.innerHTML="<b>X</b>&nbsp;&nbsp;";
+   closer.style.fontSize = "14px";
+   closer.style.fontStyle = "italic";
+   closer.style.color="#680000";
+   closer.style.fontFamily = "franklin gothic medium,georgia,verdana";
+   div.style.position = "absolute";
+   yloc = body.scrollTop+40;
+   yloc = yloc+"px";
+   div.style.top = yloc;
+   div.style.left = "30px";
+    if (document.all) {
+          div.style.width = "800px";
+    } else {
+          div.style.width = "775px";
+    }
+   div.style.height = "600px";
+   div.style.margin = "0px 0 0 0px";
+   div.style.border = "3px ridge #EEEEEE";
+   div.style.padding = "10px";
+    if (document.all) {
+          div.style.filter = "alpha(opacity:95)";
+    } else {
+          div.style.opacity = "0.95";
+    }
+   div.style.backgroundColor = "#CCCCCC";
+   div.style.fontSize = "12px";
+   div.style.lineHeight = "12px";
+   div.style.textAlign = "center";
+   div.style.overflow = "auto";
+    div.id = "formpopparent";
+   body.appendChild(closer);
+   body.appendChild(div);
+    initComponentAjax(url);
+   closer.onclick = function(e) {
+    if (isNS) {
+      body.removeChild(closer);
+    } else {
+      closer.outerHTML=" ";
+    }
+    var newDiv = document.getElementById('formpopparent'); 
+    body.removeChild(newDiv);
+   }
+};
+function printIt() { 
+  var printReadyElem = document.getElementById("printFormat"); 
+  var docframe = document.getElementById("printFrame"); 
+  if (printReadyElem != null && docframe != null) { 
+   var html = '<HTML><HEAD>'; 
+   var headTags = document.getElementsByTagName("head"); 
+   if (headTags.length > 0) { 
+    html += headTags[0].innerHTML; 
+   } 
+   html += '</HEAD><BODY>'; 
+   html += printReadyElem.innerHTML; 
+   html += '\n</BODY>\n</HTML>'; 
+   var printWin = docframe.contentWindow.document; 
+   printWin.open(); 
+   printWin.write(html); 
+   printWin.close(); 
+   var isIE = (navigator.userAgent.toLowerCase().indexOf( "msie" ) != -1 );
+   if(isIE) { 
+    docframe.contentWindow.document.execCommand('print', false, null);  
+   } else {
+    docframe.contentWindow.focus(); 
+    docframe.contentWindow.print(); 
+   } 
+ } 
+} 
+function bootstrapPrintIt() { 
+ var divContents = document.getElementById("myModalPopulate").getElementsByClassName("modal-body")[0].innerHTML; 
+ var printWindow = window.open(); 
+ printWindow.document.write('<html><head>'); 
+ printWindow.document.write('<style>'); 
+ printWindow.document.write('@page{margin:0px auto;}'); 
+ printWindow.document.write('</style>'); 
+ printWindow.document.write('</head><body >'); 
+ printWindow.document.write(divContents); 
+ printWindow.document.write('</body></html>'); 
+ printWindow.document.close(); 
+ printWindow.print(); 
+} 
+function bootstrapPrintItById(modalId) { 
+ var divContents = document.getElementById(modalId).getElementsByClassName("modal-body")[0].innerHTML; 
+ var printWindow = window.open(); 
+ printWindow.document.write('<html><head>'); 
+ printWindow.document.write('<style>'); 
+ printWindow.document.write('@page{margin:0px auto;}'); 
+ printWindow.document.write('</style>'); 
+ printWindow.document.write('</head><body >'); 
+ printWindow.document.write(divContents); 
+ printWindow.document.write('</body></html>'); 
+ printWindow.document.close(); 
+ printWindow.print(); 
+} 
+var TIMEOUT = 1 /* seconds */* 1000;
+var winPosX, winPosY;
+var winPosTime = new Date().getTime();
+function logWindowClickPos(e) {
+   winPosX = 0;
+   winPosY = 0;
+   if (!e) var e = window.event;
+   if(e) {
+      if (e.pageX || e.pageY) {
+         winPosX = e.pageX;
+         winPosY = e.pageY;
+      }
+      else if (e.clientX || e.clientY) {
+         winPosX = e.clientX + document.body.scrollLeft
+           + document.documentElement.scrollLeft;
+         winPosY = e.clientY + document.body.scrollTop
+           + document.documentElement.scrollTop;
+      }
+   }
+   winPosTime = new Date().getTime();
+   if(typeof(console) !== 'undefined') {
+      console.log('logWindowClick: '+winPosTime);
+   }
+}
+function warningCheck(e, warnMsg) {
+   var leaving = false;
+   now = new Date().getTime();
+   var posx = 0;
+   var posy = 0;
+   if (!e) var e = window.event;
+   if (e.pageX || e.pageY) {
+      posx = e.pageX;
+      posy = e.pageY;
+   }
+   else if (e.clientX || e.clientY) {
+      posx = e.clientX + document.body.scrollLeft
+        + document.documentElement.scrollLeft;
+      posy = e.clientY + document.body.scrollTop
+        + document.documentElement.scrollTop;
+   }
+    var isClick = false;
+   // works for IE, but not FF
+   // clicked X, back, forward, reload, or home
+   if (posy < 0) {
+      leaving = true;
+   }
+   // works for FF, but not IE
+   if(winPosTime + TIMEOUT > now) {
+      isClick = true;
+   }
+   if(leaving || !isClick) {
+      return warnMsg;
+   }
+}
+-->
+</SCRIPT>
+
+<script>
+var _gaq = _gaq || [];
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+
+</script>
+
+      <!--[if lt IE 9]>
+      <link rel="stylesheet" href="ie.css">
+      <script src="javascript/html5.js"></script>
+      <script src="dist/js/respond.js">
+      </script>
+      <![endif]-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
+      </script>
+      <script src="dist/js/bootstrap-paginator.js">
+      </script>
+      <script type="text/javascript">
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+      Date();a=s.createElement(o),
+
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js
+      ','ga');
+
+      ga('create', 'UA-11866965-1', 'auto', {'allowLinker': true});
+      ga('send', 'pageview');
+      setTimeout("ga('send', 'event', '15_seconds', 'read');",15000);
+      </script>
+    </head>
+    <body>
+      <div class="container-fluid">
+        <header class="row">
+          
+
+
+<div class="bs-navbar">
+    <div class="container">
+        <nav role="navigation" class="navbar navbar-default">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a href="http://www.paysbig.com" target="_blank" class="navbar-brand hidden-xs"><img src="images/potowatomi_logo.png" class="img-responsive"/></a>
+                <a href="http://www.paysbig.com" target="_blank" class="navbar-brand visible-xs" id="mobileLogo"><img src="images/potowatomi_logo.png"/></a>
+            </div>
+            <!-- Collection of nav links and other content for toggling -->
+            <div id="navbarCollapse" class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="AppJobSearch.jsp">Job Search</a>
+                    </li>
+					 <li>
+                        <a href="AppJobList.jsp?op=reset">View All Positions</a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#helpModal">Help</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="HRLogix.app">Login</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+<div id="helpModal" class="modal fade bs-help-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Help</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+    <div class="col-lg-12" style="padding: 24px 24px 0 24px;">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Frequently Asked Questions</div>
+            <div class="panel-body">
+                <ul>
+                    <li><a href="#q1" class="regularlink">Trouble cutting and pasting your resume in to the window provided</a></li>
+                    <li><a href="#q2" class="regularlink">Resume doesn't look like it will fit within the text box provided</a></li>
+                    <li><a href="#q3" class="regularlink">Using HTML when formatting your resume within the text box</a></li>
+                    <li><a href="#q4" class="regularlink">Targeting your job search </a></li>
+                    <li><a href="#q5" class="regularlink">Selecting more than one choice in a list box</a> </li>
+                    <li><a href="#q6" class="regularlink">Printing your resume </a></li>
+                    <li><a href="#q7" class="regularlink">Changing your username and password </a></li>
+                    <li><a href="#q8" class="regularlink">How your Job Spy works</a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12" style="padding: 24px;">
+        <div class="panel panel-primary">
+            <div class="panel-heading"></div>
+            <div class="panel-body">
+                <table border="0" cellspacing="0" cellpadding="0" width="100%" style="padding-left: 30px">
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/question.gif" width="24" height="21"></td>
+                        <td width="93%"><b><a name="q1"></a>Trouble cutting and pasting your resume into the window provided</b></td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/answer.gif" width="22" height="20"></td>
+                        <td width="93%">
+                            <ol style="line-spacing: 2em">
+                                <li>Copy the resume from your text document (example: MS Word) by opening/viewing the document and selecting Edit - Select All from the menu bar, then Edit, Copy.</li>
+                                <li>Go back to the enrollment page where you want to paste the resume.</li>
+                                <li>Click into the Resume text box. You will see your curser blinking in the box.</li>
+                                <li>Go to the menu bar at the top of the browser and select Edit, Paste.  This will put the resume into the text area.</li>
+                                <li>View what you have pasted and make sure it is visible within the limits of the box</li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/question.gif" width="24" height="21"></td>
+                        <td width="93%"><b><a name="q2"></a>Resume doesn't look like it will fit within the text box provided</b></td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/answer.gif" width="22" height="20"></td>
+                        <td width="93%">
+                            How your resume looks in the text box is not necessarily how it will look when an employer views it. Be sure to align the bullets, tabs and spacing to ensure a well-formatted view for the recruiters.<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/question.gif" width="24" height="21"></td>
+                        <td width="93%"><b><a name="q3"></a>Using HTML when formatting your resume within the text box</b></td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/answer.gif" width="22" height="20"></td>
+                        <td width="93%">
+                            Do not use HTML when submitting your resume. Your resume will be viewed by recruiters with widely varying screen dimensions, including Palm Pilots. Your resume might be converted into straight ASCII text and imported into a database or resume management software.<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/question.gif" width="24" height="21"></td>
+                        <td width="93%"><b><a name="q4"></a>Targeting your job search</b></td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/answer.gif" width="22" height="20"></td>
+                        <td width="93%">
+                            <p>You can fine tune your job search by using specific keywords in the Keyword Search. If these keywords are in any part of a job, the search will return those jobs.
+                            <p>
+                            Example keywords: marketing, business administration <br>
+                            These words will result in job descriptions that include either marketing or business administration or both.
+                            </p>
+                            <p>
+                            Example: Business Administration <br>
+                            These words together result in job descriptions that include both words in the order you type them in.
+                            </p>
+                            <p>
+                            Example: Business Administration and marketing and entry level <br>
+                            These words result in job descriptions that include all of these words.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/question.gif" width="24" height="21"></td>
+                        <td width="93%"><b><a name="q5"></a>Selecting more than one choice in a list box</b></td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/answer.gif" width="22" height="20"></td>
+                        <td width="93%">
+                            To select multiple choices in a drop down box, hold down the <b>CTRL</b> ("Control") key while clicking the options with the mouse. Use the <b>SHIFT</b> key if you're using a Macintosh.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/question.gif" width="24" height="21"></td>
+                        <td width="93%"><b><a name="q6"></a>Printing your resume</b></td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/answer.gif" width="22" height="20"></td>
+                        <td width="93%">
+                            When you are reviewing your resume, click into that frame.  From your browser's menu, select 'File' and 'Print - only selected frame.'
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/question.gif" width="24" height="21"></td>
+                        <td width="93%"><b><a name="q7"></a>Changing your username and password</b></td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/answer.gif" width="22" height="20"></td>
+                        <td width="93%">
+                            You will not be able to change your username or password.  If you lose your password, you can click on the "Forgot Password" button next to the password box on the login page.  If you have forgotten your username, you will need to register again.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="20" colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/question.gif" width="24" height="21"></td>
+                        <td width="93%"><b><a name="q8"></a>How your Job Spy work</b></td>
+                    </tr>
+                    <tr valign="top">
+                        <td width="7%"><img src="images/icons/answer.gif" width="22" height="20"></td>
+                        <td width="93%">
+                            Routinely, your Job Spy will search the job database. If a new job has been added that contains your Job Spy criteria, that job will be emailed to you! Enter the keywords that a job should contain in the "Keyword(s)" box. Create a memorable name for your Job Spy.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+        </header>
+        <div class="container">
+          <section>
+            
+
+
+
+
+
+
+
+
+
+
+<form class="form-horizontal" method="POST" action="JobView.app">
+        <input type="hidden" name="formToken" value="507571581|2B15F28D07D6A1F2458534070C408163"> 
+            
+<style>
+h4{
+	display: inline;
+}
+.content a{
+	text-decoration: none;
+}
+ .content li{
+ 	line-height: 24px;
+ 	margin: 0 0 .75em 3em;
+}
+</style>
+<br />
+<div class="row">
+        <div class="col-md-4">
+            <div class="bs-callout bs-callout-primary boxshadow">
+                <table class="jv-details" border="0" width="100%">
+                    <tr>
+                        <td class="jv-details-def first">Type of Position</td>
+                        <td class="first">
+                            <table border="0"><tr><td width="100" valign="top"><label class="labelDef" for="job_type" ></label></td><td width="200"><span  class="labelDef"  > Full-Time</span></td></tr></table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="jv-details-def">Category</td>
+                        <td>
+                            <table border="0"><tr><td width="100" valign="top"><label class="labelDef" for="category" ></label></td><td width="200"><span  class="labelDef"  > Accounting</span></td></tr></table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="jv-details-def">Shift</td>
+                        <td>
+                            <table border="0"><tr><td width="100" valign="top"><label class="labelDef" for="shift" ></label></td><td width="200"><span  class="labelDef"  > Days</span></td></tr></table>
+                        </td>
+                    </tr>
+					 <tr>
+                        <td class="jv-details-def">Pay Rate</td>
+                        <td>
+                            <table border="0"><tr><td width="100" valign="top"><label class="labelDef" for="payrate" ></label></td><td width="200"><span  class="labelDef"  > Based on experience</span></td></tr></table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="visible-lg visible-md visible-sm">
+                <div class="addthis_sharing_toolbox text-center">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <h1 class="jv-h1">
+            <span  class="labelDef"  > Data Analyst</span>
+            </h1>
+
+            <p>
+            <h3 class="jv-h3">Description:</h3>
+            <table><tr><td><label class="labelDef" for="external_desc" ></label></td></tr><tr><td width="800"><span  class="labelDef"  > <p>Potawatomi Hotel &#38; Casino (PH&#38;C), owned by the Forest County Potawatomi tribe, is one of the most comprehensive, state-of-the-art entertainment properties in the Midwest, including slot machines, table games, poker tables, bingo, off-track-betting, a theater, event center, award-winning restaurants, full-service catering, and a luxury hotel, with a variety of business meeting and special occasion venues.&#160; In addition to being the premier entertainment destination in the Midwest, PH&#38;C sets the bar high for responsible citizenship through its dedication to charitable giving, responsible gambling, and sustainability.&#160;&#160;</p>
+
+<p>&#160;</p>
+
+<p>PH&#38;C operates on growth-oriented Mission, Vision, and Values statements that emphasize providing opportunities, being the premier entertainment destination in the Midwest, and most importantly, acting with integrity in everything that we do.&#160; While carrying out the job duties listed below, the Data Analyst contributes to our continued business success by providing unsurpassed guest service, personal and professional dedication to our Mission, Vision, and Values, and demonstrating a high level of integrity and ethical standards.&#160;&#160;&#160;</p>
+
+<p>&#160;</p>
+
+<p><u><strong>Principal Duties and Responsibilities (*Essential Functions)</strong></u></p>
+
+<ol>
+	<li>*Generate and analyze routine and ad hoc reports using Microsoft Structured Query Language (SQL) for Financial Planning and Analysis department and other internal customers.</li>
+	<li>*Manipulate, problem solve, and analyze large data sets using Microsoft Excel and SQL server.&#160;</li>
+	<li>*Maintain data standards and structure by producing validation and quality assurance reports to ensure data quality and consistency.</li>
+	<li>*Identify, analyze, and interpret trends or patterns in complex data sets.</li>
+	<li>*Gather and interpret business requirements from detailed data and process model perspectives/visualization dashboards.</li>
+	<li>*Work closely with other internal departments and resources to provide and analyze data to support organizational growth and identify areas of improvement. Acts as a resources to Accounting and other business partners.</li>
+	<li>Perform job duties in full compliance with departmental Internal Controls, policies, procedures, and regulations.</li>
+	<li>Perform other duties as assigned.</li>
+</ol>
+</span></td></tr></table>
+            </p>
+            <p>
+            <h3 class="jv-h3">Requirements:</h3>
+            <table><tr><td><label class="labelDef" for="requirements" ></label></td></tr><tr><td width="800"><span  class="labelDef"  > <ol>
+	<li>A Bachelor&#8217;s degree in information systems, business, economics or related field and 2 years of related experience; or an Associate&#8217;s degree in Information Technology and certification in Data Base Administration plus 4 years of related experience; or a certification as a Microsoft Certified Solutions Associate (MCSA) plus 4 years of related experience are required.</li>
+	<li>Previous experience using SQL Server 2014 or higher version, relational databases, and DataStage or similar Extract Transform and Load ( ETL) tools are required.</li>
+	<li>Previous experience in data mining techniques and procedure.</li>
+	<li>Office skills must include the ability to use standard office equipment and proficiency in Microsoft Word and Outlook.&#160; Advanced knowledge of Excel required.&#160; Accounting software knowledge preferred.&#160;</li>
+	<li>The ability to maintain discretion in handling confidential information.</li>
+	<li>The ability to work irregular hours and extended shifts including late nights, early mornings, weekends, and holidays.</li>
+	<li>The ability to interact with guests and team members at all levels of the organization professionally, including the ability to speak in front of small groups.</li>
+	<li>While performing the duties of this job, the team member must be able to talk, hear, operate a personal computer, and move freely throughout the office and property. Specific vision abilities required by this job include close vision, distance vision, peripheral vision, depth perception, and the ability to adjust focus.</li>
+</ol>
+
+<p>&#160;</p>
+
+<p><u><strong>Working Conditions</strong></u><br />
+The noise level is usually moderate. When on the casino floor, the noise level increases. The facility is not smoke free.</p>
+
+<p>&#160;</p>
+
+<p><u><strong>Disclaimer</strong></u><br />
+The above statements are intended to describe the general nature and level of work being performed by people assigned to this job.&#160; They are not intended to be an exhaustive list of all qualifications, responsibilities, duties, and skills required.</p>
+</span></td></tr></table>
+            </p>
+        </div>
+    </div>
+    <br />
+            <div class="row">
+                <div class="col-md-11">
+                    
+                    <div class="text-center visible-xs">
+                        <input class="btn btn-primary btn-lg btn-block" type="submit" value="Apply for this Job">
+                        <a class="btn btn-primary btn-lg btn-block" href="AppJobSearch.jsp">Return to Search</a>
+                    </div>
+					
+					<div class="text-center visible-lg visible-md visible-sm">
+                        <input class="btn btn-primary" type="submit" value="Apply for this Job">
+                        <a class="btn btn-primary" href="AppJobSearch.jsp">Return to Search</a>
+                    </div>
+					
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+            <div>
+                <input type="HIDDEN" name="nextPage" value="AppQuestion.jsp"/>
+                <input type="HIDDEN" name="errPage" value="AppJobView.jsp"/>
+                <input type="HIDDEN" name="screenInPage" value="AppScreenIn.jsp"/>
+            
+			</form>
+
+          </section>
+        </div>
+      </div>
+      <br />
+      <br />
+      
+
+<footer class="footer">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+		  <a href="http://www.paysbig.com/site-map/" target="_blank">site map</a>
+		   <span class="fatpipe">|</span>
+            <a href="http://www.paysbig.com/privacy-policy/" target="_blank">privacy Policy</a>
+			 <span class="fatpipe">|</span>
+			 <a href="http://www.paysbig.com/terms-and-conditions/" target="_blank">terms &amp; conditions</a>
+            <p>&copy;2017 Symphony Talent. All Rights Reserved.</p>
+        </div>
+		 <div class="col-lg-8"></div>
+    </div>
+</div>
+</footer>
+
+
+
+      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-549aeae11d2a1deb" async="async">
+      </script>
+      <script src="dist/js/bootstrap.min.js">
+      </script>
+	 <script src="javascript/placeholder.js"></script>
+    </body>
+  </html>

@@ -1,0 +1,2064 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#">
+
+<head id="Head1"><meta http-equiv="X-UA-Compatible" content="IE=5,IE=7,IE=8,IE=9,IE=edge,chrome=1" /><link href="App_Themes/DefaultTheme/Validation.css" type="text/css" rel="stylesheet" /><meta name="DCSdir.ClearVars" content="WT.z_minime, WT.z_ssc, WT.z_jt, WT.jid, WT.z_captcha, WT.z_caploc, WT.z_errors, WT.z_category, WT.z_country, WT.oss, WT.z_jobType, WT.z_jobId, WT.z_sessionId, WT.z_tileOrTab, WT.z_refPage" />
+    <script type="text/javascript" src="/js/LocalizedScript.axd"></script>
+    <script type="text/javascript" src="Js/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="Js/modernizr-2.8.3.js"></script>
+    <script type="text/javascript" src="Js/main.min.js"></script>
+    <script type="text/javascript" src="Js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="Js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Js/jquery-2.1.3.intellisense.js"></script>
+    <script type="text/javascript" language="javascript" src="/Js/jquery.min.js"></script>
+    <script type="text/javascript" language="javascript" src="/Js/jquery-ui.min.js"></script>
+    <script type="text/javascript" language="javascript" src="/Js/Notification.js"></script>
+    <script type="text/javascript" language="javascript" src="/Js/wt.js"></script>
+    <script type="text/javascript" language="javascript" src="/Js/WTMS.js"></script>
+    <script type="text/javascript" language="javascript" src="/js/CommonService.js"></script>
+    <script type="text/javascript" language="javascript" src="Js/AlertsWin7.js"></script>
+
+    <link type="text/css" rel="Stylesheet" href="/Css/Shell.css?v=16.0.0.7" /><link href="/Css/Hip.css" rel="stylesheet" type="text/css" /><link href="/Css/webfonts.css" rel="stylesheet" type="text/css" /><link href="Css/site.css" rel="stylesheet" type="text/css" /><link href="Css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <title>Microsoft Careers:&nbsp;My job details</title>
+
+
+    <style>
+        .notificationAnchor {
+            color: #1D6893 !important;
+            text-decoration: none !important;
+        }
+
+            .notificationAnchor:hover {
+                text-decoration: underline !important;
+            }
+
+            .notificationAnchor:link, .notificationAnchor:visited, .notificationAnchor:active {
+                text-decoration: none !important;
+            }
+
+        #FeedbackPane {
+            -moz-transform: rotate(270deg);
+            -ms-transform: rotate(270deg);
+            -o-transform: rotate(270deg);
+            -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+            position: fixed;
+            right: -22px;
+            top: 50%;
+            z-index: 1;
+        }
+
+        #close_feedback:hover {
+            cursor: pointer;
+        }
+
+
+        .btnfeedback {
+            width: 91px !important;
+            background-color: #0072c6;
+            color: white !important;
+            height: 26px;
+            font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+            font-size: 0.75rem;
+            border: 1px solid #0072c6;
+            padding: 6px 12px 6px 12px;
+        }
+
+            .btnfeedback:hover {
+                border: 1px solid #0072c6 !important;
+                background-color: #CDE6F7 !important;
+                color: #1A1A1A !important;
+                font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+                font-size: 12px;
+                text-decoration: none !important;
+            }
+
+            .btnfeedback:focus {
+                background-color: #003593 !important;
+                color: white !important;
+                border: 1px solid #0072c6;
+                font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+                font-size: 12px;
+            }
+
+            .btnfeedback:active {
+                background-color: #92B7D1 !important;
+                border: 1px solid #0072C6 !important;
+                color: #1A1A1A !important;
+                font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+                font-size: 12px;
+            }
+
+        a.skip-main {
+            left: -999px;
+            position: absolute;
+            top: auto;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            z-index: -999;
+        }
+
+            a.skip-main:focus, a.skip-main:active {
+                color: #0072c6;
+                left: auto;
+                top: auto;
+                width: 14%;
+                height: auto;
+                overflow: auto;
+                margin: 10px 35%;
+                margin-left: 0px;
+                padding: 5px;
+                text-align: left;
+                font-size: 1.2em;
+                z-index: 999;
+            }
+    </style>
+<link href="Css/LanguageBar.css?v=15.4.5.3" rel="stylesheet" type="text/css" /><link href="Css/TabControl.css?v=15.4.5.3" rel="stylesheet" type="text/css" /><link href="Css/ApplyPopup.css?v=15.4.5.3" rel="stylesheet" type="text/css" /><link href="Css/ModalPopup.css?v=15.4.5.3" rel="stylesheet" type="text/css" /><link href="Css/JobDetails.css?v=15.4.5.3" rel="stylesheet" type="text/css" /><link href="Css/EmailFriendControl.css?v=15.4.5.3" rel="stylesheet" type="text/css" /><link href="Css/ApplyPopup.css?v=15.4.5.3" rel="stylesheet" type="text/css" /><link href="Css/AffirmativeAction.css?v=15.4.5.3" rel="stylesheet" type="text/css" /><title>
+
+</title></head>
+<body id="BodyTag">
+    <script type="text/javascript">
+        function RedirectToRP(url, showPopup) {
+            var phenomRedirectURL = 'https://jobsbeta.microsoft.com/authenticate/social/sso';
+            var authTypeId = '';
+            var authTypeName = '';
+            if (authTypeId) {
+                authTypeName = 'Anonymous';
+                if (authTypeId == 1 && authTypeName == 'Windows Live')
+                    authTypeName = (authTypeName.split(" "))[1];
+            }
+            else
+                authTypeName = '';
+            if (showPopup) {
+                var title = "Please note:";
+                var message = "You’ve selected a job opening featured within the beta version of our new Global Careers site. You can review your currently selected job description and complete your application, however, you’ll want to return to our <a href='javascript:void(0)' Title='Closes Popup' id='popupExistingEGCLink' class='notificationAnchor' onclick='ClosePhenomRedirectPopup()'>current site</a> to search for additional jobs.</br>For accessibility support, please contact <a href='mailto:askgta@microsoft.com' Title='Opens mail client' id='popupMailtoLink' class='notificationAnchor'>Microsoft Disability Recruiting Team</a>.";
+                RedirectAlert(title, message, url, authTypeName, phenomRedirectURL);
+            }
+            else
+            {
+                var form = $('<form action="' + phenomRedirectURL + '" method ="post" >');
+                form = form.append('<input type="hidden" name="sendAfterAuthURL" value="' + url + '"/>');
+                if (authTypeName != null && authTypeName != '')
+                    authTypeName = authTypeName.toLowerCase();
+                form = form.append('<input type="hidden" name="authType" value="' + authTypeName + '" /></form>');
+                form = form.appendTo('body').submit().remove();
+            }
+        }
+        function ClosePhenomRedirectPopup()
+        {
+            $('#alert2').dialog("destroy");
+            setFlagForInternalLinks("body"); ManageDivs("false");
+        }
+        jQuery(function ($) {
+            var focusedElementId = "";
+            var prm = Sys.WebForms.PageRequestManager.getInstance();
+            prm.add_beginRequest(function (source, args) {
+                var fe = document.activeElement;
+                if (fe != null) {
+                    var count = 0;
+                    focusedElementId = fe.id;
+                }
+                else {
+                    focusedElementId = "";
+                }
+            });
+
+            prm.add_endRequest(function (source, args) {
+                if (focusedElementId != "") {
+                    if (focusedElementId == "ContentPlaceHolder1_srSearch_search_btnSearch") {
+                        var wrapperTable = document.getElementById('wrapperTable');
+                        if (wrapperTable == null) {
+                            var pagerClass = $(".pager:eq(0)");
+                            var spanLabel = $("#ContentPlaceHolder1_srSearchResults_lblSearchResultMessage");
+                            if (pagerClass != null && spanLabel != null && spanLabel.text() != "") {
+                                pagerClass.focus();
+                            }
+                            else
+                                $("#" + focusedElementId).focus();
+                        }
+                    }
+                    else
+                        $("#" + focusedElementId).focus();
+                }
+            });
+        });
+
+        function HideModalPopup() {
+            $find("mpe").hide();
+            return false;
+        }
+
+        function CheckEmptyLinks() {
+            var controls = document.getElementsByTagName("a");
+            for (var i = 0; i <= controls.length - 1; i++) {
+                var aControlHref = controls[i];
+                if (aControlHref.href != "undefined" && aControlHref.href != "" && aControlHref.href.toString().indexOf('emptyLink') > 0) {
+                    aControlHref.disabled = "disabled";
+                }
+            }
+        }
+        var routeFocusControlNumber = 0;
+        var elivateFocusToControl = 0;
+        $(document).ready(function () {
+            $.each($(".Control_Link"), function (i, elem) {
+                if ($(elem).attr("id").indexOf("lnkMobileSite") > -1) {
+                    $(elem).hide();
+                }
+            });
+            $('.header-container .clearfix #site-brand a').attr('title', 'Microsoft Website');
+            $('.header-container .clearfix #site-brand a').addClass('microsoftlogo');
+            //$('.header-container .clearfix div h1 a').attr('tabIndex', 0);
+            $('.header-container .clearfix div h1 a').removeAttr('title');
+            $('.header-container .clearfix div h1 a').removeClass('microsoftlogo');
+            $("#close_feedback1").focus();
+            routeFocusControlNumber = 0;
+            elivateFocusToControl = 0;
+
+        });
+
+        function getElevateControlNamebyNum(objNum) {
+            if (objNum == 0) {
+                return focusedElementId;
+            }
+            else if (objNum == 1) {
+                return 'ContentPlaceHolder1_ResumeUpload1_resumeUpload_btnOk';
+            }
+            else if (objNum == 2) {
+                return 'ContentPlaceHolder1_ResumeUpload1_resumeUpload_btnCancel';
+            }
+            else {
+                return focusedElementId;
+            }
+        }
+    </script>
+
+    <script type="text/JavaScript">
+        var varAutoFirePV = 1;
+        var varClickTracking = 1;
+        var varCustomerTracking = 1;
+        var Route = '54694';
+        var Ctrl = 'SD200';
+        document.write("<script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js'" + "'><\/script>");
+    </script>
+
+    <a id="lnkSkipToMain" class="skip-main" href="#shellcontent">Skip to main content</a>
+
+    <form method="post" action="./jobdetails.aspx?jid=323221&amp;job_id=1074402&amp;utm_source=indeed&amp;show_desc=0" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+                function OnYesClick() {{
+                    document.forms[0].step.value = '2';
+                    $('#apply_divSubmissionSource, .AffirmativeWrapper, .applyHip, .applyFooter').show();
+                    $('.ReadyMessage, .applyFooterPre').hide();
+                }}
+                function ApplyPopupHide() {{
+                    var behavior1 = $find('savedJobs_mpeApplyPopup');
+                    var behavior2 = $find('mpeApplyPopup');
+                    if (behavior1) {{
+                        behavior1.hide();
+                    }}
+                    if (behavior2) {{
+                            behavior2.hide();
+                    }}
+            
+                }}//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=P1hbt2YNJmCnBWeln7nN4ipLPPDRmatGCDJOOOSo7Tnfe6ZLUKkFoS2__yDQ8ZdXkMNn6UkKRU3OZfYbCZLwojHY6XQdeYMAR0hvOjI80x514KWTHmbaQnufhOIc_cVxMk5HUHHmhhM_x87UTqNbDC7f2OQ1&amp;t=ffffffffd416f7fc" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=ioRBDdJLyIAyGpW4gqaMtjpwpKNUG-tXpcljiN96mV_B5_b1Mo0R2OCx8oL9By5WVrFm8Du1D2bpFTXu6ZGRu9DTf51FXMeFKN7AkM6aRgZ4PGULHuryIgdZfdJRoHyebhy9B0X3zMWvYm9NndG7la78QH7ki3xgwSUhBgRjxLYlXX7XwnrLt5Ehji5f3_bX-RzV_JzJXeeEYjTcjF6WUIMoC_GEABLRu5h3QjyHtA4HBpjT0" type="text/javascript"></script>
+<script src="Js/Common.js" type="text/javascript"></script>
+<script src="Js/AlertsWin7.js" type="text/javascript"></script>
+<script src="js/LocalizedScript.axd/JobDetails" type="text/javascript"></script>
+<script src="Js/SaveJobsHelper.js" type="text/javascript"></script>
+<script src="Js/ApplyWebTrend.js" type="text/javascript"></script>
+<script src="Js/HIP.js" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=YzG-cTrPl8vAFEUKyQDbJoxdl3QJOHCWkQy3EKIgnCRXTvYqqgWUee6ELhwZHa8jwT9KfSlWfegRlfQWlMymfQyhN7v_pStjV1VBXhRlTI-thEdg1nYYwwwGCDAw96189gzS7UBB0lzQdQ4ATyT1Oh8oqNc1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=SRDefxFjTjWVKUCI_yxxtaE1ZpgLbwxzE3_vNRYUyRIxs0HULer6FYr0GXbhH5RnuaAufRnlrvLhXK2t7oybV85cHJkuETdi_y8XsWK5mhpWBaU2aLOccFJHunHCxIDcls4YDhWVfDJVmMnlkYoptxERSWw1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=6bVMJ3U2TJTXQ-UlfAhbJ85P7C5fMXn6dF4NdQ1ysjjcKU6T_WNJRA05Yn_MyyLAv3XnrX10GSZAYPhh2nWF8Vsr58ByQk62RGRXpJVgESNpXFJIJ02MA8oi16swtesuTJMkZNOLCIuegxYF2luRleb6BbvPo8eOtSrvpkf5iJM5UpyQ0&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=Y7TKwqvUKR146htG9l75-qCMQhFdI7w3NtTKRpL-ma0n-gTgsa8bqljfX2UGs2SNjJkn_7v2CznUbG7mtvhxlWPBeuaOU27ln86rLx0v6NZ4Bz-ejG7Ml2QARlTQek_suyzl0javbuDQqqXm6fYVDetz9Os1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=LHVuJ-So3_ooM06KEBsFYBMLg2XX9QFz3HvPkR-0Xzu8YSHUOWaInjAukkkJ-7Mg5y9vd3phhxJnFg8BFrcEUr7AgWgRwQh9IG0Vk7YYooi3qaIBG6z7MrEh8a0oFdUhjmCcnn3stbYEX35co0fRwtXmwRI1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=JRHl1RWw-stA8WptHI9xsUnJaRnp6Jn2rdPm6IwRRxfFS4OiELlGVXHQmNdYQwlBkf9za4h62SX5MwWLumv-i5rd8xG01N-C_nlqO6-4PXYlt9asTfhyOjA8eC-oN2AGsHt6nHJjZfy4p-_YHtMPpJjUxC0IHoh5Ub5_T5bEAN3P1wPQ0&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=KakquwbnrEScbV94Wz_XNkNSe5Rqi9wl4xZYepzv8MdCsxUFeYHFuNxNbmTP0uai2TWFTBLKrFGScXsDHSPLGR-W3qb7LAp2KQKt7Li1wUtx69M2JuVnCoZjq5wmEeFYTLzyFOZmsPAB0rEFwcD1h6jNP2zMUcDlehYvDsbY5-OsAnNI0&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=3hiGzGYaysETO8S-ueYlYkmhpI3ZNYqO4JHKPCLT6_-A3Y_iIZJ4O5SOFqW0-Wl9krMsV26Xrp3uli3SeAVh2zr2DllKHEHGxreLNzjzxz37Dc25lwabfpuM--n3aMLNbIb8f21cZO6TvcFGJESLqlklgRtnzzxqkQ6oN2WEKpPOjeiU0&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=DYEB9G9yaAnVCEq2vvWQ6UwcqLI3Ezhmf7PqSElvHSj1yOQIBce-TzXuU21OMwxDpPpjKeGePpx0AwwZjFyKL3vjmywT1PYNbEyM9sqOlTCu4GOGVLER6OsNS30ziq05zYzF3GrIZpcAW756K_GPe6wMGOMJW7qEHjdg6vFTzWNVTHpb0&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=0sZKMcLtQKIRz8dtijIFpC063LW5Mm7CyujeJPlIOucKbzaWY-R2LkebZ4OansjXNXv8RSvHjuqcfrnYdW55QrBleyK3ud4_XEt_y0MmXv2wsNEKiNESV11wN6640zijoAhbwRoi5E0Y11yIVeJEQDfs5PA1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=_nxn0h723Y4zkYUVdOJvS57ouJvFz2M711GdvwwcHBWhr8TmMIRd7bj-XQZLGXYCHmtDCPkQuRac3QdLM44ndZv7aX-OQnb7K4HNOnStGVTqlZN_i-FzOE_W7c7j5wSbKWqHbgQYm_9kCnDJRCRBR6WocYQ1&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=H0iXkw7mJDzHoS2q6xivPEHrg7aRHrIomYiV5waFQaLWztoL5WCcGkIWXr6qEVmKccH-5HU5n5ukRCdMVG7u9oSgvQWhBHCdtpq8mHLQSF-UQvaWatZgL0evrY9rnl078_U5tTFvZmaFYkhp3Td6O8sJrTQk5evQjVVXb66AdHo8J1cY3uYjZnT2zncQpWHiNzZfDA2&amp;t=ffffffff9b7d03cf" type="text/javascript"></script>
+<script src="WCFServices/MiniMeService.svc/js" type="text/javascript"></script>
+<script src="WCFServices/LanguageBarService.svc/js" type="text/javascript"></script>
+<script src="WCFServices/CommonService.svc/js" type="text/javascript"></script>
+<script src="WCFServices/JobService.svc/js" type="text/javascript"></script>
+<script src="WCFServices/SavedJobService.svc/js" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="381E3E59" />
+<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="GU8aG8uUjObOLFrw1DP1p1DpTLsVXyvw6uwKE7D+YUkEXJ/rQhZ58hSPLmTNS0xz8j58sy5IPOSF/3zjjdwH7j3ZZHaPuYW70quVdBzc65ioTbMviXiB5z3yHFeRuVLRU3SixTYFGBbZkyj4ZPXRJ44v+XY3ga/h79e6H2VpgZfHIsYEynFJ96G/4WZO/o0N9uWNtJdhsbjq1WDh1S0/5YRGtHDLhMr8i3/zVXZFDvkRKT7YMgDQVf7S3qSFXuIHKbRYlO3XZPmwqMDD2aMiBQOfR3h3NkHq5ON3NQ+6yrjdSJuV4+YMmG4vKhhAIUDX4SsA861Nu5f8xS57+RYRFd0yjBgKw/vNKB3Nm6Xq8kCcZ38kLYVQj9J8bUMPbUQ0K0h80HtisVck5ZWfFcOT3RRqYXgZ9r86GgR3FdF7p7EYEnvhnJfOI33hBwCLl99UORsk8/w4EJAnGIWceZUNEewsOvHWJXSJWEI2bi1Lw7OV0rVFxFDGV1AIbl9uSu0qs8lrmV/mOnUcD6l2m4KPBwwZwMnM7Wjgw3huii7S0Wq+RwXNilkfVR66tymXjkPGmN0l1i5G6q4wwQYcEE2M5CS0+cbb+KDvG8/ON0GlY/LYRh+wj5BidAYynSka1lqcaufCDZGWuK7Z4XtmD9x5Mk3okbnSm5b+0Z5fmrT2KySureXAO1GaBCqNxQmnl8jeyhc6qGOsBG9uTOzzAKL7AOnSLvtRJMVrwh726Gsdz22kDxgUaBYe16toZnfsXZMT3UoqiUIQ9vo0+ht0T9oZVJ9zwmVYCZJAYuScXHAbEbHUdsrkx891VSJr078EQjrga623u114yo/Vaa0V9v7qT0PPbmiUPT5g7NrLBxN4KcXtlhRNTWF66JtMQVmaZXC8BUjKghB5pXiEt8n+M6YLn0HYdNKI7odcLR9K3Dzsoyyn6Pe4PXVNkXgRxrgvNKGO9ltx8h+roQXnAOgTTmsdSMI7tf+rkHoyhmPv7RupIVa2XgKNRCzro/nBgxEHmnNZhyHwQ2BSIAMsCzpZmvtw1QaitsCW8sXdwbUqnfWq6q9VaQ1h0bwJQ9VIYlrm5E9qGxA10aEGHRxXMAGVgQ7vxewGsoQ=" />
+        <input type="hidden" name="ctl00$smGlobalCareers" id="smGlobalCareers" />
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.setServerId("smGlobalCareers", "ctl00$smGlobalCareers");
+Sys.Application._enableHistoryInScriptManager();
+//]]>
+</script>
+
+        <script>
+            host_name = 'https://' + 'careers.microsoft.com';
+            js_lang = 'en'
+        </script>
+        <script type="text/javascript">
+            createTagObject('dcsriiqi600000s5zc34hhdwc_2h1h');
+            _tag.WT.z_prid = SetProfileID();
+        </script>
+
+        <div id="pageBgTop" class="wrapper">
+            <header class="navbar" ms.pgarea="Header">
+                <div class="container" style="border-bottom: 0px !important;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <div class="navbar-brand">
+                                    <a href="http://www.microsoft.com" target="_blank" ms.title="Microsoft logo"><img width="94" height="20" class="logo" alt="Microsoft logo" src="/content/images/header_microsoft_logo.png"></a>
+                                    <span class="site-title"> <a href="/" ms.title="Microsoft Careers">Microsoft Careers</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            
+<script type="text/javascript" language="javascript">
+    
+    $(function () {
+    var callBackSocioLib = function (SocioLibProfileResult) {
+        if (SocioLibProfileResult.AuthenticationTypeId != "0"
+            && SocioLibProfileResult.AuthenticationTypeId != null
+            && SocioLibProfileResult.AuthenticationTypeId != ""
+            && 'False' != 'True') {
+
+            $("#LanguageBar_imgAuth").attr("src", window.location.protocol + '//' + window.location.hostname + '/' + SocioLibProfileResult.AuthenticationImageURL);
+            $("#LanguageBar_imgAuth").attr("alt", SocioLibProfileResult.AuthenticationTypeName);
+            $("#LanguageBar_imgAuth").attr("title", SocioLibProfileResult.AuthenticationTypeName);
+
+            $("#authicontype").css("display", "block");
+            $("#firstname").css("display", "block");
+            $("#authicontype").css("margin-top", "1px");
+
+            $('#LanguageBar_lnkFirstName').text("Hi " + SocioLibProfileResult.ProfileName);
+            $('#LanguageBar_lnkFirstName').removeClass('LangBarHeadingSignin');
+            $('#LanguageBar_lnkFirstName').addClass('Aftersignin');
+            $('#LanguageBar_pnlSigned').removeClass('hidden');
+            $('#LanguageBar_pnlSigned').removeClass('hidden1');
+            $('#LanguageBar_pnlUnSigned').addClass('hidden');
+            $('#LanguageBar_pnlSigned').attr('visible', true);
+            $('#LanguageBar_pnlUnSigned').attr('visible', false);
+            $('.header-container .clearfix #site-brand a').attr('title', 'Microsoft Website');
+            $('.header-container .clearfix #site-brand a').addClass('microsoftlogo');
+
+            $('.header-container .clearfix div h1 a').removeAttr('title');
+            $('.header-container .clearfix div h1 a').removeClass('microsoftlogo');
+        }
+        else {
+            $("#LanguageBar_master_LoginOptionsControl_LiveIdLogin_LogoButton").css("display", "none");
+
+            $("#signouthidd").css("display", "none");
+            $("#ctl00_LanguageBar_lnkFirstName").css("display", "none");
+            $("#ctl00_LanguageBar_lnkSignOut").css("display", "none");
+            $("#LanguageBar_lnkFirstName").css("display", "none");
+            $("#LanguageBar_lnkSignOut").css("display", "none");
+            $("#ctl00_LanguageBar_imgAuth").css("display", "none");
+            $("#LanguageBar_imgAuth").css("display", "none");
+
+            $('#LanguageBar_pnlUnSigned').removeClass('hidden');
+
+            $('#LanguageBar_pnlUnSigned').attr('visible', true);
+
+            $('.header-container .clearfix #site-brand a').attr('title', 'Microsoft Website');
+            $('.header-container .clearfix #site-brand a').addClass('microsoftlogo');
+
+            $('.header-container .clearfix div h1 a').removeAttr('title');
+            $('.header-container .clearfix div h1 a').removeClass('microsoftlogo');
+        }
+
+        if ('False' == 'True') {
+            window.location.href = window.location.href.split('?')[0];
+        }
+    };
+        
+        $("#LanguageBar").LanguageBar({
+            LBWaitTime: 1000,
+            LBCloseTime: 250,
+            LBServiceTime: 250,
+            LBImagePath: '/Images/',
+            LBCSPContentPath: ''
+        });
+    });
+
+    function setDiscard(boolValue) {
+        if (typeof (_resumeFlag) != 'undefined')
+            _resumeFlag = boolValue;
+        if (typeof (_profileFlag) != 'undefined')
+            _profileFlag = boolValue;
+    }
+
+    $(document).ready(function () {
+        $('#LanguageBar_btnCancelSignIn').click(function () {
+            if (window.loginOptionCancelClick && typeof window.loginOptionCancelClick === "function") {
+                try {
+                    loginOptionCancelClick($(this));
+                } catch (e) { }
+            }
+        })
+    });
+
+    $(document).ready(function () {
+        $("#divDummy").html($("#labelMessage").html());
+        var divheight = $("#divDummy").height();
+        var lineheight = $("#divDummy").css('line-height').replace("px", "");
+        var lines = Math.round(divheight / parseInt(lineheight));
+        if (lines > 2) {
+            $('#pnlLoginOptions').find('#space').css("height", "14px");
+            $('#space').css("height", "14px");
+            $('#space2').css("height", "14px");
+        }
+
+        $('html').click(function (e) {
+            if (e.target.id == 'LanguageBar_imgLBMyProfile' || e.target.id == 'LanguageBar_imgLBGear') {
+                if ($('#ProfileOptionsPopup').is(":hidden")) {
+                    $(lbSettings.LBProfileOptionsPopup).show();
+                }
+            }
+            else {
+                $('#ProfileOptionsPopup').hide();
+                $(".imgLangBar").css("border", "1px solid white");
+                $(".gearmargin").css("border", "1px solid white");
+            }
+        });
+
+        $(document).keyup(function (e) {
+            if (e.keyCode == 27) {
+                if ($('#ProfileOptionsPopup').is(":visible")) {
+                    $('#ProfileOptionsPopup').hide();
+                    $(".imgLangBar").css("border", "1px solid #1a1a1a");
+                    $(".gearmargin").css("border", "1px solid #1a1a1a ");
+                }
+            }
+        });
+
+        function onFocus(element) {
+            $(element).removeClass('blurcolor');
+            $(element).addClass('focuscolor');
+        }
+
+        function onBlur(element) {
+            $(element).removeClass('focuscolor');
+            $(element).addClass('blurcolor');
+        }
+
+        $("#profileli a").focus(function () {
+            onFocus("#profileli");
+        });
+        $("#profileli a").blur(function () {
+            onBlur("#profileli");
+        });
+
+        $("#applyhistory a").focus(function () {
+            onFocus("#applyhistory");
+        });
+        $("#applyhistory a").blur(function () {
+            onBlur("#applyhistory");
+        });
+
+        $("#helpcenter a").focus(function () {
+            onFocus("#helpcenter");
+        });
+        $("#helpcenter a").blur(function () {
+            onBlur("#helpcenter");
+        });
+
+        $("#jobalerts a").focus(function () {
+            onFocus("#jobalerts");
+        });
+        $("#jobalerts a").blur(function () {
+            onBlur("#jobalerts");
+        });
+
+        $("#jobwatchlist a").focus(function () {
+            onFocus("#jobwatchlist");
+        });
+        $("#jobwatchlist a").blur(function () {
+            onBlur("#jobwatchlist");
+        });
+
+        $("#recommendedjobs a").focus(function () {
+            onFocus("#recommendedjobs");
+        });
+        $("#recommendedjobs a").blur(function () {
+            onBlur("#recommendedjobs");
+        });
+
+        $("#resumes a").focus(function () {
+            onFocus("#resumes");
+        });
+        $("#resumes a").blur(function () {
+            onBlur("#resumes");
+        });
+
+        $("#signouthidd a").focus(function () {
+            onFocus("#signouthidd");
+        });
+        $("#signouthidd a").blur(function () {
+            onBlur("#signouthidd");
+        });
+    });
+
+        $(document).ready(function () {
+            $("div#Geardiv a").focus(function () {
+                $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                $(document).keyup(function (e) {
+                    if (e.keyCode == 13 && e.target.id == 'LanguageBar_imgLBMyProfile') {
+                        if ($('#ProfileOptionsPopup').is(":hidden")) {
+                            $('#ProfileOptionsPopup').show();
+                            $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                            $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                        }
+                        else {
+                            $('#ProfileOptionsPopup').hide();
+                            $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                            $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                        }
+                    }
+                });
+                $(document).keydown(function (e) {
+                    if (e.keyCode == 13 && e.target.id == 'LanguageBar_imgLBMyProfile') {
+                        if ($('#ProfileOptionsPopup').is(":hidden")) {
+                            $('#ProfileOptionsPopup').show();
+                            $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                            $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                        }
+                        else {
+                            $('#ProfileOptionsPopup').hide();
+                            $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                            $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                        }
+                    }
+                });
+            });
+
+            $("div#Geardiv a").blur(function () {
+                if ($('#ProfileOptionsPopup').is(":hidden")) {
+                    $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid white");
+                    $("#LanguageBar_imgLBGear").css("border", "1px solid white");
+                }
+            });
+
+            $("div#Geardiv a").hover(function () {
+                $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+            },
+            function () {
+                if ($('#ProfileOptionsPopup').is(":visible")) {
+                    $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                    $("#ctl00_LanguageBar_imgLBGear").css("border-bottom", "1px solid white");
+                    $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                    $("#LanguageBar_imgLBGear").css("border-bottom", "1px solid white");
+                }
+                else {
+                    $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                    $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+                }
+            });
+        });
+</script>
+<style>
+    .focuscolor {
+        background-color: #EBF4FB;
+    }
+
+    .blurcolor {
+        background-color: none !important;
+    }
+
+    /* Creating the below 2 inline styles to avoid impact in Candidate Portal as it is also referring LanguageBar.css from careers path */
+    #LanguageBarWrapper {
+        background-color: Transparent;
+        position: absolute;
+        /*top: auto;*/
+        right: 0px;
+        left: 0px;
+        width: 700px;
+        z-index: 1000;
+        margin: 0 auto;
+        /*margin-top: 17px;*/
+        float: right;
+        margin-right: 165px;
+    }
+
+        #LanguageBarWrapper a.LangBarHeading:hover, #LanguageBarWrapper a.LangBarHeading:focus {
+            text-decoration: none !important;
+        }
+
+    #ProfileOptionsPopup {
+        z-index: 301; /*CSP HorizontalNav 250, MM 300*/
+        position: absolute;
+        display: none;
+        right: 0;
+        top: 21px;
+        left: auto;
+        width: auto;
+        min-width: 160px;
+        text-align: left;
+        border: solid 1px #1A1A1A;
+        padding: 0 0 5px 0;
+        /*background: url('../Images/transparent_white.png') repeat;*/
+        background: white;
+        border-top: none !important;
+    }
+
+    .close_img:focus {
+        outline: 1px dotted #1A1A1A !important;
+    }
+</style>
+<script type="text/javascript">
+    function signouthidden() {
+        $("#signouthidd").css("display", "none");
+        return true;
+    }
+
+    function firstnamehidden() {
+        $("#authicontype").css("display", "block");
+        $("#firstname").css("display", "block");
+        return true;
+    }
+
+    function Signout() {
+        
+        return true;
+        
+    }
+
+    function getParameterByName(name) {
+        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+        var regexS = "[\\?&]" + name + "=([^&#]*)";
+        var regex = new RegExp(regexS);
+        var results = regex.exec(window.location.href);
+        if (results == null)
+            return "";
+        else
+            return decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+
+    function closePopUp() {
+        var element = document.getElementById('LanguageBar_btnCancelSignIn');
+        element.click();
+        return false;
+    }
+
+    var dialogOpen = false, lastFocus;
+    function pageLoad() {
+        SetFocusOnLoad();
+
+        var popup = $find('bIdLoginOptionsPopup');
+        if (popup != null) {
+            popup.add_shown(SetFocusOnOpen);
+        }
+    }
+
+    function SetTabOrder() {
+        $('.close_img').keydown(function (e) {
+            if ((e.keyCode == 9 || e.which == 9) && !e.shiftKey) {
+                e.preventDefault();
+                $("div#btnhover3 a").focus();
+            }
+        });
+
+        $('div#btnhover3 a').keydown(function (e) {
+            if ((e.keyCode == 9 || e.which == 9) && e.shiftKey) {
+                e.preventDefault();
+                $('.close_img').focus();
+            }
+        });
+    }
+
+    function SetFocusOnLoad() {
+        $("div#btnhover3 a").focus();
+        $('.close_img').attr('tabindex', '6');
+        SetTabOrder();
+        lastFocus = null;
+    }
+
+    var divs = ["lblHeaderHtmlContent", "shellContent", "FeedbackPane", "shellBgBottom", "pnlPopup", "LanguageBar", "lnkSkipToMain"];
+    function SetFocusOnOpen() {
+        if (document.activeElement != null && document.activeElement.id != "LanguageBar_master_LoginOptionsControl_lnkMSConnect")
+            lastFocus = document.activeElement;
+
+        dialogOpen = true;
+
+        $("div#btnhover3 a").focus();
+        $('.close_img').attr('tabindex', '6');
+        SetTabOrder();
+
+        for (var i = 0; i < divs.length; i++) {
+            try {
+                var currentElement = document.getElementById(divs[i]);
+                if (currentElement != null) {
+                    currentElement.setAttribute("aria-hidden", "true");
+                }
+
+            } catch (e) {
+
+            }
+        }
+    }
+
+    document.addEventListener("focus", function (event) {
+        var d = document.getElementById("pnlLoginOptions");
+        if (dialogOpen && !d.contains(event.target)) {
+            event.stopPropagation();
+            $('div#btnhover3 a').focus();
+        }
+    }, true);
+
+    document.addEventListener("keydown", function (event) {
+        if (dialogOpen && event.keyCode == 27) {
+            closePopUp();
+        }
+    }, true);
+</script>
+<div id="divDummy" aria-hidden="true" class="Message" style="position: absolute; width: 506px; left: -2000px; top: 0px">
+</div>
+<div id="LanguageBarWrapper" class="LanguageBarWrapper">
+    <div id="LanguageBar">
+        <div style="float: left;">
+            <div id="LanguageBar_pnlUnSigned" class="pnlUnsign">
+	
+                <div id="divSignIn">
+                    <a id="LanguageBar_lnkBtnSignIn" title="Sign in" class="LangBarHeadingSignin" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$lnkBtnSignIn&#39;,&#39;&#39;)">Sign in</a>
+                </div>
+            
+</div>
+
+            <div id="LanguageBar_pnlSigned" class="hidden1">
+	
+                <div id="LBMyProfileFlyout">
+                    <div id="authicontype" style="display: none;">
+                        
+                    </div>
+                    <div id="firstname" style="float: left; display: none; max-width: 300px; word-break: break-all;">
+                        
+                    </div>
+
+                    
+                    <div id="Geardiv" style="float: right;">
+                        <a id="LanguageBar_imgLBMyProfile" onclick="setDiscard(false)" class="mycssforhyper" style="outline: 0;"
+                            title="Careers profile management menu" role="button" href="#" data-toggle="dropdown" aria-label="Careers profile management menu">
+                            <img id="LanguageBar_imgLBGear" class="imgLangBar" src="Images/gear.png" alt="Careers profile management menu" height="14" width="14" style="border: 1px solid white; padding: 4px; margin-top: -2px;" />
+                        </a>
+                    </div>
+                </div>
+                <div id="ProfileOptionsPopup" class="ProfileOptionsPopupClass">
+                    <div id="gearbordermapping" style="margin-right: 22px; border-top: 1px solid #1A1A1A;"></div>
+                    <ul>
+                        <li id="profileli">
+                            <a onclick="setDiscard(true);" id="LanguageBar_lnkMyProfile" title="Account central" class="LangBarHeading" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$lnkMyProfile&#39;,&#39;&#39;)">Account central</a></li>
+                        <li id="applyhistory">
+                            <a onclick="setDiscard(true);" id="LanguageBar_lnkApplyHistory" title="Apply history" class="LangBarHeading" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$lnkApplyHistory&#39;,&#39;&#39;)">Apply history</a></li>
+                        <li id="helpcenter">
+                            <a onclick="setDiscard(true);" id="LanguageBar_lnkHelpCenter" title="Help center" class="LangBarHeading" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$lnkHelpCenter&#39;,&#39;&#39;)">Help center</a></li>
+                        <li id="jobalerts">
+                            <a onclick="setDiscard(true);" id="LanguageBar_lnkJobAlerts" title="Job alerts" class="LangBarHeading" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$lnkJobAlerts&#39;,&#39;&#39;)">Job alerts</a></li>
+                        <li id="jobwatchlist">
+                            <a onclick="setDiscard(true);" id="LanguageBar_lnkJobWatchList" title="Job watch list" class="LangBarHeading" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$lnkJobWatchList&#39;,&#39;&#39;)">Job watch list</a></li>
+                        <li id="recommendedjobs">
+                            <a onclick="setDiscard(true);" id="LanguageBar_lnkRecommendedJobs" title="Recommended jobs" class="LangBarHeading" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$lnkRecommendedJobs&#39;,&#39;&#39;)">Recommended jobs</a></li>
+                        <li id="resumes">
+                            <a onclick="setDiscard(true);" id="LanguageBar_lnkResumes" title="Resumes" class="LangBarHeading" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$lnkResumes&#39;,&#39;&#39;)">Resumes</a></li>
+                        <li id="signouthidd">
+                            </li>
+                        
+                    </ul>
+                </div>
+            
+</div>
+        </div>
+    </div>
+</div>
+
+
+<div id="pnlLoginOptions" aria-labelledby="divDescription" role="dialog"
+    style="display: none; margin: 0; border: 1px solid #D3D3D3; background-color: #ffffff; border-left: 0px;">
+    <div style="top: inherit; float: right; padding: 0; margin: 0; font-family: Segoe UI;">
+        <input type="image" name="ctl00$LanguageBar$btnCancelSignIn" id="LanguageBar_btnCancelSignIn" tabindex="6" title="Close" class="close_img" role="button" aria-label="Close sign in window" onmouseover="javascript:$(this).attr(&#39;src&#39;, &#39;/Images/icon_close_hover.png&#39;);" onmouseout="javascript:$(this).attr(&#39;src&#39;, &#39;/Images/icon_close1.png&#39;);" Title="Close" src="Images/icon_close1.png" alt="Close" onclick="javascript:fnCloseButton();JobService.JobService.ClearSignInSeesion();JobService.JobService.RemoveApplyRjJobSession(); window.localStorage.removeItem(&#39;SaveSearchValue&#39;);if(window.location.href.toLowerCase().indexOf(&#39;mail=true&#39;) > -1) window.location.href = RemoveQueryStringByKey(&#39;mail&#39;);javascript:fnCloseButton();JobService.JobService.ClearSignInSeesion();JobService.JobService.RemoveApplyRjJobSession(); window.localStorage.removeItem(&#39;SaveSearchValue&#39;);if(window.location.href.toLowerCase().indexOf(&#39;mail=true&#39;) > -1) window.location.href = RemoveQueryStringByKey(&#39;mail&#39;);JobService.JobService.ClearSignInSeesion();" />
+    </div>
+    <div style="border-left: 9px solid #0072C6; margin: -1px 0; height: 100%; display: inline-block;">
+        <div style="padding: 25px 12px 0px 34px;">
+            <div id="divDescription">
+                <div style="padding: 0; margin: 0; text-align: left;">
+                    <h2><span id="LanguageBar_lblSignInUsing" class="SignInLabel"><html>
+<body>
+Welcome!
+</body>
+</html>
+</span></h2>
+                </div>
+                <div style="height: 16px;">
+                </div>
+                <div id="labelMessage" class="Message">
+                    <span id="LanguageBar_lblMessage"><html>
+<body>
+If you have an existing Microsoft Careers account, sign in below. If you are new to the site, create a Microsoft Careers account by clicking on one of the following:
+</body>
+</html>
+</span>
+                </div>
+            </div>
+            <div>
+                
+
+<style>
+    .AuthTile {
+        text-decoration: none !important;
+        font-size: 12px;
+        border: 1px solid #0072C6;
+        font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+        padding: 0px 0px 0px 30px;
+    }
+
+    @media screen and (-ms-high-contrast: active) {
+        .AuthTile {
+            text-decoration: none !important;
+            font-size: 12px;
+            border: 1px solid black !important;
+            font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+            padding: 0px 0px 0px 30px;
+        }
+    }
+
+    #btnhover a {
+        background: transparent url(/images/logo_linkedin.png) scroll no-repeat left center;
+        background-position: 8px 50%;
+        color: #1A1A1A;
+    }
+
+    #btnhover1 a {
+        background: transparent url(/images/logo_google.png) scroll no-repeat left center;
+        background-position: 8px 50%;
+        color: #1A1A1A;
+    }
+
+    #btnhover2 a {
+        background: transparent url(/images/logo_facebook.png) scroll no-repeat left center;
+        background-position: 8px 50%;
+        color: #1A1A1A;
+    }
+
+    #btnhover3 a {
+        background: transparent url(/images/windowsliveicon.png) scroll no-repeat left center;
+        background-position: 8px 50%;
+        color: #1A1A1A;
+    }
+
+    @media screen and (-ms-high-contrast: active) {
+        #btnhover3 a {
+            background: transparent url(/images/windowsliveicon.png) scroll no-repeat left center;
+            background-position: 6px 50%;
+        }
+
+        #btnhover2 a {
+            background: transparent url(/images/logo_facebook.png) scroll no-repeat left center;
+            background-position: 6px 50%;
+        }
+
+        #btnhover1 a {
+            background: transparent url(/images/logo_google.png) scroll no-repeat left center;
+            background-position: 6px 50%;
+        }
+
+        #btnhover a {
+            background: transparent url(/images/logo_linkedin.png) scroll no-repeat left center;
+            background-position: 6px 50%;
+        }
+
+        .close_img:focus {
+            border: 1px dotted white !important;
+            height: 10px;
+            width: 10px;
+            margin: 13px 13px 0px 0px;
+        }
+
+        #btnhover a:focus, #btnhover1 a:focus, #btnhover2 a:focus, #btnhover3 a:focus {
+            border: 1px dashed white !important;
+            font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+            font-size: 12px;
+            outline: none;
+        }
+
+        #btnhover a:hover, #btnhover1 a:hover, #btnhover2 a:hover, #btnhover3 a:hover {
+            border: 1px dashed white !important;
+            font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+            font-size: 12px;
+            outline: none;
+        }
+    }
+
+    #btnhover a:hover, #btnhover1 a:hover, #btnhover2 a:hover, #btnhover3 a:hover {
+        text-decoration: none !important;
+        background-color: #EBF4FB !important;
+        color: #1A1A1A !important;
+        border: 1px solid #0072C6;
+        font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+        font-size: 12px;
+    }
+
+    #btnhover a:focus, #btnhover1 a:focus, #btnhover2 a:focus, #btnhover3 a:focus {
+        background-color: #0072C6;
+        color: white;
+        border: 1px solid #0072C6;
+        font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+        font-size: 12px;
+        outline: none;
+    }
+
+    #btnhover a:active, #btnhover1 a:active, #btnhover2 a:active, #btnhover3 a:active {
+        background-color: #92B7D1 !important;
+        color: white !important;
+        border: 1px solid #0072C6 !important;
+        font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+        font-size: 12px;
+    }
+
+    #btnhover, #btnhover1, #btnhover2 {
+        width: 91px;
+        height: 30px;
+        margin-left: 9px;
+    }
+
+    #btnhover3 {
+        width: 91px;
+        height: 30px;
+    }
+
+    .all_account_images {
+        vertical-align: middle;
+        background-color: white;
+    }
+
+    .CancelLink {
+        color: #0072c6;
+        font-size: 14px;
+        line-height: normal !important;
+    }
+
+    #canceldiv {
+        float: left;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .btnDiv {
+        float: left;
+    }
+</style>
+<script type="text/javascript">
+    function fnCloseButton() {
+        var x = '';
+        var hdntest = document.getElementById('LanguageBar_master_LoginOptionsControl_HDN_Cancel').value;
+        var path = new String(window.location.pathname).toLowerCase();
+        var value = new String($("#" + "LanguageBar_master_LoginOptionsControl_hiddenFldToCheckRedirectPage").val()).toLowerCase();
+        if (path == '/resumepreview.aspx' && (value == '~/resumebuilder.aspx' || value == '~/resumeupload.aspx')) {
+            $("#" + "LanguageBar_master_LoginOptionsControl_hiddenFldToCheckRedirectPage").val("~/ResumePreview.aspx");
+        }
+
+        if (hdntest != "") {
+            window.location = hdntest;
+        }
+
+        dialogOpen = false;
+        for (var i = 0; i < divs.length; i++) {
+            try {
+                var currentElement = document.getElementById(divs[i]);
+                if (currentElement != null) {
+                    currentElement.setAttribute("aria-hidden", "false");
+                }
+
+            } catch (e) {
+
+            }
+        }
+        if (lastFocus != null)
+            lastFocus.focus();
+    }
+</script>
+<div style="display: table; width: 100%;" id="container">
+    <input type="hidden" name="ctl00$LanguageBar$master_LoginOptionsControl$hiddenFldToCheckRedirectPage" id="LanguageBar_master_LoginOptionsControl_hiddenFldToCheckRedirectPage" value="0" />
+    <input type="hidden" name="ctl00$LanguageBar$master_LoginOptionsControl$HDN_Cancel" id="LanguageBar_master_LoginOptionsControl_HDN_Cancel" />
+
+    
+
+
+    <div style="vertical-align: top; width: 100%;">
+        <div id="btnhover3" class="btnDiv">
+            <a id="LanguageBar_master_LoginOptionsControl_lnkMSConnect" tabindex="1" title="Microsoft" class="AuthTile" aria-label="Use Microsoft Account to Sign In" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$master_LoginOptionsControl$lnkMSConnect&#39;,&#39;&#39;)" style="display:inline-block;text-align: left; line-height: 30px; display: block;">Microsoft</a>
+        </div>
+
+        <div id="btnhover" class="btnDiv">
+            <a id="LanguageBar_master_LoginOptionsControl_lnkLinkedInConnect" tabindex="2" title="LinkedIn" class="AuthTile" aria-label="Use LinkedIn Account to Sign In" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$master_LoginOptionsControl$lnkLinkedInConnect&#39;,&#39;&#39;)" style="display:inline-block;text-align: left; line-height: 30px; display: block;">LinkedIn</a>
+        </div>
+
+        <div id="btnhover1" class="btnDiv">
+            <a id="LanguageBar_master_LoginOptionsControl_lnkGoogleConnect" tabindex="3" title="Google" class="AuthTile" aria-label="Use Google Account to Sign In" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$master_LoginOptionsControl$lnkGoogleConnect&#39;,&#39;&#39;)" style="display:inline-block;text-align: left; line-height: 30px; display: block;">Google</a>
+        </div>
+
+        <div id="btnhover2" class="btnDiv">
+            <a id="LanguageBar_master_LoginOptionsControl_lnkFacebookConnect" tabindex="4" title="Facebook" class="AuthTile" aria-label="Use Facebook Account to Sign In" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$master_LoginOptionsControl$lnkFacebookConnect&#39;,&#39;&#39;)" style="display:inline-block;text-align: left; line-height: 30px; display: block;">Facebook</a>
+        </div>
+    </div>
+</div>
+
+                <div id="canceldiv">
+                    <a onclick="return closePopUp();" id="LanguageBar_btnSignInCancel" tabindex="5" title="Cancel" class="CancelLink" href="javascript:__doPostBack(&#39;ctl00$LanguageBar$btnSignInCancel&#39;,&#39;&#39;)">Cancel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            <div class="menucontainer">
+                <div class="row">
+                    <div class="navbar-collapse collapse navbar-main" role="navigation" aria-label="Main menu">
+                        <span id="lblHeaderHtmlContent"><ul id="MainNavigation" class="nav navbar-nav" role="menubar">
+        <li class="dropdown" ms.cmpgrp="Working at Microsoft" role="presentation">
+            <a id="Menu-WAM" href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false" ms.title="Working at Microsoft">Working at Microsoft <span class="glyphicon glyphicon-chevron-down"></span></a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="Menu-WAM" aria-expanded="false" aria-hidden="true">
+                    <li role="presentation">
+<a href="/benefits" ms.title="Benefits and perks" role="menuitem">Benefits and perks</a>
+                    </li>
+                    <li role="presentation">
+<a href="/teams" ms.title="Businesses and teams" role="menuitem">Businesses and teams</a>
+                    </li>
+                    <li role="presentation">
+<a href="/mission-culture" ms.title="Mission and culture" role="menuitem">Mission and culture</a>
+                    </li>
+                    <li role="presentation">
+<a href="/locations" ms.title="Office locations" role="menuitem">Office locations</a>
+                    </li>
+            </ul>
+        </li>
+        <li class="dropdown" ms.cmpgrp="Students and graduates" role="presentation">
+            <a id="Menu-SAG" href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false" ms.title="Students and graduates">Students and graduates <span class="glyphicon glyphicon-chevron-down"></span></a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="Menu-SAG" aria-expanded="false" aria-hidden="true">
+                    <li role="presentation">
+<a href="/students/apply" ms.title="Apply" role="menuitem">Apply</a>
+                    </li>
+                    <li role="presentation">
+<a href="/events" ms.title="Events and webinars" role="menuitem">Events and webinars</a>
+                    </li>
+                    <li role="presentation">
+<a href="/recruiters" ms.title="Find your recruiter" role="menuitem">Find your recruiter</a>
+                    </li>
+                    <li role="presentation">
+<a href="/students/international" ms.title="International opportunities" role="menuitem">International opportunities</a>
+                    </li>
+                    <li role="presentation">
+<a href="/students#programs" ms.title="Programs" role="menuitem">Programs</a>
+                    </li>
+            </ul>
+        </li>
+        <li class="dropdown" ms.cmpgrp="Find a job" role="presentation">
+            <a id="Menu-FAJ" href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false" ms.title="Find a job">Find a job <span class="glyphicon glyphicon-chevron-down"></span></a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="Menu-FAJ" aria-expanded="false" aria-hidden="true">
+                    <li role="presentation">
+<a href="/students/apply" ms.title="Students and graduates" role="menuitem">Students and graduates</a>
+                    </li>
+                    <li role="presentation">
+                                <a href="/search.aspx" role="menuitem" ms.title="Industry professionals">Industry professionals</a>
+
+                    </li>
+            </ul>
+        </li>
+        <li class="dropdown" ms.cmpgrp="Things to do" role="presentation">
+            <a id="Menu-TDD" href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-haspopup="true" aria-expanded="false" ms.title="Things to do">Things to do <span class="glyphicon glyphicon-chevron-down"></span></a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="Menu-TDD" aria-expanded="false" aria-hidden="true">
+                    <li role="presentation">
+                                <a href="/profile.aspx" role="menuitem" ms.title="Create a careers account">Create a careers account</a>
+
+                    </li>
+                    <li role="presentation">
+                                <a href="/recommendedjobs.aspx" role="menuitem" ms.title="Explore recommended jobs">Explore recommended jobs</a>
+
+                    </li>
+                    <li role="presentation">
+<a href="/events" ms.title="Locate events and webinars" role="menuitem">Locate events and webinars</a>
+                    </li>
+                    <li role="presentation">
+<a href="/recruiters" ms.title="Find your recruiter" role="menuitem">Find your recruiter</a>
+                    </li>
+                    <li role="presentation">
+<a href="/help/interview" ms.title="Review interview tips" role="menuitem">Review interview tips</a>
+                    </li>
+            </ul>
+        </li>
+
+</ul>
+<ul class="nav navbar-right" role="menubar">
+    <li><a style="color:black; font-size:17.93px" role="menuitem" href="https://careers.linkedin.com" target="_blank">Working at LinkedIn</a></li>
+</ul></span>
+                    </div>
+                </div>
+            </div>
+            <div id="shellContainer">
+                <div id="shellContent">
+                    
+                    
+    
+    <div>
+        
+
+<style>
+    #divDynamicjobtile {
+        padding: 35px 40px 35px 40px;
+        background-color: #0072c6;
+        width: 360px;
+        min-height: 250px;
+    }
+
+        #divDynamicjobtile h3 {
+            font-family: SegoeLight, 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+            color: #ffffff;
+            font-size: 30px;
+            line-height: 38px;
+        }
+
+            #divDynamicjobtile h3:hover {
+                text-decoration: underline;
+            }
+.SearchButton[disabled],.SearchButton[disabled]:hover
+    {
+        color:#C6C6C6;
+        background-color:#FFFFFF;
+        border-color:#C6C6C6;
+        cursor:default;
+    }
+</style>
+<script type="text/javascript" language="javascript">
+    $(document).ready(function () {
+        $('div.JobTitle').focus();
+    });
+
+    function pageLoad() {
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_emptyLink2').css('display', 'none');
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_emptyLink3').css('display', 'none');
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_emptyLink').css('display', 'none');
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_emptyLink3').css('display', 'none');
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_emptyLink4').css('display', 'none');
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_jobApplyList_emptyLink1').css('display', 'none');
+       
+        var popup = $find('bIdLoginOptionsPopup');
+        if (popup != null) {
+            popup.add_shown(SetFocusOnOpen);
+        }
+    }
+
+    function SetTabOrder() {
+        $('.close_img').keydown(function (e) {
+            if ((e.keyCode == 9 || e.which == 9) && !e.shiftKey) {
+                e.preventDefault();
+                $("div#btnhover3 a").focus();
+            }
+        });
+
+        $('div#btnhover3 a').keydown(function (e) {
+            if ((e.keyCode == 9 || e.which == 9) && e.shiftKey) {
+                e.preventDefault();
+                $('.close_img').focus();
+            }
+        });
+    }
+
+    var divs = ["lblHeaderHtmlContent", "shellContent", "FeedbackPane", "shellBgBottom", "pnlPopup", "LanguageBar"];
+    function SetFocusOnOpen() {
+        if (document.activeElement != null && document.activeElement.id != "LanguageBar_master_LoginOptionsControl_lnkMSConnect")
+            lastFocus = document.activeElement;
+
+        dialogOpen = true;
+
+        $("div#btnhover3 a").focus();
+        $('.close_img').attr('tabindex', '6');
+        SetTabOrder();
+
+        for (var i = 0; i < divs.length; i++) {
+            try {
+                var currentElement = document.getElementById(divs[i]);
+                if (currentElement != null) {
+                    currentElement.setAttribute("aria-hidden", "true");
+                }
+
+            } catch (e) {
+
+            }
+        }
+
+        if (navigator.userAgent.toLowerCase().indexOf('chrome') == -1) {
+            $('#pnlLoginOptions').attr('role', 'dialog');
+        }
+    }
+
+    document.addEventListener("focus", function (event) {
+        var d = document.getElementById("pnlLoginOptions");
+        if (dialogOpen && !d.contains(event.target)) {
+            event.stopPropagation();
+            $('div#btnhover3 a').focus();
+        }
+    }, true);
+
+    document.addEventListener("keydown", function (event) {
+        if (dialogOpen && event.keyCode == 27) {
+            closePopUp();
+        }
+    }, true);
+
+    $(function () {
+        var saveJobsHelper = new GlobalCareersJS.SaveJobsHelper.JobDetails();
+    });
+
+    function RemoveComma(validatorId) {
+        var errorMsg = document.getElementById(validatorId);
+        var tmp = errorMsg.innerHTML;
+        var i = tmp.lastIndexOf(",");
+        errorMsg.innerHTML = tmp.substr(0, i) + tmp.substr(i + 1, tmp.length);
+    }
+
+    function ValidateEmailFriendInput() {
+        var inputValid = Page_ClientValidate('vgEmailFriend') && Page_ClientValidate('vgEmailFriendInput');
+        RemoveComma("ctl00_ContentPlaceHolder1_JobDetails2_jdEmailFriend_vsEmailFriend");
+        RemoveComma("ctl00_ContentPlaceHolder1_JobDetails2_jdEmailFriend_vsEmailFriendInput");
+        if (!inputValid) {
+            ResetParameters();
+            CaptchaWebTrendLog("Link:Send Email", "NA", "Page Validation Error", window.location.pathname, "Email", window.location.pathname)
+        }
+        return inputValid;
+    }
+
+    function fbs_click() {
+        u = location.href;
+        t = document.title;
+        window.open('http://www.facebook.com/sharer.php?u=' + encodeURIComponent(u) + '&t=' + encodeURIComponent(t), 'sharer', 'toolbar=0,status=0,width=900,height=500,resizable=1');
+        return false;
+    }
+
+    function btnRemove_Click() {
+        confirm2($res('JDAboutToRemove'), $res('removeJobs'),
+        function () {
+            __doPostBack('ctl00$ContentPlaceHolder1$JobDetails2$btnRemoveJob', '');
+        });
+        return false;
+    }
+
+    function confirmWithdraw(confirmButton) {
+        confirm2($res('confirm_withdraw_text'), $res('confirm_withdraw_title'),
+        function () {
+            __doPostBack(confirmButton.name, '');
+        });
+        return false;
+    }
+
+    function applyWebTrend() {
+        webTrendsSearchPost('323221', '');
+    }
+</script>
+<div id="fb-root">
+</div>
+<script src="https://connect.facebook.net/en_US/all.js"></script>
+<script type="text/javascript">
+    FB.init({
+        appId: '',
+        status: true, // check login status
+        cookie: true, // enable cookies to allow the server to access the session
+        xfbml: true, // parse XFBML
+        channelURL: '', //'', // channel.html file
+        oauth: true // enable OAuth 2.0
+    });
+
+    function PostFB() {
+        FB.ui(
+        {
+            method: 'feed',
+            name: 'Data Scientist',
+            link: document.URL,
+            picture: 'https://careers.microsoft.com/Images/FaceBookJobShareImages/FB-MS-1.jpg',
+            caption: 'careers.microsoft.com',
+            description: '<p>What if your job description were simply? Make tomorrow better? That’s the essence of roles within our Bing Team. Every day, we bring an insatiable curiosity to the table, challenging ourselves to reimagine what is and what can be. We build on what’s c'
+        },
+        function (response) {
+            if (response && response.post_id) {
+
+            } else {
+
+            }
+        });
+    }
+</script>
+<script type="text/javascript" src="LocalizedScript.axd/SaveJobsHelper"></script>
+
+<div id="ContentPlaceHolder1_JobDetails2_upJobDetails">
+	
+        <div id="ContentPlaceHolder1_JobDetails2_pnlJobDetails">
+		
+            <div id="JobDetailsHeaderRow" class="ie7fix">
+                <div style="float: left; vertical-align: middle; line-height: 24px; width: auto">
+                    
+                </div>
+                <div style="float: right; margin-bottom: 25px; margin-left: 25px; text-align: right;">
+                    <ul class="jobDetails_nav" style="line-height: 24px;">
+                        <li>
+                            
+                        </li>
+                        <li>
+                            
+                        </li>
+                        <li>
+                            
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            
+            <div id="JobDetailsTopRow">
+                <div style="width:100%;float: left;" class="JobTitle" tabindex="-1">
+               <h1>     <span id="ContentPlaceHolder1_JobDetails2_lblJobTitleText">Data Scientist</span></h1>
+                </div>
+                <div style="clear: both; height: 0px! important;">
+                </div>
+            </div>
+            <div>
+      
+            
+                <div id="ContentPlaceHolder1_JobDetails2_Table1" border="0" cellpadding="0" cellspacing="0" width="100%">
+                    <div style="display:table">
+                        <td style="width: 60%; vertical-align: top;">
+                            <div class="jobDetails_jobDesc" style="width:60%;display:table-cell" >
+                                <span id="ContentPlaceHolder1_JobDetails2_lblDescription" class="jobDetail_jobDesc_Content"><p>What if your job description were simply? Make tomorrow better? That’s the essence of roles within our Bing Team. Every day, we bring an insatiable curiosity to the table, challenging ourselves to reimagine what is and what can be. We build on what’s come before to create what’s next. We drive machine intelligence. We help shape the future. We empower billions of people around the globe.  &nbsp <br/><p/><br/><p/>Are you interested in being part of a team with more $6B in revenue and growing at more than 20% every quarter over last several quarters? Are you looking for joining a fun and fast paced environment, where software engineers and data scientists are empowered to innovate and experiment? Are you customer obsessed? Are you interested in competing with Google advertising platform head to head?  &nbsp We are the Advertiser Data Analytics (ADA) team. We aim to unlock the BingAds growth and revenue potential on the advertiser demand side by using data mining and machine learning techniques. Our goal is to increase high quality demand and retain it to increase competition and platform revenue on the supply side.  &nbsp <br/><p/>BingAds is a rapidly growing business at Microsoft and is considered one of the most important players in the world of Advertising business. This is exciting time to join BingAds where we innovate and rethink our online services. We have a very strong focus on customer satisfaction and use data driven metrics to delight our customers and achieve our business goals. We have an opening for strong talent to independently drive demand growth areas and make a difference in moving the bottom line. <br/><p/><br/><p/>A successful candidate will have: <br/><p/>¬- BS OR MS in Computer Science or equivalent technical degree.<br/><p/>- Minimum 4 years of development experience. <br/><p/>- 1+ years of experience in machine learning, data analysis. <br/><p/>- Experience working with C#, Scope/Cosmos is highly desirable. <br/><p/>- Solid CS fundamentals, strong inclination for architecting at scale. <br/><p/>- Excellent technical design, problem solving and debugging skills.  &nbsp <br/><p/>- Demonstrated results designing and delivering maintainable and scalable high-quality code. <br/><p/>- A sound track-record of shipping products and having been through multiple development cycles.<br/><p/>- Passionate, self-motivated. <br/><p/>- Great team player and communicator, strong believer in collaboration and teamwork.<br/><p/><br/><p/>  &nbsp <br/><p/>Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request to askstaff@microsoft.com<p/></span>
+                            </div>
+                            
+                        </td>
+                        <td style="width: 40%; vertical-align: top;">
+                            <div style="padding-left: 30px;width:40%;display:table-cell;">
+                                <table id="JobDetails_contentRight" role="grid" style="display:table;" summary="Job meta data">
+                                    <tr role="row" style="display:table-row;">
+                                        <th role="rowheader">
+                                            <h2><span id="ContentPlaceHolder1_JobDetails2_lblJobCodeHeading"><html>
+<body>
+Job #
+</body>
+</html>
+</span></h2>
+                                        </th>
+                                        
+                                        <td>
+                                            <div id="jobDetails_controls">
+                                                <span id="ContentPlaceHolder1_JobDetails2_lblJobPostingId" style="display: none">323221</span>
+                                                <span id="ContentPlaceHolder1_JobDetails2_lblJobCodeText" style="font-weight: bold">1074402</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr role="row">
+                                        <th role="rowheader">
+                                            <h2><span id="ContentPlaceHolder1_JobDetails2_lblLocationHeading"><html>
+<body>
+Locations
+</body>
+</html>
+</span></h2>
+                                        </th>
+                                        <td>
+                                            <span id="ContentPlaceHolder1_JobDetails2_lblLocationText" style="font-weight: bold">United States, Bellevue (WA)</span>
+                                        </td>
+                                    </tr>
+                                    <tr role="row">
+                                        <th role="rowheader">
+                                            <h2><span id="ContentPlaceHolder1_JobDetails2_lblJobCategoryHeading"><html>
+<body>
+Job families
+</body>
+</html>
+</span></h2>
+                                        </th>
+                                        <td>
+                                            <span id="ContentPlaceHolder1_JobDetails2_lblJobCategoryText" style="font-weight: bold">Development (engineering)</span>
+                                        </td>
+                                    </tr>
+                                    
+                                    <tr id="ContentPlaceHolder1_JobDetails2_trDivision" role="row">
+			<th role="rowheader">
+                                            <h2><span id="ContentPlaceHolder1_JobDetails2_lblJobDivisionHeading"><html>
+<body>
+Teams
+</body>
+</html>
+</span></h2>
+                                        </th>
+			<td>
+                                            <span id="ContentPlaceHolder1_JobDetails2_lblJobDivisionText" style="font-weight: bold">AI & Research</span>
+                                        </td>
+		</tr>
+		
+                                </table>
+                                <div style="padding-top: 10px;">
+                                    <input type="submit" name="ctl00$ContentPlaceHolder1$JobDetails2$btnApply" value="Apply now" onclick="javascript:applyWebTrend();" id="ContentPlaceHolder1_JobDetails2_btnApply" title="Apply now" class="SearchButton" style="float: left; margin-right: 8px;" />
+                                    <input type="submit" name="ctl00$ContentPlaceHolder1$JobDetails2$btnSaveJob" value="Add to job watch list" onclick="return false;" id="ContentPlaceHolder1_JobDetails2_btnSaveJob" title="Add to job watch list" class="jobcartButton SearchButton" />
+                                    
+                                    
+                                </div>
+                                <div id="ContentPlaceHolder1_JobDetails2_divServerDynamicjobtile">
+                                    <div id="divDynamicjobtile" style="margin-top: 35px;">
+                                        <span id="ContentPlaceHolder1_JobDetails2_lblDynamicJobTileHtmlContent"><div class="feature-tile blue">
+<a href="/" ms.title="Empower your future."><h3>Empower your future.</h3></a></div></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </div>
+                    <tr style="height: 20px;">
+                    </tr>
+                    <tr>
+                        <td style="width: 60%; vertical-align: top;">
+                            
+                            
+
+
+
+<style type="text/css">
+.LinkedInTitle { font-size: 18px; color: #2D2D2D; width: 700px; padding-bottom:5px; } /*#2F89BD*/
+.CompanyInsiderBlock { width:400px;}
+</style>
+
+<div class="CompanyInsiderBlock">
+
+    
+</div>
+
+
+                        </td>
+                        <td style="width: 40%">
+                        </td>
+                    </tr>
+                </div>
+                <div style="clear: both; height: 0px! important;">
+                </div>
+            </div>
+        
+	</div>
+    
+</div>
+
+<div id="ContentPlaceHolder1_JobDetails2_emptyPanel" style="display: none;">
+
+</div>
+
+<div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_emptyPanel" style="display: none;">
+
+</div>
+
+<div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_pnlApplyPopup" class="ModalPopup" style="width: 800px;
+    display: none;">
+	
+    <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_pnlApplyPopupUpdate">
+		
+            <div class="Content">
+             <div class="progress">
+                <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_UpdateProgress1" style="display:none;">
+			
+                        <div class="ui-widget-overlay" style="position: fixed; z-index: 1001;">
+                        </div>
+                        <div style="position: fixed; top: 45%; left: 45%; padding: 10px; width: 10%; height:30px; z-index: 1002; background: url('images/loader.gif') no-repeat center center; background-color: #FFF; border: 1px solid #AAAAAA;">                           
+                        </div>
+                    
+		</div>
+            </div>
+                <input type="hidden" name="step" />
+                <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_apply_divTop">
+                    <div class="TopMessage">
+                        <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_lblHeading" class="labelHead1">Apply</span>
+                        <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_lblApplyText" class="TextBlock">When you complete this final step in the application process, your resume will be sent to staffing and you will get an email confirmation of submission. You may be contacted directly be a recuiter if there is a match. </span>
+                    </div>
+                    <div>
+                        <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_selectResume" class="labelHead2">Select resume</span>
+                        <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_lblChooseResume" class="TextBlock">The resume you have selected will be used for the below job openings.</span>
+                        <select name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$ddlResumeList" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_ddlResumeList" tabindex="1" class="DropDownList">
+
+		</select>
+                        <input type="hidden" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$resumeTypeMap" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_resumeTypeMap" />
+                        <img src="Images/mmm2_view_resume_img.png" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_Img1" style="padding: 0 5px 0 25px; vertical-align: top;" alt="Edit this resume" />
+                        <a onclick="if(typeof(_resumeFlag)!=&#39;undefined&#39;)_resumeFlag=false;" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_LinkButton1" tabindex="2" title="Edit this resume" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$LinkButton1&#39;,&#39;&#39;)">Edit this resume</a>
+                        <img src="Images/mmm2_create%20resume_img.png" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_Img2" style="padding: 0 5px 0 25px; vertical-align: top;" alt="Edit this resume" />
+                        <a onclick="if(typeof(_resumeFlag)!=&#39;undefined&#39;)_resumeFlag=false;" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_hlCreateNew" tabindex="3" title="Create New Resume" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$applyPopup_hlCreateNew&#39;,&#39;&#39;)">Create New Resume</a>
+                        <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_lblError"></span>
+                    </div>
+                    <div>
+                        
+                        
+                    </div>
+                </div>
+                
+                <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_apply_pnlJobListWrapper" class="JobList">
+			
+                    <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_jobApplyList_pnlJobApplyListContainer">
+				
+    <div>
+
+				</div>
+    <a id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_jobApplyList_emptyLink1" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$applyPopup_jobApplyList$emptyLink1&#39;,&#39;&#39;)"></a>
+
+			</div>
+
+                
+		</div>
+                <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_apply_divAreYouReady" class="ReadyMessage">
+                    <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_lblMakeSure1" class="TextBlock">The resume noted above will be used for applying to the position(s) listed in the table. Please make sure that these are the openings you are interested in.</span>
+                    <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_lblMakeSure2" class="TextBlock">Are you ready to proceed with submitting your resume for the above position(s)?</span>
+                </div>
+                <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_apply_pnlAffirmativeWrapper" class="AffirmativeWrapper">
+			
+                    
+
+<style type="text/css">    
+    .Space label {margin-left: 3px; margin-top: 5px;}
+    .Space input {margin-top: 7px}	 
+</style>
+
+<script type="text/javascript">
+    function showDefinition() {
+        $('#affirmativeAction_race').toggleClass('affirmativeAction_divShow');
+        $('#lnkShowHideDefinitions').toggleClass('lnkShowHideDefinitions')
+        return false;
+    }
+
+    function ChangeState(chkObj) {
+
+        if (chkObj != null) {
+            var declinetostate = "08" //"decline to state";
+            var id = $(chkObj).parent().siblings("input:hidden").val();
+
+            if (id == declinetostate) {
+                $(".raceSelector").each(function (index) {
+                    if ($(this).siblings("input:hidden").val() != id) {
+                        $(this).children(":checkbox").attr("checked", false);
+                    }
+                }
+                 );
+            }
+            else {
+                $(".raceSelector").each(function (index) {
+                    if ($(this).siblings("input:hidden").val() == declinetostate) {
+                        $(this).children(":checkbox").attr("checked", false);
+
+                    }
+                }
+                    );
+            }
+        }
+    }
+
+</script>
+
+<div>
+    <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_lblCaption">Affirmative action information</span>
+</div>
+<div class="justifyMessage" style="line-height:15px;padding-top:10px;">
+    <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_lblMessage">Microsoft is committed to a diverse work environment and this commitment is demonstrated, in part, through its affirmative action program. To assist us in meeting this commitment, we encourage you to complete the below information for our records. This information is solicited from all individuals applying for U.S. - based positions with Microsoft, as required by U.S. law. <b>Completion of this section is strictly voluntary.</b> Declining to provide this information will not result in any adverse treatment of your application for employment. The ethnicity/race categories listed below are defined by the U.S. Equal Employment Opportunity Commission.</span>
+</div>
+
+
+<div class="spacer">
+</div>
+
+
+<div style="padding-top:10px;">
+    <div class="ctrl_field">
+        
+        <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_lblCaptionGender" class="TextBlock1"><b>Gender</b></span>
+      
+        <div>
+            <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_rblGender" class="Space"><span CssClass="Space"><input id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_rblGender_0" type="radio" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$applyPopup_affirmativeAction$affirmativeAction_rblGender" value="M" /><label for="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_rblGender_0">Male</label></span><br /><span CssClass="Space"><input id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_rblGender_1" type="radio" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$applyPopup_affirmativeAction$affirmativeAction_rblGender" value="F" /><label for="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_rblGender_1">Female</label></span><br /><span CssClass="Space"><input id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_rblGender_2" type="radio" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$applyPopup_affirmativeAction$affirmativeAction_rblGender" value="D" /><label for="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_rblGender_2">Decline to state</label></span></span>
+        </div>
+    </div>
+    <div class="ctrl_field" style="margin-left:20px">
+        <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_lblCaptionRace"><b>Race/ethnicity</b></span><a href="#" id="lnkShowHideDefinitions" onclick="return showDefinition()" style="margin-left:10px">
+                <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_lblViewDefinition" title="View definitions" class="showLink">View definitions</span>
+                <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_affirmativeAction_affirmativeAction_lblCloseDefinition" title="Close definitions" class="hideLink">Close definitions</span>
+            </a>
+        <div class="affirmativeAction_dlRace" id="affirmativeAction_race">
+            
+        </div>
+    </div>
+</div>
+<div class="ctrl_clear">
+</div>
+
+                
+		</div>
+                <div id="apply_divSubmissionSource">
+                    <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_apply_lblSubmissionSource">What prompted you to apply to Microsoft?</span>
+                    <select name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$apply_ddlSubmissionSource" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_apply_ddlSubmissionSource" tabindex="4" class="DropDownList">
+
+		</select>
+                </div>
+                <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_hip" class="applyHip">
+			
+                   
+
+    <link type="text/css" rel="Stylesheet" href="/Css/hip.css" />
+<div id="hip_wrapper" class="hip_wrapper">
+    <table>
+        <tr>
+            <td>
+                <div id="isolution"></div>
+            </td>
+        </tr>
+    </table>
+    <table id="mtable">
+        <tr>
+            <td>
+                <br />
+
+                <div id="ispHIPScript" style="display: inline">
+                    <!-- id value is defined in Hip customization object -->
+                    <script type="text/javascript"></script>
+                </div>
+                <br />
+
+                <!-- --------------------------------------------------------------------------------------------
+              --
+              -- Hip Holder End
+              --
+              -- ---------------------------------------------------------------------------------------------
+              -->
+            </td>
+        </tr>
+        <!-- -------------------------------------------------------------------------------------------------
+        --
+        -- Hidden fields to submit back  Begin.
+        -- It is not neccessary when do Ajax submit
+        --
+        -- --------------------------------------------------------------------------------------------------
+        -->
+        <tr>
+            <td>
+                <div id="hdnSolutionContainer">
+                    <input type="hidden" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$HipControl$hdnSolution" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hdnSolution" />
+                </div>
+                <div id="hdnHIPUrlContainer">
+                    <input type="hidden" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$HipControl$hdnHIPUrl" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hdnHIPUrl" />
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div id="hdnTokenContainer">
+                <input type="hidden" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$HipControl$hdnToken" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hdnToken" /></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+
+                <!-- for generate right hip type when the previous submit failed -->
+                <input type="hidden" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$HipControl$hdnType" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hdnType" value="visual" />
+                <input type="hidden" id='Market' name="Market" />
+                <input type="hidden" id='hdnError' name="hdnError" />
+                <div id="Div1">
+                <input type="hidden" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$HipControl$hdnFlowId" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hdnFlowId" /></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!-- for generate right hip type when the previous submit failed -->
+                <input type="hidden" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$HipControl$hdnAddToAccount" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hdnAddToAccount" />
+            </td>
+        </tr>
+
+    </table>
+
+</div>
+<div>
+    <div id="hip_instructions" class="hip_left hip_instructions" style="float:left;width:250px;">
+        To confirm that you are a person and not an automated program, please enter all the characters you see in the image. You can avoid this by signing in.
+        <br />
+        <br />
+        <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hip_pnlAudioInstructions" style="display: none;">
+				
+            Notes:<br />Your computer must be able to play audio in WAV format. The audio file is intentionally distorted to prevent automated programs from reading it. If the file plays in another program, remember the numbers, return to this page, and then type them in the field.
+        
+			</div>
+    </div>
+    <div id="hip_content" class="hip_right hip_content " style="float:left;width:300px;">
+        <div id="hip_type" class="hip_left hip_type captchaContainer" style="float:left;height:100px;">
+            <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hip_pnlPicture">
+				
+                <img id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hip_img" src="/Images/hig_progcircle_animated.gif" style="margin-left:105px;margin-top:50px;" />
+            
+			</div>
+            <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hip_pnlAudio" class="hip_audio" style="display: none;width:168px;">
+				
+                <img id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hip_imgAudioFiller" src="/Images/wav_img.png" width="168" /><br />
+                <br />
+                <a id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hip_hlAudio" onclick="setDiscard(false)" target="_blank">Play audio</a>
+            
+			</div>
+        </div>
+        <div class="hip_right">
+            <input type="image" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$HipControl$hip_imgbtnAudio" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hip_imgbtnAudio" tabindex="16" src="/Images/wav_img_sm.gif" alt="Audio" onclick="CaptchaWebTrendLog(&#39;Link:Captcha Audio&#39;, &#39;Audio&#39;, &#39;No&#39;, &#39;/Apply&#39;, &#39;Apply&#39;, &#39;/Captcha Audio&#39;);" />
+            <br />
+            <input type="image" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$HipControl$hip_imgbtnRefresh" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hip_imgbtnRefresh" tabindex="17" src="/Images/refresh_img_sm.gif" alt="Refresh" onclick="CaptchaWebTrendLog(&#39;Link:Captcha Refresh&#39;, &#39;Refresh&#39;, &#39;No&#39;, &#39;/Apply&#39;, &#39;Apply&#39;,&#39;/Captcha Refresh&#39;);" />
+        </div>
+        <div style="clear: left;width:250px;">
+            <br />
+            <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_HipControl_hip_lblErrorMessage" class="error"></span>
+        </div>
+    </div>
+    <div style="clear: both;">
+    </div>
+</div>
+
+
+
+
+
+
+
+                
+		</div>
+            </div>
+            
+            <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_apply_divBottomPre" class="ButtonPane applyFooterPre">
+                <input type="button" value="Yes"
+                    title="Yes" onclick="OnYesClick()"
+                    class="ButtonLeft" tabindex="5" />
+                <input type="submit" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$btnCancelPreApply" value="No" onclick="if(typeof(_resumeFlag)!=&#39;undefined&#39;)_resumeFlag=false;ApplyPopupHide();CaptchaWebTrendLog(&#39;Link:Cancel Apply&#39;, &#39;&#39;, &#39;&#39;, &#39;/Apply&#39;,&#39;Apply&#39;,window.location.pathname);" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_btnCancelPreApply" tabindex="4" title="No" class="ButtonRight" />
+            </div>
+            <div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_apply_divBottom" class="ButtonPane applyFooter">
+            <input type="submit" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$btnCancelApply" value="Cancel" onclick="if(typeof(_resumeFlag)!=&#39;undefined&#39;)_resumeFlag=false;ApplyPopupHide();CaptchaWebTrendLog(&#39;Link:Cancel Apply&#39;, &#39;&#39;, &#39;&#39;, &#39;/Apply&#39;, &#39;Apply&#39;,window.location.pathname);" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_btnCancelApply" tabindex="20" title="Cancel" class="ButtonRight" />
+                <input type="submit" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$btnApply" value="Apply" onclick="if(typeof(_resumeFlag)!=&#39;undefined&#39;)_resumeFlag=false;VerifyCaptcha();" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_btnApply" tabindex="19" title="Apply" class="ButtonLeft" />
+                
+            </div>
+        
+	</div>
+
+</div>
+<div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_pnlUpdateProfileConfirm" class="ModalPopup" style="display: none;
+    width: 490px;">
+	
+    
+            
+    <div class="Content">
+        <img id="img3" src='/Images/information_img.gif' align="left"
+            alt="Information" />
+        <p class="modalMessage">
+            Update contact information?</p>
+        <div>
+            <span id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_lblConfirmUpdateText" class="TextBlock">Some of the contact information you just provided is different from what we have in your existing Microsoft Careers account. Do you want us to update your account with the latest information?</span>
+        </div>
+    </div>
+    <div class="ButtonPane">
+        <input type="submit" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$btnNoConfirm" value="No" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_btnNoConfirm" title="No" class="ButtonRight" />
+        <input type="submit" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$btnYesConfirm" value="Yes" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_btnYesConfirm" title="Yes" class="ButtonLeft" />
+    </div>
+
+</div>
+<div id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_pnlConfirmPopup" class="ModalPopup" style="display: none;
+    width: 490px;">
+	
+    <div class="Content">
+        
+            
+        <img id="img4" src='/Images/information_img.gif' align="left" 
+          alt="Information" />  
+        <p class="modalMessage">
+            Great! Updates to your account have been saved.</p>
+    </div>
+    <div class="ButtonPane">
+        <input type="submit" name="ctl00$ContentPlaceHolder1$JobDetails2$jobDetails_applyPopup$btnConfirmOkPopup" value="OK" id="ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_btnConfirmOkPopup" title="OK" class="Button" />
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<a id="ContentPlaceHolder1_JobDetails2_emptyLink2" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$JobDetails2$emptyLink2&#39;,&#39;&#39;)" style="display:none;"></a>
+<div id="ContentPlaceHolder1_JobDetails2_pnlCreateResume" class="ModalPopup" style="display: none;
+    width: 490px;">
+	
+    <div class="Content">
+        <img id="modalIcon" src='/Images/warning_img.gif' align="left"
+            alt="alert" />
+        <span id="ContentPlaceHolder1_JobDetails2_Label1" class="labelHead2">You need a resume to apply</span>
+        <div id="ContentPlaceHolder1_JobDetails2_Div1" style="padding-top: 20px">
+            <div>
+                <span id="ContentPlaceHolder1_JobDetails2_Label2" class="TextBlock">To apply for this job, you must to submit a resume. </span>
+            </div>
+            <div id="ContentPlaceHolder1_JobDetails2_PopupSignin">
+                <span id="ContentPlaceHolder1_JobDetails2_lblPopupSignIn" class="LabelBold"><b>If you already have a saved resume,</b></span>
+                <a onclick="$find(&#39;mpeCreateResume&#39;).hide(); return false;" id="ContentPlaceHolder1_JobDetails2_lnkBtnSignIn" title="Sign in" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$JobDetails2$lnkBtnSignIn&#39;,&#39;&#39;)">Sign in</a>
+            </div>
+        </div>
+    </div>
+    <div class="ButtonPane">
+        <input type="submit" name="ctl00$ContentPlaceHolder1$JobDetails2$btnCreateResume" value="Create resume" id="ContentPlaceHolder1_JobDetails2_btnCreateResume" title="Create resume" class="ButtonRight" />
+        <input type="submit" name="ctl00$ContentPlaceHolder1$JobDetails2$btnResumeCanel" value="Cancel" onclick="$find(&#39;mpeCreateResume&#39;).hide(); return false;" id="ContentPlaceHolder1_JobDetails2_btnResumeCanel" title="Cancel" class="ButtonLeft" />
+    </div>
+
+</div>
+
+<a id="ContentPlaceHolder1_JobDetails2_emptyLink3" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$JobDetails2$emptyLink3&#39;,&#39;&#39;)" style="display:none;"></a>
+<div id="ContentPlaceHolder1_JobDetails2_pnlSaveConfirm" class="ModalPopup" style="display: none;
+    width: 490px;">
+	
+    <div class="Content">
+        
+            
+        <img id="imgInfo" src='/Images/information_img.gif' align="left"
+            alt="Information" />
+        <p class="modalMessage">
+            The selected job(s) were added to your job watch list
+        </p>
+    </div>
+    <div class="ButtonPane">
+        <input type="submit" name="ctl00$ContentPlaceHolder1$JobDetails2$btnSaveConfirmOk" value="OK" id="ContentPlaceHolder1_JobDetails2_btnSaveConfirmOk" title="OK" class="Button" />
+    </div>
+
+</div>
+
+    </div>
+    <script type="text/javascript">
+        $(document).keypress(function (e) {
+            if (e.which == 13) {
+                return true;
+            }
+        });
+        $(document).ready(function () {
+            $('div.JobTitle').focus();
+        });
+
+    </script>
+
+                </div>
+            </div>
+            <div class="push">
+            </div>
+        </div>
+
+        <div id="FeedbackPane">
+            <a id="FeedbackLink" class="btnfeedback" title=" opens in new window" aria-label="FeedBack" target="_blank" href="https://microsoft.qualtrics.com/SE/?SID=SV_d5y7XBaMW2mYycl&amp;group=transactional" href="javascript:__doPostBack(&#39;ctl00$FeedbackLink&#39;,&#39;&#39;)">Feedback</a>
+        </div>
+        <div id="pnlPopup" class="modalPopup" style="display: none; left: 269.5px; top: 170px;">
+	
+            <div>
+                <div style="color: #1a1a1a; background: white; width: 589px; border-left: 10px solid #0072C6;">
+                    <div id="close_feedback" style="margin-left: 569px; padding-bottom: 13px; padding-top: 12px;"
+                        onclick="return HideModalPopup();">
+                        <button class="close_feedback1" aria-label="Feedback popup Close" title="Close" data-dismiss="modal" style="border: none; background: none; padding: 1px; cursor: pointer">X</button>
+                    </div>
+                </div>
+                <div style="float: right; border-left: 10px solid #0072C6; height: 390px; background-color: #FFF;">
+                    <iframe src="https://microsoft.qualtrics.com/SE/?SID=SV_d5y7XBaMW2mYycl&group=transactional" id="ifrmefeedback" name="iframefeedback" style="width: 589px; height: 385px;"></iframe>
+                </div>
+            </div>
+            
+        
+</div>
+        <div id="shellBgBottom" class="footer">
+            <span id="lblFooterHtmlContent"><footer class="footer-bg" ms.pgarea="Footer" style="background-color:#f4f4f4">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-3" ms.cmpgrp="Get Started">
+                <h2>Get started</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="/recommendedjobs.aspx" target="_parent" ms.title="Explore recomended jobs">Explore recommended jobs</a>
+                    </li>
+                    <li>
+                        <a href="/search.aspx" target="_parent" ms.title="Search jobs">Search jobs</a>
+                    </li>
+                    <li>
+                        <a href="/jobalerts.aspx" target="_parent" ms.title="Manage job alerts">Manage job alerts</a>
+                    </li>
+                    <li>
+                        <a href="/resumepreview.aspx" target="_parent" ms.title="Manage resumes">Manage resumes</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3" ms.cmpgrp="Life at Microsoft">
+                <h2>Life at Microsoft</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="http://www.microsoft.com/en-us/diversity/default.aspx" target="_blank" ms.title="Diversity">Diversity</a>
+                    </li>
+                    <li>
+                        <a href="http://blogs.microsoft.com/jobs" target="_blank" ms.title="JobsBlog">JobsBlog</a>
+                    </li>
+                    <li>
+                        <a href="http://news.microsoft.com/" target="_blank" ms.title="News Center">News Center</a>
+                    </li>
+                    <li>
+                        <a href="http://www.microsoft.com/en-us/news/stories/index.html" target="_blank" ms.title="Stories">Stories</a>
+                    </li>
+                    <li>
+                        <a href="http://blogs.microsoft.com/firehose " target="_blank" ms.title="The Fire Hose">The Fire Hose</a>
+                    </li>
+                    <li>
+                        <a href="http://www.facebook.com/WomenOFmicrosoft" target="_blank" ms.title="Women of Microsoft">Women at Microsoft</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3" ms.cmpgrp="Tips and tools">
+                <h2>Tips and tools</h2>
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="/appliedjobs.aspx" target="_parent" ms.title="Apply history">Apply history</a>
+                    </li>
+                    <li>
+                        <a href="/help/faq" target="_parent" ms.title="Frequently asked questions">Frequently asked questions</a>
+                    </li>
+                    <li>
+                        <a href="/help" target="_parent" ms.tite="Help Center">Help center</a>
+                    </li>
+                    <li>
+                        <a href="/help/interview" target="_parent" ms.title="Interview tips">Interview tips</a>
+                    </li>
+                    <li>
+                        <a href="/savedjobs.aspx" target="_parent" ms.title="Job watch list">Job watch list</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-3 connect-row" ms.cmpgrp="Connect with us">
+                <h2>Connect with us</h2>
+                <ul class="list-inline">
+                    <li>
+                        <a href="http://www.linkedin.com/company/microsoft/careers?trk=copro_tab" target="_blank" ms.title="LinkedIn" title="Microsoft Careers on LinkedIn" rel="external">
+                            <img src="/content/images/icons/24_linkedin.png" alt="Linked In" height="24" width="24">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://twitter.com/MicrosoftJobs" target="_blank" ms.title="Twitter" title="Microsoft Careers on Twitter" rel="external">
+                            <img src="/content/images/icons/24_twitter_v2.png" alt="Twitter" height="24" width="24">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.facebook.com/MicrosoftCareers" target="_blank" ms.title="Facebook" title="Microsoft Careers on Facebook" rel="external">
+                            <img src="/content/images/icons/24_facebook.png" alt="Facebook" height="24" width="24">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/microsoftlife#" target="_blank" ms.title="Instagram" title="microsoftlife on Instagram" rel="external">
+                            <img src="/content/images/icons/24_instagram.png" alt="Instagram" height="24" width="24">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com/user/WorkingAtMicrosoft" target="_blank" ms.title="YouTube" title="Working at Microsoft on YouTube" rel="external">
+                            <img src="/content/images/icons/24_youtube.png" alt="Youtube" height="24" width="24">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row hidden-xs">
+            <div class="col-xs-12" ms.cmpgrp="Slim footer">
+                <div class="pull-right"><a href="http://www.microsoft.com" target="_blank" ms.title="Microsoft logo"><img class="logo" src="/content/images/header_microsoft_logo.png" width="94" height="20" alt="Microsoft logo" /></a></div>
+            </div>
+        </div>
+        <div class="row" ms.cmpgrp="Slim footer">
+            <div class="col-xs-12">
+                <ul class="list-inline pull-right">
+                    <li><a href='/legal' ms.title="Legal">Legal</a></li>
+                    <li><a href='/privacy' ms.title="Privacy">Privacy</a></li>
+                    <li><a href='/contact' ms.title="Contact us">Contact us</a></li>
+                    <li>©2017 Microsoft</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer></span>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+signouthidden();
+                        $('#apply_divSubmissionSource, .confirmDesc, .AffirmativeWrapper, .applyHip, .applyFooter, .applyFooterPost').hide();
+                        $('.apply_divTop, .ReadyMessage, .applyFooterPre').show();Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","CancelControlID":"LanguageBar_btnCancelSignIn","PopupControlID":"pnlLoginOptions","PopupDragHandleControlID":"emptyPanel","dynamicServicePath":"/jobdetails.aspx","id":"bIdLoginOptionsPopup","repositionMode":0}, null, null, $get("LanguageBar_lnkBtnSignIn"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.Animation.UpdatePanelAnimationBehavior, {"OnUpdated":"{\"AnimationName\":\"Parallel\",\"duration\":\"0\",\"AnimationChildren\":[{\"AnimationName\":\"EnableAction\",\"TargetScript\":\"$get(\\u0027ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_btnApply\\u0027)\",\"Enabled\":\"true\",\"AnimationChildren\":[]}]}","OnUpdating":"{\"AnimationName\":\"Parallel\",\"duration\":\"0\",\"AnimationChildren\":[{\"AnimationName\":\"EnableAction\",\"TargetScript\":\"$get(\\u0027ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_btnApply\\u0027)\",\"Enabled\":\"false\",\"AnimationChildren\":[]}]}","id":"ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_upaeApplyPopup"}, null, null, $get("ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_pnlApplyPopupUpdate"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","CancelControlID":"ContentPlaceHolder1_JobDetails2_btnResumeCanel","PopupControlID":"ContentPlaceHolder1_JobDetails2_pnlCreateResume","dynamicServicePath":"/jobdetails.aspx","id":"mpeCreateResume"}, null, null, $get("ContentPlaceHolder1_JobDetails2_emptyLink2"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.ModalPopupBehavior, {"BackgroundCssClass":"modalBackground","CancelControlID":"ContentPlaceHolder1_JobDetails2_btnSaveConfirmOk","PopupControlID":"ContentPlaceHolder1_JobDetails2_pnlSaveConfirm","dynamicServicePath":"/jobdetails.aspx","id":"mpeSaveConfirm"}, null, null, $get("ContentPlaceHolder1_JobDetails2_emptyLink3"));
+});
+//]]>
+</script>
+</form>
+    <script type="text/javascript" language="javascript" src="https://www.microsoft.com/library/svy/sto/https/broker.js">
+    </script>
+    <script>
+        setFlagForInternalLinks('body');
+        CheckEmptyLinks();
+    </script>
+    <script type="text/javascript">
+        _tag.dcsCollect();
+    </script>
+    <!-- ClickTale -->
+    <script type='text/javascript'>
+        (function (win, doc) {
+
+            var scriptElement, scrSrc;
+
+            if (typeof (win.ClickTaleCreateDOMElement) != "function") {
+                win.ClickTaleCreateDOMElement = function (tagName) {
+                    if (doc.createElementNS) {
+                        return doc.createElementNS('http://www.w3.org/1999/xhtml', tagName);
+                    }
+                    return doc.createElement(tagName);
+                }
+            }
+
+            win.WRInitTime = (new Date()).getTime();
+
+            scriptElement = ClickTaleCreateDOMElement('script');
+            scriptElement.type = "text/javascript";
+
+            scrSrc = doc.location.protocol == 'https:' ? 'https://cdnssl.clicktale.net/' : 'http://cdn.clicktale.net/';
+
+            scrSrc += 'www07/ptc/0d4eaab9-fad3-4c75-b31f-859c935ae10a.js';
+
+            scriptElement.src = scrSrc;
+
+            doc.getElementsByTagName('body')[0].appendChild(scriptElement);
+        })(window, document);
+    </script>
+    <!-- End of ClickTale part -->
+    <noscript>
+        <div>
+            <img id="Img1" alt="DCSIMG" src="http://m.webtrends.com/dcsriiqi600000s5zc34hhdwc_2h1h/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=MS.3.0.0" height="1" width="1" />
+        </div>
+    </noscript>
+</body>
+</html>

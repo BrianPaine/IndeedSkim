@@ -1,0 +1,434 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="ui-mobile">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"5911de361c","applicationID":"3392915","transactionName":"IlsLQktaXltTRhtARwNYDFVmRltDUxteX1ASGxZeVkI=","queueTime":1,"applicationTime":75,"agent":"","atts":"GhYQFANOEFJbRFhfSwRGOl9dFwgFBgMDHBAEWRVaVkxXRWlaVV1XQw5He1xHUU4WfFFRXhVcRxobRltDU2tdVBBbBlAEDBkQRF9AUW9cAFkAFAMXf1JEV00Qeg5HFV9NVF4VS0k="}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgEAWVNaGwADXVNbBgQ="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <title>Data Analyst in Cincinnati, OH - Mercy Hospital</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  
+    <meta http-equiv="description" name="description" content="Mercy Health offers numerous job opportunities in a wide variety of healthcare disciplines and geographic locations.">
+	<meta http-equiv="keywords" name="keywords" content="Careers, Job, Openings, jobs, employment">
+  
+    <link href="/system/production/assets/38077/original/mercyicon.ico" rel="shortcut icon" type="image/x-icon" />
+  
+	<meta property="og:image" content="//connect.talemetry.com/system/production/assets/37369/original/mh-logo-facebook-thumb.jpg">
+	<link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.3.0/jquery.mobile-1.3.0.min.css">
+	<!-- gtm -->
+	<script src="//connect.talemetry.com/system/production/assets/37370/original/jquery-1.8.2.min.js"></script>
+	<script src="//connect.talemetry.com/system/production/assets/37371/original/jquery.mobile-1.3.0.min.js"></script>
+	<link rel="Stylesheet" href="//connect.talemetry.com/system/production/assets/37375/original/main.css">
+	<!--[if !IE 7]>
+		<style type="text/css">
+			#mainContentWrapper {display:table;height:100%; margin-top:20px;}
+		</style>
+	<![endif]-->
+    <script>
+    $.mobile.ajaxEnabled = false;
+    $.mobile.linkBindingEnabled = false;
+    </script>
+  
+	<link rel="stylesheet" media="screen" href="/assets/site/v3/manifest-889dcb2ef11118c0333c20dfa081fdbd085bc76a9dad3284021bce3049819920.css" />
+<link rel="stylesheet" media="screen" href="/stylesheets/theme.css" />
+<script src="/assets/site/v3/manifest-8530a5bf1d632263f495cab3503312c9941edc082055c5236bce5110e3aab2f8.js"></script>
+<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+  csns.maps.fetch_location_url = "http://mercy.ttcportals.com/locations/fetch";
+
+//]]>
+</script>
+
+<script src="/javascripts/theme.js"></script>
+<link rel="alternate" type="application/atom+xml" title="ATOM" href="http://mercy.ttcportals.com/timeline.atom" />
+    <script>
+      csns.maps.script.channel = "career_sites_mercy_ttcportals_com"
+    </script>
+	<script type="text/javascript" src="//connect.talemetry.com/system/production/assets/42325/original/csns_custom.jobsearch.1.0.1.js"></script>
+	<!-- buttons -->
+</head>
+<body id="jobs-7964284-decision-support-analyst">
+
+  
+<div class="ui-mobile-viewport ui-overlay-c">
+
+	<div id="mobile-mainContent" data-role="page" data-url="mobile-mainContent" tabindex="0" class="ui-page ui-page-panel ui-page-active ui-body-c" style="min-height: 556px;">
+
+	<!--script type="text/javascript" src="./Careers & Job Openings   Mercy Health Corporate_files/menu.js"></script-->
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<!--script type="text/javascript" src="./Careers & Job Openings   Mercy Health Corporate_files/buttons.js"></script-->
+    <script type="text/javascript">//stLight.options({publisher:'8dc3e365-8a9f-4073-bf17-9454bee6a7b6'});</script>
+
+	<!--script type="text/javascript" src="./Careers & Job Openings   Mercy Health Corporate_files/mobile.js"></script-->
+	
+	<div id="headerWrapper">
+	<div id="mainHeaderTop">
+		<div id="mainLinks">	
+			<a href="http://www.e-mercy.com/" class="ui-link">Cincinnati, OH</a>
+            <span class="whiteSeparator">|</span>
+			<a href="http://www.marcumandwallace.org/" class="ui-link">Irvine, KY</a>
+			<span class="whiteSeparator">|</span>
+			<a href="http://www.ehealthconnection.com/regions/mercy_st_ritas/" class="ui-link">Lima, OH</a>
+			<span class="whiteSeparator">|</span>
+			<a href="http://www.mercyonline.org/" class="ui-link">Lorain, OH</a>
+			<span class="whiteSeparator">|</span>
+			<a href="http://www.elourdes.com/" class="ui-link">Paducah, KY</a>
+			<span class="whiteSeparator">|</span>
+			<a href="http://community-mercy.org/" class="ui-link">Springfield, OH</a>
+			<span class="whiteSeparator">|</span>
+			<a href="http://www.mercyweb.org/" class="ui-link">Toledo, OH</a>
+			<span class="whiteSeparator">|</span>
+			<a href="http://www.hmpartners.org/" class="ui-link">Youngstown, OH</a>
+		</div>
+	</div>
+
+    
+    <div id="tmHeader" class="cs_cfix">
+      <a href="http://www.mercy.com/corporate/default.aspx" class="ui-link logo logo_main" id="logo_main">&nbsp;</a>
+    </div>
+    
+      
+      
+	<!--div id="mainHeaderMiddle">
+		<div id="mobile-menu" class="mobileOrTablet"></div>
+		<a href="http://www.mercy.com/corporate/default.aspx" class="ui-link">
+			<div id="logo" alt="Mercy Health, Cincinnati, OH">&nbsp;</div>
+            <div id="logo_alt" alt="Mercy Health">&nbsp;</div>
+		</a>
+		<div id="searchWrapper">
+		</div>
+	</div-->
+	<!--div id="mainHeaderBottom">
+		mainmenubot
+	</div-->
+      
+	</div>
+
+	
+    <div id="mainContentWrapper">
+    
+    
+<div id="mainImage">    
+   <img class="mainImage" src="//connect.talemetry.com/system/production/assets/37381/original/careers-and-job-openings.jpg">
+</div>
+
+<div id="mainContent clearfix" >
+    <div id="leftPanel" style="margin-bottom: 20px;">
+      
+      <a href="http://mercy.ttcportals.com/">Careers Home</a> / <a href="http://mercy.ttcportals.com/jobs">Jobs</a> /
+
+<div style="margin-top: 20px;">
+  
+<h1 class="cs_template_header">Data Analyst</h1>
+
+<div class="cs_item cs_item_single cs_item_type_job cs_cfix">
+    
+    <div>
+      <div class="job_meta">
+         <div class="job_metaitem"><strong>Job ID:&nbsp;</strong><span>4653536</span></div>
+        <div class="job_metaitem"><strong>Updated:&nbsp;</strong><span>September 27, 2017</span></div>
+        <div class="job_metaitem"><strong>Geographic Location:&nbsp;</strong><span>HomeOffice</span></div>
+        <div class="job_metaitem"><strong>Location:&nbsp;</strong><span><a href="http://mercy.ttcportals.com/jobs/location/88047/cincinnati-oh-united-states">Cincinnati, OH, United States</a></span></div>
+        <div class="job_metaitem"><strong>Department:&nbsp;</strong><span>Patient Transfer Center</span></div>
+        <div class="job_metaitem" style="padding-top: 15px;"><strong>Full/Part Time:&nbsp;</strong><span>Full-Time</span></div>
+        <div class="job_metaitem"><strong>Shift:&nbsp;</strong><span>Days</span></div>
+        <div class="job_metaitem"><strong>Standard Hours:&nbsp;</strong><span>40</span></div>
+      </div>       
+      <div class="job_text" style="padding-top: 30px;">
+        
+        
+          
+           <div class="cs_item_apply">
+            <div class="cs_item_apply_button" id="cs_item_apply_button_3496021">
+              <a id="apply_click" class="cs_item_apply_button_link ui-link" href="#">Apply for this Job</a>
+              <script>
+                $("#apply_click").click(function(e){
+                  e.preventDefault();
+                  $("#applybtn .cs_item_apply_button_link")[0].click();
+                  return false;
+                });
+              </script>
+            </div>
+           </div>
+          
+         
+         <p><b>Job Summary</b> </p> <p>Scope of Responsibility: The MHAC Data Analyst / Liaison works closely with MHAC leadership, MHAC team members, and representatives from all markets served to insure data capture and integrity is maintained and reported in a manner promoting / enhancing the strategic vision of each client  / market served by the MHAC and its services.  </p><p>Job Summary:</p><p>The Data Analyst / Liaison is responsible for insuring data accuracy and integrity are maintained in all MHAC databases and submits timely and accurate reports as identified and requested by each market and / or Mercy leadership.  As a member of the MHAC team, this position will assist in the training and orientation of MHAC team members / end users on system functionality to ensure timeliness, completeness, consistency, and integrity of data; and will work with leadership to identify efficient and effective ways to manage all databases and workflows related to data capture. </p><table border="0" cellpadding="0" cellspacing="0" style="width:623px;" width="622">	<colgroup>		<col>		<col span="4">		<col>		<col span="4">		<col>		<col span="3">		<col>	</colgroup>	<tbody>		<tr height="35">			<td colspan="15" height="35" style="height:35px;width:623px;">				Effectively retrieves, compiles and presents data from various sources in support of MHAC and / or market functions promoting the overall strategic vision of the operation and its customers </td>		</tr>		<tr height="31">			<td colspan="15" height="31" style="height:31px;width:623px;">				Serves as the primary liaison with MHAC customers related to business development and data requests </td>		</tr>		<tr height="31">			<td colspan="15" height="31" style="height:31px;width:623px;">				Analyzes data and establishes facts with valid conclusions utilizing various database applications  </td>		</tr>		<tr height="31">			<td colspan="15" height="31" style="height:31px;width:623px;">				Generates daily, weekly, monthly volume analysis reports for leadership and customers.</td>		</tr>		<tr height="31">			<td colspan="15" height="31" style="height:31px;width:623px;">				Works closely with customers to establish referral trends and business strategies to maintain / grow market share relative to MHAC operations </td>		</tr>		<tr height="31">			<td colspan="15" height="31" style="height:31px;width:623px;">				Works with customers to develop relationships with physicians, referrals sites, and others by leveraging MHAC operations and data analysis </td>		</tr>		<tr height="31">			<td colspan="15" height="31" style="height:31px;width:623px;">				Communicates market intel back to MHAC leadership to support operational efficiency and effectiveness</td>		</tr>		<tr height="31">			<td colspan="15" height="31" style="height:31px;width:623px;">				Responsible for other tasks and analysis as requested / directed </td>		</tr>	</tbody>
+</table><p>Required Minimum Education: 4 yr Bachelors Degree</p><p>Preferred Education: Graduate Degree (Masters)</p><p><b>Hours</b> </p> <p>Full-Time</p><p>40 hours per week</p><p>Days, 8:00 a.m. to 4:30 p.m.</p><p>Days M-F and other hours as needed. Weekends and holidays may be required on an as needed basis.</p><p><b>Equal Employment Opportunity</b> </p> <p>It is our policy to  abide by all Federal and State laws, as well as, the requirements of 41 CFR 60-1.4(a), 60-300.5(a) and 60-741.5(a), prohibiting discrimination against qualified individuals based on their status as protected veterans or individuals with disabilities, and prohibiting discrimination against all individuals based on their race, color, religion, sex, sexual orientation, gender identity, or national origin.</p>
+      </div>
+    </div>
+    
+     
+    
+      
+ 		 <div id="applybtn" class="cs_item_apply">
+        
+          <div class="cs_item_apply_button" id="cs_item_apply_button_7964284"><a href="#start" class="cs_item_apply_button_link social_apply" id="job_link_7964284" rel="nofollow">Apply for this Job</a></div><script type="text/javascript">var cs_apply_settings = $cs.parseJSON('{\"job_id\":7964284,\"url\":\"https://apply.talemetry.com\",\"company\":\"mercy\",\"subdomain\":\"mercy\",\"career_site_id\":2525,\"return_page_permalink\":\"your-application-has-been-successfully-submitted\",\"req_number\":\"4653536-1A\",\"workflow\":1966,\"workflow_tag\":\"\",\"company_id\":2077,\"external_job_id\":\"4653536\",\"real_external_job_id\":\"4653536-1A\",\"internal_job_id\":2090677,\"audit_activity\":true,\"web_tracking_id\":\"x_d8cfef59-c0d5-40ce-86a3-d15151043d8f\",\"web_tracking_session_id\":\"x_556ba091-1cd1-46bb-925b-591eb01d663c\",\"context_id\":null,\"finished\":\"http://mercy.ttcportals.com/pages/your-application-has-been-successfully-submitted\",\"apply_key\":\"5478fe04-87d1-4723-96ff-b5e4c7842ca6\"}');csns.apply.setup_job_apply_link(cs_apply_settings, 2);</script>
+        
+        </div>
+      
+    
+    
+  	   <div id="returnsearch_placehold"></div>
+  
+  </div>
+
+
+
+</div>
+
+
+
+  
+        
+    </div>
+    <div id="rightPanel" style="margin-bottom: 20px;">
+
+
+
+
+
+
+
+      
+<div class="widgetBox">
+  
+<p class="vertMenuLevelTitle">Search</p>
+<div id="jobForm" class="sidesearchform" >
+  
+  
+  
+
+ 
+<form id="jobsearch_form" action="/jobs/search" method="get" data-ajax="false" class="cs_cfix">
+  <input type="hidden" name="location" value="" />
+  <input type="hidden" name="location_country" value="" />
+  <input type="hidden" name="location_state" value="" />
+  <input type="hidden" name="radius" value="" />
+  <input type="hidden" name="ns_lcache" value="" />
+   
+	<div class="fldRow">
+     <div class="jobfldTitleDiv">JOB ID/Keyword Search</div>
+     <div class="jobFieldDiv"><input type="text" name="q" value="" class="txtField ui-input-text ui-body-c">
+       
+       <a href="#" class="advancedsrch" ref="jf1_advanced" >Advanced Search</a>
+        
+      </div>
+    </div>
+
+   <div id="jf1_advanced" style="display: none;">
+    <div class="fldRow">
+        <div class="jobfldTitleDiv">Location</div>
+        <div class="jobFieldDiv">
+          <div class="ui-select">
+            <input type="text" name="ns_location" value="" class="txtField ui-input-text ui-body-c" />
+          </div>
+        </div>
+    </div>
+  	<div class="fldRow">
+        <div class="jobfldTitleDiv">Within</div>
+        <div class="jobFieldDiv">
+          <div class="ui-select" style="padding-left: 20px;">
+            <select id="ns_dist" name="ns_dist" >
+            <option value="5" >5 miles</option>
+            <option value="10" >10 miles</option>
+            <option value="15" selected>15 miles</option>
+            <option value="25" >25 miles</option>
+          	</select>
+          </div>
+        </div>
+    </div>
+    <div class="fldRow">
+        <div class="jobfldTitleDiv">Job Category</div>
+        <div class="jobFieldDiv">
+            <div class="ui-select">
+              <select class="" name="cf[job_cat]"><option value="">--Select--</option>
+<option value="J01">Advanced Practice</option>
+<option value="J02">Business/Administrative Support and Professional</option>
+<option value="J03">Executive</option>
+<option value="J04">Food &amp; Nutrition</option>
+<option value="J05">Guest Services/Housekeeping</option>
+<option value="J06">Imaging</option>
+<option value="J07">Information Technology</option>
+<option value="J08">Intern/Extern/Fellowship</option>
+<option value="J09">Laboratory</option>
+<option value="J10">Mental and Behavioral Health &amp; Social Services</option>
+<option value="J11">Nursing – RN</option>
+<option value="J12">Nursing – LPN</option>
+<option value="J13">Patient Care Aides/Techs and Support</option>
+<option value="J14">Pharmacy</option>
+<option value="J15">Rehabilitation</option>
+<option value="J16">Respiratory</option>
+<option value="J17">Research/Education/Specialty Services</option>
+<option value="J18">Facilities/Trades/Security/Warehouse</option>
+<option value="J19">Academics</option>
+<option value="J20">Insurance</option>
+<option value="J21">Management</option>
+<option value="J22">Sales</option>
+<option value="J23">Finance, Accounting, Revenue Cycle, AP/AR</option>
+<option value="J24">Human Resources</option>
+<option value="J25">Legal, Risk &amp; Compliance</option>
+<option value="J26">Marketing, Brand &amp; Communications</option>
+<option value="J27">Quality</option>
+<option value="J28">Supply Chain</option>
+<option value="J29">Foundation</option></select>
+
+          </div>
+        </div>
+    </div>
+    <div class="fldRow">
+        <div class="jobfldTitleDiv">Job Type</div>
+        <div class="jobFieldDiv">
+            <div class="ui-select">
+              <select class="" name="cf[fullpart]"><option value="">--Select--</option>
+<option value="F">Full-Time</option>
+<option value="N">PRN</option>
+<option value="P">Part-Time</option>
+<option value="V">Per Visit</option></select>
+  
+          </div>
+        </div>
+    </div>
+    <div class="fldRow">
+        <div class="jobfldTitleDiv">Shift</div>
+        <div class="jobFieldDiv">
+            <div class="ui-select">
+              <select class="" name="cf[shift1]"><option value="">--Select--</option>
+<option value="A">Afternoons</option>
+<option value="D">Days</option>
+<option value="E">Days/Afternoons</option>
+<option value="F">Days/Nights</option>
+<option value="G">Afternoons/Nights</option>
+<option value="L">All</option>
+<option value="N">Nights</option>
+<option value="O">Other</option></select>
+  
+          </div>
+        </div>
+    </div>
+      
+
+    </div>
+    <div class="fldRow">
+          <div class="jobfldTitleDiv">&nbsp;</div>
+          <div class="jobFieldDiv">
+              <div class="ui-submit">
+                <input type="submit" value="Search" data-theme="b" data-mini="true" />
+              </div>
+          </div>
+    </div>
+   <div class="fldRow">
+      <div class="jobFieldDiv">
+        <a href="javascript: resetForm(); ">Reset Search</a>
+      </div>
+  </div>
+</form>
+</div>       
+</div>      
+
+  
+
+
+
+<div class="widgetBox side_events">
+  <p class="vertMenuLevelTitle">Events &amp; News</p>
+  <div class="side_content">
+    <h2 style="text-align: center;"><a href="http://www.jobs.net/jobs/mercy-health/en-us/"><strong>Join our Talent Network</strong></a></h2><p>&nbsp;</p><p style="text-align: center;">Join our <a href="http://www.jobs.net/jobs/mercy-health/en-us/">Talent Network</a> and receive alerts with new opportunities that match your interest</p><p style="text-align: center;">&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+  </div>
+</div>
+
+  
+
+
+<div class="widgetBox side_events">
+  <p class="vertMenuLevelTitle">Links</p>
+  <div class="side_content">
+    <p class="vertMenuLevel1"><a href="https://youtu.be/1Et8-ZRtbJA"><span style="color: rgb(51, 51, 153);">This is what we were meant to do.</span></a></p>
+
+<p class="vertMenuLevel1"><a href="http://www.mercy.com/corporate/careers-compensation-benefits.aspx"><span style="color: rgb(51, 51, 153);">Compensation &amp; Benefits</span></a></p>
+
+<p class="vertMenuLevel1"><a href="http://www.eeoc.gov/employers/upload/poster_screen_reader_optimized.pdf"><span style="color: rgb(51, 51, 153);">EEO is the Law</span></a></p>
+
+<p class="vertMenuLevel1"><a href="http://www.mercy.com/corporate/privacy-statement.aspx"><span style="color: rgb(51, 51, 153);">Privacy Statement</span></a></p>
+
+  </div>
+</div>
+ 
+
+  
+    </div>
+</div>
+
+      
+      
+
+	</div>
+
+
+	<div id="footerWrapper">
+	<div id="footerTop">
+		A Catholic healthcare ministry serving Ohio and Kentucky
+	</div>
+	<div class="shim"></div>
+	<div id="footerBottom">
+
+	    <div id="footerBottomLeft">
+	        ©2015 Mercy Health. All Rights Reserved
+	    </div>
+	    <div id="footerBottomRight">
+			Date Last Modified: <span id="ctl00_ctl00_cphMainContent_ucFooter_lbDatemodified">2/3/2015 2:48:04 PM</span>
+	    </div>
+		<div class="shim"></div>
+	</div>
+	</div>
+
+	<div class="ui-panel-dismiss" data-panelid="mobile-sideMenu"></div>
+
+	</div>
+	<div class="ui-loader ui-corner-all ui-body-a ui-loader-default">
+	<span class="ui-icon ui-icon-loading"></span><h1>loading</h1>
+	</div>
+
+</div>
+
+<script type="text/javascript">  
+var jobform = null;
+csns.maps.script.client_id = null;
+csns.maps.script.channel = "career_site_mercy_ttcportals_com";
+$(document).ready(function(){
+  jobform = new csns_custom.jobsearch.form("jobsearch_form", {
+    radius_distance_in_miles: true,
+    radius_distance_default: 15,
+    radius_distance: "",
+    onSubmit: function (e) {
+      setCookie("prev_query", $("#jobsearch_form").serialize())
+    }
+  });
+});
+</script>
+
+  <div class="required_footer">
+  <script type="text/javascript" charset="utf-8">//<![CDATA[
+
+    var referral_source_id;
+    referral_source_id = 326;
+
+    var params_value = [];
+    params_value["location_city"] = "";
+  //]]></script>
+
+
+    <script src="https://static.getclicky.com/100839891.js" type="text/javascript"></script>
+    <noscript><img height="1" width="1" src="https://static.getclicky.com/100839891-db66.gif" alt="stats" /></noscript>
+<script type="text/javascript">
+  var clicky_custom = clicky_custom || {};
+  clicky_custom.sticky_data_disable = 1;
+</script>
+
+  <script type='text/javascript' src='https://apply.talemetry.com/assets/direct_apply.js?verison=2.1'></script>
+</div>
+
+
+</body>
+
+</html>

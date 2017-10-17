@@ -1,0 +1,450 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.core.css">
+<link type="text/css" rel="stylesheet" href="https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.theme.css">
+<link type="text/css" rel="stylesheet" href="https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.datepicker.css">
+<link type="text/css" rel="stylesheet" href="https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.dialog.css">
+
+
+<style type="text/css">
+
+    select:focus, a:focus {
+        outline: #1e90ff solid 2px
+    }
+
+    input[type=submit] {
+        background: #00438C;
+    }
+
+    input[type=button] {
+        background: #00438C;
+    }
+
+    input[type=submit]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=button]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=submit]:focus {
+        background: #1e90ff;
+    }
+
+    input[type=button]:focus {
+        background: #1e90ff
+    }
+
+    .ui-dialog .ui-dialog-buttonpane {
+        text-align: right;
+    }
+
+    .ui-dialog .ui-dialog-buttonpane button {
+        float: none;
+    }
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+        /*border: 1px solid #000;*/
+        /*}*/
+
+</style>
+
+
+
+<style type="text/css">
+    .alert-error {
+        color: #990000;
+        font-weight: bold;
+    }
+
+    td.top {
+        vertical-align: top !important;
+    }
+
+    td.left {
+        float: none;
+        text-align: left;
+    }
+
+    td.right {
+        float: none;
+        text-align: right;
+    }
+
+    .nowrapFormLabel {
+        white-space: nowrap;
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 120%
+    }
+
+    h2 {
+        font-size: 110%
+    }
+
+    h3 {
+        font-size: 100%
+    }
+
+    .hidden-accessibility-text {
+        position: absolute;
+        left: -2000px;
+        top: 0;
+        width: 1;
+        height: 1;
+        overflow: hidden;
+        font-size: 0.1em;
+    }
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+    .ofcc305table textfield, .ofcc305table select,
+    .ofcc305table input, .ofcc305table a {
+        font-size:12px !important;
+        font-family:Arial,sans-serif,Helvetica !important;
+    }
+
+    #cws-search-results th, #cws-job-alerts th {
+        border-top: #CCCCCC 2px solid;
+        border-bottom: #CCCCCC 2px solid;
+    }
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+        border-bottom: #CCCCCC 2px solid;
+        padding-bottom: 3px;
+    }
+</style>
+
+<html lang='en'><head><title>Career Opportunities</title>
+
+<link href='//fonts.googleapis.com/css?family=Montserrat:100,400,700' rel='stylesheet' type='text/css'>
+</head><body>
+
+
+<STYLE type="text/css">
+
+
+  
+
+
+  /* TALEO */
+ 
+ 
+ 
+ /*
+ *** INCLUDE FONT MONTSERRAT ****
+ */
+
+
+ body {font-family:/*'Montserrat',*/ helvetica, sans-serif;font-weight:100}
+  table {width:100%;color:#333;}
+  table td {font-size: 14px;color:#333;}
+  a {text-decoration:none;font-weight:100;color:#33689b;}
+  b a {font-size:18px;line-height:22px}
+  input[type="button"] {padding: 10px !important;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  font-weight: 100 !important;
+  font-size: 14px !important;}
+  
+  input[type="button"]:hover, input[type="submit"]:hover {background-color:#333 !important; cursor:pointer !important;}
+  input[type="text"], input[type="password"] {padding:5px;}
+  
+  input[type="submit"] {padding:10px !important;font-size:15px;font-weight:100;font-family:'Montserrat','helvetica' !important; font-size:14px !important; font-weight:100 !important}
+  
+  h1 {font-size:22px;font-weight:500;letter-spacing:6px;text-transform:uppercase;font-family:'Montserrat', sans-serif;}
+  
+  h1::before {
+	  content: "";
+ 	 width: 37px;
+ 	 height: 25px;
+  	background: URL('http://www.intelliwaresystems.com/css/images/arrow2.png') no-repeat left center;
+ 	 float: left;
+ 	 background-size: 15px;
+	 }
+  
+  
+  td hr[color="silver"] {color:#fff;border-color:transparent;height:0;width:0;background:transparent;height:30px;}
+  
+  select {min-width:220px;font-size:14px;color:#333;}
+  /* END TALEO */
+
+
+
+</STYLE>
+<script type='text/javascript' src="https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/tbe-basic-cws.js"></script>
+<script type='text/javascript' src="https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/engine.js"></script>
+<script type='text/javascript' src="https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/interface/CwsDWRFacade.js"></script>
+<script type="text/javascript">
+function jobAlertShowEmailSection() {
+   document.theForm.showEmailSection.value = true;
+   document.theForm.submit();
+}
+function cancelForm() {
+   document.loginForm.showPwdSection.value=false;
+   document.loginForm.showEmailSection.value=false;
+   document.loginForm.action=document.theForm.action;
+   document.loginForm.submit();
+}
+</script><script type='text/javascript'> CwsDWRFacade._path = 'http://chp.tbe.taleo.net/chp04/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; </script>
+<script type="text/javascript">
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chp.tbe.taleo.net/chp04/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chp.tbe.taleo.net/chp04/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();</script>
+
+
+
+
+
+
+<table border=0 cellspacing=0 cellpadding=2 width='100%' role='presentation'>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'></td></tr><tr><td colspan=2><h1>Junior Data Analyst</h1></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Location:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>Washington, DC</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Job Code:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>468</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'># of openings:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>1</b></td>
+</tr>
+<tr>
+<tr><td colspan=2><hr width='100%' size='1' color='silver'></td></tr>
+<tr><td colspan=2><h1>Description</h1></td></tr>
+<tr><td colspan=2><p><strong>Overview:&nbsp; </strong>IntelliWare is a growing small business with an immediate opening for a skilled and energetic Junior Data Analyst to support a federal client.&nbsp;The client is responsible for the planning, development and management of their intelligence workforce by providing integrated strategies and plans applied to source, select, allocate, train, develop, and deploy high-performance intelligence analysts for an evolving Intelligence Program.&nbsp;The Analyst will be part of a team to assist the client institutionalize workforce planning as well as development and management processes to support an integrated human capital lifecycle for intelligence analysts. The Analyst will support meetings, draft and review documents, correspond with Government personnel and other contractors, and provide other related services.&nbsp; It is desired that the Analyst have experience working with the Intelligence Community.</p>
+
+<p><strong>Clearance: </strong>&nbsp;Top Secret with SCI eligibility. Candidate will require a CI polygraph for SCI access.&nbsp;</p>
+
+<p><strong>Description:</strong></p>
+
+<p>The Analyst will work in a team supporting several tasks for the client to include workforce planning and data analysis using Microsoft Excel. The Analyst will take direction from the onsite embedded Sr Human Capital Planning Analyst.</p>
+
+<p><strong>Required Skills and Qualifications:</strong></p>
+
+<ul>
+	<li>
+	<p>Demonstrated experience in statistical analysis using Microsoft Excel and/or analyzing quantitative and qualitative data to assess program effectiveness.&nbsp;</p>
+	</li>
+	<li>
+	<p>Experience developing surveys, conducting stakeholder interviews, and/or building assessment tools to gather information</p>
+	</li>
+	<li>
+	<p>Proficiency in Microsoft Office Suite, including Excel, Word, PowerPoint, and SharePoint.</p>
+	</li>
+	<li>
+	<p>Strong verbal and written communication skills.</p>
+	</li>
+</ul>
+
+<p><strong>Experience Requirements:</strong></p>
+
+<ul>
+	<li>
+	<p>Minimum of 1-year of relevant&nbsp;experience.</p>
+	</li>
+</ul>
+
+<p><strong>Education Requirements:</strong></p>
+
+<ul>
+	<li>
+	<p>Bachelor&rsquo;s degree&nbsp;</p>
+	</li>
+</ul>
+
+<p><strong>Location:&nbsp; </strong>Washington, DC</p>
+
+<p><strong>Travel:&nbsp; </strong>None.</p>
+
+<p><strong>Company Profile:</strong><br />
+IntelliWare&nbsp;is a privately-owned company founded to provide business and technical services to government and commercial clients.&nbsp; Our business philosophy is to hire the brightest, yet humble, people we can find and provide them with the team, training, and support they need to exceed our customers&rsquo; mission requirements. Our experienced, cleared, and professional workforce receives compensation and benefits that are intended to be among the best in our industry.&nbsp;&nbsp;</p></td></tr>
+</tr>
+<tr>
+<tr><td class='left'><br>
+<form action='http://chp.tbe.taleo.net/chp04/ats/careers/apply.jsp;jsessionid=CF89C933E9BCC1A7E611A2883C9DE5C6?org=INTELLIWARE_SYSTEMS&cws=1&rid=468' method='post' name='apply'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='org' value='INTELLIWARE_SYSTEMS'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='_csrf' value='v1:;1507572243758:;zVXqbjGWlV7ucF/Cfr3GQrHX2DKcDdd/F4JaKuTe2ig=' /><input type='submit' name='tbe_cws_submit' value='Apply for this Position' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="8"></form></td>
+</td>
+<td align='right' colspan=1><br>
+<form action='http://chp.tbe.taleo.net/chp04/ats/careers/email.jsp;jsessionid=CF89C933E9BCC1A7E611A2883C9DE5C6?org=INTELLIWARE_SYSTEMS&cws=1' method='post' name='send'>
+<input type='hidden' name='org' value='INTELLIWARE_SYSTEMS'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='rid' value='468'>
+<input type='hidden' name='_csrf' value='v1:;1507572243758:;zVXqbjGWlV7ucF/Cfr3GQrHX2DKcDdd/F4JaKuTe2ig=' /><input type='submit' name='tbe_cws_submit' value='Send to a Friend' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="9"></form>
+</td></tr>
+</tr>
+<tr>
+<td colspan=2 width='100%'><p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; background-color: white; line-height: 15pt;"><span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">IntelliWare provides equal opportunity for all persons and prohibits discrimination in employment because of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability (including pregnancy, childbirth or related medical conditions), veteran or marital status, or any other factor prohibited by law. This policy applies to all terms and conditions of employment, including, but not limited to, hiring, placement, promotion, termination, layoff, recall, transfer, leave, compensation, and training.&nbsp;</span></span></p>
+
+<p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; background-color: white; line-height: 15pt; widows: 1;"><span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">IntelliWare maintains an Affirmative Action Plan to establish fair access to employment opportunities and to create a work community that is an accurate reflection of the qualified workforce. Due to security clearance requirements, U.S. citizenship is required for most positions.</span></span></p></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br></td>
+</tr>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'>
+<h1><span class='head1'>Are you a returning applicant?</span></h1></td>
+</tr>
+<tr>
+<form action='http://chp.tbe.taleo.net/chp04/ats/careers/applyModal.jsp;jsessionid=CF89C933E9BCC1A7E611A2883C9DE5C6?org=INTELLIWARE_SYSTEMS&cws=1' method='post' name='TBE_theForm'>
+<input type='hidden' name='org' value='INTELLIWARE_SYSTEMS'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='rid' value='468'>
+<input type='hidden' name='currentTime' value='1507572243758'>
+<input type='hidden' name='signature' value='W1yFoub8hFdlikGc3MIhQGcKONsgQB3ptlx9KbJvqIA='>
+<input type='hidden' name='et' value='CAND'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='_csrf' value='v1:;1507572243758:;zVXqbjGWlV7ucF/Cfr3GQrHX2DKcDdd/F4JaKuTe2ig=' /><tr><td colspan=2>
+<table border=0 cellpadding=2 cellspacing=0 role="presentation"><tr>
+<td nowrap colspan=2>Previous Applicants:</td>
+</tr>
+<tr>
+<td nowrap align='right'><label for='email'>Email:</label></td>
+<td class='nowrap'><input type='text' id='email' name='email' maxlength=50 autocomplete='off' tabindex='24'></td>
+</tr>
+<input type='text' style='display:none'>
+<input type='password' style='display:none'>
+<tr>
+<td nowrap align='right'><label for='cwsPassword'>Password:</label></td>
+<td class='nowrap'><input type='password' id='cwsPassword' name='cwsPassword' maxlength=30 autocomplete='off' tabindex='25'></td>
+</tr>
+<tr><td nowrap colspan=2>
+<input type='submit' name='tbe_cws_submit' value='Add to My Jobs' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="26"></td></tr>
+<tr><td nowrap colspan=2><br>
+If you do not remember your password <a href='http://chp.tbe.taleo.net/chp04/ats/careers/forgotID.jsp?org=INTELLIWARE_SYSTEMS&cws=1' tabIndex='27'>click here</a>.<br><br></td></tr>
+</table>
+</td></tr></form>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='30' href='http://chp.tbe.taleo.net/chp04/ats/careers/searchResults.jsp;jsessionid=CF89C933E9BCC1A7E611A2883C9DE5C6?org=INTELLIWARE_SYSTEMS&cws=1' title='Back to Search Results' >Back to Search Results</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='31' href='http://chp.tbe.taleo.net/chp04/ats/careers/jobSearch.jsp;jsessionid=CF89C933E9BCC1A7E611A2883C9DE5C6?org=INTELLIWARE_SYSTEMS&cws=1&rid=468' title='New Search' >New Search</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br><div align='right'><img src='http://tbe.taleo.net/graphics/Taleo_powered_by_small.gif' alt='Powered By Taleo' border='0'></div><br><br></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        //jQuery Calendar
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+    </script>
+
+</body></html>
+
+
+

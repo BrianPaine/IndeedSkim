@@ -1,0 +1,286 @@
+<!doctype html>
+<!--     _/_/_/_/_/                                                    _/            -->
+<!--          _/      _/_/    _/_/_/      _/_/_/  _/_/_/    _/_/_/    _/  _/    _/   -->
+<!--       _/      _/_/_/_/  _/    _/  _/    _/  _/    _/  _/    _/  _/  _/    _/    -->
+<!--    _/        _/        _/    _/  _/    _/  _/    _/  _/    _/  _/  _/    _/     -->
+<!-- _/_/_/_/_/    _/_/_/  _/    _/    _/_/_/  _/_/_/    _/_/_/    _/    _/_/_/      -->
+<!--                                          _/        _/                  _/       -->
+<!--                                         _/        _/              _/_/          -->
+<html lang="en" style="background: white !important;">
+<head>
+    <meta charset="UTF-8">
+    <meta HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" href="/favicon">
+    <title>{{$meta.title()}}</title>
+
+    <!-- **************************** STYLESHEET LOADING **************************** -->
+    <!-- BOOTSTRAP                --><link rel="stylesheet" href="/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- ngACTIVITYINDICATOR      --><link rel="stylesheet" href="/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/bower_components/ngActivityIndicator/css/ngActivityIndicator.min.css">
+    <!-- DCJS                     --><link rel="stylesheet" href="/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/bower_components/dcjs/dc.css" />
+    <!-- FONT AWESOME             --><link rel='stylesheet' href="/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/bower_components/font-awesome/css/font-awesome.min.css">
+    <!-- ANGULAR LIGHTBOX         --><link rel="stylesheet" href="/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/bower_components/angular-loading-bar/build/loading-bar.css">
+    <!-- ANGULAR LIGHTBOX         --><link rel="stylesheet" href="/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.css">
+    <!-- ANGULAR COLORPICKER      --><link rel="stylesheet" href="/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/bower_components/angular-bootstrap-colorpicker/css/colorpicker.css">
+    <!-- TEXT ANGULAR             --><link rel='stylesheet' href="/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/bower_components/textAngular/src/textAngular.css">
+    <!-- COMPANY STYLE            --><link rel="stylesheet" href="/ae7ac9f5baa720b49aaa1d154cf77a84/build/css/academymortgage.css">
+
+    <!-- for Facebook -->
+    <meta property="og:title" content="{{$meta.title()}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{$meta.url()}}" />
+    <meta property="og:image" content="{{$meta.image()}}" />
+    <meta property="og:description" content="{{$meta.description()}}" />
+    <meta name="twitter:title" content="{{$meta.title()}}" />
+    <meta name="twitter:description" content="{{$meta.description()}}" />
+    <meta name="twitter:image" content="{{$meta.image()}}" />
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        
+        ga('create', 'UA-57743000-1', 'auto');
+        // ga('send', 'pageview');
+
+    </script>
+
+</head>
+<body >
+    <div id="ajax-status" class="" ng-class="{'ready':ajaxReady}"></div>
+    <div id="layout" ng-controller="LayoutController" class="container-fluid" ng-class="{'no-menu': !isLoggedIn}" >
+        <div id="background" style="top:0;"></div>
+        <div id="new-version" class="hide-print" ng-controller="NewVersionDetector" >
+            <div id="new-version-bar" ng-show="new_version">There is a new version! Please click the button to your right to get the latest awesomeness. <button class="btn btn-primary" ng-click="refresh()">Reload Zenapply</button></div>
+            <div id="new-version-spacer" ng-controller="NewVersionDetector" ng-show="new_version"></div>
+        </div>
+        <div id="alerts" class="hide-print col-sm-12" ng-show="systemAlerts.length>0" style="margin-top: 2rem;z-index: 10;position: relative;float: none;">
+            <div class="alert alert-{{a.type}}" ng-repeat="a in systemAlerts" ng-show="a.show">{{a.msg}} <a ng-if="a.link" target="_blank" href="{{a.link.href}}">{{a.link.text}}</a><a href="javascript:;" class="pull-right" ng-click="a.show = false;">dismiss</a></div>
+            <!-- <div id="new-version-spacer" ng-controller="NewVersionDetector" ng-show="new_version"></div> -->
+        </div>
+        <div id="flash" class="hide-print alert-box alert" ng-show="flash">
+            {{ flash }}
+        </div>
+        <div id="Notifications" class="hide-print" ng-show="notifications.length>0">
+            <div class="Notification {{n.type}}" ng-repeat="n in notifications" >
+                <div class="img" ng-class="{'bg-warning':n.type == 'warning','bg-success':n.type == 'success'||n.type=='saved','bg-danger':n.type == 'error'}"><img ng-src="{{n.img}}" /></div>
+                <div class="msg">
+                    <div>{{n.message}}</div>
+                    <div ng-if="n.type === 'call'">
+                        <button ng-click="$notification.resolve(n.id)" class="btn btn-primary">Answer</button>
+                        <button ng-click="$notification.cancel(n.id)" class="btn btn-danger">Decline</button>
+                    </div>
+                    <div ng-if="n.type === 'dialing'">
+                        <button ng-click="$notification.cancel(n.id)" class="btn btn-danger">Hangup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="header" ng-show="isLoggedIn && !hideNavBar" ng-class="{'background-white': isLoggedIn}">
+            <div id="brand">
+                <a href="{{company.logo_redirect_url || '/#!/'}}">
+                    <img ng-src="{{ company.image.directory }}/{{company.image.filename}}" class="logo" />
+                </a>
+            </div>
+            <nav id="menu" ng-controller="MenuController" class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" ng-click="isCollapsed = !isCollapsed" class="navbar-toggle collapsed">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+
+                    <div class="navbar-collapse" uib-collapse="isCollapsed">
+                        <!-- Desktop Menu -->
+                        <ul class="nav navbar-nav">
+                            <li ng-repeat="link in menu" ng-if="link.state">
+                                <a ui-sref="{{link.state}}" ui-sref="link.state_opts" class="first {{(link.name.toLowerCase()|includedByState) ? 'active' : ''}}" >
+                                    {{link.name}}
+                                </a>
+                            </li>
+                            <li style="float:right;"><a href="javascript:;" id="logout" class="first" fid="logout" ng-click="logout()"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+                        </ul>
+
+                        <!-- Mobile Menu -->
+                        <ul ng-repeat="link in menu" ng-if="!link.state" ng-show="link.active" class="nav navbar-nav nav-secondary">
+                            <li ng-repeat="link in link.menu" ng-if="link.state">
+                                <a ui-sref="{{link.state}}" ui-sref="link.state_opts" class="second" ><img ng-if="link.icon" ng-src="/assets/img/icons/{{link.icon}}_w.png" /> {{link.name}}</a>
+                            </li>
+                            <li ng-repeat="link in link.menu" class="dropdown" dropdown ng-if="!link.state">
+                                <a href class="second dropdown-toggle" dropdown-toggle ><img ng-if="link.icon" ng-src="/assets/img/icons/{{link.icon}}_w.png" /> {{link.name}}</a>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li ng-repeat="link in link.menu">
+                                        <a ui-sref="{{link.state}}" ui-sref="link.state_opts" class="third" ><img ng-if="link.icon" ng-src="/assets/img/icons/{{link.icon}}_w.png" /> {{link.name}}</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+            <div class="clearfix"></div>
+        </div>
+        <div id="main" class="container-fluid" ng-class="{'background-white': isLoggedIn, 'fixed-width': !isLoggedIn}" ui-view>
+        </div>
+        <div style="padding-top:4rem;background:white">
+            <div class="demo-mode-banner" ng-show="demoMode.enabled" style="background:#fcf8e3;padding:1rem;text-align:center;color:#8a6d3b;">{{::demoMode.msg}}</div>
+        </div>
+        <div id="push"></div>
+    </div>
+    <div id="footer" class="container-fluid" style="position:relative;" ng-controller="FooterController">
+        <div class="inner">
+            <div class="row">
+                <div class="col-sm-9">
+                    <a ng-if="!isLoggedIn && hasATS" href="/#!/signup">Sign up</a>
+                    <a ng-if="!isLoggedIn" href="/#!/login">Log in</a>
+                    <a ng-if="isLoggedIn" href="javascript:;" ng-click="logout()">Logout</a>
+                    <a href="http://zenapply.com">What is Zenapply?</a>
+                    <a href="/#!/privacy">Privacy</a>
+                    <a href="/#!/terms-of-use">Terms of Use</a>
+                    <a href="/#!/support">Technical Support</a>
+                    <!-- <a href="http://help.zenapply.com/">Help Center</a> -->
+
+                </div>
+                <div class="col-sm-3">
+                    <div class="pull-right" style="text-align:right;">
+                        Powered by <img style="margin-left:5px" class="logo" src="/assets/img/logos/zenapply_white.png" />
+                        <br>
+                        <br>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align:right;position:absolute;bottom:5px;right:5px;opacity:0.75;">Version 3.18.63</div>
+    </div>
+
+    <tour model="tour" ng-show="tour.show"></tour>
+    <div id="app-loading">
+        <div id="inner">
+            <div style="height:5em;">
+                <div class="loader">Loading...</div>
+            </div>
+            <div class="status">Loading...</div>
+            <!-- <div style="font-size:64px">Loading</div>
+            <div class="progress" style="width:50vw;margin:0 25vw;">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+                    <span class="sr-only">45% Complete</span>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+
+    <!-- **************************** SCRIPT LOADING     **************************** -->
+    
+    <!-- **************************** LIBRARIES          **************************** -->
+    <!-- JQUERY                     --><script type="text/javascript" src="/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/bower_components/jquery/dist/jquery.min.js"></script>
+    <!-- LABJS                      --><script type="text/javascript" src="/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/bower_components/labjs/LAB.min.js"></script>
+    <!-- GOOGLE MAPS API            --><script type="text/javascript" src='//maps.googleapis.com/maps/api/js?sensor=false'></script>
+    <!-- GOOGLE ADWORDS             --><script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js"></script>
+    <!-- YOUTUBE IFRAME API         --><script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+    <!-- PUSHER                     --><script type="text/javascript" src="https://js.pusher.com/3.0/pusher.min.js"></script>
+    <!-- VIDDLER ARPEGGIO           --><script type="text/javascript" src="https://static.cdn-ec.viddler.com/js/arpeggio/v3/build/main-built.js"></script>
+    <!-- Google Code for Zenapply Test Conversion Page
+    In your html page, add the snippet and call
+    goog_report_conversion when someone clicks on the
+    chosen link or button. -->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        goog_snippet_vars = function() {
+            var w = window;
+            w.google_conversion_id = '';
+            w.google_conversion_label = '';
+            w.google_remarketing_only = false;
+        }
+        // DO NOT CHANGE THE CODE BELOW.
+        goog_report_conversion = function(url) {
+            goog_snippet_vars();
+            window.google_conversion_format = "3";
+            var opt = new Object();
+            opt.onload_callback = function() {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            }
+            var conv_handler = window['google_trackConversion'];
+            if (typeof(conv_handler) == 'function') {
+                conv_handler(opt);
+            }
+        }
+        /* ]]> */
+    </script>
+
+    <script>
+        var getBrowserDetectionSRC = function(){var p=[],w=window,d=document,e=f=0;p.push('ua='+encodeURIComponent(navigator.userAgent));e|=w.ActiveXObject?1:0;e|=w.opera?2:0;e|=w.chrome?4:0;e|='getBoxObjectFor' in d || 'mozInnerScreenX' in w?8:0;e|=('WebKitCSSMatrix' in w||'WebKitPoint' in w||'webkitStorageInfo' in w||'webkitURL' in w)?16:0;e|=(e&16&&({}.toString).toString().indexOf("\n")===-1)?32:0;p.push('e='+e);f|='sandbox' in d.createElement('iframe')?1:0;f|='WebSocket' in w?2:0;f|=w.Worker?4:0;f|=w.applicationCache?8:0;f|=w.history && history.pushState?16:0;f|=d.documentElement.webkitRequestFullScreen?32:0;f|='FileReader' in w?64:0;p.push('f='+f);p.push('r='+Math.random().toString(36).substring(7));p.push('w='+screen.width);p.push('h='+screen.height);var s=d.createElement('script');s.src="/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/bower_components/WhichBrowser/detect.js?" + p.join('&');return s.src;};
+        var $el = $('#loading #inner .status');
+
+        //Get loading time
+        var start = new Date().getTime();
+
+        $el.html('Detecting Browser...');
+
+        /**************************** BROWSER DETECTION ****************************/    
+        $LAB
+        .script(getBrowserDetectionSRC()).wait(function(){
+            $el.html('Loading Assets...');
+        })
+
+        /**************************** ASSETS ****************************/
+        .script('/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/socket.io/socket.io.js')
+        .script('/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/class/class.js')
+        .script('/ae7ac9f5baa720b49aaa1d154cf77a84/build/js/bower_libraries.js').wait(function(){
+            $el.html('Loading Framework...')
+
+            // Special case...
+            window.$SENTRY_KEY = "https://b458ca5d68a24e6ca68beb7a9997c636@sentry.io/150045";
+            window.$HASH = "ae7ac9f5baa720b49aaa1d154cf77a84";
+        })
+
+        /**************************** FRAMEWORK ****************************/
+                .script('/ae7ac9f5baa720b49aaa1d154cf77a84/assets/libs/SimpleWebRTC/simplewebrtc.bundle.js')
+                    
+        /**************************** APPLICATION ****************************/
+        .script('/ae7ac9f5baa720b49aaa1d154cf77a84/build/js/scripts.js')
+        .script('/ae7ac9f5baa720b49aaa1d154cf77a84/build/js/templates.js').wait(function(){
+            
+            //CONSTANTS
+            angular.module("zenapply").constant("HASH", 'ae7ac9f5baa720b49aaa1d154cf77a84');
+            angular.module("zenapply").constant("VERSION", '3.18.63');
+            angular.module("zenapply").constant("CID", '33');
+            angular.module("zenapply").constant("COMPANY", {"id":33,"domain":"academymortgage","name":"Academy Mortgage","logo":null,"primary":"#f15d23","secondary":"#47a447","color_me":"#005395","color_work":"#333","color_school":"#f15c22","color_fun":"#666","video_welcome":"\/\/youtube.com\/embed\/o__azFqcH4g?rel=0&modestbranding=1","video_passion":"\/\/youtube.com\/embed\/FTam7wTfhr4?rel=0&modestbranding=1","video_finishing_up":null,"deleted_at":null,"created_at":"2015-02-10 17:54:23","updated_at":"2017-09-01 15:56:07","background":"#ffffff","background_image":"","color_header":"#ffffff","color_questions":"#333","use_landing_page":true,"enabled":true,"glassdoor_url":"http:\/\/www.glassdoor.com\/Overview\/Working-at-Academy-Mortgage-EI_IE336856.11,27.htm","use_availability_page":false,"twitter_handle":null,"eeo":true,"logo_redirect_url":null,"is_customer":"yes","social_img":"\/ftp\/P\/E\/cc070cf674e89169dea5fc8ca7b9e0570b633070\/dfcf3560cafec20a2296bfb6d85f5d695fad08cc.jpg","age_required":true,"age_required_value":18,"age_required_collect_birthdate":false,"use_applicant_acknowledgement_form":false,"welcome_text":"At Academy Mortgage we hire for personality. By uploading videos and photos it will help us to discover the real you. If you put more effort into filling out your profile, we will have a better idea of who you are and your profile will receive higher priority in our review process. Please take the tour to learn how to use our website easily and efficiently.","include_not_logged_in_users":false,"email_from":null,"email_name":null,"hris_id":null,"hris_domain":null,"google_conversion_id":null,"google_conversion_label":null,"culture":{"id":27,"cid":33,"video":"o__azFqcH4g","about":"<h4><b>Looking for a new professional challenge? You\u2019ve come to the right place.<\/b><\/h4><h5>Take some time to look around and learn more about what makes Academy such a great place to work.<\/h5><p style=\"font-size: 11px;\">\u00a0<\/p><h4><b>We\u2019re Experts in Our Field<\/b><\/h4><h5>Being a part of the Academy Mortgage team means that you will be working alongside some of the most trusted, knowledgeable and experienced people in the mortgage industry. We believe in learning from the BEST so we can become the BEST together.<\/h5><p style=\"font-size: 11px;\">\u00a0<\/p><h4><b>We\u2019re Focused on Giving Back<\/b><\/h4><h5>From countless Habitat for Humanity projects to service expeditions that provide healthcare, education and access to clean water to families and communities abroad, Academy employees are committed to being a part of something bigger than ourselves.<\/h5><p style=\"font-size: 11px;\">\u00a0<\/p><h4><b>We\u2019re Invested in YOU<\/b><\/h4><h5>Developing our employees both personally and professionally is a core focus at Academy. From role-specific training programs to learning to play the guitar, we work hard to provide our employees with the resources they need to achieve their goals at work and in life.\u00a0We also show our appreciation to our staff by offering awesome benefits packages, competitive paid time off and, of course, plenty of fun.\u00a0<\/h5><p style=\"font-size: 11px;\">\u00a0<\/p><h4><b>Not ready to make a move but want to keep in touch?<\/b><\/h4><h5>Send us an email at\u00a0<a href=\"mailto:recruiting@academymortgage.com\">recruiting@academymortgage.com<\/a>\u00a0or give us a call at\u00a0<a href=\"tel:801-256-5516\">801-256-5516<\/a><\/h5><p><br\/><\/p><p style=\"font-size: 11px;\"><strong style=\"font-size: 18px;\">Need a second opinion? Take a look at our reviews on\u00a0<\/strong><strong style=\"font-size: 18px;\"><a href=\"https:\/\/www.glassdoor.com\/Reviews\/Academy-Mortgage-Reviews-E336856.htm\">Glassdoor<\/a><\/strong><\/p><!--EndFragment--><p><br\/><\/p><p><br\/><\/p>","deleted_at":null,"created_at":"2015-02-10 17:54:23","updated_at":"2017-05-04 10:41:46","photos":[],"testimonials":[]},"signup_questions":[],"products":[{"id":1,"name":"Zenapply ATS","created_at":"2015-10-14 22:56:20","updated_at":"2015-12-29 16:17:38","state":"zenapply","pivot":{"company_id":33,"product_id":1}}]});
+            angular.module("zenapply").constant("ENVIRONMENT", 'production');
+            angular.module("zenapply").constant("CSRF_TOKEN", 'GULmxXv0X8cH8hnUCJ0hRQiCTAs2EwGQv0Tf0v0y');
+            angular.module("zenapply").constant("DEBUG", '');
+            angular.module("zenapply").constant("MAXFILEUPLOAD", '524288000');
+            angular.module("zenapply").constant("DEFAULT_CUES", [{"name":"Job Position Prompts","active":true,"cues":[{"image_url":"\/assets\/img\/referrals\/Custservice.jpg","text":"Customer Service Rep\nOut of all of your friends, who is the best at calming people down?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/manager.jpg","text":"Management Position\nOutside of this company, who is the best manager you\u2019ve worked with?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/marketing.jpg","text":"Marketing Department\nOutside of this company, who is the most creative marketing person you know?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/SocialMed.jpeg","text":"Marketing Department\nWho do you know that is the king of social media and driving social campaigns?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/Writer.jpg","text":"Writer or Documentation Position\nWho is the best writer you know?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/HRPRO.jpg","text":"HR Department\nOutside of this company, who is the most approachable HR person you know?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/ITGUY.jpg","text":"IT Department\nOut of all of your contacts, who is the one person you call when you have computer issues?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/softwaredev.jpg","text":"Software Developer\nWho do you know that loves to code and stay up-to-date with the latest technology?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/techsupport.jpg","text":"Technical Support Rep\nOut of all of your friends, who is always looking for answers and loves problem solving?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/evnagelist.jpeg","text":"Product Evangelist\nWho do you know that likes to speak and always gets others on-board?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/ProductManager.jpg","text":"Product Manager\nOut of all of your contacts, who is the most innovative product manager you know?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/trainer.jpg","text":"Trainer Position\nWho do you know who loves to teach and be in front of large groups?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/sales.jpg","text":"Sales Team. Out of all of your friends, who is the best sales person?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/sales.jpg","text":"Sales Team. Which of your friends in sales regularly hits their quotas and attends Presidents Club?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/sales.jpg","text":"Sales Team. Out of all of your friends, who makes the most money in sales?","media_type":"image"}]},{"name":"Where From Prompts","active":false,"cues":[{"text":"Is there anybody from a prior job that fits?","image_url":"\/assets\/img\/referrals\/workplace.jpg","media_type":"image"},{"text":"Is there anybody from a Social Network that fits? Linked in?","image_url":"\/assets\/img\/referrals\/social1.png","media_type":"image"},{"text":"Do you know any top performers from your School?","image_url":"\/assets\/img\/referrals\/school.jpg","media_type":"image"},{"text":"Do you know any top performers from a Club?","image_url":"\/assets\/img\/referrals\/scoutclub.jpg","media_type":"image"},{"text":"Do you know any top performers from your Church?","image_url":"\/assets\/img\/referrals\/church3.jpg","media_type":"image"},{"text":"Do you know any top performers from a sports team that you played on?","image_url":"\/assets\/img\/referrals\/sports3.jpg","media_type":"image"},{"text":"Do you know any top performers from your group of friends or family?","image_url":"\/assets\/img\/referrals\/friends4.jpg","media_type":"image"},{"text":"Do you know any top performers from your Community?","image_url":"\/assets\/img\/referrals\/community4.jpg","media_type":"image"}]},{"name":"Trait Prompts","active":false,"cues":[{"image_url":"\/assets\/img\/referrals\/competent.jpg","text":"Competency\nWho do you know that is highly skilled and effective?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/confident.jpg","text":"Confidence\nWho do you know, that appears confident and can deliver results?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/courage.jpeg","text":"Courageous\nWho do you know that is not intimidated by challenges?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/leader.jpeg","text":"Great Leader\nWho stands out as an honest, authentic, and authoritative person?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/integrity.jpeg","text":"Integrity\nWho do you know that upholds moral and ethical standards?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/intellegent.jpg","text":"Intelligence\nWho do you know that has a great capacity for learning, reasoning, and understanding?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/likeable.jpeg","text":"Likeability\nWho do you know that is always fun to be around?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/performer.jpg","text":"The performer\nWho do you know that likes to perform and seems to connect with the audience?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/positive.jpeg","text":"Positive Energy\nWho do you know that has a bundle of positive attributes?","media_type":"image"},{"image_url":"\/assets\/img\/referrals\/selfmotivated.jpg","text":"Self-motivated\nWho do you know that is a real self-starter?","media_type":"image"}]}]);
+            angular.module("zenapply").constant("PRODUCTS", [{"id":1,"name":"Zenapply ATS","created_at":"2015-10-14 22:56:20","updated_at":"2015-12-29 16:17:38","state":"zenapply","pivot":{"company_id":33,"product_id":1}}]);
+            angular.module("zenapply").constant("HRIS", [{"id":1,"hris_name":"BambooHR","created_at":null,"updated_at":null},{"id":2,"hris_name":"People Matter","created_at":null,"updated_at":null}]);
+            angular.module("zenapply").constant("ALLPRODUCTS", [{"id":1,"name":"Zenapply ATS","created_at":"2015-10-14 22:56:20","updated_at":"2015-12-29 16:17:38","state":"zenapply"},{"id":2,"name":"Jobstagrams","created_at":"2015-10-14 22:56:20","updated_at":"2015-12-29 16:17:38","state":"jobstagrams"}]);
+            angular.module("zenapply").constant("DEFAULT_SCREENING_QUESTIONS", [{"text":"Do they fit our culture?"},{"text":"Do they have a great personallity?"},{"text":"Are they currently employed?"}]);
+            angular.module("zenapply").constant("PUSHER_KEY", "438e0945453f40ca62bb");
+
+            //Get Loading Time
+            console.info('Time to load scripts: ',(new Date().getTime() - start)/1000,'(Seconds)');
+
+            //Start it up
+            try {
+                angular.bootstrap(document, ['zenapply']);
+                $el.html("Finishing up... 0%")
+            } catch (e){
+                console.error(e);
+                throw e;
+            }
+        });
+
+        $LAB.script('//static.addtoany.com/menu/page.js');
+    </script>
+</body>
+</html>

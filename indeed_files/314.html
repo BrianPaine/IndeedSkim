@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width">
+<!--[if lt IE 9]>
+	 <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<title>Analyst &#8211; Pricing, North America &#8211; Spotify Jobs</title>
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<meta name='description' content='Location: New York, USA. We are looking for an ambitious and energetic professional to join our Pricing &amp; Inventory team as a Analyst, Pricing &amp; Yield for Americas. The Pricing &amp; Inventory team works across our Global AdSales organization to deliver world-class pricing solutions that deliver the highest yield for our inventory set. The role is highly cross-functional, working across Product marketing, Sales leadership, Product and Operations to ensure our products are priced &amp; executed appropriately.' />
+<link rel='stylesheet' id='all-css-0' href='https://www.spotifyjobs.com/wp-content/themes/spotify-career/assets/dist/style.min.css?m=1500153772g' type='text/css' media='all' />
+<link rel='https://api.w.org/' href='https://www.spotifyjobs.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.spotifyjobs.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.spotifyjobs.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel="canonical" href="https://www.spotifyjobs.com/job/analyst-pricing-north-america-oqx55fwh/" />
+<link rel='shortlink' href='https://www.spotifyjobs.com/?p=8273' />
+<link rel="alternate" type="application/json+oembed" href="https://www.spotifyjobs.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.spotifyjobs.com%2Fjob%2Fanalyst-pricing-north-america-oqx55fwh%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.spotifyjobs.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.spotifyjobs.com%2Fjob%2Fanalyst-pricing-north-america-oqx55fwh%2F&#038;format=xml" />
+
+<link rel='dns-prefetch' href='//v0.wordpress.com'/>
+<style type='text/css'>img#wpstats{display:none}</style>
+<link rel="icon" href="https://www.spotifyjobs.com/wp-content/themes/spotify-career/assets/img/favicon.png">
+<!--[if IE]><link rel="shortcut icon" href="https://www.spotifyjobs.com/wp-content/themes/spotify-career/assets/img/favicon.ico"><![endif]-->
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.spotifyjobs.com/wp-content/themes/spotify-career/assets/img/touch-icon-144.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.spotifyjobs.com/wp-content/themes/spotify-career/assets/img/touch-icon-114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.spotifyjobs.com/wp-content/themes/spotify-career/assets/img/touch-icon-72.png">
+<link rel="apple-touch-icon-precomposed" href="https://www.spotifyjobs.com/wp-content/themes/spotify-career/assets/img/touch-icon-57.png">
+	<style>
+		body {
+			opacity: 0;
+			background-color: #fff;
+		}
+	</style>
+	
+<!-- Jetpack Open Graph Tags -->
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Analyst &#8211; Pricing, North America" />
+<meta property="og:url" content="https://www.spotifyjobs.com/job/analyst-pricing-north-america-oqx55fwh/" />
+<meta property="og:description" content="Location: New York, USA. We are looking for an ambitious and energetic professional to join our Pricing &amp; Inventory team as a Analyst, Pricing &amp; Yield for Americas. The Pricing &amp; Inventory team works across our Global AdSales organization to deliver world-class pricing solutions that deliver the highest yield for our inventory set. The role is highly cross-functional, working across Product marketing, Sales leadership, Product and Operations to ensure our products are priced &amp; executed appropriately." />
+<meta property="article:published_time" content="2017-09-25T18:31:05+00:00" />
+<meta property="article:modified_time" content="2017-09-25T18:31:05+00:00" />
+<meta property="og:site_name" content="Spotify Jobs" />
+<meta property="og:image" content="https://www.spotifyjobs.com/wp-content/uploads/2016/12/open-graph-default.png?fit=1200%2C630" />
+<meta property="og:locale" content="en_US" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Location: New York, USA. We are looking for an ambitious and energetic professional to join our Pricing &amp; Inventory team as a Analyst, Pricing &amp; Yield for Americas. The Pricing &amp; Inventory team works across our Global AdSales organization to deliver world-class pricing solutions that deliver the highest yield for our inventory set. The role is highly cross-functional, working across Product marketing, Sales leadership, Product and Operations to ensure our products are priced &amp; executed appropriately." />
+</head>
+<body class="job-template-default single single-job postid-8273">
+
+	<script type="text/javascript">
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-96101180-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+	<div class="site-overlay visible-sm visible-xs"></div>
+
+	<div class="site">
+		<header class="site-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 site-header--content">
+				<div class="site-header--col">
+					<a class="site-header--logo" href="https://www.spotifyjobs.com/" title="Spotify Jobs" rel="home">
+						<img class="img-logo" src="https://www.spotifyjobs.com/wp-content/themes/spotify-career/assets/img/spotify-logo.svg" alt="Spotify Jobs">
+					</a>
+				</div>
+
+				<div class="site-header--col">
+					<nav class="nav nav-primary hidden-xs hidden-sm"><ul id="menu-primary-menu" class="menu"><li id="menu-item-114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="https://www.spotifyjobs.com/search-jobs/">Search Jobs</a></li>
+<li id="menu-item-1233" class="menu-item menu-item-type-post_type_archive menu-item-object-location menu-item-1233"><a href="https://www.spotifyjobs.com/locations/">Locations</a></li>
+<li id="menu-item-1234" class="menu-item menu-item-type-post_type_archive menu-item-object-category menu-item-1234"><a href="https://www.spotifyjobs.com/job-categories/">Job Categories</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://www.spotifyjobs.com/backstage/">Backstage</a></li>
+<li id="menu-item-1561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1561"><a href="https://www.spotifyjobs.com/students/">Students</a></li>
+</ul></nav>
+					<a title="Saved jobs" class="js-favorites-count my-favorites-link" href="https://www.spotifyjobs.com/saved-jobs/">
+						<span class="badge"><i class="icon-heart-empty"></i></span>
+					</a>
+
+					<div class="hamburger visible-sm visible-xs">
+						<a class="js-off-canvas" href="#" title="Show menu"><span class="hamburger-line"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<nav class="off-canvas visible-sm visible-xs">
+	<div class="off-canvas--inner">
+		<ul id="menu-primary-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-114"><a href="https://www.spotifyjobs.com/search-jobs/">Search Jobs</a></li>
+<li class="menu-item menu-item-type-post_type_archive menu-item-object-location menu-item-1233"><a href="https://www.spotifyjobs.com/locations/">Locations</a></li>
+<li class="menu-item menu-item-type-post_type_archive menu-item-object-category menu-item-1234"><a href="https://www.spotifyjobs.com/job-categories/">Job Categories</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-115"><a href="https://www.spotifyjobs.com/backstage/">Backstage</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1561"><a href="https://www.spotifyjobs.com/students/">Students</a></li>
+</ul>
+		<div class="off-canvas--logo">
+			<a href="https://www.spotifyjobs.com/" title="Spotify Jobs">
+				<img class="img-logo" src="https://www.spotifyjobs.com/wp-content/themes/spotify-career/assets/img/spotify-logo.svg" alt="Spotify Jobs">
+			</a>
+		</div>
+	</div>
+</nav>
+</header>
+
+
+<section class="component component-content bg-white">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-lg-9">
+				<h1>Analyst &#8211; Pricing, North America</h1>
+									<div class="single-post--meta">
+						<a href="https://www.spotifyjobs.com/search-jobs/#category=ad-sales" title="Ad Sales" data-slug="ad-sales">Ad Sales</a> / <a href="https://www.spotifyjobs.com/search-jobs/#category=business-support" title="Business Support" data-slug="business-support">Business Support</a> / <a href="https://www.spotifyjobs.com/search-jobs/#category=finance" title="Finance" data-slug="finance">Finance</a> / <a href="https://www.spotifyjobs.com/search-jobs/#category=sales-marketing" title="Sales &amp; Marketing" data-slug="sales-marketing">Sales &amp; Marketing</a> in <a href="https://www.spotifyjobs.com/search-jobs/#location=new-york" title="New York" data-slug="new-york">New York</a>, <a href="https://www.spotifyjobs.com/search-jobs/#location=usa" title="USA" data-slug="usa">USA</a>					</div>
+							</div>
+
+			<div class="col-md-8 col-lg-9 entry-content">
+				<div class="column-inner">
+					<p>We are looking for an ambitious and energetic professional to join our Pricing &amp; Inventory team as a <b>Analyst, Pricing &amp; Yield for Americas.</b>  The Pricing &amp; Inventory team works across our Global AdSales organization to deliver world-class pricing solutions that deliver the highest yield for our inventory set.  This role will report into the Head of Pricing and supports the Ads Revenue organisation to ensure they close deals that maximise long-term revenue.  The role is highly cross-functional, working across Product marketing, Sales leadership, Product and Operations to ensure our products are priced &amp; executed appropriately.</p>
+<p>Responsibilities include, but are not limited to: seller &amp; management reporting, deal approvals, pricing new ad offers, revenue reporting, and sales operations. You will help accelerate revenue through identification of levers and bottlenecks to leadership all within the framework of an ever-changing revenue landscape. Above all, your work will impact the way the world experiences music.</p>
+<h2><b>What you’ll do</b></h2>
+<ul>
+<li>Manage pricing ratecards and deal approvals</li>
+</ul>
+<ul>
+<li>Define pricing value.  Build pricing strategies to maximise revenue and be responsible for yield management across all of our various channels and formats for the Americas</li>
+<li>Create, implement, and enforce better operational practices to enhance the pitch-to-pay process</li>
+</ul>
+<ul>
+<li>Foster a collaborative working partnership with sellers</li>
+<li>Handle day to day requests and questions from sales </li>
+<li>Work with finance to help develop budgets &amp; forecasts </li>
+<li>Help build &amp; package new products</li>
+<li>Work from our office in New York or Los Angeles</li>
+</ul>
+<h2><b>Who you are</b></h2>
+<ul>
+<li>Passion for data and the insights they unlock</li>
+<li>Strong communicator and ability to relate to others</li>
+<li>Bachelor&#8217;s degree; MBA preferred but not required</li>
+<li>3-5 years experience in Digital Advertising Pricing &amp; Inventory roles Proven results creating and implementing strategies that drive growth, optimize pricing, and accurately and holistically report on business performance</li>
+<li>Strong analytical &amp; leadership skills</li>
+<li>Great communication and presentation skills, with a knack for presenting complex data in a simple and easy-to-understand manner</li>
+<li>Exceptional ability to multi-task and prioritize</li>
+<li>Good Microsoft Excel skills</li>
+<li>You flourish working in a constantly changing, but always-exciting environment</li>
+</ul>
+<p>We strongly believe that diversity of experience, perspectives, and background will lead to a better workplace for our employees and a better product for our users and our creators. This is something we value deeply and we encourage everyone to come be a part of changing the way the world listens to music.</p>
+				</div>
+			</div>
+
+			<div class="col-md-4 col-lg-3">
+				<div class="single-post-actions">
+					<a href="#" class="btn btn-link btn-link-dark icon-share js-share-post" title="Share">Share</a>
+
+					<a href="#" class="btn btn-link btn-link-dark icon-heart-empty jobs-favorite--link js-favorite-job"
+						data-id="8273"
+						data-action="save"
+						data-save-text="Save"
+						data-saved-text="Saved"
+						title="Save">
+						Save					</a>
+
+					<div class="popover popover-share text-center">
+	<a class="icon-facebook share-link" href="http://www.facebook.com/sharer.php?u=https://www.spotifyjobs.com/job/analyst-pricing-north-america-oqx55fwh/" title="Share on Facebook" target="_blank" rel="noopener noreferrer"></a>
+	<a class="icon-twitter share-link" href="http://twitter.com/share?url=https://www.spotifyjobs.com/job/analyst-pricing-north-america-oqx55fwh/&amp;text=Analyst &#8211; Pricing, North America" title="Share on Twitter" target="_blank" rel="noopener noreferrer"></a>
+	<a class="icon-linkedin share-link" href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.spotifyjobs.com/job/analyst-pricing-north-america-oqx55fwh/" title="Share on LinkedIn" target="_blank" rel="noopener noreferrer"></a>
+	<a class="icon-gplus share-link" href="https://plus.google.com/share?url=https://www.spotifyjobs.com/job/analyst-pricing-north-america-oqx55fwh/" title="Share on Google Plus" target="_blank" rel="noopener noreferrer"></a>
+</div>
+				</div>
+
+									<a href="https://jobs.jobvite.com/spotify/job/oQX55fwH/apply?nl=1" class="btn btn-block job-apply-link" target="_blank" rel="noopener noreferrer" title="Apply now">Apply now</a>
+							</div>
+		</div>
+	</div>
+</section>
+
+
+	
+	<section class="component component-jobs bg-wild-sand"
+		data-basename="https://www.spotifyjobs.com/job/analyst-pricing-north-america-oqx55fwh/"
+		data-category="369"
+		data-location="0"
+		data-featured-jobs=""
+		data-per-page="4">
+
+					<header class="container component-header">
+				<div class="row">
+					<h2 class="col-sm-12 component-header--title text-center">Similar jobs</h2>
+				</div>
+			</header>
+		
+		
+		<div class="container component-body">
+			<div class="row">
+				<div class="col-sm-12">
+					<table class="table table-sortable table-fixed">
+	<thead class="hidden-xs">
+		<tr>
+			<th class="table-header-1" data-sort="string">Job</th>
+			<th class="table-header-2" data-sort="string">Category</th>
+			<th class="table-header-3" data-sort="string">Location</th>
+		</tr>
+	</thead>
+
+	<tbody class="js-jobs-results">
+					<tr>
+	<td class="table-item table-item-title">
+		<a href="https://www.spotifyjobs.com/job/senior-legal-counsel-employment-law-oppt5fww/" title="Senior Legal Counsel, Employment law" class="table-item--link">
+			<h4 class="table-item--title-heading">Senior Legal Counsel, Employment law</h4>
+		</a>
+	</td>
+	<td data-header="Category" class="table-item item-valign-top" data-type="category">
+		<a href="https://www.spotifyjobs.com/search-jobs/#category=business-support" title="Business Support" data-slug="business-support">Business Support</a>, <a href="https://www.spotifyjobs.com/search-jobs/#category=legal" title="Legal" data-slug="legal">Legal</a>	</td>
+	<td data-header="Location" class="table-item item-valign-top" data-type="location">
+		<a href="https://www.spotifyjobs.com/search-jobs/#location=stockholm" title="Stockholm" data-slug="stockholm">Stockholm</a>, <a href="https://www.spotifyjobs.com/search-jobs/#location=sweden" title="Sweden" data-slug="sweden">Sweden</a>	</td>
+</tr>
+					<tr>
+	<td class="table-item table-item-title">
+		<a href="https://www.spotifyjobs.com/job/premium-coordinator-ohd96fwt/" title="Premium Coordinator" class="table-item--link">
+			<h4 class="table-item--title-heading">Premium Coordinator</h4>
+		</a>
+	</td>
+	<td data-header="Category" class="table-item item-valign-top" data-type="category">
+		<a href="https://www.spotifyjobs.com/search-jobs/#category=business-development-parent" title="Business Development" data-slug="business-development-parent">Business Development</a>, <a href="https://www.spotifyjobs.com/search-jobs/#category=business-development" title="Business Development" data-slug="business-development">Business Development</a>, <a href="https://www.spotifyjobs.com/search-jobs/#category=pr-marketing" title="PR &amp; Marketing" data-slug="pr-marketing">PR &amp; Marketing</a>, <a href="https://www.spotifyjobs.com/search-jobs/#category=sales-marketing" title="Sales &amp; Marketing" data-slug="sales-marketing">Sales &amp; Marketing</a>	</td>
+	<td data-header="Location" class="table-item item-valign-top" data-type="location">
+		<a href="https://www.spotifyjobs.com/search-jobs/#location=stockholm" title="Stockholm" data-slug="stockholm">Stockholm</a>, <a href="https://www.spotifyjobs.com/search-jobs/#location=sweden" title="Sweden" data-slug="sweden">Sweden</a>	</td>
+</tr>
+					<tr>
+	<td class="table-item table-item-title">
+		<a href="https://www.spotifyjobs.com/job/pricing-inventory-analyst-apac-o8j96fwq/" title="Pricing &#038; Inventory Analyst, APAC" class="table-item--link">
+			<h4 class="table-item--title-heading">Pricing &#038; Inventory Analyst, APAC</h4>
+		</a>
+	</td>
+	<td data-header="Category" class="table-item item-valign-top" data-type="category">
+		<a href="https://www.spotifyjobs.com/search-jobs/#category=business-support" title="Business Support" data-slug="business-support">Business Support</a>, <a href="https://www.spotifyjobs.com/search-jobs/#category=finance" title="Finance" data-slug="finance">Finance</a>	</td>
+	<td data-header="Location" class="table-item item-valign-top" data-type="location">
+		<a href="https://www.spotifyjobs.com/search-jobs/#location=sydney" title="Sydney" data-slug="sydney">Sydney</a>, <a href="https://www.spotifyjobs.com/search-jobs/#location=australia" title="Australia" data-slug="australia">Australia</a>	</td>
+</tr>
+					<tr>
+	<td class="table-item table-item-title">
+		<a href="https://www.spotifyjobs.com/job/account-director-stockholm-ono55fwf/" title="Account Director, Stockholm" class="table-item--link">
+			<h4 class="table-item--title-heading">Account Director, Stockholm</h4>
+		</a>
+	</td>
+	<td data-header="Category" class="table-item item-valign-top" data-type="category">
+		<a href="https://www.spotifyjobs.com/search-jobs/#category=ad-sales" title="Ad Sales" data-slug="ad-sales">Ad Sales</a>, <a href="https://www.spotifyjobs.com/search-jobs/#category=business-development-parent" title="Business Development" data-slug="business-development-parent">Business Development</a>, <a href="https://www.spotifyjobs.com/search-jobs/#category=business-development" title="Business Development" data-slug="business-development">Business Development</a>, <a href="https://www.spotifyjobs.com/search-jobs/#category=sales-marketing" title="Sales &amp; Marketing" data-slug="sales-marketing">Sales &amp; Marketing</a>	</td>
+	<td data-header="Location" class="table-item item-valign-top" data-type="location">
+		<a href="https://www.spotifyjobs.com/search-jobs/#location=stockholm" title="Stockholm" data-slug="stockholm">Stockholm</a>, <a href="https://www.spotifyjobs.com/search-jobs/#location=sweden" title="Sweden" data-slug="sweden">Sweden</a>	</td>
+</tr>
+				<script id="template-job" type="x-tmpl-mustache">
+	{{# items }}
+		<tr>
+			<td class="table-item table-item-title">
+				<a href="{{ url }}" title="{{ title }}" class="table-item--link">
+					<h4 class="table-item--title-heading">{{{ title }}}</h4>
+				</a>
+			</td>
+			<td data-header="Category" class="table-item item-valign-top" data-type="category">
+				{{# categories }}
+					<span class="job-term"><a href="{{ url }}" title="{{ name }}" data-slug="{{ slug }}">{{{ name }}}</a></span>
+				{{/ categories }}
+			</td>
+			<td data-header="Location" class="table-item item-valign-top" data-type="location">
+				{{# locations }}
+					<span class="job-term"><a href="{{ url }}" title="{{ name }}" data-slug="{{ slug }}">{{{ name }}}</a></span>
+				{{/ locations }}
+			</td>
+		</tr>
+	{{/ items }}
+	{{^ items }}
+		<tr>
+			<td class="table-item table-item--empty" colspan="3">
+				<h4>There is no job like that on the playlist right now. Try something else.</h4>
+			</td>
+		</tr>
+	{{/ items }}
+</script>
+	</tbody>
+</table>
+				</div>
+			</div>
+		</div>
+
+					
+			<footer class="container component-footer">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<a href="https://www.spotifyjobs.com/search-jobs/" class="btn js-show-more-jobs" title="More jobs">
+							More jobs						</a>
+					</div>
+				</div>
+			</footer>
+			</section>
+
+	
+	<section class="component component-blurbs bg-white">
+		<header class="container component-header">
+			<div class="row">
+				<h2 class="col-sm-12 component-header--title text-center">Related content</h2>
+			</div>
+		</header>
+
+		<div class="container-fluid">
+			<div class="row flex-row justify-center">
+				
+									<div class="col-xs-12 col-sm-4 col-md-3 blurb-item text-center">
+						<a href="https://www.spotifyjobs.com/job-category/business-support/" title="Business Support" class="blurb-item--link">
+
+							<div class="blurb-item--img-wrapper">
+								<img width="350" height="350" src="https://www.spotifyjobs.com/wp-content/uploads/2016/12/spotifybusinessupportsmallimage526x526-exposure-1.jpg?resize=350%2C350" class="blurb-item--img img-circle img-responsive wp-post-image" alt="" />							</div>
+
+							<h3 class="blurb-item--title">
+								Business Support							</h3>
+
+															<p class="blurb-item--content">See more jobs in Business Support.</p>
+													</a>
+					</div>
+									<div class="col-xs-12 col-sm-4 col-md-3 blurb-item text-center">
+						<a href="https://www.spotifyjobs.com/job-category/sales-marketing/" title="Sales &amp; Marketing" class="blurb-item--link">
+
+							<div class="blurb-item--img-wrapper">
+								<img width="350" height="350" src="https://www.spotifyjobs.com/wp-content/uploads/2016/12/spotifysalesandmarketingsmallimage526x526-exposure-1.jpg?resize=350%2C350" class="blurb-item--img img-circle img-responsive wp-post-image" alt="" />							</div>
+
+							<h3 class="blurb-item--title">
+								Sales &amp; Marketing							</h3>
+
+															<p class="blurb-item--content">See more jobs in Sales &amp; Marketing.</p>
+													</a>
+					</div>
+									<div class="col-xs-12 col-sm-4 col-md-3 blurb-item text-center">
+						<a href="https://www.spotifyjobs.com/location/new-york/" title="New York" class="blurb-item--link">
+
+							<div class="blurb-item--img-wrapper">
+								<img width="350" height="350" src="https://www.spotifyjobs.com/wp-content/uploads/2016/11/spotifylocations1434x1100_newyork_uppdaterad-1.jpg?resize=350%2C350" class="blurb-item--img img-circle img-responsive wp-post-image" alt="" />							</div>
+
+							<h3 class="blurb-item--title">
+								New York							</h3>
+
+															<p class="blurb-item--content">See more jobs in New York.</p>
+													</a>
+					</div>
+							</div>
+		</div>
+	</section>
+	<footer class="site-footer">
+	<div class="container">
+		<nav class="row row-primary">
+			<div class="col-xs-12 col-md-2 footer-logo"><a class="logo" href="https://www.spotify.com/">Spotify</a></div>
+
+			<ul id="menu-footer-primary-menu" class="footer-nav footer-nav-primary col-xs-12 col-md-6"><li id="menu-item-1487" class="nav-title menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1487"><a href="#">Company</a>
+<ul  class="sub-menu">
+	<li id="menu-item-1488" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1488"><a href="https://www.spotify.com/about-us/contact/">About</a></li>
+	<li id="menu-item-1489" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1489"><a href="https://press.spotify.com/">Press</a></li>
+	<li id="menu-item-1490" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1490"><a href="https://news.spotify.com/">News</a></li>
+</ul>
+</li>
+<li id="menu-item-1491" class="nav-title menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1491"><a href="#">Communities</a>
+<ul  class="sub-menu">
+	<li id="menu-item-1492" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1492"><a href="https://artists.spotify.com/">For Artists</a></li>
+	<li id="menu-item-1493" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1493"><a href="https://developer.spotify.com/">Developers</a></li>
+	<li id="menu-item-1494" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1494"><a href="https://www.spotify.com/brands/">Brands</a></li>
+</ul>
+</li>
+<li id="menu-item-1495" class="nav-title menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1495"><a href="#">Useful links</a>
+<ul  class="sub-menu">
+	<li id="menu-item-1496" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1496"><a href="https://support.spotify.com/?utm_source=www.spotify.com&#038;utm_medium=www_footer">Help</a></li>
+	<li id="menu-item-1497" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1497"><a href="https://www.spotify.com/purchase/ecards/">Gift</a></li>
+	<li id="menu-item-1498" class="hidden-xs menu-item menu-item-type-custom menu-item-object-custom menu-item-1498"><a href="https://www.spotify.com/redirect/webplayerlink/?utm_medium=www_footer">Web Player</a></li>
+</ul>
+</li>
+</ul>
+							<div class="col-xs-12 col-md-4 footer-col-social">
+					<ul class="nav">
+						
+							
+							<li>
+								<a href="https://www.instagram.com/spotifyjobs" title="Instagram">
+									<i class="icon-instagram"></i>
+									<span class="sr-only">Instagram</span>
+								</a>
+							</li>
+						
+							
+							<li>
+								<a href="https://twitter.com/spotifyjobs" title="Twitter">
+									<i class="icon-twitter"></i>
+									<span class="sr-only">Twitter</span>
+								</a>
+							</li>
+						
+							
+							<li>
+								<a href="https://www.facebook.com/Spotify" title="Facebook">
+									<i class="icon-facebook"></i>
+									<span class="sr-only">Facebook</span>
+								</a>
+							</li>
+						
+							
+							<li>
+								<a href="https://www.linkedin.com/company/spotify" title="LinkedIn">
+									<i class="icon-linkedin"></i>
+									<span class="sr-only">LinkedIn</span>
+								</a>
+							</li>
+											</ul>
+				</div>
+			
+		</nav>
+
+		<nav class="row row-secondary">
+			<div class="col-xs-7 col-md-4 col-md-offset-2"><ul id="menu-footer-secondary-menu" class="footer-nav footer-nav-secondary"><li id="menu-item-1445" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1445"><a href="https://www.spotify.com/legal/">Legal</a></li>
+<li id="menu-item-1446" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1446"><a href="https://www.spotify.com/legal/privacy-policy/#s13">Cookies</a></li>
+</ul></div>
+			<div class="col-xs-5 col-md-6 pull-right text-right">
+				<small class="copyright">&copy; 2017 Spotify AB<span class="hidden-xs">&nbsp;&nbsp;|&nbsp;&nbsp;Powered by <a href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=www.spotifyjobs.com" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a></span></small>
+			</div>
+
+			<div class="visible-xs copyright col-xs-12 text-right">Powered by <a href="https://vip.wordpress.com/?utm_source=vip_powered_wpcom&#038;utm_medium=web&#038;utm_campaign=VIP%20Footer%20Credit&#038;utm_term=www.spotifyjobs.com" rel="generator nofollow" class="powered-by-wpcom">WordPress.com VIP</a></div>
+		</nav>
+	</div>
+</footer>
+	</div>
+
+	<script type='text/javascript' src='https://www.spotifyjobs.com/_static/??/wp-content/themes/spotify-career/assets/dist/jquery.min.js,/wp-content/mu-plugins/jetpack/modules/photon/photon.js?m=1500153772j'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201741'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var theme = {"ajaxurl":"https:\/\/www.spotifyjobs.com\/wp-admin\/admin-ajax.php","cookieMessageText":"We - and our partners - use cookies to deliver our services and to show you ads based on your interests. By using our website, you agree to the use of cookies as described in our <a href=\"https:\/\/www.spotify.com\/legal\/privacy-policy\/#s13\" target=\"_blank\" rel=\"noopener noreferrer\">Cookie Policy<\/a>.","cookieAcceptText":"Ok, I understand"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.spotifyjobs.com/wp-content/themes/spotify-career/assets/dist/app.min.js?m=1505492245g'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201741.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:5.4',blog:'128040440',post:'8273',tz:'2',srv:'www.spotifyjobs.com'} ]);
+	_stq.push([ 'clickTrackerInit', '128040440', '8273' ]);
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"949ceaf672","applicationID":"35929145","transactionName":"MQZWYhAFXhdYAUBfWwhMdVUWDV8KFghbVA==","queueTime":0,"applicationTime":135,"atts":"HUFBFFgfTUgbAxYMTxse","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

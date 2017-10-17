@@ -1,0 +1,490 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://staticchk.tbe.taleo.net/chk05/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.core.css">
+<link type="text/css" rel="stylesheet" href="https://staticchk.tbe.taleo.net/chk05/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.theme.css">
+<link type="text/css" rel="stylesheet" href="https://staticchk.tbe.taleo.net/chk05/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.datepicker.css">
+<link type="text/css" rel="stylesheet" href="https://staticchk.tbe.taleo.net/chk05/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.dialog.css">
+
+
+<style type="text/css">
+
+    select:focus, a:focus {
+        outline: #1e90ff solid 2px
+    }
+
+    input[type=submit] {
+        background: #00438C;
+    }
+
+    input[type=button] {
+        background: #00438C;
+    }
+
+    input[type=submit]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=button]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=submit]:focus {
+        background: #1e90ff;
+    }
+
+    input[type=button]:focus {
+        background: #1e90ff
+    }
+
+    .ui-dialog .ui-dialog-buttonpane {
+        text-align: right;
+    }
+
+    .ui-dialog .ui-dialog-buttonpane button {
+        float: none;
+    }
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+        /*border: 1px solid #000;*/
+        /*}*/
+
+</style>
+
+
+
+<style type="text/css">
+    .alert-error {
+        color: #990000;
+        font-weight: bold;
+    }
+
+    td.top {
+        vertical-align: top !important;
+    }
+
+    td.left {
+        float: none;
+        text-align: left;
+    }
+
+    td.right {
+        float: none;
+        text-align: right;
+    }
+
+    .nowrapFormLabel {
+        white-space: nowrap;
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 120%
+    }
+
+    h2 {
+        font-size: 110%
+    }
+
+    h3 {
+        font-size: 100%
+    }
+
+    .hidden-accessibility-text {
+        position: absolute;
+        left: -2000px;
+        top: 0;
+        width: 1;
+        height: 1;
+        overflow: hidden;
+        font-size: 0.1em;
+    }
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+    .ofcc305table textfield, .ofcc305table select,
+    .ofcc305table input, .ofcc305table a {
+        font-size:12px !important;
+        font-family:Arial,sans-serif,Helvetica !important;
+    }
+
+    #cws-search-results th, #cws-job-alerts th {
+        border-top: #CCCCCC 2px solid;
+        border-bottom: #CCCCCC 2px solid;
+    }
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+        border-bottom: #CCCCCC 2px solid;
+        padding-bottom: 3px;
+    }
+</style>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <title>Career Opportunities</title></head>
+<body style="margin-bottom: 0">
+<style type="text/css">
+    body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    TD, TH {
+        font-family: "Open Sans", sans-serif;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: normal;
+    }
+
+    a {
+        color: #1293DE;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    a:hover {
+        color: #0e77b5;
+    }
+
+    textarea {
+        font-family: "Open Sans", sans-serif;;
+        font-size: 13px;
+    }
+
+    textfield {
+        font-family: "Open Sans", sans-serif;;
+        font-size: 13px;
+    }
+
+    select {
+        font-family: "Open Sans", sans-serif;;
+        font-size: 13px;
+    }
+
+    input {
+        font-family: "Open Sans", sans-serif;;
+        font-size: 13px;
+    }
+
+    .head1 {
+        color: #1293DE;
+        font-size: 130%;
+    }
+
+    input[type=submit], input[type=button] {
+        font-weight: 500 !important;
+        background: #1293DE !important;
+        font-family: "Open Sans", sans-serif !important;
+        padding: 5px 10px !important;
+        font-size: 13px !important;
+        border-left: 2px solid #1293DE !important;
+        border-top: 2px solid #1293DE !important;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover, input[type=button]:hover {
+        background: #0e77b5 !important;
+        border-left: 2px solid #0e77b5 !important;
+        border-top: 2px solid #0e77b5 !important;
+    }
+</style>
+
+
+<div style="margin: 0 5%; padding: 20px 0">
+    <a href="http://www.altamiracorp.com/">
+        <img src="http://www.altamiracorp.com/wp-content/uploads/2015/10/Altamira-Logo-250px.png">
+    </a>
+
+    <div style="position: absolute;
+                right: 5%;
+                top: 50px;">
+        <i class="fa fa-phone" style="color: #000;margin-right: 5px;"></i>
+        <a href="tel:703-813-2100">703-813-2100</a>
+        <i class="fa fa-envelope" style="color: #000;margin-left: 20px;margin-right: 5px;"></i>
+        <a href="mailto:info@altamiracorp.com">info@altamiracorp.com</a>
+    </div>
+</div>
+<div style="background: #f7f7f7;
+            margin: 0 -8px -10px -8px;
+            border-bottom: 1px solid silver;
+            padding: 10px 0;">
+<div style="margin: 8px">
+    <p style="margin: 0 5%; padding: 0 3px">
+        We're glad you are interested in working at Altamira. Use the features below to search available job
+        opportunities
+        or login if you have already applied for a position. If you don't have a particular job opening or position in
+        mind,
+        but have an interest in working at Altamira, please fill out a general application using the link below.
+    </p>
+</div>
+</div>
+
+<div style="margin: 0 5%;">
+<script type='text/javascript' src="https://staticchk.tbe.taleo.net/chk05/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/tbe-basic-cws.js"></script>
+<script type='text/javascript' src="https://staticchk.tbe.taleo.net/chk05/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/engine.js"></script>
+<script type='text/javascript' src="https://staticchk.tbe.taleo.net/chk05/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/interface/CwsDWRFacade.js"></script>
+<script type="text/javascript">
+function jobAlertShowEmailSection() {
+   document.theForm.showEmailSection.value = true;
+   document.theForm.submit();
+}
+function cancelForm() {
+   document.loginForm.showPwdSection.value=false;
+   document.loginForm.showEmailSection.value=false;
+   document.loginForm.action=document.theForm.action;
+   document.loginForm.submit();
+}
+</script><script type='text/javascript'> CwsDWRFacade._path = 'https://chk.tbe.taleo.net/chk05/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; </script>
+<script type="text/javascript">
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchk.tbe.taleo.net/chk05/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chk.tbe.taleo.net/chk05/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chk.tbe.taleo.net/chk05/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();</script>
+
+
+
+
+
+
+<table border=0 cellspacing=0 cellpadding=2 width='100%' role='presentation'>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'></td></tr><tr><td colspan=2><h1>Data Scientist</h1></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Location:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>Chantilly, VA</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Req Type:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>Contingent</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Job Req ID:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>2625</b></td>
+</tr>
+<tr>
+<tr><td colspan=2><hr width='100%' size='1' color='silver'></td></tr>
+<tr><td colspan=2><h1>Description</h1></td></tr>
+<tr><td colspan=2><p><span style="font-family: arial;"><span style="font-size: 10pt;">Altamira is a top open-source technology company that brings a commercial mindset to solving the most complex national security problems by delivering mission application development, multi-intelligence analysis, and data science technologies and solutions to the defense, intelligence, and homeland security communities.&nbsp; Altamira&rsquo;s culture of innovation and excellence, and mid-market-size, positions us as the premier next generation leader bringing technology solutions to mission.</span></span></p>
+
+<p style="margin-bottom: 0pt;"><span style="font-family: arial;"><span style="font-size: 10pt;">Altamira is an Equal Opportunity/Affirmative Action employer.&nbsp; All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, or protected veteran status.</span></span></p>
+
+<p><span style="font-family: arial;"><span style="font-size: 10pt;">Altamira is searching for a Data Scientist to help an established cross-functional technical team conduct quantitative analysis and modeling of medium to large data sets.&nbsp; The qualified candidate will implement analytical approaches using a proven and novel techniques while working closely with stakeholders and teammates from non-technical disciplines. This position supports an Intelligence Community customer and is located in Chantilly, Virginia.</span></span></p>
+
+<p><strong><span style="font-family: arial;"><span style="font-size: 10pt;">Job Responsibilities:</span></span></strong></p>
+
+<ul>
+	<li style="font-family: Calibri; font-size: 12pt; margin-top: 0in; margin-right: 0in; margin-bottom: 0pt;"><span style="font-family: arial;"><span style="font-size: 10pt;">Conduct statistical analysis, modeling, and simulation that lead to actionable decisions affecting government operations. </span></span></li>
+	<li style="font-family: Calibri; font-size: 12pt; margin-top: 0in; margin-right: 0in; margin-bottom: 0pt;"><span style="font-family: arial;"><span style="font-size: 10pt;">Use statistical methods on large data sets to characterize uncertainty through statistical methods</span></span></li>
+	<li style="font-family: Calibri; font-size: 12pt; margin-top: 0in; margin-right: 0in; margin-bottom: 0pt;"><span style="font-family: arial;"><span style="font-size: 10pt;">Leverage knowledge of large data analysis and the ability to perform research at graduate-level mathematics to ensure study results are properly interpreted and documented</span></span></li>
+	<li style="font-family: Calibri; font-size: 12pt; margin-top: 0in; margin-right: 0in; margin-bottom: 0pt;"><span style="font-family: arial;"><span style="font-size: 10pt;">Implement analytical approaches that require knowledge of traditional programming languages, such as Java, C++, Python and others</span></span></li>
+	<li style="font-family: Calibri; font-size: 12pt; margin-top: 0in; margin-right: 0in; margin-bottom: 0pt;"><span style="font-family: arial;"><span style="font-size: 10pt;">Work closely with stakeholders and teammates from non-mathematical disciplines to ensure that operational strategies are considered in the context of applying statistical theory</span></span></li>
+	<li style="font-family: Calibri; font-size: 12pt; margin-top: 0in; margin-right: 0in; margin-bottom: 0pt;"><span style="font-family: arial;"><span style="font-size: 10pt;">Use statistical theory through modeling, simulation, and large data analysis to deliver lasting measurable improvements to organizations </span></span></li>
+</ul>
+
+<p><span style="font-size: 14px;"><strong>Qualifications: </strong></span></p>
+
+<ul>
+	<li style="font-family: Calibri; font-size: 12pt; margin-top: 0in; margin-right: 0in; margin-bottom: 0pt;"><span style="font-family: arial;"><span style="font-size: 10pt;">Bachelor&rsquo;s degree in a technical discipline</span></span></li>
+	<li style="font-family: Calibri; font-size: 12pt; margin-top: 0in; margin-right: 0in; margin-bottom: 0pt;"><span style="font-family: arial;"><span style="font-size: 10pt;">Master&rsquo;s degree in technical discipline preferred</span></span></li>
+	<li style="font-family: Calibri; font-size: 12pt; margin-top: 0in; margin-right: 0in; margin-bottom: 0pt;"><span style="font-family: arial;"><span style="font-size: 10pt;">US Citizen</span></span></li>
+	<li style="font-family: Calibri; font-size: 12pt; margin-top: 0in; margin-right: 0in; margin-bottom: 0pt;"><span style="font-family: arial;"><span style="font-size: 10pt;">TS/SCI with a Polygraph</span></span></li>
+</ul></td></tr>
+</tr>
+<tr>
+<tr><td class='left'><br>
+<form action='https://chk.tbe.taleo.net/chk05/ats/careers/apply.jsp;jsessionid=FDBC33F71E46D9386EA7EE106F229084?org=ALTAMIRA2&cws=1&rid=2102' method='post' name='apply'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='org' value='ALTAMIRA2'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='_csrf' value='v1:;1507572657463:;ygeV8htc7Fx6ciGac+Uavd2zZdYxlc88dff8z+1f3Z4=' /><input type='submit' name='tbe_cws_submit' value='Apply for this Position' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="8"></form></td>
+</td>
+<td align='right' colspan=1><br>
+<form action='https://chk.tbe.taleo.net/chk05/ats/careers/email.jsp;jsessionid=FDBC33F71E46D9386EA7EE106F229084?org=ALTAMIRA2&cws=1' method='post' name='send'>
+<input type='hidden' name='org' value='ALTAMIRA2'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='rid' value='2102'>
+<input type='hidden' name='_csrf' value='v1:;1507572657463:;ygeV8htc7Fx6ciGac+Uavd2zZdYxlc88dff8z+1f3Z4=' /><input type='submit' name='tbe_cws_submit' value='Send to a Friend' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="9"></form>
+</td></tr>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br></td>
+</tr>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'>
+<h1><span class='head1'>Are you a returning applicant?</span></h1></td>
+</tr>
+<tr>
+<form action='https://chk.tbe.taleo.net/chk05/ats/careers/applyModal.jsp;jsessionid=FDBC33F71E46D9386EA7EE106F229084?org=ALTAMIRA2&cws=1' method='post' name='TBE_theForm'>
+<input type='hidden' name='org' value='ALTAMIRA2'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='rid' value='2102'>
+<input type='hidden' name='currentTime' value='1507572657463'>
+<input type='hidden' name='signature' value='jGgdHUnFcNYBpeNBOVRvy981vDUyo1/Zu27D2Z7aMBo='>
+<input type='hidden' name='et' value='CAND'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='_csrf' value='v1:;1507572657463:;ygeV8htc7Fx6ciGac+Uavd2zZdYxlc88dff8z+1f3Z4=' /><tr><td colspan=2>
+<table border=0 cellpadding=2 cellspacing=0 role="presentation"><tr>
+<td nowrap colspan=2>Previous Applicants:</td>
+</tr>
+<tr>
+<td nowrap align='right'><label for='email'>Email:</label></td>
+<td class='nowrap'><input type='text' id='email' name='email' maxlength=50 autocomplete='off' tabindex='22'></td>
+</tr>
+<input type='text' style='display:none'>
+<input type='password' style='display:none'>
+<tr>
+<td nowrap align='right'><label for='cwsPassword'>Password:</label></td>
+<td class='nowrap'><input type='password' id='cwsPassword' name='cwsPassword' maxlength=30 autocomplete='off' tabindex='23'></td>
+</tr>
+<tr><td nowrap colspan=2>
+<input type='submit' name='tbe_cws_submit' value='Add to My Jobs' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="24"></td></tr>
+<tr><td nowrap colspan=2><br>
+If you do not remember your password <a href='https://chk.tbe.taleo.net/chk05/ats/careers/forgotID.jsp?org=ALTAMIRA2&cws=1' tabIndex='25'>click here</a>.<br><br></td></tr>
+</table>
+</td></tr></form>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='28' href='https://chk.tbe.taleo.net/chk05/ats/careers/searchResults.jsp;jsessionid=FDBC33F71E46D9386EA7EE106F229084?org=ALTAMIRA2&cws=1' title='Back to Search Results' >Back to Search Results</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='29' href='https://chk.tbe.taleo.net/chk05/ats/careers/jobSearch.jsp;jsessionid=FDBC33F71E46D9386EA7EE106F229084?org=ALTAMIRA2&cws=1&rid=2102' title='New Search' >New Search</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><!--</td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br><div align='right'><img src='https://tbe.taleo.net/graphics/Taleo_powered_by_small.gif' alt='Powered By Taleo' border='0'></div><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'>--></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        //jQuery Calendar
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchk.tbe.taleo.net/chk05/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+    </script>
+
+</div>
+<div style="background: #303030;
+            color: #999999;
+            bottom: 0;
+            left: 0;
+            margin: 30px -8px -8px -8px;
+            padding: 50px 10px 10px;
+            height: 50px;">
+    <img src="http://vps6159.inmotionhosting.com/~altami7/ACWordpress2/wp-content/uploads/2015/10/Altamira-A.png" width="50px" height="50px">
+    <p style="position: relative;
+              text-align: right;
+              top: -25px;
+              font-size: 12px;
+              ">
+        © Copyright 2016 Altamira Technologies
+    </p>
+</div>
+</body></html>
+
+
+

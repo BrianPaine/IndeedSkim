@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  
+  
+  
+  
+
+  <style type="text/css" media="all">
+    @font-face { font-family: "facetselecticon"; src: url("/system/production/assets/64828/original/facetselecticon.eot"); src: url("/system/production/assets/64828/original/facetselecticon.eot?#iefix") format("embedded-opentype"),  url("/system/production/assets/64832/original/facetselecticon.woff") format("woff"),  url("/system/production/assets/64830/original/facetselecticon.ttf") format("truetype"),  url("/system/production/assets/64829/original/facetselecticon.svg#facetselecticon") format("svg"); font-weight: normal; font-style: normal; }
+    @font-face { font-family: 'Glyphicons Halflings'; src: url("/system/production/assets/64945/original/glyphicons-halflings-regular.eot"); src: url("/system/production/assets/64945/original/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/system/production/assets/64942/original/glyphicons-halflings-regular.woff") format("woff"), url("/system/production/assets/64943/original/glyphicons-halflings-regular.ttf") format("truetype"), url("/system/production/assets/64944/original/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  </style>
+  <!-- seo & meta -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"5911de361c","applicationID":"3392915","transactionName":"IlsLQktaXltTRhtARwNYDFVmRltDUxteX1ASGxZeVkI=","queueTime":2,"applicationTime":124,"agent":"","atts":"GhYQFANOEFJbRFhfSwRGOl9dFwgADgUYElcMRAlZQFBAaFhVWVUQWxYzU0tcSFhYFGRCXQUWSRRKXEZSaV1QEghQDVYCFRdBXkJRa15TDFFHDBtjV0VfTlteEiJVF1NcR0EXGxRkQl0FQQZCUFpcFUtJ"}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgEAWVNaGwADXVNbBgQ="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script>
+  <meta charset="utf-8">
+  <meta name="title" content="Search Careers | About Verizon">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <script type="text/javascript" >
+    var redirect_after_cookie_saves = null;
+  </script>
+
+  
+  <!-- PAGE CONTEXT VARS -->
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+
+  <!-- FORM PARAMS CONTEXT VARS -->
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  <!-- REDIRECT LOGIC -->
+  
+
+  <!-- SEOINDEX/H1/TITLE LOGIC -->
+  <!-- not job list -->
+  
+  
+    
+    
+    <link rel="canonical" href="http://www.verizon.com/about/work/jobs/7662602-data-reporting-analyst" />
+    
+    <meta name="robots" content="noindex, follow">
+    
+    <meta name="description" content="">
+    
+  
+  <!--<title>Data and Reporting Analyst | Verizon</title>-->
+  <title>Search Careers | About Verizon</title>
+  <!-- end seo & meta -->
+
+  <script type="text/javascript">
+    //<![CDATA[
+    // these values are used in theme.js
+    var vztm_vars = {};
+
+    vztm_vars.search_url = "/jobs/7662602-data-reporting-analyst?tm_job=465122-1A&tm_event=view&tm_company=781&bid=2966&bid=326&CID=pst";
+    vztm_vars.verizon_domain_href = "http://www.verizon.com/about";
+    vztm_vars.is_job_list = ("false"=="true");
+    vztm_vars.is_home = ("false"=="true");
+
+    vztm_vars.search_cleared = (""=="1");
+
+    //form states
+    vztm_vars.param_per_page = "25"; //?
+    vztm_vars.param_page = "1";
+
+    //form params
+    vztm_vars.param_q = "";
+    vztm_vars.param_v_location = "";
+    vztm_vars.param_sort_by = "";
+
+    //form radius
+    vztm_vars.param_ns_dist = "50"; //used in
+    vztm_vars.param_ns_dist = isNaN(parseInt(vztm_vars.param_ns_dist)) ? 50 : parseInt(vztm_vars.param_ns_dist);
+    vztm_vars.radius_in_miles = ("mi" == "mi");
+
+    //params tracking
+    vztm_vars.is_param_ss_paid = (""=="paid");
+    vztm_vars.param_bid = "326";
+    vztm_vars.param_SrcTCD = "";
+
+    vztm_vars.is_military_form = (""=="true");
+
+    vztm_vars.param_v_mservice = "";
+    vztm_vars.param_v_mbranch = "";
+    vztm_vars.param_v_mcode = "";
+    
+    //]]>
+  </script>
+
+  <!-- end script params -->
+  <link rel="shortcut icon" href="/system/production/assets/23232/original/favicon.ico?s=06092017" type="image/vnd.microsoft.icon"/>
+  <link type="text/css" rel="stylesheet" href="/system/production/assets/67063/original/styles.css?s=06092017"/>
+  <link type="text/css" rel="stylesheet" href="/system/production/assets/67042/original/vzbootstrap.css?s=06092017"/>
+  <link type="text/css" rel="stylesheet" href="/system/production/assets/75109/original/vz-print.css?s=06092017"/>
+
+  <!--[if gte IE 9]><!-->
+  <style type="text/css" media="all and (min-width: 310px) and (min-device-width: 310px), (max-device-width: 760px) and (min-width: 760px) and (orientation:landscape)">
+    @import url("/system/production/assets/67010/original/vzbootstrap-mobile.css?s=06092017");
+  </style>
+  <style type="text/css" media="all and (min-width: 760px) and (min-device-width: 760px), all and (max-device-width: 1024px) and (min-width: 1024px) and (orientation:landscape)">
+    @import url("/system/production/assets/67041/original/vzbootstrap-narrow.css?s=06092017");
+  </style>
+  <style type="text/css" media="all and (min-width: 1024px), all and (min-width: 1024px) and (orientation:landscape)">
+    @import url("/system/production/assets/67040/original/vzbootstrap-normal.css?s=06092017");
+  </style>
+  <style type="text/css" media="all and (min-width: 1200px) and (min-device-width: 1200px), all and (min-width: 1200px) and (orientation:landscape)">
+    @import url("/system/production/assets/67039/original/vzbootstrap-wide.css?s=06092017");
+  </style>
+  <!--<![endif]-->
+
+  <link rel="stylesheet" media="screen" href="/assets/site/v3/manifest-889dcb2ef11118c0333c20dfa081fdbd085bc76a9dad3284021bce3049819920.css" />
+<link rel="stylesheet" media="screen" href="/stylesheets/theme.css" />
+<script src="/assets/site/v3/manifest-8530a5bf1d632263f495cab3503312c9941edc082055c5236bce5110e3aab2f8.js"></script>
+<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+  csns.maps.fetch_location_url = "http://jobs.verizon.com/locations/fetch";
+
+//]]>
+</script>
+
+<script src="/javascripts/theme.js"></script>
+<link rel="alternate" type="application/atom+xml" title="ATOM" href="http://jobs.verizon.com/timeline.atom" />
+  <script src="/system/production/assets/76946/original/talemetry.jobsearch.1.2.js?s=06092017" type="text/javascript"></script>
+  <script type="text/javascript" src="/system/production/assets/21335/original/csns.autocomplete-1.0.js?s=06092017"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script>
+  
+  <!-- Responsive and mobile friendly stuff -->
+  <script type="text/javascript" src="/system/production/assets/74609/original/jquery-1.11.1.min.js?s=06092017"></script>
+  <script type="text/javascript" src="/system/production/assets/21055/original/modernizr.min.js?s=06092017"></script>
+  <!-- Bootstrap 3 -->
+  <script type="text/javascript" src="/system/production/assets/21038/original/bootstrap.min.js?s=06092017"></script>
+  <!-- Tabs to accordion script -->
+  <script type="text/javascript" src="/system/production/assets/21042/original/bootstrap-tabcollapse.js?s=06092017"></script>
+  <script type="text/javascript" src="/system/production/assets/21041/original/bootstrap-sortable.js?s=06092017"></script>
+
+  <!--Redesign Header files-->
+  <script type="text/javascript" src="/system/production/assets/67061/original/drupal.js?s=06092017 "></script>
+  <script type="text/javascript" src="/system/production/assets/67652/original/vzc_slinky.js?s=06092017"></script>
+  <script type="text/javascript" src="/system/production/assets/72735/original/vzc_bootstrap.js?s=06092017"></script>
+
+  
+  <script type="text/javascript">//<![CDATA[
+    var dl = { addPageName: "7662602-data-reporting-analyst" };
+  //]]></script>
+  
+
+  <script src="//assets.adobedtm.com/9acf5d00d723123ad28d2f0f9bc2c297466608fd/satelliteLib-507da7262d694f570f1b6ea7ba4d59fc99dc5343.js"></script>
+  <script src="https://use.fontawesome.com/1520d02b94.js"></script>
+</head>
+
+<body id="jobs-7662602-data-reporting-analyst" class="no_recent_searches is_search_active  job-details ">
+
+
+<header id="header-menu">
+  <div class="header-container">
+    <div class="region region-header-menu">
+      <section id="block-menu-menu-header" class="block block-menu clearfix">
+        <ul class="menu nav">
+          <li class="first leaf"><a href="http://www.verizonwireless.com/">Wireless</a></li>
+          <li class="leaf"><a href="http://www.verizon.com/?lid=//global//residential">Residential</a></li>
+          <li class="leaf"><a href="http://www.verizon.com/home/verizonglobalhome/ghp_business.aspx">Business</a></li>
+          <li class="last leaf"><a href="http://www98.verizon.com/about" title="">About Verizon</a></li>
+        </ul>
+        <a id="ContactUs_home" class="Contactus" href="https://www.verizon.com/Support/Residential/contact-us/index.htm" title="Contact us">Contact us</a> </section>
+    </div>
+  </div>
+</header>
+<header id="navbar" class="">
+  <div class="topnav-container">
+    <div class="header-container">
+      <nav class="topnav">
+        <!-- <div class="trigger-search glyphicon glyphicon-search" aria-label="Open search"></div>-->
+        <a class="trigger-filter"><span id="facet_count" class="facet-count">&nbsp;</span></a>
+          
+        <a class="trigger-close"></a>
+
+
+        <div class="topnav__logo">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".region-navigation .block-menu-block"> <span class="sr-only">Toggle navigation</span> <span class="navbar-toggle__bars"></span> </button>
+          <a class="logo" href="http://www.verizon.com/about" title="Home">About Verizon</a>
+          <h3 class="job-title"><a id="back-to" href="javascript:;" title="Search Results"></a>Search Results</h3>
+          <h3 class="job-title job-desc"><a id="back-to" class="back_to_search" href="/search/jobs" title="Search Results"></a>Job Description</h3> </div>
+        <div class="topnav__links">
+          <div class="region region-navigation">
+            <section id="block-vzc-search-verizon-search-form" class="block block-vzc-search clearfix">
+              <form action="http://corpweb.dd:8083/search-page" method="post" id="vzc-search-form" accept-charset="UTF-8">
+                <div>
+                  <div class="form-type-textfield form-item-query form-item form-group">
+                    <label for="edit-query">Enter a search term </label>
+                    <input placeholder="I am looking for&hellip;" class="form-control form-text" type="text" id="edit-query" name="query" value="" size="60" maxlength="128" />
+                  </div>
+                  <button class="glyphicon glyphicon-search btn btn-default form-submit" aria-label="Search" id="edit-submit--2" name="op" value="" type="submit"></button>
+                  <input type="hidden" name="form_id" value="vzc_search_form" />
+                </div>
+              </form>
+            </section>
+            <section id="block-menu-block-1" class="block block-menu-block clearfix">
+              <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+                <ul class="menu nav">
+                  <li class="first expanded menu-mlid-1229"><a href="http://www.verizon.com/about/our-company">Our Company</a>
+                    <ul class="menu nav">
+                      <li class="first expanded menu-mlid-1929"><a href="http://www.verizon.com/about/our-company/verizon-glance">Who We Are</a>
+                        <ul class="menu nav">
+                         <li class="leaf menu-mlid-1251"><a href="http://www.verizon.com/about/our-company/diversity-inclusion">Diversity &amp; Inclusion</a></li>
+                          <li class="last leaf menu-mlid-1327"><a href="http://www.verizon.com/about/our-company/history-timeline">History &amp; Timeline</a></li>
+                        </ul>
+                      </li>
+                        <li class="expanded menu-mlid-1233"><a href="http://www.verizon.com/about/our-company/overview">What We Do</a>
+                    <ul class="menu nav"><li class="first leaf menu-mlid-7961"><a href="http://www.verizon.com/about/our-company/wireless-network">Wireless Network</a></li>
+                    <li class="leaf menu-mlid-8003"><a href="http://www.verizon.com/about/our-company/high-speed-broadband">Broadband &amp; Fiber</a></li>
+                    <li class="leaf menu-mlid-7965"><a href="http://www.verizon.com/about/our-company/video-advertising">Video &amp; Advertising</a></li>
+                    <li class="leaf menu-mlid-7967"><a href="http://www.verizon.com/about/our-company/internet-things">Internet of Things</a></li>
+                    <li class="leaf menu-mlid-7969"><a href="http://www.verizon.com/about/our-company/managed-security">Managed Security</a></li>
+                    <li class="last leaf menu-mlid-1925"><a href="http://www.verizon.com/about/our-company/innovation-programs">Innovation Programs</a></li>
+                    </ul>
+                      </li>
+                      <li class="expanded menu-mlid-1235"><a href="http://www.verizon.com/about/our-company/commitment-values">How We Operate</a>
+
+            <ul class="menu nav">
+                <li class="first leaf menu-mlid-1445"><a href="http://www.verizon.com/about/our-company/code-conduct">Code of Conduct</a></li>
+                <li class="expanded menu-mlid-2559"><a href="http://www.verizon.com/about/our-company/supplier-diversity">Supplier Diversity</a>
+                    <ul class="menu nav">
+                        <li class="first last leaf menu-mlid-2563"><a href="http://www.verizon.com/about/our-company/supplier-diversity-faqs">Supplier FAQs</a></li>
+                    </ul>
+                </li>
+                <li class="leaf menu-mlid-1449"><a href="http://www.verizon.com/about/our-company/public-policy-regulatory">Public Policy &amp; Regulatory</a></li>
+                <li class="leaf menu-mlid-4247"><a href="http://www.verizon.com/about/our-company/state-government-affairs">State Government Affairs</a></li>
+                <li class="leaf menu-mlid-8005"><a href="http://www.verizon.com/about/our-company/company-policies">Company Policies</a></li>
+                <li class="last leaf menu-mlid-8909"><a href="http://www.verizon.com/about/our-company/retiree-information">Retirees</a></li>
+            </ul>
+              </li>
+                      <li class="expanded menu-mlid-1357"><a href="http://www.verizon.com/about/our-company/executive-bios">Leadership</a>
+                                            </li>
+                      <li class="expanded menu-mlid-1359"><a href="http://www.verizon.com/about/our-company/awards-recognition">Awards</a>
+                                             </li>
+                    </ul>
+                  </li>
+                  <li class="expanded menu-mlid-1253"><a href="http://www.verizon.com/about/responsibility">Responsibility</a>
+                   <ul class="menu nav">
+    <li class="first expanded menu-mlid-7977"><a href="http://www.verizon.com/about/responsibility/verizon-innovative-learning">Verizon Innovative <br>Learning</a>
+        <ul class="menu nav">
+            <!--<li class="first leaf menu-mlid-7979"><a href="http://www.verizon.com/about/responsibility/app-challenge">App challenge</a></li>
+            <li class="leaf menu-mlid-7981"><a href="http://www.verizon.com/about/responsibility/minority-males">Minority males</a></li>
+            <li class="leaf menu-mlid-7983"><a href="http://www.verizon.com/about/responsibility/schools">Schools</a></li>
+            <li class="leaf menu-mlid-8001"><a href="http://www.verizon.com/about/responsibility/design-thinking">Design Thinking</a></li>
+            <li class="last leaf menu-mlid-8541"><a href="http://www.verizon.com/about/responsibility/verizon-innovation-learning-labs">Innovative Learning Labs</a></li>25_04_change-->
+            
+            <li class="first leaf menu-mlid-7979"><a href="http://www.verizon.com/about/responsibility/app-challenge">App challenge</a></li>
+            <li class="leaf menu-mlid-7981"><a href="http://www.verizon.com/about/responsibility/minority-males">Tech Immersion</a></li>
+            <li class="leaf menu-mlid-7983"><a href="http://www.verizon.com/about/responsibility/schools">Digitizing Schools</a></li>
+            <li class="leaf menu-mlid-8001"><a href="http://www.verizon.com/about/responsibility/design-thinking">Design Thinking</a></li>
+            <li class="last leaf menu-mlid-8541"><a href="http://www.verizon.com/about/responsibility/verizon-innovation-learning-labs">Innovative Learning Labs</a></li>
+            
+        </ul>
+    </li>
+    <li class="expanded menu-mlid-7991"><a href="http://www.verizon.com/about/responsibility/domestic-violence-prevention">Domestic Violence <br>Prevention</a>
+        <ul class="menu nav">
+            <!--<li class="first leaf menu-mlid-7993"><a href="http://www.verizon.com/about/responsibility/get-involved">Get Involved</a></li>
+            <li class="last leaf menu-mlid-7995"><a href="http://www.verizon.com/about/responsibility/hopeline-faqs">FAQs</a></li>25_04_change-->
+            
+            <li class="first leaf menu-mlid-7993"><a href="http://www.verizon.com/about/responsibility/get-involved">Get Involved</a></li>
+            <li class="leaf menu-mlid-9957"><a href="http://www.verizon.com/about/responsibility/grants-and-partnerships">Grants and Partnerships</a></li>
+            <li class="last leaf menu-mlid-7995"><a href="http://www.verizon.com/about/responsibility/hopeline-faqs">FAQs</a></li>
+        </ul>
+    </li>
+    <li class="expanded menu-mlid-7987"><a href="http://www.verizon.com/about/responsibility/sustainability">Sustainability</a>
+        <!--<ul class="menu nav">
+            <li class="first last leaf menu-mlid-7989"><a href="http://www.verizon.com/about/responsibility/emissions-profile">Emissions Profile</a></li>
+        </ul>25_04_change-->
+    </li>
+    <li class="expanded menu-mlid-2999"><a href="http://www.verizon.com/about/responsibility/product/our-commitment">Product Responsibility</a>
+        <ul class="menu nav">
+            <li class="first leaf menu-mlid-3003"><a href="http://www.verizon.com/about/responsibility/product/accessibility">Accessibility</a></li>
+            <li class="leaf menu-mlid-2671"><a href="http://www.verizon.com/about/responsibility/product/online-safety">Online Safety</a></li>
+          <li class="leaf menu-mlid-11685"><a href="http://www.verizon.com/about/responsibility/cybersecurity">Cybersecurity</a></li>
+            <li class="last leaf menu-mlid-3009"><a href="http://www.verizon.com/about/responsibility/product/frauds-and-scams">Frauds and Scams</a></li>
+        </ul>
+    </li>
+    <li class="leaf menu-mlid-7997"><a href="http://www.verizon.com/about/responsibility/reporting">Reporting</a>
+        <ul class="menu nav">
+            <li class="first last leaf menu-mlid-10509"><a href="http://www.verizon.com/about/corporate-responsibility-report">Corporate Responsibility Report</a></li>
+        </ul>
+    </li>
+    <li class="last expanded menu-mlid-7985"><a href="http://www.verizon.com/about/responsibility/giving-and-grants">Giving and Grants</a>
+        <ul class="menu nav">
+            <li class="first last leaf menu-mlid-7999"><a href="http://www.verizon.com/about/responsibility/grant-requirements">Grant Requirements</a></li>
+        </ul>
+    </li>
+</ul> 
+                  </li>
+                  <li class="expanded menu-mlid-1245"><a href="http://www.verizon.com/about/verizon-news">News</a>
+                   <ul class="menu nav">
+    <li class="first expanded menu-mlid-7743 news-stories"><a href="http://www.verizon.com/about/news">Stories</a>
+        <ul class="menu nav">
+            <li class="first leaf menu-mlid-7781"><a href="http://www.verizon.com/about/news/stories/personal-tech">Personal Tech</a></li>
+            <li class="leaf menu-mlid-7779"><a href="http://www.verizon.com/about/news/stories/enterprise-tech">Enterprise Tech</a></li>
+            <li class="leaf menu-mlid-7785"><a href="http://www.verizon.com/about/news/stories/community">Community</a></li>
+            <li class="last leaf menu-mlid-7783"><a href="http://www.verizon.com/about/news/stories/people">People</a></li>
+        </ul>
+    </li>
+    <li class="last expanded menu-mlid-7745 news-media-center"><a href="http://www.verizon.com/about/media-center">Media Center</a>
+        <ul class="menu nav">
+            <li class="first leaf menu-mlid-8833 news-releases"><a href="http://www.verizon.com/about/media-center">News Releases</a></li>
+            <li class="leaf menu-mlid-8539"><a href="http://www.verizon.com/about/media-resources">Media Resources</a></li>
+            <li class="leaf menu-mlid-7939"><a href="http://www.verizon.com/about/news/media-contacts">Media Contacts</a></li>
+          <li class="last leaf menu-mlid-11679"><a href="http://www.verizon.com/about/rss-feeds">RSS Feeds</a></li>
+        </ul>
+    </li>
+</ul>
+                  </li>
+                  <li class="expanded menu-mlid-1247"><a href="http://www.verizon.com/about/investors">Investors</a>
+                   <ul class="menu nav">
+    <li class="first expanded menu-mlid-1273"><a href="http://www.verizon.com/about/investors/financial-reporting-summary">Financial Reporting</a>
+        <ul class="menu nav">
+            <li class="first leaf menu-mlid-7949"><a href="http://www.verizon.com/about/investors/sec-filings">SEC Filings</a></li>
+            <li class="leaf menu-mlid-7951"><a href="http://www.verizon.com/about/investors/annual-report">Annual Reports</a></li>
+            <li class="leaf menu-mlid-7953"><a href="http://www.verizon.com/about/investors/quarterly-earnings">Quarterly Earnings</a></li>
+            <li class="leaf menu-mlid-1287"><a href="http://www.verizon.com/about/investors/stock-information">Stock Information</a></li>
+            <li class="leaf menu-mlid-7955"><a href="http://www.verizon.com/about/investors/dividend-history">Dividend History</a></li>
+            <li class="last leaf menu-mlid-7957"><a href="http://www.verizon.com/about/investors/fixed-income">Fixed Income</a></li>
+        </ul>
+    </li>
+    <li class="expanded menu-mlid-1275"><a href="http://www.verizon.com/about/investors/investor-news">News &amp; Events</a>
+        <ul class="menu nav">
+            <li class="first leaf menu-mlid-1349"><a href="http://www.verizon.com/about/investors/investor-news">Investor News</a></li>
+            <li class="leaf menu-mlid-1301"><a href="http://www.verizon.com/about/investors/investor-webcasts">Investor Webcasts</a></li>
+            <li class="last leaf menu-mlid-1303"><a href="http://www.verizon.com/about/investors/investor-calendar">Investor Calendar</a></li>
+        </ul>
+    </li>
+    <li class="expanded menu-mlid-1277"><a href="http://www.verizon.com/about/investors/corporate-governance">Corporate Governance</a>
+        <ul class="menu nav">
+            <li class="first last leaf menu-mlid-7937"><a href="http://www.verizon.com/about/investors/board-directors">Board of Directors</a></li>
+        </ul>
+    </li>
+    <li class="expanded menu-mlid-1279"><a href="http://www.verizon.com/about/investors/shareowner-services">Shareowner Services</a>
+        <ul class="menu nav">
+            <li class="first leaf menu-mlid-1337"><a href="http://www.verizon.com/about/investors/cost-basis-calculator">Cost Basis</a></li>
+            <li class="last leaf menu-mlid-1281"><a href="http://www.verizon.com/about/investors/shareowner-faqs">Shareowner FAQs</a></li>
+        </ul>
+    </li>
+    <li class="last leaf menu-mlid-1847"><a href="http://www.verizon.com/about/investors/contact-investor-relations">Contact Investor Relations</a></li>
+</ul> 
+                  </li>
+                  <li class="last expanded menu-mlid-1381"><a href="http://www.verizon.com/about/careers" class="active">Careers</a>
+                    <ul class="menu nav">
+                      <li class="expanded menu-mlid-1265"><a href="http://www.verizon.com/about/careers/explore-opportunities">Career Areas</a>
+                        <ul class="menu nav">
+                    <li class="first leaf menu-mlid-1907"><a href="http://www.verizon.com/about/careers/stores">Stores</a></li>
+                    <li class="expanded menu-mlid-1329"><a href="http://www.verizon.com/about/careers/sales">Sales</a>
+                      <ul class="menu nav">
+                        <li class="first leaf menu-mlid-2773"><a href="http://www.verizon.com/about/careers/retail-sales">Retail Sales</a></li>
+                        <li class="leaf menu-mlid-2775"><a href="http://www.verizon.com/about/careers/inside-sales">Inside Sales</a></li>
+                        <li class="leaf menu-mlid-2777"><a href="http://www.verizon.com/about/careers/enterprise-sales">Enterprise Sales</a></li>
+                        <li class="last leaf menu-mlid-2779"><a href="http://www.verizon.com/about/careers/business-business-sales">B2B Sales</a></li>
+                      </ul>
+                    </li>
+                    <li class="expanded menu-mlid-1331"><a href="http://www.verizon.com/about/careers/customer-service">Customer Service</a>
+                      <ul class="menu nav">
+                        <li class="first leaf menu-mlid-2781"><a href="http://www.verizon.com/about/careers/call-center">Call Center</a></li>
+                        <li class="last leaf menu-mlid-2783"><a href="http://www.verizon.com/about/careers/store">In-store</a></li>
+                      </ul>
+                    </li>
+                    <li class="expanded menu-mlid-2767"><a href="http://www.verizon.com/about/careers/technology">Technology</a>
+                      <ul class="menu nav">
+                        <li class="first leaf menu-mlid-1853"><a href="http://www.verizon.com/about/careers/software-engineering">Software Engineering</a></li>
+                        <li class="leaf menu-mlid-2769"><a href="http://www.verizon.com/about/careers/network-engineering">Network Engineering</a></li>
+                        <li class="leaf menu-mlid-1855"><a href="http://www.verizon.com/about/careers/information-technology">Information Technology</a></li>
+                        <li class="last leaf menu-mlid-2771"><a href="http://www.verizon.com/about/careers/research-and-development">Research &amp; Development</a></li>
+                      </ul>
+                    </li>
+                    <li class="leaf menu-mlid-1863"><a href="http://www.verizon.com/about/careers/corporate">Corporate</a></li>
+                      </ul>
+                      </li>
+                      <li class="expanded menu-mlid-1267"><a href="http://www.verizon.com/about/careers/working-here">Working Here</a>
+                        <ul class="menu nav">
+                          <li class="first leaf menu-mlid-1905"><a href="http://www.verizon.com/about/careers/working-here">What to Expect</a></li>
+                          <li class="leaf menu-mlid-1875"><a href="http://www.verizon.com/about/careers/our-people">Our People</a></li>
+                          <li class="last expanded menu-mlid-1867"><a href="http://www.verizon.com/about/careers/benefits">Benefits</a>
+                            <ul class="menu nav">
+                              <li class="first leaf menu-mlid-2717"><a href="http://www.verizon.com/about/careers/working-parents">Working Parents</a></li>
+                              <li class="last leaf menu-mlid-2673"><a href="http://www.verizon.com/about/careers/tuition-assistance">Tuition Assistance</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="expanded menu-mlid-1869"><a href="http://www.verizon.com/about/careers/from-campus-to-career">College Students</a>
+                        <ul class="menu nav">
+                          <li class="first leaf menu-mlid-1899"><a href="http://www.verizon.com/about/careers/from-campus-to-career">From Campus to Career</a></li>
+                          <li class="leaf menu-mlid-1877"><a href="http://www.verizon.com/about/careers/internships-co-ops">Internships &amp; Co-ops</a></li>
+                          <li class="leaf menu-mlid-1873"><a href="http://www.verizon.com/about/careers/entry-level">Entry-level</a></li>
+                          <li class="leaf menu-mlid-1871"><a href="http://www.verizon.com/about/careers/leadership-development-programs">Leadership Development Programs</a></li>
+                          <li class="last leaf menu-mlid-1879"><a href="http://www.verizon.com/about/careers/partnerships">Partnerships</a></li>
+                        </ul>
+                      </li>
+                      <li class="expanded menu-mlid-1881"><a href="http://www.verizon.com/about/careers/we-salute-you">Military</a>
+                        <ul class="menu nav">
+                          <li class="leaf menu-mlid-2439"><a href="http://www.verizon.com/about/careers/military-skills-matcher">Military Skills Matcher</a></li>
+                          <li class="leaf menu-mlid-2655"><a href="http://www.verizon.com/about/careers/contact-military-recruiter">Contact A Military Recruiter</a></li>
+                          <li class="last leaf menu-mlid-2657"><a href="http://www.verizon.com/about/careers/military-faqs">Military FAQs</a></li>
+                        </ul>
+                      </li>
+                      <li class="expanded menu-mlid-1887"><a href="http://www.verizon.com/about/careers/we-are-global">Locations</a>
+                        <ul class="menu nav">
+                          <li class="first last leaf menu-mlid-1901"><a href="http://www.verizon.com/about/careers/we-are-global">We Are Global</a></li>
+                        </ul>
+                      </li>
+                      <li class="expanded menu-mlid-1269"><a href="http://www.verizon.com/about/careers/events-calendar">Events</a>
+                        <ul class="menu nav">
+                          <li class="first last leaf menu-mlid-1271"><a href="http://www.verizon.com/about/careers/events-calendar" title="">Calendar</a></li>
+                        </ul>
+                      </li>
+                      <li class="last leaf menu-mlid-2661"><a href="http://www.verizon.com/about/careers/faqs" class="submenu-link">FAQs</a></li>
+        <li class="mobile_expand"><a class="searcher" href="http://www.verizon.com/about/work">Search Jobs</a></li>
+                    
+                        <li class="button_jobs desktop_expand"><section class="block block-vzc-menu clearfix" id="block-vzc-menu-vzc-menu-search-jobs">      
+              <a class="btn btn-normal btn-sm btn-search-jobs vzc-geolocation-careers-search" href="http://www98.verizon.com/about/work/search/jobs">Search Jobs</a>
+            </section>
+            </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section id="block-menu-menu-mobile-aux" class="block block-menu clearfix">
+              <h2 class="block-title">Go to</h2>
+              <ul class="menu nav">
+                <li class="first leaf"><a href="http://www.verizonwireless.com/">Verizon Wireless</a></li>
+                <li class="leaf"><a href="http://www.verizon.com/home/verizonglobalhome/ghp_business.aspx">Verizon Business</a></li>
+                <li class="leaf"><a href="http://www.verizon.com/?lid=//global//residential">Verizon Residential</a></li>
+                <li class="last leaf"><a href="https://www.verizon.com/Support/Residential/contact-us/index.htm">Contact Us</a></li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="subnav-container">
+    <div class="header-container">
+      <nav class="subnav">
+        <div class="region region-subnav">
+          <section class="block block-vzc-menu clearfix" id="block-vzc-menu-vzc-menu-search-jobs">
+            <a class="btn btn-normal btn-sm btn-search-jobs vzc-geolocation-careers-search" href="http://www.verizon.com/about/work">Search Jobs</a>
+          </section>
+          <section id="block-menu-block-2" class="block block-menu-block clearfix">
+            <div class="menu-block-wrapper menu-block-2 menu-name-main-menu parent-mlid-0 menu-level-2">
+              <ul class="menu nav">
+                <!--<li class="first leaf menu-mlid-4554"><a href="/news">Stories</a></li>
+                  <li class="last leaf active-trail active menu-mlid-4556 active"><a href="/media-center" class="active-trail active-trail active">Media Center</a></li>-->
+                <li class="expanded menu-mlid-1265"><a href="http://www.verizon.com/about/careers/explore-opportunities">Career Areas</a>
+                  <ul class="menu nav">
+                    <li class="first leaf menu-mlid-1907"><a href="http://www.verizon.com/about/careers/stores">Stores</a></li>
+                    <li class="expanded menu-mlid-1329"><a href="http://www.verizon.com/about/careers/sales">Sales</a>
+                      <ul class="menu nav">
+                        <li class="first leaf menu-mlid-2773"><a href="http://www.verizon.com/about/careers/retail-sales">Retail Sales</a></li>
+                        <li class="leaf menu-mlid-2775"><a href="http://www.verizon.com/about/careers/inside-sales">Inside Sales</a></li>
+                        <li class="leaf menu-mlid-2777"><a href="http://www.verizon.com/about/careers/enterprise-sales">Enterprise Sales</a></li>
+                        <li class="last leaf menu-mlid-2779"><a href="http://www.verizon.com/about/careers/business-business-sales">B2B Sales</a></li>
+                      </ul>
+                    </li>
+                    <li class="expanded menu-mlid-1331"><a href="http://www.verizon.com/about/careers/customer-service">Customer Service</a>
+                      <ul class="menu nav">
+                        <li class="first leaf menu-mlid-2781"><a href="http://www.verizon.com/about/careers/call-center">Call Center</a></li>
+                        <li class="last leaf menu-mlid-2783"><a href="http://www.verizon.com/about/careers/store">In-store</a></li>
+                      </ul>
+                    </li>
+                    <li class="expanded menu-mlid-2767"><a href="http://www.verizon.com/about/careers/technology">Technology</a>
+                      <ul class="menu nav">
+                        <li class="first leaf menu-mlid-1853"><a href="http://www.verizon.com/about/careers/software-engineering">Software Engineering</a></li>
+                        <li class="leaf menu-mlid-2769"><a href="http://www.verizon.com/about/careers/network-engineering">Network Engineering</a></li>
+                        <li class="leaf menu-mlid-1855"><a href="http://www.verizon.com/about/careers/information-technology">Information Technology</a></li>
+                        <li class="last leaf menu-mlid-2771"><a href="http://www.verizon.com/about/careers/research-and-development">Research &amp; Development</a></li>
+                      </ul>
+                    </li>
+                    <li class="leaf menu-mlid-1863"><a href="http://www.verizon.com/about/careers/corporate">Corporate</a></li>
+                      </ul>
+                </li>
+                <li class="expanded menu-mlid-1267"><a href="http://www.verizon.com/about/careers/working-here">Working Here</a>
+                  <ul class="menu nav">
+                                   <li class="last expanded menu-mlid-1867"><a href="http://www.verizon.com/about/careers/benefits">Benefits</a>
+                      <ul class="menu nav">
+                        <li class="first leaf menu-mlid-2717"><a href="http://www.verizon.com/about/careers/working-parents">Working Parents</a></li>
+                        <li class="last leaf menu-mlid-2673"><a href="http://www.verizon.com/about/careers/tuition-assistance">Tuition Assistance</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="expanded menu-mlid-1869"><a href="http://www.verizon.com/about/careers/from-campus-to-career">College Students</a>
+                  <!--<ul class="menu nav">
+                    <li class="first leaf menu-mlid-1899"><a href="http://www.verizon.com/about/careers/from-campus-to-career">From Campus to Career</a></li>
+                    <li class="leaf menu-mlid-1877"><a href="http://www.verizon.com/about/careers/internships-co-ops">Internships &amp; Co-ops</a></li>
+                    <li class="leaf menu-mlid-1873"><a href="http://www.verizon.com/about/careers/entry-level">Entry-level</a></li>
+                    <li class="leaf menu-mlid-1871"><a href="http://www.verizon.com/about/careers/leadership-development-programs">Leadership Development Programs</a></li>
+                    <li class="last leaf menu-mlid-1879"><a href="http://www.verizon.com/about/careers/partnerships">Partnerships</a></li>
+                  </ul>-->
+                </li>
+                <li class="expanded menu-mlid-1881"><a href="http://www.verizon.com/about/careers/we-salute-you">Military</a>
+                  <ul class="menu nav">
+                  <li class="leaf menu-mlid-2439"><a href="http://www.verizon.com/about/careers/military-skills-matcher">Military Skills Matcher</a></li>
+                    <li class="leaf menu-mlid-2655"><a href="http://www.verizon.com/about/careers/contact-military-recruiter">Contact A Military Recruiter</a></li>
+                    <li class="last leaf menu-mlid-2657"><a href="http://www.verizon.com/about/careers/military-faqs">Military FAQs</a></li>
+                  </ul>
+                </li>
+                <li class="expanded menu-mlid-1887"><a href="http://www.verizon.com/about/careers/we-are-global">Locations</a>
+                   <!--<ul class="menu nav">
+                    <li class="first last leaf menu-mlid-1901"><a href="http://www.verizon.com/about/careers/we-are-global">We Are Global</a></li>
+                  </ul>-->
+                </li>
+                <li class="expanded menu-mlid-1269"><a href="http://www.verizon.com/about/careers/events-calendar">Events</a>
+                  <!-- <ul class="menu nav">
+                    <li class="first last leaf menu-mlid-1271"><a href="http://www.verizon.com/about/careers/events-calendar" title="">Calendar</a></li>
+                  </ul>-->
+                </li>
+                <li class="last leaf menu-mlid-2661"><a href="http://www.verizon.com/about/careers/faqs" class="submenu-link">FAQs</a></li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<section id="container"><!-- Do not rename id -->
+  <div class="container left-menu-page search-careers" id="ourcompany_overview">
+     
+    <!-- TN_PROD: start -->
+    
+
+     <!-- STJS -->
+
+  
+    <!-- if Job -->
+    
+
+
+
+
+<!--if no cid and a bid is present then ? add cid=pst to the url and reload ?  -->
+
+
+<div id="tracking" style="display:none;"></div>
+
+<script>
+  var on_job_page = true;
+  var cs_job_apply_url="/jobs/7662602-data-reporting-analyst/record_apply_start_return_url";
+  setCookie("current_job_id","465122");
+</script>
+
+<div id="article" class="container career-details" style="padding-bottom: 40px;" itemscope itemtype="http://schema.org/JobPosting">
+  <div class="row">
+    <div class="col-lg-10 col-md-10 col-sm-10 col-lg-offset-1 col-md-offset-1">
+
+
+      <div id="breadcrumbs" class="row hidden-xs hidden-ms">
+        <ol class="breadcrumb">
+          <li><a href="http://www.verizon.com/about/">Home</a></li><!--http://jobs.verizon.com/-->
+          <li><a class="back_to_search" href="http://jobs.verizon.com/jobs/search?q=">Search Careers</a></li>
+          
+          
+          <li><a href="/search/ashburn-va/jobs">Ashburn, VA</a></li>
+          
+        
+          
+          <li><a href="/search/full-time-customer-service/jobs">Full-Time Customer Service</a></li>
+          
+        
+          <li><a href="#">Data and Reporting Analyst</a></li>
+        </ol>
+      </div>
+      
+      <article id="job_title" class="content-txt">
+          <h1 class="article-title hidden-xs hidden-ms" itemprop="title">Data and Reporting Analyst</h1>
+          
+          <div class="cs_template_notice"><p>This job posting is no longer active</p></div>
+          
+
+          
+          <ul class="story-info clear-float">
+
+            
+            <li itemprop="jobLocation" itemscope itemtype="http://schema.org/Place"><span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+              
+              <a href="/search/ashburn-va/jobs">Ashburn, VA, United States</a>
+              <meta itemprop="addressLocality" content="Ashburn" />
+              <meta itemprop="addressRegion" content="VA" />
+              <meta itemprop="addressCountry" content="United States" />
+             </span></li>
+            
+              
+            
+            <li><a href="/search/full-time-customer-service/jobs">Full-Time Customer Service</a></li>
+            
+
+            <li>Job # 465122</li>
+            <li>Date posted - <span itemprop="datePosted">2017-09-13</span></li>
+          </ul>
+
+          
+
+      </article>
+          
+    </div>
+ </div>
+    
+ <div class="row">
+  <div class="col-lg-7 col-md-7 col-sm-8 col-xs-12 col-lg-offset-1 col-md-offset-1 leftcolumn"> 
+   
+        <div class="cs_item_text" itemprop="description">
+          
+
+          <p><b>What you’ll be doing...</b> </p> <p style="margin: 0in 0in 0pt;">The applicant will be responsible for the below activities:</p><p style="margin: 0in 0in 0pt;"></p><p style="margin: 0in 0in 0pt;">Data and Reporting Analyst</p><ul>
+<li style="margin: 0in 0in 0pt;">Receive ad-hoc query requests from PMO teams, ask questions to define detailed reporting requirements, and deliver neatly formatted summary and detail reports accordingly.</li>
+<li style="margin: 0in 0in 0pt;">Query multiple databases with undocumented schemas to pull requested information</li>
+<li style="margin: 0in 0in 0pt;">Document business processes where needed to support the EIS contract</li>
+<li style="margin: 0in 0in 0pt;">Pull defect and corrective action metrics from different sources to develop contract-level reports on the health of certain systems and flows</li>
+<li style="margin: 0in 0in 0pt;">Project Manage bulk data cleanup activities as needed</li>
+</ul><p style="margin: 0in 0in 0pt;">Review of electronic federal contract deliverables, by liaising between IT and end user organizations</p><ul>
+<li style="margin: 0in 0in 0pt;">Auditing GSA contractual deliverables generated by IT systems to ensure contract guidelines are met</li>
+<li style="margin: 0in 0in 0pt;">Opening and managing trouble tickets assigned to IT for deliverables requiring content corrections</li>
+<li style="margin: 0in 0in 0pt;">Highlighting root cause issues and working with design teams to address long term fixes</li>
+<li style="margin: 0in 0in 0pt;">Analyzing ongoing issues and user errors to drive new development, defect resolution, and user training</li>
+<li style="margin: 0in 0in 0pt;">Determining and implementing process improvements to improve review efficiencies</li>
+<li style="margin: 0in 0in 0pt;">Performing bulk queries in SQL to analyze data</li>
+<li style="margin: 0in 0in 0pt;">Project Managing cleanups of data across all customers</li>
+</ul><p><b>What we’re looking for...</b> </p> <p style="margin: 0in 0in 0pt;"><br><strong>What we are looking for:</strong></p><ul>
+<li style="margin: 0in 0in 0pt;">Basic understanding of transport, IP and application layer products and services</li>
+<li style="margin: 0in 0in 0pt;">Intermediate SQL skills</li>
+<li style="margin: 0in 0in 0pt;">Ability to read and understand system flow diagrams</li>
+<li style="margin: 0in 0in 0pt;">Bachelor’s degree or equivalent work experience</li>
+<li style="margin: 0in 0in 0pt;">Expertise in Microsoft Office suite, especially Excel</li>
+</ul><p style="margin: 0in 0in 0pt;"><strong>Even better if you have:</strong></p><ul><li style="margin: 0in 0in 0pt;">Creative, analytical, organized, detail-oriented, team-focused, and autonomous</li></ul><p><b>When you join Verizon...</b> </p> <p>You’ll be doing work that matters alongside other talented people, transforming the way people, businesses and things connect with each other. Beyond powering America’s fastest and most reliable network, we’re leading the way in broadband, cloud and security solutions, Internet of Things and innovating in areas such as, video entertainment. Of course, we will offer you great pay and benefits, but we’re about more than that. Verizon is a place where you can craft your own path to greatness. Whether you think in code, words, pictures or numbers, find your future at Verizon.</p><p><b>Equal Employment Opportunity</b> </p> <p>We're proud to be an equal opportunity employer- and celebrate our employees' differences, regardless of race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability, or Veteran status. Different makes us better.</p><p><b></b> </p> 
+          
+        </div>
+    
+        
+    
+        <p class="links"><a class="action-links back_to_search" title="Back to Search Results" href="javascript:;"><span class="glyphicon glyphicon-chevron-left"></span> BACK TO SEARCH RESULTS </a></p>
+
+       
+   </div>
+   <div class="col-lg-3 col-md-3 col-sm-4 rightcolumn" style="padding-left: 20px;" > 
+    
+
+    
+    <section id="right-column"> 
+        
+
+        
+
+        
+          <h3>Learn more</h3>
+          <a href="http://www.verizon.com/about/careers/customer-service/">Learn more about Customer Service jobs</a>
+        
+        
+        <h3 style="padding-top:15px;">Your Careers Account</h3>
+        <a href="https://careers.verizon.com/psc/vzehpra/EMPLOYEE/HRMS/c/B_RS_MENU.B_RS_EA.GBL" target="_blank">Create / update your career account</a>
+        
+
+        
+        <div style="padding: 15px 0px;">
+          
+          
+          
+          
+          
+          
+          
+
+             
+          <!-- has related jobs --> 
+            <h3>Related Careers</h3>
+            <div style="font-style:italic;">
+              Customer Service Jobs in Ashburn, VA
+            </div>
+
+            <div style="padding: 5px;"> 
+              
+              
+                
+                  <div class="mitem_related clearfix"> 
+                  
+                  <a href="http://jobs.verizon.com/jobs/7840436-federal-trainer-and-technical-writer">Federal Trainer and Technical Writer - <i><small>Ashburn, VA, United States</small></i> </a> </div>
+                
+              
+              
+                
+                  <div class="mitem_related clearfix"> 
+                  
+                  <a href="http://jobs.verizon.com/jobs/7680653-training-and-user-support-analyst">Training and User Support Analyst - <i><small>Ashburn, VA, United States</small></i> </a> </div>
+                
+              
+              
+                
+                  <div class="mitem_related clearfix"> 
+                  
+                  <a href="http://jobs.verizon.com/jobs/7624682-federal-customer-trainer">Federal Customer Trainer - <i><small>Ashburn, VA, United States</small></i> </a> </div>
+                
+               
+            </div>
+
+            <div class="mitem_more">
+            <a href="/search/ashburn-va-customer-service/jobs">Show all...</a>
+            </div>
+          <!-- end has related jobs --> 
+          
+        </div>
+        
+      
+      </section>
+     <!-- has category --> 
+
+    </div>
+    <div class="col-lg-1 col-md-1 col-sm-1 pager-arrow hidden-xs hidden-ms hidden-sm"> </div>
+  </div> <!-- row --> 
+
+</div><!-- article --> 
+
+<div class="cs_share_container cs_cfix" style="display:none">
+    <span class="cs_share_email">
+      <a href="mailto:?body=http://jobs.verizon.com/jobs/7662602-data-reporting-analyst?tm_job=465122-1A&tm_event=view&tm_company=781&bid=2966&bid=326&CID=pst"></a>
+    </span>
+    <span class="cs_share_google"></span>
+    <span class="cs_share_twitter"></span>
+    <span class="cs_share_facebook"></span>
+    <span class="cs_share_linkedin"></span>
+</div>
+<script type="text/javascript">talemetry.share();</script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(document.body).addClass("job-details");
+  });
+</script>
+
+
+
+   
+
+
+<!-- STJS -->
+
+<!-- TN_PROD: END -->
+
+</div>
+<!-- end sub container -->
+</section>
+<!-- end container -->
+
+
+<!-- IMPORTANT ONLY RENDER IF IS HOME -->
+
+
+
+
+
+
+<!-- Footer redesign -->
+<footer class="footer">
+  <div class="footer-social">
+    <div class="region region-footer-social">
+      <section id="block-vzc-social-footer-news" class="block block-vzc clearfix">
+        <div class="container">
+          <div class="row footer__row">
+            <div class="social-block col-sm-4">
+              <h2>Follow Verizon Careers</h2>
+              <div class="social-block__blurb">Stay up-to-date with the latest news stories from Verizon.</div>
+              <div class="social-block__icons"> <a href="https://twitter.com/verizon" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Twitter</span><span class="vzc-icon-twitter"></span></a><a href="https://www.linkedin.com/company/verizon" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on LinkedIn</span><span class="vzc-icon-linkedin"></span></a> </div>
+              <a href="#footer__bottom" data-toggle="collapse" aria-controls="footer__bottom" class="footer__toggle">See all Verizon social channels <span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a> </div>
+          </div>
+        </div>
+        <div class="footer__bottom-container">
+          <div class="container">
+            <div class="row collapse footer__row" id="footer__bottom">
+              <div class="social-block col-sm-4">
+                <h2>Follow The Verizon Foundation</h2>
+                <div class="social-block__icons"> <a href="https://twitter.com/verizongiving" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Twitter</span><span class="vzc-icon-twitter"></span></a><a href="https://www.facebook.com/VerizonFoundation" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Facebook</span><span class="vzc-icon-facebook"></span></a><a href="https://plus.google.com/112781810676762868094/posts" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Google Plus</span><span class="vzc-icon-gplus"></span></a><a href="https://www.youtube.com/playlist?list=PLooRvxIU8b2Wi_CRc0zo44zIVIRv0eL32" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on YouTube</span><span class="vzc-icon-youtube"></span></a> </div>
+              </div>
+              <div class="social-block col-sm-4">
+                <h2>Follow Verizon News</h2>
+                <div class="social-block__icons"> <a href="https://twitter.com/VerizonCareers" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Twitter</span><span class="vzc-icon-twitter"></span></a><a href="https://www.facebook.com/verizoncareers" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Facebook</span><span class="vzc-icon-facebook"></span></a><a href="https://www.linkedin.com/company/verizon/careers" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on LinkedIn</span><span class="vzc-icon-linkedin"></span></a><a href="https://www.youtube.com/playlist?list=PLooRvxIU8b2UBicvyKS4Tjr-sCDwgjmvo" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on YouTube</span><span class="vzc-icon-youtube"></span></a><a href="http://instagram.com/verizoncareers" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Instagram</span><span class="vzc-icon-instagram"></span></a> </div>
+              </div>
+              <div class="social-block col-sm-4">
+                <h2>Follow Verizon Wireless</h2>
+                <div class="social-block__icons"> <a href="https://twitter.com/VerizonNews" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Twitter</span><span class="vzc-icon-twitter"></span></a><a href="https://www.facebook.com/verizon" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Facebook</span><span class="vzc-icon-facebook"></span></a><a href="http://www.linkedin.com/company/verizon-wireless" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on LinkedIn</span><span class="vzc-icon-linkedin"></span></a><a href="https://plus.google.com/+verizon/posts" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Google Plus</span><span class="vzc-icon-gplus"></span></a><a href="http://www.youtube.com/user/verizonwireless" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on YouTube</span><span class="vzc-icon-youtube"></span></a> </div>
+              </div>
+              <div class="social-block col-sm-4">
+                <h2>Follow Verizon FIOS</h2>
+                <div class="social-block__icons"> <a href="https://twitter.com/verizonfios" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Twitter</span><span class="vzc-icon-twitter"></span></a><a href="https://www.facebook.com/verizonfios" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Facebook</span><span class="vzc-icon-facebook"></span></a><a href="https://plus.google.com/+verizonfios/posts" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Google Plus</span><span class="vzc-icon-gplus"></span></a><a href="http://www.youtube.com/user/verizon" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on YouTube</span><span class="vzc-icon-youtube"></span></a> </div>
+              </div>
+              <div class="social-block col-sm-4">
+                <h2>Follow Verizon Enterprise</h2>
+                <div class="social-block__icons"> <a href="https://twitter.com/Vzenterprise" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Twitter</span><span class="vzc-icon-twitter"></span></a><a href="https://www.facebook.com/VerizonEnterprise" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on Facebook</span><span class="vzc-icon-facebook"></span></a><a href="https://www.linkedin.com/company/verizon-enterprise" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on LinkedIn</span><span class="vzc-icon-linkedin"></span></a><a href="http://www.youtube.com/user/VerizonEnterprise" class="social-block__icon" target="_blank"><span class="sr-only">Follow us on YouTube</span><span class="vzc-icon-youtube"></span></a> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="footer-aux1 container">
+    <div class="region region-footer-aux1">
+      <section id="block-menu-menu-footer-aux-1" class="block block-menu clearfix">
+        <ul class="menu nav">
+          <li class="first leaf"><a href="http://www.verizon.com/about/our-company">Our Company</a></li>
+          <li class="leaf"><a href="http://www.verizon.com/about/responsibility">Responsibility</a></li>
+          <li class="leaf"><a href="http://www.verizon.com/about/news">News</a></li>
+          <li class="leaf"><a href="http://www.verizon.com/about/media-center">Media Center</a></li>
+          <li class="leaf"><a href="http://www.verizon.com/about/investors">Investors</a></li>
+          <li class="last leaf"><a href="http://www.verizon.com/about/careers-old">Careers</a></li>
+        </ul>
+      </section>
+      <section id="block-menu-menu-stores" class="block block-menu clearfix">
+        <!--<h2 class="block-title">Stores</h2>-->
+        <ul class="menu nav">
+          <li class="first leaf"><a href="http://www.verizonwireless.com/">Wireless</a></li>
+          <li class="leaf"><a href="http://www.verizon.com/?lid=//global//residential">Residential</a></li>
+          <li class="last leaf"><a href="http://www.verizon.com/home/verizonglobalhome/ghp_business.aspx">Business</a></li>
+        </ul>
+      </section>
+      <section id="block-block-8" class="block block-block clearfix">
+        <p>Verizon is a global leader delivering innovative communications and technology solutions that improve the way our customers live, work and play.</p>
+      </section>
+    </div>
+    <div class="footer-aux1__date">&copy;2017 Verizon</div>
+    <div class="footer-aux1__icons"> <!--<a class="truste" href="http://clicktoverify.truste.com/pvr.php?page=validate&amp;url=www.verizon.com&amp;sealid=101" title="TRUSTe Certified Privacy" target="_blank" rel="nofollow">TRUSTe Certified Privacy</a>--><a class="business" href="http://www.bbb.org/new-york-city/business-reviews/telephone-communications/verizon-communications-in-new-york-ny-411/" title="BBB Accredited Business" target="_blank" rel="nofollow">BBB Accredited Business</a> </div>
+  </div>
+  <div class="footer-aux2">
+    <div class="container">
+      <div class="region region-footer-aux2">
+        <section id="block-menu-menu-footer-aux-2" class="block block-menu clearfix">
+          <ul class="menu nav">
+            <li class="first leaf"><a href="http://www.verizon.com/about/privacy/privacy-policy-summary">Privacy Policy</a></li>
+            <li class="leaf"><a href="http://www.verizon.com/about/terms-conditions/overview">Terms &amp; Conditions</a></li>
+            <li class="leaf"><a href="http://www.verizon.com/about/responsibility/product/accessibility">Accessibility</a></li>
+            <li class="leaf"><a href="http://www.verizon.com/about/consumer-safety/overview">Important Wireless Issues</a></li>
+            <li class="last leaf"><a href="https://www.verizon.com/support/residential/contact-us/homepage.htm">Contact Us</a></li>
+            <li class="leaf"><a href="http://www.verizon.com/about/site-map">Sitemap</a></li>
+
+          </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- end Footer redesign -->
+
+<script type="text/javascript">
+  // bottom_script_1 (vz_init_window_bottom_script) script moved into theme.js for performance..
+  // initialization still happens inline here
+  vz_init_window_bottom_script();
+  // bottom_script_2 moved in document.ready block moved to theme.js as well
+</script>
+
+<!-- Quantcast Tag -->
+<script type="text/javascript">
+  var pathArray = window.location.pathname.toLowerCase();
+  pathArray = pathArray.split('/');
+
+  //// #### reorganized this to fix the error
+  var _rt_cgi = 2041;
+  var _rt_base_url = "https://lt.retargeter.com/";
+  var _rt_js_base_url = "https://s3.amazonaws.com/V3-Assets/prod/client_super_tag/";
+  var _rt_init_src = _rt_js_base_url+"init_super_tag.js";
+  var _rt_refresh_st = false;
+
+  $(document).ready(function() {
+    setTimeout(function() {
+      //// #### _rt_cgi was set here.. bad
+      jQuery.getScript('https://s3.amazonaws.com/V3-Assets/prod/client_super_tag/json3.js')
+        .done(function(script, textStatus){
+          if( typeof _rt_cgi == "undefined" ){
+            _rt_cgi = 2041;
+            _rt_base_url = "https://lt.retargeter.com/";
+            _rt_js_base_url = "https://s3.amazonaws.com/V3-Assets/prod/client_super_tag/";
+            _rt_init_src = _rt_js_base_url+"init_super_tag.js";
+            _rt_refresh_st = false;
+            var _rt_record = function(params){if(typeof document.getElementsByTagName("_rt_data")[0]=="undefined"){setTimeout(function(){_rt_record(params);},25);}};
+            (function() {var scr = document.createElement("script");scr.src = _rt_init_src;document.getElementsByTagName("head")[0].appendChild(scr);})();}
+        })
+        .fail(function(jqxhr, settings, exception){
+        });
+
+      qcdata = {} || qcdata; (function(){
+        var elem = document.createElement('script');
+        qcdata = {qacct: 'p-gBa6jXyn4LuQA', orderid: '', revenue: '' };
+        elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://pixel") + ".quantserve.com/aquant.js?a=p-gBa6jXyn4LuQA";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0]; scpt.parentNode.insertBefore(elem,scpt); }());
+      qcdata = {qacct: 'p-gBa6jXyn4LuQA', orderid: '', revenue: '' };
+    }, 5000);
+  });
+</script>
+<noscript>
+  <img src="//pixel.quantserve.com/pixel/p-gBa6jXyn4LuQA.gif?labels=_fp.event.Default" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End of ReTargeter Tag -->
+
+<!-- END FOOTER  -->
+<!-- ############# -->
+
+<div id="double-click" />
+<div class="required_footer">
+  <script type="text/javascript" charset="utf-8">//<![CDATA[
+
+    var referral_source_id;
+    referral_source_id = 326;
+
+    var params_value = [];
+    params_value["location_city"] = "";
+  //]]></script>
+
+
+    <script src="https://static.getclicky.com/100769930.js" type="text/javascript"></script>
+    <noscript><img height="1" width="1" src="https://static.getclicky.com/100769930-db62.gif" alt="stats" /></noscript>
+<script type="text/javascript">
+  var clicky_custom = clicky_custom || {};
+  clicky_custom.sticky_data_disable = 1;
+</script>
+
+  <script type='text/javascript' src='https://apply.talemetry.com/assets/direct_apply.js?verison=2.1'></script>
+</div>
+
+
+
+<script type="text/javascript">_satellite.pageBottom();</script>
+
+<!-- Code for Action: 12.16.15_Verizon TMP Tracking Pixel -->
+<!-- Begin Rocket Fuel Conversion Action Tracking Code Version 9 -->
+<script type='text/javascript'>
+  //if ((pathArray.indexOf('careers') != -1) || (pathArray.indexOf('subscribe') != -1)) {
+  (function() {
+    var w = window, d = document;
+    var s = d.createElement('script');
+    s.setAttribute('async', 'true');
+    s.setAttribute('type', 'text/javascript');
+    s.setAttribute('src', '//c1.rfihub.net/js/tc.min.js');
+    var f = d.getElementsByTagName('script')[0];
+    f.parentNode.insertBefore(s, f);
+    if (typeof w['_rfi'] !== 'function') {
+      w['_rfi']=function() {
+        w['_rfi'].commands = w['_rfi'].commands || [];
+        w['_rfi'].commands.push(arguments);
+      };
+    }
+    _rfi('setArgs', 'ver', '9');
+    _rfi('setArgs', 'rb', '25360');
+    _rfi('setArgs', 'ca', '20728182');
+    _rfi('setArgs', '_o', '25360');
+    _rfi('setArgs', '_t', '20728182');
+    _rfi('track');
+  })();
+  //}
+</script>
+<noscript>
+  <iframe src='//20728182p.rfihub.com/ca.html?rb=25360&ca=20728182&_o=25360&_t=20728182&ra=%n' style='display:none;padding:0;margin:0' width='0' height='0'></iframe>
+</noscript>
+<script src="/system/production/assets/67989/original/jquery.infinitescroll.min.js"></script>
+<script>
+  $(document).ready(function(){
+  // Home page: add '/jobs/search' to pagination links
+  if ('jobs-7662602-data-reporting-analyst' == 'career_site_home_page') {
+  var pagination_href;
+  $('.pagination a').each(function(){
+  pagination_href = '/jobs/search'+$(this).attr('href');
+  $(this).attr('href',pagination_href);
+});
+}
+});
+</script>
+</body>
+</html>

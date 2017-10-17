@@ -1,0 +1,365 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><script src="/careers/static/111213/js/perf/stub.js" type="text/javascript"></script><script src="/careers/static/111213/js/functions.js" type="text/javascript"></script><script src="/careers/jslibrary/1504299188000/sfdc/main.js" type="text/javascript"></script><script src="/careers/jslibrary/jslabels/1507471092000/en_US.js" type="text/javascript"></script><script src="/careers/static/111213/desktop/desktopAjax.js" type="text/javascript"></script><script src="/careers/static/111213/js/picklist4.js" type="text/javascript"></script><script src="/careers/jslibrary/1500591790000/sfdc/VFState.js" type="text/javascript"></script></head><span id="page1:j_id2">
+        <style>
+            /**********************Job Listing Page Start **********************************************/
+body {
+    font: 14px/25px “Roboto”, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #DEF1F2;
+    color: #444444;
+}
+
+.headerSection {
+    display: block;
+    margin: 0 auto;
+    height: 80px;
+    border-bottom: 1px solid #AEAFB1;
+    background: #fff;
+}
+
+.headerSection:before {
+    display: block;
+    width: 1170px;
+    margin: 0 auto;
+    background: url("//magento.com/sites/all/themes/mag_redesign/images/magento-logo.svg") 0 15px no-repeat #fff;
+    background-size: 160px 46px;
+    height: 80px;
+    content: '';
+}
+
+.headerSection .headerImage {
+    display: none;
+}
+
+.apexp {
+    display: block;
+    width: 1400px;
+    border-left: 1px solid #AEAFB1;
+    border-right: 1px solid #AEAFB1;
+    margin: 0 auto;
+}
+
+.pbBody {
+    padding: 20px 0;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.detailList {
+    width: 100%;
+}
+
+.detailList td,
+.detailList th {
+    padding: 10px;
+    border-bottom: 1px solid #e1e0e2;
+    vertical-align: top;
+}
+
+.detailList td td,
+.detailList th td,
+.detailList td th,
+.detailList th th {
+    padding: 0;
+    border-bottom: none;
+}
+
+.detailList .labelCol {
+    width: 20%;
+    font-weight: bold;
+    text-align: right;
+}
+
+.pbBottomButtons {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 10px 0 30px;
+    text-align: center;
+}
+.pbBottomButtons table {
+    width: 100%;
+}
+
+.pbBottomButtons .pbTitle {
+    display: none;
+}
+
+.list {
+    width: 98%;
+    padding-left: 10px;
+}
+
+body .pbBody table.list tr.headerRow td, body .pbBody table.list tr.headerRow th {
+    border-width: 0 0 1px 0px;
+    color: #e85821;
+    font-size: 22px;
+    font-weight: Normal;
+    padding: 5px 2px 4px 5px;
+    vertical-align: top;
+
+}
+
+/*****Border Lines Between Listings*****/
+body .pbBody table.list tr th, body .pbBody table.list tr td {
+    border: 1px solid #D4DADC;
+    color: #b8b6b8;
+}
+
+body .pbBody table.list tr.dataRow th, body .pbBody table.list tr.dataRow td {
+    border-width: 0 0 1px;
+    padding: 2px;
+    vertical-align: top;
+}
+
+th {
+    text-align: left;
+}
+
+/*****Description of Positions*****/
+body .pbBody table.list tr th, body .pbBody table.list tr td {
+    color: #666666;
+    font-size: 14px;
+    font-weight: Normal;
+}
+
+/*****Title Read More add Hover*****/
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #000000;
+}
+
+.jobPostingSummaryDiv {
+
+}
+
+.jobPostingSummaryInnerDiv {
+    margin-top: 10px;
+}
+
+/*****Job Title Font Size*****/
+.jobPostingTitleDiv {
+    font-size: 18px;
+}
+
+/*****Job Title Color*****/
+.jobPostingTitleDiv a {
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+/*****Read More Font Size*****/
+.moreLinkSpan {
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.moreLinkSpan a {
+    text-decoration: none !important;
+}
+
+.jobPostingTableRowA {
+}
+
+.jobPostingTableRowB {
+}
+
+.jobPostingTableColumnA {
+    padding-top: 10px !important;
+}
+
+.jobPostingTableColumnB {
+    padding-top: 10px !important;
+}
+
+.searchTableTitleColumn {
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.searchTableTitle {
+
+}
+
+.searchTable {
+    width: 100%;
+}
+
+.searchTableLabelColumn {
+    width: 100px;;
+    text-align: right;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.searchTableInputColumn {
+    text-align: left;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+/**********************Job Listing Page END **********************************************/
+
+/*****Search Apply Now Etc Buttons*****/
+.btn {
+    border-color: transparent;
+    border-radius: 0;
+    background-color: #f46f25;
+    color: #FFF;
+    padding: 15px 30px;
+    box-shadow: none;
+    text-shadow: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.btn:hover {
+    color: #333;
+    background-color: #e6e6e6;
+}
+
+.sfdc_richtext {
+    font-size: 3%;
+}
+
+.MsoNormal {
+    background-color: white !important;
+}
+
+/****************Job Detail Page END*************************/
+/************** Candidate Application start *****************/
+.Custom108Tab .secondaryPalette, .individualPalette .Custom108Block .secondaryPalette {
+    border-color: white;
+}
+
+/*****Page Background*****/
+body .bPageBlock, body #bodyCell .bResource .secondaryPalette, body .secondaryPalette.bPageBlock, body .overlayDialog .secondaryPalette.bPageBlock, body .individualPalette .secondaryPalette.bPageBlock, body .bodyDiv .genericTable, body .genericPageBlockTable, body .bodyDiv .bSubBlock, body .bComponentBlock .bPageBlock, body .bMyDashboard .bPageBlock, body.rlHoverFrame .bPageBlock, body.subjectSelectionPopup div.choicesBox, body.lookupTab .secondaryPalette.bPageBlock, body.popupTab .secondaryPalette.bPageBlock, body.UserTagStatsPage .secondaryPalette.bPageBlock {
+    background-color: white;
+    border-bottom: medium none;
+    border-left: medium none;
+    border-radius: 0 0 0 0;
+    border-right: medium none;
+}
+
+/*****Sub Header Font Personal info Education History*****/
+.apexp .bPageBlock.apexDefaultPageBlock .pbBody .pbSubheader {
+    border-top: 1px solid;
+    color: #000000;
+    border-color: gray;
+    padding-top: 2px;
+}
+
+.Custom108Tab .tertiaryPalette, .individualPalette .Custom108Block .tertiaryPalette, .layoutEdit .individualPalette .Custom108Block .tertiaryPalette {
+    background-color: white;
+    border-color: #4A4A56;
+}
+
+/*****Red Required Field Line*****/
+.bPageBlock .requiredInput .requiredBlock {
+    background-color: #FFFFFF;
+    bottom: 1px;
+    left: -4px;
+    position: absolute;
+    top: 1px;
+    width: 3px;
+}
+
+/*****Required Fields*****/
+.bPageBlock .requiredInput {
+    height: 100%;
+    position: relative;
+}
+
+.message {
+    border-radius: 4px 4px 4px 4px;
+}
+
+.errorM6, .errorM4, .errorM3, .errorM2, .errorS1 {
+    border-color: #CC0000;
+}
+
+.message {
+    background-color: #FFFFCC;
+    border-style: solid;
+    border-width: 1px;
+    color: #000000;
+    margin: 4px 20px;
+    padding: 6px 8px 6px 6px;
+}
+
+.bPageBlock .detailList .errorMsg {
+    padding-left: 3px;
+    color: #D74C3B;
+    font-weight: bold;
+}
+
+.errorM3 .msgIcon, .errorMedium {
+    background-image: url("/img/msg_icons/error24.png");
+    background-position: 0 0;
+    height: 24px;
+    width: 24px;
+}
+
+.message .messageTable .messageCell {
+    vertical-align: middle;
+}
+
+.message .messageText h4 {
+    display: block;
+    font-weight: bold;
+}
+
+body .x-btn button, body .btn, body .btnImportant, body .btnDisabled, body .btnCancel, body .menuButton .menuButtonButton, body .menuButton .menuButtonMenu a, body .menuButton .menuButtonMenu input.theOption, h1, h2, h3, h4, h5, h6 {
+    font-family: “Roboto”, Arial, serif;
+}
+
+/*****Header Sub Header Font Size*****/
+
+.footerSection {
+    display: none;
+}
+        </style></span> 
+	
+	<style>
+		
+		.sfdc_richtext{ 
+			font-size: 99%;
+		}
+	</style>
+<form id="page1:form1" name="page1:form1" method="post" action="/careers/VanaHCM__Job_Detail" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="page1:form1" value="page1:form1" />
+
+		<div class="headerSection">
+        	<img class="headerImage" src="/s.gif" />
+        </div><script> if(!window.sfdcPage) { window.sfdcPage = new ApexDetailPage(); }UserContext.initialize({"ampm":["AM","PM"],"isAccessibleMode":false,"uiSkin":"Theme3","salesforceURL":"https://magento.secure.force.com?refURL=http%3A%2F%2Fmagento.secure.force.com%2Fcareers%2FVanaHCM__Job_Detail","dateFormat":"M/d/yyyy","language":"en_US","locale":"en_US","userName":"career_portal@join-1512606c3bd.force.com","userId":"00515000006xXfJ","isCurrentlySysAdminSU":false,"renderMode":"RETRO","startOfWeek":"1","vfDomainPattern":"using--(?:[^.]+).na69.visual.force.com","auraDomain":"using.lightning.force.com","dateTimeFormat":"M/d/yyyy h:mm a","orgPreferences":[{"index":257,"name":"TabOrganizer","value":true},{"index":113,"name":"GroupTasks","value":true}],"siteUrlPrefix":"/careers","isDefaultNetwork":true,"labelLastModified":"1507471092000","today":"10/9/2017 6:08 PM","timeFormat":"h:mm a","userPreferences":[{"index":112,"name":"HideInlineEditSplash","value":false},{"index":114,"name":"OverrideTaskSendNotification","value":false},{"index":115,"name":"DefaultTaskSendNotification","value":false},{"index":119,"name":"HideUserLayoutStdFieldInfo","value":false},{"index":116,"name":"HideRPPWarning","value":false},{"index":87,"name":"HideInlineSchedulingSplash","value":false},{"index":88,"name":"HideCRUCNotification","value":false},{"index":89,"name":"HideNewPLESplash","value":false},{"index":90,"name":"HideNewPLEWarnIE6","value":false},{"index":122,"name":"HideOverrideSharingMessage","value":false},{"index":91,"name":"HideProfileILEWarn","value":false},{"index":93,"name":"HideProfileElvVideo","value":false},{"index":97,"name":"ShowPicklistEditSplash","value":false},{"index":92,"name":"HideDataCategorySplash","value":false},{"index":128,"name":"ShowDealView","value":false},{"index":129,"name":"HideDealViewGuidedTour","value":false},{"index":132,"name":"HideKnowledgeFirstTimeSetupMsg","value":false},{"index":104,"name":"DefaultOffEntityPermsMsg","value":false},{"index":135,"name":"HideNewCsnSplash","value":false},{"index":101,"name":"HideBrowserWarning","value":false},{"index":139,"name":"HideDashboardBuilderGuidedTour","value":false},{"index":140,"name":"HideSchedulingGuidedTour","value":false},{"index":180,"name":"HideReportBuilderGuidedTour","value":false},{"index":183,"name":"HideAssociationQueueCallout","value":false},{"index":194,"name":"HideQTEBanner","value":false},{"index":193,"name":"HideChatterOnboardingSplash","value":false},{"index":195,"name":"HideSecondChatterOnboardingSplash","value":false},{"index":270,"name":"HideIDEGuidedTour","value":false},{"index":282,"name":"HideQueryToolGuidedTour","value":false},{"index":196,"name":"HideCSIGuidedTour","value":false},{"index":271,"name":"HideFewmetGuidedTour","value":false},{"index":272,"name":"HideEditorGuidedTour","value":false},{"index":205,"name":"HideApexTestGuidedTour","value":false},{"index":206,"name":"HideSetupProfileHeaderTour","value":false},{"index":207,"name":"HideSetupProfileObjectsAndTabsTour","value":false},{"index":213,"name":"DefaultOffArticleTypeEntityPermMsg","value":false},{"index":214,"name":"HideSelfInfluenceGetStarted","value":false},{"index":215,"name":"HideOtherInfluenceGetStarted","value":false},{"index":216,"name":"HideFeedToggleGuidedTour","value":false},{"index":268,"name":"ShowChatterTab178GuidedTour","value":false},{"index":275,"name":"HidePeopleTabDeprecationMsg","value":false},{"index":276,"name":"HideGroupTabDeprecationMsg","value":false},{"index":224,"name":"HideUnifiedSearchGuidedTour","value":false},{"index":226,"name":"ShowDevContextMenu","value":false},{"index":227,"name":"HideWhatRecommenderForActivityQueues","value":false},{"index":228,"name":"HideLiveAgentFirstTimeSetupMsg","value":false},{"index":232,"name":"HideGroupAllowsGuestsMsgOnMemberWidget","value":false},{"index":233,"name":"HideGroupAllowsGuestsMsg","value":false},{"index":234,"name":"HideWhatAreGuestsMsg","value":false},{"index":235,"name":"HideNowAllowGuestsMsg","value":false},{"index":236,"name":"HideSocialAccountsAndContactsGuidedTour","value":false},{"index":237,"name":"HideAnalyticsHomeGuidedTour","value":false},{"index":238,"name":"ShowQuickCreateGuidedTour","value":false},{"index":245,"name":"HideFilePageGuidedTour","value":false},{"index":250,"name":"HideForecastingGuidedTour","value":false},{"index":251,"name":"HideBucketFieldGuide","value":false},{"index":263,"name":"HideSmartSearchCallOut","value":false},{"index":265,"name":"HideSocialProfilesKloutSplashScreen","value":false},{"index":273,"name":"ShowForecastingQuotaAttainment","value":false},{"index":280,"name":"HideForecastingQuotaColumn","value":false},{"index":301,"name":"HideManyWhoGuidedTour","value":false},{"index":298,"name":"HideFileSyncBannerMsg","value":false},{"index":299,"name":"HideTestConsoleGuidedTour","value":false},{"index":302,"name":"HideManyWhoInlineEditTip","value":false},{"index":303,"name":"HideSetupV2WelcomeMessage","value":false},{"index":312,"name":"ForecastingShowQuantity","value":false},{"index":313,"name":"HideDataImporterIntroMsg","value":false},{"index":314,"name":"HideEnvironmentHubLightbox","value":false},{"index":316,"name":"HideSetupV2GuidedTour","value":false},{"index":317,"name":"HideFileSyncMobileDownloadDialog","value":false},{"index":322,"name":"HideEnhancedProfileHelpBubble","value":false},{"index":328,"name":"ForecastingHideZeroRows","value":false},{"index":330,"name":"HideEmbeddedComponentsFeatureCallout","value":false},{"index":341,"name":"HideDedupeMatchResultCallout","value":false},{"index":340,"name":"HideS1BrowserUI","value":false},{"index":346,"name":"HideS1Banner","value":false},{"index":358,"name":"HideEmailVerificationAlert","value":false},{"index":354,"name":"HideLearningPathModal","value":false},{"index":359,"name":"HideAtMentionsHelpBubble","value":false},{"index":368,"name":"LightningExperiencePreferred","value":false}],"networkId":""});
+</script><div class="apexp"><div class="individualPalette"><div class="Custom108Block"><div id="page1:form1:block1" class="bPageBlock brandSecondaryBrd apexDefaultPageBlock secondaryPalette"><div class="pbBody">
+		<script>
+   function redirectPage(url){
+    window.parent.location.href = url;
+   }
+  </script><span id="page1:form1:block1:j_id9"><a id="page1:form1:block1:theLink" name="page1:form1:block1:theLink" href="https://twitter.com/intent/tweet?original_referer=http%3A//magento.force.com/careers/&source=tweetbutton&text=We%20are%20looking%20for%20a%20Operations%20Support%20Analyst&url=http%3A%2F%2Fmagento.force.com%2Fcareers%2FVanaHCM__Job_Detail%3FId%3DaA01C00000002wy%26rid%3D00515000006xXfJAAU%26src%3DTwitter" title="Share this job on Twitter" target="_blank"><img id="page1:form1:block1:theImage" src="/careers/resource/1462462921000/vanahcm__twitter_small" /></a>
+			&nbsp;&nbsp;<a id="page1:form1:block1:theLink2" name="page1:form1:block1:theLink2" href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fmagento.force.com%2Fcareers%2FVanaHCM__Job_Detail%3FId%3DaA01C00000002wy%26rid%3D00515000006xXfJAAU%26src%3DLinkedIn&title=We%20are%20looking%20for%20a%20Operations%20Support%20Analyst&summary=If%20you%20or%20someone%20you%20know%20fits%20this%20position%2C%20submit%20a%20resume!&source=http%3A//magento.force.com/careers/%3FId=aA01C00000002wySAA" title="Share this job on LinkedIn" target="_blank"><img id="page1:form1:block1:theImage2" src="/careers/resource/1462462921000/vanahcm__linkedin_small" /></a>
+			&nbsp;&nbsp;<a href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fmagento.force.com%2Fcareers%2FVanaHCM__Job_Detail%3FId%3DaA01C00000002wy%26rid%3D00515000006xXfJAAU%26src%3DFacebook" title="Share this job on Facebook" target="_blank"><img id="page1:form1:block1:theImage3" src="/careers/resource/1462462921000/vanahcm__facebook_small" /></a>
+			&nbsp;&nbsp;<a href="mailto:?subject=We%20are%20looking%20for%20a%20Operations%20Support%20Analyst&body=We%20are%20looking%20for%20a%20Operations%20Support%20Analyst.%20Apply%20now%20at%20http%3A%2F%2Fmagento.force.com%2Fcareers%2FVanaHCM__Job_Detail%3FId%3DaA01C00000002wy%26rid%3D00515000006xXfJAAU%26src%3DReferral" title="Share this job" target="_blank"><img id="page1:form1:block1:theImage4" src="/careers/resource/1462462920000/vanahcm__Emailicon" /></a></span><div id="page1:form1:block1:j_id17"><div class="pbSubsection"><table class="detailList" border="0" cellpadding="0" cellspacing="0"><tr><th class="labelCol vfLabelColTextWrap  first " scope="row">Title</th><td class="data2Col  first "><span id="page1:form1:block1:j_id17:j_id18:0:j_id19">Operations Support Analyst</span></td></tr><tr><th class="labelCol vfLabelColTextWrap " scope="row">Location</th><td class="data2Col "><span id="page1:form1:block1:j_id17:j_id18:1:j_id19">Campbell</span></td></tr><tr><th class="labelCol vfLabelColTextWrap " scope="row">Department Name</th><td class="data2Col "><span id="page1:form1:block1:j_id17:j_id18:2:j_id19"></span></td></tr><tr><th class="labelCol vfLabelColTextWrap  last " scope="row">Description</th><td class="data2Col  last "><span id="page1:form1:block1:j_id17:j_id18:3:j_id20"><table  class="htmlDetailElementTable" border="0" cellpadding="0" cellspacing="0"><tr><td><div class="sfdc_richtext" id="page1:form1:block1:j_id17:j_id18:3:j_id20page1:form1:block1:j_id17:j_id18:3:j_id20_00N1500000H4z0S_div">Operations Support Analyst<br><br>THE COMPANY<br><br>Trusted by more than 240,000 businesses worldwide, Magento Commerce is the leading provider of open omnichannel innovation to retailers, brands and branded manufacturers across retail B2C and B2B industries. In addition to its flagship open source eCommerce platform, Magento Commerce boasts a strong portfolio of cloud-based omnichannel solutions empowering merchants to successfully integrate digital and physical shopping experiences. With over $50B in gross merchandise volume transacted on the platform, Magento Commerce is the dominant provider to the Internet Retailer Top 1000, counting more than double the clients to the next closest competitor, and to the Internet Retailer Hot 100. Magento Commerce is supported by a vast global network of solution and technology partners, a highly active global developer community and the largest eCommerce marketplace for extensions available for download on the Magento Marketplace.<br> <br>RESPONSIBILITIES<br>Magento is looking for a customer focused and service-minded individual to join our global Customer Support team.  <span><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">The Support Business Analyst is someone who is flexible, assertive with an eye for detail. You are a “data forensics detective” with an ability to catch trends and seasonality. This role will be creating, updating and maintaining reports and analytics to help determine where our teams are succeeding (or where they need to improve) and identify all gaps and bottlenecks by looking at ticket and escalation trend data within the different support and engineering teams. The ultimate goal is to ensures our customer support department (as well as all supporting groups) are providing the best customer service (timeliness and quality).</span></span></span><br><br><b><span><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Job Duties</span></span></span></b>
+<ul><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Create, maintain and improve reports and dashboards in Salesforce and Zendesk for multiple teams within Customer Support.</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Support and maintain executed metrics to track trends and performance in Salesforce/Zendesk and Power BI for our Global Support Operations.</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Utilize programming and analytical tools including SQL and Power BI to manage data and design data models.</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Analyze data and identify deficiencies in reporting requests with the ability to improve.</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Present end-to-end workflow demonstrations for internal clients on created reports and analytics.</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Collaborate with team on process improvement projects.</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Documentation of all reports (methodology, assumption, data sources, metrics and logic)</span></span></li></ul>
+ <br><b><span><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Qualifications</span></span></span></b>
+
+<ul><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">BA/BS degree</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Solid working knowledge of ticketing and CRM systems such as Salesforce and Zendesk </span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Knowledge of Power BI or other advanced BI platforms</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Data modeling experience</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Intermediate to advanced working knowledge of Excel and PowerPoint</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">SQL</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Experience in working with a growing enterprise/cloud software company with thousands of customers</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Attention to detail</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Problem solving</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Able to reprioritize tasks and work with competing BI demands</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Team player</span></span></li><li><span style="font-family: helvetica,sans-serif;"><span style="font-size: 11.5pt;">Self-motivated</span></span></li></ul>
+ <br>WORKING FOR MAGENTO<br> <br>Working at Magento means becoming part of one of the fastest growing commerce solutions companies on the planet. More than 240,000 merchants rely on us to fuel their growth. <br> A career at Magento puts you on the cutting-edge of the commerce industry and offers many opportunities for advancement. And, as a part of our family of products and services, you’ll also gain valuable exposure to a wealth of commerce knowledge, experience, a global customer and employee base, and world-class resources.<br>We’re always looking for talented people who want to help shape the future of commerce, and who believe in the power of collaboration.</div></td></tr>
+</table><script>page1__form1__block1__j_id17__j_id18__3__j_id20 = window.onload; window.onload=function() { if (page1__form1__block1__j_id17__j_id18__3__j_id20!= null) page1__form1__block1__j_id17__j_id18__3__j_id20();};</script></span></td></tr></table></div></div></div><div class="pbBottomButtons"><table border="0" cellpadding="0" cellspacing="0"><tr><td class="pbTitle">&nbsp;</td><td id="page1:form1:block1:j_id15:bottom" class="pbButtonb "><input type="submit" name="page1:form1:block1:j_id15:j_id16" value="Apply Now" class="btn" /></td></tr></table></div><div class="pbFooter secondaryPalette"><div class="bg"></div></div></div></div></div></div>
+	<div class="footerSection">
+    	<img class="footerImage" src="/s.gif" /> 
+    </div><div id="page1:form1:j_id24"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="201710081340460514" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNklreFhjblY2TkRrMk9VSm9ibGhUV1UxTWFtMTNaR00zVWpoZk4yTkZSa013ZWxJd2FYaE9SV2s0U1RCY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkRFMU1EQXdNREF3UldSdGRGd2lMRndpZGx3aU9sd2lNREF3TURBd01EQXdNREF3TURBd1hDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05URTFNREF3TURBMmVGaG1TbHdpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVFV3TnpVM01qUTVNelkwTXl3aVpYaHdJam93ZlE9PS4ubExsUDZGTG1Qb2Fjc0J2ek0ydF81YmhmY2JUdHRtR1B5VHhvYWk5cEhTTT0=" /></span></span><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["page1:form1"]);
+
+});</script></html>

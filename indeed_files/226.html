@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta property="og:url" content="https://www.gatherdocs.com/listing/3708" />
+<meta property="og:title" content="Data Analyst @ Big Brothers Big Sisters IR" />
+<meta property="og:description" content="Apply to be the next Data Analyst @ Big Brothers Big Sisters IR" />
+<link type="text/css" rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<link type="text/css" rel="stylesheet" href="https://www.gatherdocs.com/css/public.css?ver=6-8-2015">
+<link type="text/css" rel="stylesheet" href="https://www.gatherdocs.com/css/select2.css">
+<!--[if lt IE 9]>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="https://www.gatherdocs.com/scripts/jquery-1.11.3.min.js"><\/script>')</script>
+<![endif]-->
+<!--[if gte IE 9]><!-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="https://www.gatherdocs.com/scripts/jquery-2.1.4.min.js"><\/script>')</script>
+<!--<![endif]-->
+<script type="text/javascript" src="https://www.gatherdocs.com/scripts/js/public_page_analytics.js"></script>
+<style>
+    body {
+        margin:0;
+        min-width: 0px;
+    }
+            #container.signup {
+            background: #000000        }
+                .company_inside h3 {
+            background: #000000;
+        }
+        .blue-btn-flat  {
+            background: #000000;
+        }
+    </style>
+<title>Big Brothers Big Sisters IR Careers</title>
+</head>
+<noscript>
+        
+    <!--<meta HTTP-EQUIV="REFRESH" content="0; url=no_javascript">-->
+    <div style="margin: 50px auto; text-align:center">
+        <img src="/img/logo.png?js=none" alt="Javascript not enabled" />
+        <p>You need to enable JavaScript to fill out an application</p>
+
+        <p>Please enable Javascript in your browser and try again.</p>
+
+        <p>For more information, please visit <a target = "_blank" href="http://www.activatejavascript.org">Activate Javascript</a> and then refresh this page</p>
+    </div>
+    <style>
+        #container {
+            display: none !important;
+        }
+    </style>
+</noscript>
+<body>
+
+
+<div id="container" class="signup">
+<div id="public_content">
+<div class="company_inside">
+<a class="public_listing_back" href="https://bbbsir.gatherdocs.com"><span class="left_arrow"></span>all jobs </a>
+<div class="logo_wrapper_center">
+<img class="logo_img " src="https://www.gatherdocs.com/uploads/85/2016-02-03/b5d5b7d077f4afeb2d30e4cf7340c4b8.png"></img>
+</div>
+</div>
+<div class="company_inside margin40left public_bottom">
+<h3>Data Analyst @ Big Brothers Big Sisters IR</h3>
+<h4> Description </h4>
+<div class="public_interior"><p><strong>Big Brothers Big Sisters Independence Region </strong></p>
+<p><strong>Position: Data Analyst </strong></p>
+<p><strong>Location: Philadelphia, PA</strong></p>
+<p> </p>
+<p><strong>AGENCY OVERVIEW </strong></p>
+<p>JOIN A FORWARD-THINKING ORGANIZATION THAT HAS BEEN PROVEN TO MAKE A POSITIVE IMPACT ON CHILDREN’S LIVES. Big Brothers Big Sisters Independence Region (BBBS IR) is proud to have achieved a 4-star rating by Charity Navigator, their highest level of distinction. BBBS IR is the second largest BBBS Agency in the nation. Our mission is to provide children facing adversity with strong and enduring, professionally supported one-to-one mentoring relationships that change their lives for the better, forever. Our vision is that all children achieve success in life.</p>
+<p><strong> </strong></p>
+<p><strong>JOB SUMMARY</strong></p>
+<p>BBBS IR seeks a full-time Data Analyst to provide evaluative support to the entire Agency via skilled data analysis via skilled data analysis. This position will provide a unique opportunity to learn about financial and grant reporting in the non-profit industry. This position is responsible for data analysis &amp; research, benchmarking, some grant reporting, budgeting and reconciliation reports, reports on Agency performance results, and Agency metric tracking. This support position also collaborates and interacts with internal staff and some outside funders. This position will be fully responsible for compiling all key Program impact reports and various Agency dashboard reports. The Data Analyst reports directly to the Controller on a finance team of four staff members. The position is based in a routine office environment.</p>
+<p> </p>
+<p><strong>JOB RESPONSIBILITIES </strong></p>
+<p><strong> </strong></p>
+<p><strong>Grants: </strong>Working closely with the Development and Government Relations teams, provide invoicing, budgeting, program reporting, and expense utilization tracking support for grants from government, foundations, and corporations. Working in tandem with the Accounting Manager &amp; Controller, reconcile all grant financial data; prepare and distribute grant variance reports; aid in annual grant audit preparation; and create, maintain, and distribute statistical and evaluative tools for Agency stakeholders as appropriate.</p>
+<p><strong>Timesheet Compliance: </strong>Ensure staff compliance with timesheet standards, follow up with individual staff and supervisors for missing information, train new staff on using the Agency’s HRIS system, and help troubleshoot; monitor and compile monthly grant time allocated in timesheets.</p>
+<p><strong>Program Reporting: </strong>Create scheduled internal outcomes report related to program for the program staff including the Leadership Team; provide required reports for funding sources; aid in creating measurements of success to help define the Agency’s community impact and strength of service; and compile program survey information and supervise temporary/seasonal survey collector.</p>
+<p><strong>Other Special Projects: </strong>Carry out additional analysis projects as assigned by Supervisor.</p> </div>
+<h4> Qualifications </h4>
+<div class="public_interior"> <p><strong>JOB QUALIFICATIONS </strong></p>
+<p><strong>Academic/Professional Requirements</strong>: Minimum – must have a bachelor’s degree one to two years in the field of financial and/or data analysis is required. Expert level ability in Microsoft Excel, and intermediate level in Access is strongly preferred. Familiarity with VBA, data visualization software (Tableau, Power BI), and GIS Analysis. Paylocity HRIS/Webtime, CRM and non-profit accounting software is a plus.</p>
+<p><strong>Personal Attributes:</strong> Extremely well organized with strong communications skills; excellent math skills, able to prioritize and effectively respond to staff and agency needs; able to manage and perform in pressure situations; a self-starter, able to effectively problem solve; able to provide excellent service to our internal customers as well as our external partners.</p>
+<p><strong> </strong></p>
+<p><strong>BENEFITS</strong></p>
+<p>BBBS IR provides a Total Rewards Package to full-time employees: vacation time, personal days, sick time, paid holidays, medical/dental/prescription/vision insurance and an Employee Assistance Program, 403b retirement plan, agency-paid life and AD&amp;D insurance, Flexible Spending Account options, paid lunch break, and other Agency provided perks and benefits.  Please note that certain conditions and eligibility requirements apply.</p>
+<p>BBBS also has "Summer Fridays"- 1pm dismissal on Fridays during Summer 2017.</p>
+<p><strong>APPLICATION INSTRUCTIONS </strong></p>
+<p>Please submit cover letters, resumes, and salary expectations online at: <a href="listing/3708">https://www.gatherdocs.com/listing/3708</a></p>
+<p>Note: only those applicants believed to be viable candidates for this opportunity will be contacted. No phone calls please.<em>BBBS IR promotes a culture of inclusion and seeks talented staff from diverse backgrounds. BBBS IR does not discriminate on the basis of race, color, sex, sexual orientation, gender identity, religion, national or ethnic origin, age, disability, veteran status or any other legally protected factor.</em></p> </div>
+<h4> Location</h4>
+<div class="public_interior">
+<p> This job is open at the following location: </p>
+
+<div>
+<div id="location-48" class="location-item front-end ">
+<div>
+Philadelphia, PA- - Philadelphia, Pennsylvania
+</div>
+</div>
+</div>
+</div>
+<br>
+<div class="clearDiv"></div>
+<div class="flat_btn_wrapper apply">
+<a href="/apply?listing_id=3708" class="listing blue-btn-flat"> Apply Now </a>
+</div>
+</div> 
+</div>
+
+
+<div class="public_footer">
+<a id="logo_powered" target="blank" href="/"></a>
+</div>
+</div> 
+<input type="hidden" id="view_identifier" value="listing">
+<input type="hidden" id="collection_identifier" value="3708">
+<script type="text/javascript" src="https://www.gatherdocs.com/scripts/listing.js?ver=8-7-13"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"38ae7073b1","applicationID":"2658917","transactionName":"NVFbMRZWD0tTWkVbVwwbbBcNGAhWVlxJHEgKRA==","queueTime":0,"applicationTime":12,"atts":"GRZYR15MHEU=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

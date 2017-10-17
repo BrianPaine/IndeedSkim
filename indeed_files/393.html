@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="UTF-8" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+<meta name="theme-color" content="#FFFFFF" />
+<meta name="application-name" content="Vitality" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.vitalitygroup.com/wp-content/themes/vitality/images/logos/apple-touch-icon.png">
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5BVFGJK');</script>
+<!-- End Google Tag Manager -->
+
+<title>Statistical/Actuarial Data Analyst - Vitality</title>
+
+<!-- This site is optimized with the Yoast SEO Premium plugin v4.2 - https://yoast.com/wordpress/plugins/seo/ -->
+<link rel="canonical" href="https://www.vitalitygroup.com/careers/job-listings/statisticalactuarial-data-analyst/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Statistical/Actuarial Data Analyst - Vitality" />
+<meta property="og:url" content="https://www.vitalitygroup.com/careers/job-listings/statisticalactuarial-data-analyst/" />
+<meta property="og:site_name" content="Vitality" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Statistical/Actuarial Data Analyst - Vitality" />
+<meta property="DC.date.issued" content="2017-09-25T15:40:26+00:00" />
+<!-- / Yoast SEO Premium plugin. -->
+
+<link rel='dns-prefetch' href='//www.vitalitygroup.com' />
+<link rel='dns-prefetch' href='//maxcdn.bootstrapcdn.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.vitalitygroup.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=445dd32f39fe5ca9efbe4ed2f757ed27"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='vitality-style-css'  href='https://www.vitalitygroup.com/wp-content/themes/vitality/style.css?ver=445dd32f39fe5ca9efbe4ed2f757ed27' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' type='text/css' media='all' />
+<link rel='stylesheet' id='selectric-styles-css'  href='https://www.vitalitygroup.com/wp-content/themes/vitality/resources/vendor/selectric/jquery.selectric.css' type='text/css' media='all' />
+<link rel='stylesheet' id='fancybox-styles-css'  href='https://www.vitalitygroup.com/wp-content/themes/vitality/resources/vendor/fancybox/jquery.fancybox.css' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-styles-css'  href='https://www.vitalitygroup.com/wp-content/themes/vitality/resources/vendor/slick-carousel/slick/slick.css' type='text/css' media='all' />
+<link rel='stylesheet' id='slick-styles-theme-css'  href='https://www.vitalitygroup.com/wp-content/themes/vitality/resources/vendor/slick-carousel/slick/slick-theme.css' type='text/css' media='all' />
+<script type='text/javascript' src='https://www.vitalitygroup.com/wp-content/themes/vitality/resources/vendor/libraries.js'></script>
+<link rel='https://api.w.org/' href='https://www.vitalitygroup.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.vitalitygroup.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.vitalitygroup.com/wp-includes/wlwmanifest.xml" /> 
+
+<link rel='shortlink' href='https://www.vitalitygroup.com/?p=2860' />
+<link rel="alternate" type="application/json+oembed" href="https://www.vitalitygroup.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vitalitygroup.com%2Fcareers%2Fjob-listings%2Fstatisticalactuarial-data-analyst%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.vitalitygroup.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.vitalitygroup.com%2Fcareers%2Fjob-listings%2Fstatisticalactuarial-data-analyst%2F&#038;format=xml" />
+<script type="text/javascript">
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.vitalitygroup.com/?wordfence_logHuman=1&hid=20A0CB689267805821DB8A08DE3FBB4C');
+</script>		<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+				<style type="text/css" id="wp-custom-css">
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+		</style>
+	</head>
+
+<body class="" ng-app="Vitality">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BVFGJK"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+		<div class="search-box">
+			<div class="search-box-container">
+				<form action="/search-results/" method="get">
+					<input type="hidden" name="cx" value="012834612777329818901:mksdt6e2br4" />
+					<input class="search-box-input" type="text" name="q" placeholder="Search" autocomplete="off" />
+					<button class="search-box-button fa fa-search" type="submit" value=""></button>
+					<div class="search-box-close">
+						<i class="icon-close"></i>
+					</div>
+				</form>
+			</div>
+		</div>
+		<header class="site-header">
+			<nav class="jump-nav">
+				<a href="https://www.powerofvitality.com/vitality/login" target="_blank" class="login">
+					<i class="fa fa-user" aria-hidden="true"></i>
+					<span>Member Login</span>
+				</a>
+				<a class="search-trigger">
+					<i class="fa fa-search" aria-hidden="true"></i>
+					<span>Search</span>
+				</a>
+			</nav>
+			<div class="main-nav-wrapper">
+				<div class="js-nav-open">
+					<i class="icon-menu"></i>
+				</div>
+				<a href="https://www.vitalitygroup.com/" rel="home" class="logo"><img src="https://www.vitalitygroup.com/wp-content/themes/vitality/images/logos/vitality-logo-orange.svg" alt="Vitality" /></a>
+				<a class="button demo" href="/contact-us">Talk to us</a>
+				<div class="close-menu-overlay"></div>
+				<div class="nav-canvas">
+					<div class="nav-close">
+						<i class="icon-close"></i>
+					</div>
+					<nav class="main-nav">
+						<div class="menu-main-menu-container"><ul id="primary-menu" class="menu"><li class="primary"><a href="https://www.vitalitygroup.com/how-vitality-works/">How Vitality Works</a></li>
+<li class="primary menu-item-has-children"><a>Why We Are Different</a>
+<ul  class="sub-menu">
+	<li class="overview"><a href="https://www.vitalitygroup.com/the-vitality-difference/">The Vitality Difference</a></li>
+	<li><a href="https://www.vitalitygroup.com/the-vitality-difference/active-rewards-apple-watch/">Active Rewards with Apple Watch</a></li>
+	<li><a href="https://www.vitalitygroup.com/the-vitality-difference/proven-results/">Proven Results</a></li>
+	<li><a href="https://www.vitalitygroup.com/the-vitality-difference/thought-leadership/">Thought Leadership</a></li>
+</ul>
+</li>
+<li class="primary menu-item-has-children"><a>Who Benefits</a>
+<ul  class="sub-menu">
+	<li class="overview"><a href="https://www.vitalitygroup.com/why-vitality-works/">Why Vitality Works</a></li>
+	<li><a href="https://www.vitalitygroup.com/why-vitality-works/employers/">For Employers</a></li>
+	<li><a href="https://www.vitalitygroup.com/why-vitality-works/health-plans/">For Health Plans</a></li>
+	<li><a href="https://www.vitalitygroup.com/why-vitality-works/brokers-consultants/">For Brokers &#038; Consultants</a></li>
+</ul>
+</li>
+<li class="primary"><a href="https://www.vitalitygroup.com/insights/">Insights</a></li>
+<li class="nav-mobile"><a href="https://www.vitalitygroup.com/careers/">Careers</a></li>
+<li class="nav-mobile"><a href="https://www.vitalitygroup.com/news/">News</a></li>
+<li class="demo"><a href="https://www.vitalitygroup.com/contact-us/">Talk to us</a></li>
+<li class="button button-open nav-mobile"><a target="_blank" href="https://www.powerofvitality.com/vitality/login">Member Login</a></li>
+</ul></div>					</nav>
+					<form action="/search-results/" method="get" class="search-box">
+						<input type="hidden" name="cx" value="012834612777329818901:mksdt6e2br4" />
+						<input class="search-box-input" type="text" name="q" placeholder="Search" autocomplete="off" />
+						<button class="search-box-button fa fa-search" type="submit" value=""></button>
+					</form>
+				</div>
+			</div>
+		</header>
+		<div id="content" class="site-content">
+	
+
+
+<div class="addthis-widget">
+	<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-586ea61405b5dc13"></script>
+</div>
+<div class="header-title article">
+	<div class="site-wrapper">
+		<h1>Statistical/Actuarial Data Analyst</h1>
+		<div class="header-slug">
+					Chicago				</div>
+	</div>
+</div>
+
+<div class="sidebar-layout">
+	<div class="site-wrapper">
+		<div class="main-column">
+												<p class="intro">
+						<strong>Bring your "A" game! Be our new Statistical/Actuarial Data Analyst!
+
+We’re Vitality, improving people’s health around the world through best-in-class evidence, science, technology and most importantly our people. Vitality encourages changes in lifestyle that reduce health care costs, both in the short run and long term, by rewarding members for addressing their specific health issues. Vitality wellness programs serve companies in a wide range of sizes and industries, improving individuals’ health and well-being as well as employers’ bottom lines. Vitality brings a global perspective through successful partnerships with large employers and best-in class insurers around the world, in countries including the United States, United Kingdom, South Africa, China, Singapore and Australia. Join Vitality and transform health around the world. 
+</strong>
+					</p>
+				
+				<p>Our Actuarial and Product team in Chicago is looking for a full-time Statistical/Actuarial Data Analyst who is seeking to combine clinical rigor, behavioral science, and love for statistics and data in the development of client reports and products that improve the lives of our members across the world. With a global member base, there are enormous opportunities to leverage your health and data expertise in the development of compelling health and wellness-focused products, plus report on results to various audiences. The ideal candidate would have a background in health insurance with a strong statistical underpinning, experience working with large medical claims data sets, and expertise with using data to make sound business decisions.</p>
+<p><strong>Key Outputs </strong></p>
+<ul>
+<li>Apply your expertise in health, quantitative analysis, and the presentation of data driven insights to complete complex medical claims analyses.</li>
+<li>Work with our actuarial and product teams to solve problems and identify opportunities.</li>
+<li>Work with data architects and medical carriers to extract and manipulate data sets.</li>
+<li>Increase reporting efficiency while maintaining quality.</li>
+<li>Create and maintain health dashboards and reports, distilling multi-dimensional health data into a compelling and easily digestible format.</li>
+<li>Contribute to ongoing product and research initiatives.</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Competencies: </strong></p>
+<ul>
+<li>Strong analytics and statistics skills and experience working with large data sets.</li>
+<li>Ability to deal with complex issues and migrate between detail and high level requirements</li>
+<li>Strong communication and presentation skills i.e. the ability to translate numbers into insights. In particular, experience conducting analyses and conveying the insights to a diverse audience is required.</li>
+<li>Ability to work in a high-pressured environment on ambiguous projects</li>
+<li>An understanding of business dynamics and strategic challenges</li>
+<li>A strong interest in innovative solutions to health promotion.</li>
+</ul>
+<p><strong>Education and Experience </strong></p>
+<ul>
+<li>1+ year career experience in health insurance claims data with an understanding of disease and disease prevention.</li>
+<li>Technical experience includes:</li>
+<li>Manipulating data sets through statistical software, R preferred</li>
+<li>Data visualization tools, Power BI preferred</li>
+<li>Querying languages, SQL preferred</li>
+<li>Scripting languages, Python preferred</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>We offer a variety of benefits and perks in our Chicago Loop office, including:</strong></p>
+<p>&nbsp;</p>
+<ul>
+<li>Comprehensive health insurance</li>
+<li>Health savings account with employer contribution</li>
+<li>Vision insurance</li>
+<li>Dental insurance</li>
+<li>401(K) with employer match</li>
+<li>Unlimited personal time off</li>
+<li>Life insurance</li>
+<li>Pre-tax commuter benefits</li>
+<li>Healthy breakfast</li>
+<li>Free membership at Lifestart Fitness Center</li>
+<li>Divvy Bike memberships</li>
+</ul>
+<p>Think you’ve got what it takes? Bring it! Send your resume to: <a href="mailto:careers@thevitalitygroup.com">careers@thevitalitygroup.com.</a></p>
+
+					</div>
+
+		<div class="sidebar">
+			<div class="sidebar-module">
+	        	<h5 class="header5">Apply</h5>
+	        		        	<p><a href="mailto:careers@thevitalitygroup.com" class="email-break">careers@thevitalitygroup.com</a></p>
+
+	        </div>
+		</div>
+	</div>
+</div>
+
+
+	</div><!-- #content -->
+
+		<div class="conversion-module module-padding">
+	<div class="site-wrapper">
+		<h3 class="header2">Start seeing real results with a program that works.</h3>
+		<a class="button button-rev" href="/contact-us">Talk to us</a>
+	</div>
+</div>
+		<footer class="site-footer">
+			<div class="site-wrapper">
+				<div class="menu-fat-footer-menu-container"><ul id="footer-menu" class="menu"><li class="column menu-item-has-children"><a>Column</a>
+<ul  class="sub-menu">
+	<li class="parent-page"><a href="https://www.vitalitygroup.com/how-vitality-works/">How Vitality Works</a></li>
+</ul>
+</li>
+<li class="column menu-item-has-children"><a>Column</a>
+<ul  class="sub-menu">
+	<li class="parent-page"><a href="https://www.vitalitygroup.com/the-vitality-difference/">The Vitality Difference</a></li>
+	<li><a href="https://www.vitalitygroup.com/the-vitality-difference/active-rewards-apple-watch/">Active Rewards with Apple Watch</a></li>
+	<li><a href="https://www.vitalitygroup.com/the-vitality-difference/proven-results/">Proven Results</a></li>
+	<li><a href="https://www.vitalitygroup.com/the-vitality-difference/thought-leadership/">Thought Leadership</a></li>
+</ul>
+</li>
+<li class="column menu-item-has-children"><a>Column</a>
+<ul  class="sub-menu">
+	<li class="parent-page"><a href="https://www.vitalitygroup.com/why-vitality-works/">Why Vitality Works</a></li>
+	<li><a href="https://www.vitalitygroup.com/why-vitality-works/employers/">For Employers</a></li>
+	<li><a href="https://www.vitalitygroup.com/why-vitality-works/health-plans/">For Health Plans</a></li>
+	<li><a href="https://www.vitalitygroup.com/why-vitality-works/brokers-consultants/">For Brokers &#038; Consultants</a></li>
+</ul>
+</li>
+<li class="column menu-item-has-children"><a>Column</a>
+<ul  class="sub-menu">
+	<li><a href="https://www.vitalitygroup.com/insights/">Insights</a></li>
+	<li><a href="https://www.vitalitygroup.com/contact-us/">Contact Us</a></li>
+	<li><a href="https://www.vitalitygroup.com/careers/">Careers</a></li>
+	<li><a href="https://www.vitalitygroup.com/news/">News</a></li>
+</ul>
+</li>
+</ul></div>				<div class="copyright-wrapper">
+					<div class="copyright">
+						<span>Copyright &copy; 2017 Vitality. All rights reserved.</span>
+						<div class="menu-copyright-container"><ul id="copyright-menu" class="menu"><li><a href="https://www.vitalitygroup.com/terms-of-use/">Terms of Use</a></li>
+<li><a href="https://www.vitalitygroup.com/privacy-policy/">Privacy Policy</a></li>
+<li><a target="_blank" href="https://www.powerofvitality.com/vitality/login">Member Login</a></li>
+</ul></div>					</div>
+
+					<a href="http://www.aicpa.org/InterestAreas/FRC/AssuranceAdvisoryServices/Pages/SORHome.aspx" target="_blank" class="aicpa-logo"><img src="https://www.vitalitygroup.com/wp-content/themes/vitality/images/logos/soc-logo.svg" alt="AICPA | SOC" /></a>
+				</div>
+			</div>
+		</footer>
+	
+<script type='text/javascript' src='https://www.vitalitygroup.com/wp-content/themes/vitality/resources/vendor/selectric/jquery.selectric.js'></script>
+<script type='text/javascript' src='https://www.vitalitygroup.com/wp-content/themes/vitality/resources/vendor/fancybox/jquery.fancybox.pack.js'></script>
+<script type='text/javascript' src='https://www.vitalitygroup.com/wp-content/themes/vitality/resources/vendor/fancybox/helpers/jquery.fancybox-media.js'></script>
+<script type='text/javascript' src='https://www.vitalitygroup.com/wp-content/themes/vitality/resources/vendor/slick-carousel/slick/slick.min.js'></script>
+<script type='text/javascript' src='https://www.vitalitygroup.com/wp-content/themes/vitality/resources/scripts/site.js?ver=20161005'></script>
+<script type='text/javascript' src='https://www.vitalitygroup.com/wp-content/themes/vitality/resources/scripts/app.js?ver=20161005'></script>
+<script type='text/javascript' src='https://www.vitalitygroup.com/wp-includes/js/wp-embed.min.js?ver=445dd32f39fe5ca9efbe4ed2f757ed27'></script>
+<script>
+	(function() {
+		var cx = '012834612777329818901:mksdt6e2br4';
+		var gcse = document.createElement('script');
+		gcse.type = 'text/javascript';
+		gcse.async = true;
+		gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(gcse, s);
+  	})();
+</script>
+<script>
+	(function () {
+		var domain = "vitalitygroup.trex.ra11y.com";
+		var d=document,t='script',c=d.createElement(t),s=(d.URL.indexOf('https:')==0?'s':''),p;
+		c.type = 'text/java'+t;
+		c.src = 'http'+s+'://'+domain+'/js/capture.js';
+		p=d.getElementsByTagName(t)[0];p.parentNode.insertBefore(c,p);
+	}());
+</script>
+<script type="text/javascript">
+	piAId = '211002';
+	piCId = '1162';
+
+	(function() {
+		function async_load(){
+			var s = document.createElement('script'); s.type = 'text/javascript';
+			s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+			var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+		}
+		if(window.attachEvent) { window.attachEvent('onload', async_load); }
+		else { window.addEventListener('load', async_load, false); }
+	})();
+</script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f504b3a02a","applicationID":"37809859","transactionName":"YV1VMEFWX0oHBkEMDVgXdgdHXl5XSRZcCwVaXRoOXFVCVQ8WQQwMUUs=","queueTime":0,"applicationTime":176,"atts":"TRpWRglMTEQ=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+

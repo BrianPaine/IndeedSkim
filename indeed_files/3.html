@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Oklahoma Central Credit Union Careers - Tulsa</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+
+
+
+<link rel="STYLESHEET" type="text/css" href="https://occu-careers.silkroad.com:443/map_images/main/SiteGen/Careers/Admin/Skins/Generic_Settings.css" />
+
+<!--
+<link rel="STYLESHEET" type="text/css" href="https://occu-careers.silkroad.com:443/map_images/main/SiteGen/Careers/Admin/Skins/openhire.css" />
+-->
+
+ <!--[if lt IE 9]>
+  <script src="https://occu-careers.silkroad.com:443//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+  <script src="https://occu-careers.silkroad.com:443/eprise/main/SiteGen/Skins/ps_resp_layout/SupportPages/respond.js"></script>
+
+  <![endif]-->
+
+
+<link rel="shortcut icon" href="https://occu-careers.silkroad.com:443/main/SiteGen/Careers/Content/Uploads/Images/skin/index.ico" />
+
+<script type="text/javascript" src="https://occu-careers.silkroad.com:443/map_images/main/SiteGen/Skins/ps_resp_layout/SupportPages/incJavascript.js"></script>
+<script type="text/javascript" src="https://occu-careers.silkroad.com:443/map_images/main/SiteGen/Skins/ps_resp_layout/SupportPages/niftycube.js"></script>
+<script type="text/javascript">function clear_search() {document.search_form.search_phrase.value= "";}</script>
+<script type="text/javascript">
+
+window.onload=function() {
+     
+    if(""=="yes") {
+          
+     }
+
+           
+  var anchors = document.querySelectorAll('a[href]');
+
+  Array.prototype.forEach.call(anchors, function (element, index) {
+
+    //alert("href is " + element.href);
+    var sSearchString = "oh_jobwrapper/";
+    var sHref = element.href;
+    var nIndex = sHref.toLowerCase().indexOf(sSearchString);
+
+    if (nIndex >0) {
+           //strip CF string prepended by Open Hire call to CFHTTP
+
+            var sNewHref = sHref.substr( nIndex+sSearchString.length );
+           element.href = sNewHref;
+
+  //alert("New href is " + sNewHref);
+
+     } //end strip CF crap prepended by Open Hire call to CFHTTP
+});
+
+}  //end onload
+
+</script>
+
+<script src="https://occu-careers.silkroad.com:443/eprsup/jquery/1.11.1/jquery.min.js"></script>
+ 
+<script src="https://occu-careers.silkroad.com:443/eprise/main/SiteGen/Skins/ps_resp_layout/SupportPages/doubletaptogo.min.js"></script>
+
+<script>
+var $jqPS = jQuery.noConflict(true);
+	$jqPS( function()
+	{
+		$jqPS( '#nav_main li:has(ul)' ).attr('aria-haspopup','true').doubleTapToGo();
+
+	});
+</script>
+
+
+
+
+
+
+<meta name="description" content="&nbsp;" />
+<meta name="keywords" content="careers, oklahoma central credit union, tulsa, oklahoma, ok," />
+
+
+<!---->
+<!--<script type="text/javascript" src="https://occu-careers.silkroad.com:443/eprise/RedCarpetDotNet/PhysicalMaps/JS/TurboTask.js"></script>-->
+
+<script>
+function funcWriteBreadcrumbNav(BreadCrumbList) {
+	var sOutputBreadcrumbNav = new String();
+	var sClass = null;
+	var sUrl = null;
+	var sText = null;
+	var nLevel = null;
+	var aryThisLink = null;
+
+                    var sBreadCrumbOnOff ="Off";
+                    if (sBreadCrumbOnOff.length ==0) sBreadCrumbOnOff = "Off";
+                    if (sBreadCrumbOnOff.toLowerCase() == "off") return sOutputBreadcrumbNav;
+                    if ("" == "8") return sOutputBreadcrumbNav;
+
+//alert("BreadCrumbList is " + BreadCrumbList);
+
+       var sTemp = "";
+	
+	//Added variables to grab information for the current page
+
+	var sCurrentPath = "https://occu-careers.silkroad.com/Careers/UnplacedPages/OH_JobWrapper";
+	var sCurrentPage = "OpenHire Internal Page [do not delete]";
+
+	var arySubNav = unescape(BreadCrumbList);
+	//arySubNav = arySubNav.split("");
+	arySubNav = arySubNav.split(";");
+
+    //sOutputBreadcrumbNav += "<div id='breadcrumbs'>"
+
+	var nLen = arySubNav.length;
+	for(var i = 0; i < nLen; i++) {
+		//aryThisLink = arySubNav[i].split("");
+		aryThisLink = arySubNav[i].split(",");
+		sText = aryThisLink[0];
+                var bIgnore=false;
+                if ( sText == "OpenHire Internal Page [do not delete]") bIgnore= true;
+		sUrl = aryThisLink[1];
+		sClass = (parseInt(aryThisLink[2])) ? "_on" : "";
+		pageLevel = aryThisLink[3];
+		
+		sOutputBreadcrumbNav += "<!-- breadcrumb trail -->";
+		// items
+
+         var sIndex = sText.indexOf("_subnav");
+         //   sOutputBreadcrumbNav += sIndex;
+
+        if(sText!=sTemp && sIndex < 0){ // added to prevent duplicates in list
+			if (i<nLen-1) {
+				//--- loop thru regular items
+				//sOutputBreadcrumbNav += "<a href='https://occu-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/" + sUrl + "'>" + sText.toLowerCase() + "</a> &gt; ";
+				if (!bIgnore) sOutputBreadcrumbNav += "<a href='https://occu-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/" + sUrl + "'>" + sText + "</a> &gt; ";
+				
+			//check if page is a bodylink	
+			} else  if (!bIgnore) {
+                             if (i>=nLen-1 && sUrl!=sCurrentPath ){
+				//--write out last page in bc list
+				     sOutputBreadcrumbNav += "<a href='https://occu-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/" + sUrl + "'>" + sText + "</a> ";
+				      //--- bl-last item
+                                 if (sCurrentPage != "OpenHire Internal Page [do not delete]" ) {
+				     sOutputBreadcrumbNav += "&gt; <span class='breadcrumb_item" + sClass + "'>" + sCurrentPage + "</span>";
+                                  }
+			   } else {
+				//--- last item
+				sOutputBreadcrumbNav += "<span class='breadcrumb_item" + sClass + "'>" + sText + "</span>";
+			   }
+                     }
+			
+              sTemp = sText;
+	     }
+
+			
+	}
+	
+    sOutputBreadcrumbNav += "<!-- end breadcrumb trail -->";
+    //sOutputBreadcrumbNav += "</div>";
+
+	return sOutputBreadcrumbNav;
+}
+</script>
+
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+</style>
+
+
+			<meta property="og:title" content="Data Analyst - Tulsa, , United States - Oklahoma Central Credit Union" />
+			<meta property="og:description" content="Job Description: This is a newly created position for an innovative thinker who has a passion for data. (S)he will convert raw data from multiple operational sources into meaningful insight which helps drive our strategic roadmap and make sound bu..." />
+			<meta property="og:type" content="website" />
+			<meta property="og:url" content="https://occu-openhire.silkroad.com/epostings/index.cfm?fuseaction=app.jobinfo&jobid=1029&version=1" />
+		<script type='text/javascript' src='../javascript/fCountChar.js'></script><!-- OpenHire: 2017.5 -->
+					<link rel="P3Pv1" href="/w3c/p3p.xml" />
+					<link rel="stylesheet" href="/ats/themes/silkroad/jquery-ui.css?v=1.8.12" />
+					<link rel="stylesheet" href="/uilib/assets/styles/uilib.css?v=2017.5" />
+					<link rel="stylesheet" href="/epostings/assets/styles/main.css?v=2017.5" />
+					<!-- /epostings/assets/styles/app/dspjob.css --> 
+					<script>var productVersion = "2017.5"; var timeoutSeconds = 3600; var timeoutWarningSeconds = 300; var displayTimeWarning = 0; var isCandidateLoggedIn = false; var companyId = 17325; var ep_version = 1;</script>
+					<script src="/uilib/plugins/jquery/jquery.min.js?v=1.4.4"></script>
+					<script src="/uilib/plugins/jquery/jquery-ui.min.js?v=1.8.12"></script>
+					<script src="/uilib/plugins/jquery/i18n/jquery.ui.datepicker-en.js"></script>
+					<script src="/uilib/assets/scripts/uilib.js?v=2017.5"></script>
+					
+					<script src="/epostings/assets/scripts/main.js?v=2017.5"></script>
+					<!-- /epostings/assets/scripts/app/dspjob.js --> </head>
+<body  class="yui-skin-sam" id="ps-body">
+
+
+<div id="page_container">
+<!--NOT A HOME PAGE-->
+<header id="main_header">
+
+   <div id="box_header">
+     <div id="pslogo"><a href="https://www.oklahomacentral.org/"><img src="https://occu-careers.silkroad.com:443/main/SiteGen/Careers/Content/Uploads/Images/skin/OCCU_Logo_hires.png" border=0></a></div>
+
+<div id="header_contact"><a href="https://occu-careers.silkroad.com/Careers/About_Us/Contact-Us.html">Contact Us</a></div>
+   </div>
+
+
+<div id="box_subheader">
+  <nav id="nav_main" role="navigation">
+    <a href="https://occu-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/#nav_main" title="Show navigation">Show navigation</a>
+    <a href="https://occu-careers.silkroad.com:443/Careers/UnplacedPages/OH_JobWrapper/#" title="Hide navigation">Hide navigation</a>
+    <ul id="nav_main_list">
+
+       <li aria-haspopup="true" ><a href="https://occu-careers.silkroad.com:443/" title="Welcome" >Welcome</a></li><li aria-haspopup="true"  class="active"><a href="https://occu-careers.silkroad.com:443/Careers/EmploymentListings.html" title="Job Listings" >Job Listings</a>			<ul>
+				<li>
+					<a href="https://occu-openhire.silkroad.com/epostings/index.cfm?version=1&company_id=17325">Search Current Openings</a>
+				</li>
+				<li>
+					<a href="https://occu-openhire.silkroad.com/epostings/submit.cfm?fuseaction=app.res_login&company_id=17325&version=1">Update Your Profile</a>
+				</li>
+				<li>
+					<a href="https://occu-openhire.silkroad.com/epostings/submit.cfm?fuseaction=app.res_bgjobagent&company_id=17325&version=1">Create a Job Agent</a>
+				</li>
+				<li>
+					<a href="https://occu-openhire.silkroad.com/epostings/submit.cfm?fuseaction=app.bgagentlogin&company_id=17325&version=1">Update Job Agent</a>
+				</li>
+				<li>
+					<a href="https://occu-openhire.silkroad.com/epostings/submit.cfm?fuseaction=app.agencylogin&company_id=17325&version=1">Recruiting Agency Login</a>
+				</li>
+			</ul>
+</li><li aria-haspopup="true" ><a href="https://occu-careers.silkroad.com:443/Careers/Benefits.html" title="Benefits" >Benefits</a></li><li aria-haspopup="true" ><a href="https://occu-careers.silkroad.com:443/Careers/About_Us.html" title="About Us" >About Us</a>			<ul>
+				<li>
+					<a href="https://occu-careers.silkroad.com:443/Careers/About_Us/Company_History.html">Company History</a>
+				</li>
+				<li>
+					<a href="https://occu-careers.silkroad.com:443/Careers/About_Us/Contact-Us.html">Contact Us</a>
+				</li>
+			</ul>
+</li>
+
+    </ul>
+  </nav>
+</div>
+
+  <nav id="breadcrumbs" role="breadcrumb">
+     <style>
+#breadcrumbs {
+ display: none;
+}
+</style>
+<script language="JavaScript">
+  var sPageName = "OH_JobWrapper";
+  if (sPageName.length !=0) sPageName = sPageName.toLowerCase();
+
+ // if(sPageName !="home.html")
+    document.write(funcWriteBreadcrumbNav("Welcome,https://occu-careers.silkroad.com;Job%20Listings,https://occu-careers.silkroad.com/Careers/EmploymentListings.html"));
+</script>
+  </nav>
+</header>
+  <div id="body_container"> <!-- 0_Col -->
+      
+    <div id="box_col_center_0_Col">
+
+
+
+<div id="dialog-confirm" class="ui-dialog" title="Session Timeout Approaching">
+  <p><span class="ui-icon ui-icon-alert" style="float:left"></span>Your user session will timeout in 5 minutes.  Please click OK to continue with your application.</p>
+</div>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+function URLReplacePlus(strIn) {
+	var a = "+";
+	var b = "%43";
+	var c = strIn;
+	var i = c.indexOf(a);
+	var l = b.length;
+	while (i != -1) { c = c.substring(0,i) + b + c.substring(i + a.length,c.length); i = c.indexOf(a,i); }
+	return c;
+}
+
+function emailFriend()
+{
+	var loc, coname, jobtitle;
+	coname=document.applyjob.companyname.value;
+	coname=URLReplacePlus(coname);
+	coname=escape(coname);
+	jobtitle=document.applyjob.job_title.value;
+	jobtitle=URLReplacePlus(jobtitle);
+	jobtitle=escape(jobtitle);
+
+	var applyJob = document.getElementById("applyJob");
+	var jobid = applyJob.jobid.value;
+	var source = applyJob.source.value;
+	var jobOwner = applyJob.JobOwner.value;
+	var version = applyJob.version.value;
+
+	var jobAttrib = "jobid=" + jobid + "&source=" + source + "&jobOwner=" + jobOwner;
+
+	loc = "http://occu-openhire.silkroad.com/epostings/submit.cfm?fuseaction=app.mailform&company_id=17325&companyname="+coname+"&job_title="+jobtitle+"&version=1&server=occu-openhire.silkroad.com&mapping=/epostings/&showtemp=0&" + jobAttrib;
+
+	window.open(loc,"emform","resizable=yes,scrollbars=yes,width=650,height=400");
+}
+/* ]]> */
+</script>
+
+		<form id="applyJob" method="post" action="index.cfm?fuseaction=app.presubmission">
+			
+				<input type="hidden" name="gotofuse" value="app.newsubmission" />
+			
+			<input type="hidden" name="submissiontype" value="4" />
+			<input type="hidden" name="previewedit" value="1" />
+			<input type="hidden" name="altsource" value="1" />
+			<input type="hidden" name="jobid" value="1029" />
+			<input type="hidden" name="job_title" value="Data Analyst (1029-325)" />
+			<input type="hidden" name="JobOwner" value="992294" />
+			
+			<input type="hidden" name="source" value="Indeed.com" />
+			<input type="hidden" name="company_id" value="17325" />
+			<input type="hidden" name="companyname" value="Oklahoma Central Credit Union" />
+			<input type="hidden" name="version" value="1" />
+			<input type="hidden" name="location_id" value="0" />
+			<input type="hidden" name="resumetype" value="0" />
+			
+			<input type="hidden" name="backaction" value="fuseaction=app.dspjob&version=1&company_id=17325&jobBoardId=3338&jobid=1029" />
+			
+				<p id="postingDateText" class="cssDspJobBody">
+					10/2/2017
+				</p>
+			
+			
+				<p id="jobTitleDiv" class="cssDspJobTitle">
+					Data Analyst
+				</p>
+			
+			<dl>
+				
+					<dt id="trackCodeDiv" class="cssDspJobHead">
+						Tracking Code
+					</dt>
+					<dd id="jobCodeDiv" class="cssDspJobBody">
+						1029-325 
+					</dd>
+				
+				
+					<dt id="dspJobTxtDescDiv" class="cssDspJobHead">
+						Job Description
+					</dt>
+					<dd id="jobDesciptionDiv" class="cssDspJobBody">
+						<p><strong>Job Description: </strong>This is a newly created position for an innovative thinker who has a passion for data. (S)he will convert raw data from multiple operational sources into meaningful insight which helps drive our strategic roadmap and make sound business decisions.</p>
+<p><strong>Duties:</strong></p>
+<ul>
+<li>Design, implement and maintain a common data reporting process</li>
+<li>Manage daily, monthly and quarterly data reporting</li>
+<li>Interpret, analyze and present data to drive strategy</li>
+<li>Work closely with external vendors for data-driven projects</li>
+<li>Help drive our long-term data strategy and vision</li>
+<li>Work with our service desk team for automation hand-off / support</li>
+</ul>
+					</dd>
+				
+				
+					<dt id="dspJobTxtReqSkillsDiv" class="cssDspJobHead">
+						Required Skills
+					</dt>
+					<dd id="jobRequiredSkillsDiv" class="cssDspJobBody">
+						<p><strong>Required Skills:</strong></p>
+<ul>
+<li>Strong communication skills - Ability to interpret and explain complex data results with senior management.</li>
+<li>Demonstrated knowledge of MS SQL Server including T-SQL, SSMS and SSRS</li>
+<li>Good knowledge of IT systems and database security</li>
+<li>Advanced Excel (some VBA would be a plus)</li>
+<li>Strong analytical and problem-solving skills.</li>
+<li>Ability to identify trends and patterns of information</li>
+<li>Self-motivated and able to manage multiple projects simultaneously</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Skills to set the candidate apart:</strong></p>
+<p>&nbsp;</p>
+<ul>
+<li>Crystal Reports</li>
+<li>Source Control</li>
+<li>Database administration / design / architecture</li>
+<li>Data Mining and/or statistical data analysis</li>
+<li>Direct, hands-on experience with job scheduling software (OpCon, Autosys, Cron, etc.)</li>
+<li>Visual Studio (Business Intelligence Projects)</li>
+<li>Previous/ existing experience working in a credit union or other financial institution</li>
+</ul>
+					</dd>
+				
+					<dt id="dspJobTxtReqExpDiv" class="cssDspJobHead">
+						Required Experience
+					</dt>
+					<dd id="jobExperienceRqdDiv" class="cssDspJobBody">
+						<ul>
+<li>Bachelor degree in computer science, mathematics or statistics preferred.</li>
+<li>2+ years of experience in a similar role working with data</li>
+</ul>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+					</dd>
+				
+					<dt id="dspJobTxtJobLocDiv" class="cssDspJobHead">
+						Job Location
+					</dt>
+					<dd id="jobPositionLocationDiv" class="cssDspJobBody">
+						Tulsa, , United States
+					</dd>
+				
+					<dt id="dspJobTxtPosTypeDiv" class="cssDspJobHead">
+						Position Type
+					</dt>
+					<dd id="translatedJobPostingTypeDiv" class="cssDspJobBody">
+						Full-Time/Regular
+					</dd>
+				
+			</dl>
+			
+			
+			<div class="footerActionBar">
+				<div id="applyBubble" class="actionBubble">
+					<div class="actionBubble-header">
+						<h4>
+							Apply
+						</h4>
+					</div>
+					<div class="actionBubble-content">
+						
+						<input type="button" class="ui-form-field-button" id="newResumeButton" value="New Resume/CV" onclick="document.getElementById('applyJob').submit();" />
+						
+								<br />
+								<br />
+								<input type="button" class="ui-form-field-button" id="existingResumeButton" value="Existing Resume/CV" onclick="window.location='submit.cfm?fuseaction=app.presubmission&amp;gotofuse=app.res_login&amp;id=23&amp;jobid=1029&amp;company_id=17325&amp;version=1&amp;jobowner=&amp;aid=0&amp;fid=0&amp;bystate=0&amp;bylocation=NULL&amp;bycountry=0&amp;bycat=NULL&amp;keywords='" />
+							
+					</div>
+				</div>
+				
+					<div id="connectBubble" class="actionBubble">
+						<div class="actionBubble-header">
+							<h4>
+								Connect
+							</h4>
+						</div>
+						<div class="actionBubble-content">
+							Who do you know at
+							<br />
+							
+								<strong>Oklahoma Central Credit Union</strong>
+							
+								<script src="//platform.linkedin.com/in.js"></script>
+								<script type="IN/CompanyProfile" data-id="550712" data-format="hover"></script>
+							
+						</div>
+					</div>
+				
+					<div id="shareBubble" class="actionBubble">
+						<div class="actionBubble-header">
+							<h4>
+								Share
+							</h4>
+						</div>
+						<div class="actionBubble-content">
+							<!-- AddThis Button BEGIN -->
+							<div class="addthis_toolbox addthis_default_style" addthis:url="https://occu-openhire.silkroad.com/epostings/index.cfm?fuseaction=app.jobinfo&amp;jobid=1029&amp;version=1" addthis:title="Oklahoma Central Credit Union - Data Analyst">
+								<a class="addthis_button_linkedin">
+								</a>
+								<a class="addthis_button_facebook">
+								</a>
+								<a class="addthis_button_twitter">
+								</a>
+								<a class="addthis_button_email">
+								</a>
+								<a class="addthis_button_compact">
+								</a>
+							</div>
+							<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#username=xa-4d34add83780e935"></script>
+							<!-- AddThis Button END -->
+						</div>
+					</div>
+				
+			</div>
+			<div id="backPageButton1Div" class="cssDspJobHead">
+				<a id="returnLink" href="/epostings/index.cfm?fuseaction=app.welcome&amp;company_id=17325&amp;version=1&amp;byBusinessUnit=&amp;bycountry=0&amp;bystate=0&amp;bylocation=NULL&amp;keywords=&amp;byCat=NULL&amp;proximityCountry=&amp;postalCode=&amp;radiusDistance=&amp;isKilometers=&amp;tosearch=no&startflag=0">
+					Return To Job Listings
+				</a>
+				<input type="hidden" name="returnParm" value="/epostings/index.cfm?fuseaction=app.welcome&amp;company_id=17325&amp;version=1&amp;byBusinessUnit=&amp;bycountry=0&amp;bystate=0&amp;bylocation=NULL&amp;keywords=&amp;byCat=NULL&amp;proximityCountry=&amp;postalCode=&amp;radiusDistance=&amp;isKilometers=&amp;tosearch=no&startflag=0" />
+			</div>
+		</form>
+	<br />
+ 
+
+</div>
+
+  </div>
+
+
+</div>
+
+<footer id="box_footer">
+<div id="footer_clearfix">
+
+<div id="footer_top">
+
+<span class="social">
+<a id="facebook" target="_blank"  href="https://www.facebook.com/OklahomaCentral"></a>
+<a id="linkedin" target="_blank" href="https://www.linkedin.com/company/oklahoma-central-credit-union"></a>
+<a id="twitter" target="_blank" href="https://twitter.com/OKCentral"></a>
+</span>
+
+<span class="banking">
+<a href="http://portal.hud.gov/hudportal/HUD" id="HUD" target="_blank"></a>
+<a href="http://www.excessshare.com/consumer-overview/ncua-esi" id="ESI" target="_blank"></a>
+</span>
+
+</div>
+
+<div id="footer_bottom">
+<span class="copyright">
+Copyright &copy;2017 by Oklahoma Central Credit Union. All Rights Reserved.
+</span>
+
+</div>
+
+
+
+
+
+
+</div>
+</footer>
+
+<!--[if lt IE 8]>&nbsp;<![endif]--><!--THERE MUST BE SOMETHING HERE ELSE IE6 AND IE7 WILL IGNORE BOTTOM PAGE MARGIN-->
+
+<!-- NEW LEAF MENU ADMIN TOOLBAR START HERE -->
+
+   <div id="leafToolbar" class="leafToolbarStyle" >
+
+        <span id="toolbar_options" style="float:right; display:inline"></span>
+
+   </div> 
+
+
+
+
+</body>
+</html> 
+		<!--
+		Browser Locale: en_US
+		Site Default Locale: en
+		isSupportedLocale: Yes
+		isPortalSupportedLocale: No
+		determineSupportedLocale: en_US
+		determinePortalSupportedLocale: en
+		localeSupportedID: 1
+		
+		Session Locale: {"GOVERNMENTIDREGEX":"","FORMATLOCALECODE":"en_US","LOCALEID":1674,"TRANSLATELOCALEID":1655,"LOCALESUPPORTEDID":1,"POSTALCODEREGEX":"^\\d{5}([\\-]\\d{4})?$","TRANSLATELOCALECODE":"en","LOCALECODE":"en_US","POSTALADDRESSXSLT":"<xsl:stylesheet xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\" version=\"1.0\"><xsl:template match=\"/PostalAddress\"><div class=\"ui-PostalAddress\"><xsl:if test=\"Recipient/PersonName/FormattedName != ''\"><div class=\"ui-PostalAddress-Row\"><span class=\"ui-PostalAddress-FormattedName\"><xsl:value-of select=\"Recipient/PersonName/FormattedName\"/></span></div></xsl:if><div class=\"ui-PostalAddress-Row\"><span class=\"ui-PostalAddress-StreetName\"><xsl:value-of select=\"DeliveryAddress/StreetName\"/></span><xsl:if test=\"DeliveryAddress/AddressLine != ''\"><span class=\"ui-PostalAddress-AddressLine\"><xsl:value-of select=\"DeliveryAddress/AddressLine\"/></span></xsl:if></div><div class=\"ui-PostalAddress-Row\"><span class=\"ui-PostalAddress-Municipality\"><xsl:value-of select=\"Municipality\"/></span>,\n\t\t      <span class=\"ui-PostalAddress-Region\"><xsl:value-of select=\"Region\"/></span> \n\t\t\t  <span class=\"ui-PostalAddress-PostalCode\"><xsl:value-of select=\"PostalCode\"/></span></div><xsl:if test=\"CountryCode != ''\"><div class=\"ui-PostalAddress-Row\"><span class=\"ui-PostalAddress-CountryCode\"><xsl:value-of select=\"CountryCode\"/></span></div></xsl:if></div></xsl:template></xsl:stylesheet>","FORMATLOCALEID":1674,"PHONEREGEX":"^([+])?([1]( |-|\\.)?)?(\\(?[1-9]{1}[0-9]{2}\\)?|[1-9]{1}[0-9]{2})( |-|\\.)?([0-9]{3}( |-|\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$"}
+		-->
+	

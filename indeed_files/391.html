@@ -1,0 +1,256 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+		
+        <title>
+            Job Opportunities
+        </title>
+		
+			<link href="https://www.healthcaresource.com/tiftregional/style.css" rel="stylesheet" type="text/css" />
+			<link href="https://www.healthcaresource.com/tiftregional/style_JobSearch.css" rel="stylesheet" type="text/css" />
+		
+		<script type="text/javascript">
+    	/* keeps popup on top */
+	  	function checkPopup()
+	  	{
+	    	try
+	    	{
+	      		if (newwindow != null && !newwindow.closed)
+	      		{
+		      		newwindow.focus();
+	      		}
+	    	}
+	    	catch(e)
+	    	{
+  	
+    		}
+	  	}
+  		</script>
+	
+    </head>
+    <body  onfocus="checkPopup();" >
+        <div id="popupMessage" style="display: none;">
+            <p>
+                It has been determined that you are currently running a &quot;Popup Blocker&quot;. In order to continue, please <strong>allow</strong> this site from within your &quot;Popup
+                Blocker&quot; preferences.
+            </p>
+        </div>
+<script type="text/javascript">
+	function toggleElement(element)
+	{
+		if(document.getElementById(element).style.display == 'none')
+		{
+	   		document.getElementById(element).style.display = '';
+	 	}
+	 	else if(document.getElementById(element).style.display != 'none')
+		{
+	   		document.getElementById(element).style.display = 'none';
+	 	}
+	}
+</script>
+<script type="text/javascript" src="/documents/siteManager/mx/js/xmlhttprequest.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+
+  var URL_PATH = "index.cfm";
+  var XHR = getHTTPObject();
+  
+  var sURL = "";
+
+  /* called to begin XMLHTTPRequest activity */
+  function XHR_ClearSession()
+  {  	
+  	XHR.open("POST", URL_PATH, true);
+		XHR.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+		XHR.onreadystatechange = handleXHR_ClearSession;
+ 		XHR.send("fuseaction=login.logout");
+  }
+ 
+  /* used to output data received via ajax */
+  function handleXHR_ClearSession()
+  {
+    if (XHR.readyState == 4 && XHR.status == 200)
+    {
+    	/* handle popup new window */
+      newwindow = open(sURL+"&blnNewWindowStart=true","newwin", "scrollbars=yes,toolbar=no,directories=no,menubar=no,resizable=yes,status=yes,width=660,height=500,left=10,top=10");
+	
+	    try
+	    {
+	      var obj = newwindow.name;
+        document.getElementById('popupMessage').style.display = "none";
+	    }
+	    catch(e)
+	    {    	
+        if (newwindow != null && !newwindow.closed)
+	      {
+	        newwindow.focus();
+	      }
+	      document.getElementById('popupMessage').style.display = "block";
+	    }
+    }
+  }
+
+  /* begin application */
+  function openit(URL)
+  {		
+  	  sURL = URL;
+  	
+  	  //remote call to login.logout
+      XHR_ClearSession();
+  } 
+  
+  /* send to friend */
+  function new_window(url)
+  {
+    link = window.open(url,"Link","toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=1,width=660,height=400,left=20,top=40");
+  }
+  
+//]]>
+</script>
+
+<div id="jobDetails">
+  <div class="navBar">
+	  <form action="?fuseaction=home.main">
+		  <input type="submit" name="submit" value="New Search">
+      <input type="button" VALUE="Return To Jobs" onClick="history.back()">
+		</form>
+	</div>
+
+  
+  
+  <div class="sendJobToFriend">
+	  <a class="bannertext" href="#" onclick="new_window('?fuseaction=search.jobDetails&template=dsp_email_job.cfm&cJobId=221235')">
+		  Send this job to a friend
+		</a>
+  </div>
+
+  <table>
+    <tr class="banner">
+      <td colspan="2" nowrap="nowrap">
+      	<div class="jobTitle" style="color: #FFFFFF">DATA ANALYST</div>
+			</td>
+	  </tr>
+    <tr>
+      <td class="formOffsetColor">Department:</td>
+      <td class="form">PATIENT CENTER MEDICAL HOME</td>
+    </tr>
+    
+    <tr>
+      <td class="formOffsetColor">Schedule:</td>
+      <td class="form">Full Time</td>
+    </tr>
+    <tr>
+      <td class="formOffsetColor">Shift:</td>
+      <td class="form">Day Shift</td>
+    </tr>
+    <tr>
+      <td class="formOffsetColor">Hours:</td>
+      <td class="form">40</td>
+    </tr>
+    
+    <tr>
+		  <td class="formOffsetColor" valign="top">Job Details:</td>
+      <td class="form">
+        <ul>
+		    
+			    <li><div>JOB DESCRIPTION: A position responsible for creating actionable and regular reporting to support the South Georgia Primary Care Network, the Patient Centered Medical Home and CareAlliance Quality Improvement initiatives through data collection and analytics .This position has a shared responsibility for the successful use of Disease Registries, pre-visit chart review process, patient self-support plans and the system-wide coordination of care.</div><div><br></div><div><br></div><div>QUALIFICATIONS:</div><div><br></div><div>Bachelor's degree in a healthcare related field or equivalent experience with an emphasis on health care system analysis preferred</div><div>Experience with an electronic health record preferred</div><div>Skilled in use of Information Technology</div><div>Proficiency in Microsoft Office products- especially Excel and Access (required)</div><div>Proficient in using analytical tools</div><div>Demonstrate organizational and multi-tasking skills</div><div>Strong interpersonal and presentation skills (required)</div><div>Participation in various committees and work groups</div><div>Experience working directly with primary care practices is highly preferred.</div> <P></li>
+		    
+				</ul>
+	    </td>
+    </tr>
+  </table>
+  <br />
+<div class="content applyLinks" id="applyLinks_1" style="text-align:center;">
+            
+            
+            <span class="blue" style="width:300px; font-size:18px;" onclick="toggleElement('applyLinks_1'); toggleElement('ApplyConfirm_1');">
+                Click Here to Apply Online
+            </span>
+            
+        </div>
+        
+        
+        <div class="applicantShield" id="ApplyConfirm_1" style="display:none; width:500px;">
+         <h1 class="confirmBanner banner" style="height:0.5em;">&nbsp;</h1>
+            <div class="messageContainer">
+                <p>Are you a <strong>current employee</strong> of Tift Regional Health System?</p>
+                <div class="buttonContainer">
+                    <div class="button banner" style="margin-right:20px;" onclick="javascript:openit('https://www.healthcaresource.com/tiftregional_i/index.cfm?fuseaction=apply.login&template=dsp_apply_login.cfm&cJobId=221235');toggleElement('applyLinks_1'); toggleElement('ApplyConfirm_1');">
+                        Yes
+                    </div>
+                    <div class="button banner" onclick="javascript:openit('?fuseaction=apply.login&template=dsp_apply_login.cfm&cJobId=221235');toggleElement('applyLinks_1'); toggleElement('ApplyConfirm_1');">
+                        No
+                    </div>
+                    <br style="clear:both;" />
+                </div>
+            </div>
+        </div>
+
+
+        <div class="applicantShield" id="internalApplyConfirm_1" style="display:none;">
+            <h1 class="confirmBanner banner">Internal Application Confirm</h1>
+            <div class="messageContainer">
+                <p>Are you a <strong>current employee</strong> of Tift Regional Health System?</p>
+                <div class="buttonContainer">
+                    <div class="button banner" style="margin-right:20px;" onclick="javascript:openit('https://www.healthcaresource.com/tiftregional_i/index.cfm?fuseaction=apply.login&template=dsp_apply_login.cfm&cJobId=221235');toggleElement('applyLinks_1'); toggleElement('internalApplyConfirm_1');">
+                        Yes
+                    </div>
+                    <div class="button banner" onclick="toggleElement('applyLinks_1'); toggleElement('internalApplyConfirm_1');">
+                        No
+                    </div>
+                    <br style="clear:both;" />
+                </div>
+            </div>
+        </div>
+
+	
+<br />
+
+
+<div class="navBar">
+  <form action="?fuseaction=home.main">
+	  <input type="submit" name="submit" value="New Search">
+    <input type="button" VALUE="Return To Jobs" onClick="history.back()">
+	</form>
+</div>
+
+
+
+  <a class="back_to_top" href="#" onclick="self.scrollTo(0,0)">back to top</a>
+
+</div>
+</form>
+
+
+
+</body>
+</html> 
+  	
+		<script type="text/javascript" src="/documents/global/js/min/pendo.min.js"></script>
+		<script type="text/javascript">
+			
+			
+			
+				var urlFusebox = "https://www.healthcaresource.com/tiftregional/index.cfm";
+
+				var intservergroupid = "4000";
+
+				var intapplicationid = "2004";
+
+			
+			var struserlogin = 'anonymous';
+			var struserlogin_hcs = '';
+			var blnimpersonation = 'no';
+			var struseremail = '';
+			var strpm10role = '';
+			
+			
+			
+			try {
+				sendToPendo(urlFusebox,intservergroupid,intapplicationid,struserlogin,struserlogin_hcs,blnimpersonation,struseremail,strpm10role);	
+			}
+			catch (e) {
+				console.log(e);
+			}
+		</script>
+	

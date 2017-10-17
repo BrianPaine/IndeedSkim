@@ -1,0 +1,252 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+<HEAD><link href="../style/core.css" type="text/css" rel="styleSheet" /><style type="text/css">.pagination-disabled {opacity:0.4;}</style><link rel="stylesheet" href="default.css" type="text/css" />
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+	<TITLE>Jobs Portal Page</TITLE>
+	<META NAME="Author" CONTENT="Doug Smoak - DSmoak@bcbis.sc.gov">
+	<META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+	<LINK rel="stylesheet" href="/agencypageassets/sc/jobs-styles.css" type="text/css" title="Basic Styles">
+	<LINK REL="SHORTCUT ICON" HREF="http://www.ohr.sc.gov/OHR/jobs-favicon.ico">
+	<STYLE>
+		.sans11 {font-family: verdana, arial, helvetica; font-size: 11px }
+		.sansbold15 {font-family: verdana, arial, helvetica; font-size: 15px; font-weight:bold }
+		
+		LI.SCHeader {
+			PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-IMAGE: url(/agencypageassets/sc/sc-dot.gif); PADDING-BOTTOM: 4px; MARGIN: 0px 3px 3px -12px; PADDING-TOP: 0px
+		}
+		#vert-gfx {
+			BACKGROUND: url(/agencypageassets/sc/jobs-black-vert.gif) no-repeat top center; WIDTH: 144px; HEIGHT: 648px
+		}
+
+	</STYLE>
+<link rel="stylesheet" href="default.css" type="text/css" /><meta property="og:image" content="https://agency.governmentjobs.com/images/AgencyImages/sc.jpg"/><meta property="og:title" content="Junior Analyst"><meta property="og:description" content="Are you passionate about global financial markets? Do you wake up and check the futures markets? Is your career goal to manage emerging market equities, to work in private equity, or manage a hedge fund portfolio? Are you looking for a place to jump start your career, get valuable on-the-job and classroom training, gain exposure to multi-asset investing, and work on live deals where your work translates into investment decisions? If so, then the Analyst Development Program (&quot;ADP") at the South C"></HEAD>
+<!-- ********************************************************************* -->
+<!-- **                         Copyright (c) 07                        ** -->
+<!-- **            South Carolina State Budget and Control Board        ** -->
+<!-- **                       Information Services                      ** -->
+<!-- **                       All Rights Reserved                       ** -->
+<!-- ********************************************************************* -->
+<BODY><div id="skip"><a href="#gjmaincontent">Skip to Main Content</a></div>
+<TABLE width="100%" border=0>
+<TR valign="top">
+	<TD id="vert-gfx"></TD>
+	<TD id="content">
+<!-- SOUTH CAROLINA HEADER.CFM END -->
+
+
+	
+	<a id="gjmaincontent"></a>
+
+	<div style="margin:0 auto;width:100%%;">
+		<table width="100%" border="0" cellspacing="1" cellpadding="4" summary="">
+			<tr>
+				<td class="tblbordbot PoweredByCell" style="width:100%;text-align:right;"><img src="/images/poweredby.gif" width="103" height="30" alt="Powered by NEOGOV" longdesc="/images/longDesc/poweredBy.html" style="border:none;"/></td>
+			</tr>
+		</table>
+	</div>
+
+	<div style="margin:0 auto;">
+	<table width="100%" border="0" cellspacing="1" cellpadding="4" summary="Job Information">
+	
+		<tr>
+			<td class="jobinfo" width="30%" nowrap>Job Title:</td>
+			<td class="maroon">
+				Junior Analyst
+			</td>
+		</tr>
+		
+		
+			<tr>
+				<td class="jobinfo" valign="top">
+				Agency: 
+				</td>
+				<td valign="top">
+					Retirement System Investment Commission
+				</td>
+			</tr>
+		
+		
+		<tr>
+			<td class="jobinfo" width="30%" nowrap>Opening Date:</td>
+			<td>
+				Mon. 09/18/17
+			</td>
+		</tr>
+
+		
+		<tr>
+			<td class="jobinfo" width="30%" nowrap>Closing Date/Time:</td>
+			<td>
+				Continuous
+				
+			</td>
+		</tr>
+		  
+			<tr>
+				<td class="jobinfo" valign="top">State Salary Range:</td>
+				<td>
+					Depends on Qualifications
+				</td>
+			</tr>
+			
+		<tr>
+			<td class="jobinfo">Agency Hiring Range:</td>
+			<td>Min: &nbsp;&nbsp;Max:</td>
+		</tr>
+
+		
+		<tr>
+			<td class="jobinfo">Job Type:</td>
+			<td>FTE - Full-Time</td>
+		</tr>
+		<tr>
+			<td class="jobinfo">Location:</td>
+			<td>
+				Richland County, South Carolina
+			</td>
+		</tr>
+
+
+	
+		
+			<tr>
+				<td class="jobinfo">Normal Work Schedule:</td>
+				<td>Monday - Friday (8:30 - 5:00)</td>
+			</tr>
+		
+
+
+
+		<tr>
+			<td colspan="2" class="tblbordtop">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+	
+	
+		<div class="classSpecLinksContainer" style="margin-right:0%;">
+			
+					<a class="applyonline gjbulletinlink" href="job_bulletin.cfm?JobID=1852255" target="_blank" title="This link will open in a new window.">Print Job Information</a> |
+				
+					<a class="applyonline gjapplylink" href="https://www.governmentjobs.com/jobs/1852255/Junior%20Analyst/Agency/sc/apply" >Apply</a>
+				
+			&nbsp;
+		</div>
+		<br />
+
+		
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" style="margin:0 auto;">
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<th align="left" class="gjTabRow" id="viewJobDescription">
+					
+					<div class="tabArea">
+						<a class="tab activeTab" href="http://agency.governmentjobs.com/sc/default.cfm?action=viewjob&amp;JobID=1852255&amp;headerfooter=1&amp;WDDXJobSearchParams=">Job Responsibilities</a><span class="tabAreaSmall">&nbsp;</span>
+						
+						
+							<a class="tab " href="http://agency.governmentjobs.com/sc/default.cfm?action=viewjob&amp;JobID=1852255&amp;ViewBenefits=Yes&amp;headerfooter=1&amp;WDDXJobSearchParams=">Benefits</a><span class="tabAreaSmall">&nbsp;</span>
+						
+							<a class="tab " href="http://agency.governmentjobs.com/sc/default.cfm?action=viewjob&amp;JobID=1852255&amp;ViewSupp=Yes&amp;headerfooter=1&amp;WDDXJobSearchParams=">Supplemental Questions</a>
+						
+							<a class="tab " href="http://agency.governmentjobs.com/sc/default.cfm?action=viewjob&amp;JobID=1852255&amp;ViewCF=Yes&amp;headerfooter=1&amp;WDDXJobSearchParams=">Additional</a>
+						
+					</div>
+					<div class="tabMain">&nbsp;</div>
+				</th>
+			</tr>
+			
+				<tr>
+					<td class="jobdetail" headers="viewJobDescription"><p>Are you passionate about global financial markets? Do you wake up and check the futures markets? Is your career goal to manage emerging market equities, to work in private equity, or manage a hedge fund portfolio? Are you looking for a place to jump start your career, get valuable on-the-job and classroom training, gain exposure to multi-asset investing, and work on live deals where your work translates into investment decisions? If so, then the Analyst Development Program ("ADP") at the South Carolina Retirement System Investment Commission ("RSIC") may be for you. The ADP seeks to develop aspiring investment professionals by providing on-the-job learning opportunities across the organization. Your work will include projects and rotations across public and private equity, fixed income, credit, alternatives (commodities and hedge funds), risk management, performance measurement and reporting, and investment and operational due diligence.</p><p><strong><em>Company Description</em></strong></p><p>The South Carolina Retirement Systems Investment Commission is responsible for the management of the assets (approximately $28 billion) of the South Carolina Retirement Systems and has a widely diversified portfolio which includes both traditional and alternative asset classes. The RSIC invests money on behalf of approximately 500,000 current, retired, and inactive employees of the State of South Carolina and their beneficiaries.</p><br /></td>
+				</tr>
+				
+					<tr>
+						<th class="jobheadings" id="examplesOfDuties">
+							&nbsp;Minimum and Additional Requirements:
+						</th>
+					</tr>
+					
+					<tr>
+						<td class="jobdetail" headers="examplesOfDuties"><p><strong><em>The right candidate will possess the following qualifications:</em></strong></p><p>&bull;&nbsp;Undergraduate or graduate degree in disciplines which develop a solid quantitative analysis understanding and ability (e.g. business, finance, economics, mathematics, physics, engineering, etc.).</p><p>&bull;&nbsp;3 months or longer of appropriate investment knowledge and experience gained through internship or full time employment at an investment firm or an institutional investor such as a pension fund, endowment, or fund of funds, or other investment experience such as M&amp;A, corporate finance, investment banking, etc.</p><p>&bull;&nbsp;Qualitative and quantitative analytical skills.</p><p>&bull;&nbsp;Investment curiosity and passion for investing including interest and/or experience in fundamental investment research and presentation development and investment recommendations.</p><p>&bull;&nbsp;Interest in and exposure to multi-asset investing.</p><p>&bull;&nbsp;Excellent oral and written communication skills.</p><p>&bull;&nbsp;Excellent interpersonal skills.</p><p>&bull;&nbsp;Interest in obtaining CFA or CAIA certification.</p><p>&bull;&nbsp;Ability to be flexible and work on multiple projects simultaneously.</p><p>&bull;&nbsp;Ability to work well within a team environment or independently.</p><p>&bull;&nbsp;Proficiency in Microsoft Excel, Microsoft PowerPoint.</p><p>&bull;&nbsp;Ability to travel up to 5% of the time during the year.</p><br /></td>
+					</tr>
+				
+					<tr>
+						<th class="jobheadings" id="typicalQualifications">
+							&nbsp;Preferred Qualifications:
+						</th>
+					</tr>
+					<tr>
+						<td class="jobdetail" headers="typicalQualifications"><p><strong><em>Preferred qualifications include:</em></strong></p><p>&bull;&nbsp;CFA or CAIA certification or progression toward CFA/CAIA certification.</p><p>&bull;&nbsp;Interest and/or experience in data management and analysis.</p><p>&bull;&nbsp;Experience with Bloomberg, eVestment, and Zephyr StyleAdvisor.</p><p>&bull;&nbsp;Computer programming skills (R, Python, Matlab).</p><p><strong><em>The right candidate will possess the following characteristics:</em></strong></p><p>&bull;&nbsp;Strong professional standards, quality focus, ethical standards, personal integrity and humility.</p><p>&bull; Investment curiosity and a passion for investing.</p><p>&bull; Attention to detail.</p><p>&bull; Capacity to delve into detailed data, and produce and communicate well-reasoned and succinct analysis.</p><br /></td>
+					</tr>
+				
+			<tr>
+			  	<td colspan="2" class="jobdetailbot">&nbsp;</td>
+			</tr>
+		</table>
+	
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"89019a8e50","agent":"","beacon":"bam.nr-data.net","applicationTime":22,"applicationID":"4449204","transactionName":"NlAGYxEFC0RWBhUIDQ8aN1IREglSQ0oiBw8yUBZBDwER","queueTime":0}</script> 	<TD id="r_sidebar">
+	<IMG src="/agencypageassets/sc/jobs-black-small.gif">
+	<UL>
+		<LI class="SCHeader"><A href="http://agency.governmentjobs.com/sc/default.cfm">Employment Opportunities</A><P>
+		<LI class="SCHeader"><A href="http://admin.sc.gov/files/How%20To%20Apply.pdf">How to Apply</A><P>
+		<LI class="SCHeader"><A href="http://admin.sc.gov/files/Applicant%20Frequently%20Asked%20Questions.pdf">Applicant FAQs</A><P>
+		<LI class="SCHeader"><A href="http://agency.governmentjobs.com/sc/default.cfm?action=openjobrequest&EmployerID=1257">Notify About Future Job Vacancies</A><P>
+		<LI class="SCHeader"><A href="http://admin.sc.gov/humanresources">DSHR Home Page</A><P>
+	</UL>	</TD>
+</TR>
+</TABLE>
+
+		<table summary="Agency Information" align="center" border="0" cellpadding="3" style="border-top:5px double #000000;border-bottom:5px double #000000;">
+		<tr>
+			<th class="label" align="right" valign="top" width="20%" style="border-top: medium; background:#ffffff;" nowrap><b>Department Name:</b></th>
+			<td valign="top" width="80%" style="border-top: medium">Retirement System Investment Commission</td>
+		</tr>
+
+			
+			<tr>
+				<th class="label" align="right" valign="top" style="background:#ffffff;"><b>Address:</b></th>
+				<td valign="top">
+					1201 Main Street, Ste. 1510&nbsp;
+					&nbsp;
+					Columbia,&nbsp;
+					SC&nbsp;
+					29201
+					&nbsp;<a href="http://maps.yahoo.com/py/maps.py?Pyt=Tmap&addr=1201%20Main%20Street%2C%20Ste%2E%201510&csz=Columbia%2C+SC&Get+Map=Get+Map" target="_blank">Map/Directions</a>
+				</td>
+			</tr>
+			
+			<tr>
+				<th class="label" align="right" valign="top" style="background:#ffffff;"><b>Phone:</b></th>
+				<td valign="top">803-737-6885</td>
+			</tr>
+			
+			</table>
+	
+<P>
+<TABLE width="65%" cellpadding=0 border=0>
+	<TR>
+	<TD width=163>
+	</TD>
+	<TD id="disclaimer">
+	THE LANGUAGE USED IN THIS DOCUMENT DOES NOT CREATE AN EMPLOYMENT CONTRACT BETWEEN THE EMPLOYEE AND THE AGENCY. THIS DOCUMENT DOES NOT CREATE ANY CONTRACTUAL RIGHTS OR ENTITLEMENTS. THE AGENCY RESERVES THE RIGHT TO REVISE THE CONTENT OF THIS DOCUMENT, IN WHOLE OR IN PART. NO PROMISES OR ASSURANCES, WHETHER WRITTEN OR ORAL, WHICH ARE CONTRARY TO OR INCONSISTENT WITH THE TERMS OF THIS PARAGRAPH CREATE ANY CONTRACT OF EMPLOYMENT.
+	</TD>
+	</TR>
+</TABLE>
+<P>
+<link rel="stylesheet" href="/agencypageassets/sc/neogov.css" type="text/css" media="screen"><style type="text/css">
+		#bottom .CBMS_Header h4, #bottom .CBMS_SelectedList h4 {
+			color: #000;
+			font-size: 12px;
+		}
+		#tblNEOGOVSearchCriteria {
+			clear: right;
+		}
+		.CBMS_Checklist {
+			border: none;
+		}
+	</style></BODY>
+</HTML>
+

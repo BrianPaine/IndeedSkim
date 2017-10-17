@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir=ltr lang=en>
+<!-- Copyright (c) 2000, 2013, Oracle and/or its affiliates. All rights reserved. -->
+<!--
+* ***************************************************************
+*  This software and related documentation are provided under a
+*  license agreement containing restrictions on use and
+*  disclosure and are protected by intellectual property
+*  laws. Except as expressly permitted in your license agreement
+*  or allowed by law, you may not use, copy, reproduce,
+*  translate, broadcast, modify, license, transmit, distribute,
+*  exhibit, perform, publish or display any part, in any form or
+*  by any means. Reverse engineering, disassembly, or
+*  decompilation of this software, unless required by law for
+*  interoperability, is prohibited.
+*  The information contained herein is subject to change without
+*  notice and is not warranted to be error-free. If you find any
+*  errors, please report them to us in writing.
+*
+*  Copyright (C) 1988, 2014, Oracle and/or its affiliates.
+*  All Rights Reserved.
+* ***************************************************************
+-->
+<head>
+<title>Oracle PeopleSoft Sign-in</title>
+<script language="JavaScript">
+    var sDomain = ".nyc.gov";
+    try {
+        document.domain = ".nyc.gov";
+    }
+    catch (err) {; }
+</script>
+
+
+<script type="text/javascript" src="/nycjobs/signin.js"></script>
+
+<script language='javascript'>
+function redirect()
+{
+self.location='https://a127-jobs.nyc.gov/psc/nycjobs/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_APP_SCHJOB.GBL?Page=HRS_APP_JBPST&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=289615&PostingSeq=1&';
+}
+</script>
+<body bgcolor="#ffffff" LINK="#0000FF" VLINK="#800080" TEXT="#000000" >
+<SCRIPT LANGUAGE='javascript'>
+if (getCookie("PS_DEVICEFEATURES") == "") {
+    var df = new ptDeviceFeatures();
+    df.init();
+}
+redirect();
+</SCRIPT>
+</body>
+</HTML>

@@ -1,0 +1,216 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<HEAD><link href="../style/core.css" type="text/css" rel="styleSheet" /><style type="text/css">.pagination-disabled {opacity:0.4;}</style><link rel="stylesheet" href="default.css" type="text/css" />
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><TITLE>Employment Opportunities - City of Davis</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META content=true name=MSSmartTagsPreventParsing>
+<META http-equiv=imagetoolbar content=no>
+<META http-equiv=MSThemeCompatible content=no>
+
+
+
+
+
+<STYLE type=text/css media=all>@import url( /agencypageassets/davis/davis.css );
+</STYLE>
+
+<STYLE type=text/css media=all>@import url( /agencypageassets/davis/table700.css );
+</STYLE>
+
+<STYLE type=text/css media=all>@import url( /agencypageassets/davis/jobs.css );
+</STYLE>
+<LINK media=print href="/agencypageassets/davis/print.css" type=text/css 
+rel=stylesheet></LINK>
+<STYLE type=text/css media=all>#rss {
+	WIDTH: 700px; TEXT-ALIGN: center
+}
+#container #content #rss A {
+	COLOR: #99f
+}
+#container #content #rss A:visited {
+	COLOR: #99f
+}
+#container #content #rss A:hover {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #36c
+}
+</STYLE>
+
+<META content="MSHTML 6.00.6000.16414" name=GENERATOR><link rel="stylesheet" href="default.css" type="text/css"><link rel="stylesheet" href="default.css" type="text/css" /><meta property="og:image" content="https://agency.governmentjobs.com/images/AgencyImages/DavisLogo.gif"/><meta property="og:title" content="Human Resources Analyst I/II"><meta property="og:description" content="A City of Davis online application must be submitted to be considered for this position.&nbsp; Paper applications will not be accepted.&nbsp; To apply, please visit www.cityofdavis.org/jobsDEFINITIONTo provide responsible professional, administrative and technical assistance in the development, administration and implementation of the city's human resources management including payroll and benefit administration, risk management, workers compensation, labor relations, classification/compensation"></HEAD>
+<BODY><div id="skip"><a href="#gjmaincontent">Skip to Main Content</a></div>
+<DIV class=hidden>
+<H1>City of Davis</H1><A accessKey="j" 
+href="http://www.city.davis.ca.us/jobs/#content">jump to content</A> </DIV>
+<DIV id=header>
+<DIV id=headertop>
+<UL>
+  <LI><A title="City of Davis Homepage" accessKey=1 
+  href="http://cityofdavis.org/">City of Davis, CA</A> 
+  </LI>
+</UL>
+</DIV>
+<DIV id=headermid>
+<DIV id=headertitle>Employment Opportunities</DIV></DIV>
+<DIV id=headerbottom>
+<DIV id=links>
+<UL>
+  
+  <LI><A title="HR Home" href="http://administrative-services.cityofdavis.org/human-resources-and-risk-management">Human Resources
+      Home</A>  
+</UL>
+</DIV></DIV></DIV>
+<DIV id=container>
+<DIV id=side style="top:0ppx; left:0px;margin-top:0px;"><img src="/agencypageassets/davis/LeftSide.gif"/></DIV>
+<DIV id=content>
+
+<H2>
+
+   			Current Openings
+		
+</H2>
+ 
+
+	
+	<a id="gjmaincontent"></a>
+
+	<div style="margin:0 auto;width:100%%;">
+		<table width="100%" border="0" cellspacing="1" cellpadding="4" summary="">
+			<tr>
+				<td class="tblbordbot PoweredByCell" style="width:100%;text-align:right;"><img src="/images/poweredby.gif" width="103" height="30" alt="Powered by NEOGOV" longdesc="/images/longDesc/poweredBy.html" style="border:none;"/></td>
+			</tr>
+		</table>
+	</div>
+
+	<div style="margin:0 auto;">
+	<table width="100%" border="0" cellspacing="1" cellpadding="4" summary="Job Information">
+	
+			<tr>
+				<th scope="row" class="jobinfo" style="width:40%;white-space:nowrap;">Job Title:</th>
+				<td class="maroon">
+					Human Resources Analyst I/II
+				</td>
+			</tr>
+
+			
+			<tr>
+				<th scope="row" class="jobinfo" style="width:40%;white-space:nowrap;">Closing Date/Time:</th>
+				<td>
+					Wed. 10/18/17 5:00 PM Pacific Time 
+				</td>
+			</tr>
+			
+			<tr>
+				<th scope="row" class="jobinfo" valign="top">Salary:</th>
+				<td>
+
+						$31.07 - $47.77 Hourly<br />
+											$2,485.27 - $3,821.41 Biweekly<br />
+											$5,384.76 - $8,279.72 Monthly<br />
+											$64,617.07 - $99,356.61 Annually <br />
+							
+					
+				</td>
+			</tr>
+			
+				<tr>
+					<th scope="row" class="jobinfo">Job Type:</th>
+					<td>Full-time</td>
+				</tr>
+			
+			<tr>
+				<th scope="row" class="jobinfo">Location:</th>
+				<td>
+					Davis, California
+				</td>
+			</tr>
+
+			
+			
+			
+
+
+
+		<tr>
+			<td colspan="2" class="tblbordtop">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+	
+	
+		<div class="classSpecLinksContainer" style="margin-right:0%;">
+			
+					<a class="applyonline gjbulletinlink" href="job_bulletin.cfm?JobID=1866419" target="_blank" title="This link will open in a new window.">Print Job Information</a> |
+				
+					<a class="applyonline gjapplylink" href="https://www.governmentjobs.com/jobs/1866419/Human%20Resources%20Analyst%20III/Agency/davis/apply" >Apply</a>
+				
+			&nbsp;
+		</div>
+		<br />
+
+		
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" style="margin:0 auto;">
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<th align="left" class="gjTabRow" id="viewJobDescription">
+					
+					<div class="tabArea">
+						<a class="tab activeTab" href="http://agency.governmentjobs.com/davis/default.cfm?action=viewjob&amp;JobID=1866419&amp;headerfooter=1&amp;WDDXJobSearchParams=">Description</a><span class="tabAreaSmall">&nbsp;</span>
+						
+						
+							<a class="tab " href="http://agency.governmentjobs.com/davis/default.cfm?action=viewjob&amp;JobID=1866419&amp;ViewBenefits=Yes&amp;headerfooter=1&amp;WDDXJobSearchParams=">Benefits</a><span class="tabAreaSmall">&nbsp;</span>
+						
+							<a class="tab " href="http://agency.governmentjobs.com/davis/default.cfm?action=viewjob&amp;JobID=1866419&amp;ViewSupp=Yes&amp;headerfooter=1&amp;WDDXJobSearchParams=">Supplemental Questions</a>
+						
+					</div>
+					<div class="tabMain">&nbsp;</div>
+				</th>
+			</tr>
+			
+				<tr>
+					<td class="jobdetail" headers="viewJobDescription">A City of Davis online application must be submitted to be considered for this position.&nbsp; Paper applications will not be accepted.&nbsp; To apply, please visit <a href="http://www.cityofdavis.org/jobs">www.cityofdavis.org/jobs</a><br><br>DEFINITION<br><br>To provide responsible professional, administrative and technical assistance in the development, administration and implementation of the city's human resources management including payroll and benefit administration, risk management, workers compensation, labor relations, classification/compensation, and recruitment and selection; and to assist in basic office management functions such as developing and monitoring a division budget, administration of contracts, and monitoring and administering special HR related projects or grants.<br><br>DISTINGUISHING CHARACTERISTICS<br><br><u>Human Resources Analyst I</u> - This is the entry level class in the Human Resources Analyst series.&nbsp; Positions at this level are distinguished from the II level by the performance of less than the full range of duties as assigned to the full journey level class within the series.&nbsp; Incumbents at this level typically have related work experience but are unfamiliar with the functions, operations and procedures of the City of Davis human resources office.&nbsp;<br><br><u>Human Resources Analyst II</u> - This is the full journey level class in the Human Resources Analyst series.&nbsp; Positions at this level are distinguished from the I level by the performance of the full range of duties as assigned with minimal assistance or direction.&nbsp; Incumbents are thoroughly familiar with the operating procedures of the City of Davis human resources office, and possess&nbsp; technical expertise related to assigned programmatic responsibilities.&nbsp; Positions in this class are flexibly staffed and are normally filled by advancement from the I level.<br><br>SUPERVISION RECEIVED AND EXERCISED<br><br>Receives general direction from the Human Resources Director..<br>Exercises direct supervision over technical and clerical staff.<br /></td>
+				</tr>
+				
+					<tr>
+						<th class="jobheadings" id="examplesOfDuties">
+							&nbsp;Examples of Duties:
+						</th>
+					</tr>
+					
+					<tr>
+						<td class="jobdetail" headers="examplesOfDuties">EXAMPLES OF ESSENTIAL FUNCTIONS -<br><br>Essential functions may include, but are not limited to, the following:<br><br>Administer the classification, compensation, recruitment and selection programs.<br><br>May serve as staff to the city's Personnel Board and other commissions and committees as required; research and follow up in issues of interest to the Board.<br><br>Assist in the administration of the city's human resources including personnel policies, practices, and procedures; advise management and employees in their interpretation as necessary.<br><br>Participate in formulating, recommending, and coordinating the implementation of policies, rules, and practices for carrying out the personnel program.<br><br>Provide responsible, professional, and technical staff assistance relative to the city's human resource programs.<br><br>Conduct salary and benefit surveys.&nbsp;<br><br>Participate in the administration of the City's employee benefits program, including contract review and compliance, evaluation of program components and vendor effectiveness.<br><br>Process reclassification requests; conduct employee interviews and make recommendations.<br><br>Respond to complaints and requests for information from the public and city staff.<br><br>Meet with representatives of employee organizations, assist in negotiation preparation including costing proposals and related research.<br><br>Provide administrative support to the citywide safety committee; evaluate safety claims and makes recommendations.<br><br>Assist with oversight of the worker's compensation program.<br><br>Assist Finance with the budgeting system as it relates to human resources.<br><br>Monitor and maintain allocation schedules and salary schedules.<br><br>Reviews, audits and reconciles payroll, benefits, and other HR related financial reports; works with Information Services division to recommend and implement coding changes or system updates as needed.<br><br>Supervise payroll and leave of absence activities ensuring proper leave usage and general compliance with MOU's and Personnel Rules and Regulations.<br><br>Review and make recommendations relative to property and liability programs and insurance certificates; investigate claims and represent the City in small claims court as needed.<br><br>Oversee HRIS system related activities including creation, analysis and evaluation various reports, audits, research of issues, input of data, and compliance upkeep.<br><br>Ensure compliance with CalPERS reporting requirements.<br><br>Participate and assist with special projects related to the human resources department.<br><br>Maintain the city's personnel files.<br><br>Assist in basic office management functions.<br><br>Coordinate human resource activities with other city departments.<br><br>Prepare and maintain a variety of statistical records regarding the city's various human resource programs.<br><br>Prepare and administer the human resources office budget.<br><br>Supervise, train and evaluate assigned staff.<br><br>Represent the department to outside agencies and organizations; participate in outside community and professional groups and committees<br><br>Build and maintain positive working relationships with co-workers, other city employees and the public using principles of good customer service.<br><br>Attend meetings of the City Council, commissions and other groups as assigned.<br><br>Perform related duties as assigned.<br>&nbsp;<br /></td>
+					</tr>
+				
+					<tr>
+						<th class="jobheadings" id="typicalQualifications">
+							&nbsp;Typical Qualifications:
+						</th>
+					</tr>
+					<tr>
+						<td class="jobdetail" headers="typicalQualifications">MINIMUM QUALIFICATIONS<div>&nbsp;<br><strong><u>Human Resources Analyst I</u></strong><br><br><u>Knowledge of</u>:<br><br>Principles and practices of public human resources administration including payroll, risk management, benefits administration, classification and compensation, affirmative action, and recruitment and selection.<br><br>Use and application of HRIS/payroll/timekeeping systems.<br><br>Applicable federal, state, and local laws regulations, ordinances and policies of governing agencies.<br><br>Principles and practices of leadership, motivation, team building and conflict resolution.<br>&nbsp;<br>Principles and practices of supervision, training and performance evaluation.<br>&nbsp;&nbsp;&nbsp;<br><u>Ability to</u>:<br><br>On a continuous basis, analyze budget and technical reports; interpret and evaluate staff reports; know laws, regulations and codes; observe performance and evaluate staff; problem solve department related issues; remember various rules, policies and procedures; explain and interpret policy.<br>&nbsp;<br>Supervise, train and evaluate assigned staff.<br><br>Understand, interpret, and apply personnel rules and regulations.<br><br>Prepare and administer an office budget.<br>&nbsp;<br>Plan, organize and direct the activities of a public human resource system.<br>&nbsp;<br>Analyze problems, identify alternative solutions, project consequences of proposed actions and implement recommendations in support of goals.<br><br>Accurately prepare complex financial reports and analyses requiring strong math skills.<br><br>Effectively plan and coordinate workload and that of subordinate staff.<br><br>Communicate effectively with a wide variety of personalities and situations requiring diplomacy, tact, and firmness.<br>&nbsp;<br>Respond appropriately to difficult and sensitive matters; maintain confidentiality.<br><br>Communicate clearly and concisely, both orally and in writing.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>Establish and maintain effective working relationships with those contacted in the course of work.<br><br><u>Experience and Training</u><br><br>Any combination of experience and training that would likely provide the required knowledge and abilities is qualifying.&nbsp; A typical way to obtain the knowledge and abilities would be:<br><br><u>Experience</u>:<br><br>Two years increasingly responsible human resources experience.<br><br><u>Training</u>:<br><br>Equivalent to a Bachelor's degree from an accredited college or university with major course work in human resources, public administration, business administration or a related field.&nbsp; Master's degree in human resources desired; professional certifications will be considered in lieu of Master's degree.<br><br><u>License or Certificate</u><br><br>Must possess and maintain a valid California C driver's license and a satisfactory driving record.<br><br><br><u><strong>Human Resources Analyst II</strong></u><br><br>In addition to the qualifications for the Human Resources Analyst I:<br><br><u>Knowledge of</u>:<br><br>Applicable labor relation laws, methods and practices. &nbsp;Principles and practices of organization, administration, budget, and personnel management.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><u>Ability to</u>:<br><br>&nbsp;Exercise independent judgment in the solution of personnel problems.<br><br>&nbsp;<u>Experience and Training</u><br><br>Any combination of experience and training that would likely provide the required knowledge and abilities is qualifying.&nbsp; A typical way to obtain the knowledge and abilities would be:<br><br><u>Experience</u>:<br><br>Four years of responsible, journey level experience in administrative management similar to a Human Resources Analyst I with the city of Davis.<br><br><u>Training</u>:<br><br>Equivalent to a Bachelor's degree from an accredited college or university with major course work in human resources, public administration, business administration or a related field.&nbsp; Master's degree in human resources desired; professional certifications will be considered in lieu of Master's degree.<br><br><u>License or Certificate</u><br>&nbsp;<br>Must possess and maintain a valid California C driver's license and a satisfactory driving record.<br><br>&nbsp;</div><br /></td>
+					</tr>
+				
+					<tr>
+						<th class="jobheadings" id="supplementalInfo">
+							&nbsp;Supplemental Information:
+						</th>
+					</tr>
+					<tr>
+						
+						<td class="jobdetail" headers="supplementalInfo"><strong><u>PHYSICAL/SENSORY REQUIREMENTS</u></strong><br><br><strong>Physical Conditions:</strong><br>&nbsp;<br>On a continuous basis, sit at a desk; intermittently twist to reach equipment surrounding desk; perform simple and power grasping, pushing, pulling, and fine manipulation; write or use a keyboard to communicate and occasionally lift or carry weight of up to 25 pounds. Incumbents will travel to and participate in various meetings, programs and events throughout the city, which may involve exposure to traffic and weather conditions.<br><br>Requires effective audio-visual discrimination and perception needed for: Making observations, communicating with others, reading and writing, and operating assigned equipment and vehicles.<br><br><br><br>&nbsp;<br /></td>
+					</tr>
+				
+			<tr>
+			  	<td colspan="2" class="jobdetailbot">&nbsp;</td>
+			</tr>
+		</table>
+	
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"89019a8e50","agent":"","beacon":"bam.nr-data.net","applicationTime":32,"applicationID":"4449204","transactionName":"NlAGYxEFC0RWBhUIDQ8aN1IREglSQ0oiBw8yUBZBDwER","queueTime":0}</script> <BR clear=all>
+<BR clear=all>
+<BR clear=all>
+<BR class=clearboth></DIV></DIV>
+<DIV id=footer></DIV>
+<DIV id=city>
+<ADDRESS>City of Davis, California<BR>23 Russell Blvd.<BR>Davis, Ca. 
+95616<BR></ADDRESS></DIV></BODY></HTML>

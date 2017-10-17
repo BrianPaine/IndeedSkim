@@ -1,0 +1,389 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://staticchm.tbe.taleo.net/chm04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.core.css">
+<link type="text/css" rel="stylesheet" href="https://staticchm.tbe.taleo.net/chm04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.theme.css">
+<link type="text/css" rel="stylesheet" href="https://staticchm.tbe.taleo.net/chm04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.datepicker.css">
+<link type="text/css" rel="stylesheet" href="https://staticchm.tbe.taleo.net/chm04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.dialog.css">
+
+
+<style type="text/css">
+
+    select:focus, a:focus {
+        outline: #1e90ff solid 2px
+    }
+
+    input[type=submit] {
+        background: #00438C;
+    }
+
+    input[type=button] {
+        background: #00438C;
+    }
+
+    input[type=submit]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=button]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=submit]:focus {
+        background: #1e90ff;
+    }
+
+    input[type=button]:focus {
+        background: #1e90ff
+    }
+
+    .ui-dialog .ui-dialog-buttonpane {
+        text-align: right;
+    }
+
+    .ui-dialog .ui-dialog-buttonpane button {
+        float: none;
+    }
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+        /*border: 1px solid #000;*/
+        /*}*/
+
+</style>
+
+
+
+<style type="text/css">
+    .alert-error {
+        color: #990000;
+        font-weight: bold;
+    }
+
+    td.top {
+        vertical-align: top !important;
+    }
+
+    td.left {
+        float: none;
+        text-align: left;
+    }
+
+    td.right {
+        float: none;
+        text-align: right;
+    }
+
+    .nowrapFormLabel {
+        white-space: nowrap;
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 120%
+    }
+
+    h2 {
+        font-size: 110%
+    }
+
+    h3 {
+        font-size: 100%
+    }
+
+    .hidden-accessibility-text {
+        position: absolute;
+        left: -2000px;
+        top: 0;
+        width: 1;
+        height: 1;
+        overflow: hidden;
+        font-size: 0.1em;
+    }
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+    .ofcc305table textfield, .ofcc305table select,
+    .ofcc305table input, .ofcc305table a {
+        font-size:12px !important;
+        font-family:Arial,sans-serif,Helvetica !important;
+    }
+
+    #cws-search-results th, #cws-job-alerts th {
+        border-top: #CCCCCC 2px solid;
+        border-bottom: #CCCCCC 2px solid;
+    }
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+        border-bottom: #CCCCCC 2px solid;
+        padding-bottom: 3px;
+    }
+</style>
+
+<html lang='en'><head><title>Career Opportunities</title></head><body>
+<STYLE type="text/css">
+body {
+font-family: Verdana;
+font-size: 11px;
+font-style: normal;
+font-weight: normal;
+}
+TD, TH {
+font-family: Verdana;
+font-size: 11px;
+font-style: normal;
+font-weight: normal;
+}
+textarea {font-family:Verdana; font-size:10px;}
+textfield {font-family:Verdana; font-size:10px;}
+select {font-family:Verdana; font-size:10px;}
+input {font-family:Verdana; font-size:10px;}
+</STYLE>
+<script type='text/javascript' src="https://staticchm.tbe.taleo.net/chm04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/tbe-basic-cws.js"></script>
+<script type='text/javascript' src="https://staticchm.tbe.taleo.net/chm04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/engine.js"></script>
+<script type='text/javascript' src="https://staticchm.tbe.taleo.net/chm04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/interface/CwsDWRFacade.js"></script>
+<script type='text/javascript'> CwsDWRFacade._path = 'http://chm.tbe.taleo.net/chm04/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; </script>
+<script type="text/javascript">
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchm.tbe.taleo.net/chm04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chm.tbe.taleo.net/chm04/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chm.tbe.taleo.net/chm04/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();</script>
+
+
+
+
+
+
+<table border=0 cellspacing=0 cellpadding=2 width='100%' role='presentation'>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'></td></tr><tr><td colspan=2><h1>Junior Data Analyst</h1></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Location:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>Overland Park, KS</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Job Code:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>207-2017K</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'># of Openings:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>1</b></td>
+</tr>
+<tr>
+<tr><td colspan=2><hr width='100%' size='1' color='silver'></td></tr>
+<tr><td colspan=2><h1>Description</h1></td></tr>
+<tr><td colspan=2><p style="text-align: center;"><span style="font-size: 14px;"><strong><em>Zelis is a healthcare information technology company and market-leading provider of end-to-end healthcare claims cost management and payment solutions.</em></strong></span></p>
+
+<p style="text-align: justify;">&nbsp;</p>
+
+<p style="text-align: justify;"><span style="font-family: arial , helvetica , sans-serif;"><strong><span lang="EN" style="color: rgb(51, 51, 51); text-transform: uppercase; font-size: 10pt;">COMPANY BACKGROUND/CULTURE</span></strong></span></p>
+
+<p>Zelis Healthcare is an information technology company which utilizes an end-to-end technology platform to fulfill the claims cost management and payments needs of healthcare payors including large and medium-sized health plans, TPAs, Taft-Hartley Plans, providers and individuals.&nbsp; The company provides a comprehensive portfolio of network management, claims integrity, payment remittance solutions and analytical services for medical, dental and workers&#39; compensation claims to over 500 payor clients.&nbsp; Additionally, the company delivers electronic payments and explanation of payments to over 200,000 healthcare providers and serves individuals with provider lookup and medical referral services.</p>
+
+<p><span style="font-family: arial , helvetica , sans-serif;"><strong><span lang="EN" style="color: rgb(51, 51, 51); text-transform: uppercase; font-size: 10pt;">Position Overview</span></strong></span></p>
+
+<p>The Junior Data Analyst must be able to work equally well in both technical and non-technical environments and effectively communicate technical information in a common, non-technical manner. &nbsp;This individual must work well in a fast paced, demanding environment; the ability to efficiently organize and prioritize projects and assignments to meet deadlines is essential to success.&nbsp; A background with healthcare IT is preferred but not required for this position.</p>
+
+<p style="text-align: justify;"><span style="font-family: arial , helvetica , sans-serif;"><b><span lang="EN" style="color: black; font-size: 10pt;">KEY RESPONSIBILITIES</span></b></span></p>
+
+<ul>
+	<li>Use internal SQL-based systems to import, process, and clean client-supplied data files in various formats</li>
+	<li>Use internal systems to gather and parse data from HTML documents</li>
+	<li>Work closely with client-facing team &ndash; requires good oral and written communication</li>
+	<li>Requires excellent QA skills to closely review post processed data to ensure data accuracy and integrity</li>
+</ul>
+
+<p style="text-align: justify;"><strong><em>PROFESSIONAL EXPERIENCE/QUALIFICATIONS</em></strong></p>
+
+<ul>
+	<li>Associates minimum / Bachelor&rsquo;s preferred</li>
+	<li>Experience working with data and databases</li>
+	<li>Experience in MSSQL, Access, or any other relational database system.</li>
+	<li>Basic familiarity with HTML. Knowledge of JavaScript a plus.</li>
+</ul>
+
+<p style="text-align: justify;"><span style="font-family: arial , helvetica , sans-serif;"><b><span lang="EN" style="color: black; font-size: 10pt;">COMPENSATION:</span></b></span></p>
+
+<p style="margin: 0in 0in 0pt; line-height: normal;"><span style="color: black; font-family: Helvetica , sans-serif; font-size: 10pt;">An attractive compensation package as well as comprehensive benefits plans are available to attract outstanding candidates.</span></p>
+
+<p style="margin: 0in 0in 0pt;">&nbsp;</p>
+
+<p style="margin: 0in 0in 0pt;"><span style="font-family: arial , helvetica , sans-serif;"><span lang="EN" style="color: rgb(51, 51, 51); font-size: 10pt;">&nbsp;</span></span></p>
+
+<p style="margin: 0in 0in 0pt;"><span style="font-family: arial , helvetica , sans-serif;"><b><span lang="EN" style="color: rgb(51, 51, 51); font-size: 10pt;">Thank you for your interest in the Zelis team!</span></b></span></p>
+
+<p style="margin: 0in 0in 8pt;"><font color="#000000" face="Calibri" size="3">&nbsp;</font></p></td></tr>
+</tr>
+<tr>
+<tr><td class='left'><br>
+<form action='http://chm.tbe.taleo.net/chm04/ats/careers/apply.jsp;jsessionid=CC7C287A2493D259AAB4CF159ACC22F5?org=PHXONLINE&cws=1&rid=762' method='post' name='apply'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='org' value='PHXONLINE'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='_csrf' value='v1:;1507571542657:;c3OO7rGFDqsNerbzQFYB1Ede08zampr9b61w/2bJucg=' /><input type='submit' name='tbe_cws_submit' value='Apply for this Position' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="8"></form></td>
+</td>
+<td align='right' colspan=1><br>
+<form action='http://chm.tbe.taleo.net/chm04/ats/careers/email.jsp;jsessionid=CC7C287A2493D259AAB4CF159ACC22F5?org=PHXONLINE&cws=1' method='post' name='send'>
+<input type='hidden' name='org' value='PHXONLINE'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='rid' value='762'>
+<input type='hidden' name='_csrf' value='v1:;1507571542657:;c3OO7rGFDqsNerbzQFYB1Ede08zampr9b61w/2bJucg=' /><input type='submit' name='tbe_cws_submit' value='Send to a Friend' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="9"></form>
+</td></tr>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br></td>
+</tr>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'>
+<h1><span class='head1'>Are you a returning applicant?</span></h1></td>
+</tr>
+<tr>
+<form action='http://chm.tbe.taleo.net/chm04/ats/careers/applyModal.jsp;jsessionid=CC7C287A2493D259AAB4CF159ACC22F5?org=PHXONLINE&cws=1' method='post' name='TBE_theForm'>
+<input type='hidden' name='org' value='PHXONLINE'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='rid' value='762'>
+<input type='hidden' name='currentTime' value='1507571542657'>
+<input type='hidden' name='signature' value='YKQnKPcIdWBdQEjB4EhSelMtlQNap3UfPgc+rMzJAaI='>
+<input type='hidden' name='et' value='CAND'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='_csrf' value='v1:;1507571542657:;c3OO7rGFDqsNerbzQFYB1Ede08zampr9b61w/2bJucg=' /><tr><td colspan=2>
+<table border=0 cellpadding=2 cellspacing=0 role="presentation"><tr>
+<td nowrap colspan=2>Previous Applicants:</td>
+</tr>
+<tr>
+<td nowrap align='right'><label for='email'>Email:</label></td>
+<td class='nowrap'><input type='text' id='email' name='email' maxlength=50 autocomplete='off' tabindex='22'></td>
+</tr>
+<input type='text' style='display:none'>
+<input type='password' style='display:none'>
+<tr>
+<td nowrap align='right'><label for='cwsPassword'>Password:</label></td>
+<td class='nowrap'><input type='password' id='cwsPassword' name='cwsPassword' maxlength=30 autocomplete='off' tabindex='23'></td>
+</tr>
+<tr><td nowrap colspan=2>
+<input type='submit' name='tbe_cws_submit' value='Add to My Jobs' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="24"></td></tr>
+<tr><td nowrap colspan=2><br>
+If you do not remember your password <a href='http://chm.tbe.taleo.net/chm04/ats/careers/forgotID.jsp?org=PHXONLINE&cws=1' tabIndex='25'>click here</a>.<br><br></td></tr>
+</table>
+</td></tr></form>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='28' href='http://chm.tbe.taleo.net/chm04/ats/careers/searchResults.jsp;jsessionid=CC7C287A2493D259AAB4CF159ACC22F5?org=PHXONLINE&cws=1' title='Back to Search Results' >Back to Search Results</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='29' href='http://chm.tbe.taleo.net/chm04/ats/careers/jobSearch.jsp;jsessionid=CC7C287A2493D259AAB4CF159ACC22F5?org=PHXONLINE&cws=1&rid=762' title='New Search' >New Search</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br><div align='right'><img src='http://tbe.taleo.net/graphics/Taleo_powered_by_small.gif' alt='Powered By Taleo' border='0'></div><br><br></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        //jQuery Calendar
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchm.tbe.taleo.net/chm04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+    </script>
+
+</body></html>
+
+
+

@@ -1,0 +1,757 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html><html lang="en-US">
+<head>
+<script type="text/javascript">
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+
+document.cookie = "jsEnabled=true;path=/";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+
+if (icimsWindow) {
+try {
+
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+
+try {
+
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+
+}
+</script>
+<title>Careers Center - Data Analyst</title>
+
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script><link rel="stylesheet" type="text/css" href="https://careers-youthvillages.icims.com/hostedcontent/platform_103.1.170929.1506726811/css/fonts.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn01.icims.com/platform_103.1.170929.1506726811/provider.icims.com/staticcontent/css/social-portal.css" />
+<link rel="stylesheet" type="text/css" href="https://cdn01.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/css/icims.blue.css" data-theme-dark="https://cdn01.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/css/icims.dark.css" data-theme-light="https://cdn01.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/css/icims.blue.css" id="theme-icims" />
+<link rel="stylesheet" type="text/css" href="https://cdn01.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/css/bootstrap.blue.css" data-theme-dark="https://cdn01.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/css/bootstrap.dark.css" data-theme-light="https://cdn01.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/css/bootstrap.blue.css" id="theme-bootstrap" />
+<link rel="stylesheet" type="text/css" href="https://cdn01.icims.com/platform_103.1.170929.1506726811/youthvillages.icims.com/icims2/servlet/icims2?module=AppInert&action=renderDynamicPortalCss&a=0&portal=17&page=new_job&group=new_base%2Cnew_job_card%2Csocial_distro_widget&asv=1507368986399&type=adaptive" />
+<script type="text/javascript" src="https://cdn07.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/lib/jquery/jquery-1.11.2.js"></script>
+<script type="text/javascript" src="https://cdn07.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/lib/domreplacement/domReplacement.js"></script>
+<script type="text/javascript" src="https://cdn07.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/common/icims.js"></script>
+<script type="text/javascript" src="https://cdn07.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/portal/utils.js"></script>
+<script type="text/javascript" src="https://cdn03.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/portal/dataLayer/apply.js"></script>
+<script type="text/javascript" src="https://cdn03.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/portal/dataLayer/youtube.js"></script>
+<script type="text/javascript" src="https://cdn03.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/portal/dataLayer/vimeo.js"></script>
+<script type="text/javascript" src="https://cdn03.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/portal/job.js"></script>
+<script type="text/javascript" src="https://cdn05.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/icims.application.js"></script>
+<meta name="viewport" content="width=device-width">
+<meta name="format-detection" content="telephone=no">
+<script type="text/javascript">
+var isMobile = false;
+
+var redirectUrl = 'https:\/\/careers-youthvillages.icims.com\/jobs\/1256\/data-analyst\/job?in_iframe=1&mode=job&iis=Job+Board&iisn=Indeed.com';
+</script>
+<script type="text/javascript" src="https://cdn07.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/portal/mobileDetect.js"></script>
+<meta name="robots" content="index,follow" />
+<meta name="og:url" content="https://careers-youthvillages.icims.com/jobs/1256/data-analyst/job?mobile=true&needsRedirect=false" />
+<meta property="keywords" content="Data Analyst,job,jobs,job search,job match,job matching,employment,employment opportunities,job openings,job sites,job listings,find a job,career,manager,director,executive,recruiters,jobmagic.com,jobmagic,iCIMS,iCIMS.com,social.icims.com,Social,Distribution" />
+<meta property="twitter:card" content="summary" />
+
+<meta property="og:title" content="Data Analyst" />
+<meta property="twitter:title" content="Data Analyst" />
+<meta property="title" content="Data Analyst" />
+
+
+<meta property="og:description" content="Company Overview
+Youth Villages has been a national leader in the implementation of research-based treatment philosophies in the field of children&#039;s mental and behavioral health. Our commitment to helping troubled children and their families find success spans 20+ years and includes a comprehensive array of programs and services.
+ 
+If you are looking for a positive career move where you are meeting the challenges of life and striving to make a positive difference, then Youth Villages is the place for you. We are looking for people with a strong sense of purpose and focus to continually build confidence in yourself and our organization." />
+<meta property="twitter:description" content="Company Overview
+Youth Villages has been a national leader in the implementation of research-based treatment philosophies in the field of children&#039;s mental and behavioral health. Our commitment to helping troubled children and their families find success spans 20+ years and includes a comprehensive array of programs and services.
+ 
+If you are looking for a positive career move where you are meeting the challenges of life and striving to make a positive difference, then Youth Villages is the place for you. We are looking for people with a strong sense of purpose and focus to continually build confidence in yourself and our organization." />
+<meta property="description" content="Company Overview
+Youth Villages has been a national leader in the implementation of research-based treatment philosophies in the field of children&#039;s mental and behavioral health. Our commitment to helping troubled children and their families find success spans 20+ years and includes a comprehensive array of programs and services.
+ 
+If you are looking for a positive career move where you are meeting the challenges of life and striving to make a positive difference, then Youth Villages is the place for you. We are looking for people with a strong sense of purpose and focus to continually build confidence in yourself and our organization." />
+
+
+<meta property="og:site_name" content="careers" />
+
+
+<meta property="og:image" content="https://youthvillages.icims.com/icims2/servlet/icims2?module=AppInert&amp;amp;action=download&amp;amp;id=9&amp;amp;hashed=-1937738558" />
+<meta property="twitter:image" content="https://youthvillages.icims.com/icims2/servlet/icims2?module=AppInert&amp;amp;action=download&amp;amp;id=9&amp;amp;hashed=-1937738558" />
+
+<link rel="canonical" href="https://careers-youthvillages.icims.com/jobs/1256/data-analyst/job" />
+<link rel="alternate" media="only screen and (max-width: 767px)"
+href="https://careers-youthvillages.icims.com/jobs/1256/data-analyst/job?mobile=true&needsRedirect=false" />
+
+
+
+
+
+
+
+<script type="text/javascript"> var link = 'https://careers-youthvillages.icims.com/connect/interests?csrf=0F86C73AF6ECFAD7&in_iframe=1&hashed=-435621526'; </script>
+
+<script type="text/javascript">
+var _c2a = _c2a || [];
+
+
+
+_c2a.push(['View', '1256', null, 'Data Analyst']);
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+(function () {
+var initialize = function() {
+// Require _c2a object
+if(typeof _c2a === 'undefined') return;
+// Prevent multiple initializations
+if(typeof _c2a === 'object' && _c2a.initialized === true) return;
+var pendingCommands = _c2a || [];
+var i = 0;
+var commandHandler = {
+initialized: true,
+push: function(arr) {
+try {
+if(typeof Click2Apply === 'object' && Object.prototype.toString.call(arr) === '[object Array]') {
+var eventName = arr[0];
+var s_jobId = arr[1];
+var s_userId = arr[2];
+var s_title = arr[3];
+switch (eventName) {
+case "View":
+Click2Apply.analytics.View({
+jobid: s_jobId,
+title: s_title
+});
+break;
+case "Start":
+Click2Apply.analytics.Start({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+case "Apply":
+Click2Apply.analytics.Apply({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+}
+}
+} catch (e){};
+}
+}
+for(i=0; i < pendingCommands.length; i++) {
+commandHandler.push(pendingCommands[i]);
+}
+_c2a = commandHandler;
+}
+var loadScript = function () {
+var c2a = document.createElement('script'),
+scriptElem = document.getElementsByTagName('script')[0],
+scriptUrl = 'https://code.click2apply.net/js/1.0/click2apply.js?',
+atsId = '1043',
+recruiterId = '';
+c2a.type = 'text/javascript';
+c2a.async = true;
+c2a.src = scriptUrl + (recruiterId ? 'recruiter_id=' + recruiterId : 'ats_id=' + atsId);
+if (c2a.readyState) { // IE.
+c2a.onreadystatechange = function() {
+if (c2a.readyState == "loaded" || c2a.readyState == "complete") {
+c2a.onreadystatechange = null;
+initialize();
+};
+};
+} else { // Others.
+c2a.onload = initialize;
+}
+scriptElem.parentNode.insertBefore(c2a, scriptElem);
+};
+if (window.addEventListener) {
+window.addEventListener('load', loadScript, false);
+} else if (window.attachEvent) {
+window.attachEvent('onload', loadScript);
+} else if (typeof window.onload === 'function'){
+var originalOnload = window.onload;
+window.onload = function() {
+originalOnload();
+loadScript();
+}
+} else {
+window['onload'] = loadScript;
+}
+})();
+</script>
+
+
+
+<script type="text/javascript">
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn07.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/portal/login.js');
+var jobId = "1256";
+
+
+var icimsSD = {"person":{},"companyName":"Youth Villages","env":"prod","job":{"zipCode":"38133","jid":1256,"jobUrls":[{"name":"careers","url":"https://careers-youthvillages.icims.com/jobs/1256/data-analyst/job"}],"location":"Memphis, Tennessee, United States","title":"Data Analyst"},"version":"1.015","key":"2","cid":"IIalSDAbJ1tafGh6PMHF6YOIqBZiWtFnxIPzlWAdQksT5bD7huB1Oa4Uc9Mj"};
+var isWidgetLoaded = false;
+window.mobile = false;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+
+</script><script type="text/javascript" src="https://cdn05.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/messageformat/messageformat.js"></script>
+<script type="text/javascript" src="https://cdn05.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/messageformat/locale/en.js"></script>
+<script type="text/javascript">
+
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+
+ResourceBundle.prototype.get = function(message, variables) {
+if (typeof(resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof(resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+</script>
+<script type="text/javascript">
+function icims_resizeIFrameHeight() {
+
+icims_resizeIFrame('https://careers-youthvillages.icims.com');
+
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-youthvillages.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+icims_resizeIFrameHeight();
+
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i < errorMsg.length; i++) {
+if (errorMsg[i].offsetHeight > 0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+
+if (icimsWindow) {
+var bodyTag = window.parent.document.getElementsByTagName('body')[0];
+var skipLink = window.parent.document.getElementById('icims_skiplink');
+if (bodyTag && !skipLink) {
+skipLink = document.createElement('a');
+skipLink.textContent = 'Skip to Content';
+skipLink.setAttribute('id', 'icims_skiplink');
+skipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+skipLink.setAttribute('href', '#icims_content_iframe');
+if (bodyTag.firstElementChild) {
+bodyTag.insertBefore(skipLink, bodyTag.firstElementChild);
+} else {
+bodyTag.appendChild(skipLink);
+}
+}
+}
+
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+
+});
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+
+icimsAddOnload(function() {
+try {
+if (icimsWindow && parent) {
+parent.document.title = document.title;
+}
+} catch (e) {}
+});
+</script>
+</head>
+<body class="iCIMS_Body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id="
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');</script>
+<!-- End Google Tag Manager -->
+<script type="application/ld+json">{"hiringOrganization":{"@type":"Organization","name":"Youth Villages","sameAs":"www.youthvillages.org"},"jobLocation":[{"address":{"addressCountry":"US","@type":"PostalAddress","addressLocality":"Memphis","addressRegion":"TN"},"@type":"Place"}],"@type":"JobPosting","description":"<h1>Overview<\/h1>\n<p><strong>Company Overview<\/strong>Youth Villages has been a national leader in the implementation of research-based treatment philosophies in the field of children's mental and behavioral health. Our commitment to helping troubled children and their families find success spans 20+ years and includes a comprehensive array of programs and services.<\/p>\n<p>&nbsp;<\/p>\n<p>If you are looking for a positive career move where you are meeting the challenges of life and striving to make a positive difference, then Youth Villages is the place for you. We are looking for people with a strong sense of purpose and focus to continually build confidence in yourself and our organization. <\/p>\n<h1>Responsibilities<\/h1>\n<p><strong>Position Summary<\/strong><\/p>\n<p>Use SQL, SPSS, Excel, and PowerPoint to create/update reports on demographics, program participation, and outcomes for various internal and external customers.&nbsp;&nbsp;Compile and analyze data from electronic medical records database in response to ad hoc requests by internal and external customers.&nbsp;Create presentations based on customer\u2019s needs/requirements.&nbsp;&nbsp;Complete descriptive analysis for projects as directed; work with Research Statistician on multivariate analysis as needed.&nbsp;<\/p>\n<p><strong>Position Specific Competencies<\/strong><\/p>\n<p>&nbsp;<\/p>\n<p><strong>Analytical Thinking<\/strong><\/p>\n<p>Breaks down problems and issues into sub-components and then assesses the costs, benefits and risks of various options prior to selecting a particular approach.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Innovative Thinking<\/strong><\/p>\n<p>Looks out for new and innovative approaches that will improve efficiency. Embraces and champions new ideas and encourages others to do likewise. Recognizes and rewards people and teams who are creative and innovative.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Strategic Thinking<\/strong><\/p>\n<p>Can analyze organizational strengths and weaknesses and then combine these with knowledge of the field, market and organization to develop long-term strategy.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Dependability<\/strong><\/p>\n<p>Makes and fulfills commitments. Has established a pattern of working independently, meeting reasonable deadlines, and accepting responsibility for his or her actions. Willingly makes promises and fully intends to keep them. Arrives at work on time and ready to contribute. Shows up for meetings well-prepared. Works with accuracy and efficiency.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Flexibility<\/strong><\/p>\n<p>Adjusts quickly and effectively to changing conditions and demands. Discusses change as a necessary and inevitable aspect of organizational life as well as an opportunity to learn new things.&nbsp; Has a similar view and approach to potentially stressful situations.<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Work Ethic<\/strong><\/p>\n<p>Is keenly aware of the time frame in which tasks or projects need to be done. Accepts and mirrors the level of urgency conveyed by manager or customer being served. Puts first priority on the needs of the organization or the needs of its customers.<\/p>\n<h1>Qualifications<\/h1>\n<p><strong>Education Requirements<\/strong><\/p>\n<p>Master\u2019s degree in social or physical science or a data-related business field from an accredited university and one or two years related experience, or equivalent combination of education and experience<\/p>\n<p>&nbsp;<\/p>\n<p><strong>Experience Requirements<\/strong><\/p>\n<p>Competency in research methods required, as is experience with data management and analysis.<\/p>\n<p>Knowledge of SPSS, R, and/or SQL is preferred.&nbsp;<\/p>\n<p>Knowledge of Youth Villages\u2019 programs is helpful.<\/p>\n<p>&nbsp;<\/p>\n<p>Experience growth and development through our continuous training, as well as tuition and licensure reimbursement, or pursue opportunities to advance both clinically and administratively with Youth Villages.<\/p>\n<p>&nbsp;&nbsp;<\/p>\n<p><strong>Additional Benefits<\/strong>Medical, Dental, Prescription Drug Coverage and VisionRetirement Savings Pension Plan403 (b)2 weeks paid vacation12 paid sick days per year10&nbsp;paid holidaysMileage &amp; Cell Phone Reimbursement (when applicable)<\/p>\n<p>EOE<\/p>","@id":"1256","datePosted":"2017-09-29T04:00:00.000Z","title":"Data Analyst","occupationalCategory":"Administrative/Corporate","@context":"http://schema.org"}</script>
+<script type="text/javascript">
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+</script>
+<div id="iCIMS_NoCookiesMessage" class="iCIMS_ErrorMsg iCIMS_ErrorMessage iCIMS_NoCookies" style="display: none">
+<div class="iCIMS_ErrorMsgTitle">Please Enable Cookies to Continue</div>
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.</div>
+
+<!-- Job Core -->
+
+<div class="iCIMS_MainWrapper iCIMS_JobPage iCIMS_Desktop ">
+
+
+
+
+<div class="iCIMS_TopHeader">
+<div class="iCIMS_BackToWelcome">
+<div class="iCIMS_Navigation">
+
+
+<div class="iCIMS_NavigationIconContainer">
+<a class="iCIMS_Anchor_Nav" href="https://careers-youthvillages.icims.com/jobs/intro?in_iframe=1">
+<span class="halflings halflings-menu-left"></span><span class="iCIMS_NavigationText">Welcome page</span>
+</a>
+</div>
+
+</div>
+</div>
+<div class="icims-user-profile text-right">
+<div class="iCIMS_profilePicture">
+<div class="iCIMS_userMenu">
+<div class="iCIMS_userMenuName">Returning Candidate?</div>
+<div class="iCIMS_userMenuLink">
+<a href="https://careers-youthvillages.icims.com/jobs/1256/data-analyst/login?loginOnly=1&amp;redirect=job&amp;in_iframe=1&amp;hashed=-435621526">Log back in!</a>
+</div>
+</div>
+<div class="iCIMS_FloatHack"></div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="iCIMS_JobContainer">
+<div class="iCIMS_JobContent">
+
+
+<div class="container-fluid iCIMS_JobsTable">
+<div class="row">
+<div class="col-xs-12 title">
+<h1 class="iCIMS_Header">
+Data Analyst</h1>
+</div>
+<div class="col-xs-12 additionalFields">
+<dl class="iCIMS_JobHeaderGroup" >
+<dt class="iCIMS_JobHeaderField">
+Requisition ID</dt>
+<dd class="iCIMS_JobHeaderData">
+2017-1256</dd>
+</dl><dl class="iCIMS_JobHeaderGroup" >
+<dt class="iCIMS_JobHeaderField">
+Job Locations</dt>
+<dd class="iCIMS_JobHeaderData">
+TN-Memphis</dd>
+</dl><dl class="iCIMS_JobHeaderGroup" >
+<dt class="iCIMS_JobHeaderField">
+Program</dt>
+<dd class="iCIMS_JobHeaderData">
+Administrative/Corporate</dd>
+</dl><dl class="iCIMS_JobHeaderGroup" >
+<dt class="iCIMS_JobHeaderField">
+Relocation Assistance</dt>
+<dd class="iCIMS_JobHeaderData">
+No</dd>
+</dl><dl class="iCIMS_JobHeaderGroup" >
+<dt class="iCIMS_JobHeaderField">
+Position Type</dt>
+<dd class="iCIMS_JobHeaderData">
+Full-Time/Regular</dd>
+</dl></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 class="iCIMS_InfoMsg iCIMS_InfoField_Job">
+
+
+
+Overview
+
+
+</h2>
+
+
+
+<div class="iCIMS_InfoMsg iCIMS_InfoMsg_Job" >
+<div class="iCIMS_Expandable_Container">
+<div class="iCIMS_Expandable_Text">
+<p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Company Overview</span></strong><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Youth Villages has been a national leader in the implementation of research-based treatment philosophies in the field of children's mental and behavioral health. Our commitment to helping troubled children and their families find success spans 20+ years and includes a comprehensive array of programs and services.</span></p><p style="margin: 0px;">&nbsp;</p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">If you are looking for a positive career move where you are meeting the challenges of life and striving to make a positive difference, then Youth Villages is the place for you. We are looking for people with a strong sense of purpose and focus to continually build confidence in yourself and our organization. </span></p>
+<div id="iCIMS_Expandable_Button"></div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<h2 class="iCIMS_InfoMsg iCIMS_InfoField_Job">
+
+
+
+Responsibilities
+
+
+</h2>
+
+
+
+<div class="iCIMS_InfoMsg iCIMS_InfoMsg_Job" >
+<div class="iCIMS_Expandable_Container">
+<div class="iCIMS_Expandable_Text">
+<p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Position Summary</span></strong></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Use SQL, SPSS, Excel, and PowerPoint to create/update reports on demographics, program participation, and outcomes for various internal and external customers.&nbsp;</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Compile and analyze data from electronic medical records database in response to ad hoc requests by internal and external customers.</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Create presentations based on customer&rsquo;s needs/requirements.&nbsp;</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Complete descriptive analysis for projects as directed; work with Research Statistician on multivariate analysis as needed.</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span></p><p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Position Specific Competencies</span></strong></p><p style="margin: 0px;">&nbsp;</p><p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Analytical Thinking</span></strong></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Breaks down problems and issues into sub-components and then assesses the costs, benefits and risks of various options prior to selecting a particular approach.</span></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span></p><p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Innovative Thinking</span></strong></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Looks out for new and innovative approaches that will improve efficiency. Embraces and champions new ideas and encourages others to do likewise. Recognizes and rewards people and teams who are creative and innovative.</span></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span></p><p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Strategic Thinking</span></strong></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Can analyze organizational strengths and weaknesses and then combine these with knowledge of the field, market and organization to develop long-term strategy.</span></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span></p><p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Dependability</span></strong></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Makes and fulfills commitments. Has established a pattern of working independently, meeting reasonable deadlines, and accepting responsibility for his or her actions. Willingly makes promises and fully intends to keep them. Arrives at work on time and ready to contribute. Shows up for meetings well-prepared. Works with accuracy and efficiency.</span></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span></p><p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Flexibility</span></strong></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Adjusts quickly and effectively to changing conditions and demands. Discusses change as a necessary and inevitable aspect of organizational life as well as an opportunity to learn new things.&nbsp; Has a similar view and approach to potentially stressful situations.</span></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span></p><p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Work Ethic</span></strong></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Is keenly aware of the time frame in which tasks or projects need to be done. Accepts and mirrors the level of urgency conveyed by manager or customer being served. Puts first priority on the needs of the organization or the needs of its customers.</span></p>
+<div id="iCIMS_Expandable_Button"></div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<h2 class="iCIMS_InfoMsg iCIMS_InfoField_Job">
+
+
+
+Qualifications
+
+
+</h2>
+
+
+
+<div class="iCIMS_InfoMsg iCIMS_InfoMsg_Job" >
+<div class="iCIMS_Expandable_Container">
+<div class="iCIMS_Expandable_Text">
+<p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Education Requirements</span></strong></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Master&rsquo;s degree in social or physical science or a data-related business field from an accredited university and one or two years related experience, or equivalent combination of education and experience</span></p><p style="margin: 0px;">&nbsp;</p><p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Experience Requirements</span></strong></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Competency in research methods required, as is experience with data management and analysis.</span></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Knowledge of SPSS, R, and/or SQL is preferred.&nbsp;</span></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Knowledge of Youth Villages&rsquo; programs is helpful.</span></p><p style="margin: 0px;">&nbsp;</p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Experience growth and development through our continuous training, as well as tuition and licensure reimbursement, or pursue opportunities to advance both clinically and administratively with Youth Villages.</span></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">&nbsp;</span></p><p style="margin: 0px;"><strong><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Additional Benefits</span></strong><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Medical, Dental, Prescription Drug Coverage and Vision</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Retirement Savings Pension Plan</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">403 (b)</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">2 weeks paid vacation</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">12 paid sick days per year</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">10&nbsp;paid holidays</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">Mileage &amp; Cell Phone Reimbursement (when applicable)</span></p><p style="margin: 0px;"><span style="font-family: arial,helvetica,sans-serif; font-size: 10pt;">EOE</span></p>
+<div id="iCIMS_Expandable_Button"></div>
+</div>
+</div>
+</div>
+
+
+<div class="iCIMS_JobOptions">
+
+<h2 class="iCIMS_SubHeader iCIMS_SubHeader_Job">Options</h2>
+
+<div id="jobOptionsMobile" class="iCIMS_JobOptionsMobile iCIMS_JobOptionsMobile_Options3">
+
+
+
+
+<a href="https://careers-youthvillages.icims.com/jobs/1256/data-analyst/job?mode=apply&apply=yes&in_iframe=1&hashed=-336057064" role="button" class="iCIMS_Anchor iCIMS_Action_Button iCIMS_ApplyOnlineButton iCIMS_PrimaryButton" title="Apply for this job online"><div class="iCIMS_Action_ButtonText"><span class="iCIMS_LongLabel">Apply for this job online</span><span class="iCIMS_ShortLabel">Apply</span></div></a><a onclick="showSocialOptions()" id="mobileShowSocialOptionsButton" role="button" class="iCIMS_Anchor iCIMS_Action_Button iCIMS_JobShareButton" title="Share"><div class="iCIMS_Action_ButtonText"><span class="iCIMS_ShortLabel">Share</span></div></a><a href="https://careers-youthvillages.icims.com/jobs/1256/data-analyst/referral?in_iframe=1&hashed=-435621526" role="button" class="iCIMS_Anchor iCIMS_Action_Button iCIMS_SecondaryButton" title="Email this job to a friend"><div class="iCIMS_Action_ButtonText"><span class="iCIMS_LongLabel">Email this job to a friend</span><span class="iCIMS_ShortLabel">Refer</span></div></a>
+
+
+
+
+
+
+</div>
+<div id="jobSocialOptions" class="iCIMS_jobSocialOptions iCIMS_NoDisplay">
+
+
+<div id="jobSocialOptionsErrMsg" class="iCIMS_Message iCIMS_ErrorMessage iCIMS_GenericMessage NoDisplay">Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.</div>
+
+<div class="iCIMS_Divider"></div>
+<div class="iCIMS_BroadcastJob_Label">Share on your newsfeed</div>
+<div class="iCIMS_BroadcastJob icimsSD_widget" id="icimsSD_widget_share" data-icims-sd-type="share" data-icims-sd-jid="1256" data-icims-sd-size="24"></div>
+
+</div>
+</div>
+
+
+
+
+
+
+<h2 class="iCIMS_SubHeader iCIMS_SubHeader_Connect">
+Need help finding the right job?
+</h2>
+<div class="iCIMS_InfoMsg iCIMS_InfoMsg_Connect">
+<div class="iCIMS_Expandable_Container">
+<div class="iCIMS_Expandable_Text">
+We can recommend jobs specifically for you!
+<a href="https://careers-youthvillages.icims.com/connect?back=intro&findajob=1&in_iframe=1&hashed=-435621526" class="iCIMS_Anchor" target="_parent">
+Click here to get started.
+</a>
+<div id="iCIMS_Expandable_Button"></div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="iCIMS_PageFooter">
+
+</div>
+
+<div class="iCIMS_Logo"><a class="iCIMS_Faq_Link" title="Application FAQs (Opens new window)" href="https://media.icims.com/training/CandidateFAQ/FAQ.html" target="_blank">Application FAQs</a><span class="iCIMS_Logo_Image"></span><p class="iCIMS_Logo_Text">Software Powered by iCIMS<br><a href="http://www.icims.com/platform_help?utm_source=platform&utm_medium=link&utm_content=page1&utm_campaign=platform%20help" target="_blank" title="Powered by the iCIMS Talent Platform (Opens new window)" class="iCIMS_Logo_Link">www.icims.com</a></p></div>
+
+</div>
+<div id="popupOverlay" class="iCIMS_Portal_PopupOverLay iCIMS_NoDisplay"></div>
+</div>
+
+</div>
+
+
+
+
+
+
+<script type="text/javascript">
+if (icimsWindow) {
+try {
+window.parent.document.getElementById('icims_content_iframe').title = document.title;
+} catch (e) {}
+}
+</script>
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"4e547d37d0","agent":"","beacon":"bam.nr-data.net","applicationTime":56,"applicationID":"41492417,3408490,19453878","transactionName":"ZQdXYRMAD0ZUBkAIVlxNdkASFQ5YGhVbE01TDhpfDgNOcnAx","queueTime":12}</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+// New Relic PageViewName Logging. Ensure this cannot ever halt page execution.
+try {
+var pageViewName ='portal/job/GET';
+newrelic.setPageViewName(pageViewName);
+} catch (e) {}
+</script>
+</body>
+</html>
+
+

@@ -1,0 +1,205 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<HTML><HEAD>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css' />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.asp" rel="stylesheet" />
+
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript">
+
+
+// sysSubmitForm
+
+function sysSubmitForm(psFormElementName, pEleName, pEleValue, psOverrideAction, psOverrideTarget) {
+	var iFrmIndex = -1;
+	var iFrmChildIndex = -1;
+	var fFound=false;
+	var retVal=false;
+	psFormElementName=(psFormElementName==null)?'':psFormElementName.toUpperCase();
+	for (var i=0;i<document.forms.length;i++) {
+		if (document.forms[i].name.toUpperCase()==psFormElementName) {
+			iFrmIndex=i;
+			fFound=true;
+			i=document.forms.length;
+		} else {
+			if (document.forms[i].forms!=null) {
+			if (document.forms[i].forms.length > 0) {
+				for (var ii=0;i<document.forms[i].forms.length;ii++) {
+					if (document.forms[i].forms[ii].name.toUpperCase()==psFormElementName) {
+						iFrmIndex=i;
+						iFrmChildIndex=ii;
+						fFound=true;
+						i=document.forms.length;
+						ii=document.forms[i].forms.length;
+					}
+				}
+			}
+			}
+		}
+	}
+	if (fFound) {
+		if ((pEleName!=null)&&(pEleValue!=null)) {
+			var objFrm=null;
+			if (iFrmChildIndex==-1) {
+				var objFrm = document.forms[iFrmIndex];
+			} else {
+				var objFrm = document.forms[iFrmIndex].forms[iFrmChildIndex];
+			}
+			if (objFrm!=null) {
+				objFrm.elements[pEleName].value=pEleValue;
+			}
+		}
+		if (iFrmChildIndex==-1) {
+			retVal=true;
+			if (psOverrideAction != null) {
+				document.forms[iFrmIndex].action=psOverrideAction;
+			}
+			if (psOverrideTarget != null) {
+				document.forms[iFrmIndex].target=psOverrideTarget;
+			}
+			document.forms[iFrmIndex].submit();
+		} else {
+			retVal=true;
+			if (psOverrideAction != null) {
+				document.forms[iFrmIndex].forms[iFrmChildIndex].action=psOverrideAction;
+			}
+			if (psOverrideTarget != null) {
+				document.forms[iFrmIndex].forms[iFrmChildIndex].target=psOverrideTarget;
+			}
+			document.forms[iFrmIndex].forms[iFrmChildIndex].submit();
+		}
+	} else {
+		window.alert('Error: Cannot find FORM [' + psFormElementName + ']');
+	}
+	return (retVal);
+}
+
+
+
+</SCRIPT>
+
+
+
+	<!--<STYLE TYPE="text/css" MEDIA="ALL">
+		BODY			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040; background-color:; border: none; padding: 0px; margin: 0px; }
+		FORM			{ padding:0px; margin:0px; border:none; }
+		HR			{ height:2px; border-top:solid 2px transparent; border-bottom:solid 0px transparent; }
+		SELECT			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040; }
+		TABLE			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040; }
+		TD			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; }
+		TEXTAREA			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040;}
+		TH			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:8pt; font-weight:bold; text-align:center;   }
+		.BODY			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040; background-color:; }
+		.InputText			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:10pt; }
+		.Section			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; }
+		.TblColFld			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:10pt; padding:0px; }
+		A.Page			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:#a40046; background-color:transparent; }
+		A.ProfSecHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:; ;}
+		A.TblHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; cursor:hand; text-decoration:none; color:#ffffff; }
+		A:active.Page			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:#a40046; background-color:transparent; }
+		A:active.ProfSecHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:; ;}
+		A:active.TblHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; cursor:hand; text-decoration:none; color:#ffffff; }
+		A:hover.Page			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:#ff3636; ; }
+		A:hover.ProfSecHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:; ;}
+		A:hover.TblHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; cursor:hand; text-decoration:none; color:#ffffff; }
+		A:link.Page			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:; ; }
+		A:link.ProfSecHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:; ;}
+		A:link.TblHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; cursor:hand; text-decoration:none; color:#ffffff; }
+		A:visited.Page			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:; ;  }
+		A:visited.ProfSecHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:; ;}
+		A:visited.TblHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; cursor:hand; text-decoration:none; color:#ffffff; }
+		BUTTON.ApplyNow			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#313132; background-color:; cursor:hand; text-align: center; vertical-align: middle;  }
+		CAPTION.Tbl			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; text-align:left; padding-left:0px; padding-right:5px; padding-bottom:0px; padding-top:0px; }
+		DIV.WorkArea			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:10pt; padding:20px; overflow: hidden; background-color:#ffffff; }
+		IMG.HotJob			{ border: none; }
+		IMG.TopMessageArea			{ border:0; float:left; margin-right:10px; }
+		INPUT.Button			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#313132; background-color:; cursor:hand;}
+		INPUT.Checkbox			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040;}
+		INPUT.File			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040; width:400px; }
+		INPUT.Radio			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040; }
+		INPUT.SingleEntryAnswer			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040;}
+		INPUT.TextBox			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040; }
+		LI.Page			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:10pt; list-style-image:none; list-style-type:disk; text-indent:0px; margin:0px; padding:0px; }
+		OL.Page			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:10pt; list-style-image:none; list-style-type:disk; }
+		SPAN.TblColLbl			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-style:italic; font-weight:normal; font-size:9pt; text-align:left; color:#FFFFFF; }
+		TABLE.Section			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:10pt; width:90%; overflow:visible; }
+		TABLE.Tbl			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:10pt; overflow:visible; }
+		TD.Section			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:Normal; font-size:8pt; overflow:visible; padding-left:3px; }
+		TD.SectionInstructions			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:Normal; font-size:8pt; overflow:visible; padding-top:5px; padding-bottom:5px; }
+		TD.SectionInstructionsBottomBorder			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:Normal; font-size:8pt; overflow:visible; padding-top:5px; padding-bottom:5px; border-bottom:solid 1px #D6A374; }
+		TD.SectionReadOnly			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:Normal; font-size:8pt; overflow:visible; padding-left:3px; border-bottom: dotted 1px #c0c0c0; }
+		TD.Tbl			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:10pt; background-color: ;  vertical-align: top; }
+		TD.TblColFld			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:10pt; padding:0px; }
+		TD.TblColLbl			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; padding-left:3px; padding-right:3px; text-align:left; color:#FFFFFF; background-color:#336699; background-image:url('BG_Horiz_Yellow_100x1.jpg'); background-repeat:repeat-x; }
+		TD.TblHotJob			{ font-family: open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight: normal; font-size: 10pt; border-top: dotted 1px ; border-bottom: dotted 1px ; padding-top: 5px; padding-bottom: 5px; background-color: ;  background: url('images/BG_H_239225175_2x60.jpg'); }
+		TD.TblOddRow			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:10pt; background-color: #FFF;  vertical-align: top; }
+		TD.TopMessageArea			{ text-align:left; padding-left:5px; display:block;}
+		TD.WelcomeTitle			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:11pt; font-weight:bold; padding-top:5px; padding-bottom:20px; }
+		TEXTAREA.EssayAnswer			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040;}
+		TEXTAREA.Textarea			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#404040; }
+		TH.Section			{ font-weight:bold; font-size:8pt; overflow:visible; width:35%; text-align:left; padding:3px; padding-left:0px; background-color:#FFFFFF; }
+		TH.SectionSub			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:8pt; text-align:right; width:5%; overflow:visible; padding:3px; padding-left:10px; color:#FFFFFF; background-color:#336699; vertical-align: top;}
+		TH.SectionSubNoHead			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:8pt; text-align:right; width:0%; overflow:visible; padding:0px; color:; background-color:; }
+		TH.SectionSubTbl			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; text-align:center; background-color:#999999; color:#ffffff; padding:3px; overflow:visible; border:solid 3px #ffffff; border-right:none; background-image:url(''); background-repeat:repeat-x; }
+		TH.SectionSubTblNoHead			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:8pt; text-align:center; background-color:#ffffff; color:#ffffff; padding:0px; overflow:visible; border:solid 3px #ffffff; border-right:none; }
+		TH.SectionTitle			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:9pt; overflow:visible; text-align:left; padding:3px; padding-left:0px; color:#000000; background-color:#879CB1; border-bottom:double 3px #D6A374; border-top:double 3px #D6A374; background-image:url(''); background-repeat:repeat-x; }
+		TH.SubTitles			{ text-align:left; padding-left:5px; height:22px; font-size:8pt; font-weight:bold; color:#FFFFFF; background-color:#336699; border: solid 1px #336699; background-image:url(''); background-repeat:repeat-x; }
+		TH.Tbl			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; text-align:center; background-color:#999999; color:#ffffff; padding:3px; border: solid 1px #999999; background-image:url(''); background-repeat:repeat-x; }
+		TH.TblColLbl			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; padding-left:3px; padding-right:3px; text-align:left; color:#FFFFFF; background-color:#336699; background-image:url('BG_Horiz_Yellow_1800x1.jpg'); background-repeat:repeat-x; }
+		UL.Page			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:10pt; list-style-image:none; list-style-type:disk; }
+		#Title			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-size:10pt; font-weight:normal; color:#000000; background-color:#ffffff; }
+	</STYLE>-->
+
+
+<!-- SYSAPPIGNORESTART -->
+<STYLE type="text/css">
+		A:active.MenuTop			{ font-weight:normal; cursor:hand; text-decoration:none; color:#000000; ;}
+		A:active.Page			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:#a40046; background-color:transparent; }
+		A:active.ProfSecHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:; ;}
+		A:active.TblHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; cursor:hand; text-decoration:none; color:#ffffff; }
+		A:hover.MenuTop			{ cursor:hand; text-decoration:underline; padding-bottom:1px; padding-top:1px; color:; ;}
+		A:hover.Page			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:#ff3636; ; }
+		A:hover.ProfSecHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:normal; font-size:9pt; cursor:hand; text-decoration:underline; color:; ;}
+		A:hover.TblHdr			{ font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif; font-weight:bold; font-size:10pt; cursor:hand; text-decoration:none; color:#ffffff; }
+		TD.TblColFld	SPAN { font-family:open_sansregular, Trebuchet MS, Arial, Helvetica, sans-serif !important; font-weight:normal; font-size:10pt !important; padding:0px; }
+</STYLE>
+<style type="text/css">
+	DIV.UnsupportedBrowser {
+		display:none;
+		margin:20px 40px;
+		border: 1px solid darkred;
+		text-align: center;
+		color: darkred;
+		padding-top:20px;
+		padding-bottom: 20px;
+		box-sizing: border-box;
+		font-size: 1.5em;
+		font-weight: normal;
+	}
+	DIV.UnsupportedBrowser SPAN {
+		font-weight:bold;
+		color: darkred;
+	}
+</style>
+
+<!--[if lt IE 9]>
+	<Style>
+	DIV.UnsupportedBrowser {display:block}
+	</Style>
+<![endif]-->
+<!-- SYSAPPIGNOREEND -->
+    </HEAD>
+<BODY>
+   <div class="container">
+<DIV class="col-md-12" ALIGN=CENTER>
+<H4>Verifying that the position is available.</H4>
+<table><tr><td>One Moment Please...</td></tr><tr><td><img src="images/LoadingProgressBar.gif" alt="Loading Progress Bar"></td></tr></table>
+</DIV>
+
+<FORM AUTOCOMPLETE=OFF ID=frmRedirect NAME=frmRedirect METHOD=POST ACTION="HTTPS://marshfieldcliniccss.igreentree.com/CSS_External/CSSPage_JobDetail.ASP?T=20171009125812&"><INPUT TYPE=HIDDEN NAME=ReqKey VALUE="{6BAE8326-EA1D-4FAB-912D-4C2C4D2CA0BC}"><INPUT TYPE=HIDDEN NAME=ReqNotFound VALUE="Sorry, the position that you are seeking is no longer available. We are sorry for any inconvenience that you may have experienced. If you like, you may search for positions yourself."></FORM>
+<SCRIPT LANGUAGE="javascript">
+sysSubmitForm('frmRedirect');
+</SCRIPT></BODY></HTML>

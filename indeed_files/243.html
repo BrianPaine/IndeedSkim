@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="">
+   <head><link href="../style/core.css" type="text/css" rel="styleSheet" /><style type="text/css">.pagination-disabled {opacity:0.4;}</style><link rel="stylesheet" href="default.css" type="text/css" />
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+	<meta name="msapplication-TileColor" content="#015CB9">
+	<meta name="msapplication-TileImage" content="//d1rn8z435cu2eh.cloudfront.net/apple-touch-icon-144x144.png">
+	<link rel="shortcut icon" href="//d1rn8z435cu2eh.cloudfront.net/favicon.ico" sizes="16x16 32x32 64x64" type="image/x-icon">
+	<link rel="apple-touch-icon" href="//d1rn8z435cu2eh.cloudfront.net/apple-touch-icon-152x152.png" sizes="152x152">
+	<link rel="apple-touch-icon" href="//d1rn8z435cu2eh.cloudfront.net/apple-touch-icon-144x144.png" sizes="144x144">
+	<link rel="apple-touch-icon" href="//d1rn8z435cu2eh.cloudfront.net/apple-touch-icon-120x120.png" sizes="120x120">
+	<link rel="apple-touch-icon" href="//d1rn8z435cu2eh.cloudfront.net/apple-touch-icon-114x114.png" sizes="114x114">
+	<link rel="apple-touch-icon" href="//d1rn8z435cu2eh.cloudfront.net/apple-touch-icon-72x72.png" sizes="72x72">
+	<link rel="apple-touch-icon" href="//d1rn8z435cu2eh.cloudfront.net/apple-touch-icon-57x57.png" sizes="57x57">
+	<link rel="apple-touch-icon" href="//d1rn8z435cu2eh.cloudfront.net/apple-touch-icon.png">
+	 
+	<script type="text/javascript">
+	var _gas = _gas || [];
+	_gas.push(['_setAccount', 'UA-23381988-1']); // All ACG
+	_gas.push(['_trackPageview']);
+	_gas.push(['_gasTrackOutboundLinks']);
+	_gas.push(['_gasTrackMailto']);
+	_gas.push(['_gasTrackDownloads', {
+	category: 'Download',
+	extensions: ['']
+	}]);
+	(function () {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript';
+	ga.async = true;
+	ga.src = '//cdnjs.cloudflare.com/ajax/libs/gas/1.11.0/gas.min.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+	})();
+	</script>
+            <title>
+Employment Opportunities : Human Resources : Arlington Virginia
+      </title>
+
+<link type="text/css" href="//d1rn8z435cu2eh.cloudfront.net/rx/globalheaders.css" rel="stylesheet" />   
+	<style type="text/css">
+	body {
+		font-family:Verdana,Arial,Helvetica,sans-serif;
+		font-size:12px;
+	}
+	#contentWrapper {
+		left:0;
+		margin:0 5px 30px;
+		position: relative;
+		top:45px;
+		width:100%;
+	}
+	#headinglb {
+		background-color:#FFFFFF;
+		background-image:url(//d1rn8z435cu2eh.cloudfront.net/rx/headingGradient.jpg);
+		background-repeat:repeat-y;
+		border-bottom:1px solid #E5E5E3;
+		border-right:1px solid #E5E5E3;
+		border-top:1px solid #E5E5E3;
+		color:#0A58A5
+	}
+	#headinglb h2 {
+		margin:0;
+		padding:0 0 0 20px;
+	}
+	h2 {
+		color:#003399;
+	}
+	h2 {
+		font-size:1.2em;
+	}
+	h2, h3, h4, h5, h6 {
+		font-family:Verdana,Arial,Helvetica,sans-serif;
+		font-weight:bold;
+		padding:10px 0 0;
+		text-align:left;
+	}
+	</style>
+    
+    <script type="text/javascript">
+	   function myFocus(element) {
+         if (element.value == element.defaultValue) {
+           element.value = '';
+           element.style.color = "#000";
+           element.style.fontWeight = "normal";
+         }
+       }
+       function myBlur(element) {
+         if (element.value == '') {
+           element.value = element.defaultValue;
+           element.style = element.defaultStyle;
+         }
+       }
+      </script>  
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+   <link rel="stylesheet" href="default.css" type="text/css"><link rel="stylesheet" href="default.css" type="text/css" /><meta property="og:image" content="https://agency.governmentjobs.com/images/AgencyImages/arlington.gif"/><meta property="og:title" content="DATABASE ANALYST"><meta property="og:description" content="The&nbsp;Department of Human Services (DHS)&nbsp; is seeking a Database Analyst with strong analytical and technical skills, with experience designing, developing, and implementing data warehouse/data marts to support ongoing data analysis, business intelligence functions, and technical solutions around enterprise data; as well as to lead and implement technology projects, especially in SQL server, in support of data migration, data conversion, data interfaces and cross systems integration.The m"></head>
+   <body><div id="skip"><a href="#gjmaincontent">Skip to Main Content</a></div>
+
+<div id="pageWrapper">
+	<div id="headerWrapper">	
+	    <div id="headerBanner">
+	        <a href="http://www.arlingtonva.us" title="Click to return to the Arlington County homepage"><img src="//d1rn8z435cu2eh.cloudfront.net/rx/spacer.gif" alt="Click to return to the Arlington County homepage" /></a>
+	    </div>		
+	    <div id="searchBox">
+	        <form action="http://gsa.arlingtonva.us/search" method="get" id="gsa_input">
+	            <label for="strSearchInput">
+	                <input maxlength="500" name="q" id="strSearchInput" size="31" type="text" value="Search our sites" onFocus="myFocus(this);" onBlur="myBlur(this);" />
+	            </label>
+	            <input class="search" name="btnG" type="image" value="Search" src="//d1rn8z435cu2eh.cloudfront.net/rx/spacer.gif" alt="Click to search" title="Click to search"/>
+	            <input type="hidden" name="site" value="default_collection" />
+	            <input type="hidden" name="output" value="xml_no_dtd" />
+	            <input type="hidden" name="proxystylesheet" value="ACG_Site" />
+	            <input type="hidden" name="client" value="ACG_Site" />
+	            <input type="hidden" name="proxyreload" value="1" />
+	        </form>
+	    </div>
+	    <div id="headerNavigation">
+	        <div id="headerNavInner">
+	            &nbsp;<a href="http://www.arlingtonva.us" id="megaanchor1">County Homepage</a>
+	        </div>
+	    </div>
+	</div>	
+
+
+
+
+
+<div id="contentWrapper">
+
+
+
+            <!--*********** PAGE HEADING *************-->
+<div id="headinglb">
+<h2>
+	Employment Opportunities
+</h2>
+
+	<div style="float: right"><a href="http://agency.governmentjobs.com/arlington/default.cfm" style="font-weight: bold; text-transform: uppercase">Back to a list of current Arlington Job Openings</a> &nbsp; &nbsp; </div>
+
+</div>
+
+
+	
+	<a id="gjmaincontent"></a>
+
+	<div style="margin:0 auto;width:100%%;">
+		<table width="100%" border="0" cellspacing="1" cellpadding="4" summary="">
+			<tr>
+				<td class="tblbordbot PoweredByCell" style="width:100%;text-align:right;"><img src="/images/poweredby.gif" width="103" height="30" alt="Powered by NEOGOV" longdesc="/images/longDesc/poweredBy.html" style="border:none;"/></td>
+			</tr>
+		</table>
+	</div>
+
+	<div style="margin:0 auto;">
+	<table width="100%" border="0" cellspacing="1" cellpadding="4" summary="Job Information">
+	
+			<tr>
+				<th scope="row" class="jobinfo" style="width:40%;white-space:nowrap;">Job Title:</th>
+				<td class="maroon">
+					DATABASE ANALYST
+				</td>
+			</tr>
+
+			
+			<tr>
+				<th scope="row" class="jobinfo" style="width:40%;white-space:nowrap;">Closing Date/Time:</th>
+				<td>
+					Thu. 10/12/17 11:59 PM Eastern Time 
+				</td>
+			</tr>
+			
+			<tr>
+				<th scope="row" class="jobinfo" valign="top">Salary:</th>
+				<td>
+
+						$70,844.80 - $108,284.80 Annually <br />
+							
+					
+				</td>
+			</tr>
+			
+				<tr>
+					<th scope="row" class="jobinfo">Job Type:</th>
+					<td>Full-Time</td>
+				</tr>
+			
+			<tr>
+				<th scope="row" class="jobinfo">Location:</th>
+				<td>
+					2100 Washington Blvd., Arlington, Virginia
+				</td>
+			</tr>
+
+			
+			
+			
+
+
+
+		<tr>
+			<td colspan="2" class="tblbordtop">&nbsp;</td>
+		</tr>
+	</table>
+</div>
+	
+	
+		<div class="classSpecLinksContainer" style="margin-right:0%;">
+			
+					<a class="applyonline gjbulletinlink" href="job_bulletin.cfm?JobID=1857539" target="_blank" title="This link will open in a new window.">Print Job Information</a> |
+				
+					<a class="applyonline gjapplylink" href="https://www.governmentjobs.com/jobs/1857539/DATABASE%20ANALYST/Agency/arlington/apply" >Apply</a>
+				
+			&nbsp;
+		</div>
+		<br />
+
+		
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" summary="" style="margin:0 auto;">
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<th align="left" class="gjTabRow" id="viewJobDescription">
+					
+					<div class="tabArea">
+						<a class="tab activeTab" href="http://agency.governmentjobs.com/arlington/default.cfm?action=viewjob&amp;JobID=1857539&amp;headerfooter=1&amp;WDDXJobSearchParams=">Position Information</a><span class="tabAreaSmall">&nbsp;</span>
+						
+						
+							<a class="tab " href="http://agency.governmentjobs.com/arlington/default.cfm?action=viewjob&amp;JobID=1857539&amp;ViewBenefits=Yes&amp;headerfooter=1&amp;WDDXJobSearchParams=">Benefits</a><span class="tabAreaSmall">&nbsp;</span>
+						
+							<a class="tab " href="http://agency.governmentjobs.com/arlington/default.cfm?action=viewjob&amp;JobID=1857539&amp;ViewSupp=Yes&amp;headerfooter=1&amp;WDDXJobSearchParams=">Supplemental Questions</a>
+						
+					</div>
+					<div class="tabMain">&nbsp;</div>
+				</th>
+			</tr>
+			
+				<tr>
+					<td class="jobdetail" headers="viewJobDescription">The&nbsp;<a href="http://departments.arlingtonva.us/dhs/">Department of Human Services (DHS)</a>&nbsp; is seeking a Database Analyst with strong analytical and technical skills, with experience designing, developing, and implementing data warehouse/data marts to support ongoing data analysis, business intelligence functions, and technical solutions around enterprise data; as well as to lead and implement technology projects, especially in SQL server, in support of data migration, data conversion, data interfaces and cross systems integration.<br><br>The mission of DHS is to strengthen, protect and empower the citizens of Arlington County by providing various services to the community in programs for aging and disability, children and families, housing, public health, mental health, and substance abuse. The Information Systems Bureau (ISB) has seventeen staff managing many applications to support these programs.<br><br>This employee will support DHS integration efforts by actively participating in the analysis of business information needs, learn business rules, business processes, data collection, and reporting requirements from multiple DHS programs, and develop and implement an informational model that optimizes information sharing across programs and that facilitates coordination of service delivery in the department.<br><br>Initial challenges for this Database Analyst will include:<ul>	<li>Designing, developing and implementing a new DHS data warehouse framework that collects, transforms and loads data from multiple source systems used in the department, optimizes ETL data warehouse processes, and provides and supports data mining and enterprise wide reporting capabilities</li>	<li>Designing, developing, and providing ongoing support for relational, multidimensional, data marts and dashboards based on business functions and specific business requirements to support further analysis, reporting, and visualization by business owners</li>	<li>Researching, implementing and supporting new data analysis and reporting tools</li></ul>Additional responsibilities include:<ul>	<li>Developing data interfaces and integration modules across multiple systems to meet data needs and to support business processes for an integrated services department</li>	<li>Leading data conversion and system migration efforts to ensure data accurately migrates from source to target systems and meets quality and usability standards</li>	<li>Developing quality control procedures to verify accuracy and timely processing of all expected data, and implementing corrective action plans to ensure data meets user and technical requirements</li>	<li>Participating as an active team member, or as a sole contributor, in technology implementation projects demonstrating strong communication skills; actively contributing to the analysis rather than simply encoding requirements in SQL Server</li></ul>The successful candidate will have experience developing SQL stored procedures, SSIS Integration packages, TSQL code, and reports using SQL features, SQL Server Management Services (SSMS), SQL Server Reporting Services (SSRS), SQL Server or Analysis Services (SSAS), and managing data mining processes.<br>&nbsp;<br /></td>
+				</tr>
+				
+					<tr>
+						<th class="jobheadings" id="examplesOfDuties">
+							&nbsp;Selection Criteria:
+						</th>
+					</tr>
+					
+					<tr>
+						<td class="jobdetail" headers="examplesOfDuties">MINIMUM:&nbsp; A combination of education and experience that demonstrates knowledge of databases including developing SQL stored procedures, SSIS Integration Packages, SSRS reports, and SSAS scripts, with considerable experience designing and implementing data warehouse architecture.<br><br>Typically, this type of knowledge and experience is obtained through graduation from college with a Bachelor's degree in Computer Science, Information Systems Management, Software Engineering, or a related field, as well as considerable directly related experience.<br><br>DESIRABLE: Experience in developing and implementing interfaces and integration applications across large and disparate systems and working with government agencies or nonprofit organizations to support a variety of business intelligence functions.<br>&nbsp;<br /></td>
+					</tr>
+				
+					<tr>
+						<th class="jobheadings" id="typicalQualifications">
+							&nbsp;Special Requirements:
+						</th>
+					</tr>
+					<tr>
+						<td class="jobdetail" headers="typicalQualifications">The applicant must possess, or obtain by the time of appointment, a valid motor vehicle operator's license from the applicant's place of residence or the applicant must have the ability or willingness to use alternative methods of transportation to perform assigned duties and responsibilities at locations other than the primary worksite. If the applicant possesses or acquires a license, the applicant must authorize Arlington County to obtain, or the applicant must provide, copy of the applicant's official state/district driving record. Any offer of employment may be contingent upon a favorable review of the applicant's driving record.<br>A pre-hire background check will be made on candidates selected for employment. It may include checks of the following: criminal record, driving record, education, professional licensure, and credit history. You may be required to sign a release authorizing the County to obtain your background information.<br>&nbsp;<br /></td>
+					</tr>
+				
+					<tr>
+						<th class="jobheadings" id="supplementalInfo">
+							&nbsp;Additional Information:
+						</th>
+					</tr>
+					<tr>
+						
+						<td class="jobdetail" headers="supplementalInfo">Work Hours: Monday through Friday, 8:00 am to 5:00 pm.<br>Your responses to the supplemental questionnaire are considered part of the selection process and are required for this position. Please do not give "see resume" as a response to the questions. Incomplete applications will not be considered. In order to receive full credit for your experience, please ensure that you have included details of all relevant work experience on your application and have completed the Supplemental Questionnaire in its entirety.<br /></td>
+					</tr>
+				
+			<tr>
+			  	<td colspan="2" class="jobdetailbot">&nbsp;</td>
+			</tr>
+		</table>
+	
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"89019a8e50","agent":"","beacon":"bam.nr-data.net","applicationTime":28,"applicationID":"4449204","transactionName":"NlAGYxEFC0RWBhUIDQ8aN1IREglSQ0oiBw8yUBZBDwER","queueTime":0}</script> </div>
+ <div id="footerWrapper">
+    <div id="footerRow1">
+        <a href="http://www.arlingtonva.us/web/contact.aspx">Contact Us</a>
+        <a name="divider" class="divider">&#8226;</a>
+        <a href="http://www.arlingtonva.us/web/faq.aspx">Frequently Asked Questions</a>
+        <a name="divider" class="divider">&#8226;</a>
+        <a href="http://www.arlingtonva.us/web/terms.aspx">Terms and Conditions</a>
+        <a name="divider" class="divider">&#8226;</a>
+        <a href="http://www.arlingtonva.us/web/accessibility.aspx">Accessibility</a>
+    </div>
+    <div id="footerRow2">
+        <span>2100 Clarendon Blvd.</span>
+        <span>Arlington, VA 22201</span>
+        <span>Tel: 703-228-3000</span>
+        <span>TTY: 703-228-4611</span>
+    </div>
+</div>
+<div class="clear"></div>
+
+
+</div>
+
+	</body>
+</html>

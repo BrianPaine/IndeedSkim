@@ -1,0 +1,862 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://staticchm.tbe.taleo.net/chm02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.core.css">
+<link type="text/css" rel="stylesheet" href="https://staticchm.tbe.taleo.net/chm02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.theme.css">
+<link type="text/css" rel="stylesheet" href="https://staticchm.tbe.taleo.net/chm02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.datepicker.css">
+<link type="text/css" rel="stylesheet" href="https://staticchm.tbe.taleo.net/chm02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/css/UIv8/jquery/Classic/ui.dialog.css">
+
+
+<style type="text/css">
+
+    select:focus, a:focus {
+        outline: #1e90ff solid 2px
+    }
+
+    input[type=submit] {
+        background: #00438C;
+    }
+
+    input[type=button] {
+        background: #00438C;
+    }
+
+    input[type=submit]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=button]:hover {
+        background: #1e31ff;
+    }
+
+    input[type=submit]:focus {
+        background: #1e90ff;
+    }
+
+    input[type=button]:focus {
+        background: #1e90ff
+    }
+
+    .ui-dialog .ui-dialog-buttonpane {
+        text-align: right;
+    }
+
+    .ui-dialog .ui-dialog-buttonpane button {
+        float: none;
+    }
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+        /*border: 1px solid #000;*/
+        /*}*/
+
+</style>
+
+
+
+<style type="text/css">
+    .alert-error {
+        color: #990000;
+        font-weight: bold;
+    }
+
+    td.top {
+        vertical-align: top !important;
+    }
+
+    td.left {
+        float: none;
+        text-align: left;
+    }
+
+    td.right {
+        float: none;
+        text-align: right;
+    }
+
+    .nowrapFormLabel {
+        white-space: nowrap;
+        text-align: right;
+    }
+
+    h1 {
+        font-size: 120%
+    }
+
+    h2 {
+        font-size: 110%
+    }
+
+    h3 {
+        font-size: 100%
+    }
+
+    .hidden-accessibility-text {
+        position: absolute;
+        left: -2000px;
+        top: 0;
+        width: 1;
+        height: 1;
+        overflow: hidden;
+        font-size: 0.1em;
+    }
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+    .ofcc305table textfield, .ofcc305table select,
+    .ofcc305table input, .ofcc305table a {
+        font-size:12px !important;
+        font-family:Arial,sans-serif,Helvetica !important;
+    }
+
+    #cws-search-results th, #cws-job-alerts th {
+        border-top: #CCCCCC 2px solid;
+        border-bottom: #CCCCCC 2px solid;
+    }
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+        border-bottom: #CCCCCC 2px solid;
+        padding-bottom: 3px;
+    }
+</style>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang='en' xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<BASE HREF="http://www.fnf.com/pages/career-opportunities.aspx">
+
+<title>
+	Fidelity National Financial: Career Opportunities
+</title> 
+    <!--[if lt IE 9]> <src="/fnf_com_redesign/Common/jQuery/html5shiv.js" ></script> <![endif]-->
+    <meta name="keywords" />
+<link href="../App_Themes/User/DefaultLayout.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/headerImages.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/Homepage_Layout.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/Investor_Info_Layout.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/jquery-ui-1.7.2.custom.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/Menu_Horizontal_Main.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/Module_EDE.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/Portfolio_Investments_Company_Layout.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/Portfolio_Investments_Layout.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/Portfolio_Layout.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/Portfolio_Subsidiaries.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/Portfolio_Subsidiaries_Company_Layout.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/SideMenu.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/SideMenu_InvestorInfo.css" type="text/css" rel="stylesheet" /><link href="../App_Themes/User/UserStyle.css" type="text/css" rel="stylesheet" /><style type="text/css">
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_1 { text-decoration:none; }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_2 {  }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_3 { border-style:none; }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_4 {  }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_5 {  }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_6 { border-style:none; }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_7 {  }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_8 {  }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_9 { border-style:none; }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_10 {  }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_11 { border-style:none; }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_12 {  }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_13 { border-style:none; }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_14 {  }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_15 { border-style:none; }
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_16 {  }
+
+</style>
+
+<STYLE type="text/css">#taleoContent {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-size-adjust: none;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-transform: none;
+  white-space: normal;
+  word-spacing: normal;
+}
+
+#taleoContent td, #taleoContent th {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-size-adjust: none;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-transform: none;
+  white-space: normal;
+  word-spacing: normal;
+}
+
+#taleoContent textarea {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-size-adjust: none;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  font-variant: normal;
+  height: auto;
+  width: auto;
+}
+
+#taleoContent textfield {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-size-adjust: none;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  font-variant: normal;
+  height: auto;
+  width: auto;
+}
+
+#taleoContent select {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-size-adjust: none;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  font-variant: normal;
+  height: auto;
+  width: auto;
+}
+
+#taleoContent input {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-size-adjust: none;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: normal;
+  font-variant: normal;
+  height: auto;
+  width: auto;
+}
+
+</STYLE>
+
+
+
+</head> 
+<body>
+    <link rel="stylesheet" type="text/css" href="~/App_Themes/headerimages.css" media="screen" />
+    <script src='../Common/jQuery/jquery-1.4.2.min.js' type="text/javascript"></script>
+    <script src='../Common/jQuery/jquery-ui-1.7.2.custom.min.js' type="text/javascript"></script>
+    <script src='../Common/jQuery/jquery%5B1%5D.json-2.2.min.js' type="text/javascript"></script>
+    <script src='../Common/jQuery/Pluggins/jquery-ConfirmIt.js' type="text/javascript"></script>
+    <script src='../Common/jQuery/Pluggins/jqueryHideShow.js' type="text/javascript"></script>
+    <script src='../Common/jQuery/Pluggins/jquery.cycle.all.latest.js' type="text/javascript"></script>
+    <script src='../Common/jQuery/Pluggins/Footer_Bottom.js' type='text/javascript'></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src='../Common/jQuery/jquery.easing.1.3.js' type='text/javascript'></script>
+    <script src='../Common/jQuery/jquery.cycle.all.js' type='text/javascript'></script>    
+    <script src='../Common/jQuery/modernizr.js' type='text/javascript'></script>        
+    <script type="text/javascript" src="http://fast.fonts.com/jsapi/253ba33b-af10-428f-87f0-b2d70abbd83d.js"></script>        
+    <script src='../Common/scripts/date.js' type="text/javascript" language="javascript"></script>
+<script type="text/javascript">
+    $(function() {
+        $('.homepageRotatingBanner').cycle({
+            fx: 'scrollHorz',
+            speedIn: 600,
+            speedOut: 600,
+            timeout: 0,
+            easeIn: 'easeOutQuad',
+            easeOut: 'easeOutQuad',
+            prev: '#bannerPrev',
+            next: '#bannerNext',
+            pager: '#nav',
+            cleartypeNoBg: true,
+            pagerAnchorBuilder: function(idx, slide) {
+                return '#nav li:eq(' + (idx) + ')';
+            }
+        });
+        $('#nav li').click(function() {
+            $('.homepageRotatingBanner').cycle('pause');
+        });
+
+    });
+</script>
+    
+    
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTk0NzA3NTczMg9kFgJmD2QWAgIBD2QWBAIDDw8WAh4HVmlzaWJsZWhkFgYCAQ8WAh8AaGQCAw8WAh8AaGQCBA8WAh8AaGQCBw9kFgQCAw9kFgICAQ9kFgYCBQ9kFgQCBQ8PFgIfAGhkZAILDw8WAh4EVGV4dAUFMjUuNDNkZAIHDxYCHwEFFENhcmVlciBPcHBvcnR1bml0aWVzZAILD2QWAmYPZBYCZg9kFgJmD2QWAmYPFgIeBUNsYXNzBRJWaWV3Q29udHJvbENvbnRlbnQWAgIBDxYCHwEFyAo8cD48c3BhbiBjbGFzcz0iU3ViX0hlYWRpbmcxX0RhcmtCbHVlIj5GTkYgQ2FyZWVycyBBY2Nlc3NpYmlsaXR5ICZhbXA7IEVxdWFsIEVtcGxveW1lbnQgT3Bwb3J0dW5pdHk6PC9zcGFuPjxiciAvPg0KPGJyIC8+DQpGaWRlbGl0eSBOYXRpb25hbCBGaW5hbmNpYWwgaXMgY29tbWl0dGVkIHRvIGVuc3VyaW5nIHRoYXQgaXRzIG9ubGluZSBhcHBsaWNhdGlvbiBwcm9jZXNzIHByb3ZpZGVzIGFuIGVxdWFsIGVtcGxveW1lbnQgb3Bwb3J0dW5pdHkgdG8gYWxsIFUuUy4gam9iIHNlZWtlcnMsIGluY2x1ZGluZyB0aG9zZSB3aXRoIGRpc2FiaWxpdGllcy4gSWYgeW91IGFyZSBhIHF1YWxpZmllZCBpbmRpdmlkdWFsIHdpdGggYSBkaXNhYmlsaXR5IG9yIGEgZGlzYWJsZWQgdmV0ZXJhbiwgeW91IGhhdmUgdGhlIHJpZ2h0IHRvIHJlcXVlc3QgcmVhc29uYWJsZSBhY2NvbW1vZGF0aW9uLiBQbGVhc2Ugc2VuZCBhbiBlbWFpbCB0byA8YSBocmVmPSJtYWlsdG86d2VibWFzdGVyQGZuZi5jb20/U3ViamVjdD1BY2NvbW1vZGF0aW9uIFJlcXVlc3QgZnJvbSBGTkYuY29tIj53ZWJtYXN0ZXJAZm5mLmNvbTwvYT4gd2l0aCAmbGRxdW87QWNjb21tb2RhdGlvbiBSZXF1ZXN0JnJkcXVvOyBpbiB0aGUgc3ViamVjdCBsaW5lLiBEZXRlcm1pbmF0aW9ucyBvbiByZXF1ZXN0cyB3aWxsIGJlIG1hZGUgb24gYSBjYXNlLWJ5LWNhc2UgYmFzaXMuPGJyIC8+DQo8YnIgLz4NCjxhIHRhcmdldD0iX2JsYW5rIiBocmVmPSJodHRwOi8vdGJlLnRhbGVvLm5ldC9OQTEvYXRzL2NhcmVlcnMvam9iU2VhcmNoLmpzcD9vcmc9RklERUxJVFlOQVRGSU4mYW1wO2N3cz0xIj5DYXJlZXIgT3Bwb3J0dW5pdGllcyBmb3IgRmlkZWxpdHkgTmF0aW9uYWwgRmluYW5jaWFsPC9hPiA8YnIgLz4NCjxiciAvPg0KPGVtPkZORiBpcyBhbiBFcXVhbCBPcHBvcnR1bml0eSBFbXBsb3llci4gVGhlIENvbXBhbnkgcmVjcnVpdHMgYW5kIGhpcmVzIGluZGl2aWR1YWxzIGJhc2VkIHVwb24gZGVtb25zdHJhdGVkIGFiaWxpdGllcywgYWNoaWV2ZW1lbnRzIGFuZCBleHBlcmllbmNlLCB3aXRob3V0IHJlZ2FyZCB0byByYWNlLCBjb2xvciwgcmVsaWdpb24sIGFnZSwgbmF0aW9uYWwgb3JpZ2luIG9yIGFuY2VzdHJ5LCBzZXgsIHByZWduYW5jeSwgY2l0aXplbnNoaXAgc3RhdHVzLCB2ZXRlcmFuIHN0YXR1cywgbWFyaXRhbCBzdGF0dXMsIHBoeXNpY2FsIG9yIG1lbnRhbCBkaXNhYmlsaXR5LCBtZWRpY2FsIGNvbmRpdGlvbnMsIHNleHVhbCBvcmllbnRhdGlvbiwgZ2VuZGVyIGlkZW50aXR5LCBhbmQvb3IgYW55IG90aGVyIGNoYXJhY3RlcmlzdGljIHByb3RlY3RlZCBieSBmZWRlcmFsLCBzdGF0ZSBvciBsb2NhbCBsYXdzLjwvZW0+PC9wPmQCBQ8WAh4JaW5uZXJodG1sZWRklBwYuCgyB1Xo8IMdU4ZcvLQQvtA=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=uGqfi2nby6eCefPhNRApJgB8sTcJneO1Zj5cqZf0B7RH1ug30i2paEQe3b0k5nslJmSQVgwsf9EFmEnVe5y4VyjYXO41&t=635032110498206250" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=Whff6blupPTx5h21L2Wu5ka11iu5GDmEYyG3fb2t4PXtccKbGaZdqYcYX_nDbA3VOEv8yaySXGlH6f7dG_MBxUhLiPddH_SHGz4_hQSRmgk1Iu_F8EGP1adXrgkmhV9QH1gsmw2&t=fe4f1d8" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=fRsP3T7tQpueUDhFmCocE4BftCqtwBWq1u05tB7NcTMKT806TzyVDpWjRUz4iY-GTh7yWDtUTOuVN-oR7HNIn2c8W4iAYP6OHebxsRowoLy2symUx5OpIkIK9z3xHXI59jy3t6LOplpxvwp3M3q4GofHTOePSZGWSmzkI8jtRZ6vztV_0&t=4758c6f3" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=0ikj24FeuM4WqEfZv_Kk1P86_NgwWCpILnDmd4QoiqZScP9Uu46-6KHMwc9HxxJd8pO-B9PVza9mK44vrW_iFtTk6exiiEskqfB5389jQCcBufhfEBY3b42OHPLaMieNvxFythHm6Z9ll5A_oAhoXSSuYRDnL5YmZyz161klPVjeMFmT0&t=4758c6f3" type="text/javascript"></script> 
+    <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', document.getElementById('aspnetForm'));
+Sys.WebForms.PageRequestManager.getInstance()._updateControls([], [], [], 90);
+//]]>
+</script>
+
+    <div id="divAdminMenu" style="display: none; text-align: left;" onmouseover="menuEntryInstance++" onmouseout="startHideMenu()">
+        
+    </div> 
+    
+
+
+    <div id="divAdminMenuOpen" style="position: absolute; top: 0px; left: 0px; z-index: 10;
+        width: 800px; height: 5px;" onmouseover="showMenu()">
+        <div>                
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </div>        
+    </div>
+    <script type="text/javascript">
+        // Script to show/hide the admin menu bar.
+        
+        var adminMenu = document.getElementById('divAdminMenu');
+        var adminMenuOpen = document.getElementById('divAdminMenuOpen');
+        var menuEntryInstance = 0;
+        
+        function showMenu() {
+            adminMenu.style.display = 'block';
+            adminMenuOpen.style.display = 'none';
+            menuEntryInstance++;
+        }
+        function startHideMenu() {
+            setTimeout('hideMenu(' + menuEntryInstance + ')', 1500);
+        }
+        function hideMenu(instance) {
+            if (menuEntryInstance == instance) {
+                adminMenu.style.display = 'none';
+                adminMenuOpen.style.display = 'block';
+            }
+        }
+        
+    </script>
+    
+    <div align="center">
+        
+    
+    <div id="ctl00_ContentPlaceHolder1_PageContent2">
+	
+        
+    
+     
+<table cellpadding="0" cellspacing="0" class="Header_Table" align="center" border="0" style="height: 100%;" height="100%">
+    <tr>
+        <td colspan="2">
+            <table cellpadding="0" cellspacing="0" class="Header_Table_Sub" align="center" border="0">
+                <tr>
+                    <td class="Header_Table_Sub_Logo" align="left">
+                        <a href="default.aspx"><img id="ctl00_ContentPlaceHolder1_ctl00_imgFNF_Logo" src="../Sites/0/PageLayouts/Images/FNF_Logo.jpg" style="border-width:0px;" /></a>
+                    </td>
+                    <td class="Header_Table_Sub_Menu" align="center">
+                        <a href="#ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_SkipLink"><img alt="Skip Navigation Links" src="/WebResource.axd?d=TX8_znfXmVMGx_K4DxDCHupnXCs6mf8_5WeC1N-I9-Bu-V0oOq-70sb-KxmlMd4tjzIrgSuwTtl1MyDb0L_zXYr428c1&t=635032110498206250" width="0" height="0" style="border-width:0px;" /></a><table id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1" class="TopStaticMenuStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_5 ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_2" cellpadding="0" cellspacing="0" border="0">
+		<tr>
+			<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n0"><table class="TopStaticMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td style="white-space:nowrap;"><a class="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_1 TopStaticMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_3" href="Home.aspx" target="_self" style="border-style:none;font-size:1em;">Who We Are</a></td><td style="width:0;"><img src="../Sites/0/PageLayouts/Images/Horizontal_Static_Arrow.png" alt="Expand Who We Are" style="border-style:none;vertical-align:middle;" /></td>
+				</tr>
+			</table></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n1"><table class="TopStaticMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td style="white-space:nowrap;"><a class="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_1 TopStaticMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_3" href="our-expertise.aspx" target="_self" style="border-style:none;font-size:1em;">Our Expertise</a></td>
+				</tr>
+			</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n2"><table class="TopStaticMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td style="white-space:nowrap;"><a class="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_1 TopStaticMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_3" href="portfolio.aspx" target="_self" style="border-style:none;font-size:1em;">Portfolio</a></td>
+				</tr>
+			</table></td><td style="width:3px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n3"><table class="TopStaticMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td style="white-space:nowrap;"><a class="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_1 TopStaticMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_3" href="http://www.investor.fnf.com/" target="_self" style="border-style:none;font-size:1em;">Investor Info</a></td>
+				</tr>
+			</table></td>
+		</tr>
+	</table><div id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n0Items" class="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_0 TopDynamicMenuStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_8">
+		<table border="0" cellpadding="0" cellspacing="0">
+			<tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n4">
+				<td><table class="TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_7" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_1 TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_6" href="about-us.aspx" target="_self" style="border-style:none;font-size:1em;">About Us</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n5">
+				<td><table class="TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_7" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_1 TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_6" href="executive-team-profiles.aspx" target="_self" style="border-style:none;font-size:1em;">Executive Team</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n6">
+				<td><table class="TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_7" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_1 TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_6" href="our-precepts.aspx" target="_self" style="border-style:none;font-size:1em;">Our Precepts</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n7">
+				<td><table class="TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_7" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_1 TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_6" href="contact-us_1.aspx" target="_self" style="border-style:none;font-size:1em;">Contact Us</a></td>
+					</tr>
+				</table></td>
+			</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n8">
+				<td><table class="TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_7" cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td style="white-space:nowrap;width:100%;"><a class="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_1 TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_6" href="career-opportunities.aspx" target="_self" style="border-style:none;font-size:1em;">Career Opportunities</a></td>
+					</tr>
+				</table></td>
+			</tr>
+		</table><div class="TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_7 ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_0" id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n0ItemsUp" onmouseover="PopOut_Up(this)" onmouseout="PopOut_Stop(this)" style="text-align:center;">
+			<img src="/WebResource.axd?d=HtjeHt78lQnB-_VlcGfNQjNwt2RkN45y9RiZW72fYMeWLfM6A5GOe8IRzJ0g-ftNk15znKJhVp454Wmopa8_CpxGFdc1&t=635032110498206250" alt="Scroll up" />
+		</div><div class="TopDynamicMenuItemStyle ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_7 ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_0" id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1n0ItemsDn" onmouseover="PopOut_Down(this)" onmouseout="PopOut_Stop(this)" style="text-align:center;">
+			<img src="/WebResource.axd?d=Uqiuv1K7seizjq0i_PxqmvbBveokHxd1cDp_Esmp_XqlULT0fHEZGigSr4nJIlWhuoq-ngOnriCQ1iDGp10gvnGk4bk1&t=635032110498206250" alt="Scroll down" />
+		</div>
+	</div><a id="ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_SkipLink"></a>
+
+
+                    </td>
+             
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td class="Header_Table_HR"></td>
+    </tr>
+    <tr>
+        <td class="Main_Content_BG">
+            <table align="center" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                    <td class="Investor_Info_Section1">
+                        <table cellpadding="0" cellspacing="0" border="0">
+                            <tr>
+                                <td>
+                                    <div class="Investor_Info_Title">
+                                        Career Opportunities
+                                    </div>
+                                </td>                                
+                                <td class="Investor_Info_Section1_Content">
+                                    
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td class="Header_Table_HR"></td>
+    </tr>
+    <tr>
+        <td class="Investor_Info_Section23_Container">
+            <table cellpadding="0" cellspacing="0" align="center" border="0" style="width: 965px; height: 100%;">
+                <tr>
+                    <td class="Investor_Info_Section2">
+                        <div id="ctl00_ContentPlaceHolder1_ctl00_ctl02_ctl00_divStyle" Class="ViewControlContent">
+
+<div id='taleoContent'>
+<script type='text/javascript' src="https://staticchm.tbe.taleo.net/chm02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/tbe-basic-cws.js"></script>
+<script type='text/javascript' src="https://staticchm.tbe.taleo.net/chm02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/engine.js"></script>
+<script type='text/javascript' src="https://staticchm.tbe.taleo.net/chm02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/dwr-cws/interface/CwsDWRFacade.js"></script>
+<script type='text/javascript'> CwsDWRFacade._path = 'http://chm.tbe.taleo.net/chm02/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; </script>
+<script type="text/javascript">
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchm.tbe.taleo.net/chm02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chm.tbe.taleo.net/chm02/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chm.tbe.taleo.net/chm02/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();</script>
+
+
+
+
+
+
+<table border=0 cellspacing=0 cellpadding=2 width='100%' role='presentation'>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'></td></tr><tr><td colspan=2><h1>Data Analyst</h1></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Location:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>CA</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'>Company Order Number:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>1273</b></td>
+</tr>
+<tr>
+<td class='nowrapFormLabel width160 top'># of openings:</td>
+<td class='formFieldNormal top' colspan=1 style='width: 100%'><b>1</b></td>
+</tr>
+<tr>
+<tr><td colspan=2><hr width='100%' size='1' color='silver'></td></tr>
+<tr><td colspan=2><h1>Description</h1></td></tr>
+<tr><td colspan=2><p><strong>Data Analyst</strong></p>
+
+<p>&nbsp;</p>
+
+<p><strong>Position Summary</strong></p>
+
+<div>Responsible for performing in-depth data analysis and developing ad-hoc queries and conversion requirements to meet business needs. Deploy, troubleshoot and resolve data issues, conducting data research and ensure data quality.</div>
+
+<div>&nbsp;</div>
+
+<div><strong>Duties</strong></div>
+
+<div>
+<div>&bull;&nbsp;Identify, research and analyze data so that it can be accurately processed.<br />
+&bull;&nbsp;Perform analysis and document conversion requirements to translate data sets into standardized formats.<br />
+&bull;&nbsp;Perform data analysis functions for assigned business unit including design and development of critical reports.<br />
+&bull;&nbsp;Perform structured quality assurance testing including the development of test plans and scripts.<br />
+&bull;&nbsp;Proactively identify data issues that need to be fixed and perform detailed data verification and analysis.<br />
+&bull;&nbsp;Responsible for the escalation and resolution of data issues.<br />
+&bull;&nbsp;Make process and/or system improvement recommendations to assist the business unit in achieving its goals and objectives.<br />
+&bull;&nbsp;Work across business units/teams to collect, aggregate, match, consolidate, and confirm data for quality and accuracy.<br />
+&bull;&nbsp;Gather reporting requirements for change requests and ad-hoc reports as requested.<br />
+&bull;&nbsp;May assist with acquisition, extraction, transforming and standing up of various data sets.<br />
+&bull;&nbsp;May design and/or develop and ensure the quality of specific databases for collection, tracking and reporting of research data.<br />
+&bull;&nbsp;Performs other related duties as assigned.</div>
+
+<div>&nbsp;</div>
+
+<div><strong>Requirements</strong></div>
+
+<div>&nbsp;</div>
+
+<div>&bull;&nbsp;Proficient written and oral communication skills in dealing with employees or external customers/clients<br />
+&bull;&nbsp;Proficiency in standard office software, such as MS Office, MS Access, MS Word, MS Excel, etc<br />
+&bull;&nbsp;Demonstrated experience with data manipulation and analysis<br />
+&bull;&nbsp;Working knowledge of relational databases a plus<br />
+&bull;&nbsp;Strong ad-hoc SQL query development skills<br />
+&bull;&nbsp;Experience working with data analytics-driven solutions with sensitive data sources<br />
+&bull;&nbsp;High degree of creative, analytical and problem solving skills<br />
+&bull;&nbsp;Ability to gather and interpret information and to develop, recommend and implement solutions<br />
+<strong>&bull;&nbsp;Team oriented &ndash; ability to build departmental and cross-functional relationships</strong></div>
+
+<div>&nbsp;</div>
+
+<div><strong>Education</strong></div>
+
+<div>
+<div>A high school diploma or GED is required; Associate degree a+</div>
+
+<div>&nbsp;</div>
+
+<div>
+<p><strong>Fidelity National Financial, Inc. is an Equal Opportunity Employer.&nbsp; All new hires must be able to successfully pass a criminal records check.</strong></p>
+</div>
+</div>
+</div></td></tr>
+</tr>
+<tr>
+<tr><td class='left'><br>
+<form action='http://chm.tbe.taleo.net/chm02/ats/careers/apply.jsp;jsessionid=3B3D28BA70593747568CE31E9E397FF3?org=FIDELITYNATFIN&cws=1&rid=1273' method='post' name='apply'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='org' value='FIDELITYNATFIN'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='_csrf' value='v1:;1507572169633:;GmidYYl/oStNXJcnnsNaqkXoh3PSljGUOpiNxYN7ZgU=' /><input type='submit' name='tbe_cws_submit' value='Apply for this Position' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="8"></form></td>
+</td>
+<td align='right' colspan=1><br>
+<form action='http://chm.tbe.taleo.net/chm02/ats/careers/email.jsp;jsessionid=3B3D28BA70593747568CE31E9E397FF3?org=FIDELITYNATFIN&cws=1' method='post' name='send'>
+<input type='hidden' name='org' value='FIDELITYNATFIN'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='rid' value='1273'>
+<input type='hidden' name='_csrf' value='v1:;1507572169633:;GmidYYl/oStNXJcnnsNaqkXoh3PSljGUOpiNxYN7ZgU=' /><input type='submit' name='tbe_cws_submit' value='Send to a Friend' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="9"></form>
+</td></tr>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br></td>
+</tr>
+<tr>
+<td colspan=2><hr width='100%' size='1' color='silver'>
+<h1><span class='head1'>Are you a returning applicant?</span></h1></td>
+</tr>
+<tr>
+<form action='http://chm.tbe.taleo.net/chm02/ats/careers/applyModal.jsp;jsessionid=3B3D28BA70593747568CE31E9E397FF3?org=FIDELITYNATFIN&cws=1' method='post' name='TBE_theForm'>
+<input type='hidden' name='org' value='FIDELITYNATFIN'>
+<input type='hidden' name='cws' value='1'>
+<input type='hidden' name='rid' value='1273'>
+<input type='hidden' name='currentTime' value='1507572169633'>
+<input type='hidden' name='signature' value='M0LA4U2vrtoMwQ7qZ22gDHc4XOYA1s9dQywXcuUczm0='>
+<input type='hidden' name='et' value='CAND'>
+<input type='hidden' name='act' value='addCart'>
+<input type='hidden' name='_csrf' value='v1:;1507572169633:;GmidYYl/oStNXJcnnsNaqkXoh3PSljGUOpiNxYN7ZgU=' /><tr><td colspan=2>
+<table border=0 cellpadding=2 cellspacing=0 role="presentation"><tr>
+<td nowrap colspan=2>Previous Applicants:</td>
+</tr>
+<tr>
+<td nowrap align='right'><label for='email'>Email:</label></td>
+<td class='nowrap'><input type='text' id='email' name='email' maxlength=50 autocomplete='off' tabindex='22'></td>
+</tr>
+<input type='text' style='display:none'>
+<input type='password' style='display:none'>
+<tr>
+<td nowrap align='right'><label for='cwsPassword'>Password:</label></td>
+<td class='nowrap'><input type='password' id='cwsPassword' name='cwsPassword' maxlength=30 autocomplete='off' tabindex='23'></td>
+</tr>
+<tr><td nowrap colspan=2>
+<input type='submit' name='tbe_cws_submit' value='Add to My Jobs' style="
+padding:2px;margin-right:5px;
+color:#FFFFFF;
+border-left: 2px solid #11A9F7;
+border-bottom:1px solid #333333;
+border-right:1px solid #333333;
+border-top:2px solid #11A9F7;
+font-size: 10px;
+font-weight: bold;
+font-family:Verdana;" tabIndex="24"></td></tr>
+<tr><td nowrap colspan=2><br>
+If you do not remember your password <a href='http://chm.tbe.taleo.net/chm02/ats/careers/forgotID.jsp?org=FIDELITYNATFIN&cws=1' tabIndex='25'>click here</a>.<br><br></td></tr>
+</table>
+</td></tr></form>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='28' href='http://chm.tbe.taleo.net/chm02/ats/careers/searchResults.jsp;jsessionid=3B3D28BA70593747568CE31E9E397FF3?org=FIDELITYNATFIN&cws=1' title='Back to Search Results' >Back to Search Results</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><a  tabindex='29' href='http://chm.tbe.taleo.net/chm02/ats/careers/jobSearch.jsp;jsessionid=3B3D28BA70593747568CE31E9E397FF3?org=FIDELITYNATFIN&cws=1&rid=1273' title='New Search' >New Search</a><br><br></td>
+</tr>
+<tr>
+<td colspan=2 width='100%'><br><div align='right'><img src='http://tbe.taleo.net/graphics/Taleo_powered_by_small.gif' alt='Powered By Taleo' border='0'></div><br><br></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+        //jQuery Calendar
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchm.tbe.taleo.net/chm02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+    </script>
+
+</div>
+</div>
+
+
+                    </td>
+                    <td style="height: 100%;"><img src="../Sites/0/PageLayouts/Images/Column_Fade.png" style="height: 630px;" /></td>
+                    <td class="Investor_Info_Section3">
+                        
+<table cellpadding="0" cellspacing="0" width="270" border="0">
+    <tr>
+        <td>                    
+            <span class="Sub_Heading2_LightBlue">We have a strong track record of creating value for our shareholders.</span><br />
+            <hr class="HR_Content_Divider" />
+            <table cellspacing="0" cellpadding="3" width="270" border="0" class="InvestorMaterial">
+                <tbody>
+                    <tr>
+                        <td class="Sub_Heading2_DarkBlue" colspan="3">Explore Investor Material<br /></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <a href="/Sites/0/PageLayouts/Images/files/FNF2012Annual.pdf" target="_blank"><img src="../Sites/0/PageLayouts/Images/Annual_Report.jpg" style="margin:10px 0px;" height="40" border="0" /><br />
+                            2012 Annual<br />
+                            Report</a>                            
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="/Sites/0/PageLayouts/Images/files/FNFElectronicInvestorKit.pdf" target="_blank"><img src="../Sites/0/PageLayouts/Images/Electronic_Investor_Kit.jpg" style="margin:10px 0px;" height="40" border="0" /><br />
+                            Electronic<br />
+                            Investor Kit</a>
+                        </td>
+                        <td style="text-align: center;">
+                            <a href="http://www.investor.fnf.com/events.cfm"><img src="../Sites/0/PageLayouts/Images/Events_and_Multimedia.jpg" style="margin:10px 0px;" height="40" border="0" /><br />
+                            Events &<br />
+                            Multimedia</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>            
+            <hr class="HR_Content_Divider" />
+        </td>
+    </tr>
+</table>
+
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td id="Footer" class="Footer">
+            <table cellpadding="0" cellspacing="0" align="center" border="0">
+                <tr>
+                    <td class="Footer_Left">
+                        © 2013 Fidelity National Financial
+                        <br />
+                        All Rights Reserved
+                    </td>
+                    <td class="Footer_Center">
+                       <a href="http://www.fnf.com/Uploads/0/FCKUpload/file/privacy.pdf" target="_blank">Privacy Policy</a>  |                          
+                        <a href="contact-us_1.aspx" id="ctl00_ContentPlaceHolder1_ctl00_A1">Contact Us</a>
+                    </td>
+                    <td class="Footer_Right">
+                        <a href="default.aspx"><img id="ctl00_ContentPlaceHolder1_ctl00_imgFNF_Logo_Footer" src="../Sites/0/PageLayouts/Images/FNF_Logo_Footer.png" style="height:45px;width:129px;border-width:0px;" /></a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</div>
+    <div id="ctl00_ContentPlaceHolder1_divTags" style="display: none;"></div>
+    
+<script type="text/javascript">
+   
+</script>
+
+    </div>
+     
+    
+
+<script type="text/javascript">
+//<![CDATA[
+var ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_Data = new Object();
+ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_Data.disappearAfter = 500;
+ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_Data.horizontalOffset = 0;
+ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_Data.verticalOffset = 3;
+ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_Data.hoverClass = 'ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_16 TopDynamicHoverStyle';
+ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_Data.hoverHyperLinkClass = 'ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_15 TopDynamicHoverStyle';
+ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_Data.staticHoverClass = 'ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_14 TopStaticHoverStyle';
+ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_Data.staticHoverHyperLinkClass = 'ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_13 TopStaticHoverStyle';
+var localFormattedDate = new Date().toString('MMM d');var localFormattedTime = new Date().toString('hh:mm tt');document.getElementById('localDate').innerHTML = localFormattedDate;document.getElementById('localTime').innerHTML = localFormattedTime;Sys.Application.initialize();
+//]]>
+</script>
+
+    
+    
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3212682-9', 'fnf.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
+
+
+
