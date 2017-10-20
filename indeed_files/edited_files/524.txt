@@ -1,0 +1,579 @@
+
+
+	
+		
+		
+		
+		
+		
+				
+			
+				.gradient {
+		   			filter: none;
+				}
+			
+		
+		Business Development Analyst - Peachtree City, GA - Wencor Jobs
+		
+		
+		
+				
+		
+				
+		
+				
+				
+				
+					
+			
+      		
+      	
+		
+		-->
+		
+			$(function() {
+				$('input,textarea').placeholder();
+				A.supportsPlaceholders = $.support.placeholder = 'placeholder' in document.createElement('input');
+				V.init();
+				A.useN = true;
+				A.newValidation = true;
+				A.isMobile = 0;
+				
+							});
+		
+		
+			function breakout() {
+				if(window.top != window.self) {
+					window.top.location="https://wencorgroup.applicantpro.com//jobs/638521-1052.html";
+				}
+			}
+		
+			
+	
+		
+			
+								
+										
+										
+										
+									
+								
+					
+												
+							Home
+							Jobs
+						
+						
+						
+							@media print {
+							    .navbar {
+							        display: block;
+							        border-width:0 !important;
+							    }
+
+							    .navbar-toggle {
+							        display:none;
+							    }
+
+							    #email_me_job{
+							    	display: none;
+							    }
+
+							    #job_piper_alerts_widget{
+							    	display: none;
+							    }
+
+							    a[href]:after {  
+							    	display:none; 
+							    }
+
+							    .navbar-brand{
+							    	display: block;
+							    	text-decoration: none;
+							    	text-align: center;
+							    }
+							}
+
+							/*Safari Only hack*/
+							@media print and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+								.navbar-brand { 
+									display: none;
+								} 
+							}
+
+							/* Explorer Only hack */
+							.navbar-brand { display:none\0; }
+						
+						
+						
+							
+								Business Development Analyst - Peachtree City, GA
+								
+									Toggle navigation
+									
+									
+									
+								
+							
+							
+								
+									
+										Business Development Analyst									
+									
+										JobsLogin									
+								
+							
+						
+
+	$(function() {
+		$('#email_me_job').on('click', function() {
+			Analytics.addAction('email_me_job_button', { listing_id : 638521 });
+		});
+		
+		Analytics.addParams({ listing_id : '638521' });
+	});
+
+ 
+	{"@context":"http:\/\/schema.org\/","@type":"JobPosting","title":"Business Development Analyst","url":"https:\/\/wencorgroup.applicantpro.com\/jobs\/638521.html","description":"Job Title: Business Development Analyst\r\nDepartment: Strategic Accounts\r\nReports to: Director of Sales Operations\r\nDirect reports:&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\nIndirect reports: 0\r\nFLSA Status: Exempt&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \r\nEEO: 2\r\n&nbsp;\r\nJob Summary:\r\nWencor Group is looking for a passionate certified Business Development Analyst. The successful candidate will turn data into information, information into insight and insight into business development decisions.\r\nResponsibilities include conducting full lifecycle analysis to include requirements, activities and design. This role will develop analysis and reporting capabilities, and will also monitor performance and quality control plans to identify improvements.\r\nExamples of Duties and Responsibilities:\r\n\r\nInterpret data, analyze results using statistical techniques and provide ongoing reports\r\nDevelop and&nbsp;implement&nbsp;databases, data collection systems, data analytics and other strategies that optimize statistical efficiency and quality\r\nPartnering with Strategic Development Program Manager to develop solid business solutions for the major companies within the&nbsp; aviation\/aerospace industry\r\nAcquire and analyze&nbsp;industry and market data from primary or secondary data sources and maintain databases\/data systems\r\nIdentify, analyze, and interpret trends or patterns in complex data sets\r\nFilter and \"clean\" data by reviewing computer reports, printouts, and performance indicators to locate and correct code problems\r\nWork with management to&nbsp;prioritize&nbsp;business and information needs\r\nLocate and define new process improvement opportunities\r\nPrepare customer and internal presentations explaining the solutions approach\r\nPrepare commercial &amp; financial analysis (business cases) to understand ROI or other financial KPIs\r\nPrepare commercial &amp; legal framework in cooperation with offer \/ proposal management \/ legal departments\r\nCoordinate internally all required activities to develop solution\r\nSupport team leader with completed account plans and relationship model understanding\r\n\r\nQualifications and Skills. \r\nThe requirements listed below are representative of the knowledge, skill, and\/or ability required.&nbsp; Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.\r\n\r\nProven working experience as a data analyst or business data analyst\r\nTechnical expertise&nbsp;regarding&nbsp;data models, database design development, data mining and segmentation techniques\r\nStrong knowledge of and experience with reporting packages (Business Objects etc), databases (SQL etc), programming (XML, Javascript, or ETL frameworks)\r\nKnowledge of statistics and experience using statistical packages for analyzing datasets (Excel, SPSS, SAS etc)\r\nStrong&nbsp;analytical skills&nbsp;with the ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracy\r\nAdept at queries, report writing and presenting findings\r\n\r\nEducation Requirements: \r\n\r\nBachelor's degree in Business, Mechanical Engineering, Aerospace Engineering (preferred), Marketing, Mathematics, Economics, Computer Science, Information Management or Statistics\r\nThree years of related experience and\/or training; or \r\nEquivalent combination of education and experience.&nbsp; \r\n","identifier":{"@type":"PropertyValue","name":"Wencor","sameAs":"638521"},"datePosted":"2017-09-12 00:00:00","validThrough":"2017-11-11 00:00:00T23:59","employmentType":"FULL TIME","baseSalary":{"@type":"MonetaryAmount","currency":"USD","value":{"@type":"QuantitativeValue","value":"","unitText":"SALARY"}},"hiringOrganization":{"@type":"Organization","name":"Wencor","sameAs":"https:\/\/wencorgroup.applicantpro.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Peachtree City","addressRegion":"GA","postalCode":"30269","addressCountry":"US"}}}
+
+	
+		
+			
+				
+					 Corp Business Development Peachtree City, GA, USA Salary Full Time				
+				
+								 Medical; Dental; Vision; PTO; 401K
+							
+			
+								Email Me Similar Jobs								Email Me This Job
+			
+		
+		
+		Job Title: Business Development Analyst
+
+Department: Strategic Accounts
+
+Reports to: Director of Sales Operations
+
+Direct reports:&nbsp; 0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Indirect reports: 0
+
+FLSA Status: Exempt&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+EEO: 2
+
+&nbsp;
+
+Job Summary:
+
+Wencor Group is looking for a passionate certified Business Development Analyst. The successful candidate will turn data into information, information into insight and insight into business development decisions.
+
+Responsibilities include conducting full lifecycle analysis to include requirements, activities and design. This role will develop analysis and reporting capabilities, and will also monitor performance and quality control plans to identify improvements.
+
+Examples of Duties and Responsibilities:
+
+
+
+Interpret data, analyze results using statistical techniques and provide ongoing reports
+
+Develop and&nbsp;implement&nbsp;databases, data collection systems, data analytics and other strategies that optimize statistical efficiency and quality
+
+Partnering with Strategic Development Program Manager to develop solid business solutions for the major companies within the&nbsp; aviation/aerospace industry
+
+Acquire and analyze&nbsp;industry and market data from primary or secondary data sources and maintain databases/data systems
+
+Identify, analyze, and interpret trends or patterns in complex data sets
+
+Filter and "clean" data by reviewing computer reports, printouts, and performance indicators to locate and correct code problems
+
+Work with management to&nbsp;prioritize&nbsp;business and information needs
+
+Locate and define new process improvement opportunities
+
+Prepare customer and internal presentations explaining the solutions approach
+
+Prepare commercial &amp; financial analysis (business cases) to understand ROI or other financial KPIs
+
+Prepare commercial &amp; legal framework in cooperation with offer / proposal management / legal departments
+
+Coordinate internally all required activities to develop solution
+
+Support team leader with completed account plans and relationship model understanding
+
+
+
+Qualifications and Skills. 
+
+The requirements listed below are representative of the knowledge, skill, and/or ability required.&nbsp; Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.
+
+
+
+Proven working experience as a data analyst or business data analyst
+
+Technical expertise&nbsp;regarding&nbsp;data models, database design development, data mining and segmentation techniques
+
+Strong knowledge of and experience with reporting packages (Business Objects etc), databases (SQL etc), programming (XML, Javascript, or ETL frameworks)
+
+Knowledge of statistics and experience using statistical packages for analyzing datasets (Excel, SPSS, SAS etc)
+
+Strong&nbsp;analytical skills&nbsp;with the ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracy
+
+Adept at queries, report writing and presenting findings
+
+
+
+Education Requirements: 
+
+
+
+Bachelor's degree in Business, Mechanical Engineering, Aerospace Engineering (preferred), Marketing, Mathematics, Economics, Computer Science, Information Management or Statistics
+
+Three years of related experience and/or training; or 
+
+Equivalent combination of education and experience.&nbsp; 
+
+		
+		
+			Wencor
+			https://wencorgroup.applicantpro.com
+		
+	
+	
+		
+	$(function() {
+		$('#apply').on('click',function() {
+						if($('#int_ext_app_modal').length == 0){
+				A.setTempName('intExtCheck');
+				A.getResponse('check', {'is_internal': 0, 'listing_id': 638521, 'window_target': '_self'}, function(result){
+					if(result){
+						if(result.display_popup){
+							$('body').append(result.modal_html);
+							$('#int_ext_app_modal').modal('show');
+						} else {
+							var winder = window.open('/account/?listing_id=638521&i=0', '_self');
+						}
+					} else {
+						var winder = window.open('/account/?listing_id=638521&i=0', '_self');
+					}
+				});
+			} else $('#int_ext_app_modal').modal('show');
+			
+					});
+	});
+
+
+	
+		Apply Now
+	
+	
+		
+			You have javascript disabled on your browser. You will not be able to apply for this position without enabling javascript. If you need assistance with enabling javascript, please click here for assistance.
+		
+		
+			
+
+	
+		Sign Up For Job Alerts!
+	
+	
+		
+			$(function() {
+				var sidebar_options = { 
+					api_key: "jp_apppro_wencorgroup", 
+					style: "sidebar", 
+					title: "Business Development Analyst", 
+					source: "4_job" 
+				};
+				referWidget("create", sidebar_options, "refer-widget");
+			});
+		
+		
+	
+
+
+	
+		Resources
+	
+	
+		About UsNotices	
+
+	
+		Share this Page
+	
+	
+						
+		
+		
+		
+					
+	
+
+
+											 
+					
+												
+														Hiring Software Maintained By ApplicantPro - &copy; 2017
+														
+									
+										
+										Refresh
+									
+								
+													
+						
+						
+							$(function() {
+								$('.footer-links:last-child').css('border-left', '0');
+								$('.footer-links:last-child a').css('color', $('body .panel-footer').css('background-color'));
+							});
+						
+					
+					 
+				 
+			 
+		 
+		
+		
+	body {
+		margin-bottom: 60px !important;
+	}
+
+
+	var faqButtons = [{"page":"instructions","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"resume","link":"https:\/\/intercom.help\/applicant-support\/resumes"},{"page":"additional_questions","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"screening","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"employment","link":"https:\/\/intercom.help\/applicant-support\/employment-history"},{"page":"education","link":"https:\/\/intercom.help\/applicant-support\/education"},{"page":"references","link":"https:\/\/intercom.help\/applicant-support\/references"},{"page":"eeoc","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"disclosure","link":"https:\/\/intercom.help\/applicant-support\/applicant-statement"},{"page":"source","link":"https:\/\/intercom.help\/applicant-support\/source"},{"page":"submit","link":"https:\/\/intercom.help\/applicant-support\/submit-application","label":"Common Submit Questions"},{"page":"thank_you","link":"https:\/\/intercom.help\/applicant-support\/general","label":"Common Application Questions"},{"page":"my_account","link":"https:\/\/intercom.help\/applicant-support\/my-account","label":"Common Account Questions"},{"page":"login","link":"https:\/\/intercom.help\/applicant-support\/login","label":"Common Login Questions"},{"page":"listing_info","link":"https:\/\/intercom.help\/applicant-support\/job-listing","label":"Common Job Questions"}];
+	$(function() {
+		$('#faq_bar_form').on('submit', function() {
+			var value = $('#faq_bar_searchCriteria').val();
+			if(value) {
+				A.setTempName('support');
+				A.setTempDir('/jobs/');
+				A.set('recordSearch', { from_page_url : window.location.href, keyword : value });
+				var newWindow = window.open("https://intercom.help/applicant-support/#search_query=" + encodeURIComponent(value), "_blank");
+			} else
+				N.addError("Please enter a search term to search our FAQs");
+			return false;
+		});
+		
+		$('#common_faq_button').on('click', function() {
+			var newWindow = window.open($(this).data('link'), "_blank");
+		});
+		
+		var path = window.location.pathname, name;
+		switch(true) {
+			case path.indexOf('login.php') != -1 || path.indexOf('forgot_password.php') != -1:
+				name = 'login';
+				break;
+				
+			case path.indexOf('/account/') != -1:
+				name = 'my_account';
+				break;
+				
+			case path.indexOf('/jobs/') != -1:
+			case path.indexOf('/internaljobs/') != -1:
+				name = 'listing_info';
+				break;
+				
+			case path.indexOf('/apply/') != -1:
+				name = '';
+				break;
+		}
+		changeCommonQuestionsText(name);
+	});
+	
+	function changeCommonQuestionsText(name) {
+		var label = "", $button = $('#common_faq_button'), newButtonText = $('[data-file="' + name + '"]').text(), found = false;
+		for(var i in faqButtons) {
+			if(faqButtons[i]['page'] == name) {
+				$button.show();
+				label = faqButtons[i]['label'] ? faqButtons[i]['label'] : 'Common ' + (newButtonText.search(/questions?/ig) != -1 ? newButtonText : newButtonText + ' Questions');
+				$button.text(label);
+				$button.data('link', faqButtons[i]['link']);
+				found = true;
+				break;
+			}
+		}
+		
+		if(!found)
+			$button.hide();
+	}
+
+
+	
+		
+			
+		
+		Go
+				Common Questions
+			
+
+
+		
+				
+			!function(e,r,t){e.referWidget=e.referWidget||function(){(e.referWidget.q=e.referWidget.q||[]).push(arguments)},e.referWidget.l=1*new Date;var n=r.createElement("script"),i=r.getElementsByTagName("script")[0];n.async=1,n.src=t,i.parentNode.insertBefore(n,i)}(window,document, "https://widget-dot-refer-io.appspot.com/refer.js");
+		
+		
+		
+		
+				
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57286717-2', 'auto');
+  ga('send', 'pageview');
+
+
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		<!-- scripts 
+	
+		jQl.loadjQ('/js/all.min.js?ver=1.1.16498.2');
+	
+	-->
+	
+	
+	
+		
+	
+				var exit_survey_enabled = '0';
+		var fired = '0';
+		var thanks = '0'
+		$(function() {
+			$('#leaving').on('change', function() { 
+				if($(this).val() != 0)
+					$('#notice').css('display', 'block');
+				else
+					$('#notice').css('display', 'none');
+
+				if( $(this).val() == 'Other' ) 
+					$('#reason').css('display', 'block'); 
+				else 
+					$('#reason').css('display', 'none'); 
+			});
+		});
+
+		if(exit_survey_enabled != 0) {
+			$('#left').on('click', function() {
+				var answer = $('#leaving').val();
+				if(answer != 0) {
+					var domain_id = '52';
+					var job = '638521';
+					var app = '';
+
+					if(answer == 'Other') {
+						if( $('#reason').val() != '' ) {
+							answer = $('#reason').val();
+						} else {
+							answer = 'Other (Non Specified)';
+						}					
+					}
+					$.post("/jobs/edit.php", {n: 'conversion', f: 'survey', v :{app_id : app, domain: domain_id, job_id: job, answer: answer} });
+
+					$('#ouibounce-modal').hide();
+				  							$('#ouibounce-referio-modal').css('display', 'block');
+									}
+			});
+		}
+
+		// if you want to use the 'fire' or 'disable' fn,
+		// you need to save OuiBounce to an object
+		if(exit_survey_enabled != 0 && fired == 0 && thanks == 0) {
+			var modal = '';
+
+			$('html').on( 'mouseleave', function() {
+				if(fired == 0) {
+					fired = 1;
+					modal = ouibounce(document.getElementById('ouibounce-modal'), {
+							aggressive: false,
+						  	timer: 0,
+						  	callback: function() { 
+						  		$('#top-nav').css('z-index', '0'); 
+						  		$.get("/jobs/view.php", {n: 'conversion', f: 'survey_fired'}); 
+								if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+									modal.disable();
+						  	}
+						});
+					modal.fire();
+				}
+			});
+
+			setInterval( function() { 
+				$('select').click(
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+
+				$('select').mouseleave( 
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+			}, 1000);
+
+			$('body').on('click', function() {
+			  	$('#ouibounce-modal').hide();
+			  	$('#ouibounce-referio-modal').hide();
+			});
+
+			$('#ouibounce-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal-footer button').on('click', function(e) {
+			  	$('#ouibounce-referio-modal').hide();
+			});
+		}
+	
+	
+		<!--
+	
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://wencorgroup.applicantpro.com/stats/" : "http://wencorgroup.applicantpro.com/stats/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	
+	
+		try {
+		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 310);
+		piwikTracker.trackPageView();
+		piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+	
+	
+	-->
+		
+		$(function() {
+			Analytics.addAction();
+		});
+	
+
+		
+	
+	
+		$(function() {
+			$('select').attr('role', 'combobox');
+			$('.dropdown').attr('role', 'combobox');
+		});
+	
+
+	
+

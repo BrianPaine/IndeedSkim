@@ -1,0 +1,594 @@
+
+
+
+
+
+
+
+
+
+
+
+
+	Data Analytics in San Antonio, TX - Nix Health
+
+
+
+    
+
+    
+
+    
+
+        var _gaq = _gaq || [];
+
+
+
+        _gaq.push(['_setAccount', 'UA-4598700-1']);
+
+        _gaq.push(['_setDomainName', '.navicus.com']);
+
+        _gaq.push(['_trackPageview']);
+
+
+
+        (function () {
+
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+        })();
+
+    
+
+    
+
+
+
+        function cancelBack() {
+
+            if ((event.keyCode == 8 ||
+
+               (event.keyCode == 37 && event.altKey) ||
+
+               (event.keyCode == 39 && event.altKey))
+
+                &&
+
+               (event.srcElement.form == null || event.srcElement.isTextEdit == false)
+
+              ) {
+
+                event.cancelBubble = true;
+
+                event.returnValue = false;
+
+            }
+
+        }   
+
+  
+
+    
+
+    
+
+
+
+        function disableBackButton() {
+
+            window.history.forward();
+
+        }
+
+        setTimeout("disableBackButton()", 0);
+
+
+
+    
+
+    
+
+        function CustomValidate() {
+
+            var val = Page_ClientValidate();
+
+            if (!val) {
+
+                var i = 0;
+
+                for (; i < Page_Validators.length; i++) {
+
+                    if (!Page_Validators[i].isvalid) {
+
+                        $("#" + Page_Validators[i].controltovalidate)
+
+                         .addClass("control_validation_error");
+
+                    }
+
+                    else {
+
+                        $("#" + Page_Validators[i].controltovalidate)
+
+                         .removeClass("control_validation_error");
+
+                    }
+
+                }
+
+            }
+
+            return val; 
+
+        } 
+
+    
+
+    
+
+        .modalBackground
+
+        {
+
+            background-color: #666;
+
+            filter: alpha(opacity=70);
+
+            opacity: 0.7px;
+
+            -moz-opacity: 0.7;
+
+            -khtml-opacity: 0.7;
+
+        }
+
+        .modalPopup
+
+        {
+
+            background-color: #fff;
+
+            border-width: 2px;
+
+            border-style: solid;
+
+            border-color: #000;
+
+            padding: 8px;
+
+            width: 300px;
+
+            text-align: center;
+
+        }
+
+        .control_validation_error
+
+        {
+
+            background-color: #ff7777;
+
+        }
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+	
+
+        
+
+            Your session is about to expire due to inactivity.
+
+            
+
+            
+
+            &nbsp;
+
+            
+
+        
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+	
+
+        
+
+    
+
+
+
+    
+
+	
+
+        
+
+		
+
+			
+
+                
+
+    
+
+        
+
+            Position Details:
+
+            
+
+                
+
+                    
+
+                        Company Name: 
+
+                        &nbsp;Nix Health
+
+                    
+
+                    
+
+                        Job Title: 
+
+                        &nbsp;Data Analytics
+
+                    
+
+                    
+
+                        Job Code: 
+
+                        &nbsp;207
+
+                    
+
+                    
+
+                        Control Number: 
+
+                        &nbsp;2608
+
+                    
+
+                    
+
+                        Job Status: 
+
+                        &nbsp;Open
+
+                    
+
+                
+
+            
+
+            
+
+            &nbsp;
+
+            
+
+                
+
+                    
+
+                        Job Type: 
+
+                        &nbsp;Full Time
+
+                    
+
+                    
+
+                        Location: 
+
+                        &nbsp;Nix Health - Downtown
+
+                    
+
+                    
+
+                        Department: 
+
+                        &nbsp;Support Services
+
+                    
+
+                    
+
+                        Address: 
+
+                        &nbsp;414 Navarro Street
+
+                    
+
+                    
+
+                        City, State Zip: 
+
+                        &nbsp;San Antonio, TX&nbsp; 78205
+
+                    
+
+                
+
+            
+
+            
+
+        
+
+    
+
+
+
+                
+
+                    
+
+                        
+
+                            &nbsp;
+
+                        
+
+                    
+
+                    
+
+                        
+
+                            &nbsp;
+
+                            
+
+                            
+
+                            
+
+                        
+
+                    
+
+                    
+
+                        
+
+                            &nbsp;
+
+                        
+
+                    
+
+                    
+
+				
+
+                        
+
+                            
+
+                            
+
+                                POSITION SUMMARY: 
+
+Coordinates, analyzes, and reports Section 1115 Waiver metrics and other system-wide projects, including transition to outcomes-driven reporting, process improvement projects, and clinical decision support.
+
+&nbsp;
+
+&bull; Builds and maintains rapport with key stakeholders in each project.
+
+&bull; Collaborates with necessary stakeholders to ensure milestones and metrics are understood and deadlines are clear.
+
+&bull; Provides regular updates to internal and external stakeholders regarding status of projects
+
+&bull; Provides programmatic and data support to the Crisis Intervention Unit and Psychiatric Emergency Services Unit
+
+&bull; Compiles and provides data to team members for project targets and milestones. 
+
+Communicates with senior leadership to promote accountability to meet targets.
+
+&bull; Semi-annually collects, writes, and reports all progress and metrics to HHSC/CMS.
+
+&bull; Semi-annually compiles documentation necessary for reporting progress to HHSC/CMS for review and approval
+
+&bull; Participate in department and/or Health Care System activities, participates in departmental goal achievement, serves on appropriate committees, assists with performance improvement plans, and leads special projects.
+
+&bull; Other duties as assigned.&nbsp; 
+
+QUALIFICATIONS: 
+&bull; High school graduate or GED required.&nbsp; Some college preferred.
+EXPERIENCE PREFERRED
+&bull; Data analyst highly preferred
+&bull; Analytical thinking and problem solving
+&bull; Technical writing
+&bull; Project management &nbsp;
+&bull; Health care concepts and terminology
+&bull; Must be able to function independently
+&nbsp;
+
+MENTAL, VISUAL &amp; HEARING DEMANDS
+
+&bull; Must be able to read, write and understand English.
+&nbsp;
+COMPUTER LITERACY
+&bull; Fluent knowledge of Microsoft Word, Excel, Outlook, PowerPoint and Internet
+&bull; Ability to understand, run, and troubleshoot queries/reports in various programs a plus
+
+
+&nbsp;
+
+&nbsp;
+
+                            
+
+                        
+
+                    
+
+			
+
+                    
+
+                
+
+            
+
+		
+
+			
+
+                &nbsp;
+
+                
+
+                
+
+                
+
+            
+
+		
+
+	
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+	
+
+        
+
+            
+
+                
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    Powered by Navicus
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+//
+
+
+
+
+
+    
+
+        
+
+    
+
+
+
+
+

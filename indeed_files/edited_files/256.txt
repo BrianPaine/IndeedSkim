@@ -1,0 +1,431 @@
+
+
+  
+
+  <!--
+
+
+
+    
+
+    
+
+    
+
+    
+
+                
+
+            
+
+            
+
+                    
+
+
+
+    TechPeople &#8211; Data Analyst
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+			#content table.cke_editor { margin:0; }
+
+			#content table.cke_editor tr td { padding:0;border:0; }
+
+		
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100&subset=latin,latin-ext);
+body.boxed {
+
+	background-color: #333333;
+
+	background-image: none;
+
+	background-repeat: repeat;
+
+	background-position: left top;
+
+}
+
+	.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+	.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        
+
+            
+
+            
+
+            
+
+
+
+            
+
+            
+
+
+
+                                
+
+                
+
+                    
+
+                    
+
+                
+
+                
+
+                
+
+                
+
+                Home
+About Us	Company Overview
+	Why TechPeople?
+	Employee Centric
+	TP Diversity		NAICS Codes
+	
+
+	Corp. Governance
+	Investors
+	TP Resources
+	Careers
+
+
+Solutions	Collaboration
+	OpenSource
+	Android
+	iOS Application Design
+	Microsoft
+	JAVA
+	Oracle
+	SAP
+	Human Capital Management
+	BI &#038; DWH
+	Big Data
+	Smart Grid
+
+
+Services	Strategic IT Outsourcing
+	RPO
+
+
+Verticals	Energy
+	Banking and Financial Industry
+	Pharmaceuticals
+	Insurance
+	Health and Life Sciences
+	Retail Industry
+	Transportation
+	High-Tech Industry
+	Human Resources
+	Entertainment
+	Airline
+	Automobile
+
+
+Our Clients
+Contact
+                
+
+            
+
+            
+
+        
+
+    
+
+    
+
+
+
+
+
+    
+
+        
+
+                            Data Analyst                    
+
+        Home &rsaquo;
+Data Analyst    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+        
+
+
+
+
+
+    
+
+
+
+            
+
+    
+
+        11
+
+        Sep
+
+    
+
+    
+
+        
+
+    
+
+        
+
+        Data Analyst
+
+        
+
+
+
+                
+
+        
+
+                        admin
+
+                                    
+
+                                
+
+        
+
+        
+
+        
+
+        
+
+            
+	
+
+			
+
+	
+	Corp-to-Corp
+
+	Atlanta, GA
+
+	Posted 4 weeks ago
+
+	
+	
+
+
+		
+			
+	Position: Data Analyst
+
+
+
+		Location: Atlanta, GA
+	
+
+		# of Positions: 1 &nbsp;&nbsp;&nbsp; 
+	
+
+		Start: ASAP&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+	
+
+		Other Details: on-site / no telecommuting
+	
+
+		Eligibility: Open (No OPT-EAD please)
+	
+
+		Client Name / Domain: Telecom
+	
+
+		Bill Rate: $?? per hour
+	
+
+		Employment Mode: Contract / Corp-to-Corp
+	
+
+		Contract Duration: 12+ mos Contract
+	
+
+		Experience: 8-10+ years
+	
+
+		Skills: Web Analytics, Mobile Analytics, Adobe Analytics, Splunk, Google Analytics, AppStore Analytics 
+	
+
+
+	Skills &amp; Experience
+
+
+
+		You have expertise in Web Analytics (esp, Adobe Analytics, Splunk reporting and Google Analytics, App store analytics)
+	
+
+		You are well verse with Mobile Analytics
+	
+
+		Excellent Communication will be interacting with leadership and marketing / sales team
+	
+
+		Ability to create dashboards from various data sources including (Adobe analytics, DB&rsquo;s, Google play and Apple store) 
+	
+
+		Ability to create product metrics and KPI&rsquo;s
+	
+
+		Ability to Interpret and collect data and provide ongoing reports
+	
+
+		Ability to analyze data sets trends and patterns
+	
+
+
+	&nbsp;
+
+
+	For more open Jobs please visit:&nbsp; http://www.TechPeople.us/TPJOBS
+
+
+	&nbsp;
+
+
+	
+	ABOUT US (Equal Opportunity Employer)
+
+
+	At TP USA we are proud to celebrate diversity of people for the benefit of our employees, our products, and the global community we all belong to.
+
+
+	It is the policy of TP USA Inc., and its subsidiaries, to provide equal employment opportunities to all employees and applicants for employment. All employment practices such as recruitment, selection, promotions, and other terms and conditions of employment are administered in a manner designed to ensure that employees and applicants for employment or services are not subjected to discrimination on the basis of age, race, color, sex, sexual orientation, gender identity, national origin, ancestry, medical condition, disability, marital status, religious or political preferences or union affiliation.
+		
+
+						
+				
+		
+		
+		
+			To apply for this job email your details to a&#97;&#114;&#111;&#110;&#64;&#116;ec&#104;p&#101;&#111;&#112;&#108;e.&#117;s
+
+
+	Apply using webmail: 
+	Gmail / 
+	
+	AOL / 
+	
+	Yahoo / 
+	
+	Outlook
+
+		
+			
+		
+			
+        
+
+        
+
+
+
+                        
+
+        
+
+                
+
+
+
+                
+
+                
+
+    Share This Story
+
+    
+Fatal error:  Cannot use object of type WP_Error as array in /homepages/17/d559733545/htdocs/2015/wp-content/themes/inceptio/post-sharing.php on line 9

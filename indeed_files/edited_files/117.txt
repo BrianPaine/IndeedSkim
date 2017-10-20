@@ -1,0 +1,3576 @@
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    Careers | Northrim Bank
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    (function (w, d, s, l, i) {
+
+    w[l] = w[l] || []; w[l].push({
+
+        'gtm.start':
+
+        new Date().getTime(), event: 'gtm.js'
+
+    }); var f = d.getElementsByTagName(s)[0],
+
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+
+    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+
+})(window, document, 'script', 'dataLayer', 'GTM-NLTNKFM');
+
+    
+
+    
+
+
+
+    
+
+        var _gaq = _gaq || [];
+
+        _gaq.push(['_setAccount', 'GTM-NLTNKFM']);
+
+        _gaq.push(['_setDomainName', 'none']);
+
+        _gaq.push(['_setAllowHash', true]);
+
+
+
+
+
+        _gaq.push(['_trackPageview']);
+
+
+
+        (function () {
+
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+        })();
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    
+
+        $(document).ready(function () {
+
+            $(this).scrollTop(0);
+
+        });
+
+        window.ScrollToTop = function () {
+
+            $('html,body', window.document).animate({
+
+                scrollTop: '0px'
+
+            }, 'fast');
+
+        };
+
+    
+
+    
+
+    
+
+    
+
+        (isTouchDevice()) ? ($('body').addClass('touch')) : ($('body').addClass('no-touch'));
+
+        function isTouchDevice() { return 'ontouchstart' in window || !!(navigator.msMaxTouchPoints); }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        (function () {
+
+            var cx = '012225404269643047723:7cji4bwvrhc';
+
+            var gcse = document.createElement('script');
+
+            gcse.type = 'text/javascript';
+
+            gcse.async = true;
+
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+
+            var s = document.getElementsByTagName('script')[0];
+
+            s.parentNode.insertBefore(gcse, s);
+
+        })();
+
+    
+
+
+
+    
+
+        $(document).ready(function () {
+
+            window.scrollTo(0, 0);
+
+        });
+
+    
+
+    
+
+    
+
+
+
+	Your browser (Internet Explorer 8 or lower) is out of date. It has known security flaws and may not display all features of this and other websites. Learn how to update your browser.
+
+	X
+
+
+
+
+
+    
+
+
+
+    Skip to main contentor please stop by one of our convenient locations.
+
+
+
+    
+
+
+
+
+
+
+
+
+
+        
+
+
+
+            
+
+            
+
+            
+
+
+
+
+
+            
+
+                
+
+                    
+
+
+
+                    
+
+                        
+
+                            
+
+                                
+
+
+
+                                    
+
+                                        
+
+                                    
+
+
+
+                                
+
+                                
+
+
+
+                                    
+
+                                
+
+                                        
+
+                                            
+
+                                            
+
+                                            
+
+                                                &nbsp;&nbsp;
+
+                                                
+
+                                                    
+
+                                                        Web
+
+                                                    
+
+                                                        Site
+
+                                                    
+
+                                                        
+
+                                                        
+
+                                                    
+
+                                                    
+
+                                                   
+
+                                                
+
+
+
+
+
+                                                
+
+
+
+                                            
+
+                                            
+
+                                            
+
+
+
+                                        
+
+                                        
+
+                                            
+
+                                                
+
+                                                
+
+                                                    
+
+                                                        
+
+                                                        
+
+
+
+                                                            
+
+                                                                Branch and ATM Locations &nbsp; | &nbsp; Security and Privacy Center &nbsp; | &nbsp; Contact Us &nbsp;| &nbsp; Careers
+
+                                                            
+
+
+
+                                                        
+
+                                                        
+
+                                                    
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                        
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                    
+
+
+
+                    
+
+                    
+
+                        
+
+                            
+
+                        
+
+                        
+
+                            
+
+                        
+
+                        
+
+                        
+
+
+
+                            
+
+                                
+
+
+
+
+
+                        
+
+                        
+
+
+
+                        
+
+                        
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                    
+
+                                        Personal Login
+
+                                        Business Login-->
+
+                                        Browse Open Jobs
+
+                                            
+
+                                            Spend
+
+                                                Checking
+
+                                                Debit Cards
+
+                                                Credit Cards
+
+                                            
+
+                                            
+
+                                            Save
+
+                                                Savings and Money Market
+
+                                                Education Savings Accounts
+
+                                                Health Savings Accounts
+
+                                            
+
+                                            
+
+                                            Borrow
+
+                                                Loans
+
+                                                Mortgages
+
+                                            
+
+                                            
+
+                                            Invest
+
+                                                CDs
+
+                                                Investment Portfolios and Annuities
+
+                                                IRAs
+
+                                            
+
+                                            
+
+                                            Manage
+
+                                                Online Banking
+
+                                                Mobile Banking
+
+                                                Personal Finance
+
+                                                Deposits and Transfers
+
+                                            
+
+                                            
+
+                                        -->
+
+                                        
+
+                                        Edit Your Profile
+
+                                            
+
+                                            Spend
+
+                                                Checking
+
+                                                Debit Cards
+
+                                                Credit Cards
+
+                                            
+
+                                            
+
+                                            Save
+
+                                                Savings and Money Market
+
+                                            
+
+                                            
+
+                                            Borrow
+
+                                                Loans
+
+                                                Meet our Loan Officers
+
+                                            
+
+                                            
+
+                                            Invest
+
+                                                CDs
+
+                                            
+
+                                            
+
+                                            Manage
+
+                                                Online Banking
+
+                                                Mobile Banking
+
+                                                Deposits and Transfers
+
+                                            
+
+                                            
+
+                                            Operate
+
+                                                Cash Management
+
+                                                Card Processing
+
+                                                HR Administration
+
+                                                Employee Health Benefits
+
+                                                Employee Retirement Plans
+
+                                                Employee Accounts
+
+                                                Purchased Accounts Receivable
+
+                                            
+
+                                            
+
+                                            Learn
+
+                                                Alaskanomics
+
+                                                SurThrival
+
+                                                    Overview
+
+                                                    Financial Management
+
+                                                    Financing
+
+                                                    Operations and Inventory
+
+                                                    Human Resources
+
+                                                    Industry Analysis and Marketing
+
+                                                    SurThrival Training
+
+                                                
+
+                                                
+
+                                            
+
+                                            
+
+                                        -->
+
+                                        
+
+                                        View Submitted Applications
+
+                                            
+
+                                            About Us
+
+                                                Company Info
+
+                                                Careers
+
+                                                Community
+
+                                                Management
+
+                                                Affiliates
+
+                                                Newsroom
+
+                                                Investor Relations
+
+                                                Property Sales
+
+                                                Core Upgrade
+
+                                            
+
+                                            
+
+                                            Contact Us
+
+                                                Contact Info
+
+                                                Locations
+
+                                                Earn Miles Referral Program
+
+                                                Affiliate Marketing Opt-Out
+
+                                            
+
+                                            
+
+                                        -->
+
+                                        
+
+                                        
+
+                                        Search-->
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                        
+
+                         
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                        Web
+
+                                    
+
+                                        Site
+
+                                    
+
+                                        
+
+                                        
+
+                                    
+
+                                    
+
+                                
+
+
+
+
+
+                               
+
+
+
+                            
+
+                        
+
+                            -->
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+                                        
+
+
+
+                                            
+
+                                                
+
+                                            
+
+
+
+                                        
+
+                                        
+
+                                    
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+                                        
+
+
+
+                                            
+
+                                                Careers
+
+                                                Northrim Bank provides an environment where you can grow both personally and professionally. Our vision of being Alaska’s employer of choice is supported by our great benefits and even greater employees. Let’s work together to achieve your career goals. 
+
+                                            
+
+
+
+                                        
+
+                                        
+
+                                    
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+                                        
+
+                                        
+
+                                    
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                        
+
+                        
+
+                        
+
+                            
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+
+
+                                                
+
+                                                    
+
+                                                        login to online banking accounts
+
+                                                    
+
+                                                
+
+
+
+                                            
+
+                                             End_Module_7598 -->
+
+                                    
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+                                        
+
+
+
+                                            
+
+                                                
+
+                                                    We Listen
+
+                                                    
+
+                                                        Have a question, comment or suggestion?
+
+                                                        Let us know!
+
+                                                    
+
+                                                    
+
+                                                
+
+                                            
+
+
+
+                                        
+
+                                        
+
+                                    
+
+                                    
+
+                                
+
+                            
+
+
+
+                        
+
+                        
+
+                    
+
+                    
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+
+
+            
+
+                
+
+
+
+
+
+                    
+
+
+
+                        
+
+                            
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            
+
+
+
+                            
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    
+
+                                        
+
+                                        
+
+                                            
+
+                                                
+
+                                                
+
+
+
+                                                    
+
+                                                        
+
+
+
+                                                        
+
+                                                        
+
+
+
+
+
+.LabelCell
+
+{	padding: 3px 6px 3px 3px;
+
+}
+
+.Cell 
+
+{
+
+	padding-top: 4px;
+
+}
+
+
+
+.PrintSmall {
+
+	font-weight: bold
+
+}
+
+
+
+.LinkSmall:link 
+
+{
+
+	display: block; 
+
+	text-align: right;
+
+    font-weight: bold
+
+}
+
+.LinkSmall:visited 
+
+{
+
+	display: block; 
+
+	text-align: right;
+
+    font-weight: bold
+
+}
+
+.LinkSmall:active 
+
+{
+
+	display: block; 
+
+	text-align: right;
+
+    font-weight: bold
+
+}
+
+.LinkSmall:hover 
+
+{
+
+	display: block; 
+
+	text-align: right;
+
+	font-weight: bold
+
+}
+
+
+
+Job Details
+
+
+
+
+
+	
+
+		
+
+			Apply Online
+
+		
+
+	
+
+	
+
+		
+
+			Send This Job to a Friend
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = ('');
+
+		theform.__PXLBV.value = ('');
+
+	}
+
+	function pxslbp(eventTarget, eventArgument) {
+
+		var theform;
+
+		if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = eventTarget;
+
+		theform.__PXLBV.value = eventArgument;
+
+		theform.submit();
+
+	}
+
+//-->
+
+
+
+
+
+Invalid zipcode/postal code format for this country.');
+
+                }
+
+            } catch (e) {
+
+                hasError = true;
+
+            }
+
+            if (hasError) {
+
+                _zipCodeValue.title = 'Invalid Postal Code';
+
+                _zipCodeValue.style.backgroundColor = 'yellow';
+
+            }
+
+        }
+
+        return _validationReturn;
+
+    }
+
+    return true;
+
+}
+
+
+
+function removeZipLabelError(_zipCodeValue) {
+
+    var withSuccess = true;
+
+    try {
+
+        var lenght = _zipCodeValue.parentNode.childNodes.length;
+
+        var index = 0;
+
+        while (index 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ToggleCheckBoxs(chk){
+
+var tab = document.getElementById ( 'CheckBoxTable' );
+
+var elems = tab.getElementsByTagName ( 'input' );
+
+var len = elems.length;
+
+ for ( var i = 0; i  1){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+var pkval = nameparts[1];
+
+ txt.value = pkval;
+
+ }
+
+ }
+
+else
+
+elems[i].checked = false;
+
+}
+
+ if(chk.type == 'checkbox'){
+
+ if(chk.checked == false){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+txt.value="";
+
+}}}}
+
+
+
+
+
+
+
+    function SendResume(){
+
+        document.PXForm.ParseResume.value = 1;
+
+        document.PXForm.submit();
+
+    }
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+
+			
+
+			
+
+				Title
+
+				Data Analyst
+
+			
+
+			
+
+				City
+
+				Anchorage
+
+			
+
+			
+
+				State
+
+				AK
+
+			
+
+			
+
+				FLSA Status
+
+				Exempt
+
+			
+
+			
+
+				Number of Openings
+
+				1
+
+			
+
+			
+
+				Employment Type
+
+				Full Time
+
+			
+
+			
+
+				Work Hours
+
+				40 hrs; Mon-Fri 
+
+			
+
+			
+
+				Description
+
+				
+
+&nbsp;
+
+At Northrim Bank, our vision is to be Alaska’s premier bank and employer of choice! We are looking for professional and knowledgeable employees who take pride in their work. We believe in providing value for our customers and communities.
+
+&nbsp;
+
+Job Duties &amp; Functions:
+
+The primary function of the Data Analyst position is to perform data analysis and create reports, extracts, and other sources of business intelligence that drive the Bank’s business operations, and as such will need to exercise great discretion and confidentiality.&nbsp;
+
+ This position is expected to implement and enforce technology-related policies and procedures that affect the security and integrity of Bank data.&nbsp; This position will execute major business intelligence related projects that affect the Bank's business operations.&nbsp;
+
+ This includes using advanced systems analysis techniques and procedures, as well as working directly with vendors and end-users to determine proper reporting specifications.&nbsp; This position will provide the first level of business intelligence support for Bank
+
+ employees and therefore requires a high level of analytical skills to create and resolve complex reporting requests in addition to excellent communication skills.&nbsp; This position ensures all service and report requests are completed in a reasonable timeframe
+
+ and to our customers’ satisfaction. This position reports directly to the Data Analytics Group Manager.
+
+&nbsp;
+
+&nbsp;
+
+Job Qualifications:
+
+
+
+Education: Associate's Degree from an accredited institution of higher learning required, preferably in the field of Computer Science or related field of expertise.&nbsp;
+
+
+
+Education may be considered and substituted with two years commensurate experience.
+
+
+
+Experience: Six (6) years of experience working in the information technology field to include:
+
+
+
+Three (3) years of experience querying and analyzing data, and report authoring, preferably in the financial sector.
+
+Related military education and experience may be used as a substitute for education and experience.
+
+
+
+
+
+&nbsp;
+
+In addition to the above requirement, this position requires:
+
+
+
+Must be a motivated, a self-starter, have strong listening and problem-solving skills, and is able to handle challenging situations with limited supervision.
+
+Must be able to multi-task and accomplish a high degree of accurate work that adheres to established processes, procedures and regulations.
+
+Ability to independently analyze, prioritize and resolve issues. High levels of analytical, spatial, and mathematical abilities are required in order to determine solutions to varied, difficult and complex problems. Must remain thorough and detail oriented
+
+ while performing several tasks concurrently. Must enjoy working in a fast-paced environment that requires attention to detail and accuracy.
+
+Must have a basic understanding of reporting methodologies and how reports convey data to users.
+
+Must have a strong knowledge and proven experience of query and reporting languages, such as SQL, PL/SQL, and T-SQL. Must have a strong understanding of business intelligence software, such as SAP Business Objects, PeopleSoft, Crystal Reports, and SSRS.
+
+ Must have an intermediate knowledge of Microsoft Windows and be able to utilize and understand general computer concepts.&nbsp; Must be proficient with standard office machinery such as; PC (keyboard and ten-key), telephone, printer, and fax/copier.&nbsp; Must have
+
+ strong knowledge of Microsoft Excel as used to retrieve and analyze data. Must be able to navigate through computerized and manual resources in order to identify and resolve problem situations. Must possess intermediate knowledge of Microsoft® Office Suite.
+
+
+
+&nbsp;
+
+&nbsp;
+
+
+
+			
+
+			
+
+			
+
+			
+
+				
+
+
+
+
+
+We Practice Equal Employment Opportunity!
+
+Northrim Bank is an equal opportunity and affirmative action employer. Northrim Bank does not discriminate in employment based upon race, color, religion, sex, sexual orientation, gender identity, age, national origin, physical or mental disability,
+
+ protected veteran status, pregnancy, parenthood, marital status, changes in marital status, genetic information or any other status protected by federal, state or local law.
+
+Employees and applicants for employment who have a disability may contact Northrim Bank at 907-261-3555 or
+
+humanresources@nrim.com to request assistance and/or a reasonable accommodation.
+
+
+
+
+
+Please view Equal Employment Opportunity Posters provided by OFCCP 
+
+here.
+
+
+
+
+
+
+
+
+
+
+
+			
+
+			
+
+				
+
+				Apply Online
+
+			
+
+			
+
+				
+
+				Send This Job to a Friend
+
+			
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+                                                    
+
+
+
+                                                
+
+                                                
+
+                                            
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                
+
+                            
+
+
+
+                        
+
+
+
+
+
+                        
+
+
+
+
+
+
+
+
+
+
+
+                        
+
+                            
+
+
+
+
+
+
+
+
+
+                                
+
+
+
+
+
+                                    
+
+                                        
+
+                                    
+
+
+
+
+
+                                    
+
+                                        
+
+                                        
+
+                                    
+
+
+
+
+
+                                    
+
+                                        
+
+                                        
+
+                                    
+
+
+
+
+
+                                    
+
+                                        
+
+                                        
+
+                                    
+
+
+
+
+
+                                    
+
+                                        
+
+                                        
+
+                                    
+
+
+
+
+
+                                    
+
+                                        
+
+                                        
+
+                                    
+
+
+
+
+
+                                    
+
+                                        
+
+                                        
+
+                                        
+
+                                    
+
+
+
+
+
+                                    
+
+                                        
+
+                                        
+
+                                        
+
+                                        
+
+                                    
+
+
+
+
+
+                                    
+
+
+
+
+
+                                    
+
+                                        
+
+                                    
+
+
+
+                                
+
+
+
+
+
+                                
+
+
+
+                            
+
+                        
+
+
+
+                    
+
+
+
+
+
+                    
+
+
+
+
+
+                    
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+                        
+
+
+
+                    
+
+
+
+
+
+                    
+
+                    
+
+
+
+                
+
+
+
+
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+            
+
+
+
+
+
+            
+
+                
+
+                
+
+                    
+
+                
+
+                
+
+
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                    Copyright
+
+                                        var d = new Date(); document.write(d.getFullYear());
+
+                                        by FIS
+
+                                    :
+
+                    Terms Of Use :
+
+                    Privacy Statement
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                            
+
+                        
+
+                        
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                        
+
+                        
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                    
+
+                                        
+
+                                            
+
+                                            
+
+
+
+                                                
+
+                                                    
+
+                                                        
+
+                                                            Call Us: (907) 562-0062 or (800) 478-2265
+
+                                                            Routing Number:&nbsp;125200934
+
+                                                        
+
+                                                        
+
+                                                            
+
+                                                                
+
+                                                        
+
+                                                        
+
+                                                            Disclosures | Terms and Conditions | Security and Privacy | Fees | Rates
+
+                                                            &copy;var d = new Date(); document.write(d.getFullYear()); Northrim Bank - All Rights Reserved
+
+                                                        
+
+                                                    
+
+                                                
+
+
+
+                                            
+
+                                            
+
+                                        
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    
+
+                                    
+
+                                        
+
+                                            
+
+                                            
+
+
+
+                                                
+
+                                                    
+
+                                                        
+
+                                                            
+
+                                                                
+
+                                                        
+
+                                                    
+
+                                                
+
+
+
+                                            
+
+                                            
+
+                                        
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                        
+
+                            
+
+                            
+
+                        
+
+                        
+
+
+
+
+
+                            
+
+                            
+
+                            
+
+                                
+
+                                    Copyright var d = new Date(); document.write(d.getFullYear()); by FIS
+
+                                    :
+
+                Terms Of Use :
+
+                Privacy Statement
+
+                                
+
+                            
+
+
+
+
+
+                        
+
+                    
+
+
+
+                
+
+                
+
+
+
+            
+
+            back to top
+
+            
+
+
+
+
+
+        
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+    .wsc_generic_skin[data-loading="hidden"], .wsc_generic_skin[data-loading="hidden"] + .common_background {opacity:1;}
+
+
+
+    
+
+    
+
+        /**** CUSTOM FONT ****/
+
+
+
+        /* Unifont family */
+
+        body,
+
+        .welcome_index,
+
+        .price,
+
+        .tp-caption.large_bold_title,
+
+        .tp-caption.medium_text_shadow,
+
+        .slidercontainer .caption,
+
+        .slidercontainer .caption > div h1,
+
+        .menu_minimal .menu_wrap .nav > li > a,
+
+        .product .title a,
+
+        .scFeaturedProduct .title a,
+
+        .main_menu ul.nav > li > em.label,
+
+        .main_menu ul.nav > li > a > em.label,
+
+        .wsc-counter, .wsc-sidebar li.root > a,
+
+        .wsc-team-title h4, .wsc-team-title h3, .wsc-team-content p,
+
+        h1, h2, h3, h4, h5, h6, .c_content .Normal {
+
+            /*font-family: 'Lato', Arial, sans-serif;*/
+
+            font-family: Lato, Arial;
+
+        }
+
+
+
+
+
+        /* Font sizes */
+
+        body, p, ul li {
+
+            font-size: 16px;
+
+        }
+
+
+
+        h1 {
+
+            font-size: 36px;
+
+        }
+
+
+
+        h2 {
+
+            font-size: 30px;
+
+        }
+
+
+
+        h3 {
+
+            font-size: 24px;
+
+        }
+
+
+
+        h4 {
+
+            font-size: 18px;
+
+        }
+
+    
+
+    
+
+        /**** CUSTOM COLOR ****/
+
+
+
+        /* Caption, sidebar Color */
+
+        .tp-caption.bg,
+
+        .wsc-sidebar, .wsc-sidebar-wrap {
+
+            background-color: #333333;
+
+        }
+
+
+
+        .navbar-toggle {
+
+            color: #51758c;
+
+        }
+
+
+
+        .wsc-sidebar-inner li.root.active.with-arrow > a:after,
+
+        .wsc-sidebar-inner li.root.with-arrow:not(.sub):hover > a:after,
+
+        .title-vert-border-right {
+
+            border-right-color: #51758c;
+
+        }
+
+
+
+        /* Supportive background colors 
+
+    (Carousel description, testimonials, accordions, tooltips etc. backgrounds) */
+
+
+
+        .asphalt {
+
+            color: #333333;
+
+        }
+
+
+
+        .slider-title, .accordion-group,
+
+        .nav-tabs > li > a,
+
+        .tabbable.tabs-left .nav-tabs a,
+
+        .tooltip-inner,
+
+        #filters li a.selected, #filters2 li a:hover,
+
+        .holder a:hover, .holder_module a:hover,
+
+        a.jp-disabled:hover, .holder a.jp-next:hover {
+
+            background-color: #333333;
+
+        }
+
+
+
+            .nav-tabs > li > a,
+
+            .nav-tabs > li > a:hover, .nav-tabs > li.active > a:hover, .nav-tabs > .active > a:focus,
+
+            .nav-tabs > li.ui-tabs-active > a:hover, .nav-tabs > .ui-tabs-active > a:focus,
+
+            /*#filters li a:hover, #filters2 li  a:hover,*/
+
+            .holder a:hover, .holder_module a:hover,
+
+            a.jp-disabled:hover, .holder a.jp-next:hover {
+
+                border-color: #333333;
+
+            }
+
+
+
+            .slider-title:after,
+
+            .tooltip.top .tooltip-arrow {
+
+                border-top-color: #333333;
+
+            }
+
+
+
+        .tooltip.right .tooltip-arrow {
+
+            border-right-color: #333333;
+
+        }
+
+
+
+        .tooltip.bottom .tooltip-arrow {
+
+            border-bottom-color: #333333;
+
+        }
+
+
+
+        .tooltip.left .tooltip-arrow {
+
+            border-right-color: #333333;
+
+        }
+
+
+
+        .wsc-testimonial .flex-control-nav li a {
+
+            background-color: #51758c;
+
+        }
+
+
+
+        /* Portfolio colors */
+
+
+
+        #filters li a:hover, .portfolio-overlay a:hover,
+
+        .item_description a:hover, #filters li a:hover {
+
+            color: #51758c;
+
+        }
+
+
+
+        /* Prefooter Background Color 
+
+
+
+    #footer_alt {background-color: #222222;}*/
+
+
+
+
+
+        /* Darker Base Color 
+
+    (Menu active tab, post info background, text highlighting, timeline etc.)   */
+
+
+
+        .menu_wrap .nav > li > a:hover,
+
+        .menu_wrap .nav > li > a:focus,
+
+        .intro-icon-large:before,
+
+        a.wsc_icon_disc .intro-icon-disc:hover,
+
+        a.wsc_icon_disc:hover .intro-icon-small:before,
+
+        .wsc-featured-box.wsc-fdbox-plain .wsc-fdbox-icon em, .wsc-featured-box.wsc-fdbox-plain .wsc-fdbox-icon img,
+
+        a.list-group-item.active > .badge, .nav-pills > .active > a > .badge,
+
+        .main_menu ul.nav > li > em.label, .main_menu ul.nav > li > a > em.label,
+
+        .wsc-team-title span, .wsc-color-custom, .wsc-accent-color {
+
+            color: #51758c;
+
+        }
+
+
+
+        .menu_wrap .nav > li.active > a,
+
+        .menu_wrap .nav > li.active,
+
+        .menu_wrap .nav > li.active > a:hover,
+
+        .btn-blog, .btn-blog1, .btn-blog:hover, .btn-blog1:hover,
+
+        #footer, em.label.label-default,
+
+        .wsc-section-colored, .wsc-background-custom, .wsc-accent-bg,
+
+        .wsc-promo.wsc-promo-flat {
+
+            background-color: #51758c;
+
+        }
+
+
+
+
+
+        #footer {
+
+            background-color: rgba(81,117,140,1);
+
+        }
+
+
+
+
+
+        .tabbable.tabs-left .nav-tabs a,
+
+        .tabbable.tabs-left .nav-tabs .active a,
+
+        .tabbable.tabs-left .nav-tabs a:hover {
+
+            border-left-color: #51758c;
+
+        }
+
+
+
+        /* Lighter Base Color 
+
+    (Links, Buttons, Image hover, Icons etc.) */
+
+        /*a:visited */
+
+
+
+        .hue, .colour, a, a:visited,
+
+        .dropcap2,
+
+        .com_no:hover, a.com2_no,
+
+        .wsc_required,
+
+        .pricing-table h3,
+
+        .wsc-custom-bullet.wsc-bullet-hue > li > em,
+
+        .wsc-featured-box.wsc-fdbox-border .wsc-fdbox-icon em, .wsc-featured-box.wsc-fdbox-border .wsc-fdbox-icon img {
+
+            color: #51758c;
+
+        }
+
+
+
+            .zocial, a.zocial,
+
+            .zocial:hover, .zocial:focus,
+
+            .hue_block, .hue_block:hover,
+
+            .hover_img:hover, .hover_colour,
+
+            .hover_img.zoom:hover, .hover_colour.zoom,
+
+            .btn-primary, .th, .th:hover, .progress .bar,
+
+            .testimonial3, .quote_sections_hue,
+
+            .testimonial-icon-disc, .testimonial-icon-disc2, .testimonial-icon-disc3,
+
+            .pager li > a, .pager li > span,
+
+            .pagination ul > li > a:hover, .pagination ul > li > a:focus,
+
+            .pagination ul > .active > a, .pagination ul > .active > span,
+
+            .pagination ul > .active > a, .pagination ul > .active > span,
+
+            #filters li a.selected, #filters2 li a.selected,
+
+            .holder a.jp-current, .holder_module a.active,
+
+            .widget-scroll-prev:hover, .widget-scroll-next:hover,
+
+            .widget-scroll-prev2:hover, .widget-scroll-next2:hover,
+
+            .widget-scroll-prev3:hover, .widget-scroll-next3:hover,
+
+            .screen-bg, .pricing-header-row-1, .pricing-footer,
+
+            .nav-tabs > li.active > a, .nav-tabs > li.ui-tabs-active > a,
+
+            .nav-tabs > li > a:hover, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+
+            .nav-tabs > li.ui-tabs-active > a:hover, .nav-tabs > .ui-tabs-active > a:focus,
+
+            .tabbable.tabs-left .nav-tabs .active a, .tabbable.tabs-left .nav-tabs a:hover,
+
+            .fontawesome-icon-list .fa-hover a:hover,
+
+            .accordion .panel-heading, .accordion .panel-default > .panel-heading,
+
+            .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus,
+
+            .wsc-button, .wsc-button.wsc-button-dark:hover, .i-circled:hover, .i-rounded:hover,
+
+            .wsc-featured-box .wsc-fdbox-icon em, .wsc-featured-box .wsc-fdbox-icon img,
+
+            .wsc-fdbox-effect.wsc-fdbox-dark .wsc-fdbox-icon em:hover, .wsc-fdbox-effect.wsc-fdbox-dark:hover .wsc-fdbox-icon em,
+
+            .wsc-fdbox-border.wsc-fdbox-effect.wsc-fdbox-dark .wsc-fdbox-icon em:after {
+
+                background-color: #51758c;
+
+            }
+
+
+
+        .pagination ul > li > a, .pagination ul > li > span,
+
+        #filters li a.selected, #filters2 li a.selected,
+
+        .holder a.jp-current, .holder_module a.active,
+
+        .title-vert-border,
+
+        .custom-title.title-border-color:before,
+
+        .custom-title.title-bottom-border h1,
+
+        .custom-title.title-bottom-border h2,
+
+        .custom-title.title-bottom-border h3,
+
+        .custom-title.title-bottom-border h4,
+
+        .custom-title.title-bottom-border h5,
+
+        .custom-title.title-bottom-border h6,
+
+        .heading-block.border-color:after,
+
+        .wsc-featured-box.wsc-fdbox-outline .wsc-fdbox-icon,
+
+        .wsc-featured-box.wsc-fdbox-border .wsc-fdbox-icon,
+
+        blockquote, .blockquote-reverse, .wsc-border-custom {
+
+            border-color: #51758c;
+
+        }
+
+
+
+        .testimonial3:after {
+
+            border-top-color: #51758c;
+
+        }
+
+
+
+        .wsc-fdbox-effect.wsc-fdbox-dark .wsc-fdbox-icon em:after {
+
+            box-shadow: 0 0 0 2px #custom;
+
+        }
+
+
+
+        .wsc-fdbox-border.wsc-fdbox-effect.wsc-fdbox-dark .wsc-fdbox-icon em:hover, .wsc-fdbox-border.wsc-fdbox-effect.wsc-fdbox-dark:hover .wsc-fdbox-icon em {
+
+            box-shadow: 0 0 0 1px #custom;
+
+        }
+
+        /* Metro slider */
+
+        .metro-slide .link i.corner:before {
+
+            border-top-color: #51758c !important;
+
+            border-top-color: rgba(81,117,140,0.9) !important;
+
+        }
+
+
+
+        .metro-caption {
+
+            background-color: #51758c;
+
+            background: transparent;
+
+            background-color: rgba(81,117,140,0.9);
+
+            -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#51758c,endColorstr=#51758c)"; /* IE8 */
+
+            filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#51758c,endColorstr=#51758c); /* IE6 & 7 */
+
+        }
+
+
+
+        .spinner {
+
+            color: #51758c;
+
+        }
+
+
+
+
+
+        /* Bredcrumbs (RSTYLES)*/
+
+
+
+        .breadcrumbsPast {
+
+            background-color: #51758c;
+
+        }
+
+
+
+        .taa_breadcrumbs .taa_breadcrumb.breadcrumbsPast:after {
+
+            background-color: #51758c;
+
+        }
+
+
+
+        /* Revindex categories 
+
+
+
+    .rvdsfCategoryContainer .rtLI .rtSelected,
+
+    .rvdsfCategoryContainer .rtLI .rtHover {
+
+        background-color: #51758c;
+
+    } */
+
+
+
+        /*Revindex cart summary color*/
+
+        .TopBarPane .rvdsfCartSummaryDetailItem > span {
+
+            background-color: #51758c;
+
+        }
+
+
+
+        .dnnFormItem input[type="text"]:active,
+
+        .dnnFormItem input[type="text"]:focus,
+
+        .dnnFormItem input[type="password"]:focus,
+
+        .dnnFormItem input[type="password"]:active,
+
+        .dnnFormItem input[type="email"]:active,
+
+        .dnnFormItem input[type="email"]:focus,
+
+        .dnnFormItem select:active,
+
+        .dnnFormItem select:focus,
+
+        .dnnFormItem textarea:active,
+
+        .dnnFormItem textarea:focus,
+
+        .dnnFormItem input[type="search"]:active,
+
+        .dnnFormItem input[type="search"]:focus {
+
+            border: 1px solid rgba(81,117,140,0.5);
+
+            box-shadow: 0 0 3px 0 rgba(81,117,140,0.4);
+
+        }
+
+
+
+        /*Revindex admin*/
+
+        .rvdsfWelcomeSteps li a:hover {
+
+            background-color: #51758c;
+
+        }
+
+
+
+            .rvdsfWelcomeSteps li a:hover::before {
+
+                border-color: #51758c;
+
+                border-left-color: transparent;
+
+            }
+
+
+
+            .rvdsfWelcomeSteps li a:hover::after {
+
+                border-left-color: #51758c;
+
+            }
+
+
+
+        /*Colored solid overlay*/
+
+        .wsc-color-overlay {
+
+            background-color: rgba(81,117,140,0.5);
+
+        }
+
+
+
+        .wsc-color-overlay-more {
+
+            background-color: rgba(81,117,140,0.8);
+
+        }
+
+
+
+        .wsc-color-overlay-less {
+
+            background-color: rgba(81,117,140,0.3);
+
+        }
+
+    
+
+
+
+
+
+    
+
+        .common_background {
+
+            background-color: #666666;
+
+        }
+
+    
+
+
+
+
+
+
+
+    
+
+        .header, .sticky_header .header_inner, .menu_wrap .nav ul {
+
+            background-color: rgba(255,255,255,1);
+
+        }
+
+
+
+        @media(max-width:979px) {
+
+            .main_menu /*Floating and Mobile menu bc*/ {
+
+                background-color: rgba(255,255,255,1);
+
+            }
+
+        }
+
+    
+
+
+
+    
+
+        #main_content, .wsc_sidebar_skin, #banner {
+
+            background-color: rgba(255,255,255,1);
+
+        }
+
+
+
+        .wsc-sidebar-inner li.root.active.with-arrow > a:after, .wsc-sidebar-inner li.root.with-arrow:not(.sub):hover > a:after {
+
+            border-right-color: #ffffff;
+
+        }
+
+
+
+        .wsc-sidemenu-right .wsc-sidebar-inner li.root.active.with-arrow > a:after, .wsc-sidemenu-right .wsc-sidebar-inner li.root.with-arrow:not(.sub):hover > a:after {
+
+            border-left-color: #ffffff;
+
+            border-right-color: transparent;
+
+        }
+
+    
+
+
+
+    
+
+        #footer_alt, #footer2 {
+
+            background-color: rgba(230,230,230,1);
+
+        }
+
+    
+
+    
+
+        #intro, #outro .strip, .strip, .wsc-section-switcher {
+
+            background-color: rgba(255,255,255,1);
+
+        }
+
+    
+
+    
+
+        .ColorPanes1 {
+
+            background-color: rgba(255,255,255,1);
+
+        }
+
+    
+
+    
+
+        .ColorPanes2 {
+
+            background-color: rgba(217,217,215,1);
+
+        }
+
+    
+
+    
+
+        .ColorPanes3 {
+
+            background-color: rgba(74,54,81,1);
+
+        }
+
+    
+
+    
+
+        .ColorPanes4 {
+
+            background-color: rgba(255,255,255,1);
+
+        }
+
+    
+
+    
+
+        .ColorPanes5 {
+
+            background-color: rgba(191,191,191,1);
+
+        }
+
+    
+
+    
+
+        .btn, .btn-rounded, .alert, .zocial, .fontawesome-icon-list .fa-hover a,
+
+        .btn-lg, .btn-group-lg > .btn, .panel-group .panel,
+
+        .pagination ul > li > a, .pagination ul > li > span,
+
+        .menu_wrap .nav > li.active > a, .menu_wrap .nav > li.active,
+
+        .menu_classic .menu_wrap .nav > li.active > a, .menu_classic .menu_wrap .nav > li.active,
+
+        .go-top, .nav-pills > li > a, .th, .cbp_tmtimeline > li .cbp_tmlabel,
+
+        .testimonial1, .testimonial2, .testimonial3,
+
+        .big_button, a.big_button, .quote_sections, .quote_sections_hue, .quote_sections_dark, .quote_sections_light,
+
+        .menu_wrap .nav ul, .menu_wrap .nav ul ul, .tile, .progress,
+
+        .pricing-header-row-1, .pricing-footer, .slider-title,
+
+        .widget-scroll-prev, .widget-scroll-next, .widget-scroll-prev2,
+
+        .widget-scroll-next2, .widget-scroll-prev3, .widget-scroll-next3,
+
+        .panel-heading, .panel, #filters li a, #filters2 li a, .holder a,
+
+        input[type="text"], input[type="search"],
+
+        .wsc_use_forms input[type="text"], .wsc_use_forms input[type="search"],
+
+        pre, .bs-docs-example::after, .bs-docs-example,
+
+        .dnnFormItem input[type="text"], .dnnFormItem select, .dnnFormItem textarea,
+
+        .dnnFormItem input[type="email"], .dnnFormItem input[type="search"], .dnnFormItem input[type="password"],
+
+        .menu_wrap .nav ul ul a, .wsc-promo.wsc-promo-border, .wsc-promo.wsc-promo-light,
+
+        .rvdsfContentContainer ul.dnnAdminTabNav li a, .wsc_switcher_control > a#SwitcherBtn, .wsc_back_home a.btn,
+
+        #filters {
+
+            border-radius: 0px !important;
+
+        }
+
+    
+
+
+
+    
+
+        .wsc-sidebar, .wsc-sidebar-wrap, .wsc-content-dark.wsc-sidebar {
+
+            background-color: rgba(51,51,51,1);
+
+        }
+
+    
+
+
+
+    
+
+        /*.wsc-sidebar .submenu_wrap  {left: 220px !important;}
+
+    .wsc-sidebar.wsc-sidemenu-right .submenu_wrap  {right: 220px !important; left: auto !important;}*/
+
+        .wsc-sidebar, .wsc-sidebar-wrap, .wsc-sidebar-inner, .wsc-sidebar-inner > ul {
+
+            min-width: 220px;
+
+        }
+
+    
+
+
+
+    
+
+        .wsc-sidebar .submenu_wrap {
+
+            right: 220px;
+
+        }
+
+    
+
+
+
+    
+
+            custom-bu let {
+
+  -
+
+
+
+                       margin-left: 2.1428 e ;
+
+            : 0;
+
+            
+
+                  bullet > li {
+
+                    o it o : e
+
+               }
+
+            
+
+            
+
+    u
+
+
+
+        et-dark > li > em {
+
+                 ol r
+
+               }
+
+            
+
+            
+
+    u
+
+
+
+        wsc-bullet-white > li > e
+
+                    color: e;
+
+                }
+
+
+
+                    .wsc-custom-bul t.ws -
+
+            llet-gray  li  > 
+
+         
+
+        
+
+                    colo 888;
+
+                }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+        Loading...
+
+    
+
+
+
+
+
+    
+
+        var SkinPath = "/Portals/NorthrimBank/Skins/northrim";
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+        $(document).ready(function () {
+
+
+
+
+
+
+
+
+
+
+
+        });
+
+    
+
+    
+
+        $(document).ready(function () {
+
+            /* Min-height */
+
+            (function () {
+
+                // Set minimum height so footer will stay at the bottom of the window, even if there isn't enough content
+
+                function setMinHeight() {
+
+                    $('#main_content').css('min-height',
+
+                    $(window).outerHeight(true)
+
+                    - ($('body').outerHeight(true)
+
+                    - $('body').height())
+
+                    - $('#ControlBar').outerHeight()
+
+                    - $('.dnnControlPanel').outerHeight()
+
+                    - $('#header').outerHeight(true)
+
+                    - $('#banner').height()
+
+                    - $('#intro').height()
+
+                    - $('#map').height()
+
+                    - ($('#main_content').outerHeight(true) - $('#main_content').height())
+
+                    - $('.footer_wrapper').outerHeight(true)
+
+                    );
+
+                }
+
+                // Init
+
+                setMinHeight();
+
+
+
+
+
+            })();
+
+            /* end Min-height */
+
+        });
+
+        // Window resize
+
+        $(window).on('resize', function () {
+
+            var timer = window.setTimeout(function () {
+
+                window.clearTimeout(timer);
+
+                setMinHeight();
+
+            }, 30);
+
+        });
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+        if ($('.wsc-custom-bullet').length > 0) {
+
+            $('.wsc-custom-bullet').each(function () {
+
+
+
+                $(this).find(">li").each(function () {
+
+                    $(this).prepend('');
+
+                });
+
+            });
+
+        }
+
+    
+
+
+
+
+
+
+
+    
+
+        if ($(".t-rotate-spin").length) {
+
+            $(".t-rotate-spin").textrotator({
+
+                animation: "spin",
+
+                speed: 2000
+
+            });
+
+        }
+
+        if ($(".t-rotate-fade").length) {
+
+            $(".t-rotate-fade").textrotator({
+
+                animation: "fade",
+
+                speed: 2000
+
+            });
+
+        }
+
+        if ($(".t-rotate-flip").length) {
+
+            $(".t-rotate-flip").textrotator({
+
+                animation: "flip",
+
+                speed: 2000
+
+            });
+
+        }
+
+        if ($(".t-rotate-flipCube").length) {
+
+            $(".t-rotate-flipCube").textrotator({
+
+                animation: "flipCube",
+
+                speed: 2000
+
+            });
+
+        }
+
+        if ($(".t-rotate-flipUp").length) {
+
+            $(".t-rotate-flipUp").textrotator({
+
+                animation: "flipUp",
+
+                speed: 2000
+
+            });
+
+        }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        You are leaving Northrim Bank Website
+
+        The website you have selected is an external site located on another server and is provided by our partner, Allegiance Inc., an objective third-party company. All submitted comments are handled by Northrim management. Both Northrim and Allegiance are committed to the confidentiality of your comments and assure the security of the information you give us. However, we encourage you not to give any proprietary information such as passwords and social security numbers.
+
+        Proceed
+
+        Cancel
+
+        &times;
+
+    
+
+    
+
+    
+
+        You are leaving Northrim Bank Website
+
+        The website you have selected is an external one located on another server. Northrim Bank has no responsibility for any external website. We neither endorse the information, content, presentation, or accuracy nor make any warranty, express or implied, regarding any external site.
+
+        Continue
+
+        Cancel
+
+        &times;
+
+    
+
+  
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+

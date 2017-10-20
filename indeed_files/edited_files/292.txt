@@ -1,0 +1,270 @@
+
+
+                                                                                            
+    
+    
+                        
+        
+        
+        Archimedes Global Careers - Data Analyst
+                    
+            
+                                        
+                                            
+                
+            
+                                        
+        
+                        
+        
+
+        
+        
+        
+        
+                                
+                
+            
+        
+                
+    
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            var enableTracking = true;
+            var trackerId = "UA-15090121-1";
+            var pageTracker = _gat._getTracker("UA-15090121-1");
+        } catch(err) {}
+    
+    
+
+    function trackPage() {
+        try {
+            if (enableTracking && enableTracking == true) {//enableTracking var is set during analytics script reg.
+                var pageTracker = _gat._getTracker(trackerId);
+                var varIndex = 1;
+                try {
+                pageTracker._setCustomVar(varIndex++, "UserId", getUserId(), 1);
+                pageTracker._setCustomVar(varIndex++, "CompanyId", getCompanyId(), 1);
+                }//to track pages which does not have a User
+                catch (userIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "SubsidiaryId", getSubsidiaryId(), 1);
+                } //to track pages which does not have a subsidiaryId
+                catch (subsidiaryIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "JobId", getJobId(), 3);
+                    pageTracker._setCustomVar(varIndex++, "CategoryId", getCategoryId(), 3);
+                }//to track pages which does not have a jobref
+                catch (jodIdError) {
+                }
+                if (enableAnonymizeIP && enableAnonymizeIP == true) {
+                    _gat._anonymizeIp();
+                }
+
+                pageTracker._trackPageview();
+            }
+        }
+        catch (error) {
+
+        }
+    }
+
+
+    function getUserId() { return ''; }
+
+
+    function getCompanyId() { return 'qNdaVfwP'; }
+
+    
+        function getJobId() { return 'ooY25fwd'; }
+    
+    
+        function getCategoryId() { return '2048'; }
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+
+
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            enableTracking = true;
+            trackerId = "UA-67571808-1";
+            pageTracker = _gat._getTracker("UA-67571808-1");
+        } catch(err) {}
+    
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+        
+            if (window.self !== window.parent) {
+                document.documentElement.className += ' jv-iframe';
+            }
+        
+            
+    
+    
+        
+                    
+        
+                            
+                            
+        
+            
+                                    
+                                                    Archimedes Global Careers                                            
+                            
+        
+                
+                        
+    
+                    
+                                
+                Data Analyst
+    
+    
+                                        
+                            Mission Support            
+                    Alexandria,
+                            Virginia
+                
+                        
+        
+    
+                        
+                        
+    
+        Apply
+    
+                            
+                        
+            Description
+                        
+                Archimedes Global is currently seeking a&nbsp;Data Analyst&nbsp;to join our team in Alexandria, VA.The selected&nbsp;Data Analyst&nbsp;will be responsible to:&bull; Perform qualitative and quantitative statistical analyses using multiple disparate data sets from numerous sources to inform senior decision makers to improve TAP &bull; Extract pertinent data from DoD data sources and integrates complex data from additional sources, creates composite variables, merges multiple datasets, performs t-tests, ANVOAs, correlations, multiple regression, and longitudinal trend analysis using statistical software such as STATA, SPSS, or SAS to resolve data problems and identify trends across monthly/quarterly data to interpret data and identify policy or program implications &bull; Manipulate large data files by populating data into templates and performs analyses to interpret data by creating pivot tables, conditional formatting, and generating complex data figures and tables &bull; Compile and analyze TAP data to for the Curriculum Working Group &bull; Respond to RFIs and ad-hoc statistical analysis needs for TVPO, inter-agency, and Department leadersRequired Qualifications:Bachelor's and 5+ years of experienceAn Active NACLC security clearance required; Secret security clearance strongly desiredArchimedes Global, Inc. is a diversified technology&nbsp;company providing information and engineering solutions to government and businesses worldwide.&nbsp; Archimedes delivers superior results by combining deep domain expertise with technology-enabled innovations. We are proud to offer highly competitive compensation packages and outstanding benefits. If you feel you have what it takes, turn your interest into action &amp; apply now!
+            
+                            
+                    
+                
+                    
+    
+        Apply
+    
+                            
+        Apply Later    
+            
+        
+            &larr; Back to Current Openings        
+    
+    
+                                
+    
+        
+        Share
+        
+            
+                lang: en_US            
+            
+            
+                
+                    LinkedIn
+                
+            
+            
+                
+                    Facebook
+                
+            
+            
+                
+                    Twitter
+                
+            
+            
+                
+                    Email
+                
+            
+        
+    
+                    
+                                        
+            
+                Similar Jobs
+                                                        
+                    
+                        
+                            
+                                
+                                    {{ job.title }}
+                                
+                            
+                        
+                    
+                
+            
+            
+                
+    
+                    
+            
+                    
+        
+            
+                                                                        
+                    
+                        Powered by Jobvite
+                            
+        
+    
+            
+    
+        
+        
+    
+            
+    
+    
+        angular.module('preloadedData', []).constant('preloadedData', {
+                                        applyLinkUrl: '${job.applyLinkUrl}',
+                jobCategoryId: 'azV9Vfwi',
+                jobCategoryName: 'Mission Support',
+                jobId: 'ooY25fwd',
+                jobReqId: '232                                               ',
+                jobTitle: 'Data Analyst',
+                jobLocationId: 'CwxGVfwo',
+                                                                jobviteAnalytics: 'UA-15090121-1',
+                                        companyAnalytics: 'UA-67571808-1',
+                                                                                                    enableRecommendedJobs: true,
+                                                    enableResumeParsing: true,
+                                        numberFormat: "##,###,###,###,###.####",
+                                    companyEId: 'qNdaVfwP',
+            linkedInApiKey: '7557fkcarvxieo',
+            facebookApiId: '48354194572',
+            dropBoxApiKey: 'w5fg28zznqcyg4w',
+            baseUrl: '/archimedes',
+            cdnURL: '',
+            releaseVersion: '171003110732',
+            careersiteName: 'archimedes',
+            careersiteDomainName: '${careersiteDomainName}',
+            careersiteSourceTypeId: 'PsLyXfws'
+        }).constant('i18n', {
+            I18N_RESUME_PREVIEW: 'Resume Preview',I18N_NO_RESUME_FOUND: 'No resume found',I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',I18N_RECOMMENDER: 'Recommender:',I18N_CURRENT: 'Current',I18N_PAST: 'Past',I18N_EDUCATION: 'Education',I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',I18N_PATENTS: 'Patents',I18N_SUMMARY: 'Summary',I18N_SPECIALTIES: 'Specialties',I18N_EXPERIENCE: 'Experience',I18N_RECOMMENDATIONS: 'Recommendations',I18N_PRESENT: 'Present',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec'        });
+        Jobvite = {
+            baseUrl: 'https://app.jobvite.com'
+        }
+    
+                    
+    
+
+    

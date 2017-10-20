@@ -1,0 +1,369 @@
+
+
+
+
+Data Analyst - San Francisco, CA - Coinbase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  window.Coinbase = {"cache":{},"constants":{"ENV":"production","HTTPS":true,"MIXPANEL_TOKEN":"7c112173efca4899213c618484d8f5fe","BUGSNAG_JS_API_KEY":"a19f89113e392bb944d3ec0796340fbd","BUGSNAG_REACT_API_KEY":"afb3b2c84dbb04bf0f2f260003685211","PUSHER_SSL":true,"PUSHER_KEY":"d7be708e7945ebab11a34c530cb4dc","PUSHER_WS_HOST":"ws.coinbase.com","PUSHER_WS_PORT":443,"USER":null,"S_SNIPPET_KEY":"6174a9","SESSION_ID":"4da1435c7a38c1b60ccaf795c6c4602b","DEBUG":false,"API_HOST":"https://api.coinbase.com","OLARK_KEY":"8678-140-10-4291"},"modules":{},"translations":{"CURRENCY_UNIT":"$","CURRENCY_DELIMITER":",","CURRENCY_SEPARATOR":".","CURRENCY_FORMAT":"%u%n","LOCALE":"en","AVAILABLE_LOCALES":[["Deutsch","de"],["English","en"],["English - United States","en-US"],["Español","es"],["Español - Méjico","es-mx"],["Français","fr"],["bahasa Indonesia","id"],["Italiano","it"],["Nederlands","nl"],["Português","pt"],["Português - Brazil","pt-br"]]},"utils":{},"metrics":{"browser":{"name":"Other","version":"0"}}};
+  window.MIXPANEL_CUSTOM_LIB_URL = "https://www.coinbase.com/assets/vendor/mixpanel/build/mixpanel.globals-bddb90230a17af203432e87b9e2dbc38dd784eeae2f9e3138ae2cda28a0a228a.js";
+  window.apiHost = Coinbase.constants.API_HOST;
+  window.jwtToken = Coinbase.constants.API_JWT_TOKEN;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&times;
+ 
+Please note that Coinbase no longer supports this browser. We recommend upgrading to the latest Google Chrome or Firefox.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Products 
+
+Buy/Sell Digital Currency
+GDAX
+ Developer Platform
+Merchant Tools
+
+
+Help
+
+
+
+Charts
+
+Sign In
+Sign Up
+
+
+
+
+
+
+
+Data Analyst 
+San Francisco, CA
+
+
+
+
+About
+
+
+Careers
+
+
+Mission
+
+
+Press
+
+
+
+
+
+
+ Back To All Jobs
+ Data Analyst San Francisco, CA
+Our vision is to bring more innovation, efficiency, and equality of opportunity to the world by creating an open financial system. Our first step on that journey is making digital currency accessible and approachable for everyone.
+Two principles guide our efforts. First, be the most trusted company in our domain. Second, create user-focused products that are easier and more delightful to use than any alternative. Those principles guide every decision across the company from design through engineering, from operations through security. One key ingredient for making informed decisions is reliable and timely access to data and that’s where you come in.
+As a data analyst, you will work with all of these teams to provide them with actionable insights, drawn from reliable data. Our platforms produce data from a variety of sources, which must be aligned both between themselves and with external reference points like public blockchains. You will work on the design and implementation of our data warehouse, which will serve as a single source of truth across Coinbase and make our data easier to access and more consistent.
+ In this role, you will develop a strong intuition for proper data management, and understand in great detail the working of our products, how they generate data, and how to best present that data to a variety of users. Career progression can move both towards an advanced business intelligence role, or toward data engineering and data management.
+ Responsibilities: 
+
+Audit and analyze data produced by our various products (Coinbase, GDAX, and Toshi), as well as public blockchains and other external sources. 
+Publish clear and accurate data visualizations and reports per user requests.
+Working with lead data analyst, assist in design and implementation of a second-generation enterprise data warehouse based on user requirements
+
+Requirements:
+
+Exhibit our core cultural values: clear communication, positive energy, continuous learning, and efficient execution.
+Experience in data analysis and database design using SQL
+Strong communication and mentorship skill; a large part of your role will be to offer advice on business decisions and assist users in producing their own analyses.
+Bachelor’s degree in mathematics, physics, economics, engineering or other quantitative disciple. Must have a strong mathematical foundation.
+
+Preferred:
+
+Python or other scripting language, especially with regards to numerical analysis and visualization
+Experience with Looker, Tableau or other business intelligence platform.
+Working knowledge of Ruby
+
+ 
+We are an equal opportunity employer and value diversity at our company. We do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status.
+
+
+Apply For This Job * = required field
+
+
+
+
+First Name *
+
+
+
+
+
+Last Name *
+
+
+
+
+
+Email *
+
+
+
+
+
+Phone 
+
+
+
+
+
+Resume/CV *
+
+
+
+
+
+Cover Letter *
+
+
+
+
+
+LinkedIn Profile *
+
+
+
+
+
+Website 
+
+
+
+
+
+How did you hear about this job? *
+
+
+
+
+
+Are You A Robot?
+
+
+
+
+            
+              
+                
+                  
+                  
+                
+              
+              
+                
+                
+              
+            
+          
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+&copy; 2017 Coinbase
+
+
+Products
+
+Buy/Sell Digital Currency
+GDAX
+Developer Platform
+Merchant Tools
+
+
+
+Learn
+
+Buy Bitcoin
+Buy Ethereum
+Buy Litecoin
+Supported Countries
+Status
+
+
+
+Company
+
+About
+Careers
+Press
+
+
+Legal &amp; Privacy
+
+
+User Agreement
+Privacy Policy
+Licenses &amp; Disclosures
+
+
+Support
+
+
+
+Social
+
+Blog
+Twitter
+Facebook
+
+
+
+
+Language
+Deutsch
+English
+English - United States
+Español
+Español - Méjico
+Français
+bahasa Indonesia
+Italiano
+Nederlands
+Português
+Português - Brazil
+
+
+
+
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-32804181-1', 'auto', {
+    siteSpeedSampleRate: 100
+  });
+  ga('require', 'linkid');
+  ga('set', 'forceSSL', true);
+  ga('send', 'pageview');
+
+
+
+
+
+
+  var analytics = analytics || {};
+  (function() {
+      if(analytics.firstLoad === undefined) {
+          var whitelist = /^(?!(^|.*\.)(?:coinbase\.com|gdax\.com|cbhq\.net|localhost)$).*$/,
+              hostname = location.hostname;
+
+          if (hostname.match(whitelist)) {
+                  (function (d, t) {
+                      var g = d.createElement(t),
+                          s = d.getElementsByTagName(t)[0],
+                          server = 'https://static.statsjar.com/analytics/rsxdhm2zkI.js';
+                          g.src = server;
+                          g.setAttribute("async", "");
+                          s.parentNode.insertBefore(g, s.nextSibling);
+                  }(document, 'script'));
+          }
+          analytics.firstLoad = false;
+      }
+  })();
+
+
+    Coinbase.exchangeRatesGlobal = null;
+
+  
+
+
+  window.adaBot = new AdaChaperone('coinbase');
+
+
+

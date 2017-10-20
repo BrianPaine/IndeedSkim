@@ -1,0 +1,782 @@
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+      
+
+      
+
+      try { Typekit.load(); } catch (e) { }
+
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+  
+
+      
+
+      
+
+      
+
+
+
+
+
+      
+
+      
+
+
+
+
+
+    
+
+    
+
+        var switchTo5x = true;
+
+    
+
+    
+
+    
+
+        stLight.options({ publisher: 'e5b3516c-bf67-4519-a989-d3efd3bf6bf8' });
+
+    
+
+    
+
+        .leftColumn
+
+        {
+
+            position: relative;
+
+            float: left;
+
+            width: 600px;
+
+        }
+
+        .rightColumn
+
+        {
+
+            position: relative;
+
+            float: right;
+
+            width: 250px;
+
+            font-size: 0.7em;
+
+        }
+
+        .bothColumns
+
+        {
+
+            position: relative;
+
+            clear: both;
+
+        }
+
+        .videoApplicationWrapper {
+
+            float: right;
+
+        }
+
+    
+
+
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+                (i[r].q = i[r].q || []).push(arguments)
+
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+
+
+        ga('create', 'UA-44732861-4', 'auto', 'BDHRTracker');
+
+        ga('BDHRTracker.send', 'pageview');
+
+
+
+    
+
+    
+
+     
+
+     
+
+    
+
+    
+
+        $(document).off("click", "#viewOtherJobs");
+
+        $(document).on("click", "#viewOtherJobs", function (e) {
+
+            $("#OtherJobs").html('.. please wait while the "other jobs listing" is loading ...');
+
+            e.preventDefault();
+
+            var options = {
+
+                CCPCode: "",
+
+                InAccountID: "3489",
+
+                ElementID: "OtherJobs",
+
+                ShowAddThisWidget: false,
+
+                ShowEmailSignup: false,
+
+                ShowCompanyName: false,
+
+                ShowCustomContent: false,
+
+                Heading: "",
+
+                ShowJobFeedInJobLink: false,
+
+                JobLinkSource: "Indeed",
+
+                CurrentJobNumber: "272007",
+
+                ServerUrl: "http://jobs.ourcareerpages.com"
+
+            };
+
+
+
+            bdhr.generateListing(options);
+
+        });
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        
+
+   		    
+
+                
+
+                	
+
+                                
+
+    
+
+
+
+
+
+            
+
+        
+
+
+
+
+
+                            
+
+                 
+
+                
+
+                    
+
+                                
+
+   
+
+
+
+                            
+
+        	    
+
+            
+
+        
+
+    
+
+
+
+    
+
+    
+
+    
+
+        
+
+   		    
+
+                
+
+
+
+
+
+    
+
+        Aureon
+
+    
+
+
+
+
+
+    
+
+        Data Analyst II 
+
+    
+
+    
+
+    
+
+            West Des Moines, IA&nbsp;&nbsp;&nbsp;50266
+
+        
+
+
+
+            
+
+        
+
+    
+
+    
+
+
+
+    
+
+	
+
+        
+
+   		    
+
+        
+
+            
+
+          
+
+                  
+
+              	    
+
+    
+
+        
+
+         
+
+        
+
+           
+
+           
+
+           
+
+            
+
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                
+
+            
+
+          
+
+            
+
+                Aureon has an opening for a Data Analyst II. Duties and responsibilities include:
+
+Create and maintain reports, imports, exports, notifications and data interfaces based off the requirements outlined by the various business units and to develop/enhance business intelligence reporting.
+Analyze tables and reporting tool mappings to establish knowledge of data for accurate retrieval and use in report writing. 
+Analyzing performance data to recognize historical trends that can be used to forecast probable results
+Monitoring the performance of reports and taking corrective action to optimize or improve the performance of the reports when necessary.
+Resolve data reporting issues and data quality issues to ensure complete, thorough and accurate reports that meet our business needs.
+Assist with data migrations and interfaces between systems.
+Review current processes and identify opportunities for improvement. 
+Other duties and responsibilities as assigned and required.
+
+&nbsp;
+EDUCATION AND EXPERIENCE:
+
+Bachelor&rsquo;s Degree from a four-year university in related field
+Exposure to data visualization and data management
+Two to four years related work experience in Data Analysis, Data Analytics or Data Administration desired
+
+&nbsp;
+REQUIRED SKILLS:
+
+Ability to work under general supervision and work independently on projects
+Utilize work experience and judgment to strategically plan and accomplish goals 
+Ability to think independently, while still meeting deadlines
+Strong written and oral communication skills
+Ability to perform multiple tasks simultaneously, often changing assignments on short notice
+Ability to adhere to strict confidentiality standards
+Good organizational and time management skills
+
+&nbsp;
+TOOLS, EQUIPMENT, AND SOFTWARE:
+
+Experience with SQL, Microsoft SQL Server, SSRS and Excel required
+Technical skills of SSIS/SSAS desired
+
+&nbsp;
+WORKING CONDITIONS AND PHYSICAL REQUIREMENTS:
+
+Primarily indoor work in an office environment requiring long periods of sitting
+Frequent utilization of manual dexterity and visualizing of a computer screen
+No unusual physical requirements
+
+
+                
+
+            
+
+            
+
+                    Accessibility: If you need an accommodation as part of the employment process please contact Human Resources at Phone: 515-334-6119Email:&nbsp;corporatehr@aureon.com Equal Opportunity Employer, including disabled and veterans.   If you want to view the EEO is the Law poster, please choose your language: English &ndash; Spanish &ndash; Arabic - Chinese   If you want to view the EEO is the Law Supplement poster, please choose your language: English &ndash; Spanish &ndash; Chinese   If you want to view the Pay Transparency Policy Statement, please click the link: English
+&nbsp;
+
+                 
+
+        
+
+        
+
+            
+
+           
+
+            View Company Information
+
+            
+
+            
+
+            To see other positions, click here.
+
+            
+
+            
+
+
+
+
+
+        
+
+
+
+        
+
+    
+
+    
+
+
+
+                  
+
+                   
+
+            
+
+          
+
+		    
+
+	    
+
+    
+
+    
+
+
+
+            
+
+    
+
+    
+
+        $(document).ready(function () {
+
+            initPageFields();
+
+        });
+
+
+
+        function initPageFields() {
+
+            //var showLocationConfirmation = false;
+
+            $(document).off("click", "#btnApply");
+
+            $(document).on("click", "#btnApply", function (e) {
+
+                //if (showLocationConfirmation) {
+
+                //    e.preventDefault();
+
+                //    var addStr = "";
+
+                //    addStr += "";
+
+                //    addStr += "This job is located in " + $(".job_location").html() + ".Please click \"I understand\" below to continue.";
+
+                //    addStr += "";
+
+
+
+                //    var modSettings = {
+
+                //        windowheader: "Confirm Job Location",
+
+                //        successButtonText: "I understand"
+
+                //    };
+
+                //    showModalWindowFromHTMLString(addStr, {}, modSettings, function (modalFormVals) {
+
+                //        showLocationConfirmation = false;
+
+                //        $("#btnApply").click();
+
+                //        return true;
+
+                //    });
+
+                //}
+
+            });
+
+            myCulture = "en";
+
+            //If English "en" else Spanish "es"
+
+            if (myCulture ==  "en") {
+
+                $(document).off("click", "#btnEmailJob");
+
+                $(document).on("click", "#btnEmailJob", function(e) {
+
+                    e.preventDefault();
+
+                    var addStr = "";
+
+                    addStr += "";
+
+                    addStr += "To Email: ";
+
+                    addStr += "From Email: ";
+
+                    addStr += "Comments: ";
+
+                    addStr += "";
+
+
+
+                    var modSettings = {
+
+                        windowheader: "Email this job to a friend",
+
+                        successButtonText: "Send Email"
+
+                    };
+
+
+
+                    showModalWindowFromHTMLString(addStr, {}, modSettings, function(modalFormVals) {
+
+                        if ($.trim($("#toEmail", $(modalFormVals)).val()) == "") {
+
+                            alert("An email address to send this message is required");
+
+                            return false;
+
+                        }
+
+                        if (!validateEmail($.trim($("#toEmail", $(modalFormVals)).val()))) {
+
+                            alert("A valid to email address is required");
+
+                            return false;
+
+                        }
+
+                        if ($.trim($("#fromEmail", $(modalFormVals)).val()) == "") {
+
+                            alert("A from email address to is required");
+
+                            return false;
+
+                        }
+
+                        if (!validateEmail($.trim($("#fromEmail", $(modalFormVals)).val()))) {
+
+                            alert("A valid from email address is required");
+
+                            return false;
+
+                        }
+
+                        if ($.trim($("#emailContent", $(modalFormVals)).val()) == "") {
+
+                            alert("Some comments are required.");
+
+                            return false;
+
+                        }
+
+                        var parms = {
+
+                            job_id: '272007',
+
+                            toEmail: $.trim($("#toEmail", $(modalFormVals)).val()),
+
+                            fromEmail: $.trim($("#fromEmail", $(modalFormVals)).val()),
+
+                            emailContent: $.trim($("#emailContent", $(modalFormVals)).val())
+
+                        }
+
+                        callServerObjectMethod("Job", "emailJobToAFriend", parms, function(userData) {
+
+                        });
+
+                        return true;
+
+                    });
+
+                });
+
+            } else {
+
+                $(document).off("click", "#btnEmailJob");
+
+                $(document).on("click", "#btnEmailJob", function(e) {
+
+                    e.preventDefault();
+
+                    var addStr = "";
+
+                    addStr += "";
+
+                    addStr += "Al correo electrónico: ";
+
+                    addStr += "Desde el e-mail: ";
+
+                    addStr += "Comentarios: ";
+
+                    addStr += "";
+
+
+
+                    var modSettings = {
+
+                        windowheader: "Enviar esta oferta a un amigo",
+
+                        cancelButtonText: "Cancelar",
+
+                        successButtonText: "Enviar correo electrónico"
+
+                    };
+
+
+
+                    showModalWindowFromHTMLString(addStr, {}, modSettings, function(modalFormVals) {
+
+                        if ($.trim($("#toEmail", $(modalFormVals)).val()) == "") {
+
+                            alert("Se requiere una dirección de correo electrónico para enviar este mensaje");
+
+                            return false;
+
+                        }
+
+                        if (!validateEmail($.trim($("#toEmail", $(modalFormVals)).val()))) {
+
+                            alert("Una válida para dirección de correo electrónico se requiere");
+
+                            return false;
+
+                        }
+
+                        if ($.trim($("#fromEmail", $(modalFormVals)).val()) == "") {
+
+                            alert("A partir de la dirección de correo electrónico que se requiere");
+
+                            return false;
+
+                        }
+
+                        if (!validateEmail($.trim($("#fromEmail", $(modalFormVals)).val()))) {
+
+                            alert("Un válido a partir de dirección de correo electrónico se requiere");
+
+                            return false;
+
+                        }
+
+                        if ($.trim($("#emailContent", $(modalFormVals)).val()) == "") {
+
+                            alert("Se requieren algunos comentarios.");
+
+                            return false;
+
+                        }
+
+                        var parms = {
+
+                            job_id: '272007',
+
+                            toEmail: $.trim($("#toEmail", $(modalFormVals)).val()),
+
+                            fromEmail: $.trim($("#fromEmail", $(modalFormVals)).val()),
+
+                            emailContent: $.trim($("#emailContent", $(modalFormVals)).val())
+
+                        }
+
+                        callServerObjectMethod("Job", "emailJobToAFriend", parms, function(userData) {
+
+                        });
+
+                        return true;
+
+                    });
+
+                });
+
+            }
+
+
+
+        }
+
+    
+
+
+
+    
+
+
+
+
+

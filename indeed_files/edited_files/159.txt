@@ -1,0 +1,2252 @@
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    USAJOBS - Job Announcement
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+        html {
+
+            display: none;
+
+        }
+
+    
+
+     if (self == top) { document.documentElement.style.display = 'block'; } else { top.location = self.location; } 
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                    An official website of the United States government
+
+                
+
+                
+
+                
+
+            
+
+        
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                        
+
+                    
+
+                    
+
+                        
+
+                                                          
+
+                                
+
+                                                                            
+
+                                    
+
+                                    
+
+                                
+
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                                                
+
+                                                                   
+
+                                    Home
+
+                                    Profile
+
+                                    Documents
+
+                                    Username &amp; Password
+
+                                    Sign Out
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    
+
+                                    Help
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    
+
+                                    Search
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                    Keywords
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    
+
+                                    Location
+
+                                
+
+                                
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Search
+
+                                
+
+                            
+
+                        
+
+                
+
+                    
+
+                        Create an account to get started — build your profile, create or upload resumes and apply for jobs.
+
+                    
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+                Prev
+
+            
+
+            
+
+                
+
+                Back to results
+
+            
+
+            
+
+                Next 
+
+            
+
+        
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    Data Analyst 
+
+                
+
+                Department of Defense
+
+                
+
+                    National Geospatial-Intelligence Agency
+
+                
+
+            
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+    
+
+        
+
+            
+
+                
+
+                    Overview
+
+                
+
+            
+
+            
+
+                
+
+                    Locations
+
+                
+
+            
+
+            
+
+                
+
+                    Duties
+
+                
+
+            
+
+            
+
+                
+
+                    Requirements
+
+                
+
+            
+
+            
+
+                
+
+                    Required Documents
+
+                
+
+            
+
+            
+
+                
+
+                    Benefits
+
+                
+
+            
+
+            
+
+                
+
+                    How to apply
+
+                
+
+            
+
+            
+
+                
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                     Help
+
+                                
+
+                                Overview
+
+                                    
+
+        
+
+            
+
+                
+
+                    Open &amp; closing dates
+
+                
+
+            
+
+            
+
+                
+
+                10/06/2017 to 12/30/2017
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    Salary
+
+                
+
+            
+
+            
+
+                $60,613 to $123,234 per year
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    Pay scale &amp; grade
+
+                
+
+            
+
+            
+
+                IA 03
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    Work schedule
+
+                
+
+            
+
+            
+
+                Full-Time - Full Time
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    Appointment type
+
+                
+
+            
+
+            
+
+                Permanent - This is a permanent position.
+
+            
+
+        
+
+    
+
+
+
+
+
+                            
+
+                            
+
+                                
+
+                                     Help
+
+                                
+
+                                Locations
+
+                                    2 vacancies in the following locations:
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+                                                        
+
+                                                    
+
+                                                    
+
+                                                        
+
+                                                            
+
+                                                        
+
+                                                        
+
+                                                            Saint Louis, MO 
+
+                                                        
+
+                                                        
+
+                                                            1 vacancy
+
+                                                        
+
+                                                    
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+                                                        
+
+                                                    
+
+                                                    
+
+                                                        
+
+                                                            
+
+                                                        
+
+                                                        
+
+                                                            Springfield, VA 
+
+                                                        
+
+                                                        
+
+                                                            1 vacancy
+
+                                                        
+
+                                                    
+
+                                                
+
+                                            
+
+                                                                                                        
+
+
+
+                               
+
+                                
+
+                                        
+
+                                            
+
+                                                
+
+                                                    Relocation expenses reimbursed
+
+                                                
+
+                                            
+
+                                            
+
+                                                Yes
+
+PERMANENT CHANGE IN STATION: PCS expenses are authorized.                                            
+
+                                        
+
+
+
+                                
+
+                            
+
+                        
+
+
+
+                        
+
+                            
+
+                                
+
+                                     Help
+
+                                                                
+
+                                This job is open to
+
+                                
+
+                                        
+
+                                            
+
+                                                
+
+                                                        
+
+                                                            
+
+                                                        
+
+                                                
+
+                                                
+
+                                                    
+
+                                                        The public
+
+                                                    
+
+                                                    
+
+                                                        U.S. citizens, nationals or those who owe allegiance to the U.S., and excepted service employees.
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                            Apply
+
+                                
+
+                                
+
+                                    
+
+                                         Print
+
+                                    
+
+
+
+    
+
+         Share
+
+    
+
+    
+
+        
+
+            
+
+                 Email
+
+            
+
+        
+
+        
+
+            
+
+                 Facebook
+
+            
+
+        
+
+        
+
+            
+
+                 Google+
+
+            
+
+        
+
+        
+
+            
+
+                 LinkedIn
+
+            
+
+        
+
+        
+
+            
+
+                 Twitter
+
+            
+
+        
+
+            
+
+                
+
+                     Shorten link
+
+                
+
+            
+
+    
+
+                                        
+
+                                            Save
+
+                                        
+
+                                
+
+                                
+
+                                    
+
+                                        Announcement number
+
+                                        
+
+                                            20180080
+
+                                        
+
+                                    
+
+                                    
+
+                                        Control number
+
+                                        
+
+                                            480934900
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                    
+
+
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                        Duties
+
+                                    
+
+                                    
+
+                                        
+
+                                             Help
+
+                                        
+
+                                        Duties
+
+                                        Summary
+
+                                        
+
+                                            JOB DESCRIPTION: Band 3 Data Analysts apply moderately complex tools and algorithms to identify trends and patterns in data. They communicate with stakeholders and conduct research to develop an intermediate understanding of relevant programs and requirements. These analysts identify and collect moderately structured data from various sources, evaluate the data to ensure that they meet analytic needs, and prepare the data for analysis. They also select, apply, and assess a variety of analytic models and techniques, and review and verify the results. They prepare reports and briefings and consult with stakeholders to communicate findings.                                           
+
+                                                
+
+                                                    Learn more about this agency
+
+                                                                                            
+
+                                        
+
+                                        Responsibilities
+
+                                        
+
+                                            
+
+                                                ADDITIONAL INFORMATION: NGA seeks Data Analyst who understands data, how to view it, manipulate it, influence it and analyze it to support missions such as National Intelligence, National Security, Military Operations, Military Planning, and Disaster Relief and Preparedness for a diverse audience including the Department of Defense, the Intelligence Community, and senior US and foreign government officials up to and including The United States Congress and the President of the United States. The Data Analyst will be part of a multi-disciplinary team constructed to use design and computational thinking to find scalable solutions to the Agency's most challenging and highest priority problems sets.  
+
+Band 03: Data Analysts apply moderately complex tools and algorithms to identify trends and patterns in data. They communicate with stakeholders and conduct research to develop an intermediate understanding of relevant programs and requirements. These analysts identify and collect moderately structured data from various sources, evaluate the data to ensure that they meet analytic needs, and prepare the data for analysis. They also select, apply, and assess a variety of analytic models and techniques, and review and verify the results. They prepare reports and briefings and consult with stakeholders to communicate findings.
+
+* Analyze and interpret statistical data to identify trends or relationships among variables and factors that could affect the results of research 
+* Apply mathematical principles or statistical approaches to solve moderately complex problems in scientific or applied fields
+* Prepare statistical reports, to include graphics or other visual representations of information
+
+Band 04: Data Analysts lead efforts to apply complex tools and algorithms to identify trends and patterns in data. They communicate with stakeholders and conduct research to develop a comprehensive understanding of relevant programs and requirements. These analysts identify and collect unstructured data from various sources, evaluate the data to ensure that they meet analytic needs, and prepare the data for analysis. They also select, apply, and assess advanced analytic models and techniques, and review and verify the results. They lead the preparation of reports and briefings and consult with stakeholders to communicate findings. 
+
+* Analyze and interpret statistical data and communicate the identified trends or relationships among variables and factors that could affect the results of research 
+* Apply mathematical principles or statistical approaches to solve complex problems in scientific or applied fields
+* Identify the proper techniques and reports necessary to present results of analyses to intended audiences
+
+                                            
+
+                                        
+
+
+
+                                        
+
+                                            
+
+                                                    
+
+                                                        
+
+                                                            Supervisory status
+
+                                                        
+
+                                                    
+
+                                                    
+
+                                                        No
+
+                                                    
+
+                                            
+
+                                            
+
+                                            
+
+                                        
+
+                                            
+
+                                                Who May Apply
+
+                                                This job is open to…
+
+                                                External Applicants Only 
+
+                                                
+
+                                                    
+
+                                                            Questions? This job is open to 1 group.
+
+                                                    
+
+                                                
+
+                                            
+
+                                    
+
+                                
+
+                                
+
+                                    
+
+                                        Job family (Series)
+
+                                            
+
+                                                
+
+                                                    1501 General Mathematics And Statistics
+
+                                                
+
+                                            
+
+                                                                            
+
+                                
+
+                                
+
+                                    
+
+                                        Requirements
+
+                                    
+
+                                    
+
+                                        
+
+                                             Help
+
+                                        
+
+                                        Requirements
+
+                                         Conditions of Employment
+
+                                            
+
+                                                    US Citizenship is required.
+
+                                                    Designated or Random Drug Testing required.
+
+                                                    Security Investigation
+
+                                            
+
+                                            
+
+                                            SPECIAL INFO:- U.S. Citizenship Required
+- Security Clearance (Top Secret/Sensitive Compartmented Information)
+- Polygraph Test Required
+- Position Subject to Drug Testing
+- Two Year Probationary Period
+- Direct Deposit RequiredSPECIAL REQUIREMENTS:You must be able to obtain and retain a Top Secret security clearance with access to Sensitive Compartmented Information. In addition, you are subject to a Counterintelligence Polygraph examination in order to maintain access to Top Secret information. All employees are subject to a periodic examination on a random basis in order to determine continued eligibility. Refusal to take the examination may result in denial of access to Top Secret information, SAP, and/or unescorted access to SCIFs.
+
+Employees with SCI access and who are under NGA cognizance are required to submit a Security Financial Disclosure Report, SF-714, on an annual basis in order to determine continued eligibility. Failure to comply may negatively impact continued access to Top Secret information, Information Systems, SAP, and/or unescorted access to SCIFs.NGA utilizes all processes and procedures of the Defense Civilian Intelligence Personnel System (DCIPS). Non-executive NGA employees are assigned to five distinct pay bands based on the type and scope of work performed. The employee's base salary is established within their assigned pay band based on their unique qualifications. A performance pay process is conducted each year to determine a potential base pay salary increase and/or bonus. An employee's annual performance evaluation is a key factor in the performance pay process. Employees on term or temporary appointments are not eligible to apply for internal assignment opportunity notices. 
+
+This position is a DCIPS position in the Excepted Service under 10 U.S.C. 1601.  DoD Components with DCIPS positions apply Veterans' Preference to preference eligible candidates as defined by Section 2108 of Title 5 USC, in accordance with the procedures provided in DoD Instruction 1400.25, Volume 2005, DCIPS Employment and Placement. If you are an external applicant claiming veterans' preference, as defined by Section 2108 of Title 5 U.S.C., you must self-identify your eligibility in our ERecruit application.
+
+This position is funded by the National Intelligence Program (NIP).
+
+                                            
+
+
+
+                                        
+
+                                             Qualifications
+
+
+
+                                            
+
+                                                DESIRABLE QUALIFICATION CRITERIA: In addition to the mandatory qualifications, experience in the following is desired: 
+
+1) Education: Applied Mathematics, Computer Science, Data Science, Geographic Information Science, Informatics and Computing, Information Science, Operations Research, Statistics, or a related discipline;
+2) Experience: Software Coding: C++ Java, AND/OR Statistics & Modelling: R, Python, AND/OR Query Languages: SQL, NoSQL, AND/OR Scripting: JavaScript, Python, Cloud Services Design, Algorithm Development, Data Visualization, Big Data /Data Modelling, Machine Vision & Deep Learning, Optimization.
+
+                                            
+
+                                        
+
+
+
+                                        
+
+                                            Education
+
+                                            
+
+                                            
+
+                                        
+
+
+
+
+
+                                        
+
+                                            Additional information
+
+                                            
+
+                                                
+
+                                            
+
+                                            Read more
+
+                                        
+
+
+
+                                        
+
+                                             How You Will Be Evaluated
+
+                                            
+
+                                                You will be evaluated for this job based on how well you meet the qualifications above.
+
+                                                
+
+                                                    Applicants are NOT required to submit a cover letter. The entire cover letter cannot exceed the specified limits provided in the Cover Letter field (3,000 characters). Pages exceeding this limit will not be considered. THE COVER LETTER IS RECOMMENDED BUT IS NOT REQUIRED FOR EMPLOYMENT CONSIDERATION WITH THE NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY.APPLICANT EVALUATION PROCESS: Applicants will be evaluated for this job opportunity in three stages: 
+
+1) All applicants will be evaluated using the Mandatory Qualification Criteria, 
+2) Qualified applicants will then be evaluated by an expert or panel of experts using a combination of qualification criteria to determine the best-qualified candidates, 
+3) Best-qualified applicants may then be further evaluated through an interview process. 
+
+Applicants are encouraged to carefully review the Assignment Description, Additional Information Provided By the Selecting Official, and the Qualification Requirements; and then construct their resumes to highlight their most relevant and significant experience and education for this job opportunity. This description should include examples that detail the level and complexity of the performed work. Applicants are encouraged to provide any education information referenced in the announcement. If education is listed as a mandatory requirement, only degrees obtained from an institution accredited by an accrediting organization recognized by the Secretary, US Department of Education will be accepted.  
+
+As a condition of employment at NGA, persons being considered for employment must meet NGA fitness for employment standards.
+
+In accordance with section 9902(h) of title 5, United States Code, annuitants reemployed in the Department of Defense shall receive full annuity and salary upon appointment. They shall not be eligible for retirement contributions, participation in the Thrift Savings Plan, or a supplemental or redetermined annuity for the reemployment period. Discontinued service retirement annuitants (i.e., retired under section 8336(d)(1) or 8414(b)(1)(A) of title 5, United States Code) appointed to the Department of Defense may elect to be subject to retirement provisions of the new appointment as appropriate. (See DoD Instruction 1400.25, Volume 300, at http://www.dtic.mil/whs/directives.)
+
+All candidates will be considered without regard to race, color, religion, sex, national origin, age, marital status, disability, or sexual orientation.
+
+NGA provides reasonable accommodations to applicants with disabilities. Applications will only be accepted online. If you need a reasonable accommodation for any part of the application and hiring process, please notify us at recruitment@nga.mil. The decision on granting reasonable accommodation will be on a case-by-case basis.
+
+                                                
+
+                                                
+
+                                            Read more
+
+
+
+                                            
+
+                                                Background checks and security clearance
+
+                                                
+
+                                                        
+
+                                                            Security clearance
+
+                                                            
+
+                                                                
+
+                                                                    Top Secret/SCI
+
+                                                                
+
+                                                            
+
+                                                        
+
+
+
+                                                
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                                
+
+                                    
+
+                                        Required Documents
+
+                                                                        
+
+                                    
+
+                                        
+
+                                             Help
+
+                                        
+
+                                        Required Documents
+
+                                        
+
+                                            
+
+                                                None
+
+                                            
+
+                                            
+
+                                                
+
+                                                    If you are relying on your education to meet qualification requirements:
+
+                                                
+
+                                                
+
+                                                    Education must be accredited by an accrediting institution recognized by the U.S. Department of Education in order for it to be credited towards qualifications. Therefore, provide only the attendance and/or degrees from
+
+                                                    schools accredited by accrediting institutions recognized by the U.S. Department of Education.
+
+                                                
+
+                                                
+
+                                                    Failure to provide all of the required information as stated in this vacancy announcement may result in an ineligible rating or may affect the overall rating.
+
+                                                
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                                
+
+                                    
+
+                                        Benefits
+
+                                    
+
+                                    
+
+                                        
+
+                                             Help
+
+                                        
+
+                                        Benefits
+
+                                        
+
+                                                
+
+                                                     A career with the U.S. Government provides employees with a comprehensive benefits package. As a federal employee, you and your family will have access to a range of benefits that are designed to make your federal career very rewarding.
+
+                                                
+
+                                                
+
+                                                    
+
+                                                        
+
+                                                            Benefits for federal employees
+
+                                                        
+
+                                                    
+
+                                                    
+
+                                                        
+
+                                                            Healthcare insurance
+
+                                                        
+
+                                                    
+
+                                                    
+
+                                                        
+
+                                                            Pay and leave
+
+                                                        
+
+                                                    
+
+                                                
+
+                                            
+
+                                                http://www.intelligencecareers.gov/NGA/ngabenefits.html
+
+                                                                                            
+
+                                                    Eligibility for benefits depends on the type of position you hold and whether your position is full-time, part-time, or intermittent. Contact the hiring agency for more information on the specific benefits offered.
+
+                                                
+
+                                        
+
+                                    
+
+                                
+
+                                
+
+                                    
+
+                                        How to Apply
+
+                                    
+
+                                    
+
+                                        
+
+                                             Help
+
+                                        
+
+                                        How to Apply
+
+                                        
+
+                                            Application submission involves applying using NGA's on-line application process. Application Instructions can be found by visiting: http://www.intelligencecareers.gov/NGA
+
+All announcements close at 11:59PM EDT on the closing date listed. Be sure to complete and submit your application by that time in order to be considered. 
+
+ONLY ELECTRONIC SUBMISSIONS WILL BE ACCEPTED.
+
+                                        
+
+                                        Read more
+
+                                        
+
+                                            Agency contact information
+
+                                            
+
+                                                
+
+                                                Recruitment
+
+                                            
+
+
+
+                                            
+
+                                                
+
+                                                    Phone
+
+                                                    
+
+                                                         571-557-1999
+
+                                                    
+
+
+
+
+
+                                                    Email
+
+                                                    
+
+                                                        
+
+                                                            Recruitment@nga.mil
+
+                                                        
+
+                                                    
+
+                                                
+
+                                                
+
+                                                    Address
+
+                                                    
+
+                                                    
+
+                                                        NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY
+
+                                                        Mailstop: S44-HDR
+
+7500 GEOINT Drive 
+
+                                                        Springfield,
+
+                                                        VA                                                         
+
+                                                        US                                                       
+
+                                                    
+
+                                                
+
+                                                                                        
+
+                                                
+
+                                                    Learn more about this agency
+
+                                                                                            
+
+                                        
+
+
+
+                                        Next steps
+
+                                        
+
+                                            
+
+                                                After visiting https://www.nga.mil/Careers and applying via NGA's on-line application process, applicants can follow their status via that same NGA on-line application functionality. Several other topics relating to what is involved in the hiring process and how long it takes can be found by visiting http://www.intelligencecareers.gov/NGA and choosing Frequently Asked Questions.
+
+                                            
+
+                                        Read more
+
+                                    
+
+                                
+
+                                
+
+                                    
+
+                                        Fair &amp; Transparent
+
+                                    
+
+                                    
+
+                                        Fair &amp; Transparent
+
+                                        
+
+                                            The Federal hiring process is setup to be fair and transparent. Please read the following guidance.
+
+                                        
+
+                                         Equal Employment Opportunity Policy
+
+                                        
+
+                                            
+
+                                                The United States Government does not discriminate in employment on the basis of race, color, religion, sex (including pregnancy and gender identity), national origin, political affiliation, sexual orientation, marital status, disability, genetic information, age, membership in an employee organization, retaliation, parental status, military service, or other non-merit factor.
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+                                                        Equal Employment Opportunity (EEO) office at OPM
+
+                                                    
+
+
+
+
+
+                                                
+
+                                                
+
+                                                    
+
+                                                        Office of Equal Opportunity
+
+                                                    
+
+                                                
+
+                                            
+
+                                        Read more
+
+                                         Reasonable Accommodation Policy
+
+                                        
+
+                                            
+
+                                                Federal agencies must provide reasonable accommodation to applicants with disabilities where appropriate. Applicants requiring reasonable accommodation for any part of the application and hiring process should contact the hiring agency directly. Determinations on requests for reasonable accommodation will be made on a case-by-case basis.
+
+                                            
+
+                                            
+
+                                                A reasonable accommodation is any change to a job, the work environment, or the way things are usually done that enables an individual with a disability to apply for a job, perform job duties or receive equal access to job benefits.
+
+                                            
+
+                                            
+
+                                                Under the Rehabilitation Act of 1973, federal agencies must provide reasonable accommodations when:
+
+
+
+                                                
+
+                                                    An applicant with a disability needs an accommodation to have an equal opportunity to apply for a job.
+
+                                                    An employee with a disability needs an accommodation to perform the essential job duties or to gain access to the workplace.
+
+                                                    An employee with a disability needs an accommodation to receive equal access to benefits, such as details, training, and office-sponsored events.
+
+                                                
+
+                                            
+
+                                            
+
+                                            
+
+                                                You can request a reasonable accommodation at any time during the application or hiring process or while on the job. Requests are considered on a case-by-case basis.
+
+                                            
+
+                                            
+
+                                                Learn more about disability employment and reasonable accommodations or how to contact an agency.
+
+                                            
+
+                                       
+
+
+
+Read more
+
+
+
+                                         Legal and regulatory guidance
+
+                                        
+
+                                            
+
+                                                Financial suitability
+
+                                            
+
+                                            
+
+                                                
+
+                                                    Social security number request
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    Privacy Act
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    Signature and false statements
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    Selective Service
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    New employee probationary period
+
+                                                
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                      
+
+
+
+                        
+
+                            This job originated on www.usajobs.gov. For the full announcement and to apply,
+
+                            visit www.usajobs.gov/GetJob/ViewDetails/480934900.
+
+                            Only resumes submitted according to the instructions on the job announcement listed at www.usajobs.gov will be considered.
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                View Map
+
+                        
+
+            
+
+                
+
+                    Please wait while map is being generated.
+
+                
+
+                
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    Close
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                Beginning of a dialog window for the agency announcing this job. It begins with a heading 2 called "Learn more about Field Operating Offices of the Office of the Secretary of the Army". Escape will cancel and close the window.
+
+            
+
+            
+
+                
+
+                    Learn more about
+
+                
+
+                
+
+                    National Geospatial-Intelligence Agency
+
+                
+
+            
+
+            
+
+
+
+                
+
+                    
+
+                
+
+                
+
+                    
+
+                        Agency contact information
+
+                        
+
+                            
+
+                            Recruitment
+
+                        
+
+                        
+
+                            
+
+                                Phone
+
+                                
+
+                                     571-557-1999
+
+                                
+
+                                Email
+
+                                
+
+                                    
+
+                                        Recruitment@nga.mil
+
+                                    
+
+                                
+
+                            
+
+                            
+
+                                Address
+
+                                
+
+                                
+
+                                    NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY
+
+                                    Mailstop: S44-HDR
+
+7500 GEOINT Drive 
+
+                                    Springfield 
+
+                                    VA 
+
+                                    US
+
+                                
+
+                            
+
+                        
+
+                        
+
+                            Learn more about this agency
+
+                        
+
+                    
+
+
+
+                
+
+            
+
+                
+
+                    Visit our careers page
+
+                    
+
+                        Learn more about what it's like to work at National Geospatial-Intelligence Agency, what the agency does, and about the types of careers this agency offers.
+
+                    
+
+                    
+
+                        https://www.nga.mil/about/pages/default.aspx/
+
+                    
+
+                
+
+
+
+            
+
+                
+
+                    Close
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+            
+
+                Beginning of a dialog window for your session has expired. Escape will cancel And close the window.
+
+            
+
+            
+
+                Your Session is About to Expire!
+
+            
+
+            
+
+                
+
+                    
+
+                        Your USAJOBS session will expire due to inactivity in three minutes.  
+
+                        Any unsaved data will be lost if you allow the session to expire.  
+
+                        Click the button below to continue your session.                            
+
+                    
+
+                
+
+            
+
+            
+
+                Logoff
+
+                Stay Logged In
+
+            
+
+            
+
+                
+
+                    Close
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+            Return to top
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        Job Applications
+
+                    
+
+                    
+
+                         All
+
+                    
+
+                    
+
+                         Advancing
+
+                    
+
+                    
+
+                         Paused
+
+                    
+
+                    
+
+                         Stopped
+
+                    
+
+                
+
+                
+
+                    Account
+
+                    
+
+                            Home
+
+                    
+
+                    
+
+                        Profile
+
+                    
+
+                    
+
+                        Documents
+
+                    
+
+                    
+
+                        Saved Jobs
+
+                    
+
+                    
+
+                        Saved Searches
+
+                    
+
+                    
+
+                        Username &amp; Password
+
+                    
+
+                
+
+                
+
+                    Help
+
+                    
+
+                        Help Center
+
+                    
+
+                    
+
+                        About USAJOBS
+
+                    
+
+                    
+
+                        Contact Us
+
+                    
+
+                    
+
+                        FAQs
+
+                    
+
+                    
+
+                        Get Started
+
+                    
+
+                    
+
+                        How to…
+
+                    
+
+                    
+
+                        
+
+                            Working in Government
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+    
+
+        
+
+            
+
+                
+
+                
+
+                    USAJOBS is a United States Office of Personnel Management website.
+
+                
+
+            
+
+
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                    
+
+                        
+
+                    
+
+                    
+
+                        
+
+                    
+
+                    
+
+                        
+
+                    
+
+                    
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+            
+
+                
+
+                    
+
+                        EEO Policy Statement
+
+                        Reasonable Accommodation Policy Statement
+
+                        Veterans Information
+
+                        Legal and Regulatory Guidance
+
+                    
+
+                
+
+            
+
+ 
+
+        
+
+            
+
+                
+
+                    Budget and Performance
+
+                    FOIA
+
+                    Inspector General
+
+                    No Fear Act Data
+
+                    Privacy Policy
+
+                    USA.gov
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+        var acHostUrl = "https://ac.usajobs.gov/locationAC"
+
+        var lis = false;
+
+        var myInactivity = ((30 - 3) * 60 * 1000);
+
+        var mySessionTimeout = (30 * 60 * 1000);
+
+        var usajobsConfig = {"DataHome":"https://data.usajobs.gov/","MediaHome":"https://media.usajobs.gov/","BingKey":"Aq2HseksGy7yVZIw7TqmI6AQrgSsye0gPEVVGauJnnP1Zz9aGAgnVFjBERPX5otI"};
+
+        var protocol = new String();
+
+        var hostName = new String();
+
+        pathname = window.parent.document.location.pathname;
+
+        hostName = window.location.host;
+
+        $(function () {
+
+            if (lis) {
+
+                if (typeof $.jobsIdleTimeout === 'function') {
+
+                    $.jobsIdleTimeout({
+
+                        redirAfter: mySessionTimeout,
+
+                        warnAfter: myInactivity,
+
+                        noconfirm: 180000
+
+                    });
+
+                }
+
+            };
+
+        });
+
+    
+
+    
+
+    
+
+
+
+
+
+        
+
+
+
+
+
+
+

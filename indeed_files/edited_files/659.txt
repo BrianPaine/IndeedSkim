@@ -1,0 +1,657 @@
+
+
+
+
+
+                                                                                            
+    
+    
+                        
+        
+        
+        Palo Alto Networks Careers - Intern - Data Scientist
+                    
+            
+                                        
+                                            
+                
+            
+                                        
+        
+                        
+        
+
+        
+        
+        
+        
+                                
+                
+            
+        
+                
+    
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            var enableTracking = true;
+            var trackerId = "UA-15090121-1";
+            var pageTracker = _gat._getTracker("UA-15090121-1");
+        } catch(err) {}
+    
+    
+
+    function trackPage() {
+        try {
+            if (enableTracking && enableTracking == true) {//enableTracking var is set during analytics script reg.
+                var pageTracker = _gat._getTracker(trackerId);
+                var varIndex = 1;
+                try {
+                pageTracker._setCustomVar(varIndex++, "UserId", getUserId(), 1);
+                pageTracker._setCustomVar(varIndex++, "CompanyId", getCompanyId(), 1);
+                }//to track pages which does not have a User
+                catch (userIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "SubsidiaryId", getSubsidiaryId(), 1);
+                } //to track pages which does not have a subsidiaryId
+                catch (subsidiaryIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "JobId", getJobId(), 3);
+                    pageTracker._setCustomVar(varIndex++, "CategoryId", getCategoryId(), 3);
+                }//to track pages which does not have a jobref
+                catch (jodIdError) {
+                }
+                if (enableAnonymizeIP && enableAnonymizeIP == true) {
+                    _gat._anonymizeIp();
+                }
+
+                pageTracker._trackPageview();
+            }
+        }
+        catch (error) {
+
+        }
+    }
+
+
+    function getUserId() { return ''; }
+
+
+    function getCompanyId() { return 'qS09VfwG'; }
+
+    
+        function getJobId() { return 'oXaW5fwS'; }
+    
+    
+        function getCategoryId() { return '4194304'; }
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+
+
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            enableTracking = true;
+            trackerId = "UA-18576591-1";
+            pageTracker = _gat._getTracker("UA-18576591-1");
+        } catch(err) {}
+    
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+        
+            if (window.self !== window.parent) {
+                document.documentElement.className += ' jv-iframe';
+            }
+        
+                
+        
+        
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+html {overflow-x:hidden;}
+
+.jv-page {width:100%;}
+.jv-wrapper {width:100%;max-width:1200px;margin:0 auto;padding:0 15px;}
+
+.jv-page-header {background:rgba(255,255,255,.75);padding:8px 0 0;z-index:10;position:absolute;width:100%;top:0;}
+.jv-page-header .jv-wrapper {position:relative;max-width:100%;}
+h1.jv-logo {border:none;line-height:1;font-size:1em;margin:0;display:inline-block;}
+.jv-logo img {height:80px;width:auto;display:block;position:absolute;left:15px;top:0;}
+.top-nav {padding:0;text-align:center;margin:0;}
+.top-nav li {display:inline-block;position:relative;}
+.top-nav li a {display:block;padding:15px;color:#333;font-size:1.2em;font-weight:600;}
+.top-nav li.selected > a {pointer-events:none;color:#84aa35;}
+.top-nav .submenu {
+    display:none;
+    position:absolute;
+    top:57px;
+    right:0;
+    background:rgba(255,255,255,.75);
+    padding:0 15px;
+    margin:0;
+    list-style:none;
+    z-index:100;
+    width:160px;
+    text-align:right;
+}
+.top-nav .submenu li {display:block;}
+.top-nav .submenu li a {padding:10px 0;display:block;}
+.top-nav li:hover >.submenu {display:block;}
+    
+
+.language {float:right;padding:5px 0 15px;}
+.language > a, .language > span, .language > img {display:inline-block;vertical-align:middle;padding:0 2px;}
+.language > a {color:#333!important;font-size:.8em;}
+.language > a .button {float:right;background:#231f20;color:#fff;height:36px;width:36px;padding:10px;margin:-10px -10px 0 0;}
+.language > a:hover .button {background:#333;}
+.dropdown {display:none;visibility:hidden;height:0;}
+.dropdown.open {
+    display:block;
+    position:absolute;
+    top:37px;
+    right:0;
+    height:auto;
+    visibility:visible;
+    background:#fff;
+    margin:0;
+    padding:10px;
+    list-style:none;
+}
+.dropdown li a {display:block;width:150px;padding:10px;}
+
+.jv-button {border-radius:2px;background:#0088CC;color:#fff!important;border:none;}
+.jv-button:hover {background:#1e88e5;}
+.jv-button-primary {background:#a8c438;}
+.jv-button-primary:hover {background:#98b133;}
+
+*{box-sizing:border-box;outline:none!important;}
+body {
+    font-family: Lato,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    line-height: 1.42857143;
+    color: #48525a;
+    background-color: #fff;
+}
+.center {text-align:center;}
+a, a:visited {
+    color:#57B3CC;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+a:hover {color:#2b90b8;text-decoration:underline;}
+h1,h2,h3,h4 {font-weight:600;margin:.25em 0 .5em;}
+
+.light-orange {background:#F5C422;}
+.orange {background:#F37139;color:#fff;}
+.light-blue {background: rgba(138, 212, 223, 0.4);color:#000;}
+.blue {background:#008BC0;color:#fff;}
+.light-green {background:rgba(208, 224, 22, 0.5);color:#000;}
+.green {background:#97C33B;color:#fff;}
+.dark-blue {background:#3C6D89;color:#fff;}
+.light-gray {background:#f8f8f8;color:#97C33B}
+
+.banner {
+    height:600px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    margin-top:50px;
+}
+.banner.main {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-main.jpg);}
+.banner.culture {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-culture.jpg);}
+.banner.benefits {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-benefits.jpg);}
+.banner.interns {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-interns.jpg);}
+.banner.diversity {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-diversion.jpg);background-position:center top;}
+.banner.veterans {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-veterans.jpg);}
+.banner.americas {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-Americas.jpg);}
+.banner.NA {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-NorthAmerica.jpg);}
+.banner.SA {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-SouthAmerica.jpg);}
+.banner.Israel {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-Israel.jpg);}
+.banner.EMEA {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-EMEA.jpg);}
+.banner.APAC {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-APAC.jpg);}
+.banner.Japan {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-Japan.jpg);}
+.banner.job {background-image:url(//careers.jobvite.com/paloaltonetworks/external/images/banner-main.jpg);height:300px;}
+.banner.job .banner-overlay h1 {padding-top:180px;font-size:2.5em;}
+.banner-overlay {text-align:center;}
+.banner-overlay h1 {color:#fff;font-size:5em;text-shadow: 0 0 30px #070707;padding:300px 0 20px;margin:0;}
+.banner-overlay .jv-button {box-shadow:0 0 10px #3B3B3B;}
+.banner.sub .banner-overlay h1 {padding-top:450px;font-size:3.5em;}
+.banner.location .banner-overlay h1 {padding-top:250px;font-size:6em;letter-spacing:10px;}
+
+section {padding:2em 0;}
+section h2 {margin:0 0 .5em;font-size:2em;}
+
+
+.grid {margin:1em auto;padding:0;text-align:center;}
+.grid li {width:20%;display:inline-block;margin-right:-4px;vertical-align:top;color:#48525a;}
+.grid li img {width:100%;display:block;padding:0 1.5em;}
+
+.col {display:inline-block;vertical-align:top;margin-right:-4px;padding:15px;}
+.col-2 {width:50%;}
+.col-3 {width:33.334%;}
+.col.first {padding-left:0;}
+.col.last {padding-right:0;}
+.col ul li {padding-bottom:15px;} 
+
+.value .grid li {font-size:1.2em;font-weight:300;text-transform:uppercase;width:25%;padding:0 1%;}
+
+#search {background:#8ad4df;}
+#search h2 {color:#3C6D89;}
+.jv-search-form {border:none;background:none;padding:0;text-align:center;}
+.jv-search-form .jv-form-field {display:inline-block;width:33.33%;vertical-align:top;margin-right:-4px;}
+.jv-search-form .jv-form-field-label {display:none;}
+.jv-search-form .jv-form-field-control {width:98%;}
+.jv-search-form .jv-form-field select {width:100%;min-width:100%;height:38px;}
+.jv-search-form .jv-button {display:inline-block;width:15%;height:38px;}
+
+#location {background:#97c33c;color:#fff;}
+#location .grid li {padding:2px;width:33.334%;}
+#location .grid li a {display:block;}
+#location .grid li img {padding:0;}
+
+#testimonials .jv-wrapper {max-width:760px;position:relative;}
+.slick-arrow {
+    position:absolute;
+    top:50%;
+    margin-top:-35px;
+    background:none;
+    border:none;
+    padding:0;
+    width:30px;
+    height:35px;
+    overflow:hidden;
+    font-family: 'jobvite-icons';
+}
+.slick-arrow.slick-prev {left:-65px;}
+.slick-arrow.slick-prev:before {content: "\e66a";font-size:2em;color:#97c33c}
+.slick-arrow.slick-next {right:-60px;}
+.slick-arrow.slick-next:before {content: "\e680";font-size:2em;color:#97c33c}
+.quote {font-size:1.2em;font-style:italic;line-height:1.6;padding:1em;letter-spacing:1px;text-shadow:1px 1px 5px #999;color:#103245;}
+
+.social {text-align:center;}
+.social .grid li {width:24.334%;}
+.social .grid li p {font-size:16px;text-transform:capitalize;padding:5px 0;}
+.social .grid li img {width:50px;padding:0;margin:0 auto;}
+
+.culture .grid li {width:25%;text-transform:none;padding:0 1%;}
+.culture .grid li h3 {font-size:1.5em;margin-top:0;}
+
+.video .jv-wrapper {max-width:1000px;}
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.headline {background:#d7e7f2;padding:15px;font-weight:600;font-size:2.5em;text-align:center;color:#188cc9;}
+.headline span {font-size:.5em;font-weight:300;text-transform:uppercase;display:inline-block;vertical-align:middle;}
+
+.benefits {padding-top:0;}
+.benefits .grid {position:relative;}
+.benefits .grid li {width:33.334%;padding:1em 2%;text-transform:none;cursor:pointer;}
+.benefits .grid li h3 {font-size:1.5em;}
+.benefits .grid li img {width:100%;max-width:300px;margin:0 auto;}
+.benefits .grid li .detail {
+    width:100%;
+    background:#f8f8f8;
+    padding:1em 1em 0;
+    text-align:center;
+}
+.flip-container {
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -o-perspective: 1000;
+    perspective: 1000;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 100%;
+	height:auto;
+	min-height: 350px;
+}
+
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+    -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+    transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {z-index: 2;}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	background: #f8f8f8;
+	z-index:100;
+}
+.back h3 {margin:15px 0 0;}
+
+.notice {font-size:1.2em;margin:2em 0;}
+
+
+
+.interns .grid li {width:33.334%;padding:1em 2%;text-transform:none;color:#fff;}
+img.floatR {float:right;margin:0 0 1em 1em;}
+img.floatL {float:left;margin:0 1em 1em 0;}
+.grad {padding:1em 0;overflow:hidden;border-bottom:2px solid #ffc425;margin-bottom:1em;}
+.grad:last-child {border:none;}
+
+.address-section {padding-top:0;}
+.address .grid {margin:0;}
+.address .grid li {font-size:14px;padding:1em 1%;}
+.address .grid > h3 {font-size:1.5em;line-height:1.1;margin:20px 0 0;}
+.address .grid li > h3 {font-size:1.2em;line-height:1.1;margin:.25em 0;}
+.address .grid li > p {margin-bottom:0;}
+
+.photo .grid > div img {padding:0 2% 8px;}
+
+h3.h2 {margin:1.5em 0 .25em;font-size:1.5em;}
+.noJob {margin:3em 0;font-size:1.2em;}
+.tools {margin:3em 0;}
+.tools a {margin-right:2em; padding:.5em 0;display:inline-block;text-decoration:none;}
+.tools a i {color:#58595b;font-size:1.2em;position:relative;top:2px;}
+
+.eeo a {color:#0088CC;}
+
+.jv-page-body {padding:1em 0 3em;}
+.jv-job-detail-top-actions {right:15px;top:15px;}
+
+.jv-jobAlertContainer {font-weight:normal;padding:2em 0 2em;}
+
+.jv-footer {padding:2em 0 0;background:#103245;}
+.jv-footer a {color:#fff!important;}
+.back-to-top {
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    border-radius: 3px 0 0 0;
+    background-color: rgba(55, 55, 54, 0.8);
+    font-size: 1.67em;
+    line-height:1;
+}
+.back-to-top:hover {color:#fff;text-decoration:none;}  
+
+@media (max-width:1040px) {
+    .top-nav {margin-left:120px;margin-right:0;max-width:100%}
+    .top-nav li a {padding:15px 8px;font-size:1em;}
+}
+@media (max-width:800px) {
+    .top-nav li a {padding:15px 5px;}
+}
+
+
+        
+    
+    
+        
+                    
+        
+                            
+                            
+        
+            
+                
+                    
+                
+            
+            
+                &nbsp;
+                                                                                                                                                                            
+        
+        
+            
+                Careers
+                Culture
+                Benefits
+                Interns & University
+                Inclusion and Diversity
+                Veterans
+                
+                    Locations
+                    
+                        Americas
+                        EMEA
+                        Israel
+                        APAC
+                        Japan
+                        
+                
+            
+        
+    
+                
+    
+        Secure Your Career
+    
+
+        
+    
+                    
+                                
+                Intern - Data Scientist
+    
+    
+                                        
+                            Internships            
+                    Santa Clara,
+                            California
+                
+                        
+        
+    
+                        
+                        
+    
+        Apply
+    
+                            
+                        
+            Description
+                        
+                Palo Alto Networks® is the next-generation security company, leading a new era in cybersecurity by safely enabling applications and preventing cyber breaches for tens of thousands of organizations worldwide. If you are motivated, intelligent, creative, hardworking and want to make an impact, then this job is for you! Our Summer Internship Program provides you:1:1 mentorshipFun and engaging events that inspire your intellectual curiosityOpportunities to expand your knowledge and work on challenging projectsConnections to other interns, recent grads, and employees across the company as well as our leaders. The Palo Alto Networks Data Science team uses data science and machine learning to solve problems throughout the company.  In the words of one of our members: “we develop machine learning based highly scalable solutions to address cyber security challenges.”  We are looking for a talented and motivated intern that can turn into a full-time member of our team after they graduate. Past projects include building a learning algorithm in Hadoop and setting up a pipeline that classifies over 1M webpages a year to building learning classifier to detect malicious Javascript pages.  Opportunities: You will learn to apply Machine Learning in a production environmentYou will be exposed to research related to security and malware.You will work on large Hadoop and/or Spark clusters on petabytes of data Skills:The successful applicant should…Be an excellent programmer; experience with distributed systems like Hadoop or Spark a big plusHave a strong working knowledge of machine learning algorithms that may include Naïve Bayes, Decision Trees, SVM, Logistic Regression, Deep Learning, and BoostingBe comfortable working independently, be able to produce something impressive in one summer, have the ability to come up with novel solutions to difficult problems Requirements – To apply, you must be pursuing a 4-year Undergraduate Degree, a 2-year Master’s Degree or a Doctorate degree and returning to school in the fall. You must have authorization to work within the United States. Learn more about Palo Alto Networks here and check out our fast facts
+            
+                            
+                    
+                
+                    
+    
+        Apply
+    
+                            
+        Apply Later    
+            
+        
+            &larr; Back to Current Openings        
+    
+    
+                                
+    
+        
+        Share
+        
+            
+                lang: en_US            
+            
+            
+                
+                    LinkedIn
+                
+            
+            
+                
+                    Facebook
+                
+            
+            
+                
+                    Twitter
+                
+            
+            
+                
+                    Email
+                
+            
+        
+    
+                        
+    
+                    
+            
+                    
+        
+            
+                
+            
+        
+    
+            
+    
+        
+        
+    
+            
+    
+    
+        angular.module('preloadedData', []).constant('preloadedData', {
+                                        applyLinkUrl: '${job.applyLinkUrl}',
+                jobCategoryId: 'aKV9Vfwt',
+                jobCategoryName: 'Internships',
+                jobId: 'oXaW5fwS',
+                jobReqId: '1003576                                           ',
+                jobTitle: 'Intern - Data Scientist',
+                jobLocationId: 'CWH9Vfwr',
+                                                                jobviteAnalytics: 'UA-15090121-1',
+                                        companyAnalytics: 'UA-18576591-1',
+                                                                                                                            enableResumeParsing: true,
+                                        numberFormat: "##,###,###,###,###.####",
+                                    companyEId: 'qS09VfwG',
+            linkedInApiKey: '7557fkcarvxieo',
+            facebookApiId: '48354194572',
+            dropBoxApiKey: 'w5fg28zznqcyg4w',
+            baseUrl: '/paloaltonetworks',
+            cdnURL: '',
+            releaseVersion: '171003110732',
+            careersiteName: 'paloaltonetworks',
+            careersiteDomainName: '${careersiteDomainName}',
+            careersiteSourceTypeId: 'PevaVfwy'
+        }).constant('i18n', {
+            I18N_RESUME_PREVIEW: 'Resume Preview',I18N_NO_RESUME_FOUND: 'No resume found',I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',I18N_RECOMMENDER: 'Recommender:',I18N_CURRENT: 'Current',I18N_PAST: 'Past',I18N_EDUCATION: 'Education',I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',I18N_PATENTS: 'Patents',I18N_SUMMARY: 'Summary',I18N_SPECIALTIES: 'Specialties',I18N_EXPERIENCE: 'Experience',I18N_RECOMMENDATIONS: 'Recommendations',I18N_PRESENT: 'Present',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec'        });
+        Jobvite = {
+            baseUrl: 'https://app.jobvite.com'
+        }
+    
+                        _satellite.pageBottom();
+        
+(function($) {
+  $('a[href*=#]:not([href=#])').click(function() 
+  {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+        || location.hostname == this.hostname) 
+    {
+      
+      var target = $(this.hash),
+      headerHeight = $("header").height() + 0; // Get fixed header height
+            
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+              
+      if (target.length) 
+      {
+        $('html,body').animate({
+          scrollTop: target.offset().top // - headerHeight
+        }, 500);
+        return false;
+      }
+    }
+  });
+})(jQuery);
+    
+
+Back to Top
+
+jQuery(document).ready(function() {
+    var offset = 250;
+    var duration = 300;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+
+ 
+    $('.language > a').click(function() {
+        $('.dropdown').toggleClass('open');
+    });        
+    $('.dropdown li a').click(function() {
+        $('.dropdown').removeClass('open');
+    });      
+
+    
+    
+
+    

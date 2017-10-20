@@ -1,0 +1,1205 @@
+
+ 
+        
+           
+           
+           
+          
+          
+ 
+ 
+ <!-- 
+  
+   
+   
+   
+   
+   {"identifier":{"@type":"PropertyValue","name":"General Motors","value":"PUB0000143"},"hiringOrganization":{"@type":"Organization","name":"General Motors"},"jobLocation":{"address":{"addressCountry":"US","@type":"PostalAddress","addressLocality":"Detroit","addressRegion":"Michigan"},"@type":"Place"},"employmentType":null,"@type":"JobPosting","description":"The Business Intelligence Group of the General Motors Legal and Public Policy Department seeks an Americas research analyst with an advanced understanding of politics and political economy and how these shape the business climate for multinational firms across North and South America. In this role, you will conduct in-depth research in English, Spanish, and Portuguese and produce written analytic products on politics and macroeconomics. Research topics will vary, but will include trade, foreign policy, and the regulatory environment, as applicable to the automotive and technology industries. Your portfolio will focus on Mexico, Brazil, Argentina, Colombia, and Chile, but will also require research and analysis on issues related to Canada and the United States.We're located at GM’s Global Headquarters in Detroit, Michigan, a city in the midstof transformation fueled by innovation and opportunity. We provide competitive benefits, compensation, and relocation to Detroit.Primary Responsibilities:Produce thorough analysis that reflects a nuanced understanding of political and economic policymaking target countriesResearch and monitor issues and trends related to an evolving automotive industry, both proactively and as directedProduce accurate, concise, and timely reports, memos, and briefing documents to support the group, department, and companyManage inflows and outflows of data and report requests in coordination with other Business Intelligence Group membersIncorporate data visualization into productsQualifications:Bachelor’s Degree in International Relations, Economics, Political Science, International Business or related disciplines; Master’s Degree preferred5+ years of related experienceFluent English and Fluent/Advanced Spanish; Fluent/Advanced Spanish and Fluent/Advanced Portuguese preferredHigh level of interpersonal organizational skillsExcellent written and verbal communication skillsAbility to work both independently, with minimal supervision, as well as in a team environmentAbility to deal with a high level of ambiguityDemonstrated multitasking and time management skillsClear reputation for ethical conduct, integrity, and confidentialityCritical thinking and creative problem-solving abilitiesIn-depth research skills, source knowledge, and intellectual curiosityProfessional experience in Latin AmericaThe policy of General Motors is to extend opportunities to qualified applicants and employees on an equal basis regardless of an individual's age, race, color, sex, religion, national origin, disability, sexual orientation, gender identity/expression or veteran status. Additionally, General Motors is committed to being an Equal Employment Opportunity Employer and offers opportunities to all job seekers including individuals with disabilities. If you need a reasonable accommodation to assist with your job search or application for employment, email us at Careers.Accommodations@GM.com. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying.&nbsp;&nbsp;This position requires the ability to legally operate a motor vehicle on a regular basis.&nbsp;","datePosted":"2017-10-09T00:00:00","title":"Research Analyst (Americas) - Business Intelligence Group - PUB0000143","@context":"http://schema.org","occupationalCategory":"Public Policy"}Research Analyst (Americas) - Business Intelligence Group - PUB0000143 in Detroit, Michigan, US | Public Policy at general motors 
+  Job details page 
+   
+   
+   
+   
+   
+   
+   
+    
+     
+      
+       
+        Enter job title  
+              Search menu open clear text   
+         
+          
+           
+            
+            
+              Job Categories 
+              
+            
+              ${category.key} ${category.total_count}   
+            
+           
+          
+          
+           
+            
+            
+              jobs 
+              
+            
+              
+               
+                Job title  
+                
+               
+               
+                 location  ${eachJob.location} 
+                category ${eachJob.category}  
+                 
+            
+           
+           0" data-ph-id="ph-page-element-page34-wzptq2-wzptq2-38"> 
+            
+            
+              Location 
+              
+            
+              ${eachLocation.city} ${eachLocation.count}   
+            
+           
+           0" data-ph-id="ph-page-element-page34-wzptq2-wzptq2-45"> 
+            
+            
+              Category 
+              
+            
+              ${eachCategory.category} ${eachCategory.count}   
+            
+           
+           
+            
+            
+              Recent Searches 
+              
+            
+             ${eachKeyword}  
+            
+           
+           0 " data-ph-id="ph-page-element-page34-wzptq2-wzptq2-58"> 
+            
+            
+              suggested keywords 
+              
+            
+             ${eachKeyword}  
+            
+           
+          
+          
+       
+         
+        
+          Search jobs 
+           
+      
+     
+    
+    0? 'icon icon-life' : 'icon icon-heart'}" data-ph-id="ph-page-element-page34-6qsixj-6qsixj-3">  
+     
+       Favorites 
+       0 ? 'phs-jobcart-count' : 'phs-jobcart-count hide'}" data-ph-id="ph-page-element-page34-6qsixj-6qsixj-6">${jobCartCount}  
+   
+    
+     
+      
+       
+        Enter job title  
+              Search menu open clear text   
+         
+          
+           
+            
+            
+              Job Categories 
+              
+            
+              ${category.key} ${category.total_count}   
+            
+           
+          
+          
+           
+            
+            
+              jobs 
+              
+            
+              
+               
+                Job title  
+                
+               
+               
+                 location  ${eachJob.location} 
+                category ${eachJob.category}  
+                 
+            
+           
+           0" data-ph-id="ph-page-element-page34-25k8x5-25k8x5-38"> 
+            
+            
+              Location 
+              
+            
+              ${eachLocation.city} ${eachLocation.count}   
+            
+           
+           0" data-ph-id="ph-page-element-page34-25k8x5-25k8x5-45"> 
+            
+            
+              Category 
+              
+            
+              ${eachCategory.category} ${eachCategory.count}   
+            
+           
+           
+            
+            
+              Recent Searches 
+              
+            
+             ${eachKeyword}  
+            
+           
+           0 " data-ph-id="ph-page-element-page34-25k8x5-25k8x5-58"> 
+            
+            
+              suggested keywords 
+              
+            
+             ${eachKeyword}  
+            
+           
+          
+          
+       
+         
+        
+          Search jobs 
+           
+      
+     
+    
+    0? 'icon icon-life' : 'icon icon-heart'}" data-ph-id="ph-page-element-page34-pcb90g-pcb90g-3">  
+     
+       Favorites 
+       0 ? 'phs-jobcart-count' : 'phs-jobcart-count hide'}" data-ph-id="ph-page-element-page34-pcb90g-pcb90g-6">${jobCartCount}  
+   
+    
+     
+      
+       
+       
+         Share via: 
+         
+      
+      
+       
+         
+          
+           
+           Share via Facebook    
+         
+          
+           
+           Share via Twitter    
+         
+          
+           
+           Share via linkedIn    
+         
+          
+           
+           Share via email    
+         
+          
+           
+           Share via Google    
+       
+      
+     
+     
+     
+    
+   
+    
+     
+      
+       
+       
+         Share via: 
+         
+      
+      
+       
+         
+          
+           
+           Share via Facebook    
+         
+          
+           
+           Share via Twitter    
+         
+          
+           
+           Share via linkedIn    
+         
+          
+           
+           Share via email    
+         
+          
+           
+           Share via Google    
+       
+      
+     
+     
+     
+    
+   /* 
+   <!--*/ var phApp = phApp || {"widgetApiEndpoint":"https://search-careers.gm.com/widgets","country":"us","deviceType":"desktop","locale":"en_us","absUrl":true,"refNum":"GENEA0084","cdnUrl":"https://assets.phenompeople.com/CareerConnectResources/q","baseUrl":"https://search-careers.gm.com/","baseDomain":"https://search-careers.gm.com","phenomTrackURL":"search-careers.gm.com/phenomtrack.min.js","pageName":"job","siteType":"external","rootDomain":"https://search-careers.gm.com"}; phApp.ddo = {"siteConfig":{"status":"success","errorCode":null,"errorMsg":null,"data":{"googleMapApiKey":"AIzaSyAPoqeLpXXx4tqiWHMYJkY42yDS_f3gNJs","urlMap":{"home":"home","category":"c/:category","job":"job/:jobSeqNo/:title","jobcart":"jobcart","search-results":"search-results","glassdoor-reviews":"glassdoor-reviews"},"categoryUrlMap":{"GENEA0084_category_16":"c/information-technology-jobs","GENEA0084_category_26":"c/quality-reliability-jobs","GENEA0084_category_28":"c/global-purchasing-supply-chain-jobs","GENEA0084_category_23":"c/sales-and-marketing-jobs","GENEA0084_category_10":"c/engineering-jobs","GENEA0084_category_27":"c/customer-care-aftersales-jobs","GENEA0084_category_0":"c/research-development-jobs","GENEA0084_category_1":"c/administration-jobs","GENEA0084_category_15":"c/manufacturing-jobs","GENEA0084_category_25":"c/global-connected-customer-experience-onstar-jobs","GENEA0084_category_24":"c/strategy-global-portfolio-planning-jobs","GENEA0084_category_4":"c/finance-jobs","GENEA0084_category_5":"c/legal-jobs","GENEA0084_category_3":"c/creative-design-jobs","GENEA0084_category_8":"c/human-resources-jobs","GENEA0084_category_6":"c/communications-jobs","GENEA0084_category_29":"c/other-jobs","GENEA0084_category_34":"c/internships-jobs","GENEA0084_category_33":"c/human-resources-management-jobs","GENEA0084_category_32":"c/hourly-employment-jobs","GENEA0084_category_31":"c/global-business-services-jobs","GENEA0084_category_36":"c/public-policy-jobs","GENEA0084_category_35":"c/internships-returning-professionals-jobs","GENEA0084_category_30":"c/corporate-development-mergers-acquistions-jobs","GENEA0084_category_37":"c/human-resources-management-jobs","GENEA0084_category_38":"c/corporate-development-mergers-acquisitions-jobs"},"botEnabled":false,"crawlerUserAgents":"Screaming Frog|googlebot|yahoo|bingbot|baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|showyoubot|outbrain|pinterest|slackbot|vkShare|W3C_Validator|redditbot|Applebot|WhatsApp|flipboard|tumblr|bitlybot|SkypeUriPreview|nuzzel|Discordbot|Google Page Speed|Qwantify|pinterestbot","siteSettings":{"glassdoor":{},"glassdoorReviews":{},"twitter":{},"linkedIn":{"apiKey":"75qvndrmqmkxfo"},"googleMapApiKey":"AIzaSyAPoqeLpXXx4tqiWHMYJkY42yDS_f3gNJs","oauth":{"linkedIn":{"apiKey":"75qvndrmqmkxfo","clientId":"75qvndrmqmkxfo","clientSecret":"zZj6XmzC20I2DYX3","loginUrl":"https://www.linkedin.com/oauth/v2/authorization","logoutUrl":"https://api.linkedin.com/uas/oauth/invalidateToken","redirectUri":"/socialAuth/li","response_type":"code","scope":""}},"refineSearch":{"enabledFacets":["category","city","state"],"facetDisplayNames":{"city":"City","state":"State","category":"Job Category"},"facetPlaceholderNames":{"city":"City","state":"State","category":"Job Category"},"defaultFacetsToOpen":[]}},"recommendedTrackingConfig":{"category":{"storageKey":"categories","ddoKeysToStore":["category"],"maxKeysToStore":"4"},"job":{"storageKey":"jobsViewed","ddoKeysToStore":["jobSeqNo"],"maxKeysToStore":"4"},"search-results":[{"storageKey":"keywords","ddoKeysToStore":["keywords"],"maxKeysToStore":"4"},{"storageKey":"locations","ddoKeysToStore":["location","field"],"maxKeysToStore":"4"}]},"trackingConfig":{"ddoDataPath":{"jobDetail":"data.job"},"job_category_click":{"trait14":"key"},"job_category_search_click":{"trait14":"key"},"similar_job_click":{"trait12":"jobSeqNo","related":{"ddo":[{"name":"jobDetail","data":{"trait5":"jobSeqNo","trait14":"category"}}]}},"linkedin_recommended_job_click":{"trait5":"jobSeqNo","trait14":"category"},"recently_viewed_job_click":{"trait5":"jobSeqNo","trait14":"category"},"recommended_job_click":{"trait5":"jobSeqNo","trait14":"category"},"near_job_click":{"trait5":"jobSeqNo","trait14":"category"},"favorite_job_click":{"trait5":"jobSeqNo","trait14":"category"},"job_favorite_delete_click":{"trait5":"jobSeqNo","trait14":"category"},"type_ahead_search":{},"similar_job_see_more_click":{},"linkedin_login_click":{},"linkedin_logout_click":{},"view_all_glassdoor_reviews_click":{},"homepage_category_click":{"trait14":"key"},"category_click":{"trait14":"key"},"job_click":{"trait5":"jobSeqNo","trait14":"category"},"previous_job_click":{"trait5":"jobSeqNo"},"next_job_click":{"trait5":"jobSeqNo"},"linkedin_recommended_category_click":{"trait14":"category"},"back_to_search_results_click":{}},"oauth":{"linkedIn":{"apiKey":"752xe1cieo8utv","clientId":"752xe1cieo8utv","clientSecret":"zZj6XmzC20I2DYX3","loginUrl":"https://www.linkedin.com/oauth/v2/authorization","logoutUrl":"https://api.linkedin.com/uas/oauth/invalidateToken","redirectUri":"/socialAuth/li","response_type":"code","scope":""}},"pageNameMap":{"404":"404_page_view","home":"home_page_view","category":"job_category_page_view","job":"job_details_view","search-results":"search_result_page_view","apply":"apply_page_view","glassdoorReviews":"glassdoor_reviews_page_view","jobcart":"favorites_page_view","jointalentcommunity":"jtc_page_view","featuredOpportunities":"job_category_page_view","businessUnit":"job_category_page_view"}},"reqData":null},"categoryContentV2":{"status":"success","errorCode":null,"errorMsg":null,"data":{"default-category":{"internalId":"default-category","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"default-category","url":"c/defaultcategory-jobs","content":"category default desc"},"GENEA0084_category_34":{"internalId":"GENEA0084_category_34","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Internships","url":"c/internships-jobs","content":"category default desc"},"GENEA0084_category_33":{"internalId":"GENEA0084_category_33","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Human resources management","url":"c/human-resources-management-jobs","content":"category default desc"},"GENEA0084_category_32":{"internalId":"GENEA0084_category_32","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Hourly Employment","url":"c/hourly-employment-jobs","content":"category default desc"},"GENEA0084_category_10":{"internalId":"GENEA0084_category_10","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Engineering","url":"c/engineering-jobs","content":"category default desc"},"GENEA0084_category_31":{"internalId":"GENEA0084_category_31","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Global Business Services","url":"c/global-business-services-jobs","content":"category default desc"},"GENEA0084_category_38":{"internalId":"GENEA0084_category_38","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Corporate Development, Mergers & Acquisitions","url":"c/corporate-development-mergers-acquisitions-jobs","content":"category default desc"},"GENEA0084_category_16":{"internalId":"GENEA0084_category_16","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Information Technology","url":"c/information-technology-jobs","content":"category default desc"},"GENEA0084_category_15":{"internalId":"GENEA0084_category_15","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Manufacturing","url":"c/manufacturing-jobs","content":"category default desc"},"GENEA0084_category_37":{"internalId":"GENEA0084_category_37","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Human Resources Management","url":"c/human-resources-management-jobs","content":"category default desc"},"GENEA0084_category_36":{"internalId":"GENEA0084_category_36","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Public policy","url":"c/public-policy-jobs","content":"category default desc"},"GENEA0084_category_35":{"internalId":"GENEA0084_category_35","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Internships - returning professionals","url":"c/internships-returning-professionals-jobs","content":"category default desc"},"GENEA0084_category_30":{"internalId":"GENEA0084_category_30","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Corporate Development, Mergers & Acquistions","url":"c/corporate-development-mergers-acquistions-jobs","content":"category default desc"},"GENEA0084_category_29":{"internalId":"GENEA0084_category_29","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Other","url":"c/other-jobs","content":"category default desc"},"GENEA0084_category_28":{"internalId":"GENEA0084_category_28","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Global Purchasing & Supply Chain","url":"c/global-purchasing-supply-chain-jobs","content":"category default desc"},"GENEA0084_category_23":{"internalId":"GENEA0084_category_23","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Sales and Marketing","url":"c/sales-and-marketing-jobs","content":"category default desc"},"GENEA0084_category_0":{"internalId":"GENEA0084_category_0","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Research & Development","url":"c/research-development-jobs","content":"category default desc"},"GENEA0084_category_27":{"internalId":"GENEA0084_category_27","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Customer Care & Aftersales","url":"c/customer-care-aftersales-jobs","content":"category default desc"},"GENEA0084_category_26":{"internalId":"GENEA0084_category_26","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Quality & Reliability","url":"c/quality-reliability-jobs","content":"category default desc"},"GENEA0084_category_1":{"internalId":"GENEA0084_category_1","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Administration","url":"c/administration-jobs","content":"category default desc"},"GENEA0084_category_25":{"internalId":"GENEA0084_category_25","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Global Connected Customer Experience & OnStar","url":"c/global-connected-customer-experience-onstar-jobs","content":"category default desc"},"GENEA0084_category_24":{"internalId":"GENEA0084_category_24","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Strategy & Global Portfolio Planning","url":"c/strategy-global-portfolio-planning-jobs","content":"category default desc"},"GENEA0084_category_4":{"internalId":"GENEA0084_category_4","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Finance","url":"c/finance-jobs","content":"category default desc"},"GENEA0084_category_5":{"internalId":"GENEA0084_category_5","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Legal","url":"c/legal-jobs","content":"category default desc"},"GENEA0084_category_3":{"internalId":"GENEA0084_category_3","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Creative Design","url":"c/creative-design-jobs","content":"category default desc"},"GENEA0084_category_8":{"internalId":"GENEA0084_category_8","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Human Resources","url":"c/human-resources-jobs","content":"category default desc"},"GENEA0084_category_6":{"internalId":"GENEA0084_category_6","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Communications","url":"c/communications-jobs","content":"category default desc"}},"reqData":null},"jobDetail":{"status":200,"hits":1,"totalHits":1,"data":{"job":{"customField5":null,"country":"US","cityState":"Detroit, Michigan","subCategory":null,"customField1":null,"customField2":null,"customField3":null,"companyName":"General Motors","postalCode":"","customField4":null,"jobSourceDependents":["GENEA0084"],"category_raw":"Public Policy","type":null,"experience":"","structureData":{"identifier":{"@type":"PropertyValue","name":"General Motors","value":"PUB0000143"},"hiringOrganization":{"@type":"Organization","name":"General Motors"},"jobLocation":{"address":{"addressCountry":"US","@type":"PostalAddress","addressLocality":"Detroit","addressRegion":"Michigan"},"@type":"Place"},"employmentType":null,"@type":"JobPosting","description":"The Business Intelligence Group of the General Motors Legal and Public Policy Department seeks an Americas research analyst with an advanced understanding of politics and political economy and how these shape the business climate for multinational firms across North and South America. In this role, you will conduct in-depth research in English, Spanish, and Portuguese and produce written analytic products on politics and macroeconomics. Research topics will vary, but will include trade, foreign policy, and the regulatory environment, as applicable to the automotive and technology industries. Your portfolio will focus on Mexico, Brazil, Argentina, Colombia, and Chile, but will also require research and analysis on issues related to Canada and the United States.We're located at GM\u2019s Global Headquarters in Detroit, Michigan, a city in the midstof transformation fueled by innovation and opportunity. We provide competitive benefits, compensation, and relocation to Detroit.Primary Responsibilities:Produce thorough analysis that reflects a nuanced understanding of political and economic policymaking target countriesResearch and monitor issues and trends related to an evolving automotive industry, both proactively and as directedProduce accurate, concise, and timely reports, memos, and briefing documents to support the group, department, and companyManage inflows and outflows of data and report requests in coordination with other Business Intelligence Group membersIncorporate data visualization into productsQualifications:Bachelor\u2019s Degree in International Relations, Economics, Political Science, International Business or related disciplines; Master\u2019s Degree preferred5+ years of related experienceFluent English and Fluent/Advanced Spanish; Fluent/Advanced Spanish and Fluent/Advanced Portuguese preferredHigh level of interpersonal organizational skillsExcellent written and verbal communication skillsAbility to work both independently, with minimal supervision, as well as in a team environmentAbility to deal with a high level of ambiguityDemonstrated multitasking and time management skillsClear reputation for ethical conduct, integrity, and confidentialityCritical thinking and creative problem-solving abilitiesIn-depth research skills, source knowledge, and intellectual curiosityProfessional experience in Latin AmericaThe policy of General Motors is to extend opportunities to qualified applicants and employees on an equal basis regardless of an individual's age, race, color, sex, religion, national origin, disability, sexual orientation, gender identity/expression or veteran status. Additionally, General Motors is committed to being an Equal Employment Opportunity Employer and offers opportunities to all job seekers including individuals with disabilities. If you need a reasonable accommodation to assist with your job search or application for employment, email us at Careers.Accommodations@GM.com. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying.&nbsp;&nbsp;This position requires the ability to legally operate a motor vehicle on a regular basis.&nbsp;","datePosted":"2017-10-09T00:00:00","title":"Research Analyst (Americas) - Business Intelligence Group - PUB0000143","@context":"http://schema.org","occupationalCategory":"Public Policy"},"descriptionTeaser":"The Business Intelligence Group of the General Motors Legal and Public Policy Department seeks an Americas research analyst with an advanced understanding of politics and political economy and how the","payType":"","stateName":"Michigan","isQuestionsPresent":false,"state":"Michigan","lat":null,"tenant":242,"longitude":"-83.0457538","category_display":"Same job available in 1 categories","positionLevel":"","category_en":"Public Policy","internalCategoryId":"GENEA0084_category_40","latlong":{"lon":-83.0457538,"lat":42.331427},"active":true,"version":0,"multi_category":[{"category_raw":"Public Policy","category":"Public Policy"}],"stateCountry":"Michigan, US","reqId":"PUB0000143","jobId":"PUB0000143","badge":"existing","refNum":"GENEA0084","jobUpdated":"2017-10-09T13:15:23.539Z","stateCode":"MI","isHot":false,"city":"Detroit","posterEmail":"","latitude":"42.331427","description":"The Business Intelligence Group of the General Motors Legal and Public Policy Department seeks an Americas research analyst with an advanced understanding of politics and political economy and how these shape the business climate for multinational firms across North and South America. In this role, you will conduct in-depth research in English, Spanish, and Portuguese and produce written analytic products on politics and macroeconomics. Research topics will vary, but will include trade, foreign policy, and the regulatory environment, as applicable to the automotive and technology industries. Your portfolio will focus on Mexico, Brazil, Argentina, Colombia, and Chile, but will also require research and analysis on issues related to Canada and the United States.We're located at GM\u2019s Global Headquarters in Detroit, Michigan, a city in the midstof transformation fueled by innovation and opportunity. We provide competitive benefits, compensation, and relocation to Detroit.Primary Responsibilities:Produce thorough analysis that reflects a nuanced understanding of political and economic policymaking target countriesResearch and monitor issues and trends related to an evolving automotive industry, both proactively and as directedProduce accurate, concise, and timely reports, memos, and briefing documents to support the group, department, and companyManage inflows and outflows of data and report requests in coordination with other Business Intelligence Group membersIncorporate data visualization into productsQualifications:Bachelor\u2019s Degree in International Relations, Economics, Political Science, International Business or related disciplines; Master\u2019s Degree preferred5+ years of related experienceFluent English and Fluent/Advanced Spanish; Fluent/Advanced Spanish and Fluent/Advanced Portuguese preferredHigh level of interpersonal organizational skillsExcellent written and verbal communication skillsAbility to work both independently, with minimal supervision, as well as in a team environmentAbility to deal with a high level of ambiguityDemonstrated multitasking and time management skillsClear reputation for ethical conduct, integrity, and confidentialityCritical thinking and creative problem-solving abilitiesIn-depth research skills, source knowledge, and intellectual curiosityProfessional experience in Latin AmericaThe policy of General Motors is to extend opportunities to qualified applicants and employees on an equal basis regardless of an individual's age, race, color, sex, religion, national origin, disability, sexual orientation, gender identity/expression or veteran status. Additionally, General Motors is committed to being an Equal Employment Opportunity Employer and offers opportunities to all job seekers including individuals with disabilities. If you need a reasonable accommodation to assist with your job search or application for employment, email us at Careers.Accommodations@GM.com. In your email, please include a description of the specific accommodation you are requesting as well as the job title and requisition number of the position for which you are applying.&nbsp;&nbsp;This position requires the ability to legally operate a motor vehicle on a regular basis.&nbsp;","lon":null,"industry":null,"locale":"en_US","multi_location":[{"country":"US","cityState":"Detroit, Michigan","city":"Detroit","job_id":"PUB0000143","latlong":{"lon":"-83.0457538","lat":"42.331427"},"location":"Detroit, Michigan, US","cityStateCountry":"Detroit, Michigan, US","state":"Michigan","cityCountry":"Detroit, US","stateCountry":"Michigan, US","latlonCC":"42.331427,-83.0457538"}],"title":"Research Analyst (Americas) - Business Intelligence Group - PUB0000143","jobSeqNo":"GENEA008411497","postedDate":"2017-10-09T00:00:00","workLocation":"","expiryDate":"2017-10-09T13:15:23.539000","dateCreated":"2017-10-02T17:33:47","cityStateCountry":"Detroit, Michigan, US","department":null,"languageType":"en","parentRefNum":"GENEA0084","isVideolocation":true,"jobBoards":[],"location_display":"Detroit, Michigan, US","cmsJobId":"PUB0000143","jobVisibility":[],"applyUrl":"https://gm.taleo.net/careersection/10001/jobapply.ftl?job=PUB0000143&lang=en","location":"Detroit, Michigan, US","cityCountry":"Detroit, US","category":"Public Policy","locationLatlong":null,"latlonCC":"42.331427,-83.0457538"},"isMultiLocationEnabled":true,"multiLocationFieldName":"multi_location","multiLocationValues":["country","address","city","job_id","latlong","state","branch"]},"eid":"59dbbbe7ed3fb50b8ff9c13b"},"flashParams":{}}; phApp.sessionParams = {}; /*-->*/  
+   
+  phApp.urlMap = {"featuredOpportunities":":url", "businessUnit":":url", "category": "c/:category","job": "job/:jobSeqNo/:title","glassdoor-reviews": "glassdoor-reviews", "search-results" : "search-results", "home" : "home", "jobcart" : "jobcart"}  
+  phApp.ddoRealPath = {"jobDetail": "data.job"} 
+    
+    
+   
+    
+     
+      
+       
+       
+         Share via: 
+         
+      
+      
+       
+         
+          
+           
+          Share via Facebook   
+         
+          
+           
+          Share via Twitter   
+         
+          
+           
+          Share via linkedIn   
+         
+          
+           
+          Share via email   
+         
+          
+           
+          Share via Google   
+       
+      
+     
+     
+     
+    
+   
+    
+     
+      
+       
+       
+         Share via: 
+         
+      
+      
+       
+         
+          
+           
+          Share via Facebook   
+         
+          
+           
+          Share via Twitter   
+         
+          
+           
+          Share via linkedIn   
+         
+          
+           
+          Share via email   
+         
+          
+           
+          Share via Google   
+       
+      
+     
+     
+     
+    
+   
+    
+     
+      
+       
+       Enter job title 
+             Search menu open clear text  
+         
+          
+           
+            
+            
+              Job Categories 
+              
+            
+              ${category.key} ${category.total_count}   
+            
+           
+          
+          
+           
+            
+            
+              jobs 
+              
+            
+              
+               
+               Job title 
+                
+               
+               
+                location ${eachJob.location} 
+                category ${eachJob.category}  
+                 
+            
+           
+           0" data-ph-id="ph-page-element-static-header-wzptq2-wzptq2-38"> 
+            
+            
+              Location 
+              
+            
+              ${eachLocation.city} ${eachLocation.count}   
+            
+           
+           0" data-ph-id="ph-page-element-static-header-wzptq2-wzptq2-45"> 
+            
+            
+              Category 
+              
+            
+              ${eachCategory.category} ${eachCategory.count}   
+            
+           
+           
+            
+            
+              Recent Searches 
+              
+            
+             ${eachKeyword}  
+            
+           
+           0 " data-ph-id="ph-page-element-static-header-wzptq2-wzptq2-58"> 
+            
+            
+              suggested keywords 
+              
+            
+             ${eachKeyword}  
+            
+           
+          
+          
+       
+         
+        
+          Search jobs 
+           
+      
+     
+    
+    0? 'icon icon-life' : 'icon icon-heart'}" data-ph-id="ph-page-element-static-header-6qsixj-6qsixj-3">  
+     
+       Favorites 
+       0 ? 'phs-jobcart-count' : 'phs-jobcart-count hide'}" data-ph-id="ph-page-element-static-header-6qsixj-6qsixj-6">${jobCartCount}  
+   
+    
+     
+      
+       
+       Enter job title 
+             Search menu open clear text  
+         
+          
+           
+            
+            
+              Job Categories 
+              
+            
+              ${category.key} ${category.total_count}   
+            
+           
+          
+          
+           
+            
+            
+              jobs 
+              
+            
+              
+               
+               Job title 
+                
+               
+               
+                location ${eachJob.location} 
+                category ${eachJob.category}  
+                 
+            
+           
+           0" data-ph-id="ph-page-element-static-header-25k8x5-25k8x5-38"> 
+            
+            
+              Location 
+              
+            
+              ${eachLocation.city} ${eachLocation.count}   
+            
+           
+           0" data-ph-id="ph-page-element-static-header-25k8x5-25k8x5-45"> 
+            
+            
+              Category 
+              
+            
+              ${eachCategory.category} ${eachCategory.count}   
+            
+           
+           
+            
+            
+              Recent Searches 
+              
+            
+             ${eachKeyword}  
+            
+           
+           0 " data-ph-id="ph-page-element-static-header-25k8x5-25k8x5-58"> 
+            
+            
+              suggested keywords 
+              
+            
+             ${eachKeyword}  
+            
+           
+          
+          
+       
+         
+        
+          Search jobs 
+           
+      
+     
+    
+    0? 'icon icon-life' : 'icon icon-heart'}" data-ph-id="ph-page-element-static-header-pcb90g-pcb90g-3">  
+     
+       Favorites 
+       0 ? 'phs-jobcart-count' : 'phs-jobcart-count hide'}" data-ph-id="ph-page-element-static-header-pcb90g-pcb90g-6">${jobCartCount}  
+   
+    
+    
+     
+      
+       
+        
+          
+        
+       
+       
+       
+         Sorry… The job you are trying to apply for has been filled 
+         
+      
+     
+    
+    
+     
+      
+       
+        
+          
+        
+       
+      
+      
+       
+        
+         
+          
+           
+            
+             
+              
+              ${jobDetail.title} 
+               
+               ${jobDetail.category} |--> 
+               ${jobDetail.location}--> 
+                ${jobDetail.location}  
+                1" data-ph-id="ph-page-element-page34-02ffsy-02ffsy-29"> 
+                 
+                  
+                   Same Job available in ${jobDetail.multi_location.length} locations 
+                    
+                   -->   
+                  
+                  
+                  
+                   ${eachLocation.location}  
+                   
+                
+               
+               
+               multilocation 
+               multilocation 
+               multilocation 
+               
+              
+              
+              --> 
+                   
+                 
+                   Save 
+                       
+                 
+                   Saved 
+                     
+               
+               
+                 Apply 
+                
+                
+                 
+                 
+              
+             
+            
+            
+             
+              
+               
+              
+             
+               Back to search results 
+               
+            
+           
+          
+         
+        
+       
+      
+     
+     
+      
+       
+        
+         
+          
+           
+          
+         
+         
+          
+           
+           ${jobDetail.title} 
+            
+            ${jobDetail.category} |--> 
+            ${jobDetail.location}--> 
+             ${jobDetail.location}  
+             1" data-ph-id="ph-page-element-page34-02ffsy-02ffsy-75"> 
+              
+               
+                Same Job available in ${jobDetail.multi_location.length} locations 
+                 
+                -->   
+               
+               
+               
+                ${eachLocation.location}  
+                
+             
+            
+            
+            multilocation 
+            multilocation 
+            multilocation 
+            
+           
+           
+           --> 
+            
+            
+              Apply Now 
+             
+             
+              
+              
+                
+               
+                 Save 
+                     
+               
+                 Saved 
+                  Favorites  
+           
+          
+         
+         
+          
+           
+          
+         
+           Back to search results 
+           
+         
+          
+           
+            
+           
+          
+            Previous job 
+            
+          
+          
+            Next job 
+           
+           
+            
+            
+         
+         
+         Posted ${jobDetail.postedDate | dateFormat:getDateFormat(jobDateFormat)} 
+         
+        
+        
+         
+         
+        
+        
+         
+          
+           
+          
+         
+           Back to search results 
+           
+         
+          
+           
+            
+           
+          
+            Previous job 
+            
+          
+          
+            Next job 
+           
+           
+            
+            
+         
+        
+       
+       
+        
+         
+        
+        
+         
+          
+           
+            
+           
+           
+            
+           
+           
+            
+           
+           
+            
+           
+          
+         
+        
+       
+      
+     
+     
+      
+      How to apply? 
+       
+      For more information about General Motors of Canada or to search other available opportunities, please visit our website at www.gm.ca/careers. We would like to thank all candidates for expressing interest however only those selected for interviews will be contacted. Pre-employment screening will be required. 
+      Accommodation is available for applicants with disabilities. Should you be contacted by General Motors of Canada Company, please advise if you require accommodation.  
+      General Motors of Canada values diversity and is an equal opportunity employer.  
+      
+     
+    
+   
+     
+    
+      Email this Job 
+      
+    
+     
+     
+      
+       
+        Close the popup  
+       
+       
+         Email this Job 
+         
+       
+       
+         To access this job from another computer, email this information to yourself or a friend. 
+         
+      
+      
+       
+        
+         
+          
+          
+            Name 
+           
+           
+           
+             Name should not be empty 
+              
+         
+         
+          
+          
+            Email 
+           
+           
+           
+             Email should not be empty 
+              
+           
+             Please enter valid Email 
+              
+         
+         
+         
+           Send 
+          
+        
+       
+      
+     
+    
+    
+     
+     
+      
+     Success! 
+     Email has successfully sent 
+     
+    
+    
+     
+     
+      
+     Failure! 
+     Email has not sent 
+     
+    
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-M6HJJW6'); 
+  
+  
+   
+    
+   
+   
+   
+   
+    
+     
+      
+       
+        
+        
+         
+          
+           
+           
+            
+            
+             
+              
+             
+            
+            
+             
+              
+             
+            
+            
+             
+              
+               
+                
+                
+              
+               
+                
+                
+              
+               
+                
+                
+              
+               
+                
+                
+              
+               
+                
+                
+             
+            
+           
+          
+          
+           
+            
+             
+              
+               
+                
+               
+               
+            
+           
+           
+                
+           
+           
+            
+             
+              
+             
+            
+            
+             
+               
+               
+                 Home 
+                  
+               
+               
+                 About Us 
+                  
+               
+                 About Us 
+                 
+               
+                 
+                 
+                   Our Company 
+                    
+                 
+                 
+                   Our Employees 
+                    
+                 
+                 
+                   How We Hire 
+                    
+                 
+                 
+                   Diversity &amp; Inclusion 
+                    
+                 
+                 
+                   Benefits 
+                    
+                 
+                 
+                   Community Engagement 
+                    
+                 
+                 
+                   Veterans 
+                    
+                 
+                 
+                   Awards 
+                    
+                 
+                 
+                   Join Our Talent Community 
+                    
+                 
+                 
+                   Events Calendar 
+                    
+                
+               
+               
+                 Jobs at GM 
+                  
+               
+               
+                 Student &amp; MBA 
+                  
+               
+               
+                 Locations 
+                  
+             
+             
+              
+                
+                  Back to main 
+                 
+               
+               
+                 About Us 
+                  
+               
+               
+                 Our Company 
+                  
+               
+               
+                 Our Employees 
+                  
+               
+               
+                 How We Hire 
+                  
+               
+               
+                 Diversity &amp; Inclusion 
+                  
+               
+               
+                 Benefits 
+                  
+               
+               
+                 Community Engagement 
+                  
+               
+               
+                 Veterans 
+                  
+               
+               
+                 Awards 
+                  
+               
+               
+                 Join Our Talent Community 
+                  
+               
+               
+                 Events Calendar 
+                  
+             
+            
+            
+             
+             --> 
+              
+             
+            
+            
+             
+              
+               
+                
+                
+              
+               
+                
+                
+              
+               
+                
+                
+              
+               
+                
+                
+              
+               
+                
+                
+             
+            
+           
+          
+         
+        
+       
+      
+     
+    
+   
+   
+   
+    
+     
+      
+     
+     
+      
+     
+    
+   
+   
+    
+     
+      
+       
+       
+        
+         
+          
+           
+            
+             
+            
+           
+          
+         
+         
+          
+           
+            
+             
+              
+               
+                
+                
+              
+            
+             
+              
+              
+            
+             
+              
+              
+            
+             
+              
+              
+            
+             
+              
+              
+           
+          
+          
+           
+            
+              
+              
+                GM.com 
+                 
+            <!--FAQs--> 
+              
+              
+                FAQs 
+                 
+              
+              
+                Investors 
+                 
+              
+              
+                Dealers &amp; Suppliers 
+                 
+              
+              
+                Press Room 
+                 
+            <!--Sitemap--> 
+              
+              
+                Sitemap 
+                 
+              
+              
+                Contact Us 
+                 
+              
+              
+                Accessibility &amp; Equal Opportunity Employer 
+                 
+              
+              
+                User Guidelines 
+                 
+              
+              
+                Privacy 
+                 
+              
+              
+                Copyright/Trademark 
+                 
+              
+              
+                Supply Chain Responsibility 
+                 
+            
+           
+          
+          
+           
+           
+             © 2017 General Motors 
+             
+          
+         
+        
+       
+       
+      
+     
+    
+   
+   
+    
+    
+    
+    
+  
+

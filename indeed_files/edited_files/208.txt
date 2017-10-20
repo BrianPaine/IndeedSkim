@@ -1,0 +1,1277 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+  
+
+  
+
+    Careers | Capgemini Worldwide
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ {
+
+ "@context": "https://schema.org/",
+
+ "@type": "Organization",
+
+ "url": "https://www.capgemini.com/",
+
+ "logo": "Custom/SkinCustom/CAP1009/logo.png "
+
+ }
+
+ 
+
+               
+
+    (function (i, s, o, g, r, a, m) {
+
+                  i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+                      (i[r].q = i[r].q || []).push(arguments)
+
+                  }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+              })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+              ga('create', 'UA-49355528-1', { 'siteSpeedSampleRate': 10, 'cookieExpires': 60 * 60 * 24 * 365 });     // Country Data Tracking
+
+              ga('create', 'UA-49360690-10', { 'siteSpeedSampleRate': 10, 'cookieExpires': 60 * 60 * 24 * 365, 'name': 'Global' });     // Global Data Tracking
+
+              ga('require', 'displayfeatures');
+
+              ga('Global.require', 'displayfeatures');
+
+              ga('require', 'linkid', 'linkid.js');
+
+              ga('Global.require', 'linkid', 'linkid.js');  
+
+
+
+  
+
+  
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+#sliding-popup.sliding-popup-bottom{background:#FFFFFF;}#sliding-popup .popup-content #popup-text h2,#sliding-popup .popup-content #popup-text p{color:#000000 !important;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
+
+        
+
+      
+
+
+
+      
+
+          function openWin(URL) {
+
+              aWindow = window.open(URL, "help", "toolbar=no,width=350,height=250,status=no,scrollbars=yes,resize=yes,menubar=no");
+
+          }
+
+    
+
+
+
+    
+
+
+
+      
+
+
+
+    
+
+    
+
+        Jump to navigation
+
+    
+
+    
+
+        
+
+          
+
+        
+
+            
+
+    
+
+
+
+      
+
+  Expertise
+
+Careers
+
+About Capgemini
+
+Newsroom
+
+Investors
+
+
+
+
+
+
+
+
+
+
+
+      
+
+  
+
+      Search form
+
+    
+
+  Search 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+  Capgemini global
+
+
+
+-->
+
+  
+
+        
+
+      
+
+    
+
+    
+
+      
+
+        
+
+          
+
+          
+
+                  
+
+    
+
+
+
+      
+
+  Our Services
+
+Your Industry
+
+Sharing Insights
+
+Client Stories
+
+Expert Connect
+
+
+
+
+
+  
+
+
+
+                
+
+      
+
+    
+
+  
+
+        
+
+            
+
+                
+
+                
+
+                    
+
+                        
+
+                            Search form
+
+                        
+
+                            
+
+                                Search
+
+                            
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                
+
+                        
+
+                        
+
+                    
+
+                
+
+                
+
+            
+
+            
+
+                ExpertiseOur Services
+
+Your Industry
+
+Sharing Insights
+
+Client Stories
+
+Expert Connect
+
+
+
+CareersWorking at Capgemini
+
+Your Career Path
+
+Recruitment events
+
+What our people say
+
+Job search
+
+
+
+About CapgeminiGroup Overview
+
+Governance
+
+Corporate Responsibility
+
+How we work
+
+
+
+NewsroomMedia Center
+
+Analyst & Advisor Center
+
+Events
+
+Resources
+
+Expert Connect
+
+
+
+InvestorsFinancial News & Events
+
+Financial Publications
+
+Shareholder information
+
+Results
+
+Investor Contact
+
+
+
+
+
+
+
+            
+
+        
+
+        
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                    
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+                    
+
+                        
+
+                    
+
+                
+
+                
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                        
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                        
+
+                                            
+
+                                                Browse Open Jobs
+
+                                                Search Open Jobs
+
+                                                
+
+                                                Edit Your Profile
+
+                                                
+
+
+
+                                                View Submitted Applications
+
+                                                 
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+
+
+
+
+.LabelCell
+
+{	padding: 3px 6px 3px 3px;
+
+}
+
+.Cell 
+
+{
+
+	padding-top: 4px;
+
+}
+
+
+
+.PrintSmall {
+
+	font-weight: normal
+
+}
+
+
+
+.LinkSmall:link 
+
+{
+
+	float: right;
+
+    font-weight: normal
+
+}
+
+.LinkSmall:visited 
+
+{
+
+	float: right;
+
+    font-weight: normal
+
+}
+
+.LinkSmall:active 
+
+{
+
+	float: right;
+
+    font-weight: normal
+
+}
+
+.LinkSmall:hover 
+
+{
+
+	float: right;
+
+	font-weight: normal
+
+}
+
+
+
+Job Details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = ('');
+
+		theform.__PXLBV.value = ('');
+
+	}
+
+	function pxslbp(eventTarget, eventArgument) {
+
+		var theform;
+
+		if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = eventTarget;
+
+		theform.__PXLBV.value = eventArgument;
+
+		theform.submit();
+
+	}
+
+//-->
+
+
+
+
+
+Invalid zipcode/postal code format for this country.');
+
+                }
+
+            } catch (e) {
+
+                hasError = true;
+
+            }
+
+            if (hasError) {
+
+                _zipCodeValue.title = 'Invalid Postal Code';
+
+                _zipCodeValue.style.backgroundColor = 'yellow';
+
+            }
+
+        }
+
+        return _validationReturn;
+
+    }
+
+    return true;
+
+}
+
+
+
+function removeZipLabelError(_zipCodeValue) {
+
+    var withSuccess = true;
+
+    try {
+
+        var lenght = _zipCodeValue.parentNode.childNodes.length;
+
+        var index = 0;
+
+        while (index 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ToggleCheckBoxs(chk){
+
+var tab = document.getElementById ( 'CheckBoxTable' );
+
+var elems = tab.getElementsByTagName ( 'input' );
+
+var len = elems.length;
+
+ for ( var i = 0; i  1){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+var pkval = nameparts[1];
+
+ txt.value = pkval;
+
+ }
+
+ }
+
+else
+
+elems[i].checked = false;
+
+}
+
+ if(chk.type == 'checkbox'){
+
+ if(chk.checked == false){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+txt.value="";
+
+}}}}
+
+
+
+
+
+
+
+    function SendResume(){
+
+        document.PXForm.ParseResume.value = 1;
+
+        document.PXForm.submit();
+
+    }
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+
+			
+
+			
+
+				Requisition Number
+
+				17-0234
+
+			
+
+			
+
+				Post Date
+
+				9/26/2017
+
+			
+
+			
+
+				Title
+
+				Entry Level Data Scientist (June 2018)
+
+			
+
+			
+
+				City
+
+				Washington
+
+			
+
+			
+
+				State
+
+				DC
+
+			
+
+			
+
+				Description
+
+				Capgemini Government Solutions is searching for undergraduate and graduate level applicants who are motivated about growing their technical skills and desire to learn the fundamentals of Government consulting. You will work as part of a team helping to
+
+ solve challenging issues by learning to use industry best-practices and a variety of technologies.
+
+
+
+
+
+With more than 190,000 employees worldwide and multi billion dollars in revenue, Capgemini is a leading global provider of consulting, technology, and outsourcing services. Our team is one of the few global players that can offer US government agencies a full
+
+ range of advisory, implementation, and management services to drive innovative ways to streamline organizations, reduce costs, and stay operationally effective. We are seeking innovative, strategic thinking, and entrepreneurial candidates interested in a Technical
+
+ Analyst position. If you’re motivated and looking for an opportunity in the consulting profession, apply today!
+
+
+
+
+
+Responsibilities may include: 
+
+• Derive and visualize previously unknown insights from structured and unstructured data
+
+
+
+• Engage in critical problem solving through data modeling, mining, predictive analytics, pattern recognition, machine learning, and statistics
+
+• Assist in the design and implementation of data analytic applications by analyzing client business requirements to translate needs into technical requirements
+
+• Use strong communications skills to interact with team members and clients on a daily basis
+
+• Create timely and accurate documentation for all work products
+
+• Implement tasks in accordance with schedule 
+
+• Continuously improve skills, adapt emerging technologies, and apply best practices
+
+
+
+Required:
+
+• Must be a U.S. citizen and be eligible for a government security clearance
+
+• Bachelor’s Degree completed prior to start in Mathematics, Applied Mathematics, Statistics, Applied Statistics, Machine Learning, Data Science, Operations Research, or Computer Science
+
+• 0 to 1 years’ experience working as a data scientist 
+
+
+
+Practical experience with one or more of the following:
+
+• Development using Java, Python, R, or SAS
+
+• Implementation and validation of predictive models and create and maintenance of statistical models with a focus on big data
+
+• Analysis of data using regression, time series, mixed model, Bayesian, or clustering methods
+
+
+
+Optional:
+
+• Configuring and working with the Linux, Apache, MySQL, PHP (LAMP) stack
+
+• Knowledge of relational database technologies (e.g., Oracle, SQL Server, MongDB, MySQL, PostgreSQL)
+
+• Experience with Agile inspired methodologies, coding guidelines, and best practices
+
+
+
+Company Overview
+
+
+
+Capgemini, one of the world's foremost providers of consulting, technology, and outsourcing services, enables its clients to transform and perform through technologies.
+
+
+
+
+
+Capgemini Government Solutions, LLC (Capgemini GS) is a subsidiary of Capgemini focused on providing high quality Capgemini services to the U.S. Federal Government.
+
+
+
+
+
+Capgemini GS provides equal employment opportunities (EEO) to all employees and applicants for employment. In addition to federal law requirements, Capgemini GS complies with applicable state and local laws governing nondiscrimination in employment.
+
+
+
+
+
+			
+
+			
+
+			
+
+			
+
+				
+
+				Apply On-line
+
+			
+
+			
+
+				
+
+				Send This Job to a Friend
+
+			
+
+		
+
+		
+
+	
+
+
+
+
+
+                                
+
+                                
+
+                            
+
+                        
+
+                        
+
+                        
+
+                    
+
+                    
+
+                
+
+                
+
+            
+
+            
+
+            
+
+           
+
+      
+
+              
+
+                  
+
+            
+
+              
+
+            
+
+              
+
+    
+
+      
+
+
+
+      
+
+  ExpertiseOur Services
+
+Your Industry
+
+Sharing Insights
+
+Client Stories
+
+Expert Connect
+
+
+
+About CapgeminiGroup Overview
+
+Governance
+
+Corporate Responsibility
+
+How we work
+
+
+
+NewsroomMedia Center
+
+Analyst & Advisor Center
+
+Events
+
+Resources
+
+Expert Connect
+
+
+
+InvestorsFinancial News & Events
+
+Financial Publications
+
+Shareholder information
+
+Results
+
+Investor Contact
+
+
+
+
+
+
+
+    
+
+  
+
+          
+
+          
+
+              
+
+    
+
+
+
+        contact us
+
+    
+
+  Got a question? Get in touch with our team.
+
+
+
+
+
+
+
+        follow us
+
+    
+
+  
+
+
+
+
+
+
+
+        Discover our two brands:
+
+    
+
+  
+
+
+
+
+
+
+
+  
+
+          
+
+                
+
+              
+
+      
+
+        
+
+            
+
+    
+
+
+
+      
+
+  Terms of Use
+
+Social Media Guidelines
+
+Privacy Policy
+
+Legal Information / Mentions Légales
+
+Contact Capgemini
+
+RSS Feed
+
+Search
+
+
+
+
+
+
+
+  
+
+            
+
+    
+
+
+
+      
+
+  Worldwide | ENView all our sites
+
+
+
+
+
+
+
+      
+
+  Argentina | ARAustralia | ENAustria | DEBelgium | ENBrazil | BRCanada (English) | ENCanada (French) | FRChina | CNCzech Republic | ENDenmark | ENFinland | ENFrance | FRGermany | DEHungary | ENIndia | ENItaly | ITJapan | JPMexico | MXNetherlands | NLNorway | NOPoland | PLPortugal | ENRomania | ENSlovakia | ENSpain | ESSweden | ENSwitzerland | DEUnited Kingdom | ENWorldwide | ENWorldwide | EN
+
+
+
+  
+
+        
+
+      
+
+    
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+	
+
+									
+
+				
+
+		    	 
+
+		    			    		 The fate of Europe’s net neutrality is being decided now https://t.co/AJXfRLzN3x #contentloop
+
+		    			    		 Are you ready for Autonomics #DevOps? #Autonomixer https://t.co/oWg3ZDsAXe
+
+		    			    		 Video: Is your business still planning shipments manually? Save time &amp; money with TMS NOW https://t.co/K1asTkVrys Come to #OOW15 booth 911
+
+		    			    		 Lean Start-up approach can stimulate collaboration between teams and generate new ideas https://t.co/QoOZgBmRMH
+
+		    			    	
+
+		    
+
+			
+
+		    
+
+		
+
+						follow us :
+
+			
+
+				
+
+		      ...		    
+
+		    
+
+		      		    
+
+		  
+
+      
+
+		
+
+			
+
+	
+
+					
+
+
+
+            var addthis_config = { "services_compact": "more", "data_track_clickback": false, "ui_508_compliant": false, "ui_click": false, "ui_cobrand": "", "ui_delay": 0, "ui_header_background": "", "ui_header_color": "", "ui_open_windows": false, "ui_use_css": false, "ui_use_addressbook": false, "ui_language": "en" }
+
+        var addthis_share = { "templates": { "twitter": "{{title}} {{url}} via @AddThis"} }
+
+    
+
+            window.googleanalytics_search_results = 666;
+
+
+
+
+
+
+
+    addthis_config["data_ga_social"] = true;
+
+  
+
+
+
+
+
+
+
+    jQuery.extend(Drupal.settings, { "basePath": "\/", "pathPrefix": "", "ajaxPageState": { "theme": "capgemini", "theme_token": "sty8edp0dmfMj8SFiUpONdHHyocnzfazwwf-Bl14Lq4", "js": { "0": 1, "1": 1, "sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.5\/jquery.min.js": 1, "misc\/jquery.once.js": 1, "misc\/drupal.js": 1, "sites\/all\/modules\/custom\/cap_custom\/js\/country_choice.js": 1, "sites\/all\/modules\/custom\/cap_custom\/js\/social_media.js": 1, "sites\/all\/modules\/contrib\/contentanalysis\/contentanalysis.js": 1, "sites\/all\/modules\/contrib\/contentoptimizer\/contentoptimizer.js": 1, "sites\/all\/modules\/custom\/cap_navigation\/js\/megamenu.js": 1, "sites\/all\/modules\/custom\/cap_navigation\/js\/message.js": 1, "2": 1, "sites\/all\/modules\/contrib\/addthis\/addthis.js": 1, "sites\/all\/modules\/custom\/eu_cookie_compliance\/js\/eu_cookie_compliance.js": 1, "sites\/all\/libraries\/colorbox\/colorbox\/jquery.colorbox-min.js": 1, "sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js": 1, "sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_default_style.js": 1, "sites\/all\/modules\/custom\/cap_google_analytics\/js\/cap_ga_dimensions.js": 1, "sites\/all\/themes\/capgemini\/js\/cap-twitter-ticker.js": 1, "sites\/all\/modules\/contrib\/jcarousel\/js\/jquery.jcarousel.min.js": 1, "sites\/all\/modules\/contrib\/facetapi\/facetapi.js": 1, "sites\/all\/themes\/capgemini\/js\/jquery-ui.custom.min.js": 1, "sites\/all\/themes\/capgemini\/js\/jquery.touchwipe.min.js": 1, "sites\/all\/themes\/capgemini\/js\/jquery.mousewheel.min.js": 1, "sites\/all\/themes\/capgemini\/js\/select2\/select2.js": 1, "sites\/all\/themes\/capgemini\/js\/script.js": 1, "sites\/all\/themes\/capgemini\/js\/remote-control.js": 1, "sites\/all\/themes\/capgemini\/js\/foot-notes.js": 1, "sites\/all\/themes\/capgemini\/js\/jcarousel-capgemini.js": 1, "sites\/all\/themes\/capgemini\/js\/html-tables.js": 1, "sites\/all\/themes\/capgemini\/js\/mobile-menu.js": 1, "sites\/all\/themes\/capgemini\/js\/cap-form.js": 1, "sites\/all\/themes\/capgemini\/js\/jquery.1.10.1.js": 1, "sites\/all\/themes\/capgemini\/js\/jquery.cookie.js": 1, "sites\/all\/themes\/capgemini\/js\/jquery.magnific-popup.js": 1, "sites\/all\/themes\/capgemini\/js\/jquery-noconflict.js": 1, "sites\/all\/themes\/capgemini\/js\/jquery.min.1.7.js": 1, "sites\/all\/themes\/capgemini\/js\/jquery.scrolldepth.js": 1, "sites\/all\/themes\/capgemini\/js\/jquery-noconflict2.js": 1, "sites\/all\/themes\/capgemini\/js\/custom-addthis.js": 1 }, "css": { "modules\/system\/system.base.css": 1, "modules\/system\/system.menus.css": 1, "modules\/system\/system.messages.css": 1, "modules\/system\/system.theme.css": 1, "sites\/all\/modules\/contrib\/comment_notify\/comment_notify.css": 1, "modules\/comment\/comment.css": 1, "sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css": 1, "modules\/field\/theme\/field.css": 1, "sites\/all\/modules\/contrib\/mollom\/mollom.css": 1, "modules\/node\/node.css": 1, "modules\/user\/user.css": 1, "sites\/all\/modules\/contrib\/views\/css\/views.css": 1, "sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css": 1, "sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_default_style.css": 1, "sites\/all\/modules\/contrib\/ctools\/css\/ctools.css": 1, "sites\/all\/modules\/custom\/cap_linkedin\/linkedin_auth\/linkedin_auth.css": 1, "sites\/all\/modules\/custom\/cap_linkedin\/linkedin_profile\/linkedin_profile.css": 1, "0": 1, "modules\/search\/search.css": 1, "sites\/all\/modules\/custom\/eu_cookie_compliance\/css\/eu_cookie_compliance.css": 1, "sites\/all\/modules\/contrib\/facetapi\/facetapi.css": 1, "sites\/all\/themes\/capgemini\/system.menus.css": 1, "sites\/all\/themes\/capgemini\/css\/bootstrap\/bootstrap.css": 1, "sites\/all\/themes\/capgemini\/css\/fonts\/fonts.css": 1, "sites\/all\/themes\/capgemini\/css\/add-this.css": 1, "sites\/all\/themes\/capgemini\/css\/fonts\/fonts.mobile.css": 1, "sites\/all\/themes\/capgemini\/css\/pages.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes.css": 1, "sites\/all\/themes\/capgemini\/css\/views-styles.css": 1, "sites\/all\/themes\/capgemini\/css\/blocks.css": 1, "sites\/all\/themes\/capgemini\/css\/views-modes.css": 1, "sites\/all\/themes\/capgemini\/css\/buttons.css": 1, "sites\/all\/themes\/capgemini\/css\/megamenu.css": 1, "sites\/all\/themes\/capgemini\/css\/jcarousel-capgemini.css": 1, "sites\/all\/themes\/capgemini\/css\/forms.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/rich-article.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/press-release.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/client-story.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/service.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/testimonial.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/job-offer.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/find-jobs.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/career.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/expert-profile.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/our-people-in-action.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/resource.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/newsroom.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/media-analysts.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/resource-list-page.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/expert-connect-group.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/event.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/investors.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/blog-article.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/blog.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/expert-connect.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/campaign.css": 1, "sites\/all\/themes\/capgemini\/css\/views.css": 1, "sites\/all\/themes\/capgemini\/css\/print.css": 1, "sites\/all\/themes\/capgemini\/css\/blocks\/hr-social-media.css": 1, "sites\/all\/themes\/capgemini\/css\/blocks\/join-the-conversation.css": 1, "sites\/all\/themes\/capgemini\/css\/videolightbox.css": 1, "sites\/all\/themes\/capgemini\/css\/select2.css": 1, "sites\/all\/themes\/capgemini\/css\/jquery.mCustomScrollbar.css": 1, "sites\/all\/themes\/capgemini\/css\/search.css": 1, "sites\/all\/themes\/capgemini\/css\/cap-consulting.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/page-standard.css": 1, "sites\/all\/themes\/capgemini\/css\/magnific-popup.css": 1, "sites\/all\/themes\/capgemini\/css\/nodes\/analyst-information-center.css": 1, "sites\/all\/themes\/capgemini\/css\/architecture-week-override.css": 1, "sites\/all\/themes\/capgemini\/css\/jquery.jscrollpane.css": 1, "sites\/all\/themes\/capgemini\/css\/grids\/grid.324.css": 1, "sites\/all\/themes\/capgemini\/css\/grids\/grid.325-767.css": 1, "sites\/all\/themes\/capgemini\/css\/grids\/grid.768-1023.css": 1, "sites\/all\/themes\/capgemini\/css\/grids\/grid.1024.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/mobile\/node.mobile.css": 1, "sites\/all\/themes\/capgemini\/css\/fonts\/fonts.normal-narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/node.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/blog.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/blog-article.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/expert-connect-group.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/forms.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/newsroom.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/investor.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/search.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/cap-consulting-block.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/career.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/event.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/views-modes.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/page.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/expert-profile.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/narrow\/magnific-popup.narrow.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/node-normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/page-normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/megamenu-normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/views.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/views-modes.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/blog.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/blog-article.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/expert-connect-group.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/expert-profile.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/forms.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/social-buttons.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/newsroom.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/investor.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/rich-article.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/search.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/testimonial.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/career.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/expert-connect.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/event.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/find-jobs.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/campaign.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/normal\/magnific-popup.normal.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/node-wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/page-wide.css": 1, "sites\/all\/themes\/capgemini\/css\/fonts\/fonts.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/block.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/views-modes.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/blog-article.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/blog.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/expert-connect-group.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/expert-profile.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/forms.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/social-buttons.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/newsroom.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/investor.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/search.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/event.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/find-jobs.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/career.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/campaign.wide.css": 1, "sites\/all\/themes\/capgemini\/css\/layouts\/wide\/magnific-popup.wide.css": 1} }, "colorbox": { "opacity": "0.85", "current": "{current} of {total}", "previous": "\u00ab Prev", "next": "Next \u00bb", "close": "Close", "maxWidth": "100%", "maxHeight": "100%", "fixed": true, "__drupal_alter_by_ref": ["default"] }, "jcarousel": { "ajaxPath": "https:\/\/www.capgemini.com\/jcarousel\/ajax\/views" }, "eu_cookie_compliance": { "popup_enabled": 1, "popup_agreed_enabled": 0, "popup_hide_agreed": 0, "popup_clicking_confirmation": 0, "popup_html_info": "\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content info\u0022 \u003E\n   \u003Cdiv class =\u0022eu-cookie-popup-message-text\u0022\u003E\n      \u003Cp\u003EBy continuing to navigate on this website, you accept the use of cookies. For more information and to change the setting of cookies on your computer, please read our \u003Ca href=\u0022http:\/\/www.capgemini.com\/privacy-policy\u0022 target=\u0022_blank\u0022\u003EPrivacy Policy\u003C\/a\u003E.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv class =\u0022eu-cookie-popup-button-text\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button\u0022 onClick=\u0022ga(\u0027send\u0027, \u0027event\u0027, \u0027Cookie Compliance\u0027, \u0027Cookie Compliance\u0027, \u0027Cookie Compliance\u0027); ga(\u0027Global.send\u0027, \u0027event\u0027, \u0027Cookie Compliance\u0027, \u0027Cookie Compliance\u0027, \u0027Cookie Compliance\u0027);\u0022\u003EClose\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n  \u003Cdiv id = \u0027eu-cookie-policy-section\u0027\u003E\n    \u0026nbsp;\n  \u003C\/div\u003E\n\u003C\/div\u003E\n\n", "popup_html_agreed": "\u003Cdiv\u003E\n  \u003Cdiv class =\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003E\u0026lt;h2\u0026gt;Thank you for accepting cookies\u0026lt;\/h2\u0026gt;\u0026lt;p\u0026gt;You can now hide this message or find out more about cookies.\u0026lt;\/p\u0026gt;\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button\u0022\u003EHide\u003C\/button\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button\u0022 \u003EMore info\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E", "popup_height": "auto", "popup_width": "32%", "popup_delay": 1000, "popup_link": "https:\/\/www.capgemini.com\/", "popup_link_new_window": 0, "popup_position": null, "popup_language": "en", "domain": "" }, "addthis": { "widget_url": "https:\/\/s7.addthis.com\/js\/250\/addthis_widget.js?async=1" }, "cap_google_analytics": { "node_type": null, "service_level": "Level ", "node_id": null }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip", "trackDomainMode": "1" }, "googleAnalyticsETSettings": { "selectors": [] }, "follow_us_label_complete": "follow us on our global networks :", "follow_us_label_short": "follow us :", "facetapi": { "facets": [{ "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-taxo-partners", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_taxo_partners", "queryType": "term", "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-taxo-industry", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_taxo_industry", "queryType": "term", "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-taxo-expertise", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_taxo_expertise", "queryType": "term", "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-r-resource-type-media", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_r_resource_type_media", "queryType": "term", "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-r-resource-type-documen", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_r_resource_type_documen", "queryType": "term", "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-taxo-financial-type", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_taxo_financial_type", "queryType": "term", "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-r-associated-solutions", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_r_associated_solutions", "queryType": null, "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-jo-location", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_jo_location", "queryType": "term", "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-jo-contract-type", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_jo_contract_type", "queryType": "term", "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-jo-custom-criteria-valu", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_jo_custom_criteria_valu", "queryType": "term", "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-jo-department", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_jo_department", "queryType": "term", "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-jo-experience-level", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_jo_experience_level", "queryType": "term", "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-jo-location-ww", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_jo_location_ww", "queryType": null, "widget": "facetapi_checkbox_links", "makeCheckboxes": 1 }, { "limit": "-1", "id": "facetapi-facet-apachesolracquia-search-server-1-block-im-field-jo-location-us", "searcher": "apachesolr@acquia_search_server_1", "realmName": "block", "facetName": "im_field_jo_location_us", "queryType": null, "widget": "facetapi_checkbox_links", "makeCheckboxes": 1}]} });
+
+	
+
+    
+
+        jQuery17(document).ready(function () {
+
+            jQuery17.scrollDepth();
+
+        });
+
+    
+
+
+
+           
+
+                        

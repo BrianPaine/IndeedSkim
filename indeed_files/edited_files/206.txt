@@ -1,0 +1,764 @@
+
+
+
+
+
+
+
+
+
+    
+        
+    Data Analyst at TopstepTrader
+
+
+        
+
+        
+            
+        
+
+        
+        
+        
+
+        
+            
+        
+
+        
+        try{Typekit.load();}catch(e){}
+
+        
+        
+
+        
+    
+    
+    
+    
+    
+    
+    
+        
+
+ {
+    "@context" : "http://schema.org/",
+    "@type" : "JobPosting",
+    "title" : "Data Analyst",
+    "description" : "&lt;p&gt;TopstepTrader is a young, innovative early-stage B2C company that provides people from around the world the opportunity to earn trading capital. We offer our users an evaluation of their trading performance in a real-time, simulated account. Those who complete the objective are funded. With over 30,000 users derived from organic growth, we are not slowing down any time soon!&lt;/p&gt;
+&lt;p&gt;A career at TopstepTrader places you in the hub of one of the fastest growing technology companies in Chicago. Named among the &amp;ldquo;101 Best and Brightest Companies to Work For-2016 &amp;amp; 2017&amp;rdquo; in Chicago, we are a vibrant and growing company on the cutting edge of technology. With more than 30 employees, TopstepTrader is one of a handful of innovative and creative early stage businesses in the West Loop. We are growing our passionate team, user base, and business model-all the while reinventing the retail brokerage industry.&lt;/p&gt;
+&lt;p&gt;The Data Analyst will specialize in collecting, sorting, and studying business data for interpretation, analysis, and aid in making business decisions.&amp;nbsp;This position requires a person with integrity who&amp;nbsp;seeks to describe the underlying focus of our business&amp;nbsp;and will be the &amp;ldquo;voice of data&amp;rdquo; for&amp;nbsp;our company.&lt;/p&gt;
+&lt;p&gt;Are you excited about this opportunity to make a substantial impact? Read on&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Role:&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract, gather, and load data to and from electronic systems&lt;/li&gt;
+&lt;li&gt;Design and implement reports and models supporting decision-making processes&lt;/li&gt;
+&lt;li&gt;Resolve and explain data discrepancies and issues&lt;/li&gt;
+&lt;li&gt;Propose and implement systems to maintain integrity of existing data&lt;/li&gt;
+&lt;li&gt;Work with our internal strategy team to determine key performance metrics of the business to track across multiple departments&lt;/li&gt;
+&lt;li&gt;Maintain accurate TAM figures for company, brands, and products&lt;/li&gt;
+&lt;li&gt;Monitor, analyze, and report on effectiveness of marketing and other key initiatives&lt;/li&gt;
+&lt;li&gt;Drive positive results by translating data into actionable recommendations across departments and initiatives&lt;/li&gt;
+&lt;li&gt;Assist in data collection design for customer acquisition and retention tests&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;The Requested Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Undergraduate degree, preferably in Business, Analytics, Hard Sciences (Physics, Chemistry, etc.), Computer Science, Mathematics, Statistics, or related field&lt;/li&gt;
+&lt;li&gt;Related business experience&lt;/li&gt;
+&lt;li&gt;SQL database knowledge&lt;/li&gt;
+&lt;li&gt;Experience with coding&lt;/li&gt;
+&lt;li&gt;Previous experience or knowledge of economics/modeling&lt;/li&gt;
+&lt;li&gt;Experience with Scientific Method&lt;/li&gt;
+&lt;li&gt;Prior experience or college level classes in statistics, math, and/or trend analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;TopstepTrader Benefits:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Competitive salary and bonus incentives&lt;/li&gt;
+&lt;li&gt;Medical, dental, vision, life, long-term/short-term disability insurance, and 401k retirement plan with company match&lt;/li&gt;
+&lt;li&gt;Paid time off increasing annually&lt;/li&gt;
+&lt;li&gt;Paid holidays&lt;/li&gt;
+&lt;li&gt;Ability to learn about the financial markets and trading industry from experienced professionals&lt;/li&gt;
+&lt;li&gt;Availability of professional continuing education, training, and workshops&lt;/li&gt;
+&lt;li&gt;Opportunities to work from home&lt;/li&gt;
+&lt;li&gt;Summer Friday (flexible) hours&lt;/li&gt;
+&lt;li&gt;Perks: cereal and bar, birthday and anniversary celebrations, company events, and much more!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Is TopstepTrader the place for you? If so, apply today! We look forward to hearing from you.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;TopstepTrader is an Equal Opportunity Employer and does not discriminate against any employee or applicant on the basis of race, gender, age, disability, or any other basis protected under the law.&lt;/p&gt;",
+
+    "jobLocation" : {
+        "@type" : "Place",
+        "address" : {
+            "@type" : "PostalAddress",
+            "addressLocality" : "Chicago",
+            "addressRegion" : "Illinois",
+            "postalCode" : "60604",
+            "addressCountry": "United States"
+        }
+    },
+
+    "datePosted" : "2017-10-07",
+    "employmentType" : "FULL_TIME",
+
+    "identifier": {
+        "@type": "PropertyValue",
+        "name": "TopstepTrader",
+        "value": "fk0f13h"
+    },
+
+    "hiringOrganization" : {
+        "@type" : "Organization",
+        "name" : "TopstepTrader"
+        
+    }
+}
+
+
+    
+
+
+        
+        
+
+        
+    window.addEventListener("message", receiveMessage, false);
+
+    function receiveMessage(event)
+    {
+        if (event.origin !== "https://app.recruiterbox.com")
+            return;
+
+        var data = event.data;
+
+        if (data === 'FINISHED_LOADING_LINKEDIN_JS') {
+            $('.js-apply-with-linkedin').removeClass('hide');
+        } else if (data === 'PROFILE_DATA_BEING_FETCHED') {
+            show_application_form();
+            show_loading_overlay();
+        } else if (data.message == 'ERROR_WHILE_FETCHING_PROFILE_DATA') {
+            hide_loading_overlay();
+            show_application_form();
+            _RB.logToRollbar(data.error);
+        } else if (data.message == 'LINKEDIN_PROFILE_DATA') {
+            populateFields(data.firstName, data.lastName, data.emailAddress, data.summary, data.publicProfileUrl)
+        }
+    }
+
+    function populateFields(first_name, last_name, email, summary, linkedin_public_profile_url) {
+        hide_loading_overlay();
+        show_application_form();
+        var first_name_field = $('#id_candidate_first_name');
+        var last_name_field = $('#id_candidate_last_name');
+        var email_field = $('#id_candidate_email');
+        var summary_field = $('#id_linkedin_profile_summary');
+        var linkedin_public_profile_url_field = $('#id_linkedin_public_profile_url');
+
+        first_name_field.val(first_name);
+        last_name_field.val(last_name);
+        email_field.val(email);
+        summary_field.val(summary);
+        linkedin_public_profile_url_field.val(linkedin_public_profile_url);
+    }
+
+    function clickOnLinkedinButton() {
+        var iframe = document.querySelector("#js-linkedin-btn-iframe");
+        var iframeWindow = iframe.contentWindow;
+        iframeWindow.postMessage("CLICK_ON_LINKEDIN_BUTTON", "*");
+    }
+
+
+    
+
+
+    
+
+        
+            
+
+
+
+
+
+        
+
+        
+            
+                
+                    
+
+
+    
+    
+    
+        
+            
+            
+                
+            
+            
+        
+        
+    
+
+    
+    
+
+
+                
+            
+        
+
+        
+            
+        
+
+        
+            
+            
+                
+    
+
+    
+    
+    
+
+
+
+    (function (d, s, id) {
+        var js, iajs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.async = true;
+        js.src = "https://apply.indeed.com/indeedapply/static/scripts/app/bootstrap.js";
+        iajs.parentNode.insertBefore(js, iajs);
+    }(document, 'script', 'indeed-apply-js'));
+
+
+    
+        
+            Data Analyst
+            
+                Chicago, Illinois, United States
+                
+                Full-time
+                
+
+                
+            
+        
+    
+    
+        
+
+            
+              
+              
+              TopstepTrader is a young, innovative early-stage B2C company that provides people from around the world the opportunity to earn trading capital. We offer our users an evaluation of their trading performance in a real-time, simulated account. Those who complete the objective are funded. With over 30,000 users derived from organic growth, we are not slowing down any time soon!
+A career at TopstepTrader places you in the hub of one of the fastest growing technology companies in Chicago. Named among the “101 Best and Brightest Companies to Work For-2016 &amp; 2017” in Chicago, we are a vibrant and growing company on the cutting edge of technology. With more than 30 employees, TopstepTrader is one of a handful of innovative and creative early stage businesses in the West Loop. We are growing our passionate team, user base, and business model-all the while reinventing the retail brokerage industry.
+The Data Analyst will specialize in collecting, sorting, and studying business data for interpretation, analysis, and aid in making business decisions. This position requires a person with integrity who seeks to describe the underlying focus of our business and will be the “voice of data” for our company.
+Are you excited about this opportunity to make a substantial impact? Read on…
+The Role: 
+
+Extract, gather, and load data to and from electronic systems
+Design and implement reports and models supporting decision-making processes
+Resolve and explain data discrepancies and issues
+Propose and implement systems to maintain integrity of existing data
+Work with our internal strategy team to determine key performance metrics of the business to track across multiple departments
+Maintain accurate TAM figures for company, brands, and products
+Monitor, analyze, and report on effectiveness of marketing and other key initiatives
+Drive positive results by translating data into actionable recommendations across departments and initiatives
+Assist in data collection design for customer acquisition and retention tests
+
+The Requested Requirements:
+
+Undergraduate degree, preferably in Business, Analytics, Hard Sciences (Physics, Chemistry, etc.), Computer Science, Mathematics, Statistics, or related field
+Related business experience
+SQL database knowledge
+Experience with coding
+Previous experience or knowledge of economics/modeling
+Experience with Scientific Method
+Prior experience or college level classes in statistics, math, and/or trend analysis
+
+TopstepTrader Benefits:
+
+Competitive salary and bonus incentives
+Medical, dental, vision, life, long-term/short-term disability insurance, and 401k retirement plan with company match
+Paid time off increasing annually
+Paid holidays
+Ability to learn about the financial markets and trading industry from experienced professionals
+Availability of professional continuing education, training, and workshops
+Opportunities to work from home
+Summer Friday (flexible) hours
+Perks: cereal and bar, birthday and anniversary celebrations, company events, and much more!
+
+Is TopstepTrader the place for you? If so, apply today! We look forward to hearing from you.
+TopstepTrader is an Equal Opportunity Employer and does not discriminate against any employee or applicant on the basis of race, gender, age, disability, or any other basis protected under the law.
+              
+              
+            
+
+            
+                
+                
+                    
+                        
+                            Apply for this opening
+                        
+                        
+                            
+                                
+                                    
+                                        
+                                        Apply with Linkedin
+                                    
+                                
+                            
+                        
+                        
+                            
+                                
+                                    
+
+                                    Apply with Indeed
+                                
+                            
+                        
+                    
+
+                    Apply for this opening at 
+                        http://topsteptrader.recruiterbox.com/jobs/fk0f13h?apply=true
+                    
+                    
+                        
+                            
+                                
+                                     Other openings at TopstepTrader
+                                
+                                See all the jobs at TopstepTrader here: 
+                                    http://topsteptrader.recruiterbox.com/jobs
+                                
+                                
+                            
+                        
+                    
+                
+                
+
+                
+                    
+                        
+                        Fetching your Linkedin profile ...
+                    
+                    
+
+
+
+    
+        
+            
+                Application Form
+            
+            
+                
+                    
+                        
+                        Apply with Linkedin
+                    
+                
+            
+            
+                
+                    
+                        
+
+                        Apply with Indeed
+                    
+                
+            
+        
+
+        
+
+        
+            
+
+            
+                
+                    
+                        First Name
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Last Name
+                        
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Email
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Phone
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Resume
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Salary Requirements
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Cover Letter
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        What interests you about TopstepTrader?
+                         *
+                    
+                    
+                    
+
+
+                
+            
+                
+                    
+                        Are you legally eligible to work in the United States for any employer?
+                        
+                    
+                    
+                    
+--Select--
+Yes
+No
+
+                
+            
+                
+                    
+                        Will you now or in the future require TopstepTrader to commence (“sponsor”) an immigration case in order to employ you (for example, H-1B or other employment-based immigration case)? This is sometimes called “sponsorship” for an employment-based visa status.
+                         *
+                    
+                    
+                    
+--Select--
+Yes
+No
+
+                
+            
+
+            
+                
+                
+                
+                
+                
+                
+                
+                
+            
+
+        
+    
+
+
+                
+
+                
+                    Thanks for your time
+                
+            
+        
+
+        
+            
+                
+
+
+    
+        
+            Apply for this opening
+
+            
+                
+
+                
+                    
+                    Apply with Linkedin
+                
+            
+
+            
+                
+                    
+
+                    Apply with Indeed
+                
+            
+
+        
+
+    
+        share this opening with friends
+
+        
+
+        
+
+        
+
+        
+
+    
+    
+
+
+                
+
+                
+                    
+                         Other openings at TopstepTrader
+                    
+                    See all the jobs at TopstepTrader here: 
+                        http://topsteptrader.recruiterbox.com/jobs
+                    
+                    
+                
+
+                
+            
+        
+    
+
+                
+            
+            
+        
+
+        
+
+        
+            
+                
+                    
+                        
+                    
+                    
+                        powered by
+                        Recruiterbox
+                    
+                
+            
+        
+    
+    
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSXJKT');
+
+
+
+    
+    
+    
+    
+    window.jQuery || document.write('')
+
+    focus_first_field_application_form();
+    $.fn.scrollView = function () {
+        return this.each(function () {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top
+        }, 400);
+        });
+    }
+
+    $(window).on('ready',function() {
+        $("#application_form_holder").scrollView();
+        $('.eeoc-form-description')
+        .popover()
+        .on('shown.bs.popover', function () {
+            var span = $('#super-user-email');
+            if (span) {
+                var a = document.createElement('a');
+                a.href = 'mailto:Anne@topsteptrader.com';
+                a.target = '_blank';
+                a.text = 'Anne@topsteptrader.com';
+                span[0].appendChild(a);
+            }
+        });
+        
+        $('[data-toggle="popover"]').popover()
+        
+
+        $( '#div_apply_to_job a.btn-apply' ).click( show_application_form );
+        $( '.js-apply-for-job' ).click( show_application_form );
+
+        $('.date_input_box').datepicker({ dateFormat: 'dd M yy' });
+
+        
+
+        $('[data-loading-text]').button();
+        $('[data-loading-text]').on('click', function(){
+            $(this).button('loading');
+        });
+
+        $('.js-apply-with-indeed').click(function () {
+            var new_url = getApplyWithIndeedUrl();
+            window.location.href = new_url;
+        });
+    });
+
+    function getApplyWithIndeedUrl() {
+        var indeed_fragment = "apply_with_indeed=true";
+        var current_url = window.location.href;
+
+        if (current_url.indexOf(indeed_fragment) !== -1) {
+            return current_url;
+        }
+
+        if (current_url.indexOf('?') !== -1) {
+            return current_url + '&' + indeed_fragment;
+        }
+
+        return current_url + '?' + indeed_fragment;
+    }
+
+    function focus_first_field_application_form(e) {
+        e && e.preventDefault();
+        $('#job_application_form').find(':input:not(:hidden):first').focus();
+    }
+
+    function handleCancelButtonClick() {
+            $('#application_form_holder').hide();
+            $('#eeoc_cancel_message').show();
+    }
+
+    function indeedApplySuccess(elem) {
+        $('#indeed_application_form').submit()
+    }
+
+    function show_application_form(e) {
+        if ( e ) {
+            e.preventDefault();
+        }
+        $('#div_apply_to_job').hide();
+        $('#application_form_holder').slideDown(function() {
+            $('#application_holder').scrollView();
+            focus_first_field_application_form();
+        });
+    }
+
+    function show_loading_overlay() {
+        $('#application_holder').addClass('application-form-loading');
+        $('#loading-overlay').removeClass('hide');
+    }
+
+    function hide_loading_overlay() {
+        $('#application_holder').removeClass('application-form-loading');
+        $('#loading-overlay').addClass('hide');
+    }
+
+    (function handle_character_limit_on_paragraph() {
+        var show_limit_message = function(e) {
+            var $target = $(e.currentTarget);
+            var max_character = Number($target.data('maxlength'));
+            var current_length = $target.val().length;
+            var remaining_length = max_character - current_length;
+            var message_text = 'Not more than ' + max_character + ' characters';
+
+            if(remaining_length  0) {
+                message_text = remaining_length + ' characters remaining';
+            }
+
+            var message = $('', {
+                class: 'js-max-length-message text-muted',
+                text: ' ('+ message_text +')'
+            });
+            $target.siblings('.js-max-length-message').remove();
+            $target.siblings('label').after(message);
+        };
+
+        var handle_keydown = function(e) {
+            var $target = $(e.currentTarget);
+            var max_character = Number($target.data('maxlength'));
+            var current_length = $target.val().length;
+
+            if ([8, 13, 27, 38, 40, 9, 39, 37].indexOf(e.keyCode) > -1) {
+                return true;
+            }
+
+            if (current_length >= max_character) {
+                return false;
+            }
+        }
+
+        $('textarea[maxlength]')
+            .each(function(idx, item){
+                var $target = $(item);
+                var maxlength = $target.attr('maxlength');
+                $target.removeAttr('maxlength').data('maxlength', maxlength);
+            })
+                .on('keyup', show_limit_message)
+                .on('keydown', handle_keydown)
+                .on('input', show_limit_message)
+                .trigger('keyup');
+    })();
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+

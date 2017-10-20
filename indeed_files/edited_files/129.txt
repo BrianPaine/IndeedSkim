@@ -1,0 +1,703 @@
+
+
+
+
+
+
+
+
+   
+
+
+
+
+Verisk Analytics Job Opportunities
+ -->
+
+
+
+ 
+    
+
+
+
+
+
+        
+        
+
+
+        
+
+
+         
+        
+function MM_goToURL(doc, loc) {
+    document.MM_returnValue = false;
+    eval(doc + ".location='" + loc + "'");
+}
+
+function fixSubmitClasses() {
+    var inputElements = document.getElementsByTagName("input");
+
+    for(var i = 0; i < inputElements.length; i++) {
+        if(inputElements[i].type == "submit") {
+            inputElements[i].className = "submitbutton";
+        }
+    }
+}
+        
+        
+	
+		
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-36672943-1', 'verisk.com', {'legacyCookieDomain': 'verisk.com', 'allowLinker': 'true'});
+ga('send', 'pageview', '/viewjob.html');
+
+
+
+
+	
+    
+
+
+View Job
+    
+       
+
+	   
+	
+	
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Careers &nbsp; &nbsp;|&nbsp; &nbsp; Contact&nbsp;Verisk 
+
+
+
+
+
+
+
+
+
+
+
+HomeAbout VeriskConferencesPressInvestorsBlog
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   
+	   
+
+
+
+  
+     
+      
+      
+      
+
+
+
+
+
+U.S. Job Search
+
+
+Login to Job Section
+
+
+My Candidate Home
+
+
+Help with Job Application
+
+<!--
+
+
+if(document.URL.indexOf("test") >= 0){ 
+document.write('Non-U.S. Job Search');
+} else { document.write('Non-U.S. Job Search'); }
+
+
+-->
+
+Non-U.S. Job Search
+
+
+Careers Overview
+
+
+
+
+
+
+	  
+      
+      
+      
+	  
+	  
+	   
+          
+                
+
+
+  -->
+            
+ 
+ 
+ <!--
+ 
+ 
+                             
+                                     
+                        
+                            
+                                
+&nbsp;
+                                
+                                
+Home
+                                
+                                
+&nbsp;
+                                
+                                
+
+                                
+                                
+&nbsp;
+                                
+                                
+Job Search
+                                
+                                
+&nbsp;
+                                
+                                
+
+                                
+                            
+                        
+                    
+                
+
+				
+	-->
+
+	
+				
+                           
+            
+                
+                    
+
+
+
+
+
+var focusElement;
+function setFocusElement(e) {
+if (e != null) { 
+focusElement = e; 
+}
+}
+function setFocus() {
+ try {
+  if (focusElement != null) { 
+    focusElement.focus(); 
+    }
+ }
+ catch(ex) {
+ }
+}
+addOnLoadFunction(setFocus,null);
+
+Insurance Data/QA analyst 
+
+
+	
+		
+		
+        
+		&nbsp;
+		
+        
+			
+			
+			
+			
+			function onLinkedInAuth() {
+				IN.API.Profile("me").fields("id","first-name","last-name","headline","industry","location","email-address","picture-url",
+			                                "recommendations-received","summary","specialties","honors","interests","positions","languages","skills","publications","patents",
+			                                "certifications","educations","phone-numbers","main-address","courses",
+			                                "public-profile-url")
+			    .result( function(me) {
+			    	var jsonStr = JSON.stringify(me.values[0]);
+			        IN.User.logout();
+			        jQuery.ajax({
+			        	type: "POST",
+			            url: 'startLoginWithLinkedIn.html',
+			            data: {linkedinData:jsonStr},
+			            success:function(data){formInitialize(data)},
+			            error: function(XMLHttpRequest, textStatus){showFailure()}
+			     	});
+			   	});
+			}
+			function formInitialize(data) {
+				window.location = "completeLoginWithLinkedIn.html";
+			}
+			function showFailure(){
+			 alert("Please try after some time.");
+			}
+			
+		
+	
+	
+	
+    
+        
+		&nbsp;
+		
+        
+	            
+	&nbsp;
+	            
+	            
+	        
+            
+            
+        
+    
+    
+    	
+    		
+    	
+    
+    
+        
+Job ID:&nbsp; 20171004-10120-MGV
+        
+        
+&nbsp;
+            
+Company Name:&nbsp; Verisk Analytics
+            
+        
+    
+    
+    
+        
+Description:
+        
+    
+    
+        
+
+ 
+  Normal
+  0
+  
+  
+  
+  
+  false
+  false
+  false
+  
+  EN-US
+  X-NONE
+  X-NONE
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  MicrosoftInternetExplorer4
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+&nbsp;
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+
+
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+
+
+&nbsp;If you&rsquo;re looking for a career that transforms, inspires, challenges, and rewards you, then come join us! Verisk Analytics is a global supplier of risk assessment services and decision analytics for customers in a variety of markets, including insurance, healthcare, financial services, supply chain, and others. We&rsquo;re a thriving public company with solid revenue growth and earnings and offices worldwide. &nbsp;And we&rsquo;re continually looking for ways to augment our existing markets and expand into new markets with excellent growth potential. At Verisk, you&rsquo;ll be part of an organization that&rsquo;s committed to serving the long-term interests of our stakeholders, including the communities where we operate.
+Position Summary:
+Are you passionate about playing with P&amp;C insurance dataset and does connecting the data and drilling down to the root cause of the data issues excite you? Are you looking for an opportunity where you can both practice your technical trade while adding to your leadership, consulting and delivery experience to turn a career corner? If you've got technical chops, consulting skills and are a passionate data architect, please read on...
+&nbsp;Responsibilities:
+
+Analyze policy, agency, claim and loss data set for P&amp;C insurance organization
+Work closely with BI technology vendors for performing proof of concept (POC) of new technologies for recommending new tools and technologies for internal and external stakeholders
+Document data sources on client project and perform gap analysis to identify inflow of bad data into data warehouse and develop recommendations and solutions
+gather business requirement for data warehouse and derive the data requirement and data fields for data warehouse implementation and modification
+Design rationale of data warehousing from scratch (Conceptual, logical and physical modeling) for Data Warehouse implementations for Insurance Policy &amp; Claim system
+Prepare data mapping document, technical design document for ETL developer
+Development of test cases, sql scripts for Unit testing, performance testing
+Work closely with ETL team for implementing data transformation rules, data validations in to the data warehouse
+Responsible for assessing data gaps for P&amp;C Insurance clients and develop industry best practices and solutions for business problems for internal and external stakeholders
+Responsible for working with business users and leading all testing efforts for Unit, QA and User acceptance testing phase
+
+&nbsp;
+Requirements:
+
+&nbsp;5+ years of experience data architecture and data analysis practice in Insurance industry
+Hands on experience in developing data validation test cases for data warehouse development with star and snowflake schema
+2+ years of hands on experience in Insurance Data model and/or BDW and able to create/maintain/coordinate business glossaries with project stakeholders
+Data Mapping hands on expertise, able to understand business requirement and derive data dictionary and data assets requirement for ETL and DBA group
+&nbsp; Expertise in any of the tools preferable any two of CA ERWIN, JIRA, Quality Center TestDirector
+&nbsp; &nbsp;Understanding of ETL tools, able to interact with ETL development team and create source to target mapping and technical specifications for ETL developer
+&nbsp;Able to create physical model and develop database architecture for DBA&rsquo;s to implement the model in database by developing rationale for storage allocation, partitioning strategy, archiving strategy
+&nbsp; Strong SQL is a must and previous experience in any of the database Oracle, SQL Server, DB2
+&nbsp; &nbsp;Knowledge and/or experience in the P&amp;C insurance industry is mandatory&ndash; along with at least one functional area relevant to these clients &ndash; new business, agency, risk management, actuarial, claims and loss
+&nbsp; &nbsp;Thorough understanding of data warehouse architectures and data models for Insurance and financial services companies
+&nbsp; &nbsp;Good team player
+&nbsp; &nbsp;Strong project management skills and attention to detail
+&nbsp; &nbsp; Excellent communication skills, both written and verbal
+
+&nbsp;We are offering an excellent compensation package. Our competitive benefits package includes full health care options, a 401(k) plan, and generous Paid-Time-Off.
+If this opportunity looks exciting and challenging to you, please click Submit Now to apply.
+#LI-MV1
+        
+    
+    
+    
+        
+Requirements:
+        
+    
+    
+        
+
+  
+      
+          Expertise      
+      
+          Information Technology      
+  
+  
+      
+          Education      
+      
+          Bachelors      
+  
+  
+      
+          Job Type      
+      
+          Full Time      
+  
+  
+      
+          Location      
+      
+          NJ-Jersey City      
+  
+
+
+        
+    
+    
+    
+        
+            
+
+            
+        
+    
+    
+    	
+    	
+    	
+    
+    
+        
+        	
+&nbsp;
+            
+        
+    
+    
+        
+
+        
+    
+
+
+
+
+                    
+                
+				
+				
+			
+		    
+		    All members of the Verisk Analytics family of companies are equal opportunity employers. We consider all qualified applicants for employment without regard to race, religion, color, national origin, citizenship, sex, gender identity and/or expression, sexual orientation, veteran's status, age or disability.
+		    
+		    
+				
+            
+  -->
+
+
+ 
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+		   
+	  
+
+		   
+		   
+		   
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+  
+
+
+
+
+  
+
+        
+          
+              
+                Privacy PolicyConditions of UseVerisk Analytics Trademarks
+              
+            
+        
+      
+  
+
+
+
+    
+
+
+

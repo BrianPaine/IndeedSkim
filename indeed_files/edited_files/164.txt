@@ -1,0 +1,517 @@
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1710129669202847');
+fbq('track', 'PageView');
+fbq('track', 'ViewContent', {"content_type":"product","content_ids":"39769"});
+
+
+
+  Data Analyst | National Corporate Housing
+  
+
+
+
+  
+  
+    
+  
+  
+window.jQuery || document.write("\x3C/script>")
+jQuery.migrateMute=true;jQuery.migrateTrace=false;
+
+
+
+
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"national_housing","theme_token":"pJY_0oe2xVwp87Jz6hTBArJ0v6h3gP6O_GtWAshwLeA","js":{"sites\/all\/modules\/contrib\/pardot\/pardot.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.11.2\/jquery.min.js":1,"0":1,"1":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery-migrate\/1.2.1\/jquery-migrate.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/custom\/national_housing_module\/national_housing_module.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/affix.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/alert.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/button.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/carousel.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/collapse.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/dropdown.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/modal.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/tooltip.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/popover.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/scrollspy.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/tab.js":1,"sites\/all\/themes\/national_housing\/bootstrap\/js\/transition.js":1,"sites\/all\/themes\/national_housing\/js\/ResizeSensor.js":1,"sites\/all\/themes\/national_housing\/js\/ElementQueries.js":1,"sites\/all\/themes\/national_housing\/js\/bootstrap-select\/bootstrap-select.min.js":1,"sites\/all\/themes\/national_housing\/js\/slidebars\/slidebars.min.js":1,"sites\/all\/themes\/national_housing\/js\/buddysystem.jquery.min.js":1,"sites\/all\/themes\/national_housing\/js\/national_housing.js":1,"sites\/all\/themes\/national_housing\/js\/market_dashboard.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/themes\/national_housing\/fonts\/style.css":1,"sites\/all\/themes\/national_housing\/fonts\/icomoon.css":1,"sites\/all\/themes\/national_housing\/fonts\/sourcing\/sourcing.css":1,"sites\/all\/themes\/national_housing\/js\/bootstrap-select\/bootstrap-select.min.css":1,"sites\/all\/themes\/national_housing\/js\/slidebars\/slidebars.min.css":1,"sites\/all\/themes\/national_housing\/less\/style.less":1}},"pardot":{"pardot_a_id":"362901","pardot_c_id":"1751","score":""},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+	window.__lo_site_id = 31010;
+	(function() {
+		var wa = document.createElement('script'); wa.type = 'text/javascript'; wa.async = true;
+		wa.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://cdn') + '.luckyorange.com/w.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(wa, s);
+	  })();
+  
+  (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5116015"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-54276325-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+
+
+  
+    Skip to main content
+  
+    
+	
+		
+			
+				
+					
+													
+								
+									
+								
+							
+											
+					
+						
+							Why National
+Office Locations Denver
+New York
+London
+Michigan
+Richmond
+Washington DC
+Hampton Roads
+Indianapolis
+Nashville
+Charlotte
+Atlanta
+Florida
+Minneapolis
+Phoenix
+Seattle
+Tulsa
+Southern California
+Boston
+Chicago
+Cincinnati
+Cleveland 
+Columbus
+Dallas
+Houston
+Kansas
+Northern California
+Philadelphia
+San Diego
+St. Louis
+
+About Us
+Insurance Adjusters
+Landlords
+Careers
+Contact Us
+800-550-1911
+Guest Login						
+						
+							Furnished Housing
+Rental Solutions
+Corporate Travel
+Destination Services
+Talent Solutions
+Insurance Housing
+Search
+						
+					
+				
+				
+					
+						
+					
+					
+						
+					
+					Login								
+			
+		
+
+		
+			
+				
+				  
+    
+
+      
+  
+
+
+	
+	
+			
+		
+							
+					
+						
+  
+      
+  
+  
+    Data Analyst
+  
+
+  
+  
+
+  
+      
+  
+  
+    
+    
+                  
+      
+    Location
+
+    
+              
+  
+                  Solana Beach,               CA
+                                                  
+  
+          
+  
+Department:&nbsp;National Insurance HousingNational Corporate Housing looking for an experienced Data Analyst. The selected person needs to have a professional image, strong communication and customer service skills.
+ 
+National Corporate Housing is a multi-brand, global leader in providing temporary housing program management for global business travel and corporate relocations. National is one of the largest providers of temporary housing around the globe. Guided by our vision to be the most admired and respected global company to our coworkers, customers, and suppliers, National is sought out by and maintains strong strategic alliances across multiple business industries including, engineering, construction, technology, consulting, insurance, government agencies and government contractors, professional sports and entertainment. 
+ 
+
+Responsibilities:                   
+Aid in developing and tracking of key performance indicators (KPIs) for Insurance Housing Division
+Understanding of primary market research methodologies
+Create and monitor current state analyses of NIH processes and cost analysis
+Perform profitability and sustainability testing
+Meet with various insurance customers to develop project scope for analytic and research requests involving key metrics
+Create visually appealing reports and dashboards that intuitively present information for quarterly reporting to various insurance companies/adjusters
+Design, develop, test, implement, and maintain analytic solutions leveraging centrally managed reporting tools such as Tableau
+Support existing analytic solutions, including modernization/standardization, troubleshooting, and annual maintenance as needed reporting with star-schema implementations
+Work with end-users on self-service analytics including direct line support and training
+Keep up to date with evolving technologies and applications
+Assist with various month end profitability reports
+ Required Skills:
+At least two years of experience in querying and analyzing and working with data languages and platforms
+At least one year of experience developing reporting and dashboard solutions with Tableau
+Proven analytical and problem solving skills including the ability to think outside of the box
+Proficiency at verbal and written communication with good interpersonal skills
+Must work as part of the team while capable of completing individual assignments
+Practical understanding of business fundamentals including Accounting and Finance
+Comfortable communicating with all levels of the organization
+Self-motivated with the capability to meet deadlines on overlapping projects
+Sound ethical judgment and the ability to be trusted to work with sensitive company and client information
+Ability to operate without direct oversight
+Bachelor’s Degree in Science, Information Management, Business Analytics, or Statistics
+
+All employees are expected to have knowledge of National’s business units and established procedures and compliance rules pertinent to their positions. 
+ 
+Benefits:
+Competitive Compensation
+Health, Dental and Vision insurance
+401K plan
+Paid time off
+Wellness program
+Flexible spending accounts
+Fair Labor Standards Act (FLSA): Non-Exempt
+ 
+Will not provide assistance with relocation costs
+ 
+National Corporate Housing is an equal opportunity employer.  Qualified applicants will be considered without regard to age, race, creed, color, national origin, ancestry, marital status, affectional or sexual orientation, gender identity or expression, disability, nationality, sex, religion, or veteran status
+
+ 
+
+
+Apply    
+  
+
+  
+  
+					
+				
+				
+					
+						
+							
+  
+      
+  
+  
+    National Careers
+			   Join Our TeamNational Corporate Housing is an industry leader with locations and opportunities in 27 cities across the US. We are looking to bring new people with fresh ideas into our inspiring, fun and entrepreneurial culture.
+			       
+					    Search CareersMeet the Team
+			       
+			     
+
+  
+  
+
+  
+        
+      Social Media    
+    
+  
+  
+    Connect with National
+
+
+
+
+
+
+  
+
+  
+  
+						
+					
+				
+					
+	
+
+	
+
+
+
+						
+							&times;
+							
+								
+							
+						
+					  
+			
+		  
+
+		
+							
+					  
+    
+
+      
+  
+
+
+	
+			
+	
+	
+		
+			
+  
+      
+  
+  
+    Furnished Housing
+Rental Solutions
+Corporate Travel
+Destination Services
+Talent Solutions
+Insurance Housing
+Search
+  
+
+  
+  
+		
+		
+			
+  
+      
+  
+  
+    Why National
+Office Locations Denver
+New York
+London
+Michigan
+Richmond
+Washington DC
+Hampton Roads
+Indianapolis
+Nashville
+Charlotte
+Atlanta
+Florida
+Minneapolis
+Phoenix
+Seattle
+Tulsa
+Southern California
+Boston
+Chicago
+Cincinnati
+Cleveland 
+Columbus
+Dallas
+Houston
+Kansas
+Northern California
+Philadelphia
+San Diego
+St. Louis
+
+About Us
+Insurance Adjusters
+Landlords
+Careers
+Contact Us
+800-550-1911
+  
+
+  
+  
+		
+		
+			
+  
+      
+  
+  
+    NATIONAL CORPORATE HOUSINGContact Us
+8400 E Crescent Pkwy #300Greenwood Village, CO80111
+  
+
+  
+  
+		
+	
+
+	
+		
+  
+      
+  
+  
+    &copy; 2017 National Corporate Housing  
+
+  
+  
+
+  
+      
+  
+  
+    Privacy Policy
+Terms of Service
+  
+
+  
+  
+	
+
+
+
+  
+				
+					
+	
+
+
+	
+		  
+    
+
+      
+  View your Favorites
+
+  
+	
+
+
+	Main Menu
+	Furnished Housing
+Rental Solutions
+Corporate Travel
+Destination Services
+Talent Solutions
+Insurance Housing
+Search
+Why National
+Office Locations Denver
+New York
+London
+Michigan
+Richmond
+Washington DC
+Hampton Roads
+Indianapolis
+Nashville
+Charlotte
+Atlanta
+Florida
+Minneapolis
+Phoenix
+Seattle
+Tulsa
+Southern California
+Boston
+Chicago
+Cincinnati
+Cleveland 
+Columbus
+Dallas
+Houston
+Kansas
+Northern California
+Philadelphia
+San Diego
+St. Louis
+
+About Us
+Insurance Adjusters
+Landlords
+Careers
+Contact Us
+800-550-1911
+
+  
+
+   
+    (function () {
+      var tagjs = document.createElement("script");
+      var s = document.getElementsByTagName("script")[0]; 
+      tagjs.async = true;
+      tagjs.src = "//s.btstatic.com/tag.js#site=YOoTwyE"; 
+      s.parentNode.insertBefore(tagjs, s);
+    }()); 
+   
+  
+	  
+  
+

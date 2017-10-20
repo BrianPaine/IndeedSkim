@@ -1,0 +1,798 @@
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+    
+
+	Data Analyst at BMC Health Net
+
+    
+
+    
+
+        
+
+    document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+     
+
+
+
+
+
+
+
+                
+
+{"@context":"http://schema.org","@type":"JobPosting","datePosted":"2017-9-27","description":"Job DescriptionBoston Medical Center HealthNet Plan is a not-for-profit managed care organization which was formed by Boston Medical Center in 1997. The Plan serves more than 290,000 members across Massachusetts and New Hampshire. BMCHP is one of the largest Medicaid (MassHealth) health plans in Massachusetts with approximately 190,000 members. Well Sense Health Plan is the largest Medicaid health plan in New Hampshire with more than 85,000 members.Visit our website at bmchp.org to learn more about us!Position Summary:Our Data Analyst position will work in our Clinical Department, primarily within Medical Management functions. This position will play a key role in the implementation of new medical systems, evaluation of medical management activities, business processes and the development of a best in class utilization management (UM) program. This role will also coordinate data management activities and ensure data integrity.Primary Responsibilities:Consult with subject matter experts to identify information needs and optimal reporting formatsFormulate and implement validation strategies and methods to ensure accurate and reliable dataCreate and maintain documentationCatalog, monitor and revise medical management program reports for regulatory agencies.Produce, at defined intervals, regulatory reports for review by applicable Clinical Dept. leadersAssist with integration and coordination across clinical departmentDesign and build reports, identify trends and opportunities for improvementFacilitate intra-departmental, cross-departmental and cross-organizational work and project teamsParticipate in regulatory and compliance audits as neededDevelop technical logic for analyses to evaluate the effectiveness of medical management activitiesPerforms other duties and/or responsibilities as assignedAbout our Ideal Candidate:Strong Access experience and/or prior SQL exposureData and analytical skillsPrior exposure to a health insurance, managed care or health care environment4 years of experience in data modeling, informatics and analysis. Commensurate educational experience in related field will be considered.Experience with system integration projects including conversion, transitioning and consolidating business to new application platformsBachelor degree, preferably within a Technology, Science or Health Care related field*Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status.","employmentType":"Full-Time/Regular","identifier":"2013413","title":"Data Analyst","url":"https://jobs.bmchp.org/job/boston/data-analyst/179/5829322","hiringOrganization":{"@type":"Organization","name":"BMC Health Net"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Boston","addressRegion":"Massachusetts","addressCountry":"United States","streetAddress":"","postalCode":""}}}
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-23041640-2', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+                createHiddenInput('dimension1', '5829322');
+
+                createHiddenInput('dimension2', '2013413');
+
+                createHiddenInput('dimension3', '179');
+
+                createHiddenInput('dimension4', '179,');
+
+                    createHiddenInput('dimension6', 'Clinical');
+
+                    createHiddenInput('dimension7', 'Boston-Massachusetts-United-States');
+
+                    createHiddenInput('dimension9', 'Data Analyst');
+
+                        createHiddenInput('dimension10', 'JobDetails');
+
+                    createHiddenInput('dimension14', 'Basic JD');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+            gtmValues = { 'JobID': '5829322', 'ReqID': '2013413', 'OrgID': '179', 'tbcn-division': '179,' };
+
+                gtmValues['tbcn-jobcategory'] = 'Clinical';
+
+                gtmValues['tbcn-location'] = 'Boston-Massachusetts-United-States';
+
+                gtmValues['tbcn-jobtitle'] = 'Data Analyst';
+
+                    gtmValues['pagetype'] = 'JobDetails';
+
+                gtmValues['subpagetype'] = 'Basic JD';
+
+            dataLayer.push(gtmValues);
+
+
+
+
+
+
+
+
+
+
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-NPR827');
+
+    
+
+
+
+	
+
+	
+
+	
+
+	Skip Navigation
+
+    
+
+    
+
+    
+
+            
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+        Careers Home
+
+        Diversity
+
+        Life Here
+
+        Benefits
+
+        Jobs
+
+    
+
+
+
+
+
+    
+
+    
+
+    
+
+        
+
+    
+
+            
+
+                
+
+                    
+
+                        We have great opportunities
+
+                        here
+
+                    
+
+                
+
+            
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+	Search Jobs
+
+	
+
+        
+
+		    Keyword
+
+		    
+
+        
+
+        
+
+            Location
+
+		    
+
+                
+
+		
+
+		
+
+		
+
+        
+
+		    Radius
+
+	        Radius
+
+5 miles
+
+15 miles
+
+25 miles
+
+35 miles
+
+50 miles
+
+
+
+		
+
+        
+
+        Search Jobs
+
+		
+
+	
+
+	
+
+
+
+
+
+	
+
+	
+
+		
+
+		
+
+
+
+
+
+
+
+
+
+   
+
+    
+
+         Job Description
+
+        Data Analyst
+
+        	Apply
+
+                            
+
+        Job DescriptionBoston Medical Center HealthNet Plan is a not-for-profit managed care organization which was formed by Boston Medical Center in 1997. The Plan serves more than 290,000 members across Massachusetts and New Hampshire. BMCHP is one of the largest Medicaid (MassHealth) health plans in Massachusetts with approximately 190,000 members. Well Sense Health Plan is the largest Medicaid health plan in New Hampshire with more than 85,000 members.Visit our website at bmchp.org to learn more about us!Position Summary:Our Data Analyst position will work in our Clinical Department, primarily within Medical Management functions. This position will play a key role in the implementation of new medical systems, evaluation of medical management activities, business processes and the development of a best in class utilization management (UM) program. This role will also coordinate data management activities and ensure data integrity.Primary Responsibilities:Consult with subject matter experts to identify information needs and optimal reporting formatsFormulate and implement validation strategies and methods to ensure accurate and reliable dataCreate and maintain documentationCatalog, monitor and revise medical management program reports for regulatory agencies.Produce, at defined intervals, regulatory reports for review by applicable Clinical Dept. leadersAssist with integration and coordination across clinical departmentDesign and build reports, identify trends and opportunities for improvementFacilitate intra-departmental, cross-departmental and cross-organizational work and project teamsParticipate in regulatory and compliance audits as neededDevelop technical logic for analyses to evaluate the effectiveness of medical management activitiesPerforms other duties and/or responsibilities as assignedAbout our Ideal Candidate:Strong Access experience and/or prior SQL exposureData and analytical skillsPrior exposure to a health insurance, managed care or health care environment4 years of experience in data modeling, informatics and analysis. Commensurate educational experience in related field will be considered.Experience with system integration projects including conversion, transitioning and consolidating business to new application platformsBachelor degree, preferably within a Technology, Science or Health Care related field*Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status.
+
+	Apply
+
+        		    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+            Share
+
+            
+
+	                Email
+
+	                Facebook
+
+	                Twitter
+
+                            
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+                 Recent Job Openings
+
+                 
+
+                         
+
+                                     Complex Care Manager
+
+                                     New Bedford, Massachusetts
+
+                         
+
+                         
+
+                                     Community Wellness Advocate
+
+                                     New Bedford, Massachusetts
+
+                         
+
+                         
+
+                                     Complex Care Manager
+
+                                     Holyoke, Massachusetts
+
+                         
+
+                 
+
+    
+
+
+
+
+
+    	    
+
+    		    Sign Up For Job Alerts
+
+    		    
+
+EmailAreas of InterestSearch for a category, location or category/location pair, select a term from the suggestion., and “Add”.CategoryLocationAddClinical, Boston, Massachusetts, United StatesRemoveRemove    		
+
+    		
+
+    		    Confirm Email
+
+    		    
+
+    		
+
+    			
+
+    		
+
+    		    
+
+    		
+
+    		
+
+    		
+
+    
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+
+
+        
+
+        
+
+           
+
+    Job Matching
+
+        Let us search jobs for you based on your skills and experience listed in your LinkedIn Profile.
+
+        Start Matching
+
+
+
+
+
+	
+
+        
+
+        
+
+        
+
+                
+
+    Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability or protected veteran status. BMC HealthNet Plan/Well Sense Plan participates in the E-Verify Program to electronically verify the employment eligibility of newly hired employees.
+
+    
+
+	  	  
+
+        
+
+	
+
+	
+
+	
+
+            
+
+
+
+    
+
+         EEO Statement
+
+         EEO Post
+
+         EEO Supplement
+
+         Pay Transparency notice
+
+         Sitemap
+
+    
+
+ 
+
+
+
+
+
+      
+
+        
+
+        
+
+        
+
+        
+
+      
+
+      
+
+&copy; 2017 Boston Medical Center HealthNet Plan
+
+
+
+	
+
+	    
+
+	
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+   
+
+   
+
+    
+
+    
+
+    
+
+	
+
+
+
+
+
+	
+
+
+
+
+

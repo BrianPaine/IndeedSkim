@@ -1,0 +1,419 @@
+
+
+
+
+
+
+
+      
+         
+         
+         
+    
+    
+    <!--
+
+    
+        
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+
+        
+            function MM_goToURL(doc, loc) {
+                document.MM_returnValue = false;
+                eval(doc + ".location='" + loc + "'");
+            }
+
+            function fixSubmitClasses() {
+                var inputElements = document.getElementsByTagName("input");
+
+                for (var i = 0; i < inputElements.length; i++) {
+                    if (inputElements[i].type == "submit") {
+                        $(inputElements[i]).addClass("submitbutton");
+                    }
+                }
+            }
+        
+
+
+        
+
+        
+            body {
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                color: #444;
+            }
+            
+            div {
+                font-size: inherit;
+            }
+        
+        
+        
+			
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-31146977-2', 'jobs.intermountainhealthcare.org', {'legacyCookieDomain': 'jobs.intermountainhealthcare.org', 'allowLinker': 'true'});
+ga('send', 'pageview', '/res_viewjob.html');
+
+
+
+
+		
+    
+
+
+
+View Job
+
+
+    
+        
+        
+        
+            
+                
+                    
+                
+                
+                    
+                    
+                         
+                            Home
+                        
+                        
+                            Job Requirements
+                        
+                        
+                            Residencies & Training
+                        
+						
+                            Life at Intermountain
+                        
+                        
+                            Give
+                        
+                    
+                
+            
+            
+                
+                    
+                
+            
+            
+            
+            
+                
+                    
+                        Careers Menu
+                        
+                    
+
+                    
+
+                    
+                        
+                            
+                        
+                        
+                            Job Search
+                        
+                        
+                        
+                            My Account
+                        
+                        
+                            Login
+                        
+                        
+                            Help
+                        
+                    
+                
+            
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                        
+                                    
+                                
+                                
+                                    
+                                
+                            
+                            
+                                
+                                
+                            
+                        
+                    
+                
+                
+                    
+                    
+                    
+
+
+
+var focusElement;
+function setFocusElement(e) {
+if (e != null) { 
+focusElement = e; 
+}
+}
+function setFocus() {
+ try {
+  if (focusElement != null) { 
+    focusElement.focus(); 
+    }
+ }
+ catch(ex) {
+ }
+}
+addOnLoadFunction(setFocus,null);
+
+
+
+    
+    	
+    	Job Opportunity
+    
+	
+            Data Analyst II&nbsp;9/28/17Information TechnologyPart TimeGreater Salt Lake areaEmployee Services
+    
+    
+            
+		
+            	
+                 	Refer
+                
+		
+		
+                
+	            
+	                
+	                	Save
+	                
+	            
+            	
+					
+	                	Apply
+	                
+	            
+	            
+	            
+	            
+            
+            
+            
+	        
+            Job ID:&nbsp;205073
+            
+				&nbsp; Greater Salt Lake area
+            
+
+            Details:
+            
+            	About UsWhat does it mean to be a part of Intermountain Healthcare? It means that the quest for clinical excellence is not just a goal, but a given. It means building an environment where physicians and employees can deliver the best in healthcare. And it&rsquo;s realizing each employee or volunteer is vital to the healing process, because we can only achieve the extraordinary together.&nbsp;
+Being a part of Intermountain Healthcare means joining with a world-class team of over 36,000 employees and embarking on a career filled with opportunities, strength, innovation, and fulfillment. Our mission is: Helping people live the healthiest lives possible.
+Our patients deserve the best in healthcare, and we deliver.Job Description
+Provides technical support to assist in collection, analysis, and reporting of data to process improvement and regulatory compliance.
+Essential Job Duties
+
+Data Collection - Downloads, transfers, collects, and formats data from various Intermountain data sources. Coordinates and oversees data input or entry activities using knowledge of database structure and reporting capabilities.
+Programming - Designs, develops, and tests queries and programs for collecting data using knowledge of spreadsheets and database software programs.
+Measurement - Creates and maintains databases, using knowledge of database software, for collection and tracking of data as it relates to performance measurement.
+Customers - Works with internal customers to develop and prepare quantitative reports in using data sources to analyze clinical and operational issues.
+
+Posting Specifics
+
+Benefits Eligible: No
+Shift Details: Part-time
+Department: Inservice Education
+Location: Murray, UT
+
+Minimum Requirements
+
+Two years of data analysis experience.
+Demonstrated knowledge of data collection, data quality control, report generation, and database file manipulation, or social and medical research methodology.
+Demonstrated excellent spreadsheet skills, including: functions; filtering; and pivot tables.
+Demonstrated proficiency in computer skills, including querying with inner and outer joins.
+Demonstrated excellent verbal, written, and interpersonal communication skills with the ability to work with multi disciplinary teams.
+Demonstrated excellent organizational skills and an ability to identify analyze and solve problems.
+
+Physical Requirements
+
+Interact with others requiring the employee to communicate information.
+Operate computers and other IT equipment requiring the ability to move fingers and hands.
+See and read computer monitors and documents.
+Remain sitting or standing for long periods of time to perform work on a computer, telephone, or other equipment.
+
+Please Note
+All positions subject to close without notice. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability or protected veteran status.
+&nbsp;
+            
+            Additional Details:
+            
+  
+      
+Working Hours      
+      
+20      
+  
+  
+      
+Primary Work Location      
+      
+Employee Services      
+  
+  
+      
+Expertise      
+      
+Information Technology      
+  
+  
+      
+Job Type      
+      
+Part Time      
+  
+  
+      
+Location      
+      
+US-UT-Salt Lake City      
+  
+
+
+    	
+  	
+
+
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                        
+                                    
+                                
+                                
+                                    
+                                
+                            
+                            
+                                
+                                
+                            
+                        
+                    
+                
+            
+
+            
+            
+
+            
+
+            
+
+            
+                
+
+TMVideos.get( '//italenttm.peoplefluent.com/rcPageVideosAction.action', 'content_Tbl', 'rcPage=res_viewjob&channelId=http://jobs.intermountainhealthcare.org/&rcJobId=159221', '');
+
+            
+        
+            
+                
+                    Intermountain Healthcare
+                    2016
+                
+                
+                     
+                        Privacy Policy
+                    
+                    
+                        Terms of Use
+                    
+                    
+                        Website Feedback
+                    
+                
+            
+        
+
+
+  function handleSessions(status) {
+    if (status.hasSession) {
+    }
+    else {
+      // We were able to render this page, but we don't have an iPaaS Session
+      jQuery.get("logout.html?defer=true");
+      window.iPaaS.signOff();
+    }
+    window.iPaaS.sessionEnded = function () {
+      // Make an ajax request to logout.html?defer=true
+      jQuery.get("logout.html?defer=true");
+      window.iPaaS.signOff();
+    };
+
+  }
+  if ( window.iPaaS ) {
+    window.iPaaS.ready(handleSessions);
+  }
+
+    
+
+    
+

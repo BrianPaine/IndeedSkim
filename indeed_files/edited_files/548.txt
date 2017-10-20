@@ -1,0 +1,705 @@
+
+
+	
+		
+		
+		
+		
+		
+				
+			
+				.gradient {
+		   			filter: none;
+				}
+			
+		
+		Data Analyst - Colorado Springs, CO - Outreach, Inc. Jobs
+		
+		
+		
+				
+		
+				
+		
+				
+				
+				
+					
+			
+      		
+      	
+		
+		-->
+		
+			$(function() {
+				$('input,textarea').placeholder();
+				A.supportsPlaceholders = $.support.placeholder = 'placeholder' in document.createElement('input');
+				V.init();
+				A.useN = true;
+				A.newValidation = true;
+				A.isMobile = 0;
+				
+							});
+		
+		
+			function breakout() {
+				if(window.top != window.self) {
+					window.top.location="https://outreachinc.applicantpro.com//jobs/633407-25908.html";
+				}
+			}
+		
+			
+	
+		
+			
+								
+										
+										
+										
+									
+								
+					
+												
+							Home
+							Jobs
+						
+						
+						
+							@media print {
+							    .navbar {
+							        display: block;
+							        border-width:0 !important;
+							    }
+
+							    .navbar-toggle {
+							        display:none;
+							    }
+
+							    #email_me_job{
+							    	display: none;
+							    }
+
+							    #job_piper_alerts_widget{
+							    	display: none;
+							    }
+
+							    a[href]:after {  
+							    	display:none; 
+							    }
+
+							    .navbar-brand{
+							    	display: block;
+							    	text-decoration: none;
+							    	text-align: center;
+							    }
+							}
+
+							/*Safari Only hack*/
+							@media print and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+								.navbar-brand { 
+									display: none;
+								} 
+							}
+
+							/* Explorer Only hack */
+							.navbar-brand { display:none\0; }
+						
+						
+						
+							
+								Data Analyst - Colorado Springs, CO
+								
+									Toggle navigation
+									
+									
+									
+								
+							
+							
+								
+									
+										Data Analyst									
+									
+										JobsLogin									
+								
+							
+						
+
+	$(function() {
+		$('#email_me_job').on('click', function() {
+			Analytics.addAction('email_me_job_button', { listing_id : 633407 });
+		});
+		
+		Analytics.addParams({ listing_id : '633407' });
+	});
+
+ 
+	{"@context":"http:\/\/schema.org\/","@type":"JobPosting","title":"Data Analyst","url":"https:\/\/outreachinc.applicantpro.com\/jobs\/633407.html","description":"&nbsp;\r\nAt Outreach, Inc., we equip the Church to reach their communities for Jesus Christ through media of all sorts. The Data Analyst is equal parts data wrangler, analyst, strategist, evangelist, and storyteller. &nbsp;They will influence and impact multiple divisions and departments including marketing, editorial, advertising, product development, and technology. &nbsp;They will accomplish this by sifting through raw data from a variety of sources and formats, analyzing that data, and then crafting stories with visualizations that help stakeholders understand and improve business performance. It's an important role and this person will have influence at all levels of the organization. \r\nWorking here isn't just about doing your job productively, it's about being on a team and living the culture. We truly care about one another and work in a collaborative environment. How does that play out? Through competitive salaries, and benefits like PTO, health, life, vision, 401k and so much more. We strive for a good work\/life balance and have great perks like a free adventure equipment program (paddle boards, kayaks, snow shoes, tents, bicycles, etc.), ping-pong tables, corn hold toss, flexible comfortable workspaces, and Free Food Fridays. Don't believe us? Check out our GlassDoor reviews.\r\nAs the Data Analyst, we'll expect outcomes that include :\r\n\r\nIncrease business intelligence usage within Outreach by 25% each year.\r\nDeploy a new departmental dashboard each quarter.\r\nDeploy a new, visualization-ready data source each month.\r\n\r\nAnyone who applies should possess the following competencies:\r\n\r\nAnalytical Skills Able to structure and process qualitative and or quantitative data or draw insightful conclusions from it. Exhibits a probing mind.\r\nAttention to Detail\/Accuracy Does not let important details slip through the cracks or derail projects. Does not make careless errors. Completed work is correct.\r\nCommitment\/Ownership\/Proactive Accepts ownership for assignments. Understands and is dedicated to reaching goals. Responds with a positive attitude toward change. Acts without being told what to do. Brings new ideas to the company.\r\nCommunication Speaks and writes clearly and articulately without being overly verbose or talkative. Maintains this in all forms of written communication, including e-mail.\r\nConfidentiality Maintains a set of rules or a promise that limits access or places restrictions on certain types of information. Is trustworthy with information that is meant to be kept private.\r\nCustomer Focus\/Service Always acts with customers in mind--internal or external. Dedicated to meeting the customer's expectations and requirements; acquires first-hand customer information and uses it for improvements in products and services; gains customer trust and respect by establishing and maintaining effective relationships; cultivates a customer focused attitude among colleagues.\r\nInnovation &amp; Creativity Earns the trust and confidence of coworkers and customers through honest communication, ethical behavior, and professionalism in all interactions. Generates new ideas, supports change, provides innovative solutions, solves problems creatively.\r\nIntelligence Learns quickly. Demonstrates tenacity and willingness to go the distance to get something done.\r\nOrganization &amp; Planning Sets priorities, creates goals, plans, and timetables to complete required tasks or projects. Tracks progress and makes necessary adjustments to efficiently complete work.\r\nPersistence\/Grit\/Self-Discipline Demonstrates tenacity and willingness to go the distance to get something done; a resolve to press through adversity toward a worthwhile goal.\r\nPersuasion Demonstrating a colorful approach to communicating concepts, ideas, and stories that move people's feelings. Able to convince others to pursue a course of action.\r\nProblem Solving Breaks down problems into smaller components, can simplify and process complex issues, can identify and understand root causes.\r\n\r\nAdditionally, we'll expect the Data Analyst to:\r\n\r\nSupport company culture by a commitment to the Mission, Vision and Core Values of Outreach, Inc.\r\nThis person must also demonstrate integrity, operate in a way that contributes to teamwork, operate with agility, stewardship, and a commitment to continuous process improvement. \r\n\r\nMINIMUM QUALIFICATIONS:\r\n&nbsp;\r\n\r\nEducation: Bachelor's degree in a quantitative discipline (e.g. Economics, Math, Computer Science, etc.) or equivalent experience.\r\n\r\nExperience: \r\n\r\n3-5 years' experience working in data analysis, preferably with a marketing and digital media focus.\r\nExperience analyzing large sets of data and building models, trends and forecasts. &nbsp;Big data tooling experience a plus (e.g. Spark, Hadoop, Scala, etc.)\r\nExperience with Excel and utilization of pivot tables, vlookup, and other analytical functions.\r\nExperience with data visualizations and accurate representations of data, and skills with data visualization tools such as Domo, Tableau, Looker, or PowerBI. &nbsp;Domo experience definitely preferred.\r\nExcellent grasp of Python and SQL and their multiple flavors and implementations.\r\nProficiency in R or similar statistical languages\/platforms.\r\nExperience applying Business Intelligence (BI) practices to develop solutions to support standard reporting, dashboards and self-service data analysis.\r\nExperience constructing models for cohort and lifetime value analyses. &nbsp;Experience with subscription products is a plus.\r\nStrong understanding of Google Analytics, as well as A\/B and multivariate testing techniques and measurements.\r\nKnowledge of key digital marketing KPIs.\r\nExperience with technical analytics implementation, including website tagging, campaign tracking, and classification, debugging, etc. is a plus.\r\nKnowledge of ETL and data warehouse concepts and processes.\r\n\r\nSo if you see yourself in this description and you would like to be a part of a great team of people who are striving to equip the Church to share God's Love, we would love to hear from you. No agencies, please.","identifier":{"@type":"PropertyValue","name":"Outreach, Inc.","sameAs":"633407"},"datePosted":"2017-09-01 00:00:00","validThrough":"2017-12-01 00:00:00T23:59","employmentType":"FULL TIME","baseSalary":{"@type":"MonetaryAmount","currency":"USD","value":{"@type":"QuantitativeValue","value":"","unitText":"SALARY"}},"hiringOrganization":{"@type":"Organization","name":"Outreach, Inc.","sameAs":"https:\/\/outreachinc.applicantpro.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Colorado Springs","addressRegion":"CO","postalCode":"80919","addressCountry":"US"}}}
+
+	
+		
+			
+				
+					 01-Sep-2017 to 01-Dec-2017 (PST) Enterprise Data Colorado Springs, CO, USA DOE Salary Full Time				
+				
+								 Employer contribution health, dental, vision, life, STD, LTD, 401k and much more.
+							
+			
+								Email Me Similar Jobs								Email Me This Job
+			
+		
+		
+		&nbsp;
+
+At Outreach, Inc., we equip the Church to reach their communities for Jesus Christ through media of all sorts. The Data Analyst is equal parts data wrangler, analyst, strategist, evangelist, and storyteller. &nbsp;They will influence and impact multiple divisions and departments including marketing, editorial, advertising, product development, and technology. &nbsp;They will accomplish this by sifting through raw data from a variety of sources and formats, analyzing that data, and then crafting stories with visualizations that help stakeholders understand and improve business performance. It's an important role and this person will have influence at all levels of the organization. 
+
+Working here isn't just about doing your job productively, it's about being on a team and living the culture. We truly care about one another and work in a collaborative environment. How does that play out? Through competitive salaries, and benefits like PTO, health, life, vision, 401k and so much more. We strive for a good work/life balance and have great perks like a free adventure equipment program (paddle boards, kayaks, snow shoes, tents, bicycles, etc.), ping-pong tables, corn hold toss, flexible comfortable workspaces, and Free Food Fridays. Don't believe us? Check out our GlassDoor reviews.
+
+As the Data Analyst, we'll expect outcomes that include :
+
+
+
+Increase business intelligence usage within Outreach by 25% each year.
+
+Deploy a new departmental dashboard each quarter.
+
+Deploy a new, visualization-ready data source each month.
+
+
+
+Anyone who applies should possess the following competencies:
+
+
+
+Analytical Skills Able to structure and process qualitative and or quantitative data or draw insightful conclusions from it. Exhibits a probing mind.
+
+Attention to Detail/Accuracy Does not let important details slip through the cracks or derail projects. Does not make careless errors. Completed work is correct.
+
+Commitment/Ownership/Proactive Accepts ownership for assignments. Understands and is dedicated to reaching goals. Responds with a positive attitude toward change. Acts without being told what to do. Brings new ideas to the company.
+
+Communication Speaks and writes clearly and articulately without being overly verbose or talkative. Maintains this in all forms of written communication, including e-mail.
+
+Confidentiality Maintains a set of rules or a promise that limits access or places restrictions on certain types of information. Is trustworthy with information that is meant to be kept private.
+
+Customer Focus/Service Always acts with customers in mind--internal or external. Dedicated to meeting the customer's expectations and requirements; acquires first-hand customer information and uses it for improvements in products and services; gains customer trust and respect by establishing and maintaining effective relationships; cultivates a customer focused attitude among colleagues.
+
+Innovation &amp; Creativity Earns the trust and confidence of coworkers and customers through honest communication, ethical behavior, and professionalism in all interactions. Generates new ideas, supports change, provides innovative solutions, solves problems creatively.
+
+Intelligence Learns quickly. Demonstrates tenacity and willingness to go the distance to get something done.
+
+Organization &amp; Planning Sets priorities, creates goals, plans, and timetables to complete required tasks or projects. Tracks progress and makes necessary adjustments to efficiently complete work.
+
+Persistence/Grit/Self-Discipline Demonstrates tenacity and willingness to go the distance to get something done; a resolve to press through adversity toward a worthwhile goal.
+
+Persuasion Demonstrating a colorful approach to communicating concepts, ideas, and stories that move people's feelings. Able to convince others to pursue a course of action.
+
+Problem Solving Breaks down problems into smaller components, can simplify and process complex issues, can identify and understand root causes.
+
+
+
+Additionally, we'll expect the Data Analyst to:
+
+
+
+Support company culture by a commitment to the Mission, Vision and Core Values of Outreach, Inc.
+
+This person must also demonstrate integrity, operate in a way that contributes to teamwork, operate with agility, stewardship, and a commitment to continuous process improvement. 
+
+
+
+MINIMUM QUALIFICATIONS:
+
+&nbsp;
+
+
+
+Education: Bachelor's degree in a quantitative discipline (e.g. Economics, Math, Computer Science, etc.) or equivalent experience.
+
+
+
+Experience: 
+
+
+
+3-5 years' experience working in data analysis, preferably with a marketing and digital media focus.
+
+Experience analyzing large sets of data and building models, trends and forecasts. &nbsp;Big data tooling experience a plus (e.g. Spark, Hadoop, Scala, etc.)
+
+Experience with Excel and utilization of pivot tables, vlookup, and other analytical functions.
+
+Experience with data visualizations and accurate representations of data, and skills with data visualization tools such as Domo, Tableau, Looker, or PowerBI. &nbsp;Domo experience definitely preferred.
+
+Excellent grasp of Python and SQL and their multiple flavors and implementations.
+
+Proficiency in R or similar statistical languages/platforms.
+
+Experience applying Business Intelligence (BI) practices to develop solutions to support standard reporting, dashboards and self-service data analysis.
+
+Experience constructing models for cohort and lifetime value analyses. &nbsp;Experience with subscription products is a plus.
+
+Strong understanding of Google Analytics, as well as A/B and multivariate testing techniques and measurements.
+
+Knowledge of key digital marketing KPIs.
+
+Experience with technical analytics implementation, including website tagging, campaign tracking, and classification, debugging, etc. is a plus.
+
+Knowledge of ETL and data warehouse concepts and processes.
+
+
+
+So if you see yourself in this description and you would like to be a part of a great team of people who are striving to equip the Church to share God's Love, we would love to hear from you. No agencies, please.		
+		
+			Outreach, Inc.
+			https://outreachinc.applicantpro.com
+		
+	
+	
+		
+	$(function() {
+		A.setTempName('apply');
+		A.getResponse('getCsrfToken', '', function(result) {
+			if(result && "token" in result) {
+				$('input[name="csrf_token"]').val(result.token);
+				A.attachParam('csrf_token', result.token);
+			}
+		});
+		
+		$('#job_piper_alerts_widget').show();
+		
+		// Hide job piper to reduce confusion
+		$('#contact_number').on('keyup', function() {
+			$('#job_piper_alerts_widget').fadeOut(200);
+		});
+		$('#apply').on('submit', function () {
+			var $t = $(this), formIsValid = V.form('apply'), appData;
+			
+			if(formIsValid) {
+				
+				appData = AS.get('applicationInfo') || {};
+				appData.job_listing_id = '633407';
+				appData.i = '0';
+				appData.first_name = $('#first_name').val();
+				appData.last_name = $('#last_name').val(); 
+				appData.email = $('#email').val();
+				appData.contact_number = $('#contact_number').val();
+				appData.contact_number_type = $('#contact_number_type').val();
+				appData.text_approval = $('#text_approval').val();
+				AS.set('applicationInfo', appData, 2700);
+				
+				$('#apply_container').animate({ opacity: 0 }, 200);
+				A.setTempName('apply');
+				A.getHTML('initialForm', 'apply', '', function(result) {
+					if(result) {
+						$('#apply_container').html(result).animate({ opacity: 1 }, 200);
+						// Hide job piper to reduce confusion
+						$('#job_piper_alerts_widget').fadeOut(200);
+					}
+				});
+			}
+			return false;
+		});
+		
+		$('#contact_number_type').on('change', function () {
+			if (this.value == 2) {
+				$('#text_approval_div').show();
+				$('#text_approval').attr('disabled', false);
+			} else {
+				$('#text_approval_div').hide();
+				$('#text_approval').attr('disabled', true);
+			}
+		});
+		
+		var appData = AS.get('applicationInfo');
+		if(typeof(appData) != 'undefined') {
+			for(var i in appData) {
+				// make sure there's a value and that the field is a string, not an int, and skip the job_id and i
+				if(appData[i] && isNaN(parseInt(i)) && i != 'job_listing_id' && i != 'i')
+					$('#' + i).val(appData[i]);
+			}
+		}
+		
+		$('#seek_button').on('click', function() {
+			authSocSeek();
+		});
+	});
+	
+	window.funID = '1891';
+	
+	
+
+	
+		Apply Now
+			
+	
+		
+			You have JavaScript disabled on your browser. You will not be able to apply for this position without enabling javascript. If you need assistance with enabling javascript, please click here for assistance.
+		
+		
+						
+				
+				
+								
+					
+						* Fields Are Required
+					
+				
+				
+					
+						What is your full name?
+					
+				
+				
+					
+						First Name
+						
+					
+					
+						Last Name
+						
+					
+				
+				
+					
+						How can we contact you?
+					
+					
+						Email
+						
+					
+				
+				
+					
+						Phone Number
+						
+					
+					
+						Number Type
+						
+							Home
+							Cell
+							Work
+						
+					
+				
+								
+					
+						
+							What is your preferred method of communication?
+						
+						
+							Email
+							Text Message
+						
+					
+				
+								
+				
+					
+						Apply for this Position
+						Apply for this Position
+						By clicking the button above, I agree to ApplicantPro's Applicant Information Use Policy.					
+				
+			
+		
+	
+
+	
+		Sign Up For Job Alerts!
+	
+	
+		
+			$(function() {
+				var sidebar_options = { 
+					api_key: "jp_apppro_outreachinc", 
+					style: "sidebar", 
+					title: "Data Analyst", 
+					source: "4_job" 
+				};
+				referWidget("create", sidebar_options, "refer-widget");
+			});
+		
+		
+	
+
+
+	
+		Resources
+	
+	
+		Welcome to Outreach CareersFuture Career OpportunitiesOutreach Employee BenefitsLinkedInColorado Springs VisitorsColorado Springs #1 CityA Certified Best Christian Workplace	
+
+	
+		Share this Page
+	
+	
+						
+		
+		
+		
+					
+	
+
+
+											 
+					
+												
+														Hiring Software Maintained By ApplicantPro - &copy; 2017
+														
+									
+										
+										Refresh
+									
+								
+													
+						
+						
+							$(function() {
+								$('.footer-links:last-child').css('border-left', '0');
+								$('.footer-links:last-child a').css('color', $('body .panel-footer').css('background-color'));
+							});
+						
+					
+					 
+				 
+			 
+		 
+		
+		
+	body {
+		margin-bottom: 60px !important;
+	}
+
+
+	var faqButtons = [{"page":"instructions","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"resume","link":"https:\/\/intercom.help\/applicant-support\/resumes"},{"page":"additional_questions","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"screening","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"employment","link":"https:\/\/intercom.help\/applicant-support\/employment-history"},{"page":"education","link":"https:\/\/intercom.help\/applicant-support\/education"},{"page":"references","link":"https:\/\/intercom.help\/applicant-support\/references"},{"page":"eeoc","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"disclosure","link":"https:\/\/intercom.help\/applicant-support\/applicant-statement"},{"page":"source","link":"https:\/\/intercom.help\/applicant-support\/source"},{"page":"submit","link":"https:\/\/intercom.help\/applicant-support\/submit-application","label":"Common Submit Questions"},{"page":"thank_you","link":"https:\/\/intercom.help\/applicant-support\/general","label":"Common Application Questions"},{"page":"my_account","link":"https:\/\/intercom.help\/applicant-support\/my-account","label":"Common Account Questions"},{"page":"login","link":"https:\/\/intercom.help\/applicant-support\/login","label":"Common Login Questions"},{"page":"listing_info","link":"https:\/\/intercom.help\/applicant-support\/job-listing","label":"Common Job Questions"}];
+	$(function() {
+		$('#faq_bar_form').on('submit', function() {
+			var value = $('#faq_bar_searchCriteria').val();
+			if(value) {
+				A.setTempName('support');
+				A.setTempDir('/jobs/');
+				A.set('recordSearch', { from_page_url : window.location.href, keyword : value });
+				var newWindow = window.open("https://intercom.help/applicant-support/#search_query=" + encodeURIComponent(value), "_blank");
+			} else
+				N.addError("Please enter a search term to search our FAQs");
+			return false;
+		});
+		
+		$('#common_faq_button').on('click', function() {
+			var newWindow = window.open($(this).data('link'), "_blank");
+		});
+		
+		var path = window.location.pathname, name;
+		switch(true) {
+			case path.indexOf('login.php') != -1 || path.indexOf('forgot_password.php') != -1:
+				name = 'login';
+				break;
+				
+			case path.indexOf('/account/') != -1:
+				name = 'my_account';
+				break;
+				
+			case path.indexOf('/jobs/') != -1:
+			case path.indexOf('/internaljobs/') != -1:
+				name = 'listing_info';
+				break;
+				
+			case path.indexOf('/apply/') != -1:
+				name = '';
+				break;
+		}
+		changeCommonQuestionsText(name);
+	});
+	
+	function changeCommonQuestionsText(name) {
+		var label = "", $button = $('#common_faq_button'), newButtonText = $('[data-file="' + name + '"]').text(), found = false;
+		for(var i in faqButtons) {
+			if(faqButtons[i]['page'] == name) {
+				$button.show();
+				label = faqButtons[i]['label'] ? faqButtons[i]['label'] : 'Common ' + (newButtonText.search(/questions?/ig) != -1 ? newButtonText : newButtonText + ' Questions');
+				$button.text(label);
+				$button.data('link', faqButtons[i]['link']);
+				found = true;
+				break;
+			}
+		}
+		
+		if(!found)
+			$button.hide();
+	}
+
+
+	
+		
+			
+		
+		Go
+				Common Questions
+			
+
+
+		
+				
+			!function(e,r,t){e.referWidget=e.referWidget||function(){(e.referWidget.q=e.referWidget.q||[]).push(arguments)},e.referWidget.l=1*new Date;var n=r.createElement("script"),i=r.getElementsByTagName("script")[0];n.async=1,n.src=t,i.parentNode.insertBefore(n,i)}(window,document, "https://widget-dot-refer-io.appspot.com/refer.js");
+		
+		
+		
+		
+				
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57286717-2', 'auto');
+  ga('send', 'pageview');
+
+
+		
+				
+				
+				
+				
+				
+				
+		<!-- scripts 
+	
+		jQl.loadjQ('/js/all.min.js?ver=1.1.16498.2');
+	
+	-->
+	
+	
+	
+		
+	
+				var exit_survey_enabled = '0';
+		var fired = '0';
+		var thanks = '0'
+		$(function() {
+			$('#leaving').on('change', function() { 
+				if($(this).val() != 0)
+					$('#notice').css('display', 'block');
+				else
+					$('#notice').css('display', 'none');
+
+				if( $(this).val() == 'Other' ) 
+					$('#reason').css('display', 'block'); 
+				else 
+					$('#reason').css('display', 'none'); 
+			});
+		});
+
+		if(exit_survey_enabled != 0) {
+			$('#left').on('click', function() {
+				var answer = $('#leaving').val();
+				if(answer != 0) {
+					var domain_id = '1891';
+					var job = '633407';
+					var app = '';
+
+					if(answer == 'Other') {
+						if( $('#reason').val() != '' ) {
+							answer = $('#reason').val();
+						} else {
+							answer = 'Other (Non Specified)';
+						}					
+					}
+					$.post("/jobs/edit.php", {n: 'conversion', f: 'survey', v :{app_id : app, domain: domain_id, job_id: job, answer: answer} });
+
+					$('#ouibounce-modal').hide();
+				  							$('#ouibounce-referio-modal').css('display', 'block');
+									}
+			});
+		}
+
+		// if you want to use the 'fire' or 'disable' fn,
+		// you need to save OuiBounce to an object
+		if(exit_survey_enabled != 0 && fired == 0 && thanks == 0) {
+			var modal = '';
+
+			$('html').on( 'mouseleave', function() {
+				if(fired == 0) {
+					fired = 1;
+					modal = ouibounce(document.getElementById('ouibounce-modal'), {
+							aggressive: false,
+						  	timer: 0,
+						  	callback: function() { 
+						  		$('#top-nav').css('z-index', '0'); 
+						  		$.get("/jobs/view.php", {n: 'conversion', f: 'survey_fired'}); 
+								if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+									modal.disable();
+						  	}
+						});
+					modal.fire();
+				}
+			});
+
+			setInterval( function() { 
+				$('select').click(
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+
+				$('select').mouseleave( 
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+			}, 1000);
+
+			$('body').on('click', function() {
+			  	$('#ouibounce-modal').hide();
+			  	$('#ouibounce-referio-modal').hide();
+			});
+
+			$('#ouibounce-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal-footer button').on('click', function(e) {
+			  	$('#ouibounce-referio-modal').hide();
+			});
+		}
+	
+	
+		<!--
+	
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://outreachinc.applicantpro.com/stats/" : "http://outreachinc.applicantpro.com/stats/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	
+	
+		try {
+		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3158);
+		piwikTracker.trackPageView();
+		piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+	
+	
+	-->
+		
+		$(function() {
+			Analytics.addAction();
+		});
+	
+
+		
+	
+	
+		$(function() {
+			$('select').attr('role', 'combobox');
+			$('.dropdown').attr('role', 'combobox');
+		});
+	
+
+	
+

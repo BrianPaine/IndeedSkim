@@ -1,0 +1,1093 @@
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+    
+
+	Data Scientist Intern at NIKE INC
+
+    
+
+	
+
+		
+
+	
+
+   	 
+
+    
+
+    
+
+        
+
+    document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+     
+
+
+
+
+
+
+
+                
+
+{"@context":"http://schema.org","@type":"JobPosting","datePosted":"2017-9-30","description":"As a Data Science Intern, you will collaborate with a team of data scientists and business analytics managers to enhance and execute high-impact advanced analytics solutions across the North America organization. You will employ advanced data modeling and forecasting techniques to explore strategic business opportunities and to prescribe actionable recommendations to leverage those opportunities. You will also play a pivotal role in elevating our advanced analytics solutions. Ideal candidates will have a strong academic background as well as technical skills including applied statistics, machine learning, data mining, and software development. Familiarity working with large-scale datasets and big data techniques is preferred.The role is perfect for a team player with very strong advanced analytics experience, drive, curiosity, and exceptional communication skills. You know how to rise above the numbers and explain the essential insights to business users, and you instinctively minimize complexity to focus on results. While you rely on data to prove your point, you love to think outside the box and solve problems creatively. You thrive in an entrepreneurial environment, and you are excited by the challenge of building something from the ground up.","employmentType":"Full-time","identifier":"SRC-ANADI-Collegiate","industry":"Nike","qualifications":"Currently enrolled in a Masters or PhD degree program in a quantitative degree (Statistics, Economics, Advanced Analytics, Operations Research, Applied Mathematics, Decision Sciences, Computer Science, etc.) with an expected graduation date in Winter 2018 or Spring 2019Strong technical and analytical skillset (R, Python, SQL, Tableau, Predictive Analytics, Forecasting, Machine Learning etc.)Proven ability to sift through data, identify critical information, develop hypotheses, perform rigorous analyses, and make recommendations to broader audiencesExcellent written and verbal communication skills, including superior presentation skillsPrior experience synthesizing and packaging complex analyses and delivering results to non-technical audiences including senior leadership teamsDemonstrated ability to use data to influence strategic decision makingApplications due by Feb. 12, 2017UR ID: 46837619","title":"Data Scientist Intern","url":"https://jobs.nike.com/job/beaverton/data-scientist-intern/824/5857596","hiringOrganization":{"@type":"Organization","name":"NIKE INC"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Beaverton","addressRegion":"Oregon","addressCountry":"United States","streetAddress":"","postalCode":""}}}
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-16905243-1', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+                createHiddenInput('dimension1', '5857596');
+
+                createHiddenInput('dimension2', 'SRC-ANADI-Collegiate');
+
+                createHiddenInput('dimension3', '824');
+
+                createHiddenInput('dimension4', '824,');
+
+                    createHiddenInput('dimension6', 'Finance Corporate-Services');
+
+                    createHiddenInput('dimension7', 'Beaverton-Oregon-United-States');
+
+                    createHiddenInput('dimension9', 'Data Scientist Intern');
+
+                        createHiddenInput('dimension10', 'JobDetails');
+
+                    createHiddenInput('dimension14', 'Basic JD');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+            gtmValues = { 'JobID': '5857596', 'ReqID': 'SRC-ANADI-Collegiate', 'OrgID': '824', 'tbcn-division': '824,' };
+
+                gtmValues['tbcn-jobcategory'] = 'Finance Corporate-Services';
+
+                gtmValues['tbcn-location'] = 'Beaverton-Oregon-United-States';
+
+                gtmValues['tbcn-jobtitle'] = 'Data Scientist Intern';
+
+                    gtmValues['pagetype'] = 'JobDetails';
+
+                gtmValues['subpagetype'] = 'Basic JD';
+
+            dataLayer.push(gtmValues);
+
+
+
+
+
+
+
+
+
+
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-WHVT');
+
+    
+
+
+
+	
+
+	Skip Navigation
+
+    
+
+	    
+
+	        
+
+	            
+
+	                
+
+	                    Shop
+
+	                
+
+	                
+
+	                    Nike+
+
+	                
+
+	            
+
+	        
+
+	        
+
+	            
+
+	                
+
+	                    
+
+	                    
+
+	                
+
+	                    
+
+	                        
+
+	                    
+
+                              
+
+   
+
+                Corporate Careers
+
+                Retail Careers
+
+                Benefits
+
+                Locations
+
+                Internships
+
+                Temporary Opportunities – U.S.
+
+    
+
+
+
+
+
+	                    
+
+	                
+
+	                    
+
+	                        
+
+	                    
+
+	                    
+
+    	                    
+
+    	                        
+
+    	                        
+
+    	                            
+
+    	                        
+
+    	                    
+
+	                    
+
+	                    
+
+	            
+
+	        
+
+	        
+
+    
+
+        Nike Careers
+
+        Leave Average in the dust
+
+        Create, take risks and pursue greatness at Nike.
+
+    
+
+
+
+	
+
+	    
+
+	
+
+		
+
+
+
+
+
+    
+
+        
+
+
+
+    
+
+        Data Scientist Intern
+
+        	Apply Now
+
+                
+
+        
+
+    
+
+        
+
+            
+
+            Become a Part of the NIKE, Inc. Team
+
+NIKE, Inc. does more than outfit the world's best athletes. It is a place to explore potential, obliterate boundaries and push out the edges of what can be. The company looks for people who can grow, think, dream and create. Its culture thrives by embracing diversity and rewarding imagination. The brand seeks achievers, leaders and visionaries. At Nike, it’s about each person bringing skills and passion to a challenging and constantly evolving game.
+
+
+
+
+
+
+
+              Today, the opportunities for growth across Nike’s business portfolio offer more potential than ever. Nike Finance employees play a key role in that progress by identifying and capitalizing on opportunities to drive value for every Nike shareholder. They manage accounting and reporting for Nike’s multi-billion-dollar global investment portfolio, debt and equity instruments, and other Treasury activities. They strategize, forecast, audit, analyze, budget, research and lead important decisions. Across Nike’s diverse geographies and businesses, Finance employees deliver far more than just the numbers.
+
+
+
+
+
+        Description
+
+        As a Data Science Intern, you will collaborate with a team of data scientists and business analytics managers to enhance and execute high-impact advanced analytics solutions across the North America organization. You will employ advanced data modeling and forecasting techniques to explore strategic business opportunities and to prescribe actionable recommendations to leverage those opportunities. You will also play a pivotal role in elevating our advanced analytics solutions. Ideal candidates will have a strong academic background as well as technical skills including applied statistics, machine learning, data mining, and software development. Familiarity working with large-scale datasets and big data techniques is preferred.The role is perfect for a team player with very strong advanced analytics experience, drive, curiosity, and exceptional communication skills. You know how to rise above the numbers and explain the essential insights to business users, and you instinctively minimize complexity to focus on results. While you rely on data to prove your point, you love to think outside the box and solve problems creatively. You thrive in an entrepreneurial environment, and you are excited by the challenge of building something from the ground up.
+
+        
+
+        Qualifications
+
+        Currently enrolled in a Masters or PhD degree program in a quantitative degree (Statistics, Economics, Advanced Analytics, Operations Research, Applied Mathematics, Decision Sciences, Computer Science, etc.) with an expected graduation date in Winter 2018 or Spring 2019Strong technical and analytical skillset (R, Python, SQL, Tableau, Predictive Analytics, Forecasting, Machine Learning etc.)Proven ability to sift through data, identify critical information, develop hypotheses, perform rigorous analyses, and make recommendations to broader audiencesExcellent written and verbal communication skills, including superior presentation skillsPrior experience synthesizing and packaging complex analyses and delivering results to non-technical audiences including senior leadership teamsDemonstrated ability to use data to influence strategic decision makingApplications due by Feb. 12, 2017UR ID: 46837619
+
+        
+
+        NIKE, Inc. is a growth company that looks for team members to grow with it. Nike offers a generous total rewards package, casual work environment, a diverse and inclusive culture, and an electric atmosphere for professional development. No matter the location, or the role, every Nike employee shares one galvanizing mission: To bring inspiration and innovation to every athlete* in the world.
+
+        NIKE, Inc. is committed to employing a diverse workforce. Qualified applicants will receive consideration without regard to race, color, religion, sex, national origin, age, sexual orientation, gender identity, gender expression, veteran status, or disability.
+
+
+
+ Job ID SRC-ANADI-Collegiate         
+
+    
+
+        
+
+	Apply Now
+
+                
+
+    
+
+
+
+
+
+
+
+
+
+    Still Looking?
+
+    Find the right career here.
+
+
+
+    
+
+
+
+	Search
+
+	
+
+        
+
+		    Keyword
+
+		    
+
+        
+
+        
+
+            Location
+
+		    
+
+                
+
+		
+
+        
+
+		    Radius
+
+	        Radius
+
+5 miles
+
+15 miles
+
+25 miles
+
+35 miles
+
+50 miles
+
+
+
+		
+
+        
+
+        Go
+
+		
+
+	
+
+ 
+
+
+
+  
+
+    
+
+    
+
+            
+
+        Job Recommendations
+
+        With just 1 click and a connection with LinkedIn, you can receive job listings that best match your previous positions.
+
+        Match my jobs
+
+    
+
+
+
+
+
+
+
+
+
+        
+
+            Share
+
+            
+
+	                Email
+
+	                LinkedIn
+
+	                Facebook
+
+	                Tumblr
+
+                            
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+	    
+
+		    Job Alerts
+
+		
+
+First Name]*$" id="form-field-bde968a8f9" maxlength="25" name="FirstName" pattern="^[^&lt;>]*$" placeholder="First Name" type="text" />Last Name]*$" id="form-field-b271bc5c14" maxlength="25" name="LastName" pattern="^[^&lt;>]*$" placeholder="Last Name" type="text" />Email AddressInterested InSign up for job alerts by choosing a category and/or location. Start typing for suggestions and click the button to add your alerts before submitting. You must have at least 1 alert added in order to subscribe.CategoryLocationAddFinance, Beaverton, Oregon, United StatesRemoveCorporate Services, Beaverton, Oregon, United StatesRemoveRemove		
+
+		
+
+		    Confirm Email
+
+		    
+
+		
+
+			
+
+		
+
+		    
+
+		
+
+		
+
+	    
+
+
+
+
+
+
+
+    Join our Talent Community
+
+Didn't find what you're looking for? Submit your information for future consideration.
+
+Sign Up
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        Internships
+
+Get fully immersed in our culture of curiosity and innovation. Start a corporate internship at Nike.
+
+Learn More
+
+    
+
+
+
+
+
+    
+
+        Innovation at Nike
+
+Take a behind the scenes look at how Nike employees shaped product and experiences for the biggest football tournament in the world.
+
+Learn More
+
+    
+
+
+
+
+
+    
+
+        Benefits
+
+As part of the world&rsquo;s leading sports brand enjoy great benefits that fit, varied by position and location.
+
+Learn More
+
+    
+
+
+
+
+
+    
+
+        Locations
+
+Employees in six continents and 53-plus countries make up one global Nike team.
+
+Learn More
+
+    
+
+
+
+
+
+
+
+	
+
+	
+
+	    
+
+	           
+
+                
+
+                    Mobile
+
+                    
+
+                            Orders
+
+                            Stories
+
+                            Help
+
+                    
+
+                   
+
+                
+
+                    First
+
+                    
+
+                            Gift Cards
+
+                            Find a Store
+
+                            Sign up for Email
+
+                            Join Nike+
+
+                    
+
+                   
+
+                
+
+                    Second
+
+                    
+
+                            Get Help
+
+                            Order Status
+
+                            Shipping and Delivery
+
+                            Returns
+
+                            Payment Options
+
+                            Contact Us
+
+                    
+
+                   
+
+                
+
+                    Third
+
+                    
+
+                            News
+
+                            About Nike
+
+                            Careers
+
+                            Investors
+
+                            Converse Careers
+
+                            Sustainable Innovation
+
+                            CA Supply Chains Act
+
+                    
+
+                   
+
+    
+
+
+
+
+
+
+
+    
+
+        Social
+
+        
+
+                
+
+                    
+
+                        
+
+                            
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                            
+
+                        
+
+                    
+
+                
+
+        
+
+    
+
+
+
+	 
+
+	    
+
+	    
+
+	        United States &copy; 2017 Nike, Inc. All Rights Reserved
+
+	            
+
+                
+
+                    Guides
+
+                    
+
+                            NIKEID
+
+                            Running
+
+                            Basketball
+
+                            NFL
+
+                            Golf
+
+                            Nike Sprtswear
+
+                            Soccer
+
+                            Skateboarding
+
+                            Tennis
+
+                            Kids
+
+                            Flyknit
+
+                            Nike Free
+
+                            Lunarion
+
+                            Dri-FIT
+
+                            Nike Zoom
+
+                            Tech Pack
+
+                            Football
+
+                            Baseball
+
+                            Nike Innovation
+
+                            Nike FLYEASE
+
+                            Nike Grind
+
+                    
+
+                   
+
+                Terms &amp; Conditions
+
+                Privacy Policy
+
+                Sitemap
+
+                CA Supply Chains Act
+
+    
+
+
+
+    
+
+	    
+
+	    
+
+	        NIKE, Inc. is committed to employing a diverse workforce. Qualified applicants will receive consideration without regard to race, color, religion, sex, national origin, age, sexual orientation, gender identity, gender expression, protected veteran status, or disability. Nike is committed to working with and providing reasonable accommodation to individuals with disabilities. If, because of a medical condition or disability, you need a reasonable accommodation for any part of the employment process, please call 503-671-4156 and let us know the nature of your request, your location and your contact information.
+
+            For more information, please refer to Equal Employment Opportunity is The Law.
+
+	    
+
+	
+
+	
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+	
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+	

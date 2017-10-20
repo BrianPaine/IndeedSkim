@@ -1,0 +1,549 @@
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+
+
+  | Evolent Health
+  
+
+
+
+
+  
+  
+    
+  
+  
+  
+    
+  
+  
+
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.evolenthealth.com/sites/default/files/googleanalytics/analytics.js?oxdyl2","ga");ga("create", "UA-37921593-1", {"cookieDomain":"auto"});ga("send", "pageview");
+
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"evolentcorporate","theme_token":"sPSOcPf3t6p04OeWzUj5sGb8JEaOROesBGIwaCbQS_k","js":{"sites\/all\/modules\/pardot\/pardot.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.8\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/behavior_weights\/behavior_weights.js":1,"sites\/all\/modules\/jquery_ajax_load\/jquery_ajax_load.js":1,"sites\/all\/modules\/responsive_menus\/styles\/responsive_menus_simple\/js\/responsive_menus_simple.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/themes\/evolentcorporate\/js\/fontloader.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/modernizr-custom.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/imagesloaded.pkgd.min.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/jquery-imagefill.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/jquery.waypoints.min.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/owl.carousel.min.js":1,"sites\/all\/themes\/evolentcorporate\/js\/custom.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/bootstrap\/alert.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/bootstrap\/collapse.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/bootstrap\/dropdown.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/bootstrap\/modal.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/bootstrap\/tooltip.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/bootstrap\/popover.js":1,"sites\/all\/themes\/evolentcorporate\/js\/lib\/bootstrap\/scrollspy.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/footer_sitemap\/footer_sitemap.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/media\/modules\/media_wysiwyg\/css\/media_wysiwyg.base.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/panels\/css\/panels.css":1,"sites\/all\/modules\/responsive_menus\/styles\/responsive_menus_simple\/css\/responsive_menus_simple.css":1,"\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.6.3\/css\/font-awesome.min.css":1,"sites\/all\/themes\/evolentcorporate\/dist\/css\/style.css":1}},"jquery_ajax_load":{"trigger":".jquery_ajax_load","target":"#jquery_ajax_load_target","toggle":1,"animation":1,"base_path":"\/","module_path":"sites\/all\/modules\/jquery_ajax_load","site_name":"Evolent Health"},"pardot":{"pardot_a_id":"299912","pardot_c_id":"1380","score":""},"better_exposed_filters":{"views":{"career_detail":{"displays":{"default":{"filters":[]}}},"similar_jobs_backup":{"displays":{"embed_1":{"filters":[]}}},"similar_jobs":{"displays":{"default":{"filters":[]}}}}},"responsive_menus":[{"toggler_text":"MENU \u003Ci class=\u0022fa fa-sort-desc\u0022\u003E\u003C\/i\u003E","selectors":[".blog-menu-wrapper"],"media_size":"995","media_unit":"px","absolute":true,"remove_attributes":true,"responsive_menus_style":"responsive_menus_simple"}],"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});
+
+
+  
+    Skip to main content
+  
+    
+	
+		
+			 -->
+      
+				Toggle navigation
+				
+				
+				
+			
+
+              
+				  
+			  
+      
+					
+
+					
+				
+																					
+						  
+    
+
+
+	
+	Who We Serve Health Systems
+Independent Physician Associations
+Provider-Sponsored Health Plans
+Accountable Care Organizations
+Pediatric Hospitals
+
+Our Lines of Business Medicare
+Medicaid
+Commercial and Self-Funded
+
+Our Capabilities Population Health Management
+Health Plan Administration and TPA
+Network Performance Management
+Risk Adjustment
+Pharmacy Benefit Management
+Analytics and Improvement
+Technology and EMR Integration
+
+Knowledge Center Blog
+Conferences
+Industry Perspective
+Webinars
+Videos
+
+About Us Leadership Team
+Strategic Alliances
+Life At Evolent
+Current Opportunities
+News
+Contact Us
+
+
+  
+									
+			
+		
+	
+
+
+
+		
+
+
+	
+			
+
+	
+	
+	
+	
+	
+								
+
+	
+			
+
+	
+			
+			
+				About Us
+Current Opportunities
+
+			
+		
+	
+	
+		
+			  
+    
+
+      
+  
+
+
+		
+
+				
+			
+			
+									
+						
+  	      
+      
+  
+  
+    
+        
+  
+  
+      
+        
+    
+      
+  
+    
+      Analytics &amp; Actuarial
+      
+  
+
+      
+  
+    
+      Analyst, Analytics and Reporting
+      
+  
+
+      
+  
+    
+      Chicago, IL, United States
+      
+  
+
+  
+    
+      APPLY
+  
+
+      
+  
+    
+      It&rsquo;s Time For A Change&hellip; Your Future Evolves HereEvolent Health has a bold mission to change the health of the nation by changing the way health care is delivered. Our pursuit of this mission is the driving force that brings us to work each day. We believe in embracing new ideas, challenging ourselves and failing forward. We respect and celebrate individual talents and team wins. We have fun while working hard and Evolenteers often make a difference in everything from scrubs to jeans.Are we growing? Absolutely&mdash;56.7% in year-over-year revenue growth in 2016. Are we recognized? Definitely. We have been named one of &ldquo;Becker&rsquo;s 150 Great Places to Work in Healthcare&rdquo; in 2016 and 2017, and one of the &ldquo;50 Great Places to Work&rdquo; in 2017 by Washingtonian, and our CEO was number one on Glassdoor&rsquo;s 2015 Highest-Rated CEOs for Small and Medium Companies. If you&rsquo;re looking for a place where your work can be personally and professionally rewarding, don&rsquo;t just join a company with a mission. Join a mission with a company behind it.What You&rsquo;ll Be Doing:Evolent&nbsp;Health is rapidly building a world-class analytics function leveraging advanced evaluative methodologies, data mining tools and analytic techniques (e.g., predictive modeling, optimization), and quasi-experimental and experimental study designs to enable fact-based decision making.&nbsp;The Senior Analyst, Risk Operations will develop and design the overall suite of operational analytics capabilities and actionable reports to solve problems and monitor performance related to Risk Adjustment as well as other priority initiatives.Conduct analyses and develop reports to measure risk adjustment operations performance; collaborate with markets and internal stakeholders to identify actionable opportunities to gain operational efficienciesProvide Analytic &amp; Reporting solutions for our Risk Adjustment teamOperate and maintain predictive, machine learning models related to risk adjustment operationsMaintain and enhance standard RA performance data and reports for MA, HIX/ACA,&nbsp;NextGen&nbsp;and MedicaidAnalyze the performance of audits using data sources and reports to ensure accuracy and completeness &ndash; liaise with RA education and audit team to provide results and drive strategiesAnalyze and present relevant data to inform decisions related to entering risk-based relationships with payers managing riskSupport actuarial and finance teams as necessaryDrive innovation into RA analytic solutions for specific client situations as neededCollaborate with other teams/departments to deliver scalable reporting solutions&nbsp;&nbsp;&nbsp;Communicate results and analyses to internal and external stakeholdersThe Experience You&rsquo;ll Need (Required):BS. in Actuarial Science, Math, Economics or related degree1-3 years of professional experience in an analytics role at a health plan/payer/insurer, consulting firm, hospital systemExceptional SQL, SAS, and Python skills and proficient building Excel modelsDetailed knowledge of CPT/HCPS/ICD9/ICD10General understanding of risk adjustment methodology and approaches to support accurate codingStrong presentation skills and the ability to communicate highly technical results to a non-technical audienceFinishing Touches (Preferred):Graduate Degree with a quantitative, healthcare, business, or technical focus (e.g., science, math, economics, statistics, actuarial sciences, health services management, computer science, engineering, informatics, finance)Actuarial trackExperience with various risk adjustment models, including the CMS-HCC, HHS-HCC, and CDPS Risk Adjustment modelsPredictive modeling experience including various regression, decision tree, neural network, and machine learning techniquesExperience using Python Scikit-Learn&nbsp;Evolent Health is an Equal Opportunity/Affirmative Action Employer&nbsp;&nbsp;&nbsp;&nbsp;
+      
+  
+
+  
+    
+      APPLY
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+					
+				
+									
+						
+  	      
+        
+      
+        SHARE      
+    
+    
+  
+  
+    
+	
+	
+	
+	
+
+
+  
+
+  
+  
+
+  	      
+      
+  
+  
+    
+        
+  
+  
+      
+        
+      
+          
+            
+      SIMILAR JOBS    
+  
+  
+  
+      
+        
+    
+      
+  
+    
+      Analytics &amp; Actuarial
+      
+  
+
+      
+  
+    
+      Associate Director, Analytics (Data Governance &amp; Implementation)
+      
+  
+
+      
+  
+    
+      Chicago, IL, United States
+      
+  
+  
+  
+    
+      
+  
+    
+      Analytics &amp; Actuarial
+      
+  
+
+      
+  
+    
+      Associate Director, Data Science
+      
+  
+
+      
+  
+    
+      Chicago, IL, United States
+      
+  
+  
+  
+    
+      
+  
+    
+      Analytics &amp; Actuarial
+      
+  
+
+      
+  
+    
+      Sr. Director, Client Analytics
+      
+  
+
+      
+  
+    
+      Chicago, IL, United States
+      
+  
+  
+  
+    
+      
+  
+    
+      Analytics &amp; Actuarial
+      
+  
+
+      
+  
+    
+      Director, Client Analytics (Medicaid/TPA)
+      
+  
+
+      
+  
+    
+      Chicago, IL, United States
+      
+  
+  
+  
+    
+      
+  
+    
+      Analytics &amp; Actuarial
+      
+  
+
+      
+  
+    
+      Associate Director, Analytics
+      
+  
+
+      
+  
+    
+      Chicago, IL, United States
+      
+  
+  
+    
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+					
+							
+		
+	
+
+		
+
+		
+
+		
+
+  
+		
+	
+
+
+
+
+	
+		
+							  
+    
+
+      
+  
+
+twttr.conversion.trackPid('nurs0', { tw_sale_amount: 0, tw_order_quantity: 0 });
+
+
+
+
+
+
+
+
+
+      
+  
+  _bizo_data_partner_id = "8745";
+
+
+(function() {
+  var s = document.getElementsByTagName("script")[0];
+  var b = document.createElement("script");
+  b.type = "text/javascript";
+  b.async = true;
+  b.src = (window.location.protocol === "https:" ? "https://sjs" : "http://js") + ".bizographics.com/insight.min.js";
+  s.parentNode.insertBefore(b, s);
+})();
+
+
+  
+
+      
+
+
+
+      
+  
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+  
+			
+											
+											
+							  
+    
+
+      
+  Contact Us
+
+
+
+
+      
+  571.389.6000
+
+
+
+
+      
+  
+	
+	
+	
+
+
+
+
+      
+  
+  Investor Relations
+Terms &amp; Conditions
+Privacy Policy
+
+
+
+
+
+      
+  © 2017 Evolent Health, Inc.
+All Rights Reserved.
+
+  
+						
+					
+											
+							  
+    
+
+      
+  
+  Who We ServeHealth Systems
+Independent Physician Associations
+Provider-Sponsored Health Plans
+Accountable Care Organizations
+Pediatric Hospitals
+
+Our Lines of BusinessMedicare
+Medicaid
+Commercial and Self-Funded
+
+Our CapabilitiesPopulation Health Management
+Health Plan Administration and TPA
+Network Performance Management
+Risk Adjustment
+Pharmacy Benefit Management
+Analytics and Improvement
+Technology and EMR Integration
+
+Knowledge CenterBlog
+Conferences
+Industry Perspective
+Webinars
+Videos
+
+About UsLeadership Team
+Strategic Alliances
+Life At Evolent
+Current Opportunities
+News
+Contact Us
+
+
+
+
+
+
+  
+						
+									
+					
+	
+
+  
+
+
+

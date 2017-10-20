@@ -1,0 +1,1448 @@
+
+
+
+
+
+
+
+
+	
+
+	
+
+        
+
+	    
+
+
+
+    
+
+    document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    Information Analyst at Kaiser Permanente - Kaiser Permanente
+
+     
+
+
+
+
+
+
+
+                
+
+{"@context":"http://schema.org","@type":"JobPosting","datePosted":"2017-9-12","description":"This position is accountable for designing, analyzing, managing and monitoring multiple major, complex, analytical requests. Serves as a lead providing oversight accountability for an operational team. This position is also accountable for communicating/presenting analytical findings supporting major business projects and drives to implement recommendations.Essential Functions: In collaboration with business clients and data teams, provide information analysis and analytical support. Analysis of information to identify issues. Accountable for designing, coordinating, analyzing and managing major analytical initiatives. Ensure appropriate ownership and buy-in on analytical projects and business processes by senior management, sponsors. Maintain effective client and peer relationships. Proactively identify and research key business issues by regularly analyzing trends in the organization's performance. Design analytic approaches and analysis to address business questions or issues. Participate in interpreting analyses of data, providing recommendations in support of critical business decisions. Prepare presentations that communicate complex analysis and findings in a simple, concise and interpretable manner. Supports strategic decision making. Manage high level data quality, participating in or leading data quality problem-solving efforts. Provide oversight to a team, transfer knowledge and tools to staff and clients through advice, training and coaching activities. Ability to drive and implement recommendations. Report analyst duties,e.g.design and develop automated actionable reports to inform managers in a timely fashion. Data analyst duties,e.g.assist in the research, analysis and remediation of moderately complex data issues that directly impacts reporting and analysis. Business systems analyst duties,e.g.,help define business rules applicable to the development and/or use of the application. Other duties as requested.","employmentType":"Standard","identifier":"623806","industry":"Salaried, Non-Union, Exempt","qualifications":"Basic Qualifications:Experience Minimum four (4) years of analytical experience.Education BS/BA degree in an analytical or technical discipline,OR four (4) years experience in directly related field required. High School Diploma or General Education Development required.License, Certification, Registration N/AAdditional Requirements: N/APreferred Qualifications: Health care or insurance experience preferred. Master's degree in analytical discipline. Advanced degree in a quantitative or technical discipline preferred. Epic knowledge preferred. Specific and broad knowledge of KPCO and CPMG Operations, KP applications, and KP HealthConnect, including Hyperspace, Clarity and Chronicles preferred.","title":"Information Analyst","url":"https://www.kaiserpermanentejobs.org/job/aurora/information-analyst/641/5704564","workHours":"40","hiringOrganization":{"@type":"Organization","name":"Kaiser Permanente"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Aurora","addressRegion":"CO","addressCountry":"US","streetAddress":"","postalCode":"80012"}}}
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-18954619-1', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+                createHiddenInput('dimension1', '5704564');
+
+                createHiddenInput('dimension2', '623806');
+
+                createHiddenInput('dimension3', '641');
+
+                createHiddenInput('dimension4', '641,');
+
+                    createHiddenInput('dimension6', 'Health-Care-&amp;-Hospital-Operations');
+
+                    createHiddenInput('dimension7', 'Aurora-Colorado-United-States');
+
+                    createHiddenInput('dimension9', 'Information Analyst');
+
+                        createHiddenInput('dimension10', 'JobDetails');
+
+                    createHiddenInput('dimension14', 'Basic JD');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+            gtmValues = { 'JobID': '5704564', 'ReqID': '623806', 'OrgID': '641', 'tbcn-division': '641,' };
+
+                gtmValues['tbcn-jobcategory'] = 'Health-Care-&amp;-Hospital-Operations';
+
+                gtmValues['tbcn-location'] = 'Aurora-Colorado-United-States';
+
+                gtmValues['tbcn-jobtitle'] = 'Information Analyst';
+
+                    gtmValues['pagetype'] = 'JobDetails';
+
+                gtmValues['subpagetype'] = 'Basic JD';
+
+            dataLayer.push(gtmValues);
+
+
+
+
+
+
+
+
+
+
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-Z7Q7');
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        Skip to Main Content
+
+
+
+        
+
+        
+
+            
+
+
+
+        
+
+                
+
+                
+
+                
+
+        
+
+
+
+              
+
+    
+
+
+
+
+
+        
+
+        
+
+
+
+            
+
+ 
+
+
+
+    
+
+    
+
+
+
+        Who We Are
+
+
+
+        
+
+            The KP Difference 
+
+            Our Locations
+
+            Mission &amp; History
+
+            Innovation
+
+        
+
+
+
+       
+
+    
+
+
+
+        Life &amp; Culture
+
+    
+
+        
+
+            Working Here
+
+            Diversity &amp; Inclusion
+
+            Disability
+
+            Military
+
+            In Our Community
+
+        
+
+
+
+       
+
+    
+
+
+
+        Career Areas
+
+
+
+        
+
+            Care Careers
+
+            Business Careers
+
+            IT Careers
+
+            Temporary Contract
+
+            Physicians &amp; Dentists
+
+        
+
+
+
+       
+
+    
+
+
+
+        University
+
+
+
+        
+
+            University Connection
+
+            Early-Career Opportunities
+
+            Internship Opportunities
+
+        
+
+
+
+       
+
+    
+
+
+
+        Our Hiring Process
+
+
+
+        
+
+            Hiring Process Overview
+
+            Searching Jobs & Submitting Interest 
+
+            Pre-Hire Assessments
+
+            FAQs
+
+        
+
+
+
+       
+
+    
+
+
+
+ 
+
+
+
+       
+
+            
+
+
+
+
+
+
+
+    
+
+        My Profile
+
+        My Favorite Jobs
+
+        Employee Job Search
+
+    
+
+
+
+
+
+
+
+            
+
+        
+
+        
+
+        
+
+
+
+
+
+
+
+    
+
+    Search
+
+
+
+    
+
+
+
+        
+
+    
+
+            Keyword Search
+
+            
+
+    
+
+        
+
+    
+
+        
+
+    
+
+            City, State, or ZIP
+
+            
+
+    
+
+    
+
+        
+
+    
+
+        
+
+    
+
+            Search radius
+
+    
+
+            Radius
+
+5 miles
+
+15 miles
+
+25 miles
+
+35 miles
+
+50 miles
+
+
+
+    
+
+        
+
+    
+
+    
+
+        
+
+    
+
+        Search Jobs
+
+    
+
+        
+
+
+
+    
+
+
+
+ 
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+        
+
+
+
+
+
+    
+
+
+
+    
+
+                
+
+                    
+
+                    
+
+                    
+
+                
+
+                
+
+
+
+                    Health Care &amp; Hospital Operations
+
+
+
+                
+
+
+
+ 
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+         Excellence: It Starts Here
+
+
+
+        As a recognized leader in health care delivery, policy, and technology, we answer the needs of more than 11 million men, women, and children every day through the work we do. This mission begins with the passion, vision, and commitment of our leaders.
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+        Information Analyst
+
+		
+
+        
+
+       
+
+	Submit Interest
+
+                
+
+                Add to FavoritesRemove from Favorites
+
+
+
+        
+
+        
+
+        
+
+            Location: Aurora, CO
+
+        
+
+
+
+ Job Number: 623806          Date posted: 09/13/2017         
+
+
+
+       Description: This position is accountable for designing, analyzing, managing and monitoring multiple major, complex, analytical requests. Serves as a lead providing oversight accountability for an operational team. This position is also accountable for communicating/presenting analytical findings supporting major business projects and drives to implement recommendations.Essential Functions: In collaboration with business clients and data teams, provide information analysis and analytical support. Analysis of information to identify issues. Accountable for designing, coordinating, analyzing and managing major analytical initiatives. Ensure appropriate ownership and buy-in on analytical projects and business processes by senior management, sponsors. Maintain effective client and peer relationships. Proactively identify and research key business issues by regularly analyzing trends in the organization's performance. Design analytic approaches and analysis to address business questions or issues. Participate in interpreting analyses of data, providing recommendations in support of critical business decisions. Prepare presentations that communicate complex analysis and findings in a simple, concise and interpretable manner. Supports strategic decision making. Manage high level data quality, participating in or leading data quality problem-solving efforts. Provide oversight to a team, transfer knowledge and tools to staff and clients through advice, training and coaching activities. Ability to drive and implement recommendations. Report analyst duties,e.g.design and develop automated actionable reports to inform managers in a timely fashion. Data analyst duties,e.g.assist in the research, analysis and remediation of moderately complex data issues that directly impacts reporting and analysis. Business systems analyst duties,e.g.,help define business rules applicable to the development and/or use of the application. Other duties as requested.
+
+       
+
+       
+
+       
+
+            Basic Qualifications:Experience Minimum four (4) years of analytical experience.Education BS/BA degree in an analytical or technical discipline,OR four (4) years experience in directly related field required. High School Diploma or General Education Development required.License, Certification, Registration N/AAdditional Requirements: N/APreferred Qualifications: Health care or insurance experience preferred. Master's degree in analytical discipline. Advanced degree in a quantitative or technical discipline preferred. Epic knowledge preferred. Specific and broad knowledge of KPCO and CPMG Operations, KP applications, and KP HealthConnect, including Hyperspace, Clarity and Chronicles preferred.
+
+        
+
+        
+
+            Primary Location: Colorado,Aurora,Waterpark I 2500 S. Havana St. 
+
+        
+
+            Scheduled Weekly Hours: 40
+
+        
+
+            Shift: Day 
+
+        
+
+            Workdays: Mon, Tue, Wed, Thu, Fri
+
+        
+
+            Working Hours Start: 8:00 AM 
+
+        
+
+            Working Hours End: 5:00 PM 
+
+        
+
+            Job Schedule: Full-time 
+
+        
+
+            Job Type: Standard
+
+        
+
+            Employee Status: Regular
+
+        
+
+            Employee Group/Union Affiliation: Salaried, Non-Union, Exempt 
+
+        
+
+            Job Level: Individual Contributor
+
+        
+
+            Job Category: Healthcare / Hospital Operations
+
+        
+
+        
+
+            Department: BOSS Analytics 
+
+        
+
+            Travel: Yes, 15 % of the Time
+
+        
+
+ External hires must pass a background check/drug screen. Qualified applicants with arrest and/or conviction records will be considered for employment in a manner consistent with Federal, state and local laws, including but not limited to the San Francisco Fair Chance Ordinance. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, protected veteran, or disability status.         
+
+         Click here for additional requirements >
+
+        
+
+        
+
+       
+
+	Submit Interest
+
+        		        
+
+        
+
+        <!--Click here for additional requirements >-->
+
+        
+
+    
+
+
+
+
+
+        
+
+    
+
+
+
+        About Health Care & Hospital Operations Careers
+
+
+
+        
+
+
+
+             Health Care & Hospital Operations Careers
+
+        
+
+        Envision the future, inspire change, and deliver results. Put your talents to work not just at a powerful business, but at an organization dedicated to empowering the health and well-being of millions. As a valued member of the Kaiser Permanente team, your visionary and strategic contributions are especially vital to our success. Come drive change within the organization and across the future of health care.
+
+               
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+        
+
+            Share This Job
+
+            
+
+	                Facebook
+
+	                Twitter
+
+	                LinkedIn
+
+	                Email
+
+                            
+
+        
+
+    
+
+
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+      Check Out This Location > 
+
+
+
+    
+
+
+
+    
+
+
+
+        Learn About Our Hiring Process >
+
+
+
+    
+
+
+
+	    <!--
+
+    
+
+    
+
+
+
+    
+
+
+
+        Check Out This Location > 
+
+
+
+    
+
+
+
+    
+
+
+
+        Learn About Our Hiring Process >
+
+
+
+    
+
+-->
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+
+
+            
+
+
+
+            See What People are Saying About Working at KP
+
+
+
+             Open 
+
+
+
+        
+
+
+
+       
+
+
+
+        
+
+
+
+            
+
+
+
+                 
+
+
+
+            
+
+
+
+            
+
+
+
+                May 24, 2017
+
+
+
+                "Mission-driven organization, passionate employees, patient-centered, 21st century care delivery"
+
+
+
+                
+
+
+
+                    
+
+    
+
+                    Former Employee - Anonymous Employee in Oakland, CA
+
+                
+
+
+
+                
+
+                    Recommends
+
+                    Positive Outlook
+
+                    Approves of CEO
+
+                
+
+
+
+                 I worked at Kaiser Permanente full-time (More than 8 years)
+
+
+
+                Pros
+
+
+
+                70-year-old company, $65 billion in revenue, 11.3 million members, 38 hospitals, 600+ medical offices.
+
+
+
+                One of the largest and most respected integrated health care systems in the US (and in the world).
+
+
+
+                One of the first health systems to implement a 100% electronic medical record system Leverages digital and mobile technologies to make it convenient for members and patients.
+
+
+
+                A CEO who worked his way up in the organization over a 30-year career. He inspires confidence from employees and leadership by clearly understanding the organizations' strengths and weaknesses.
+
+
+
+                Competitive salaries, generous health/dental insurance benefits, pension and 401K, and PTO & sick time accrual.Full Review
+
+
+
+                  More Kaiser Permanente Ratings &amp; Reviews (3,975)  
+
+                 
+
+
+
+        
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+     
+
+
+
+            Our Events
+
+             
+
+
+
+                Come introduce yourself to a member of the Kaiser Permanente team at an upcoming career or professional event. We look forward to meeting you in person.
+
+
+
+                View Events > 
+
+
+
+
+
+            
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+         
+
+         
+
+        Recently Viewed Jobs
+
+        You do not have any recently viewed jobs.
+
+        
+
+        
+
+    
+
+
+
+    
+
+ 
+
+
+
+        Join Kaiser Permanente's Talent Network
+
+
+
+        Open 
+
+
+
+        
+
+                
+
+             
+
+
+
+        
+
+            
+
+
+
+        
+
+
+
+	
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+        
+
+
+
+            
+
+
+
+
+
+
+
+    
+
+        
+
+        
+
+        
+
+    
+
+
+
+    
+
+
+
+        Connect With Us
+
+
+
+        
+
+        
+
+            Visit us on Twitter
+
+            Visit us on LinkedIn
+
+            Visit us on Glassdoor
+
+            Visit us on Facebook
+
+            Visit us on YouTube
+
+
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+     
+
+
+
+        
+
+    
+
+                    Accommodation Info
+
+                    Terms &amp; Conditions
+
+                    Privacy Practices
+
+                    EEO Statement
+
+                    Technical Information
+
+                    Contact Web Manager
+
+                    Sitemap
+
+    
+
+            
+
+
+
+        &#169;2017 Kaiser Permanente
+
+
+
+    
+
+
+
+    Back to top
+
+    
+
+
+
+            
+
+        
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,461 @@
+
+
+
+
+
+SQL Business Intelligence Analyst | Hartman Executive Advisors
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Log In
+
+
+
+
+Register
+
+
+
+
+Jobs
+
+
+
+
+Back to Website
+
+
+
+
+
+
+
+
+
+
+
+
+SQL Business Intelligence Analyst
+
+
+
+Email
+
+
+
+
+
+
+        
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+
+Tweet!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+
+
+
+Location: Baltimore, MD
+
+
+Date Posted: 06-02-2017
+
+
+
+
+
+Apply Now
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+
+			
+
+				
+
+					
+
+						TITLE:
+
+						Business Intelligence Analyst
+
+					
+
+					
+
+						REPORTS TO:
+
+						Chief Information Officer
+
+						FLSA:
+
+						Exempt
+
+					
+
+					
+
+						DEPARTMENT:
+
+						&nbsp;IT
+
+						LOCATION:
+
+						&nbsp;Mount Vernon
+
+					
+
+				
+
+			
+
+			
+
+		
+
+		
+
+			
+
+			
+
+				
+
+					
+
+						
+
+						
+
+						
+
+						
+
+					
+
+					
+
+						JOB SUMMARY:
+
+					
+
+					
+
+						The Business Intelligence Analyst&nbsp;is responsible for developing and deploying operational, analytics, and dashboard reporting based on the needs as determined by the organization.&nbsp; The position will analyze requirements for the design in collaboration with the Healthcare Business Analyst and subsequently develop, implement, and document activities as well as schematics for ongoing use. &nbsp;In addition, the position will review current schemas for opportunities for automation and optimization to ensure an efficient and effective data environment. &nbsp;&nbsp;&nbsp;
+
+						&nbsp;
+
+						As a Business Intelligence Analyst you will play an integral role in providing relevant data to support the mission and vision of the organization with the use of various industry standard automated tools (SQL, i2i, SSRS, etc.)
+
+					
+
+					
+
+						&nbsp;
+
+					
+
+					
+
+						MAJOR DUTIES AND RESPONSIBILITIES:
+
+						&nbsp;
+
+						Planning and Organizing
+
+						
+
+							Prioritize relevant activities based on multiple priorities to achieve assigned responsibilities within agreed upon timeframes.
+
+							Provide support to the development of training materials and training activities related to the reporting tools and applications.
+
+							Participate in the formulation of development procedures, standards, deployment/retirement and archiving as related to the reporting tools and applications.
+
+							Collaborate with team members to provide feedback on overall reporting process and propose areas for improvement or risk.
+
+						
+
+						&nbsp;
+
+						&nbsp;
+
+						Communication
+
+
+
+						
+
+							Provide consistent feedback to the Healthcare Business Analyst, data requestor, and other team members.
+
+							Communicate ongoing status of activities as it impacts data quality and project deadlines.
+
+							Where needed participate in meetings with data requestors, Healthcare Business Analysts, and analytics team.
+
+						
+
+						&nbsp;
+
+						Attention to Detail 
+
+
+
+						
+
+							Review and validate customer data as it is collected.
+
+							Ensure integrity of data collection and utilization.
+
+							Perform data profiling to identify and understand anomalies
+
+						
+
+						&nbsp;
+
+						&nbsp;
+
+					
+
+					
+
+						&nbsp;
+
+					
+
+					
+
+						SKILLS AND ABILITIES:
+
+					
+
+					
+
+						
+
+						
+
+							Proven experience with data reporting using various development tools, for example SSRS, SSIS, SSMS, SSAS, Microsoft BI, and PowerPivot.
+
+							Expertise in relational and multidimensional database schemas
+
+							Strong analytical and SQL skills
+
+							Ability to translate complex technical terminology, concepts and issues in terms understandable to technical and non-technical management and resources staff
+
+							Strong interpersonal skills to resolve problems in a professional manner as well as participate in working groups.
+
+							Ability to handle multiple priorities and meet deadlines.
+
+							Experience with data modeling/related and ETL concepts preferred
+
+							Knowledge of agile and/or other development principles
+
+							Excellent problem solving skills
+
+						
+
+						&nbsp;
+
+					
+
+					
+
+						EDUCATION AND/OR EXPERIENCE:
+
+					
+
+					
+
+						
+
+						
+
+							Bachelor&rsquo;s degree specializing in MIS, Engineering, or equivalent work experience.
+
+							A minimum of 2-4 years MS SQL development experience is required.
+
+							2-4 years&rsquo; report development experience with MS Reporting Services (SSRS) preferred.
+
+							Health care industry experience is highly preferred.&nbsp;
+
+							Experience within an FQHC environment is desirable.
+
+						
+
+						&nbsp;
+
+					
+
+					
+
+						WORKING CONDITIONS/PHYSICAL DEMANDS:
+
+					
+
+					
+
+						Work is typically performed in an office environment.
+
+					
+
+					
+
+						&nbsp;
+
+					
+
+					
+
+						The specific statements shown in each section of this description are not intended to be all-inclusive. They represent typical elements considered necessary to successfully perform the job.
+
+					
+
+					
+
+						&nbsp;
+
+					
+
+					
+
+						&nbsp;
+
+					
+
+					
+
+						&nbsp;
+
+					
+
+				
+
+			
+
+			
+
+		
+
+	
+
+
+
+&nbsp;
+
+&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+Apply Now
+
+
+
+
+
+
+var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-12680876-1']);_gaq.push(['_trackPageview']);_gaq.push(['_setDomainName', 'catsone.com']);
+(function() {try{
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);}catch(err){}
+})();
+
+document.observe("dom:loaded", function() {
+  $$PROT('a[href*="index.php?m=portal&a=register&portalID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartReg', 'hartmanresumes']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=login&portalID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartLog', 'hartmanresumes']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=details&jobOrderID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'ViewJob', 'hartmanresumes']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=apply&jobOrderID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartApp', 'hartmanresumes']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=sendToFriend&jobOrderID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartRec', 'hartmanresumes']);
+  }); });
+  $$PROT('#jobApplication').each(function(e){ Event.observe(e, 'submit', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'FinApp', 'hartmanresumes']);
+  }); });
+  $$PROT('#sendToFriend').each(function(e){ Event.observe(e, 'submit', function(event) {
+ 	if(sendToFriendSuccess == true){    _gaq.push(['_trackEvent', 'Portal', 'FinRec', 'hartmanresumes']);
+ 	}  }); });
+  $$PROT('#loginForm').each(function(e){ Event.observe(e, 'submit', function(event) {
+	if(loginSuccess == true){    _gaq.push(['_trackEvent', 'Portal', 'FinLog', 'hartmanresumes']);
+	}  }); });
+});document.observe("dom:loaded",function(){_gaq.push(['_setCustomVar',1,'isFree',1,3]);_gaq.push(['_setCustomVar',2,'isBranded',1,3]);_gaq.push(['_setCustomVar',3,'isTrial',0,3]);_gaq.push(['_setCustomVar',4,'isLogged',0,2]);});
+var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(66466644);
+
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+})();
+
+
+    var _paq = _paq || [];
+    // tracker methods like "setCustomDimension" should be called before "trackPageView"
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    // you can set up to 5 custom variables for each visitor
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//piwik.catsone.com/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', "7066"]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+
+
+
+
+

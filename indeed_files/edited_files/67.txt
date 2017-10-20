@@ -1,0 +1,218 @@
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+Delta Career Opportunities
+
+
+
+
+
+
+
+
+
+
+
+
+	Skip to main content
+	
+		
+			
+				
+					delta.com
+				
+			
+			
+				HOME |
+				DELTA.COM
+				
+
+		function adjustLocale()
+
+		{
+
+			
+
+			var locParams = document.getElementById('localeDD').value.split(",");
+
+			PSCommon.reloadPageUrlWithParam(locParams[0],locParams[1]);
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+ -->
+			
+		
+		
+		
+			
+				
+				
+					Search All Jobs
+				
+				
+					
+						Returning Candidates
+					
+				
+					
+						FAQ
+					
+				
+					
+						I Was Referred
+					
+					
+			
+		
+		
+		
+			
+			
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+        
+
+
+
+		Let us tell you a little more...
+
+		
+
+		
+
+
+
+		Data Analyst
+
+		
+
+		Requisition #:&nbsp;268773
+
+		
+
+		
+
+		
+
+			
+
+				Atlanta, 
+
+			
+
+		
+
+		
+
+		
+
+		Job SummaryDelta's Operations Strategy & Analytics Undergraduate Development Program places candidates in the Operations Analysis & Performance (OAP) group for two one-year, cross-functional rotations. This group provides analytical support across all major operational areas of the company, making recommendations to the business units to drive down costs, gain operational efficiencies, and improve customer experience through a combination of forecasting, data visualization, regression analysis, text mining, and other statistical tools. Program placement spans across the full range of Delta's operation, and focuses on any of the following areas:Airport Customer Service - Airport process from check-in to bag claim i.e. tested boarding process redesign by measuring performanceFlight Operations - Gate-to-gate pilot and crew performance i.e. reduced taxi time by utilizing live aircraft dataIn-Flight Services - Onboard customer experience i.e. improved customer satisfaction giving snack selection and personal onboard announcementOperations & Customer Center - On-time flight metrics i.e. built optimal network schedule based on historical taxi and enroute trendsDelta Connection - Regional carrier liaison i.e. identified customer satisfaction opportunities for regional flightsTechnical Operations - Maintenance and engineering i.e. optimized maintenance turn times through optimal inventory and staffing levelsCentralized OAP - Executive reporting and survey program across OAP teams i.e. established and standardized the Delta survey programContinuous Improvement/PMO - Lean Six-Sigma application i.e. reduced the turn time of the aircraft meal processSafety & Security - Employee and flight safety i.e. created an injury reduction and maturation modelProjects involve identifying key business issues, performing comprehensive analyses, and presenting recommendations to management. As analysts in Delta's Development Program, candidates will also have access to a broad range of networking and personal development opportunities throughout their experience. These include access to mentors, job shadowing with frontline staff, and frequent socials and networking opportunities with both company leaders and fellow analysts.Job Qualifications: Bachelor's degree in Engineering, Computer Science, Information Science, Business/Management, Mathematics/Statistics, Economics or other relevant quantitative field required. 0-2 years of experience in analysis, information science, data visualization, or other relevant quantitative field preferred. Track record of seeking leadership roles including student and community organizations preferred. Must be comfortable working in group and individual settings. Successful candidates will have familiarity and/or experience with some or all of the following:Successful candidates will have familiarity and/or experience with some or all of the following:    	SQL, SAS, R or other database interface tools and languages    	Visual Basic, Perl or other basic functional programming tools    	Statistical analysis and modeling including Linear Regression, Segmentation, non-linear predictive (e.g. Logistic) regression and machineLearning
+
+		
+
+				
+
+	
+
+
+
+	
+
+
+	
+
+		
+
+		
+
+		
+
+		
+
+		
+
+
+	
+
+	
+
+	
+
+	var cursorFocus = function(elem) {
+
+		  var x = window.scrollX, y = window.scrollY;
+
+		  elem.focus();
+
+		  window.scrollTo(x, y);
+
+		}
+
+		//document.jbdescForm.ApplyForJob.focus();
+
+		cursorFocus(document.jbdescForm.ApplyForJob);
+
+		
+
+	
+
+	
+
+	
+			
+			
+			
+				As an equal opportunity employer, Delta Air Lines recognizes that our strength lies in our people. We are committed to diversity.
+			
+			
+			
+				
+					
+
+
+
+
+				
+			
+				
+	
+

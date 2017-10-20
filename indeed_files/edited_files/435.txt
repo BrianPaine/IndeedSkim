@@ -1,0 +1,600 @@
+
+
+
+Careers | University of Denver
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+function clear_search() {document.search_form.search_phrase.value= "";}
+
+window.onload=function()
+{
+
+if(""=="yes")
+{
+  
+}
+}
+
+
+
+
+
+
+
+
+
+-->
+
+
+
+
+
+			
+
+			
+
+			
+
+			
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+					var productVersion = "2017.5"; var timeoutSeconds = 3600; var timeoutWarningSeconds = 300; var displayTimeWarning = 0; var isCandidateLoggedIn = false; var companyId = 16973; var ep_version = 1;
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+HomeCareer OpportunitiesAbout DUInclusive Excellence at DUFAQs
+    
+    
+  
+   
+      
+    
+
+
+
+
+
+
+
+  Your user session will timeout in 5 minutes.  Please click OK to continue with your application.
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+		
+
+			
+
+				
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					9/28/2017
+
+				
+
+			
+
+			
+
+				
+
+					Research Analyst – Office of Institutional Research &amp; Analysis
+
+				
+
+			
+
+			
+
+				
+
+					
+
+						Tracking Code
+
+					
+
+					
+
+						002979 
+
+					
+
+				
+
+				
+
+					
+
+						Job Description
+
+					
+
+					
+
+						The Office of Institutional Research &amp; Analysis (IR) supports a culture of data literacy and evidence-based decision making at the University. We design and conduct insightful institutional research to inform strategic and operational planning both centrally and within individual units across campus. We also serve as the central source for information about DU and report institutional data to government agencies and other external constituents on behalf of the University.
+
+&nbsp;
+
+Our office is led by the Assistant Provost for Institutional Research &amp; Analysis and operates under the Office of the Provost. We proudly support the University&rsquo;s commitment to inclusive excellence and welcome staff members from all backgrounds and identities.
+
+&nbsp;
+
+Position Summary
+
+The Research Analyst reports to the Director of Data Management and supports core institutional research operations at the University. The position collects, analyzes, and reports institutional data to support the University&rsquo;s mission, strategic initiatives, and day-to-day operations.
+
+&nbsp;
+
+As a trusted source for information and analysis, the Research Analyst is responsible for supporting informed decision making at all levels of the University&rsquo;s operations. Externally, the position is responsible for the timely and accurate submission of institutional data on behalf of the University for mandatory federal and state reporting, accreditation, and institutional rankings and ratings.
+
+&nbsp;
+
+This position provides an excellent entry-point into the field of institutional research but also supports advancement into related fields such as business intelligence and data science. We actively support a culture a professional development and seek qualified candidates who are eager to grow in their career as data professionals.
+
+&nbsp;
+
+Essential Functions
+
+
+
+Collect, prepare, and report institutional data to government agencies, accrediting bodies, ranking organizations, and higher education publications on behalf of the University.
+
+Respond to ad hoc requests for institutional data, reports, and analyses from the University&rsquo;s academic, business, and administrative units.
+
+Prepare datasets, analyze data, and draft reports in support of institutional research, analysis, assessment, and planning projects at the University, both centrally and within individual units.
+
+Develop and maintain visualizations and automated reports to conduct and communicate institutional data and research findings to internal and external stakeholders.
+
+
+
+&nbsp;
+
+Knowledge, Skills, and Abilities
+
+Knowledge
+
+
+
+Knowledge of relational database design and reporting structures.
+
+Knowledge of data visualization methods and design principles.
+
+Knowledge of descriptive statistics.
+
+
+
+Abilities
+
+
+
+Ability to explore data models and build queries to efficiently extract, analyze, and report data from multiple database sources.
+
+Ability to interpret and follow detailed policies and technical procedures.
+
+Ability to collect business and technical requirements from a variety of constituents and develop appropriate reporting and analysis solutions.
+
+Ability to effectively communicate complex information to a variety of audiences.
+
+Ability to work independently and collaboratively within a team.
+
+Ability to develop and maintain effective working relationships with stakeholders and partners.
+
+Ability to manage multiple projects simultaneously and adapt to shifting priorities and needs.
+
+
+
+Skills
+
+
+
+Excellent critical thinking and analytical skills.
+
+Excellent attention to detail and ability to meet high standards for accuracy and consistency.
+
+Excellent oral and written communication skills.
+
+Strong interpersonal skills and service-oriented attitude.
+
+Proficiency with Microsoft Office, in particular, Access and Excel.
+
+
+
+Other
+
+
+
+Strong commitment to professional ethics.
+
+Ability to exercise discretion and sound independent judgment.
+
+Ability to learn the principles of inclusive excellence and apply them to all aspects of work.
+
+
+
+&nbsp;
+
+Required Qualifications
+
+
+
+Bachelor&rsquo;s degree in business intelligence, statistics, information systems, or a related analytical field. Combination of Bachelor&rsquo;s degree and relevant experience will also be considered.
+
+Three years of demonstrated experience:
+
+
+
+Preparing and analyzing complex datasets from multiple database sources.
+
+Gathering reporting and analysis requirements from a variety of constituents.
+
+Developing effective reporting and analysis solutions.
+
+
+
+
+
+
+
+&nbsp;
+
+Preferred Qualifications
+
+
+
+Master&rsquo;s degree in business intelligence, statistics, information systems, or a related analytical field.
+
+Experience working in higher education.
+
+Experience writing technical documentation.
+
+Knowledge of inferential statistics.
+
+Proficiency with SQL.
+
+Proficiency with Cognos.
+
+Proficiency with Tableau.
+
+Proficiency with Banner.
+
+Proficiency with SPSS.
+
+
+
+&nbsp;
+
+Work Schedule
+
+Monday &ndash; Friday, 8:00 a.m. &ndash; 4:30 p.m.
+
+&nbsp;
+
+Application Deadline
+
+For best consideration, please submit your application materials by&nbsp;4:00pm (MST) Tuesday, October 12, 2017. Position will remain open until filled.&nbsp;
+
+&nbsp;
+
+Special Instructions
+
+Candidates must apply online through https://dujobs.silkroad.com/ to be considered. Only applications submitted online will be accepted. Once within the job description online, click New Resume/CV at the bottom of the page to begin the application. For questions about this position, please contact Christopher Pena at christopher.pena@du.edu.
+
+&nbsp;
+
+Please include the following documents with your application:
+
+
+
+Resume
+
+Cover Letter
+
+
+
+&nbsp;
+
+In the cover letter, please briefly describe how your experience has prepared you to successfully meet the responsibilities of the position, including:
+
+
+
+Your proficiency working with complex data.
+
+Your experience developing reports and analyzing data.
+
+Your experience working with multiple data sources and information systems.
+
+
+
+&nbsp;
+
+The University of Denver is committed to enhancing the diversity of its faculty and staff and encourages applications from women, minorities, members of the LGBTQ community, people with disabilities and veterans. The University is an equal opportunity/affirmative action employer.&nbsp;
+
+&nbsp;
+
+All offers of employment are based upon satisfactory completion of a criminal history background check.
+
+					
+
+				
+
+				
+
+					
+
+						Department
+
+					
+
+					
+
+						Planning, Budget, and Analysis 
+
+							(326200)
+
+						
+
+					
+
+				
+
+					
+
+						Position Type
+
+					
+
+					
+
+						Full-Time/Regular
+
+					
+
+				
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					
+
+						
+
+							Apply
+
+						
+
+					
+
+					
+
+						
+
+						
+
+						
+
+								
+
+								
+
+								
+
+							
+
+					
+
+				
+
+				
+
+					
+
+						
+
+							
+
+								Share
+
+							
+
+						
+
+						
+
+							
+
+							
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+							
+
+							
+
+							
+
+						
+
+					
+
+				
+
+			
+
+			
+
+				
+
+					Return To Job Listings
+
+				
+
+				
+
+			
+
+		
+
+	
+
+ 
+
+
+
+  Career OpportunitiesSearch Current OpeningsManage Existing ApplicationsCreate a Job AgentUpdate Job AgentRecruiting Agency Login 
+  &nbsp; 
+
+  
+
+
+
+
+
+
+
+
+&copy; 2017 University of Denver. All rights reserved. | Site Map
+
+
+
+
+
+&nbsp;
+
+
+
+   
+
+        
+
+    
+
+
+
+
+
+ 
+
+		,\n\t\t       \n\t\t\t  ","FORMATLOCALEID":1674,"PHONEREGEX":"^([+])?([1]( |-|\\.)?)?(\\(?[1-9]{1}[0-9]{2}\\)?|[1-9]{1}[0-9]{2})( |-|\\.)?([0-9]{3}( |-|\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$"}
+
+		-->
+
+	

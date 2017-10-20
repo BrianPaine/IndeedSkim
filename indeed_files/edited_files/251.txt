@@ -1,0 +1,429 @@
+
+
+
+
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o
+
+
+	 
+	 
+
+Business Systems Analyst &#8211; Spotify Jobs
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+img#wpstats{display:none}
+
+
+
+
+
+
+
+	
+		body {
+			opacity: 0;
+			background-color: #fff;
+		}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-96101180-1', 'auto');
+	ga('send', 'pageview');
+
+
+	
+
+	
+		
+	
+		
+			
+				
+					
+						
+					
+				
+
+				
+					Search Jobs
+Locations
+Job Categories
+Backstage
+Students
+
+					
+						
+					
+
+					
+						
+					
+				
+			
+		
+	
+
+	
+	
+		Search Jobs
+Locations
+Job Categories
+Backstage
+Students
+
+		
+			
+				
+			
+		
+	
+
+
+
+
+
+	
+		
+			
+				Business Systems Analyst
+									
+						Business Support / Finance in New York, USA					
+							
+
+			
+				
+					At Spotify, we connect people to their favorite music and we’ve created a service that people use to discover and enjoy content they love. We’re in 60+ markets…and counting! We aim to revolutionize the way people consume content, and we need some very talented people to help us achieve our mission.
+We are looking for a driven, enthusiastic Business System Analyst to support the accounting operations and transform the financial infrastructure. This role will be responsible for enabling the finance team to improve business performance and operational effectiveness and efficiency. The ideal candidate will have at least 3 years of combined experience in system implementation at a global organization listed in U.S. and digital subscription or digital advertising industry. The position is based in NYC.
+What You Will Do
+
+Gather and document business requirements, functional requirements, and use cases
+Perform UAT for all use case and coordinate business partner UAT and sign-off.
+Perform regression testing for Netsuite release upgrades
+Analyze and document business processes to help identify opportunities for improvement through automation.
+Provide support for month end close and post-deployment phase
+Partner closely with program management, application development, and system infrastructure teams to ensure projects are prioritized correctly and are aligned with their sponsor’s objectives
+Develop training documents and conduct training class for global accounting business processes
+Communicate progress and updates to the company on the work being done in the Business Systems Organization
+Other responsibilities include, but not limited to, participating in special projects or ad hoc analysis
+Ability to use simple SQL or other code languages scripting to perform ad hoc data analysis on extremely high volume of data records.
+
+ 
+Who You Are
+
+Bachelor’s degree in business, management information systems, or computer science
+Minimum of 3 years related experience with global public company in digital subscription, top consulting companies, or large accounting firms
+Have some accounting process background
+Experience with major ERP system required (Prefer Netsuite) and other applications, e.g. Salesforce, Coupa, Concur, Blackline preferred
+Experience with SQL, or other code languages
+In depth knowledge and interest in the music industry
+Excellent written and verbal communication skills, including extensive experience meeting and presenting to senior executives
+Excellent project management skills and the ability to collaborate with management and others in the company
+Technical savvy and have vision for the future
+Problem Solver &#8211; ability to not only identify issues, but provide solutions and options
+Having worked in public companies with international operations is a must, preferred if listed in the U.S
+
+We are proud to foster a workplace free from discrimination. We strongly believe that diversity of experience, perspectives, and background will lead to a better environment for our employees and a better product for our users and our creators. This is something we value deeply and we encourage everyone to come be a part of changing the way the world listens to music.
+				
+			
+
+			
+				
+					Share
+
+					
+						Save					
+
+					
+	
+	
+	
+	
+
+				
+
+									Apply now
+							
+		
+	
+
+
+
+	
+	
+
+					
+				
+					Similar jobs
+				
+			
+		
+		
+		
+			
+				
+					
+	
+		
+			Job
+			Category
+			Location
+		
+	
+
+	
+					
+	
+		
+			Senior Legal Counsel, Employment law
+		
+	
+	
+		Business Support, Legal	
+	
+		Stockholm, Sweden	
+
+					
+	
+		
+			Pricing &#038; Inventory Analyst, APAC
+		
+	
+	
+		Business Support, Finance	
+	
+		Sydney, Australia	
+
+					
+	
+		
+			Associate Counsel &#8211; Rights / Clearances
+		
+	
+	
+		Business Support, Legal	
+	
+		Los Angeles, USA	
+
+					
+	
+		
+			Senior Accountant, GL
+		
+	
+	
+		Business Support, Finance	
+	
+		New York, USA	
+
+				
+	{{# items }}
+		
+			
+				
+					{{{ title }}}
+				
+			
+			
+				{{# categories }}
+					{{{ name }}}
+				{{/ categories }}
+			
+			
+				{{# locations }}
+					{{{ name }}}
+				{{/ locations }}
+			
+		
+	{{/ items }}
+	{{^ items }}
+		
+			
+				There is no job like that on the playlist right now. Try something else.
+			
+		
+	{{/ items }}
+
+	
+
+				
+			
+		
+
+					
+			
+				
+					
+						
+							More jobs						
+					
+				
+			
+			
+
+	
+	
+		
+			
+				Related content
+			
+		
+
+		
+			
+				
+									
+						
+
+							
+															
+
+							
+								Business Support							
+
+															See more jobs in Business Support.
+													
+					
+									
+						
+
+							
+															
+
+							
+								New York							
+
+															See more jobs in New York.
+													
+					
+							
+		
+	
+	
+	
+		
+			Spotify
+
+			Company
+
+	About
+	Press
+	News
+
+
+Communities
+
+	For Artists
+	Developers
+	Brands
+
+
+Useful links
+
+	Help
+	Gift
+	Web Player
+
+
+
+							
+					
+						
+							
+							
+								
+									
+									Instagram
+								
+							
+						
+							
+							
+								
+									
+									Twitter
+								
+							
+						
+							
+							
+								
+									
+									Facebook
+								
+							
+						
+							
+							
+								
+									
+									LinkedIn
+								
+							
+											
+				
+			
+		
+
+		
+			Legal
+Cookies
+
+			
+				&copy; 2017 Spotify AB&nbsp;&nbsp;|&nbsp;&nbsp;Powered by WordPress.com VIP
+			
+
+			Powered by WordPress.com VIP
+		
+	
+
+	
+
+	
+
+
+/* Cookie Policy.","cookieAcceptText":"Ok, I understand"};
+/* ]]> */
+
+
+
+
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:5.4',blog:'128040440',post:'8376',tz:'2',srv:'www.spotifyjobs.com'} ]);
+	_stq.push([ 'clickTrackerInit', '128040440', '8376' ]);
+
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"949ceaf672","applicationID":"35929145","transactionName":"MQZWYhAFXhdYAUBfWwhMdVUWDV8KFghbVA==","queueTime":0,"applicationTime":99,"atts":"HUFBFFgfTUgbAxYMTxse","errorBeacon":"bam.nr-data.net","agent":""}
+

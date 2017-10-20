@@ -1,0 +1,269 @@
+
+
+                                                                                            
+    
+    
+                        
+        
+        
+        Logic20/20 Careers - Data Analyst
+                    
+            
+                                        
+                                            
+                
+            
+                                        
+        
+                        
+        
+
+        
+        
+        
+        
+                                
+                
+            
+        
+                
+    
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            var enableTracking = true;
+            var trackerId = "UA-15090121-1";
+            var pageTracker = _gat._getTracker("UA-15090121-1");
+        } catch(err) {}
+    
+    
+
+    function trackPage() {
+        try {
+            if (enableTracking && enableTracking == true) {//enableTracking var is set during analytics script reg.
+                var pageTracker = _gat._getTracker(trackerId);
+                var varIndex = 1;
+                try {
+                pageTracker._setCustomVar(varIndex++, "UserId", getUserId(), 1);
+                pageTracker._setCustomVar(varIndex++, "CompanyId", getCompanyId(), 1);
+                }//to track pages which does not have a User
+                catch (userIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "SubsidiaryId", getSubsidiaryId(), 1);
+                } //to track pages which does not have a subsidiaryId
+                catch (subsidiaryIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "JobId", getJobId(), 3);
+                    pageTracker._setCustomVar(varIndex++, "CategoryId", getCategoryId(), 3);
+                }//to track pages which does not have a jobref
+                catch (jodIdError) {
+                }
+                if (enableAnonymizeIP && enableAnonymizeIP == true) {
+                    _gat._anonymizeIp();
+                }
+
+                pageTracker._trackPageview();
+            }
+        }
+        catch (error) {
+
+        }
+    }
+
+
+    function getUserId() { return ''; }
+
+
+    function getCompanyId() { return 'qz89Vfwv'; }
+
+    
+        function getJobId() { return 'oYvi5fwA'; }
+    
+    
+        function getCategoryId() { return '8'; }
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+
+
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            enableTracking = true;
+            trackerId = "UA-25220607-1";
+            pageTracker = _gat._getTracker("UA-25220607-1");
+        } catch(err) {}
+    
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+        
+            if (window.self !== window.parent) {
+                document.documentElement.className += ' jv-iframe';
+            }
+        
+        
+    
+        
+                    
+        
+                            
+                            
+        
+            
+                                    
+                                                    Logic20/20 Careers                                            
+                            
+        
+                
+                        
+    
+                    
+                                
+                Data Analyst
+    
+    
+                                        
+                            Technology Consulting             
+                    Seattle,
+                            Washington
+                
+                        
+        
+    
+                        
+                        
+    
+        Apply
+    
+                            
+                        
+            Description
+                        
+                The Company Logic20/20&nbsp;is one of Seattle*s fastest growing full service consulting firms. We have two key areas of expertise: business and technology consulting. Our core competency is creating simplicity and efficiency where these two business practices intersect. Although we make it look like magic, we succeed by combining methodical and structured approaches with our substantial experience to design elegant solutions for even the most intricate challenges. We were founded on the premise that most projects are simply too complex and too difficult for the problem they are trying to solve. Our project managers, senior consultants, and software development engineers are always seeking to add value for our clients by utilizing their extensive experience and creativity while grounded in the fundamentals of successful business and technical delivery strategies. Position Description  The&nbsp;Data Analyst will review functional requirements and assist with functional specifications. They will develop insights into business and data models and will perform data analysis activities to identify relational data issues. The will also review issues identified by offshore development teams and will work with SMEs / Microsoft IT to understand the cause of identified issues. 3-5 years of experience working with SQL queries, is preferred.Proficient with Power BI, MS Excel and/or Tableau3+ years of experience working with SQL queries and accessing data2+ years of consulting experience, preferably at a "Big 4" or similar firmDemonstrated expertise in business analysis and data analysisAbility to proficiently come up to business requirements/model and gain good understanding of business metricsWorking knowledge of DAXExcellent organizational, presentation, analytical, written and verbal communicationAbility to be flexible and juggle multiple projects in a fast paced environmentAbility to work under pressure and to independently handle multiple projects and deadlinesAn undergraduate degree in technology or businessEffective at communicating technical issues to non-technical usersCompensation &amp; Benefits  We offer competitive compensation, medical, dental, vision and basic life insurance. The Data Analyst will be a full-time, salaried employee who will accrue company holidays and annual paid time off. One of the most important benefits is the opportunity to work in an incredibly exciting and rapidly growing firm. The best part is that we are a group of highly dedicated and competent professionals that deliver results and have fun along the way. Principals only, please.&nbsp;
+            
+                            
+                    
+                
+                    
+    
+        Apply
+    
+                            
+        Apply Later    
+            
+        
+            &larr; Back to Current Openings        
+    
+    
+                                
+    
+        
+        Share
+        
+            
+                lang: en_US            
+            
+            
+                
+                    LinkedIn
+                
+            
+            
+                
+                    Facebook
+                
+            
+            
+                
+                    Twitter
+                
+            
+            
+                
+                    Email
+                
+            
+        
+    
+                    
+                                        
+            
+                Similar Jobs
+                                                        
+                    
+                        
+                            
+                                
+                                    {{ job.title }}
+                                
+                            
+                        
+                    
+                
+            
+            
+                
+    
+                    
+            
+                    
+        
+            
+                                                                        
+                    
+                        Powered by Jobvite
+                            
+        
+    
+            
+    
+        
+        
+    
+            
+    
+    
+        angular.module('preloadedData', []).constant('preloadedData', {
+                                        applyLinkUrl: '${job.applyLinkUrl}',
+                jobCategoryId: 'arV9Vfwa',
+                jobCategoryName: 'Technology Consulting ',
+                jobId: 'oYvi5fwA',
+                jobReqId: '339                                               ',
+                jobTitle: 'Data Analyst',
+                jobLocationId: 'CCMcVfwf',
+                                                                jobviteAnalytics: 'UA-15090121-1',
+                                        companyAnalytics: 'UA-25220607-1',
+                                                                                                    enableRecommendedJobs: true,
+                                                    enableResumeParsing: true,
+                                        numberFormat: "##,###,###,###,###.####",
+                                    companyEId: 'qz89Vfwv',
+            linkedInApiKey: '7557fkcarvxieo',
+            facebookApiId: '48354194572',
+            dropBoxApiKey: 'w5fg28zznqcyg4w',
+            baseUrl: '/logic2020',
+            cdnURL: '',
+            releaseVersion: '171003110732',
+            careersiteName: 'logic2020',
+            careersiteDomainName: '${careersiteDomainName}',
+            careersiteSourceTypeId: 'P8vKVfw2'
+        }).constant('i18n', {
+            I18N_RESUME_PREVIEW: 'Resume Preview',I18N_NO_RESUME_FOUND: 'No resume found',I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',I18N_RECOMMENDER: 'Recommender:',I18N_CURRENT: 'Current',I18N_PAST: 'Past',I18N_EDUCATION: 'Education',I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',I18N_PATENTS: 'Patents',I18N_SUMMARY: 'Summary',I18N_SPECIALTIES: 'Specialties',I18N_EXPERIENCE: 'Experience',I18N_RECOMMENDATIONS: 'Recommendations',I18N_PRESENT: 'Present',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec'        });
+        Jobvite = {
+            baseUrl: 'https://app.jobvite.com'
+        }
+    
+                    
+    
+
+    

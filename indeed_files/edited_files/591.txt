@@ -1,0 +1,4004 @@
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+  Microsoft Careers:&nbsp;My job details
+
+
+
+
+
+    
+
+        .notificationAnchor {
+
+            color: #1D6893 !important;
+
+            text-decoration: none !important;
+
+        }
+
+
+
+            .notificationAnchor:hover {
+
+                text-decoration: underline !important;
+
+            }
+
+
+
+            .notificationAnchor:link, .notificationAnchor:visited, .notificationAnchor:active {
+
+                text-decoration: none !important;
+
+            }
+
+
+
+        #FeedbackPane {
+
+            -moz-transform: rotate(270deg);
+
+            -ms-transform: rotate(270deg);
+
+            -o-transform: rotate(270deg);
+
+            -webkit-transform: rotate(270deg);
+
+            transform: rotate(270deg);
+
+            position: fixed;
+
+            right: -22px;
+
+            top: 50%;
+
+            z-index: 1;
+
+        }
+
+
+
+        #close_feedback:hover {
+
+            cursor: pointer;
+
+        }
+
+
+
+
+
+        .btnfeedback {
+
+            width: 91px !important;
+
+            background-color: #0072c6;
+
+            color: white !important;
+
+            height: 26px;
+
+            font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+            font-size: 0.75rem;
+
+            border: 1px solid #0072c6;
+
+            padding: 6px 12px 6px 12px;
+
+        }
+
+
+
+            .btnfeedback:hover {
+
+                border: 1px solid #0072c6 !important;
+
+                background-color: #CDE6F7 !important;
+
+                color: #1A1A1A !important;
+
+                font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+                font-size: 12px;
+
+                text-decoration: none !important;
+
+            }
+
+
+
+            .btnfeedback:focus {
+
+                background-color: #003593 !important;
+
+                color: white !important;
+
+                border: 1px solid #0072c6;
+
+                font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+                font-size: 12px;
+
+            }
+
+
+
+            .btnfeedback:active {
+
+                background-color: #92B7D1 !important;
+
+                border: 1px solid #0072C6 !important;
+
+                color: #1A1A1A !important;
+
+                font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+                font-size: 12px;
+
+            }
+
+
+
+        a.skip-main {
+
+            left: -999px;
+
+            position: absolute;
+
+            top: auto;
+
+            width: 1px;
+
+            height: 1px;
+
+            overflow: hidden;
+
+            z-index: -999;
+
+        }
+
+
+
+            a.skip-main:focus, a.skip-main:active {
+
+                color: #0072c6;
+
+                left: auto;
+
+                top: auto;
+
+                width: 14%;
+
+                height: auto;
+
+                overflow: auto;
+
+                margin: 10px 35%;
+
+                margin-left: 0px;
+
+                padding: 5px;
+
+                text-align: left;
+
+                font-size: 1.2em;
+
+                z-index: 999;
+
+            }
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+        function RedirectToRP(url, showPopup) {
+
+            var phenomRedirectURL = 'https://jobsbeta.microsoft.com/authenticate/social/sso';
+
+            var authTypeId = '';
+
+            var authTypeName = '';
+
+            if (authTypeId) {
+
+                authTypeName = 'Anonymous';
+
+                if (authTypeId == 1 && authTypeName == 'Windows Live')
+
+                    authTypeName = (authTypeName.split(" "))[1];
+
+            }
+
+            else
+
+                authTypeName = '';
+
+            if (showPopup) {
+
+                var title = "Please note:";
+
+                var message = "You’ve selected a job opening featured within the beta version of our new Global Careers site. You can review your currently selected job description and complete your application, however, you’ll want to return to our current site to search for additional jobs.For accessibility support, please contact Microsoft Disability Recruiting Team.";
+
+                RedirectAlert(title, message, url, authTypeName, phenomRedirectURL);
+
+            }
+
+            else
+
+            {
+
+                var form = $('');
+
+                form = form.append('');
+
+                if (authTypeName != null && authTypeName != '')
+
+                    authTypeName = authTypeName.toLowerCase();
+
+                form = form.append('');
+
+                form = form.appendTo('body').submit().remove();
+
+            }
+
+        }
+
+        function ClosePhenomRedirectPopup()
+
+        {
+
+            $('#alert2').dialog("destroy");
+
+            setFlagForInternalLinks("body"); ManageDivs("false");
+
+        }
+
+        jQuery(function ($) {
+
+            var focusedElementId = "";
+
+            var prm = Sys.WebForms.PageRequestManager.getInstance();
+
+            prm.add_beginRequest(function (source, args) {
+
+                var fe = document.activeElement;
+
+                if (fe != null) {
+
+                    var count = 0;
+
+                    focusedElementId = fe.id;
+
+                }
+
+                else {
+
+                    focusedElementId = "";
+
+                }
+
+            });
+
+
+
+            prm.add_endRequest(function (source, args) {
+
+                if (focusedElementId != "") {
+
+                    if (focusedElementId == "ContentPlaceHolder1_srSearch_search_btnSearch") {
+
+                        var wrapperTable = document.getElementById('wrapperTable');
+
+                        if (wrapperTable == null) {
+
+                            var pagerClass = $(".pager:eq(0)");
+
+                            var spanLabel = $("#ContentPlaceHolder1_srSearchResults_lblSearchResultMessage");
+
+                            if (pagerClass != null && spanLabel != null && spanLabel.text() != "") {
+
+                                pagerClass.focus();
+
+                            }
+
+                            else
+
+                                $("#" + focusedElementId).focus();
+
+                        }
+
+                    }
+
+                    else
+
+                        $("#" + focusedElementId).focus();
+
+                }
+
+            });
+
+        });
+
+
+
+        function HideModalPopup() {
+
+            $find("mpe").hide();
+
+            return false;
+
+        }
+
+
+
+        function CheckEmptyLinks() {
+
+            var controls = document.getElementsByTagName("a");
+
+            for (var i = 0; i  0) {
+
+                    aControlHref.disabled = "disabled";
+
+                }
+
+            }
+
+        }
+
+        var routeFocusControlNumber = 0;
+
+        var elivateFocusToControl = 0;
+
+        $(document).ready(function () {
+
+            $.each($(".Control_Link"), function (i, elem) {
+
+                if ($(elem).attr("id").indexOf("lnkMobileSite") > -1) {
+
+                    $(elem).hide();
+
+                }
+
+            });
+
+            $('.header-container .clearfix #site-brand a').attr('title', 'Microsoft Website');
+
+            $('.header-container .clearfix #site-brand a').addClass('microsoftlogo');
+
+            //$('.header-container .clearfix div h1 a').attr('tabIndex', 0);
+
+            $('.header-container .clearfix div h1 a').removeAttr('title');
+
+            $('.header-container .clearfix div h1 a').removeClass('microsoftlogo');
+
+            $("#close_feedback1").focus();
+
+            routeFocusControlNumber = 0;
+
+            elivateFocusToControl = 0;
+
+
+
+        });
+
+
+
+        function getElevateControlNamebyNum(objNum) {
+
+            if (objNum == 0) {
+
+                return focusedElementId;
+
+            }
+
+            else if (objNum == 1) {
+
+                return 'ContentPlaceHolder1_ResumeUpload1_resumeUpload_btnOk';
+
+            }
+
+            else if (objNum == 2) {
+
+                return 'ContentPlaceHolder1_ResumeUpload1_resumeUpload_btnCancel';
+
+            }
+
+            else {
+
+                return focusedElementId;
+
+            }
+
+        }
+
+    
+
+
+
+    
+
+        var varAutoFirePV = 1;
+
+        var varClickTracking = 1;
+
+        var varCustomerTracking = 1;
+
+        var Route = '54694';
+
+        var Ctrl = 'SD200';
+
+        document.write("");
+
+    
+
+
+
+    Skip to main content
+
+
+
+    
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+//
+
+
+
+
+
+        
+
+            host_name = 'https://' + 'careers.microsoft.com';
+
+            js_lang = 'en'
+
+        
+
+        
+
+            createTagObject('dcsriiqi600000s5zc34hhdwc_2h1h');
+
+            _tag.WT.z_prid = SetProfileID();
+
+        
+
+
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                
+
+                                
+
+                                    
+
+                                     Microsoft Careers
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+
+
+    
+
+    $(function () {
+
+    var callBackSocioLib = function (SocioLibProfileResult) {
+
+        if (SocioLibProfileResult.AuthenticationTypeId != "0"
+
+            && SocioLibProfileResult.AuthenticationTypeId != null
+
+            && SocioLibProfileResult.AuthenticationTypeId != ""
+
+            && 'False' != 'True') {
+
+
+
+            $("#LanguageBar_imgAuth").attr("src", window.location.protocol + '//' + window.location.hostname + '/' + SocioLibProfileResult.AuthenticationImageURL);
+
+            $("#LanguageBar_imgAuth").attr("alt", SocioLibProfileResult.AuthenticationTypeName);
+
+            $("#LanguageBar_imgAuth").attr("title", SocioLibProfileResult.AuthenticationTypeName);
+
+
+
+            $("#authicontype").css("display", "block");
+
+            $("#firstname").css("display", "block");
+
+            $("#authicontype").css("margin-top", "1px");
+
+
+
+            $('#LanguageBar_lnkFirstName').text("Hi " + SocioLibProfileResult.ProfileName);
+
+            $('#LanguageBar_lnkFirstName').removeClass('LangBarHeadingSignin');
+
+            $('#LanguageBar_lnkFirstName').addClass('Aftersignin');
+
+            $('#LanguageBar_pnlSigned').removeClass('hidden');
+
+            $('#LanguageBar_pnlSigned').removeClass('hidden1');
+
+            $('#LanguageBar_pnlUnSigned').addClass('hidden');
+
+            $('#LanguageBar_pnlSigned').attr('visible', true);
+
+            $('#LanguageBar_pnlUnSigned').attr('visible', false);
+
+            $('.header-container .clearfix #site-brand a').attr('title', 'Microsoft Website');
+
+            $('.header-container .clearfix #site-brand a').addClass('microsoftlogo');
+
+
+
+            $('.header-container .clearfix div h1 a').removeAttr('title');
+
+            $('.header-container .clearfix div h1 a').removeClass('microsoftlogo');
+
+        }
+
+        else {
+
+            $("#LanguageBar_master_LoginOptionsControl_LiveIdLogin_LogoButton").css("display", "none");
+
+
+
+            $("#signouthidd").css("display", "none");
+
+            $("#ctl00_LanguageBar_lnkFirstName").css("display", "none");
+
+            $("#ctl00_LanguageBar_lnkSignOut").css("display", "none");
+
+            $("#LanguageBar_lnkFirstName").css("display", "none");
+
+            $("#LanguageBar_lnkSignOut").css("display", "none");
+
+            $("#ctl00_LanguageBar_imgAuth").css("display", "none");
+
+            $("#LanguageBar_imgAuth").css("display", "none");
+
+
+
+            $('#LanguageBar_pnlUnSigned').removeClass('hidden');
+
+
+
+            $('#LanguageBar_pnlUnSigned').attr('visible', true);
+
+
+
+            $('.header-container .clearfix #site-brand a').attr('title', 'Microsoft Website');
+
+            $('.header-container .clearfix #site-brand a').addClass('microsoftlogo');
+
+
+
+            $('.header-container .clearfix div h1 a').removeAttr('title');
+
+            $('.header-container .clearfix div h1 a').removeClass('microsoftlogo');
+
+        }
+
+
+
+        if ('False' == 'True') {
+
+            window.location.href = window.location.href.split('?')[0];
+
+        }
+
+    };
+
+        
+
+        $("#LanguageBar").LanguageBar({
+
+            LBWaitTime: 1000,
+
+            LBCloseTime: 250,
+
+            LBServiceTime: 250,
+
+            LBImagePath: '/Images/',
+
+            LBCSPContentPath: ''
+
+        });
+
+    });
+
+
+
+    function setDiscard(boolValue) {
+
+        if (typeof (_resumeFlag) != 'undefined')
+
+            _resumeFlag = boolValue;
+
+        if (typeof (_profileFlag) != 'undefined')
+
+            _profileFlag = boolValue;
+
+    }
+
+
+
+    $(document).ready(function () {
+
+        $('#LanguageBar_btnCancelSignIn').click(function () {
+
+            if (window.loginOptionCancelClick && typeof window.loginOptionCancelClick === "function") {
+
+                try {
+
+                    loginOptionCancelClick($(this));
+
+                } catch (e) { }
+
+            }
+
+        })
+
+    });
+
+
+
+    $(document).ready(function () {
+
+        $("#divDummy").html($("#labelMessage").html());
+
+        var divheight = $("#divDummy").height();
+
+        var lineheight = $("#divDummy").css('line-height').replace("px", "");
+
+        var lines = Math.round(divheight / parseInt(lineheight));
+
+        if (lines > 2) {
+
+            $('#pnlLoginOptions').find('#space').css("height", "14px");
+
+            $('#space').css("height", "14px");
+
+            $('#space2').css("height", "14px");
+
+        }
+
+
+
+        $('html').click(function (e) {
+
+            if (e.target.id == 'LanguageBar_imgLBMyProfile' || e.target.id == 'LanguageBar_imgLBGear') {
+
+                if ($('#ProfileOptionsPopup').is(":hidden")) {
+
+                    $(lbSettings.LBProfileOptionsPopup).show();
+
+                }
+
+            }
+
+            else {
+
+                $('#ProfileOptionsPopup').hide();
+
+                $(".imgLangBar").css("border", "1px solid white");
+
+                $(".gearmargin").css("border", "1px solid white");
+
+            }
+
+        });
+
+
+
+        $(document).keyup(function (e) {
+
+            if (e.keyCode == 27) {
+
+                if ($('#ProfileOptionsPopup').is(":visible")) {
+
+                    $('#ProfileOptionsPopup').hide();
+
+                    $(".imgLangBar").css("border", "1px solid #1a1a1a");
+
+                    $(".gearmargin").css("border", "1px solid #1a1a1a ");
+
+                }
+
+            }
+
+        });
+
+
+
+        function onFocus(element) {
+
+            $(element).removeClass('blurcolor');
+
+            $(element).addClass('focuscolor');
+
+        }
+
+
+
+        function onBlur(element) {
+
+            $(element).removeClass('focuscolor');
+
+            $(element).addClass('blurcolor');
+
+        }
+
+
+
+        $("#profileli a").focus(function () {
+
+            onFocus("#profileli");
+
+        });
+
+        $("#profileli a").blur(function () {
+
+            onBlur("#profileli");
+
+        });
+
+
+
+        $("#applyhistory a").focus(function () {
+
+            onFocus("#applyhistory");
+
+        });
+
+        $("#applyhistory a").blur(function () {
+
+            onBlur("#applyhistory");
+
+        });
+
+
+
+        $("#helpcenter a").focus(function () {
+
+            onFocus("#helpcenter");
+
+        });
+
+        $("#helpcenter a").blur(function () {
+
+            onBlur("#helpcenter");
+
+        });
+
+
+
+        $("#jobalerts a").focus(function () {
+
+            onFocus("#jobalerts");
+
+        });
+
+        $("#jobalerts a").blur(function () {
+
+            onBlur("#jobalerts");
+
+        });
+
+
+
+        $("#jobwatchlist a").focus(function () {
+
+            onFocus("#jobwatchlist");
+
+        });
+
+        $("#jobwatchlist a").blur(function () {
+
+            onBlur("#jobwatchlist");
+
+        });
+
+
+
+        $("#recommendedjobs a").focus(function () {
+
+            onFocus("#recommendedjobs");
+
+        });
+
+        $("#recommendedjobs a").blur(function () {
+
+            onBlur("#recommendedjobs");
+
+        });
+
+
+
+        $("#resumes a").focus(function () {
+
+            onFocus("#resumes");
+
+        });
+
+        $("#resumes a").blur(function () {
+
+            onBlur("#resumes");
+
+        });
+
+
+
+        $("#signouthidd a").focus(function () {
+
+            onFocus("#signouthidd");
+
+        });
+
+        $("#signouthidd a").blur(function () {
+
+            onBlur("#signouthidd");
+
+        });
+
+    });
+
+
+
+        $(document).ready(function () {
+
+            $("div#Geardiv a").focus(function () {
+
+                $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                $(document).keyup(function (e) {
+
+                    if (e.keyCode == 13 && e.target.id == 'LanguageBar_imgLBMyProfile') {
+
+                        if ($('#ProfileOptionsPopup').is(":hidden")) {
+
+                            $('#ProfileOptionsPopup').show();
+
+                            $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                            $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                        }
+
+                        else {
+
+                            $('#ProfileOptionsPopup').hide();
+
+                            $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                            $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                        }
+
+                    }
+
+                });
+
+                $(document).keydown(function (e) {
+
+                    if (e.keyCode == 13 && e.target.id == 'LanguageBar_imgLBMyProfile') {
+
+                        if ($('#ProfileOptionsPopup').is(":hidden")) {
+
+                            $('#ProfileOptionsPopup').show();
+
+                            $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                            $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                        }
+
+                        else {
+
+                            $('#ProfileOptionsPopup').hide();
+
+                            $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                            $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                        }
+
+                    }
+
+                });
+
+            });
+
+
+
+            $("div#Geardiv a").blur(function () {
+
+                if ($('#ProfileOptionsPopup').is(":hidden")) {
+
+                    $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid white");
+
+                    $("#LanguageBar_imgLBGear").css("border", "1px solid white");
+
+                }
+
+            });
+
+
+
+            $("div#Geardiv a").hover(function () {
+
+                $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+            },
+
+            function () {
+
+                if ($('#ProfileOptionsPopup').is(":visible")) {
+
+                    $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                    $("#ctl00_LanguageBar_imgLBGear").css("border-bottom", "1px solid white");
+
+                    $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                    $("#LanguageBar_imgLBGear").css("border-bottom", "1px solid white");
+
+                }
+
+                else {
+
+                    $("#ctl00_LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                    $("#LanguageBar_imgLBGear").css("border", "1px solid #1a1a1a");
+
+                }
+
+            });
+
+        });
+
+
+
+
+
+    .focuscolor {
+
+        background-color: #EBF4FB;
+
+    }
+
+
+
+    .blurcolor {
+
+        background-color: none !important;
+
+    }
+
+
+
+    /* Creating the below 2 inline styles to avoid impact in Candidate Portal as it is also referring LanguageBar.css from careers path */
+
+    #LanguageBarWrapper {
+
+        background-color: Transparent;
+
+        position: absolute;
+
+        /*top: auto;*/
+
+        right: 0px;
+
+        left: 0px;
+
+        width: 700px;
+
+        z-index: 1000;
+
+        margin: 0 auto;
+
+        /*margin-top: 17px;*/
+
+        float: right;
+
+        margin-right: 165px;
+
+    }
+
+
+
+        #LanguageBarWrapper a.LangBarHeading:hover, #LanguageBarWrapper a.LangBarHeading:focus {
+
+            text-decoration: none !important;
+
+        }
+
+
+
+    #ProfileOptionsPopup {
+
+        z-index: 301; /*CSP HorizontalNav 250, MM 300*/
+
+        position: absolute;
+
+        display: none;
+
+        right: 0;
+
+        top: 21px;
+
+        left: auto;
+
+        width: auto;
+
+        min-width: 160px;
+
+        text-align: left;
+
+        border: solid 1px #1A1A1A;
+
+        padding: 0 0 5px 0;
+
+        /*background: url('../Images/transparent_white.png') repeat;*/
+
+        background: white;
+
+        border-top: none !important;
+
+    }
+
+
+
+    .close_img:focus {
+
+        outline: 1px dotted #1A1A1A !important;
+
+    }
+
+
+
+
+
+    function signouthidden() {
+
+        $("#signouthidd").css("display", "none");
+
+        return true;
+
+    }
+
+
+
+    function firstnamehidden() {
+
+        $("#authicontype").css("display", "block");
+
+        $("#firstname").css("display", "block");
+
+        return true;
+
+    }
+
+
+
+    function Signout() {
+
+        
+
+        return true;
+
+        
+
+    }
+
+
+
+    function getParameterByName(name) {
+
+        name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+
+        var regexS = "[\\?&]" + name + "=([^&#]*)";
+
+        var regex = new RegExp(regexS);
+
+        var results = regex.exec(window.location.href);
+
+        if (results == null)
+
+            return "";
+
+        else
+
+            return decodeURIComponent(results[1].replace(/\+/g, " "));
+
+    }
+
+
+
+    function closePopUp() {
+
+        var element = document.getElementById('LanguageBar_btnCancelSignIn');
+
+        element.click();
+
+        return false;
+
+    }
+
+
+
+    var dialogOpen = false, lastFocus;
+
+    function pageLoad() {
+
+        SetFocusOnLoad();
+
+
+
+        var popup = $find('bIdLoginOptionsPopup');
+
+        if (popup != null) {
+
+            popup.add_shown(SetFocusOnOpen);
+
+        }
+
+    }
+
+
+
+    function SetTabOrder() {
+
+        $('.close_img').keydown(function (e) {
+
+            if ((e.keyCode == 9 || e.which == 9) && !e.shiftKey) {
+
+                e.preventDefault();
+
+                $("div#btnhover3 a").focus();
+
+            }
+
+        });
+
+
+
+        $('div#btnhover3 a').keydown(function (e) {
+
+            if ((e.keyCode == 9 || e.which == 9) && e.shiftKey) {
+
+                e.preventDefault();
+
+                $('.close_img').focus();
+
+            }
+
+        });
+
+    }
+
+
+
+    function SetFocusOnLoad() {
+
+        $("div#btnhover3 a").focus();
+
+        $('.close_img').attr('tabindex', '6');
+
+        SetTabOrder();
+
+        lastFocus = null;
+
+    }
+
+
+
+    var divs = ["lblHeaderHtmlContent", "shellContent", "FeedbackPane", "shellBgBottom", "pnlPopup", "LanguageBar", "lnkSkipToMain"];
+
+    function SetFocusOnOpen() {
+
+        if (document.activeElement != null && document.activeElement.id != "LanguageBar_master_LoginOptionsControl_lnkMSConnect")
+
+            lastFocus = document.activeElement;
+
+
+
+        dialogOpen = true;
+
+
+
+        $("div#btnhover3 a").focus();
+
+        $('.close_img').attr('tabindex', '6');
+
+        SetTabOrder();
+
+
+
+        for (var i = 0; i < divs.length; i++) {
+
+            try {
+
+                var currentElement = document.getElementById(divs[i]);
+
+                if (currentElement != null) {
+
+                    currentElement.setAttribute("aria-hidden", "true");
+
+                }
+
+
+
+            } catch (e) {
+
+
+
+            }
+
+        }
+
+    }
+
+
+
+    document.addEventListener("focus", function (event) {
+
+        var d = document.getElementById("pnlLoginOptions");
+
+        if (dialogOpen && !d.contains(event.target)) {
+
+            event.stopPropagation();
+
+            $('div#btnhover3 a').focus();
+
+        }
+
+    }, true);
+
+
+
+    document.addEventListener("keydown", function (event) {
+
+        if (dialogOpen && event.keyCode == 27) {
+
+            closePopUp();
+
+        }
+
+    }, true);
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+	
+
+                
+
+                    Sign in
+
+                
+
+            
+
+
+
+
+
+            
+
+	
+
+                
+
+                    
+
+                        
+
+                    
+
+                    
+
+                        
+
+                    
+
+
+
+                    
+
+                    
+
+                        
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                    
+
+                        
+
+                            Account central
+
+                        
+
+                            Apply history
+
+                        
+
+                            Help center
+
+                        
+
+                            Job alerts
+
+                        
+
+                            Job watch list
+
+                        
+
+                            Recommended jobs
+
+                        
+
+                            Resumes
+
+                        
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+         -1) window.location.href = RemoveQueryStringByKey(&#39;mail&#39;);javascript:fnCloseButton();JobService.JobService.ClearSignInSeesion();JobService.JobService.RemoveApplyRjJobSession(); window.localStorage.removeItem(&#39;SaveSearchValue&#39;);if(window.location.href.toLowerCase().indexOf(&#39;mail=true&#39;) > -1) window.location.href = RemoveQueryStringByKey(&#39;mail&#39;);JobService.JobService.ClearSignInSeesion();" />
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+
+
+Welcome!
+
+
+
+
+
+
+
+                
+
+                
+
+                
+
+                
+
+                    
+
+
+
+If you have an existing Microsoft Careers account, sign in below. If you are new to the site, create a Microsoft Careers account by clicking on one of the following:
+
+
+
+
+
+
+
+                
+
+            
+
+            
+
+                
+
+
+
+
+
+    .AuthTile {
+
+        text-decoration: none !important;
+
+        font-size: 12px;
+
+        border: 1px solid #0072C6;
+
+        font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+        padding: 0px 0px 0px 30px;
+
+    }
+
+
+
+    @media screen and (-ms-high-contrast: active) {
+
+        .AuthTile {
+
+            text-decoration: none !important;
+
+            font-size: 12px;
+
+            border: 1px solid black !important;
+
+            font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+            padding: 0px 0px 0px 30px;
+
+        }
+
+    }
+
+
+
+    #btnhover a {
+
+        background: transparent url(/images/logo_linkedin.png) scroll no-repeat left center;
+
+        background-position: 8px 50%;
+
+        color: #1A1A1A;
+
+    }
+
+
+
+    #btnhover1 a {
+
+        background: transparent url(/images/logo_google.png) scroll no-repeat left center;
+
+        background-position: 8px 50%;
+
+        color: #1A1A1A;
+
+    }
+
+
+
+    #btnhover2 a {
+
+        background: transparent url(/images/logo_facebook.png) scroll no-repeat left center;
+
+        background-position: 8px 50%;
+
+        color: #1A1A1A;
+
+    }
+
+
+
+    #btnhover3 a {
+
+        background: transparent url(/images/windowsliveicon.png) scroll no-repeat left center;
+
+        background-position: 8px 50%;
+
+        color: #1A1A1A;
+
+    }
+
+
+
+    @media screen and (-ms-high-contrast: active) {
+
+        #btnhover3 a {
+
+            background: transparent url(/images/windowsliveicon.png) scroll no-repeat left center;
+
+            background-position: 6px 50%;
+
+        }
+
+
+
+        #btnhover2 a {
+
+            background: transparent url(/images/logo_facebook.png) scroll no-repeat left center;
+
+            background-position: 6px 50%;
+
+        }
+
+
+
+        #btnhover1 a {
+
+            background: transparent url(/images/logo_google.png) scroll no-repeat left center;
+
+            background-position: 6px 50%;
+
+        }
+
+
+
+        #btnhover a {
+
+            background: transparent url(/images/logo_linkedin.png) scroll no-repeat left center;
+
+            background-position: 6px 50%;
+
+        }
+
+
+
+        .close_img:focus {
+
+            border: 1px dotted white !important;
+
+            height: 10px;
+
+            width: 10px;
+
+            margin: 13px 13px 0px 0px;
+
+        }
+
+
+
+        #btnhover a:focus, #btnhover1 a:focus, #btnhover2 a:focus, #btnhover3 a:focus {
+
+            border: 1px dashed white !important;
+
+            font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+            font-size: 12px;
+
+            outline: none;
+
+        }
+
+
+
+        #btnhover a:hover, #btnhover1 a:hover, #btnhover2 a:hover, #btnhover3 a:hover {
+
+            border: 1px dashed white !important;
+
+            font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+            font-size: 12px;
+
+            outline: none;
+
+        }
+
+    }
+
+
+
+    #btnhover a:hover, #btnhover1 a:hover, #btnhover2 a:hover, #btnhover3 a:hover {
+
+        text-decoration: none !important;
+
+        background-color: #EBF4FB !important;
+
+        color: #1A1A1A !important;
+
+        border: 1px solid #0072C6;
+
+        font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+        font-size: 12px;
+
+    }
+
+
+
+    #btnhover a:focus, #btnhover1 a:focus, #btnhover2 a:focus, #btnhover3 a:focus {
+
+        background-color: #0072C6;
+
+        color: white;
+
+        border: 1px solid #0072C6;
+
+        font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+        font-size: 12px;
+
+        outline: none;
+
+    }
+
+
+
+    #btnhover a:active, #btnhover1 a:active, #btnhover2 a:active, #btnhover3 a:active {
+
+        background-color: #92B7D1 !important;
+
+        color: white !important;
+
+        border: 1px solid #0072C6 !important;
+
+        font-family: SegoeRegular, 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+        font-size: 12px;
+
+    }
+
+
+
+    #btnhover, #btnhover1, #btnhover2 {
+
+        width: 91px;
+
+        height: 30px;
+
+        margin-left: 9px;
+
+    }
+
+
+
+    #btnhover3 {
+
+        width: 91px;
+
+        height: 30px;
+
+    }
+
+
+
+    .all_account_images {
+
+        vertical-align: middle;
+
+        background-color: white;
+
+    }
+
+
+
+    .CancelLink {
+
+        color: #0072c6;
+
+        font-size: 14px;
+
+        line-height: normal !important;
+
+    }
+
+
+
+    #canceldiv {
+
+        float: left;
+
+        margin-top: 25px;
+
+        margin-bottom: 25px;
+
+    }
+
+
+
+    .btnDiv {
+
+        float: left;
+
+    }
+
+
+
+
+
+    function fnCloseButton() {
+
+        var x = '';
+
+        var hdntest = document.getElementById('LanguageBar_master_LoginOptionsControl_HDN_Cancel').value;
+
+        var path = new String(window.location.pathname).toLowerCase();
+
+        var value = new String($("#" + "LanguageBar_master_LoginOptionsControl_hiddenFldToCheckRedirectPage").val()).toLowerCase();
+
+        if (path == '/resumepreview.aspx' && (value == '~/resumebuilder.aspx' || value == '~/resumeupload.aspx')) {
+
+            $("#" + "LanguageBar_master_LoginOptionsControl_hiddenFldToCheckRedirectPage").val("~/ResumePreview.aspx");
+
+        }
+
+
+
+        if (hdntest != "") {
+
+            window.location = hdntest;
+
+        }
+
+
+
+        dialogOpen = false;
+
+        for (var i = 0; i < divs.length; i++) {
+
+            try {
+
+                var currentElement = document.getElementById(divs[i]);
+
+                if (currentElement != null) {
+
+                    currentElement.setAttribute("aria-hidden", "false");
+
+                }
+
+
+
+            } catch (e) {
+
+
+
+            }
+
+        }
+
+        if (lastFocus != null)
+
+            lastFocus.focus();
+
+    }
+
+
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+        
+
+            Microsoft
+
+        
+
+
+
+        
+
+            LinkedIn
+
+        
+
+
+
+        
+
+            Google
+
+        
+
+
+
+        
+
+            Facebook
+
+        
+
+    
+
+
+
+
+
+                
+
+                    Cancel
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+            
+
+                
+
+                    
+
+                        
+
+        
+
+            Working at Microsoft 
+
+            
+
+                    
+
+Benefits and perks
+
+                    
+
+                    
+
+Businesses and teams
+
+                    
+
+                    
+
+Mission and culture
+
+                    
+
+                    
+
+Office locations
+
+                    
+
+            
+
+        
+
+        
+
+            Students and graduates 
+
+            
+
+                    
+
+Apply
+
+                    
+
+                    
+
+Events and webinars
+
+                    
+
+                    
+
+Find your recruiter
+
+                    
+
+                    
+
+International opportunities
+
+                    
+
+                    
+
+Programs
+
+                    
+
+            
+
+        
+
+        
+
+            Find a job 
+
+            
+
+                    
+
+Students and graduates
+
+                    
+
+                    
+
+                                Industry professionals
+
+
+
+                    
+
+            
+
+        
+
+        
+
+            Things to do 
+
+            
+
+                    
+
+                                Create a careers account
+
+
+
+                    
+
+                    
+
+                                Explore recommended jobs
+
+
+
+                    
+
+                    
+
+Locate events and webinars
+
+                    
+
+                    
+
+Find your recruiter
+
+                    
+
+                    
+
+Review interview tips
+
+                    
+
+            
+
+        
+
+
+
+
+
+
+
+    Working at LinkedIn
+
+
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                    
+
+    
+
+    
+
+        
+
+
+
+
+
+    #divDynamicjobtile {
+
+        padding: 35px 40px 35px 40px;
+
+        background-color: #0072c6;
+
+        width: 360px;
+
+        min-height: 250px;
+
+    }
+
+
+
+        #divDynamicjobtile h3 {
+
+            font-family: SegoeLight, 'Segoe UI Light', 'Segoe WP Light', 'Segoe UI', Segoe, 'Segoe WP', Tahoma, Verdana, Arial, sans-serif;
+
+            color: #ffffff;
+
+            font-size: 30px;
+
+            line-height: 38px;
+
+        }
+
+
+
+            #divDynamicjobtile h3:hover {
+
+                text-decoration: underline;
+
+            }
+
+.SearchButton[disabled],.SearchButton[disabled]:hover
+
+    {
+
+        color:#C6C6C6;
+
+        background-color:#FFFFFF;
+
+        border-color:#C6C6C6;
+
+        cursor:default;
+
+    }
+
+
+
+
+
+    $(document).ready(function () {
+
+        $('div.JobTitle').focus();
+
+    });
+
+
+
+    function pageLoad() {
+
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_emptyLink2').css('display', 'none');
+
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_emptyLink3').css('display', 'none');
+
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_emptyLink').css('display', 'none');
+
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_emptyLink3').css('display', 'none');
+
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_emptyLink4').css('display', 'none');
+
+        $('#ctl00_ContentPlaceHolder1_JobDetails2_jobDetails_applyPopup_applyPopup_jobApplyList_emptyLink1').css('display', 'none');
+
+       
+
+        var popup = $find('bIdLoginOptionsPopup');
+
+        if (popup != null) {
+
+            popup.add_shown(SetFocusOnOpen);
+
+        }
+
+    }
+
+
+
+    function SetTabOrder() {
+
+        $('.close_img').keydown(function (e) {
+
+            if ((e.keyCode == 9 || e.which == 9) && !e.shiftKey) {
+
+                e.preventDefault();
+
+                $("div#btnhover3 a").focus();
+
+            }
+
+        });
+
+
+
+        $('div#btnhover3 a').keydown(function (e) {
+
+            if ((e.keyCode == 9 || e.which == 9) && e.shiftKey) {
+
+                e.preventDefault();
+
+                $('.close_img').focus();
+
+            }
+
+        });
+
+    }
+
+
+
+    var divs = ["lblHeaderHtmlContent", "shellContent", "FeedbackPane", "shellBgBottom", "pnlPopup", "LanguageBar"];
+
+    function SetFocusOnOpen() {
+
+        if (document.activeElement != null && document.activeElement.id != "LanguageBar_master_LoginOptionsControl_lnkMSConnect")
+
+            lastFocus = document.activeElement;
+
+
+
+        dialogOpen = true;
+
+
+
+        $("div#btnhover3 a").focus();
+
+        $('.close_img').attr('tabindex', '6');
+
+        SetTabOrder();
+
+
+
+        for (var i = 0; i < divs.length; i++) {
+
+            try {
+
+                var currentElement = document.getElementById(divs[i]);
+
+                if (currentElement != null) {
+
+                    currentElement.setAttribute("aria-hidden", "true");
+
+                }
+
+
+
+            } catch (e) {
+
+
+
+            }
+
+        }
+
+
+
+        if (navigator.userAgent.toLowerCase().indexOf('chrome') == -1) {
+
+            $('#pnlLoginOptions').attr('role', 'dialog');
+
+        }
+
+    }
+
+
+
+    document.addEventListener("focus", function (event) {
+
+        var d = document.getElementById("pnlLoginOptions");
+
+        if (dialogOpen && !d.contains(event.target)) {
+
+            event.stopPropagation();
+
+            $('div#btnhover3 a').focus();
+
+        }
+
+    }, true);
+
+
+
+    document.addEventListener("keydown", function (event) {
+
+        if (dialogOpen && event.keyCode == 27) {
+
+            closePopUp();
+
+        }
+
+    }, true);
+
+
+
+    $(function () {
+
+        var saveJobsHelper = new GlobalCareersJS.SaveJobsHelper.JobDetails();
+
+    });
+
+
+
+    function RemoveComma(validatorId) {
+
+        var errorMsg = document.getElementById(validatorId);
+
+        var tmp = errorMsg.innerHTML;
+
+        var i = tmp.lastIndexOf(",");
+
+        errorMsg.innerHTML = tmp.substr(0, i) + tmp.substr(i + 1, tmp.length);
+
+    }
+
+
+
+    function ValidateEmailFriendInput() {
+
+        var inputValid = Page_ClientValidate('vgEmailFriend') && Page_ClientValidate('vgEmailFriendInput');
+
+        RemoveComma("ctl00_ContentPlaceHolder1_JobDetails2_jdEmailFriend_vsEmailFriend");
+
+        RemoveComma("ctl00_ContentPlaceHolder1_JobDetails2_jdEmailFriend_vsEmailFriendInput");
+
+        if (!inputValid) {
+
+            ResetParameters();
+
+            CaptchaWebTrendLog("Link:Send Email", "NA", "Page Validation Error", window.location.pathname, "Email", window.location.pathname)
+
+        }
+
+        return inputValid;
+
+    }
+
+
+
+    function fbs_click() {
+
+        u = location.href;
+
+        t = document.title;
+
+        window.open('http://www.facebook.com/sharer.php?u=' + encodeURIComponent(u) + '&t=' + encodeURIComponent(t), 'sharer', 'toolbar=0,status=0,width=900,height=500,resizable=1');
+
+        return false;
+
+    }
+
+
+
+    function btnRemove_Click() {
+
+        confirm2($res('JDAboutToRemove'), $res('removeJobs'),
+
+        function () {
+
+            __doPostBack('ctl00$ContentPlaceHolder1$JobDetails2$btnRemoveJob', '');
+
+        });
+
+        return false;
+
+    }
+
+
+
+    function confirmWithdraw(confirmButton) {
+
+        confirm2($res('confirm_withdraw_text'), $res('confirm_withdraw_title'),
+
+        function () {
+
+            __doPostBack(confirmButton.name, '');
+
+        });
+
+        return false;
+
+    }
+
+
+
+    function applyWebTrend() {
+
+        webTrendsSearchPost('323221', '');
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    FB.init({
+
+        appId: '',
+
+        status: true, // check login status
+
+        cookie: true, // enable cookies to allow the server to access the session
+
+        xfbml: true, // parse XFBML
+
+        channelURL: '', //'', // channel.html file
+
+        oauth: true // enable OAuth 2.0
+
+    });
+
+
+
+    function PostFB() {
+
+        FB.ui(
+
+        {
+
+            method: 'feed',
+
+            name: 'Data Scientist',
+
+            link: document.URL,
+
+            picture: 'https://careers.microsoft.com/Images/FaceBookJobShareImages/FB-MS-1.jpg',
+
+            caption: 'careers.microsoft.com',
+
+            description: 'What if your job description were simply? Make tomorrow better? That’s the essence of roles within our Bing Team. Every day, we bring an insatiable curiosity to the table, challenging ourselves to reimagine what is and what can be. We build on what’s c'
+
+        },
+
+        function (response) {
+
+            if (response && response.post_id) {
+
+
+
+            } else {
+
+
+
+            }
+
+        });
+
+    }
+
+
+
+
+
+
+
+
+
+	
+
+        
+
+		
+
+            
+
+                
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                        
+
+                        
+
+                            
+
+                        
+
+                        
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+
+
+            
+
+            
+
+                
+
+                    Data Scientist
+
+                
+
+                
+
+                
+
+            
+
+            
+
+      
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                                What if your job description were simply? Make tomorrow better? That’s the essence of roles within our Bing Team. Every day, we bring an insatiable curiosity to the table, challenging ourselves to reimagine what is and what can be. We build on what’s come before to create what’s next. We drive machine intelligence. We help shape the future. We empower billions of people around the globe.  &nbsp Are you interested in being part of a team with more $6B in revenue and growing at more than 20% every quarter over last several quarters? Are you looking for joining a fun and fast paced environment, where software engineers and data scientists are empowered to innovate and experiment? Are you customer obsessed? Are you interested in competing with Google advertising platform head to head?  &nbsp We are the Advertiser Data Analytics (ADA) team. We aim to unlock the BingAds growth and revenue potential on the advertiser demand side by using data mining and machine learning techniques. Our goal is to increase high quality demand and retain it to increase competition and platform revenue on the supply side.  &nbsp BingAds is a rapidly growing business at Microsoft and is considered one of the most important players in the world of Advertising business. This is exciting time to join BingAds where we innovate and rethink our online services. We have a very strong focus on customer satisfaction and use data driven metrics to delight our customers and achieve our business goals. We have an opening for strong talent to independently drive demand growth areas and make a difference in moving the bottom line. A successful candidate will have: ¬- BS OR MS in Computer Science or equivalent technical degree.- Minimum 4 years of development experience. - 1+ years of experience in machine learning, data analysis. - Experience working with C#, Scope/Cosmos is highly desirable. - Solid CS fundamentals, strong inclination for architecting at scale. - Excellent technical design, problem solving and debugging skills.  &nbsp - Demonstrated results designing and delivering maintainable and scalable high-quality code. - A sound track-record of shipping products and having been through multiple development cycles.- Passionate, self-motivated. - Great team player and communicator, strong believer in collaboration and teamwork.  &nbsp Microsoft is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to age, ancestry, color, family or medical care leave, gender identity or expression, genetic information, marital status, medical condition, national origin, physical or mental disability, political affiliation, protected veteran status, race, religion, sex (including pregnancy), sexual orientation, or any other characteristic protected by applicable laws, regulations and ordinances. If you need assistance and/or a reasonable accommodation due to a disability during the application or the recruiting process, please send a request to askstaff@microsoft.com
+
+                            
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                        
+
+                                            
+
+
+
+Job #
+
+
+
+
+
+
+
+                                        
+
+                                        
+
+                                        
+
+                                            
+
+                                                323221
+
+                                                1074402
+
+                                            
+
+                                        
+
+                                    
+
+                                    
+
+                                        
+
+                                            
+
+
+
+Locations
+
+
+
+
+
+
+
+                                        
+
+                                        
+
+                                            United States, Bellevue (WA)
+
+                                        
+
+                                    
+
+                                    
+
+                                        
+
+                                            
+
+
+
+Job families
+
+
+
+
+
+
+
+                                        
+
+                                        
+
+                                            Development (engineering)
+
+                                        
+
+                                    
+
+                                    
+
+                                    
+
+			
+
+                                            
+
+
+
+Teams
+
+
+
+
+
+
+
+                                        
+
+			
+
+                                            AI & Research
+
+                                        
+
+		
+
+		
+
+                                
+
+                                
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+Empower your future.
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                    
+
+                    
+
+                    
+
+                    
+
+                        
+
+                            
+
+                            
+
+
+
+
+
+
+
+
+
+.LinkedInTitle { font-size: 18px; color: #2D2D2D; width: 700px; padding-bottom:5px; } /*#2F89BD*/
+
+.CompanyInsiderBlock { width:400px;}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+                        
+
+                        
+
+                        
+
+                    
+
+                
+
+                
+
+                
+
+            
+
+        
+
+	
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+    
+
+		
+
+            
+
+             
+
+                
+
+			
+
+                        
+
+                        
+
+                                                   
+
+                        
+
+                    
+
+		
+
+            
+
+                
+
+                
+
+                    
+
+                        Apply
+
+                        When you complete this final step in the application process, your resume will be sent to staffing and you will get an email confirmation of submission. You may be contacted directly be a recuiter if there is a match. 
+
+                    
+
+                    
+
+                        Select resume
+
+                        The resume you have selected will be used for the below job openings.
+
+                        
+
+
+
+		
+
+                        
+
+                        
+
+                        Edit this resume
+
+                        
+
+                        Create New Resume
+
+                        
+
+                    
+
+                    
+
+                        
+
+                        
+
+                    
+
+                
+
+                
+
+                
+
+			
+
+                    
+
+				
+
+    
+
+
+
+				
+
+    
+
+
+
+			
+
+
+
+                
+
+		
+
+                
+
+                    The resume noted above will be used for applying to the position(s) listed in the table. Please make sure that these are the openings you are interested in.
+
+                    Are you ready to proceed with submitting your resume for the above position(s)?
+
+                
+
+                
+
+			
+
+                    
+
+
+
+    
+
+    .Space label {margin-left: 3px; margin-top: 5px;}
+
+    .Space input {margin-top: 7px}	 
+
+
+
+
+
+
+
+    function showDefinition() {
+
+        $('#affirmativeAction_race').toggleClass('affirmativeAction_divShow');
+
+        $('#lnkShowHideDefinitions').toggleClass('lnkShowHideDefinitions')
+
+        return false;
+
+    }
+
+
+
+    function ChangeState(chkObj) {
+
+
+
+        if (chkObj != null) {
+
+            var declinetostate = "08" //"decline to state";
+
+            var id = $(chkObj).parent().siblings("input:hidden").val();
+
+
+
+            if (id == declinetostate) {
+
+                $(".raceSelector").each(function (index) {
+
+                    if ($(this).siblings("input:hidden").val() != id) {
+
+                        $(this).children(":checkbox").attr("checked", false);
+
+                    }
+
+                }
+
+                 );
+
+            }
+
+            else {
+
+                $(".raceSelector").each(function (index) {
+
+                    if ($(this).siblings("input:hidden").val() == declinetostate) {
+
+                        $(this).children(":checkbox").attr("checked", false);
+
+
+
+                    }
+
+                }
+
+                    );
+
+            }
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+    Affirmative action information
+
+
+
+
+
+    Microsoft is committed to a diverse work environment and this commitment is demonstrated, in part, through its affirmative action program. To assist us in meeting this commitment, we encourage you to complete the below information for our records. This information is solicited from all individuals applying for U.S. - based positions with Microsoft, as required by U.S. law. Completion of this section is strictly voluntary. Declining to provide this information will not result in any adverse treatment of your application for employment. The ethnicity/race categories listed below are defined by the U.S. Equal Employment Opportunity Commission.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        Gender
+
+      
+
+        
+
+            MaleFemaleDecline to state
+
+        
+
+    
+
+    
+
+        Race/ethnicity
+
+                View definitions
+
+                Close definitions
+
+            
+
+        
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+                
+
+		
+
+                
+
+                    What prompted you to apply to Microsoft?
+
+                    
+
+
+
+		
+
+                
+
+                
+
+			
+
+                   
+
+
+
+    
+
+
+
+    
+
+        
+
+            
+
+                
+
+            
+
+        
+
+    
+
+    
+
+        
+
+            
+
+                
+
+
+
+                
+
+                    
+
+                    
+
+                
+
+                
+
+
+
+                
+
+            
+
+        
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                
+
+                
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                
+
+            
+
+        
+
+        
+
+            
+
+
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                
+
+            
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+        To confirm that you are a person and not an automated program, please enter all the characters you see in the image. You can avoid this by signing in.
+
+        
+
+        
+
+        
+
+				
+
+            Notes:Your computer must be able to play audio in WAV format. The audio file is intentionally distorted to prevent automated programs from reading it. If the file plays in another program, remember the numbers, return to this page, and then type them in the field.
+
+        
+
+			
+
+    
+
+    
+
+        
+
+            
+
+				
+
+                
+
+            
+
+			
+
+            
+
+				
+
+                
+
+                
+
+                Play audio
+
+            
+
+			
+
+        
+
+        
+
+            
+
+            
+
+            
+
+        
+
+        
+
+            
+
+            
+
+        
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+
+		
+
+            
+
+            
+
+            
+
+                
+
+                
+
+            
+
+            
+
+            
+
+                
+
+                
+
+            
+
+        
+
+	
+
+
+
+
+
+
+
+	
+
+    
+
+            
+
+    
+
+        
+
+        
+
+            Update contact information?
+
+        
+
+            Some of the contact information you just provided is different from what we have in your existing Microsoft Careers account. Do you want us to update your account with the latest information?
+
+        
+
+    
+
+    
+
+        
+
+        
+
+    
+
+
+
+
+
+
+
+	
+
+    
+
+        
+
+            
+
+          
+
+        
+
+            Great! Updates to your account have been saved.
+
+    
+
+    
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+    
+
+        
+
+        You need a resume to apply
+
+        
+
+            
+
+                To apply for this job, you must to submit a resume. 
+
+            
+
+            
+
+                If you already have a saved resume,
+
+                Sign in
+
+            
+
+        
+
+    
+
+    
+
+        
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+	
+
+    
+
+        
+
+            
+
+        
+
+        
+
+            The selected job(s) were added to your job watch list
+
+        
+
+    
+
+    
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+        $(document).keypress(function (e) {
+
+            if (e.which == 13) {
+
+                return true;
+
+            }
+
+        });
+
+        $(document).ready(function () {
+
+            $('div.JobTitle').focus();
+
+        });
+
+
+
+    
+
+
+
+                
+
+            
+
+            
+
+            
+
+        
+
+
+
+        
+
+            Feedback
+
+        
+
+        
+
+	
+
+            
+
+                
+
+                    
+
+                        X
+
+                    
+
+                
+
+                
+
+                    
+
+                
+
+            
+
+            
+
+        
+
+
+
+        
+
+            
+
+    
+
+        
+
+            
+
+                Get started
+
+                
+
+                    
+
+                        Explore recommended jobs
+
+                    
+
+                    
+
+                        Search jobs
+
+                    
+
+                    
+
+                        Manage job alerts
+
+                    
+
+                    
+
+                        Manage resumes
+
+                    
+
+                
+
+            
+
+            
+
+                Life at Microsoft
+
+                
+
+                    
+
+                        Diversity
+
+                    
+
+                    
+
+                        JobsBlog
+
+                    
+
+                    
+
+                        News Center
+
+                    
+
+                    
+
+                        Stories
+
+                    
+
+                    
+
+                        The Fire Hose
+
+                    
+
+                    
+
+                        Women at Microsoft
+
+                    
+
+                
+
+            
+
+            
+
+                Tips and tools
+
+                
+
+                    
+
+                        Apply history
+
+                    
+
+                    
+
+                        Frequently asked questions
+
+                    
+
+                    
+
+                        Help center
+
+                    
+
+                    
+
+                        Interview tips
+
+                    
+
+                    
+
+                        Job watch list
+
+                    
+
+                
+
+            
+
+            
+
+                Connect with us
+
+                
+
+                    
+
+                        
+
+                            
+
+                        
+
+                    
+
+                    
+
+                        
+
+                            
+
+                        
+
+                    
+
+                    
+
+                        
+
+                            
+
+                        
+
+                    
+
+                    
+
+                        
+
+                            
+
+                        
+
+                    
+
+                    
+
+                        
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+
+
+        
+
+            
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    Legal
+
+                    Privacy
+
+                    Contact us
+
+                    ©2017 Microsoft
+
+                
+
+            
+
+        
+
+    
+
+
+
+        
+
+    
+
+
+
+
+
+//
+
+
+
+
+
+    
+
+    
+
+    
+
+        setFlagForInternalLinks('body');
+
+        CheckEmptyLinks();
+
+    
+
+    
+
+        _tag.dcsCollect();
+
+    
+
+    
+
+    
+
+        (function (win, doc) {
+
+
+
+            var scriptElement, scrSrc;
+
+
+
+            if (typeof (win.ClickTaleCreateDOMElement) != "function") {
+
+                win.ClickTaleCreateDOMElement = function (tagName) {
+
+                    if (doc.createElementNS) {
+
+                        return doc.createElementNS('http://www.w3.org/1999/xhtml', tagName);
+
+                    }
+
+                    return doc.createElement(tagName);
+
+                }
+
+            }
+
+
+
+            win.WRInitTime = (new Date()).getTime();
+
+
+
+            scriptElement = ClickTaleCreateDOMElement('script');
+
+            scriptElement.type = "text/javascript";
+
+
+
+            scrSrc = doc.location.protocol == 'https:' ? 'https://cdnssl.clicktale.net/' : 'http://cdn.clicktale.net/';
+
+
+
+            scrSrc += 'www07/ptc/0d4eaab9-fad3-4c75-b31f-859c935ae10a.js';
+
+
+
+            scriptElement.src = scrSrc;
+
+
+
+            doc.getElementsByTagName('body')[0].appendChild(scriptElement);
+
+        })(window, document);
+
+    
+
+    
+
+    
+
+        
+
+            
+
+        
+
+    
+
+
+
+
+

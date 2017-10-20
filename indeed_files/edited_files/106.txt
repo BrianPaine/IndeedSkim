@@ -1,0 +1,1634 @@
+
+
+
+
+
+
+
+
+    
+
+    
+
+        function openWin(URL) {
+
+            aWindow = window.open(URL, "help", "toolbar=no,width=350,height=250,status=no,scrollbars=yes,resize=yes,menubar=no");
+
+        }
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    Careers - Open Positions - BAMSI
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+                (i[r].q = i[r].q || []).push(arguments)
+
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+
+
+        ga('create', 'UA-19091501-1', 'auto');
+
+        ga('send', 'pageview');
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+        
+
+            
+
+                BAMSI
+
+                
+
+                    
+
+                        
+
+                            LinkedIn                            Facebook                            Twitter
+
+                        
+
+                        508-580-8700
+
+                        Email Us
+
+                        Donate
+
+                    
+
+                    
+
+                        About
+
+                            
+
+                                Our Leadership
+
+                                Our Service Area
+
+                                News &#038; Resources
+
+                            -->
+
+                        
+
+                        Adults
+
+                            
+
+                                Behavioral Health
+
+                                    
+
+                                        Adult Day Treatment Center
+
+                                        Clubhouse Services
+
+                                        Community Based Flexible Supports
+
+                                        Community Outreach, Prevention, and Education (COPE)
+
+                                        Individual and Family Counseling
+
+                                        Southeast Recovery Learning Community
+
+                                    
+
+                                
+
+                                Development/Intellectual Disabilities &#038; Autism Services
+
+                                    
+
+                                        Day Habilitation
+
+                                        Employment Services
+
+                                        Individual Support
+
+                                        Residential Services
+
+                                    
+
+                                
+
+                                Medical/Physical &#038; Brain Injury Services
+
+                                    
+
+                                        Day Habilitation
+
+                                        Employment Services
+
+                                        Enrichment Centers
+
+                                        Family Training and Support
+
+                                        Individual Support
+
+                                        Pro-Vocational/Vocational Services
+
+                                        Residential Services
+
+                                    
+
+                                
+
+                                Public Health &#038; Community Resources
+
+                                    
+
+                                        HIV Case Management
+
+                                        Housing Support/Service Coordination
+
+                                        Dorn Davies Senior Center
+
+                                    
+
+                                
+
+                            -->
+
+                        
+
+                        Children, Family &#038; Community Resources
+
+                            
+
+                                Behavioral Health
+
+                                    
+
+                                        Brockton After School Enrichment Program
+
+                                        Community Service Agency of Brockton
+
+                                        Home Based Team
+
+                                        The FIRST Program
+
+                                        Individual and Family Counseling
+
+                                    
+
+                                
+
+                                Education Support &#038; Services
+
+                                    
+
+                                        Brockton After School Enrichment Program
+
+                                        Educational &#038; School Consultation
+
+                                        Read to Succeed
+
+                                        Wraparound Coaching
+
+                                    
+
+                                
+
+                                Family Support Services
+
+                                    
+
+                                        The Family Support Center
+
+                                        Intensive Flexible Support (IFFS)
+
+                                        Parent Information Network (PIN)
+
+                                        Parents of Transitional Aged Youth
+
+                                    
+
+                                
+
+                                Public Health &#038; Community Resources
+
+                                    
+
+                                        Children&#8217;s Advocacy Center
+
+                                        Brockton Early Childhood Intervention Program
+
+                                        Helpline
+
+                                        Local Systems of Care
+
+                                        Women, Infants, &#038; Children (WIC)
+
+                                    
+
+                                
+
+                            -->
+
+                        
+
+                        In the Community
+
+                            
+
+                                Events
+
+                                Corporate Partners
+
+                                News &#038; Resources
+
+                                    
+
+                                        News &#038; Press Releases
+
+                                        Videos
+
+                                        Brochures
+
+                                    
+
+                                
+
+                                Blog
+
+                                Get Involved
+
+                                    
+
+                                        Donate
+
+                                        Volunteer
+
+                                        Sponsor an Event
+
+                                    
+
+                                
+
+                            -->
+
+                        
+
+                        Careers
+
+                        Contact
+
+                    
+
+                
+
+                
+
+
+
+                
+
+                    
+
+                    508-580-8700
+
+                    
+
+                        
+
+                            Donate
+
+                            
+
+                                LinkedIn                                Facebook                                Twitter
+
+                            
+
+                        
+
+                        
+
+                        
+
+                            About
+
+                                <!-- Removed - SR-2016-00123336 - 06/28/2016 - kmm 
+
+                                
+
+                                    Our Leadership
+
+                                    Our Service Area
+
+                                    News &#038; Resources
+
+                                -->
+
+                            
+
+                            Adults
+
+                                <!-- Removed - SR-2016-00123336 - 06/28/2016 - kmm 
+
+                                
+
+                                    Behavioral Health
+
+                                        
+
+                                            Adult Day Treatment Center
+
+                                            Clubhouse Services
+
+                                            Community Based Flexible Supports
+
+                                            Community Outreach, Prevention, and Education (COPE)
+
+                                            Individual and Family Counseling
+
+                                            Southeast Recovery Learning Community
+
+                                        
+
+                                    
+
+                                    Development/Intellectual Disabilities &#038; Autism Services
+
+                                        
+
+                                            Day Habilitation
+
+                                            Employment Services
+
+                                            Individual Support
+
+                                            Residential Services
+
+                                        
+
+                                    
+
+                                    Medical/Physical &#038; Brain Injury Services
+
+                                        
+
+                                            Day Habilitation
+
+                                            Employment Services
+
+                                            Enrichment Centers
+
+                                            Family Training and Support
+
+                                            Individual Support
+
+                                            Pro-Vocational/Vocational Services
+
+                                            Residential Services
+
+                                        
+
+                                    
+
+                                    Public Health &#038; Community Resources
+
+                                        
+
+                                            HIV Case Management
+
+                                            Housing Support/Service Coordination
+
+                                            Dorn Davies Senior Center
+
+                                        
+
+                                    
+
+                                -->
+
+                            
+
+                            Children, Family &#038; Community Resources
+
+                                <!-- Removed - SR-2016-00123336 - 06/28/2016 - kmm 
+
+                                
+
+                                    Behavioral Health
+
+                                        
+
+                                            Brockton After School Enrichment Program
+
+                                            Community Service Agency of Brockton
+
+                                            Home Based Team
+
+                                            The FIRST Program
+
+                                            Individual and Family Counseling
+
+                                        
+
+                                    
+
+                                    Education Support &#038; Services
+
+                                        
+
+                                            Brockton After School Enrichment Program
+
+                                            Educational &#038; School Consultation
+
+                                            Read to Succeed
+
+                                            Wraparound Coaching
+
+                                        
+
+                                    
+
+                                    Family Support Services
+
+                                        
+
+                                            The Family Support Center
+
+                                            Intensive Flexible Support (IFFS)
+
+                                            Parent Information Network (PIN)
+
+                                            Parents of Transitional Aged Youth
+
+                                        
+
+                                    
+
+                                    Public Health &#038; Community Resources
+
+                                        
+
+                                            Children&#8217;s Advocacy Center
+
+                                            Brockton Early Childhood Intervention Program
+
+                                            Helpline
+
+                                            Local Systems of Care
+
+                                            Women, Infants, &#038; Children (WIC)
+
+                                        
+
+                                    
+
+                                -->
+
+                            
+
+                            In the Community
+
+                                <!-- Removed - SR-2016-00123336 - 06/28/2016 - kmm 
+
+                                
+
+                                    Events
+
+                                    Corporate Partners
+
+                                    News &#038; Resources
+
+                                        
+
+                                            News &#038; Press Releases
+
+                                            Videos
+
+                                            Brochures
+
+                                        
+
+                                    
+
+                                    Blog
+
+                                    Get Involved
+
+                                        
+
+                                            Donate
+
+                                            Volunteer
+
+                                            Sponsor an Event
+
+                                        
+
+                                    
+
+                                -->
+
+                            
+
+                            Careers
+
+                            Contact
+
+                        
+
+                    
+
+                    
+
+                
+
+                
+
+
+
+            
+
+            
+
+        
+
+        
+
+
+
+        
+
+            
+
+                
+
+                    
+
+                        Careers
+
+                    
+
+                    
+
+                        Open Positions
+
+                    
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+                
+
+
+
+            
+
+            
+
+        
+
+        
+
+            
+
+
+
+                    
+
+                        
+
+                            Browse Open Jobs
+
+                    
+
+                    
+
+                        
+
+                            Search Open Jobs
+
+                    
+
+                    
+
+                        
+
+                            Edit Your Profile
+
+                    
+
+                    
+
+                        
+
+                            View Submitted Applications
+
+                    
+
+                    
+
+
+
+            
+
+        
+
+
+
+        
+
+        
+
+                    
+
+                       
+
+
+
+
+
+.LabelCell
+
+{	padding: 3px 6px 3px 3px;
+
+}
+
+.Cell 
+
+{
+
+	padding-top: 4px;
+
+}
+
+
+
+.PrintSmall {
+
+	font-weight: bold
+
+}
+
+
+
+.LinkSmall:link 
+
+{
+
+	float: right;
+
+    font-weight: bold
+
+}
+
+.LinkSmall:visited 
+
+{
+
+	float: right;
+
+    font-weight: bold
+
+}
+
+.LinkSmall:active 
+
+{
+
+	float: right;
+
+    font-weight: bold
+
+}
+
+.LinkSmall:hover 
+
+{
+
+	float: right;
+
+	font-weight: bold
+
+}
+
+
+
+Job Details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = ('');
+
+		theform.__PXLBV.value = ('');
+
+	}
+
+	function pxslbp(eventTarget, eventArgument) {
+
+		var theform;
+
+		if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = eventTarget;
+
+		theform.__PXLBV.value = eventArgument;
+
+		theform.submit();
+
+	}
+
+//-->
+
+
+
+
+
+Invalid zipcode/postal code format for this country.');
+
+                }
+
+            } catch (e) {
+
+                hasError = true;
+
+            }
+
+            if (hasError) {
+
+                _zipCodeValue.title = 'Invalid Postal Code';
+
+                _zipCodeValue.style.backgroundColor = 'yellow';
+
+            }
+
+        }
+
+        return _validationReturn;
+
+    }
+
+    return true;
+
+}
+
+
+
+function removeZipLabelError(_zipCodeValue) {
+
+    var withSuccess = true;
+
+    try {
+
+        var lenght = _zipCodeValue.parentNode.childNodes.length;
+
+        var index = 0;
+
+        while (index 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ToggleCheckBoxs(chk){
+
+var tab = document.getElementById ( 'CheckBoxTable' );
+
+var elems = tab.getElementsByTagName ( 'input' );
+
+var len = elems.length;
+
+ for ( var i = 0; i  1){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+var pkval = nameparts[1];
+
+ txt.value = pkval;
+
+ }
+
+ }
+
+else
+
+elems[i].checked = false;
+
+}
+
+ if(chk.type == 'checkbox'){
+
+ if(chk.checked == false){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+txt.value="";
+
+}}}}
+
+
+
+
+
+
+
+    function SendResume(){
+
+        document.PXForm.ParseResume.value = 1;
+
+        document.PXForm.submit();
+
+    }
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+
+			
+
+			
+
+			
+
+			
+
+				Req No.
+
+				17-0926
+
+			
+
+			
+
+				Title
+
+				Data Analyst
+
+			
+
+			
+
+				Location
+
+				BAMSI Administration
+
+			
+
+			
+
+				City
+
+				Brockton
+
+			
+
+			
+
+			
+
+			
+
+				Scheduled Hours
+
+				40
+
+			
+
+			
+
+			
+
+			
+
+				Company Info
+
+				
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; JOIN OUR TEAM OF DEDICATED PROFESSIONALS!
+
+The Data Analyst at BAMSI
+
+willl
+
+provide strategic
+
+and tactical
+
+support by
+
+collecting,
+
+organizing,
+
+ analyzing
+
+ and 
+
+interpreting
+
+agency data
+
+to facilitate
+
+self-assessment
+
+and quality
+
+improvement.
+
+
+
+BAMSI is a 1900&#43; employee health and human services organization with locations across Eastern Massachusetts. We offer generous paid time off, paid holidays, paid trainings in a supportive environment that offers growth opportunities! Health and Dental Insurance
+
+ is available for employees working 30&#43; hours.
+
+
+
+Bachelor’s degree, preferably in a relevant discipline .Minimum 5 years of experience in a position focused on the delivery of numerical data to a wide variety of customers. Experience in health care strongly preferred. Advanced proficiency use of desktop productivity
+
+ tools including Excel, Word, PowerPoint. Demonstrated ability to use Access, SQL or similar analytic tools. Ability to organize, synthesize and analyze large amounts of information. Ability to manage multiple projects and deliver required products in a timely
+
+ manner. Must be well-organized and detail-oriented with a commitment to producing analytic product that consistently meets the highest standards of accuracy.
+
+
+
+			
+
+			
+
+				Description
+
+				
+
+Essential Functions:
+
+1.&nbsp; &nbsp;Interpret data, analyze results using basic statistical techniques and produce and present reports as requested.
+
+2.&nbsp; &nbsp;Develop and implement data collection systems and other strategies that optimize statistical efficiency and data quality.
+
+3.&nbsp; &nbsp;Work with colleagues and customers of Quality and Improvement to obtain and understand internal and external data sources.
+
+4.&nbsp; &nbsp;Increase the content and value of Quality and Improvement reporting, based upon agency requirements and employing industry standards and best practices.
+
+5.&nbsp; &nbsp;Acquire data from primary or secondary data sources and maintain databases/data systems.
+
+6.&nbsp; &nbsp;Assure the integrity of Quality and Improvement data, including data extraction, storage, manipulation, processing and analysis.
+
+7.&nbsp; &nbsp;Monitor Virtual Gateway alerts and status changes and perform related work.
+
+8.&nbsp; &nbsp;Work closely with management to prioritize business and information needs.
+
+9.&nbsp; &nbsp;Identify and define process improvement opportunities; document workflow.
+
+10. Work with Quality and Improvement colleagues to analyze incident and investigation data for trends and patterns.
+
+11. Work collaboratively with other BAMSI departments as needed to accomplish objectives.
+
+12. Participate on the Quality and Improvement Committee, MA Virtual Gateway HCSIS workgroups and others as assigned.
+
+13. Travel by personal automobile to perform duties and attend trainings/meetings as required.
+
+14. Perform duties in compliance with applicable laws and regulations, agency policies and procedures
+
+(including safety standards and training requirements) and industry best practices.
+
+Non-Essential Functions:
+
+1. Perform other work-related duties as needed or as assigned by supervisor or designee.
+
+
+
+			
+
+			
+
+				Requirements
+
+				
+
+Qualifications:
+
+1.&nbsp; &nbsp;Bachelor’s degree, preferably in a relevant discipline.
+
+2.&nbsp; &nbsp;Minimum 5 years of experience in a position focused on the delivery of numerical data to a wide variety of customers.
+
+3.&nbsp; &nbsp;Experience in health care strongly preferred.
+
+4.&nbsp; &nbsp;Advanced proficiency use of desktop productivity tools including Excel, Word, PowerPoint.
+
+5.&nbsp; &nbsp;Demonstrated ability to use Access, SQL or similar analytic tools.
+
+6.&nbsp; &nbsp;Ability to organize, synthesize and analyze large amounts of information.
+
+7.&nbsp; &nbsp;Ability to manage multiple projects and deliver required products in a timely manner.
+
+8.&nbsp; &nbsp;Must be well-organized and detail-oriented with a commitment to producing analytic product that consistently meets the highest standards of accuracy.
+
+9.&nbsp; &nbsp;Ability and willingness to understand and meet the information needs of wide variety of internal customers of Quality and Improvement.
+
+
+
+&nbsp;
+
+10. Excellent interpersonal skills and the demonstrated ability to work in a team oriented environment.
+
+11. Must be able to communicate effectively verbally and in writing with diverse audience, including technical and non-technical colleagues, funders, external agencies and other agency stakeholders.
+
+12. Ability to explain data analysis to non-technical audiences.
+
+13. Maintains absolute confidentiality of all agency data and other materials.
+
+14. Must be highly self-motivated and able to manage competing priorities and meet deadlines.
+
+15. Must possess a valid driver’s license in state of residence, a good driving record, and own means of reliable automobile transportation.
+
+16. Ability to pass a background check, including a criminal background check.
+
+
+
+			
+
+			
+
+				
+
+
+
+Equal Opportunity Employer/Protected Veterans/Individuals with Disabilities.Please view Equal Employment Opportunity Posters provided by OFCCP 
+
+here.The contractor will not discharge or in any other manner discriminate against employees or applicants because they have inquired about, discussed, or disclosed their own pay or the pay of another employee or applicant. However, employees who have access
+
+ to the compensation information of other employees or applicants as a part of their essential job functions cannot disclose the pay of other employees or applicants to individuals who do not otherwise have access to compensation information, unless the disclosure
+
+ is (a) in response to a formal complaint or charge, (b) in furtherance of an investigation, proceeding, hearing, or action, including an investigation conducted by the employer, or (c) consistent with the contractor's legal duty to furnish information. 41
+
+ CFR 60-1.35(c)
+
+
+
+
+
+			
+
+			
+
+				
+
+				Apply On-line
+
+			
+
+			
+
+				
+
+				Send This Job to a Friend
+
+			
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+                    
+
+                
+
+
+
+                
+
+
+
+        
+
+            
+
+                
+
+                    
+
+                        /@BAMSIServices
+
+                        LinkedIn
+
+                        Facebook
+
+                    
+
+                    
+
+                
+
+                
+
+                    Get Involved
+
+                    
+
+                        Volunteer
+
+                        Donate Now
+
+                    
+
+                    At BAMSI, we depend upon the generosity of others to help us carry out our work that benefits so many individuals and families.
+
+                    
+
+                        Volunteer
+
+                        Donate Now
+
+                    
+
+                
+
+
+
+            
+
+            
+
+        
+
+
+
+        
+
+            
+
+                
+
+                    Sign up for our newsletter for all the current news at BAMSI.
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                
+
+                        
+
+                        
+
+                            Sign Up
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+            
+
+                
+
+                    
+
+                        Adults
+
+                            
+
+                                Behavioral Health
+
+                                    
+
+                                        Adult Day Treatment Center
+
+                                        Clubhouse Services
+
+                                        Community Based Flexible Supports
+
+                                        Individual and Family Counseling
+
+                                        Southeast Recovery Learning Community
+
+                                    
+
+                                
+
+                                Development/Intellectual Disabilities &#038; Autism Services
+
+                                    
+
+                                        Day Habilitation
+
+                                        Employment Services
+
+                                        Individual Support
+
+                                        Residential Services
+
+                                    
+
+                                
+
+                                Medical/Physical &#038; Brain Injury Services
+
+                                    
+
+                                        Enrichment Centers
+
+                                        Employment Services
+
+                                        Day Habilitation
+
+                                        Family Training and Support
+
+                                        Individual Support
+
+                                        Pro-Vocational/Vocational Services
+
+                                        Residential Services
+
+                                    
+
+                                
+
+                                Public Health &#038; Community Resources
+
+                                    
+
+                                        HIV Case Management
+
+                                        Housing Support/Service Coordination
+
+                                        Dorn Davies Senior Center
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                        Children, Family &#038; Community Resources
+
+                            
+
+                                Behavioral Health
+
+                                    
+
+                                        Brockton After School Enrichment Program
+
+                                        Community Service Agency of Brockton
+
+                                        Home Based Team
+
+                                        The FIRST Program
+
+                                        Individual and Family Counseling
+
+                                    
+
+                                
+
+                                Education Support &#038; Services
+
+                                    
+
+                                        Brockton After School Enrichment Program
+
+                                        Educational &#038; School Consultation
+
+                                        Read to Succeed
+
+                                        Wraparound Coaching
+
+                                    
+
+                                
+
+                                Family Support Services
+
+                                    
+
+                                        The Family Support Center
+
+                                        Intensive Flexible Support (IFFS)
+
+                                        Parent Information Network (PIN)
+
+                                        Parents of Transitional Aged Youth
+
+                                    
+
+                                
+
+                                Public Health &#038; Community Resources
+
+                                    
+
+                                        Children&#8217;s Advocacy Center
+
+                                        Brockton Early Childhood Intervention Program
+
+                                        Helpline
+
+                                        Local Systems of Care
+
+                                        Women, Infants, &#038; Children (WIC)
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                        In the Community
+
+                            
+
+                                Get Involved
+
+                                    
+
+                                        Donate
+
+                                        Volunteer
+
+                                        Sponsor an Event
+
+                                    
+
+                                
+
+                                News &#038; Resources
+
+                                    
+
+                                        News &#038; Press Releases
+
+                                        Brochures
+
+                                        Videos
+
+                                    
+
+                                
+
+                                Events
+
+                                Blog
+
+                                Careers
+
+                                Corporate Partners
+
+                            
+
+                        
+
+                        About
+
+                            
+
+                                Overview
+
+                                Our Leadership
+
+                                Our Service Area
+
+                                News &#038; Resources
+
+                            
+
+                        
+
+                        Contact
+
+                    
+
+                
+
+                
+
+            
+
+            
+
+            
+
+                
+
+                    
+
+                    
+
+                        &copy;
+
+                            var d = new Date(); document.write(d.getFullYear());
+
+                            BAMSI
+
+                        10 Christy's Drive, Brockton, MA 02301
+
+                        info@bamsi.org Notice of Privacy Practices
+
+                        Website Design by Jackrabbit
+
+                    
+
+                
+
+            
+
+        
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+

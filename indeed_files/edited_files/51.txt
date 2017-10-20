@@ -1,0 +1,1858 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .alert-error {
+
+        color: #990000;
+
+        font-weight: bold;
+
+    }
+
+
+
+    td.top {
+
+        vertical-align: top !important;
+
+    }
+
+
+
+    td.left {
+
+        float: none;
+
+        text-align: left;
+
+    }
+
+
+
+    td.right {
+
+        float: none;
+
+        text-align: right;
+
+    }
+
+
+
+    .nowrapFormLabel {
+
+        white-space: nowrap;
+
+        text-align: right;
+
+    }
+
+
+
+    h1 {
+
+        font-size: 120%
+
+    }
+
+
+
+    h2 {
+
+        font-size: 110%
+
+    }
+
+
+
+    h3 {
+
+        font-size: 100%
+
+    }
+
+
+
+    .hidden-accessibility-text {
+
+        position: absolute;
+
+        left: -2000px;
+
+        top: 0;
+
+        width: 1;
+
+        height: 1;
+
+        overflow: hidden;
+
+        font-size: 0.1em;
+
+    }
+
+
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+
+    .ofcc305table textfield, .ofcc305table select,
+
+    .ofcc305table input, .ofcc305table a {
+
+        font-size:12px !important;
+
+        font-family:Arial,sans-serif,Helvetica !important;
+
+    }
+
+
+
+    #cws-search-results th, #cws-job-alerts th {
+
+        border-top: #CCCCCC 2px solid;
+
+        border-bottom: #CCCCCC 2px solid;
+
+    }
+
+
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+
+        border-bottom: #CCCCCC 2px solid;
+
+        padding-bottom: 3px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+
+	 
+
+	
+
+	
+
+	
+
+	
+
+
+
+	Careers | MCR
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+	
+
+	 
+
+	 
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+	.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+
+        
+
+	
+
+td.right {
+
+      text-align: left;
+
+}
+
+
+
+			.site-header {
+
+			background: url(http://www.mcri.com/wp-content/themes/mcr/images/headers/circle.png) no-repeat scroll top;
+
+			background-size: 1600px auto;
+
+		}
+
+		@media (max-width: 767px) {
+
+			.site-header {
+
+				background-size: 768px auto;
+
+			}
+
+		}
+
+		@media (max-width: 359px) {
+
+			.site-header {
+
+				background-size: 360px auto;
+
+			}
+
+		}
+
+		
+
+	
+
+
+
+
+
+table {
+
+    margin: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+
+				
+
+					
+
+						mcr
+
+					
+
+					
+
+						
+
+							
+
+								Small Business
+
+Newsroom
+
+Contact Us
+
+Employee Intranet
+
+							
+
+
+
+							
+
+								
+
+				
+
+					Search for:
+
+					
+
+				
+
+				
+
+										
+
+						
+
+					
+
+
+
+				
+
+
+
+				
+
+										    Services & Solutions
+
+Careers
+
+Who We Are
+
+					
+
+
+
+
+
+				
+
+				
+
+
+
+								
+
+			
+
+
+
+			
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+Job Openings
+
+Why Work For MCR
+
+
+
+	
+
+
+
+
+
+
+
+   
+
+      
+
+         Toggle navigation
+
+         
+
+         
+
+         
+
+      
+
+      Navigation -->
+
+   
+
+   
+
+      
+
+      	
+
+
+
+Job Openings
+
+Why Work For MCR
+
+
+
+
+
+      
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	    
+
+Home / Careers	
+
+
+
+	
+
+					Careers			
+
+
+
+	
+
+		
+
+	
+
+	
+
+
+
+	
+
+	
+
+		CONTACT US
+
+					MCR, LLC
+
+2010 Corporate Ridge Ste. 350
+
+McLean, VA 22102-7853
+
+
+
+(703) 506-4600
+
+info@mcri.com
+
+
+
+			
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+td {
+
+    border-top: medium none !important;
+
+    padding: 6px 10px 6px 0;
+
+}
+
+ol{
+
+    list-style-type: circle;}
+
+ol li {
+
+    list-style-type: circle;
+
+}
+
+
+
+
+
+
+
+ CwsDWRFacade._path = 'http://chk.tbe.taleo.net/chk01/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; 
+
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchk.tbe.taleo.net/chk01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chk.tbe.taleo.net/chk01/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chk.tbe.taleo.net/chk01/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();
+
+
+
+
+
+
+
+
+
+
+
+
+Data Analyst
+
+
+ID:
+3390
+
+
+Location:
+Springfield, VA
+
+
+
+Description
+THE COMPANY
+
+
+
+MCR is the trusted leader in integrated program management solutions. Since 1977, we have provided objectivity, smart thinking and the highest levels of support to help our clients get the job done, and done right. Our vast experience and knowledgeable people are our greatest assets. Their subject matter expertise, commitment to excellence and the high quality of their work, combined with our full suite of services, allows our clients to accomplish their missions and support national priorities. Our corporate values are based on integrity, excellence, honesty, service and trust. It is through these values that we form long-term client partnerships, build expertise, and attract and retain talented employees. For more information about MCR, LLC career opportunities, please visit&nbsp; www.mcri.com.
+
+
+
+DESCRIPTION OF DUTIES 
+
+
+
+Data Analytics support provides workforce analysis to inform resource decision making.&nbsp; Through quantitative and qualitative data collection and analysis, achieves an analytical understanding of the actual requirements (e.g., positions) needed to support a Key Component (KC) functions to meet Agency&rsquo;s mission, thereby supporting workload alignment efficiencies. Data analytics also use expertise and available resources to collect financial, survey and manpower data to inform and support PA&amp;E studies, and provide data visualization that highlights and communicates the results of their analysis.
+
+
+
+Develop, design and organize research approaches for data collection and analysis; Administer quality control and process improvement activities, including data entry, data cleaning and data coding; Merge multiple datasets using advanced functions of Excel and other statistical applications; Develop queries and reports, extract data from PeopleSoft, Microsoft Access, Microsoft Excel, and SPSS, and analyze data using advanced statistical techniques; Design, conduct, analyze and report on quantitative and qualitative research; Display analyses results in text and visualizations to communicate results to customers; Support annual and ad hoc internal and external reporting requirements and prepare briefings and reports as needed.
+
+
+
+Conduct comprehensive manpower analyses to identify and validate total workforce requirements, support personnel/workload planning, and inform investment/divestment decision-making.
+
+
+
+Assist an&nbsp;Agency workforce analytic team in designing, creating, and conducting workload surveys and assessments across the Agency.
+
+
+
+Develop queries and reports, extracting and merging data from PeopleSoft, to determine total force population.
+
+
+
+Support brief to the organizations to be surveyed in order to prepare participating individuals.
+
+
+
+Monitor participation rates and engage with organizational leaders to ensure sufficient response rates.
+
+
+
+Consolidate survey results, and code and organize data for analysis.
+
+
+
+Conduct quality control discussions with supervisors to assess the overall consistency of individual survey results.
+
+
+
+Link large datasets and presenting data distributions in appropriate histograms, charts, graphs.
+
+
+
+Analyze survey results using descriptive and predictive analytics to assess workload gap and gap to vacancy correlations and other conclusions to ensure credibility in results.
+
+
+
+Collaborate in analysis discussions to assess the overall consistency of results.
+
+
+
+Display analyses results in text and visually using PPT, Excel, and other graph formats to communicate results (reports, briefings, spreadsheets, dashboards, position papers, email response to taskers, etc.)
+
+
+
+Assist the&nbsp;Agency in the presentation of survey results and with briefings to senior&nbsp;leaders on the task and products.
+
+
+
+Administer quality control and process improvements activities, including data entry, data cleaning, data coding, survey design, and use and presentation of analytics stemming from survey results and supporting data.
+
+
+
+Manage (retrieve, code, merge, organize) data using an intermediate to advanced knowledge of Excel, Access, SPSS.
+
+
+
+Perform in-depth research, analysis and recommendations for implementation of best practices and lessons learned which will improve&nbsp;Agency requirements determination analysis processes.
+
+
+
+Support ad hoc analysis and request from internal and external (ODNI) organizations.
+
+
+
+Attend meetings with partners related to data analysis and research projects.
+
+
+
+Participate in Agency, IC, and Federal Government wide working groups as directed.
+
+
+
+BASIC QUALIFICATIONS
+
+
+
+
+
+Bachelor&#39;s Degree with significant quantitative analytic focus.
+
+
+
+Minimum eight (8) years of experience and six (6) years of relevant experience in workforce/human capital analysis, business/finance/economics, operation research, and/or system engineering.
+
+
+
+Demonstrated experience in data collection and analysis.
+
+
+
+
+
+US Citizenship is required.&nbsp; Applicants selected will be subject to a Government investigation and must meet eligibility requirements to obtain and retain the designated Government clearance (Top Secret).&nbsp; Must have an active Top Secret/Special Compartmented Intelligence (SCI) clearance and a Counterintelligence Polygraph.
+
+
+
+PREFERRED QUALIFICATIONS
+
+
+
+
+
+Master degree with significant quantitative analytic focus.
+
+
+
+Proficiency with PeopleSoft, SPSS, Microsoft Access.
+
+
+
+Working knowledge of NGA organizations and mission.
+
+
+
+Working knowledge of Microsoft Project.
+
+
+
+Strong history/experience in customer-service, able to advise on tactical and strategic issues.
+
+
+
+Strong oral and written communication skills; demonstrated ability to develop written artifacts of the caliber to be consumed by working and senior audiences.
+
+
+
+Strong interpersonal skills; ability to work independently, and as a team member; ability to establish a network of contacts; ability to mentor and guide activities of other team members.
+
+
+
+Demonstrated ability to merge multiple workload and population datasets that involves use of advanced functions of Excel and other statistical applications.
+
+
+
+Demonstrated ability to conduct interviews, research, and data analysis to translate information into analytic results.
+
+
+
+Demonstrated proficiency in MS Office.
+
+
+
+
+
+EQUAL OPPORTUNITY EMPLOYER
+
+
+
+MCR, LLC is an equal opportunity/affirmative action employer. All qualified applicants will receive consideration for employment without regard to sex, gender identity, sexual orientation, race, color, religion, national origin, disability, protected veteran status, age, or any other characteristic protected by law.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Are you a returning applicant?
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Applicants:
+
+
+Email:
+
+
+
+
+
+Password:
+
+
+
+
+
+If you do not remember your password click here.
+
+
+
+
+Back to Search Results
+
+
+New Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        //jQuery Calendar
+
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchk.tbe.taleo.net/chk01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+
+    
+
+
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		Trust
+
+Excellence
+
+Integrity
+
+Service
+
+Honesty
+
+		
+
+	
+
+
+
+
+
+			
+
+
+
+			
+
+				
+
+					
+
+						
+
+										MCR, LLC
+
+2010 Corporate Ridge Ste. 350
+
+McLean, VA 22102-7853
+
+
+
+(703) 506-4600
+
+info@mcri.com
+
+
+
+							    
+
+				    
+
+				    
+
+				    	Services
+
+Integrated Program Management
+
+Who We Support
+
+				    
+
+				    
+
+				    	Job Openings
+
+MCR Ethics Hotline
+
+Contact Us
+
+				    
+
+				    
+
+				    	
+
+				    		Follow UsLinkedin
+
+Facebook
+
+Twitter
+
+				    	
+
+				    
+
+				
+
+				
+
+					©2014 MCR, LLC. All Rights Reserved
+
+				
+
+
+
+				
+
+
+
+			
+
+			
+
+		
+
+	
+
+
+
+	
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+var pltNewTabURLs = ["https:\/\/intranet.mcri.com\/","http:\/\/ch.tbe.taleo.net\/CH12\/ats\/careers\/jobSearch.jsp?org=MCRI&cws=5","https:\/\/mcr.ethicaladvocate.com"];(function(){jQuery(function(e){return e("body").on("click","a",function(t){var n;n=e(this);if(e.inArray(n.attr("href"),pltNewTabURLs)>-1)return n.attr("target","_blank")})})}).call(this);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(function () {
+
+
+
+			  $('table.footable').footable(
+
+				{
+
+					breakpoints: {
+
+				  		tablet: 767,
+
+				  		phone: 479
+
+					}
+
+				}
+
+			  );
+
+
+
+   $('table').footable().bind('footable_filtering', function (e) {
+
+      var selected = $('.filter-status').find(':selected').text();
+
+
+
+      if (selected && selected.length > 0) {
+
+      	e.filter += (e.filter && e.filter.length > 0) ? ' ' + selected : selected;
+
+        e.clear = !e.filter;
+
+      }
+
+
+
+    });
+
+
+
+
+
+ $('.filter-status').change(function (e) {
+
+    e.preventDefault();
+
+
+
+    //get the footable filter object
+
+    var footableFilter = $('table').data('footable-filter');
+
+    // var data = $('.filter-status option:selected').text();
+
+
+
+   $('table').trigger('footable_filter', {filter: $('#filter').val()});
+
+});
+
+
+
+  $("#filter").keypress(function(event) {
+
+$('table').trigger('footable_filter', {filter: $('#filter').val()});
+
+  });
+
+
+
+
+
+  });
+
+
+
+
+
+
+
+$(window).load(function(){
+
+
+
+    	var t = $('table').data('filter-disable-enter');
+
+    	//t.filter.disableEnter;
+
+
+
+
+
+    			var seen = {};
+
+			jQuery('#select_location').children().each(function() {
+
+			    var txt = jQuery(this).clone().wrap('').parent().html();
+
+			    if (seen[txt]) {
+
+			        jQuery(this).remove();
+
+			    } else {
+
+			        seen[txt] = true;
+
+			    }
+
+			});
+
+
+
+			$('#select_location option').each(function(){
+
+			if ($(this).text() === ''){//this assumes that your empty value is ''
+
+			$(this).remove();
+
+			}
+
+			});
+
+})
+
+
+
+
+
+
+
+
+
+		$(document).ready(function(){
+
+		  	$('.bxslider').bxSlider({
+
+				infiniteLoop: true,
+
+				hideControlOnEnd : true,
+
+				auto: true,
+
+				speed: 1500,
+
+				pause: 10000,
+
+				autoHover: true
+
+			});
+
+
+
+			$('.bxslider_carousel').bxSlider({
+
+				slideWidth: 270,
+
+				minSlides: 1,
+
+				maxSlides: 4,
+
+				moveSlides: 1,
+
+				slideMargin: 10,
+
+				autoHover: true
+
+			});
+
+
+
+
+
+			$('.office_lacation_div .tab-pane .location_list ul li').click(function(){
+
+				$('.location_box').equalHeights();
+
+			});
+
+
+
+			$(".scroll").click(function(event){
+
+			   event.preventDefault();
+
+			   //calculate destination place
+
+			   var dest=0;
+
+			   if($(this.hash).offset().top > $(document).height()-$(window).height()){
+
+			        dest=$(document).height()-$(window).height();
+
+			   }else{
+
+			        dest=$(this.hash).offset().top;
+
+			   }
+
+			   //go to destination
+
+			   $('html,body').animate({scrollTop:dest}, 1000,'swing');
+
+			});
+
+
+
+
+
+			$(".single_news_press_child ul li:first-child").addClass("selected");
+
+			$(".single_events_child ul li:last-child").addClass("selected");
+
+
+
+			$('.child_list li a').click(function(e){
+
+			e.preventDefault();
+
+
+
+			var class_name = $(this).parent().attr('class');
+
+
+
+			$('#hover_content ul').find('.'+class_name).show();
+
+			$('#hover_content ul').find('.content_show').removeClass('content_show');
+
+			$('#hover_content ul').find('.'+class_name).addClass('content_show');
+
+			$('#hover_content li').not($('#hover_content ul').find('.'+class_name)).hide();
+
+		    $('#capabilities').hide();
+
+
+
+		    //$(this).parent().find('.active').removeClass('active');
+
+			// $(this).parent().addClass('active');
+
+
+
+
+
+			});
+
+
+
+			$('.content_close').click(function(e){
+
+				e.preventDefault();
+
+				$('#hover_content li').hide().hasClass('.content_show');
+
+				$('#capabilities').show();
+
+			});
+
+
+
+			$('.accordion').accordion({defaultOpen: 'accordion_1',speed: 'slow'}); //some_id section1 in demo
+
+
+
+
+
+			$ ('#capabilities ul li:even').addClass('even');
+
+        	$ ('#capabilities ul li:odd, .career_wrapper #left_box ul li:odd, #job_opening_wrapper table tr:odd').addClass('odd');
+
+
+
+
+
+        	$('.inner_home_top_menu ul li a').click(function(e){
+
+				$(this).removeClass('active');
+
+        		$(this).addClass('active');
+
+        	});
+
+
+
+			$('.executive_leaders_div a').click(function(e){
+
+				 $('.executive_leaders_div li').removeClass('active');
+
+				$(this).parent().addClass('active');
+
+				e.preventDefault();
+
+				$('#executive_data').html('').load(url+' #job_data');
+
+
+
+			});
+
+
+
+
+
+
+
+		});
+
+
+
+		$(window).load(function(){
+
+			$('body.parent-pageid-5 .executive_leaders_div li a').first().trigger('click');
+
+
+
+			$('ul.state_info li.usa_1').addClass('block');
+
+
+
+			$('.executive_leaders_single_div').find("a[href='"+window.location.href+"']").parent().addClass("active");
+
+
+
+			$('.executive_leaders_single_div a').click(function(e){
+
+			$(this).parent().addClass('active');
+
+			e.preventDefault();
+
+			$('#executive_single_container').html('<img src="http://www.mcri.com/wp-content/themes/mcr/images/ajax-loader.gif"').load($(this).attr('href')+' #executive_content');
+
+			History.pushState("","", $(this).attr('href'));
+
+
+
+			$('#executive_content').hide();
+
+
+
+			});
+
+
+
+			$('#career_select_location').customSelect();
+
+
+
+			$("#left_box").height();
+
+
+
+			$(".career_wrapper #right_box ul.trans_bg").css('min-height',$("#left_box").height());
+
+			$(".right_box").css('min-height',$(".who_we_are_wrapper").height());
+
+			$(".supporting_div").css('min-height',$("#hover_content ul li").height());
+
+
+
+		$("#menu-main-menu li:first-child").addClass("first");
+
+
+
+		$("#menu-main-menu li:last-child, .sliderrt_div ul li:last-child, .homepage_bottom_menu ul li:last-child,.home_div div:last-child,.child_page_wrap ul li:last-child,.inner_child_nav ul li:last-child,.enabling_product_div li:last-child,li.feaured_case_studies ul li:last-child,.single_who_we_support_wrap ul.child_pages_div li:last-child,.child_page_header ul.ipm_contact_box_content li:last-child,.blue_color_scheme .careerchild_page_div .content_div ul li:last-child,.event_time_location li:last-child,.green_color_scheme #content .strategic_part_div .strategic_cont:last-child,.green_color_scheme #content .strategic_part_div ul li:last-child,.society_awards_wrap ul.society_awards_div li:last-child,.phone_email_fax li:last-child,.location_box .col-lg-3:last-child,.search_page ul.search_div li:last-child, ul.executive_leaders_div li:last-child").addClass("last");
+
+
+
+
+
+			jQuery('#career_select_location').load("http://www.mcri.com/wp-content/themes/mcr/job_table_data.php"+' #select_location');
+
+
+
+			setTimeout( function(){
+
+
+
+						$('#select_location option').each(function(){
+
+						if ($(this).text() === ''){
+
+						$(this).remove();
+
+						}
+
+						});
+
+
+
+						var seen1 = {};
+
+						jQuery('#select_location').children().each(function() {
+
+						    var txt1 = jQuery(this).clone().wrap('').parent().html();
+
+						    if (seen1[txt1]) {
+
+						        jQuery(this).remove();
+
+						    } else {
+
+						        seen1[txt1] = true;
+
+						    }
+
+						});		
+
+
+
+				$('#career_select_location #select_location').trigger('change');
+
+
+
+			  } , 1000);
+
+
+
+
+
+			jQuery('.career_job_input').keypress(function(e) {
+
+			if(e.which == 13) {
+
+
+
+			var location = jQuery('#select_location option:selected').text();
+
+			var keyword = jQuery('.inputdiv #career_keyword').val();
+
+
+
+			window.location.replace('http://www.mcri.com/careers/job-openings?state='+location+'&key='+keyword);
+
+		
+
+			}
+
+
+
+			});
+
+
+
+
+
+
+
+			jQuery('#career_job_submit').click(function(){
+
+
+
+		    var location = jQuery('#select_location option:selected').text();
+
+			var keyword = jQuery('.inputdiv #career_keyword').val();
+
+
+
+			window.location.replace('http://www.mcri.com/careers/job-openings?state='+location+'&key='+keyword);
+
+
+
+			});
+
+
+
+
+
+			function GetParameterValues(param) {
+
+			var url = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+
+			for (var i = 0; i < url.length; i++) {
+
+			var urlparam = url[i].split('=');
+
+			if (urlparam[0] == param) {
+
+			return urlparam[1];
+
+			}
+
+			  }
+
+			    }
+
+
+
+
+
+			if (window.location.search == ""){
+
+
+
+			}else{
+
+
+
+			var loca = GetParameterValues('state');
+
+			var keyword = GetParameterValues('key');
+
+
+
+			$('#job_data').find("#filter").trigger('click');
+
+			$('#job_data').find("#filter").trigger('keyup');
+
+			$('#job_data').find("#filter").trigger('keypress');
+
+			$('#job_data').find("#filter").val(keyword);
+
+
+
+			$('.filter-status option[value="'+loca+'"]').attr("selected","selected");
+
+
+
+			};
+
+
+
+			$('.table').each(function () {
+
+			$(this).find('td:nth-child(4)').each(function () {
+
+			var date = $(this).text();
+
+			var new_date = date.substring(0, date.indexOf('T'));
+
+			$(this).text(new_date);
+
+			});
+
+
+
+			});
+
+
+
+
+
+			$('[name=job_state_data] option').filter(function() {
+
+			    return ($(this).text() == loca); //To select Blue
+
+			}).prop('selected', true);
+
+
+
+			$('.filter-status').trigger('click');
+
+
+
+$('#select_location').change(function(){
+
+
+
+if ($('#job_table tbody tr').css('display') == 'table-row'){
+
+}else{
+
+//$("#job_table").html('Sorry! no such job found.');
+
+};
+
+});
+
+
+
+
+
+
+
+	$('.filter-status').change(function (e) {
+
+	e.preventDefault();
+
+
+
+	var footableFilter = $('table').data('footable-filter');
+
+
+
+	$('table').trigger('footable_filter', {filter: $('#filter').val()});
+
+	});
+
+
+
+	$("#filter").keypress(function(event) {
+
+	$('table').trigger('footable_filter', {filter: $('#filter').val()});
+
+	});
+
+
+
+
+
+
+
+ 			});
+
+
+
+
+
+
+
+
+
+
+
+
+
+	$(document).ready(function() {
+
+	    var leftHeight = $('.enabling_product_left_box').height();
+
+	    $('.enabling_product_right_box').css({'min-height':leftHeight});
+
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

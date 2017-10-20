@@ -1,0 +1,304 @@
+
+       
+          
+          
+  <!--
+    
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Data Analyst | WinterWyman
+        
+        
+
+
+         stLight.options({ publisherGA:"UA-3418174-1" }); 
+        
+
+
+
+
+
+
+
+
+
+
+        
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NL8VC7B');
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    
+        
+            You are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience.
+        
+                		
+
+		
+			
+				  
+    
+
+    
+  
+    WinterWyman Home
+Facebook
+LinkedIn
+Twitter
+AboutWelcome to WinterWyman
+Meet Our Team
+WinterWyman Contract Staffing
+WinterWyman Executive Search
+WinterWyman Search
+Community Development
+In the News
+
+Contact
+Blog
+  
+
+
+
+    
+  
+    
+      Search form
+    
+  Search 
+ 
+
+
+
+
+  
+
+  
+			
+
+			
+
+			
+				                                        					
+						
+						
+					
+				
+									
+						
+													Our talent is finding talent.
+											 
+							
+
+			
+		 
+
+		
+			
+				- Any -				New England
+				New York
+			
+
+			
+				- Any -				New England
+				New York & New Jersey
+			
+
+			
+				- Any -				
+					Accounting &amp; Finance
+				
+				
+					Human Resources
+				
+				
+					Information Technology
+				
+				
+					Quality Assurance
+				
+				
+					Software Technology
+				
+			
+
+			
+				- Any -				
+					Accounting &amp; Finance
+				
+				
+					Technology
+				
+			
+
+			
+				- Any -				
+					Accounting, Finance & Admin
+				
+				
+					Human Resources
+				
+				
+					Technology
+				
+			
+
+			
+				- Any -				
+					Accounting, Finance & Admin
+				
+				
+					Technology
+				
+			
+
+
+		
+
+		
+					You are hereHome » Job Search » Data Analyst
+		
+		
+		
+
+			
+								
+				
+								Data Analyst																				  
+    
+
+    
+  
+    
+
+  
+      
+  
+  
+          
+        
+Are you a motivated and conscientious Data Analyst looking to join a well-known asset management and financial services company?&nbsp; If so, our client, located in the Washington DC area, wants you to join their team &ndash; see below for more detail!
+
+Responsibilities:
+
+Generate&nbsp;and maintain data model documentation for various applications within the Legal, Compliance, and Tax business areas
+	Manage integration design and data flows between various applications and systems
+	Create reports using a variety of tools (Microsoft SSRS, SQL, Excel for MS OLAP/Data Cubes)
+	Interact with stakeholders and present complex materials in a manner that non-technical team members can understand
+	Work in Agile teams within a highly-collaborative environment
+Qualifications:
+
+7+ years of data analysis/analytics experience
+	Prior experience as a Business Analyst, designing long-running processes
+	Superb&nbsp;written and verbal communication skills 
+Nice to Have:
+
+Experience with SSIS
+Think you&rsquo;re a good fit?&nbsp; Please reach out to us today!
+
+If you are already working with a WinterWyman recruiter, please contact them directly; otherwise, please send your resume and contact information to database@winterwyman.com
+
+Job Id: 159720
+
+        
+          
+            
+              
+                
+                  api_key: m8zxs35rusze
+                
+                
+                
+              
+            
+          
+         -->
+                    
+              
+                
+                  
+                    
+                    
+                    
+                  
+                
+              
+            
+                                &nbsp;            var nid = 328225;            
+api_key: m8zxs35rusze
+authorize: false
+onLoad: onLinkedInLoaded
+
+                
+
+      Job ID:&nbsp;159720Employment Type:&nbsp;ContractLocation:&nbsp;Metro DCDate Posted:08/29/2017
+    
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+							 
+
+			
+			
+			
+		 
+
+		
+			  
+    
+
+    
+  
+    © 2017 WinterWyman &nbsp; &nbsp; &nbsp;&nbsp;Waltham&nbsp;&nbsp; &nbsp;&nbsp;|&nbsp;&nbsp; &nbsp;&nbsp;Boston&nbsp;&nbsp; &nbsp;&nbsp;|&nbsp;&nbsp; &nbsp;&nbsp;NYC&nbsp;&nbsp; &nbsp;&nbsp;| &nbsp; &nbsp; Privacy Policy &nbsp;&nbsp; | &nbsp; &nbsp; Careers  
+
+  
+		 
+
+	 
+        		
+        
+        
+        
+        
+        
+        
+         _linkedin_data_partner_id = "90667";  (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})();    
+    
+

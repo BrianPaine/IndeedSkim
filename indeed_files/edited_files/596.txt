@@ -1,0 +1,270 @@
+
+
+                                                                                            
+    
+    
+                        
+        
+        
+        KAYAK Careers - Data Scientist
+                    
+            
+                                        
+                                            
+                
+            
+                                        
+        
+                        
+        
+
+        
+        
+        
+        
+                                
+                
+            
+        
+                
+    
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            var enableTracking = true;
+            var trackerId = "UA-15090121-1";
+            var pageTracker = _gat._getTracker("UA-15090121-1");
+        } catch(err) {}
+    
+    
+
+    function trackPage() {
+        try {
+            if (enableTracking && enableTracking == true) {//enableTracking var is set during analytics script reg.
+                var pageTracker = _gat._getTracker(trackerId);
+                var varIndex = 1;
+                try {
+                pageTracker._setCustomVar(varIndex++, "UserId", getUserId(), 1);
+                pageTracker._setCustomVar(varIndex++, "CompanyId", getCompanyId(), 1);
+                }//to track pages which does not have a User
+                catch (userIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "SubsidiaryId", getSubsidiaryId(), 1);
+                } //to track pages which does not have a subsidiaryId
+                catch (subsidiaryIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "JobId", getJobId(), 3);
+                    pageTracker._setCustomVar(varIndex++, "CategoryId", getCategoryId(), 3);
+                }//to track pages which does not have a jobref
+                catch (jodIdError) {
+                }
+                if (enableAnonymizeIP && enableAnonymizeIP == true) {
+                    _gat._anonymizeIp();
+                }
+
+                pageTracker._trackPageview();
+            }
+        }
+        catch (error) {
+
+        }
+    }
+
+
+    function getUserId() { return ''; }
+
+
+    function getCompanyId() { return 'qvYaVfwi'; }
+
+    
+        function getJobId() { return 'oIHZ5fwd'; }
+    
+    
+        function getCategoryId() { return '2048'; }
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+
+
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            enableTracking = true;
+            trackerId = "UA-59865900-1";
+            pageTracker = _gat._getTracker("UA-59865900-1");
+        } catch(err) {}
+    
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+        
+            if (window.self !== window.parent) {
+                document.documentElement.className += ' jv-iframe';
+            }
+        
+            
+    
+    
+        
+                    
+        
+                            
+                            
+        
+            
+                                    
+                                                    KAYAK Careers                                            
+                            
+        
+                
+                        
+    
+                    
+                                
+                Data Scientist
+    
+    
+                                        
+                            Engineering            
+                    Cambridge,
+                            Massachusetts
+                
+                        
+        
+    
+                        
+                        
+    
+        Apply
+    
+                            
+                        
+            Description
+                        
+                The PositionWe are looking for a Data Scientist/Analyst to join KAYAK's Analytics team in our Cambridge office. This person should love working on data parsing, analyzing, investigating, interpreting, modeling, and extracting knowledge from large volumes of data. Good candidates would have a passion for processing data to help drive better business decisions in a fast-paced environment. The role would include the following responsibilities:Extract data from databases, write scripts to parse, clean, combine, and process themCreate dashboards and visualizations of processed data, identify trends, anomaliesInvestigate data problems, identify patternsUse predictive analytics and machine learning to create new products or drive business decisionsDraw inferences and conclusions, communicate results through reports, charts, or tablesBasic QualificationsUniversity degree in Computer Science, Engineering, or Math/PhysicsMaster's degree is a plus3+ years professional development experienceSQL and database experience is a must, with Hive/Hadoop a plusGood programming skills with at least one high-level language such as Python, Java, or C/C++Good knowledge of data structures, algorithms, and statisticsKnowledge of Unix shell scriptingKnowledge of Machine Learning would be a plusSoft SkillsTeam player who likes to engage with colleagues at a professional and personal level. Someone who can handle a high volume of requests with frequent interruptions and prioritize their own work while taking infrastructure and business needs into account. Must have excellent technical communication skills.Come join the team at KAYAK and help us build the best travel metasearch website in the world!About KAYAKKAYAK is the world&rsquo;s leading travel search engine. KAYAK searches other travel sites and shows travelers the information they need to find the right flights, hotels, rental cars and vacation packages. The company&rsquo;s website and apps also offer tools to help travelers plan and manage their trip, including price alerts, price forecasts and free itinerary management. Each year, KAYAK processes more than one billion searches for travel information and has more than 40 international sites and 20 languages. KAYAK is an independently managed subsidiary of The Priceline Group.BENEFITS AND PERKS4 weeks paid vacationDay off on your birthdayGenerous retirement plans3 year anniversary travel bonusAwesome health, dental and vision insurance plansFlexible Spending AccountsNo stupid meetingsDrinks, coffee, snacks, games etc.Flexible hoursFree massages from professional masseuseRegular team events/excursions&nbsp;&nbsp;
+            
+                            
+                    
+                
+                    
+    
+        Apply
+    
+                            
+        Apply Later    
+            
+        
+            &larr; Back to Current Openings        
+    
+    
+                                
+    
+        
+        Share
+        
+            
+                lang: en_US            
+            
+            
+                
+                    LinkedIn
+                
+            
+            
+                
+                    Facebook
+                
+            
+            
+                
+                    Twitter
+                
+            
+            
+                
+                    Email
+                
+            
+        
+    
+                    
+                                        
+            
+                Similar Jobs
+                                                        
+                    
+                        
+                            
+                                
+                                    {{ job.title }}
+                                
+                            
+                        
+                    
+                
+            
+            
+                
+    
+                    
+            
+                    
+        
+            
+                                                                        
+                    
+                        Powered by Jobvite
+                            
+        
+    
+            
+    
+        
+        
+    
+            
+    
+    
+        angular.module('preloadedData', []).constant('preloadedData', {
+                                        applyLinkUrl: '${job.applyLinkUrl}',
+                jobCategoryId: 'azV9Vfwi',
+                jobCategoryName: 'Engineering',
+                jobId: 'oIHZ5fwd',
+                jobReqId: '556-2015                                          ',
+                jobTitle: 'Data Scientist',
+                jobLocationId: 'C7fwVfwx',
+                                                                jobviteAnalytics: 'UA-15090121-1',
+                                        companyAnalytics: 'UA-59865900-1',
+                                                                                                    enableRecommendedJobs: true,
+                                                    enableResumeParsing: true,
+                                        numberFormat: "##,###,###,###,###.####",
+                                    companyEId: 'qvYaVfwi',
+            linkedInApiKey: '7557fkcarvxieo',
+            facebookApiId: '48354194572',
+            dropBoxApiKey: 'w5fg28zznqcyg4w',
+            baseUrl: '/kayak',
+            cdnURL: '',
+            releaseVersion: '171003110732',
+            careersiteName: 'kayak',
+            careersiteDomainName: '${careersiteDomainName}',
+            careersiteSourceTypeId: 'PvPoXfwp'
+        }).constant('i18n', {
+            I18N_RESUME_PREVIEW: 'Resume Preview',I18N_NO_RESUME_FOUND: 'No resume found',I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',I18N_RECOMMENDER: 'Recommender:',I18N_CURRENT: 'Current',I18N_PAST: 'Past',I18N_EDUCATION: 'Education',I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',I18N_PATENTS: 'Patents',I18N_SUMMARY: 'Summary',I18N_SPECIALTIES: 'Specialties',I18N_EXPERIENCE: 'Experience',I18N_RECOMMENDATIONS: 'Recommendations',I18N_PRESENT: 'Present',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec'        });
+        Jobvite = {
+            baseUrl: 'https://app.jobvite.com'
+        }
+    
+                    
+    
+
+    

@@ -1,0 +1,862 @@
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        
+
+        
+
+    Quantitative Analytics
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+     
+
+    
+
+        
+
+        
+
+     
+
+
+
+    	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+         
+
+
+
+    
+
+        var PopUp = {};
+
+        PopUp.JQ = {};
+
+
+
+
+
+        PopUp.Handlers = {};
+
+        PopUp.Handlers.ClickOpen = function (e) {
+
+            e.preventDefault();
+
+
+
+            var jq = $(this);
+
+            var url = jq.attr("href");
+
+
+
+            PopUp.JQ.ModalIFrame.attr("src", url);
+
+            PopUp.JQ.Modal.modal("show");
+
+        };
+
+        PopUp.Handlers.ClickClose = function (e) {
+
+            PopUp.JQ.ModalIFrame.removeAttr('src');
+
+        }
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+    
+
+
+
+        //Check to see if the window is top if not then display button
+
+        $(window).scroll(function () {
+
+            if ($(this).scrollTop() > 100) {
+
+                $('#back-to-top').fadeIn();
+
+            } else {
+
+                $('#back-to-top').fadeOut();
+
+            }
+
+        });
+
+
+
+        //Click event to scroll to top
+
+        $('#back-to-top').click(function () {
+
+            $('html, body').animate({ scrollTop: 0 }, 800);
+
+            return false;
+
+        });
+
+               
+
+
+
+    
+
+        
+
+
+
+
+
+    
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                
+
+                
+
+                    Careers Home
+
+                    About Us
+
+                    Culture
+
+                    Benefits
+
+                    People
+
+                    Search Jobs
+
+                
+
+                
+
+            
+
+        
+
+     
+
+    
+
+        
+
+            
+
+                
+
+                
+
+                    
+
+                                            
+
+                            Digital
+
+                            
+
+                        
+
+                                                                                
+
+                 
+
+                
+
+
+
+                
+
+                    
+
+                    
+
+
+
+                        Careers
+
+                        
+
+
+
+
+
+    
+
+        
+        Search Jobs
+
+
+    
+
+        
+
+    
+
+        
+        Digital Jobs
+
+
+    
+
+        
+
+    
+
+        
+        Analytics Jobs
+
+
+    
+
+        
+
+    
+
+        
+    Quantitative Analytics
+
+
+    
+
+
+
+                    
+
+                
+
+                    
+
+                        
+
+                            
+
+                            
+
+                                
+
+                                    Browse Jobs
+
+                                
+
+
+
+                            
+
+                        
+
+                        
+
+
+
+        
+
+            
+
+            
+
+                
+
+                
+
+                    Branch
+
+                
+
+            
+
+        
+
+        
+
+            
+
+            
+
+                
+
+                
+
+                    Corporate
+
+                
+
+            
+
+        
+
+        
+
+            
+
+            
+
+                
+
+                
+
+                    Customer Service
+
+                
+
+            
+
+        
+
+        
+
+            
+
+            
+
+                
+
+                
+
+                    Digital
+
+                
+
+            
+
+        
+
+        
+
+            
+
+            
+
+                
+
+                
+
+                    Internship
+
+                
+
+            
+
+        
+
+
+
+                    
+
+                                    
+
+                
+
+                    
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+Quantitative Analytics Job
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+
+
+    Full Job Title: Quantitative Analytic
+
+    Job Number: R1710-65
+
+        
+
+            Location:
+
+            
+
+                
+
+                    Wilmington, DE
+
+                
+
+            
+
+        
+
+
+
+    Date Posted: 10-9-2017
+
+    
+
+
+
+    
+
+        
+
+                Apply Now
+
+            
+
+
+
+
+
+
+
+
+
+        
+
+
+
+                                                                                
+
+                                                                                    
+
+                                                                                        OneMain is currently seeking to fill an open Collection Strategy Analyst position in Wilmington, DE. Join our Servicing Strategies team dedicated to leveraging data and analytics to optimize servicing operations. The Collection Strategy Analyst will develop, execute, optimize and analyze strategies and reporting to support collections and recoveryRequired Skills:5+ experience in Process automation and strategy development using SAS, PL/SQLExtensive knowledge in SAS including SAS Macro, SAS STAT, &nbsp;System Management Console, SAS Base and other relevant components of SAS as applicable.Strong relational database and SQL experienceAbility to translate high level business requirements into technical data requirementsExcellent communication skills (verbal, written and presentations) and ability to solve complex problems and develop creative solutions.tionDesired Skills:Knowledge of &nbsp;Consumer lending and Collection strategies preferredPrevious experience in using SAS-VA for developing reports&nbsp;Knowledge of PostgreSQLSAS Certified Base Programmer, preferred.&nbsp;
+
+                                                                                        
+
+
+
+
+
+
+
+                                                                                    
+
+                                                                                
+
+                                                                                
+
+                                                                                    
+
+ Apply Now                                                                                                                                                                             
+
+                                                                                
+
+ Back to top 
+
+                
+
+                
+
+                    
+
+                    
+
+                        
+
+
+
+                            
+
+
+
+                                
+
+
+
+                            
+
+    
+
+
+
+
+
+
+
+        
+
+    
+
+                    
+
+                
+
+
+
+                
+
+            
+
+        
+
+    
+
+    
+
+        
+
+        
+
+            
+
+                
+
+                
+
+                
+
+                
+
+                
+
+                
+
+            
+
+        
+
+
+
+        
+
+            
+
+                
+
+                    
+
+                        State Licensing
+
+                        Privacy
+
+                        Terms of Use
+
+                    
+
+                    
+
+                        Loan offers are subject to credit approval and other restrictions and requirements may apply.
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    var dataLayer = dataLayer || {
+
+        page: {
+
+            pageInfo:{
+
+                pageName:"us.Quantitative Analytics in Wilmington, DE at OneMain",
+
+                referringURL: "",
+
+                sysEnv:"Engine",
+
+                language:"en-US",
+
+                onsiteSearchTerm: "",
+
+                onsiteSearchResults: "ni",
+
+                onsiteSearchJobResultCount: "ni",
+
+                onsiteSearchZip: "",
+
+                onsiteSearchRadius: "",
+
+                onsiteSearchMapFail: "ni",
+
+                onsiteSearchRefinements: "ni",
+
+                testimonialName: "ni"
+
+            },
+
+            category:{
+
+                primaryCategory: "ni",
+
+                pageType: "Job Details"
+
+            },
+
+            attributes:{
+
+                clientID: "291049",
+
+                clientGroup: "0",
+
+                clientPlatform: "",
+
+                reportSuites: "nasronemainglobal"
+
+            }
+
+        },
+
+        event:[{
+
+            eventInfo:{
+
+                eventName: "all events listed here by name, comma separated"
+
+            }
+
+        }],
+
+        job:{
+
+            jobInfo:{
+
+                jobID: "78967922",
+
+                jobtitleID: "146911",
+
+                jobName: "Quantitative Analytics",
+
+                familyID: "1144",
+
+                categoryID: "107007",
+
+                schedule: "",
+
+                shift: "",
+
+                locationID: "60956",
+
+                city: "Wilmington",
+
+                state: "DE",
+
+                expiredID: "",
+
+                jopexpired: "",
+
+                ATSJobID: "R1710-65",
+
+                ATSreferencenumber: "R1710-65",
+
+                TNContactID: ""
+
+            }
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        _satellite.pageBottom();
+
+    
+
+    
+
+
+
+
+
+
+

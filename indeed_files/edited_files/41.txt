@@ -1,0 +1,636 @@
+
+
+
+AccessLex Careers
+
+  
+
+
+
+
+
+
+
+-->
+
+ 
+  
+  
+
+  
+
+
+
+
+
+
+function clear_search() {document.search_form.search_phrase.value= "";}
+
+
+window.onload=function() {
+     
+    if(""=="yes") {
+          
+     }
+
+           
+  var anchors = document.querySelectorAll('a[href]');
+
+  Array.prototype.forEach.call(anchors, function (element, index) {
+
+    //alert("href is " + element.href);
+    var sSearchString = "oh_jobwrapper/";
+    var sHref = element.href;
+    var nIndex = sHref.toLowerCase().indexOf(sSearchString);
+
+    if (nIndex >0) {
+           //strip CF string prepended by Open Hire call to CFHTTP
+
+            var sNewHref = sHref.substr( nIndex+sSearchString.length );
+           element.href = sNewHref;
+
+  //alert("New href is " + sNewHref);
+
+     } //end strip CF crap prepended by Open Hire call to CFHTTP
+});
+
+}  //end onload
+
+
+
+
+ 
+
+
+
+var $jqPS = jQuery.noConflict(true);
+	$jqPS( function()
+	{
+		$jqPS( '#nav_main li:has(ul)' ).attr('aria-haspopup','true').doubleTapToGo();
+
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+function funcWriteBreadcrumbNav(BreadCrumbList) {
+	var sOutputBreadcrumbNav = new String();
+	var sClass = null;
+	var sUrl = null;
+	var sText = null;
+	var nLevel = null;
+	var aryThisLink = null;
+
+                    var sBreadCrumbOnOff ="Off";
+                    if (sBreadCrumbOnOff.length ==0) sBreadCrumbOnOff = "Off";
+                    if (sBreadCrumbOnOff.toLowerCase() == "off") return sOutputBreadcrumbNav;
+                    if ("" == "8") return sOutputBreadcrumbNav;
+
+//alert("BreadCrumbList is " + BreadCrumbList);
+
+       var sTemp = "";
+	
+	//Added variables to grab information for the current page
+
+	var sCurrentPath = "https://accesslexinstitute-careers.silkroad.com/Careers/UnplacedPages/OH_JobWrapper";
+	var sCurrentPage = "OpenHire Internal Page [do not delete]";
+
+	var arySubNav = unescape(BreadCrumbList);
+	//arySubNav = arySubNav.split("");
+	arySubNav = arySubNav.split(";");
+
+    //sOutputBreadcrumbNav += ""
+
+	var nLen = arySubNav.length;
+	for(var i = 0; i ";
+		// items
+
+         var sIndex = sText.indexOf("_subnav");
+         //   sOutputBreadcrumbNav += sIndex;
+
+        if(sText!=sTemp && sIndex " + sText.toLowerCase() + " &gt; ";
+				if (!bIgnore) sOutputBreadcrumbNav += "" + sText + " &gt; ";
+				
+			//check if page is a bodylink	
+			} else  if (!bIgnore) {
+                             if (i>=nLen-1 && sUrl!=sCurrentPath ){
+				//--write out last page in bc list
+				     sOutputBreadcrumbNav += "" + sText + " ";
+				      //--- bl-last item
+                                 if (sCurrentPage != "OpenHire Internal Page [do not delete]" ) {
+				     sOutputBreadcrumbNav += "&gt; " + sCurrentPage + "";
+                                  }
+			   } else {
+				//--- last item
+				sOutputBreadcrumbNav += "" + sText + "";
+			   }
+                     }
+			
+              sTemp = sText;
+	     }
+
+			
+	}
+	
+    sOutputBreadcrumbNav += "";
+    //sOutputBreadcrumbNav += "";
+
+	return sOutputBreadcrumbNav;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Muli');
+
+
+
+
+
+Careers at AccessLex Institute
+
+
+
+
+			
+
+			
+
+			
+
+			
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+					var productVersion = "2017.5"; var timeoutSeconds = 3600; var timeoutWarningSeconds = 300; var displayTimeWarning = 0; var isCandidateLoggedIn = false; var companyId = 17329; var ep_version = 1;
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+
+
+
+
+
+
+   
+     
+
+
+
+   
+
+
+
+  
+    Show navigation
+    Hide navigation
+    
+
+       HomeAbout Us			
+				
+					Company History
+				
+				
+					Our Benefits
+				
+			
+Employment Listings			
+				
+					Search Current Openings
+				
+				
+					Update Your Profile
+				
+				
+					Create a Job Agent
+				
+				
+					Update Job Agent
+				
+				
+					Recruiting Agency Login
+				
+			
+
+
+    
+  
+
+
+  
+     
+#breadcrumbs {
+ display: none;
+}
+
+
+  var sPageName = "OH_JobWrapper";
+  if (sPageName.length !=0) sPageName = sPageName.toLowerCase();
+
+ // if(sPageName !="home.html")
+    document.write(funcWriteBreadcrumbNav("Home,https://accesslexinstitute-careers.silkroad.com;Employment%20Listings,https://accesslexinstitute-careers.silkroad.com/Careers/EmploymentListings.html"));
+
+  
+
+   
+      
+    
+
+
+
+
+
+
+
+  Your user session will timeout in 5 minutes.  Please click OK to continue with your application.
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+		
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					Data Analyst
+
+				
+
+			
+
+			
+
+				
+
+					
+
+						Tracking Code
+
+					
+
+					
+
+						48-329 
+
+					
+
+				
+
+				
+
+					
+
+						Job Description
+
+					
+
+					
+
+						The Data Analyst uses data to understand the company&rsquo;s analytical and data needs. The analyst is responsible for developing key processes, reports, and data across the organization.
+
+					
+
+				
+
+				
+
+					
+
+						Required Skills
+
+					
+
+					
+
+						
+
+Develop business intelligence applications to support analytical requirements across Access Group
+
+Work with various customer groups to develop the business data access layer across various business intelligence (BI) products
+
+Develop and implement technical designs of BI reports and models in support of business requirements
+
+Develop and implement technical designs of data integration processes and models in support of business requirements
+
+Assist in gathering and defining business and technical metadata in support of projects
+
+Design and develop User Acceptance Testing of BI applications
+
+Assist in collecting and documenting business requirements in support of all BI initiatives
+
+Work with business and development community to understand data requirements
+
+Development and delivery of training materials in support of delivered BI applications
+
+Other duties as assigned
+
+
+
+					
+
+				
+
+					
+
+						Required Experience
+
+					
+
+					
+
+						Education
+
+
+
+Bachelor&rsquo;s degree or equivalent experience required
+
+
+
+Knowledge and Experience
+
+
+
+1+ years&rsquo; experience developing Business Intelligence applications
+
+1+ years&rsquo; experience with Microsoft SQL-Server and of Microsoft Business Intelligence suite of products, including Integration Services, Reporting Services, and Analysis Services.
+
+Excellent interpersonal and communications skills. Job requires the ability to work hand in hand with customers, preparing written documents, and the ability to develop detailed requirements for reporting and analysis applications.
+
+Understanding of data models.
+
+Strong attention to data validation and data quality requirements
+
+Excellent problem solving and analytical skills.
+
+
+
+					
+
+				
+
+					
+
+						Job Location
+
+					
+
+					
+
+						West Chester, Pennsylvania, United States
+
+					
+
+				
+
+					
+
+						Position Type
+
+					
+
+					
+
+						Full-Time/Regular
+
+					
+
+				
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					
+
+						
+
+							Apply
+
+						
+
+					
+
+					
+
+						
+
+						
+
+						
+
+								
+
+								
+
+								
+
+							
+
+					
+
+				
+
+				
+
+					
+
+						
+
+							
+
+								Share
+
+							
+
+						
+
+						
+
+							
+
+							
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+							
+
+							
+
+							
+
+						
+
+					
+
+				
+
+			
+
+			
+
+				
+
+					Return To Job Listings
+
+				
+
+				
+
+			
+
+		
+
+	
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+Copyright &copy;2017 AccessLex Institute 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&nbsp;
+
+
+
+   
+
+        
+
+    
+
+
+
+
+
+ 
+
+		,\n\t\t       \n\t\t\t  ","FORMATLOCALEID":1674,"PHONEREGEX":"^([+])?([1]( |-|\\.)?)?(\\(?[1-9]{1}[0-9]{2}\\)?|[1-9]{1}[0-9]{2})( |-|\\.)?([0-9]{3}( |-|\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$"}
+
+		-->
+
+	

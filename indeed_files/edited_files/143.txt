@@ -1,0 +1,1164 @@
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+    Data Analyst at Trinity Health
+
+
+
+    
+
+    
+
+    
+
+    
+
+     
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+        var dataLayer = {
+
+            pageData: {
+
+                pageName: 'Job Details - Data Analyst',
+
+                pageUrl: 'https://jobs.trinity-health.org/search/jobdetails/data-analyst/a8114a4b-3f2e-4fcb-b42a-5eaafe807edd?s_cid=indeed',
+
+                referringURL: '',
+
+                sysEnvironment: 'desktop'
+
+            }
+
+        };
+
+    
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+        
+
+    
+
+    
+
+        
+
+            
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                
+
+                
+
+                    Our Culture
+
+                
+
+                
+
+                    Our Facilities
+
+                
+
+                
+
+                    Locations
+
+                
+
+                
+
+                    Search Jobs
+
+                
+
+                
+
+                    Questions?
+
+                
+
+            
+
+        
+
+        
+
+        Questions?
+
+        Already Applied?
+
+    
+
+
+
+    
+
+        
+
+            
+
+                
+
+
+
+    
+
+        
+
+            
+
+        
+
+
+
+    
+
+    
+
+        
+
+            Organization Name
+
+        
+
+Organization Name
+
+Burdett Birth Center
+
+Diley Ridge Medical Center
+
+Holy Cross Health
+
+Holy Cross Hospital
+
+Mercy Care
+
+Mercy Health
+
+Mercy Health System of Chicago
+
+Mercy Health System of Southeastern Pennsylvania
+
+Mercy Medical Center
+
+Mercy Medical Center - Clinton
+
+Mercy Medical Center - Dubuque
+
+Mercy Medical Center - North Iowa
+
+Mercy Medical Center - Sioux City
+
+Mount Carmel Health System
+
+Our Lady of Lourdes Healthcare Services
+
+Saint Agnes Medical Center
+
+Saint Alphonsus Health System
+
+Saint Joseph Health System
+
+Saint Joseph Mercy Health System
+
+St. Francis Healthcare
+
+St. Francis Medical Center
+
+St. Mary Medical Center
+
+St. Mary&#39;s Healthcare Systems
+
+St. Mary&#39;s Medical Center
+
+St. Peter&#39;s Health Partners
+
+Trinity Health
+
+Trinity Health At Home
+
+Trinity Health PACE
+
+Trinity Health Senior Communities
+
+
+
+    
+
+    
+
+        
+
+            
+
+        
+
+                    
+
+
+
+    
+
+
+
+    
+
+        
+
+    
+
+
+
+
+
+
+
+    $(function () {
+
+        $('.isselect').select2({
+
+            allowClear: true,
+
+            dropdownAutoWidth: false
+
+        });
+
+    });
+
+        
+
+            See all jobs
+
+        
+
+
+
+    
+
+        var countryData = '';
+
+        if ('False' == 'False') {
+
+            countryData = 'USA, GUM, PRI, MNP, VIR, ASM';
+
+        }
+
+
+
+        $(function () {
+
+            var locationData = '40.360959,-102.172393';
+
+
+
+            var geolocationString = $('#GeolocationString').val();
+
+
+
+            if (geolocationString != '' && geolocationString != undefined) {
+
+                var split = geolocationString.split('_');
+
+                $('#GeolocationString').val(split[0]);
+
+                $('#geolocation_value').val(split[1]);
+
+            }
+
+
+
+            $('#geolocation_value').autocomplete({
+
+                minLength: 4,
+
+                delay: 250,
+
+                html: true,
+
+                source: function (request, response) {
+
+                    $.ajax({
+
+                        url: '//autocomplete.geocoder.api.here.com/6.2/suggest.json',
+
+                        type: 'GET',
+
+                        data: {
+
+                            query: request.term,
+
+                            app_id: 'jpgFXQLZZ18gRjwLet3D',
+
+                            app_code: 'iy-t__xTaHsqEIbfOyobLA',
+
+                            country: countryData,
+
+                            language: 'en',
+
+                            beginHighlight: '',
+
+                            endHighlight: '',
+
+                            maxResults: 5
+
+                        },
+
+                        beforeSend: function (xhr) {
+
+                            xhr.setRequestHeader('Accept', 'application/json');
+
+                        },
+
+                        success: function (geodata) {
+
+                            response($.map(geodata.suggestions, function (value, key) {
+
+                                return {
+
+                                    label: value.label,
+
+                                    value: value.label,
+
+                                    id: value.locationId
+
+                                };
+
+                            }));
+
+                        }
+
+                    });
+
+                },
+
+                select: function (event, ui) {
+
+                    var selectedValue = ui.item.id;
+
+                    $.ajax({
+
+                        url: '//geocoder.cit.api.here.com/6.2/geocode.json',
+
+                        type: 'GET',
+
+                        data: {
+
+                            locationId: selectedValue,
+
+                            jsonattributes: 1,
+
+                            gen: 9,
+
+                            app_id: 'jpgFXQLZZ18gRjwLet3D',
+
+                            app_code: 'iy-t__xTaHsqEIbfOyobLA'
+
+                        },
+
+                        beforeSend: function (xhr) {
+
+                            xhr.setRequestHeader('Accept', 'application/json');
+
+                        },
+
+                        success: function (geodata) {
+
+                            $('#GeolocationString').val(geodata.response.view[0].result[0].location.displayPosition.latitude + ',' + geodata.response.view[0].result[0].location.displayPosition.longitude + '_' + geodata.response.view[0].result[0].location.address.label);
+
+
+
+                            var data = {
+
+                                prox: $('#GeolocationString').val().split('_')[0],
+
+                                mode: 'retrieveAreas',
+
+                                maxresults: 1,
+
+                                gen: 8,
+
+                                app_id: 'jpgFXQLZZ18gRjwLet3D',
+
+                                app_code: 'iy-t__xTaHsqEIbfOyobLA'
+
+                            };
+
+                            $.ajax({
+
+                                url: '//reverse.geocoder.api.here.com/6.2/reversegeocode.json',
+
+                                type: 'GET',
+
+                                data: data,
+
+                                success: function (data) {
+
+                                    if (data.Response.View.length > 0) {
+
+                                        $('#RegionalState').val(data.Response.View[0].Result[0].Location.Address.State);
+
+                                    }
+
+                                    else {
+
+                                        $('#RegionalState').val('');
+
+                                    }
+
+                                }
+
+                            });
+
+                            $('#geolocation_value').val(geodata.response.view[0].result[0].location.address.label);
+
+                        }
+
+                    });
+
+                }
+
+            }).data("ui-autocomplete")._renderItem = function (ul, item) {
+
+                return $("")
+
+                    .data("item.autocomplete", item)
+
+                    .append("" + item.label + "")
+
+                    .appendTo(ul);
+
+            };
+
+
+
+            $('#geolocation_value').on('keyup', function () {
+
+                if ($(this).val() == '') {
+
+                    $('#GeolocationString').val('');
+
+                }
+
+            });
+
+        });
+
+    
+
+
+
+
+
+    $('#Keyword').autocomplete({
+
+        minLength: 3,
+
+        source: function (request, response) {
+
+            $.ajax({
+
+                url: '/search/autocompletesuggestions',
+
+                dataType: 'json',
+
+                data: {
+
+                    keyword: request.term
+
+                },
+
+                success: function (data) {
+
+                    response(data);
+
+                }
+
+            });
+
+        }
+
+    });
+
+
+
+
+
+            
+
+        
+
+    
+
+
+
+    
+
+
+
+    
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                Data Analyst
+
+            
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+    
+
+    
+
+        
+
+    
+
+    
+
+        
+
+    
+
+    
+
+        
+
+    
+
+
+
+
+
+
+
+    $(document).ready(function () {
+
+        var subject = encodeURIComponent('Data Analyst at Trinity Health');
+
+        var body = encodeURIComponent('We are Hiring! Search available jobs or submit your resume now by visiting this link. Please share with anyone you feel would be a great fit.' + '\r\n\r\n' + 'https://jobs.trinity-health.org/search/jobdetails/data-analyst/a8114a4b-3f2e-4fcb-b42a-5eaafe807edd?s_cid=indeed');
+
+        $('#email').attr('href', 'mailto:?subject=' + subject + '&body=' + body);
+
+    });
+
+
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+            Apply
+
+            
+
+
+
+    
+
+
+
+                
+
+                    
+
+    Job Number:
+
+
+
+
+
+
+
+    00036619
+
+
+
+
+
+                
+
+                
+
+                    
+
+    Location:
+
+
+
+
+
+
+
+    Haddon Heights, New Jersey
+
+
+
+
+
+                
+
+                
+
+                    
+
+    Organization Name:
+
+
+
+
+
+
+
+    Our Lady of Lourdes Healthcare Services
+
+
+
+
+
+                
+
+                
+
+                    
+
+    Facility:
+
+
+
+
+
+
+
+    OLLNJ - Lourdes HMSO
+
+
+
+
+
+                
+
+                
+
+                    
+
+    Employment Type:
+
+
+
+
+
+
+
+    Full time
+
+
+
+
+
+                
+
+                
+
+                    
+
+    Hours:
+
+
+
+
+
+
+
+    40
+
+
+
+
+
+                
+
+    
+
+
+
+    
+
+        The Data Analyst uses their technical experience to extract data through advanced computerized models; then, they extrapolate data patterns and trending. A working knowledge of physician billing and billing systems such as Next Gen and Intergy is required.Charge trendingCash reconciliation and trendingPayment trending to ensure correct reimbursement based on carrier contractsData extraction and analysis used for contract negotiationsProvides tools used for monitoring TCM and AWVAddresses claim file errors related to unbilled claims Runs reports used for coding and compliance audits and trendingDenial trending and process improvement trackingWeb ex training and supportAddresses other reporting requests in a timely manner using the Claritee Product, supporting the senior management teamOther duties as needed
+
+        
+
+                Apply
+
+                    
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    dataLayer.jobData = {
+
+  "ReferenceNumberJson": "00036619",
+
+  "TitleJson": "Data Analyst",
+
+  "PostedDateJson": "9/14/2017",
+
+  "DepartmentNameJson": "",
+
+  "ShiftNameJson": "",
+
+  "ScheduleNameJson": "40",
+
+  "TypeNameJson": "Full time",
+
+  "LocationNamesJson": [
+
+    "OLLNJ - Lourdes HMSO"
+
+  ],
+
+  "AddressesDataJson": [
+
+    "500 Grove St, Ste 100  "
+
+  ],
+
+  "ZipCodesJson": [
+
+    "08035"
+
+  ],
+
+  "CityNamesJson": [
+
+    "Haddon Heights"
+
+  ],
+
+  "StateNamesJson": [
+
+    "New Jersey"
+
+  ],
+
+  "CityStatesDataJson": [
+
+    "Haddon Heights, New Jersey"
+
+  ],
+
+  "CountryNamesJson": [
+
+    "United States"
+
+  ],
+
+  "CityStatesDataAbbrevJson": [
+
+    "Haddon Heights, NJ"
+
+  ],
+
+  "BrandNamesJson": [
+
+    "Our Lady of Lourdes Healthcare Services"
+
+  ],
+
+  "StoresDataJson": [
+
+    null
+
+  ],
+
+  "ActivateIndustryNamesJson": [],
+
+  "AtsIndustryNamesJson": [],
+
+  "ActivateFamilyNamesJson": [
+
+    "Information Technology"
+
+  ],
+
+  "AtsFamilyNamesJson": [
+
+    "Information Technology"
+
+  ],
+
+  "ActivateCategoryNamesJson": [],
+
+  "AtsCategoryNamesJson": []
+
+};
+
+
+
+
+
+
+
+    
+
+
+
+    {"@context":"http://schema.org","@type":"JobPosting","datePosted":"9/14/2017","description":"The Data Analyst uses their technical experience to extract data through advanced computerized models; then, they extrapolate data patterns and trending. A working knowledge of physician billing and billing systems such as Next Gen and Intergy is required.Charge trendingCash reconciliation and trendingPayment trending to ensure correct reimbursement based on carrier contractsData extraction and analysis used for contract negotiationsProvides tools used for monitoring TCM and AWVAddresses claim file errors related to unbilled claims Runs reports used for coding and compliance audits and trendingDenial trending and process improvement trackingWeb ex training and supportAddresses other reporting requests in a timely manner using the Claritee Product, supporting the senior management teamOther duties as needed","employmentType":"FULL_TIME","hiringOrganization":{"@type":"Organization","name":"Trinity Health","sameAs":"http://www.trinity-health.org/"},"identifier":{"@type":"PropertyValue","name":"Trinity Health","value":"1fdff076-2255-4716-8553-40a79ab44abe"},"jobLocation":[{"@type":"Place","address":{"@type":"PostalAddress","streetAddress":"500 Grove St, Ste 100","addressLocality":"Haddon Heights","addressRegion":"New Jersey","postalCode":"08035","addressCountry":"US"}}],"title":"Data Analyst","industry":"Information Technology"}
+
+
+
+    
+
+
+
+    
+
+        
+
+    
+
+        
+
+            
+
+                Join Our Talent Network
+
+            
+
+            Get job alerts by email. Sign up now!
+
+            
+
+                Receive relevant communications and updates from our organization.
+
+                Share job opportunities with family and friends through email.
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                Site Map
+
+                Contact Us
+
+                Terms of Use / Online privacy
+
+                Notice of Non-Discrimination
+
+                Social Media User Agreement
+
+            
+
+            
+
+                Diversity and Inclusion at Trinity Health
+
+            
+
+            
+
+                © 2017 Trinity Health • 20555 Victor Parkway, Livonia, Michigan 48152 • 734-343-1000
+
+            
+
+            
+
+                Facebook
+
+                Twitter
+
+                LinkedIn
+
+                
+
+                
+
+                // 
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+            
+
+            
+
+                
+
+            
+
+        
+
+    
+
+
+
+        
+
+        
+
+            
+
+    
+
+
+
+
+
+        
+
+    
+
+
+
+    
+
+
+
+    
+
+        _satellite.pageBottom();
+
+
+
+        setTimeout(function () {
+
+            var dtmData = _satellite.getToolsByType('sc')[0].getS();
+
+            dtmData.events = '';
+
+        }, 1000);
+
+
+
+        setTimeout(function () {
+
+            var a = document.createElement("script");
+
+            var b = document.getElementsByTagName("script")[0];
+
+            a.src = document.location.protocol + "//script.crazyegg.com/pages/scripts/0033/2946.js?" + Math.floor(new Date().getTime() / 3600000);
+
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)
+
+        }, 1);
+
+
+
+        function processActionFail(data) {
+
+            core.common.processActionFail(data);
+
+        };
+
+    
+
+
+
+    
+
+    
+
+
+
+
+

@@ -1,0 +1,1161 @@
+
+
+
+
+
+
+var isTagpageview=true;
+
+
+
+function tagPageView() {
+
+}
+
+
+
+
+
+
+
+        
+
+    
+
+    
+
+    
+
+               
+
+        
+
+         
+
+        //ldp256 accessibility changes starts
+
+             $(document).ready(function() {
+
+                 $(document.body).mousemove(function(event) {
+
+                     BodyMouseMove();
+
+                 });
+
+                 $(document.body).keyup(function(event) {
+
+                     BodyKeyUp();
+
+                 });
+
+                 $(document.body).focus(function(event) {
+
+                     BodyFocus();
+
+                 });
+
+                 var addOnClick = "no";
+
+                 if (addOnClick == "yes") {
+
+                     $(document.body).click(function(event) {
+
+                         hideAllLayer();
+
+                     });
+
+                 }
+
+
+
+                 // the footer isn't always easy to detect as empty.  This is an additional test to hide the footer when the branding table exists but contains no content
+
+                 if ($("[role=contentinfo]") && $("[role=contentinfo]").text().trim() == "") {
+
+                     $("[role=contentinfo]").remove();
+
+                     if ($("#ctl00_Footer")) {
+
+                         $("#ctl00_Footer").hide();
+
+                     }
+
+                 }
+
+             });
+
+        //ldp256 accessibility changes ends
+
+
+
+             function AddRfToken() {
+
+                 var forms = document.forms;
+
+
+
+                 for (i = 0; i  0) {
+
+                        
+
+                      }
+
+                     else
+
+                      {
+
+                    
+
+                         var hdElement = forms[i].hdRft;
+
+
+
+                         if (typeof (hdElement) == 'undefined') {
+
+
+
+                             var input = document.createElement("input");
+
+
+
+                             input.setAttribute("type", "hidden");
+
+
+
+                             input.setAttribute("name", "hdRft");
+
+
+
+                             input.setAttribute("value", js_rft);
+
+
+
+                             document.forms[i].appendChild(input);
+
+                         }
+
+                         else {
+
+
+
+                             hdElement.value = js_rft;
+
+                         }
+
+                     }
+
+                 }
+
+             }
+
+
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+          
+
+           
+
+           
+
+        
+
+         
+
+   Morgan, Lewis &amp; Bockius - Job details
+
+       
+
+        .h1Title
+
+        {
+
+        	margin:0;
+
+		    padding: 6px 0 0px 0;
+
+        }
+
+	    .h1Tab
+
+        {
+
+	    	margin: 0pt; 
+
+		    padding: 1px 0pt 1pt; 
+
+		    overflow: hidden;	       	
+
+        }
+
+       .twitter-share-button {
+
+              position:relative;           
+
+              margin-left:3px;
+
+      }
+
+      
+
+      iframe { vertical-align: top; }
+
+      
+
+      
+
+    
+
+     if (navigator.appVersion.indexOf('Win') != -1) {if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } } else if (navigator.appVersion.indexOf('Mac') != -1) { if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } } else {if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } }  var js_rft = '^gnMM6T1/Ia3wn5fLG2tC/537R0eHgoTI8hDM9RkcOxW2+ytlac8BVzukhE5zKDXaLQoQChZBV3iQPjtGAwpTdgHNJnfJLqGwyCPQE/vFb7jXdAhtjMo5ehZbmddGBsTb/tnkb3zUepzVVMvxAvgJoePyFUOy/vhjKZdL9JfoPcO5ckU1M19+6696EydD+zmZRGFuwrpkQYoVseCMi4eXU0kiitrp4Fho'
+
+    var MSG_SiteSwitch = "Recruitment for the selected job(s) will be in the language of the job posting(s).  To continue, the language of this site will change to match the language of the selected job(s).  You will need to provide your resume/CV in the language of the selected job(s) in order to maximize your visibility to the recruitment personnel.";var MSG_SocialMediaSiteSwitch = "Posting to social networks should be in the language of the job posting.  To continue, the language of this site will change to match the language of the selected job."; var js_LaunchGQ_DotNet ="No";
+
+    
+
+     
+
+      
+
+        var SR_READY = "";
+
+        var SR_PRIDE = "%5eXPo1WBzaZuM%3d";
+
+        var SR_STID = "5172";
+
+        var SR_CLID = "25936";
+
+        var SR_LOCALE = "1033";
+
+        var SR_FN = "";
+
+        var SR_LN = "";        
+
+       function setReadyForSocialReferral(ready, clid, stid, pride, localeid,button,fn,ln) {
+
+            SR_READY = ready;
+
+            SR_PRIDE = pride;
+
+            SR_STID = stid;
+
+            SR_CLID = clid;
+
+            SR_LOCALE = localeid;
+
+            SR_FN = fn;
+
+            SR_LN = ln;
+
+            if (SR_READY == "yes") {
+
+                LaunchSocialReferralMenu(document.getElementById(button));
+
+            }
+
+        }
+
+        function LaunchSocialReferralMenu(button) {
+
+            var jobstr = document.getElementById("jobid").value;
+
+            var urlstring = "../tgnewui/referral/home/referralworkflowoptions?siteid=" + SR_STID + "&partnerid=" + SR_CLID + "&localeid=" + SR_LOCALE + "&bruid=" + SR_PRIDE + "&jobids=" + jobstr+ "&fn=" + SR_FN + "&ln=" + SR_LN
+
+            window.dialogBuilder.showDialog(button, urlstring);
+
+
+
+        }     
+
+        function ApplyNow()
+
+	    {			    
+
+			var ApplyURL = "-1";
+
+			if (ApplyURL=="-1" ) ApplyURL= "";
+
+			if (ApplyURL.length>0 )
+
+			{				
+
+			    window.location.href=ApplyURL; 
+
+			}
+
+			else
+
+			//In case GTG if the job siteid is different than the current siteid
+
+			//display warning pop-up to confirm site switched to job site
+
+			{			   
+
+				ApplyJobNow('1033');
+
+			}
+
+		}		
+
+			
+
+		function ApplyJobNow(strLocale)
+
+        {
+
+	        var strGQId;
+
+	        var iLen, iIndx;
+
+	        var arrGQId;
+
+	        var arrGQIds;
+
+	        var lngNewSelection = 0;
+
+	        var lngSiteLocale = 1033;
+
+	        var strSwitchSiteQS;
+
+	        strGQId = "1288";	// from Querystring
+
+	        strSwitchSiteQS = "";
+
+
+
+	        //var lngSelect = 1;
+
+	        var lngSelect = 1;
+
+	        
+
+	        if  (strGQId == '')
+
+	        {	
+
+	            strGQId= document.frmJobDetail.JobInfo.value;
+
+			    arrGQId = (strGQId.substring(2, strGQId.length - 2)).split("%%");
+
+			    iLen = arrGQId.length;
+
+			    arrGQIds = arrGQId[lngSelect-1].split('|');
+
+			    if (arrGQIds[2] != 0)
+
+			    {
+
+				    if (strLocale == lngSiteLocale)
+
+				    {
+
+				        if (js_LaunchGQ_DotNet.toUpperCase() == 'YES')
+
+				        {
+
+				            openWindow11("gqlogin.aspx?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B&fjd=true&referer=&gqid="+ arrGQIds[2] + "&jobinfo=__" + arrGQId[lngSelect-1] + "__&applycount=1&type=search_jobdetail");
+
+				        }
+
+				        else
+
+				        { 
+
+					        openWindow11("https://sjobs.brassring.com/" + strLocale + "/asp/tg/GQLogin.asp?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B&fjd=true&referer=&gqid="+ arrGQIds[2] + "&jobinfo=__" + arrGQId[lngSelect-1] + "__&applycount=1&type=search_jobdetail&srcqs=");
+
+					    }
+
+				    }
+
+				    else
+
+				    {
+
+				        document.frmMassApply.GQID.value = arrGQIds[2];
+
+				        if(strSwitchSiteQS == '')
+
+				        {
+
+					        document.frmMassApply.action= "apply.aspx?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B&src=jd&qs=jobId%3d442846%26partnerid%3d25936%26siteid%3d5172";
+
+					    }
+
+					    else
+
+					    {
+
+					        document.frmMassApply.action= "apply.aspx?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B&src=jd&qs=";
+
+					    }
+
+					    document.frmMassApply.submit();
+
+				    }
+
+			    }
+
+			    else
+
+			    {
+
+				    document.frmMassApply.action= "apply.aspx?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B";
+
+				    document.frmMassApply.submit();
+
+			    }	        
+
+			        		        
+
+	        }
+
+	        else
+
+	        {
+
+	           	
+
+		        if (strGQId != 0)
+
+		        {
+
+			        if (strLocale == lngSiteLocale)
+
+			        {
+
+			            if (js_LaunchGQ_DotNet.toUpperCase() == 'YES')
+
+				        {
+
+				            openWindow11("gqlogin.aspx?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B&fjd=true&referer=&gqid=" + document.frmMassApply.GQID.value + "&jobinfo=__442846|1|1288__&applycount=1&type=search_jobdetail");
+
+				        }
+
+				        else
+
+				        { 
+
+				            openWindow11("https://sjobs.brassring.com/" + strLocale + "/asp/tg/GQLogin.asp?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B&fjd=true&referer=&gqid=" + document.frmMassApply.GQID.value + "&jobinfo=__442846|1|1288__&applycount=1&type=search_jobdetail&srcqs=");
+
+				        }
+
+			        }
+
+			        else
+
+			        {
+
+			            if(strSwitchSiteQS == '')
+
+				        {
+
+				            document.frmMassApply.action= "apply.aspx?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B&src=jd&qs=jobId%3d442846%26partnerid%3d25936%26siteid%3d5172";
+
+				        }
+
+				        else
+
+				        {
+
+				            document.frmMassApply.action= "apply.aspx?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B&src=jd&qs=";
+
+				        }
+
+				        document.frmMassApply.submit();
+
+			        }
+
+ 	            }
+
+ 	            else
+
+ 		        {
+
+ 			        document.frmMassApply.action = "apply.aspx?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B";
+
+			        document.frmMassApply.submit();
+
+ 		        }
+
+ 	        }
+
+        }
+
+        
+
+        //Send to friend email    
+
+        function sendToFriend()
+
+        {
+
+	        openWindowBySize2('about:blank?sessionid=7bcbf84e14f4554fbb881a3bfe9eafc31e7d', 450, 360);	        
+
+	        document.frmSendToFriend.submit();
+
+        }
+
+        
+
+        function socialNetworkReferral(button) {
+
+		  if (SR_READY == "yes")
+
+            LaunchSocialReferralMenu(button);
+
+        else {
+
+            document.frmSocialNetworkReferral.ButtonId.value = button.id;
+
+            openWindowBySize2('about:blank?sessionid=7bcbf84e14f4554fbb881a3bfe9eafc31e7d', 900, 720);
+
+            document.frmSocialNetworkReferral.submit();
+
+	        }
+
+		}
+
+        
+
+        
+
+        function showjob(lngNewSelection)
+
+	    {   		    
+
+		    document.frmJobDetail.action = "jobdetails.aspx?jobId=442846&amp;partnerid=25936&amp;siteid=5172";
+
+		    document.frmJobDetail.CurSel.value= lngNewSelection;
+
+		    document.frmJobDetail.submit();
+
+	    }
+
+        
+
+        function launchSocialMedia()
+
+	    {
+
+	        var lngSiteLocale = '1033';
+
+	        var jobSiteID = '5172';
+
+	        var newLocaleId = getLocaleId(jobSiteID,'');
+
+	        var strSwitchSiteQS = '';
+
+	        
+
+
+
+	        if (newLocaleId == lngSiteLocale || newLocaleId == '')
+
+		    {
+
+			    openWindow1('about:blank?sessionid=7bcbf84e14f4554fbb881a3bfe9eafc31e7d');
+
+		        document.frmSocialMedia.submit();
+
+		    }
+
+		    else
+
+		    {
+
+		        alert(MSG_SocialMediaSiteSwitch);
+
+		        if(strSwitchSiteQS == '')
+
+		        {
+
+			        document.frmMassApply.action= "apply.aspx?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B&src=jdsm&qs=jobId%3d442846%26partnerid%3d25936%26siteid%3d5172";
+
+			    }
+
+			    else
+
+			    {
+
+			        document.frmMassApply.action= "apply.aspx?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B&src=jdsm&qs=";
+
+			    }
+
+			    document.frmMassApply.submit();
+
+		    }
+
+        }
+
+        
+
+        //Save to jobcart
+
+        function saveToJobCart()
+
+	    {
+
+		    var strTemp;
+
+		    var lIdx;
+
+		    var lLen;
+
+		    var arrSubInfo;
+
+
+
+		    if (document.frmJobDetail.jobcartcnt.value > 50)
+
+			    alert (MSG_cim_jobdetail_JobCart);
+
+		    else
+
+		    {
+
+			    document.frmSaveToCart.chkJobClientIds.value = ReplaceInString(document.frmSaveToCart.chkJobClientIds.value, "%%", "");
+
+			    arrSubInfo = document.frmSaveToCart.chkJobClientIds.value.split("|");		    
+
+
+
+			    if(arrSubInfo.length != 3)
+
+			    {
+
+				    strTemp =  arrSubInfo[0] + "|" + arrSubInfo[1];
+
+				    document.frmSaveToCart.chkJobClientIds.value = strTemp;
+
+			    }
+
+			    openWindow3('about:blank?sessionid=7bcbf84e14f4554fbb881a3bfe9eafc31e7d');
+
+			    document.frmSaveToCart.submit();
+
+		    }
+
+	    }
+
+	    function goToSearchPage()
+
+	    {	   
+
+		    document.frmSearch.submit();
+
+	    }
+
+	    
+
+	    //QC #197940
+
+	    function reload(sParam)
+
+	    {
+
+		if (typeof(sParam) != 'undefined') 
+
+		{
+
+			if (sParam == 'ApplyAsRegularJob')
+
+				ApplyAsRegularJob();
+
+			return;
+
+		}
+
+		var sGQId =  "1288";
+
+		var arrGQId;
+
+		var iLen = 0;
+
+		if (sGQId == '' )
+
+		{
+
+			sGQId= document.frmJobDetail.JobInfo.value;
+
+			arrGQId = (sGQId.substring(2, sGQId.length - 2)).split("%%");
+
+			iLen = arrGQId.length;
+
+		}
+
+		
+
+		if ((iLen == 1) || (sGQId != ''))
+
+		{
+
+			 
+
+		document.frmJobDetail.target = "_self";
+
+		 
+
+		document.frmJobDetail.action = "Logout.aspx?SID=^r5Kn2cWVkppuobSDKAN5vOCXUqjBrymG_slp_rhc_YcLMNbxMESCKQYa9Fkgt8drxsaq8J2B&gqclose=yes&crl=yes&Exit=^VPbBpv82eWbDhCwKzWDUrT6iCUhsWNOr+koga53E/lzXlNjlAug5wQQ9zAIHEB3h/wTIH+ld1Juf/KBSJ9E2P2Se9/ttvXnZ4VToNAUuaSuTHep39CXIXfbox36TfOx1vn3qjRi6SAexBaYoKRtJIT9aKRXL4AmoUCdxVMh/pqDgCue7WloJsVCtvSmBCosYUJUHVcWIcSc00P1JnETspuLatJCr2E6/RG/z7KOWwjZRQ5jp1+yseJhtUF2kR54AKBibCsIP9+pj2G3L/haOkKPRSwa/AonsY/nenKNV9KA=";
+
+		document.frmJobDetail.submit();
+
+		}
+
+	  }
+
+	  $(document).ready(function() {
+
+            
+
+            var n = "HomeSearch  openingsSearch  resultsCurrent pageJob  details &nbsp;&nbsp;)";
+
+            if (n.length <= 1)
+
+                $("#ctl00_ProgressBar").hide();
+
+             });
+
+    
+
+
+
+                
+
+        
+
+    var MSG_GEN_EntValdEmlAddr = "Please enter a valid e-mail address.\nDelete all the invalid characters, including spaces, from your e-mail address.";var MSG_GEN_PlsRmDblQut = "Please remove the  DOUBLE QUOTE (\")  you have entered.";var MSG_GEN_EnterVal = "Please enter a value for |QUESTION|";var MSG_GEN_EnterValidPassword = "Please enter a valid password.\nDelete all the invalid characters, including spaces, from your password.";var MSG_GEN_EnterValRange = "Please enter a value for |QUESTION| between |MIN| and |MAX|.";var MSG_GEN_EntValdPasswd = "Spaces are not allowed in the e-mail or in the password field. Please remove the spaces and try again.";var MSG_GEN_FromToDate = "The From date should be less than the To date.";var MSG_GEN_PlsDelPrdFrmBgnOfYrEmlAddr = "Please delete the period from the beginning of your e-mail address.";var MSG_GEN_PlsDelPrdFrmEndOfYrEmlAddr = "Please delete the period from the end of your e-mail address.";var MSG_GEN_PlsEntValdDate = "Please enter a valid date.";var MSG_GEN_PlsEntValdEmlAddr = "Please enter a valid e-mail address.";var MSG_GEN_PlsEntVldNumber = "Please enter a valid number.";var MSG_GEN_PlsEntVldSSN = "Please enter a valid SSN.";var MSG_GEN_SSNFormat = "The SSN should be in xxx-xx-xxxx format.";var MSG_GEN_UserNameInvalidChars = "The username must not include the following characters: ";var MSG_GEN_UserNameLen = "Please enter a valid username.";var MSG_GEN_UserNameLength = "The username must be less than 100 characters.";var MSG_GEN_UserNameSpaces = "The username must not include any spaces.";var MSG_TSV_EnterValidInputSearchFields = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_TSV_EnterValidInputText = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_TSV_EnterValidInputTextArea = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_InputValidationFail = "[QUESTION] requires a valid entry."; var MSG_RCF_LNPronunciation = "Last name pronunciation key: Please enter a value."; var MSG_RCF_FNPronunciation = "First name pronunciation key: Please enter a value."; var MSG_RCF_Valid_LNPronunciation = "Please enter a valid last name pronunciation key."; var MSG_RCF_Valid_FNPronunciation = "Please enter a valid first name pronunciation key."; var MSG_RCF_FirstName = "Please enter a first name."; var MSG_RCF_Valid_FirstName = "Please enter a valid first name."; var MSG_RCF_MiddleName = "Please enter a middle name."; var MSG_RCF_Valid_MiddleName = "Please enter a valid middle name."; var MSG_RCF_LastName = "Please enter a last name."; var MSG_RCF_Valid_LastName = "Please enter a valid last name."; var MSG_RCF_Address1 = "Please enter an address line 1."; var MSG_RCF_Address2 = "Please enter an address line 2."; var MSG_RCF_Country = "Please select a country name."; var MSG_RCF_City = "Please enter a city name."; var MSG_RCF_Valid_City = "Please enter a valid city name."; var MSG_RCF_State = "Please select a State/Region/Province."; var MSG_RCF_Zip = "Please enter a Zip/Postal code."; var MSG_RCF_HomePhone = "Please enter a home phone number."; var MSG_RCF_Valid_HomePhone = "Please enter a valid home phone number."; var MSG_RCF_WorkPhone = "Please enter a work phone number."; var MSG_RCF_Valid_WorkPhone = "Please enter a valid work phone number."; var MSG_RCF_CellPhone = "Please enter a phone number."; var MSG_RCF_Valid_CellPhone = "Please enter a valid phone number."; var MSG_RCF_Fax = "Please enter a fax number."; var MSG_RCF_Valid_Fax = "Please enter a valid fax number."; var MSG_RCF_Homepage = "Please enter a web address. Web addresses start with http:// or https://.";var MSG_SORTASCN = "Click to sort ascending";var MSG_SORTDSCN = " Click to sort descending";
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+-->
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Integrity, excellence, teamwork, service &gt; Searching for Staff Positions &gt; Apply to Morgan Lewis &gt; Careers :  Morgan, Lewis & Bockius - an international law firm
+
+
+
+
+
+.clearfix:after {
+
+	content: ".";
+
+	display: block;
+
+	height: 0.1px;
+
+	clear: both;
+
+	font-size: 0;
+
+	visibility: hidden;
+
+}
+
+/* Turn off borders on linked images. */
+
+a img {
+
+	border: 0;
+
+}
+
+#side-container, #side-bottom-container {
+
+	float: right;
+
+	padding: 12px;
+
+	width: 272px;
+
+}
+
+body #header-container {
+
+	background-image: url("/img/images_25936_5174/images/careers.gif");
+
+}
+
+#content-container {
+
+	clear: left;
+
+	float: left;
+
+}
+
+
+
+
+
+@import "/img/images_25936_5174/images/utility.css";
+
+ @import "/img/images_25936_5174/images/layoutShared.css";
+
+ @import "/img/images_25936_5174/images/layoutCorporate.css";
+
+
+
+
+
+
+
+@import "/img/images_25936_5174/images/noJS.css";
+
+
+
+
+
+
+
+
+
+td div.yui-dt-liner a, .HEADERtext1, .HELPlink, .yui-dt-data, .yui-dt-sortable, .HEADERtext, .text, .TEXT, .Text, label, select, input, textarea, .fieldlabel, .SMALLtext, span a b, th.EduExpHEADER, .COOKIEcrumbtext, .COOKIEcrumbtext a, .FORMlabel, .BRANDINGdom2dark, .yui-skin-sam .yui-dt th, .yui-skin-sam table tr.yui-dt-even, yui-skin-sam .yui-dt-liner, .HELPERtext, .CRITERIAtext, .EduExpBORDER {
+
+	font-size:12px !important;
+
+	font-family: Arial, Helvetica, sans-serif !important;
+
+}
+
+.HEADERtext1 {
+
+	font-size:12px;
+
+}
+
+.yui-skin-sam .yui-dt th a, .EduExpHEADER {
+
+	white-space:normal;
+
+}     /*  Data Grid Header (TH) Text wraping  */
+
+.span#ctl00_MainContent_wotcInstructiontext {
+
+	font-family: Arial;
+
+	font-size: 12px;
+
+}
+
+.SMALLtext {
+
+	font-size:11px !important;
+
+}
+
+.COOKIEcrumbtext, .COOKIEcrumbtext a {
+
+	font-size:11px !important;
+
+}
+
+.smallbutton, .REGbutton, .lrgbutton, .COLUMNns1, .BRANDINGdom2dark {
+
+	font-size:12px !important;
+
+	font-weight:normal;
+
+	font-family: Arial, Helvetica, sans-serif !important;
+
+}
+
+.PAGEtitle {
+
+	font-size:16px;
+
+	font-family: Arial;
+
+	color:#CA5B27;
+
+}
+
+.PAGEsubtitle2 {
+
+	font-size:15px;
+
+	font-family: Arial;
+
+	color:#CA5B27;
+
+}
+
+.SMALLbutton {
+
+	height:auto;
+
+}
+
+h1.PAGEtitle {
+
+	padding-left:0px !important;
+
+	color:#CA5B27;
+
+}
+
+#month {
+
+	margin-left:3px;
+
+}
+
+.td_collapse_px {
+
+	display:none;
+
+}
+
+table.breadcrumbtable {
+
+	width:100%;
+
+}
+
+
+
+		
+
+	$(document).ready(function(){									
+
+		var curl = window.location.href.toLowerCase();		
+
+		$("span.COOKIEcrumbtext a:contains('Submit resume/CV')").html("Submitresume/CV");
+
+		$("span.COOKIEcrumbtext:contains('Submit resume/CV')").html("Submitresume/CV");
+
+	});
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+  
+
+    
+
+       Integrity, Excellence, Teamwork, and Service 
+
+    
+
+  
+
+   
+
+
+
+
+
+
+
+ 
+
+var sURL = window.location.href.toLowerCase();
+
+    if (sURL.indexOf("viewassessments.aspx")>=0)
+
+    {document.write("body.internal #content-container{padding:0 4px 12px 4px; background-color:#fff;}")};
+
+       &nbsp;?
+
+
+
+        
+
+        HomeSearch  openingsSearch  resultsCurrent pageJob  details &nbsp;&nbsp;
+
+        
+
+            
+
+Job details&nbsp;Job 1 of 1    Apply to job &nbsp;&nbsp;Save to cart &nbsp;&nbsp;    Auto req ID  1230BR   Posting Title  Data Analyst   Job Location  Firm - Philadelphia   Employment Type  Full Time   Job Description  Morgan, Lewis & Bockius LLP, one of the world’s leading global law firms with almost 4000 lawyers and staff in 30 offices is seeking a Data Scientist reporting to the Senior Director of Information Security & Compliance, the Data Scientist works with the Data Scientist Team Lead to assist with data modeling and analysis through the use of statistical, algorithmic, mining and visualization techniques. The Data Scientist assists in the protection of information assets from unauthorized or inappropriate access, use or disclosure, as well as business disruptions through network behavior and user behavior analytics. In addition, the Data Scientist contributes to investigations by performing technical analysis of log data.  
+
+PRIMARY FUNCTIONS AND RESPONSIBILITIES 
+
+Responsibility
+Information Governance
+• Importing, cleaning, transforming, validating and/or modeling data with the purpose of understanding or making conclusions from the data for decision making purposes
+• Interpreting data, analyzing results using statistical techniques and providing ongoing reports
+• Producing analysis on datum using SQL, Excel, Access, Hadoop, Python, Splunk, Apache Spark and other big data analytical tools
+• Creating graphical representation of data and reports
+• Generating questions and identify inadequacies based on supplied data sets
+• Identifying, analyzing, and interpreting trends or patterns in complex data sets
+Information Security
+• Mining data to draw conclusions on a regular basis
+• Processing, cleansing, and verifying the integrity of data used for analysis.
+• Evaluating and remediating security event monitoring
+• Abiding by and enhancing security practices within Technology. Contributes to the compliance programs such as SOC 2, HITRUST, ISO 27001, HIPAA etc.
+• Monitoring processes to ensure compliance with security policies and client contractual requirements
+• Analyzing data and assessing the operation and administration effectiveness of monitoring and security tools
+• Other duties as assigned.
+SUPERVISORY RESPONSIBILITIES
+• This job has no supervisory responsibilities.
+EDUCATION, EXPERIENCE AND EXPERTISE
+This job requires:
+• a Bachelor’s Degree (B.A) from a four-year college or university (preferably in Computer Science, Information Systems, Computer Engineering, or related field), 
+and,
+• minimum 2 years of IT data analysis and / or information security-related experience,
+or, equivalent combination of education and experience.
+
+OTHER QUALIFICATIONS AND REQUIREMENTS
+To perform the job successfully, an individual must demonstrate the following knowledge skills and abilities:
+
+• Technical skills
+• Written communication skills
+• Verbal communications skills
+• Customer services skills
+• Interpersonal skills
+• Self-starter
+• Project management skills
+• Teamwork
+• Planning/organizational skills
+• Problem solving skills
+• Ability to adapt to change and balance competing demands
+• Ability to collect data, establish facts, and draw conclusions
+• Ability to read and interpret general business documents, instructions and manuals, write routine business correspondence, and speak effectively with employees, clients, and vendors.
+• Advanced arithmetic skills (compute rate, ratio, percent; able to draw and interpret graphs and charts)
+
+COMPUTER SKILLS
+
+To perform this job successfully, an individual must be proficient in the following software:
+
+• Microsoft Excel, Word, PowerPoint, Project & Visio applications
+• Microsoft SQL Server, SQL, Excel, Access (required) Hadoop Python, Splunk, Apache Spark  (preferred but not required)
+• A conceptual understanding of the operation of Microsoft operating system, Active Directory, Cisco technologies, computer operations and network design topology
+• Experience with SharePoint is a plus
+• Experience with Splunk is preferred
+CERTIFICATES, LICENSES, REGISTRATIONS 
+
+Required: none
+
+PHYSICAL DEMANDS: 
+ 
+• While performing the duties of this job, the employee is regularly required to sit and may occasionally be required to move about. 
+• The employee is also regularly required to use a computer, involving substantial movements of the wrists, hands and fingers.  The employee is also required to regularly communicate with others. 
+• Specific vision abilities required by this job include: close vision and ability to adjust focus. 
+
+WORK ENVIRONMENT
+• The noise level in the work environment is usually moderate.
+• This job requires occasional interoffice travel. 
+• This job may require some late evening and weekend hours. 
+
+Qualified candidates must apply online by visiting our website at www.morganlewis.com and selecting “Careers.” 
+
+Morgan Lewis is an equal opportunity employer and all qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability status, protected veteran status, or any other characteristic protected by law.     Apply to job &nbsp;&nbsp;Save to cart &nbsp;&nbsp;  
+
+     
+
+	    	    
+
+        
+
+    
+
+                              Copyright &#169; 2016 by Morgan, Lewis & Bockius LLP. All Rights Reserved.             body {      background-color: #DCDDDE;         margin: 9px 0;  }   body #utilityNavigation-container ,body #search-container {      margin-right: 15px;  }  .vWidget-globalLocation-container{height:100%;}    #content-container h1, #disclaimer-container {     color:#555353;  }  .yui-skin-sam table tr.yui-dt-odd{  font-size:12px !important;  }  a {                                                                        color: #000000 !important;                                                            }                                                                 a:hover { color: #643380 !important;                                                          text-decoration: none !important;                                                             }           		  
+
+ 
+
+ 
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+

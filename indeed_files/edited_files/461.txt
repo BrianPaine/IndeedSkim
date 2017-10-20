@@ -1,0 +1,402 @@
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	Operations Support Analyst  - Agility 360
+
+	
+
+		* {
+
+			-webkit-box-sizing: border-box;
+
+			-moz-box-sizing: border-box;
+
+			box-sizing: border-box;
+
+		}
+
+		html {
+
+			font-family: sans-serif;
+
+			-ms-text-size-adjust: 100%;
+
+			-webkit-text-size-adjust: 100%;
+
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+		}
+
+		body, html {
+
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+			font-size: 13px;
+
+			line-height: 1.42857143;
+
+			color: #333333;
+
+			background-color: #f6f6f6 !important;
+
+			padding-top: 2px;
+
+			padding-bottom: 4px;
+
+			margin: 0;
+
+		}
+
+		body {
+
+			padding-left: 20px;
+
+			padding-right: 20px;
+
+		}
+
+		a img {
+
+			border:none;
+
+		}
+
+		#outside {
+
+			text-align:left;
+
+			position:relative;
+
+			margin:16px auto;
+
+			max-width:900px;
+
+		}
+
+		#header {
+
+			font-size: 36px;
+
+		}
+
+		#header a {
+
+			color: black;
+
+			text-decoration: none;
+
+		}
+
+		#contentouter {
+
+			padding: 16px;
+
+			border-left: 1px solid #ccc;
+
+			border-top: 1px solid #ccc;
+
+			border-bottom: 1px solid #999;
+
+			border-right: 1px solid #999;
+
+			background-color: white;
+
+		}
+
+		#content {
+
+			clear: both;
+
+/*			padding-top: 10px;*/
+
+/*			font-size: 13px;*/
+
+/*			line-height: 16px;*/
+
+		}
+
+		#inner_footer {
+
+			text-align:center;
+
+			color: #444;
+
+			padding-top: 15px;
+
+			padding-bottom: 10px;
+
+			font-size: 10px;
+
+		}
+
+		#inner_footer a{
+
+			color: #444;
+
+			text-decoration: none;
+
+		}
+
+		@media (max-width: 768px) {
+
+			body, html {
+
+				padding: 0 !important;
+
+				background-color: #fff !important;
+
+			}
+
+			#outside {
+
+				margin:0 !important;
+
+				width: auto !important;
+
+			}
+
+			#contentouter {
+
+				border: 0;
+
+			}
+
+		}
+
+	
+
+	
+
+	
+
+	
+
+		
+
+		
+
+	
+
+	
+
+
+
+	
+
+			
+
+	
+
+	
+
+	
+
+		#contentouter {border:0;}
+
+		#outside {border:0;}
+
+		body {background-color:white;}		
+
+	
+
+
+
+
+
+
+
+	
+
+					
+
+			
+
+		
+
+		
+
+			
+
+				
+
+				
+
+				
+
+	// Load jQuery if not defined or less than version 1.9.1 (required by bootstrap)
+
+	var jquery_is_loaded = true;
+
+	if (typeof jQuery === 'undefined') {
+
+		jquery_is_loaded = false;
+
+	}
+
+	else{
+
+		var jquery_version = jQuery.fn.jquery.split(' ')[0].split('.');
+
+		if ((jquery_version[0] < 2 && jquery_version[1] < 9) || (jquery_version[0] == 1 && jquery_version[1] == 9 && jquery_version[2] < 1)) {
+
+			jquery_is_loaded = false;
+
+		}
+
+	}
+
+	if(!jquery_is_loaded){
+
+		load_script('https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js');
+
+	}
+
+	
+
+	// Load bootstrap if not loaded
+
+	if (typeof $.fn.popover != 'function'){
+
+		load_script('https://www2.applicantstack.com/links/bootstrap/all/js/bootstrap.js');
+
+		load_link('https://www2.applicantstack.com/links/bootstrap/all/css/bootstrap.css');
+
+		load_link('https://www2.applicantstack.com/links/bootstrap/all/css/bootstrap-theme.css');
+
+	}
+
+	
+
+	function load_script(src){
+
+		var h = document.getElementsByTagName('head')[0];
+
+		var e = document.createElement('script');
+
+		e.src = src;
+
+		h.appendChild(e);
+
+	}
+
+	function load_link(href){
+
+		var h = document.getElementsByTagName('head')[0];
+
+		var e = document.createElement('link');
+
+		e.rel = 'stylesheet';
+
+		e.type = 'text/css';
+
+		e.href = href;
+
+		h.appendChild(e);
+
+	}
+
+Job Openings &gt;&gt; Operations Support Analyst Operations Support Analyst SummaryTitle:Operations Support Analyst ID:1152Department:OperationsDescriptionOperations Support Analyst&nbsp;
+
+
+
+
+
+Agility 360 is looking to fill the position of Operations Support Analyst for a well-established client in the Dallas/Ft. Worth area.&nbsp; This position will be Originations focused and conduct research, compile findings, and offer support to various areas of the business including quality control &amp; compliance.&nbsp; The ideal candidate will successfully collaborate with management in the build-out of the disclosure process, as well as the preparation and response during audit requests.&nbsp; Continued support and improvement of the company&#39;s originations platform including internal and regulatory research, documentation, and promotion will be a priority.&nbsp; This person will have a solid understanding of mortgage originations with bench strength in writing procedures, project management, and analytical support.
+
+
+
+What you will do...
+
+
+
+
+
+	Partner with multiple departments to design and execute on various projects
+
+	Establish a process for timely and compliant delivery of disclosures
+
+	Research and write clear and accurate responses during the review process
+
+	Conduct all preparation&nbsp;for upcoming audits
+
+	Organize and archive all data points for streamlined access
+
+
+
+What you need to have...
+
+
+
+
+
+	Bachelor&#39;s degree in relevant field
+
+	Minimum 3 years mortgage origination experience
+
+	Minimum 5 years in policy/procedure or technical writing
+
+	Experience working with tools including Adobe RoboHelp
+
+
+
+Skills we are looking for...
+
+
+
+
+
+	Excellent communication both written and verbal
+
+	Ability to prioritize projects and quickly adjust as needed
+
+	Strong background in mortgage origination&nbsp;regulatory environment
+
+
+
+Details...
+
+
+
+
+
+	Position will office in the Dallas area with standard business hours
+
+	Role does not have direct reports
+
+	Salary will range from $55k-$65k + benefits
+
+
+
+&nbsp;&nbsp;Apply Now&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refer to a Friend&nbsp;&nbsp;
+
+				
+
+				
+
+			
+
+		
+
+	
+
+	
+
+		Copyright 2017 Agility 360. All rights reserved.Powered by ApplicantStack&trade; Applicant Tracking
+
+	
+
+
+
+
+
+
+

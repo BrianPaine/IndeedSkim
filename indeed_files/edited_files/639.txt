@@ -1,0 +1,1596 @@
+
+
+
+
+
+
+    
+
+    
+
+    Data Analyst
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+      
+
+        
+
+          gaInit('UA-5989970-13');
+
+          gaTrack(null, null);
+
+        
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+    
+
+  
+
+  
+
+    function ChildJqueryStartupScript() {
+
+      $.ajaxSetup({
+
+        timeout: 60000,
+
+        type: "POST",
+
+        error: function(ajaxRequest, error) {
+
+          CloseLoadingWindow();
+
+          alert("An error occurred while processing your request. \n Please try again in five minutes.");
+
+        }
+
+      });
+
+
+
+      var getJobDetailsPath = function() {
+
+        return getPagePath() + 'Board=' + $("#Board").val();
+
+      }
+
+
+
+      var referJobModal = $("#referJobModal");
+
+      var referJobForm = $("#referJobForm");
+
+
+
+      referJobModal.dialog({
+
+        autoOpen: false,
+
+        modal: true,
+
+        width: 450,
+
+        resizable: false,
+
+        position: {
+
+          my: "top+50px",
+
+          at: "top",
+
+          of: $("#Header"),
+
+          collision: "none"
+
+        },
+
+        buttons: {
+
+          "Submit": function() {
+
+            if (referJobForm.valid()) {
+
+              $.ajax({
+
+                cache: false,
+
+                async: true,
+
+                type: "POST",
+
+                url: referJobForm.attr('action'),
+
+                data: referJobForm.serialize(),
+
+                success: function(data) {
+
+                  if (data.success) {
+
+                    toastr.success("Job Referral Sent");
+
+                    closeAndResetReferralForm();
+
+                  } else {
+
+                    $("#referJobForm").html(data);
+
+                  }
+
+                }
+
+              });
+
+            }
+
+
+
+          },
+
+          "Cancel": function() {
+
+            closeAndResetReferralForm();
+
+          }
+
+        }
+
+      });
+
+
+
+      $("#referJobLink").click(function() {
+
+        $("#ReferralJobId").val($("#JobId").val());
+
+        referJobModal.dialog("open");
+
+      });
+
+
+
+      var closeAndResetReferralForm = function() {
+
+        referJobForm.trigger("reset");
+
+        referJobModal.dialog("close");
+
+      };
+
+
+
+
+
+      var createAccountOptions = {
+
+        async: true,
+
+        success: function(data) {
+
+          CloseLoadingWindow();
+
+          if (data.success) {
+
+            //toastr.success("Job Application Processed");
+
+            jobApplyConfirmationModal.dialog("open");
+
+            var path = getJobDetailsPath();
+
+            gaTrack(path, 'Apply Confirmation - New User');
+
+            closeAndResetApplyJobForm();
+
+          } else {
+
+            $("#createAccountForm").html(data);
+
+            $("#createAccountErrorMessage").show();
+
+          }
+
+        }
+
+      };
+
+
+
+      var loginFormOptions = {
+
+        async: true,
+
+        success: function(data) {
+
+          CloseLoadingWindow();
+
+          if (data.success) {
+
+            //toastr.success("Job Application Processed");
+
+            jobApplyConfirmationModal.dialog("open");
+
+            var path = getJobDetailsPath();
+
+            gaTrack(path, 'Apply Confirmation - Returning User');
+
+            closeAndResetApplyJobForm();
+
+          } else {
+
+            $("#loginForm").html(data);
+
+            $("#loginFormErrorMessage").show();
+
+          }
+
+        }
+
+      };
+
+
+
+      var applyJobModal = $("#applyJobModal");
+
+
+
+      applyJobModal.dialog({
+
+        autoOpen: false,
+
+        modal: true,
+
+        width: 450,
+
+        resizable: false,
+
+        buttons: {
+
+          "Submit": function() {
+
+            if ($("#FormName").val() == "Login") {
+
+              if ($("#loginForm").valid()) {
+
+                $("#loginForm").submit();
+
+                OpenLoadingWindow("Processing...");
+
+              }
+
+            } else {
+
+              if ($("#createAccountForm").valid()) {
+
+                $("#createAccountForm").submit();
+
+                OpenLoadingWindow("Processing...");
+
+              }
+
+            }
+
+          },
+
+          "Cancel": function() {
+
+            closeAndResetApplyJobForm();
+
+          }
+
+        }
+
+        //,
+
+        //open: function(event, ui) {
+
+        //  var path = getJobDetailsPath();
+
+        //  gaTrack(path, 'Apply Modal');
+
+        //}
+
+      });
+
+
+
+      $(".applyLink").click(function(e) {
+
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+        $("#createAccountErrorMessage").hide();
+
+        $("#signUpHereMessage").text("Already have an account? ");
+
+        $("#signUpHereLink").text("Sign in here");
+
+        OpenLoadingWindow("Loading...");
+
+        getApplyJobPartialView("CreateAccount");
+
+        //applyJobModal.dialog("open");
+
+      });
+
+
+
+      var closeAndResetApplyJobForm = function() {
+
+        $("#createAccountErrorMessage").hide();
+
+        $("#createAccountForm").trigger("reset");
+
+        $("#FirstName").val("");
+
+        $("#LastName").val("");
+
+        $("#Email").val("");
+
+        $("#ZipCode").val("");
+
+        applyJobModal.dialog("close");
+
+      };
+
+
+
+      $("#signUpHereLink").click(function(e) {
+
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+        if ($("#FormName").val() == "Login") {
+
+          OpenLoadingWindow("Loading...");
+
+          getApplyJobPartialView("CreateAccount");
+
+          $("#signUpHereMessage").text("Already have an account? ");
+
+          $("#signUpHereLink").text("Sign in here");
+
+        } else {
+
+          OpenLoadingWindow("Loading...");
+
+          getApplyJobPartialView("Login");
+
+          $("#signUpHereMessage").text("Don't have an account? ");
+
+          $("#signUpHereLink").text("Sign up here");
+
+        }
+
+      });
+
+
+
+      var getApplyJobPartialView = function(view) {
+
+        $("#FormName").val(view);
+
+        $.ajax({
+
+          cache: false,
+
+          async: true,
+
+          type: "GET",
+
+          url: '/JobSearch/GetApplyJobPartialView',
+
+          data: { view: view },
+
+          success: function(data) {
+
+            $("#applyJobModalForm").html(data);
+
+            if (view == "Login") {
+
+              $("#LoginJobId").val($("#JobId").val());
+
+              $.validator.unobtrusive.parse($("#loginForm"));
+
+              $("#loginForm").ajaxForm(loginFormOptions);
+
+              if ($("#Email").val() == "") {
+
+                $("#Email").focus();
+
+              } else {
+
+                $("#Password").focus();
+
+              }
+
+            } else {
+
+              $("#ApplyJobId").val($("#JobId").val());
+
+              $.validator.unobtrusive.parse($("#createAccountForm"));
+
+              $("#createAccountForm").ajaxForm(createAccountOptions);
+
+              $("#FirstName").focus();
+
+            }
+
+            applyJobModal.dialog("open");
+
+            CloseLoadingWindow();
+
+          }
+
+        });
+
+      };
+
+
+
+      function validateEmail(email) {
+
+        var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+
+        return re.test(email);
+
+      }
+
+
+
+      var jobAlertModal = $("#jobAlertModal");
+
+
+
+      jobAlertModal.dialog({
+
+        autoOpen: false,
+
+        modal: true,
+
+        width: 450,
+
+        resizable: false,
+
+        buttons: {
+
+          "Submit": function() {
+
+            OpenLoadingWindow();
+
+            trimFormFields(jobAlertModal);
+
+            $("#jobAlertErrorMessage").html("");
+
+
+
+            var emailAddress = $("#emailAddress").val();
+
+
+
+            var dto = {};
+
+            dto.JobAlertDto = {};
+
+            dto.JobAlertDto.StateId = $("#StateId").val();
+
+            dto.JobAlertDto.City = $("#City").val();
+
+            dto.JobAlertDto.Distance = $("#Distance").val();
+
+            dto.JobAlertDto.City = dto.JobAlertDto.City.replace("-", " ").toUpperCase();
+
+            dto.JobAlertDto.DivisionName = $("#DivisionId").val();
+
+            dto.JobAlertDto.JobAlertFrequencyId = $("#JobAlertFrequencies").val();
+
+            dto.SelectedJobCategories = $("#SelectedJobCategories").val();
+
+            dto.SelectedJobTypes = $("#SelectedEmpTypes").val();
+
+            dto.EmailAddress = emailAddress;
+
+
+
+            if (validateEmail(emailAddress)) {
+
+              $.ajax({
+
+                cache: false,
+
+                async: true,
+
+                type: "POST",
+
+                contentType: "application/json",
+
+                data: JSON.stringify(dto),
+
+                url: "/API/V1/JobAlert/CreateJobAlert",
+
+                success: function(data) {
+
+                  if (data.JobAlertDto.JobAlertId == null) {
+
+                    toastr.error("Error Submitting Job Alert");
+
+                    CloseLoadingWindow();
+
+                  } else {
+
+                    sendConfirmationEmail(data);
+
+                  }
+
+                }
+
+              });
+
+            } else {
+
+              $("#jobAlertErrorMessage").html("Invalid Email Address");
+
+              CloseLoadingWindow();
+
+            }
+
+          },
+
+          "Cancel": function() {
+
+            closeAndResetJobAlertModal();
+
+          }
+
+        }
+
+      });
+
+
+
+      var sendConfirmationEmail = function(createJobAlertDto) {
+
+        var dto = {};
+
+        dto.ToEmail = createJobAlertDto.EmailAddress;
+
+        dto.JobAlertDto = createJobAlertDto.JobAlertDto;
+
+        dto.OtherJobsUrl = window.location.protocol + "//" + window.location.host + "/?StateId=" + createJobAlertDto.JobAlertDto.StateId + "&City=" + createJobAlertDto.JobAlertDto.City.replace(" ", "+") + "&SelectedJobCategories=" + createJobAlertDto.SelectedJobCategories + "&SelectedEmpTypes=" + createJobAlertDto.SelectedJobTypes + "&OrderBy=0&PageSize=25&page=1" + "&Distance=" + createJobAlertDto.JobAlertDto.Distance;
+
+        dto.UnsubscribeAllUrl = window.location.protocol + "//" + window.location.host + "/jobsearch/unsubscribe?EncryptEmailedUserId=" + createJobAlertDto.EncryptEmailedUserId;
+
+        dto.UnsubscribeUrl = dto.UnsubscribeAllUrl + "&JobAlertId=" + createJobAlertDto.JobAlertDto.JobAlertId;
+
+
+
+        $.ajax({
+
+          cache: false,
+
+          async: true,
+
+          type: "POST",
+
+          contentType: "application/json",
+
+          data: JSON.stringify(dto),
+
+          url: "/API/V1/JobAlertEmail/SendConfirmationEmail",
+
+          success: function(data) {
+
+            if (data == false) {
+
+              toastr.error("Error Submitting Job Alert");
+
+              CloseLoadingWindow();
+
+            } else {
+
+              toastr.success("Job Alert Submitted");
+
+              closeAndResetJobAlertModal();
+
+              CloseLoadingWindow();
+
+            }
+
+          }
+
+        });
+
+      };
+
+
+
+      var closeAndResetJobAlertModal = function() {
+
+        $("#emailAddress").val("");
+
+        $("#jobAlertErrorMessage").html("");
+
+        jobAlertModal.dialog("close");
+
+      };
+
+
+
+      $(".createAlert").click(function(e) {
+
+        e.preventDefault ? e.preventDefault() : e.returnValue = false;
+
+
+
+        jobAlertModal.dialog("open");
+
+      });
+
+
+
+      var jobApplyConfirmationModal = $("#jobApplyConfirmationModal");
+
+
+
+      jobApplyConfirmationModal.dialog({
+
+        autoOpen: false,
+
+        modal: true,
+
+        width: 500,
+
+        resizable: false,
+
+        buttons: {
+
+          "OK": function() {
+
+            $(this).dialog("close");
+
+          }
+
+        }
+
+      });
+
+
+
+      if ($("#ApplyNow").val().toLowerCase() == "true") {
+
+        $("#createAccountErrorMessage").hide();
+
+        $("#signUpHereMessage").text("Already have an account? ");
+
+        $("#signUpHereLink").text("Sign in here");
+
+        OpenLoadingWindow("Loading...");
+
+        getApplyJobPartialView("CreateAccount");
+
+        //applyJobModal.dialog("open");
+
+      }
+
+
+
+    }
+
+  
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+      
+
+    
+
+    
+
+    
+
+    
+
+
+
+             
+
+    (function ($) {
+
+      $(function () {                
+
+        $("#CustomMessageModal").dialog({
+
+          autoOpen: false,
+
+          modal: true,
+
+          width: 400,
+
+          resizable: false,
+
+          buttons: [{
+
+            text: "Ok",
+
+            click: function () { $(this).dialog("close"); }
+
+          }]
+
+        });
+
+
+
+        $("#LoadingModal").dialog({
+
+          autoOpen: false,
+
+          modal: true,
+
+          width: 400,
+
+          resizable: false
+
+        });
+
+
+
+        //Put non shared startup scripts in child function with same name. 
+
+        ChildJqueryStartupScript();                
+
+      });        
+
+    })(jQuery)
+
+  
+
+  
+
+  try { Typekit.load({ async: true }); } catch (e) { }
+
+
+
+
+
+    
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        Business Lines of
+
+                        
+
+                        Roth Staffing Companies, L.P.
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                                Roth Staffing Companies, L.P.
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                Ultimate Staffing Services
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                Ledgent
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                Adams & Martin Group
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                Ledgent Technology & Engineering
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                About Talent
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                            Ledgent Technology & Engineering
+
+                        
+
+                    
+
+                
+
+                
+
+                    Specialists in staffing IT, Technical, Engineering and Scientific Professionals
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                                Facebook
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                LinkedIn
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                Blog
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                                for
+
+                                Job Seekers
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                for
+
+                                Business Clients
+
+                            
+
+                        
+
+                        
+
+                            About Us
+
+                        
+
+                        
+
+                            News
+
+                        
+
+                        
+
+                            Purpose:full
+
+                        
+
+                        
+
+                            Login
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+    
+
+    
+
+
+
+
+
+  
+
+  
+
+       Back to Search
+
+      
+
+  
+
+  
+
+    Data Analyst
+
+    Date Posted: 9/27/2017
+
+    Apply Now   
+
+        
+
+            
+
+                      lang: en_US
+
+      
+
+    
+
+            
+
+            
+
+            
+
+                     Follow @Job_LedgentTech
+
+      !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');
+
+
+
+
+
+    
+
+            
+
+          
+
+    
+
+    
+
+      
+
+        
+
+          Job Description
+
+          Our organization provides cloud-based solutions that benefit healthcare providers and patients, alike. We are searching for a highly technical Data Analyst to drive operational analysis, data quality initiatives and validation.Qualified candidates must be presently authorized to work in the United States on a full-time basis. This company does not sponsor or transfer H1-visa individualsFunction & responsibilities:Work with senior leadership and product management to the define the strategic direction for our organization's data qualityAnalyze data and make recommendations on how we can improve its coverage and quality.Collaborate with the Data Science team to build processes that ensure that data features maintain their quality over time.Conduct periodic data audits and track data-quality KPIs over timeProvide insight into test requirements, design and implementation Analyze requirements and technical documentation to plan, develop and implement tests Technical requirements & experience:Minimum five years' experience in data managementA Bachelor's degree in Information Technology, Business Intelligence, Data Analytics or related discipline is required.Advanced knowledge of relational (SQL, SSIS, SSRS, SSAS) and NoSQL (Mongo) databases and query languagesExperience working in an Agile/Scrum driven development environment and SDLC processDemonstrated experience with SAS or other statistical packages; Excel, Access or other database environmentsStrong data visualization and reporting skillsExperience with managing, monitoring and scoring data quality in a transactional environmentKeen eye for accuracy and detailstrong communication skills (i.e. understand AND be understood by both technical and non-technical Team Members.  
+
+We are an equal opportunity employer.
+
+        
+
+        
+
+          Job Requirements
+
+          Ledgent Technology is working with an organization that provides cloud-based solutions that benefit healthcare providers and patients, alike. We are searching for a highly technical Data Analyst to drive operational analysis, data quality initiatives and validation. 
+
+This individual will work on-site at their San Diego headquarters. 
+
+Qualified candidates must be presently authorized to work in the United States on a full-time basis. This company does not sponsor or transfer H1-visa individuals
+
+Function & responsibilities:
+
+•	Work with senior leadership and product management to the define the strategic direction for our organization’s data quality
+
+•	Analyze data and make recommendations on how we can improve its coverage and quality.
+
+•	Collaborate with the Data Science team to build processes that ensure that data features maintain their quality over time.
+
+•	Conduct periodic data audits and track data-quality KPIs over time
+
+•	Provide insight into test requirements, design and implementation 
+
+•	Analyze requirements and technical documentation to plan, develop and implement tests 
+
+Technical requirements & experience:
+
+•	Minimum five years’ experience in data management
+
+•	A Bachelor’s degree in Information Technology, Business Intelligence, Data Analytics or related discipline is required. 
+
+•	Advanced knowledge of relational (SQL, SSIS, SSRS, SSAS) and NoSQL (Mongo) databases and query languages
+
+•	Experience working in an Agile/Scrum driven development environment and SDLC process
+
+•	Demonstrated experience with SAS or other statistical packages; Excel, Access or other database environments
+
+•	Strong data visualization and reporting skills
+
+•	Experience with managing, monitoring and scoring data quality in a transactional environment
+
+•	Keen eye for accuracy and detail
+
+•	strong communication skills (i.e. understand AND be understood by both technical and non-technical Team Members.Posted By: jandrews@ledgent.com
+
+        
+
+        Apply Now
+
+        Send to a Friend
+
+      
+
+      
+
+        
+
+          Job Snapshot
+
+          
+
+            Employee Type:Full-Time
+
+            Location:San Diego, CA
+
+            Job Type:I.T.
+
+            Experience:Not Specified
+
+            Education:Not Specified
+
+            Date Posted:9/27/2017
+
+              Contact: Jessica Andrews (858) 366-4632
+
+                      Pay Range: $0.00 - $0.00 Annually
+
+          
+
+        
+
+        
+
+          Get Job Alertsby Email
+
+          
+
+            Receive alerts with new job opportunities that match your interests
+
+            Receive relevant communications and updates from our organization
+
+          
+
+          
+
+            Sign Up Now
+
+          
+
+        
+
+      
+
+      
+
+      
+
+        Job Reference: JO-1709-10800
+
+      
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+               
+
+  
+
+  Refer a job to a friend
+
+  
+
+Your Name
+
+
+
+
+
+Email Address
+
+
+
+
+
+Recipient&#39;s Name
+
+
+
+
+
+Recipient&#39;s Email
+
+
+
+
+
+Message for recipient
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+             
+
+  
+
+  Apply Now!
+
+  Don't have an account? Sign up here
+
+  
+
+  
+
+    First Name
+
+    
+
+    
+
+  
+
+  
+
+    Last Name
+
+    
+
+    
+
+  
+
+Email Address
+
+
+
+
+
+Zip Code
+
+
+
+
+
+Password
+
+
+
+
+
+Confirm Password
+
+
+
+
+
+Upload Resume (Word or PDF only)
+
+,&quot;,:,/,\,|,?,*" data-val-fileextensions="Only .doc, .docx, or .pdf files allowed for upload." data-val-fileextensions-fileextensions="doc,docx,pdf" data-val-maxfilesize="File size cannot be greater than 1MB." data-val-maxfilesize-maxfilesize="1048576" data-val-minfilesize="Attempting to upload an empty resume." data-val-minfilesize-minfilesize="1" id="File" name="File" type="file" value="" />
+
+
+
+  
+
+  
+
+  By clicking Submit you are agreeing to our Terms & Conditions, Privacy Policy, and Profile Agreement below.
+
+  
+
+  
+
+    Privacy Policy
+
+    Terms & Conditions
+
+    Profile Agreement
+
+  
+
+
+
+
+
+
+
+    
+
+               
+
+    
+
+    SIGN UP FOR JOB ALERTS
+
+    Email Address
+
+    
+
+    
+
+    
+
+    Frequency    
+
+    Daily
+
+Weekly
+
+        
+
+    
+
+    
+
+    
+
+    By clicking Submit you are agreeing to our Terms & Conditions and Privacy Policy below.     
+
+    
+
+    
+
+      Privacy Policy
+
+      Terms & Conditions
+
+    
+
+
+
+
+
+
+
+  
+
+               
+
+    
+
+  Thank you for applying to the Data Analyst position. We received your application and will contact you shortly.
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+        
+
+       Loading...
+
+       
+
+        
+
+      
+
+    
+
+        
+
+    
+
+    
+
+    
+
+
+
+    
+
+        
+
+            
+
+                866.800.3051
+
+            
+
+            
+
+                ©Copyright 1994-2017
+
+                
+
+                Roth Staffing Companies, L.P.
+
+                
+
+                All Rights Reserved.
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    Search Job Openings
+
+                
+
+                
+
+                    Apply Online
+
+                
+
+                
+
+                    About Us
+
+                
+
+                
+
+                    Contact Us
+
+                
+
+            
+
+            
+
+                
+
+                    Business Services
+
+                
+
+                
+
+                    Login
+
+                
+
+                
+
+                    Privacy Policy
+
+                
+
+                
+
+                    Terms & Conditions
+
+                
+
+            
+
+        
+
+    
+
+    
+
+
+//
+
+

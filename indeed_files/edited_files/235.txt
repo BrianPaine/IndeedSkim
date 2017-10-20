@@ -1,0 +1,1490 @@
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+    
+
+	Professional-Data Analysis-IT \ Engineering \ Technology jobs in Dallas at AT &amp; T
+
+	
+
+	
+
+	 
+
+    
+
+	
+
+		
+
+	
+
+    
+
+    
+
+    
+
+        
+
+    document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+     
+
+
+
+
+
+
+
+                
+
+{"@context":"http://schema.org","@type":"JobPosting","datePosted":"2017-9-26","description":"Increasing demand for business intelligence is creating an opportunity to join an organization within AT&T that turns data into insights through the use of unique data discovery techniques and visualization tools.&nbsp; In this Data Analytics role, you will work closely with a diverse, innovative team of analysts and data experts to solve client problems using Teradata, Big Data platforms and data assets. You will have opportunities to support and interact with clients within Business Vertical Marketing, Finance, Pricing, and Strategy. Overall Purpose: Responsible for analyzing data in response to new business requests, performing maintenance and changes on interfaces, and identifying and resolving data discrepancies across multiple business applications. Key Roles and Responsibilities: Works directly with the client user community and business analysts to define and document data requirements for data integration and business intelligence applications. Determines and documents data mapping rules for movement of medium to high complexity data between applications. Adheres to and promotes the use of data administration standards. Supports data selection, extraction, and cleansing for corporate applications, including data warehouse and data marts. Creates and sustains processes, tools, and on-going support structures and processes.&nbsp; Investigates and resolves data issues across platforms and applications, including discrepancies of definition, format and function. Creates and populates meta-data into repositories. May be responsible for employing data mining techniques to achieve data synchronization, redundancy elimination, source identification, data reconciliation, and problem root cause analysis. May also be responsible for quality control and auditing of databases, resolving data problems, and analyzing system changes for quality assurance. Uses a variety of visualization/presentation tools to support end-user self-service analytics or aggregate findings for executive level presentations.Education: Bachelor’s Degree is not required, but Bachelor’s Degree and/or Data Analytics Nano-Degree is preferred.Experience: Typically requires 3-5 years’ experience.Supervisory: No.Required Qualifications:Candidates must have strong analytical skills. Candidate must demonstrate strong communication and presentation skills. SQL coding experience is required. Microsoft Excel and PowerPoint experience is required. Experience with MicroStrategy is a plus - This includes cube, visual insights dashboard and report development. Experience with Teradata Aster Analytics and Aster App Center is a plus.Experience with Hadoop, R and Python is a plus.","employmentType":"Full Time","identifier":"1763271","qualifications":"Required Qualifications:
+
+Candidates must have strong analytical skills. 
+Candidate must demonstrate strong communication and presentation skills. 
+SQL coding experience is required. 
+Microsoft Excel and PowerPoint experience is required. 
+Experience with MicroStrategy is a plus - This includes cube, visual insights dashboard and report development. 
+Experience with Teradata Aster Analytics and Aster App Center is a plus.
+Experience with Hadoop, R and Python is a plus.","title":"Professional-Data Analysis","url":"https://connect.att.jobs/job/dallas/professional-data-analysis/117/5814246","hiringOrganization":{"@type":"Organization","name":"AT & T"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Dallas","addressRegion":"Texas","addressCountry":"US","streetAddress":"","postalCode":""}}}
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-52940744-2', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+                createHiddenInput('dimension1', '5814246');
+
+                createHiddenInput('dimension2', '1763271');
+
+                createHiddenInput('dimension3', '117');
+
+                createHiddenInput('dimension4', '117,AT &amp; T');
+
+                    createHiddenInput('dimension6', 'IT-\-Engineering-\-Technology');
+
+                    createHiddenInput('dimension7', 'Dallas-Texas-United-States');
+
+                    createHiddenInput('dimension9', 'Professional-Data Analysis');
+
+                        createHiddenInput('dimension10', 'JobDetails');
+
+                    createHiddenInput('dimension14', 'Basic JD');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+    
+
+    
+
+        (function() { 
+
+            var s, f, fns, b; window.zfapi =
+
+            { queue: [], ROOT_URL: 'https://zoomforth.com' }; 
+
+            s = document.createElement('script');
+
+            s.type = "text/javascript";
+
+            s.async = !0;
+
+            s.src = zfapi.ROOT_URL + '/v1/jsapi.js?ts='+ Math.round((new Date()).getTime() / (1000 * 3600 * 24 * 2));
+
+            f = document.getElementsByTagName('script')[0];
+
+            f.parentNode.insertBefore(s,f);
+
+            fns = ['open', 'bindLink', 'bindAllLinks'];
+
+            b = function(fn){ zfapi[fn] = function() { 
+
+                zfapi.queue.push([fn].concat(Array.prototype.slice.call(arguments,0))); }}; 
+
+                for(i=0;ifns.length;i++)
+
+                { b(fns[i]); }; 
+
+                zfapi.bindAllLinks(); 
+
+            
+
+        })(); 
+
+    
+
+    
+
+
+
+
+
+	
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+            gtmValues = { 'JobID': '5814246', 'ReqID': '1763271', 'OrgID': '117', 'tbcn-division': '117,AT &amp; T' };
+
+                gtmValues['tbcn-jobcategory'] = 'IT-\-Engineering-\-Technology';
+
+                gtmValues['tbcn-location'] = 'Dallas-Texas-United-States';
+
+                gtmValues['tbcn-jobtitle'] = 'Professional-Data Analysis';
+
+                    gtmValues['pagetype'] = 'JobDetails';
+
+                gtmValues['subpagetype'] = 'Basic JD';
+
+            dataLayer.push(gtmValues);
+
+
+
+
+
+
+
+
+
+
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-P2WDQN');
+
+    
+
+
+
+	
+
+	
+
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window,document,'script','dataLayer','GTM-5XQ7');
+
+    
+
+    
+
+    
+
+	
+
+    	Skip Navigation
+
+    	
+
+        
+
+        
+
+                
+
+
+
+    
+
+        
+
+            att.com
+
+            att.jobs
+
+        
+
+        
+
+            
+
+                Log In  
+
+                Application Status  
+
+                Employees
+
+            
+
+            Share (Opens New Window)
+
+            
+
+
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+        
+
+            Join our Talent Network
+
+            Featured Stories
+
+            Saved Jobs
+
+            Menu 
+
+            
+
+                Menu 
+
+                
+
+                    
+
+                        Doing Great Things
+
+                            Overview
+
+                                Life at AT&amp;T
+
+                                    
+
+                                        Learning &amp; Development
+
+                                        Inside Stories
+
+                                        Diversity
+
+                                        Careers Without Limits
+
+                                        Videos
+
+                                        #LifeatATT
+
+                                        Rewards
+
+                                    
+
+                                
+
+                                Sustainability
+
+                                Community
+
+                                Innovation
+
+                                Military
+
+                                    
+
+									    Military Spouse
+
+								    
+
+                                
+
+                                Awards
+
+                                AT&amp;T's Women
+
+                             
+
+                        
+
+                        Careers
+
+                            
+
+                                Overview
+
+                                Call Center
+
+                                College
+
+                                    
+
+                                        Full-Time Development Programs
+
+                                        Internships
+
+                                    
+
+                                
+
+                                Content &amp; Entertainment
+
+                                Corporate
+
+                                Technology
+
+                                Retail
+
+                                    
+
+                                        Part-Time
+
+                                    
+
+                                
+
+                                Sales
+
+                                Technician
+
+                                Contractor Opportunities
+
+                             
+
+                        
+
+                        Resources
+
+                            
+
+                                Overview
+
+                                Job Guide
+
+                                Events
+
+                                Application Status
+
+                                Hiring Process
+
+                                FAQ
+
+                             
+
+                        
+
+                        Locations
+
+                            
+
+                                Overview
+
+                                Americas
+
+                                Asia Pacific
+
+                                EMEA   
+
+                               
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+        
+
+    	
+
+    	
+
+    	    
+
+    		
+
+
+
+
+
+
+
+    
+
+        
+
+
+
+
+
+
+
+	
+
+	
+
+	    Search Jobs
+
+        
+
+		    Keyword Search
+
+		    
+
+        
+
+        
+
+            City, State, or ZIP
+
+		    
+
+                
+
+		
+
+        
+
+        Search
+
+        Saved Jobs
+
+		
+
+	
+
+	
+
+	Search Jobs
+
+	
+
+ 
+
+
+
+
+
+        
+
+            
+
+        
+
+        Create groundbreaking innovations
+
+    
+
+
+
+
+
+    
+
+           
+
+    IT \ Engineering \ Technology Jobs
+
+You&rsquo;re looking for an opportunity to do something incredible, right? As an industry leader we&rsquo;re dedicated to connecting the world in groundbreaking and entertaining ways. And that&rsquo;s when our Technology team members can really shine, combining your passion for innovation and drive towards the future. From mobile apps to products and services, here&rsquo;s your chance to create and develop life-changing innovations.
+
+
+
+
+
+    
+
+    
+
+        
+
+            
+
+
+
+    
+
+        Professional-Data Analysis
+
+        Dallas 
+
+               ,  Texas            
+
+        
+
+	Apply
+
+            
+
+                Save This JobRemove Job
+
+                   
+
+        
+
+        
+
+        
+
+        
+
+        
+
+            Increasing demand for business intelligence is creating an opportunity to join an organization within AT&T that turns data into insights through the use of unique data discovery techniques and visualization tools.  In this Data Analytics role, you will work closely with a diverse, innovative team of analysts and data experts to solve client problems using Teradata, Big Data platforms and data assets. You will have opportunities to support and interact with clients within Business Vertical Marketing, Finance, Pricing, and Strategy. Overall Purpose: Responsible for analyzing data in response to new business requests, performing maintenance and changes on interfaces, and identifying and resolving data discrepancies across multiple business applications. Key Roles and Responsibilities: Works directly with the client user community and business analysts to define and document data requirements for data integration and business intelligence applications. Determines and documents data mapping rules for movement of medium to high complexity data between applications. Adheres to and promotes the use of data administration standards. Supports data selection, extraction, and cleansing for corporate applications, including data warehouse and data marts. Creates and sustains processes, tools, and on-going support structures and processes.  Investigates and resolves data issues across platforms and applications, including discrepancies of definition, format and function. Creates and populates meta-data into repositories. May be responsible for employing data mining techniques to achieve data synchronization, redundancy elimination, source identification, data reconciliation, and problem root cause analysis. May also be responsible for quality control and auditing of databases, resolving data problems, and analyzing system changes for quality assurance. Uses a variety of visualization/presentation tools to support end-user self-service analytics or aggregate findings for executive level presentations.Education: Bachelor’s Degree is not required, but Bachelor’s Degree and/or Data Analytics Nano-Degree is preferred.Experience: Typically requires 3-5 years’ experience.Supervisory: No.Required Qualifications:Candidates must have strong analytical skills. Candidate must demonstrate strong communication and presentation skills. SQL coding experience is required. Microsoft Excel and PowerPoint experience is required. Experience with MicroStrategy is a plus - This includes cube, visual insights dashboard and report development. Experience with Teradata Aster Analytics and Aster App Center is a plus.Experience with Hadoop, R and Python is a plus.
+
+        
+
+ Requisition ID 1763271         	Apply
+
+        		        
+
+    
+
+    If you’re not ready to apply, 
+
+join our Talent Network to stay in the loop >    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+        
+
+            Share  this job
+
+            
+
+	                Facebook
+
+	                Google+
+
+	                Twitter
+
+	                LinkedIn
+
+                            
+
+        
+
+    
+
+
+
+
+
+        
+
+      
+
+	
+
+
+
+
+
+            Featured Stories
+
+        
+
+                
+
+                        
+
+                            
+
+                        
+
+                                            
+
+                    AT&amp;T Developer Summit | Life At AT&amp;T Podcast | AT&amp;T
+
+                        
+
+                
+
+                
+
+                        
+
+                            
+
+                        
+
+                                            
+
+                    Women Who Inspire | AT&amp;T
+
+                        
+
+                
+
+                
+
+                        
+
+                            
+
+                        
+
+                                            
+
+                    Life at AT&amp;T | Building a Rube Goldberg-style Machine
+
+                        
+
+                
+
+                
+
+                        
+
+                            
+
+                        
+
+                                            
+
+                    AT&amp;T Entertainment Group | Life At AT&amp;T Podcast
+
+                        
+
+                
+
+                
+
+                        
+
+                            
+
+                        
+
+                                            
+
+                    Meet Chris Volinsky One of the Brilliant Minds at AT&amp;T Labs
+
+                        
+
+                
+
+                
+
+                        
+
+                            
+
+                        
+
+                                            
+
+                    AT&amp;T Employee Gives Back to Veteran Community
+
+                        
+
+                
+
+        
+
+            Read more
+
+        
+
+        
+
+        
+
+            Explore more stories
+
+        
+
+   
+
+
+
+
+
+
+
+    
+
+        "A company committed to transforming itself for the future."
+
+         
+
+        Former Employee - Data Scientist Intern in Plano, TX	
+
+        
+
+        Pros
+
+        
+
+       In a technical community, you do have lots of freedom to determine what to work on. The company is truly embracing changes and transformation to the future, open to new ideas
+
+Great leadership (bootcamp style) and technical training programs
+
+        
+
+        
+
+        Cons
+
+        
+
+        Great vision from senior officers, execution strategy some times legging at mid-level managers
+
+        
+
+        
+
+        
+
+            Powered By 
+
+        
+
+        
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+        Inside Stories
+
+    
+
+    
+
+        
+
+            A Look Inside: Emerging Technology Careers
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                    A Look Inside: Technical IT/Engineering
+
+                
+
+                
+
+                    
+
+                    AT&T Career Progression - Eurekia Cosey
+
+                
+
+                 
+
+                    
+
+                    AT&T Internet of Things Leadership
+
+                
+
+                 
+
+                    
+
+                    2016 AT&T Developer Summit at CES
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    #LifeAtATT
+
+    We work hard and play even harder. Because with everything we do, #LifeAtATT is always an adventure. 
+
+    Life at AT&T - Just ask our team    
+
+    Just ask our team    
+
+
+
+
+
+    Doing Great Things
+
+    
+
+        
+
+            
+
+                
+
+                Building a brighter future
+
+            
+
+            In 2015, we saved $119 million in annualized energy – and that’s only the start of how we’re in the business of doing good.
+
+        
+
+        
+
+            
+
+                
+
+                Making an impact
+
+            
+
+            We’re working to make a difference in our communities – like our $250 million commitment to education through AT&T Aspire. 
+
+        
+
+        
+
+            
+
+                
+
+                Ensuring every voice matters
+
+            
+
+            With 115,000+ employees in our employee networks, we celebrate the amazing things our differences bring to the table.
+
+                
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                Putting military skills to work
+
+            
+
+            We’re on a mission to hire the best talent – a big mission. We’re committed to hiring 20,000 veterans by 2020.
+
+        
+
+        
+
+            
+
+                
+
+                Developing what’s next
+
+            
+
+            Whether it’s in AT&T Labs, the AT&T Foundry or our Mobile App Hackathons, we’re unleashing talent and turning big ideas into big possibilities.
+
+        
+
+        
+
+            
+
+                
+
+                Taking your career far
+
+            
+
+            With mentors to guide your way and lots of training opportunities, there’s no limit to how much you can grow or where your career can go. 
+
+                
+
+    
+
+
+
+
+
+    Join the Talent Network
+
+    Sign up to receive a monthly newsletter and be the first to know about career events, new openings and exclusive updates. 
+
+    Join Now
+
+
+
+
+
+
+
+    
+
+        
+
+                        Saved Jobs
+
+            You haven't saved any jobs yet. 
+
+    
+
+
+
+
+
+	
+
+	
+
+
+
+    	
+
+    	    	 
+
+    	
+
+    
+
+        
+
+            
+
+    			Doing Great Things
+
+                
+
+    				Overview
+
+                    Life at AT&amp;T
+
+                        
+
+                            Learning &amp; Development
+
+                            Inside Stories
+
+                            Diversity
+
+                            Careers Without Limits
+
+                            Videos
+
+                            #LifeatATT
+
+                            Rewards
+
+                        
+
+                    
+
+                    Sustainability
+
+                    Community
+
+                    Innovation
+
+                    Military
+
+                    Whats Happening
+
+                    Awards
+
+                    AT&amp;T's Women
+
+                 
+
+            
+
+            
+
+    			Careers
+
+                
+
+                    Overview
+
+                    Call Center
+
+                    College
+
+                        
+
+                            Development programs
+
+                            Internships
+
+                        
+
+                    
+
+                    Content &amp; Entertainment
+
+                    Corporate
+
+                    Technology
+
+                    Retail
+
+                        
+
+                            Part-Time
+
+                        
+
+                    
+
+                    Sales
+
+                    Technician
+
+                    Contractor Opportunities
+
+                 
+
+            
+
+            
+
+    			Resources
+
+                
+
+                    Overview
+
+                    Events
+
+                    Application Status
+
+                    Hiring Process
+
+                    FAQ
+
+                 
+
+            
+
+            
+
+    			Locations
+
+                
+
+                    Overview
+
+                    Americas
+
+                    Asia Pacific
+
+                    EMEA   
+
+                   
+
+            
+
+            att.com
+
+    	    Featured Stories
+
+        
+
+        
+
+            Stay Connected
+
+            
+
+                Facebook
+
+                Twitter
+
+                LinkedIn
+
+            
+
+            
+
+                Glassdoor
+
+                Youtube
+
+                Jobipedia
+
+            
+
+    	
+
+	
+
+
+
+	
+
+    	
+
+    	    Back to Top
+
+    	    
+
+                
+
+                Privacy Policy
+
+                Terms of Use
+
+                Sitemap
+
+    
+
+
+
+
+
+             Share
+
+            &copy; 2017 AT&T Intellectual Property. All rights reserved. AT&T, AT&T logo and all other marks contained herein are trademarks of AT&T Intellectual Property and/or AT&T affiliated companies.
+
+            Discrimination and all unlawful harassment (including sexual harassment) in employment is not tolerated. We encourage success based on our individual merits and abilities without regard to race, color, religion, national origin, gender, sexual orientation, gender identity, age, disability, marital status, citizenship status, military status, protected veteran status or employment status. We support and obey laws that prohibit discrimination everywhere we do business. AT&T fully considers all qualified applicants including those with a criminal history. Click here to learn more or request an application accommodation here.
+
+    			         
+
+    	    	            
+
+    	
+
+	
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+	
+
+
+
+
+
+	
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        $(window).load(function(){
+
+          $('.flexslider').flexslider({
+
+            animation: "slide",
+
+            directionNav: false,
+
+            start: function(slider){
+
+              $('body').removeClass('loading');
+
+            }
+
+          });
+
+        });
+
+    
+
+    
+
+    
+
+    
+
+
+

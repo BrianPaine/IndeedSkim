@@ -1,0 +1,1207 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    select:focus, a:focus {
+
+        outline: #1e90ff solid 2px
+
+    }
+
+
+
+    input[type=submit] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=button] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=submit]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=button]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=submit]:focus {
+
+        background: #1e90ff;
+
+    }
+
+
+
+    input[type=button]:focus {
+
+        background: #1e90ff
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane {
+
+        text-align: right;
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane button {
+
+        float: none;
+
+    }
+
+
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+
+        /*border: 1px solid #000;*/
+
+        /*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .alert-error {
+
+        color: #990000;
+
+        font-weight: bold;
+
+    }
+
+
+
+    td.top {
+
+        vertical-align: top !important;
+
+    }
+
+
+
+    td.left {
+
+        float: none;
+
+        text-align: left;
+
+    }
+
+
+
+    td.right {
+
+        float: none;
+
+        text-align: right;
+
+    }
+
+
+
+    .nowrapFormLabel {
+
+        white-space: nowrap;
+
+        text-align: right;
+
+    }
+
+
+
+    h1 {
+
+        font-size: 120%
+
+    }
+
+
+
+    h2 {
+
+        font-size: 110%
+
+    }
+
+
+
+    h3 {
+
+        font-size: 100%
+
+    }
+
+
+
+    .hidden-accessibility-text {
+
+        position: absolute;
+
+        left: -2000px;
+
+        top: 0;
+
+        width: 1;
+
+        height: 1;
+
+        overflow: hidden;
+
+        font-size: 0.1em;
+
+    }
+
+
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+
+    .ofcc305table textfield, .ofcc305table select,
+
+    .ofcc305table input, .ofcc305table a {
+
+        font-size:12px !important;
+
+        font-family:Arial,sans-serif,Helvetica !important;
+
+    }
+
+
+
+    #cws-search-results th, #cws-job-alerts th {
+
+        border-top: #CCCCCC 2px solid;
+
+        border-bottom: #CCCCCC 2px solid;
+
+    }
+
+
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+
+        border-bottom: #CCCCCC 2px solid;
+
+        padding-bottom: 3px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+	Internet Brands, Inc. 	
+
+	
+
+
+
+
+
+			Avada_3.3.1{color:green;}
+
+	#searchsubmit, #locationsearch, #login-btn, input[name=tbe_cws_submit], input[name=login]  {
+
+			background-color: #00BEF5 !important;
+
+			color: #FFF !important;
+
+			padding: 9px 33px !important;
+
+			font-size: 13px !important;
+
+			border: none !important;
+
+		}
+
+		
+
+		h1 {
+
+			font-size: 2em !important;
+
+		}
+
+		
+
+		
+
+		
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+		
+
+	WebFontConfig = {
+
+				custom: { families: ['FontAwesome'], urls: ['http://www.internetbrands.com/wp-content/themes/Avada/fonts/fontawesome.css'] }
+
+	};
+
+	(function() {
+
+		var wf = document.createElement('script');
+
+		wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+
+		  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+
+		wf.type = 'text/javascript';
+
+		wf.async = 'true';
+
+		var s = document.getElementsByTagName('script')[0];
+
+		s.parentNode.insertBefore(wf, s);
+
+	})();
+
+	
+
+
+
+		
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+			
+
+						
+
+						
+
+	#location {
+
+		width: 60%;
+
+	}				
+
+	
+
+	#email, #cwsPassword {
+
+		width: 80%;
+
+	}		
+
+						
+
+						
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait){
+
+			#wrapper .ei-slider{width:100% !important;}
+
+		}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape){
+
+			#wrapper .ei-slider{width:100% !important;}
+
+		}
+
+
+
+
+
+		
+
+		@media only screen and (max-width: 500px){		
+
+			#location {width: 81% !important;}
+
+			#keywords {width: 80% !important;}		
+
+			.avada-row {
+
+				width: 93.75%;
+
+				padding-left: 3.125%;
+
+				padding-right: 3.125%;
+
+			}	
+
+		}
+
+		
+
+		td, th {
+
+			text-align: left !important;
+
+		}
+
+
+
+					
+
+			
+
+
+
+	
+
+	
+
+	.animated { visibility:hidden;}
+
+	
+
+		
+
+	
+
+	
+
+	.animated { visibility:visible;}
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+		
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+				
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		 
+
+
+
+		
+
+		
+
+			.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+
+
+
+			
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-219634-9']);
+
+  _gaq.push(['_trackPageview']);
+
+
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+	
+
+					
+
+			
+
+	
+
+		
+
+			
+
+				
+
+					
+
+									
+
+			
+
+						
+
+							
+
+	ABOUT US
+
+	OUR BRANDS
+
+	NEWS
+
+	WORK WITH US
+
+	CONTACT US
+
+		
+
+			
+
+						
+
+					
+
+	
+
+		
+
+
+
+
+
+
+
+ CwsDWRFacade._path = 'http://chp.tbe.taleo.net/chp02/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; 
+
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchp.tbe.taleo.net/chp02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chp.tbe.taleo.net/chp02/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chp.tbe.taleo.net/chp02/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();
+
+
+
+
+
+
+
+
+
+
+
+
+Data Analyst
+
+
+Location:
+New Providence, NJ
+
+
+Job Code:
+2060
+
+
+# of openings:
+1
+
+
+
+Description
+This position is responsible for the analysis, consolidation and presentation of all types of Customer Support and Operations statistical data, information, trends and patterns. These
+
+analyses will be used for Customer Support and Operations strategic planning needs, forecasts, product impact assessments, performance, and for planning and development as requested by
+
+other areas of the company. Analysis of data to arrive at forecasts and trend information will be especially critical for future department planning. This position will function as a central point
+
+liaison and resource for operations information for all areas of the company needing operations data, including sales and product development. This role requires a daily presence in Martindale-
+
+Hubbell&rsquo;s New Providence, NJ, office.
+
+
+
+Accountabilities:
+
+- Collaborate with stakeholders to gather requirements for data driven intelligence reports.&nbsp;Plan, build and test reports to ensure accuracy and a clean design. Present findings and
+
+trends to stakeholders and consult on courses of action.
+
+- Provides detailed business intelligence reports and results of analysis and research on aregular basis.
+
+- Act as business consultant on special projects. &nbsp;Special projects may include but are not limited to engineering new business processes and/or assessing current processes and
+
+recommending/implementing more efficient solutions through technology.
+
+- Participate in projects as requested; this includes independently leading special projects with little or no management.
+
+- Liaison between business units and IT in daily operations as well as future development.
+
+- Assess the quality, accuracy and completeness of data/ reports; work with internal CSOPs areas to resolve discrepancies.
+
+- Regular and ad hoc SQL reporting and other database reporting from various business systems delivered throughout the business to help run operations/teams.
+
+- Manage the content and distribution of CSOPs reports; work with CSOPs management to develop and/or enhance reporting against internal and customer metrics.
+
+- Determine and report on CSOPs trends based on data analysis; recommend changes based on findings.
+
+- Perform other responsibilities as needed/required.
+
+
+
+Qualifications:
+
+- 3+ years of relevant experience.
+
+- Strong quantitative and technical background in business, mathematics, computer science, statistics, or closely related field.
+
+- Strong analytical mindset and able to compete on analytics.
+
+- Good research, business intelligence gathering and analysis skills with a thorough background and understanding of online properties.
+
+- Ability to handle multiple projects simultaneously and work with details.
+
+- Ability to meet short deadlines and turn around information in a timely manner.
+
+- Ability to translate and communicate data into actionable business information.
+
+- Strong project management skills.
+
+- Excellent communication skills (written and verbal).
+
+- Self-motivated and self-directed.
+
+- SFDC knowledge is a plus.
+
+
+
+To apply, please visit: http://chp.tbe.taleo.net/chp02/ats/careers/requisition.jsp?org=CARSDIRECT&amp;cws=1&amp;rid=2060
+
+
+
+Internet Brands, Inc. and its wholly owned affiliates are an equal opportunity employer.
+
+
+
+About Internet Brands:
+
+Headquartered in El Segundo, Calif., Internet Brands&reg; is a fully integrated online media and software services organization focused on four high-value vertical categories: Automotive, Health, Legal and Home / Travel. The company&rsquo;s award-winning consumer websites lead their categories and serve more than 100 million monthly visitors, while a full range of web presence
+
+offerings has established deep, long-term relationships with SMB and enterprise clients. Internet Brands&rsquo; powerful, proprietary operating platform provides the flexibility and scalability to fuel the company&rsquo;s continued growth. For more information, please visit www.internetbrands.com.
+
+
+
+Keywords: Data Analyst, Analyst, Customer Service, Operations, Strategic Planning, Web, Online, NJ&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Applicants:
+
+
+Email:
+
+
+
+
+
+Password:
+
+
+
+
+
+If you do not remember your password click here.
+
+
+
+
+Back to Search Results
+
+
+New Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        //jQuery Calendar
+
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchp.tbe.taleo.net/chp02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+
+    
+
+
+
+	
+
+	
+
+	
+
+				
+
+		
+
+			
+
+				
+
+				
+
+					
+
+						
+
+ABOUT US
+
+OUR BRANDS
+
+	
+
+		Automotive
+
+		Health
+
+		Home and Travel
+
+		Legal
+
+		Diversified Media
+
+	
+
+
+
+NEWS
+
+
+
+WORK WITH US
+
+	
+
+		Careers
+
+	
+
+
+
+CONTACT US
+
+	
+
+		PR Inquiries
+
+		Partnerships
+
+		Careers
+
+		Acquisitions
+
+		Advertising
+
+	
+
+
+
+				
+
+
+
+				
+
+								
+
+
+
+				
+
+								
+
+
+
+				
+
+								
+
+			
+
+		
+
+	
+
+			
+
+				
+
+																										
+
+						Facebook
+
+				
+
+					
+
+						Facebook
+
+					
+
+				
+
+			
+
+									Twitter
+
+				
+
+					
+
+						Twitter
+
+					
+
+				
+
+			
+
+									LinkedIn
+
+				
+
+					
+
+						LinkedIn
+
+					
+
+				
+
+			
+
+																														Google+
+
+				
+
+					
+
+						Google
+
+					
+
+				
+
+			
+
+																																	Follow us
+
+												
+
+								© 2014 Internet Brands, Inc. All Rights Reserved. Privacy Policy | Terms of Use
+
+							
+
+						
+
+	
+
+			
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* All posts displayed","infinite_blog_text":"Loading the next set of posts...","portfolio_loading_text":"Loading Portfolio Items...","faqs_loading_text":"Loading FAQ Items..."};
+
+/* ]]> */
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+		// Set pixelRatio to 1 if the browser doesn't offer it up.
+
+		var pixelRatio = !!window.devicePixelRatio ? window.devicePixelRatio : 1,
+
+			logo_retina = 'http://www.internetbrands.com/wp-content/uploads/2014/01/ib.logo-highres-300x128.png';
+
+		jQuery(document).ready(function() {
+
+			if (pixelRatio > 1) {
+
+		    	var defaultLogo = jQuery('#header .normal_logo'), 
+
+		    		retinaImg = new Image();
+
+		    	defaultLogo.attr('src', logo_retina);
+
+		    	retinaImg.onload = function() {
+
+		    	    defaultLogo.attr('width', (Math.round(this.width)/2).toFixed(0));
+
+		    	    defaultLogo.attr('height', (Math.round(this.height)/2).toFixed(0));
+
+		    	}
+
+		    	retinaImg.src = logo_retina;
+
+		    }
+
+		});
+
+	
+
+
+
+
+
+
+
+
+
+
+

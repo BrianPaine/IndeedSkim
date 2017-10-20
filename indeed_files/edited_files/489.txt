@@ -1,0 +1,1033 @@
+
+
+
+
+                                                                                            
+    
+    
+                        
+        
+        
+        The Climate Corporation Careers - Intern: Data Scientist, Analytics
+                    
+            
+                                        
+                                            
+                
+            
+                                        
+        
+                        
+        
+
+        
+        
+        
+        
+                                
+                
+            
+        
+                
+    
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            var enableTracking = true;
+            var trackerId = "UA-15090121-1";
+            var pageTracker = _gat._getTracker("UA-15090121-1");
+        } catch(err) {}
+    
+    
+
+    function trackPage() {
+        try {
+            if (enableTracking && enableTracking == true) {//enableTracking var is set during analytics script reg.
+                var pageTracker = _gat._getTracker(trackerId);
+                var varIndex = 1;
+                try {
+                pageTracker._setCustomVar(varIndex++, "UserId", getUserId(), 1);
+                pageTracker._setCustomVar(varIndex++, "CompanyId", getCompanyId(), 1);
+                }//to track pages which does not have a User
+                catch (userIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "SubsidiaryId", getSubsidiaryId(), 1);
+                } //to track pages which does not have a subsidiaryId
+                catch (subsidiaryIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "JobId", getJobId(), 3);
+                    pageTracker._setCustomVar(varIndex++, "CategoryId", getCategoryId(), 3);
+                }//to track pages which does not have a jobref
+                catch (jodIdError) {
+                }
+                if (enableAnonymizeIP && enableAnonymizeIP == true) {
+                    _gat._anonymizeIp();
+                }
+
+                pageTracker._trackPageview();
+            }
+        }
+        catch (error) {
+
+        }
+    }
+
+
+    function getUserId() { return ''; }
+
+
+    function getCompanyId() { return 'qT59VfwM'; }
+
+    
+        function getJobId() { return 'oiaZ5fwg'; }
+    
+    
+        function getCategoryId() { return '4'; }
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+
+
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            enableTracking = true;
+            trackerId = "UA-22440252-1";
+            pageTracker = _gat._getTracker("UA-22440252-1");
+        } catch(err) {}
+    
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+        
+            if (window.self !== window.parent) {
+                document.documentElement.className += ' jv-iframe';
+            }
+        
+                
+        
+        
+        
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500');
+/**GLOBAL STYLES**/
+*{box-sizing:border-box;outline:none!important;}
+ul {text-decoration: none; list-style: none;text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;}
+.jv-page {margin: 0 auto;width: 100%;}
+.jv-wrapper {max-width: 960px;width: 100%;margin: 0 auto;}
+.jv-page-container {padding-top: 54px;}
+body {font-family: 'Montserrat', sans-serif; text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;}
+p{display: none; text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;}
+form p {display:block; text-rendering: optimizeLegibility;-webkit-font-smoothing: antialiased;}
+ 
+ 
+/**Button Styling**/
+li.nav-button {
+    visibility: hidden;
+}
+a.jv-button.jv-button-primary {
+    background: #f7a700;
+    border: none;
+    height: 38px;
+    width: 117px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-family: 'Montserrat', san-serif;
+    font-weight: 300;
+    color: #fff;
+}
+a.jv-button.jv-button-primary:hover {
+    background: #f7a700;
+    border: none;
+    height: 38px;
+    width: 117px;
+    padding-top: 10px;
+    border-radius: 5px;
+    font-family: 'Montserrat', san-serif;
+    font-weight: 300;
+    color: #fff;
+}
+a.jv-button {
+    width: 114px;
+    height: 38px;
+    border: #f7a700 solid 2px;
+    background: #fff;
+    color: #f7a700;
+    padding-top: 8px;
+    font-family: 'Montserrat', san-serif;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+a.jv-button:hover {
+    width: 114px;
+    height: 38px;
+    border: #f7a700 solid 2px;
+    background: #fff;
+    color: #f7a700;
+    padding-top: 8px;
+    font-family: 'Montserrat', san-serif;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+
+/**Header Styles**/
+header.jv-page-header { z-index: 2000; width: 100%;background: #fff; height: 54px; position: fixed; top: 0; border: .5px solid #e5e5e5;}
+h1.jv-logo {margin-top: 7px;width: 150px;float: left; border: none;}
+ul.nav-menu {float: right; width: 100%; max-width: 810px;}
+ul.nav-menu li {float: left; font-size: 13px;}
+ul.nav-menu li a {display: block; height: 54px; position: relative; top: -15px; padding: 18px;color: #5b6770;font-family: 'Montserrat', sans-serif; font-weight:300;}
+ul.nav-menu li a:hover {background: #f7a700;color: #fff;}
+a.jv-button.orange-border-btn{margin-left: 90px; margin-right:10px; height: 38px;top: -7px;padding-top: 8px;background: #fff;color: #f7a700;border: 2px #f7a700 solid;font-weight: 300;font-size: 14px;border-radius: 5px; width: 70px; padding: 0; padding-top: 8px;}
+a.jv-button.orange-border-btn:hover{background: #fff; color:#f7a700;}
+a.jv-button-primary.orange-btn {color:#fff !important;top: -7px;padding-top: 8px;height: 37px;width:117px;font-weight: 300;border: 1px solid #f7a700;border-radius: 5px;background: #f7a700;}
+.jv-logo a img {max-width: 150px;}
+hr {border-top: none;}
+.mega-menu{display: none; background: #fff; position: absolute; z-index: 2100; top: 53px; left:26%; width: 666px; border: 1px solid #cbcbcb; padding: 40px; box-shadow: 0 2px 6px -1px rgba(0, 0, 0, .21); }
+.mega-menu:before{width: 1px; height:1px; content: ""; border-style: solid; border-width: 0 8px 8px; border-color: transparent transparent #cbcbcb; position: absolute; left: 104px; top: -9px;}
+.mega-menu:after{width: 1px; height:1px; content: ""; border-style: solid; border-width: 0 8px 8px; border-color: transparent transparent #fff; position: absolute; left: 104px; top: -8px;}
+.menu-col{width: 148px; font-size:14px; float: left; margin: 0 20px; left: 5px; position: relative;}
+li.title {
+    text-transform: uppercase;
+    padding-bottom: 17px;
+    margin-bottom: 17px;
+    font-weight: 700;
+    line-height: 20px;
+    font-style: normal;
+}
+
+ul.menu-ul li {margin-left: -46px; height: 40px;}
+
+li.title.title-orange {
+    color: #f7a700;
+    border-bottom: #f7a700 solid 2px;
+    height: 60px;
+}
+
+li.title.title-blue {
+    color: #0098ce;
+    border-bottom: #0098ce solid 2px;
+    height: 60px;
+}
+
+li.title.title-green {
+    color: #3daf2c;
+    border-bottom: #3daf2c solid 2px;
+    height: 60px;
+}
+
+ul.menu-ul li a{padding: 10px 0;}
+ul.menu-ul li a:hover {color:#5b6770; background-color: #fff;}
+.dropdown:hover .mega-menu{display: block;}
+
+
+/**Footer Styles**/
+.disclaimer-text a {
+    padding-right: 1em;
+    font-size: 10px;
+    color: #fff;
+}
+
+.disclaimer-text ul li {
+    color: #fff;
+}
+
+footer.jv-footer {background: #5b6770; height: 75vh; margin-top: 80px;}
+.left-col-wrapper {max-width: 450px;width: 100%;float: left;display: block;}
+.climate-corp-logo-container img {width: 100%; max-width: 223px;}
+.climate-corp-logo-container {margin: 20px 0px;}
+p.footer-text {color: #dfdfdf;font-family: 'Montserrat', sans-serif;font-size: 11px;margin-bottom: 36px;font-weight: 300;line-height: 18px;}
+.download.inner-wrapper p {color: #fff;font-size: 1.6em;font-weight: 700;font-family: 'Montserrat', sans-serif;line-height: 1.6em;margin-top: 15px;}
+.download.inner-wrapper {display: block;border-bottom: 2px solid #fff;border-top: 2px solid #fff;padding: 30px 0;width: 100%;}
+.google-play-button img {max-height: 46px;}
+.appstore-button img {max-height: 46px;}
+.google-play-button {float: left;padding: 0 20px 0 0;}
+.download-wrapper {margin-bottom: 50px;}
+.right-col-wrapper {min-width: 250px; max-width: 480px;width: 100%;float: right; margin-top: 30px;padding-left:10px;}
+ul.footer-nav {width: 100%;max-width: 490px;margin: 10px auto;}
+.footer-nav li {width: 100%;max-width: 170px;float: left; margin: 0 15px;}
+ul.subnav {margin-left: -55px;}
+a.features-nav {font-size: 15px!important;font-weight: 700!important;color: #fff;line-height: 2.222em;font-family: 'Montserrat', sans-serif;letter-spacing: .08em;text-transform: uppercase;}
+ul.footer-nav li a {font-size: 13px;color: #fff;line-height: 24px;font-weight: 100;letter-spacing: 0.02em;}
+.footer-nav li.nav-col-2 {max-width: 72px; margin-right: 10px;}
+.footer-nav li.nav-col-3 {max-width: 74px; margin-left: 40px;}
+.social-icons-wrapper {float: left;margin-top: 20px;margin-left: 45px;}
+.social-icons-wrapper a {color: #fff;font-size: 35px;margin: 0 6px;}
+.button-wrapper {margin-top: 280px;height: 120px;width: 100%;max-width: 470px;margin-left: 50px; display: block; position: relative; top: 20px;}
+.get-started-btn a {width: 134px;height: 38px;background: #fff;display: block;border-radius: 5px;color: #f7a700;padding-top: 10px;padding-left: 30px;font-size: 13px; font-weight: 400;}
+.get-started-btn {width: 138px;float: left;margin-top: 22px;}
+.jv-powered-by, .jv-powered-by:visited, .jv-powered-by:hover {color: #fff; text-decoration: none;float: right; margin-right: -125px;}
+p.footer-text {display: block;}
+.disclaimer-text ul {
+    margin: 0 auto;
+    text-align: center;
+    float: right;
+}
+
+.disclaimer-text {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 2%;
+
+}
+
+.disclaimer-text ul li {
+    float: left;
+    margin-left: 12px;
+}
+
+/**banner image**/
+.banner-section {
+    background-image: url(//careers.jobvite.com/the_climate_corporation/images/careers-jobvite-banner.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    height: 90vh;
+}
+img.banner-img {width: 100vw; max-height: 701px; height: 100%; display: none;}
+
+/**Job List Page**/
+p.job-listing-text {display: block; line-height: 1.5;}
+h2.positions {display: block; margin-bottom: 20px;}
+h2 {display: none;}
+.opening-text-container.second-section p {line-height: 1.5;}
+
+.jua-wrapper {float: right;width: 40%;max-width: 360px;}
+.opening-text-container {width: 55%;float: left;max-width: 600px;padding: 0 10px 20px 10px; line-height: 1.5;margin-top: 10px;}
+a[href="http://login.jobvite.com"] {
+    padding-left: 50px;
+    top: 35px;
+    position: relative;
+}
+a[href="/the-climate-corporation-review/jobAlerts"] {
+    padding-left: 50px;
+    top: 25px;
+    position: relative;
+}
+
+/**Category Icons**/
+h3.h2.Design:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/product_and_design.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3.h2.Engineering:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/engineering.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3.h2.Engineering-Mobile:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/engineering.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3.h2.Engineering-Test:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/engineering.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3.h2.Finance:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/business_operations.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3.h2.ProductManagement:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/product_and_design.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+h3.h2.UniversityRecruiting:before {
+    content: url(//careers.jobvite.com/the_climate_corporation/images/universityicon.png);
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 25px;
+    left: -15px;
+}
+h3.h2.Strategy:before {
+    content: url(//careers.jobvite.com/the_climate_corporation/images/strategyicon.png);
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 25px;
+    left: -15px;
+}
+
+/**Featured Jobs**/
+.featured-job-texture {
+    background: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,1),rgba(255, 255, 255, 1),rgba(255, 255, 255, .7)), url(https://s3-us-west-2.amazonaws.com/climate-com/images/textures/orange_texture_background_banner_desktop.png) no-repeat center;
+    width: 100vw;
+    max-width: 100vw;
+    height: 325px;
+    background-position: inherit;
+    margin-top: 20px;
+    border-top: rgba(247, 167, 0, 0.45) solid .05px;
+    margin-bottom: 50px;
+    border-bottom: rgba(247, 167, 0, 0.15) solid .05px;
+}
+
+.jv-featured-jobs {
+    background: rgba(255, 255, 255, 0.33);
+    border: none;
+    padding: 20px 0;
+    padding-top: 50px;
+    text-align: center;
+}
+h4.jv-featured-jobs-header{font-size: 2.143em;}
+
+.jv-featured-job-title {
+    margin-bottom: 5px;
+}
+
+.jv-featured-job {
+    margin-top: 0.5em;
+    line-height: 1.5;
+    width: 50%;
+    margin-right: -4px;
+    display: inline-block;
+    margin-bottom: 18px;
+    font-size: 1.2em;
+    
+}
+
+h3.h2.ProgramManagement:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/product_and_design.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3.h2.Science:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/science.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3.h2.Security:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/business_operations.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3.h2.IT:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/engineering.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3.h2.DataAnalytics:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/data_analytics.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3.h2.Administrative:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/product_and_design.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+h3.h2.SalesandMarketing:before {
+    content: url('https://s3-us-west-2.amazonaws.com/climate-com/images/careers/sales_and_marketing.svg');
+    width: 100%;
+    height: 100%;
+    max-height: 40px;
+    display: inline-block;
+    max-width: 40px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+}
+.jv-job-list {
+    color: #999;
+    width: 95%;
+    margin-left: 50px;
+}
+
+.opening-text-container.second-section {
+    margin-top: 70px;
+    width: 100%;
+    max-width: 100%;
+}
+
+/**Description Page**/
+
+.opening-text-container ul li {
+    list-style: initial;
+}
+.opening-text-container p {
+    display: block;
+    margin: 0 0 14px 0;
+}
+
+.jv-page-job .jv-header {
+    padding-right: 4em;
+    top: 54px;
+    display: block;
+}
+
+
+.opening-text-container.description-wrapper {
+    width: 100%;
+    max-width: 100%;
+    line-height: 1.5;
+    margin: 0 0 14px 0;
+}
+
+/**Apply Page**/
+
+h2.jv-header {display: block; margin-top: 80px;}
+
+button.jv-button.ng-isolate-scope {
+    width: 150px;
+    height: 38px;
+    color: #f7a700;
+    border: 2px solid #f7a700;
+    background: #fff;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+button.jv-button.ng-isolate-scope:hover {
+    width: 150px;
+    height: 38px;
+    color: #f7a700;
+    border: 2px solid #f7a700;
+    background: #fff;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+.jv-apply-section-content button.jv-button {
+    width: 149px;
+    height: 38px;
+    background: #fff;
+    border: 2px solid #f7a700;
+    border-radius: 5px;
+}
+
+.jv-apply-section-content button.jv-button:hover {
+    width: 149px;
+    height: 38px;
+    background: #fff;
+    border: 2px solid #f7a700;
+    border-radius: 5px;
+}
+
+button.jv-button.jv-button-primary.jv-button-large:hover:before {
+  content: " ";
+  position: absolute;
+  z-index: 500;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 5px solid rgba(247, 167, 0, 0.45);
+  border-radius: 5px;
+}
+
+button.jv-button.jv-button-primary.jv-button-large {
+    width: 170px;
+    height: 38px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #f7a700;
+    border: transparent;
+    border-radius: 5px;
+    text-shadow: none;
+    background-image: none;
+    position: relative;
+    border: none;
+    z-index: 1800;
+}
+
+a.jv-button.jv-button-primary.jv-button-apply:hover:before {
+  content: " ";
+  position: absolute;
+  z-index: 500;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 5px solid rgba(247, 167, 0, 0.45);
+  border-radius: 5px;
+  z-index: 1800;
+}
+
+a.jv-button.jv-button-primary.jv-button-apply {
+    background-color: #f7a700;
+    border: transparent;
+    border-radius: 5px;
+    text-shadow: none;
+    background-image: none;
+    position: relative;
+    border: none;
+    z-index: 1800;
+}
+
+
+/**Job Alerts**/
+
+
+.jv-jua-button-wrapper button.jv-button.jv-button-primary {
+    width: 117px;
+    height: 38px;
+    font-weight: 300;
+    background-color: #f7a700;
+    border: transparent;
+    border-radius: 5px;
+    text-shadow: none;
+    background-image: none;
+    position: relative;
+    border: none;
+    z-index: 1800;
+}
+
+.jv-jua-button-wrapper button.jv-button.jv-button-primary:hover:before {
+  content: " ";
+  position: absolute;
+  z-index: 500;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 5px solid rgba(247, 167, 0, 0.45);
+  border-radius: 5px;
+}
+
+/**JUA**/
+.jua-wrapper {
+    float: right;
+    width: 40%;
+    max-width: 360px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+div#jv-widgetContainer {
+    max-width: 300px;
+    width: 100%;
+}
+
+    
+
+    
+    
+        
+                    
+        
+                            
+                            
+        
+            
+                    
+                        
+                    
+            
+            
+                
+                    Features 
+                    
+                        
+                            
+                                Get Your Data in One Place
+                                
+                                    Data Connectivity
+                                
+                                
+                                    Data-Visualization
+                                
+                            
+                        
+                        
+                            
+                                Uncover Valuable Field Insights
+                                
+                                    Crop Performance Analysis
+                                
+                                
+                                    Field Health Imagery
+                                
+                            
+                        
+                        
+                            
+                                Optimize Your Inputs
+                                
+                                    Variable Rate Seeding
+                                
+                                
+                                    Nitrogen Monitoring
+                                
+                            
+                        
+                    
+                
+                
+                    Partners
+                
+                
+                    Pricing
+                
+                
+                    Support
+                
+                
+                    Climate Blog
+                
+                
+                    Login
+
+                
+                
+                    Get Started
+                
+            
+        
+        
+    
+
+                
+
+
+        
+    
+                    
+                                
+                Intern: Data Scientist, Analytics
+    
+    
+                                        
+                            University Recruiting            
+                    St. Louis,
+                            Missouri
+                
+                        
+        
+    
+                        
+                        
+    
+        Apply
+    
+                            
+                        
+            Description
+                        
+                
+                    Position Overview:The Climate Corporation is looking for a Data Scientist, Analytics Intern to the Measurements team in our St. Louis office. We are seeking a highly motivated graduate-level student with a strong background in solving analytical problems using quantitative approaches. As part of our team, you will&nbsp;help develop methodology to build predictive models incorporating key data layers such as soil, vegetation, water resources, weather, environmental characteristics, and crop yield by leveraging the latest in the data science, geospatial analytics, and remote sensing tools.&nbsp;If you are interested in applying your skills in data to help farmers, The Climate Corporation would love to talk to you!What You Will Do:Validate/refine the predictive model by corroborating with ground truth data Mine massive of spatial science, remote sensing, or other sensor data types and perform large-scale data analysis to extract useful agriculture business insightsIdentify actionable insights, suggest recommendations and influence the direction of the business by effectively communicating results to cross functional groupsWork closely with a Product Manager and Engineering team to proactively create rule and manage decisionsBackend software engineering to build scalable solutions and help automate data processing challengesIdentify and build measurable actionable trends within our product pipeline in agriculture. &nbsp;Work hand in hand with cross functional science teams to deliver new insights into SmartYield industry trends. Basic Qualifications:Pursuing a MS or PhD degree in Computer Science, Applied Mathematics, Statistics, Operations Research, or related technical field from an academic institutionExperience in solving analytical problems using quantitative approaches (or equivalent)Experience with SQL or other programming languages (Python, Java, and/or C++)Development experience in at least one scripting language (PHP, Perl, Python, etc.)Preferred Qualifications:Experience with statistical analysis, experience with packages such as R, MATLAB, etc.&nbsp;A drive to understand and derive meaningful insights from data and resultsStrong written and oral communication skills&lt;spanWhat We Offer:Our environment is extremely engaging and fast-paced, with a diverse set of top engineers, agronomists, and statisticians working together to provide the best possible products and experiences for our customers.We offer competitive pay and perksWe provide meals and a large assortment of snacks and drinks to get you through the dayYou&rsquo;ll get 1:1 mentoring from a talented and motivated employee on your teamYou&rsquo;ll have the opportunity to work on real projects with experienced employees and have a direct impact on the company. (Our internships are not summer camp!)You&rsquo;ll have the amazing opportunity to participate in one of our Biotechnology Tours where you get out of the office and into the field (literally) with agents and farmersYou&rsquo;ll work in an award winning office with smart designs, large common areas and open floor plans that fuel collaborationYou&rsquo;ll attend various company sponsored events, activities and off-sites - we make sure interns are having fun!We regularly host meet-up groups and tech-talks and encourage participation in relevant workshops and conferencesYou&rsquo;ll have the opportunity to interaction with key executives and leadership&nbsp;
+                
+                
+                    
+                        The Climate Corporation Job Alerts
+                        Get notified about new jobs that match you, and learn more about opportunities at The Climate Corporation!
+                    
+                    
+                -->
+            
+                            
+                    
+                
+                    
+    
+        Apply
+    
+                            
+        Apply Later    
+            
+        
+            &larr; Back to Current Openings        
+    
+    
+                                
+    
+        
+        Share
+        
+            
+                lang: en_US            
+            
+            
+                
+                    LinkedIn
+                
+            
+            
+                
+                    Facebook
+                
+            
+            
+                
+                    Twitter
+                
+            
+            
+                
+                    Email
+                
+            
+        
+    
+                        
+    
+                    
+            
+                    
+        
+            
+                                                                        
+                    
+                        Powered by Jobvite
+                            
+            
+                
+                    
+                
+                
+                    Our services provide estimates or recommendations based on models. 
+                    These do not guarantee results. Consult your agronomist, commodities broker and other 
+                    service professionals before making financial, risk management and farming decisions. 
+                    Information and recommendations we provide do not modify your rights under insurance policies 
+                    purchased through our affiliates. View more important information here.
+                    Parametric insurance policies administered by The Climate Insurance Agency LLC. 
+                    For information on state license information, click here. Click here for a list of policy 
+                    underwriters.
+                
+                
+                    
+                        
+                        Make daily decisions about your fields quickly, easily and confidently. 
+                        Download the app today!
+                        
+                        
+                            
+                                
+                                    
+                                
+                            
+                            
+                                
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+                
+                    
+                        Features
+                        
+                            
+                                Data Connectivity
+                            
+                            
+                                Data Visualization
+                            
+                            
+                                Crop Performance Analysis
+                            
+                            
+                                Field Health Imagery
+                            
+                            
+                                Variable Rate Seeding
+                            
+                            
+                                Nitrogen Monitoring
+                            
+                            
+                                Pricing
+                            
+                            
+                                Support
+                            
+                            
+                                Dealer Locator
+                            
+                        
+                    
+                    
+                        About
+                         
+                              
+                                Leadership
+                                
+                              
+                                Newsroom 
+                              
+                              
+                                Contact
+                              
+                        
+                    
+                    
+                     Careers   
+                    
+                
+                
+                
+                    Get Started
+                
+                
+                    
+                    
+                    
+                    
+                
+            
+            
+            
+                
+                    Disclaimer//
+                    End User License Agreement//
+                    Privacy Policy//
+                    Privacy Policy FAQ//
+                    Privacy Policy Products//
+                    State Licenses//
+                    Terms of Use//
+                    Underwriting
+                
+            
+        
+    
+            
+    
+        
+        
+    
+            
+    
+    
+        angular.module('preloadedData', []).constant('preloadedData', {
+                                        applyLinkUrl: '${job.applyLinkUrl}',
+                jobCategoryId: 'aqV9Vfw9',
+                jobCategoryName: 'University Recruiting',
+                jobId: 'oiaZ5fwg',
+                jobReqId: '1847                                              ',
+                jobTitle: 'Intern: Data Scientist, Analytics',
+                jobLocationId: 'C7VrVfw8',
+                                                                jobviteAnalytics: 'UA-15090121-1',
+                                        companyAnalytics: 'UA-22440252-1',
+                                                                                                                            enableResumeParsing: true,
+                                        numberFormat: "##,###,###,###,###.####",
+                                    companyEId: 'qT59VfwM',
+            linkedInApiKey: '7557fkcarvxieo',
+            facebookApiId: '48354194572',
+            dropBoxApiKey: 'w5fg28zznqcyg4w',
+            baseUrl: '/the-climate-corporation',
+            cdnURL: '',
+            releaseVersion: '171003110732',
+            careersiteName: 'the-climate-corporation',
+            careersiteDomainName: '${careersiteDomainName}',
+            careersiteSourceTypeId: 'Pt7xVfwM'
+        }).constant('i18n', {
+            I18N_RESUME_PREVIEW: 'Resume Preview',I18N_NO_RESUME_FOUND: 'No resume found',I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',I18N_RECOMMENDER: 'Recommender:',I18N_CURRENT: 'Current',I18N_PAST: 'Past',I18N_EDUCATION: 'Education',I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',I18N_PATENTS: 'Patents',I18N_SUMMARY: 'Summary',I18N_SPECIALTIES: 'Specialties',I18N_EXPERIENCE: 'Experience',I18N_RECOMMENDATIONS: 'Recommendations',I18N_PRESENT: 'Present',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec'        });
+        Jobvite = {
+            baseUrl: 'https://app.jobvite.com'
+        }
+    
+                            
+    
+    
+
+    

@@ -1,0 +1,366 @@
+
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    Data Analyst  in  Hollywood, CA  | ticketmaster
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window,document,'script','dataLayer','GTM-K4QMLG');
+
+        
+
+
+
+	
+
+
+
+  
+
+    
+
+    
+
+		
+
+			
+
+				
+
+					
+
+						&nbsp;Careers
+
+					
+
+					
+
+						Join Our Talent Network
+
+					
+
+				
+
+			
+
+
+
+			
+
+				
+
+					Let's Do This			
+
+	        	
+
+			
+
+		
+
+
+
+$(document).ready(function(){
+
+    $(this).scrollTop(0);
+
+});
+
+$(document).ready(function () {
+
+	$(window).scroll(function(){
+
+  		var sticky = $('#navwrap'),
+
+      	scroll = $(window).scrollTop();
+
+
+
+  		if (scroll >= 200) sticky.addClass('fixed');
+
+  		else sticky.removeClass('fixed');
+
+	});
+
+});
+
+
+
+		
+
+
+
+        
+
+		
+
+			
+
+				
+
+				
+
+                Careers
+
+                 > Data Analyst - Hollywood, CA
+
+                
+
+				
+
+				
+
+				
+
+				
+
+				
+
+                    Share
+
+                    
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+                
+
+				
+
+
+
+
+
+        Apply
+
+    &nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+
+
+	
+		Data Analyst
+        Posted Date:5/7/2017 8:27:07 PM
+        Job Type: Full Time
+		Req #: JR-04999
+		Location: 
+			
+			
+				Hollywood, 
+				CA
+			
+			
+		
+		Job Category:  Product Management
+		
+	
+	Job Summary:Who are we?Ticketmaster is the world's leading live event ticketing company selling over 465 million tickets each year and supporting more than 12,500 clients in 22 countries worldwide.&nbsp; At Ticketmaster, we power the people who create culture through live events, connecting more passionate fans to those experiences than anyone else.&nbsp; We are innovators that embrace change and work hard to help others succeed.&nbsp; We believe in open communication and stress accountability, because fans and clients count on us every day.&nbsp; We strive for ease of use for our clients and fans while seeking out those who have a bias for action versus a desire for directives.Why Ticketmaster?A career at Ticketmaster will challenge and engage you. The pace here is fast, the atmosphere is fun and a passion for live events is a common thread that ties us together. As a global and growing business, we can truly offer a world of opportunities to expand your skills and develop your career.&nbsp; Visit any of our offices and you'll find a diverse mix of passionate employees, helping fans around the globe connect with the artists, teams and events they love.&nbsp; It truly is a unique and rewarding environment.&nbsp; See and hear more about why you should consider joining our rock-star team: recruiting videoQualifications:Bachelor’s degree in Computer Science or related preferredExperience with E-Commerce systems and common web and mobile protocolsExperience with ELK stack (ElasticSearch, Logstash, Kibana) is desirableExperience with ad hoc database queryingExperience with log analysis tools and techniques is preferredUnderstanding of Streaming technologies (Storm/Kafka/Zookeeper) is desirableUnderstanding of Distributed Computing frameworks and technologies (Hadoop, HDFS, etc) is desirableFamiliarity with Unix based systems and tools is preferredExperience with Agile and Lean practices preferredExperience with the AWS ecosystem is a plusExtreme attention to detailPassion for finding patterns and discerning the truth in obfuscated dataPassion for learning, collaborating and buildingEffective communication skills and enjoying work as part of a teamJob duties will include but not be limited to:Be part of a dynamic, highly-focused team that is responsible for providing machine-learning insights and SW products that engage Ticketmaster’s 170+MM usersSupport and report on the systems that stream and analyze very large data setsAnalyze patterns of traffic and usage, and develop techniques and process for automating this analysisTargeted research into patterns of traffic and usage, and develop techniques and process for automating this analysisReporting of findings in a comprehensive and human readable formatSupport and improve the metrics collection and monitoring systems that allow us keep the data flowing within our SLAsParticipate in decisions involved with managing projects and roadmapCommunicate regularly with stakeholders on production metrics and project statusDevelop visualization tools to support pattern analysis and story telling
+
+
+
+
+        Apply
+
+    &nbsp;&nbsp;&nbsp;
+
+
+
+    
+
+
+
+
+
+
+
+    $(document).ready(function () {
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+            
+
+        
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+                
+
+                
+
+                
+
+                
+
+            
+
+            
+
+                Live Nation Entertainment Careers >
+
+                International Opportunities >
+
+            
+
+            
+
+                &copy; 2017 Ticketmaster. Privacy Policy.&nbsp;Powered by SmashFly
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+
+
+    ga('create', 'UA-86354855-1', 'auto', 'clientTracker');
+
+    ga('clientTracker.send', 'pageview');
+
+
+
+
+
+	   
+
+	
+

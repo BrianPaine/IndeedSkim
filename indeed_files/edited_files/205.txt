@@ -1,0 +1,506 @@
+
+
+
+
+
+
+	Jobs | NHL | Careers | National Hockey League 
+
+
+
+	
+
+ 	
+
+ 	
+
+ 	
+
+ 	
+
+ 	
+
+ 	
+
+ 	
+
+ 	
+
+ 	    
+
+ 	
+
+ 	
+
+ 	    
+
+ 	    
+
+ 	
+
+ 
+
+
+
+
+
+        var nhlClub = '';
+
+        /*
+
+         Edit the nhlClub var above as directed.
+
+         Possible values are:
+
+avalanche, blackhawks, bluejackets, blues, bruins, canadiens, canucks, capitals, coyotes, devils, ducks,
+
+flames, flyers, hurricanes, islanders, jets, kings, lightning, mapleleafs, oilers, panthers, penguins,
+
+predators, rangers, redwings, sabres, senators, sharks, stars, wild
+
+         Or blank ('') for nhl.
+
+         */
+
+        var nhlClubPath = '';
+
+        if (nhlClub) nhlClubPath = '/' + nhlClub;
+
+function writeNHLHeader() {
+
+document.write('');
+
+        }
+
+        function writeNHLFooter() {
+
+document.write('');
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#TeamWorkOnline tr { background-color: #fff !important; }
+
+	#TeamWorkOnline #table_JobCatList td { text-align: left !important; padding: 5px 5px 5px 5px !important; }
+
+	#TeamWorkOnline #table_JobCatList td font { font-weight:bold !important; }
+
+	#TeamWorkOnline #table_JobCatList td img { text-align:right !important; }
+
+	
+
+	#TeamWorkOnline #TeamWork_Ticker { border: 0px solid #fff !important;  background-color:  transparent !important;  }	
+
+	#TeamWorkOnline #TeamWork_Ticker tr { border: 0px solid #fff !important;  background-color: #333333 !important;  }
+
+	#TeamWorkOnline #TeamWork_Ticker td { text-align: left !important; }
+
+	#TeamWorkOnline #TeamWork_Ticker table { border-bottom: none !important; }
+
+	#TeamWork_Jobs_RSSBox {display:none;}
+
+	#TeamWorkOnline td { text-align: left !important; }
+
+	
+
+	#TeamWorkOnline ul, #TeamWorkOnline li { list-style: disc outside none !important; margin-left:20px; margin-bottom:5px; }
+
+	
+
+	#TeamWorkOnline #JobDescriptionDisplay a:link { color: #cc0000 !important;  text-decoration: underline !important;  font-weight: bold !important;  }
+
+	#TeamWork_JobDescriptionDisplay a:link { color: #cc0000 !important;  text-decoration: underline !important;  font-weight: bold !important;  }
+
+	a:link{color:#cc0000;text-decoration:none; font-weight: bold !important; }
+
+        a:hover{color:#ff3333;text-decoration:none font-weight: bold !important;}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+writeNHLHeader();
+
+
+
+                            		
+
+
+
+
+
+		
+
+Current Openings | 
+
+		 My Account - TeamWork Online | Mobile | Post Your Jobs | 
+
+		
+
+				
+
+		
+
+		 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+		
+
+        
+
+        
+
+        
+
+        
+
+        
+
+            function TeamWorkColorBox(gotourl, width, height) {
+
+                $.colorbox(
+
+                    {
+
+                        iframe: true,
+
+                        href: gotourl,
+
+                        innerWidth: width,
+
+                        innerHeight: height
+
+                    }
+
+                );
+
+            }
+
+            function TeamWorkColorBoxClose() {
+
+                $.colorbox.close();
+
+            }
+
+        
+
+	
+
+        
+
+        var addthis_config = {"data_track_clickback":true};var addthis_exclude = 'print';
+
+        
+
+        
+
+		
+
+		
+
+
+
+
+
+
+
+				
+
+				
+
+				
+
+					Sales & Marketing: Database Marketing/Analytics
+
+					Data Analyst - Minnesota Wild (St. Paul, MN)
+
+					
+
+					
+
+							
+
+						The Minnesota Wild Marketing Intelligence Group is a progressive and innovative team that uses data driven insights to provide information for leaders of the organization to remain in line with the Wild&rsquo;s mission statement of creating a greater State of Hockey.We are expanding our analytical team in search of an individual who can help lead system integrations and data management for our stakeholders across the organization. We are located in downtown St. Paul and work closely in a fun and relaxed environment that thrives with creative and passionate individuals.This is exciting opportunity if you are&hellip;ready to challenge yourself and be a part of a supportive, data driven environmenteager to share your SQL experiencewant to be the go-to CRM guru for our stakeholders (we will train!)have the ability to self-teach software skills and the ability to implement software processescomfortable not knowing the answercan translate technical data to non-technical usersWhat you&rsquo;ll do: In this new position, you will contribute directly to the strategic development and execution of CRM campaign management, oversee the data strategy and the mapping of data integrations. Your goal will be to ensure the reliability, integrity, and quality of customer data (ticket sales, merchandise, customer service, etc.) for the Minnesota Wild. You will manage the existing data environment, which includes guiding data strategy, expanding the data warehouse to include new data sources, and managing vendor relationships. You will thrive deep-diving into data quality issues that arise and will work to consistently provide quality data from multiple systems to various stakeholders.What you&rsquo;ll bring: Bachelor&rsquo;s degree &amp; working knowledge in Microsoft SQL Server and relational databasesExperience working directly with a data warehouseExperience creating and maintaining specific reporting using Tableau or reporting software, a plusWhile knowledge of CRM campaign management is important, we have the tools and resources to develop our newest team member, if necessary.What&rsquo;s in it for you? In addition to joining a fun and team-centered company that is invested into data analytics, you&rsquo;ll enjoy the many great company benefits such as,Comprehensive health benefits to fit your needs401(k) matchingOn the job trainingFree parkingCompany sponsored events, activities and off-sitesVolunteer opportunitiesOn-site fitness centerAs an officially designated Yellow Ribbon Company, we are&nbsp;committed to serving those who have served our country, we encourage service members and veterans to apply. 
+
+				
+
+				
+
+				
+
+					
+
+						
+
+							Apply for this position
+
+						
+
+						
+
+				
+
+					
+
+					
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+
+					
+
+					
+
+				
+
+				
+
+				
+
+					
+
+					Click here to see all of our employment opportunities.
+
+					
+
+				
+
+					
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+
+
+  ga('create', 'UA-38148155-16', 'auto');
+
+
+  ga('send', 'pageview');
+
+
+
+
+
+ 
+
+&nbsp;
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+		
+
+			
+
+
+
+	
+
+			
+
+		
+
+
+
+
+
+
+
+ function googleTranslateElementInit() {
+
+  new google.translate.TranslateElement({
+
+   pageLanguage: 'en'
+
+  }, 'google_translate_element');
+
+ }
+
+
+
+
+
+		
+
+		Technical problems? 
+
+
+
+// Popup window code
+
+function newPopup(url) {
+
+	popupWindow = window.open(
+
+		url,'popUpWindow','height=700,width=800,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+
+}
+
+
+
+Contact the TeamWorkOnline webmaster / FAQ
+
+
+
+
+
+							
+
+							
+
+								TeamWorkOnline Privacy Policy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+writeNHLFooter();
+
+iFrameResize({ log: false, checkOrigin: ['https://www.nhl.com'] },
+
+"#nhlFooter");
+
+    
+
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+
+try {
+var pageTracker = _gat._getTracker("UA-6520778-48");
+pageTracker._trackPageview();
+} catch(err) {}
+
+  function recordOutboundLink(link, category, action) {
+    _gat._getTrackerByName()._trackEvent(category, action);
+    setTimeout('document.location = "' + link.href + '"', 100);
+  }
+
+
+
+
+
+
+
+
+Ê
+
+
+
+(function() {var s=document.createElement('script'); s.type='text/javascript'; s.async=true; s.src='//nextmillennium.liqwid.net/?key=D85D-A6F1-B041-B88A'; var x=document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s,x);})();
+
+
+
+Ê
+
+ 

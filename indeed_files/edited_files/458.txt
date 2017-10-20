@@ -1,0 +1,960 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    select:focus, a:focus {
+
+        outline: #1e90ff solid 2px
+
+    }
+
+
+
+    input[type=submit] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=button] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=submit]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=button]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=submit]:focus {
+
+        background: #1e90ff;
+
+    }
+
+
+
+    input[type=button]:focus {
+
+        background: #1e90ff
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane {
+
+        text-align: right;
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane button {
+
+        float: none;
+
+    }
+
+
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+
+        /*border: 1px solid #000;*/
+
+        /*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .alert-error {
+
+        color: #990000;
+
+        font-weight: bold;
+
+    }
+
+
+
+    td.top {
+
+        vertical-align: top !important;
+
+    }
+
+
+
+    td.left {
+
+        float: none;
+
+        text-align: left;
+
+    }
+
+
+
+    td.right {
+
+        float: none;
+
+        text-align: right;
+
+    }
+
+
+
+    .nowrapFormLabel {
+
+        white-space: nowrap;
+
+        text-align: right;
+
+    }
+
+
+
+    h1 {
+
+        font-size: 120%
+
+    }
+
+
+
+    h2 {
+
+        font-size: 110%
+
+    }
+
+
+
+    h3 {
+
+        font-size: 100%
+
+    }
+
+
+
+    .hidden-accessibility-text {
+
+        position: absolute;
+
+        left: -2000px;
+
+        top: 0;
+
+        width: 1;
+
+        height: 1;
+
+        overflow: hidden;
+
+        font-size: 0.1em;
+
+    }
+
+
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+
+    .ofcc305table textfield, .ofcc305table select,
+
+    .ofcc305table input, .ofcc305table a {
+
+        font-size:12px !important;
+
+        font-family:Arial,sans-serif,Helvetica !important;
+
+    }
+
+
+
+    #cws-search-results th, #cws-job-alerts th {
+
+        border-top: #CCCCCC 2px solid;
+
+        border-bottom: #CCCCCC 2px solid;
+
+    }
+
+
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+
+        border-bottom: #CCCCCC 2px solid;
+
+        padding-bottom: 3px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+Lockton Career Opportunities
+
+ 
+
+
+
+
+
+
+
+body .holder .page_content .container .jobs_holder form input[type="text"], body .holder .page_content .container .jobs_holder form input[type="email"], body .holder .page_content .container .jobs_holder form input[type="password"], body .holder .page_content .container #taleoContent form input[type="text"], body .holder .page_content .container #taleoContent form input[type="email"], body .holder .page_content .container #taleoContent form input[type="password"] {
+
+
+
+
+
+width: auto;
+
+
+
+}
+
+
+
+
+
+ol, ul {
+
+    list-style-image: inherit;
+
+    list-style-position: outside;
+
+    list-style-type: disc !important;
+
+}
+
+
+
+ul1 {
+
+    list-style-image:none !important;
+
+    list-style-position: outside;
+
+    list-style-type: none !important;
+
+} 
+
+
+
+
+
+body .holder .page_content .container .sidebar .nav ul1 li a {
+
+    -moz-text-decoration-color: -moz-use-text-color;
+
+    -moz-text-decoration-line: none;
+
+    -moz-text-decoration-style: solid;
+
+    color: #414141;
+
+    display: block;
+
+    padding-bottom: 4px;
+
+    padding-left: 8px;
+
+    padding-right: 8px;
+
+    padding-top: 4px;
+
+}
+
+
+
+
+
+body .holder .page_content .container .sidebar .nav ul1 li {
+
+    border-bottom-color: #A6A6A6;
+
+    border-bottom-style: solid;
+
+    border-bottom-width: 1px;
+
+}
+
+
+
+
+
+body .holder .page_content .container .sidebar .nav ul1 {
+
+    color: #6D6D6D;
+
+    font-family: "Tahoma","Geneva",Arial,Helvetica,sans-serif;
+
+    font-size: 16px;
+
+    line-height: 130%;
+
+}
+
+
+
+
+
+
+
+ 
+
+
+
+	
+
+		
+
+			
+
+				
+
+					
+
+				
+
+			
+
+			
+
+		
+
+	
+
+	
+
+		
+
+			
+
+				
+
+					Lockton
+
+					
+
+						Career
+
+						Opportunities
+
+					
+
+				
+
+			
+
+		
+
+		
+
+			
+
+				
+
+					
+
+						Back to Lockton
+
+					
+
+					
+
+						
+
+							Lockton Careers
+
+							Life at Lockton
+
+							Benefits
+
+							The Lockton Story
+
+							
+
+						
+
+					
+
+					
+
+						Connect with Lockton
+
+					
+
+				
+
+
+
+
+
+
+
+ CwsDWRFacade._path = 'http://chp.tbe.taleo.net/chp01/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; 
+
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchp.tbe.taleo.net/chp01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chp.tbe.taleo.net/chp01/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chp.tbe.taleo.net/chp01/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();
+
+
+
+
+
+
+
+
+
+
+
+
+Risk Analyst
+
+
+Location:
+PA - Philadelphia
+
+
+Department:
+Commercial Insurance Division
+
+
+
+Description
+For nine consecutive years, Business Insurance magazine has recognized Lockton as a &quot;Best Place to Work in Insurance.&quot;&nbsp;To see the latest insights from Lockton&#39;s experts, check&nbsp;Lockton Market Update
+
+
+
+Lockton include:
+
+
+
+
+
+	
+
+	Opportunities for growth and advancement, including paid training and professional development
+
+	
+
+	
+
+	12-week paid parental leave
+
+	
+
+	
+
+	A huge emphasis on community involvement &ndash;Associates are encouraged to support and volunteer for their favorite charities
+
+	
+
+	
+
+	Frequent athletic and wellness events
+
+	
+
+	
+
+	Social and teambuilding opportunities like happy hours and other celebrations
+
+	
+
+	
+
+	Incredibly generous rewards; US Associates receive a Rolex for their 10 year anniversary!
+
+	
+
+
+
+
+
+Lockton Companies, LLC is an equal opportunity employer. As a privately held company, we offer a competitive compensation and benefits package reflecting our commitment to attracting and retaining great individuals. This includes health and dental coverage, which begins on your first day of work, 401(k) with match and immediate vesting, a competitive vacation plan and unrivaled career advancement opportunities.
+
+
+
+The Risk Analyst will support to the Commercial Insurance Department in overall account management and coordination.
+
+
+
+Job Responsibilities: 
+
+
+
+
+
+	Assists with development of key client deliverables (Renewal Strategy Meeting, Stewardship Reports, Strategic Risk Plans and other presentations).
+
+	Helps coordinate responses to day-to-day clients requests such as coverage questions and contract reviews.
+
+	Assist in preparing underwriting submissions, quote and coverage analysis, underwriting negotiations.
+
+	Develops loss summaries, exposure analysis and facilitates modeling/analytics reports.
+
+	Developing renewal strategy and renewal presentations for clients.
+
+	Assists in Review of Binder/Policy/Endorsements for accuracy and sends to client.
+
+	Prepares Schedules of Insurance, Premium Summaries and Invoicing schedules.
+
+	Coordinates certificates of insurance, automobile ID cards and invoicing with TSA team.
+
+	Responsible for completing instructions or executing complex or unusual certificate requests.
+
+	Maintains Client Open Items lists and helps coordinate timely responses from the service team.
+
+	Gather loss information proactively as needed and upon requests.
+
+	Complete initial policy reviews.
+
+	Set up policy files, client specific files, client manuals and update insurance summaries.
+
+	Execute all changes requested on the policy, monitor for receipt of company endorsements and process endorsements.
+
+	Manage account services or resources as needed for account services support.
+
+	Be able to read client&rsquo;s business contracts to evaluate insurance requirements.
+
+
+
+
+
+Requirements:
+
+
+
+
+
+	Bachelor&rsquo;s degree in Business, Finance or related field; or equivalent education and/or work experience.
+
+	General understanding of commercial property and casualty coverage&rsquo;s preferred.
+
+	Corporate or agency experience in commercial insurance services desired.
+
+	High aptitude for accuracy in mathematical calculations.
+
+	Organizational and time management skills to prioritize workload and meet deadlines required.
+
+	Above average verbal, written and interpersonal skills required.
+
+	Strong attention to detail required.
+
+	General understanding of Agency Management Systems preferred.
+
+	Proficiency in MS Word and Excel required; PowerPoint desired.
+
+
+
+
+
+Lockton is a global professional services firm with 6,500 Associates who advise clients on protecting their people, property and reputations. Lockton has grown to become the world&rsquo;s largest privately held, independent insurance broker by helping clients achieve their business objectives. From its founding in 1966 in Kansas City, Missouri, Lockton has attracted entrepreneurial professionals who have driven its growth to become the largest privately held, independent insurance broker in the world and&nbsp;9th&nbsp;largest overall. For eight consecutive years, Business Insurance magazine has recognized Lockton as a &quot;Best Place to Work in Insurance.&quot;&nbsp;To see the latest insights from Lockton&#39;s experts, check&nbsp;Lockton Market Update.
+
+
+
+Lockton is known throughout the insurance industry as an entrepreneurial, progressive and successful insurance broker. As a result of continued individual and group accomplishments, Lockton has a record of steady and substantial growth. If you are a committed professional with a passion for delivering unparalleled service, Lockton is interested in hearing from you.
+
+
+
+**NO AGENCIES PLEASE**&nbsp;&nbsp;Any Employment Agency, person or entity that submits an unsolicited resume to this site does so with the understanding that the applicant&#39;s resume will become the property of Lockton Companies, Inc. Lockton Companies will have the right to hire that applicant at its discretion and without any fee owed to the submitting Employment Agency, person or entity. Employment Agencies, who have fee Agreements with Lockton Companies must submit applicants to the designated Lockton Companies Employment Coordinator to be eligible for placement fees.
+
+
+
+#LI-AN1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Are you a returning applicant?
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Applicants:
+
+
+Email:
+
+
+
+
+
+Password:
+
+
+
+
+
+If you do not remember your password click here.
+
+
+
+
+Back to Search Results
+
+
+New Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        //jQuery Calendar
+
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchp.tbe.taleo.net/chp01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+
+    
+
+
+
+
+
+	
+
+	
+
+		
+
+			
+
+				Awards & Affiliations
+
+				
+
+					
+
+						
+
+							
+
+						
+
+					
+
+					
+
+						
+
+							
+
+						
+
+					
+
+					
+
+						
+
+							
+
+						
+
+					
+
+					
+
+				
+
+			
+
+			
+
+				Lockton Blogs
+
+				
+
+					Lockton Health 
+
+
+
+Reform & Compliance
+
+					Lockton Market 
+
+
+
+Update
+
+					Lockton Solicitors
+
+					Lockton HR Technology
+
+				
+
+			
+
+			
+
+				Connect with Us
+
+				
+
+					
+
+					
+
+					
+
+					
+
+					
+
+				
+
+				
+
+			
+
+			
+
+		
+
+		
+
+		Copyright © 2013 Lockton Companies. All rights reserved.  |  Compensation 
+
+
+
+Disclosure  |  Terms  of 
+
+
+
+Use  |  Privacy Policy  
+
+
+
+|  Cookie Policy  |  Sitemap
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,873 @@
+
+
+
+
+
+
+var isTagpageview=true;
+
+
+
+function tagPageView() {
+
+}
+
+
+
+
+
+
+
+        
+
+    
+
+    
+
+    
+
+               
+
+        
+
+         
+
+        //ldp256 accessibility changes starts
+
+             $(document).ready(function() {
+
+                 $(document.body).mousemove(function(event) {
+
+                     BodyMouseMove();
+
+                 });
+
+                 $(document.body).keyup(function(event) {
+
+                     BodyKeyUp();
+
+                 });
+
+                 $(document.body).focus(function(event) {
+
+                     BodyFocus();
+
+                 });
+
+                 var addOnClick = "no";
+
+                 if (addOnClick == "yes") {
+
+                     $(document.body).click(function(event) {
+
+                         hideAllLayer();
+
+                     });
+
+                 }
+
+
+
+                 // the footer isn't always easy to detect as empty.  This is an additional test to hide the footer when the branding table exists but contains no content
+
+                 if ($("[role=contentinfo]") && $("[role=contentinfo]").text().trim() == "") {
+
+                     $("[role=contentinfo]").remove();
+
+                     if ($("#ctl00_Footer")) {
+
+                         $("#ctl00_Footer").hide();
+
+                     }
+
+                 }
+
+             });
+
+        //ldp256 accessibility changes ends
+
+
+
+             function AddRfToken() {
+
+                 var forms = document.forms;
+
+
+
+                 for (i = 0; i  0) {
+
+                        
+
+                      }
+
+                     else
+
+                      {
+
+                    
+
+                         var hdElement = forms[i].hdRft;
+
+
+
+                         if (typeof (hdElement) == 'undefined') {
+
+
+
+                             var input = document.createElement("input");
+
+
+
+                             input.setAttribute("type", "hidden");
+
+
+
+                             input.setAttribute("name", "hdRft");
+
+
+
+                             input.setAttribute("value", js_rft);
+
+
+
+                             document.forms[i].appendChild(input);
+
+                         }
+
+                         else {
+
+
+
+                             hdElement.value = js_rft;
+
+                         }
+
+                     }
+
+                 }
+
+             }
+
+
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+          
+
+           
+
+           
+
+        
+
+         
+
+   University of California San Francisco - Job details
+
+       
+
+        .h1Title
+
+        {
+
+        	margin:0;
+
+		    padding: 6px 0 0px 0;
+
+        }
+
+	    .h1Tab
+
+        {
+
+	    	margin: 0pt; 
+
+		    padding: 1px 0pt 1pt; 
+
+		    overflow: hidden;	       	
+
+        }
+
+       .twitter-share-button {
+
+              position:relative;           
+
+              margin-left:3px;
+
+      }
+
+      
+
+      iframe { vertical-align: top; }
+
+      
+
+      
+
+    
+
+     if (navigator.appVersion.indexOf('Win') != -1) {if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } } else if (navigator.appVersion.indexOf('Mac') != -1) { if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } } else {if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } }  var js_rft = '^Q83RPfC7RPXk3WRYN3zUgeUP0HRbONGgIHpApOa7mBWgFk90MoOMhh/vh6Kv2UrMWkm7Db2NLBwso1Fn9d33QmQYpcGuEHXPv/J+wfzConpC0HXb+ABLrrC76BJtzuUyYO9RqiVud6+Sd6nr75D7+h2cJ/7nZBNARU5L/2tgQxBJoG9HKn3EPqni4GfVrm2aOLPiwBiKNhELGtzKwGbCs+BhiUANY8NN'
+
+    var MSG_SiteSwitch = "Recruitment for the selected job(s) will be in the language of the job posting(s).  To continue, the language of this site will change to match the language of the selected job(s).  You will need to provide your resume/CV in the language of the selected job(s) in order to maximize your visibility to the recruitment personnel.";var MSG_SocialMediaSiteSwitch = "Posting to social networks should be in the language of the job posting.  To continue, the language of this site will change to match the language of the selected job."; var js_LaunchGQ_DotNet ="No";
+
+    
+
+     
+
+      
+
+        var SR_READY = "";
+
+        var SR_PRIDE = "%5eXPo1WBzaZuM%3d";
+
+        var SR_STID = "5226";
+
+        var SR_CLID = "6495";
+
+        var SR_LOCALE = "1033";
+
+        var SR_FN = "";
+
+        var SR_LN = "";        
+
+       function setReadyForSocialReferral(ready, clid, stid, pride, localeid,button,fn,ln) {
+
+            SR_READY = ready;
+
+            SR_PRIDE = pride;
+
+            SR_STID = stid;
+
+            SR_CLID = clid;
+
+            SR_LOCALE = localeid;
+
+            SR_FN = fn;
+
+            SR_LN = ln;
+
+            if (SR_READY == "yes") {
+
+                LaunchSocialReferralMenu(document.getElementById(button));
+
+            }
+
+        }
+
+        function LaunchSocialReferralMenu(button) {
+
+            var jobstr = document.getElementById("jobid").value;
+
+            var urlstring = "../tgnewui/referral/home/referralworkflowoptions?siteid=" + SR_STID + "&partnerid=" + SR_CLID + "&localeid=" + SR_LOCALE + "&bruid=" + SR_PRIDE + "&jobids=" + jobstr+ "&fn=" + SR_FN + "&ln=" + SR_LN
+
+            window.dialogBuilder.showDialog(button, urlstring);
+
+
+
+        }     
+
+        function ApplyNow()
+
+	    {			    
+
+			var ApplyURL = "-1";
+
+			if (ApplyURL=="-1" ) ApplyURL= "";
+
+			if (ApplyURL.length>0 )
+
+			{				
+
+			    window.location.href=ApplyURL; 
+
+			}
+
+			else
+
+			//In case GTG if the job siteid is different than the current siteid
+
+			//display warning pop-up to confirm site switched to job site
+
+			{			   
+
+				ApplyJobNow('1033');
+
+			}
+
+		}		
+
+			
+
+		function ApplyJobNow(strLocale)
+
+        {
+
+	        var strGQId;
+
+	        var iLen, iIndx;
+
+	        var arrGQId;
+
+	        var arrGQIds;
+
+	        var lngNewSelection = 0;
+
+	        var lngSiteLocale = 1033;
+
+	        var strSwitchSiteQS;
+
+	        strGQId = "0";	// from Querystring
+
+	        strSwitchSiteQS = "";
+
+
+
+	        //var lngSelect = 1;
+
+	        var lngSelect = 1;
+
+	        
+
+	        if  (strGQId == '')
+
+	        {	
+
+	            strGQId= document.frmJobDetail.JobInfo.value;
+
+			    arrGQId = (strGQId.substring(2, strGQId.length - 2)).split("%%");
+
+			    iLen = arrGQId.length;
+
+			    arrGQIds = arrGQId[lngSelect-1].split('|');
+
+			    if (arrGQIds[2] != 0)
+
+			    {
+
+				    if (strLocale == lngSiteLocale)
+
+				    {
+
+				        if (js_LaunchGQ_DotNet.toUpperCase() == 'YES')
+
+				        {
+
+				            openWindow11("gqlogin.aspx?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm&fjd=true&referer=&gqid="+ arrGQIds[2] + "&jobinfo=__" + arrGQId[lngSelect-1] + "__&applycount=1&type=search_jobdetail");
+
+				        }
+
+				        else
+
+				        { 
+
+					        openWindow11("https://sjobs.brassring.com/" + strLocale + "/asp/tg/GQLogin.asp?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm&fjd=true&referer=&gqid="+ arrGQIds[2] + "&jobinfo=__" + arrGQId[lngSelect-1] + "__&applycount=1&type=search_jobdetail&srcqs=");
+
+					    }
+
+				    }
+
+				    else
+
+				    {
+
+				        document.frmMassApply.GQID.value = arrGQIds[2];
+
+				        if(strSwitchSiteQS == '')
+
+				        {
+
+					        document.frmMassApply.action= "apply.aspx?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm&src=jd&qs=jobId%3d2495152%26PartnerId%3d6495%26SiteId%3d5226%26codes%3dIND";
+
+					    }
+
+					    else
+
+					    {
+
+					        document.frmMassApply.action= "apply.aspx?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm&src=jd&qs=";
+
+					    }
+
+					    document.frmMassApply.submit();
+
+				    }
+
+			    }
+
+			    else
+
+			    {
+
+				    document.frmMassApply.action= "apply.aspx?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm";
+
+				    document.frmMassApply.submit();
+
+			    }	        
+
+			        		        
+
+	        }
+
+	        else
+
+	        {
+
+	           	
+
+		        if (strGQId != 0)
+
+		        {
+
+			        if (strLocale == lngSiteLocale)
+
+			        {
+
+			            if (js_LaunchGQ_DotNet.toUpperCase() == 'YES')
+
+				        {
+
+				            openWindow11("gqlogin.aspx?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm&fjd=true&referer=&gqid=" + document.frmMassApply.GQID.value + "&jobinfo=__2495152|1|0__&applycount=1&type=search_jobdetail");
+
+				        }
+
+				        else
+
+				        { 
+
+				            openWindow11("https://sjobs.brassring.com/" + strLocale + "/asp/tg/GQLogin.asp?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm&fjd=true&referer=&gqid=" + document.frmMassApply.GQID.value + "&jobinfo=__2495152|1|0__&applycount=1&type=search_jobdetail&srcqs=");
+
+				        }
+
+			        }
+
+			        else
+
+			        {
+
+			            if(strSwitchSiteQS == '')
+
+				        {
+
+				            document.frmMassApply.action= "apply.aspx?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm&src=jd&qs=jobId%3d2495152%26PartnerId%3d6495%26SiteId%3d5226%26codes%3dIND";
+
+				        }
+
+				        else
+
+				        {
+
+				            document.frmMassApply.action= "apply.aspx?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm&src=jd&qs=";
+
+				        }
+
+				        document.frmMassApply.submit();
+
+			        }
+
+ 	            }
+
+ 	            else
+
+ 		        {
+
+ 			        document.frmMassApply.action = "apply.aspx?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm";
+
+			        document.frmMassApply.submit();
+
+ 		        }
+
+ 	        }
+
+        }
+
+        
+
+        //Send to friend email    
+
+        function sendToFriend()
+
+        {
+
+	        openWindowBySize2('about:blank?sessionid=7ba2cfb6667f544b4dbaa113d3bd0884827d', 450, 360);	        
+
+	        document.frmSendToFriend.submit();
+
+        }
+
+        
+
+        function socialNetworkReferral(button) {
+
+		  if (SR_READY == "yes")
+
+            LaunchSocialReferralMenu(button);
+
+        else {
+
+            document.frmSocialNetworkReferral.ButtonId.value = button.id;
+
+            openWindowBySize2('about:blank?sessionid=7ba2cfb6667f544b4dbaa113d3bd0884827d', 900, 720);
+
+            document.frmSocialNetworkReferral.submit();
+
+	        }
+
+		}
+
+        
+
+        
+
+        function showjob(lngNewSelection)
+
+	    {   		    
+
+		    document.frmJobDetail.action = "jobdetails.aspx?jobId=2495152&amp;PartnerId=6495&amp;SiteId=5226&amp;codes=IND";
+
+		    document.frmJobDetail.CurSel.value= lngNewSelection;
+
+		    document.frmJobDetail.submit();
+
+	    }
+
+        
+
+        function launchSocialMedia()
+
+	    {
+
+	        var lngSiteLocale = '1033';
+
+	        var jobSiteID = '5226';
+
+	        var newLocaleId = getLocaleId(jobSiteID,'');
+
+	        var strSwitchSiteQS = '';
+
+	        
+
+
+
+	        if (newLocaleId == lngSiteLocale || newLocaleId == '')
+
+		    {
+
+			    openWindow1('about:blank?sessionid=7ba2cfb6667f544b4dbaa113d3bd0884827d');
+
+		        document.frmSocialMedia.submit();
+
+		    }
+
+		    else
+
+		    {
+
+		        alert(MSG_SocialMediaSiteSwitch);
+
+		        if(strSwitchSiteQS == '')
+
+		        {
+
+			        document.frmMassApply.action= "apply.aspx?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm&src=jdsm&qs=jobId%3d2495152%26PartnerId%3d6495%26SiteId%3d5226%26codes%3dIND";
+
+			    }
+
+			    else
+
+			    {
+
+			        document.frmMassApply.action= "apply.aspx?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm&src=jdsm&qs=";
+
+			    }
+
+			    document.frmMassApply.submit();
+
+		    }
+
+        }
+
+        
+
+        //Save to jobcart
+
+        function saveToJobCart()
+
+	    {
+
+		    var strTemp;
+
+		    var lIdx;
+
+		    var lLen;
+
+		    var arrSubInfo;
+
+
+
+		    if (document.frmJobDetail.jobcartcnt.value > 50)
+
+			    alert (MSG_cim_jobdetail_JobCart);
+
+		    else
+
+		    {
+
+			    document.frmSaveToCart.chkJobClientIds.value = ReplaceInString(document.frmSaveToCart.chkJobClientIds.value, "%%", "");
+
+			    arrSubInfo = document.frmSaveToCart.chkJobClientIds.value.split("|");		    
+
+
+
+			    if(arrSubInfo.length != 3)
+
+			    {
+
+				    strTemp =  arrSubInfo[0] + "|" + arrSubInfo[1];
+
+				    document.frmSaveToCart.chkJobClientIds.value = strTemp;
+
+			    }
+
+			    openWindow3('about:blank?sessionid=7ba2cfb6667f544b4dbaa113d3bd0884827d');
+
+			    document.frmSaveToCart.submit();
+
+		    }
+
+	    }
+
+	    function goToSearchPage()
+
+	    {	   
+
+		    document.frmSearch.submit();
+
+	    }
+
+	    
+
+	    //QC #197940
+
+	    function reload(sParam)
+
+	    {
+
+		if (typeof(sParam) != 'undefined') 
+
+		{
+
+			if (sParam == 'ApplyAsRegularJob')
+
+				ApplyAsRegularJob();
+
+			return;
+
+		}
+
+		var sGQId =  "0";
+
+		var arrGQId;
+
+		var iLen = 0;
+
+		if (sGQId == '' )
+
+		{
+
+			sGQId= document.frmJobDetail.JobInfo.value;
+
+			arrGQId = (sGQId.substring(2, sGQId.length - 2)).split("%%");
+
+			iLen = arrGQId.length;
+
+		}
+
+		
+
+		if ((iLen == 1) || (sGQId != ''))
+
+		{
+
+			 
+
+		document.frmJobDetail.target = "_self";
+
+		 
+
+		document.frmJobDetail.action = "Logout.aspx?SID=^LlTSAZxYOC_slp_rhc_R39nKkLfy_slp_rhc_LblJgRpGD0JDSoeoHUaQKD5NO9uCYv7H5tRfzhDjtmm&gqclose=yes&crl=yes&Exit=^VPbBpv82eWbDhCwKzWDUrT6iCUhsWNOr+koga53E/lzXlNjlAug5wQQ9zAIHEB3h/wTIH+ld1Juf/KBSJ9E2P2Se9/ttvXnZ9ebkZ65JmraHqkvoshdGPEWjyl/hGtmEfTRV/D6+QTI6xZdLwYROV9sD68EHwPNqz+2LNFuxAZmn7RErWj0wUN/1R2eNplmt6T6VwDajuWjVkyNX9qMcJkLQW3dvEhvXPqj1cG7AEbJkE+bscxRxJuM3ACcsRZgOQtP8WZlqcAecspsnSLxX2Gp+nLDJ1sBDFSXmQ/FCsYbHKbwQeR51aCTgUbZoHFEpUDjEeBCCLgwLWJDIGVsJRRRvxTk7V/8M9mgKKVokd4I=";
+
+		document.frmJobDetail.submit();
+
+		}
+
+	  }
+
+	  $(document).ready(function() {
+
+            
+
+            var n = "HomeSearch  openingsSearch  resultsCurrent pageJob  details &nbsp;&nbsp;)";
+
+            if (n.length <= 1)
+
+                $("#ctl00_ProgressBar").hide();
+
+             });
+
+    
+
+
+
+                
+
+        
+
+    var MSG_GEN_EntValdEmlAddr = "Please enter a valid e-mail address.\nDelete all the invalid characters, including spaces, from your e-mail address.";var MSG_GEN_PlsRmDblQut = "Please remove the  DOUBLE QUOTE (\")  you have entered.";var MSG_GEN_EnterVal = "Please enter a value for |QUESTION|";var MSG_GEN_EnterValidPassword = "Please enter a valid password.\nDelete all the invalid characters, including spaces, from your password.";var MSG_GEN_EnterValRange = "Please enter a value for |QUESTION| between |MIN| and |MAX|.";var MSG_GEN_EntValdPasswd = "Spaces are not allowed in the e-mail or in the password field. Please remove the spaces and try again.";var MSG_GEN_FromToDate = "The From date should be less than the To date.";var MSG_GEN_PlsDelPrdFrmBgnOfYrEmlAddr = "Please delete the period from the beginning of your e-mail address.";var MSG_GEN_PlsDelPrdFrmEndOfYrEmlAddr = "Please delete the period from the end of your e-mail address.";var MSG_GEN_PlsEntValdDate = "Please enter a valid date.";var MSG_GEN_PlsEntValdEmlAddr = "Please enter a valid e-mail address.";var MSG_GEN_PlsEntVldNumber = "Please enter a valid number.";var MSG_GEN_PlsEntVldSSN = "Please enter a valid SSN.";var MSG_GEN_SSNFormat = "The SSN should be in xxx-xx-xxxx format.";var MSG_GEN_UserNameInvalidChars = "The username must not include the following characters: ";var MSG_GEN_UserNameLen = "Please enter a valid username.";var MSG_GEN_UserNameLength = "The username must be less than 100 characters.";var MSG_GEN_UserNameSpaces = "The username must not include any spaces.";var MSG_TSV_EnterValidInputSearchFields = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_TSV_EnterValidInputText = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_TSV_EnterValidInputTextArea = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_InputValidationFail = "[QUESTION] requires a valid entry."; var MSG_RCF_LNPronunciation = "Last name pronunciation key: Please enter a value."; var MSG_RCF_FNPronunciation = "First name pronunciation key: Please enter a value."; var MSG_RCF_Valid_LNPronunciation = "Please enter a valid last name pronunciation key."; var MSG_RCF_Valid_FNPronunciation = "Please enter a valid first name pronunciation key."; var MSG_RCF_FirstName = "Please enter a first name."; var MSG_RCF_Valid_FirstName = "Please enter a valid first name."; var MSG_RCF_MiddleName = "Please enter a middle name."; var MSG_RCF_Valid_MiddleName = "Please enter a valid middle name."; var MSG_RCF_LastName = "Please enter a last name."; var MSG_RCF_Valid_LastName = "Please enter a valid last name."; var MSG_RCF_Address1 = "Please enter an address line 1."; var MSG_RCF_Address2 = "Please enter an address line 2."; var MSG_RCF_Country = "Please select a country name."; var MSG_RCF_City = "Please enter a city name."; var MSG_RCF_Valid_City = "Please enter a valid city name."; var MSG_RCF_State = "Please select a State/Region/Province."; var MSG_RCF_Zip = "Please enter a Zip/Postal code."; var MSG_RCF_HomePhone = "Please enter a home phone number."; var MSG_RCF_Valid_HomePhone = "Please enter a valid home phone number."; var MSG_RCF_WorkPhone = "Please enter a work phone number."; var MSG_RCF_Valid_WorkPhone = "Please enter a valid work phone number."; var MSG_RCF_CellPhone = "Please enter a phone number."; var MSG_RCF_Valid_CellPhone = "Please enter a valid phone number."; var MSG_RCF_Fax = "Please enter a fax number."; var MSG_RCF_Valid_Fax = "Please enter a valid fax number."; var MSG_RCF_Homepage = "Please enter a web address. Web addresses start with http:// or https://.";var MSG_SORTASCN = "Click to sort ascending";var MSG_SORTDSCN = " Click to sort descending";
+
+
+
+
+
+
+
+window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"0c4d2a794f","applicationID":"3940305","transactionName":"ZwEHZUAECkQFWhFbVl5LJGJiSg5YBl0ARlhZCBYfUxYUTw==","queueTime":1,"applicationTime":219,"ttGuid":"D01816B6CE8D813A","agent":""}window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]); 
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+-->
+
+
+
+
+
+    
+
+    
+
+
+
+            
+
+if (navigator.appVersion.indexOf("Win") != -1) {
+
+	if (document.all) { document.write(""); }
+
+	else if (document.layers){ document.write(""); }
+
+	else if (document.images) {  document.write(""); } }
+
+else if (navigator.appVersion.indexOf("Mac") != -1) {
+
+	if (document.all) { document.write(""); }
+
+	else if (document.layers){ document.write(""); }
+
+	else if (document.images) {	document.write(""); } }
+
+else { }
+
+
+
+
+
+.REGbutton, .yui-skin-sam .yui-dt th a, .yui-dt-label {font-size:13px !important;}
+
+.HEADERtext1, .COOKIEcrumbtext { font-size:12px !important; }
+
+.PAGEtitle, .pagetitle { font-size:185% !important; color:#999999 !important; font-family: "Times New Roman", Times, serif !important; }
+
+
+
+ 
+
+	var sURL = window.location.href.toLowerCase();
+
+	if (sURL.indexOf("profiledetail.aspx")>=0 || sURL.indexOf("attachform.aspx")>=0 || sURL.indexOf("answerquestions.aspx")>=0)
+
+		{document.write("label{font-size:12px !important;} .PAGEtitle { font-size: 185% !important; color: #999 !important;} UL LI{list-style-position:outside !important;}");}
+
+       &nbsp;?
+
+        HomeSearch  openingsSearch  resultsCurrent pageJob  details &nbsp;&nbsp;
+
+        
+
+            
+
+Job details&nbsp;Job 1 of 1    Submit to job &nbsp;&nbsp;Send to friend &nbsp;&nbsp;Save to cart &nbsp;&nbsp;    Req Number  47230BR   Job Title  Research Data Analyst   Job Code and Payroll Title  6256 Research Data Analyst II   Location  UCSF Parnassus   Department Name  Community Health Systems   Work Days  Monday - Friday   Shift  Days   Shift Length  8 Hours   Job Summary  JOB OVERVIEW
+The Research Data Analyst involves gathering, analyzing, and interpreting a wide variety of research data, which may include selecting data samples, preparing questionnaires, and analyzing collected information according to established statistical methods. Prepares reports, charts, tables, and other visual aids.
+
+The Research Data Analyst works on research data reporting assignments that are of moderate diversity in scope. Exercises judgment within generally defined practices and policies in selecting methods and techniques for obtaining solutions. 
+
+ Please note: This is a full time 24-month contract position starting from the day of hire. 
+
+COMMUNITY HEALTH SYSTEMS
+The mission of the Department of Community Health Systems (CHS) is to promote and sustain health in the community and workplace, with particular emphasis on culturally diverse and high-risk populations.
+We are committed to improving health and health care for those served by community-based health care systems through educating culturally competent nurses, conducting research, and providing services in the community which address the health issues of those underserved by the traditional institution-based health care system.
+
+ABOUT UCSF  
+The University of California, San Francisco (UCSF) is a leading university dedicated to promoting health worldwide through advanced biomedical research, graduate-level education in the life sciences and health professions, and excellence in patient care. It is the only campus in the 10-campus UC system dedicated exclusively to the health sciences.   Required Qualifications  • Bachelor's degree in related area and / or equivalent experience / training
+• Fluency in Spanish
+• Working knowledge of research function
+• Skills to communicate complex information in a clear and concise manner both verbally and written
+• Working knowledge of the ethical conduct of research and privacy issues
+
+ Note: Fingerprinting and background check required. Effective March 13, 2017, all final candidate(s) for employment are required to undergo a background check.    Preferred Qualifications  • Working skills in statistical analysis, system programming, database design and data security measures
+• Working skills in analysis and consultation   License/Certification  n/a   Position Type  Full Time   Percentage  100%   Equal Employment Opportunity  The University of California San Francisco is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, protected veteran or disabled status, or genetic information.     Submit to job &nbsp;&nbsp;Send to friend &nbsp;&nbsp;Save to cart &nbsp;&nbsp;  
+
+     
+
+	    	    
+
+           		  
+
+    
+
+    
+
+ 
+
+ 
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+

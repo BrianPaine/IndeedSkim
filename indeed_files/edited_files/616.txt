@@ -1,0 +1,856 @@
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   function launch(page) {
+      OpenWin = this.open(page, "HelpWindow", "toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,width=400,height=600,left=50,top=50'");
+   }
+
+
+	var jobs = new Array();
+
+
+
+	
+		var reqGk = '27017835';
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	Financial Business Intelligence Analyst
+				
+							
+								Scottsdale,&nbsp;
+							
+							
+								AZ 
+							
+				
+
+	
+
+	
+		
+	
+	
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+
+
+  ga('create', 'UA-85179608-1', 'auto');
+
+  ga('send', 'pageview');
+
+
+
+
+
+
+
+
+
+Our Team - Career Evolutions
+
+
+
+
+
+0&&parent.frames.length) {
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i
+
+
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+    font-family: "Century Gothic","Times New Roman",Times,serif;
+
+}
+
+
+
+
+
+
+
+
+
+#bm-portal-head{display:none;}
+
+
+
+
+
+  
+
+    
+
+       Follow Us: 
+
+        
+
+        
+
+        
+
+        
+
+        &nbsp;
+
+        &nbsp;
+
+        
+
+      
+
+        &nbsp;
+
+        
+
+    
+
+  
+
+    
+
+  
+
+    
+
+    
+
+	        Home
+
+             About Us
+
+             
+
+                Who We Are
+
+                Partners 
+
+                Success Stories
+
+				News
+
+              
+
+			Services
+
+              
+
+              Recruitment Services
+
+                Career Coaching
+
+			    Business Advisement
+
+			    Outplacement Services
+
+                Resume Services
+
+				Executive & Retained Search
+
+              
+
+          Assessments
+
+            
+
+            Products
+
+            Contact Us
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+
+      Follow Us: 
+
+        
+
+          
+
+            
+
+            
+
+            
+
+            
+
+          
+
+        
+
+        
+
+        
+
+          
+
+            PAGES :
+
+          
+
+          
+
+            Home 
+
+          
+
+          
+
+            About Us 
+
+          
+
+          
+
+            Assessments
+
+          
+
+          
+
+            Career Management
+
+          
+
+          
+
+            Contact Us 
+
+          
+
+          
+
+            Current Openings
+
+          
+
+          
+
+          
+
+          
+
+            Recruitment Services
+
+          
+
+          
+
+            Executive Retained Search
+
+          
+
+          
+
+          
+
+          
+
+            Products
+
+          
+
+          
+
+            Who We Are
+
+          
+
+          
+
+          
+
+          
+
+            Outplacement Services
+
+          
+
+          
+
+            Partners 
+
+          
+
+          
+
+            Resume Critique
+
+          
+
+          
+
+            Resume Services
+
+          
+
+          
+
+          
+
+          
+
+            Success Stories
+
+          
+
+        
+
+        &nbsp;
+
+      &nbsp;
+
+      
+
+        
+
+		
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	
+	
+	
+
+
+
+
+
+	
+  
+  	
+  		
+  	
+  	
+  	
+  	
+  	
+	
+		
+	  	
+	  		
+	
+      
+		     
+		     
+		         Toggle navigation
+		         
+		         
+		         
+		      
+		      
+			      
+			  	 	
+					    Portal Home 
+					    
+						
+						
+					   		
+					   			Create Profile
+					   		
+					    
+					   	
+							
+								
+							
+						
+					
+				
+			 
+	
+	
+      
+      
+		 
+			  
+	
+					
+					
+					 	
+							
+								
+								
+								
+								
+								
+								
+						        
+						        
+						        
+						        
+						        
+							
+						
+					
+			
+		
+	
+
+	
+		
+ 			
+				
+					
+					
+			
+			
+			
+				
+					
+						
+							
+							
+							Share This Job 
+							
+						    
+						    
+						    
+						    
+							
+							
+							var addthis_share = {
+							    url : 'http://ejob.bz/ATS/jb.do?reqGK=27017835',
+							    title : 'Financial Business Intelligence Analyst',
+							    description : 'Career Evolutions - Financial Business Intelligence Analyst - Scottsdale, AZ'
+							}
+							
+							
+															
+						
+					
+				
+			
+			
+			
+			
+				 
+						
+							
+								Financial Business Intelligence Analyst
+							
+						
+						
+						
+							
+								
+									Job Title
+								
+								
+									Financial Business Intelligence Analyst
+								
+							
+						
+					
+						
+								
+									
+										Job  ID
+									
+									
+										27017835
+									
+								
+							
+					
+					
+					
+					
+					
+						
+								
+									
+									Location
+									
+									
+										
+											Scottsdale,&nbsp;
+										
+										
+											AZ 
+										
+										85256
+									
+								
+							
+							
+								
+									Other Location
+								
+								
+									
+								
+							
+						
+					
+					
+					
+							
+								
+									Description
+								
+								
+									
+										Career Evolutions is searching for a Financial Business Intelligence Analyst&nbsp; for a growing company headquartered in Phoenix, AZ.Aan excellent Full-time, career opportunity with compensation up to $75,000 + plus a competitive bonus. &nbsp;
+
+If you thrive working throughout various departments of the business that will see you blend your financial and IT backgrounds; if you have a natural ability to identify key metrics to drive the business; and if you feel the need to see your efforts translate into direct company growth &ndash; then this is the position for you!
+
+Typical Duties Will Include:
+
+
+	Work cross functionally to ensure that all financial reporting and metrics are properly working from a technology perspective
+	Analyze market trends and introduce innovative and beneficial tools to increase the Company&rsquo;s overall financial function
+	Identify key measures for success, and then see to it that such measures are identified in reporting and analysis
+	Working directly with key members of the IT team, help oversee all incoming financial data from Company employees
+	Take a lead on ensuring that all data is accurate and without error
+	Oversee project roadmaps and timelines, and that all reporting, dash boarding, and analytics projects are completed on time and at budget
+	Present findings and conclusions from data and reporting analytics to dynamic teams, while demonstrating the importance of such data and how it can drive the business
+	Recognize data patterns that would suggest business regions that need improvements in performance
+
+
+&nbsp;
+
+Qualifications and Background:
+
+
+	A five year background as a financial analyst highly desired
+	Hands on experience with various financial software tools, with an ability to write SQL queries preferred
+	History of working across IT, accounting, and business departments
+	Excellent understanding of the entire Microsoft Office suite, with a particular focus on complex sophisticated excel functions
+	Ability to operate in a fast past and dynamic environment where your role will see you wear many hats and constantly grow professionally
+	Degree in Finance, Internet Technology, or similar fields
+
+
+									
+									
+								
+							
+						
+					
+					
+					
+					
+						
+						
+					
+				
+				
+					
+						
+							
+									
+										
+											
+												
+													
+													Option 1: Create a New Profile
+													
+												
+											
+											
+												
+													
+														
+															Create Profile and Apply to Job 
+														
+														
+													
+												
+											
+											
+												
+												
+													
+														
+														Option 2: Login and Apply
+														
+														
+														
+																
+											        			Username
+																
+														
+														
+																Password
+																
+														
+													
+												
+												
+													
+														Submit
+													
+																		
+												
+												
+												
+										
+											
+										
+									
+								
+								
+							
+							
+							
+								
+									
+									
+									
+								
+							
+							
+						
+					
+				
+				
+
+
+				
+	
+
+		
+
+		
+
+    
+
+  
+
+  
+
+
+
+© Copyright 2017 - Career Evolutions | Career Evolutions | 14809 N. 73rd Street, Suite 206 Scottsdale, Arizona 85260 | p. 480.626.5253 | Contact Us
+
+
+
+
+
+
+
+	
+	
+	
+		
+		
+		
+	  		api_key: 77t47zqein5gha
+			authorize:true
+		
+		
+		(function($) {
+			$('body').on('click', '.linkedInApply', function(e) {
+				e.preventDefault();
+				IN.User.authorize(function(){
+					$('.bmApplyBttn:first').click();
+				});
+			});
+		})(jQuery);
+		
+			
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+(function($){
+	$("[data-toggle='tooltip']").tooltip();
+	$("[data-toggle='popover']").popover({trigger: 'click'});
+	$('body').on('click', function (e) {
+	    $('[data-toggle="popover"]').each(function () {
+	        //the 'is' for buttons that trigger popups
+	        //the 'has' for icons within a button that triggers a popup
+	        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+	            $(this).popover('hide');
+	        }
+	    });
+	});
+	$('body').on('focus', '.datetimepicker', function(){
+			var $dpicker = Array('hour', 'minute');
+			$dpicker['hour'] = 0;
+			$dpicker['minute'] = 0;
+			
+			if(!$(this).val()){
+				$dpdate = new Date();
+				$dpicker['hour'] = $dpdate.getHours();
+				$dpicker['minute'] = $dpdate.getMinutes();
+			}
+				$(this).datetimepicker({
+					dateFormat: 'm/d/yy',
+					timeFormat: 'hh:mm TT',
+					controlType:'select',
+					hour:$dpicker['hour'],
+					minute:$dpicker['minute'],
+					ampm: false,
+					secondMin:0,
+					secondMax:0
+				});
+		});
+	
+		$('body').on('focus', '.datepicker', function(){
+			var $dpicker = Array('hour', 'minute');
+			$dpicker['hour'] = 0;
+			$dpicker['minute'] = 0;
+			
+			if(!$(this).val()){
+				$dpdate = new Date();
+				$dpicker['hour'] = $dpdate.getHours();
+				$dpicker['minute'] = $dpdate.getMinutes();
+			}
+				$(this).datepicker({
+					dateFormat: 'm/d/yy'
+				});
+		});
+	})(jQuery);
+
+
+

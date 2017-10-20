@@ -1,0 +1,617 @@
+
+
+
+
+
+
+
+var  totalTimeoutMilliseconds = 2073600000; 
+var  warningTimeoutMilliseconds = 2073600000; 
+var timeOutURL = 'https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/?cmd=expire';
+var timeoutWarningPageURL = 'https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/s/WEBLIB_TIMEOUT.PT_TIMEOUTWARNING.FieldFormula.IScript_TIMEOUTWARNING';
+var sRCRequestURL = 'https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/s/WEBLIB_PTRC.ISCRIPT1.FieldFormula.IScript_RC_REQUEST';
+ 
+
+
+
+Applicant Home
+
+try {
+document.domain = "is.berkeley.edu";
+}
+catch(err) {;}
+
+
+var winName='win0';
+var winParent = null;
+var modalID = null;
+var modalZoomName = null;
+var baseKey_win0 = "\x1b";
+var altKey_win0 = "05678\xbc\xbe\xbf\xde";
+var ctrlKey_win0 = "JKM";
+var saveWarningKeys_win0 = "";
+var firstFocusID = null;
+var isNewSaveWarn = true;
+var bAccessibility_win0 =false;
+var bFMode =false;
+var bDoModal_win0 = false;
+var bJSModal_win0 = false;
+var bPromptPage_win0 = false;
+var bTabOverTB_win0 = false;
+var bTabOverPg_win0 = false;
+var bTabOverNonPS_win0 = false;
+var strCurrUrl='https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL?Page=HRS_CE_JOB_DTL&Action=A&JobOpeningId=23936&&PAGE=HRS_CE_JOB_DTL';
+var strReqURL='';
+var bIncInNavigation='T';
+var szPinCrefID='HC_HRS_CE_GBL2';
+var szPinCrefReg='T';
+var szPinCrefLabel='Careers';
+var szCrefID='HC_HRS_CE_GBL2';
+var szCrefReged='T';
+var szCrefVisible='T';
+var szCrefLabel='Careers';
+var localNodes = ['HRMS', 'PSFT_HR', 'PSFT_HR_UC'];
+bGenDomInfo = false;
+var szCalendarType = 'G';
+var bMenuSrchPage = false;
+var bWSRP=0;var szMenuSrchText = "-999999-";
+var disablePNSubscriptions=1;var modalCloseUrl = '/cs/jobsprod/cache/PT_TRANS_16PIX_1.png';
+var modalCloseAlt = 'Close';
+var modalResizeUrl= '/cs/jobsprod/cache/PT_RESIZE_IMG_1.gif';
+var modalResizeAlt = 'Drag to resize';
+var modalMoveAlt = 'Drag to move';
+
+
+var PFieldList_win0 = [['HRS_DEPT_I_DESCR',1]];
+
+
+try {
+document.domain = "is.berkeley.edu";
+}
+catch(err) {;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var nResubmit=0;
+var nLastAction=0;
+var loader=null;
+if (typeof(bCleanHtml) == 'undefined')
+	var bCleanHtml = false;
+setupTimeout2();
+var postUrl_win0='https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL';
+function aAction_win0(form, id, params, bAjax, bPrompt)
+{
+setupTimeout2();
+if ((id != '#ICSave'))
+processing_win0(1,3000);
+aAction0_win0(form, id, params, bAjax, bPrompt);
+}
+function submitAction_win0(form, id, event)
+{
+setupTimeout2();
+if (!ptCommonObj2.isICQryDownload(form, id))
+ { processing_win0(1,3000); }
+preSubmitProcess_win0(form, id);
+var spellcheckpos = id.indexOf('$spellcheck');
+if ((spellcheckpos != -1) && (id.indexOf('#KEYA5') != -1))
+	form.ICAction.value = id.substring(0,spellcheckpos);
+else 
+	form.ICAction.value=id;
+var actionName = form.ICAction.value;
+form.ICXPos.value=ptCommonObj2.getScrollX();
+form.ICYPos.value=ptCommonObj2.getScrollY();
+bcUpdater.storeBcDomData();
+if ((typeof(bAutoSave) != 'undefined') && bAutoSave)
+	form.ICAutoSave.value = '1';
+if (!ptCommonObj2.isAJAXReq(form, id) && !ptCommonObj2.isPromptReq(id)){
+if (nLastAction == 1 && nResubmit > 0) return;
+form.ICResubmit.value=nResubmit;
+form.submit();
+if (!ptCommonObj2.isICQryDownload(form, id))
+	nResubmit++;
+}
+else if (ptCommonObj2.isPromptReq(id))
+	pAction_win0(form, id, arguments[2]);
+else
+	aAction_win0(form, actionName);
+cancelBubble(event);
+}
+
+
+var pt_calHeadstyle=" class='PTCALHEAD' "
+var pt_calWeekHeadstyle=" class='PTCALWEEKHEAD' "
+function dateitemrefs()
+{
+this.pt_dateheader = "/cs/jobsprod/cache/PT_PORTAL_IC_CLOSE_SD_1.gif";
+this.pt_datering = "/cs/jobsprod/cache/PT_CURRENT_DATE_SD_1.gif";
+this.pt_datesel = "/cs/jobsprod/cache/PT_SELECTED_DATE_SD_1.gif";
+this.pt_nextmonth = "/cs/jobsprod/cache/PT_RIGHT_SCROLL_SD_1.gif";
+this.pt_prevmonth= "/cs/jobsprod/cache/PT_LEFT_SCROLL_SD_1.gif";
+this.pt_daystitle_hijri = "/cs/jobsprod/cache/PT_DATE_TITLE_S6_1.GIF";
+this.pt_daystitle_thai = "/cs/jobsprod/cache/PT_DATE_TITLE_S0_1.GIF";
+this.pt_daystitle_s0 = "/cs/jobsprod/cache/PT_DATE_TITLE_S0_1.GIF";
+this.pt_daystitle_m1 = "/cs/jobsprod/cache/PT_DATE_TITLE_M1_1.GIF";
+this.pt_daystitle_t2 = "/cs/jobsprod/cache/PT_DATE_TITLE_T2_1.GIF";
+this.pt_daystitle_w3 = "/cs/jobsprod/cache/PT_DATE_TITLE_W3_1.GIF";
+this.pt_daystitle_t4 = "/cs/jobsprod/cache/PT_DATE_TITLE_T4_1.GIF";
+this.pt_daystitle_f5 = "/cs/jobsprod/cache/PT_DATE_TITLE_F5_1.gif";
+this.pt_daystitle_s6 = "/cs/jobsprod/cache/PT_DATE_TITLE_S6_1.GIF";
+}
+ 
+function LoadCalendar()
+{
+var dateitems = new dateitemrefs();
+loadImages(dateitems);
+}
+function DatePrompt_win0(dtfield,promptfield,yrfmt,bsubmit)
+{
+setupTimeout2();
+openDate_win0(dtfield, promptfield, "MDY/"+yrfmt,bsubmit,"G",0);
+}
+
+
+if (typeof ptStyleSheet == "undefined") {
+ptStyleSheet = 'PSSTYLEDEF_ALT';
+}
+function onLoadExt_win0() {
+modalZoomName = null;
+var oWin=window;
+var oDoc=document;
+ptTAObj_win0.init(oWin,oDoc,oDoc.win0,'/cs/jobsprod/cache/PT_SRT2UP_SEL_1.gif','/cs/jobsprod/cache/PT_SRT2DN_SEL_1.gif','/cs/jobsprod/cache/PT_PORTAL_IC_CLOSE_1.gif',500);
+var pt_pageinfo = document.getElementById('pt_pageinfo_win0');
+if (pt_pageinfo) {
+pt_pageinfo.setAttribute('Page', 'HRS_CE_JOB_DTL');
+pt_pageinfo.setAttribute('Component', 'HRS_CE');
+pt_pageinfo.setAttribute('Menu', 'HRS_HRAM');
+pt_pageinfo.setAttribute('Mode', 'CLASSIC');
+}
+g_bAccessibilityMode=false;
+var actn='';
+if (!isCrossDomainTop()) top.document.title=document.title;
+setKeyEventHandler_win0();ptEvent.add(window,'scroll',positionWAIT_win0);
+ptCommonObj2.generateABNSearchResults(document.win0);
+getGblSrchPageNum(actn);
+if (gSrchRsltPageNum <= 5) getAllRelatedActions();
+
+ptCommonObj2.moveUnivSrchDiv();
+if (typeof(ptLongEditCounter) != 'undefined' && ptLongEditCounter != null)
+   ptLongEditCounter.onLoadLongEditCounter();
+if (typeof(HelppopupObj_win0) != 'undefined' && HelppopupObj_win0 != null)
+ HelppopupObj_win0.StopPopup('win0');
+doModalOnLoad_win0(false, false);
+ResetGlyph_win0();
+self.scroll(0,0);
+objToBeFocus = null;
+if (typeof oWin == 'undefined') setEventHandlers_win0('ICFirstAnchor_win0', 'ICLastAnchor_win0', false);
+ else
+ oWin.setEventHandlers_win0('ICFirstAnchor_win0', 'ICLastAnchor_win0', false);
+setFocus_win0('HRS_CE_WRK2_HRS_CE_EML_FRND',-1);
+ptLoadingStatus_empty(0);
+setupTimeout2();
+processing_win0(0,3000);
+ptConsole2.enable();
+
+UpdateBreadCrumbs();
+GenerateABN();
+GenerateFakeBC();
+bcUpdateForPTF();if (typeof(myAppsWindowOpenJS) != 'undefined' && myAppsWindowOpenJS != null && myAppsWindowOpenJS != '')
+ {
+try {eval(myAppsWindowOpenJS);} catch(e) {}
+  myAppsWindowOpenJS=null;
+}
+ResetGlyph_win0();setPageletInfoInCtxmenu_win0("false");
+GetDomData(win0, "TargetContent", "#GetDomInfo");
+}
+try{ptEvent.load(onLoadExt_win0);}catch(e){}
+
+
+
+
+&nbsp;&nbsp;&nbsp;
+&nbsp;
+ &nbsp;&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Job Description
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Job Title: 
+
+
+
+
+Data Analyst (7199U) #23936
+
+
+
+
+
+Job ID: 
+
+
+
+
+23936
+
+
+
+
+
+Location:
+
+
+Off Campus-Berkeley
+
+
+
+
+
+
+
+
+
+
+
+Full/Part Time: 
+
+
+
+
+Full-Time
+
+
+
+
+
+
+Department 
+
+
+
+
+Univ Dev and Alumni Rel
+
+
+
+
+
+Regular/Temporary: 
+
+
+
+
+Regular
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Return to Previous Page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About Berkeley
+
+
+
+
+
+The University of California, Berkeley, is one of the world’s most iconic teaching and research institutions. Since 1868, Berkeley has fueled a perpetual renaissance, generating unparalleled intellectual, economic and social value in California, the United States and the world. Berkeley’s culture of openness, freedom and acceptance—academic and artistic, political and cultural—make it a very special place for students, faculty and staff.Berkeley is committed to hiring and developing staff who want to work in a high performing culture that supports the outstanding work of our faculty and students. In deciding whether to apply for a staff position at Berkeley, candidates are strongly encouraged to consider the alignment of the Berkeley Workplace Culture with their potential for success at http://jobs.berkeley.edu/why-berkeley.html.
+
+
+
+
+
+Application Review Date
+
+
+
+
+
+The First Review Date for this job is: 10/13/17
+
+
+
+
+
+Departmental Overview
+
+
+
+
+
+Advancement Operations Unit OverviewAdvancement Operations develops and delivers the centralized business systems and services that support the work of UC Berkeley’s 30 decentralized fundraising units—helping them collaborate and communicate in order to maximize their collective results. Advancement Operations also provides governance through its role as the official source of alumni and fundraising data. The unit offers services that include advancement data management and enhancement, business intelligence and analytics, business process analysis and design, advancement training and communication, and customer support. Advancement Operations also oversees information technology systems and tools, including the Cal Advancement Data System (CADS), the database in which advancement professionals conduct research and record fundraising activity. Advancement Operations encompasses four units: Advancement Information Management, Information Technology, Planning and Analysis, and Advancement Training and Outreach.Advancement Information Management Unit OverviewAdvancement Information Management (AIM) is the office of record for data related to alumni, donors, and friends of UC Berkeley. AIM helps the advancement community meet programmatic and campaign goals by providing accurate, complete data that documents the campus’s relationship with its constituents. AIM archives, enhances, and manages the data and delivers it through efficient processes and effective systems in a secure environment. In addition, AIM supports the campus advancement community with customer service on all CADS issues and works with campus units to provide meaningful information about that data through reporting and analysis services. Position OverviewAs a member of the reporting and analytics team, the Data Systems Analyst uses skills as an experienced data management professional with full understanding of industry practices and campus methodologies, policies and procedures to analyze large­scale data sets and problems and resolves a wide range of business issues. Works on projects such as providing fundraising performance analytics, improving business processes around data management, leading projects to provide data services and tools to optimize advancement operations, and more. Demonstrates good judgment in selecting methods and techniques for obtaining solutions. Interfaces with campus clients to provide expert customer service and guidance in the use of advancement data. Evaluates data sets, procedures, and services and recommends or designs new processes, services, reports and analysis to meet business requirements or to improve information acquisition, flow, and architecture. Creates functional and technical specifications for business processes and systems to document and implement requestor requirements. Ensures accuracy and completeness of data; establishes and maintains data security. Participates in and leads cross­functional projects of diverse scope, size, impact, and budget.
+
+
+
+
+
+Responsibilities
+
+
+
+
+
+•	Applies professional and broadly defined IT and business analysis and data administration concepts to manage and perform complex assignments. •	Provides analysis for complex information requirements and documents those using formal data definition techniques and naming standards. Creates complex specifications for processes and systems to meet user requirements. Prepares analysis reports to meet requirements.•	Gathers, analyzes, prepares and summarizes information from subject matter experts and technical personnel; summarizes business and user needs, documenting requirements and revising existing system logic difficulties as necessary; and develops recommendations for data management resource plans, including approaches, trends, sources and uses, etc. •	Performs complex data management or resource research and studies for a variety of internal department constituents; plans metadata acquisition for sets of unstructured data objects, such as collections of images, documents or recordings. •	Under supervision, designs and implements capture of metadata from technical processes such as software design and database management. Maintains advancement data dictionary•	Validates requirements against needs.•	Applies professional project management concepts; and is able to apply IT and project management policies and procedures in managing complex assignments.•	Implements the project management process in support of the campus&#039; products and services involving departmental or cross-functional teams focused on the delivery of new or existing products.Applies professional project management concepts; and is able to apply IT and project management policies and procedures in managing complex assignments.•	Implements the project management process in support of the campus&#039; products and services involving departmental or cross-functional teams focused on the delivery of new or existing products.
+
+
+
+
+
+Required Qualifications
+
+
+
+
+
+•	Requires strong knowledge of data management systems, practices and standards.•	Must have knowledge relating to logical data design, data warehouse design, data integration or the management of web content or other unstructured data.•	Must be able to prepare simple data models unassisted.•	Must be familiar with important types of data models, such as logical/relational models, dimensional models and document models.•	Must be familiar with data model patterns in one or more common business or academic domains.•	Must be familiar with logical data design and data mapping or data conversion.•	Must be self-motivated and independent, able to work with a minimum of supervision and able to work well with stakeholders and project staff.•	Ability to adapt quickly in a rapidly changing environment.•	Ability to prioritize and multi-task across numerous work streams.•	Should be familiar with data quality and governance issues and requirements.•	Strong analytical and design skills, including the ability to abstract information requirements from real-world processes to understand information flows in computer systems.•	Ability to represent relevant information in abstract models.•	Critical thinking skills and attention to detail.•	Good interviewing and listening skills.•	Very good written and oral communication skills.Education/Training:•	Bachelors degree in related area and/or equivalent experience/training
+
+
+
+
+
+Salary &amp; Benefits
+
+
+
+
+
+Salary is commensurate with experience.For information on the comprehensive benefits package offered by the University visit: http://ucnet.universityofcalifornia.edu/compensation-and-benefits/index.html
+
+
+
+
+
+How to Apply
+
+
+
+
+
+Please submit your cover letter and resume as a single attachment when applying.
+
+
+
+
+
+Conviction History Background
+
+
+
+
+
+This is a designated position requiring fingerprinting and a background check due to the nature of the job responsibilities.&nbsp; Berkeley does hire people with conviction histories and reviews information received in the context of the job responsibilities.&nbsp;&nbsp;&nbsp; The University reserves the right to make employment contingent upon successful completion of the background check.­
+
+
+
+
+
+Equal Employment Opportunity
+
+
+
+
+
+The University of California is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or protected veteran status. For more information about your rights as an applicant see: http://www.eeoc.gov/employers/upload/poster_screen_reader_optimized.pdfFor the complete University of California nondiscrimination and affirmative action policy see:http://policy.ucop.edu/doc/4000376/NondiscrimAffirmAct
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Return to Previous Page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+t
+&nbsp;
+
+
+
+
+Help
+
+
+test&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+&nbsp;
+Careers&nbsp;
+
+Default Local Node:DbName:Portal:Node:WorkCenter Id:Url:
+&nbsp;
+
+
+
+test
+
+
+
+
+
+var nMaxSavedStates=5;
+var sHistURL="https://jobsprod.is.berkeley.edu/psc/jobsprod/EMPLOYEE/HRMS/c/HRS_HRAM.HRS_CE.GBL?page=HRS_CE_JOB_DTL&Page=HRS_CE_JOB_DTL&Action=A&JobOpeningId=23936&";
+var bHtml5Doc = true;
+var bClearBackState=false;
+var bPageTransfered=false;
+var bTransferAnimate=false;
+var bCleanHtml = true;
+var bDefer = true;
+document.deferFldArr_win0 = new Array();
+document.hiddenFldArr_win0 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','ICFocus','ICSaveWarningFilter','ICChanged','ICAutoSave','ICResubmit','ICSID','ICActionPrompt','ICTypeAheadID','ICBcDomData','ICFind','ICAddCount','ICAPPCLSDATA');
+document.chgFldArr_win0 = new Array();
+AddToHistory('Hrs Ce Job Dtl', '', '', 'HRS_CE_JOB_DTL', 1, 0, 1, 0,  0);
+var bCleanHtml = true;
+var bDefer = true;
+document.hiddenFldArr_win0 =new Array('ICType','ICElementNum','ICStateNum','ICAction','ICXPos','ICYPos','ResponsetoDiffFrame','TargetFrameName','FacetPath','ICFocus','ICSaveWarningFilter','ICChanged','ICAutoSave','ICResubmit','ICSID','ICActionPrompt','ICTypeAheadID','ICBcDomData','ICFind','ICAddCount','ICAPPCLSDATA');
+document.chgFldArr_win0 = new Array();
+var bCDATA = false;
+var bAccessibleLayout = false;
+var bLoadCompleted = true;
+

@@ -1,0 +1,316 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sr. Business Intelligence Analyst - Business &amp; Decision US
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.businessdecision.us\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+var ms_grabbing_curosr='http://www.businessdecision.us/wp-content/plugins/masterslider/public/assets/css/common/grabbing.cur',ms_grab_curosr='http://www.businessdecision.us/wp-content/plugins/masterslider/public/assets/css/common/grab.cur';
+
+
+body.custom-background { background-image: url('http://www.businessdecision.us/wp-content/uploads/2016/04/header_bluedigital.jpg'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
+
+
+
+
+
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-29760803-5', 'auto');
+
+  ga('send', 'pageview');
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+		
+
+		
+
+			
+
+				
+
+					
+
+						
+
+						Toggle navigation
+
+						
+
+						
+
+						
+
+						
+
+						
+
+						
+						
+
+					
+
+					
+
+						About Us
+
+	Team
+	Investors
+
+
+Industries
+Expertise
+
+	How We Help Our Clients
+	What We Do
+	Digital Transformation
+
+
+News
+Careers
+Events
+Contact
+
+					
+
+				
+
+			
+
+			
+			
+
+		 
+
+				
+
+			
+
+				
+
+					
+
+						
+
+																						
+
+									
+
+										Sr. Business Intelligence Analyst
+
+									
+
+									
+
+										Type:  Full-time
+
+										Location:  Scottsdale, AZ
+
+										General Overview: As a Senior Data Analytics/BI Consultant, you are expected to combine business consulting with data and analytics skills, and work with a variety of technologies, which may include BI and analytics platforms, data warehouse, ETL tools, and data quality and data governance. Flexibility on work assignments, and work location, are essential to our operations.  Our west coast office is in Scottsdale, AZ, but flexibility to travel is required, based on business needs. There will likely be opportunities for training and growth into alternate technologies.
+Position Overview: Our team consists of staff members with the general data and business capabilities listed below, yet each individual often brings specific tools and technology experience required for our engagements.  Currently, we are seeking a data management professional with experience in the implementation and development of data and BI solutions.  Experience must include strong database development fundamentals and BI solution implementation experience in a client-facing setting.  Successful candidates will have experience, in a formal or informal role, leading or mentoring others within in at least 1 or 2 projects. Past application development experience with .NET or Java is desirable, as is experience in public sector, healthcare or life sciences.
+ Responsibilities: 
+
+Lead and mentor Associate Consultants on project teams and develop and own design decisions
+Lead the design and build of data management solutions which provide data acquisition, data quality, data transformation, master data management and data integration of disparate sources
+Lead the design and build of dashboards, visualizations and analytics
+Contribute towards data modelling, data warehouse build and ETL activity
+Generate solution documentation for design, training and support purposes
+Work to a high standard of design and delivery within pre-determined timelines
+Provide regular and accurate progress reporting and communication to B&amp;D colleagues
+Work within Agile frameworks such as SCRUM
+Partner with client stakeholders as appropriate
+
+ Qualifications 
+
+6+ years of experience working with data in analysis and management context and 10+ years of overall professional work experience
+Strong business skills, including stakeholder management, preparing and delivering presentations and workshops, and collecting (and challenging) requirements
+Competency with relational databases (SQL Server, Oracle, etc.) including experience with product specific SQL, such as PL/SQL or T-SQL
+Competency with an ETL technology, such as Informatica, Data Stage, Talend, ODI, SSIS, etc.
+Familiarity with data modelling and integration methodologies or techniques including Star Schema, 3NF, Inmon/Kimball, Data Vault, etc.
+Expertise in solutions architecture for data management solutions, such as MDM, data quality, or data security is desirable
+The ability to capture business requirements and lead workshops
+An awareness of test and QA procedures
+Ability to travel &#8211; Travel schedules range from 0 – 75%, as business needs dictate
+
+ 
+&nbsp;
+										Business &amp; Decision, North America, Inc. is an equal opportunity employer M/F/D/V
+Please apply to us.careers@businessdecision.com
+Get social with B&amp;D on Facebook, LinkedIn, Google Plus and Twitter. Follow @BD_NACareers on Twitter for the latest career opportunities.
+									
+
+								
+
+								
+
+
+
+													
+
+					
+
+				
+
+			
+
+					
+	
+
+			
+		
+				
+	
+	
+			
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+		
+
+
+
+	North American Headquarters5 Great Valley Parkway, Suite 247, Malvern, PA 19355
+Scottsdale Office 15333 N Pima Rd, Suite #305
+Scottsdale, AZ 85258contact.us@businessdecision.com Wayne, Pa Phone: 610-230-2500 
+ Scottsdale, Az Phone: 602-566-5266 © Copyright Business and Decision, North America 2016	 
+
+
+
+ 
+
+
+
+
+
+ 	.widget .widget-title:before, .entry-title:before, .page-header .page-title:before, .entry-title:after, ul.nav > li.current_page_item > a:before, .nav > li.current-menu-item > a:before, h1.page-title:before { background: #0066bf !important; }	.big-title-container .red-btn { background: #e81b00}	.big-title-container .red-btn:hover { background: #0066bf}	.big-title-container .red-btn:hover { color: #ffffff !important }	.big-title-container .green-btn:hover { color: #fff !important }	.focus { background: #ffffff }	.focus .section-header h2{ color: #272727 }	.focus .section-header h6{ color: #272727 }	.focus .focus-box h5{ color: #272727 }	.focus .focus-box p{ color: #272727 }	.focus .focus-box:nth-child(4n+1) .service-icon:hover { border: 10px solid #e81b00 }	.focus .focus-box:nth-child(4n+1) .red-border-bottom:before { background: #e81b00 }	.focus .focus-box:nth-child(4n+2) .service-icon:hover { border: 10px solid #0066bf }	.focus .focus-box:nth-child(4n+2) .red-border-bottom:before { background: #0066bf }	.focus .focus-box:nth-child(4n+3) .service-icon:hover { border: 10px solid #dd0000 }	.focus .focus-box:nth-child(4n+3) .red-border-bottom:before { background: #dd0000 }	.focus .focus-box:nth-child(4n+4) .service-icon:hover { border: 10px solid #0066bf }	.focus .focus-box:nth-child(4n+4) .red-border-bottom:before { background: #0066bf }.works .red-border-bottom:before { background: #e81b00 !important; }	.about-us, .about-us .our-clients .section-footer-title { background: #ffffff }	.about-us { color: #272727 }	.about-us p{ color: #272727 }	.about-us .section-header h2, .about-us .section-header h6 { color: #272727 }.about-us	.skills input { color: #272727 !important; }.about-us .our-clients .section-footer-title { color: #272727 !important; }	.our-team { background: #ffffff }	.our-team .section-header h2, .our-team .member-details h5, .our-team .member-details h5 a, .our-team .section-header h6, .our-team .member-details .position { color: #404040 }	.our-team .team-member .social-icons ul li a:hover { color: #dd0000 }	.our-team .team-member .social-icons ul li a { color: #808080 }.team-member:hover .details { background: #7299bf !important; }	.our-team .row > div:nth-child(4n+1) .red-border-bottom:before { background: #dd0000 }	.our-team .row > div:nth-child(4n+2) .red-border-bottom:before { background: #0066bf }	.our-team .row > div:nth-child(4n+3) .red-border-bottom:before { background: #dd0000 }	.our-team .row > div:nth-child(4n+4) .red-border-bottom:before { background: #0066bf }	.testimonial { background: #dd0202 }	.testimonial .feedback-box { background: #FFFFFF !important; }	.separator-one { background: rgba(9,106,191,0.8) }	.separator-one .green-btn { background: #dd0000 }	.separator-one .green-btn:hover { background: #dd3333 }	.separator-one .green-btn { color: #fff !important; }	.separator-one .green-btn:hover { color: #fff !important; }	.purchase-now { background: #e8270d }	.purchase-now .red-btn { background: #db1900 !important }	.purchase-now .red-btn { color: #fff !important; }	.purchase-now .red-btn:hover { color: #fff !important; }	.contact-us button { background: #e81b00 }	.contact-us button:hover { background: #cc1700 !important; box-shadow: none; }	.contact-us button:hover, .pirate_forms .pirate-forms-submit-button:hover { color: #fff !important; }	.packages { background: rgba(0, 0, 0, 0.5) }	#latestnews { background: #fff }	#latestnews .section-header h2 { color: #404040 }	#latestnews .section-header h6 { color: #808080 }	#latestnews #carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+1) .latestnews-title a:before { background: #e81b00}	#latestnews #carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+2) .latestnews-title a:before { background: #0066bf}	#latestnews #carousel-homepage-latestnews .item .latestnews-box:nth-child(4n+4) .latestnews-title a:before { background: #dd0000} section#subscribe { background: rgba(0, 0, 0, 0.5) !important; }	#footer .company-details:hover, #footer .company-details a:hover, #footer .footer-widget a:hover { color: #e96656 !important; }	#footer .footer-widget h1 { color: #fff !important; }	#footer .footer-widget h1:before { background: #e96656 !important; }function ytc_init_MPAU() {jQuery('.ytc-lightbox').magnificPopupAU({disableOn:320,type:'iframe',mainClass:'ytc-mfp-lightbox',removalDelay:160,preloader:false,fixedContentPos:false});}jQuery(window).on('load',function(){ytc_init_MPAU();});jQuery(document).ajaxComplete(function(){ytc_init_MPAU();});
+
+
+
+
+
+
+
+
+
+
+
+
+

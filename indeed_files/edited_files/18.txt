@@ -1,0 +1,570 @@
+
+
+
+
+
+
+
+
+	Analyst #310952 Tampa, FL Headquarters
+
+
+
+   
+
+   
+
+   
+
+
+
+
+
+
+
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+            You are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience.
+
+        
+
+
+
+        
+
+            
+
+           
+
+            
+
+        
+
+
+
+        
+
+            
+
+
+
+      
+
+ 
+
+
+
+            
+
+  
+
+  
+
+      var leftVal = (screen.width - 1000) / 2;
+
+      var topVal = 0;
+
+      var winOpts = "resizable=yes,scrollbars=yes,width=1000,height=550,left=" + leftVal + ",top=" + topVal;
+
+      var winOpts2 = 'resizeable=yes,scrollbars=yes,width=500,height=600';
+
+
+
+      function popUp(pPage) {
+
+         var popUpWin = window.open(pPage, 'popWin', winOpts);
+
+         popUpWin.focus();
+
+      }
+
+      function popUp2(pPage) {
+
+         popUpWin = window.open(pPage, 'popWin', winOpts2);
+
+         popUpWin.focus();
+
+      }
+
+      $(function () {
+
+          if ($('body').html().indexOf('Job ' + 'Not ' + 'Found') >= 0) {
+
+              $('.actions').hide();
+
+              $('article').html('Job ' + 'Not ' + 'Found');
+
+          }
+
+      });
+
+   
+
+
+
+   
+
+   
+
+
+
+
+
+            You are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience.
+
+        
+
+
+
+                
+
+                    
+
+                        Analyst
+
+                        
+
+                   Tampa, FL Headquarters
+
+                     
+
+                     |  Strategy and Planning
+
+
+
+                          |  Regular Employee FT
+
+                   
+
+                     |  Strategy and Planning
+
+                   
+
+                   
+
+                   
+
+                    
+
+                    
+
+                      
+
+
+
+                       
+
+                      
+
+                      
+
+                   
+
+                   
+
+                   
+
+                   
+
+                   
+
+                        
+
+                    
+
+                    
+
+                    
+
+                    	
+
+                        
+
+                        	Apply
+
+                        	
+
+
+
+                            View All Jobs
+
+                        
+
+                        
+
+                    	
+
+                    
+
+                    
+
+                    
+
+                         Share This Job
+
+                         
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+   var addthis_config = { "data_track_addressbar": true };
+
+
+
+
+
+                    
+
+
+
+                    
+
+                    
+
+                    
+
+                    
+
+                     
+
+                    	Job Description
+
+                      
+
+	Coca-Cola Beverages Florida (&ldquo;CCBF&rdquo;), headquartered in Tampa, Florida, is one of the largest independently owned and operated Coca-Cola bottlers in the United States. CCBF markets, sells, and distributes products of The Coca-Cola Company (TCCC) in Florida.
+
+
+
+	Coca-Cola Beverages Florida seeks to add a key member to its team by employing a dynamic Analyst.
+
+
+
+	Analysts work with a variety of stakeholders to understand key business opportunities and deliver the analytical support needed to make value creating business decisions.&nbsp; Primary duties are typically separated into three categories: (i) definition of business opportunity (ii) solution formulation and analysis, and (iii) project management.
+
+
+
+	Definition of Business Opportunity:
+
+
+
+	
+
+		Redefine business problems as solution hypotheses that can be answered through data mining and analytics
+
+	
+
+		Perform in-depth research to help identify new investment opportunities and develop strategic investment rationales
+
+	
+
+		Bring a fresh, objective voice to business discussions, and facilitate decisions grounded in data, not just previous experience
+
+
+
+
+
+	Solution Formulation and Analysis:
+
+
+
+	
+
+		Evaluate prospective solutions for coherence with company strategy and priorities
+
+	
+
+		Demonstrate analytical skills, employing statistical modeling techniques, to create tools to answer business questions
+
+	
+
+		Build robust, flexible financial models that support traditional valuation methodologies and sensitivity analyses
+
+	
+
+		Consult and coordinate with a variety of subject matter experts, including operations, finance, legal, and third-party advisors to ensure solutions can be executed in an integrated way across the entire value chain
+
+	
+
+		Document core business processes and work with subject matter experts to facilitate the design of business process changes
+
+	
+
+		Communicate evaluation of business opportunities, analysis results, and action recommendations to relevant senior professionals via verbal and written reports and presentations, including preparing qualitative and quantitative reports, memoranda, and spreadsheets
+
+
+
+
+
+	Project Management:
+
+
+
+	
+
+		Assist in realization of value capture opportunities by seeing solutions through to implementation
+
+	
+
+		Track and monitor project management activities and review progress with relevant stakeholders
+
+	
+
+		Provide hands-on support to business teams, as necessary
+
+
+
+
+
+	Other Responsibilities:
+
+
+
+	
+
+		Help develop team members in modeling, project management and other aspects of the analytics process
+
+	
+
+		Perform related work and ad-hoc projects, as assigned
+
+
+
+
+
+	&nbsp;
+
+
+
+	&nbsp;
+
+
+
+	&nbsp;
+
+                    
+
+                    
+
+                    
+
+                    		Skills & Requirements
+
+                      
+
+	Education:
+
+
+
+	
+
+		Bachelor&rsquo;s degree from an accredited four-year college or university with major coursework in statistics, data analysis, economics, engineering, finance, accounting, operations research or related areas
+
+	
+
+		Master&rsquo;s degree may substitute for one (1) year of the required experience
+
+
+
+
+
+	Experience:
+
+
+
+	
+
+		Two (2) years of full-time professional experience involving a high degree of skill in data analysis, modelling and evaluation, such as statistics, financial analysis, management consulting or engineering.
+
+
+
+
+
+	Preferred Qualifications:
+
+
+
+	
+
+		Experience in investment banking, consulting and/or risk underwriting
+
+	
+
+		Experience with SAP Enterprise systems &amp; applications
+
+	
+
+		Broad knowledge of statistical modeling and data mining methodologies and tools
+
+
+
+
+
+	&nbsp;
+
+                    
+
+                    
+
+                    
+
+                      
+
+                      
+
+                    	
+
+                        
+
+                        	Apply
+
+                        	
+
+
+
+                            View All Jobs
+
+                           
+
+                        
+
+                        
+
+                     
+
+                    
+
+                
+
+
+
+
+
+           
+
+            
+
+             
+
+         
+
+
+
+        
+
+            
+
+           
+
+              Coca-Cola Beverages Florida is an Equal Opportunity Employer and does not discriminate against any employee or applicant for employment because of race, color, sex, age, national origin, religion, sexual orientation, gender identity and/or expression, status as a veteran, and basis of disability or any other federal, state or local protected class.
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready(function () {
+
+$.iframeHeightExternal(); 
+
+});
+
+
+
+            
+
+                
+
+
+
+   
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+
+
+
+
+  ga('create', 'UA-128380-1', 'auto');
+
+
+
+ ga('set', 'dimension1', '7557');
+ga('set', 'dimension3', '310952');
+
+
+
+
+  ga('send', 'pageview');
+
+
+
+
+
+     
+
+try{ hbmetrics.init(100846880); }catch(e){}
+
+
+
+     
+
+
+
+
+

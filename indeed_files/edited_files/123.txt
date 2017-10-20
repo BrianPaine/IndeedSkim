@@ -1,0 +1,529 @@
+
+
+
+
+
+
+
+      
+         
+         
+         
+    
+    
+    <!--
+
+    
+        
+        
+        
+        
+        
+		
+        
+    HCSC - Careers | Job Search
+	
+
+        
+        
+        
+        
+
+        
+        
+        
+
+        
+        
+
+        
+        
+
+        
+
+        
+        
+        
+        
+
+        
+		
+		
+	
+    
+    
+	
+    
+    
+    
+
+        
+            function MM_goToURL(doc, loc) {
+                document.MM_returnValue = false;
+                eval(doc + ".location='" + loc + "'");
+            }
+
+            function fixSubmitClasses() {
+                var inputElements = document.getElementsByTagName("input");
+
+                for (var i = 0; i < inputElements.length; i++) {
+                    if (inputElements[i].type == "submit") {
+                        $(inputElements[i]).addClass("submitbutton");
+                    }
+                }
+            }
+        
+
+
+        
+
+        
+            body {
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 15px;
+                color: #444;
+            }
+            
+            div {
+                font-size: inherit;
+            }
+        
+        
+        
+			
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-72681204-1', 'auto');
+ga('send', 'pageview', '/res_viewjob.html');
+ga('create', 'UA-70551902-5', 'auto', 'b');
+ga('b.send', 'pageview', '/res_viewjob.html');
+
+
+
+
+		
+    
+
+
+
+View Job
+
+
+    
+	
+		
+	
+			
+				
+					
+				
+				
+					&nbsp;
+				
+			
+			
+			
+				
+					
+						About UsTotal RewardsCareer AreasGetting HiredLocations
+					
+				
+			
+    
+            
+            
+                
+                
+                    
+                        
+    
+				
+					
+				
+			
+    
+            
+				
+					
+						About UsTotal RewardsCareer AreasGetting HiredLocations
+					
+				
+			
+		
+		
+		var menuOn = false;$(document).ready(function(){$("#drop-down-menu").hide();$("#menu-button").click(function(){if (menuOn == false){$("#drop-down-menu").slideDown();menuOn = true;}else {$("#drop-down-menu").slideUp();menuOn = false;}});});
+	
+	
+
+		
+	
+
+		
+        		
+            	
+              		&nbsp;Search for a Job
+              
+            
+        
+	
+	
+	
+		
+		For more than 80 years, HCSC has been dedicated to expanding access to high-quality, cost-effective health care and equipping our members with information and tools to make the best health care decisions for themselves and their families. As an industry leader, HCSC also has been helping to make the health care system work better for all Americans. To remain a leader, we offer compelling careers that encourage resourcefulness, strategic thought and empower you to make a difference in the lives of our members and their communities.
+		Today, with the industry at an important crossroad, HCSC is reimagining health care and looking for original thinkers who aren’t afraid to make innovative contributions. We are an Equal Opportunity Employment / Affirmative Action employer dedicated to workforce diversity and a drug-free and smoke-free workplace. Learn more about HCSC, our commitment to our members and the opportunity you’ll have to improve health care delivery in an open, collaborative environment.
+
+		
+		
+
+        
+        
+        
+           
+            
+            
+			
+            
+                
+                    
+                        Careers Menu
+                        
+                    
+
+                    
+					
+
+                    
+                        
+                            
+                        
+                        
+                            Job Search
+                        
+                        
+                        
+                            My Account
+                        
+                        
+                            Login
+                        
+                        
+                            Help
+                        
+                    
+                
+            
+			
+			
+            
+            
+            
+                
+                
+            
+            
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                        
+                                    
+                                
+                                
+                                    
+                                
+                            
+                            
+                                
+                                
+                            
+                        
+                    
+                
+                
+                    
+                    
+                    
+
+
+
+var focusElement;
+function setFocusElement(e) {
+if (e != null) { 
+focusElement = e; 
+}
+}
+function setFocus() {
+ try {
+  if (focusElement != null) { 
+    focusElement.focus(); 
+    }
+ }
+ catch(ex) {
+ }
+}
+addOnLoadFunction(setFocus,null);
+
+
+
+    
+    	
+    	
+		    Back to Search Results
+        
+        
+    	Job Opportunity
+    
+	
+            Analytics & Reporting Analyst&nbsp;9/18/17Full-Time RegularTX - Richardson
+    
+    
+            
+		
+            	
+                 	Refer
+                
+		
+		
+                
+	            
+	                
+	                	Save
+	                
+	            
+            	
+					
+	                	Apply
+	                
+	            
+	            
+	            
+	            
+            
+            
+            
+	        
+            Job ID:&nbsp;CP-1020335
+            
+ 
+            Description:
+            
+            	
+&nbsp;BASIC FUNCTION:This position is responsible for creating reports, insights and analytics in support of the division; creating specifications for reports and analysis based on business needs; possibly providing consultation to users and working on cross functional teams to address the divisions issues; producing datasets and reports for analysis using system reporting tools; possibly performing research and assisting in analyzing data related to the division's strategic initiatives and broader research needs; interfacing between the business and divisional data teams to generate tools to be leveraged in building analysis and reports which are actionable within the business environment; working closely with customers to build relationships; and continuously gaining a deeper understanding of the division's data in order to meet business needs; analyzing complex business problems and issues using data from internal and external sources to provide insight to decision-makers; identifying and interpreting trends and patterns in datasets to locate influences.JOB REQUIREMENTS:* Bachelor Degree OR 2 years experience in data analysis and information reporting data.* Build knowledge of division, business processes and customers.* Assist in solving a range of problems.* Assist with possible solutions using standard procedures to solve routine or basic problems.* Assist in producing data sets and reports for analysis using SQL, Excel or other reporting tools.* Verify accuracy of reports and provide insights with guidance.&nbsp;* Use best practices and knowledge of internal or external business issues to improve products or services.* Learn needed skills by performing assigned work.
+PREFERRED REQUIREMENTS:*Experience with analysis and reporting of healthcare data.*Bachelors degree in statistics, mathematics, computer science or related field preferred.*Experience with Data visualization tool like Tableau, and statistical analysis tools like SAS.*Strong written and verbal communication skills and ability to communicate with both technical and non-technical areas of the business.
+&nbsp;
+&nbsp;
+This position is located in Richardson, TX OR Albuquerque, NM.
+Relocation will not be provided for this position.
+Sponsorship will not be provided for this position.
+            
+			
+				HCSC is committed to diversity in the workplace and to providing equal opportunity and affirmative action to employees and applicants.  We are an Equal Opportunity Employment / Affirmative Action employer dedicated to workforce diversity and a drug-free and smoke-free workplace. Drug screening and background investigation are required, as allowed by law. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, or protected veteran status.		
+			
+			
+            Requirements:
+            
+  
+      
+Expertise      
+      
+Analytics & Reporting      
+  
+  
+      
+Job Type      
+      
+Full-Time Regular      
+  
+  
+      
+Location      
+      
+TX - Richardson      
+  
+
+
+    	
+  	
+
+
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+                                        
+                                    
+                                
+                                
+                                    
+                                
+                            
+                            
+                                
+                                
+                            
+                        
+                    
+                
+            
+
+            
+            
+
+            
+
+            
+
+            
+                
+
+TMVideos.get( '//hcsctm.peoplefluent.com/rcPageVideosAction.action', 'content_Tbl', 'rcPage=res_viewjob&channelId=http://hcscrccorp.peoplefluent.com/&rcJobId=49213', '');
+
+            
+        
+
+        
+		
+			HCSC is committed to diversity in the workplace and to providing equal opportunity and affirmative action to employees and applicants.
+			If you are an individual with a disability or a disabled veteran and need an accommodation or assistance in either using the Careers website or completing the application process, you can email us here to request reasonable accommodations.
+			Please note that only requests for accommodations in the application process will be returned. All applications, including resumes, must be submitted through HCSC's Career website on-line application process. If you have general questions regarding the status of an existing application, navigate to "my account" and click on "View your job submissions".		
+		
+		
+	
+	
+	
+			
+				
+					 
+					
+					
+						
+						
+						
+						
+					
+				
+			
+				
+						
+						
+							ABOUT US
+							Purpose &amp; Values
+							Culture
+							Commitment to Community
+							Commitment to Diversity
+							Opportunities for Veterans
+						
+						
+					
+					
+					
+						
+							TOTAL REWARDS
+							Benefits
+							Wellness
+							Professional Development
+						
+					
+					
+					
+					
+					
+						
+							CAREER AREAS
+							Accounting &amp; Finance
+							Actuarial &amp; Underwriting
+							Customer Service Operations
+							Data &amp; Analytics
+							Internships
+							Marketing &amp; Communications
+							Medicare &amp; Medicaid Programs
+							Network Management &amp; Provider Relations
+							Nurses, Doctors &amp; Clinical
+							Sales &amp; Account Management
+							Technology
+						
+					
+					
+					
+					
+					
+					
+						
+							GETTING HIRED
+							Career FAQs
+							Our Hiring Process
+							<!--Career Event Calendar-->
+							Campus
+							<!--News/Blog-->
+						
+					
+					
+					
+					
+					
+					
+						
+							LOCATIONS
+							Illinois
+							Montana
+							New Mexico
+							Oklahoma
+							Texas
+						
+					
+						
+				
+			
+			
+			
+				
+					HCSC Home | Important Information
+					Health Care Service Corporation is an Equal Opportunity Employment / Affirmative Action employer.					
+					Blue Cross and Blue Shield of Illinois, Blue Cross and Blue Shield of Montana, Blue Cross and Blue Shield of New Mexico, Blue Cross and Blue Shield of Oklahoma, and Blue Cross and Blue Shield of Texas.Divisons of Health Care Service Corporation, a Mutual Legal Reserve Company, and Independent Licensee of the Blue Cross and Blue Shield Association&copy; Copyright  Health Care Service Corporation. All Rights Reserved.
+				
+			
+			
+
+			$('#year').html(new Date().getFullYear())
+			
+		
+	
+		
+
+
+  function handleSessions(status) {
+    if (status.hasSession) {
+    }
+    else {
+      // We were able to render this page, but we don't have an iPaaS Session
+      jQuery.get("logout.html?defer=true");
+      window.iPaaS.signOff();
+    }
+    window.iPaaS.sessionEnded = function () {
+      // Make an ajax request to logout.html?defer=true
+      jQuery.get("logout.html?defer=true");
+      window.iPaaS.signOff();
+    };
+
+  }
+  if ( window.iPaaS ) {
+    window.iPaaS.ready(handleSessions);
+  }
+
+    
+
+    
+

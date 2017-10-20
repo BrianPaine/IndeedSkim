@@ -1,0 +1,330 @@
+
+
+
+var _rollbarConfig = {"accessToken":"cbedf802895842e69f3824e4c21c6f88","hostWhiteList":["cloudfront\\.net","bookbub\\.com","kobubob\\.dev"],"ignoredMessages":["SecurityError \\(DOM Exception 18\\)","Facebook Pixel Error","Script error"],"captureUncaught":true,"captureUnhandledRejections":true,"payload":{"environment":"production"}};
+!function(r){function e(t){if(o[t])return o[t].exports;var n=o[t]={exports:{},id:t,loaded:!1};return r[t].call(n.exports,n,n.exports,e),n.loaded=!0,n.exports}var o={};return e.m=r,e.c=o,e.p="",e(0)}([function(r,e,o){"use strict";var t=o(1).Rollbar,n=o(2);_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://d37gvrvc0wt4s1.cloudfront.net/js/v1.9/rollbar.min.js";var a=t.init(window,_rollbarConfig),i=n(a,_rollbarConfig);a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,i)},function(r,e){"use strict";function o(r){return function(){try{return r.apply(this,arguments)}catch(e){try{console.error("[Rollbar]: Internal error",e)}catch(o){}}}}function t(r,e,o){window._rollbarWrappedError&&(o[4]||(o[4]=window._rollbarWrappedError),o[5]||(o[5]=window._rollbarWrappedError._rollbarContext),window._rollbarWrappedError=null),r.uncaughtError.apply(r,o),e&&e.apply(window,o)}function n(r){var e=function(){var e=Array.prototype.slice.call(arguments,0);t(r,r._rollbarOldOnError,e)};return e.belongsToShim=!0,e}function a(r){this.shimId=++c,this.notifier=null,this.parentShim=r,this._rollbarOldOnError=null}function i(r){var e=a;return o(function(){if(this.notifier)return this.notifier[r].apply(this.notifier,arguments);var o=this,t="scope"===r;t&&(o=new e(this));var n=Array.prototype.slice.call(arguments,0),a={shim:o,method:r,args:n,ts:new Date};return window._rollbarShimQueue.push(a),t?o:void 0})}function l(r,e){if(e.hasOwnProperty&&e.hasOwnProperty("addEventListener")){var o=e.addEventListener;e.addEventListener=function(e,t,n){o.call(this,e,r.wrap(t),n)};var t=e.removeEventListener;e.removeEventListener=function(r,e,o){t.call(this,r,e&&e._wrapped?e._wrapped:e,o)}}}var c=0;a.init=function(r,e){var t=e.globalAlias||"Rollbar";if("object"==typeof r[t])return r[t];r._rollbarShimQueue=[],r._rollbarWrappedError=null,e=e||{};var i=new a;return o(function(){if(i.configure(e),e.captureUncaught){i._rollbarOldOnError=r.onerror,r.onerror=n(i);var o,a,c="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(o=0;o<c.length;++o)a=c[o],r[a]&&r[a].prototype&&l(i,r[a].prototype)}return e.captureUnhandledRejections&&(i._unhandledRejectionHandler=function(r){var e=r.reason,o=r.promise,t=r.detail;!e&&t&&(e=t.reason,o=t.promise),i.unhandledRejection(e,o)},r.addEventListener("unhandledrejection",i._unhandledRejectionHandler)),r[t]=i,i})()},a.prototype.loadFull=function(r,e,t,n,a){var i=function(){var e;if(void 0===r._rollbarPayloadQueue){var o,t,n,i;for(e=new Error("rollbar.js did not load");o=r._rollbarShimQueue.shift();)for(n=o.args,i=0;i<n.length;++i)if(t=n[i],"function"==typeof t){t(e);break}}"function"==typeof a&&a(e)},l=!1,c=e.createElement("script"),d=e.getElementsByTagName("script")[0],p=d.parentNode;c.crossOrigin="",c.src=n.rollbarJsUrl,c.async=!t,c.onload=c.onreadystatechange=o(function(){if(!(l||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){c.onload=c.onreadystatechange=null;try{p.removeChild(c)}catch(r){}l=!0,i()}}),p.insertBefore(c,d)},a.prototype.wrap=function(r,e){try{var o;if(o="function"==typeof e?e:function(){return e||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._wrapped){r._wrapped=function(){try{return r.apply(this,arguments)}catch(e){throw e._rollbarContext=o()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e,e}},r._wrapped._isWrap=!0;for(var t in r)r.hasOwnProperty(t)&&(r._wrapped[t]=r[t])}return r._wrapped}catch(n){return r}};for(var d="log,debug,info,warn,warning,error,critical,global,configure,scope,uncaughtError,unhandledRejection".split(","),p=0;p<d.length;++p)a.prototype[d[p]]=i(d[p]);r.exports={Rollbar:a,_rollbarWindowOnError:t}},function(r,e){"use strict";r.exports=function(r,e){return function(o){if(!o&&!window._rollbarInitialized){var t=window.RollbarNotifier,n=e||{},a=n.globalAlias||"Rollbar",i=window.Rollbar.init(n,r);i._processShimQueue(window._rollbarShimQueue||[]),window[a]=i,window._rollbarInitialized=!0,t.processPayloads()}}}}]);
+
+Positions - BookBub
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  var bb_use_external_scripts = true;
+  if (bb_use_external_scripts) {
+    (function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"4020175"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");
+  }
+  window.randomAjaxDelays = false;
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27140214-5']);
+  _gaq.push(['_setDomainName', 'bookbub.com']);
+  _gaq.push(['_setCustomVar', 1, 'Platform', 'lello', 3]);
+  _gaq.push(['_setCustomVar', 2, 'Design', 'current', 3]);
+  _gaq.push(['_setCustomVar', 3, 'Deals Design', 'current', 3]);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview' ]);
+  
+  
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+    
+    
+     (function(d) {
+       var e = d.createElement('script');
+       e.src = d.location.protocol + '//tag.bounceexchange.com/2354/i.js';
+       e.async = true;
+       d.getElementsByTagName("head")[0].appendChild(e);
+     }(document));
+    
+
+
+
+
+
+Great books are timeless, web browsers are not. It looks like your browser is out of date. We do our best to support a wide variety of browsers and devices, but BookBub works best in a modern browser. For help upgrading, check out http://www.whatbrowser.org/.
+
+
+
+
+BookBub offers a great personalized experience. Unfortunately, your browser doesn't accept cookies, which limits how good an experience we can provide.  For more info on how to enable cookies, check out http://www.whatarecookies.com/.
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KMTG65');
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deals
+Authors
+Sign In
+
+
+
+
+
+
+
+
+
+
+
+
+Sign In
+Latest Deals
+Discover Authors
+Invite Friends
+Settings
+Help Center
+
+
+
+
+
+
+
+
+
+BookBub Careers
+Join our team and help us connect readers to books and authors they'll love.
+
+
+
+
+
+
+
+
+
+Data Analyst
+(View all jobs)
+Cambridge, MA
+
+
+Who We Are
+BookBub is one of the fastest growing consumer tech startups in Boston. Millions of readers use BookBub every day to find great books, and our service helps thousands of leading publishers and authors drive sales and find new fans. Connecting readers with great deals on ebooks is just the beginning for BookBub. We're growing our team to launch new consumer-facing book discovery features, tools for authors and publishers, and other web and mobile products that address the digital transition of the publishing industry.
+ 
+The Job
+BookBub is seeking a talented individual to help with strategic business analysis and data-based research projects. Projects will involve teams across BookBub, including Editorial, Business Development, Product, and Marketing. The Data Analyst will be a key member of business teams, contributing analysis and ideas that will shape the direction of the company. Responsibilities may include:
+
+Supporting teams with analysis around business operations including pricing, new category launches, A/B testing, and partner communication metrics
+Conducting targeted, project-based research and analysis around book performance and sales metrics to inform internal operations, conference presentations, press materials, blog posts, product research, and more
+Creating data science based models and algorithms to improve personalization of the BookBub service
+Analyzing marketing data to improve the performance of campaign elements including ads, landing pages, blog posts, and more
+Modeling, analyzing, and optimizing customer acquisition channels
+Maintaining and proactively optimizing daily performance statistics for BookBub’s Featured Deals product
+Gathering and analyzing author and reader feedback to help improve products and optimize communication strategy
+Serving as an internal resource around performance reporting, problem solving, and industry knowledge
+
+ 
+Your Experience 
+Ideal candidates for the position will have an inquisitive, investigative nature and interest in business strategy. They will also be excited about working in a highly engaging startup environment. They will have:
+
+A Bachelor's degree in Finance, Economics or a related field
+1+ years of experience in or exposure to data analytics
+Excellent problem-solving, analytical, and quantitative skills
+Experience collecting, analyzing, and synthesizing data to achieve business objectives
+Proficiency with Excel (familiarity with or ability to pick up SQL a plus)
+Strong written and verbal communication skills
+
+Bonus points if you enjoy reading books!
+ 
+Benefits
+BookBub offers competitive benefit options including medical, dental, vision, 401k, and take-what-you-need PTO.
+BookBub strives to be an inclusive workplace and we value learning from different perspectives. We seek to foster an environment filled with people from a wide variety of backgrounds, experiences, abilities, and perspectives. We do not discriminate on the basis of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity, or veteran status. We are proud to be an equal opportunity employer.
+
+
+
+
+
+
+Questions? We'd love to hear from you at
+careers@bookbub.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+visit our facebook page
+
+visit our twitter page
+
+visit our pinterest page
+
+
+
+
+
+Company
+
+About
+Careers
+For the Press
+Privacy &amp; Terms
+Contact
+
+
+
+Readers
+
+What is BookBub?
+In the News
+Free Ebooks
+Free Kindle Books
+The BookBub Blog
+Invite Your Friends
+Help
+
+
+
+Publishers &amp; Authors
+
+Partners Overview
+Submit New Deal
+Partner Dashboard
+Claim an Author Profile
+BookBub Partners Blog
+Partner FAQ
+
+
+
+
+
+&copy; 2017 BookBub.  All rights reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  $(function () {$('input, textarea').placeholder();});
+
+
+
+  var rawCookie = $.cookie("bbOptimizelyExperiment");
+  if (undefined !== rawCookie && '' !== rawCookie) {
+    var experimentData = JSON.parse(rawCookie);
+
+    if(null !== experimentData && '' !== experimentData) {
+      var internalPostUrl = "/optimizely_test_tracker"
+
+      for(var k in experimentData){
+        var experiment = experimentData[k];
+        if(true !== experiment.recorded ) {
+          $.ajax({
+            type: "POST",
+            url: internalPostUrl,
+            data: { "experiment_id" : experiment.experimentId,
+                    "variation_id" : experiment.variationId,
+                    "experiment_name" : experiment.experimentName,
+                    "variation_name" : experiment.variationName,
+                    "optimizely_end_user_id" : experiment.optimizelyEndUserId },
+            success: function(response) {
+              experiment.recorded = true;
+              experimentData[k ] = experiment;
+              $.cookie("bbOptimizelyExperiment", JSON.stringify(experimentData));
+            }
+          });
+        }
+      }
+    }
+  }
+
+
+
+
+    
+      
+      /*  */
+      
+      
+      
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+

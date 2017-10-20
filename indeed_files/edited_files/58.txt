@@ -1,0 +1,345 @@
+
+
+  var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);
+      
+      Database Analyst
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+      
+      
+        
+          Skip to Main Content
+        
+        
+          
+            
+  
+    
+      
+        
+          
+        
+      
+      
+        
+        
+      
+    
+  
+
+
+          
+          
+            
+  
+    
+      
+        Toggle navigation
+        
+        
+        
+      
+    
+    
+      
+  Home
+  Search Jobs
+    Create Account
+    Log In
+  Help
+
+
+      
+      
+    
+  
+
+
+            
+              
+                
+                  Database Analyst
+  
+  
+  
+      Bookmark this Posting |
+    Print Preview |
+        Apply for this Job
+  
+
+
+  
+    
+      Announcement
+      
+      
+           
+
+              Details
+              
+              
+                    
+                      Open Date
+                        09/21/2017
+                    
+                    
+                      Requisition Number
+                        PRN15320B
+                    
+                    
+                      Job Title
+                        Database Analyst
+                    
+                    
+                      Working Title
+                        Database Analyst
+                    
+                    
+                      Job Grade
+                        F
+                    
+                    
+                      FLSA Code
+                        Computer Employee
+                    
+                    
+                      Patient Care Job Code?
+                        No
+                    
+                    
+                      Standard Hours per Week
+                        40
+                    
+                    
+                      Full Time or Part Time?
+                        Full Time
+                    
+                    
+                      Shift
+                        Day
+                    
+                    
+                      Work Schedule Summary
+                        weekdays
+                    
+                    
+                      VP Area
+                        U of U Health - Academics
+                    
+                    
+                      Department
+                        00263 - Surgery Research
+                    
+                    
+                      Location
+                        Campus
+                    
+                    
+                      City
+                        Salt Lake City, UT
+                    
+                    
+                      Type of Recruitment
+                        External Posting
+                    
+                    
+                      Pay Rate Range
+                        47600 to 90400
+                    
+                    
+                      Close DateNOTE: May close at anytime.
+                        
+                    
+                    
+                      Open Until FilledNOTE: May close at anytime.
+                        Yes
+                    
+                    
+                      Job Summary
+                        Responsible for the management of data collected in the University of Utah’s Research Databases and combining it with population level data, as well as interacting with and providing data support to researchers and study staff. Duties include developing database solutions, defining database physical structure, writing database queries and reports, new study set-up, granting database access, managing data dictionaries, creating study-specific datasets, performing database updates, and writing scripts for data imports. Generates study pedigrees for familial research.
+                    
+                    
+                      Responsibilities
+                        Familiar with standard concepts, practices, and procedures within a particular field. Relies on experience and judgment to plan and accomplish goals. Performs a variety of tasks. Works under general supervision; typically reports to a project leader or manager. A certain degree of creativity and latitude is required.Work Environment and Level of Frequency typically requiredNearly Continuously: Office environment.Physical Requirements and Level of Frequency that may be requiredNearly Continuously: Sitting,  hearing,  listening,  talking.Often: Repetitive hand motion (such as typing),  walking.&nbsp;Seldom: Bending,  reaching overhead.
+                    
+                    
+                      Minimum Qualifications
+                        Requires a bachelor&#8217;s degree in a related area or equivalency and 2-4 years of experience in the field or in a related area.
+                    
+                    
+                      Preferences
+                        Experience with SQL querying and programming language and Microsoft SQL Server experience preferred. Prior experience with and understanding of relational databases. Knowledge of reporting and query tools and practices. Experience with statistical analysis programs such as SAS or R preferred.
+                    
+                    
+                      Type
+                        Benefited Staff
+                    
+                    
+                      Special Instructions Summary
+                        
+                    
+                    
+                      Additional Information
+                        
+The University of Utah is an Affirmative Action/Equal Opportunity employer and is committed to diversity in its workforce.  In compliance with applicable federal and state laws, University of Utah policy of equal employment opportunity prohibits discrimination on the basis of race or ethnicity, religion, color, national origin, sex, age, sexual orientation, gender identity/expression, veteran’s status, status as a qualified person with a disability, or genetic information.  Individuals from historically underrepresented groups, such as minorities, women, qualified persons with disabilities, and protected veterans are strongly encouraged to apply. Veterans&#8217; preference is extended to qualified applicants, upon request and consistent with University policy and Utah state law.
+To inquire about this posting, email: employment@utah.edu or call 801-581-2300.  Reasonable accommodations in the application process will be provided to qualified individuals with disabilities. To request an accommodation or for further information about University AA/EO policies, please contact the Office of Equal Opportunity and Affirmative Action, 201 S. Presidents Cr., Rm 135, (801) 581-8365 (V/TDD), email: oeo@umail.utah.edu. 
+
+The University is a participating employer with Utah Retirement Systems (“URS”). To be eligible for retirement contributions, you must be hired into a benefit-eligible position. Certain new hires are automatically assigned to the URS retirement plan and other employees with prior URS service, may elect to enroll in the URS within 30 days of hire. Regardless of whether they are hired into a benefit-eligible position or not, individuals who previously retired and are receiving monthly retirement benefits from URS must notify the Benefits Department upon hire. Please contact Utah Retirement Systems at (801)366-7770 or (800)695-4877 or the University’s Benefits Department at (801)581-7447 for information.
+
+This position may require the successful completion of a criminal background check and/or drug screen.
+
+                    
+                
+           
+      
+    
+  
+    Posting Specific Questions
+      
+          Required fields are indicated with an asterisk (*).
+
+     * 
+  Do you have a related Bachelor&#x27;s degree or equivalency? (2 years related work experience may be substituted for 1 year of education)
+    
+        Yes
+        No
+    
+
+
+
+   * 
+  How many years of database related work experience do you have?
+    
+        Less than 1 year
+        1 year or more, but less than 2 years
+        2 years or more, but less than 4 years
+        4 years or more, but less than 6 years
+        6 years or more
+    
+
+
+
+  
+  Please indicate your knowledge of and/or level of experience with relational databases:
+    (Open Ended Question)
+
+
+
+  
+  Please indicate your knowledge of and/or level of experience in SQL programming language.
+    (Open Ended Question)
+
+
+
+  
+  Please indicate your level of knowledge of medical terminology:
+    
+        None
+        Minimal
+        Moderate
+        Extensive
+    
+
+
+
+
+
+
+      
+    Applicant Documents
+      
+          Required Documents
+    
+    Resume
+
+
+Optional Documents
+    
+    Cover Letter
+    Appropriate discharge document (such as a DD-214 – Member Copy 4) – Veteran Only – Call 801.581.2169
+    Addendum to the University of Utah - Veteran Only - Call 801.581.2169 after submission
+
+
+
+
+      
+
+
+
+
+
+                
+              
+              
+            
+          
+          
+            
+  
+    
+    
+    
+
+&nbsp;
+
+
+
+
+  
+
+
+          
+        
+      
+    
+
+
+        
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-52617323-2', 'auto');
+          ga('set', 'dimension1', 'utah.peopleadmin.com');
+          ga('send', 'pageview');
+        
+
+    
+      
+    
+    
+  if (typeof NREUMQ !== "undefined") { if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","bam.nr-data.net","9de8d44d4a","958191","IAxfREQOCl4DQkpBDRAXWF5REklBDl8S",0,395,new Date().getTime(),"","","","",""]);}
+

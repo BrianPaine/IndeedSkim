@@ -1,0 +1,254 @@
+
+
+
+                                                                                            
+    
+    
+                        
+        
+        
+        Wayfair Careers - Business Intelligence Data Analyst
+                    
+            
+                                        
+                                            
+                
+            
+                                        
+        
+                        
+        
+
+        
+        
+        
+        
+                                
+                
+            
+        
+                
+    
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            var enableTracking = true;
+            var trackerId = "UA-15090121-1";
+            var pageTracker = _gat._getTracker("UA-15090121-1");
+        } catch(err) {}
+    
+    
+
+    function trackPage() {
+        try {
+            if (enableTracking && enableTracking == true) {//enableTracking var is set during analytics script reg.
+                var pageTracker = _gat._getTracker(trackerId);
+                var varIndex = 1;
+                try {
+                pageTracker._setCustomVar(varIndex++, "UserId", getUserId(), 1);
+                pageTracker._setCustomVar(varIndex++, "CompanyId", getCompanyId(), 1);
+                }//to track pages which does not have a User
+                catch (userIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "SubsidiaryId", getSubsidiaryId(), 1);
+                } //to track pages which does not have a subsidiaryId
+                catch (subsidiaryIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "JobId", getJobId(), 3);
+                    pageTracker._setCustomVar(varIndex++, "CategoryId", getCategoryId(), 3);
+                }//to track pages which does not have a jobref
+                catch (jodIdError) {
+                }
+                if (enableAnonymizeIP && enableAnonymizeIP == true) {
+                    _gat._anonymizeIp();
+                }
+
+                pageTracker._trackPageview();
+            }
+        }
+        catch (error) {
+
+        }
+    }
+
+
+    function getUserId() { return ''; }
+
+
+    function getCompanyId() { return 'qI69VfwC'; }
+
+    
+        function getJobId() { return 'oyei5fwT'; }
+    
+    
+        function getCategoryId() { return '8'; }
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+
+
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            enableTracking = true;
+            trackerId = "UA-23579685-1";
+            pageTracker = _gat._getTracker("UA-23579685-1");
+        } catch(err) {}
+    
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+        
+            if (window.self !== window.parent) {
+                document.documentElement.className += ' jv-iframe';
+            }
+        
+                 
+    
+    
+        
+                    
+        
+                            
+                            
+        
+            
+                                    
+                                                    Wayfair Careers                                            
+                            
+        
+                
+                
+
+        
+    
+                    
+                                
+                Business Intelligence Data Analyst
+    
+    
+            
+                        
+                            Analytics            
+                    Boston,
+                            Massachusetts
+                
+                        
+
+    
+                        
+                        
+    
+        Apply
+    
+                            
+                        
+                        
+                Wayfair is looking for candidates for its Business Intelligence group.  Wayfair’s BI group builds and maintains all aspects of the systems that provide business data used to drive decision making throughout the companyThe candidate should be able to quickly become familiar with the data and its structure.  The candidate should have excellent written and verbal communication skills.  Key functions of this role will be to investigate data issues and create ad hoc queries to support needs of business users.  The analyst will work collaboratively with nearly all groups throughout the organization.An ideal candidate has:1+ years of professional experience as a data analyst1+ years of experience working with MS Excel, MS SQL Server and T-SQL.Experience gathering requirements from business users.Knowledge of business intelligence.Knowledge of basic database principles.BS in Information Systems, Computer Science, or another quantitatively focused discipline (with strong SQL skills)Nice to have:Experience with SSRS and VBA.Experience tuning SQL.Knowledge of OLAP systemsAbout Wayfair:Wayfair (NYSE: W) offers an extensive selection of home furnishings and décor across all styles and price points. With an unparalleled selection of more than seven million home items from 7,000 suppliers, Wayfair helps people find the perfect product at the right price. Our unparalleled selection and superior customer service coupled with the convenience of online shopping, makes it easier than ever before to find exactly what you want for your home. The Wayfair family of brands includes:Wayfair.com, an online destination for all things homeJoss &amp; Main, an online flash sales site offering inspiring home design dailyAllModern, a go-to online source for modern designDwellStudio, a design house for fashion-forward modern furnishingsBirch Lane, a collection of classic furnishings and timeless home décorWayfair is headquartered in Boston, Massachusetts, and employs 2,000 people across its eight global locations of Boston, New York, Ogden, Utah, Hebron, Kentucky, Galway, Ireland, London, Berlin and Sydney.  The company has previously been named one of America’s Most Promising Companies by Forbes Magazine and selected by the Boston Business Journal and Glassdoor.com as a Top Company to Work For and Top Company for Well Balanced Life.Visit our Site: http://www.wayfair.comRead our Engineering Blog: http://engineering.wayfair.com/Find us on Facebook: http://www.facebook.com/wayfairFollow us on Twitter: http://www.twitter.com/wayfairCheck out our YouTube Channel: http://www.youtube.com/therealwayfair Wayfair does not accept unsolicited candidate referrals or resumes / CVs from third-party vendors, including recruitment agencies. Wayfair will not be responsible or liable for any fees or costs associated with such unsolicited submissions.
+            
+                            
+                    
+                
+                    
+    
+        Apply
+    
+                            
+        Apply Later    
+            
+        
+            &larr; Back to Current Openings        
+    
+    
+                                
+    
+        
+        Share
+        
+            
+                lang: en_US            
+            
+            
+                
+                    LinkedIn
+                
+            
+            
+                
+                    Facebook
+                
+            
+            
+                
+                    Twitter
+                
+            
+            
+                
+                    Email
+                
+            
+        
+    
+                        
+    
+                    
+            
+                    
+        
+            
+                                                                    
+                        Powered by Jobvite
+                            
+        
+    
+            
+    
+        
+        
+    
+            
+    
+    
+        angular.module('preloadedData', []).constant('preloadedData', {
+                                        applyLinkUrl: '${job.applyLinkUrl}',
+                jobCategoryId: 'arV9Vfwa',
+                jobCategoryName: 'Analytics',
+                jobId: 'oyei5fwT',
+                jobReqId: '7546                                              ',
+                jobTitle: 'Business Intelligence Data Analyst',
+                jobLocationId: 'CdVcVfwZ',
+                                                                jobviteAnalytics: 'UA-15090121-1',
+                                        companyAnalytics: 'UA-23579685-1',
+                                                                                                                            enableResumeParsing: true,
+                                        numberFormat: "##,###,###,###,###.####",
+                                    companyEId: 'qI69VfwC',
+            linkedInApiKey: '7557fkcarvxieo',
+            facebookApiId: '48354194572',
+            dropBoxApiKey: 'w5fg28zznqcyg4w',
+            baseUrl: '/wayfair',
+            cdnURL: '',
+            releaseVersion: '171003110732',
+            careersiteName: 'wayfair',
+            careersiteDomainName: '${careersiteDomainName}',
+            careersiteSourceTypeId: 'P86DVfww'
+        }).constant('i18n', {
+            I18N_RESUME_PREVIEW: 'Resume Preview',I18N_NO_RESUME_FOUND: 'No resume found',I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',I18N_RECOMMENDER: 'Recommender:',I18N_CURRENT: 'Current',I18N_PAST: 'Past',I18N_EDUCATION: 'Education',I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',I18N_PATENTS: 'Patents',I18N_SUMMARY: 'Summary',I18N_SPECIALTIES: 'Specialties',I18N_EXPERIENCE: 'Experience',I18N_RECOMMENDATIONS: 'Recommendations',I18N_PRESENT: 'Present',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec'        });
+        Jobvite = {
+            baseUrl: 'https://app.jobvite.com'
+        }
+    
+                    
+    
+
+    

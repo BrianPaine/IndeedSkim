@@ -1,0 +1,773 @@
+
+
+
+
+	
+
+		window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"000fd7bcd4","applicationID":"9080060","transactionName":"MgQEMRNWXEEFUxJcCwtOKzMiGHFTFlUDRxcmDggRE1heXgFCSXEBEQAPCQ==","queueTime":0,"applicationTime":119,"ttGuid":"146765764A1122E8","agent":""}window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		Jobs - Job Details - Data Analyst, Marketing
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+ 
+
+	
+
+ 
+
+
+
+
+
+
+
+	PU.Jobs.source = {"instId":676,"sourcePointer":"cw","language":"en","baseDomain":"http://jobs.pepperdine.edu","dynamicTemplate":false,"action":"Detail"};PU.Analytics.init({"TrackingId":"UA-3555366-20","InstanceTrackingId":null});if (PU.LocationSearch) { PU.LocationSearch.setIPLocation({"Lat":39.957199096679688,"Lon":-74.91619873046875,"Country":"United States","State":"New Jersey","City":"Mount Laurel"})};
+
+		
+
+	
+
+		 
+
+    
+
+    #keyword_table #search-keyword{
+
+      width:90%;
+
+      padding:10px;
+
+    }
+
+   #jobs-form td{padding-left:0;}
+
+    
+
+    #sideNav table td, #jobs-form #keyword_table  td{padding:10px;}
+
+    #jobs-form .button{
+
+      background-color:#ee7624;
+
+      background-image:none;
+
+      color:#ffffff;
+
+      background-image:none;
+
+      border-radius:0;
+
+    }
+
+    #jobs-form .button:hover{
+
+      background-color:#f7f6f5;
+
+          color: #00205c;
+
+    }
+
+           /*  #pup-aside{margin-top:20px;}*/
+
+    #pup-content{width:65%;float:left;}
+
+    @media (max-width:600px){
+
+	
+
+	#pup-content,#pup-aside{width:100%;float:left;}
+
+    }
+
+           ul.filter li{width:90%;}
+
+           
+
+ul.filter li input {
+
+    margin: 3px 0 0 -17px;
+
+}
+
+           
+
+a[href^="http"]::after, a[href^="https"]::after {
+
+    content: "";
+
+           }
+
+           #jobs-form th{padding-left:5px;}
+
+           
+
+.filter-group-title {
+
+    color: #00071b;
+
+    font-family: "Helvetica Neue",Gotham,Arial,Helvetica,sans-serif;
+
+    font-size: 0.75rem;
+
+    font-weight: bold;
+
+    letter-spacing: 0.01em;
+
+    margin: 1.1rem 0 0.4rem;
+
+           }
+
+           #sideNav .button{width:100%;}
+
+           #sideNav .button a{padding:5px;} 
+
+           
+
+#sideNav {
+
+    padding-top: 15px;
+
+}
+
+           h2{padding-bottom: .1rem;
+
+border-bottom: 1px solid #d7d2cc;}
+
+           ul.link-bullets li::before, ul.link-bullets li.link-bullets::before, ul li.link-bullets::before{content:"»";}
+
+  
+
+		
+
+	
+
+	
+
+		
+
+			
+
+				
+
+					Pepperdine University
+
+					Jobs
+
+					
+
+					
+
+					
+
+					
+
+				
+
+			
+
+			
+
+
+
+								
+
+				
+
+					
+
+						
+
+							
+
+								Job Search
+
+								 My Aspirational Jobs
+
+								Existing Applicant Login								
+
+							
+
+						
+
+					
+
+								
+
+				
+
+
+
+			
+
+		
+
+
+
+		
+
+			
+
+			
+
+			
+
+                           
+
+                               
+
+                                   
+
+                                       
+
+                                         Search by Keyword or Location
+
+                                           
+
+                                           
+
+
+
+                                       
+
+                                   
+
+                                   
+
+                                       
+
+                                         e.g. "Director, Malibu"
+
+                                       
+
+                                   
+
+
+
+                               
+
+                           
+
+                           
+
+		            
+
+Data Analyst, Marketing
+
+
+
+  Apply now
+
+  Job no: 496152
+
+  Work type: Regular
+
+  Location: West LA Campus
+
+  Categories: Graziadio School of Business and Management, Communication/PR/Marketing, Technology
+
+
+
+
+
+   Serves as chief data knowledge, financial performance, and insights analyst for enrollment marketing, with strong secondary role as deputy planner/project manager supporting Director, Enrollment Marketing. This position designs and develops marketing insight and data analysis reports across all degree programs. Position also manages the marketing budget and spend per program analysis and recommends annual financial investments based upon channel performance and overall enrollment goals.
+Duties
+
+Budget analysis, tracking, and reporting.
+Supports team on financial analysis and tracking, planning and lead flow management / monitoring /reporting across all programs. Utilize reporting systems such as Salesforce, Peoplesoft, AY and Google Analytics to develop performance management reports and dashboards.
+Develop market and consumer intelligence through conducting quantitative and qualitative research as well as leveraging existing research sources syndicated and otherwise.
+Tracking vendor performance for digital marketing via Google Adwords, Analytics and other tools to ensure work is completed as agreed upon.
+Perform other duties as assigned.
+Uphold University mission through work performed.
+
+The above information has been designed to indicate the general nature and level of work performed by employees within this classification. It is not designed to contain or be interpreted as a comprehensive inventory of all duties, responsibilities and qualifications required of employees assigned to this job.
+Skills and Qualifications
+Required:&nbsp;BS/BA with focus on Analytics, Computer Science, Finance, or related field, or equivalent experience in a related area; 2-3 years, experience with financial and/or digital performance analytics and monitoring (e.g. Google analytics).&nbsp;This individual should have basic knowledge of html, Excel, and data analysis tools; familiarity with CRMs (Salesforce or other); integration of data between systems; must be able to manage timely flow of business information to users; must be able to generate standard and custom reports summarizing business data for review by leadership team and other stakeholders.
+Preferred:&nbsp;MA/MBA with a background in statistical analysis, finance, and/or marketing; 5 years in a digital marketing environment, enrollment management/higher education environment; experience creating relevant reporting methods and extracting key intelligence from large data sets; data modeling design experience in order to recommend ongoing product optimization and innovation.&nbsp;Knowledge of financial analysis or marketing automation systems (such as Salesforce) a plus.&nbsp;Strong critical thinking skills, Excel skills, and statistical analysis.&nbsp;Google analytics certified; Salesforce training.
+Qualified individuals should be able to articulate a strong commitment to diversity, and have the ability to work effectively with individuals from different backgrounds.
+Offers of employment are contingent upon successful completion of a criminal, education, and employment screening.
+This is a regular, exempt, 40 hour per week position.
+Salary: Commensurate with experience
+
+
+
+
+
+  Advertised: 22 Sep 2017  Pacific Daylight Time
+
+  Applications close:  
+
+
+
+
+
+Back to search results Apply now Refer a friend
+
+
+
+    
+        Share this:
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        |
+        More
+    
+    var addthis_config = {
+     "data_track_clickback": true ,
+      "data_ga_property": 'UA-3555366-20',
+      "data_ga_social": true
+      
+    };
+
+
+
+
+  
+
+    Send me jobs like these
+    
+        
+            We will email you new jobs that match this search.
+            
+
+    Email address
+    
+
+Ok, we will send you jobs like this.
+The email address was invalid, please check for errors.
+You must agree to the privacy statement
+Subscribe
+
+
+
+
+
+
+
+        
+    
+
+
+  Search results
+
+  
+
+    
+
+      
+
+        Position
+
+        Location
+
+        Date Posted
+
+      
+
+    
+
+
+
+
+
+
+
+    
+
+      
+
+        Data Analyst, Marketing
+
+      
+
+      
+
+        West LA Campus
+
+      
+
+      
+
+        22 Sep 2017 
+
+      
+
+    
+
+    
+
+      Serves as chief data knowledge, financial performance, and insights analyst for enrollment marketing, with strong secondary role as deputy planner/project manager supporting Director, Enrollment Marketing. This position designs and develops marketing insight and data analysis reports across all degree programs. Position also manages the marketing budget and spend per program analysis and recommends annual financial investments based upon channel performance and overall enrollment goals.
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+  Current Staff Job Opportunities
+
+  
+
+    
+
+      
+
+        Position
+
+        Location
+
+        Date Posted
+
+      
+
+    
+
+  
+
+
+
+
+
+    
+
+      
+
+        Data Analyst, Marketing
+
+      
+
+      
+
+        West LA Campus
+
+      
+
+      
+
+        22 Sep 2017 
+
+      
+
+    
+
+    
+
+      Serves as chief data knowledge, financial performance, and insights analyst for enrollment marketing, with strong secondary role as deputy planner/project manager supporting Director, Enrollment Marketing. This position designs and develops marketing insight and data analysis reports across all degree programs. Position also manages the marketing budget and spend per program analysis and recommends annual financial investments based upon channel performance and overall enrollment goals.
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+Indicate Your Interest in Future Jobs
+
+Loading...
+
+
+
+Careers.jobListing("campaigns", "http://careers.pageuppeople.com/676", "cw", "en-us", {
+
+          template: "[Title][Summary]",
+
+          jobsPerPage: 20,
+
+          numberOfPages: 1,
+
+          paging: false,
+
+          filters: { "JobSystemType": "GRADUATECAMPAIGN, REDEPLOYMENT, GENERAL" } 
+
+ }); 
+
+
+
+
+
+Powered by PageUp 
+
+                       
+
+                    
+
+                            
+
+                          
+
+
+
+
+
+Resources
+
+
+
+
+
+
+
+About Pepperdine
+
+
+
+Human Resources
+
+
+
+Student Employment
+
+
+
+
+
+
+
+&nbsp;
+
+
+
+Faculty Jobs
+
+
+
+
+
+                            
+
+
+
+                                Refine Your Search
+
+                                
+
+                                    Employment Type
+
+
+Regular 1
+
+
+
+Locations
+
+
+West LA Campus 1
+
+
+
+Categories
+
+Job Type
+Communication/PR/Marketing 1
+Technology 1Pepperdine School
+Graziadio School of Business and Management 1            
+
+                           
+
+                                
+
+                            
+
+                        
+
+                    
+
+                  
+
+			
+
+			
+
+			
+
+			
+
+				
+
+			
+
+				
+
+					
+
+					
+
+						Anchor Links
+
+						
+
+							Anchor One
+
+						 
+
+					
+
+				
+
+				-->
+
+				
+
+				
+
+					
+
+					
+
+						Share This
+
+						 
+
+					
+
+				
+
+				-->
+
+
+
+			
+
+		
+
+
+
+		
+
+			
+
+				
+
+					24255 Pacific Coast Highway, Malibu, CA 90263 Phone: 310.506.4000
+
+					Copyright ©&nbsp;&nbsp;Pepperdine University
+
+				
+
+			
+
+		
+
+
+
+		
+
+		
+
+		
+
+		
+
+		 
+
+		 
+
+		 
+
+		  
+
+		
+
+		
+
+		  
+
+		 
+
+		
+
+			$(function() {
+
+				$( ".accordion" ).accordion({
+
+					collapsible: true,
+
+					active: "none",
+
+					heightStyle: "content"
+
+				});
+
+			});
+
+		
+
+		
+

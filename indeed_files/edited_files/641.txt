@@ -1,0 +1,420 @@
+
+
+
+
+.pagination-disabled {opacity:0.4;}
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;oEmployment Opportunities - City of Davis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url( /agencypageassets/davis/davis.css );
+
+
+
+
+
+@import url( /agencypageassets/davis/table700.css );
+
+
+
+
+
+@import url( /agencypageassets/davis/jobs.css );
+
+
+
+
+
+#rss {
+
+	WIDTH: 700px; TEXT-ALIGN: center
+
+}
+
+#container #content #rss A {
+
+	COLOR: #99f
+
+}
+
+#container #content #rss A:visited {
+
+	COLOR: #99f
+
+}
+
+#container #content #rss A:hover {
+
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #36c
+
+}
+
+
+
+
+
+
+
+Skip to Main Content
+
+
+
+City of Davisjump to content 
+
+
+
+
+
+
+
+  City of Davis, CA 
+
+  
+
+
+
+
+
+
+
+Employment Opportunities
+
+
+
+
+
+
+
+  
+
+  Human Resources
+
+      Home  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   			Current Openings
+
+		
+
+
+
+ 
+
+	
+	
+
+
+	
+
+		
+
+			
+
+				
+
+			
+
+		
+
+	
+
+
+
+	
+
+	
+
+	
+
+			
+
+				Job Title:
+
+				
+
+					Human Resources Analyst I/II
+
+				
+
+			
+
+
+
+			
+
+			
+
+				Closing Date/Time:
+
+				
+
+					Wed. 10/18/17 5:00 PM Pacific Time 
+
+				
+
+			
+
+			
+
+			
+
+				Salary:
+
+				
+
+
+
+						$31.07 - $47.77 Hourly
+
+											$2,485.27 - $3,821.41 Biweekly
+
+											$5,384.76 - $8,279.72 Monthly
+
+											$64,617.07 - $99,356.61 Annually 
+
+							
+
+					
+
+				
+
+			
+
+			
+
+				
+
+					Job Type:
+
+					Full-time
+
+				
+
+			
+
+			
+
+				Location:
+
+				
+
+					Davis, California
+
+				
+
+			
+
+
+
+			
+
+			
+
+			
+
+
+
+
+
+
+
+		
+
+			&nbsp;
+
+		
+
+	
+
+
+
+	
+
+	
+
+		
+
+			
+
+					Print Job Information |
+
+				
+
+					Apply
+
+				
+
+			&nbsp;
+
+		
+
+		
+
+
+
+		
+
+
+
+		
+
+			
+
+				&nbsp;
+
+			
+
+			
+
+				
+
+					
+
+					
+
+						Description&nbsp;
+
+						
+
+						
+
+							Benefits&nbsp;
+
+						
+
+							Supplemental Questions
+
+						
+
+					
+
+					&nbsp;
+
+				
+
+			
+
+			
+
+				
+
+					A City of Davis online application must be submitted to be considered for this position.&nbsp; Paper applications will not be accepted.&nbsp; To apply, please visit www.cityofdavis.org/jobsDEFINITIONTo provide responsible professional, administrative and technical assistance in the development, administration and implementation of the city's human resources management including payroll and benefit administration, risk management, workers compensation, labor relations, classification/compensation, and recruitment and selection; and to assist in basic office management functions such as developing and monitoring a division budget, administration of contracts, and monitoring and administering special HR related projects or grants.DISTINGUISHING CHARACTERISTICSHuman Resources Analyst I - This is the entry level class in the Human Resources Analyst series.&nbsp; Positions at this level are distinguished from the II level by the performance of less than the full range of duties as assigned to the full journey level class within the series.&nbsp; Incumbents at this level typically have related work experience but are unfamiliar with the functions, operations and procedures of the City of Davis human resources office.&nbsp;Human Resources Analyst II - This is the full journey level class in the Human Resources Analyst series.&nbsp; Positions at this level are distinguished from the I level by the performance of the full range of duties as assigned with minimal assistance or direction.&nbsp; Incumbents are thoroughly familiar with the operating procedures of the City of Davis human resources office, and possess&nbsp; technical expertise related to assigned programmatic responsibilities.&nbsp; Positions in this class are flexibly staffed and are normally filled by advancement from the I level.SUPERVISION RECEIVED AND EXERCISEDReceives general direction from the Human Resources Director..Exercises direct supervision over technical and clerical staff.
+
+				
+
+				
+
+					
+
+						
+
+							&nbsp;Examples of Duties:
+
+						
+
+					
+
+					
+
+					
+
+						EXAMPLES OF ESSENTIAL FUNCTIONS -Essential functions may include, but are not limited to, the following:Administer the classification, compensation, recruitment and selection programs.May serve as staff to the city's Personnel Board and other commissions and committees as required; research and follow up in issues of interest to the Board.Assist in the administration of the city's human resources including personnel policies, practices, and procedures; advise management and employees in their interpretation as necessary.Participate in formulating, recommending, and coordinating the implementation of policies, rules, and practices for carrying out the personnel program.Provide responsible, professional, and technical staff assistance relative to the city's human resource programs.Conduct salary and benefit surveys.&nbsp;Participate in the administration of the City's employee benefits program, including contract review and compliance, evaluation of program components and vendor effectiveness.Process reclassification requests; conduct employee interviews and make recommendations.Respond to complaints and requests for information from the public and city staff.Meet with representatives of employee organizations, assist in negotiation preparation including costing proposals and related research.Provide administrative support to the citywide safety committee; evaluate safety claims and makes recommendations.Assist with oversight of the worker's compensation program.Assist Finance with the budgeting system as it relates to human resources.Monitor and maintain allocation schedules and salary schedules.Reviews, audits and reconciles payroll, benefits, and other HR related financial reports; works with Information Services division to recommend and implement coding changes or system updates as needed.Supervise payroll and leave of absence activities ensuring proper leave usage and general compliance with MOU's and Personnel Rules and Regulations.Review and make recommendations relative to property and liability programs and insurance certificates; investigate claims and represent the City in small claims court as needed.Oversee HRIS system related activities including creation, analysis and evaluation various reports, audits, research of issues, input of data, and compliance upkeep.Ensure compliance with CalPERS reporting requirements.Participate and assist with special projects related to the human resources department.Maintain the city's personnel files.Assist in basic office management functions.Coordinate human resource activities with other city departments.Prepare and maintain a variety of statistical records regarding the city's various human resource programs.Prepare and administer the human resources office budget.Supervise, train and evaluate assigned staff.Represent the department to outside agencies and organizations; participate in outside community and professional groups and committeesBuild and maintain positive working relationships with co-workers, other city employees and the public using principles of good customer service.Attend meetings of the City Council, commissions and other groups as assigned.Perform related duties as assigned.&nbsp;
+
+					
+
+				
+
+					
+
+						
+
+							&nbsp;Typical Qualifications:
+
+						
+
+					
+
+					
+
+						MINIMUM QUALIFICATIONS&nbsp;Human Resources Analyst IKnowledge of:Principles and practices of public human resources administration including payroll, risk management, benefits administration, classification and compensation, affirmative action, and recruitment and selection.Use and application of HRIS/payroll/timekeeping systems.Applicable federal, state, and local laws regulations, ordinances and policies of governing agencies.Principles and practices of leadership, motivation, team building and conflict resolution.&nbsp;Principles and practices of supervision, training and performance evaluation.&nbsp;&nbsp;&nbsp;Ability to:On a continuous basis, analyze budget and technical reports; interpret and evaluate staff reports; know laws, regulations and codes; observe performance and evaluate staff; problem solve department related issues; remember various rules, policies and procedures; explain and interpret policy.&nbsp;Supervise, train and evaluate assigned staff.Understand, interpret, and apply personnel rules and regulations.Prepare and administer an office budget.&nbsp;Plan, organize and direct the activities of a public human resource system.&nbsp;Analyze problems, identify alternative solutions, project consequences of proposed actions and implement recommendations in support of goals.Accurately prepare complex financial reports and analyses requiring strong math skills.Effectively plan and coordinate workload and that of subordinate staff.Communicate effectively with a wide variety of personalities and situations requiring diplomacy, tact, and firmness.&nbsp;Respond appropriately to difficult and sensitive matters; maintain confidentiality.Communicate clearly and concisely, both orally and in writing.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Establish and maintain effective working relationships with those contacted in the course of work.Experience and TrainingAny combination of experience and training that would likely provide the required knowledge and abilities is qualifying.&nbsp; A typical way to obtain the knowledge and abilities would be:Experience:Two years increasingly responsible human resources experience.Training:Equivalent to a Bachelor's degree from an accredited college or university with major course work in human resources, public administration, business administration or a related field.&nbsp; Master's degree in human resources desired; professional certifications will be considered in lieu of Master's degree.License or CertificateMust possess and maintain a valid California C driver's license and a satisfactory driving record.Human Resources Analyst IIIn addition to the qualifications for the Human Resources Analyst I:Knowledge of:Applicable labor relation laws, methods and practices. &nbsp;Principles and practices of organization, administration, budget, and personnel management.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ability to:&nbsp;Exercise independent judgment in the solution of personnel problems.&nbsp;Experience and TrainingAny combination of experience and training that would likely provide the required knowledge and abilities is qualifying.&nbsp; A typical way to obtain the knowledge and abilities would be:Experience:Four years of responsible, journey level experience in administrative management similar to a Human Resources Analyst I with the city of Davis.Training:Equivalent to a Bachelor's degree from an accredited college or university with major course work in human resources, public administration, business administration or a related field.&nbsp; Master's degree in human resources desired; professional certifications will be considered in lieu of Master's degree.License or Certificate&nbsp;Must possess and maintain a valid California C driver's license and a satisfactory driving record.&nbsp;
+
+					
+
+				
+
+					
+
+						
+
+							&nbsp;Supplemental Information:
+
+						
+
+					
+
+					
+
+						
+
+						PHYSICAL/SENSORY REQUIREMENTSPhysical Conditions:&nbsp;On a continuous basis, sit at a desk; intermittently twist to reach equipment surrounding desk; perform simple and power grasping, pushing, pulling, and fine manipulation; write or use a keyboard to communicate and occasionally lift or carry weight of up to 25 pounds. Incumbents will travel to and participate in various meetings, programs and events throughout the city, which may involve exposure to traffic and weather conditions.Requires effective audio-visual discrimination and perception needed for: Making observations, communicating with others, reading and writing, and operating assigned equipment and vehicles.&nbsp;
+
+					
+
+				
+
+			
+
+			  	&nbsp;
+
+			
+
+		
+
+	
+window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"89019a8e50","agent":"","beacon":"bam.nr-data.net","applicationTime":32,"applicationID":"4449204","transactionName":"NlAGYxEFC0RWBhUIDQ8aN1IREglSQ0oiBw8yUBZBDwER","queueTime":0} 
+
+
+
+
+
+
+
+
+
+
+
+City of Davis, California23 Russell Blvd.Davis, Ca. 
+
+95616
+

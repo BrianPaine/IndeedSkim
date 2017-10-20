@@ -1,0 +1,1378 @@
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+        
+
+        
+
+    Senior Data Analyst – BI Job in Lewisville, TX at Cardinal Health
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+        
+
+        
+
+     
+
+
+
+    	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+    
+
+
+
+        $(document).ready(function () {
+
+            var isUSJob = 'True';
+
+            $(".NoncompliantIEApplyNow").hide();
+
+            $('#dialog').dialog({
+
+                modal: 'true',
+
+                width: 500,
+
+                autoOpen: false
+
+            });
+
+            $('.NoncompliantIEApplyNow').click(function () {
+
+                $('#dialog').dialog('open');
+
+                return false;
+
+            });
+
+            if(isUSJob) {
+
+                //check for IE8 or less
+
+                if ($.browser.msie) {
+
+                    if ($.browser.version == '6.0' || $.browser.version == '7.0' || $.browser.version == '8.0') {
+
+                        browserCompliance = false;
+
+                        $("#ApplyNow").hide();
+
+                        $("#ApplyNowBottom").hide();
+
+                        $(".NoncompliantIEApplyNow").show();
+
+                    }
+
+                }
+
+            }
+
+        });
+
+
+
+        var PopUp = {};
+
+        PopUp.JQ = {};
+
+        PopUp.JQ.Members = $();
+
+        PopUp.JQ.Modal = $();
+
+        PopUp.JQ.ModalIFrame = $();
+
+        PopUp.JQ.ModalClose = $();
+
+
+
+
+
+        PopUp.Handlers = {};
+
+        PopUp.Handlers.ClickOpen = function (e) {
+
+            e.preventDefault();
+
+
+
+            var jq = $(this);
+
+            var url = jq.attr("href");
+
+
+
+            PopUp.JQ.ModalIFrame.attr("src", url);
+
+            PopUp.JQ.Modal.modal("show");
+
+        };
+
+        PopUp.Handlers.ClickClose = function (e) {
+
+            PopUp.JQ.ModalIFrame.removeAttr('src');
+
+        }
+
+
+
+        /*-----------------------------*/
+
+
+
+        function LanguageClick() {
+
+            var url = "";
+
+            var langID = $('#hdLangID').val();
+
+            var adID = $('#hdADId').val();
+
+
+
+            var applyLink = $("#ApplyLink").attr("href");
+
+
+
+            if (langID == 4) {
+
+                $('#hdLangID').val(3);
+
+                $('#btnLang').val("Español");
+
+                $('#ApplyNow').show();
+
+                $('#ApplyNowBottom').show();
+
+                $('#ApplyNowSpanish').hide();
+
+                $('#ApplyNowSpanishBottom').hide();
+
+                //$('#lblJobDescriptionFooter1').show();
+
+                //$('#lblJobDescriptionFooterSpanish1').hide();
+
+
+
+            } else {
+
+                $('#ApplyNow').hide();
+
+                $('#ApplyNowBottom').hide();
+
+                $('#ApplyNowSpanish').show();
+
+                $('#ApplyNowSpanishBottom').show();
+
+                $('#hdLangID').val(4);
+
+                $('#btnLang').val("English");
+
+                //$('#lblJobDescriptionFooter1').hide();
+
+                //$('#lblJobDescriptionFooterSpanish1').show();
+
+            }
+
+
+
+            var jq = $("#schemaPropDescription");
+
+            url = "/BrowseJobs/JobDescriptionByLanguage?id=" + adID + "&l=" + langID;
+
+            $.get(url, function (data, status) {
+
+                if (data != "-1") {
+
+                    jq.html(data);
+
+                }
+
+
+
+            });
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+    
+
+        $(document).ready(function () {
+
+
+
+            $('.jobfamilyLeftNavigation').slick({
+
+                infinite: false,
+
+                slidesToShow: 1,
+
+                slidesToScroll: 1,
+
+                arrows: true,
+
+                dots: true,
+
+            });
+
+
+
+            var jobFamilySlickIndexId = $('.slick-track .active').data('slick-index');
+
+            $('.jobfamilyLeftNavigation').slick('slickGoTo', parseInt(jobFamilySlickIndexId), false);
+
+
+
+
+
+            $(".Flag.Tips").click(function () {
+
+                displayProfile(Tips.JQ.Markup.html());
+
+            })
+
+
+
+            $(".Flag.Help").click(function () {
+
+                displayProfile(Assitance.JQ.Markup.html());
+
+            });
+
+
+
+            //for the slick buttons align vertically right in IE: Trident 7.0 is for IE ONLY!
+
+            if (navigator.userAgent.match(/Trident\/7\./)) {
+
+                $(".morejobsdiv").css("bottom", "25px");
+
+            }
+
+
+
+        });
+
+        function displayProfile(param) {
+
+            $('#Profilebody').html(param);
+
+        }
+
+
+
+
+
+       
+
+
+
+            //Check to see if the window is top if not then display button
+
+            $(window).scroll(function () {
+
+                if ($(this).scrollTop() > 100) {
+
+                    $('#back-to-top').fadeIn();
+
+                } else {
+
+                    $('#back-to-top').fadeOut();
+
+                }
+
+            });
+
+
+
+            //Click event to scroll to top
+
+            $('#back-to-top').click(function () {
+
+                $('html, body').animate({ scrollTop: 0 }, 800);
+
+                return false;
+
+            });
+
+
+
+      
+
+            $(document).on('click', 'a.Flag.Profile', function () {
+
+                var ProfilePopUp = {};
+
+                ProfilePopUp.JQ = {};
+
+                ProfilePopUp.JQ.Modal = $("#ProfilePopUp");
+
+                ProfilePopUp.JQ.Div = $("div.modal-body");
+
+                ProfilePopUp.Markup = $(this).find(".Markup").html();              
+
+                ProfilePopUp.JQ.Div.html(ProfilePopUp.Markup);
+
+            });
+
+           
+
+            $(document).on('click', 'a.Flag.Video', function () {
+
+                var VideoPlayer = {};
+
+                VideoPlayer.JQ = {};
+
+                VideoPlayer.JQ.Modal = $("#VideoPopUp");
+
+                VideoPlayer.JQ.IFrame = $("iframe.modal-body");
+
+                VideoPlayer.Video = $(this).attr("href");
+
+                //VideoPlayer.JQ.Modal.off('hide.bs.modal');
+
+                VideoPlayer.JQ.Modal.on('hide.bs.modal', function (e) {
+
+                    VideoPlayer.JQ.IFrame.attr("src", VideoPlayer.Video);
+
+                });               
+
+                VideoPlayer.JQ.IFrame.attr("src", VideoPlayer.Video);
+
+            });
+
+            
+
+    
+
+    
+
+    
+
+
+
+     
+
+      
+
+        .morejobsdiv {
+
+            display: inline-flex;
+
+            font-size: 12px;
+
+            color: #000;
+
+
+
+            bottom: 20px;
+
+            position: absolute;
+
+            width: 100%;
+
+        }
+
+        
+
+    
+
+   
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+            
+
+            
+
+
+
+                
+
+                     Share
+
+                
+
+            
+
+        
+
+    
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+
+
+                        
+
+                    
+
+
+
+                        
+
+                            
+
+                                Home 
+
+                                
+
+                                Careers
+
+                                
+
+                             
+
+                                
+
+    
+
+        
+        Search Global Jobs
+
+
+    
+
+        
+
+    
+
+        
+        United States Jobs
+
+
+    
+
+        
+
+    
+
+        
+        Data Analytics Jobs
+
+
+    
+
+        
+
+    
+
+        
+        Business Intelligence Jobs
+
+
+    
+
+        
+
+    
+
+        
+    Senior Data Analyst – BI
+
+
+    
+
+
+
+                            
+
+                            
+
+                            
+
+                        
+
+
+
+                    
+
+                        Senior Data Analyst – BI Job
+
+                                
+
+            
+
+
+
+        
+
+    
+
+
+
+                
+
+
+
+
+
+    /*Overrides*/
+
+    .Center {
+
+        background-color: #fff !important;
+
+    }
+
+
+
+
+
+
+
+    
+
+        
+
+    
+
+    
+
+
+
+    
+
+        
+
+            
+
+
+
+    Job Number: 20021955
+
+        
+
+            Location:
+
+            
+
+                
+
+                    Lewisville, TX
+
+                
+
+            
+
+        
+
+
+
+    Date Posted: 9-26-2017
+
+    Job Title: Senior Data Analyst – BI
+
+
+
+            
+
+            
+
+        
+
+            
+
+                        Apply Now
+
+                        Apply Now
+
+                    Aplicar Ahora
+
+                                                               
+
+                               
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                                Close X 
+
+                                Refer A Friend
+
+                            
+
+                            
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+
+
+
+
+
+
+            
+
+    
+
+            
+
+                
+
+                    We are seeking a Senior Data Analyst to join our BI team in Lewisville, TX:Job DescriptionThe Sr. DA is responsible for leading the process of defining system requirements, including discovery, analysis and documentation of data feeds and integrations. The ideal candidate is a self-starter with an innovative mind that can leverage their background while adapting to new technologies and methodologies, and has strong analytical, problem solving, communication skills and the ability to multi-task.Qualifications•    Bachelor's in related field, or equivalent work experience•    8+ years' experience in related field•    Expert in Agile development techniques•    Able to co-locate with the development team or business partners/SMEs•    Strong Data mapping and data modeling knowledge•    Strong  SQL and some knowledge of SSIS would be helpfulWhat is expected of you and others at this level•    Applies advanced knowledge and understanding of concepts, principles, and technical capabilities to manage a wide variety of projects•    Participates in the development of policies and procedures to achieve specific goals•    Recommends new practices, processes, metrics, or models•    Works on or may lead complex projects of large scope•    Projects may have significant and long-term impact•    Provides solutions which may set precedent•    Independently determines method for completion of new projects•    Receives guidance on overall project objectives•    Acts as a mentor to less experienced colleagues
+
+                    
+
+
+
+    
+
+    Cardinal Health is an Equal Opportunity/Affirmative Action employer. 
+
+    All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, 
+
+    sexual orientation, gender identity, national origin, disability, or protected veteran status.
+
+   
+
+
+
+                
+
+            
+
+            
+
+                
+
+                            Apply Now
+
+                            Apply Now
+
+                                    
+
+            
+
+                
+
+
+
+    
+
+        To apply, your internet browser must be Internet Explorer Version 9 or above, FireFox, Safari or Chrome.
+
+        If your current browser is Internet Explorer 8 or below, please upgrade your browser before applying        
+
+    
+
+    
+
+        Learn how to update your browser
+
+    
+
+
+
+            
+
+        
+
+        
+
+            
+
+      
+
+        
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+          
+
+       
+
+
+
+         
+
+                
+
+                      Join Our  Talent Network
+
+                
+
+         
+
+
+
+
+
+
+
+
+
+        
+
+
+
+        
+
+                  
+
+        
+
+
+
+    
+
+        
+
+        
+
+        
+
+
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+        
+
+            
+
+        
+
+
+
+        
+
+            
+
+                
+
+                Privacy Policy
+
+            
+
+  
+
+            
+
+                
+
+                
+
+
+
+
+
+
+
+
+
+                    Connect
+
+
+
+                    
+
+                        
+
+                            
+
+                                
+
+
+
+                                                             
+
+                                
+
+                                                                  LinkedIn
+
+                        
+
+                        
+
+                            
+
+                                 Twitter
+
+                        
+
+                        
+
+                            
+
+                                                                  YouTube
+
+                        
+
+                        
+
+                            
+
+                                                                   Facebook
+
+                        
+
+                      
+
+                    
+
+
+
+
+
+
+
+
+
+                
+
+            
+
+            
+
+        
+
+
+
+        
+
+            
+
+                
+
+                    &copy;2015 
+
+                         Cardinal Health  
+
+                     All rights reserved.
+
+                
+
+            
+
+        
+
+
+
+    
+
+
+
+    To Top
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    var dataLayer = dataLayer || {
+
+        page: {
+
+            pageInfo:{
+
+                pageName:"us.Senior Data Analyst – BI in Lewisville, TX at Cardinal Health",
+
+                referringURL: "",
+
+                sysEnv:"Engine",
+
+                language:"en-US",
+
+                onsiteSearchTerm: "",
+
+                onsiteSearchResults: "ni",
+
+                onsiteSearchJobResultCount: "ni",
+
+                onsiteSearchZip: "",
+
+                onsiteSearchRadius: "",
+
+                onsiteSearchMapFail: "ni",
+
+                onsiteSearchRefinements: "ni",
+
+                testimonialName: "ni"
+
+            },
+
+            category:{
+
+                primaryCategory: "ni",
+
+                pageType: "Job Details"
+
+            },
+
+            attributes:{
+
+                clientID: "290529",
+
+                clientGroup: "0",
+
+                clientPlatform: "",
+
+                reportSuites: "nasrcardinalhealthglobal"
+
+            }
+
+        },
+
+        event:[{
+
+            eventInfo:{
+
+                eventName: "all events listed here by name, comma separated"
+
+            }
+
+        }],
+
+        job:{
+
+            jobInfo:{
+
+                jobID: "78404852",
+
+                jobtitleID: "162529",
+
+                jobName: "Senior Data Analyst – BI",
+
+                familyID: "802",
+
+                categoryID: "104111",
+
+                schedule: "",
+
+                shift: "",
+
+                locationID: "39680",
+
+                city: "Lewisville",
+
+                state: "TX",
+
+                expiredID: "",
+
+                jopexpired: "",
+
+                ATSJobID: "20021955",
+
+                ATSreferencenumber: "20021955",
+
+                TNContactID: ""
+
+            }
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        &times;Close
+
+                    
+
+                
+
+                
+
+            
+
+        
+
+    
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        &times;Close
+
+                    
+
+                
+
+                
+
+
+
+                
+
+            
+
+        
+
+    
+
+    
+
+        setTimeout(function () {
+
+            var a = document.createElement("script");
+
+            var b = document.getElementsByTagName("script")[0];
+
+            a.src = document.location.protocol + "//script.crazyegg.com/pages/scripts/0033/2946.js?" + Math.floor(new Date().getTime() / 3600000);
+
+            a.async = true; a.type = "text/javascript"; b.parentNode.insertBefore(a, b)
+
+        }, 1);
+
+    
+
+    
+
+        var PopUp = {};
+
+
+
+
+
+        PopUp.JQ = {};
+
+        PopUp.JQ.Members = $();
+
+        PopUp.JQ.Modal = $();
+
+        PopUp.JQ.ModalIFrame = $();
+
+        PopUp.JQ.ModalClose = $();
+
+
+
+        PopUp.Handlers = {};
+
+
+
+        PopUp.Init = function () {
+
+            PopUp.JQ.Members = $('#referFriendBtn');
+
+            PopUp.JQ.Modal = $('#myModalReferfriend');
+
+            $('#myModalReferfriend').draggable();
+
+
+
+            PopUp.JQ.ModalIFrame = PopUp.JQ.Modal.find("iframe");
+
+            PopUp.JQ.ModalClose = PopUp.JQ.Modal.find("button");
+
+
+
+            PopUp.JQ.ModalClose.click(PopUp.Handlers.ClickClose);
+
+            PopUp.JQ.Members.click(PopUp.Handlers.ClickOpen);
+
+
+
+        };
+
+        PopUp.Init();
+
+
+
+        var Tips = {};
+
+        Tips.JQ = {};
+
+        Tips.JQ.Root = $(".Flag.Tips");
+
+        Tips.JQ.Root.attr("href", "#?custom=true");
+
+        Tips.JQ.Markup = Tips.JQ.Root.find(".Markup");
+
+
+
+        var Assitance = {};
+
+        Assitance.JQ = {};
+
+        Assitance.JQ.Root = $(".Flag.Help");
+
+        Assitance.JQ.Root.attr("href", "#?custom=true");
+
+        Assitance.JQ.Markup = Assitance.JQ.Root.find(".Markup");
+
+
+
+    
+
+
+
+    
+
+        _satellite.pageBottom();
+
+    
+
+
+
+
+

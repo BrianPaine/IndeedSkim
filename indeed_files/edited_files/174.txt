@@ -1,0 +1,1032 @@
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   function launch(page) {
+      OpenWin = this.open(page, "HelpWindow", "toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,width=400,height=600,left=50,top=50'");
+   }
+
+
+	var jobs = new Array();
+
+
+
+	
+		var reqGk = '27020123';
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	Data Analyst
+				
+							
+								Washington,&nbsp;
+							
+							
+								DC 
+							
+				
+
+	
+
+	
+		
+	
+	
+	
+
+	
+
+
+
+	Current Openings | Xenia Systems
+
+	
+
+
+
+	
+
+
+
+		
+
+		
+
+
+
+	
+
+
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+		
+
+		 #widgets-container .wrapper{
+
+			background:#3d3d3d;
+
+		}
+
+		
+
+	
+
+
+
+	
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+
+
+	
+
+		h1{color: #101065 ; font-size: 30px}
+
+		h2{color: #444444; font-size: 26px}
+
+		h3{color: #141474; font-size: 18px}
+
+		h4{color: #852a13; font-size: 16px}
+
+		h5{color: #141474; font-size: 14px}
+
+		h6{color: #444444; font-size: 12px}
+
+		.nivo-caption{color: #444444;}
+
+		.narrow .wrapper, #widgets-container,#scrolltop-right, #scrolltop-container{background-color: #3d3d3d;}
+
+
+
+		
+
+		.invent-button, #nav>li>a, .invent-button span, #nav>li>a span {
+
+			background-image: url('http://xeniasystems.com/wp-content/themes/clear-theme/images/nav/7.png');
+
+		}
+
+
+
+		#nav>li>a{
+
+			font-size: 16px;
+
+		}
+
+		/* Nivo slider height adjustment */
+
+		#slider-inner-wrapper, #slider,.nivoSlider a.nivo-imageLink{
+
+			height:440px !important;
+
+		}
+
+
+
+		.nivo-directionNav a{
+
+			top:196px;
+
+		}
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+		
+
+	
+
+		
+
+		var cufonFont = {fontFamily: 'Andika' };
+
+	
+
+	
+
+
+
+						
+
+					
+
+					jQuery(function(){
+
+					Cufon.replace('#nav>.current_page_item>a', {fontFamily: 'Molengo', hover: {color: '#fff'}});
+
+					Cufon.replace('#nav>li>a:not(.current_page_item)', {fontFamily: 'Molengo', hover: {color: '#505050'}});
+
+					});
+
+					
+
+	
+
+	
+
+	
+
+	
+
+	
+
+
+
+		
+
+		var inventSliderConfig = false;
+
+	
+
+		
+
+
+
+	
+
+		var inventMap = {"zoom":4,"marker":{"lat":39.112975,"lng":-77.563597,"title":"Xenia Systems","description":"Xenia Systems is committed to providing personnel who are not only skilled and experienced, but who also display teamwork, integrity and professionalism."}};
+
+
+
+		var THEME_DIR ='http://xeniasystems.com/wp-content/themes/clear-theme/';
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+#bm-portal-head *, #bm-portal-menu * {
+
+     background: none repeat scroll 0% 0% transparent;
+
+     border: 0px none;
+
+     list-style: circle outside none;
+
+}
+
+
+
+#bm-portal-menu ul li{
+
+  list-style-image: none;
+
+    list-style-position: outside;
+
+    list-style-type: none;
+
+    padding-left: 0;
+
+}
+
+
+
+
+
+.main-section-wrapper tbody:nth-child(1n) td, .company-page-section-wrapper tbody:nth-child(1n) td, form tbody:nth-child(1n) td{
+
+    background-color: #fff; 
+
+}
+
+
+
+#bm-portal-head{display:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+
+								
+
+			
+
+		
+
+		
+
+	
+
+		
+
+								
+
+						
+
+
+
+		Home
+
+About
+
+
+
+	Our Company
+
+	Mission and Core Values
+
+
+
+
+
+Services
+
+
+
+	Overview
+
+	Government Staffing Services
+
+	Information Technology Support Services
+
+	Commercial Staffing Services
+
+
+
+
+
+Capabilities
+
+
+
+	Overview
+
+	Past Performance
+
+	Teaming Opportunities
+
+	NAICS Codes
+
+
+
+
+
+Careers
+
+
+
+	Overview
+
+	Benefits
+
+	Current Openings
+
+
+
+
+
+Contact
+
+	
+
+
+
+	
+
+
+
+
+
+					Current Openings
+
+			
+
+				
+
+						
+
+Xenia Systems is currently hiring for a variety of opportunities.  Please see our open positions below and apply for those opportunities that are interest.  If you do not see a position matching your skill sets, please feel free to send your resume to Jobs@XeniaSystems.com
+
+
+
+				
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	
+	
+	
+
+
+
+
+
+	
+  
+  	
+  		
+  	
+  	
+  	
+  	
+  	
+	
+		
+	  	
+	  		
+	
+      
+		     
+		     
+		         Toggle navigation
+		         
+		         
+		         
+		      
+		      
+			      
+			  	 	
+					    Portal Home 
+					    
+						
+						
+					   		
+					   			Create Profile
+					   		
+					    
+					   	
+							
+								
+							
+						
+					
+				
+			 
+	
+	
+      
+      
+		 
+			  
+	
+					
+					
+					 	
+							
+								
+								
+								
+								
+								
+								
+						        
+						        
+						        
+						        
+						        
+							
+						
+					
+			
+		
+	
+
+	
+		
+ 			
+				
+					
+					
+			
+			
+			
+				
+					
+						
+							
+							
+							Share This Job 
+							
+						    
+						    
+						    
+						    
+							
+							
+							var addthis_share = {
+							    url : 'http://ejob.bz/ATS/jb.do?reqGK=27020123',
+							    title : 'Data Analyst',
+							    description : 'Xenia Systems - Data Analyst - Washington, DC'
+							}
+							
+							
+															
+						
+					
+				
+			
+			
+			
+			
+				 
+						
+							
+								Data Analyst
+							
+						
+						
+						
+							
+								
+									Job Title
+								
+								
+									Data Analyst
+								
+							
+						
+					
+						
+								
+									
+										Job  ID
+									
+									
+										27020123
+									
+								
+							
+					
+					
+					
+					
+					
+						
+								
+									
+									Location
+									
+									
+										
+											Washington,&nbsp;
+										
+										
+											DC 
+										
+										20024
+									
+								
+							
+							
+								
+									Other Location
+								
+								
+									
+								
+							
+						
+					
+					
+					
+							
+								
+									Description
+								
+								
+									
+										Xenia Systems LLC, a growing service provider in Northern Virginia, has an immediate opening available for Data Analysts&#39; in Washington, DC.
+
+Our client has demonstrated a need to have complete and accurate information related to federal employee development by understanding developmental activities that are being engaged across the Agency and the organizational impact of those activities.
+
+In this role, the Analyst will work with agency staff and management, and contractors to gather, analyze, interpret and report data; and support the agency in its management of information for numerous projects and programs.
+
+Position Duties
+
+
+	Assist agency in the development of and be responsible for the documentation of new and existing processes for capturing and reporting data related to the achievement of specific performance and return on investment indicators. Such efforts may include meeting with agency staff as well as government personnel working in other areas of the agency in order to document both internal and peripheral, or dependent processes.
+	Use Agency Learning Management System (LMS) to create unique learning events and&nbsp;register participants.
+	Assist the Agency in gathering, interpreting and reporting performance and ROI data collected from multiple sources (e.g. LMS, databases, spreadsheets, surveys, training evaluation forms, etc.) and be responsible for developing polished, high-impact, persuasive reports and presentations that accurately reflect the efficiencies and effectiveness of the Agency.&nbsp;
+	Perform data entry/data validation tasks to assist in the cleanup of disparate and /or obsolete data prior to the agency&#39;s transition to an enterprise platform.
+
+
+Minimum Qualifications
+
+
+	Bachelor&#39;s degree.
+	Excellent MS Excel skills and experience (should be very proficient at creating and formatting excel sheets for data analysis, importing and exporting charts/graphs, utilizing pivot tables, expecting data invidious formats), and performing computations within Excel (writing &amp; creating).
+	PSQL/MySQL knowledge.
+	Clear understanding of quantitative and qualitative data and linear regressions.
+	Experience creating Adobe fillable forms.
+	Experience in researching, evaluating, and manipulating complex data.
+	Demonstrated ability to organize and present complex information to various audiences and formats.
+	Above average writing/authoring skills.
+
+
+									
+									
+								
+							
+						
+					
+					
+					
+					
+						
+						
+					
+				
+				
+					
+						
+							
+									
+										
+											
+												
+													
+													Option 1: Create a New Profile
+													
+												
+											
+											
+												
+													
+														
+															Create Profile and Apply to Job 
+														
+														
+													
+												
+											
+											
+												
+												
+													
+														
+														Option 2: Login and Apply
+														
+														
+														
+																
+											        			Username
+																
+														
+														
+																Password
+																
+														
+													
+												
+												
+													
+														Submit
+													
+																		
+												
+												
+												
+										
+											
+										
+									
+								
+								
+							
+							
+							
+								
+									
+									
+									
+								
+							
+							
+						
+					
+				
+				
+
+
+				
+	
+
+				
+
+				
+
+							
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+	
+
+
+
+
+
+		
+
+			
+
+
+
+				
+
+										Recent News &amp; Events		
+
+				Xenia Systems Launches New Site
+
+				Supreme Court Upholds Health Care Reform Law
+
+				
+
+						
+
+
+
+				
+
+						NavigationServices
+
+Capabilities
+
+Careers
+
+News &#038; Events
+
+				
+
+
+
+				
+
+						Recent Updates				
+
+
+
+				
+
+						Contact us!			
+
+
+
+ 202 Church Street, Suite 209, Leesburg, VA 20175, USA
+
+ 703-444-0295
+
+ Contact@XeniaSystems.com 
+
+
+
+
+
+						
+
+
+
+				
+
+			
+
+		
+
+
+
+		
+
+			
+
+					
+
+				visit us on social media:
+
+			
+
+			Scroll to top
+
+		
+
+
+
+		
+
+			
+
+				
+
+																	Copyright &copy; 2012. All rights reserved.
+
+			
+
+		
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+		
+		
+	  		api_key: 77t47zqein5gha
+			authorize:true
+		
+		
+		(function($) {
+			$('body').on('click', '.linkedInApply', function(e) {
+				e.preventDefault();
+				IN.User.authorize(function(){
+					$('.bmApplyBttn:first').click();
+				});
+			});
+		})(jQuery);
+		
+			
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+(function($){
+	$("[data-toggle='tooltip']").tooltip();
+	$("[data-toggle='popover']").popover({trigger: 'click'});
+	$('body').on('click', function (e) {
+	    $('[data-toggle="popover"]').each(function () {
+	        //the 'is' for buttons that trigger popups
+	        //the 'has' for icons within a button that triggers a popup
+	        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+	            $(this).popover('hide');
+	        }
+	    });
+	});
+	$('body').on('focus', '.datetimepicker', function(){
+			var $dpicker = Array('hour', 'minute');
+			$dpicker['hour'] = 0;
+			$dpicker['minute'] = 0;
+			
+			if(!$(this).val()){
+				$dpdate = new Date();
+				$dpicker['hour'] = $dpdate.getHours();
+				$dpicker['minute'] = $dpdate.getMinutes();
+			}
+				$(this).datetimepicker({
+					dateFormat: 'm/d/yy',
+					timeFormat: 'hh:mm TT',
+					controlType:'select',
+					hour:$dpicker['hour'],
+					minute:$dpicker['minute'],
+					ampm: false,
+					secondMin:0,
+					secondMax:0
+				});
+		});
+	
+		$('body').on('focus', '.datepicker', function(){
+			var $dpicker = Array('hour', 'minute');
+			$dpicker['hour'] = 0;
+			$dpicker['minute'] = 0;
+			
+			if(!$(this).val()){
+				$dpdate = new Date();
+				$dpicker['hour'] = $dpdate.getHours();
+				$dpicker['minute'] = $dpdate.getMinutes();
+			}
+				$(this).datepicker({
+					dateFormat: 'm/d/yy'
+				});
+		});
+	})(jQuery);
+
+
+

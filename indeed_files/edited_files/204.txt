@@ -1,0 +1,689 @@
+
+
+	
+		
+		
+		
+		
+		
+				
+			
+				.gradient {
+		   			filter: none;
+				}
+			
+		
+		Data Analyst - Redmond, WA - Decisive Data Jobs
+		
+		
+		
+				
+		
+				
+		
+				
+				
+				
+					
+			
+      		
+      	
+		
+		-->
+		
+			$(function() {
+				$('input,textarea').placeholder();
+				A.supportsPlaceholders = $.support.placeholder = 'placeholder' in document.createElement('input');
+				V.init();
+				A.useN = true;
+				A.newValidation = true;
+				A.isMobile = 0;
+				
+							});
+		
+		
+			function breakout() {
+				if(window.top != window.self) {
+					window.top.location="https://decisivedata.applicantpro.com//jobs/640472-39754.html";
+				}
+			}
+		
+			
+	
+		
+			
+								
+										
+										
+										
+									
+								
+					
+												
+							Home
+							Jobs
+						
+						
+						
+							@media print {
+							    .navbar {
+							        display: block;
+							        border-width:0 !important;
+							    }
+
+							    .navbar-toggle {
+							        display:none;
+							    }
+
+							    #email_me_job{
+							    	display: none;
+							    }
+
+							    #job_piper_alerts_widget{
+							    	display: none;
+							    }
+
+							    a[href]:after {  
+							    	display:none; 
+							    }
+
+							    .navbar-brand{
+							    	display: block;
+							    	text-decoration: none;
+							    	text-align: center;
+							    }
+							}
+
+							/*Safari Only hack*/
+							@media print and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+								.navbar-brand { 
+									display: none;
+								} 
+							}
+
+							/* Explorer Only hack */
+							.navbar-brand { display:none\0; }
+						
+						
+						
+							
+								Data Analyst - Redmond, WA
+								
+									Toggle navigation
+									
+									
+									
+								
+							
+							
+								
+									
+										Data Analyst									
+									
+										JobsLogin									
+								
+							
+						
+
+	$(function() {
+		$('#email_me_job').on('click', function() {
+			Analytics.addAction('email_me_job_button', { listing_id : 640472 });
+		});
+		
+		Analytics.addParams({ listing_id : '640472' });
+	});
+
+ 
+	{"@context":"http:\/\/schema.org\/","@type":"JobPosting","title":"Data Analyst","url":"https:\/\/decisivedata.applicantpro.com\/jobs\/640472.html","description":"Our organization delivers top-notch business intelligence solutions to our clients. The team is agile, lean, and composed of hard working, smart, self-starting individuals. We prize ingenuity, allow chances to push the envelope, and more than anything we prize critical thinking and excellence.\r\n&nbsp;\r\nWhether you're a recent grad or an experienced consultant who's done it all, we're looking for a multi-talented data analyst who's looking to make a big impact. Projects include sales pipeline measurement, healthcare efficiency reporting, and sales\/competitive intelligence product development.\r\n&nbsp;\r\nWe are looking for an individual with a natural ability to understand our client's business questions and use data to quantify and gain knowledge required to answer the questions at hand.\r\n&nbsp;\r\nPractical work experience background with database design, SQL development\/data extraction, and Excel\/Tableau report design will put you ahead of the curve.\r\n&nbsp;\r\n&nbsp;A background in computer science and data driven applications is preferred. However, if you are a recent graduate of a program such as Applied Mathematics, Physics, or Management Information Systems, and think you are a good fit, then we'd love to hear from you.\r\n&nbsp;\r\nDuties and Responsibilities:\r\n\r\nPartner with clients to learn their business and build valuable new reports\r\nCapture requirements and collaborate with BI developers to deliver new metrics and reports\r\nBe a high-horsepower contributor delivering, standardizing,&nbsp; and organizing data for business uses\r\nTake initiative where appropriate to drive project architecture and processes\r\nRepresent our company and build great relationships with clients in various industries.\r\n\r\n&nbsp;\r\nRequirements:\r\n\r\nUnderstand the problem at hand, study possible solutions, and find creative answers\r\nCompose clear, concise and well formatted emails\r\nCommunicate issues and questions as soon as they become apparent\r\nExcellent problem solving, analytical, communication and customer-facing skills\r\nTeam player and excellent collaborator\r\nWillingness to dive into new technologies\r\nSelf-motivated, able to work independently, active participant in career growth\r\nBasic experience with report design and delivery using Excel\/Tableau\/Pivot Table\r\n\r\n&nbsp;\r\nBeneficial Background and Skills:\r\n\r\nSQL database development; T-SQL; and complex query development\r\nBusiness Intelligence Training with emphasis on SQL Server Analysis Services Cubes \/ Tabular \/ Tableau\r\nUnderstanding of ETL principles such as meta-driven ETL, table driven business rules, and dimensional modeling\r\nBusiness acumen around software and high-tech manufacturing business processes\r\nBS degree in Computer Science\/ACMS\/MIS\r\nMicrosoft SQL Server certifications&nbsp; (i.e. MCDBA, MCSD, MCSE)\r\n\r\n&nbsp;\r\nDecisive Data is an Equal Opportunity Employer.&nbsp;Decisive Data&nbsp;prohibits discrimination and harassment against any employee or applicant for employment because of race, color, age, religion, sex, national origin, sexual identity or expression, sexual orientation, disability, veteran, military or marital status, genetic information or any other protected status.","identifier":{"@type":"PropertyValue","name":"Decisive Data","sameAs":"640472"},"datePosted":"2017-09-14 00:00:00","validThrough":"2017-11-13 00:00:00T23:59","employmentType":"FULL TIME","baseSalary":{"@type":"MonetaryAmount","currency":"USD","value":{"@type":"QuantitativeValue","value":"","unitText":""}},"hiringOrganization":{"@type":"Organization","name":"Decisive Data","sameAs":"https:\/\/decisivedata.applicantpro.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Redmond","addressRegion":"WA","postalCode":"","addressCountry":"US"}}}
+
+	
+		
+			
+				
+					 14-Sep-2017 to 13-Nov-2017 (PST) Development Redmond, WA, USA Full Time				
+				
+							
+			
+								Email Me Similar Jobs								Email Me This Job
+			
+		
+		
+		Our organization delivers top-notch business intelligence solutions to our clients. The team is agile, lean, and composed of hard working, smart, self-starting individuals. We prize ingenuity, allow chances to push the envelope, and more than anything we prize critical thinking and excellence.
+
+&nbsp;
+
+Whether you're a recent grad or an experienced consultant who's done it all, we're looking for a multi-talented data analyst who's looking to make a big impact. Projects include sales pipeline measurement, healthcare efficiency reporting, and sales/competitive intelligence product development.
+
+&nbsp;
+
+We are looking for an individual with a natural ability to understand our client's business questions and use data to quantify and gain knowledge required to answer the questions at hand.
+
+&nbsp;
+
+Practical work experience background with database design, SQL development/data extraction, and Excel/Tableau report design will put you ahead of the curve.
+
+&nbsp;
+
+&nbsp;A background in computer science and data driven applications is preferred. However, if you are a recent graduate of a program such as Applied Mathematics, Physics, or Management Information Systems, and think you are a good fit, then we'd love to hear from you.
+
+&nbsp;
+
+Duties and Responsibilities:
+
+
+
+Partner with clients to learn their business and build valuable new reports
+
+Capture requirements and collaborate with BI developers to deliver new metrics and reports
+
+Be a high-horsepower contributor delivering, standardizing,&nbsp; and organizing data for business uses
+
+Take initiative where appropriate to drive project architecture and processes
+
+Represent our company and build great relationships with clients in various industries.
+
+
+
+&nbsp;
+
+Requirements:
+
+
+
+Understand the problem at hand, study possible solutions, and find creative answers
+
+Compose clear, concise and well formatted emails
+
+Communicate issues and questions as soon as they become apparent
+
+Excellent problem solving, analytical, communication and customer-facing skills
+
+Team player and excellent collaborator
+
+Willingness to dive into new technologies
+
+Self-motivated, able to work independently, active participant in career growth
+
+Basic experience with report design and delivery using Excel/Tableau/Pivot Table
+
+
+
+&nbsp;
+
+Beneficial Background and Skills:
+
+
+
+SQL database development; T-SQL; and complex query development
+
+Business Intelligence Training with emphasis on SQL Server Analysis Services Cubes / Tabular / Tableau
+
+Understanding of ETL principles such as meta-driven ETL, table driven business rules, and dimensional modeling
+
+Business acumen around software and high-tech manufacturing business processes
+
+BS degree in Computer Science/ACMS/MIS
+
+Microsoft SQL Server certifications&nbsp; (i.e. MCDBA, MCSD, MCSE)
+
+
+
+&nbsp;
+
+Decisive Data is an Equal Opportunity Employer.&nbsp;Decisive Data&nbsp;prohibits discrimination and harassment against any employee or applicant for employment because of race, color, age, religion, sex, national origin, sexual identity or expression, sexual orientation, disability, veteran, military or marital status, genetic information or any other protected status.		
+		
+			Decisive Data
+			https://decisivedata.applicantpro.com
+		
+	
+	
+		
+	$(function() {
+		A.setTempName('apply');
+		A.getResponse('getCsrfToken', '', function(result) {
+			if(result && "token" in result) {
+				$('input[name="csrf_token"]').val(result.token);
+				A.attachParam('csrf_token', result.token);
+			}
+		});
+		
+		$('#job_piper_alerts_widget').show();
+		
+		// Hide job piper to reduce confusion
+		$('#contact_number').on('keyup', function() {
+			$('#job_piper_alerts_widget').fadeOut(200);
+		});
+		$('#apply').on('submit', function () {
+			var $t = $(this), formIsValid = V.form('apply'), appData;
+			
+			if(formIsValid) {
+				
+				appData = AS.get('applicationInfo') || {};
+				appData.job_listing_id = '640472';
+				appData.i = '0';
+				appData.first_name = $('#first_name').val();
+				appData.last_name = $('#last_name').val(); 
+				appData.email = $('#email').val();
+				appData.contact_number = $('#contact_number').val();
+				appData.contact_number_type = $('#contact_number_type').val();
+				appData.text_approval = $('#text_approval').val();
+				AS.set('applicationInfo', appData, 2700);
+				
+				$('#apply_container').animate({ opacity: 0 }, 200);
+				A.setTempName('apply');
+				A.getHTML('initialForm', 'apply', '', function(result) {
+					if(result) {
+						$('#apply_container').html(result).animate({ opacity: 1 }, 200);
+						// Hide job piper to reduce confusion
+						$('#job_piper_alerts_widget').fadeOut(200);
+					}
+				});
+			}
+			return false;
+		});
+		
+		$('#contact_number_type').on('change', function () {
+			if (this.value == 2) {
+				$('#text_approval_div').show();
+				$('#text_approval').attr('disabled', false);
+			} else {
+				$('#text_approval_div').hide();
+				$('#text_approval').attr('disabled', true);
+			}
+		});
+		
+		var appData = AS.get('applicationInfo');
+		if(typeof(appData) != 'undefined') {
+			for(var i in appData) {
+				// make sure there's a value and that the field is a string, not an int, and skip the job_id and i
+				if(appData[i] && isNaN(parseInt(i)) && i != 'job_listing_id' && i != 'i')
+					$('#' + i).val(appData[i]);
+			}
+		}
+		
+		$('#seek_button').on('click', function() {
+			authSocSeek();
+		});
+	});
+	
+	window.funID = '2724';
+	
+	
+
+	
+		Apply Now
+			
+	
+		
+			You have JavaScript disabled on your browser. You will not be able to apply for this position without enabling javascript. If you need assistance with enabling javascript, please click here for assistance.
+		
+		
+						
+				
+				
+								
+					
+						* Fields Are Required
+					
+				
+				
+					
+						What is your full name?
+					
+				
+				
+					
+						First Name
+						
+					
+					
+						Last Name
+						
+					
+				
+				
+					
+						How can we contact you?
+					
+					
+						Email
+						
+					
+				
+				
+					
+						Phone Number
+						
+					
+					
+						Number Type
+						
+							Home
+							Cell
+							Work
+						
+					
+				
+								
+					
+						
+							What is your preferred method of communication?
+						
+						
+							Email
+							Text Message
+						
+					
+				
+								
+				
+					
+						Apply for this Position
+						Apply for this Position
+						By clicking the button above, I agree to ApplicantPro's Applicant Information Use Policy.					
+				
+			
+		
+	
+
+	
+		Sign Up For Job Alerts!
+	
+	
+		
+			$(function() {
+				var sidebar_options = { 
+					api_key: "jp_apppro_decisivedata", 
+					style: "sidebar", 
+					title: "Data Analyst", 
+					source: "4_job" 
+				};
+				referWidget("create", sidebar_options, "refer-widget");
+			});
+		
+		
+	
+
+
+	
+		Share this Page
+	
+	
+						
+		
+		
+		
+					
+	
+
+
+											 
+					
+												
+														Hiring Software Maintained By ApplicantPro - &copy; 2017
+														
+									
+										
+										Refresh
+									
+								
+													
+						
+						
+							$(function() {
+								$('.footer-links:last-child').css('border-left', '0');
+								$('.footer-links:last-child a').css('color', $('body .panel-footer').css('background-color'));
+							});
+						
+					
+					 
+				 
+			 
+		 
+		
+		
+	body {
+		margin-bottom: 60px !important;
+	}
+
+
+	var faqButtons = [{"page":"instructions","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"resume","link":"https:\/\/intercom.help\/applicant-support\/resumes"},{"page":"additional_questions","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"screening","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"employment","link":"https:\/\/intercom.help\/applicant-support\/employment-history"},{"page":"education","link":"https:\/\/intercom.help\/applicant-support\/education"},{"page":"references","link":"https:\/\/intercom.help\/applicant-support\/references"},{"page":"eeoc","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"disclosure","link":"https:\/\/intercom.help\/applicant-support\/applicant-statement"},{"page":"source","link":"https:\/\/intercom.help\/applicant-support\/source"},{"page":"submit","link":"https:\/\/intercom.help\/applicant-support\/submit-application","label":"Common Submit Questions"},{"page":"thank_you","link":"https:\/\/intercom.help\/applicant-support\/general","label":"Common Application Questions"},{"page":"my_account","link":"https:\/\/intercom.help\/applicant-support\/my-account","label":"Common Account Questions"},{"page":"login","link":"https:\/\/intercom.help\/applicant-support\/login","label":"Common Login Questions"},{"page":"listing_info","link":"https:\/\/intercom.help\/applicant-support\/job-listing","label":"Common Job Questions"}];
+	$(function() {
+		$('#faq_bar_form').on('submit', function() {
+			var value = $('#faq_bar_searchCriteria').val();
+			if(value) {
+				A.setTempName('support');
+				A.setTempDir('/jobs/');
+				A.set('recordSearch', { from_page_url : window.location.href, keyword : value });
+				var newWindow = window.open("https://intercom.help/applicant-support/#search_query=" + encodeURIComponent(value), "_blank");
+			} else
+				N.addError("Please enter a search term to search our FAQs");
+			return false;
+		});
+		
+		$('#common_faq_button').on('click', function() {
+			var newWindow = window.open($(this).data('link'), "_blank");
+		});
+		
+		var path = window.location.pathname, name;
+		switch(true) {
+			case path.indexOf('login.php') != -1 || path.indexOf('forgot_password.php') != -1:
+				name = 'login';
+				break;
+				
+			case path.indexOf('/account/') != -1:
+				name = 'my_account';
+				break;
+				
+			case path.indexOf('/jobs/') != -1:
+			case path.indexOf('/internaljobs/') != -1:
+				name = 'listing_info';
+				break;
+				
+			case path.indexOf('/apply/') != -1:
+				name = '';
+				break;
+		}
+		changeCommonQuestionsText(name);
+	});
+	
+	function changeCommonQuestionsText(name) {
+		var label = "", $button = $('#common_faq_button'), newButtonText = $('[data-file="' + name + '"]').text(), found = false;
+		for(var i in faqButtons) {
+			if(faqButtons[i]['page'] == name) {
+				$button.show();
+				label = faqButtons[i]['label'] ? faqButtons[i]['label'] : 'Common ' + (newButtonText.search(/questions?/ig) != -1 ? newButtonText : newButtonText + ' Questions');
+				$button.text(label);
+				$button.data('link', faqButtons[i]['link']);
+				found = true;
+				break;
+			}
+		}
+		
+		if(!found)
+			$button.hide();
+	}
+
+
+	
+		
+			
+		
+		Go
+				Common Questions
+			
+
+
+		
+				
+			!function(e,r,t){e.referWidget=e.referWidget||function(){(e.referWidget.q=e.referWidget.q||[]).push(arguments)},e.referWidget.l=1*new Date;var n=r.createElement("script"),i=r.getElementsByTagName("script")[0];n.async=1,n.src=t,i.parentNode.insertBefore(n,i)}(window,document, "https://widget-dot-refer-io.appspot.com/refer.js");
+		
+		
+		
+		
+				
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57286717-2', 'auto');
+  ga('send', 'pageview');
+
+
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		<!-- scripts 
+	
+		jQl.loadjQ('/js/all.min.js?ver=1.1.16498.2');
+	
+	-->
+	
+	
+	
+		
+	
+				var exit_survey_enabled = '0';
+		var fired = '0';
+		var thanks = '0'
+		$(function() {
+			$('#leaving').on('change', function() { 
+				if($(this).val() != 0)
+					$('#notice').css('display', 'block');
+				else
+					$('#notice').css('display', 'none');
+
+				if( $(this).val() == 'Other' ) 
+					$('#reason').css('display', 'block'); 
+				else 
+					$('#reason').css('display', 'none'); 
+			});
+		});
+
+		if(exit_survey_enabled != 0) {
+			$('#left').on('click', function() {
+				var answer = $('#leaving').val();
+				if(answer != 0) {
+					var domain_id = '2724';
+					var job = '640472';
+					var app = '';
+
+					if(answer == 'Other') {
+						if( $('#reason').val() != '' ) {
+							answer = $('#reason').val();
+						} else {
+							answer = 'Other (Non Specified)';
+						}					
+					}
+					$.post("/jobs/edit.php", {n: 'conversion', f: 'survey', v :{app_id : app, domain: domain_id, job_id: job, answer: answer} });
+
+					$('#ouibounce-modal').hide();
+				  							$('#ouibounce-referio-modal').css('display', 'block');
+									}
+			});
+		}
+
+		// if you want to use the 'fire' or 'disable' fn,
+		// you need to save OuiBounce to an object
+		if(exit_survey_enabled != 0 && fired == 0 && thanks == 0) {
+			var modal = '';
+
+			$('html').on( 'mouseleave', function() {
+				if(fired == 0) {
+					fired = 1;
+					modal = ouibounce(document.getElementById('ouibounce-modal'), {
+							aggressive: false,
+						  	timer: 0,
+						  	callback: function() { 
+						  		$('#top-nav').css('z-index', '0'); 
+						  		$.get("/jobs/view.php", {n: 'conversion', f: 'survey_fired'}); 
+								if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+									modal.disable();
+						  	}
+						});
+					modal.fire();
+				}
+			});
+
+			setInterval( function() { 
+				$('select').click(
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+
+				$('select').mouseleave( 
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+			}, 1000);
+
+			$('body').on('click', function() {
+			  	$('#ouibounce-modal').hide();
+			  	$('#ouibounce-referio-modal').hide();
+			});
+
+			$('#ouibounce-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal-footer button').on('click', function(e) {
+			  	$('#ouibounce-referio-modal').hide();
+			});
+		}
+	
+	
+		<!--
+	
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://decisivedata.applicantpro.com/stats/" : "http://decisivedata.applicantpro.com/stats/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	
+	
+		try {
+		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 4461);
+		piwikTracker.trackPageView();
+		piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+	
+	
+	-->
+		
+		$(function() {
+			Analytics.addAction();
+		});
+	
+
+		
+	
+	
+		$(function() {
+			$('select').attr('role', 'combobox');
+			$('.dropdown').attr('role', 'combobox');
+		});
+	
+
+	
+

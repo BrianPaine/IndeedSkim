@@ -1,0 +1,794 @@
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+        State Auto Financial Corporation
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+        $j = jQuery.noConflict();
+
+        autoCompleteDomain = 'www.investor.stateauto.com';
+
+    
+
+    
+
+    
+
+        if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+
+
+
+            var msViewportStyle = document.createElement("style");
+
+
+
+            msViewportStyle.appendChild(
+
+                document.createTextNode(
+
+
+
+                    "@-ms-viewport{width:auto!important}"
+
+
+
+                )
+
+
+
+            );
+
+
+
+            document.getElementsByTagName("head")[0].
+
+
+
+            appendChild(msViewportStyle);
+
+
+
+        }
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+    
+
+
+
+        
+
+            //
+
+        
+
+
+
+        
+
+
+
+            
+
+            
+
+            
+
+        
+
+
+
+        
+
+
+
+        
+
+
+
+
+
+
+
+        
+
+
+
+            
+
+            skip to main content
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                    
+
+                    
+
+                        
+
+                        
+
+                            
+
+                                
+
+                                    Home
+
+                                
+
+                            
+
+                        
+
+
+
+                    
+
+                
+
+
+
+            
+
+
+
+            
+
+                
+
+                    
+
+                        &nbsp;
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                            Browse Open Jobs
+
+                            Search Open Jobs
+
+                            Edit Your Profile
+
+                            View Submitted Applications
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                        
+
+
+
+
+
+.LabelCell
+
+{	padding: 3px 6px 3px 3px;
+
+}
+
+.Cell 
+
+{
+
+	padding-top: 4px;
+
+}
+
+
+
+.PrintSmall {
+
+	font-weight: bold
+
+}
+
+
+
+.LinkSmall:link 
+
+{
+
+	float: right;
+
+    font-weight: bold
+
+}
+
+.LinkSmall:visited 
+
+{
+
+	float: right;
+
+    font-weight: bold
+
+}
+
+.LinkSmall:active 
+
+{
+
+	float: right;
+
+    font-weight: bold
+
+}
+
+.LinkSmall:hover 
+
+{
+
+	float: right;
+
+	font-weight: bold
+
+}
+
+
+
+Job Details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = ('');
+
+		theform.__PXLBV.value = ('');
+
+	}
+
+	function pxslbp(eventTarget, eventArgument) {
+
+		var theform;
+
+		if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = eventTarget;
+
+		theform.__PXLBV.value = eventArgument;
+
+		theform.submit();
+
+	}
+
+//-->
+
+
+
+
+
+Invalid zipcode/postal code format for this country.');
+
+                }
+
+            } catch (e) {
+
+                hasError = true;
+
+            }
+
+            if (hasError) {
+
+                _zipCodeValue.title = 'Invalid Postal Code';
+
+                _zipCodeValue.style.backgroundColor = 'yellow';
+
+            }
+
+        }
+
+        return _validationReturn;
+
+    }
+
+    return true;
+
+}
+
+
+
+function removeZipLabelError(_zipCodeValue) {
+
+    var withSuccess = true;
+
+    try {
+
+        var lenght = _zipCodeValue.parentNode.childNodes.length;
+
+        var index = 0;
+
+        while (index 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ToggleCheckBoxs(chk){
+
+var tab = document.getElementById ( 'CheckBoxTable' );
+
+var elems = tab.getElementsByTagName ( 'input' );
+
+var len = elems.length;
+
+ for ( var i = 0; i  1){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+var pkval = nameparts[1];
+
+ txt.value = pkval;
+
+ }
+
+ }
+
+else
+
+elems[i].checked = false;
+
+}
+
+ if(chk.type == 'checkbox'){
+
+ if(chk.checked == false){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+txt.value="";
+
+}}}}
+
+
+
+
+
+
+
+    function SendResume(){
+
+        document.PXForm.ParseResume.value = 1;
+
+        document.PXForm.submit();
+
+    }
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+
+			
+
+			
+
+				Requisition Number
+
+				17-0270
+
+			
+
+			
+
+				Post Date
+
+				9/13/2017
+
+			
+
+			
+
+				Title
+
+				Predictive Modeler
+
+			
+
+			
+
+				Location
+
+				Corporate Headquarters
+
+			
+
+			
+
+			
+
+			
+
+				City
+
+				Columbus
+
+			
+
+			
+
+			
+
+			
+
+				Hours
+
+				8am - 4:15pm
+
+			
+
+			
+
+				Description
+
+				General Summary: 
+
+Work as part of a team of predictive modelers and analysts leveraging advanced analytics to drive innovation, inform strategy development, and enhance competitiveness for all lines of personal and business insurance.
+
+Build and deliver predictive models and data mining applications for a variety of business functions throughout the enterprise.
+
+
+
+Key Responsibilities
+
+1. Extract large data volumes from various systems, perform quality checks, cleansing, and transformations in order to construct modeling-ready datasets.
+
+
+
+2. Rigorously build predictive models of business outcomes such as claim frequency, customer retention, and agent performance, using SAS and other software.
+
+
+
+3. Develop evidence of model validity, stability, and business value in reference to current practices.
+
+
+
+
+
+4. Share findings, business implications, and action recommendations via written and oral presentations.
+
+
+
+
+
+5. Provide clear technical documentation to facilitate knowledge transfer and retention.
+
+
+
+6. Support implementation teams to put approved models into production; monitor existing models for accuracy and stability.
+
+
+
+7. Investigate potential business value for new data sources, vendor products, and methodological enhancements.
+
+			
+
+			
+
+				Requirements
+
+				Minimum Experience / Education:
+
+• 3&#43; years in predictive modeling and related analytics (Generalized Linear Models, Decision Tree, Spatial Analysis, Survival Analysis , Simulation, Optimization, etc.)
+
+
+
+• Advanced degree (masters or PhD) in Applied Statistics, Operations Research, Econometrics, Decision Science, Applied Mathematics, or other rigorous quantitative discipline
+
+
+
+Communication and Collaboration Skills:
+
+• Outstanding oral and written communication skills; ability to create effective data visualizations
+
+
+
+
+
+• Interpersonal skills, and inclination to interact regularly in direct collaboration with business partners across the enterprise
+
+
+
+• Strong organizational skills to plan, balance, and maintain accountability for multiple concurrent projects
+
+
+
+
+
+
+
+Technical Knowledge:
+
+• In-depth knowledge of statistical techniques and theory, including multivariate statistical modeling.
+
+
+
+• Skilled user of statistical modeling and data mining software (e.g., SAS).
+
+
+
+• Proficiency in using developing complex data queries and analytic routines using programming languages (e.g., SQL)
+
+
+
+•Experience in property casualty insurance helpful but not required.
+
+
+
+State Auto offers a competitive salary, an annual bonus program, an excellent benefit program including medical, dental, vision and prescription insurance coverage, life insurance, matching 401(k) plan, flexible spending accounts, tuition assistance, and a
+
+ stock purchase plan. 
+
+
+
+State Auto is committed to the principal of equal employment opportunity for all associates and applicants and to providing associates with a work environment that is free from discrimination and harassment. All employment decisions (hiring, placement, promotion,
+
+ termination, layoff, recall, transfer, leaves of absence, compensation, training and work assignments) are based on business needs, job requirements and individual qualifications without regard to race, color, religion, gender, sex, sexual orientation, gender
+
+ identity, national origin, age, disability, genetic information, marital status, citizenship status, military status, or status as a covered veteran in accordance with applicable federal, state and local laws. State Auto will not tolerate discrimination or
+
+ harassment based on any of these characteristics. 
+
+
+
+State Auto is a smoke-free work environment. We utilize drug screening and background checks as conditions of employment. For all exempt positions we also obtain motor vehicle reports (MVR s).
+
+
+
+State Auto will not accept candidates from third-party recruiters without a signed agreement with State Auto.
+
+
+
+			
+
+			
+
+				
+
+				Apply On-line
+
+			
+
+			
+
+				
+
+				Send This Job to a Friend
+
+			
+
+		
+
+		
+
+	
+
+
+
+
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+        
+
+
+
+
+
+        
+
+
+
+    
+
+
+
+
+

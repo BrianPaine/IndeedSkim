@@ -1,0 +1,392 @@
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	Data Analyst - CareStar, Inc.
+
+	
+
+		* {
+
+			-webkit-box-sizing: border-box;
+
+			-moz-box-sizing: border-box;
+
+			box-sizing: border-box;
+
+		}
+
+		html {
+
+			font-family: sans-serif;
+
+			-ms-text-size-adjust: 100%;
+
+			-webkit-text-size-adjust: 100%;
+
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+		}
+
+		body, html {
+
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+			font-size: 13px;
+
+			line-height: 1.42857143;
+
+			color: #333333;
+
+			background-color: #f6f6f6 !important;
+
+			padding-top: 2px;
+
+			padding-bottom: 4px;
+
+			margin: 0;
+
+		}
+
+		body {
+
+			padding-left: 20px;
+
+			padding-right: 20px;
+
+		}
+
+		a img {
+
+			border:none;
+
+		}
+
+		#outside {
+
+			text-align:left;
+
+			position:relative;
+
+			margin:16px auto;
+
+			max-width:900px;
+
+		}
+
+		#header {
+
+			font-size: 36px;
+
+		}
+
+		#header a {
+
+			color: black;
+
+			text-decoration: none;
+
+		}
+
+		#contentouter {
+
+			padding: 16px;
+
+			border-left: 1px solid #ccc;
+
+			border-top: 1px solid #ccc;
+
+			border-bottom: 1px solid #999;
+
+			border-right: 1px solid #999;
+
+			background-color: white;
+
+		}
+
+		#content {
+
+			clear: both;
+
+/*			padding-top: 10px;*/
+
+/*			font-size: 13px;*/
+
+/*			line-height: 16px;*/
+
+		}
+
+		#inner_footer {
+
+			text-align:center;
+
+			color: #444;
+
+			padding-top: 15px;
+
+			padding-bottom: 10px;
+
+			font-size: 10px;
+
+		}
+
+		#inner_footer a{
+
+			color: #444;
+
+			text-decoration: none;
+
+		}
+
+		@media (max-width: 768px) {
+
+			body, html {
+
+				padding: 0 !important;
+
+				background-color: #fff !important;
+
+			}
+
+			#outside {
+
+				margin:0 !important;
+
+				width: auto !important;
+
+			}
+
+			#contentouter {
+
+				border: 0;
+
+			}
+
+		}
+
+	
+
+	
+
+	
+
+	
+
+		
+
+		
+
+	
+
+	
+
+
+
+	
+
+			
+
+	
+
+	
+
+	
+
+		#contentouter {border:0;}
+
+		#outside {border:0;}
+
+		body {background-color:white;}		
+
+	
+
+
+
+
+
+
+
+	
+
+					
+
+			
+
+		
+
+		
+
+			
+
+				
+
+				
+
+				
+
+	// Load jQuery if not defined or less than version 1.9.1 (required by bootstrap)
+
+	var jquery_is_loaded = true;
+
+	if (typeof jQuery === 'undefined') {
+
+		jquery_is_loaded = false;
+
+	}
+
+	else{
+
+		var jquery_version = jQuery.fn.jquery.split(' ')[0].split('.');
+
+		if ((jquery_version[0] < 2 && jquery_version[1] < 9) || (jquery_version[0] == 1 && jquery_version[1] == 9 && jquery_version[2] < 1)) {
+
+			jquery_is_loaded = false;
+
+		}
+
+	}
+
+	if(!jquery_is_loaded){
+
+		load_script('https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js');
+
+	}
+
+	
+
+	// Load bootstrap if not loaded
+
+	if (typeof $.fn.popover != 'function'){
+
+		load_script('https://www2.applicantstack.com/links/bootstrap/all/js/bootstrap.js');
+
+		load_link('https://www2.applicantstack.com/links/bootstrap/all/css/bootstrap.css');
+
+		load_link('https://www2.applicantstack.com/links/bootstrap/all/css/bootstrap-theme.css');
+
+	}
+
+	
+
+	function load_script(src){
+
+		var h = document.getElementsByTagName('head')[0];
+
+		var e = document.createElement('script');
+
+		e.src = src;
+
+		h.appendChild(e);
+
+	}
+
+	function load_link(href){
+
+		var h = document.getElementsByTagName('head')[0];
+
+		var e = document.createElement('link');
+
+		e.rel = 'stylesheet';
+
+		e.type = 'text/css';
+
+		e.href = href;
+
+		h.appendChild(e);
+
+	}
+
+Job Openings &gt;&gt; Data AnalystData AnalystSummaryTitle:Data AnalystID:1338Region:CincinnatiPosition Type:Information TechnologyType:Full TimeDescriptionCareStar is an established leader in the home and community-based healthcare industry. We are currently seeking two (2)&nbsp;DATA&nbsp;ANALYSTS&nbsp;to translate the CareStar operational workflow and data requirements across departments into automated reports used by business leaders to improve the speed and accuracy of decision-making.
+
+
+
+At CareStar, our employee&rsquo;s share in the equity of the company through shared ownership benefit. The CareStar Employee Stock Ownership Plan (ESOP).&nbsp; 
+
+
+
+Job Responsibilities:
+
+
+
+
+
+	Works collaboratively across departments to design and implement reports, reporting packages, database queries and software changes/solutions to meet business requirements.
+
+	Creates reports, dashboards and performs ad hoc analysis to automate manual tasks and assist business leaders in decision-making.
+
+	Proactively works with CareStar&rsquo;s management and staff to analyze information, workflow needs, and identify opportunities for improvement.
+
+	Manages project development, execution and follow-up.
+
+	Draws insights from reporting data and analysis based on business knowledge/requirements and presents recommendations to business leaders.
+
+	Sources, recommends, and implements business intelligence tools and software to improve CareStar&rsquo;s analytical capabilities.
+
+
+
+
+
+
+
+Qualified candidates will have the following knowledge and experience:
+
+
+
+
+
+	Bachelor&#39;s Degree in Information Systems, Informatics, Computer Science, Business Administration, Finance or related field.
+
+	2-6 years of experience in a related field with a&nbsp;combination of business experience and technical abilities to robustly engage in operational analysis.
+
+	Microsoft Certified Solutions Associate (MCSA) for SQL, Certified Health Data Analyst or Certified Healthcare Technology Specialist (CHTS) credential preferred.
+
+	Strong knowledge of and experience with SQL and Oracle database reporting.
+
+	Technical expertise in data models, database design development and data mining.
+
+	Knowledge of statistics and experience using Microsoft Office statistical tools for analysis.
+
+
+
+All employees are required to maintain confidentially as related to patient information. Employees are required to follow the acceptable use policy while using any information systems owned or controlled by CareStar. Any disclosures of confidential information made unlawfully outside the proper course of duty will be treated as a serious disciplinary offence.
+
+
+
+CareStar offers a competitive salary, based upon experience, education and knowledge; paid vacations and holidays; insured medical plans for employees and their families and 401(k).&nbsp; We believe that people work best when they are working for themselves. At CareStar, our employee&rsquo;s share in the equity of the company through shared ownership benefit. The CareStar Employee Stock Ownership Plan (ESOP).&nbsp; Apply today at CareStar&rsquo;s Career page at www.carestar.com.
+
+&nbsp;
+
+CareStar is an equal employment opportunity employer (EOE/m/v/d/f) committed to excellence through diversity.
+
+&nbsp;&nbsp;Apply Now&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refer to a Friend&nbsp;&nbsp;
+
+				
+
+				
+
+			
+
+		
+
+	
+
+	
+
+		Copyright 2017 CareStar, Inc.. All rights reserved.Powered by ApplicantStack&trade; Applicant Tracking System
+
+	
+
+
+
+
+
+
+

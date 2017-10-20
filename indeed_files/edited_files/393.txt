@@ -1,0 +1,367 @@
+
+
+
+
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5BVFGJK');
+
+
+Statistical/Actuarial Data Analyst - Vitality
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.vitalitygroup.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=445dd32f39fe5ca9efbe4ed2f757ed27"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b!==c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//www.vitalitygroup.com/?wordfence_logHuman=1&hid=20A0CB689267805821DB8A08DE3FBB4C');
+		.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+				
+			/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+		
+	
+
+
+
+
+
+
+		
+			
+				
+					
+					
+					
+					
+						
+					
+				
+			
+		
+		
+			
+				
+					
+					Member Login
+				
+				
+					
+					Search
+				
+			
+			
+				
+					
+				
+				
+				Talk to us
+				
+				
+					
+						
+					
+					
+						How Vitality Works
+Why We Are Different
+
+	The Vitality Difference
+	Active Rewards with Apple Watch
+	Proven Results
+	Thought Leadership
+
+
+Who Benefits
+
+	Why Vitality Works
+	For Employers
+	For Health Plans
+	For Brokers &#038; Consultants
+
+
+Insights
+Careers
+News
+Talk to us
+Member Login
+					
+					
+						
+						
+						
+					
+				
+			
+		
+		
+	
+
+
+
+	
+
+
+	
+		Statistical/Actuarial Data Analyst
+		
+					Chicago				
+	
+
+
+
+	
+		
+												
+						Bring your "A" game! Be our new Statistical/Actuarial Data Analyst!
+
+
+
+We’re Vitality, improving people’s health around the world through best-in-class evidence, science, technology and most importantly our people. Vitality encourages changes in lifestyle that reduce health care costs, both in the short run and long term, by rewarding members for addressing their specific health issues. Vitality wellness programs serve companies in a wide range of sizes and industries, improving individuals’ health and well-being as well as employers’ bottom lines. Vitality brings a global perspective through successful partnerships with large employers and best-in class insurers around the world, in countries including the United States, United Kingdom, South Africa, China, Singapore and Australia. Join Vitality and transform health around the world. 
+
+
+					
+				
+				Our Actuarial and Product team in Chicago is looking for a full-time Statistical/Actuarial Data Analyst who is seeking to combine clinical rigor, behavioral science, and love for statistics and data in the development of client reports and products that improve the lives of our members across the world. With a global member base, there are enormous opportunities to leverage your health and data expertise in the development of compelling health and wellness-focused products, plus report on results to various audiences. The ideal candidate would have a background in health insurance with a strong statistical underpinning, experience working with large medical claims data sets, and expertise with using data to make sound business decisions.
+Key Outputs 
+
+Apply your expertise in health, quantitative analysis, and the presentation of data driven insights to complete complex medical claims analyses.
+Work with our actuarial and product teams to solve problems and identify opportunities.
+Work with data architects and medical carriers to extract and manipulate data sets.
+Increase reporting efficiency while maintaining quality.
+Create and maintain health dashboards and reports, distilling multi-dimensional health data into a compelling and easily digestible format.
+Contribute to ongoing product and research initiatives.
+
+&nbsp;
+Competencies: 
+
+Strong analytics and statistics skills and experience working with large data sets.
+Ability to deal with complex issues and migrate between detail and high level requirements
+Strong communication and presentation skills i.e. the ability to translate numbers into insights. In particular, experience conducting analyses and conveying the insights to a diverse audience is required.
+Ability to work in a high-pressured environment on ambiguous projects
+An understanding of business dynamics and strategic challenges
+A strong interest in innovative solutions to health promotion.
+
+Education and Experience 
+
+1+ year career experience in health insurance claims data with an understanding of disease and disease prevention.
+Technical experience includes:
+Manipulating data sets through statistical software, R preferred
+Data visualization tools, Power BI preferred
+Querying languages, SQL preferred
+Scripting languages, Python preferred
+
+&nbsp;
+We offer a variety of benefits and perks in our Chicago Loop office, including:
+&nbsp;
+
+Comprehensive health insurance
+Health savings account with employer contribution
+Vision insurance
+Dental insurance
+401(K) with employer match
+Unlimited personal time off
+Life insurance
+Pre-tax commuter benefits
+Healthy breakfast
+Free membership at Lifestart Fitness Center
+Divvy Bike memberships
+
+Think you’ve got what it takes? Bring it! Send your resume to: careers@thevitalitygroup.com.
+
+					
+
+		
+			
+	        	Apply
+	        		        	careers@thevitalitygroup.com
+
+	        
+		
+	
+
+
+
+	
+
+		
+	
+		Start seeing real results with a program that works.
+		Talk to us
+	
+
+		
+			
+				Column
+
+	How Vitality Works
+
+
+Column
+
+	The Vitality Difference
+	Active Rewards with Apple Watch
+	Proven Results
+	Thought Leadership
+
+
+Column
+
+	Why Vitality Works
+	For Employers
+	For Health Plans
+	For Brokers &#038; Consultants
+
+
+Column
+
+	Insights
+	Contact Us
+	Careers
+	News
+
+
+				
+					
+						Copyright &copy; 2017 Vitality. All rights reserved.
+						Terms of Use
+Privacy Policy
+Member Login
+					
+
+					
+				
+			
+		
+	
+
+
+
+
+
+
+
+
+	(function() {
+		var cx = '012834612777329818901:mksdt6e2br4';
+		var gcse = document.createElement('script');
+		gcse.type = 'text/javascript';
+		gcse.async = true;
+		gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(gcse, s);
+  	})();
+
+
+	(function () {
+		var domain = "vitalitygroup.trex.ra11y.com";
+		var d=document,t='script',c=d.createElement(t),s=(d.URL.indexOf('https:')==0?'s':''),p;
+		c.type = 'text/java'+t;
+		c.src = 'http'+s+'://'+domain+'/js/capture.js';
+		p=d.getElementsByTagName(t)[0];p.parentNode.insertBefore(c,p);
+	}());
+
+
+	piAId = '211002';
+	piCId = '1162';
+
+	(function() {
+		function async_load(){
+			var s = document.createElement('script'); s.type = 'text/javascript';
+			s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+			var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+		}
+		if(window.attachEvent) { window.attachEvent('onload', async_load); }
+		else { window.addEventListener('load', async_load, false); }
+	})();
+
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f504b3a02a","applicationID":"37809859","transactionName":"YV1VMEFWX0oHBkEMDVgXdgdHXl5XSRZcCwVaXRoOXFVCVQ8WQQwMUUs=","queueTime":0,"applicationTime":176,"atts":"TRpWRglMTEQ=","errorBeacon":"bam.nr-data.net","agent":""}
+
+

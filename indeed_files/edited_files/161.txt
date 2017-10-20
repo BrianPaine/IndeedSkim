@@ -1,0 +1,621 @@
+
+
+
+Suez Careers
+
+  
+
+
+
+
+
+
+
+
+ 
+  
+  
+
+  
+
+
+
+
+
+
+function clear_search() {document.search_form.search_phrase.value= "";}
+
+
+window.onload=function() {
+     
+    if(""=="yes") {
+          
+     }
+
+           
+  var anchors = document.querySelectorAll('a[href]');
+
+  Array.prototype.forEach.call(anchors, function (element, index) {
+
+    //alert("href is " + element.href);
+    var sSearchString = "oh_jobwrapper/";
+    var sHref = element.href;
+    var nIndex = sHref.toLowerCase().indexOf(sSearchString);
+
+    if (nIndex >0) {
+           //strip CF string prepended by Open Hire call to CFHTTP
+
+            var sNewHref = sHref.substr( nIndex+sSearchString.length );
+           element.href = sNewHref;
+
+  //alert("New href is " + sNewHref);
+
+     } //end strip CF crap prepended by Open Hire call to CFHTTP
+});
+
+}  //end onload
+
+
+
+
+ 
+
+
+	$( function()
+	{
+		$( '#nav_main li:has(ul)' ).attr('aria-haspopup','true').doubleTapToGo();
+
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+function funcWriteBreadcrumbNav(BreadCrumbList) {
+	var sOutputBreadcrumbNav = new String();
+	var sClass = null;
+	var sUrl = null;
+	var sText = null;
+	var nLevel = null;
+	var aryThisLink = null;
+
+                    var sBreadCrumbOnOff ="Off";
+                    if (sBreadCrumbOnOff.length ==0) sBreadCrumbOnOff = "Off";
+                    if (sBreadCrumbOnOff.toLowerCase() == "off") return sOutputBreadcrumbNav;
+                    if ("" == "8") return sOutputBreadcrumbNav;
+
+//alert("BreadCrumbList is " + BreadCrumbList);
+
+       var sTemp = "";
+	
+	//Added variables to grab information for the current page
+
+	var sCurrentPath = "https://suezna-careers.silkroad.com/Suez/UnplacedPages/OH_JobWrapper";
+	var sCurrentPage = "OpenHire Internal Page [do not delete]";
+
+	var arySubNav = unescape(BreadCrumbList);
+	//arySubNav = arySubNav.split("");
+	arySubNav = arySubNav.split(";");
+
+    //sOutputBreadcrumbNav += ""
+
+	var nLen = arySubNav.length;
+	for(var i = 0; i ";
+		// items
+
+         var sIndex = sText.indexOf("_subnav");
+         //   sOutputBreadcrumbNav += sIndex;
+
+        if(sText!=sTemp && sIndex " + sText.toLowerCase() + " &gt; ";
+				sOutputBreadcrumbNav += "" + sText + "&gt; ";
+				
+			//check if page is a bodylink	
+			} else if (i>=nLen-1 && sUrl!=sCurrentPath){
+				//--write out last page in bc list
+				sOutputBreadcrumbNav += "" + sText + "&gt; ";
+				//--- bl-last item
+				sOutputBreadcrumbNav += "" + sCurrentPage + "";
+			} else {
+				//--- last item
+				sOutputBreadcrumbNav += "" + sText + "";
+			}
+			
+              sTemp = sText;
+	     }
+
+			
+	}
+	
+    sOutputBreadcrumbNav += "";
+    //sOutputBreadcrumbNav += "";
+
+	return sOutputBreadcrumbNav;
+}
+
+
+
+
+
+
+
+			
+
+			
+
+			
+
+			
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+					var productVersion = "2017.5"; var timeoutSeconds = 3600; var timeoutWarningSeconds = 300; var displayTimeWarning = 0; var isCandidateLoggedIn = false; var companyId = 30110; var ep_version = 1;
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+
+
+
+
+
+
+   
+     
+
+
+
+   
+
+
+
+  
+    Show navigation
+    Hide navigation
+    
+
+       Home			
+				
+					Why work for us?
+				
+			
+About Us			
+				
+					Company History
+				
+				
+					Commitment To Diversity
+				
+				
+					Supporting Our Communities
+				
+				
+					Training
+				
+				
+					Environment
+				
+				
+					Benefits
+				
+			
+Employment Listings			
+				
+					Search Current Openings
+				
+				
+					Update Your Profile
+				
+				
+					Create a Job Agent
+				
+				
+					Update Job Agent
+				
+				
+					Recruiting Agency Login
+				
+			
+FAQs
+
+    
+  
+
+
+  
+     
+  var sPageName = "OH_JobWrapper";
+  if (sPageName.length !=0) sPageName = sPageName.toLowerCase();
+
+  if(sPageName !="home.html")
+    document.write(funcWriteBreadcrumbNav("Home,https://suezna-careers.silkroad.com;Employment%20Listings,https://suezna-careers.silkroad.com/Suez/EmploymentListings.html"));
+
+  
+
+   
+      
+    
+
+
+
+
+
+
+
+  Your user session will timeout in 5 minutes.  Please click OK to continue with your application.
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+		
+
+			
+
+				
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					Data Analyst
+
+				
+
+			
+
+			
+
+				
+
+					
+
+						Tracking Code
+
+					
+
+					
+
+						1999-110 
+
+					
+
+				
+
+				
+
+					
+
+						Job Description
+
+					
+
+					
+
+						About SUEZ
+
+We are at the dawn of the resource revolution. In a world facing high demographic growth, runaway urbanization and the shortage of natural resources, securing, optimizing and renewing resources is essential to our future. SUEZ (Paris: SEV, Brussels: SEVB) supplies drinking water to 92 million people, delivers wastewater treatment services to 65 million, recovers 16 million tons of waste each year and produces 7 terawatt hours of local and renewable energy. With 82,500 employees, SUEZ, which is present on all five continents, is a key player in the sustainable management of resources. SUEZ generated total revenues of $16.5 billion in 2016.
+
+&nbsp;
+
+Mining data sets using open source technologies
+
+Analyze different datasets related to customer accounts to detect useful patterns of consumption
+
+Using data to find and analyze sources, group data in logical categories, ensure data consistency, cleanse the data and provide insights
+
+Create and analyze reports to determine trends
+
+Present reports visually such as graphs, charts, and dashboards
+
+Develop and help to implement corrective solutions
+
+Other duties as assigned
+
+					
+
+				
+
+				
+
+					
+
+						Required Skills
+
+					
+
+					
+
+						Analytical skills to perform critical reviews of the mined data
+
+Strong conceptual and quantitative problem solving skills and the ability to think creatively
+
+Able to communicate data to any audience visually, verbally, or in writing
+
+Experience using statistical packages for analyzing datasets (Excel, Access, etc.)
+
+Experience using financial database applications (JPE, PS, SAP, etc.)
+
+Must have and maintain a full clean driving license
+
+Must be able to travel and work away from base, as and when required
+
+&nbsp;
+
+&nbsp;
+
+					
+
+				
+
+					
+
+						Required Experience
+
+					
+
+					
+
+						2-5&nbsp;years of professional experience needed using open source technologies.
+
+					
+
+				
+
+					
+
+						Job Location
+
+					
+
+					
+
+						Hackensack, New Jersey, United States
+
+					
+
+				
+
+					
+
+						Position Type
+
+					
+
+					
+
+						Full-Time/Regular
+
+					
+
+				
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					
+
+						
+
+							Apply
+
+						
+
+					
+
+					
+
+						
+
+						
+
+						
+
+								
+
+								
+
+								
+
+							
+
+					
+
+				
+
+				
+
+					
+
+						
+
+							
+
+								Share
+
+							
+
+						
+
+						
+
+							
+
+							
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+							
+
+							
+
+							
+
+						
+
+					
+
+				
+
+			
+
+			
+
+				
+
+					Return To Job Listings
+
+				
+
+				
+
+			
+
+		
+
+	
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+&copy;2017 Suez
+Site Map
+
+-->
+
+
+
+
+
+
+
+
+
+&nbsp;
+
+
+
+   
+
+        
+
+    
+
+
+
+
+
+ 
+
+		,\n\t\t       \n\t\t\t  ","FORMATLOCALEID":324,"PHONEREGEX":"^([+])?([1]( |-|\\.)?)?(\\(?[1-9]{1}[0-9]{2}\\)?|[1-9]{1}[0-9]{2})( |-|\\.)?([0-9]{3}( |-|\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$"}
+
+		-->
+
+	

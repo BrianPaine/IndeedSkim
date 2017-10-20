@@ -1,0 +1,1102 @@
+
+
+
+
+
+
+
+
+      
+      
+  <!--
+
+    
+    
+    
+    (window.NREUM||(NREUM={})).loader_config={xpid:"VgUDWVNXGwAIU1JUAgY="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,s.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){M++,S=y.hash,this[u]=b.now()}function o(){M--,y.hash!==S&&i(0,!0);var t=b.now();this[l]=~~this[l]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+y,e])}function a(t,e){t.on(e,function(){this[e]=b.now()})}var c="-start",s="-end",f="-body",u="fn"+c,d="fn"+s,p="cb"+c,h="cb"+s,l="jsTime",m="fetch",v="addEventListener",w=window,y=w.location,b=t("loader");if(w[v]&&b.xhrWrappable){var g=t(10),x=t(11),E=t(8),P=t(6),O=t(13),R=t(7),T=t(14),L=t(9),j=t("ee"),N=j.get("tracer");t(15),b.features.spa=!0;var S,M=0;j.on(u,r),j.on(p,r),j.on(d,o),j.on(h,o),j.buffer([u,d,"xhr-done","xhr-resolved"]),P.buffer([u]),O.buffer(["setTimeout"+s,"clearTimeout"+c,u]),T.buffer([u,"new-xhr","send-xhr"+c]),R.buffer([m+c,m+"-done",m+f+c,m+f+s]),E.buffer(["newURL"]),g.buffer([u]),x.buffer(["propagate",p,h,"executor-err","resolve"+c]),N.buffer([u,"no-"+u]),L.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+c),a(j,"xhr-resolved"),a(j,"xhr-done"),a(R,m+c),a(R,m+"-done"),a(L,"new-jsonp"),a(L,"jsonp-end"),a(L,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,M>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),c=t(12),s="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",h="-start",l="-end",m="fn"+h,v="fn"+l,w="bstTimer",y="pushState",b=t("loader");b.features.stn=!0,t(8);var g=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof g&&(this.bstStart=b.now())}),o.on(v,function(t,e){var n=t[0];n instanceof g&&i("bst",[n,e,this.bstStart,b.now()])}),a.on(m,function(t,e,n){this.bstStart=b.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),this.bstType])}),c.on(m,function(){this.bstStart=b.now()}),c.on(v,function(t,e){i(w,[e,this.bstStart,b.now(),"requestAnimationFrame"])}),o.on(y+h,function(t){this.time=b.now(),this.startPath=location.pathname+location.hash}),o.on(y+l,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+s]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+s]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+s]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(23)(a,!0),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=s(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?c(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=r.apply(this,arguments);return o.emit(n+"start",arguments,t),t.then(function(e){return o.emit(n+"end",[null,e],t),e},function(e){throw o.emit(n+"end",[e],t),e})})}var o=t("ee").get("fetch"),i=t(20);e.exports=o;var a=window,c="fetch-",s=c+"body-",f=["arrayBuffer","blob","json","text","formData"],u=a.Request,d=a.Response,p=a.fetch,h="prototype";u&&d&&p&&(i(f,function(t,e){r(u[h],e,s),r(d[h],e,s)}),r(a,"fetch",c),o.on(c+"end",function(t,e){var n=this;e?e.clone().arrayBuffer().then(function(t){n.rxSize=t.byteLength,o.emit(c+"done",[null,e],n)}):o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t(23)(r);e.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){s.emit("jsonp-error",[],p),s.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=c(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),s.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function c(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var s=t("ee").get("jsonp"),f=t(23)(s);if(e.exports=s,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,h=["appendChild","insertBefore","replaceChild"];f.inPlace(HTMLElement.prototype,h,"dom-"),f.inPlace(HTMLHeadElement.prototype,h,"dom-"),f.inPlace(HTMLBodyElement.prototype,h,"dom-"),s.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t(23)(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=c(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t(23),a=t("ee").get("promise"),c=i(a),s=t(20),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;s(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),c=f.resolve(i);return c}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),s(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=c(t[0],"resolve-",this),t[1]=c(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),c.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=c(t[0],"cb-",this),t[1]=c(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t(23)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(23)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",c)}function i(t){b.push(t),l&&(x?x.then(a):v?v(a):(E=-E,P.data=E))}function a(){for(var t=0;t34||hwindow.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"a854b69b42","agent":"","transactionName":"M1BbMRRVW0FTBkZfWwoafxAIV0FbXQsdVVUWUFwXFRpDW1cSQQx+C1dpChVdQVtdC3ZTQAVcVTMPUUIcVQBG","applicationID":"3873657","errorBeacon":"bam.nr-data.net","applicationTime":176}
+    
+    
+
+    
+    
+    
+
+    
+
+
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    var actOnRequiredFields = [];
+    var addRequiredField = function(element) {
+        actOnRequiredFields.push({element: element, group: false});
+    }
+    var addRequiredFieldGroup = function(element) {
+        actOnRequiredFields.push({element: element, group: true});
+    }
+    
+
+    
+
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-41454502-1', 'invitae.com');
+    ga('send', 'pageview');
+
+
+    
+
+    
+        // Init Mixpanel
+        (function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+            for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f)}})(document,window.mixpanel||[]);
+
+
+        (function() {
+
+            // Set all the user properties
+            var mixpanelInitialized = false;
+            var user_props = {};
+            
+
+            // Wrapper function for including current user's properties in all track calls
+            var trackWithUserProps = function(event, props) {
+                var isReady = function() {
+                    return mixpanelInitialized && document.readyState === "complete";
+                }
+
+                var track = function() {
+                    mixpanel.track(event, _.extend(props, user_props));
+                };
+
+                if (isReady()) {
+                    track();
+                }
+                else {
+                    var intervalId = setInterval(function() {
+                        if (isReady()) {
+                            clearInterval(intervalId);
+                            track();
+                        }
+                    }, 50);
+                }
+            };
+
+            // Add the track wrapper back onto mixpanel once the library is done init'ing
+            var mixpanelInitCallback = function() {
+                mixpanel.track2 = trackWithUserProps;
+                mixpanel.register({"Logged In": "False"});
+
+                
+
+                var properties =  {
+                    "role": "",
+                    "path": document.location.pathname,
+                    "get_parameters": "",
+                    "Language": ""
+                };
+                mixpanelInitialized = true;
+                mixpanel.track2("page_load", properties);
+
+                // execute events!
+                
+            };
+
+            // Add the track wrapper ASAP in case there are any call triggered before mixpanel is done loading.
+            mixpanel.track2 = trackWithUserProps;
+
+            // Start the mixpanel library initialization
+            mixpanel.init("78e4b00940da785c43d800e49e5aa1f4", {loaded: mixpanelInitCallback});
+        })();
+
+    
+
+
+
+
+
+    
+
+    (function(p,e,n,d,o){var v,w,x,y,z;o=p[d]=p[d]||{};o._q=[];
+        v=['initialize','identify','updateOptions','pageLoad'];for(w=0,x=v.length;w<x;++w)(function(m){
+            o[m]=o[m]||function(){o._q[m===v[0]?'unshift':'push']([m].concat([].slice.call(arguments,0)));};})(v[w]);
+        y=e.createElement(n);y.async=!0;y.src='https://cdn.pendo.io/agent/static/d96c6792-4d12-453b-64dd-dd74cd6b8f87/pendo.js';
+        z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
+
+    var userId = '';
+    var params = {
+      apiKey: 'd96c6792-4d12-453b-64dd-dd74cd6b8f87',
+      events: {
+        ready: function() {
+          //This cookie is used in zendesk to initialize pendo with invitae's visitor
+          $.cookie(
+            'invitae_pendo_visitor_id',
+            pendo.getVisitorId(),
+            {path: '/', domain: '.invitae.com', expires: 365}
+          );
+        }
+      }
+    };
+
+    if (userId) {
+      params.visitor = {
+        id    : userId,
+        email : '',
+        role  : ''
+      };
+      params.account = {
+        id   : '',
+        name : ''
+      };
+    }
+
+    pendo.initialize(params);
+
+
+
+    
+
+    
+
+
+    
+    
+    
+    
+
+    
+        
+          Invitae Careers | Data Analyst
+        
+    
+    
+        /*
+            Styles for global search dropdown have to load after Google search scripts run
+        */
+        .gssb_a table, .gssb_a table tr, .gssb_a table tr td {
+            color: #11ada0;
+            font-family: 'ScalaSansWeb', sans-serif;
+            padding: 6px 8px 2px !important;
+            cursor: pointer;
+      }
+    
+
+
+
+    
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+{'gtm.start': new Date().getTime(),event:'gtm.js'}
+);var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5497C5');
+
+ 
+    
+        
+            
+                We have detected that you are using an unsupported version of Internet Explorer. Please upgrade to a recent version.
+                Upgrade now.
+            
+        
+    
+    
+    
+        
+            You are using Internet Explorer version 8 (IE8). Due to
+            the decision by Microsoft to end support of IE8
+            Invitae is phasing out support for this browser for security reasons.
+        
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+        
+            
+    
+
+    
+        
+        
+
+    
+        
+            
+                Tests
+            
+        
+    
+        
+            
+                How to order
+            
+        
+    
+        
+            
+                Resources
+            
+        
+    
+        
+            
+                Technology
+            
+        
+    
+        
+            
+                Support
+            
+        
+    
+    
+        
+            FOR PATIENTS
+            
+        
+    
+
+
+    
+        
+            
+                
+                    
+                        
+                            
+                            
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        Sign In
+    
+    
+        
+            
+                Tests
+            
+        
+        
+        
+            
+                
+                    
+                        
+                            
+                                Invitae tests
+                                
+                                    
+                                        Panels &amp; genes
+                                    
+                                        Exome
+                                    
+                                        Proactive health screens
+                                    
+                                
+                            
+                        
+                    
+                        
+                            
+                                Follow-up testing
+                                
+                                    
+                                        Re-requisition
+                                    
+                                        Family variant testing
+                                    
+                                        VUS resolution
+                                    
+                                
+                            
+                        
+                    
+                        
+                            
+                                Frequently ordered panels
+                                
+                                    
+                                        Invitae Common Hereditary Cancers Panel
+                                    
+                                        Invitae Breast Cancer STAT Panel
+                                    
+                                        Invitae Aortopathy Comprehensive Panel
+                                    
+                                        Invitae Epilepsy Panel
+                                    
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                Panels &amp; genes
+                            
+                                Exome
+                            
+                                Proactive health screens
+                            
+                        
+                    
+                        
+                            
+                                Re-requisition
+                            
+                                Family variant testing
+                            
+                                VUS resolution
+                            
+                        
+                    
+                        
+                            
+                                Invitae Common Hereditary Cancers Panel
+                            
+                                Invitae Breast Cancer STAT Panel
+                            
+                                Invitae Aortopathy Comprehensive Panel
+                            
+                                Invitae Epilepsy Panel
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        
+            
+                How to order
+            
+        
+        
+        
+            
+                
+                    
+                        
+                            
+                                Getting started
+                                
+                                    
+                                        Start an order
+                                    
+                                        How to place an order
+                                    
+                                        Request a kit
+                                    
+                                
+                            
+                        
+                    
+                        
+                            
+                                Essentials
+                                
+                                    
+                                        Forms
+                                    
+                                        Billing information
+                                    
+                                        Specimen requirements
+                                    
+                                
+                            
+                        
+                    
+                        
+                            
+                                Partners &amp; programs
+                                
+                                    
+                                        In-network partners
+                                    
+                                        Behind the Seizure
+                                    
+                                        Alnylam Act
+                                    
+                                        Uncovering Periodic Paralysis
+                                    
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                Start an order
+                            
+                                How to place an order
+                            
+                                Request a kit
+                            
+                        
+                    
+                        
+                            
+                                Forms
+                            
+                                Billing information
+                            
+                                Specimen requirements
+                            
+                        
+                    
+                        
+                            
+                                In-network partners
+                            
+                                Behind the Seizure
+                            
+                                Alnylam Act
+                            
+                                Uncovering Periodic Paralysis
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        
+            
+                Resources
+            
+        
+        
+        
+            
+                
+                    
+                        
+                            
+                                Clinical resources
+                                
+                                    
+                                        Clinical support services
+                                    
+                                        Genetics Resource Hub
+                                    
+                                        Family History Tool
+                                    
+                                        Clinvitae - variant search
+                                    
+                                
+                            
+                        
+                    
+                        
+                            
+                                Educational materials
+                                
+                                    
+                                        Brochures &amp; patient guides
+                                    
+                                        Papers &amp; presentations
+                                    
+                                        Webinars
+                                    
+                                        Blog: Perspectives in Genetics
+                                    
+                                
+                            
+                        
+                    
+                        
+                            
+                                Working together
+                                
+                                    
+                                        Solutions for biopharma companies
+                                    
+                                        Solutions for advocacy partners
+                                    
+                                        Patient Insights Network
+                                    
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                Clinical support services
+                            
+                                Genetics Resource Hub
+                            
+                                Family History Tool
+                            
+                                Clinvitae - variant search
+                            
+                        
+                    
+                        
+                            
+                                Brochures &amp; patient guides
+                            
+                                Papers &amp; presentations
+                            
+                                Webinars
+                            
+                                Blog: Perspectives in Genetics
+                            
+                        
+                    
+                        
+                            
+                                Solutions for biopharma companies
+                            
+                                Solutions for advocacy partners
+                            
+                                Patient Insights Network
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        
+            
+                Technology
+            
+        
+        
+        
+            
+                
+                    
+                        
+                            
+                                Our technology
+                                
+                                    
+                                        Assay
+                                    
+                                        Variant classification
+                                    
+                                        Methodology &amp; validation studies
+                                    
+                                
+                            
+                        
+                    
+                        
+                            
+                                A new gold standard
+                                
+                                    
+                                        Quality
+                                    
+                                        Clinical actionability
+                                    
+                                
+                            
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                Assay
+                            
+                                Variant classification
+                            
+                                Methodology &amp; validation studies
+                            
+                        
+                    
+                        
+                            
+                                Quality
+                            
+                                Clinical actionability
+                            
+                        
+                    
+                
+            
+        
+    
+    
+        
+            
+                Support
+            
+        
+        
+    
+    
+    FOR PATIENTS
+    CONTACT
+    FAQs / SUPPORT
+    
+        
+
+    
+        
+        
+        
+        
+    
+
+
+    
+
+
+        
+            
+                
+                MENU
+            
+            
+                
+            
+            
+    
+        
+            
+            
+        
+        
+            
+                
+                    You have
+                    
+                        0 genes in your order
+                    
+                    Proceed to order
+                
+                
+                    Your cart is empty
+                
+            
+        
+    
+    
+        
+            
+                
+                    
+                    
+                        
+                        Your cart (0)
+                    
+                
+                
+                    
+                    
+                    
+                        Remove all
+                    
+                
+                
+                    Add more genes
+                    Proceed to order
+                
+            
+        
+    
+    
+        
+            
+                
+                    
+                    
+                        Added to cart
+                    
+                
+                
+                    
+                    
+                
+                
+                    
+                        
+                            
+                            View cart (0 genes in cart)
+                        
+                    
+                    Add more genes
+                    Proceed to order
+                
+            
+        
+    
+
+            
+            
+                
+                    Sign In
+                    Sign Up
+                
+            
+        
+    
+    
+
+
+
+
+        
+
+        
+            
+                
+    
+    
+        
+            
+                
+                     Help us improve healthcare for everyone. 
+
+                     Our team is making genetic information accessible to all. 
+
+                
+                
+
+                
+            
+        
+        
+
+    
+        
+        
+        
+        
+    
+
+
+    
+
+    
+        
+
+            Data Analyst
+            Description
+            We are seeking a data analyst to join our team. Responsibilities will include monitoring our product pipeline using custom software tools with the goal of assuring samples move through smoothly. Candidates should have experience with UNIX. They are expected to take initiative to automate tasks and troubleshoot the production process through detail-oriented analysis. An important part of this job is to be able to clearly communicate technical findings to non-technical teammates.
+
+At Invitae, we're using genetics to improve healthcare for everyone. Working with us will give you an opportunity to use your technical skills to do real and tangible good -- impacting the lives of patients, families, and future generations to come.
+
+            
+                Requirements
+                
+                    Flexible schedule, including being able to commit to periodic weekend support1+ yrs experience manipulating data and troubleshooting applications in UNIX environmentsExperience writing scripts (Python, R, and/or bash)Excellent communication skills when working in cross-disciplinary teamsDetail-orientedSelf-motivatedPreferred: Python software development experiencePreferred: Database query languages (SQL, datalog) experiencePreferred: Hands-on molecular biology wet lab experiencePreferred: Background in life sciences
+                
+            
+            Invitae envisions a world in which genomic sequencing routinely informs lifelong health care decisions. We provide comprehensive, rapid, and affordable genome sequencing and clinically relevant interpretations of genomic data. We are committed to enabling the utilization of genomic data in order to improve health, catalyze scientific and medical research, and contribute to improved outcomes for everyone.Invitae is an open, title­-free company that operates as a meritocracy. We focus intently on our ability to deliver reliable solutions that contribute to improving people&#39;s lives. We ruthlessly eliminate overhead and policies that interfere with productivity. We have excellent benefits (flexible work environment, flexible vacation policy, flexible expense accounts).Our new headquarters is in San Francisco and we have offices in Oakland and Palo Alto as well. All are located within walking distance of public transportation options. At Invitae, we value diversity and provide equal employment opportunities (EEO) to all employees and applicants without regard to race, color, religion, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status. We will consider for employment qualified applicants with criminal histories in a manner consistent with the requirements of the San Francisco Fair Chance Ordinance.
+            
+              
+                
+                  Apply
+                
+              
+            
+            Share this post!
+            
+                         
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            var addthis_config = {"data_track_addressbar":true};
+                            
+                        
+            &nbsp
+             Return to careers page 
+        
+    
+
+
+    
+        
+            Invitae does not accept third party agency resumes or profiles. Any unsolicited resumes or profiles without an agreement in place become the property of Invitae, and Invitae is not responsible for any fees should a candidate be subsequently hired or placed within the company.
+        
+    
+
+                
+            
+        
+
+        
+            
+    
+
+    
+        
+            
+
+    
+        The company
+        
+            
+                
+                    About Invitae
+                
+                    Team
+                
+                    Investors
+                
+                    Careers
+                
+            
+        
+    
+
+    
+        In the news
+        
+            
+                
+                    Newsroom
+                
+                    Events
+                
+            
+        
+    
+
+    
+        Learn more
+        
+            
+                
+                    Terms
+                
+                    Privacy
+                
+                    Licensing
+                
+                    Contact
+                
+            
+        
+    
+
+            
+                Language
+                
+
+
+
+
+
+
+
+    
+	Spanish
+
+
+
+
+    
+	Portuguese
+
+
+
+
+            
+            
+
+    
+        
+        
+        
+        
+    
+
+
+        
+        
+            
+                © Invitae Corporation. All rights reserved.
+            
+        
+    
+
+
+
+        
+
+        
+
+    
+
+    
+
+    
+        
+            
+            
+        
+        
+            
+        
+        
+            
+        
+    
+
+
+    
+    
+    
+
+    
+        
+
+
+/* '
+);
+/* ]]> */
+var aoAccountId = '7098';
+var aoCookieMode = 'STANDARD';
+var aoCookieDomain = 'invitae.com';
+var aoServerContext = 'https://marketing.invitae.com/acton';
+
+
+(function () {
+  var tagjs = document.createElement("script");
+  var s = document.getElementsByTagName("script")[0];
+  tagjs.async = true;
+  tagjs.src = "//s.btstatic.com/tag.js#site=dcKDAzq";
+  s.parentNode.insertBefore(tagjs, s);
+}());
+
+
+
+qcdata = {} || qcdata;
+     (function(){
+     var elem = document.createElement('script');
+     elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://pixel") + ".quantserve.com/aquant.js?a=p-zA1SZfWEEHPXS";
+     elem.async = true;
+     elem.type = "text/javascript";
+     var scpt = document.getElementsByTagName('script')[0];
+     scpt.parentNode.insertBefore(elem,scpt);
+   }());
+
+
+ var qcdata = {qacct: 'p-zA1SZfWEEHPXS',
+                      orderid: '',
+                      revenue: ''
+                      };
+
+
+(function(d,s,i,r) {
+  if (d.getElementById(i)){return;}
+  var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+  n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/705985.js';
+  e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+
+
+
+  
+  
+  
+  
+
+    
+
+    
+    
+    
+    
+      $(window).load(function () {
+            Common.Support.init();
+            $('#id-apply-button').click(function() {
+                window.location.href = "https://jobs.lever.co/invitae/675b2bfe-b2fc-4503-a5d4-c54fddc64d64/apply";
+            });
+            mixpanel.track2('career_detail_view', {
+                career_id: 302,
+                lever_id: "675b2bfe-b2fc-4503-a5d4-c54fddc64d64",
+                title: "Data Analyst"
+            });
+
+        });
+    
+
+    
+
+
+    
+    
+
+    
+
+
+

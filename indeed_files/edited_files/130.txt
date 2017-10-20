@@ -1,0 +1,586 @@
+
+
+
+Management Science Associates Careers
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+function clear_search() {document.search_form.search_phrase.value= "";}
+
+window.onload=function()
+{
+
+if(""=="yes")
+{
+  
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+function funcWriteBreadcrumbNav(BreadCrumbList) {
+	var sOutputBreadcrumbNav = new String();
+	var sClass = null;
+	var sUrl = null;
+	var sText = null;
+	var nLevel = null;
+	var aryThisLink = null;
+
+                    var sBreadCrumbOnOff ="Off";
+                    if (sBreadCrumbOnOff.length ==0) sBreadCrumbOnOff = "Off";
+                    if (sBreadCrumbOnOff.toLowerCase() == "off") return sOutputBreadcrumbNav;
+                    if ("" == "8") return sOutputBreadcrumbNav;
+
+//alert("BreadCrumbList is " + BreadCrumbList);
+
+       var sTemp = "";
+	
+	//Added variables to grab information for the current page
+
+	var sCurrentPath = "/msaext/UnplacedPages/OH_JobWrapper";
+	var sCurrentPage = "OpenHire Internal Page [do not delete]";
+
+	var arySubNav = unescape(BreadCrumbList);
+	//arySubNav = arySubNav.split("");
+	arySubNav = arySubNav.split(";");
+
+    sOutputBreadcrumbNav += ""
+
+	var nLen = arySubNav.length;
+	for(var i = 0; i ";
+		// items
+
+         var sIndex = sText.indexOf("_subnav");
+         //   sOutputBreadcrumbNav += sIndex;
+
+        if(sText!=sTemp && sIndex " + sText.toLowerCase() + " &gt; ";
+				sOutputBreadcrumbNav += "" + sText + "&gt; ";
+				
+			//check if page is a bodylink	
+			} else if (i>=nLen-1 && sUrl!=sCurrentPath){
+				//--write out last page in bc list
+				sOutputBreadcrumbNav += "" + sText + "&gt; ";
+				//--- bl-last item
+				sOutputBreadcrumbNav += "" + sCurrentPage + "";
+			} else {
+				//--- last item
+				sOutputBreadcrumbNav += "" + sText + "";
+			}
+			
+              sTemp = sText;
+	     }
+
+			
+	}
+	
+    sOutputBreadcrumbNav += "";
+    sOutputBreadcrumbNav += "";
+
+	return sOutputBreadcrumbNav;
+}
+
+
+
+
+
+
+			
+
+			
+
+			
+
+			
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+					var productVersion = "2017.5"; var timeoutSeconds = 3600; var timeoutWarningSeconds = 300; var displayTimeWarning = 0; var isCandidateLoggedIn = false; var companyId = 15792; var ep_version = 1;
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+
+
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Careers
+
+
+    
+    
+HomeEmployment ListingsAbout UsEventsBlogAnnouncementsFAQs
+    
+    
+  
+
+
+  var sPageName = "OH_JobWrapper";
+
+  if (sPageName.length !=0) sPageName = sPageName.toLowerCase();
+
+
+
+  if(sPageName !="home.html")
+
+    document.write(funcWriteBreadcrumbNav("Home,/;Employment%20Listings,/msaext/EmploymentListings.html"));
+
+
+   
+      
+    
+
+
+
+
+
+
+
+  Your user session will timeout in 5 minutes.  Please click OK to continue with your application.
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+		
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					Data Analyst I
+
+				
+
+			
+
+			
+
+				
+
+					
+
+						Tracking Code
+
+					
+
+					
+
+						2017122 
+
+					
+
+				
+
+				
+
+					
+
+						Job Description
+
+					
+
+					
+
+						&nbsp;
+
+Overview:&nbsp;Management Science Associates, Inc., (MSA) is a diversified information management company that for over half a century has given market leaders the competitive edge in data management, analytics and technology. We are seeking an experienced Data Analyst I to join the MSA Media division which has been offering client-focused technology and analytic solutions to the media/cable television industry since the early 1980s.
+
+&nbsp;
+
+Responsibilities:
+
+
+
+Query, extract and validate data from client databases in order to fulfill client and internal requests.&nbsp; Understands the data and processes used to produce intended results.
+
+Identify problems based on project documentation and processes.&nbsp; Research problems and present findings to team lead.&nbsp;
+
+Perform quality assurance functions to validate data, software, hardware, or procedure changes
+
+Review processes, looking for ways to improve performance, improve turnaround, and reduce risk.&nbsp; Present suggestions to team leaders and work with them to implement approved changes.
+
+Maintain detailed documentation and adhere to standard operating procedures
+
+Communicate with team members on project assignments
+
+Understand strategic goals for respective area and align personal goals
+
+Attend ongoing training to achieve personal, professional, and technical improvement
+
+May assist in the training of new employees
+
+
+
+					
+
+				
+
+				
+
+					
+
+						Required Skills
+
+					
+
+					
+
+						
+
+Bachelor's degree in Computer Science or related discipline or equivalent experience
+
+Exposure to SQL
+
+Relational database experience and data analysis
+
+Analytic and problem solving skills
+
+Communication skills, both written and oral
+
+Data mining and manipulations skills and knowledge
+
+Technical skills and learning to work on multiple platforms
+
+Basic time management skills
+
+Able to multi-task
+
+Knowledge of database structure
+
+Basic MS Office applications
+
+Ability to translate and converse about technical and analytical issues to the technical and non-technical divisional employees
+
+Responsible for assigned project work under direct supervision of higher level staff
+
+Meet operational expectations for on-time delivery and quality data
+
+Logical thinking
+
+
+
+					
+
+				
+
+					
+
+						Job Location
+
+					
+
+					
+
+						Pittsburgh, Pennsylvania, United States
+
+					
+
+				
+
+					
+
+						Position Type
+
+					
+
+					
+
+						Full-Time/Regular
+
+					
+
+				
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					
+
+						
+
+							Apply
+
+						
+
+					
+
+					
+
+						
+
+						
+
+						
+
+								
+
+								
+
+								
+
+							
+
+					
+
+				
+
+				
+
+					
+
+						
+
+							
+
+								Share
+
+							
+
+						
+
+						
+
+							
+
+							
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+							
+
+							
+
+							
+
+						
+
+					
+
+				
+
+			
+
+			
+
+				
+
+					Return To Job Listings
+
+				
+
+				
+
+			
+
+		
+
+	
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+				
+
+			
+
+			
+
+				
+
+					Contact
+
+					Privacy Policy
+
+					
+
+					
+
+					
+
+				
+
+				&copy;2017 Management Science Associates, Inc. All rights reserved.
+
+			
+
+			
+
+
+
+
+
+
+
+
+
+
+&nbsp;
+
+
+
+   
+
+        
+
+    
+
+
+
+
+
+ 
+
+		,\n\t\t       \n\t\t\t  ","FORMATLOCALEID":324,"PHONEREGEX":"^([+])?([1]( |-|\\.)?)?(\\(?[1-9]{1}[0-9]{2}\\)?|[1-9]{1}[0-9]{2})( |-|\\.)?([0-9]{3}( |-|\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$"}
+
+		-->
+
+	

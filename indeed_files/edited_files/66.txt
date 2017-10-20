@@ -1,0 +1,1686 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+Sacred Heart University
+
+Job Posting: Data Analyst
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+Employment - Sacred Heart University
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+
+				Who are you?
+
+				Come say hello! facebook twitter Linked In
+
+				my SHU
+
+				Give to SHU
+
+			
+
+			
+
+				
+
+					Prospective Students
+
+					Current Students
+
+				
+
+				
+
+					Alumni &amp; Friends
+
+					Faculty &amp; Staff
+
+				
+
+			
+
+		
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+
+				
+
+				
+
+					
+
+						Academics
+
+						Admission &amp; Financial Aid
+
+						Campus Life
+
+					
+
+					
+
+						Athletics
+
+						Faith &amp; Service
+
+						About SHU
+
+					
+
+				
+
+				
+
+					
+
+					
+
+				
+
+				
+
+					function submitSearch(form){
+
+					var query = form.q.value;form.action = "http://www.sacredheart.edu/search/results?viewName=all&query="+query;form.submit();
+
+					}
+
+				
+
+				
+
+      			
+
+    		
+
+       		
+
+       			
+
+        				Academics
+
+        				X
+
+      			
+
+      			
+
+        			Colleges
+
+					
+
+						College of Arts &amp; Sciences
+
+						John F. Welch College of Business
+
+						Isabelle Farrington College of Education
+
+						College of Health Professions
+
+						University College - Part-time &amp; Non-Credit
+
+					
+
+      			
+
+				
+
+					Academic Programs
+
+					
+
+						Academic Programs&nbsp;
+
+						Online Learning
+
+						Core Curriculum
+
+						Academic Support Services
+
+					
+
+					&nbsp;
+
+      			
+
+      			
+
+    				Continuing Studies &amp; Special Programs
+
+					
+
+						Career Development &amp; Placement&nbsp;
+
+						Center for Financial Education (CFE)
+
+						English as a Second Language (ESL)
+
+						Pre-College Program
+
+						Honors Program
+
+						Horizons National Youth Program
+
+						Learning Counts &amp; CLEP
+
+						SHU Press
+
+						Study Abroad
+
+						Upward Bound
+
+					            
+
+      			
+
+    		
+
+    		
+
+    			
+
+        				Admission &amp; Financial Aid
+
+        				X
+
+
+
+      			
+
+      			
+
+        				Admission
+
+				
+
+					Undergraduate Admissions
+
+					Graduate Admissions
+
+					Part-time and Non-credit Admissions
+
+					International Admissions
+
+					ESL Admissions
+
+					Veterans (Yellow Ribbon Program)
+
+					Schedule a Visit
+
+					Graduate Program Info Session
+
+				
+
+				&nbsp;
+
+				&nbsp;
+
+      			
+
+			
+
+				Financial Assistance
+
+				
+
+					Financial Assistance
+
+					Full-Time Undergraduate Students
+
+					Part-Time Sudents
+
+					Graduate Students
+
+					Online Students
+
+					FAFSA Process and Deadlines
+
+					Net Price Calculator
+
+					SHUawards 
+
+					Scholarships &amp; Grants
+
+					Tuition &amp; Fees
+
+					Refunds - Pioneer Plus Card
+
+					Withdrawal Policy&nbsp;
+
+				
+
+				&nbsp;
+
+				&nbsp;
+
+      			
+
+			
+
+				
+
+			
+
+    		
+
+		
+
+			
+
+				 Campus Life
+
+				X			
+
+			
+
+			
+
+				Activities &amp; Programs
+
+				
+
+					Clubs
+
+					Club Sports
+
+					Greek Life
+
+					Intramural Sports
+
+					Lecture Series
+
+					Leadership Programs&nbsp;
+
+					Living &amp; Learning Communities
+
+					Performing Arts
+
+					Student Government
+
+					Student Lecture Series
+
+					Spiritual Life
+
+					Volunteering
+
+				
+
+			
+
+      			
+
+				Life On &amp; Off Campus
+
+				
+
+					Campus Policies
+
+					Campus Safety
+
+					Commuter Life
+
+					Dining Services
+
+					Housing &amp; Residential Life
+
+					International Student Services
+
+					Offices &amp; Services
+
+					Student Union
+
+					Shuttle &amp; Transportation
+
+					Smoke Free Initiatives
+
+					SHU Card
+
+					Wellness Center
+
+				
+
+				&nbsp;
+
+				&nbsp;
+
+			
+
+			
+
+							
+
+			
+
+		
+
+		
+
+			
+
+				Athletics
+
+				X			
+
+			
+
+			
+
+				
+
+				
+
+					Official Pioneer Sports Website
+
+					Club Sports
+
+					Employee Wellness Program
+
+					Fitness Classes
+
+				
+
+				&nbsp;
+
+			
+
+			
+
+				
+
+				
+
+					Intramural Sports
+
+					Student Athletic Advisory Committee
+
+					William H. Pitt Center
+
+				
+
+      			
+
+			
+
+				
+
+			
+
+		
+
+		
+
+			
+
+				 Faith &amp; Service
+
+				X			
+
+			
+
+			
+
+				
+
+				
+
+					Campus Ministry
+
+					Chapel of the Holy Spirit
+
+					Office of Mission and Catholic Identity
+
+					Center for Christian and Jewish Understanding
+
+					Volunteer Programs and Service Learning
+
+				
+
+				&nbsp;
+
+      			
+
+			
+
+				
+
+				
+
+					Core Values
+
+					Mission Statement
+
+					Corporal Works of Mercy
+
+				
+
+				&nbsp;
+
+      			
+
+			
+
+				
+
+			
+
+    		
+
+		
+
+			
+
+				About SHU
+
+				X
+
+			
+
+			
+
+				Visit SHU
+
+				
+
+					Visiting
+
+					Extended Campuses &amp; Locations
+
+					Maps &amp; Directions
+
+					Interactive Campus Map
+
+					Virtual Campus Tour
+
+					Around the Area
+
+					Walk, Car, Train, Plane
+
+					Schedule a Visit
+
+					Hotel &amp; Restaurant Guide
+
+				
+
+			
+
+			
+
+				About SHU
+
+				
+
+					SHU Facts
+
+					Consumer Information
+
+					Core Values &amp; Our Mission of Service
+
+					School Leadership
+
+					History of SHU
+
+					Annual Reports
+
+					50th Anniversary Celebration
+
+					Strategic Plan
+
+				
+
+			
+
+			
+
+				Contact Us
+
+				
+
+					Contact Us
+
+					Offices and Services
+
+					News
+
+					Events Calendar
+
+					Jobs at SHU
+
+					Follow Us
+
+								
+
+			
+
+    		
+
+		
+
+			
+
+			Job Postings
+
+			
+
+			
+
+        				             
+
+							
+
+								
+
+								
+
+									Offices &amp; ServicesHuman ResourcesJob Postings
+
+								
+
+								
+
+								
+
+								
+
+									Job Postings
+
+									
+
+										Application Process
+
+										Equal Employment Opportunity Policy										
+
+										Returning Applicant Login
+
+									
+
+									
+
+									Current Employees
+
+									SHU Employee Wellness Program
+
+									Contact Us
+
+								
+
+								
+
+								
+
+								Also See
+
+								
+
+									About SHU
+
+								
+
+							                 
+
+          				
+
+				
+
+					 
+
+
+
+
+
+
+
+	
+
+			
+
+	
+
+	
+
+		&nbsp;
+
+		
+
+		
+
+	   	
+
+	   	
+
+	   	
+
+	   	Careers 
+
+			
+
+			
+
+				&gt; Search Jobs
+
+				&gt; Search Results
+
+				&gt; Job Details
+
+			
+
+		
+
+		
+
+						
+
+				 &nbsp; &nbsp;&nbsp;
+
+			
+
+		
+
+	
+
+	
+
+	
+
+
+
+		
+
+			
+
+		
+
+	
+
+	
+
+
+
+
+
+
+
+function printDiv(divName,compName) {
+
+    var originalContents = document.body.innerHTML;
+
+    var applynow1 = document.getElementById("applynow1");
+
+    var applynow2 = document.getElementById("applynow2");
+
+    if (applynow1 != null){
+
+    	applynow1.style.display="none";
+
+    }
+
+    if (applynow2 != null){
+
+    	applynow2.style.display="none";
+
+    }
+
+    var printContents = document.getElementById(divName).innerHTML;
+
+	 document.body.innerHTML = ""+compName+"" + printContents;
+
+	 window.print();
+
+	 document.body.innerHTML = originalContents;
+
+ }
+
+ 
+
+ function subscribeToAlerts(cat_id, cat, comp_id){
+
+		var URL = '/ajax/subscribeAlerts.jsp';
+
+		var params = '?cat_id=' + cat_id + '&cat=' + cat + '&comp_id=' + comp_id;
+
+		openWindowAtCenter('Subscribe Alerts',URL + params,'450','350');
+
+ }
+
+
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+function trimThis(str) {
+
+        return str.replace(/^\s+|\s+$/g,"");
+
+}
+
+
+
+
+
+function validateForm()
+
+{
+
+	var errStr = "";
+
+	
+
+       	if (!isValidEmail(document.loginForm.j_username.value) )
+
+        {
+
+            errStr = errStr + " Please enter a valid email address. \n";
+
+        }
+
+        // validating User Password
+
+        if (!document.loginForm.j_password.value)
+
+        {
+
+             errStr = errStr + " Please enter a password.\n";
+
+        }
+
+    
+
+    if(errStr.length>1)
+
+    {
+
+        alert(errStr);
+
+        return false;
+
+    }
+
+    else
+
+    {
+
+        return true;
+
+    }
+
+
+
+}
+
+
+
+
+
+			&nbsp;
+
+			
+
+				&nbsp;
+
+			
+
+			
+
+		
+
+		
+
+			 
+
+				&nbsp;
+
+			
+
+			
+
+			
+
+			
+
+				
+
+                   
+
+                   		
+
+                       
+
+                                            
+
+				
+
+				
+
+			
+
+			
+
+			
+
+				  Data Analyst
+
+				
+
+			
+
+			
+
+				
+
+					
+
+					
+
+					
+
+				
+
+			
+
+			
+
+				
+
+			
+
+
+
+			
+
+				
+
+				 
+
+				
+
+					
+
+						
+
+						  
+
+						&nbsp;
+
+					
+
+					
+
+						Category:
+
+						
+
+						
+
+						Information Technology
+
+						  &nbsp;
+
+						 &nbsp; &nbsp;&nbsp;
+
+						
+
+					
+
+					
+
+					
+
+						Department:
+
+						IT/Administrative Computing
+
+					
+
+					
+
+					
+
+						Locations:
+
+						Fairfield, CT
+
+					
+
+					
+
+						Posted:
+
+						Oct 06, '17 
+
+					
+
+					
+
+						Type:
+
+						Exempt
+
+					
+
+					
+
+					
+
+					
+
+						
+
+							
+
+							
+
+							
+
+							
+
+							
+
+						
+
+					
+
+					
+
+						
+
+						
+
+						         Share 
+
+						
+
+					
+
+				
+
+				 
+
+				About Sacred Heart University:
+
+					Sacred Heart University, the second-largest independent Catholic university in New England, offers more than 70 undergraduate, graduate, doctoral and certificate programs on its main campus in Fairfield, Conn., and satellites in Connecticut, Luxembourg and Ireland. More than 8,500 students attend the University's five colleges: Arts & Sciences; Health Professions; Nursing; the Jack Welch College of Business; and the Isabelle Farrington College of Education. The Princeton Review includes SHU in its guides, Best 382 Colleges-2018 Edition, "Best in the Northeast" and Best 294 Business Schools-2017 Edition. It also placed SHU on its lists for "Best College Theater" and "Most Engaged in Community Service," each of which comprises only 20 U.S. schools. U.S.News & World Report ranks SHU in its Best Colleges 2018 guidebook and ranks SHU the fourth "Most Innovative School" in the North. The Chronicle of Higher Education also names SHU one of the fastest-growing Roman Catholic universities in its 2016 almanac. Sacred Heart fields 32 Division I athletic teams and has an award-winning program of community service.
+
+
+
+www.sacredheart.edu 
+
+				
+
+				
+
+				Job Description:
+
+					Reporting to the Data Architect, the Data Analyst is responsible for building, maintaining and deploying reports and data models using multiple data sources.
+
+
+
+Duties include:
+
+
+
+Build new reports based on user requirementsModify reports for enhancements or to correct problemsDesign SQL queries as neededUnderstand the data models and schemas from a variety of systems and databasesBecome an expert in the functionality and capabilities of SQL Server Reporting ServicesTroubleshoot reporting problems by identifying, coordinating, and helping resolve issuesAnalyze the effectiveness and efficiency of existing reports to enhance and improve their useCollaborate with technical team members and management to identify and solve data quality issuesContribute to development of business intelligence and data warehousing capabilitiesPerform other duties related to those listed aboveWork with Lead Programmer Analyst whenever an interface program needs to be created/modified for any support applications
+
+
+
+&nbsp;
+
+				
+
+				Requirements:
+
+					Bachelor's degree in Computer ScienceExperience with database programming tools, reporting tools, software and other applications including Microsoft SQL Reporting ServicesKnowledge of Microsoft SQL Analysis Services is a plusExperience in and understanding of academic environment is a plusTime management skills necessary to keep on-task with multiple project assignmentsFamiliarity with any of transactional systems currently used at the University&nbsp;&nbsp;(Colleague, Recruiter, Raiser's Edge, PowerFaids, Kronos, and others)Ability to work both independently and as a member of a teamStrong interpersonal and communication skills
+
+				
+
+				
+
+				
+
+				Additional Information:
+
+					Working after hours and on weekends to complete assigned tasks is sometimes required. 
+
+				
+
+				
+
+				
+
+				Application Instructions:
+
+					Please apply online, faxes and emails will not be accepted. A cover letter is appreciated.
+
+
+
+Sacred Heart University, rooted in the Catholic Intellectual Tradition and the Liberal Arts, embraces a vision for social justice, educates students in mind, body, and spirit to prepare them personally and professionally to make a difference in the global community. Sacred Heart University aspires to achieve prominence through innovative teaching and learning while cultivating a campus community that is recognized as caring and creative.
+
+
+
+As an Equal Opportunity Employer, Sacred Heart University encourages qualified members of underrepresented groups to apply. 
+
+				
+
+				
+
+				
+
+				
+
+				
+
+				&nbsp;
+
+			
+
+		
+
+		
+
+			
+
+				&nbsp;
+
+			
+
+			
+
+				
+
+			
+
+			
+
+			
+
+				
+
+				  
+
+					
+
+				   			
+
+              						Frequently Asked Questions (FAQ's) 
+
+              				
+
+              				
+
+              					Powered by 
+
+            					
+
+              				
+
+					
+
+				
+
+			
+
+			
+
+				&nbsp;
+
+			
+
+			
+
+			
+
+				
+
+			
+
+			
+
+				
+
+			
+
+			
+
+				
+
+			
+
+		
+
+		 
+
+		&nbsp;
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Hide Main Navigation					
+
+				
+
+        			
+
+      		             
+
+	
+
+  	
+
+
+
+
+
+	
+
+		
+
+			
+
+				
+
+					
+
+						
+
+						
+
+					
+
+				
+
+			
+
+			
+
+			
+
+				
+
+					
+
+				
+
+				
+
+					Sacred Heart University
+
+					Main: 203-371-7999
+
+					
+
+						
+
+							5151 Park Avenue&nbsp;Fairfield, CT 06825
+
+						
+
+					
+
+					Come say hello! facebook twitter Linked In
+
+				
+
+				
+
+					
+
+						ShowVisit
+
+						
+
+							
+
+								Schedule a Visit
+
+								Virtual Campus Tour
+
+								Interactive Campus Map
+
+								Maps &amp; Directions
+
+								Around the Area
+
+								Walk, Car, Train, Plane
+
+							
+
+						
+
+					
+
+					
+
+						ShowPeople &amp; Places
+
+						
+
+							
+
+								Offices &amp; Services
+
+								Faculty &amp; Staff Directory
+
+								Bookstore
+
+								Campus Safety
+
+								Edgerton Center
+
+								Jobs at SHU
+
+								Library
+
+								Tech Support
+
+								WSHU
+
+							
+
+						
+
+					
+
+					
+
+						ShowPopular Pages
+
+						
+
+							
+
+								Email
+
+								Commencement
+
+								Academic Calendar
+
+								Academic Programs
+
+								Event Registration
+
+							
+
+							&nbsp;
+
+						
+
+					
+
+				
+
+			
+
+			
+
+				&copy; document.write(new Date().getFullYear()) Sacred Heart University
+
+				
+
+					Terms of use
+
+					Website Feedback
+
+					Privacy Policy
+
+				
+
+			
+
+		
+
+	
+
+
+
+
+
+
+
+  WebFontConfig = {
+
+    google: { families: [ 'Lato::latin' ] }
+
+  };
+
+  (function() {
+
+    var wf = document.createElement('script');
+
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+
+    wf.type = 'text/javascript';
+
+    wf.async = 'true';
+
+    var s = document.getElementsByTagName('script')[0];
+
+    s.parentNode.insertBefore(wf, s);
+
+  })(); 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+   
+
+   
+
+   
+
+
+
+function toggleLowVisibility(lowVisibility){
+
+	var redirectUrl = window.location.href;
+
+	redirectUrl = redirectUrl.replace(/[?|&]lowVisibility=(true|false)/g, '');
+
+	redirectUrl = redirectUrl.replace(/#.*$/g,'');
+
+	if (redirectUrl.substring(redirectUrl.length - 1) == '#')
+
+		redirectUrl = redirectUrl.substring(0,redirectUrl.length - 2);
+
+	if (redirectUrl.indexOf('?') >= 0){
+
+		redirectUrl=redirectUrl+'&lowVisibility='+ lowVisibility;
+
+	} else {
+
+		redirectUrl=redirectUrl+'?lowVisibility='+ lowVisibility;
+
+	}
+
+	window.location=redirectUrl;
+
+	}
+
+
+
+
+
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+
+
+
+
+try {
+
+var pageTracker = _gat._getTracker("UA-9717747-1");
+
+pageTracker._trackPageview();
+
+} catch(err) {}
+
+
+
+	var forms = document.getElementsByTagName('form');
+
+	for (var i = 0; i < forms.length; i++) {
+
+		var nonce_hidden = document.createElement("input");                 
+
+		nonce_hidden.setAttribute("type", "hidden");
+
+		nonce_hidden.setAttribute("value", "");
+
+		nonce_hidden.setAttribute("name", "_csrf");
+
+		forms[i].appendChild(nonce_hidden); 
+
+	}
+
+	
+
+	
+
+	Ajax.Base.prototype.initialize = Ajax.Base.prototype.initialize.wrap(
+
+		function (callOriginal, options) {
+
+				var parameters = options.parameters || {};
+
+				parameters["_csrf"] = '';
+
+				options.parameters = parameters;
+
+				return callOriginal(options);
+
+			}
+
+	);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

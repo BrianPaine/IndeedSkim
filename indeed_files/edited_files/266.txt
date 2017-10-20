@@ -1,0 +1,552 @@
+
+
+
+
+
+
+
+
+ 
+
+	function openWin(URL)
+
+	{
+
+		aWindow=window.open(URL, "help", "toolbar=no,width=350,height=250,status=no,scrollbars=yes,resize=yes,menubar=no");
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+HMG Careers
+
+
+
+
+
+	
+
+		
+
+			
+
+		
+
+		
+
+		
+
+			
+
+				Home-->
+
+				Browse Open Jobs
+
+				Search Open Jobs
+
+				Submit Your Resume-->
+
+				
+
+                
+
+    				Edit Your Profile
+
+                
+
+				
+
+				View Submitted Applications
+
+				
+
+			 
+
+		 
+
+		
+
+			
+
+		
+
+
+
+
+
+
+
+Job Details
+
+
+
+
+
+
+
+
+
+	
+
+		Apply Online
+
+	
+
+	
+
+	
+
+		Send This Job to a Friend
+
+	
+
+	
+
+	
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = ('');
+
+		theform.__PXLBV.value = ('');
+
+	}
+
+	function pxslbp(eventTarget, eventArgument) {
+
+		var theform;
+
+		if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = eventTarget;
+
+		theform.__PXLBV.value = eventArgument;
+
+		theform.submit();
+
+	}
+
+//-->
+
+
+
+
+
+Invalid zipcode/postal code format for this country.');
+
+                }
+
+            } catch (e) {
+
+                hasError = true;
+
+            }
+
+            if (hasError) {
+
+                _zipCodeValue.title = 'Invalid Postal Code';
+
+                _zipCodeValue.style.backgroundColor = 'yellow';
+
+            }
+
+        }
+
+        return _validationReturn;
+
+    }
+
+    return true;
+
+}
+
+
+
+function removeZipLabelError(_zipCodeValue) {
+
+    var withSuccess = true;
+
+    try {
+
+        var lenght = _zipCodeValue.parentNode.childNodes.length;
+
+        var index = 0;
+
+        while (index 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ToggleCheckBoxs(chk){
+
+var tab = document.getElementById ( 'CheckBoxTable' );
+
+var elems = tab.getElementsByTagName ( 'input' );
+
+var len = elems.length;
+
+ for ( var i = 0; i  1){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+var pkval = nameparts[1];
+
+ txt.value = pkval;
+
+ }
+
+ }
+
+else
+
+elems[i].checked = false;
+
+}
+
+ if(chk.type == 'checkbox'){
+
+ if(chk.checked == false){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+txt.value="";
+
+}}}}
+
+
+
+
+
+
+
+    function SendResume(){
+
+        document.PXForm.ParseResume.value = 1;
+
+        document.PXForm.submit();
+
+    }
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+
+			
+
+			
+
+				Requisition Number
+
+				17-0174
+
+			
+
+			
+
+				Post Date
+
+				9/20/2017
+
+			
+
+			
+
+				Employment Type
+
+				Full Time
+
+			
+
+			
+
+				Location
+
+				Kingsport
+
+			
+
+			
+
+				Department
+
+				Decision Support
+
+			
+
+			
+
+				FLSA
+
+				Exempt
+
+			
+
+			
+
+				Title
+
+				Data Analyst
+
+			
+
+			
+
+				City
+
+				Kingsport
+
+			
+
+			
+
+				State
+
+				TN
+
+			
+
+			
+
+				Description
+
+				General Summary:
+
+
+
+The Data Analyst I is responsible for ongoing development, analysis and presentation of healthcare information pertaining to medical operations, financial and demographic data. This position includes the development and preparation of adhoc reports as well
+
+ as scheduled weekly/monthly/quarterly reports for HMG staff. The Data Analyst I must analyze data and information from conceptualization through presentation of the data. The Data Analyst I will also utilize analytical tools/software in performing daily report
+
+ generation and analysis. 
+
+
+
+Main Responsibilities:
+
+• Create standard and adhoc reports utilizing reporting tools for administrative staff, operations, medical staff and clinical research in a timely manner.
+
+• Use and support database applications and analytical tools to ensure quality data, applications and functions.
+
+• Accountable for execution and validation of analyses and identification and reporting of issues to the Director of Informatics or Department Managers
+
+• Analyze data results through investigation, analysis and evaluation
+
+• Maintains and works to continuously improve practice and provider level dashboards
+
+• Ensure the integrity of data, including extraction, processing, storage, manipulation and analysis
+
+• Analyze data for trends and support findings through adequate documentation 
+
+• Work effectively in an individual role or as part of a team. 
+
+• Communicate data and analysis effectively with all end users and assist in the determination of future data needs.
+
+• Adhere to the principles of confidentiality and comply with all mandated training
+
+
+
+
+
+Disclaimer:
+
+
+
+The above statements are intended to describe the general nature and level of work being performed by people assigned to this classification. They are not intended to be construed as an exhaustive list of all responsibilities, duties and skills required of
+
+ personnel so classified.
+
+
+
+
+
+			
+
+			
+
+				Requirements
+
+				Education/Experience/Knowledge:
+
+
+
+• Bachelor’s Degree in Computer Science, Mathematics, Statistics, Health Care or related field preferred.
+
+• Experience as a data analyst or decision support analyst preferred.
+
+• Strong analytical capabilities and experience in presenting data and trends
+
+• Proven experience working with large data sets in Excel and/or relational database environment preferred
+
+• Knowledge of healthcare business systems and Electronic Medical Records preferred
+
+
+
+• Experience and/or demonstrated understanding of ICD-9, ICD-10, SNOWMED, LOINC, CPT preferred.
+
+• Experience with PBI and Humedica software a plus
+
+• Strong Written and Oral Communication Skills
+
+
+
+Physical/Mental Demands:
+
+Combination of walking, sitting, standing, bending, reaching, and lifting. Must be able to lift up to 10 pounds. Specific vision abilities required by this job include close vision, distance vision, color vision, peripheral vision, depth perception, and ability
+
+ to adjust focus. Occasional stress from balancing multiple tasks.
+
+
+
+
+
+			
+
+			
+
+				
+
+
+
+We are an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, or national origin. We are also an equal opportunity employer of individuals with disabilities and protected veterans. Please view Equal Employment
+
+ Opportunity Posters provided by OFCCP 
+
+here. Holston Medical Group participates in E-Verify 
+
+
+
+
+
+			
+
+			
+
+				
+
+				Apply On-line
+
+			
+
+			
+
+				
+
+				Send This Job to a Friend
+
+			
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+An Equal Opportunity Employer
+
+
+
+
+
+		
+
+		
+
+			Copyright &copy; var d = new Date(); document.write(d.getFullYear()); Ultimate Software
+
+		
+
+		
+
+	
+
+ 
+
+ 
+

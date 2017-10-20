@@ -1,0 +1,463 @@
+
+
+
+
+
+
+Data Analyst - MultiView, Inc. - Irving TX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+window.status=''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#reg7_span6 {font-size: 18px;}
+
+
+
+/* PCR Cell Formatting */
+
+.pcrtitlecolor {background-color:transparent; color:inherit; text-align: left; border-bottom: 1px solid #ccc;padding: 5px 0px;}
+
+.pcrheadingcolor {background-color:transparent;}
+
+.pcrtablecolor {padding: 5px; }
+
+.pcrtablecoloralt {padding: 5px; background-color:#F9F9F9; }
+
+
+
+/* PCR Text Formatting */
+
+.pcrtitlefont {font-size: 18px; font-weight: 700;}
+
+
+
+.pcrtablefont {color:inherit; font-size: 12px; font-weight: normal;}
+
+
+
+
+
+/* PCR Button Formatting */
+
+span.pcruframespan a {background-color:#789ad3; color:#fff !important; display:inline-block; padding:5px 5px}
+
+span.pcruframespan a:hover, a:active {text-decoration:none; background-color:#ccc;}
+
+.pcrbuttonw:not(#reg5_linkedinBtn) span {background-image: none !important; padding-left: 0 !important}
+
+#regmenu_b19, #reg5_b14, #reg5_table25, #reg5_linkedinBtn, button[type=submit], span.pcruframespan a {border:1px solid #789ad3; margin:1px}
+
+
+
+
+
+/* PCR Form Element Formatting */
+
+
+
+span.pcrcheckbox {font-family: 'Raleway', 'sans-serif'; font-size: 12px;}
+
+.pcrscrollcheck { font-family: 'Raleway', 'sans-serif';  background-color:transparent;font-size: 12px; margin-left: 2px}
+
+
+
+/* PCR Miscellaneous Formatting */
+
+#pcrbox hr {background-color:#ccc; border:0; height:1px}
+
+.pcrecheck {background-color: #ef8200; background-image:none; border-radius: 4px; height: 8px; width: 8px;}
+
+#reg7_span18 {padding-top: 4px;  padding-bottom: 4px; display:block;}
+
+#reg5_td90 {white-space: nowrap; width: 100%;}
+
+.stacked {apply-stacked: true;}
+
+#reg7_b13 {margin-top:5px}
+
+.RSSTEXT {white-space:nowrap}
+
+#pcrbox img {display: inline;}
+
+#empl1_span9 {font-weight: bold}
+
+
+
+/* PCR Hidden Elements */
+
+.reg_progress {display:none}
+
+
+
+/* following styles by Imaginuity */
+
+
+
+body,
+
+.pcrtable,
+
+.pcrtablefont,
+
+#reg5_span_dx9 * {
+
+    color:#303030;
+
+    font-family:verdana,arial,sans-serif!important;
+
+    font-size:16px;
+
+}
+
+
+
+#reg5_span_dx9 strong {
+
+color:#00649e;
+
+}
+
+
+
+.pcrbuttonw {
+
+background-color: #00649e; 
+
+color: #fff; 
+
+padding: 5px; 
+
+font-weight: 600; 
+
+min-width: 100px; 
+
+font-size: 12px; 
+
+margin: 1px
+
+}
+
+.pcrbuttonw:hover {
+
+background-color: #194595;  
+
+}
+
+/*
+
+#regfirst_td24 .pcrselect {background-color: #005a8c; border:1px solid #005a8c !important;  color: #fff; padding:2px; border-radius: 5px; font-weight: 400;font-size: 14px}
+
+*/
+
+
+
+td.pcrheadingcolor {
+
+padding-top:30px;
+
+padding-bottom:12px;
+
+}
+
+
+
+.pcrheadingfont {
+
+font-size: 1.5em; 
+
+font-weight: normal;
+
+}
+
+
+
+.pcrtable td {
+
+height:2em;
+
+}
+
+
+
+.pcrtablecolor a, 
+
+.pcrtablecoloralt a {
+
+    font-size:inherit;
+
+}
+
+
+
+#pcrbox img[alt="New"] {
+
+opacity:0.2;
+
+}
+
+
+
+.headerDiv,
+
+.subNav,
+
+footer {
+
+    display:none
+
+}
+
+
+
+.wrapper {
+
+    padding:0;
+
+}
+
+
+
+.content {
+
+    max-width:none;
+
+    width:100%;
+
+}
+
+
+
+.pcrtable,
+
+.pcrtable a {
+
+    color:inherit;
+
+}
+
+
+
+.pcrselect[name="sort"] {
+
+margin:10px 5px;
+
+}
+
+
+
+#RSSIMG {
+
+display:none!important;
+
+}
+
+
+
+.mainColumn h1,
+
+.mainColumn p {
+
+    display:none;
+
+}
+
+
+
+#reg5_table20 .pcrheadingcolor {
+
+padding-top:0;
+
+padding-bottom:0;
+
+}
+
+
+
+#reg5_table20 #reg5_tr_d1 td {
+
+padding-top:30px;
+
+padding-bottom:12px;
+
+}
+
+
+
+#reg5_table20 #reg5_span_dx9 p {
+
+margin-top:0;
+
+}
+
+
+
+
+
+
+
+Menuvar bw = document.body.getAttribute('data-buttonwidth');if(bw==null){bw='90'};var b = g('reg5_b9'); if(b.offsetWidth < parseInt(bw)){b.style.width=bw+'px';}
+
+&nbsp;&nbsp;
+
+&nbsp;
+
+
+
+
+
+
+
+Applyvar bw = document.body.getAttribute('data-buttonwidth');if(bw==null){bw='90'};var b = g('reg5_b14'); if(b.offsetWidth < parseInt(bw)){b.style.width=bw+'px';}
+
+Sharevar bw = document.body.getAttribute('data-buttonwidth');if(bw==null){bw='90'};var b = g('reg5_b16'); if(b.offsetWidth < parseInt(bw)){b.style.width=bw+'px';}
+
+
+
+
+
+
+
+
+
+
+
+Job Title
+
+Data Analyst
+
+
+
+
+
+
+
+
+
+
+
+Location
+
+Irving, TX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Job Description
+
+MultiView is a B2B digital marketing expert. Since our founding in 2000, we have served over 60,000 companies, led over 1 million digital marketing campaigns and served billions of highly targeted impressions.Our goal? Giving B2B marketers the power to reach their exact audiences online &#8212; with our unique mix of proprietary data, hands-on service and awesome creative. MultiView has a youthful, friendly and upbeat environment filled with special perks like surprise breakfasts, a live DJ (yes, you read that right) and summer food trucks. We believe you should love where you work and excel in what you do.We&#8217;re looking to hire a Statistical Analyst to join a company like no other. We work hard, but we certainly know how to play.This role will be responsible for establishing and maintaining a lead scoring model that will be used to improve efficiency with our sales force. Will provide guidance to sales operations as trends emerge in our sales data that would require changes in our sales approach to clients. Other statistical analysis involving staffing analysis, product pricing and profitability may be required as necessary.Responsibilities:&#8226; Build predictive models (Regressions, GLMs, Time Series, etc.) and apply machine learning techniques (Multivariate methodologies, Non-parametric techniques, etc.) to analyze and optimize sales data&#8226; Design and implement statistical tests to verify the models.&#8226; Produce real time reporting of sales performance using all measurable Key Performance Indicators.&#8226; Perform various types of ad-hoc analysis according to specific needs.&#8226; Communicate findings and complex modeling concepts in a clear fashion to technical and non-technical audiences through verbal discussions, reports and presentations.&#8226; Facilitate the implementation of models by acting as a liaison between Sales, Recruiting, HR, Accounting, and IT Departments.&#8226; Assess post implementation metrics on the success of projects and provide model maintenance.Other Expectations: &#8226; Quality control&#8212;the individual demonstrates accuracy and thoroughness, monitors own work to ensure quality and applies feedback to improve performance.&#8226; Planning/organizing&#8212;the individual prioritizes and plans work activities and uses time efficiently. &#8226; Quantity&#8212;meets productivity standards and completes work in a timely manner.&#8226; Dependability&#8212;the individual is consistently at work and on time, follows instructions, responds to management direction and solicits feedback to improve performance.&#8226; Adaptability&#8212;the individual adapts to changes in the work environment, manages competing demands and is able to deal with frequent change, delays or unexpected events, and work in a team environment.&#8226; Deadline oriented&#8212;the individual has a strong work ethic and completes work based on department deadlinesSkills/Qualifications:&#8226; Moderate to High Level Microsoft Excel skills and experience&#8226; Proficiency in statistical modeling/machine learning/predictive analysis/data mining&#8226; Expert with SAS and R&#8226; Intermediate experience of SQL&#8226; Strong analytical and quantitative problem solving ability&#8226; Must have key energy towards daily accomplishments and analytical breakthroughs &#8226; Ability to prioritize and track multiple projects&#8226; Attention to details and accuracy&#8226; Excellent written and verbal communication skills&#8226; Good presentation skills&#8226; A quick learner with great initiativeApply online or email your resume to careers@multiview.com please reference the job title in the subject line.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Applyvar bw = document.body.getAttribute('data-buttonwidth');if(bw==null){bw='90'};var b = g('reg5_table25'); if(b.offsetWidth < parseInt(bw)){b.style.width=bw+'px';}
+
+
+
+
+
+
+
+
+
+
+
+window.pcrframeoptions = {offsetX: 0, offsetY: 0,css:''}
+
+
+
+
+
+
+
+
+

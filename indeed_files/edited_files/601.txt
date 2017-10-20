@@ -1,0 +1,761 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    select:focus, a:focus {
+
+        outline: #1e90ff solid 2px
+
+    }
+
+
+
+    input[type=submit] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=button] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=submit]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=button]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=submit]:focus {
+
+        background: #1e90ff;
+
+    }
+
+
+
+    input[type=button]:focus {
+
+        background: #1e90ff
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane {
+
+        text-align: right;
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane button {
+
+        float: none;
+
+    }
+
+
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+
+        /*border: 1px solid #000;*/
+
+        /*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .alert-error {
+
+        color: #990000;
+
+        font-weight: bold;
+
+    }
+
+
+
+    td.top {
+
+        vertical-align: top !important;
+
+    }
+
+
+
+    td.left {
+
+        float: none;
+
+        text-align: left;
+
+    }
+
+
+
+    td.right {
+
+        float: none;
+
+        text-align: right;
+
+    }
+
+
+
+    .nowrapFormLabel {
+
+        white-space: nowrap;
+
+        text-align: right;
+
+    }
+
+
+
+    h1 {
+
+        font-size: 120%
+
+    }
+
+
+
+    h2 {
+
+        font-size: 110%
+
+    }
+
+
+
+    h3 {
+
+        font-size: 100%
+
+    }
+
+
+
+    .hidden-accessibility-text {
+
+        position: absolute;
+
+        left: -2000px;
+
+        top: 0;
+
+        width: 1;
+
+        height: 1;
+
+        overflow: hidden;
+
+        font-size: 0.1em;
+
+    }
+
+
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+
+    .ofcc305table textfield, .ofcc305table select,
+
+    .ofcc305table input, .ofcc305table a {
+
+        font-size:12px !important;
+
+        font-family:Arial,sans-serif,Helvetica !important;
+
+    }
+
+
+
+    #cws-search-results th, #cws-job-alerts th {
+
+        border-top: #CCCCCC 2px solid;
+
+        border-bottom: #CCCCCC 2px solid;
+
+    }
+
+
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+
+        border-bottom: #CCCCCC 2px solid;
+
+        padding-bottom: 3px;
+
+    }
+
+
+
+
+
+
+
+    Career Opportunities
+
+
+
+
+
+    body {
+
+        font-family: "Open Sans", sans-serif;
+
+        font-size: 13px;
+
+        font-style: normal;
+
+        font-weight: normal;
+
+    }
+
+
+
+    TD, TH {
+
+        font-family: "Open Sans", sans-serif;
+
+        font-size: 13px;
+
+        font-style: normal;
+
+        font-weight: normal;
+
+    }
+
+
+
+    a {
+
+        color: #1293DE;
+
+        text-decoration: none;
+
+        cursor: pointer;
+
+    }
+
+
+
+    a:hover {
+
+        color: #0e77b5;
+
+    }
+
+
+
+    textarea {
+
+        font-family: "Open Sans", sans-serif;;
+
+        font-size: 13px;
+
+    }
+
+
+
+    textfield {
+
+        font-family: "Open Sans", sans-serif;;
+
+        font-size: 13px;
+
+    }
+
+
+
+    select {
+
+        font-family: "Open Sans", sans-serif;;
+
+        font-size: 13px;
+
+    }
+
+
+
+    input {
+
+        font-family: "Open Sans", sans-serif;;
+
+        font-size: 13px;
+
+    }
+
+
+
+    .head1 {
+
+        color: #1293DE;
+
+        font-size: 130%;
+
+    }
+
+
+
+    input[type=submit], input[type=button] {
+
+        font-weight: 500 !important;
+
+        background: #1293DE !important;
+
+        font-family: "Open Sans", sans-serif !important;
+
+        padding: 5px 10px !important;
+
+        font-size: 13px !important;
+
+        border-left: 2px solid #1293DE !important;
+
+        border-top: 2px solid #1293DE !important;
+
+        cursor: pointer;
+
+    }
+
+
+
+    input[type=submit]:hover, input[type=button]:hover {
+
+        background: #0e77b5 !important;
+
+        border-left: 2px solid #0e77b5 !important;
+
+        border-top: 2px solid #0e77b5 !important;
+
+    }
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+    
+
+
+
+    
+
+        
+
+        703-813-2100
+
+        
+
+        info@altamiracorp.com
+
+    
+
+
+
+
+
+
+
+    
+
+        We're glad you are interested in working at Altamira. Use the features below to search available job
+
+        opportunities
+
+        or login if you have already applied for a position. If you don't have a particular job opening or position in
+
+        mind,
+
+        but have an interest in working at Altamira, please fill out a general application using the link below.
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+function jobAlertShowEmailSection() {
+   document.theForm.showEmailSection.value = true;
+   document.theForm.submit();
+}
+function cancelForm() {
+   document.loginForm.showPwdSection.value=false;
+   document.loginForm.showEmailSection.value=false;
+   document.loginForm.action=document.theForm.action;
+   document.loginForm.submit();
+}
+ CwsDWRFacade._path = 'https://chk.tbe.taleo.net/chk05/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; 
+
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchk.tbe.taleo.net/chk05/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chk.tbe.taleo.net/chk05/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chk.tbe.taleo.net/chk05/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();
+
+
+
+
+
+
+
+
+
+
+
+
+Data Scientist
+
+
+Location:
+Chantilly, VA
+
+
+Req Type:
+Contingent
+
+
+Job Req ID:
+2625
+
+
+
+Description
+Altamira is a top open-source technology company that brings a commercial mindset to solving the most complex national security problems by delivering mission application development, multi-intelligence analysis, and data science technologies and solutions to the defense, intelligence, and homeland security communities.&nbsp; Altamira&rsquo;s culture of innovation and excellence, and mid-market-size, positions us as the premier next generation leader bringing technology solutions to mission.
+
+
+
+Altamira is an Equal Opportunity/Affirmative Action employer.&nbsp; All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, or protected veteran status.
+
+
+
+Altamira is searching for a Data Scientist to help an established cross-functional technical team conduct quantitative analysis and modeling of medium to large data sets.&nbsp; The qualified candidate will implement analytical approaches using a proven and novel techniques while working closely with stakeholders and teammates from non-technical disciplines. This position supports an Intelligence Community customer and is located in Chantilly, Virginia.
+
+
+
+Job Responsibilities:
+
+
+
+
+
+	Conduct statistical analysis, modeling, and simulation that lead to actionable decisions affecting government operations. 
+
+	Use statistical methods on large data sets to characterize uncertainty through statistical methods
+
+	Leverage knowledge of large data analysis and the ability to perform research at graduate-level mathematics to ensure study results are properly interpreted and documented
+
+	Implement analytical approaches that require knowledge of traditional programming languages, such as Java, C++, Python and others
+
+	Work closely with stakeholders and teammates from non-mathematical disciplines to ensure that operational strategies are considered in the context of applying statistical theory
+
+	Use statistical theory through modeling, simulation, and large data analysis to deliver lasting measurable improvements to organizations 
+
+
+
+
+
+Qualifications: 
+
+
+
+
+
+	Bachelor&rsquo;s degree in a technical discipline
+
+	Master&rsquo;s degree in technical discipline preferred
+
+	US Citizen
+
+	TS/SCI with a Polygraph
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Are you a returning applicant?
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Applicants:
+
+
+Email:
+
+
+
+
+
+Password:
+
+
+
+
+
+If you do not remember your password click here.
+
+
+
+
+Back to Search Results
+
+
+New Search
+
+
+<!--
+
+
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        //jQuery Calendar
+
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchk.tbe.taleo.net/chk05/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+        © Copyright 2016 Altamira Technologies
+
+    
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,933 @@
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    Job Application
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+       
+
+                
+
+        
+
+    
+
+    
+
+	
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+        
+
+        
+
+    
+
+    
+
+
+
+    
+
+        {
+
+        "@context" : "http://schema.org",
+
+        "@type" : "Organization",
+
+        "address" : {
+
+        "@type": "PostalAddress",
+
+        "addressLocality": "St. Petersburg",
+
+        "addressRegion": "Florida",
+
+        "postalCode": "33702",
+
+        "streetAddress": "1 ASI Way N "
+
+        },
+
+        "name" : "American Strategic Insurance",
+
+        "url" : "https://www.americanstrategic.com/",
+
+        "email":"info@americanstrategic.com",
+
+        "sameAs" : [
+
+        "https://www.facebook.com/ASISocial",
+
+        "https://twitter.com/asisocial",
+
+        "https://plus.google.com/+Americanstrategic",
+
+        "https://www.linkedin.com/company/american-strategic-insurance"
+
+        ]
+
+        }
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+			(function (i, s, o, g, r, a, m) {
+
+				i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+					(i[r].q = i[r].q || []).push(arguments)
+
+				}, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+			})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+
+
+			ga('create', 'UA-45642841-3', 'americanstrategic.com');
+
+			ga('send', 'pageview');
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+    
+    
+    
+        
+            Toggle navigation
+
+            
+
+            
+
+            
+        
+        
+            
+        
+    
+    
+
+        
+
+            Careers
+
+            
+
+                
+
+                    
+
+                        
+
+                     Login 
+
+                
+
+                
+
+                    Policyholders
+
+                    Agents
+
+                    
+
+                
+
+            
+
+                                 
+    
+    
+    
+
+        
+
+            
+
+                Insurance
+
+                
+
+                    
+
+                        Insurance
+
+                        Insurance Overview
+
+                        Homeowners Insurance
+
+                        Condo Owners Insurance
+
+                        Renters Insurance
+
+                    
+
+                    
+
+                        Seasonal Insurance
+
+                        Umbrella Insurance
+
+                        Flood Insurance
+
+                    
+
+                    
+
+                        Find an Agent
+
+                        Get a quote, learn about coverage options and more.
+
+                        Find an Agent
+
+                    
+
+                
+
+            
+
+            
+
+                Policyholders
+
+                
+
+                    
+
+                        Policyholders
+
+                        Policyholders Overview
+
+                        FAQs
+
+                        Understanding My Policy
+
+                    
+
+                    
+
+                        Insurance Terms
+
+                        Loss Prevention
+
+                    
+
+                    
+
+                        Manage Your Policy
+
+                        Manage your policy or make apayment.
+
+                        Policyholder Login
+
+                    
+
+                
+
+            
+
+            
+
+                Claims Center
+
+                
+
+                    
+
+                        Claims Center
+
+                        Claims Center Overview
+
+                        Report a Claim
+
+                        Report Fraud
+
+                        Claims FAQs
+
+                    
+
+                    
+
+                        About the Claims Process
+
+                        Contact Claims
+
+                    
+
+                    
+
+                        Report or Check a Claim
+
+                        Login to report a claim or check your claim status.
+
+                        Policyholder Login
+
+                    
+
+                
+
+            
+
+            
+
+                Agents
+
+                
+
+                    
+
+                        Agents
+
+                        Agents Overview
+
+                        Why Partner with ASI?
+
+                        Progressive Home
+
+                        Progressive Platinum
+
+                    
+
+                    
+
+                        Agent Resources
+
+                        Become an Agent
+
+                        Preferred Builder Program
+
+                    
+
+                    
+
+                        Access Your Account
+
+                        Login to access your agentaccount now.
+
+                        Agent Login
+
+                        Become an Agent
+
+                    
+
+                
+
+            
+
+            
+
+                About ASI
+
+                
+
+                    
+
+                        About ASI
+
+                        About ASI Overview
+
+                        Our History
+
+                        Our Companies & Affiliations
+
+                        Leadership Team
+
+                    
+
+                    
+
+                        Careers
+
+                        Financial Information
+
+                        Community Involvement
+
+                    
+
+                    
+
+                        Start a Career with ASI
+
+                        See what job opportunities are available at ASI.
+
+                        Job Opportunities
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+                
+
+
+
+    
+
+        
+
+            
+
+        
+
+        
+
+            HURRICANE HARVEY OR HURRICANE IRMA We're here to help! We are experiencing extremely high call volume on our main phone line. Customers who need to report a claim can get the fastest service by clicking here to report a claim or calling us at 888-256-8303. Please note that many homes do not have the same insurer for wind coverage and flood coverage. It is important that you report to the correct carrier if your home suffers wind or flood damage. Download and print our Tips for Those Affected by Hurricane Harvey or Hurricane Irma info sheet by clicking here. Please stay safe.
+
+        
+
+    
+
+
+
+ 
+
+
+
+             
+
+        
+
+        
+
+
+
+        
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+            
+
+                
+
+    
+
+
+
+
+
+            
+
+            
+
+
+
+
+
+        
+
+
+
+        
+
+            
+
+    
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+            
+
+            (866) 274-8765
+
+            (866) 274-8765
+
+            
+
+                
+
+                    
+
+                        Google+
+
+                        
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        Facebook
+
+                        
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        Twitter
+
+                        
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        Linkedin
+
+                        
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                        Login to Your Account 
+
+                        
+
+                            
+
+                                
+
+                                    Policyholders Login
+
+                                    
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Agent Login
+
+                                    
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                            Find an Agent
+
+                        
+
+                    
+
+                    
+
+                        Our Company 
+
+                        
+
+                            About ASI
+
+                            Insurance
+
+                            Claims Center
+
+                            Agent Resources
+
+                        
+
+                    
+
+                    
+
+                        Connect with Us 
+
+                        
+
+                            Support
+
+                            Careers
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+ 
+
+
+
+    
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        Home
+
+                        Support
+
+                        Press
+
+                        Legal
+
+                    
+
+                    
+
+                        Privacy
+
+                        Code of Conduct
+
+                        Site Map
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    Search
+
+                    
+
+                        
+
+                            
+
+                        
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+            
+
+
+
+            
+
+                Attitude, Speed & Innovation®
+
+            
+
+        
+
+    
+
+
+
+        
+
+     
+
+
+
+    
+
+
+
+
+
+
+

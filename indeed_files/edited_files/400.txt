@@ -1,0 +1,814 @@
+
+
+
+
+
+
+var isTagpageview=true;
+
+
+
+function tagPageView() {
+
+}
+
+
+
+
+
+
+
+        
+
+    
+
+    
+
+    
+
+               
+
+        
+
+         
+
+        //ldp256 accessibility changes starts
+
+             $(document).ready(function() {
+
+                 $(document.body).mousemove(function(event) {
+
+                     BodyMouseMove();
+
+                 });
+
+                 $(document.body).keyup(function(event) {
+
+                     BodyKeyUp();
+
+                 });
+
+                 $(document.body).focus(function(event) {
+
+                     BodyFocus();
+
+                 });
+
+                 var addOnClick = "no";
+
+                 if (addOnClick == "yes") {
+
+                     $(document.body).click(function(event) {
+
+                         hideAllLayer();
+
+                     });
+
+                 }
+
+
+
+                 // the footer isn't always easy to detect as empty.  This is an additional test to hide the footer when the branding table exists but contains no content
+
+                 if ($("[role=contentinfo]") && $("[role=contentinfo]").text().trim() == "") {
+
+                     $("[role=contentinfo]").remove();
+
+                     if ($("#ctl00_Footer")) {
+
+                         $("#ctl00_Footer").hide();
+
+                     }
+
+                 }
+
+             });
+
+        //ldp256 accessibility changes ends
+
+
+
+             function AddRfToken() {
+
+                 var forms = document.forms;
+
+
+
+                 for (i = 0; i  0) {
+
+                        
+
+                      }
+
+                     else
+
+                      {
+
+                    
+
+                         var hdElement = forms[i].hdRft;
+
+
+
+                         if (typeof (hdElement) == 'undefined') {
+
+
+
+                             var input = document.createElement("input");
+
+
+
+                             input.setAttribute("type", "hidden");
+
+
+
+                             input.setAttribute("name", "hdRft");
+
+
+
+                             input.setAttribute("value", js_rft);
+
+
+
+                             document.forms[i].appendChild(input);
+
+                         }
+
+                         else {
+
+
+
+                             hdElement.value = js_rft;
+
+                         }
+
+                     }
+
+                 }
+
+             }
+
+
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+          
+
+           
+
+           
+
+        
+
+         
+
+   Polarisind - Job details
+
+       
+
+        .h1Title
+
+        {
+
+        	margin:0;
+
+		    padding: 6px 0 0px 0;
+
+        }
+
+	    .h1Tab
+
+        {
+
+	    	margin: 0pt; 
+
+		    padding: 1px 0pt 1pt; 
+
+		    overflow: hidden;	       	
+
+        }
+
+       .twitter-share-button {
+
+              position:relative;           
+
+              margin-left:3px;
+
+      }
+
+      
+
+      iframe { vertical-align: top; }
+
+      
+
+      
+
+    
+
+     if (navigator.appVersion.indexOf('Win') != -1) {if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } } else if (navigator.appVersion.indexOf('Mac') != -1) { if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } } else {if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } }  var js_rft = '^FydBDNlWEIU+LHQt+F2v66FKzfMr9mPvB1UZ2Mts3ZepSFjOuuwDQ8X6DTwJiUIX/BRVFkFaJUfhRd8WYVSEroEv8LAJw066wyRB9Zqmhziq0T5IO7AKLnpOCwwt36ZhMP4Nq9a7u4yp4rn8pvtDa6dCgV/K7qkPqcSAiS4uL95BUvtGbAEIhs5HB3joVIMIEKkVUEto3yGHsv7lyA0vNULQAm37CR+7'
+
+    var MSG_SiteSwitch = "Recruitment for the selected job(s) will be in the language of the job posting(s).  To continue, the language of this site will change to match the language of the selected job(s).  You will need to provide your resume/CV in the language of the selected job(s) in order to maximize your visibility to the recruitment personnel.";var MSG_SocialMediaSiteSwitch = "Posting to social networks should be in the language of the job posting.  To continue, the language of this site will change to match the language of the selected job."; var js_LaunchGQ_DotNet ="No";
+
+    
+
+     
+
+      
+
+        var SR_READY = "";
+
+        var SR_PRIDE = "%5eXPo1WBzaZuM%3d";
+
+        var SR_STID = "5450";
+
+        var SR_CLID = "25672";
+
+        var SR_LOCALE = "1033";
+
+        var SR_FN = "";
+
+        var SR_LN = "";        
+
+       function setReadyForSocialReferral(ready, clid, stid, pride, localeid,button,fn,ln) {
+
+            SR_READY = ready;
+
+            SR_PRIDE = pride;
+
+            SR_STID = stid;
+
+            SR_CLID = clid;
+
+            SR_LOCALE = localeid;
+
+            SR_FN = fn;
+
+            SR_LN = ln;
+
+            if (SR_READY == "yes") {
+
+                LaunchSocialReferralMenu(document.getElementById(button));
+
+            }
+
+        }
+
+        function LaunchSocialReferralMenu(button) {
+
+            var jobstr = document.getElementById("jobid").value;
+
+            var urlstring = "../tgnewui/referral/home/referralworkflowoptions?siteid=" + SR_STID + "&partnerid=" + SR_CLID + "&localeid=" + SR_LOCALE + "&bruid=" + SR_PRIDE + "&jobids=" + jobstr+ "&fn=" + SR_FN + "&ln=" + SR_LN
+
+            window.dialogBuilder.showDialog(button, urlstring);
+
+
+
+        }     
+
+        function ApplyNow()
+
+	    {			    
+
+			var ApplyURL = "-1";
+
+			if (ApplyURL=="-1" ) ApplyURL= "";
+
+			if (ApplyURL.length>0 )
+
+			{				
+
+			    window.location.href=ApplyURL; 
+
+			}
+
+			else
+
+			//In case GTG if the job siteid is different than the current siteid
+
+			//display warning pop-up to confirm site switched to job site
+
+			{			   
+
+				var CurrentSite = '5450';var JobSiteId = '';if (JobSiteId == ''){JobSiteId = '5450';}if (CurrentSite != JobSiteId ){if(confirm(MSG_SiteSwitch)){}else{return;}var newLocaleId = getLocaleId(JobSiteId,'5450,5661||1,27||1033,3082');ApplyJobNow(newLocaleId);}else{ApplyJobNow('1033');}
+
+			}
+
+		}		
+
+			
+
+		function ApplyJobNow(strLocale)
+
+        {
+
+	        var strGQId;
+
+	        var iLen, iIndx;
+
+	        var arrGQId;
+
+	        var arrGQIds;
+
+	        var lngNewSelection = 0;
+
+	        var lngSiteLocale = 1033;
+
+	        var strSwitchSiteQS;
+
+	        strGQId = "0";	// from Querystring
+
+	        strSwitchSiteQS = "";
+
+
+
+	        //var lngSelect = 1;
+
+	        var lngSelect = 1;
+
+	        
+
+	        if  (strGQId == '')
+
+	        {	
+
+	            strGQId= document.frmJobDetail.JobInfo.value;
+
+			    arrGQId = (strGQId.substring(2, strGQId.length - 2)).split("%%");
+
+			    iLen = arrGQId.length;
+
+			    arrGQIds = arrGQId[lngSelect-1].split('|');
+
+			    if (arrGQIds[2] != 0)
+
+			    {
+
+				    if (strLocale == lngSiteLocale)
+
+				    {
+
+				        if (js_LaunchGQ_DotNet.toUpperCase() == 'YES')
+
+				        {
+
+				            openWindow11("gqlogin.aspx?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy&fjd=true&referer=&gqid="+ arrGQIds[2] + "&jobinfo=__" + arrGQId[lngSelect-1] + "__&applycount=1&type=search_jobdetail");
+
+				        }
+
+				        else
+
+				        { 
+
+					        openWindow11("https://sjobs.brassring.com/" + strLocale + "/asp/tg/GQLogin.asp?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy&fjd=true&referer=&gqid="+ arrGQIds[2] + "&jobinfo=__" + arrGQId[lngSelect-1] + "__&applycount=1&type=search_jobdetail&srcqs=");
+
+					    }
+
+				    }
+
+				    else
+
+				    {
+
+				        document.frmMassApply.GQID.value = arrGQIds[2];
+
+				        if(strSwitchSiteQS == '')
+
+				        {
+
+					        document.frmMassApply.action= "apply.aspx?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy&src=jd&qs=jobId%3d3137535%26partnerid%3d25672%26siteid%3d5450%26codes%3d1-INDEED%26codes%3dINDEED";
+
+					    }
+
+					    else
+
+					    {
+
+					        document.frmMassApply.action= "apply.aspx?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy&src=jd&qs=";
+
+					    }
+
+					    document.frmMassApply.submit();
+
+				    }
+
+			    }
+
+			    else
+
+			    {
+
+				    document.frmMassApply.action= "apply.aspx?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy";
+
+				    document.frmMassApply.submit();
+
+			    }	        
+
+			        		        
+
+	        }
+
+	        else
+
+	        {
+
+	           	
+
+		        if (strGQId != 0)
+
+		        {
+
+			        if (strLocale == lngSiteLocale)
+
+			        {
+
+			            if (js_LaunchGQ_DotNet.toUpperCase() == 'YES')
+
+				        {
+
+				            openWindow11("gqlogin.aspx?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy&fjd=true&referer=&gqid=" + document.frmMassApply.GQID.value + "&jobinfo=__3137535|1|0__&applycount=1&type=search_jobdetail");
+
+				        }
+
+				        else
+
+				        { 
+
+				            openWindow11("https://sjobs.brassring.com/" + strLocale + "/asp/tg/GQLogin.asp?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy&fjd=true&referer=&gqid=" + document.frmMassApply.GQID.value + "&jobinfo=__3137535|1|0__&applycount=1&type=search_jobdetail&srcqs=");
+
+				        }
+
+			        }
+
+			        else
+
+			        {
+
+			            if(strSwitchSiteQS == '')
+
+				        {
+
+				            document.frmMassApply.action= "apply.aspx?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy&src=jd&qs=jobId%3d3137535%26partnerid%3d25672%26siteid%3d5450%26codes%3d1-INDEED%26codes%3dINDEED";
+
+				        }
+
+				        else
+
+				        {
+
+				            document.frmMassApply.action= "apply.aspx?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy&src=jd&qs=";
+
+				        }
+
+				        document.frmMassApply.submit();
+
+			        }
+
+ 	            }
+
+ 	            else
+
+ 		        {
+
+ 			        document.frmMassApply.action = "apply.aspx?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy";
+
+			        document.frmMassApply.submit();
+
+ 		        }
+
+ 	        }
+
+        }
+
+        
+
+        //Send to friend email    
+
+        function sendToFriend()
+
+        {
+
+	        openWindowBySize2('about:blank?sessionid=7b3d737db417dc49049ec88d20f14cc42b7d', 450, 360);	        
+
+	        document.frmSendToFriend.submit();
+
+        }
+
+        
+
+        function socialNetworkReferral(button) {
+
+		  if (SR_READY == "yes")
+
+            LaunchSocialReferralMenu(button);
+
+        else {
+
+            document.frmSocialNetworkReferral.ButtonId.value = button.id;
+
+            openWindowBySize2('about:blank?sessionid=7b3d737db417dc49049ec88d20f14cc42b7d', 900, 720);
+
+            document.frmSocialNetworkReferral.submit();
+
+	        }
+
+		}
+
+        
+
+        
+
+        function showjob(lngNewSelection)
+
+	    {   		    
+
+		    document.frmJobDetail.action = "jobdetails.aspx?jobId=3137535&amp;partnerid=25672&amp;siteid=5450&amp;codes=1-INDEED&amp;codes=INDEED";
+
+		    document.frmJobDetail.CurSel.value= lngNewSelection;
+
+		    document.frmJobDetail.submit();
+
+	    }
+
+        
+
+        function launchSocialMedia()
+
+	    {
+
+	        var lngSiteLocale = '1033';
+
+	        var jobSiteID = '5450';
+
+	        var newLocaleId = getLocaleId(jobSiteID,'5450,5661||1,27||1033,3082');
+
+	        var strSwitchSiteQS = '';
+
+	        
+
+
+
+	        if (newLocaleId == lngSiteLocale || newLocaleId == '')
+
+		    {
+
+			    openWindow1('about:blank?sessionid=7b3d737db417dc49049ec88d20f14cc42b7d');
+
+		        document.frmSocialMedia.submit();
+
+		    }
+
+		    else
+
+		    {
+
+		        alert(MSG_SocialMediaSiteSwitch);
+
+		        if(strSwitchSiteQS == '')
+
+		        {
+
+			        document.frmMassApply.action= "apply.aspx?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy&src=jdsm&qs=jobId%3d3137535%26partnerid%3d25672%26siteid%3d5450%26codes%3d1-INDEED%26codes%3dINDEED";
+
+			    }
+
+			    else
+
+			    {
+
+			        document.frmMassApply.action= "apply.aspx?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy&src=jdsm&qs=";
+
+			    }
+
+			    document.frmMassApply.submit();
+
+		    }
+
+        }
+
+        
+
+        //Save to jobcart
+
+        function saveToJobCart()
+
+	    {
+
+		    var strTemp;
+
+		    var lIdx;
+
+		    var lLen;
+
+		    var arrSubInfo;
+
+
+
+		    if (document.frmJobDetail.jobcartcnt.value > 50)
+
+			    alert (MSG_cim_jobdetail_JobCart);
+
+		    else
+
+		    {
+
+			    document.frmSaveToCart.chkJobClientIds.value = ReplaceInString(document.frmSaveToCart.chkJobClientIds.value, "%%", "");
+
+			    arrSubInfo = document.frmSaveToCart.chkJobClientIds.value.split("|");		    
+
+
+
+			    if(arrSubInfo.length != 3)
+
+			    {
+
+				    strTemp =  arrSubInfo[0] + "|" + arrSubInfo[1];
+
+				    document.frmSaveToCart.chkJobClientIds.value = strTemp;
+
+			    }
+
+			    openWindow3('about:blank?sessionid=7b3d737db417dc49049ec88d20f14cc42b7d');
+
+			    document.frmSaveToCart.submit();
+
+		    }
+
+	    }
+
+	    function goToSearchPage()
+
+	    {	   
+
+		    document.frmSearch.submit();
+
+	    }
+
+	    
+
+	    //QC #197940
+
+	    function reload(sParam)
+
+	    {
+
+		if (typeof(sParam) != 'undefined') 
+
+		{
+
+			if (sParam == 'ApplyAsRegularJob')
+
+				ApplyAsRegularJob();
+
+			return;
+
+		}
+
+		var sGQId =  "0";
+
+		var arrGQId;
+
+		var iLen = 0;
+
+		if (sGQId == '' )
+
+		{
+
+			sGQId= document.frmJobDetail.JobInfo.value;
+
+			arrGQId = (sGQId.substring(2, sGQId.length - 2)).split("%%");
+
+			iLen = arrGQId.length;
+
+		}
+
+		
+
+		if ((iLen == 1) || (sGQId != ''))
+
+		{
+
+			 
+
+		document.frmJobDetail.target = "_self";
+
+		 
+
+		document.frmJobDetail.action = "Logout.aspx?SID=^V750K0TAv2AvCIbeQfL2luz8tbHxqFCbQqSZjX_slp_rhc_mL_slp_rhc_DMjc2GFRri16dpL5DKk7qy&gqclose=yes&crl=yes&Exit=^VPbBpv82eWbDhCwKzWDUrT6iCUhsWNOr+koga53E/lzXlNjlAug5wQQ9zAIHEB3h/wTIH+ld1Juf/KBSJ9E2P2Se9/ttvXnZUj1vFBjoRocyRcEZCXiKFqXjelEQtIGXHKLi55QUKKsA3ME9pDZp6FqdTDkqeWRMnaA8jqh/hTKmXwI/AuPkIw/TNOVMaeOkqMs0ENUSYeh5g/5adk6yn9jFmlZ6CBmSaKlM6AdnIqwGiWplZPMmQ/uqd7IJ1BsTCYdoFa9fRjT1n70zGPp8indBA7rtobd2EroPu2FdVl4FGzC0KArEMZY5MruzItmBacun3Xou7l8DFUCzH+97ITm+fVc6xdh9pfrrsM+3j4f7wnUmWjuQOKp9Pkj6aaoGqA5fayvwCXSfVKkoz98osLQlJ/VlwcNjMBuRirYHQrhRGUpH+u33Ow==";
+
+		document.frmJobDetail.submit();
+
+		}
+
+	  }
+
+	  $(document).ready(function() {
+
+            
+
+            var n = ")";
+
+            if (n.length <= 1)
+
+                $("#ctl00_ProgressBar").hide();
+
+             });
+
+    
+
+
+
+                
+
+        
+
+    var MSG_GEN_EntValdEmlAddr = "Please enter a valid e-mail address.\nDelete all the invalid characters, including spaces, from your e-mail address.";var MSG_GEN_PlsRmDblQut = "Please remove the  DOUBLE QUOTE (\")  you have entered.";var MSG_GEN_EnterVal = "Please enter a value for |QUESTION|";var MSG_GEN_EnterValidPassword = "Please enter a valid password.\nDelete all the invalid characters, including spaces, from your password.";var MSG_GEN_EnterValRange = "Please enter a value for |QUESTION| between |MIN| and |MAX|.";var MSG_GEN_EntValdPasswd = "Spaces are not allowed in the e-mail or in the password field. Please remove the spaces and try again.";var MSG_GEN_FromToDate = "The From date should be less than the To date.";var MSG_GEN_PlsDelPrdFrmBgnOfYrEmlAddr = "Please delete the period from the beginning of your e-mail address.";var MSG_GEN_PlsDelPrdFrmEndOfYrEmlAddr = "Please delete the period from the end of your e-mail address.";var MSG_GEN_PlsEntValdDate = "Please enter a valid date.";var MSG_GEN_PlsEntValdEmlAddr = "Please enter a valid e-mail address.";var MSG_GEN_PlsEntVldNumber = "Please enter a valid number.";var MSG_GEN_PlsEntVldSSN = "Please enter a valid SSN.";var MSG_GEN_SSNFormat = "The SSN should be in xxx-xx-xxxx format.";var MSG_GEN_UserNameInvalidChars = "The username must not include the following characters: ";var MSG_GEN_UserNameLen = "Please enter a valid username.";var MSG_GEN_UserNameLength = "The username must be less than 100 characters.";var MSG_GEN_UserNameSpaces = "The username must not include any spaces.";var MSG_TSV_EnterValidInputSearchFields = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_TSV_EnterValidInputText = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_TSV_EnterValidInputTextArea = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_InputValidationFail = "[QUESTION] requires a valid entry."; var MSG_RCF_LNPronunciation = "Last name pronunciation key: Please enter a value."; var MSG_RCF_FNPronunciation = "First name pronunciation key: Please enter a value."; var MSG_RCF_Valid_LNPronunciation = "Please enter a valid last name pronunciation key."; var MSG_RCF_Valid_FNPronunciation = "Please enter a valid first name pronunciation key."; var MSG_RCF_FirstName = "Please enter a first name."; var MSG_RCF_Valid_FirstName = "Please enter a valid first name."; var MSG_RCF_MiddleName = "Please enter a middle name."; var MSG_RCF_Valid_MiddleName = "Please enter a valid middle name."; var MSG_RCF_LastName = "Please enter a last name."; var MSG_RCF_Valid_LastName = "Please enter a valid last name."; var MSG_RCF_Address1 = "Please enter an address line 1."; var MSG_RCF_Address2 = "Please enter an address line 2."; var MSG_RCF_Country = "Please select a country name."; var MSG_RCF_City = "Please enter a city name."; var MSG_RCF_Valid_City = "Please enter a valid city name."; var MSG_RCF_State = "Please select a State/Region/Province."; var MSG_RCF_Zip = "Please enter a Zip/Postal code."; var MSG_RCF_HomePhone = "Please enter a home phone number."; var MSG_RCF_Valid_HomePhone = "Please enter a valid home phone number."; var MSG_RCF_WorkPhone = "Please enter a work phone number."; var MSG_RCF_Valid_WorkPhone = "Please enter a valid work phone number."; var MSG_RCF_CellPhone = "Please enter a phone number."; var MSG_RCF_Valid_CellPhone = "Please enter a valid phone number."; var MSG_RCF_Fax = "Please enter a fax number."; var MSG_RCF_Valid_Fax = "Please enter a valid fax number."; var MSG_RCF_Homepage = "Please enter a web address. Web addresses start with http:// or https://.";var MSG_SORTASCN = "Click to sort ascending";var MSG_SORTDSCN = " Click to sort descending";
+
+
+
+
+
+
+
+window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"0c4d2a794f","applicationID":"3940305","transactionName":"ZwEHZUAECkQFWhFbVl5LJGJiSg5YBl0ARlhZCBYfUxYUTw==","queueTime":0,"applicationTime":128,"ttGuid":"86E4D881FECE4090","agent":""}window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]); 
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+-->
+
+
+
+
+
+    
+
+    
+
+
+
+                   &nbsp;?
+
+        
+
+        
+
+            
+
+Job detailsTweetJob 1 of 1    Apply to job &nbsp;&nbsp;Send to friend &nbsp;&nbsp;Save to cart &nbsp;&nbsp;View similar jobs&nbsp;&nbsp; &nbsp;&nbsp;    Req No.  9616BR   Title  Data Analyst   Job Category  Legal   Job Description  RESPONSIBILITIES:&nbsp;Understand business context and data elements of varying data sourcesCollaborate with the Post Sales Surveillance team to develop and execute analytical approaches to identify potential emerging issues through data analysis and issue detectionConduct data queries, text mining, and consolidation of testing, manufacturing, and post-sales data for issue analysisPerform data review and analysis to identify and classify potential safety and quality issuesClearly communicate analysis findings, summarize results and provide recommendations to varying levels of the organizationAssist in preparation for field action, Product Action Plan meetings, and status updatesWork with cross-functional stakeholders to gather requirements and develop reporting around relevant post-sales KPIsDrive work optimization through report automation and stakeholder educationExecute standard and ad-hoc reportsLeverage organizational learnings to guide continuous improvements in data governanceOther duties as assigned by the needs of the department or companyQUALIFICATIONS:&nbsp;&nbsp;Minimum of an Associate Degree in Mathematics, Statistics, Data Analysis, or 3-5 years of equivalent work experience. Four (4) year degree preferredStrong mechanical aptitude in powersports and/or automotiveExtensive experience in data queries, analysis, text classification and report generationStrong working knowledge of MS Office applications, SharePoint, and data visualization toolsExcellent analytics and problem solving skillsDemonstrated ability to drive insights and recommendations from the dataIndependent decision-making and resolution skillsSolid written and verbal communication skills and ability to work cross functionally at all levels of an organizationExperience with SQL for use in handling preparation and processing of large datasetsWorking understanding of a safety and/or regulatory environmentPractical knowledge of Natural Language Processing and machine learning models desiredOff-Road Vehicle, Snowmobile, and/or Motorcycle knowledge and use preferred   Location  US - Minneapolis, MN   Status  Full-Time   Education Requirements  4 year degree or higher   Years of Experience Required  3 years experience   About this location  This opportunity is located approximately 30 minutes from Minnesota's Twin Cities of Minneapolis and St. Paul.  These neighboring cities consistently rank as two of the United States' top cities to live in. Minneapolis's thriving art scene, outdoor culture (even in the winter), affordable prices, and friendly atmosphere make this Midwest metropolis a perfect place to live.   About Polaris  Recognized as the leader in the powersports industry, Polaris Industries is a fast growing, innovative, global organization. The people here at Polaris don’t just create products — they are part of a lifestyle.  It’s the passion & execution of those people and their ideas that inspires the innovation that runs through everything we do. Polaris Industries Inc. (NYSE: PII) is a global powersports leader that has been fueling the passion of riders, workers and outdoor enthusiasts for more than 60 years. With annual 2016 sales of $4.5 billion, Polaris’ innovative, high-quality product line-up includes the RANGER®, RZR® and Polaris GENERAL™ side-by-side off-road vehicles; the Sportsman® and Polaris ACE® all-terrain off-road vehicles; Indian Motorcycle® midsize and heavyweight motorcycles; Slingshot® moto-roadsters; and Polaris RMK®, INDY®, Switchback® and RUSH® snowmobiles. Polaris enhances the riding experience with parts, garments and accessories, along with a growing aftermarket portfolio, including Transamerican Auto Parts. Polaris’ presence in adjacent markets globally include military and commercial off-road vehicles, quadricycles, and electric vehicles. Proudly headquartered in Minnesota, Polaris serves more than 100 countries across the globe. Visit www.polaris.com for more information.Polaris prides itself on recognizing and developing top talent to take its people and company to the next level. Competitive salary, generous benefits and a comprehensive relocation plan are just a few components of the total compensation package offered at Polaris.  Are you ready to join a company where you will work hard and play hard, and be rewarded for your performance? Polaris is an Equal Opportunity Employer.     Apply to job &nbsp;&nbsp;Send to friend &nbsp;&nbsp;Save to cart &nbsp;&nbsp;View similar jobs&nbsp;&nbsp; &nbsp;&nbsp;  
+
+     
+
+	    	    
+
+           		  
+
+    
+
+    
+
+ 
+
+ 
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+

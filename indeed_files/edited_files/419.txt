@@ -1,0 +1,1323 @@
+
+
+
+
+
+
+
+
+
+
+    
+
+        Analyst, Marketing Strategy &amp; Analytics | T-Mobile
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+        
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+     -->
+
+        
+
+        (function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: "gtm" + "." + "js" }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-NR3B8L');
+
+        
+
+        (function (w, d, s, l, i) { w[l] = w[l] || []; w[l].push({ 'gtm.start': new Date().getTime(), event: "gtm" + "." + "js" }); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl; f.parentNode.insertBefore(j, f); })(window, document, 'script', 'dataLayer', 'GTM-NKLD3V');
+
+    
+
+
+
+
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                
+
+                
+
+                        Current Openings
+
+
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                                                            
+
+                                    
+
+                                        Meet Our Teams
+
+                                    
+
+                                    
+
+                                        
+
+                                                Retail
+
+                                                Customer Care
+
+                                                Sales
+
+                                                Technology
+
+                                                Corporate
+
+                                                MetroPCS
+
+                                                Students &amp; Grads
+
+                                            All Teams
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    More Info
+
+                                
+
+                                
+
+                                    
+
+                                            Military
+
+                                            Current Employees
+
+                                            Application Process
+
+                                            FAQ
+
+                                    
+
+                                
+
+                            
+
+                            Log In
+
+                        
+
+
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                
+
+                
+
+                        Current Openings 
+
+
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                                                            
+
+                                    
+
+                                        Meet Our Teams
+
+                                    
+
+                                    
+
+                                        
+
+                                                Retail
+
+                                                Customer Care
+
+                                                Sales
+
+                                                Technology
+
+                                                Corporate
+
+                                                MetroPCS
+
+                                                Students &amp; Grads
+
+                                            All Teams
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                                
+
+                                    More Info
+
+                                
+
+                                
+
+                                    
+
+                                            Military
+
+                                            Current Employees
+
+                                            Application Process
+
+                                            FAQ
+
+                                    
+
+                                
+
+                            
+
+                            Log In
+
+                        
+
+
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+            
+
+
+
+
+
+
+
+    
+
+        
+
+            Marketing
+
+            Analyst, Marketing Strategy &amp; Analytics
+
+            APPLY NOW
+
+
+
+        
+
+    
+
+
+
+    
+
+        
+
+            
+
+
+
+                
+
+                    Bellevue, Washington
+
+                
+
+
+
+                    
+
+                        Full Time
+
+                    
+
+                                
+
+
+
+
+
+                
+
+                    Share this job
+
+                
+
+                
+
+                    
+
+    
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+
+
+    
+
+
+
+
+
+                
+
+            
+
+
+
+            
+
+                
+
+                    Do you have a strong analytical background?  Are you looking for an opportunity where you can solve critical business problems leveraging you analytical skill?  Looking for an opportunity at an innovative company that is revolutionizing the mobile phone industry?As member of T-Mobile’s industry leading Marketing Organization, this person will support various aspects of marketing insights and decision making to maximize T-Mobile’s continued success in the US wireless market.  This role favors the extremely analytical and will generally touch on pricing, products, promotion, and distribution placement with specific roles and assignments going deep into any one or all of these areas.  Through bottoms-up data exploration and modeling, this role will formulate a strategic lens into market levers and drive go-to-market action working with stakeholders across the enterprise
+
+                
+
+            
+
+        
+
+
+
+        
+
+            
+
+                
+
+                    
+
+                        STUFF WE'LL
+
+                    
+
+                    TRUST
+
+                    YOU WITH
+
+                
+
+                YOUR RESPONSIBILITIES
+
+                
+
+                    
+
+                        Work with a wide variety of stakeholders including consumer insights, marketing segment and product managers, finance, engineering, sales, and operationsLearn how to build strategic frameworks and develop a deep understanding of industry, company, and customer value drivers to conduct performance optimization analysisManeuver through disparate data sources, test hypotheses through comprehensive quantitative models, and identify market opportunities in a relentless pursuit to improve T-Mobile’s value proposition and market competitivenessWork with a team to develop new products and own game-changing marketing initiatives, influence stakeholders/leadership through fact based analyses, and drive changeExamples of specific areas of analytical ownership include but not limited to service &amp; device pricing, product portfolio optimization, customer behavioral modeling, advertising optimization, special offer impact analysis, and distribution channel strategyLearn how to construct executive level presentations to communicate complex analytical findings in a clear, concise, and decision impacting manner
+
+                    
+
+                
+
+            
+
+        
+
+
+
+        
+
+            
+
+                
+
+                    
+
+                        STUFF
+
+                        YOU TELL
+
+                    
+
+                    PEOPLE
+
+                    AT PARTIES
+
+                
+
+                YOUR QUALIFICATIONS
+
+                
+
+                    
+
+                        BS, MS, or PhD in finance, economics, engineering, operations research, applied math, or related field requiredMBA’s with strong background in analytics
+
+                    
+
+                
+
+            
+
+        
+
+
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                            POSITION POSTED FOR
+
+                            
+
+                                127
+
+                                DAYS
+
+                            
+
+                        
+
+                    
+
+
+
+
+
+
+
+                    
+
+                        POSITION DETAILS
+
+                        
+
+                            76307BRReq ID
+
+MarketingDepartment                            NoTravel Required
+
+                            1Position(s) remaining
+
+                        
+
+                    
+
+                    
+
+                    
+
+
+
+                            SIMILAR OPENINGS
+
+                                Sr Social Media Analyst &ndash; Bellevue, WA
+
+                                2018 Marketing Internships &ndash; Bellevue, WA
+
+                                Director, Product - Media and Value-Added Services &ndash; Bellevue, WA
+
+                    
+
+
+
+
+
+
+
+                
+
+            
+
+        
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    WE EVEN DO BENEFITS DIFFERENTLY
+
+        Check out what we have to offer
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                    Health Benefits
+
+                
+
+                
+
+                    Medical, dental, and vision are just the start. We also offer health pro consultants, flexible spending accounts, and more.
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                    PAID R &amp; R
+
+                
+
+                
+
+                    Kick back with paid time off. We want you to have flexibility, convenience, and control over how you recharge.
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                    IT'S ALL ABOUT YOU
+
+                
+
+                
+
+                    We've ditched old-school performance reviews for a tailored approach to career health that includes training for better career and leadership skills.
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                    SWEET COMPANY DISCOUNTS
+
+                
+
+                
+
+                    Naturally, we offer steep discounts on our consumer rate plans and all the fantastic accessories we carry.
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                    HELP WITH THE FAM
+
+                
+
+                
+
+                    Kids rock. But child care, adoption, and surrogacy aren’t cheap. We offer programs that help reduce those burdens.
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                    INVESTMENT OPTIONS
+
+                
+
+                
+
+                    Options include a 401(k) plan, an annual Employee Stock Grant, and a purchase plan that gives you the chance to grab T-Mobile stock at a discount.
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+            WHAT TO EXPECT WHEN APPLYING FOR A JOB
+
+        
+
+        
+
+    
+
+
+
+    
+
+        
+
+    
+
+
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                    
+
+                        
+
+                            Job Location
+
+                            3625 132nd Ave SE
+
+                            Bellevue, WA 98006
+
+                        
+
+                    
+
+                    
+
+                    
+
+                        CHECK YOUR COMMUTE
+
+
+
+
+
+                        
+
+                            Driving
+
+                            Walking
+
+                        
+
+                        
+
+                            Bicycling
+
+                            Public Transit
+
+                        
+
+
+
+
+
+                        
+
+                            
+
+                            
+
+                        
+
+
+
+                        
+
+                            Estimated travel time:
+
+
+
+                            
+
+                                20min / 5 mi
+
+                            
+
+                        
+
+                        
+
+                            Route is not found.
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+        
+
+    
+
+
+
+    
+
+        ARE YOU A GOOD FIT FOR OUR TEAM?
+
+        APPLY NOW
+
+
+
+            What's it like to work at T-Mobile?Find out
+
+
+
+        
+
+        
+
+
+
+
+
+                    
+
+                        
+
+                            “The most amazing company ever!”
+
+                        
+
+                        
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+
+
+                            
+
+                            
+
+                                Current Field Sales Recruiter in Waterville, ME
+
+                            
+
+                        
+
+                        
+
+                            Pros
+Ability to think outside the box and bring your own personal best to your career. Tons of communication and flexible to change with customers and employees needs. Fun, fast pace, fantastic people!
+Cons 
+We move very fast, you have to be able to roll with it and be excited by change. Thing are not always flawless, but there is tons of support as we grow and change.
+Advice to Management 
+John is the best CEO! Keep communicating, keep things fun, let's be number one!
+
+                        
+
+                        
+
+                            
+
+                                
+
+                            
+
+                        
+
+                    
+
+                    
+
+                        
+
+                            “Great Work &amp; Great People!”
+
+                        
+
+                        
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+
+
+                            
+
+                            
+
+                                Current Diversity &amp; Inclusion Field Program Manager in Albuquerque, NM	
+
+                            
+
+                        
+
+                        
+
+                            Pros 
+Culture, leadership, growth, flexibility, &amp; benefits
+Cons 
+None, I love it! I can't think of any right now.
+
+                        
+
+                        
+
+                            
+
+                                
+
+                            
+
+                        
+
+                    
+
+                    
+
+                        
+
+                            “One of the best jobs I’ve ever had”
+
+                        
+
+                        
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+
+
+                            
+
+                            
+
+                                Former Anonymous Employee	 in Bellevue, WA
+
+                            
+
+                        
+
+                        
+
+                            Pros 
+Managers (at least mine) actually listened to and advocated for their employees. Great pay. Nice perks. Good culture -- people didn't seem miserable.
+Cons 
+As with any big company, can take a while for things to get done. Lots of layers, etc. But definitely moves faster than other big companies I've worked for.
+Advice to Management 
+Don't advance those mid- to senior mgrs who just go through the motions. Do more to keep smart, talented people on board.
+
+                        
+
+                        
+
+                            
+
+                                
+
+                            
+
+                        
+
+                    
+
+
+
+
+
+    
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    ONE OF THE
+
+                    MOST
+
+                    ETHICAL COMPANIES
+
+                    IN THE WORLD
+
+                
+
+            
+
+            
+
+                
+
+
+
+                        As America’s Un-carrier, T-Mobile US, Inc. (NASDAQ: “TMUS”) is redefining the way consumers and businesses buy wireless services through leading product and service innovation. The company’s advanced nationwide 4G and 4G LTE network delivers outstanding wireless experiences for customers who are unwilling to compromise on quality and value. Based in Bellevue, Washington, T-Mobile US provides services through its subsidiaries and operates its flagship brands, T-Mobile and MetroPCS. For more information, please visit http://www.t-mobile.com.
+
+
+
+                
+
+                
+
+                    EOE Statement
+
+                    We Take Equal Opportunity Seriously - By Choice  T-Mobile USA, Inc. is an Equal Opportunity Employer.  All decisions concerning the employment relationship will be made without regard to age, race, color, religion, creed, sex, sexual orientation, gender identity or expression, national origin, marital status, veteran status, the presence of any physical or mental disability, or any other status or characteristic protected by federal, state, or local law.  Discrimination or harassment based upon any of these factors is wholly inconsistent with our Company values and will not be tolerated.  Furthermore, such discrimination or harassment may violate federal, state, or local law.
+
+                
+
+            
+
+
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+            
+    
+        
+            
+                
+                    
+                        T-MOBILE CAREERS
+                        METROPCS CAREERS
+                        CONTACT US
+                        FAQ
+                    
+
+                                           
+                        
+
+
+
+
+
+        Facebook
+
+                Twitter
+
+            You Tube
+
+            LinkedIn
+
+            Instagram
+
+   
+
+
+
+    
+                     
+                    
+                
+                    
+                        
+
+                            T-MOBILE.COM
+                            PRESS
+
+                            AWARDS
+                            LEGAL
+                            ACCESSIBILITY
+                            PRIVACY
+                            TERMS OF USE
+                        
+                    
+                    ©2002-2017 T-MOBILE USA, INC.
+                    
+                
+            
+        
+        
+        
+            
+            
+            (function(global) {
+                if (typeof TTDUniversalPixelApi === 'function') {
+                    var universalPixelApi = new TTDUniversalPixelApi();
+                    universalPixelApi.init("vxaekti", ["q4i9ugv"], "https://insight.adsrvr.org/track/up", "ttdUniversalPixelTagcb8a48350ee2474688986ec036d4e24c");
+                }
+            })(this);
+            
+        
+    
+
+
+        
+
+    
+
+
+
+    
+
+        
+
+            
+
+                &times;
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+    
+
+        
+
+            
+
+                &times;
+
+                
+
+                    
+
+                        Tell us who you are so we can get you to the right place.
+
+                        
+
+                            
+
+                                Current Employee
+
+                                Employees of T-Mobile and MetroPCS should choose Current Employee.
+
+
+
+                            
+
+                            
+
+                                New Applicant
+
+                                Everyone else including freelancers and contractors who are currently placed at T-Mobile should choose New Applicant.
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+        var refreshLocation = false;
+
+        var storeAddress = "3625 132nd Ave SE Bellevue, Washington 98006";
+
+        var jobId = 77045;
+
+        var infoWindowContent = 'T-Mobile  3625 132nd Ave SE  Bellevue, Washington ';
+
+        var locationLat = 47.578682;
+
+        var locationLon = -122.1652854;
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+

@@ -1,0 +1,661 @@
+
+
+	
+		
+		
+		
+		
+		
+				
+			
+				.gradient {
+		   			filter: none;
+				}
+			
+		
+		Data Analyst Intern - New York, NY - Group One Trading Jobs
+		
+		
+		
+				
+		
+				
+		
+				
+				
+				
+					
+			
+      		
+      	
+		
+		-->
+		
+			$(function() {
+				$('input,textarea').placeholder();
+				A.supportsPlaceholders = $.support.placeholder = 'placeholder' in document.createElement('input');
+				V.init();
+				A.useN = true;
+				A.newValidation = true;
+				A.isMobile = 0;
+				
+							});
+		
+		
+			function breakout() {
+				if(window.top != window.self) {
+					window.top.location="https://group1.applicantpro.com//jobs/636844-6786.html";
+				}
+			}
+		
+			
+	
+		
+			
+								
+										
+										
+										
+									
+								
+					
+												
+							Home
+							Jobs
+						
+						
+						
+							@media print {
+							    .navbar {
+							        display: block;
+							        border-width:0 !important;
+							    }
+
+							    .navbar-toggle {
+							        display:none;
+							    }
+
+							    #email_me_job{
+							    	display: none;
+							    }
+
+							    #job_piper_alerts_widget{
+							    	display: none;
+							    }
+
+							    a[href]:after {  
+							    	display:none; 
+							    }
+
+							    .navbar-brand{
+							    	display: block;
+							    	text-decoration: none;
+							    	text-align: center;
+							    }
+							}
+
+							/*Safari Only hack*/
+							@media print and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+								.navbar-brand { 
+									display: none;
+								} 
+							}
+
+							/* Explorer Only hack */
+							.navbar-brand { display:none\0; }
+						
+						
+						
+							
+								Data Analyst Intern - New York, NY
+								
+									Toggle navigation
+									
+									
+									
+								
+							
+							
+								
+									
+										Data Analyst Intern									
+									
+										JobsLogin									
+								
+							
+						
+
+	$(function() {
+		$('#email_me_job').on('click', function() {
+			Analytics.addAction('email_me_job_button', { listing_id : 636844 });
+		});
+		
+		Analytics.addParams({ listing_id : '636844' });
+	});
+
+ 
+	{"@context":"http:\/\/schema.org\/","@type":"JobPosting","title":"Data Analyst Intern","url":"https:\/\/group1.applicantpro.com\/jobs\/636844.html","description":"Responsibilities\r\nAs a Data Analyst Intern, responsibilities will span a variety of programming, data analysis, and reporting projects. These tasks will primarily be adding new features or troubleshooting SQL code and SSRS reports, which are used by all functional groups in Group1 including traders, risk managers, operations, and compliance. This position will be focused on specific feature requests and there will be some flexibility in the design, direction, and approach to these tasks.\r\nLocation&nbsp;\r\nNew York\r\nRequirements\r\n\r\nKnowledge of databases \/ data analysis with Excel, SQL, and SSRS.\r\nExperience writing SQL Queries and designing SRSS Reports\r\nKnowledge of software and programming design, organization, paradigms, and practices.\r\nSolid analytical and problem-solving skills.\r\nThe ability to approach projects in a logical way.\r\nAbility to work independently.\r\nFast learner and motivated to complete tasks quickly.\r\n\r\nNot Required, but a Plus\r\n\r\nExperience tweaking database performance, indexing, DBA tasks\r\nProgramming skills (in .Net languages, C#\/C++, Python, JAVA, etc.)\r\nETL Experience\r\nFinancial markets experience\r\n\r\nEnvironment\r\nThe biggest benefit of&nbsp;this opportunity is being a part of our dynamic environment, in&nbsp;a casual and collaborative small firm atmosphere.&nbsp;As a Data Analyst Intern, you&nbsp;will become an integral part of&nbsp;our team, enjoying&nbsp;a high degree of freedom and interaction as well as the ability to be actively involved in the solutions to a variety of challenging problems. Skills learned will be applicable to fields outside of finance.\r\nWho we are\r\nFounded in San Francisco in 1989, Group One has grown into one of the largest, privately held options trading firms in the United States employing over 90 people in New York, Chicago, Philadelphia and San Francisco.\r\nGroup One Trading, LP is an Equal Opportunity Employer.","identifier":{"@type":"PropertyValue","name":"Group One Trading","sameAs":"636844"},"datePosted":"2017-09-08 00:00:00","validThrough":"2017-12-07 00:00:00T23:59","employmentType":"INTERNSHIP","baseSalary":{"@type":"MonetaryAmount","currency":"USD","value":{"@type":"QuantitativeValue","value":"","unitText":"HOURLY"}},"hiringOrganization":{"@type":"Organization","name":"Group One Trading","sameAs":"https:\/\/group1.applicantpro.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"New York","addressRegion":"NY","postalCode":"","addressCountry":"US"}}}
+
+	
+		
+			
+				
+					 08-Sep-2017 to 07-Dec-2017 (CST) Operations New York, NY, USA Hourly Internship				
+				
+							
+			
+								Email Me Similar Jobs								Email Me This Job
+			
+		
+		
+		Responsibilities
+
+As a Data Analyst Intern, responsibilities will span a variety of programming, data analysis, and reporting projects. These tasks will primarily be adding new features or troubleshooting SQL code and SSRS reports, which are used by all functional groups in Group1 including traders, risk managers, operations, and compliance. This position will be focused on specific feature requests and there will be some flexibility in the design, direction, and approach to these tasks.
+
+Location&nbsp;
+
+New York
+
+Requirements
+
+
+
+Knowledge of databases / data analysis with Excel, SQL, and SSRS.
+
+Experience writing SQL Queries and designing SRSS Reports
+
+Knowledge of software and programming design, organization, paradigms, and practices.
+
+Solid analytical and problem-solving skills.
+
+The ability to approach projects in a logical way.
+
+Ability to work independently.
+
+Fast learner and motivated to complete tasks quickly.
+
+
+
+Not Required, but a Plus
+
+
+
+Experience tweaking database performance, indexing, DBA tasks
+
+Programming skills (in .Net languages, C#/C++, Python, JAVA, etc.)
+
+ETL Experience
+
+Financial markets experience
+
+
+
+Environment
+
+The biggest benefit of&nbsp;this opportunity is being a part of our dynamic environment, in&nbsp;a casual and collaborative small firm atmosphere.&nbsp;As a Data Analyst Intern, you&nbsp;will become an integral part of&nbsp;our team, enjoying&nbsp;a high degree of freedom and interaction as well as the ability to be actively involved in the solutions to a variety of challenging problems. Skills learned will be applicable to fields outside of finance.
+
+Who we are
+
+Founded in San Francisco in 1989, Group One has grown into one of the largest, privately held options trading firms in the United States employing over 90 people in New York, Chicago, Philadelphia and San Francisco.
+
+Group One Trading, LP is an Equal Opportunity Employer.		
+		
+			Group One Trading
+			https://group1.applicantpro.com
+		
+	
+	
+		
+	$(function() {
+		A.setTempName('apply');
+		A.getResponse('getCsrfToken', '', function(result) {
+			if(result && "token" in result) {
+				$('input[name="csrf_token"]').val(result.token);
+				A.attachParam('csrf_token', result.token);
+			}
+		});
+		
+		$('#job_piper_alerts_widget').show();
+		
+		// Hide job piper to reduce confusion
+		$('#contact_number').on('keyup', function() {
+			$('#job_piper_alerts_widget').fadeOut(200);
+		});
+		$('#apply').on('submit', function () {
+			var $t = $(this), formIsValid = V.form('apply'), appData;
+			
+			if(formIsValid) {
+				
+				appData = AS.get('applicationInfo') || {};
+				appData.job_listing_id = '636844';
+				appData.i = '0';
+				appData.first_name = $('#first_name').val();
+				appData.last_name = $('#last_name').val(); 
+				appData.email = $('#email').val();
+				appData.contact_number = $('#contact_number').val();
+				appData.contact_number_type = $('#contact_number_type').val();
+				appData.text_approval = $('#text_approval').val();
+				AS.set('applicationInfo', appData, 2700);
+				
+				$('#apply_container').animate({ opacity: 0 }, 200);
+				A.setTempName('apply');
+				A.getHTML('initialForm', 'apply', '', function(result) {
+					if(result) {
+						$('#apply_container').html(result).animate({ opacity: 1 }, 200);
+						// Hide job piper to reduce confusion
+						$('#job_piper_alerts_widget').fadeOut(200);
+					}
+				});
+			}
+			return false;
+		});
+		
+		$('#contact_number_type').on('change', function () {
+			if (this.value == 2) {
+				$('#text_approval_div').show();
+				$('#text_approval').attr('disabled', false);
+			} else {
+				$('#text_approval_div').hide();
+				$('#text_approval').attr('disabled', true);
+			}
+		});
+		
+		var appData = AS.get('applicationInfo');
+		if(typeof(appData) != 'undefined') {
+			for(var i in appData) {
+				// make sure there's a value and that the field is a string, not an int, and skip the job_id and i
+				if(appData[i] && isNaN(parseInt(i)) && i != 'job_listing_id' && i != 'i')
+					$('#' + i).val(appData[i]);
+			}
+		}
+		
+		$('#seek_button').on('click', function() {
+			authSocSeek();
+		});
+	});
+	
+	window.funID = '489';
+	
+	
+
+	
+		Apply Now
+			
+	
+		
+			You have JavaScript disabled on your browser. You will not be able to apply for this position without enabling javascript. If you need assistance with enabling javascript, please click here for assistance.
+		
+		
+						
+				
+				
+								
+					
+						* Fields Are Required
+					
+				
+				
+					
+						What is your full name?
+					
+				
+				
+					
+						First Name
+						
+					
+					
+						Last Name
+						
+					
+				
+				
+					
+						How can we contact you?
+					
+					
+						Email
+						
+					
+				
+				
+					
+						Phone Number
+						
+					
+					
+						Number Type
+						
+							Home
+							Cell
+							Work
+						
+					
+				
+								
+					
+						
+							What is your preferred method of communication?
+						
+						
+							Email
+							Text Message
+						
+					
+				
+								
+				
+					
+						Apply for this Position
+						Apply for this Position
+						By clicking the button above, I agree to ApplicantPro's Applicant Information Use Policy.					
+				
+			
+		
+	
+
+	
+		Sign Up For Job Alerts!
+	
+	
+		
+			$(function() {
+				var sidebar_options = { 
+					api_key: "jp_apppro_group1", 
+					style: "sidebar", 
+					title: "Data Analyst Intern", 
+					source: "4_job" 
+				};
+				referWidget("create", sidebar_options, "refer-widget");
+			});
+		
+		
+	
+
+
+	
+		Resources
+	
+	
+		Employee Referral PortalGroup One Trading Website	
+
+	
+		Share this Page
+	
+	
+						
+		
+		
+		
+					
+	
+
+
+											 
+					
+												
+														Hiring Software Maintained By ApplicantPro - &copy; 2017
+														
+									
+										
+										Refresh
+									
+								
+													
+						
+						
+							$(function() {
+								$('.footer-links:last-child').css('border-left', '0');
+								$('.footer-links:last-child a').css('color', $('body .panel-footer').css('background-color'));
+							});
+						
+					
+					 
+				 
+			 
+		 
+		
+		
+	body {
+		margin-bottom: 60px !important;
+	}
+
+
+	var faqButtons = [{"page":"instructions","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"resume","link":"https:\/\/intercom.help\/applicant-support\/resumes"},{"page":"additional_questions","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"screening","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"employment","link":"https:\/\/intercom.help\/applicant-support\/employment-history"},{"page":"education","link":"https:\/\/intercom.help\/applicant-support\/education"},{"page":"references","link":"https:\/\/intercom.help\/applicant-support\/references"},{"page":"eeoc","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"disclosure","link":"https:\/\/intercom.help\/applicant-support\/applicant-statement"},{"page":"source","link":"https:\/\/intercom.help\/applicant-support\/source"},{"page":"submit","link":"https:\/\/intercom.help\/applicant-support\/submit-application","label":"Common Submit Questions"},{"page":"thank_you","link":"https:\/\/intercom.help\/applicant-support\/general","label":"Common Application Questions"},{"page":"my_account","link":"https:\/\/intercom.help\/applicant-support\/my-account","label":"Common Account Questions"},{"page":"login","link":"https:\/\/intercom.help\/applicant-support\/login","label":"Common Login Questions"},{"page":"listing_info","link":"https:\/\/intercom.help\/applicant-support\/job-listing","label":"Common Job Questions"}];
+	$(function() {
+		$('#faq_bar_form').on('submit', function() {
+			var value = $('#faq_bar_searchCriteria').val();
+			if(value) {
+				A.setTempName('support');
+				A.setTempDir('/jobs/');
+				A.set('recordSearch', { from_page_url : window.location.href, keyword : value });
+				var newWindow = window.open("https://intercom.help/applicant-support/#search_query=" + encodeURIComponent(value), "_blank");
+			} else
+				N.addError("Please enter a search term to search our FAQs");
+			return false;
+		});
+		
+		$('#common_faq_button').on('click', function() {
+			var newWindow = window.open($(this).data('link'), "_blank");
+		});
+		
+		var path = window.location.pathname, name;
+		switch(true) {
+			case path.indexOf('login.php') != -1 || path.indexOf('forgot_password.php') != -1:
+				name = 'login';
+				break;
+				
+			case path.indexOf('/account/') != -1:
+				name = 'my_account';
+				break;
+				
+			case path.indexOf('/jobs/') != -1:
+			case path.indexOf('/internaljobs/') != -1:
+				name = 'listing_info';
+				break;
+				
+			case path.indexOf('/apply/') != -1:
+				name = '';
+				break;
+		}
+		changeCommonQuestionsText(name);
+	});
+	
+	function changeCommonQuestionsText(name) {
+		var label = "", $button = $('#common_faq_button'), newButtonText = $('[data-file="' + name + '"]').text(), found = false;
+		for(var i in faqButtons) {
+			if(faqButtons[i]['page'] == name) {
+				$button.show();
+				label = faqButtons[i]['label'] ? faqButtons[i]['label'] : 'Common ' + (newButtonText.search(/questions?/ig) != -1 ? newButtonText : newButtonText + ' Questions');
+				$button.text(label);
+				$button.data('link', faqButtons[i]['link']);
+				found = true;
+				break;
+			}
+		}
+		
+		if(!found)
+			$button.hide();
+	}
+
+
+	
+		
+			
+		
+		Go
+				Common Questions
+			
+
+
+		
+				
+			!function(e,r,t){e.referWidget=e.referWidget||function(){(e.referWidget.q=e.referWidget.q||[]).push(arguments)},e.referWidget.l=1*new Date;var n=r.createElement("script"),i=r.getElementsByTagName("script")[0];n.async=1,n.src=t,i.parentNode.insertBefore(n,i)}(window,document, "https://widget-dot-refer-io.appspot.com/refer.js");
+		
+		
+		
+		
+				
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57286717-2', 'auto');
+  ga('send', 'pageview');
+
+
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		<!-- scripts 
+	
+		jQl.loadjQ('/js/all.min.js?ver=1.1.16498.2');
+	
+	-->
+	
+	
+	
+		
+	
+				var exit_survey_enabled = '0';
+		var fired = '0';
+		var thanks = '0'
+		$(function() {
+			$('#leaving').on('change', function() { 
+				if($(this).val() != 0)
+					$('#notice').css('display', 'block');
+				else
+					$('#notice').css('display', 'none');
+
+				if( $(this).val() == 'Other' ) 
+					$('#reason').css('display', 'block'); 
+				else 
+					$('#reason').css('display', 'none'); 
+			});
+		});
+
+		if(exit_survey_enabled != 0) {
+			$('#left').on('click', function() {
+				var answer = $('#leaving').val();
+				if(answer != 0) {
+					var domain_id = '489';
+					var job = '636844';
+					var app = '';
+
+					if(answer == 'Other') {
+						if( $('#reason').val() != '' ) {
+							answer = $('#reason').val();
+						} else {
+							answer = 'Other (Non Specified)';
+						}					
+					}
+					$.post("/jobs/edit.php", {n: 'conversion', f: 'survey', v :{app_id : app, domain: domain_id, job_id: job, answer: answer} });
+
+					$('#ouibounce-modal').hide();
+				  							$('#ouibounce-referio-modal').css('display', 'block');
+									}
+			});
+		}
+
+		// if you want to use the 'fire' or 'disable' fn,
+		// you need to save OuiBounce to an object
+		if(exit_survey_enabled != 0 && fired == 0 && thanks == 0) {
+			var modal = '';
+
+			$('html').on( 'mouseleave', function() {
+				if(fired == 0) {
+					fired = 1;
+					modal = ouibounce(document.getElementById('ouibounce-modal'), {
+							aggressive: false,
+						  	timer: 0,
+						  	callback: function() { 
+						  		$('#top-nav').css('z-index', '0'); 
+						  		$.get("/jobs/view.php", {n: 'conversion', f: 'survey_fired'}); 
+								if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+									modal.disable();
+						  	}
+						});
+					modal.fire();
+				}
+			});
+
+			setInterval( function() { 
+				$('select').click(
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+
+				$('select').mouseleave( 
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+			}, 1000);
+
+			$('body').on('click', function() {
+			  	$('#ouibounce-modal').hide();
+			  	$('#ouibounce-referio-modal').hide();
+			});
+
+			$('#ouibounce-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal-footer button').on('click', function(e) {
+			  	$('#ouibounce-referio-modal').hide();
+			});
+		}
+	
+	
+		<!--
+	
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://group1.applicantpro.com/stats/" : "http://group1.applicantpro.com/stats/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	
+	
+		try {
+		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1103);
+		piwikTracker.trackPageView();
+		piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+	
+	
+	-->
+		
+		$(function() {
+			Analytics.addAction();
+		});
+	
+
+		
+	
+	
+		$(function() {
+			$('select').attr('role', 'combobox');
+			$('.dropdown').attr('role', 'combobox');
+		});
+	
+
+	
+//
+
+

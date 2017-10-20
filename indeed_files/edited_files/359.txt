@@ -1,0 +1,1292 @@
+
+
+	
+
+	
+
+	
+
+		
+
+
+
+
+
+    
+    
+
+
+UW Human Resources
+
+
+
+
+
+		
+
+		
+
+		
+
+		
+
+		
+
+
+
+		
+
+	        .fieldError {float:right; color:#ff0000;}
+
+	        .pageError {color:#ff0000;}
+
+	    
+
+	
+
+	
+
+	
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	Skip to main content
+
+
+
+	     A-Z Index
+Contact Us
+Academic HR
+UW.edu
+ Enter search text:         University of Washington Human Resources University of Washington Human Resources Home  Jobs  Why work at UW? Before you apply Temporary work Employee referral program Find a job  Total Rewards  Compensation  Professional staff compensation Classified staff compensation  Benefits  Health benefits Insurance benefits Retirement plans Health and wellness  WorkLife  UW CareLink Child care Elder care Workplace giving The Whole U Discounts and perks  Leaves and Holidays  Leaves Holiday schedule Flexwork   Workplace Essentials  Employee Support  Employee recognition Employee work performance Complaint resolution Update personal information UW SafeCampus  Career Development  Professional development Online learning opportunities Career tools and services Tuition exemption  Manager Resources  Hiring New employees Performance management Succession planning Organizational development  Quick Links  Employee Self-Service My HR Tools OPUS OWLS UWHIRES login   Policies, Forms, and Contracts  Policies Forms Labor union contracts Classified non-union information Professional Staff Program  Offices  Office of the Vice President Benefits Compensation Disability Services Office HR Administration and Information Systems HR Operations Labor Relations Marketing, Communications, and Engagement Professional & Organizational Development WorkLife 
+Menu      Jobs  Why work at UW? Before you apply Temporary work Employee referral program Find a job  Total Rewards  Compensation  Professional staff compensation Classified staff compensation  Benefits  Health benefits Insurance benefits Retirement plans Health and wellness  WorkLife  UW CareLink Child care Elder care Workplace giving The Whole U Discounts and perks  Leaves and Holidays  Leaves Holiday schedule Flexwork   Workplace Essentials  Employee Support  Employee recognition Employee work performance Complaint resolution Update personal information UW SafeCampus  Career Development  Professional development Online learning opportunities Career tools and services Tuition exemption  Manager Resources  Hiring New employees Performance management Succession planning Organizational development  Quick Links  Employee Self-Service My HR Tools OPUS OWLS UWHIRES login   Policies, Forms, and Contracts  Policies Forms Labor union contracts Classified non-union information Professional Staff Program  Offices  Office of the Vice President Benefits Compensation Disability Services Office HR Administration and Information Systems HR Operations Labor Relations Marketing, Communications, and Engagement Professional & Organizational Development WorkLife 
+ MoreA-Z Index
+Contact Us
+Academic HR
+UW.edu
+Enter search text: 
+
+
+	
+
+	
+
+    
+
+    
+
+        
+
+            
+
+
+
+
+
+	
+
+	If you are using a screen reader and experience any difficulty accessing our web pages, please call 206-543-2544 or email UWHires and we will be happy to assist you. jump to content
+
+	
+
+	
+
+		* { margin:0;padding:0; }
+
+		.wp { width:700px; margin:0 auto;list-style-type:none; }
+
+		.hd { width:700px; margin:0 auto; }
+
+		.bd { display:table; }
+
+		.doc { display:table-row; }
+
+		.col1,.col2,.col3 { vertical-align:top; display:table-cell; }
+
+		.clear { clear:both; }
+
+		#topnav {
+
+			text-align:right;
+
+			padding:5px;
+
+			margin-bottom: 10px;
+
+		}
+
+	
+
+	
+
+		$(function() {
+
+			$( "button, input:submit, a", ".submit_btn" ).button();
+
+		});
+
+	
+
+
+
+
+
+	
+
+		
+
+	
+
+		
+
+		
+
+			
+
+
+			Job Search 
+
+
+			
+
+				
+
+				
+
+				
+
+
+
+	
+
+	#ABluex:link					{ color:#09C; font-family:Arial; font-size:13px; font-weight:normal; text-decoration:underline;}
+
+	#ABluex:visited				{ color:#09C; font-family:Arial; font-size:13px; font-weight:normal; text-decoration:underline;}
+
+	#ABluex:hover					{ color:#000000; font-family:Arial; font-size:13px;  font-weight:normal; text-decoration:underline;}	
+
+	
+
+	#ASearchHeaderFont:link			{ color:#ffffff; font-family:Arial; font-size:13px; font-weight:bold; }
+
+	#ASearchHeaderFont:visited			{ color:#ffffff; font-family:Arial; font-size:13px; font-weight:bold;}
+
+	#ASearchHeaderFont:hover			{ color:#000000; font-family:Arial; font-size:13px; font-weight:bold; }	
+
+	
+
+	#AHelp:link 			{font-family:Arial; font-size:13px; color:#FFFFFF}	
+
+	#AHelp:visited 		{font-family:Arial; font-size:13px; color:#FFFFFF}	
+
+	#AHelp:hover 			{font-family:Arial; font-size:13px; color:#FFFFFF}	
+
+
+
+	#TDRegular 	 			{font-family:Arial; font-size:13px;}	
+
+	#TDRed 	 			{font-family:Arial; font-size:13px; color:red;}
+
+	
+
+	#TDSearchHeader 		{font-family:Arial; font-size:13px; background-color:#4b2e83; color:#FFFFFF; font-weight:bold; }	
+
+	#TDSearchHeaderFont	{font-family:Arial; font-size:13px; color:#FFFFFF}	
+
+	#TBLSearchBorder 		{ background-color:#CCCCCC }
+
+	#TBLSearchBackground 	{ background-color:#F1F1F1 }
+
+	
+
+	#TDConceptSearchHeader 		{font-family:Arial; font-size:13px; background-color:; color:#000000; font-weight:bold; }	
+
+	#TDConceptSearchHeaderFont		{font-family:Arial; font-size:13px; color:#000000}	
+
+	#TBLConceptSearchBorder 		{ background-color: }
+
+	#TBLConceptSearchBackground 	{ background-color: }	
+
+	
+
+	#TDLoginHeader 		{font-family:Arial; font-size:13px; background-color:#4b2e83; color:#FFFFFF}	
+
+	#TDLoginHeaderFont		{font-family:Arial; font-size:13px;  color:#FFFFFF}	
+
+	#TBLLoginBorder 		{ background-color:#CCCCCC }
+
+	.TBLLoginBorder 		{ border:1px solid #CCCCCC }
+
+
+
+	#TBLLoginBackground 	{ background-color:#F1F1F1 }
+
+	.TBLLoginBackground 	{ border:1px solid:#F1F1F1 }
+
+		
+
+	#TDHotJobsHeader 		{font-family:Arial; font-size:13px; background-color:; color:#ffffff}	
+
+	#TDHotJobsHeaderFont	{font-family:Arial; font-size:13px; color:#000000}	
+
+	#TBLHotJobsBorder 		{ background-color: }
+
+	#TBLHotJobsBackground 	{ background-color: }
+
+			
+
+	#TDNewsHeader 			{font-family:Arial; font-size:13px; background-color:#4b2e83; color:#FFFFFF; font-weight:bold;}	
+
+	#TDNewsHeaderFont		{font-family:Arial; font-size:13px; color:#FFFFFF; font-weight:bold; }	
+
+	#TBLNewsBorder 		{ border: 1px solid #CCCCCC; }
+
+	#TBLNewsBackground 	{ background-color:#F1F1F1 }
+
+		
+
+	#TDPollsHeader 		{font-family:Arial; font-size:13px; background-color:; color:#ffffff}	
+
+	#TDPollsHeaderFont		{font-family:Arial; font-size:13px; color:#000000}	
+
+	#TBLPollsBorder 		{ background-color: }
+
+	#TBLPollsBackground 	{ background-color: }
+
+		
+
+	#TDCompanyBulletinsHeader 			{font-family:Arial; font-size:13px; background-color:; color:#ffffff}	
+
+	#TDCompanyBulletinsHeaderFont 		{font-family:Arial; font-size:13px; color:#000000}	
+
+	#TBLCompanyBulletinsBorder 		{ background-color: }
+
+	#TBLCompanyBulletinsBackground 	{ background-color: }
+
+		
+
+	#TDCategoriesHeader 			{font-family:Arial; font-size:13px; background-color:; color:#ffffff}	
+
+	#TDCategoriesHeaderFont 		{font-family:Arial; font-size:13px; color:#000000}	
+
+	#TBLCategoriesBorder 			{background-color: }
+
+	#TBLCategoriesBackground 		{background-color: }
+
+	
+
+	
+
+	
+
+	.ABluex:link					{ color:#09C; font-family:Arial; font-size:13px; font-weight:normal; text-decoration:underline;}
+
+	.ABluex:visited				{ color:#09C; font-family:Arial; font-size:13px; font-weight:normal; text-decoration:underline;}
+
+	.ABluex:hover					{ color:#000000; font-family:Arial; font-size:13px;  font-weight:normal; text-decoration:underline;}	
+
+	
+
+	.ASearchHeaderFont:link			{ color:#ffffff; font-family:Arial; font-size:13px; font-weight:bold; }
+
+	.ASearchHeaderFont:visited			{ color:#ffffff; font-family:Arial; font-size:13px; font-weight:bold;}
+
+	.ASearchHeaderFont:hover			{ color:#000000; font-family:Arial; font-size:13px; font-weight:bold; }	
+
+	
+
+	.AHelp:link 			{font-family:Arial; font-size:13px; color:#FFFFFF}	
+
+	.AHelp:visited 		{font-family:Arial; font-size:13px; color:#FFFFFF}	
+
+	.AHelp:hover 			{font-family:Arial; font-size:13px; color:#FFFFFF}	
+
+	
+
+	.TDRegular 	 			{font-family:Arial; font-size:13px;}	
+
+	.TDRed 	 			{font-family:Arial; font-size:13px; color:red;}
+
+	
+
+	.TDSearchHeader 		{font-family:Arial; font-size:13px; background-color:#4b2e83; color:#FFFFFF; font-weight:bold; }	
+
+	.TDSearchHeaderFont	{font-family:Arial; font-size:13px; color:#FFFFFF}	
+
+	.TBLSearchBorder 		{ background-color:#CCCCCC; border: 1px solid #4b2e83; }
+
+	.TBLSearchBackground 	{ background-color:#F1F1F1 }
+
+	
+
+	.TDConceptSearchHeader 		{font-family:Arial; font-size:13px; background-color:; color:#000000; font-weight:bold; }	
+
+	.TDConceptSearchHeaderFont		{font-family:Arial; font-size:13px; color:#000000}	
+
+	.TBLConceptSearchBorder 		{ background-color: }
+
+	.TBLConceptSearchBackground 	{ background-color: }	
+
+	
+
+	.TDLoginHeader 		{font-family:Arial; font-size:13px; background-color:#4b2e83; color:#FFFFFF}	
+
+	.TDLoginHeaderFont		{font-family:Arial; font-size:13px;  color:#FFFFFF}	
+
+	.TBLLoginBorder 		{ background-color:#CCCCCC }
+
+	
+
+	.TBLLoginBackground 	{ background-color:#FFF; }
+
+		
+
+	.TDHotJobsHeader 		{font-family:Arial; font-size:13px; background-color:; color:#ffffff}	
+
+	.TDHotJobsHeaderFont	{font-family:Arial; font-size:13px; color:#000000}	
+
+	.TBLHotJobsBorder 		{ background-color: }
+
+	.TBLHotJobsBackground 	{ background-color: }
+
+			
+
+	.TDNewsHeader 			{font-family:Arial; font-size:13px; background-color:#4b2e83; color:#FFFFFF; font-weight:bold;}	
+
+	.TDNewsHeaderFont		{font-family:Arial; font-size:13px; color:#FFFFFF; font-weight:bold; }	
+
+	.TBLNewsBorder 		{ border: 1px solid #CCCCCC; }
+
+	.TBLNewsBackground 	{ background-color:#F1F1F1 }
+
+		
+
+	.TDPollsHeader 		{font-family:Arial; font-size:13px; background-color:; color:#ffffff}	
+
+	.TDPollsHeaderFont		{font-family:Arial; font-size:13px; color:#000000}	
+
+	.TBLPollsBorder 		{ background-color: }
+
+	.TBLPollsBackground 	{ background-color: }
+
+		
+
+	.TDCompanyBulletinsHeader 			{font-family:Arial; font-size:13px; background-color:; color:#ffffff}	
+
+	.TDCompanyBulletinsHeaderFont 		{font-family:Arial; font-size:13px; color:#000000}	
+
+	.TBLCompanyBulletinsBorder 		{ background-color: }
+
+	.TBLCompanyBulletinsBackground 	{ background-color: }
+
+		
+
+	.TDCategoriesHeader 			{font-family:Arial; font-size:13px; background-color:; color:#ffffff}	
+
+	.TDCategoriesHeaderFont 		{font-family:Arial; font-size:13px; color:#000000}	
+
+	.TBLCategoriesBorder 			{background-color: }
+
+	.TBLCategoriesBackground 		{background-color: }	
+
+		
+
+	
+
+	#tblJobOrder			{ background-color:#CCE3FF; } 
+
+	#tblClient				{ background-color:#E3FFCC; } 
+
+	#tblCandidate			{ background-color:WhiteSmoke; } 
+
+	#tblTools				{ background-color:#f8f8f8; } 
+
+	
+
+	.tblJobOrder			{ background-color:#CCE3FF; } 
+
+	.tblClient				{ background-color:#E3FFCC; } 
+
+	.tblCandidate			{ background-color:WhiteSmoke; } 
+
+	.tblTools				{ background-color:#f8f8f8; } 
+
+	
+
+	
+
+		.row0 {font-family:Arial; font-size:10px; color:#000000;  text-decoration:none; background-color:#f5f5f5;} 
+
+		.row1 {font-family:Arial; font-size:10px; color:#000000;  text-decoration:none; background-color:#ffffff;} 
+
+		
+
+
+
+		
+
+	#TDHeader 			{font-family:Arial; font-size:13px; background-color:#4b2e83; color:#FFFFFF; font-weight:bold}	
+
+	#TBLTabBody 		{font-family:Arial; font-size:13px; background-color:#f5f5f5; color:#000000; }
+
+	.TDHeader 			{font-family:Arial; font-size:13px; background-color:#4b2e83; color:#FFFFFF; font-weight:bold}	
+
+	.TBLTabBody 		{font-family:Arial; font-size:13px; background-color:#f5f5f5; color:#000000; }
+
+		
+
+		#AJobListing:link 		{font-family:Arial; font-size:11px; color:#336396; text-decoration:underline; font-weight:none}
+
+		.AJobListing:link 		{font-family:Arial; font-size:11px; color:#336396; text-decoration:underline; font-weight:none}
+
+
+
+		#AJobListing:visited 	{font-family:Arial; font-size:11px; color:#336396; text-decoration:underline; font-weight:none}
+
+		.AJobListing:visited 	{font-family:Arial; font-size:11px; color:#336396; text-decoration:underline; font-weight:none}
+
+
+
+		#AJobListing:hover 		{font-family:Arial; font-size:11px; color:#ce0000; text-decoration:underline; font-weight:none}	
+
+		.AJobListing:hover 		{font-family:Arial; font-size:11px; color:#ce0000; text-decoration:underline; font-weight:none}	
+
+
+
+		#Aheader:link 		{font-family:Arial; font-size:x-small; background-color:#336396;  color:#ffffff; }
+
+		#Aheader:visited 	{font-family:Arial; font-size:x-small; background-color:#336396;  color:#ffffff; }
+
+		#Aheader:hover 	{font-family:Arial; font-size:x-small; background-color:#336396;  color:#ffffff; }		
+
+		.Aheader:link 		{font-family:Arial; font-size:x-small; background-color:#336396;  color:#ffffff; }
+
+		.Aheader:visited 	{font-family:Arial; font-size:x-small; background-color:#336396;  color:#ffffff; }
+
+		.Aheader:hover 	{font-family:Arial; font-size:x-small; background-color:#336396;  color:#ffffff; }		
+
+		
+
+		#Aheaderx:link 	{font-family:Arial; font-size:xx-small; background-color:#336396;  color:#ffffff; }
+
+		#Aheaderx:visited 	{font-family:Arial; font-size:xx-small; background-color:#336396;  color:#ffffff; }
+
+		#Aheaderx:hover 	{font-family:Arial; font-size:xx-small; background-color:#336396;  color:#ffffff; }		
+
+		.Aheaderx:link 	{font-family:Arial; font-size:xx-small; background-color:#336396;  color:#ffffff; }
+
+		.Aheaderx:visited 	{font-family:Arial; font-size:xx-small; background-color:#336396;  color:#ffffff; }
+
+		.Aheaderx:hover 	{font-family:Arial; font-size:xx-small; background-color:#336396;  color:#ffffff; }		
+
+	
+
+		#Amenu:link 		{font-family:Arial; font-size:10px; color:#336396; text-decoration:underline; font-weight:none}
+
+		#Amenu:visited 	{font-family:Arial; font-size:10px; color:#336396; text-decoration:underline; font-weight:bold}
+
+		#Amenu:hover 		{font-family:Arial; font-size:10px; color:#ce0000; text-decoration:underline; font-weight:none} 
+
+		.Amenu:link 		{font-family:Arial; font-size:10px; color:#336396; text-decoration:underline; font-weight:none}
+
+		.Amenu:visited 	{font-family:Arial; font-size:10px; color:#336396; text-decoration:underline; font-weight:bold}
+
+		.Amenu:hover 		{font-family:Arial; font-size:10px; color:#ce0000; text-decoration:underline; font-weight:none} 
+
+		
+
+		#Ahighlight:link 		{font-family:Arial; color:#ce0000; font-weight:none}
+
+		#Ahighlight:visited 	{font-family:Arial; color:#ce0000; font-weight:none}
+
+		#Ahighlight:hover 		{font-family:Arial; color:#336396; font-weight:none}
+
+		.Ahighlight:link 		{font-family:Arial; color:#ce0000; font-weight:none}
+
+		.Ahighlight:visited 	{font-family:Arial; color:#ce0000; font-weight:none}
+
+		.Ahighlight:hover 		{font-family:Arial; color:#336396; font-weight:none}	
+
+		
+
+		#ApgBold:link 		{font-family:Arial; font-size:13px; color:#ce0000; text-decoration:none; font-weight:none}
+
+		#ApgBold:visited 	{font-family:Arial; font-size:13px; color:#ce0000; text-decoration:none; font-weight:none}
+
+		#ApgBold:hover 	{font-family:Arial; font-size:13px; color:#ce0000; text-decoration:none; font-weight:none} 
+
+
+
+		.ApgBold:link 		{font-family:Arial; font-size:13px; color:#ce0000; text-decoration:none; font-weight:none}
+
+		.ApgBold:visited 	{font-family:Arial; font-size:13px; color:#ce0000; text-decoration:none; font-weight:none}
+
+		.ApgBold:hover 	{font-family:Arial; font-size:13px; color:#ce0000; text-decoration:none; font-weight:none} 
+
+	
+
+		#ATop:link 		{font-family:Arial; font-size:13px; color:silver; text-decoration:none; font-weight:none}
+
+		#ATop:visited 	{font-family:Arial; font-size:13px; color:gold; text-decoration:none; font-weight:none}
+
+		#ATop:hover 		{font-family:Arial; font-size:13px; color:red; text-decoration:none; font-weight:bold}	
+
+
+
+		.ATop:link 		{font-family:Arial; font-size:13px; color:silver; text-decoration:none; font-weight:none}
+
+		.ATop:visited 	{font-family:Arial; font-size:13px; color:gold; text-decoration:none; font-weight:none}
+
+		.ATop:hover 		{font-family:Arial; font-size:13px; color:red; text-decoration:none; font-weight:bold}	
+
+	
+
+		#TDxxsmall 	{font-family:Arial; font-size:xx-small; color:#000000;}
+
+		.TDxxsmall 	{font-family:Arial; font-size:xx-small; color:#000000;}
+
+	
+
+		#TDLogo			{font-family:Arial; font-size:28px; background-color:#336396; color:#ffffff; font-weight:bold}
+
+		#TDHeaderWhite 	{font-family:Arial; font-size:16px;  color:white; font-weight:bold}
+
+		
+
+		.TDLogo			{font-family:Arial; font-size:28px; background-color:#336396; color:#ffffff; font-weight:bold}
+
+		.TDHeaderWhite 	{font-family:Arial; font-size:16px;  color:white; font-weight:bold}
+
+	
+
+		#TDSubHeader 	{font-family:Arial; font-size:x-small; background-color:#336396;  color:#ffffff; font-weight:bold}
+
+		.TDSubHeader 	{font-family:Arial; font-size:x-small; background-color:#336396;  color:#ffffff; font-weight:bold}
+
+	
+
+		#TDMenuSubHeader 	{font-family:Arial; font-size:13px; background-color:#336396;  color:#ffffff; font-weight:bold}
+
+		#TDJobListing	{font-family:Arial; font-size:13px; color:#336396; font-weight:none}
+
+		#TDSearchItem 	{font-family:Arial; font-size:13px; color:#000000;font-weight:bold}
+
+		#TDSmall	 	{font-family:Arial; font-size:13px; color:#000000; font-weight:none}
+
+		#TDxxSmall	 	{font-family:Arial; font-size:13px; color:#000000; font-weight:none}		
+
+		#TDMediumWhite 		{font-family:Arial; font-size:13px;  color:white; }
+
+		
+
+		.TDMenuSubHeader 	{font-family:Arial; font-size:13px; background-color:#336396;  color:#ffffff; font-weight:bold}
+
+		.TDJobListing	{font-family:Arial; font-size:13px; color:#336396; font-weight:none}
+
+		.TDSearchItem 	{font-family:Arial; font-size:13px; color:#000000;font-weight:bold}
+
+		.TDSmall	 	{font-family:Arial; font-size:13px; color:#000000; font-weight:none}
+
+		.TDxxSmall	 	{font-family:Arial; font-size:13px; color:#000000; font-weight:none}		
+
+		.TDMediumWhite 		{font-family:Arial; font-size:13px;  color:white; }
+
+	
+
+		#TBLOuterLogin 	{ background-color:#336396 }
+
+		.TBLOuterLogin 	{ background-color:#336396 }
+
+	
+
+		#TBLInnerLogin 	{ background-color:#f5f5f5 }
+
+		.TBLInnerLogin 	{ background-color:#f5f5f5 }
+
+	
+
+		#TBLFrom 		{ background-color:#f5f5f5 }
+
+		.TBLFrom 		{ background-color:#f5f5f5 }
+
+	
+
+		#TBLHighlight		{ background-color:#ce0000; font-family:Arial; font-size:x-small; color:#ffffff; font-weight:bold }
+
+		.TBLHighlight		{ background-color:#ce0000; font-family:Arial; font-size:x-small; color:#ffffff; font-weight:bold }
+
+	
+
+		#tabBgColor	{  font-family:Arial; font-size:12px; font-weight:bold;  color:white; background-color:#4b2e83;}
+
+		#tabBg	{  font-family:Arial; font-size:12px; font-weight:bold;  color:#ffffff; background-color:#4b2e83;}
+
+		#tabLineColor	{ font-family:Arial; font-size:12px; font-weight:bold; color:white; background-color:#4b2e83; }
+
+	
+
+	    .tabBgColor	{  font-family:Arial; font-size:12px; font-weight:bold;  color:white; background-color:#4b2e83;}
+
+		.tabBg	{  font-family:Arial; font-size:12px; font-weight:bold;  color:#ffffff; background-color:#4b2e83;}
+
+		.tabLineColor	{ font-family:Arial; font-size:12px; font-weight:bold; color:white; background-color:#4b2e83; }
+
+
+
+	
+
+		select			{font-family:Arial; font-size:13px;}
+
+		input		 	{font-family:Arial; font-size:13px;}
+
+	
+
+		#searchselect	{font-family:Arial; font-size:13px; }
+
+		.searchselect	{font-family:Arial; font-size:13px; }
+
+				
+
+		#inputbutton	{font-family:Arial; ;font-size:13px;}
+
+		.inputbutton	{font-family:Arial; ;font-size:13px;}		
+
+		
+
+		#inputdefault	{font-family:Arial;font-size:13px;}
+
+		.inputdefault	{font-family:Arial;font-size:13px;}		
+
+		
+
+		#ResumeBuilder		{  font-size:10px;}
+
+		.ResumeBuilder		{  font-size:10px;}
+
+		
+
+		#TD10	 	{font-family:Arial; font-size:10; color:black; font-weight:none}
+
+		#Red	 	{font-family:Arial; font-size:12; color:red; font-weight:none}
+
+		
+
+		.TD10	 	{font-family:Arial; font-size:10; color:black; font-weight:none}
+
+		.Red	 	{font-family:Arial; font-size:12; color:red; font-weight:none}
+
+		div#pagewrap table {margin-bottom: 0px;}
+
+	
+
+		/* new styles for the external side */
+
+		#forgotPasswordContent {
+
+			min-height:220px;
+
+		}
+
+		#uwhrContainer {
+
+			font-family:"Trebuchet MS";
+
+			font-size:10px;
+
+			width:95%;
+
+			padding:0;
+
+			margin:0 auto;
+
+			text-align:center;
+
+		}	
+
+		#uwhrMessageTopContent, #uwhrMessageBottomContent {
+
+			background-color:#EEE;
+
+			border:1px solid #666;
+
+			padding:10px;
+
+			margin:10px;
+
+			width:100%;
+
+		}
+
+		#uwhrTopContent {
+
+	
+
+		}
+
+		#uwhrLeftContent {
+
+			float:left;
+
+			width:425px;
+
+		}
+
+		#uwhrRightContent {
+
+			float:left;
+
+			margin-left:10px;
+
+		}
+
+		#uwhrBottomContent {
+
+			
+
+		}
+
+		.clear {
+
+			clear:both;
+
+		}
+
+
+
+
+
+
+
+
+
+	
+
+		@font-face{	font-family:'Encode Sans Compressed';
+
+			src:url("/assets/fonts/encodesanscompressed-700-bold-webfont.eot");
+
+			src:url("/assets/fonts/encodesanscompressed-700-bold-webfont.eot?#iefix") format("embedded-opentype"),url("/assets/fonts/encodesanscompressed-700-bold-webfont.woff") format("woff"),url("/assets/fonts/encodesanscompressed-700-bold-webfont.ttf") format("truetype"),url("/assets/fonts/encodesanscompressed-700-bold-webfont.svg?v=encodesanscompressed-700-bold-webfont") format("svg");
+
+			font-weight:700;
+
+			font-style:normal;
+
+		}
+
+
+
+		#TDRegular 	{font-family:'Open Sans';}	
+
+		.TDRegular 	 	{font-family:'Open Sans';}
+
+		#TDHeader 		{font-family:'Encode Sans Compressed'; background-color:#4b2e83;}	
+
+		.TDHeader 		{font-family:'Encode Sans Compressed'; background-color:#4b2e83;}	
+
+		input		 	{font-family:'Encode Sans Compressed';}
+
+		#TDSearchItem 	{font-family:'Encode Sans Compressed';}
+
+		.TDSearchItem 	{font-family:'Encode Sans Compressed';}
+
+		.table-noborder th, .table-noborder td { border-top:0; }
+
+		.table-noborder ul { margin-left:20px; }
+
+		.subtable 		{ margin-top:-4px; }
+
+
+
+		/* added for 2.0 */
+
+		#topnav {
+
+		    padding: 0px 33px;
+
+		}
+
+
+
+	
+
+
+
+
+
+
+
+	//this function will center any page that you are popping up with three variables... width,height,scrolling
+
+	function centerPopUp(mywidth,myheight,myscroll) {
+
+		var w = mywidth;
+
+		var h = myheight;
+
+		var winl = (screen.width/2 - w/2) ;
+
+		var wint = (screen.height/2 - h/2) ;
+
+		winprops = 'height='+h+',width='+w+',top='+wint+',left='+winl+',scrollbars='+ myscroll;
+
+		return winprops;
+
+	}
+
+	
+
+	 
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+	 
+
+     function openNewWindow(szthis,width,height,scroll) { 
+
+          centerPopUp(width,height,scroll); 
+
+          window.open(szthis,'NewWindow', winprops); 
+
+     }
+
+	function calendar(szFrm,szName) {
+
+      var newWind=window.open('calendar.cfm?szForm='+szFrm+'&szField='+szName,'remote','width=350,height=230');
+
+      if (newWind.opener == null)
+
+         { newWind.opener = window; }
+
+	}
+
+		
+
+	function picktime(szFrm,szName) {
+
+	  var newWind=window.open('../droptime.cfm?szForm='+szFrm+'&szField='+szName,'remote','width=320,height=500,scrollbars=yes,resizable=yes');
+
+      if (newWind.opener == null)
+
+         { newWind.opener = window; }
+
+	}	
+
+
+
+
+
+
+
+	.f2logo { height:50px; width: 50px; }
+
+
+
+
+
+
+
+
+
+		
+
+
+	RESEARCH SCIENTIST ASSISTANT 
+	
+	
+	
+		
+
+
+	
+
+		
+
+
+
+	
+
+		
+
+	&nbsp;
+
+
+
+	
+
+	
+
+		
+
+	
+
+
+
+
+
+	
+
+	
+
+		RESEARCH SCIENTIST ASSISTANT 
+
+ 
+
+	
+
+		
+
+			
+
+				
+
+					Req #:
+
+					148813
+
+				
+
+				
+
+					
+
+						Department:
+
+						ENVIRONMENTAL AND OCCUPATIONAL HEALTH SCIENCES
+
+					
+
+				
+
+				
+
+					Job Location:
+
+					 Seattle Campus 
+
+					
+
+				
+
+				
+
+				
+
+					Posting Date:
+
+					09/12/2017&nbsp;
+
+				
+
+				
+
+				
+
+					Closing Info:
+
+					
+
+						Open Until Filled&nbsp; 
+
+				
+
+				
+
+				
+
+				  Salary:
+
+				  Salary is commensurate with experience and education&nbsp;
+
+				
+
+				
+
+				
+
+					Shift:
+
+					First Shift&nbsp;
+
+					
+
+				
+
+				
+
+			
+
+			
+
+		
+
+	
+
+	
+
+		
+
+			
+
+				
+
+
+
+
+
+The University of Washington (UW) is proud to be one of the nation’s premier educational and research institutions.&nbsp; Our people are the most important asset in our pursuit of achieving excellence in education, research and community service.&nbsp; Our staff not only enjoys outstanding benefits and professional growth opportunities, but also an environment noted for diversity, community involvement, intellectual excitement, artistic pursuits, and natural beauty.&nbsp; 
+
+
+
+The Department of Environmental and Occupational Health Sciences Air Pollution Health Effects Group manages a suite of scientific research projects that study the health effects of ambient air pollution. We are seeking a permanent full-time Research Scientist Assistant to support an on-going research program’s management of an extensive established database of air quality measurements, geographic variables, air pollution exposure modeling outputs, and health data. The Research Scientist will carry out high quality, accurate work in a multi-faceted research environment where command of quantitative details is essential. The person in this position will work directly with senior researchers, staff at the University of Washington, and where necessary, external collaborators who have queries and require support on database requests and analyses.
+
+
+
+Responsibilities include:
+
+
+
+Generate data sets from the existing database for internal and external analysis under close supervision, with detailed instructions.
+
+Aid in organizing, compiling, documenting and transmitting data deliverables.
+
+Conduct data quality assurance procedures on data sets generated by other data analysts to ensure accurate, analyzable data files.
+
+Perform geocoding for study participant addresses and manipulating various types of locational data.
+
+Perform assigned tasks accurately by set deadlines.
+
+Attend and contribute in weekly data team meetings and project staff meetings. 
+
+
+
+As a UW employee, you will enjoy generous benefits and work/life programs.&nbsp; For detailed information on Benefits for this position, click here.
+
+
+
+REQUIREMENTS: 
+
+
+
+Bachelor of science degree in computer science, statistics, biostatistics, geography, or related field plus a minimum experience in the field of data management and analysis is three months to a year. 
+
+
+
+Additional&nbsp; Requirements:
+
+Experience in developing code in Python, R, SAS, SQL, or other coding language. 
+
+Must have demonstrated facility with analytic tasks and ability to participate productively on interdisciplinary research teams. 
+
+Strong quantitative aptitude, desire to learn new skills, and ability to interpret complex analytic information. Demonstrated organizational skills, self-motivation, flexibility, good communication skills, and the ability to work and thrive in a multi-faceted academic research environment.
+
+
+
+Equivalent education/experience will substitute for all minimum qualifications except when there are legal requirements, such as a license/certification/registration.
+
+
+
+DESIRED
+
+
+
+Using, building, or maintaining MySQL and/or PostgreSQL databases of quantitative information; and Python scripting language. 
+
+Prior experience and familiarity with statistical programming languages, R and/or SAS; and ArcGIS tools and Python interface to ArcGIS applications is desired.
+
+Preferred candidates will have an interest in air pollution research, including air pollution exposures and health effects.
+
+
+
+CONDITIONS OF EMPLOYMENT 
+
+
+
+Appointment to this position is contingent upon obtaining satisfactory results from a criminal background check.
+
+
+
+Application Process:
+
+The application process for UW positions may include completion of a variety of online assessments to obtain additional information that will be used in the evaluation process.&nbsp; These assessments may include Workforce Authorization, Criminal Conviction History, Cover Letter and/or others.&nbsp; Any assessments that you need to complete will appear on your screen as soon as you select “Apply to this position”. Once you begin an assessment, it must be completed at that time; if you do not complete the assessment you will be prompted to do so the next time you access your “My Jobs” page. If you select to take it later, it will appear on your "My Jobs" page to take when you are ready. Please note that your application will not be reviewed, and you will not be considered for this position until all required assessments have been completed.
+
+
+
+
+
+
+
+			
+
+		
+
+	
+
+
+
+	
+
+	
+
+		
+
+			
+
+				
+
+				 The University of Washington is a leader in environmental stewardship & sustainability, and committed to becoming climate neutral.
+
+				
+
+			
+
+			
+
+				The University of Washington is an equal opportunity, affirmative action employer.
+
+				To request disability accommodation in the application process, contact the Disability Services Office at 206-543-6450 / 206-543-6452 (tty) or dso@uw.edu.
+
+			
+
+		
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+
+								Apply for this job
+
+							
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+			
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-16478086-3']);
+				_gaq.push(['_trackPageview']);
+				
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();			
+			
+		
+				
+				
+					
+					if (1) {
+						var google_conversion_value = 1;
+					}
+				
+				
+				
+				
+				
+				
+
+				
+
+			
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+			
+
+        
+
+    
+
+
+
+	
+
+	  University of Washington Be boundless Accessibility
+Jobs
+SafeCampus
+Privacy
+Terms
+Employment Verification
+Workplace posters
+ &copy; 2016 University of Washington | Seattle, WA 
+
+
+
+
+
+ 
+ 
+ 
+
+ 
+
+	 
+
+	
+
+	
+

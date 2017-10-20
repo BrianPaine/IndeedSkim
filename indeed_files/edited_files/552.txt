@@ -1,0 +1,7318 @@
+
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+ 	
+	
+	
+	
+	
+
+		
+		
+		
+		
+			
+			
+			
+		
+		
+		
+			
+				
+				
+			
+			
+			
+			
+			
+
+
+
+
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+		
+		
+			
+			
+		
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+
+	
+
+		
+
+			
+
+				window.location = 'https://nomuracareers.resourcesolutions.com/gold/cbjbaaa/jobsearch/jobdetails.cfm?oJobCode=1041458&oSkillCategory=&oJobLocation=&oJobTitle=&oJobType=&oJobNameList=&oContainsAll=&chkInternal=&id=273596&JS=1';
+
+			
+
+		
+
+		
+
+	
+
+
+
+
+
+	
+		
+		
+		
+
+Nomura: 
+
+Job details
+		
+		
+
+
+
+Nomura Europe : Careers
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#nhd_search
+
+	{
+
+		width: 225px;
+
+	}
+
+	#nhd_gnav A.nhd_careers
+
+	{
+
+		background: url(../branding/115/image/header/nhd_gnav_careers_p2.gif) no-repeat left top;
+
+	}
+
+	#nhd_gnav A.nhd_careers:hover
+
+	{
+
+		background-position: 0px;
+
+	}
+
+	#nhd_lnav UL LI.nhd_lnav2 A.nhd_2nd
+
+	{
+
+		background: url(../branding/115/image/common/nhd_ico002.gif) #ffffff no-repeat 10px 12px;
+
+	}
+
+
+
+	
+	
+
+	
+	
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+
+	
+
+	
+
+	
+	
+
+
+		
+		
+		
+			
+		
+		
+		
+			
+				api_key: 8grdz442i147
+				authorize: true
+				credentials_cookie: true
+			
+		
+		
+			onLinkedInSuccess = function(r)
+			{debugger;
+				alert('Thank you for your application to Business Data Analyst. You should receive an email confirming your application from us shortly.');
+				document.frmJobDetails.method='POST';
+				document.frmJobDetails.action='jobresults.cfm';
+				document.frmJobDetails.submit();
+			}
+		
+	
+	
+		
+			
+		
+	
+	
+		
+
+	
+
+		
+
+			
+
+			
+
+				  
+
+				  
+
+				
+
+				
+
+				
+
+					
+
+						 Global 
+
+						 Europe 
+
+						 Americas 
+
+						 Asia-Pacific 
+
+					
+
+				
+
+				&nbsp;
+
+				
+
+					Size
+
+					
+
+						 Large 
+
+						 Small 
+
+					
+
+				
+
+				
+
+				
+
+				
+
+					
+
+						
+
+						
+
+						
+
+					
+
+				
+
+				
+
+				
+
+				
+
+				  
+
+			
+
+			
+
+			
+
+				
+
+					Home
+
+					Nomura Group
+
+					Our Services
+
+					Media Centre
+
+					Careers
+
+				
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					You are here : 
+
+					 Careers 
+
+				
+
+				
+
+			
+
+			
+
+			
+
+			
+		
+
+			
+				
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+
+					
+						
+							
+							
+							
+						
+						Back
+						
+							
+								
+									Apply
+								
+							
+						
+						
+							Refer Someone for a position with Nomura
+						
+					
+
+					Job details
+					
+						
+						
+							Job Title:
+							Business Data Analyst&nbsp;
+						
+						
+							Job Code:
+							1041458&nbsp;
+							
+							Skill Category:
+							Operations&nbsp;
+							
+							Location:
+							Americas&nbsp;
+							
+								Client Job Ref:
+								&nbsp;
+							
+							
+								&nbsp;
+							
+						
+						
+							
+								Job Type:
+								Permanent&nbsp;
+								
+							
+							
+								Post Start Date:
+								5 Oct 2017&nbsp;
+								
+								Post End Date:
+								&nbsp;
+							
+						
+						
+							
+								
+									Job Summary:
+								
+								
+								
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v\:* {behavior:url(#default#VML);}
+
+o\:* {behavior:url(#default#VML);}
+
+w\:* {behavior:url(#default#VML);}
+
+.shape {behavior:url(#default#VML);}
+
+
+
+
+
+Document Title
+
+
+
+ 
+
+  Nomura Word Templates: Report with TOC
+
+  Scott Davies
+
+  Strictly Private &amp; Confidential
+
+  Nomura Generic Document A4 Portrait (Arial).dotx
+
+  Braciak, Sabina (HR/US)
+
+  3
+
+  1
+
+  2011-07-19T15:44:00Z
+
+  2017-10-05T21:30:00Z
+
+  2017-10-05T21:30:00Z
+
+  1
+
+  359
+
+  2049
+
+  Nomura International PLC
+
+  17
+
+  4
+
+  2404
+
+  14.00
+
+ 
+
+ 
+
+  2007-07-31T23:00:00Z
+
+ 
+
+ 
+
+  
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  82
+
+  Clean
+
+  Clean
+
+  false
+
+  
+
+  
+
+  5 pt
+
+  9.05 pt
+
+  2
+
+  
+
+  false
+
+  false
+
+  false
+
+  
+
+  EN-GB
+
+  JA
+
+  X-NONE
+
+  0
+
+  
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+  
+
+  
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+   
+
+  
+
+
+
+ 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Style Definitions */
+
+ table.MsoNormalTable
+
+	{mso-style-name:"Table Normal";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-priority:99;
+
+	mso-style-parent:"";
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableSimple1
+
+	{mso-style-name:"Table Simple 1";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border-top:solid green 1.5pt;
+
+	border-left:none;
+
+	border-bottom:solid green 1.5pt;
+
+	border-right:none;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableSimple1FirstRow
+
+	{mso-style-name:"Table Simple 1";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:.75pt solid green;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableSimple1LastRow
+
+	{mso-style-name:"Table Simple 1";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid green;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableSimple2
+
+	{mso-style-name:"Table Simple 2";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableSimple2FirstRow
+
+	{mso-style-name:"Table Simple 2";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableSimple2LastRow
+
+	{mso-style-name:"Table Simple 2";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableSimple2FirstCol
+
+	{mso-style-name:"Table Simple 2";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-right:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableSimple2LastCol
+
+	{mso-style-name:"Table Simple 2";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-left:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableSimple2NECell
+
+	{mso-style-name:"Table Simple 2";
+
+	mso-table-condition:ne-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-left:none;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableSimple2SWCell
+
+	{mso-style-name:"Table Simple 2";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:none;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableSimple3
+
+	{mso-style-name:"Table Simple 3";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableSimple3FirstRow
+
+	{mso-style-name:"Table Simple 3";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableClassic1
+
+	{mso-style-name:"Table Classic 1";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border-top:solid black 1.5pt;
+
+	border-left:none;
+
+	border-bottom:solid black 1.5pt;
+
+	border-right:none;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableClassic1FirstRow
+
+	{mso-style-name:"Table Classic 1";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableClassic1LastRow
+
+	{mso-style-name:"Table Classic 1";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableClassic1FirstCol
+
+	{mso-style-name:"Table Classic 1";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-right:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableClassic1NECell
+
+	{mso-style-name:"Table Classic 1";
+
+	mso-table-condition:ne-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:normal;
+
+	mso-bidi-font-style:normal;}
+
+table.MsoTableClassic1SWCell
+
+	{mso-style-name:"Table Classic 1";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableClassic2
+
+	{mso-style-name:"Table Classic 2";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border-top:solid black 1.5pt;
+
+	border-left:none;
+
+	border-bottom:solid black 1.5pt;
+
+	border-right:none;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableClassic2FirstRow
+
+	{mso-style-name:"Table Classic 2";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid purple;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;}
+
+table.MsoTableClassic2LastRow
+
+	{mso-style-name:"Table Classic 2";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableClassic2FirstCol
+
+	{mso-style-name:"Table Classic 2";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid silver;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableClassic2NECell
+
+	{mso-style-name:"Table Classic 2";
+
+	mso-table-condition:ne-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableClassic2NWCell
+
+	{mso-style-name:"Table Classic 2";
+
+	mso-table-condition:nw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid purple;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableClassic2SWCell
+
+	{mso-style-name:"Table Classic 2";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:navy;}
+
+table.MsoTableClassic3
+
+	{mso-style-name:"Table Classic 3";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid silver;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	color:navy;
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableClassic3FirstRow
+
+	{mso-style-name:"Table Classic 3";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid navy;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableClassic3LastRow
+
+	{mso-style-name:"Table Classic 3";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid white;
+
+	mso-tstyle-border-top:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:navy;}
+
+table.MsoTableClassic3FirstCol
+
+	{mso-style-name:"Table Classic 3";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:black;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableClassic4
+
+	{mso-style-name:"Table Classic 4";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border-top:1.5pt;
+
+	border-left:1.0pt;
+
+	border-bottom:1.5pt;
+
+	border-right:1.0pt;
+
+	border-color:black;
+
+	border-style:solid;
+
+	mso-border-top-alt:1.5pt;
+
+	mso-border-left-alt:.75pt;
+
+	mso-border-bottom-alt:1.5pt;
+
+	mso-border-right-alt:.75pt;
+
+	mso-border-color-alt:black;
+
+	mso-border-style-alt:solid;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableClassic4FirstRow
+
+	{mso-style-name:"Table Classic 4";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-50 navy;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableClassic4LastRow
+
+	{mso-style-name:"Table Classic 4";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-50 black;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:navy;}
+
+table.MsoTableClassic4FirstCol
+
+	{mso-style-name:"Table Classic 4";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableClassic4NWCell
+
+	{mso-style-name:"Table Classic 4";
+
+	mso-table-condition:nw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableClassic4SWCell
+
+	{mso-style-name:"Table Classic 4";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:navy;}
+
+table.MsoTableColorful1
+
+	{mso-style-name:"Table Colorful 1";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid teal 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid aqua;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid teal;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	color:white;
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableColorful1FirstRow
+
+	{mso-style-name:"Table Colorful 1";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableColorful1FirstCol
+
+	{mso-style-name:"Table Colorful 1";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid navy;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableColorful1NWCell
+
+	{mso-style-name:"Table Colorful 1";
+
+	mso-table-condition:nw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableColorful1SWCell
+
+	{mso-style-name:"Table Colorful 1";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:normal;
+
+	mso-bidi-font-style:normal;}
+
+table.MsoTableColorful2
+
+	{mso-style-name:"Table Colorful 2";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:none;
+
+	border-bottom:solid black 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-20 yellow;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableColorful2FirstRow
+
+	{mso-style-name:"Table Colorful 2";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid maroon;
+
+	mso-tstyle-border-bottom:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableColorful2FirstCol
+
+	{mso-style-name:"Table Colorful 2";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableColorful2LastCol
+
+	{mso-style-name:"Table Colorful 2";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid silver;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableColorful2SWCell
+
+	{mso-style-name:"Table Colorful 2";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:normal;
+
+	mso-bidi-font-style:normal;}
+
+table.MsoTableColorful3
+
+	{mso-style-name:"Table Colorful 3";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 2.25pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid silver;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-25 teal;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableColorful3FirstRow
+
+	{mso-style-name:"Table Colorful 3";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid teal;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableColorful3FirstCol
+
+	{mso-style-name:"Table Colorful 3";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid teal;
+
+	mso-tstyle-border-left:4.5pt solid black;
+
+	mso-tstyle-border-right:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableColorful3NWCell
+
+	{mso-style-name:"Table Colorful 3";
+
+	mso-table-condition:nw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableColumns1
+
+	{mso-style-name:"Table Columns 1";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:1;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;
+
+	font-weight:bold;}
+
+table.MsoTableColumns1FirstRow
+
+	{mso-style-name:"Table Columns 1";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:2.25pt double black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableColumns1LastRow
+
+	{mso-style-name:"Table Columns 1";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableColumns1FirstCol
+
+	{mso-style-name:"Table Columns 1";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableColumns1LastCol
+
+	{mso-style-name:"Table Columns 1";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableColumns1OddColumn
+
+	{mso-style-name:"Table Columns 1";
+
+	mso-table-condition:odd-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-25 black;
+
+	color:windowtext;}
+
+table.MsoTableColumns1EvenColumn
+
+	{mso-style-name:"Table Columns 1";
+
+	mso-table-condition:even-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-25 yellow;
+
+	color:windowtext;}
+
+table.MsoTableColumns1NECell
+
+	{mso-style-name:"Table Columns 1";
+
+	mso-table-condition:ne-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableColumns1SWCell
+
+	{mso-style-name:"Table Columns 1";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableColumns2
+
+	{mso-style-name:"Table Columns 2";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:1;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;
+
+	font-weight:bold;}
+
+table.MsoTableColumns2FirstRow
+
+	{mso-style-name:"Table Columns 2";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid navy;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;}
+
+table.MsoTableColumns2LastRow
+
+	{mso-style-name:"Table Columns 2";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableColumns2FirstCol
+
+	{mso-style-name:"Table Columns 2";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:black;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableColumns2LastCol
+
+	{mso-style-name:"Table Columns 2";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableColumns2OddColumn
+
+	{mso-style-name:"Table Columns 2";
+
+	mso-table-condition:odd-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-30 black;
+
+	color:windowtext;}
+
+table.MsoTableColumns2EvenColumn
+
+	{mso-style-name:"Table Columns 2";
+
+	mso-table-condition:even-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-25 lime;
+
+	color:windowtext;}
+
+table.MsoTableColumns2NECell
+
+	{mso-style-name:"Table Columns 2";
+
+	mso-table-condition:ne-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableColumns2SWCell
+
+	{mso-style-name:"Table Columns 2";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableColumns3
+
+	{mso-style-name:"Table Columns 3";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:1;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid navy 1.0pt;
+
+	mso-border-alt:solid navy .75pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insidev:.75pt solid navy;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;
+
+	font-weight:bold;}
+
+table.MsoTableColumns3FirstRow
+
+	{mso-style-name:"Table Columns 3";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid navy;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;}
+
+table.MsoTableColumns3LastRow
+
+	{mso-style-name:"Table Columns 3";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid navy;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableColumns3FirstCol
+
+	{mso-style-name:"Table Columns 3";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableColumns3LastCol
+
+	{mso-style-name:"Table Columns 3";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableColumns3OddColumn
+
+	{mso-style-name:"Table Columns 3";
+
+	mso-table-condition:odd-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid silver;
+
+	color:windowtext;}
+
+table.MsoTableColumns3EvenColumn
+
+	{mso-style-name:"Table Columns 3";
+
+	mso-table-condition:even-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-10 black;
+
+	color:windowtext;}
+
+table.MsoTableColumns3NECell
+
+	{mso-style-name:"Table Columns 3";
+
+	mso-table-condition:ne-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableColumns4
+
+	{mso-style-name:"Table Columns 4";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:1;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableColumns4FirstRow
+
+	{mso-style-name:"Table Columns 4";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;}
+
+table.MsoTableColumns4LastRow
+
+	{mso-style-name:"Table Columns 4";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableColumns4LastCol
+
+	{mso-style-name:"Table Columns 4";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableColumns4OddColumn
+
+	{mso-style-name:"Table Columns 4";
+
+	mso-table-condition:odd-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-50 teal;
+
+	color:windowtext;}
+
+table.MsoTableColumns4EvenColumn
+
+	{mso-style-name:"Table Columns 4";
+
+	mso-table-condition:even-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-10 black;
+
+	color:windowtext;}
+
+table.MsoTableColumns5
+
+	{mso-style-name:"Table Columns 5";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:1;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid gray 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insidev:.75pt solid silver;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableColumns5FirstRow
+
+	{mso-style-name:"Table Columns 5";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:.75pt solid gray;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableColumns5LastRow
+
+	{mso-style-name:"Table Columns 5";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid gray;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableColumns5FirstCol
+
+	{mso-style-name:"Table Columns 5";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableColumns5LastCol
+
+	{mso-style-name:"Table Columns 5";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableColumns5OddColumn
+
+	{mso-style-name:"Table Columns 5";
+
+	mso-table-condition:odd-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid silver;
+
+	color:windowtext;}
+
+table.MsoTableColumns5EvenColumn
+
+	{mso-style-name:"Table Columns 5";
+
+	mso-table-condition:even-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	color:windowtext;}
+
+table.MsoTableGrid1
+
+	{mso-style-name:"Table Grid 1";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.0pt;
+
+	mso-border-alt:solid black .75pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid black;
+
+	mso-border-insidev:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableGrid1LastRow
+
+	{mso-style-name:"Table Grid 1";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableGrid1LastCol
+
+	{mso-style-name:"Table Grid 1";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableGrid2
+
+	{mso-style-name:"Table Grid 2";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid black;
+
+	mso-border-insidev:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableGrid2FirstRow
+
+	{mso-style-name:"Table Grid 2";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid2LastRow
+
+	{mso-style-name:"Table Grid 2";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid2FirstCol
+
+	{mso-style-name:"Table Grid 2";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid2LastCol
+
+	{mso-style-name:"Table Grid 2";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid3
+
+	{mso-style-name:"Table Grid 3";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border-top:1.0pt;
+
+	border-left:1.5pt;
+
+	border-bottom:1.0pt;
+
+	border-right:1.5pt;
+
+	border-color:black;
+
+	border-style:solid;
+
+	mso-border-top-alt:.75pt;
+
+	mso-border-left-alt:1.5pt;
+
+	mso-border-bottom-alt:.75pt;
+
+	mso-border-right-alt:1.5pt;
+
+	mso-border-color-alt:black;
+
+	mso-border-style-alt:solid;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insidev:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableGrid3FirstRow
+
+	{mso-style-name:"Table Grid 3";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-30 yellow;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableGrid3LastRow
+
+	{mso-style-name:"Table Grid 3";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid3LastCol
+
+	{mso-style-name:"Table Grid 3";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid4
+
+	{mso-style-name:"Table Grid 4";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border-top:none;
+
+	border-left:solid black 1.5pt;
+
+	border-bottom:none;
+
+	border-right:solid black 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid black;
+
+	mso-border-insidev:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableGrid4FirstRow
+
+	{mso-style-name:"Table Grid 4";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-30 yellow;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableGrid4LastRow
+
+	{mso-style-name:"Table Grid 4";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-30 yellow;
+
+	mso-tstyle-border-top:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid4LastCol
+
+	{mso-style-name:"Table Grid 4";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid5
+
+	{mso-style-name:"Table Grid 5";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid black;
+
+	mso-border-insidev:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableGrid5FirstRow
+
+	{mso-style-name:"Table Grid 5";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableGrid5LastRow
+
+	{mso-style-name:"Table Grid 5";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid5LastCol
+
+	{mso-style-name:"Table Grid 5";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid5NWCell
+
+	{mso-style-name:"Table Grid 5";
+
+	mso-table-condition:nw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:.75pt solid black;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableGrid6
+
+	{mso-style-name:"Table Grid 6";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insidev:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableGrid6FirstRow
+
+	{mso-style-name:"Table Grid 6";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid6LastRow
+
+	{mso-style-name:"Table Grid 6";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableGrid6FirstCol
+
+	{mso-style-name:"Table Grid 6";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid6NWCell
+
+	{mso-style-name:"Table Grid 6";
+
+	mso-table-condition:nw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:.75pt solid black;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableGrid7
+
+	{mso-style-name:"Table Grid 7";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid black;
+
+	mso-border-insidev:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;
+
+	font-weight:bold;}
+
+table.MsoTableGrid7FirstRow
+
+	{mso-style-name:"Table Grid 7";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableGrid7LastRow
+
+	{mso-style-name:"Table Grid 7";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableGrid7FirstCol
+
+	{mso-style-name:"Table Grid 7";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableGrid7LastCol
+
+	{mso-style-name:"Table Grid 7";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:normal;
+
+	mso-bidi-font-weight:normal;}
+
+table.MsoTableGrid7NWCell
+
+	{mso-style-name:"Table Grid 7";
+
+	mso-table-condition:nw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:.75pt solid black;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableGrid8
+
+	{mso-style-name:"Table Grid 8";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid navy 1.0pt;
+
+	mso-border-alt:solid navy .75pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid navy;
+
+	mso-border-insidev:.75pt solid navy;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableGrid8FirstRow
+
+	{mso-style-name:"Table Grid 8";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid navy;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid8LastRow
+
+	{mso-style-name:"Table Grid 8";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableGrid8LastCol
+
+	{mso-style-name:"Table Grid 8";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList1
+
+	{mso-style-name:"Table List 1";
+
+	mso-tstyle-rowband-size:1;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border-top:1.5pt;
+
+	border-left:1.0pt;
+
+	border-bottom:1.5pt;
+
+	border-right:1.0pt;
+
+	border-color:teal;
+
+	border-style:solid;
+
+	mso-border-top-alt:1.5pt;
+
+	mso-border-left-alt:.75pt;
+
+	mso-border-bottom-alt:1.5pt;
+
+	mso-border-right-alt:.75pt;
+
+	mso-border-color-alt:teal;
+
+	mso-border-style-alt:solid;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableList1FirstRow
+
+	{mso-style-name:"Table List 1";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid silver;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:maroon;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableList1LastRow
+
+	{mso-style-name:"Table List 1";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableList1OddRow
+
+	{mso-style-name:"Table List 1";
+
+	mso-table-condition:odd-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid silver;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableList1EvenRow
+
+	{mso-style-name:"Table List 1";
+
+	mso-table-condition:even-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableList1SWCell
+
+	{mso-style-name:"Table List 1";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList2
+
+	{mso-style-name:"Table List 2";
+
+	mso-tstyle-rowband-size:2;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:none;
+
+	border-bottom:solid gray 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableList2FirstRow
+
+	{mso-style-name:"Table List 2";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:green;
+
+	mso-tstyle-pattern:gray-75 teal;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList2LastRow
+
+	{mso-style-name:"Table List 2";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableList2OddRow
+
+	{mso-style-name:"Table List 2";
+
+	mso-table-condition:odd-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-20 lime;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableList2EvenRow
+
+	{mso-style-name:"Table List 2";
+
+	mso-table-condition:even-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableList2SWCell
+
+	{mso-style-name:"Table List 2";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList3
+
+	{mso-style-name:"Table List 3";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border-top:solid black 1.5pt;
+
+	border-left:none;
+
+	border-bottom:solid black 1.5pt;
+
+	border-right:none;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableList3FirstRow
+
+	{mso-style-name:"Table List 3";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:navy;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList3LastRow
+
+	{mso-style-name:"Table List 3";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableList3SWCell
+
+	{mso-style-name:"Table List 3";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:navy;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableList4
+
+	{mso-style-name:"Table List 4";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableList4FirstRow
+
+	{mso-style-name:"Table List 4";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid gray;
+
+	mso-tstyle-border-bottom:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:white;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList5
+
+	{mso-style-name:"Table List 5";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.0pt;
+
+	mso-border-alt:solid black .75pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableList5FirstRow
+
+	{mso-style-name:"Table List 5";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList5FirstCol
+
+	{mso-style-name:"Table List 5";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList6
+
+	{mso-style-name:"Table List 6";
+
+	mso-tstyle-rowband-size:1;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.0pt;
+
+	mso-border-alt:solid black .75pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-50 black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableList6FirstRow
+
+	{mso-style-name:"Table List 6";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList6FirstCol
+
+	{mso-style-name:"Table List 6";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-right:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList6OddRow
+
+	{mso-style-name:"Table List 6";
+
+	mso-table-condition:odd-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-25 black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableList7
+
+	{mso-style-name:"Table List 7";
+
+	mso-tstyle-rowband-size:1;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border-top:1.5pt;
+
+	border-left:1.0pt;
+
+	border-bottom:1.5pt;
+
+	border-right:1.0pt;
+
+	border-color:green;
+
+	border-style:solid;
+
+	mso-border-top-alt:1.5pt;
+
+	mso-border-left-alt:.75pt;
+
+	mso-border-bottom-alt:1.5pt;
+
+	mso-border-right-alt:.75pt;
+
+	mso-border-color-alt:green;
+
+	mso-border-style-alt:solid;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableList7FirstRow
+
+	{mso-style-name:"Table List 7";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid silver;
+
+	mso-tstyle-border-bottom:1.5pt solid green;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList7LastRow
+
+	{mso-style-name:"Table List 7";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:1.5pt solid green;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList7FirstCol
+
+	{mso-style-name:"Table List 7";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList7LastCol
+
+	{mso-style-name:"Table List 7";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList7OddRow
+
+	{mso-style-name:"Table List 7";
+
+	mso-table-condition:odd-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-20 black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableList7EvenRow
+
+	{mso-style-name:"Table List 7";
+
+	mso-table-condition:even-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-25 yellow;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableList8
+
+	{mso-style-name:"Table List 8";
+
+	mso-tstyle-rowband-size:1;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.0pt;
+
+	mso-border-alt:solid black .75pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insidev:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableList8FirstRow
+
+	{mso-style-name:"Table List 8";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid yellow;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;
+
+	mso-ansi-font-style:italic;
+
+	mso-bidi-font-style:italic;}
+
+table.MsoTableList8LastRow
+
+	{mso-style-name:"Table List 8";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList8FirstCol
+
+	{mso-style-name:"Table List 8";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList8LastCol
+
+	{mso-style-name:"Table List 8";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableList8OddRow
+
+	{mso-style-name:"Table List 8";
+
+	mso-table-condition:odd-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-25 yellow;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableList8EvenRow
+
+	{mso-style-name:"Table List 8";
+
+	mso-table-condition:even-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-50 red;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx1
+
+	{mso-style-name:"Table 3D effects 1";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid silver;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTable3DFx1FirstRow
+
+	{mso-style-name:"Table 3D effects 1";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:.75pt solid gray;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:purple;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTable3DFx1LastRow
+
+	{mso-style-name:"Table 3D effects 1";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid white;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx1FirstCol
+
+	{mso-style-name:"Table 3D effects 1";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-right:.75pt solid gray;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTable3DFx1LastCol
+
+	{mso-style-name:"Table 3D effects 1";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-left:.75pt solid white;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx1NECell
+
+	{mso-style-name:"Table 3D effects 1";
+
+	mso-table-condition:ne-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-left:none;
+
+	mso-tstyle-border-bottom:none;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx1NWCell
+
+	{mso-style-name:"Table 3D effects 1";
+
+	mso-table-condition:nw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:none;
+
+	mso-tstyle-border-right:none;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx1SECell
+
+	{mso-style-name:"Table 3D effects 1";
+
+	mso-table-condition:se-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:none;
+
+	mso-tstyle-border-left:none;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx1SWCell
+
+	{mso-style-name:"Table 3D effects 1";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:none;
+
+	mso-tstyle-border-right:none;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:navy;}
+
+table.MsoTable3DFx2
+
+	{mso-style-name:"Table 3D effects 2";
+
+	mso-tstyle-rowband-size:1;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid silver;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTable3DFx2FirstRow
+
+	{mso-style-name:"Table 3D effects 2";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTable3DFx2FirstCol
+
+	{mso-style-name:"Table 3D effects 2";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:none;
+
+	mso-tstyle-border-bottom:none;
+
+	mso-tstyle-border-right:.75pt solid gray;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx2LastCol
+
+	{mso-style-name:"Table 3D effects 2";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-right:.75pt solid white;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx2OddRow
+
+	{mso-style-name:"Table 3D effects 2";
+
+	mso-table-condition:odd-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid gray;
+
+	mso-tstyle-border-bottom:.75pt solid white;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx2SWCell
+
+	{mso-style-name:"Table 3D effects 2";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTable3DFx3
+
+	{mso-style-name:"Table 3D effects 3";
+
+	mso-tstyle-rowband-size:1;
+
+	mso-tstyle-colband-size:1;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTable3DFx3FirstRow
+
+	{mso-style-name:"Table 3D effects 3";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTable3DFx3FirstCol
+
+	{mso-style-name:"Table 3D effects 3";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:none;
+
+	mso-tstyle-border-bottom:none;
+
+	mso-tstyle-border-right:.75pt solid gray;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx3LastCol
+
+	{mso-style-name:"Table 3D effects 3";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-right:.75pt solid white;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx3OddColumn
+
+	{mso-style-name:"Table 3D effects 3";
+
+	mso-table-condition:odd-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid silver;
+
+	color:windowtext;}
+
+table.MsoTable3DFx3EvenColumn
+
+	{mso-style-name:"Table 3D effects 3";
+
+	mso-table-condition:even-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-50 silver;
+
+	color:windowtext;}
+
+table.MsoTable3DFx3OddRow
+
+	{mso-style-name:"Table 3D effects 3";
+
+	mso-table-condition:odd-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid gray;
+
+	mso-tstyle-border-bottom:.75pt solid white;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTable3DFx3SWCell
+
+	{mso-style-name:"Table 3D effects 3";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableContemporary
+
+	{mso-style-name:"Table Contemporary";
+
+	mso-tstyle-rowband-size:1;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:2.25pt solid white;
+
+	mso-border-insidev:2.25pt solid white;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableContemporaryFirstRow
+
+	{mso-style-name:"Table Contemporary";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-20 black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableContemporaryOddRow
+
+	{mso-style-name:"Table Contemporary";
+
+	mso-table-condition:odd-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-5 black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableContemporaryEvenRow
+
+	{mso-style-name:"Table Contemporary";
+
+	mso-table-condition:even-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-20 black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableElegant
+
+	{mso-style-name:"Table Elegant";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:double black 2.25pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid black;
+
+	mso-border-insidev:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableElegantFirstRow
+
+	{mso-style-name:"Table Elegant";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;
+
+	text-transform:uppercase;}
+
+table.MsoTableProfessional
+
+	{mso-style-name:"Table Professional";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid black 1.0pt;
+
+	mso-border-alt:solid black .75pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt solid black;
+
+	mso-border-insidev:.75pt solid black;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableProfessionalFirstRow
+
+	{mso-style-name:"Table Professional";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableSubtle1
+
+	{mso-style-name:"Table Subtle 1";
+
+	mso-tstyle-rowband-size:1;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableSubtle1FirstRow
+
+	{mso-style-name:"Table Subtle 1";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:.75pt solid black;
+
+	mso-tstyle-border-bottom:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableSubtle1LastRow
+
+	{mso-style-name:"Table Subtle 1";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-25 purple;
+
+	mso-tstyle-border-top:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableSubtle1FirstCol
+
+	{mso-style-name:"Table Subtle 1";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-right:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableSubtle1LastCol
+
+	{mso-style-name:"Table Subtle 1";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-left:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableSubtle1OddRow
+
+	{mso-style-name:"Table Subtle 1";
+
+	mso-table-condition:odd-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-25 olive;
+
+	mso-tstyle-border-bottom:.75pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableSubtle1NECell
+
+	{mso-style-name:"Table Subtle 1";
+
+	mso-table-condition:ne-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableSubtle1SWCell
+
+	{mso-style-name:"Table Subtle 1";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableSubtle2
+
+	{mso-style-name:"Table Subtle 2";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border-top:none;
+
+	border-left:solid black 1.0pt;
+
+	border-bottom:none;
+
+	border-right:solid black 1.0pt;
+
+	mso-border-left-alt:solid black .75pt;
+
+	mso-border-right-alt:solid black .75pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableSubtle2FirstRow
+
+	{mso-style-name:"Table Subtle 2";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-bottom:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableSubtle2LastRow
+
+	{mso-style-name:"Table Subtle 2";
+
+	mso-table-condition:last-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-border-top:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableSubtle2FirstCol
+
+	{mso-style-name:"Table Subtle 2";
+
+	mso-table-condition:first-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-25 green;
+
+	mso-tstyle-border-right:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableSubtle2LastCol
+
+	{mso-style-name:"Table Subtle 2";
+
+	mso-table-condition:last-column;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-shading:white;
+
+	mso-tstyle-pattern:gray-25 olive;
+
+	mso-tstyle-border-left:1.5pt solid black;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;}
+
+table.MsoTableSubtle2NECell
+
+	{mso-style-name:"Table Subtle 2";
+
+	mso-table-condition:ne-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableSubtle2SWCell
+
+	{mso-style-name:"Table Subtle 2";
+
+	mso-table-condition:sw-cell;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	mso-ansi-font-weight:bold;
+
+	mso-bidi-font-weight:bold;}
+
+table.MsoTableWeb1
+
+	{mso-style-name:"Table Web 1";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-cellspacing:2.0pt;
+
+	border:outset 1.0pt;
+
+	mso-border-alt:outset windowtext .75pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt outset windowtext;
+
+	mso-border-insidev:.75pt outset windowtext;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableWeb1FirstRow
+
+	{mso-style-name:"Table Web 1";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableWeb2
+
+	{mso-style-name:"Table Web 2";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-cellspacing:2.0pt;
+
+	border:inset 1.0pt;
+
+	mso-border-alt:inset windowtext .75pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt inset windowtext;
+
+	mso-border-insidev:.75pt inset windowtext;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableWeb2FirstRow
+
+	{mso-style-name:"Table Web 2";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableWeb3
+
+	{mso-style-name:"Table Web 3";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-cellspacing:2.0pt;
+
+	border:outset 3.0pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.75pt outset windowtext;
+
+	mso-border-insidev:.75pt outset windowtext;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableWeb3FirstRow
+
+	{mso-style-name:"Table Web 3";
+
+	mso-table-condition:first-row;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	mso-tstyle-diagonal-down:none;
+
+	mso-tstyle-diagonal-up:none;
+
+	color:windowtext;}
+
+table.MsoTableGrid
+
+	{mso-style-name:"Table Grid";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-unhide:no;
+
+	border:none;
+
+	border-bottom:solid #E6E5E7 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Helvetica N Light";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.MsoTableGridFirstRow
+
+	{mso-style-name:"Table Grid";
+
+	mso-table-condition:first-row;
+
+	mso-style-unhide:no;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;
+
+	mso-ansi-font-weight:normal;}
+
+table.MsoTableGridFirstCol
+
+	{mso-style-name:"Table Grid";
+
+	mso-table-condition:first-column;
+
+	mso-style-unhide:no;
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;}
+
+table.MsoTableTheme
+
+	{mso-style-name:"Table Theme";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-noshow:yes;
+
+	mso-style-unhide:no;
+
+	border:solid windowtext 1.0pt;
+
+	mso-border-alt:solid windowtext .5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-border-insideh:.5pt solid windowtext;
+
+	mso-border-insidev:.5pt solid windowtext;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Times New Roman","serif";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.TableNomuraGreyShade
+
+	{mso-style-name:"Table Nomura Grey Shade";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	margin-left:5.4pt;
+
+	border:none;
+
+	border-bottom:solid #E6E5E7 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan lines-together;
+
+	layout-grid-mode:char;
+
+	mso-layout-grid-align:none;
+
+	font-size:10.0pt;
+
+	font-family:"Helvetica N Light";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.TableNomuraGreyShadeFirstRow
+
+	{mso-style-name:"Table Nomura Grey Shade";
+
+	mso-table-condition:first-row;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	mso-tstyle-shading:#73777A;
+
+	mso-para-margin-top:auto;
+
+	mso-para-margin-bottom:auto;
+
+	text-align:left;
+
+	layout-grid-mode:char;
+
+	mso-layout-grid-align:none;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	mso-bidi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;
+
+	color:white;
+
+	mso-ansi-font-weight:normal;
+
+	mso-ansi-font-style:normal;}
+
+table.TableNomuraGreyShadeFirstCol
+
+	{mso-style-name:"Table Nomura Grey Shade";
+
+	mso-table-condition:first-column;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;}
+
+table.TableNomuraRedShade
+
+	{mso-style-name:"Table Nomura Red Shade";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	margin-left:5.4pt;
+
+	border:none;
+
+	border-bottom:solid #E6E5E7 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan lines-together;
+
+	font-size:10.0pt;
+
+	mso-bidi-font-size:9.0pt;
+
+	font-family:"Helvetica N Light";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.TableNomuraRedShadeFirstRow
+
+	{mso-style-name:"Table Nomura Red Shade";
+
+	mso-table-condition:first-row;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	mso-tstyle-shading:#CA2420;
+
+	mso-para-margin-top:auto;
+
+	mso-para-margin-bottom:auto;
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	mso-bidi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;
+
+	color:white;
+
+	mso-ansi-font-weight:normal;
+
+	mso-ansi-font-style:normal;}
+
+table.TableNomuraRedShadeFirstCol
+
+	{mso-style-name:"Table Nomura Red Shade";
+
+	mso-table-condition:first-column;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;}
+
+table.TableNomuraGreyLine
+
+	{mso-style-name:"Table Nomura Grey Line";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	margin-left:5.4pt;
+
+	border:none;
+
+	border-top:solid #E6E5E7 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan lines-together;
+
+	font-size:10.0pt;
+
+	font-family:"Helvetica N Light";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.TableNomuraGreyLineFirstRow
+
+	{mso-style-name:"Table Nomura Grey Line";
+
+	mso-table-condition:first-row;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	mso-tstyle-border-top:1.5pt solid #E6E5E7;
+
+	mso-tstyle-border-left:cell-none;
+
+	mso-tstyle-border-bottom:.75pt solid #E6E5E7;
+
+	mso-tstyle-border-right:cell-none;
+
+	mso-tstyle-diagonal-down:cell-none;
+
+	mso-tstyle-diagonal-up:cell-none;
+
+	mso-tstyle-border-insideh:cell-none;
+
+	mso-tstyle-border-insidev:cell-none;
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	mso-bidi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;
+
+	color:windowtext;
+
+	mso-ansi-font-weight:normal;
+
+	mso-ansi-font-style:normal;}
+
+table.TableNomuraGreyLineFirstCol
+
+	{mso-style-name:"Table Nomura Grey Line";
+
+	mso-table-condition:first-column;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;}
+
+table.TableNomuraGraphic
+
+	{mso-style-name:"Table Nomura Graphic";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	margin-left:5.4pt;
+
+	border:none;
+
+	border-top:solid #E6E5E7 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-tstyle-vert-align:middle;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	text-align:center;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Helvetica N Light";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.TableNomuraGraphicFirstRow
+
+	{mso-style-name:"Table Nomura Graphic";
+
+	mso-table-condition:first-row;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;
+
+	mso-ansi-font-weight:normal;}
+
+table.TableNomuraGraphicFirstCol
+
+	{mso-style-name:"Table Nomura Graphic";
+
+	mso-table-condition:first-column;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;}
+
+table.TableNomuraGreyShadeIndent
+
+	{mso-style-name:"Table Nomura Grey Shade_Indent";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	margin-left:47.9pt;
+
+	border:none;
+
+	border-bottom:solid #E6E5E7 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan lines-together;
+
+	font-size:10.0pt;
+
+	font-family:"Helvetica N Light";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.TableNomuraGreyShadeIndentFirstRow
+
+	{mso-style-name:"Table Nomura Grey Shade_Indent";
+
+	mso-table-condition:first-row;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	mso-tstyle-shading:#73777A;
+
+	mso-para-margin-top:auto;
+
+	mso-para-margin-bottom:auto;
+
+	text-align:left;
+
+	layout-grid-mode:char;
+
+	mso-layout-grid-align:none;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	mso-bidi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;
+
+	color:white;
+
+	mso-ansi-font-weight:normal;
+
+	mso-ansi-font-style:normal;}
+
+table.TableNomuraGreyShadeIndentFirstCol
+
+	{mso-style-name:"Table Nomura Grey Shade_Indent";
+
+	mso-table-condition:first-column;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;}
+
+table.TableNomuraRedShadeIndent
+
+	{mso-style-name:"Table Nomura Red Shade_Indent";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	margin-left:47.9pt;
+
+	border:none;
+
+	border-bottom:solid #E6E5E7 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan lines-together;
+
+	font-size:10.0pt;
+
+	font-family:"Helvetica N Light";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.TableNomuraRedShadeIndentFirstRow
+
+	{mso-style-name:"Table Nomura Red Shade_Indent";
+
+	mso-table-condition:first-row;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	mso-tstyle-shading:#CA2420;
+
+	mso-para-margin-top:auto;
+
+	mso-para-margin-right:0in;
+
+	mso-para-margin-bottom:auto;
+
+	mso-para-margin-left:0in;
+
+	mso-para-margin-top:auto;
+
+	mso-para-margin-right:0gd;
+
+	mso-para-margin-bottom:auto;
+
+	mso-para-margin-left:0gd;
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	mso-bidi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;
+
+	color:white;
+
+	mso-ansi-font-weight:normal;}
+
+table.TableNomuraRedShadeIndentFirstCol
+
+	{mso-style-name:"Table Nomura Red Shade_Indent";
+
+	mso-table-condition:first-column;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;}
+
+table.TableNomuraGraphicIndent
+
+	{mso-style-name:"Table Nomura Graphic_Indent";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	margin-left:47.9pt;
+
+	border:none;
+
+	border-top:solid #E6E5E7 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	text-align:center;
+
+	mso-pagination:widow-orphan;
+
+	font-size:10.0pt;
+
+	font-family:"Helvetica N Light";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.TableNomuraGraphicIndentFirstRow
+
+	{mso-style-name:"Table Nomura Graphic_Indent";
+
+	mso-table-condition:first-row;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;
+
+	mso-ansi-font-weight:normal;}
+
+table.TableNomuraGraphicIndentFirstCol
+
+	{mso-style-name:"Table Nomura Graphic_Indent";
+
+	mso-table-condition:first-column;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;}
+
+table.TableNomuraGreyLineIndent
+
+	{mso-style-name:"Table Nomura Grey Line_Indent";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	margin-left:47.9pt;
+
+	border:none;
+
+	border-top:solid #E6E5E7 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan lines-together;
+
+	font-size:10.0pt;
+
+	font-family:"Helvetica N Light";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.TableNomuraGreyLineIndentFirstRow
+
+	{mso-style-name:"Table Nomura Grey Line_Indent";
+
+	mso-table-condition:first-row;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	mso-tstyle-border-top:1.5pt solid #E6E5E7;
+
+	mso-tstyle-border-left:cell-none;
+
+	mso-tstyle-border-bottom:.75pt solid #E6E5E7;
+
+	mso-tstyle-border-right:cell-none;
+
+	mso-tstyle-diagonal-down:cell-none;
+
+	mso-tstyle-diagonal-up:cell-none;
+
+	mso-tstyle-border-insideh:cell-none;
+
+	mso-tstyle-border-insidev:cell-none;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;
+
+	mso-ansi-font-weight:normal;}
+
+table.TableNomuraGreyLineIndentFirstCol
+
+	{mso-style-name:"Table Nomura Grey Line_Indent";
+
+	mso-table-condition:first-column;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;}
+
+table.TableNomuraBlank
+
+	{mso-style-name:"Table Nomura Blank";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	margin-left:5.4pt;
+
+	border:none;
+
+	border-bottom:solid #E6E5E7 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan lines-together;
+
+	font-size:10.0pt;
+
+	font-family:"Helvetica N Light";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.TableNomuraBlankFirstRow
+
+	{mso-style-name:"Table Nomura Blank";
+
+	mso-table-condition:first-row;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	mso-para-margin-top:auto;
+
+	mso-para-margin-bottom:auto;
+
+	layout-grid-mode:both;
+
+	mso-layout-grid-align:auto;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;
+
+	mso-ansi-font-weight:normal;}
+
+table.TableNomuraBlankFirstCol
+
+	{mso-style-name:"Table Nomura Blank";
+
+	mso-table-condition:first-column;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;}
+
+table.TableNomuraBlankIndent
+
+	{mso-style-name:"Table Nomura Blank Indent";
+
+	mso-tstyle-rowband-size:0;
+
+	mso-tstyle-colband-size:0;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	margin-left:47.9pt;
+
+	border:none;
+
+	border-bottom:solid #E6E5E7 1.5pt;
+
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+
+	mso-para-margin:0in;
+
+	mso-para-margin-bottom:.0001pt;
+
+	mso-pagination:widow-orphan lines-together;
+
+	font-size:10.0pt;
+
+	font-family:"Helvetica N Light";
+
+	mso-ansi-language:EN-GB;
+
+	mso-fareast-language:JA;}
+
+table.TableNomuraBlankIndentFirstRow
+
+	{mso-style-name:"Table Nomura Blank Indent";
+
+	mso-table-condition:first-row;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;
+
+	mso-ansi-font-weight:normal;}
+
+table.TableNomuraBlankIndentFirstCol
+
+	{mso-style-name:"Table Nomura Blank Indent";
+
+	mso-table-condition:first-column;
+
+	mso-style-unhide:no;
+
+	mso-style-parent:"Table Grid";
+
+	text-align:left;
+
+	word-break:normal;
+
+	font-size:10.0pt;
+
+	mso-ansi-font-size:10.0pt;
+
+	font-family:"Cambria","serif";
+
+	mso-ascii-font-family:Cambria;
+
+	mso-hansi-font-family:Cambria;}
+
+
+
+
+
+ 
+
+
+
+ 
+
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&nbsp;
+
+
+
+&nbsp;
+
+
+
+&nbsp;
+
+
+
+Job title: Business
+
+Data Analyst    
+
+
+
+Corporate
+
+Title: Analyst
+
+
+
+Location: New
+
+York, NY
+
+
+
+Business
+
+Unit: Operations
+
+
+
+&nbsp;
+
+
+
+Company overview
+
+
+
+Nomura is an Asia-based financial
+
+services group with an integrated global network spanning over 30 countries. By
+
+connecting markets East &amp; West, Nomura services the needs of individuals,
+
+institutions, corporates and governments through its three business divisions:
+
+Retail, Asset Management, and Wholesale (Global Markets and Investment
+
+Banking). Founded in 1925, the firm is built on a tradition of disciplined
+
+entrepreneurship, serving clients with creative solutions and considered
+
+thought leadership. For further information about Nomura, visit www.nomura.com
+
+
+
+&nbsp;
+
+
+
+Department Overview:
+
+
+
+This position will be part of the Corporate Business Intelligence Team,
+
+specifically reporting into the US Metrics Manager. The CBIT team is the
+
+initial contact within Operations for inquiries related to key risk and
+
+performance indicators. The team is responsible for delivering over 100
+
+regional reports each day to hundreds of internal clients. Team members should
+
+be able to bring both technical skills and people skills to be able to interact
+
+across cultures with global colleagues.
+
+
+
+&nbsp;
+
+
+
+Role description:
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+The position will report into the CBIT
+
+Manager and will primarily support the Operations business.
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Responsible for supporting ongoing
+
+maintenance of existing reports and datamarts as well
+
+as new report development.
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Develop and customize SAP Business
+
+Objects reports.
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Troubleshoot and increase
+
+efficiency of existing Business Objects Reports.
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Work with clients and stakeholders
+
+across Compliance, Audit, Control and Middle Office to understand business
+
+requirements
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Document requirements and data
+
+needs appropriately
+
+
+
+Skills, experience, qualifications and knowledge required:
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+2+
+
+years of Financial Services industry experience, with a good understanding of
+
+the terminology and processes.
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Strong excel and PowerPoint skills
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Experience working with and
+
+building relationships with internal stakeholders including IT staff
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Strong communication skills in
+
+English, both written and verbal.
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Strong problem-solving and
+
+analytical skills.
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Experience writing Business
+
+Requirements documents preferred
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Experience with SAP Business Objects
+
+or other Business Intelligence tools preferred
+
+
+
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Experience with SQL preferred
+
+
+
+Nomura is an Equal Opportunity
+
+Employer 
+
+
+
+&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							
+
+							
+								
+
+						
+
+						
+							
+								
+								
+								
+							
+							Back
+							
+								
+									
+										Apply
+									
+								
+							
+							
+								Refer Someone for a position with Nomura
+							
+						
+						
+					
+				
+			
+		
+		
+
+
+
+      
+
+        //
+
+
+
+        
+
+          Print Out
+
+        
+
+        
+
+          sub menu start from here
+
+          
+
+            
+
+            Careers
+
+	            Search Jobs
+
+	            List Jobs
+
+	            My Profile
+
+				My Applications
+
+				Login/Register
+
+            
+
+          
+
+          related area
+
+        
+
+        
+
+      
+
+      
+
+        footer menu start from here
+
+        
+
+          Sitemap
+
+          FAQs
+
+          Feedback
+
+          &nbsp;
+
+          Disclaimer
+
+          Privacy Policy
+
+          Accessibility Policy
+
+        
+
+        
+
+          COPYRIGHT &copy; 2001 - 2009 NOMURA HOLDINGS, INC. ALL RIGHTS RESERVED.
+
+          UK Registered Companies
+
+        
+
+		powered by:
+
+			
+
+		
+
+      
+
+    
+
+  
+
+
+	
+
+
+
+		
+		
+		
+		
+		
+
+	
+	
+
+		
+			
+				var _gaq = _gaq || [];
+				_gaq.push(['_setAccount', 'UA-15840822-3']);
+				_gaq.push(['_trackPageview']);
+
+				(function()
+				 {
+				 	var ga = document.createElement('script');
+				 	ga.type = 'text/javascript';
+				 	ga.async = true;
+				 	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				 	var s = document.getElementsByTagName('script')[0];
+				 	s.parentNode.insertBefore(ga, s);
+				 }
+				)();
+			
+		
+		
+		
+		

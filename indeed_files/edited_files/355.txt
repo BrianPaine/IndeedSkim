@@ -1,0 +1,751 @@
+
+
+    
+    Genentech: Statistical Programmer Analyst
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    var jQ = {
+        queue: [],
+        ready: function (f) {
+            if (typeof f=='function') jQ.queue.push(f);
+            return jQ;
+            },
+        unq: function () {
+            for (var i = 0; i < jQ.queue.length; i++) jQ.queue[i]();
+            jQ.queue = null;
+        }
+    };
+    if (typeof window.jQuery == 'undefined') { window.jQuery = window.$ = jQ.ready; }
+    var Gene = { universal: {}, configs: {}, main: {}, features: {}, custom: {} };
+    Gene.configs.paths = {
+        prepend : '/'
+    }
+  
+
+  
+    function getQueryParam(str) {
+       var v = window.location.search.match(new RegExp('(?:[\?\&]'+str+'=)([^&]+)'));
+       return v ? v[1] : null;
+    }
+    var src = getQueryParam('src');
+    
+    var _gaq = _gaq || [];
+    
+    _gaq.push(['_setAccount', 'UA-22947831-2']);
+    _gaq.push(['_setDomainName', 'gene.com']);
+    _gaq.push(['_setAllowLinker', true]);
+    
+    if (src) {
+    	_gaq.push(['_setCustomVar', 1, 'Source', src]);
+    }
+    
+        _gaq.push(['_trackPageview']);
+    
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        window.ga = ga;
+    })();
+
+  
+
+
+
+
+    
+        
+            
+                
+            
+            
+                
+                    
+                    
+                    
+                
+            
+            
+                
+                    
+                        
+                            
+                            Search
+                        
+                    
+                    
+                        
+                            
+                            Contact Us
+                        
+                    
+                    
+                        
+                            
+                            About Us
+                        
+                    
+                
+                
+                    
+                    
+                
+            
+        
+        
+            
+                                            
+                    For Scientists
+                
+                                                            
+                    For Medical Professionals
+                
+                                                            
+                    For Patients
+                
+                                                            
+                    For  Partners
+                
+                                                            
+                    For Media
+                
+                                                            
+                    For Good
+                
+                                                            
+                    Now Hiring
+                
+                                        
+        
+    
+            
+            
+                
+                        Hiring /
+                Find A Job
+
+            
+            
+                
+                    
+                
+            
+        
+    
+
+
+
+
+
+    
+        Attention: This page may not render properly. The browser you are using, Internet Explorer 10, is no longer supported.
+    
+
+
+
+
+
+
+     
+    
+        
+        
+                    
+                    
+                Find A Job
+            
+                                                
+                                                             
+                                                        
+                                Hiring Process
+                            
+                                                                                                                                                                                         
+                                                        
+                                Events
+                            
+                                                                                                         
+                                                        
+                                Benefits
+                            
+                                                                                                         
+                                                        
+                                My Jobs
+                            
+                                                                                                         
+                                                        
+                                FAQ
+                            
+                                                                                                                                                        
+            
+        
+        
+        
+                    
+                
+                    
+                        
+                    
+                
+                
+                    
+                        
+                    
+                
+                
+                    
+                        
+                    
+                
+                
+                    
+                        
+                    
+                
+                
+                    
+                        
+                    
+                    
+                        
+                            
+                            A link to this page has been copied to your clipboard.
+                        
+
+                        http://www.gene.com/careers/detail/2986570908/Statistical-Programmer-Analyst?src=JB-12568
+
+                        Paste this link in an email to share.
+
+                        
+                            Ok
+                        
+                    
+                
+            
+        
+        
+            
+                
+                    
+                        
+                    
+                    
+                        Print
+                    
+                
+            
+        
+    
+
+
+        
+            
+                
+                        Hiring /
+                Find A Job
+
+
+                
+                    Statistical Programmer Analyst
+
+                    
+                        
+                            
+                                South San Francisco, California United States
+                            
+
+                            Job ID: 2986570908
+
+                            
+                                Download PDF
+                            
+                        
+
+                        
+
+                            
+                                Apply For This Job
+                            
+
+                        
+                    
+
+                    
+
+                    
+                        Return to Search Results
+                    
+
+                    The Position
+
+                    
+                        
+The Statistical Programmer Analyst has responsibility for statistical programming support for the Pharma Development, gRED, pRED, and/or EpiPRO organizations. He/she leads statistical programming activities and provides end to end statistical programming support in planning, specifying, designing, developing and implementing statistical software solutions for the reporting and analysis of clinical trials in accordance with applicable processes. Major Responsibilities and Accountabilities:Prepares and distributes summarized information to clinical study team memberspaResponsible for accuracy and reliability of results. Builds and monitors quality in every aspect of job activities.Recommends technical and process solutions that can be used or developed to increase efficiency of project work.Provides technical solutions to a wider range of problems with higher level of complexity. Independently determines and develops approach to solutions. Adapts to changing circumstances, policies, work assignments, and/or team members.Considers strategies that will allow consistency or continuity of subsequent tasks (e.g., multiple studies in an ISE or ISS).Contributes to the development of department-level standards, tools and templates.Determines technical objectives and direction for project(s). Develop timelines for SPA component of the studyPrioritizes and delegates tasks based on the importance of the deliverable and awareness of overall timelines in order to efficiently produce high quality deliverables.Proactively addresses project uncertainties to minimize risk and alerts or escalates the issue to the appropriate person (project team member, Lead SPA, or management). Identifies, communicates and overcomes technical and interpersonal obstacles.Negotiates effectively within project teams and working groups for reasonable timelines and scope, also negotiates alternative timelines based on resourcing / priority constraints.Leads statistical programming activities of a set of studies or indication.Contributes to user aspects of technical infrastructure or business process initiatives with a focus on statistical programming       
+
+                    
+
+                    Who You Are
+
+                    
+                        
+Technical RequirementsBA, BS or advanced degree in mathematics, statistics, biological sciences, computer science or equivalent experience. At least 5 years SAS programming experience. Knowledge in clinical research with emphasis in the development and support of the analysis of clinical trial data is preferred. Experience and/or Competencies Required:Advanced knowledge of SAS programming techniques, such as complex SAS macros, advanced SAS/GRAPH; Knowledge of SAS statistical proceduresKnowledge of statistical concepts, such as p-values, rates and proportion, frequencies, confidence intervals, survival analysis, non-parametric analysis. Capable of implementing these ideas in clear, efficient SAS codes for the purpose of data analysis and reportingFamiliar with relevant operating systems (e.g. UNIX); Has good understanding of data collection and database concepts including data flows in clinical trials, and Pharma industry data standards, such as CDISC/SDTM and ADaM data models.Knowledge of FDA/ICH guidelines. Experience supporting regulatory submissions in the US, EU and/or Asia-Pacific and dealing with requests from Health Authorities.Proficient at problem solving. Able to debug and resolve issues related to other peoples code and/or system macro code.Understands the major biostatistical deliverables (Analysis Plan, CSR), and the process of developing publications for external consumption (abstracts, posters, slide decks, manuscripts).Understands the overall design of a clinical study, and its statistical and clinical rationale (e.g., dose escalation for MTD, comparison to standard of care).Able to communicate clearly and without ambiguity in speaking and in writing.Embraces and endorses change; Ability to see the big picture and understand what changes affect other departments work.Able to provide presentations with clear slides to a large group such as Coder's Corner, project meetings, SPA department.Able to provide a compelling position, supported by facts/evidence, which would lead to a solution that is of benefit to all parties involved. *LI-PD-BR1&nbsp; &nbsp;&nbsp;
+
+                    
+
+                    Who We Are
+
+                    A member of the Roche Group, Genentech has been at the forefront of the biotechnology industry
+                        for more than 40 years, using human genetic information to develop novel medicines for serious and
+                        life-threatening diseases. Genentech has multiple therapies on the market for cancer &amp; other serious
+                        illnesses. Please take this opportunity to learn about Genentech where we believe that our employees
+                        are our most important asset &amp; are dedicated to remaining a great place to work.
+
+                    The next step is yours. To apply today, click on the "Apply online" button.
+
+                    Genentech is an equal opportunity employer &amp; prohibits unlawful discrimination based on race, color, religion, gender, sexual orientation, gender identity/expression, national origin/ancestry, age, disability, marital &amp; veteran status. For more information about equal employment opportunity, visit our Genentech Careers page.
+
+                    
+
+                    
+
+                    
+                        Return to Search Results
+                    
+
+                
+            
+
+            
+                
+                    Job Facts
+                    
+                        
+                            
+                                Job Function
+                                
+                                    Biometrics / Biostatistics
+                                
+                            
+                            
+                                Location
+                                
+                                    United States - California
+                                
+                                
+                                    South San Francisco
+                                
+                            
+                            
+                                Company/Division
+                                
+                                    Pharmaceuticals
+                                
+                            
+                            
+                                Schedule
+                                
+                                    Full-time
+                                
+                            
+                            
+                                Job type
+                                
+                                    Regular Employee
+                                
+                            
+                                                    
+                    
+                
+
+                                    
+        
+
+                        
+                
+            
+                
+            
+            
+                Work Life
+                Genentech makes life-saving medicine. People make Genentech what it is. This video offers insights into who these people are and what it means to them to be working at Genentech.
+            
+
+                    
+    
+
+            
+                        
+                
+            Find Us Where You Already Are
+            
+            There’s no media like social media. Get to know Genentech better by checking us out Facebook, LinkedIn, YouTube, and Twitter. Learn more about the science and the people who make it happen.
+
+                    
+    
+
+            
+            
+        
+    
+    
+    
+                            
+        
+    
+
+
+
+
+    
+
+        
+
+            
+                
+                    
+                         Feedback?
+                    
+                
+                Tell us what you think about our company, products, or website.
+            
+
+            
+                “
+                
+                    Science is a way of thinking much more than it is a body of knowledge.
+                
+                ”
+                – Carl Sagan
+            
+        
+        
+            
+        
+        
+                            
+                    
+                        For Scientists
+                    
+                                                                        
+                                Our Scientists
+                            
+                                                    
+                                Publications
+                            
+                                                    
+                                Oncology
+                            
+                                                    
+                                Immunology
+                            
+                                                    
+                                Neuroscience
+                            
+                                                    
+                                Metabolism
+                            
+                                                    
+                                Infectious Disease
+                            
+                                                    
+                                Ophthalmology
+                            
+                                                            
+                            
+                    
+                        For Medical Professionals
+                    
+                                                                        
+                                Our Medicines
+                            
+                                                    
+                                Our Pipeline
+                            
+                                                    
+                                Medical Resources
+                            
+                                                    
+                                Sunshine Act Compliance
+                            
+                                                    
+                                Product Security
+                            
+                                                            
+                            
+                    
+                        For Patients
+                    
+                                                                        
+                                Our Medicines
+                            
+                                                    
+                                Investigational Medicines
+                            
+                                                    
+                                Patient Access
+                            
+                                                    
+                                Disease Education
+                            
+                                                            
+                            
+                    
+                        For  Partners
+                    
+                                                                        
+                                Our Approach
+                            
+                                                    
+                                Our Relationship with Roche
+                            
+                                                    
+                                Partner With Us
+                            
+                                                    
+                                Our Stories
+                            
+                                                            
+                            
+                    
+                        For Media
+                    
+                                                                        
+                                News Features
+                            
+                                                    
+                                Press Releases
+                            
+                                                    
+                                Statements
+                            
+                                                    
+                                Company Information
+                            
+                                                    
+                                Product Information
+                            
+                                                    
+                                Sign Up For News Alerts
+                            
+                                                            
+                            
+                    
+                        For Good
+                    
+                                                                        
+                                Giving
+                            
+                                                    
+                                Science Education
+                            
+                                                    
+                                Diversity &amp; Inclusion
+                            
+                                                    
+                                Environmental Sustainability
+                            
+                                                            
+                            
+                    
+                        Now Hiring
+                    
+                                                                        
+                                Find A Job
+                            
+                                                    
+                                University &amp; Early Career
+                            
+                                                    
+                                Professional Areas
+                            
+                                                            
+                            
+                    
+                         About Us
+                    
+                                                                        
+                                Leadership
+                            
+                                                    
+                                Awards &amp; Recognition
+                            
+                                                    
+                                Investors
+                            
+                                                    
+                                Suppliers
+                            
+                                                    
+                                CA Transparency in Supply 
+                            
+                                                    
+                                Compliance Overview
+                            
+                                                            
+                            
+                    
+                         Contact Us
+                    
+                                                                        
+                                Call Us
+                            
+                                                    
+                                Email Us
+                            
+                                                    
+                                Connect with us
+                            
+                                                    
+                                Visit us
+                            
+                                                    
+                                Submit a Medical Inquiry
+                            
+                                                            
+                    
+        
+            
+                
+            
+
+            
+                Connect with us
+                
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                    
+                        
+                    
+                
+            
+
+            
+                Privacy Policy&nbsp; | &nbsp;Terms &amp; Conditions
+                Genentech, Inc. © 2017
+            
+        
+    
+
+
+
+
+    
+        // Pull in optional in-template Omniture vars
+        if( typeof(omnitureVars) === 'object' ) {
+            for( prop in omnitureVars ) {
+                s[prop] = omnitureVars[prop];
+            }
+        }
+        // Fill in any of the primary variables that weren't explicitly set in-template
+        if ( !s.pageName ) { s.pageName='careers:detail:2986570908:Statistical-Programmer-Analyst'; }
+        if ( !s.channel ) {s.channel='careers'; }
+        if ( !s.prop3 ) { s.prop3='detail'; }
+        if ( !s.prop4 ) { s.prop4='2986570908'; }
+        if ( !s.hier1 ) { s.hier1='careers/detail/2986570908/careers:detail:2986570908:Statistical-Programmer-Analyst'; }
+
+        // Set permanent, non-editable vars
+        s.prop9 = "D=g";
+        s.eVar13 = "D=g";
+        s.prop11=(s.getQueryParam('cid')=='')?s.pageName:s.getQueryParam('cid') + " -- " + s.pageName;
+
+        // Write out final Omniture code
+        var s_code = s.t(); if( s_code ) document.write( s_code );
+    
+
+
+
+    Modernizr.load([
+    {   // Polyfill placeholder
+        test: Modernizr.input.placeholder,
+        nope: [ '/assets/frontend/js/vendor/placeholder_polyfill.min.css',
+            '/assets/frontend/js/vendor/placeholder_polyfill.jquery.min.combo.js' ]
+    },{  // Date placeholder
+        test: Modernizr.inputtypes.date,
+        load: [ '/assets/frontend/js/vendor/jquery-ui/overcast/jquery-ui-1.9.1.custom.min.css',
+            '/assets/frontend/js/vendor/jquery-ui/jquery-ui-1.9.1.custom.min.js' ],
+        callback: function(url, result, key) {
+            // Only run once
+            if (key != 1) return;
+
+            $(function() {
+                // Polyfill
+                if (result == false) {
+                    // If date input type detection fails, polyfill (after js has loaded)
+                    $('input[type="date"]').datepicker({
+                        dateFormat: 'yy-mm-dd'
+                    });
+                }
+                // Temporary webkit workaround
+                var tomorrow = new Date();
+                tomorrow.setDate( tomorrow.getDate() + 1 );
+
+                $('.datepicker-future-only').datepicker({
+                    dateFormat: 'yy-mm-dd',
+                    minDate: tomorrow
+                });
+            });
+        }
+    }
+    ]);
+
+
+
+
+
+
+
+    jQ.unq();
+    $(function() {
+        // Initialize custom classes
+        for (var classname in Gene.custom) {
+            if (classname != 'configs') {
+                Gene.custom[classname].init();
+            }
+        }
+    });
+
+
+
+
+
+
+
+

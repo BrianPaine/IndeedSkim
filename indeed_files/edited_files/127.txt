@@ -1,0 +1,418 @@
+
+
+
+
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o
+
+
+	 
+	 
+
+Consumer Insights, Market Intelligence and Trends Analyst &#8211; Spotify Jobs
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+img#wpstats{display:none}
+
+
+
+
+
+
+
+	
+		body {
+			opacity: 0;
+			background-color: #fff;
+		}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-96101180-1', 'auto');
+	ga('send', 'pageview');
+
+
+	
+
+	
+		
+	
+		
+			
+				
+					
+						
+					
+				
+
+				
+					Search Jobs
+Locations
+Job Categories
+Backstage
+Students
+
+					
+						
+					
+
+					
+						
+					
+				
+			
+		
+	
+
+	
+	
+		Search Jobs
+Locations
+Job Categories
+Backstage
+Students
+
+		
+			
+				
+			
+		
+	
+
+
+
+
+
+	
+		
+			
+				Consumer Insights, Market Intelligence and Trends Analyst
+									
+						PR &amp; Marketing / Sales &amp; Marketing in New York, USA					
+							
+
+			
+				
+					The Global Consumer Insights team is a core part of Spotify&rsquo;s consumer experience and how Spotify remains a culturally relevant brand. The team is now looking for someone to help develop and maintain best-in-class research initiatives (primary and secondary research) that closely monitor and synthesize consumer, culture, market and industry trends to provoke competitive responses through collaboration with strategy, marketing, sales, and product development teams.This role will exemplify expertise in current and future competitive drivers in the marketplace for a variety of subject matters including technology, music, music streaming, content and artists. We&rsquo;re looking for an analytical and creative thinker, with the ability to form a strong POV that will ultimately influence business decisions. Are you a big picture thinker and excel at connecting the dots to reveal new insights and identifying both strategic and tactical opportunities? If so, you might be who we&rsquo;re looking for. 
+What you&rsquo;ll do&nbsp;
+
+Collect, interpret and communicate industry, competitive and market trends from primary and secondary sources and develop actionable analysis and recommendations
+Manage and enhance trends program (including the development of competitive intelligence capabilities) to make it an integral part of planning process.
+Produce standard department reports and metrics on a regular basis.
+Contribute to sharing of best practices and continuous improvement across the department.
+Proactively identify opportunities to collaborate with internal partners to aid in developing new analyses to support development of marketing and sales strategies and tactics
+
+Who you are&nbsp;
+
+A minimum of three (3) years experience in strategic analysis, competitive/market intelligence and trends analysis.
+Knowledge of primary and secondary research and competitive intelligence methodologies and techniques. &nbsp;
+Experience working with social media tools and data portals.
+Expertise in core market research principles &ndash; sample design, data collection and analysis techniques, appropriate action standards.
+Strong analytical skills, including the ability to analyze large data sets, identify insights, and synthesize how these insights impact business decisions.
+Bachelor&rsquo;s in Analytics/Social sciences preferred.
+Knowledge of SAS, SPSS, and/or SQL a plus.
+
+&nbsp;We strongly believe that diversity of experience, perspectives, and background will lead to a better workplace for our employees and a better product for our users and our creators. This is something we value deeply and we encourage everyone to come be a part of changing the way the world listens to music.&nbsp;
+				
+			
+
+			
+				
+					Share
+
+					
+						Save					
+
+					
+	
+	
+	
+	
+
+				
+
+									Apply now
+							
+		
+	
+
+
+
+	
+	
+
+					
+				
+					Similar jobs
+				
+			
+		
+		
+		
+			
+				
+					
+	
+		
+			Job
+			Category
+			Location
+		
+	
+
+	
+					
+	
+		
+			Premium Coordinator
+		
+	
+	
+		Business Development, Business Development, PR &amp; Marketing, Sales &amp; Marketing	
+	
+		Stockholm, Sweden	
+
+					
+	
+		
+			Account Director, Stockholm
+		
+	
+	
+		Ad Sales, Business Development, Business Development, Sales &amp; Marketing	
+	
+		Stockholm, Sweden	
+
+					
+	
+		
+			Sales Planner
+		
+	
+	
+		Ad Sales, Sales &amp; Marketing	
+	
+		Los Angeles, USA	
+
+					
+	
+		
+			Client Services Manager
+		
+	
+	
+		Ad Sales, Sales &amp; Marketing	
+	
+		Los Angeles, USA	
+
+				
+	{{# items }}
+		
+			
+				
+					{{{ title }}}
+				
+			
+			
+				{{# categories }}
+					{{{ name }}}
+				{{/ categories }}
+			
+			
+				{{# locations }}
+					{{{ name }}}
+				{{/ locations }}
+			
+		
+	{{/ items }}
+	{{^ items }}
+		
+			
+				There is no job like that on the playlist right now. Try something else.
+			
+		
+	{{/ items }}
+
+	
+
+				
+			
+		
+
+					
+			
+				
+					
+						
+							More jobs						
+					
+				
+			
+			
+
+	
+	
+		
+			
+				Related content
+			
+		
+
+		
+			
+				
+									
+						
+
+							
+															
+
+							
+								Sales &amp; Marketing							
+
+															See more jobs in Sales &amp; Marketing.
+													
+					
+									
+						
+
+							
+															
+
+							
+								New York							
+
+															See more jobs in New York.
+													
+					
+							
+		
+	
+	
+	
+		
+			Spotify
+
+			Company
+
+	About
+	Press
+	News
+
+
+Communities
+
+	For Artists
+	Developers
+	Brands
+
+
+Useful links
+
+	Help
+	Gift
+	Web Player
+
+
+
+							
+					
+						
+							
+							
+								
+									
+									Instagram
+								
+							
+						
+							
+							
+								
+									
+									Twitter
+								
+							
+						
+							
+							
+								
+									
+									Facebook
+								
+							
+						
+							
+							
+								
+									
+									LinkedIn
+								
+							
+											
+				
+			
+		
+
+		
+			Legal
+Cookies
+
+			
+				&copy; 2017 Spotify AB&nbsp;&nbsp;|&nbsp;&nbsp;Powered by WordPress.com VIP
+			
+
+			Powered by WordPress.com VIP
+		
+	
+
+	
+
+	
+
+
+/* Cookie Policy.","cookieAcceptText":"Ok, I understand"};
+/* ]]> */
+
+
+
+
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:5.4',blog:'128040440',post:'8202',tz:'2',srv:'www.spotifyjobs.com'} ]);
+	_stq.push([ 'clickTrackerInit', '128040440', '8202' ]);
+
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"949ceaf672","applicationID":"35929145","transactionName":"MQZWYhAFXhdYAUBfWwhMdVUWDV8KFghbVA==","queueTime":0,"applicationTime":110,"atts":"HUFBFFgfTUgbAxYMTxse","errorBeacon":"bam.nr-data.net","agent":""}
+

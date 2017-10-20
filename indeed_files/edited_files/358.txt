@@ -1,0 +1,726 @@
+
+
+
+
+
+
+
+
+
+    
+        
+    Reporting Analyst at Levelwing
+
+
+        
+
+        
+            
+        
+
+        
+        
+        
+
+        
+            
+        
+
+        
+        try{Typekit.load();}catch(e){}
+
+        
+        
+
+        
+    
+    
+    
+    
+    
+    
+    
+        
+
+ {
+    "@context" : "http://schema.org/",
+    "@type" : "JobPosting",
+    "title" : "Reporting Analyst",
+    "description" : "&lt;p&gt;&lt;strong&gt;TITLE:&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;strong&gt;Reporting Analyst&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;LOCATION:&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Charleston, SC&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;STATUS:&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Full-time, exempt&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Education:&lt;/strong&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Bachelor&amp;rsquo;s Degree preferred&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SUMMARY:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Levelwing is seeking a highly-motivated individual with an analytical mindset to aid in the reporting of web traffic and performance. This individual must retain a high degree of curiosity and a passion for data analysis. The Reporting Analyst must be proficient in data aggregation and synthesis to power actionable findings and recommendations. This individual needs a positive &amp;ldquo;can do&amp;rdquo; mindset to meet a variety of business objectives.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DUTIES &amp;amp; RESPONSIBILITIES:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Monitors and reports on a multitude of datasets including but not limited to: Website Performance, Marketing Channel Effectiveness, User Behavior and Engagement, Primary and Secondary Conversion Metrics&lt;/li&gt;
+&lt;li&gt;Comprehensive understanding of Web Analytics tools and knowledge of platforms that integrate with and impact digital data collection&lt;/li&gt;
+&lt;li&gt;Construct reports on a weekly, monthly, and ad-hoc basis&lt;/li&gt;
+&lt;li&gt;Identify and troubleshoot data collection issues and anomalies&lt;/li&gt;
+&lt;li&gt;Educate and support teammates through recommended reporting efficiencies&lt;/li&gt;
+&lt;li&gt;Present information in a consumable and impactful manner&lt;/li&gt;
+&lt;li&gt;Collaborate with Implementation Specialists, Media Analysts, and Web Developers on data collection methods&lt;/li&gt;
+&lt;li&gt;Create processes that streamline data collection and reporting needs&lt;/li&gt;
+&lt;li&gt;Ensure high level of accuracy and attention to detail in all work&lt;/li&gt;
+&lt;li&gt;Create and maintain data sourcing references and Analytics Design blueprints&lt;/li&gt;
+&lt;li&gt;Think creatively to analyze metrics from a variety of perspectives with the goal of providing valuable insight&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;KNOWLEDGE, SKILLS &amp;amp; ABILITIES:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Precise communications skills&lt;/li&gt;
+&lt;li&gt;Ability to learn new technology platforms in a timely manner&lt;/li&gt;
+&lt;li&gt;Complex dataset consumption&lt;/li&gt;
+&lt;li&gt;Comprehension of digital marketing channels and strategies&lt;/li&gt;
+&lt;li&gt;Strong attention to detail&lt;/li&gt;
+&lt;li&gt;Exceptional analytical skills&lt;/li&gt;
+&lt;li&gt;Ability to multi-task and simultaneously work in multiple work streams&lt;/li&gt;
+&lt;li&gt;Proficient on Microsoft Office Products&lt;/li&gt;
+&lt;li&gt;Google Analytics, Adobe Analytics, Google Data Studio, Power BI experience a plus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DISCLAIMER&lt;/strong&gt;: The above job description is not an exhaustive list of all duties and responsibilities of the position and in no way is to be construed as a contract.&amp;nbsp; As with all positions, employment is &amp;ldquo;at will&amp;rdquo; or voluntary on both the part of the organization and the team member.&amp;nbsp; Employment is not for a set period of time and may be discontinued by either party for any reason with or without notice.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Levelwing is an Equal Opportunity Employer&lt;/em&gt;&lt;/p&gt;",
+
+    "jobLocation" : {
+        "@type" : "Place",
+        "address" : {
+            "@type" : "PostalAddress",
+            "addressLocality" : "Charleston",
+            "addressRegion" : "South Carolina",
+            "postalCode" : "29401",
+            "addressCountry": "United States"
+        }
+    },
+
+    "datePosted" : "2017-09-29",
+    "employmentType" : "FULL_TIME",
+
+    "identifier": {
+        "@type": "PropertyValue",
+        "name": "Levelwing",
+        "value": "fk0m9rw"
+    },
+
+    "hiringOrganization" : {
+        "@type" : "Organization",
+        "name" : "Levelwing"
+         ,"sameAs": "http://www.levelwing.com"
+    }
+}
+
+
+    
+
+
+        
+        
+
+        
+    window.addEventListener("message", receiveMessage, false);
+
+    function receiveMessage(event)
+    {
+        if (event.origin !== "https://app.recruiterbox.com")
+            return;
+
+        var data = event.data;
+
+        if (data === 'FINISHED_LOADING_LINKEDIN_JS') {
+            $('.js-apply-with-linkedin').removeClass('hide');
+        } else if (data === 'PROFILE_DATA_BEING_FETCHED') {
+            show_application_form();
+            show_loading_overlay();
+        } else if (data.message == 'ERROR_WHILE_FETCHING_PROFILE_DATA') {
+            hide_loading_overlay();
+            show_application_form();
+            _RB.logToRollbar(data.error);
+        } else if (data.message == 'LINKEDIN_PROFILE_DATA') {
+            populateFields(data.firstName, data.lastName, data.emailAddress, data.summary, data.publicProfileUrl)
+        }
+    }
+
+    function populateFields(first_name, last_name, email, summary, linkedin_public_profile_url) {
+        hide_loading_overlay();
+        show_application_form();
+        var first_name_field = $('#id_candidate_first_name');
+        var last_name_field = $('#id_candidate_last_name');
+        var email_field = $('#id_candidate_email');
+        var summary_field = $('#id_linkedin_profile_summary');
+        var linkedin_public_profile_url_field = $('#id_linkedin_public_profile_url');
+
+        first_name_field.val(first_name);
+        last_name_field.val(last_name);
+        email_field.val(email);
+        summary_field.val(summary);
+        linkedin_public_profile_url_field.val(linkedin_public_profile_url);
+    }
+
+    function clickOnLinkedinButton() {
+        var iframe = document.querySelector("#js-linkedin-btn-iframe");
+        var iframeWindow = iframe.contentWindow;
+        iframeWindow.postMessage("CLICK_ON_LINKEDIN_BUTTON", "*");
+    }
+
+
+    
+
+
+    
+
+        
+            
+
+
+
+
+
+        
+
+        
+            
+                
+                    
+
+
+    
+    
+    
+        
+            
+            
+                
+            
+            
+        
+        
+            
+                
+                    www.levelwing.com
+                
+                
+                    Website
+                    
+                
+            
+        
+    
+
+    
+    
+
+
+                
+            
+        
+
+        
+            
+        
+
+        
+            
+            
+                
+    
+
+    
+    
+    
+
+
+
+    (function (d, s, id) {
+        var js, iajs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.async = true;
+        js.src = "https://apply.indeed.com/indeedapply/static/scripts/app/bootstrap.js";
+        iajs.parentNode.insertBefore(js, iajs);
+    }(document, 'script', 'indeed-apply-js'));
+
+
+    
+        
+            Reporting Analyst
+            
+                Charleston, South Carolina, United States
+                
+                Full-time
+                
+
+                
+            
+        
+    
+    
+        
+
+            
+              
+              
+              TITLE:                       Reporting Analyst
+LOCATION:              Charleston, SC
+STATUS:                  Full-time, exempt
+Education:               Bachelor’s Degree preferred
+ 
+SUMMARY:
+Levelwing is seeking a highly-motivated individual with an analytical mindset to aid in the reporting of web traffic and performance. This individual must retain a high degree of curiosity and a passion for data analysis. The Reporting Analyst must be proficient in data aggregation and synthesis to power actionable findings and recommendations. This individual needs a positive “can do” mindset to meet a variety of business objectives.
+ 
+DUTIES &amp; RESPONSIBILITIES:
+
+Monitors and reports on a multitude of datasets including but not limited to: Website Performance, Marketing Channel Effectiveness, User Behavior and Engagement, Primary and Secondary Conversion Metrics
+Comprehensive understanding of Web Analytics tools and knowledge of platforms that integrate with and impact digital data collection
+Construct reports on a weekly, monthly, and ad-hoc basis
+Identify and troubleshoot data collection issues and anomalies
+Educate and support teammates through recommended reporting efficiencies
+Present information in a consumable and impactful manner
+Collaborate with Implementation Specialists, Media Analysts, and Web Developers on data collection methods
+Create processes that streamline data collection and reporting needs
+Ensure high level of accuracy and attention to detail in all work
+Create and maintain data sourcing references and Analytics Design blueprints
+Think creatively to analyze metrics from a variety of perspectives with the goal of providing valuable insight
+
+ 
+KNOWLEDGE, SKILLS &amp; ABILITIES:
+
+Precise communications skills
+Ability to learn new technology platforms in a timely manner
+Complex dataset consumption
+Comprehension of digital marketing channels and strategies
+Strong attention to detail
+Exceptional analytical skills
+Ability to multi-task and simultaneously work in multiple work streams
+Proficient on Microsoft Office Products
+Google Analytics, Adobe Analytics, Google Data Studio, Power BI experience a plus
+
+ 
+DISCLAIMER: The above job description is not an exhaustive list of all duties and responsibilities of the position and in no way is to be construed as a contract.  As with all positions, employment is “at will” or voluntary on both the part of the organization and the team member.  Employment is not for a set period of time and may be discontinued by either party for any reason with or without notice. 
+ 
+Levelwing is an Equal Opportunity Employer
+              
+              
+            
+
+            
+                
+                
+                    
+                        
+                            Apply for this opening
+                        
+                        
+                            
+                                
+                                    
+                                        
+                                        Apply with Linkedin
+                                    
+                                
+                            
+                        
+                        
+                            
+                                
+                                    
+
+                                    Apply with Indeed
+                                
+                            
+                        
+                    
+
+                    Apply for this opening at 
+                        http://levelwing.recruiterbox.com/jobs/fk0m9rw?apply=true
+                    
+                    
+                        
+                            
+                                
+                                     Other openings at Levelwing
+                                
+                                See all the jobs at Levelwing here: 
+                                    http://levelwing.recruiterbox.com/jobs
+                                
+                                
+                            
+                        
+                    
+                
+                
+
+                
+                    
+                        
+                        Fetching your Linkedin profile ...
+                    
+                    
+
+
+
+    
+        
+            
+                Application Form
+            
+            
+                
+                    
+                        
+                        Apply with Linkedin
+                    
+                
+            
+            
+                
+                    
+                        
+
+                        Apply with Indeed
+                    
+                
+            
+        
+
+        
+
+        
+            
+
+            
+                
+                    
+                        First Name
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Last Name
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Email
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Phone
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Salary Requirements
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Resume
+                         *
+                    
+                    
+                    
+                
+            
+
+            
+                
+                
+                
+                
+                
+                
+                
+                
+            
+
+        
+    
+
+
+                
+
+                
+                    Thanks for your time
+                
+            
+        
+
+        
+            
+                
+
+
+    
+        
+            Apply for this opening
+
+            
+                
+
+                
+                    
+                    Apply with Linkedin
+                
+            
+
+            
+                
+                    
+
+                    Apply with Indeed
+                
+            
+
+        
+
+    
+        share this opening with friends
+
+        
+
+        
+
+        
+
+        
+
+    
+    
+
+
+                
+
+                
+                    
+                         Other openings at Levelwing
+                    
+                    See all the jobs at Levelwing here: 
+                        http://levelwing.recruiterbox.com/jobs
+                    
+                    
+                
+
+                
+            
+        
+    
+
+                
+            
+            
+        
+
+        
+
+        
+            
+                
+                    
+                        
+                    
+                    
+                        powered by
+                        Recruiterbox
+                    
+                
+            
+        
+    
+    
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSXJKT');
+
+
+
+    
+    
+    
+    
+    window.jQuery || document.write('')
+
+    focus_first_field_application_form();
+    $.fn.scrollView = function () {
+        return this.each(function () {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top
+        }, 400);
+        });
+    }
+
+    $(window).on('ready',function() {
+        $("#application_form_holder").scrollView();
+        $('.eeoc-form-description')
+        .popover()
+        .on('shown.bs.popover', function () {
+            var span = $('#super-user-email');
+            if (span) {
+                var a = document.createElement('a');
+                a.href = 'mailto:croark@levelwing.com';
+                a.target = '_blank';
+                a.text = 'croark@levelwing.com';
+                span[0].appendChild(a);
+            }
+        });
+        
+        $('[data-toggle="popover"]').popover()
+        
+
+        $( '#div_apply_to_job a.btn-apply' ).click( show_application_form );
+        $( '.js-apply-for-job' ).click( show_application_form );
+
+        $('.date_input_box').datepicker({ dateFormat: 'dd M yy' });
+
+        
+
+        $('[data-loading-text]').button();
+        $('[data-loading-text]').on('click', function(){
+            $(this).button('loading');
+        });
+
+        $('.js-apply-with-indeed').click(function () {
+            var new_url = getApplyWithIndeedUrl();
+            window.location.href = new_url;
+        });
+    });
+
+    function getApplyWithIndeedUrl() {
+        var indeed_fragment = "apply_with_indeed=true";
+        var current_url = window.location.href;
+
+        if (current_url.indexOf(indeed_fragment) !== -1) {
+            return current_url;
+        }
+
+        if (current_url.indexOf('?') !== -1) {
+            return current_url + '&' + indeed_fragment;
+        }
+
+        return current_url + '?' + indeed_fragment;
+    }
+
+    function focus_first_field_application_form(e) {
+        e && e.preventDefault();
+        $('#job_application_form').find(':input:not(:hidden):first').focus();
+    }
+
+    function handleCancelButtonClick() {
+            $('#application_form_holder').hide();
+            $('#eeoc_cancel_message').show();
+    }
+
+    function indeedApplySuccess(elem) {
+        $('#indeed_application_form').submit()
+    }
+
+    function show_application_form(e) {
+        if ( e ) {
+            e.preventDefault();
+        }
+        $('#div_apply_to_job').hide();
+        $('#application_form_holder').slideDown(function() {
+            $('#application_holder').scrollView();
+            focus_first_field_application_form();
+        });
+    }
+
+    function show_loading_overlay() {
+        $('#application_holder').addClass('application-form-loading');
+        $('#loading-overlay').removeClass('hide');
+    }
+
+    function hide_loading_overlay() {
+        $('#application_holder').removeClass('application-form-loading');
+        $('#loading-overlay').addClass('hide');
+    }
+
+    (function handle_character_limit_on_paragraph() {
+        var show_limit_message = function(e) {
+            var $target = $(e.currentTarget);
+            var max_character = Number($target.data('maxlength'));
+            var current_length = $target.val().length;
+            var remaining_length = max_character - current_length;
+            var message_text = 'Not more than ' + max_character + ' characters';
+
+            if(remaining_length  0) {
+                message_text = remaining_length + ' characters remaining';
+            }
+
+            var message = $('', {
+                class: 'js-max-length-message text-muted',
+                text: ' ('+ message_text +')'
+            });
+            $target.siblings('.js-max-length-message').remove();
+            $target.siblings('label').after(message);
+        };
+
+        var handle_keydown = function(e) {
+            var $target = $(e.currentTarget);
+            var max_character = Number($target.data('maxlength'));
+            var current_length = $target.val().length;
+
+            if ([8, 13, 27, 38, 40, 9, 39, 37].indexOf(e.keyCode) > -1) {
+                return true;
+            }
+
+            if (current_length >= max_character) {
+                return false;
+            }
+        }
+
+        $('textarea[maxlength]')
+            .each(function(idx, item){
+                var $target = $(item);
+                var maxlength = $target.attr('maxlength');
+                $target.removeAttr('maxlength').data('maxlength', maxlength);
+            })
+                .on('keyup', show_limit_message)
+                .on('keydown', handle_keydown)
+                .on('input', show_limit_message)
+                .trigger('keyup');
+    })();
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+

@@ -1,0 +1,525 @@
+
+
+
+
+
+
+ <!--
+
+    
+    
+    
+    
+    Career Opportunities - Herff Jones
+    
+    
+    
+    
+
+    
+    
+    
+    
+        
+    
+    
+        var et_site_url='https://content.herffjones.com';var et_post_id='878';function et_core_page_resource_fallback(a,b){"undefined"===typeof b&&(b=a.sheet.cssRules&&0===a.sheet.cssRules.length);b&&(a.onerror=null,a.onload=null,a.href?a.href=et_site_url+"/?et_core_page_resource="+a.id+et_post_id:a.src&&(a.src=et_site_url+"/?et_core_page_resource="+a.id+et_post_id))}
+
+
+
+
+
+
+
+
+
+
+
+
+{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.herffjones.com\/","name":"Herff Jones","alternateName":"Herff Jones, a Varsity Achievement Company","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.herffjones.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}
+{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/www.herffjones.com\/about\/careers\/job-openings\/","sameAs":[],"@id":"#organization","name":"Herff Jones","logo":"https:\/\/content.herffjones.com\/wp-content\/uploads\/2016\/01\/HJ_Varsity_1_RGB_no_bleed.jpg"}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+	var gtm4wp_datalayer_name = "dataLayer";
+
+	var dataLayer = dataLayer || [];
+
+	dataLayer.push({"pagePostType":"page","pagePostType2":"single-page","pagePostAuthor":"Amos Haffner"});
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'//www.googletagmanager.com/gtm.'+'js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-M62WNV');
+
+
+
+        
+    
+    
+        
+
+
+    
+	
+		
+			
+				
+			
+			Products
+Resources
+		
+		
+			
+				800.837.4235			
+			About
+FAQs
+Customer Service
+		
+	
+
+    
+
+
+    
+    
+                
+        
+        
+            
+            
+            
+            Personalize your experience! Enter your school name here.
+            Search for your school.
+            
+        
+        
+        
+        
+            
+            
+                        
+        
+        
+    
+    
+    
+    
+    
+        
+            
+            About            
+            CareersWe Are Herff JonesCorporate ResponsibilityOur Brand FamilyOur HistoryPress Releases            
+        
+        
+                
+    
+    
+    Job OpeningsOur Benefits    
+    
+
+    
+    
+        
+            
+        
+    
+    
+    Shop Products -->
+    Shop Products
+
+    
+
+    
+    
+
+
+
+
+    
+
+
+    
+    
+                
+        
+        
+            
+            
+            
+            Personalize your experience! Enter your school name here.
+            Search for your school.
+            
+        
+        
+        
+        
+            
+            
+                        
+        
+        
+    
+    
+    
+    About
+FAQs
+Customer Service
+    
+    Products
+Resources
+
+
+
+
+
+Job Openings&nbsp;CareersJob OpeningsOur BenefitsWe Are Herff JonesPartner with UsCorporate ResponsibilityBelieve In YouSustainabilitySt. Jude PartnershipGiving BackOur Brand FamilyOur HistoryPress ReleasesHerff Jones NewsHerff Jones ProductsCommunity News    
+
+
+    
+        
+    
+                        
+            
+            
+                Join us at the intersection of achievement and inspiration.
+
+
+                
+                		                
+	                
+                
+                
+            
+            
+        
+        
+        
+
+
+        
+                
+
+    
+    
+        
+    
+                        
+                        
+                                
+                                
+                    
+                    
+                                                
+                    
+                
+                                
+                                
+                                
+                        
+                                
+                                
+                    
+                    
+                                                
+                    
+                
+                                
+                                
+                    
+        
+    
+    
+    
+        
+        
+        
+            
+            
+                
+            
+                    FAQs
+Find A Rep
+Customer Service
+Careers
+
+                    Terms &#038; Conditions
+Privacy
+                        
+                
+                
+                
+                
+                    
+                        800.837.4235
+                        © 2017 HERFF JONES. ALL RIGHTS RESERVED.                    
+
+                    
+                                            
+                        
+                    
+                    
+                
+                
+            
+            
+        
+        
+        
+
+
+    
+    
+        
+        
+            
+            
+        
+        
+        
+        
+        
+        
+            
+            
+                                
+                
+                
+                    
+                    
+                    
+                    Personalize your experience! Enter your school name here.
+                    
+                
+                
+                
+                
+                    
+                    
+                                        
+                
+                
+            
+            
+        
+        
+    
+    
+
+        
+        
+
+    
+
+        
+        
+            
+            
+                
+                
+            
+            
+            
+                
+                Order Status
+                    
+            
+            
+            
+                
+                Generally, the best way to check the status of your order is to contact customer service. To contact Customer Service call 1.800.837.4235, or fill out our customer service form.
+
+                
+                                
+                                
+                    
+                    
+                        
+                            
+                            
+                                Please Select a Category
+                                
+                            
+                            
+                            
+                            
+                                
+                                
+                                                                        
+                                        High School Class Rings
+                                        
+                                                                        
+                                        High School Graduation Products
+                                        
+                                                                        
+                                        College Rings
+                                        
+                                                                        
+                                        College Graduation Products
+                                        
+                                                                        
+                                        Yearbooks
+                                        
+                                                                    
+                                
+                                
+                            
+                        
+                        
+                        
+                        
+                        
+                                                        
+                                
+                                
+                                    
+                                    
+                                        HIGH SCHOOL CLASS RINGS:
+Class rings are custom made just for you! Rings generally are delivered 8-12 weeks after ordering takes place in school.
+                                    
+                                    
+                                    
+                                    
+                                    
+                                        Go Back
+                                    
+                                    
+                                    
+                                
+                                
+                                                        
+                                
+                                
+                                    
+                                    
+                                        HIGH SCHOOL GRADUATION PRODUCTS:
+Graduation announcements and other senior products purchased in school are either provided at the time of purchase or are commonly delivered in the February to April timeframe. Caps and gowns are typically delivered very close to graduation. Specific details regarding delivery will be communicated through your school.
+                                    
+                                    
+                                    
+                                    
+                                    
+                                        Go Back
+                                    
+                                    
+                                    
+                                
+                                
+                                                        
+                                
+                                
+                                    
+                                    
+                                        COLLEGE RINGS
+College rings are delivered 8-12 weeks after the order has been placed. All rings shipping to a residential or business address will be shipped via FedEx. All rings shipping to a PO Box or General Delivery will be shipped via the U.S. Postal Service (USPS).
+                                    
+                                    
+                                    
+                                    
+                                    
+                                        Go Back
+                                    
+                                    
+                                    
+                                
+                                
+                                                        
+                                
+                                
+                                    
+                                    
+                                        COLLEGE GRADUATION PRODUCTS
+Caps &amp; Gowns may be distributed on campus or shipped to you directly, depending on your school’s preference and your selection at time of order. Bulk distribution dates will be communicated through your school. For direct ship orders, please allow 2-3 weeks for manufacturing. Once your order ships, a shipment confirmation email including the tracking number will be sent to the email address provided. Graduation Announcements are shipped directly to the address listed at time of order. Graduation announcements should arrive within 12 – 15 business days.
+                                    
+                                    
+                                    
+                                    
+                                    
+                                        Go Back
+                                    
+                                    
+                                    
+                                
+                                
+                                                        
+                                
+                                
+                                    
+                                    
+                                        YEARBOOKS
+Unless your school offers a home mailing option and you have paid for that separately, distribution will occur on campus at a time scheduled and announced by your school.
+                                    
+                                    
+                                    
+                                    
+                                    
+                                        Go Back
+                                    
+                                    
+                                    
+                                
+                                
+                                                    
+                        
+                        
+                    
+                    
+                                
+            
+            
+        
+        
+    
+
+        
+        
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+        
+    
+    

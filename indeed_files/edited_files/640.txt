@@ -1,0 +1,496 @@
+
+
+
+
+.pagination-disabled {opacity:0.4;}
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o
+
+	Jobs Portal Page
+
+	
+
+	
+
+	
+
+	
+
+	
+
+		.sans11 {font-family: verdana, arial, helvetica; font-size: 11px }
+
+		.sansbold15 {font-family: verdana, arial, helvetica; font-size: 15px; font-weight:bold }
+
+		
+
+		LI.SCHeader {
+
+			PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-IMAGE: url(/agencypageassets/sc/sc-dot.gif); PADDING-BOTTOM: 4px; MARGIN: 0px 3px 3px -12px; PADDING-TOP: 0px
+
+		}
+
+		#vert-gfx {
+
+			BACKGROUND: url(/agencypageassets/sc/jobs-black-vert.gif) no-repeat top center; WIDTH: 144px; HEIGHT: 648px
+
+		}
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Skip to Main Content
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+	
+
+
+	
+
+		
+
+			
+
+				
+
+			
+
+		
+
+	
+
+
+
+	
+
+	
+
+	
+
+		
+
+			Job Title:
+
+			
+
+				Junior Analyst
+
+			
+
+		
+
+		
+
+		
+
+			
+
+				
+
+				Agency: 
+
+				
+
+				
+
+					Retirement System Investment Commission
+
+				
+
+			
+
+		
+
+		
+
+		
+
+			Opening Date:
+
+			
+
+				Mon. 09/18/17
+
+			
+
+		
+
+
+
+		
+
+		
+
+			Closing Date/Time:
+
+			
+
+				Continuous
+
+				
+
+			
+
+		
+
+		  
+
+			
+
+				State Salary Range:
+
+				
+
+					Depends on Qualifications
+
+				
+
+			
+
+			
+
+		
+
+			Agency Hiring Range:
+
+			Min: &nbsp;&nbsp;Max:
+
+		
+
+
+
+		
+
+		
+
+			Job Type:
+
+			FTE - Full-Time
+
+		
+
+		
+
+			Location:
+
+			
+
+				Richland County, South Carolina
+
+			
+
+		
+
+
+
+
+
+	
+
+		
+
+			
+
+				Normal Work Schedule:
+
+				Monday - Friday (8:30 - 5:00)
+
+			
+
+		
+
+
+
+
+
+
+
+		
+
+			&nbsp;
+
+		
+
+	
+
+
+
+	
+
+	
+
+		
+
+			
+
+					Print Job Information |
+
+				
+
+					Apply
+
+				
+
+			&nbsp;
+
+		
+
+		
+
+
+
+		
+
+
+
+		
+
+			
+
+				&nbsp;
+
+			
+
+			
+
+				
+
+					
+
+					
+
+						Job Responsibilities&nbsp;
+
+						
+
+						
+
+							Benefits&nbsp;
+
+						
+
+							Supplemental Questions
+
+						
+
+							Additional
+
+						
+
+					
+
+					&nbsp;
+
+				
+
+			
+
+			
+
+				
+
+					Are you passionate about global financial markets? Do you wake up and check the futures markets? Is your career goal to manage emerging market equities, to work in private equity, or manage a hedge fund portfolio? Are you looking for a place to jump start your career, get valuable on-the-job and classroom training, gain exposure to multi-asset investing, and work on live deals where your work translates into investment decisions? If so, then the Analyst Development Program ("ADP") at the South Carolina Retirement System Investment Commission ("RSIC") may be for you. The ADP seeks to develop aspiring investment professionals by providing on-the-job learning opportunities across the organization. Your work will include projects and rotations across public and private equity, fixed income, credit, alternatives (commodities and hedge funds), risk management, performance measurement and reporting, and investment and operational due diligence.Company DescriptionThe South Carolina Retirement Systems Investment Commission is responsible for the management of the assets (approximately $28 billion) of the South Carolina Retirement Systems and has a widely diversified portfolio which includes both traditional and alternative asset classes. The RSIC invests money on behalf of approximately 500,000 current, retired, and inactive employees of the State of South Carolina and their beneficiaries.
+
+				
+
+				
+
+					
+
+						
+
+							&nbsp;Minimum and Additional Requirements:
+
+						
+
+					
+
+					
+
+					
+
+						The right candidate will possess the following qualifications:&bull;&nbsp;Undergraduate or graduate degree in disciplines which develop a solid quantitative analysis understanding and ability (e.g. business, finance, economics, mathematics, physics, engineering, etc.).&bull;&nbsp;3 months or longer of appropriate investment knowledge and experience gained through internship or full time employment at an investment firm or an institutional investor such as a pension fund, endowment, or fund of funds, or other investment experience such as M&amp;A, corporate finance, investment banking, etc.&bull;&nbsp;Qualitative and quantitative analytical skills.&bull;&nbsp;Investment curiosity and passion for investing including interest and/or experience in fundamental investment research and presentation development and investment recommendations.&bull;&nbsp;Interest in and exposure to multi-asset investing.&bull;&nbsp;Excellent oral and written communication skills.&bull;&nbsp;Excellent interpersonal skills.&bull;&nbsp;Interest in obtaining CFA or CAIA certification.&bull;&nbsp;Ability to be flexible and work on multiple projects simultaneously.&bull;&nbsp;Ability to work well within a team environment or independently.&bull;&nbsp;Proficiency in Microsoft Excel, Microsoft PowerPoint.&bull;&nbsp;Ability to travel up to 5% of the time during the year.
+
+					
+
+				
+
+					
+
+						
+
+							&nbsp;Preferred Qualifications:
+
+						
+
+					
+
+					
+
+						Preferred qualifications include:&bull;&nbsp;CFA or CAIA certification or progression toward CFA/CAIA certification.&bull;&nbsp;Interest and/or experience in data management and analysis.&bull;&nbsp;Experience with Bloomberg, eVestment, and Zephyr StyleAdvisor.&bull;&nbsp;Computer programming skills (R, Python, Matlab).The right candidate will possess the following characteristics:&bull;&nbsp;Strong professional standards, quality focus, ethical standards, personal integrity and humility.&bull; Investment curiosity and a passion for investing.&bull; Attention to detail.&bull; Capacity to delve into detailed data, and produce and communicate well-reasoned and succinct analysis.
+
+					
+
+				
+
+			
+
+			  	&nbsp;
+
+			
+
+		
+
+	
+window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"89019a8e50","agent":"","beacon":"bam.nr-data.net","applicationTime":22,"applicationID":"4449204","transactionName":"NlAGYxEFC0RWBhUIDQ8aN1IREglSQ0oiBw8yUBZBDwER","queueTime":0} 	
+
+	
+
+	
+
+		Employment Opportunities
+
+		How to Apply
+
+		Applicant FAQs
+
+		Notify About Future Job Vacancies
+
+		DSHR Home Page
+
+		
+
+
+
+
+
+
+
+		
+
+		
+
+			Department Name:
+
+			Retirement System Investment Commission
+
+		
+
+
+
+			
+
+			
+
+				Address:
+
+				
+
+					1201 Main Street, Ste. 1510&nbsp;
+
+					&nbsp;
+
+					Columbia,&nbsp;
+
+					SC&nbsp;
+
+					29201
+
+					&nbsp;Map/Directions
+
+				
+
+			
+
+			
+
+			
+
+				Phone:
+
+				803-737-6885
+
+			
+
+			
+
+			
+
+	
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	THE LANGUAGE USED IN THIS DOCUMENT DOES NOT CREATE AN EMPLOYMENT CONTRACT BETWEEN THE EMPLOYEE AND THE AGENCY. THIS DOCUMENT DOES NOT CREATE ANY CONTRACTUAL RIGHTS OR ENTITLEMENTS. THE AGENCY RESERVES THE RIGHT TO REVISE THE CONTENT OF THIS DOCUMENT, IN WHOLE OR IN PART. NO PROMISES OR ASSURANCES, WHETHER WRITTEN OR ORAL, WHICH ARE CONTRARY TO OR INCONSISTENT WITH THE TERMS OF THIS PARAGRAPH CREATE ANY CONTRACT OF EMPLOYMENT.
+
+	
+
+	
+
+
+
+
+
+
+
+		#bottom .CBMS_Header h4, #bottom .CBMS_SelectedList h4 {
+
+			color: #000;
+
+			font-size: 12px;
+
+		}
+
+		#tblNEOGOVSearchCriteria {
+
+			clear: right;
+
+		}
+
+		.CBMS_Checklist {
+
+			border: none;
+
+		}
+
+	
+
+
+
+
+

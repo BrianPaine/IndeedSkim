@@ -1,0 +1,1250 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    select:focus, a:focus {
+
+        outline: #1e90ff solid 2px
+
+    }
+
+
+
+    input[type=submit] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=button] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=submit]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=button]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=submit]:focus {
+
+        background: #1e90ff;
+
+    }
+
+
+
+    input[type=button]:focus {
+
+        background: #1e90ff
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane {
+
+        text-align: right;
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane button {
+
+        float: none;
+
+    }
+
+
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+
+        /*border: 1px solid #000;*/
+
+        /*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .alert-error {
+
+        color: #990000;
+
+        font-weight: bold;
+
+    }
+
+
+
+    td.top {
+
+        vertical-align: top !important;
+
+    }
+
+
+
+    td.left {
+
+        float: none;
+
+        text-align: left;
+
+    }
+
+
+
+    td.right {
+
+        float: none;
+
+        text-align: right;
+
+    }
+
+
+
+    .nowrapFormLabel {
+
+        white-space: nowrap;
+
+        text-align: right;
+
+    }
+
+
+
+    h1 {
+
+        font-size: 120%
+
+    }
+
+
+
+    h2 {
+
+        font-size: 110%
+
+    }
+
+
+
+    h3 {
+
+        font-size: 100%
+
+    }
+
+
+
+    .hidden-accessibility-text {
+
+        position: absolute;
+
+        left: -2000px;
+
+        top: 0;
+
+        width: 1;
+
+        height: 1;
+
+        overflow: hidden;
+
+        font-size: 0.1em;
+
+    }
+
+
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+
+    .ofcc305table textfield, .ofcc305table select,
+
+    .ofcc305table input, .ofcc305table a {
+
+        font-size:12px !important;
+
+        font-family:Arial,sans-serif,Helvetica !important;
+
+    }
+
+
+
+    #cws-search-results th, #cws-job-alerts th {
+
+        border-top: #CCCCCC 2px solid;
+
+        border-bottom: #CCCCCC 2px solid;
+
+    }
+
+
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+
+        border-bottom: #CCCCCC 2px solid;
+
+        padding-bottom: 3px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+
+  VillageCare :: Careers
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+#taleoContent {
+
+padding: 0px;
+
+margin: 0px;
+
+margin-top: 15px;
+
+border: none;
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+
+font-size: 11px;
+
+font-size-adjust: none;
+
+font-style: normal;
+
+font-stretch: normal;
+
+font-weight: normal;
+
+font-variant: normal;
+
+line-height: normal;
+
+letter-spacing: normal;
+
+text-align: left;
+
+text-decoration: none;
+
+text-indent: 0px;
+
+text-shadow: none;
+
+text-transform: none;
+
+white-space: normal;
+
+word-spacing: normal;
+
+}
+
+
+
+#taleoContent td, #taleoContent th {
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+
+font-size: 11px;
+
+font-size-adjust: none;
+
+font-style: normal;
+
+font-stretch: normal;
+
+font-weight: normal;
+
+font-variant: normal;
+
+line-height: normal;
+
+letter-spacing: normal;
+
+text-align: left;
+
+text-decoration: none;
+
+text-indent: 0px;
+
+text-shadow: none;
+
+text-transform: none;
+
+white-space: normal;
+
+word-spacing: normal;
+
+  padding-top:5px;
+
+  padding-bottom:5px;
+
+  padding-right:5px;
+
+  padding-left:5px;
+
+}
+
+
+
+#taleoContent textarea {
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+
+font-size: 11px;
+
+font-size-adjust: none;
+
+font-style: normal;
+
+font-stretch: normal;
+
+font-weight: normal;
+
+font-variant: normal;
+
+height: auto;
+
+width: auto;
+
+
+
+}
+
+
+
+#taleoContent textfield {
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+
+font-size: 11px;
+
+font-size-adjust: none;
+
+font-style: normal;
+
+font-stretch: normal;
+
+font-weight: normal;
+
+font-variant: normal;
+
+height: auto;
+
+width: auto;
+
+
+
+}
+
+
+
+#taleoContent select {
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+
+font-size: 11px;
+
+font-size-adjust: none;
+
+font-style: normal;
+
+font-stretch: normal;
+
+font-weight: normal;
+
+font-variant: normal;
+
+height: auto;
+
+width: auto;
+
+}
+
+
+
+#taleoContent input {
+
+font-family: Verdana, Arial, Helvetica, sans-serif;
+
+font-size: 11px;
+
+font-size-adjust: none;
+
+font-style: normal;
+
+font-stretch: normal;
+
+font-weight: normal;
+
+font-variant: normal;
+
+height: auto;
+
+width: auto;
+
+}
+
+
+
+#taleoContent table {width: 100%;}
+
+
+
+
+
+label {white-space:nowrap;}
+
+
+
+#graybox_big {
+
+
+
+padding-top: 0;
+
+margin-top: 0;
+
+
+
+}
+
+
+
+hr {
+
+color: white;
+
+}
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+    
+
+      
+
+        VCNY
+
+        	
+
+          
+
+            
+
+            
+
+          
+
+          
+
+  function jump(link){
+
+    //alert(link);
+
+    document.location=link;
+
+  }
+
+
+
+
+
+
+
+  I'm looking for...
+
+  Residential Care
+
+  Community Care
+
+  VillageCareMAX
+
+  Career Opportunities
+
+  News & Press Releases
+
+  Volunteer Opportunities
+
+  Making A Donation
+
+  Events Info
+
+
+
+
+
+        
+
+        
+
+          
+
+  
+
+      
+
+        Home
+
+          
+
+
+
+      
+
+      
+
+        About Us
+
+          
+
+
+
+      
+
+      
+
+        Community
+
+          
+
+  
+
+      
+
+        AIDS Adult Day Health Care
+
+      
+
+     
+
+        Community Case Management
+
+      
+
+     
+
+        Empowerment Center
+
+      
+
+     
+
+        Adult Protective Services
+
+      
+
+      
+
+        VillageCare at 46 & Ten
+
+      
+
+      
+
+  
+
+
+
+      
+
+      
+
+        Post-Acute Care 
+
+          
+
+  
+
+      
+
+      
+
+        
+
+        VillageCare Rehabilitation & Nursing Center
+
+      
+
+ 
+
+        VillageCare Home Care
+
+      
+
+  
+
+
+
+      
+
+      
+
+        VillageCareMAX
+
+      
+
+      
+
+        Join Our Team
+
+      
+
+      
+
+        Volunteer
+
+      
+
+          
+
+        Events
+
+      
+
+        Donate
+
+      
+
+        
+
+      
+
+
+
+      
+
+  
+
+  
+
+    Careers
+
+    
+
+  
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+        Home
+
+      » Careers
+
+    
+
+    
+
+      
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function jobAlertShowEmailSection() {
+   document.theForm.showEmailSection.value = true;
+   document.theForm.submit();
+}
+function cancelForm() {
+   document.loginForm.showPwdSection.value=false;
+   document.loginForm.showEmailSection.value=false;
+   document.loginForm.action=document.theForm.action;
+   document.loginForm.submit();
+}
+ CwsDWRFacade._path = 'http://chc.tbe.taleo.net/chc01/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; 
+
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chc.tbe.taleo.net/chc01/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chc.tbe.taleo.net/chc01/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();
+
+
+
+
+
+
+
+
+
+
+
+
+Back to Search Results
+
+
+New Search
+
+
+Data Analyst
+
+
+Program:
+VillageCareMAX
+
+
+Location:
+Manhattan
+
+
+Employment Duration:
+Regular Full-Time
+
+
+Job Code:
+1737
+
+
+Standard Weekly Hours:
+35
+
+
+
+About VillageCare
+
+
+VillageCare is a community-based, non-profit organization serving people with chronic care needs, as well as seniors and individuals in need of continuing care and rehabilitation services. VillageCare provides care and services for more than 12,000 unique individuals annually through its residential and community programs.  Guided by the people we serve, we provide leadership to improve the health and quality of life of the diverse communities we serve and the quality of care and well-being of the people we serve.
+
+
+
+Description
+Description:  VillageCareMax is seeking a Data Analyst for a full-time in house position. The qualified candidate will provide analytical support across business functions including, but not limited to, care management, utilization management, quality, business operations, compliance, and claims. &nbsp;The position is an integral part of Analytics team, competent to work with various teams and capable of independently carrying out all essential data related tasks:
+
+
+
+&nbsp;
+
+
+
+Responsibilities:
+
+
+
+
+
+	Compiles, analyzes and interprets varied and complex healthcare, clinical and utilization data for Analytics department, supporting across business functions including, but not limited to, care management, utilization management, quality, business operations, compliance, and claims
+
+	Develop and maintain customized reports and dashboards for various departments using various tools (SQL, Access, Excel, BI Tools, etc.)
+
+	Ability to run complex queries, manipulates, transform, and generate reports using SQL, MS Access, MS Excel, and BI tools
+
+	Work with VillageCare IT department in automation of information through dashboard development to track or monitor metrics or data, subsequent to analysis, including validation and testing. Participates in the design and development of dashboards that will automate the collection or analyzing of data
+
+	Works closely with all levels of business users to clearly define reporting requirements in support of strategic decision making.This includes standard reports, ad-hoc analysis, dashboards, and scorecards
+
+	Utilize various software tools and identify the best format to present and communicate data to provide clear, concise and easy&ndash;to-understand information&nbsp;
+
+	Perform other duties and responsibilities as assigned 
+
+
+
+
+
+&nbsp;
+
+
+
+Requirements:
+
+
+
+Education: Bachelor&#39;s degree in Computer Science, Mathematics, Statistics, Engineering or other relevant field required.&nbsp; Having a master&#39;s degree in a related field is highly preferred.
+
+
+
+**This role is not a Remote position and we do not provide&nbsp;sponsorship**&nbsp;
+
+
+
+Experience:
+
+
+
+
+
+	Minimum of 2-5&nbsp;years&rsquo; experience in business intelligence and analytics performing increasingly complex data analysis and report/dashboard development, preferably in a health care setting
+
+
+
+
+
+
+
+	Advanced proficiency skills in Access ( criteria statements , database and report creation), SQL programming ( write complex, highly-optimized queries) , and Excel (Macros, etc.), required
+
+	Programming experience using statistical tools (i.e. SAS, R, SPSS, etc.) preferred
+
+	Familiarity with Business Intelligence Tools (Tableau, MicroStrategy) is a huge plus
+
+	Knowledge of data warehousing methodologies, principles, and platforms a plus
+
+	Extensive business understanding of healthcare industry; Familiar with clinical, enrollment and utilization data preferred
+
+	Ability to utilize other data management systems to pull and analyze information to draw conclusions and recommendations
+
+	Ability to communicate analytical findings both orally and in written form
+
+	Strong work ethic
+
+	Willingness to question the validity and accuracy of data
+
+	Ability to work collaboratively as part of a team and independently as needed
+
+	Strong analytical and logical skills paired with strong attention to detail
+
+	Ability to work under pressure and meet deadlines
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Are you a returning applicant?
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Applicants:
+
+
+Email:
+
+
+
+
+
+Password:
+
+
+
+
+
+If you do not remember your password click here.
+
+
+
+
+Back to Search Results
+
+
+New Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        //jQuery Calendar
+
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchc.tbe.taleo.net/chc01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+
+    
+
+
+
+
+
+
+
+    
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+    
+
+    
+
+    
+
+  
+
+
+
+
+
+
+
+  
+
+  
+
+    
+
+      
+
+        
+
+
+
+VillageCare
+
+120 Broadway Suite 2840
+
+New York, NY 10271
+
+212.337.5600
+
+info@villagecare.org
+
+
+
+
+
+ 
+
+
+
+      
+
+    
+
+    
+
+
+
+HIPAA | WEB PRIVACY POLICY | SITE MAP | CONTACT US | RECEIVE OUR NEWSLETTER | COMPLIANCE POLICY
+
+ 
+
+ 
+
+
+
+  
+
+
+
+
+
+    
+
+    
+
+  
+
+  
+
+  
+
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+  
+
+  
+
+  var pageTracker = _gat._getTracker("UA-3812536-1");
+
+  pageTracker._initData();
+
+  pageTracker._trackPageview();
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

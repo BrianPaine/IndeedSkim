@@ -1,0 +1,312 @@
+
+       
+          
+          
+  <!--
+    
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Excel / Data Analyst | WinterWyman
+        
+        
+
+
+         stLight.options({ publisherGA:"UA-3418174-1" }); 
+        
+
+
+
+
+
+
+
+
+
+
+        
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NL8VC7B');
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+    
+    
+        
+            You are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience.
+        
+                		
+
+		
+			
+				  
+    
+
+    
+  
+    WinterWyman Home
+Facebook
+LinkedIn
+Twitter
+AboutWelcome to WinterWyman
+Meet Our Team
+WinterWyman Contract Staffing
+WinterWyman Executive Search
+WinterWyman Search
+Community Development
+In the News
+
+Contact
+Blog
+  
+
+
+
+    
+  
+    
+      Search form
+    
+  Search 
+ 
+
+
+
+
+  
+
+  
+			
+
+			
+
+			
+				                                        					
+						
+						
+					
+				
+									
+						
+													Our talent is finding talent.
+											 
+							
+
+			
+		 
+
+		
+			
+				- Any -				New England
+				New York
+			
+
+			
+				- Any -				New England
+				New York & New Jersey
+			
+
+			
+				- Any -				
+					Accounting &amp; Finance
+				
+				
+					Human Resources
+				
+				
+					Information Technology
+				
+				
+					Quality Assurance
+				
+				
+					Software Technology
+				
+			
+
+			
+				- Any -				
+					Accounting &amp; Finance
+				
+				
+					Technology
+				
+			
+
+			
+				- Any -				
+					Accounting, Finance & Admin
+				
+				
+					Human Resources
+				
+				
+					Technology
+				
+			
+
+			
+				- Any -				
+					Accounting, Finance & Admin
+				
+				
+					Technology
+				
+			
+
+
+		
+
+		
+					You are hereHome » Job Search » Excel / Data Analyst
+		
+		
+		
+
+			
+								
+				
+								Excel / Data Analyst 																				  
+    
+
+    
+  
+    
+
+  
+      
+  
+  
+          
+        
+Excel / Data Analyst
+
+Contract Position 
+
+
+A client in Boston seeks an Excel / Data Analyst who has very strong data/Excel proficiency and the ability to forge strong relationships with business and IT stakeholders. A strong mindset for process improvement is also helpful for this role.
+
+&nbsp;
+
+Responsibilities:
+
+Help resolve data quality problems
+	Collaborate with business subject matter experts
+	Assess root cause of data quality issues
+	Help with addressing different errors
+Qualifications:
+
+Comprehends strong data quality
+	Very good Excel skills for importing and exporting
+	Very good communication skills
+	Works well with sense of urgency
+Job Id: 160705
+
+&nbsp;
+
+**Please note, our client is considering local candidates only at this time. Thank you!**
+If you are already working with a WinterWyman recruiter, please contact them directly; otherwise, please send your resume and contact information to wwfc@winterwyman.com 
+&nbsp;
+
+&nbsp;
+
+        
+          
+            
+              
+                
+                  api_key: m8zxs35rusze
+                
+                
+                
+              
+            
+          
+         -->
+                    
+              
+                
+                  
+                    
+                    
+                    
+                  
+                
+              
+            
+                                &nbsp;            var nid = 327983;            
+api_key: m8zxs35rusze
+authorize: false
+onLoad: onLinkedInLoaded
+
+                
+
+      Job ID:&nbsp;160705Employment Type:&nbsp;ContractLocation:&nbsp;BostonDate Posted:10/06/2017
+    
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+
+  
+							 
+
+			
+			
+			
+		 
+
+		
+			  
+    
+
+    
+  
+    © 2017 WinterWyman &nbsp; &nbsp; &nbsp;&nbsp;Waltham&nbsp;&nbsp; &nbsp;&nbsp;|&nbsp;&nbsp; &nbsp;&nbsp;Boston&nbsp;&nbsp; &nbsp;&nbsp;|&nbsp;&nbsp; &nbsp;&nbsp;NYC&nbsp;&nbsp; &nbsp;&nbsp;| &nbsp; &nbsp; Privacy Policy &nbsp;&nbsp; | &nbsp; &nbsp; Careers  
+
+  
+		 
+
+	 
+        		
+        
+        
+        
+        
+        
+        
+         _linkedin_data_partner_id = "90667";  (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})();    
+    
+

@@ -1,0 +1,816 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+      Paysbig
+      
+      
+      
+      
+      
+      
+	
+      
+
+ -1;
+ var isFF4 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/4' ) != -1 );
+ var isFF5 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/5' ) != -1 );
+ var isFF6 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/6' ) != -1 );
+ var isFF7 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/7' ) != -1 );
+ var isFF8 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/8' ) != -1 );
+ var isFF9 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/9' ) != -1 );
+ var isFF10 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/10' ) != -1 );
+ var isFF11 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/11' ) != -1 );
+ var isFF12 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/12' ) != -1 );
+ var isFF13 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/13' ) != -1 );
+ var isFF14 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/14' ) != -1 );
+ var isFF15 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/15' ) != -1 );
+ var isFF16 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/16' ) != -1 );
+ var isFF17 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/17' ) != -1 );
+ var isFF18 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/18' ) != -1 );
+ var isFF19 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/19' ) != -1 );
+ var isFF20 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/20' ) != -1 );
+ var isFF21 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/21' ) != -1 );
+ var isFF22 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/22' ) != -1 );
+ var isFF23 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/23' ) != -1 );
+ var isFF24 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/24' ) != -1 );
+ var isFF25 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/25' ) != -1 );
+ var isFF26 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/26' ) != -1 );
+ var isFF27 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/27' ) != -1 );
+ var isFF28 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/28' ) != -1 );
+ var isFF29 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/29' ) != -1 );
+ var isFF30 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/30' ) != -1 );
+ var isFF31 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/31' ) != -1 );
+ var isFF32 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/32' ) != -1 );
+ var isFF33 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/33' ) != -1 );
+ var isFF34 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/34' ) != -1 );
+ var isFF35 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/35' ) != -1 );
+ var isFF36 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/36' ) != -1 );
+ var isFF37 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/37' ) != -1 );
+ var isFF38 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/38' ) != -1 );
+ var isFF39 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/39' ) != -1 );
+ var isFF40 = ( navigator.userAgent.toLowerCase().indexOf( 'firefox/40' ) != -1 );
+ var isFF4plus = isFF4 || isFF5 || isFF6 || isFF7 || isFF8 || isFF9 || isFF10 || isFF11 || isFF12 || isFF13 || isFF14 || isFF15 || isFF16 || isFF17 || isFF18 || isFF19 || isFF20 || isFF21 || isFF22 || isFF23 || isFF24 || isFF25 || isFF26 || isFF27 || isFF28 || isFF29 || isFF30 || isFF31 || isFF32 || isFF33 || isFF34 || isFF35 || isFF36 || isFF37 || isFF38 || isFF39 || isFF40;
+ var keyFilter = [9, 37, 38, 39, 40];
+ function selectAll(txt) {
+   txt.select();
+   txt.focus();
+ }
+ function keyHandler(evnt, max) {
+  var str = (isNS)?evnt.target.value:evnt.srcElement.value;
+  var key = (isNS)?evnt.which:evnt.keyCode;
+  var name = (isNS)?evnt.target.name:evnt.srcElement.name;
+  if (isProcessKeyType(key)) {
+   if (str.length >= max) {
+    var esize = document.forms[0].elements.length;
+    for (i=0; i= esize) {
+      ndx = 0;
+     }
+    }
+    document.forms[0].elements[ndx].focus();
+   }
+  }
+ }
+ function isProcessKeyType(key) {
+   for (i=0; i 
+function preloadImages( imgArray ) { 
+  var tmpImageList = new Array (); 
+  for (counter in imgArray) { 
+     tmpImageList[counter] = new Image(); 
+     tmpImageList[counter].src = imgArray[counter]; 
+  } 
+} 
+        function menuHoverToggle(t) {            st = t.src;            start = st.indexOf("_select.gif");            if (start > 0) {                  st = st.substring(0, start);                  st = st+".gif";                  t.src = st;            } else {                  start = st.indexOf(".gif");                  if (start > 0) {                        st = st.substring(0, start);                        st = st+"_select.gif";                        t.src = st;                  }            }         } 
+function textAreaRestrict(tac, rs) {
+  var cname=tac.name+".tacounter";
+  var ta = window.document.getElementById(cname);
+  var cnt = tac.value.length;
+  if (cnt >= rs) {
+     tac.value = tac.value.substring(0, rs);
+     ta.style.background="#FF1111";
+  } else {
+     ta.style.background="#EEEEEE";
+  }
+  ta.innerHTML=cnt+' of '+rs;
+}
+function initComponentAjax(url) { 
+var componentReq; 
+  if (window.XMLHttpRequest) { 
+     componentReq = new XMLHttpRequest(); 
+  } else if (window.ActiveXObject) { 
+     componentReq = new ActiveXObject('Microsoft.XMLHTTP'); 
+  } 
+  componentReq.open('POST', url, true); 
+  componentReq.onreadystatechange =  
+function componentRequest() { 
+  if (componentReq.readyState == 4) { 
+      if (componentReq.status == 200) { 
+           var changeId = componentReq.getResponseHeader("changeId"); 
+           var urlstr = componentReq.responseText;  
+           var tarNode = window.document.getElementById(changeId); 
+           if(changeId) { 
+             if(changeId.indexOf('client') != -1) { 
+               if(clientGC) { 
+					       _gaq.push(['_setAccount', clientGC]); 
+					       _gaq.push(['_trackPageview', changeId]); 
+                 if(clientRUGC) { 
+                   _gaq.push(['b._setAccount', clientRUGC]);
+                   _gaq.push(['b._trackPageview', changeId]);
+                 } 
+               } 
+             } else if((changeId.indexOf('content') != -1)||(changeId.indexOf('internal') != -1)) { 
+               if(canGC) { 
+					       _gaq.push(['_setAccount', canGC]); 
+					       _gaq.push(['_trackPageview', changeId]); 
+                 if(canRUGC) { 
+                   _gaq.push(['b._setAccount', canRUGC]);
+                   _gaq.push(['b._trackPageview', changeId]);
+                 } 
+               } 
+             } 
+           } 
+           if(isNS) { 
+               var newNode = tarNode.cloneNode(false); 
+               newNode.innerHTML='a'+urlstr; 
+               tarNode.parentNode.replaceChild(newNode, tarNode); 
+               if(isCr || isFF4plus || isNS) { 
+                   var scripts = newNode.getElementsByTagName('script'); 
+                   for(i=0; i<scripts.length; i++) { 
+                       window[ "eval" ].call( window, scripts[i].innerHTML ); 
+                   } 
+               } 
+           } else { 
+               var newNode = tarNode.cloneNode(false); 
+               tarNode.parentNode.replaceChild(newNode, tarNode); 
+               newNode.innerHTML='a'+urlstr; 
+                   var scripts = newNode.getElementsByTagName('script'); 
+                   var i = 0; 
+                   for(i=0; i 0) { 
+             var instPkg = eval( "(" + ajReq.responseText + ")" );  
+             for(idx in instPkg.elements) { 
+                 var element = instPkg.elements[idx]; 
+                 window.document.getElementById(element.id).innerHTML = element.html; 
+             } 
+             for(idx in instPkg.fields) { 
+                 var field = instPkg.fields[idx]; 
+                 window.document.getElementById(field.name).value = field.value; 
+             } 
+          } 
+        } 
+     } 
+  } 
+  ajReq.send(null); 
+} 
+function initInstAjaxWithPagin(url) { 
+  if (window.XMLHttpRequest) { 
+     ajReq = new XMLHttpRequest(); 
+  } else if (window.ActiveXObject) { 
+     ajReq = new ActiveXObject('Microsoft.XMLHTTP'); 
+  } 
+  ajReq.open('POST', url, true); 
+  ajReq.onreadystatechange = function() { 
+     if (ajReq.readyState == 4) { 
+        if (ajReq.status == 200) { 
+          if (ajReq.responseText.length > 0) { 
+             var instPkg = eval( "(" + ajReq.responseText + ")" );  
+             for(idx in instPkg.elements) { 
+                 var element = instPkg.elements[idx]; 
+                 window.document.getElementById(element.id).innerHTML = element.html; 
+             } 
+             for(idx in instPkg.fields) { 
+                 var field = instPkg.fields[idx]; 
+                 window.document.getElementById(field.name).value = field.value; 
+             } 
+if(typeof toppaginationscript === 'function') { 
+toppaginationscript(); 
+} 
+if(typeof bottompaginationscript === 'function') { 
+bottompaginationscript(); 
+} 
+          } 
+        } 
+     } 
+  } 
+  ajReq.send(null); 
+} 
+function getData(urlval,modal,title)  {
+ var myModal = $('#'+modal);
+ modalBody = $('#'+modal+' .modal-body');
+ modalTitle = $('#'+modal+' .modal-header .modal-title');
+ modalTitle.html(title);
+ modalBody.html("Loading data..");
+ modalBody.load(urlval);
+ myModal.modal('show');
+ }
+function formPop(url) {
+   var body = document.getElementsByTagName("body")[0];
+   var div = document.createElement("div");
+   var closer = document.createElement("closer");
+   closer.style.position = "absolute";
+   var yloc = body.scrollTop+20;
+   yloc = yloc+"px";
+   closer.style.top = yloc;
+   closer.style.left = "30px";
+   closer.style.width = "800px";
+   closer.style.height = "20px";
+   closer.style.textAlign = "right";
+    if (document.all) {
+          div.style.filter = "alpha(opacity:95)";
+    } else {
+          div.style.opacity = "0.95";
+    }
+    closer.style.backgroundImage="url(images/icons/nav_bar.gif)";
+    closer.style.backgroundRepeat="repeat-x";
+    closer.innerHTML="X&nbsp;&nbsp;";
+   closer.style.fontSize = "14px";
+   closer.style.fontStyle = "italic";
+   closer.style.color="#680000";
+   closer.style.fontFamily = "franklin gothic medium,georgia,verdana";
+   div.style.position = "absolute";
+   yloc = body.scrollTop+40;
+   yloc = yloc+"px";
+   div.style.top = yloc;
+   div.style.left = "30px";
+    if (document.all) {
+          div.style.width = "800px";
+    } else {
+          div.style.width = "775px";
+    }
+   div.style.height = "600px";
+   div.style.margin = "0px 0 0 0px";
+   div.style.border = "3px ridge #EEEEEE";
+   div.style.padding = "10px";
+    if (document.all) {
+          div.style.filter = "alpha(opacity:95)";
+    } else {
+          div.style.opacity = "0.95";
+    }
+   div.style.backgroundColor = "#CCCCCC";
+   div.style.fontSize = "12px";
+   div.style.lineHeight = "12px";
+   div.style.textAlign = "center";
+   div.style.overflow = "auto";
+    div.id = "formpopparent";
+   body.appendChild(closer);
+   body.appendChild(div);
+    initComponentAjax(url);
+   closer.onclick = function(e) {
+    if (isNS) {
+      body.removeChild(closer);
+    } else {
+      closer.outerHTML=" ";
+    }
+    var newDiv = document.getElementById('formpopparent'); 
+    body.removeChild(newDiv);
+   }
+};
+function printIt() { 
+  var printReadyElem = document.getElementById("printFormat"); 
+  var docframe = document.getElementById("printFrame"); 
+  if (printReadyElem != null && docframe != null) { 
+   var html = ''; 
+   var headTags = document.getElementsByTagName("head"); 
+   if (headTags.length > 0) { 
+    html += headTags[0].innerHTML; 
+   } 
+   html += ''; 
+   html += printReadyElem.innerHTML; 
+   html += '\n\n'; 
+   var printWin = docframe.contentWindow.document; 
+   printWin.open(); 
+   printWin.write(html); 
+   printWin.close(); 
+   var isIE = (navigator.userAgent.toLowerCase().indexOf( "msie" ) != -1 );
+   if(isIE) { 
+    docframe.contentWindow.document.execCommand('print', false, null);  
+   } else {
+    docframe.contentWindow.focus(); 
+    docframe.contentWindow.print(); 
+   } 
+ } 
+} 
+function bootstrapPrintIt() { 
+ var divContents = document.getElementById("myModalPopulate").getElementsByClassName("modal-body")[0].innerHTML; 
+ var printWindow = window.open(); 
+ printWindow.document.write(''); 
+ printWindow.document.write(''); 
+ printWindow.document.write('@page{margin:0px auto;}'); 
+ printWindow.document.write(''); 
+ printWindow.document.write(''); 
+ printWindow.document.write(divContents); 
+ printWindow.document.write(''); 
+ printWindow.document.close(); 
+ printWindow.print(); 
+} 
+function bootstrapPrintItById(modalId) { 
+ var divContents = document.getElementById(modalId).getElementsByClassName("modal-body")[0].innerHTML; 
+ var printWindow = window.open(); 
+ printWindow.document.write(''); 
+ printWindow.document.write(''); 
+ printWindow.document.write('@page{margin:0px auto;}'); 
+ printWindow.document.write(''); 
+ printWindow.document.write(''); 
+ printWindow.document.write(divContents); 
+ printWindow.document.write(''); 
+ printWindow.document.close(); 
+ printWindow.print(); 
+} 
+var TIMEOUT = 1 /* seconds */* 1000;
+var winPosX, winPosY;
+var winPosTime = new Date().getTime();
+function logWindowClickPos(e) {
+   winPosX = 0;
+   winPosY = 0;
+   if (!e) var e = window.event;
+   if(e) {
+      if (e.pageX || e.pageY) {
+         winPosX = e.pageX;
+         winPosY = e.pageY;
+      }
+      else if (e.clientX || e.clientY) {
+         winPosX = e.clientX + document.body.scrollLeft
+           + document.documentElement.scrollLeft;
+         winPosY = e.clientY + document.body.scrollTop
+           + document.documentElement.scrollTop;
+      }
+   }
+   winPosTime = new Date().getTime();
+   if(typeof(console) !== 'undefined') {
+      console.log('logWindowClick: '+winPosTime);
+   }
+}
+function warningCheck(e, warnMsg) {
+   var leaving = false;
+   now = new Date().getTime();
+   var posx = 0;
+   var posy = 0;
+   if (!e) var e = window.event;
+   if (e.pageX || e.pageY) {
+      posx = e.pageX;
+      posy = e.pageY;
+   }
+   else if (e.clientX || e.clientY) {
+      posx = e.clientX + document.body.scrollLeft
+        + document.documentElement.scrollLeft;
+      posy = e.clientY + document.body.scrollTop
+        + document.documentElement.scrollTop;
+   }
+    var isClick = false;
+   // works for IE, but not FF
+   // clicked X, back, forward, reload, or home
+   if (posy  now) {
+      isClick = true;
+   }
+   if(leaving || !isClick) {
+      return warnMsg;
+   }
+}
+-->
+
+
+
+var _gaq = _gaq || [];
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+      Date();a=s.createElement(o),
+
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js
+      ','ga');
+
+      ga('create', 'UA-11866965-1', 'auto', {'allowLinker': true});
+      ga('send', 'pageview');
+      setTimeout("ga('send', 'event', '15_seconds', 'read');",15000);
+      
+    
+    
+      
+        
+          
+
+
+
+    
+        
+            
+            
+                
+                Toggle navigation
+                
+                
+                
+                
+                
+                
+            
+            
+            
+                
+                
+                    
+                        Job Search
+                    
+					 
+                        View All Positions
+                    
+                    
+                        Help
+                    
+                
+                
+                    
+                        Login
+                    
+                    
+                
+            
+        
+    
+
+
+    
+        
+            
+                &times;
+                Help
+            
+            
+                
+    
+        
+            Frequently Asked Questions
+            
+                
+                    Trouble cutting and pasting your resume in to the window provided
+                    Resume doesn't look like it will fit within the text box provided
+                    Using HTML when formatting your resume within the text box
+                    Targeting your job search 
+                    Selecting more than one choice in a list box 
+                    Printing your resume 
+                    Changing your username and password 
+                    How your Job Spy works 
+                
+            
+        
+    
+
+
+    
+        
+            
+            
+                
+                    
+                        
+                        Trouble cutting and pasting your resume into the window provided
+                    
+                    
+                        
+                        
+                            
+                                Copy the resume from your text document (example: MS Word) by opening/viewing the document and selecting Edit - Select All from the menu bar, then Edit, Copy.
+                                Go back to the enrollment page where you want to paste the resume.
+                                Click into the Resume text box. You will see your curser blinking in the box.
+                                Go to the menu bar at the top of the browser and select Edit, Paste.  This will put the resume into the text area.
+                                View what you have pasted and make sure it is visible within the limits of the box
+                            
+                        
+                    
+                    
+                        &nbsp;
+                    
+                    
+                        
+                        Resume doesn't look like it will fit within the text box provided
+                    
+                    
+                        
+                        
+                            How your resume looks in the text box is not necessarily how it will look when an employer views it. Be sure to align the bullets, tabs and spacing to ensure a well-formatted view for the recruiters.
+                        
+                    
+                    
+                        &nbsp;
+                    
+                    
+                        
+                        Using HTML when formatting your resume within the text box
+                    
+                    
+                        
+                        
+                            Do not use HTML when submitting your resume. Your resume will be viewed by recruiters with widely varying screen dimensions, including Palm Pilots. Your resume might be converted into straight ASCII text and imported into a database or resume management software.
+                        
+                    
+                    
+                        &nbsp;
+                    
+                    
+                        
+                        Targeting your job search
+                    
+                    
+                        
+                        
+                            You can fine tune your job search by using specific keywords in the Keyword Search. If these keywords are in any part of a job, the search will return those jobs.
+                            
+                            Example keywords: marketing, business administration 
+                            These words will result in job descriptions that include either marketing or business administration or both.
+                            
+                            
+                            Example: Business Administration 
+                            These words together result in job descriptions that include both words in the order you type them in.
+                            
+                            
+                            Example: Business Administration and marketing and entry level 
+                            These words result in job descriptions that include all of these words.
+                            
+                        
+                    
+                    
+                        &nbsp;
+                    
+                    
+                        
+                        Selecting more than one choice in a list box
+                    
+                    
+                        
+                        
+                            To select multiple choices in a drop down box, hold down the CTRL ("Control") key while clicking the options with the mouse. Use the SHIFT key if you're using a Macintosh.
+                        
+                    
+                    
+                        &nbsp;
+                    
+                    
+                        
+                        Printing your resume
+                    
+                    
+                        
+                        
+                            When you are reviewing your resume, click into that frame.  From your browser's menu, select 'File' and 'Print - only selected frame.'
+                        
+                    
+                    
+                        &nbsp;
+                    
+                    
+                        
+                        Changing your username and password
+                    
+                    
+                        
+                        
+                            You will not be able to change your username or password.  If you lose your password, you can click on the "Forgot Password" button next to the password box on the login page.  If you have forgotten your username, you will need to register again.
+                        
+                    
+                    
+                        &nbsp;
+                    
+                    
+                        
+                        How your Job Spy work
+                    
+                    
+                        
+                        
+                            Routinely, your Job Spy will search the job database. If a new job has been added that contains your Job Spy criteria, that job will be emailed to you! Enter the keywords that a job should contain in the "Keyword(s)" box. Create a memorable name for your Job Spy.
+                        
+                    
+                
+            
+        
+    
+
+
+
+            
+            
+                Close
+            
+        
+    
+
+        
+        
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+         
+            
+
+h4{
+	display: inline;
+}
+.content a{
+	text-decoration: none;
+}
+ .content li{
+ 	line-height: 24px;
+ 	margin: 0 0 .75em 3em;
+}
+
+
+
+        
+            
+                
+                    
+                        Type of Position
+                        
+                             Full-Time
+                        
+                    
+                    
+                        Category
+                        
+                             Accounting
+                        
+                    
+                    
+                        Shift
+                        
+                             Days
+                        
+                    
+					 
+                        Pay Rate
+                        
+                             Based on experience
+                        
+                    
+                
+            
+            
+                
+                
+            
+        
+        
+            
+             Data Analyst
+            
+
+            
+            Description:
+             Potawatomi Hotel &#38; Casino (PH&#38;C), owned by the Forest County Potawatomi tribe, is one of the most comprehensive, state-of-the-art entertainment properties in the Midwest, including slot machines, table games, poker tables, bingo, off-track-betting, a theater, event center, award-winning restaurants, full-service catering, and a luxury hotel, with a variety of business meeting and special occasion venues.&#160; In addition to being the premier entertainment destination in the Midwest, PH&#38;C sets the bar high for responsible citizenship through its dedication to charitable giving, responsible gambling, and sustainability.&#160;&#160;
+
+&#160;
+
+PH&#38;C operates on growth-oriented Mission, Vision, and Values statements that emphasize providing opportunities, being the premier entertainment destination in the Midwest, and most importantly, acting with integrity in everything that we do.&#160; While carrying out the job duties listed below, the Data Analyst contributes to our continued business success by providing unsurpassed guest service, personal and professional dedication to our Mission, Vision, and Values, and demonstrating a high level of integrity and ethical standards.&#160;&#160;&#160;
+
+&#160;
+
+Principal Duties and Responsibilities (*Essential Functions)
+
+
+	*Generate and analyze routine and ad hoc reports using Microsoft Structured Query Language (SQL) for Financial Planning and Analysis department and other internal customers.
+	*Manipulate, problem solve, and analyze large data sets using Microsoft Excel and SQL server.&#160;
+	*Maintain data standards and structure by producing validation and quality assurance reports to ensure data quality and consistency.
+	*Identify, analyze, and interpret trends or patterns in complex data sets.
+	*Gather and interpret business requirements from detailed data and process model perspectives/visualization dashboards.
+	*Work closely with other internal departments and resources to provide and analyze data to support organizational growth and identify areas of improvement. Acts as a resources to Accounting and other business partners.
+	Perform job duties in full compliance with departmental Internal Controls, policies, procedures, and regulations.
+	Perform other duties as assigned.
+
+
+            
+            
+            Requirements:
+             
+	A Bachelor&#8217;s degree in information systems, business, economics or related field and 2 years of related experience; or an Associate&#8217;s degree in Information Technology and certification in Data Base Administration plus 4 years of related experience; or a certification as a Microsoft Certified Solutions Associate (MCSA) plus 4 years of related experience are required.
+	Previous experience using SQL Server 2014 or higher version, relational databases, and DataStage or similar Extract Transform and Load ( ETL) tools are required.
+	Previous experience in data mining techniques and procedure.
+	Office skills must include the ability to use standard office equipment and proficiency in Microsoft Word and Outlook.&#160; Advanced knowledge of Excel required.&#160; Accounting software knowledge preferred.&#160;
+	The ability to maintain discretion in handling confidential information.
+	The ability to work irregular hours and extended shifts including late nights, early mornings, weekends, and holidays.
+	The ability to interact with guests and team members at all levels of the organization professionally, including the ability to speak in front of small groups.
+	While performing the duties of this job, the team member must be able to talk, hear, operate a personal computer, and move freely throughout the office and property. Specific vision abilities required by this job include close vision, distance vision, peripheral vision, depth perception, and the ability to adjust focus.
+
+
+&#160;
+
+Working Conditions
+The noise level is usually moderate. When on the casino floor, the noise level increases. The facility is not smoke free.
+
+&#160;
+
+Disclaimer
+The above statements are intended to describe the general nature and level of work being performed by people assigned to this job.&#160; They are not intended to be an exhaustive list of all qualifications, responsibilities, duties, and skills required.
+
+            
+        
+    
+    
+            
+                
+                    
+                    
+                        
+                        Return to Search
+                    
+					
+					
+                        
+                        Return to Search
+                    
+					
+                
+                
+            
+            
+                
+                
+                
+            
+			
+
+          
+        
+      
+      
+      
+      
+
+
+
+    
+        
+		  site map
+		   |
+            privacy Policy
+			 |
+			 terms &amp; conditions
+            &copy;2017 Symphony Talent. All Rights Reserved.
+        
+		 
+    
+
+
+
+
+
+      
+      
+      
+      
+	 
+    
+  

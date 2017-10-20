@@ -1,0 +1,1812 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data Analyst
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+(function() {var walkme = document.createElement('script'); walkme.type = 'text/javascript'; walkme.async = true; walkme.src = 'https://cdn.walkme.com/users/0917eccc53bd427a92a91a128ac883f5/walkme_0917eccc53bd427a92a91a128ac883f5_https.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(walkme, s); window._walkmeConfig = {smartLoad:true}; })();
+
+
+
+
+
+	var _APP_PATH = '/';
+
+
+
+	var popupBlockCorpMsg = 'WARNING!\r\n\r\nA pop-up window blocker has been detected on your system.  Please disable/uninstall any pop-up blocking software.';
+
+	var __AllowRollOver = 'True';
+
+	var __AllowNavRollOver = 'True';
+
+	var __TimeOutMessage = 'Please be aware that your session will soon expire if you remain idle.';
+
+	var __AutoLogoutMessage = 'If you do not click OK before \x5bTIME\x5d, then you will automatically be logged out of this application.';
+
+	var __TempImageSource = '/core/GetImage.aspx'+'?filename=1pt.gif';
+
+    var __LogOutUrl = '/Logout.aspx';	
+
+    var __HomePageUrl =  '/default.aspx';
+
+	var __TimeOutUrl = '/Logout.aspx?t=1';
+
+	var __InitialTimeOut = 14100000;
+
+	var __RegularTimeOut = 14100000;
+
+	var __impSsoInterval='';
+
+	var __impKeepAliveDebug='';
+
+	var __impStrUrl='';
+
+	var __impKeepAlive='';
+
+	var __impexpectedFormats ="";
+
+	var __impPageLoadFlag ="";
+
+	var __impKeepAliveTimeoutDelay ="1000";
+
+	var expireTimer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	function updatePopUpTitle() {
+
+		var lnk = document.getElementsByTagName('a');
+
+		var text = 'This link opens in a new window.';
+
+
+
+		for (var i = 0; i  0) {
+
+					lnk[i].title = lnk[i].title + ' (' + text + ')';
+
+				}
+
+				else {
+
+					lnk[i].title = lnk[i].title + text;
+
+				}
+
+			}
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+    
+
+        // isIE6() Function Needed for dialog
+
+        window._isIE6 = null;
+
+        window._isIE = null;
+
+        function isIE6() {
+
+            if (window._isIE6 == null) {
+
+                var arVersion = navigator.appVersion.split("MSIE");
+
+                var version = parseFloat(arVersion[1]);
+
+                if ((version >= 5.5 && version = 0) {
+
+                var hashes = window.location.href.slice(parmIndex + 1).split('&');
+
+                for (var i = 0; i < hashes.length; i++) {
+
+                    hash = hashes[i].split('=');
+
+                    vars.push(hash[0]);
+
+                    vars[hash[0]] = hash[1];
+
+                }
+
+            }
+
+            return vars;
+
+        }
+
+    
+
+    
+
+    
+
+
+
+
+
+    
+
+        .linkedin_btn {
+
+            background: rgb(101,173,210); /* Old browsers */
+
+            background: -moz-linear-gradient(top, rgba(101,173,210,1) 30%, rgba(15,144,210,1) 67%, rgba(7,84,125,1) 100%); /* FF3.6+ */
+
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,rgba(101,173,210,1)), color-stop(67%,rgba(15,144,210,1)), color-stop(100%,rgba(7,84,125,1))); /* Chrome,Safari4+ */
+
+            background: -webkit-linear-gradient(top, rgba(101,173,210,1) 30%,rgba(15,144,210,1) 67%,rgba(7,84,125,1) 100%); /* Chrome10+,Safari5.1+ */
+
+            background: -o-linear-gradient(top, rgba(101,173,210,1) 30%,rgba(15,144,210,1) 67%,rgba(7,84,125,1) 100%); /* Opera 11.10+ */
+
+            background: -ms-linear-gradient(top, rgba(101,173,210,1) 30%,rgba(15,144,210,1) 67%,rgba(7,84,125,1) 100%); /* IE10+ */
+
+            background: linear-gradient(top, rgba(101,173,210,1) 30%,rgba(15,144,210,1) 67%,rgba(7,84,125,1) 100%); /* W3C */
+
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#65add2', endColorstr='#07547d',GradientType=0 ); /* IE6-9 */
+
+            border-radius: 3px 3px 3px 3px;
+
+            clear: both;
+
+            display: block;
+
+            height: 18px;
+
+            overflow: hidden;
+
+            padding: 6px 33px 6px 10px;
+
+            position: relative;
+
+            text-decoration: none;
+
+            width: 160px;
+
+            color: #FFFFFF;
+
+            border: 1px solid #006699;
+
+            margin: 0 auto;
+
+        }
+
+
+
+            .linkedin_btn .text {
+
+                float: left;
+
+                font-size: 15px;
+
+                line-height: 17px !important;
+
+                overflow: hidden;
+
+                white-space: nowrap;
+
+                width: 200px;
+
+            }
+
+
+
+            .linkedin_btn .logo {
+
+                background: url("../../Images/linkedin.png") no-repeat scroll 0 0 transparent;
+
+                display: block;
+
+                float: right;
+
+                height: 30px;
+
+                position: absolute;
+
+                right: -4px;
+
+                text-indent: -9999px;
+
+                top: 0;
+
+                width: 37px;
+
+            }
+
+
+
+        .clsTerms {
+
+            white-space: nowrap;
+
+            display: inline-block;
+
+            text-align: right;
+
+            float: right;
+
+            line-height: 20px;
+
+        }
+
+
+
+        .cls {
+
+            clear: both;
+
+        }
+
+
+
+        .jobTitle {
+
+            color: #000000;
+
+            font-family: 'Segoe UI', Arial, sans-serif;
+
+            font-size: 18px;
+
+            font-weight: bold;
+
+        }
+
+
+
+        .AgentSubmittedDate {
+
+            padding-top: 5px;
+
+            display: inline-block;
+
+        }
+
+
+
+        .cs-ats-jobdet-agn-sub {
+
+            font-weight: bold;
+
+        }
+
+
+
+            .cs-ats-jobdet-agn-sub span,
+
+            .cs-ats-jobdet-agn-sub img {
+
+                display: inline-block;
+
+                vertical-align: middle;
+
+            }
+
+
+
+        .MobileSubmission {
+
+            display: inline;
+
+            margin-top: 10px;
+
+            font-weight: bold;
+
+        }
+
+
+
+        .reqList {
+
+            margin-bottom: 10px;
+
+            border: 1px solid #ddd;
+
+            padding: 10px 5px;
+
+        }
+
+
+
+        .req-check {
+
+            float: left;
+
+        }
+
+
+
+        .req-cont {
+
+            padding: 0 0 0 22px;
+
+        }
+
+
+
+            .req-cont div {
+
+                max-width: 210px;
+
+            }
+
+
+
+
+
+        .apply-container {
+
+            border: 1px solid #e2e2e2;
+
+            border-radius: 3px;
+
+            background-color: #fff;
+
+            padding: 10px;
+
+            font-family: 'Segoe UI', Arial, sans-serif;
+
+        }
+
+
+
+
+
+        .btn-apply {
+
+            border-radius: 3px;
+
+            padding: 6px 10px;
+
+            border: 1px solid #ccc;
+
+            color: #fff;
+
+            text-decoration: none;
+
+            display: block;
+
+            text-align: center;
+
+            font-weight: bold;
+
+        }
+
+        .btn-apply:hover,
+
+        .btn-apply:focus {
+
+            text-decoration: none;
+
+        }
+
+        .btn-apply-main {
+
+            border-color: #ff7d28;
+
+            background: #ffb168; /* Old browsers */
+
+            background: -moz-linear-gradient(top,  #ffb168 0%, #ff7e29 100%); /* FF3.6-15 */
+
+            background: -webkit-linear-gradient(top,  #ffb168 0%,#ff7e29 100%); /* Chrome10-25,Safari5.1-6 */
+
+            background: linear-gradient(to bottom,  #ffb168 0%,#ff7e29 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb168', endColorstr='#ff7e29',GradientType=0 ); /* IE6-9 */
+
+            font-size: 16px;
+
+        }
+
+    
+
+
+
+    
+
+        // Checks if the user selected at least one requisition in the ucMultiSelectRelatedRequisitions control before clicking on Apply Now or Apply with LinkedIn
+
+        function DidUserSelectAtLeastOneRequisition() {
+
+            var result;
+
+
+
+            // Are there any related jobs that the user can select?
+
+            var relatedReqCheckboxes = jQuery(".reqList").find("[type='checkbox']");
+
+
+
+            if (relatedReqCheckboxes.filter(':visible').length > 0) {
+
+                // The validation passes if the user has selected at least one requisition
+
+                var selectedReqsCount = relatedReqCheckboxes.filter(":checked").length;
+
+
+
+                result = (selectedReqsCount > 0);
+
+            }
+
+            else {
+
+                // The validation always passes when there are no requisitions to select
+
+                result = true;
+
+            }
+
+
+
+            return result;
+
+        }
+
+
+
+        // Validates if the user selected at least one requisition in the ucMultiSelectRelatedRequisitions control before clicking on Apply Now or Apply with LinkedIn
+
+        function ValidateMinSelectedReqs(source, arguments) {
+
+            arguments.IsValid = DidUserSelectAtLeastOneRequisition();
+
+        }
+
+
+
+        // This variable is used by the ApplyWithLinkedIn control to do a client-side validation.
+
+        // When the user is not logged-in, the server-side click handler of the Apply with LinkedIn button is ignored
+
+        // and the LinkedIn log in page is opened in a new browser window. So manual client-side validation is necessary in this case.
+
+        var validateApplyWithLinkedIn = function () {
+
+            var isValid = DidUserSelectAtLeastOneRequisition();
+
+
+
+            var errorMessage = jQuery('#applyLinkedInError');
+
+            if (isValid) {
+
+                errorMessage.hide()
+
+            }
+
+            else {
+
+                errorMessage.show();
+
+            }
+
+
+
+            return isValid;
+
+        };
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+        
+
+
+
+    
+
+    
+
+    
+
+        
+
+            
+
+                
+
+            
+
+            
+
+							Create a Profile|Log In
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+	
+
+		
+
+			
+
+			&nbsp;
+
+			
+
+		
+
+	
+
+	
+
+		
+
+			
+
+			
+
+            
+
+                
+
+            
+
+            
+
+                Yes
+
+                No
+
+            
+
+        
+
+			
+
+		
+
+		
+
+			
+
+			
+
+			
+
+		
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+    function closePasswordDialog() {
+
+        $find('ctl00_careerSiteHeader_dlgChangePassword_MPE').hide();
+
+    }
+
+
+
+        
+
+			
+
+	
+
+					
+
+		
+
+	
+
+			    	
+
+        Show Details	
+
+    
+
+	
+
+			
+
+		
+
+	
+
+		
+
+
+
+	
+
+
+
+
+
+				
+
+
+
+            
+
+    
+
+        
+
+        
+
+            
+
+	
+
+                    
+
+
+
+                    
+
+                   
+
+		
+
+                        
+
+                            
+
+                            
+
+                                Apply Now
+
+                            
+
+                            
+
+                            
+
+
+
+	
+
+        .apply-container {
+
+            border: 1px solid #e2e2e2;
+
+            border-radius: 3px;
+
+            background-color: #fff;
+
+            padding: 10px;
+
+        }
+
+        .inner-container {
+
+            padding: 10px 20px;
+
+            text-align: center;
+
+        }
+
+        .inner-container p {
+
+            margin: 10px 0;
+
+        }
+
+        .btn-apply {
+
+            border-radius: 3px;
+
+            padding: 6px 10px;
+
+            border: 1px solid #ccc;
+
+            color: #fff;
+
+            text-decoration: none;
+
+            display: block;
+
+            text-align: center;
+
+            font-weight: bold;
+
+        }
+
+        .btn-apply:hover,
+
+        .btn-apply:focus {
+
+            text-decoration: none;
+
+        }
+
+        .btn-apply-main {
+
+            border-color: #ff7d28;
+
+            background: #ffb168; /* Old browsers */
+
+            background: -moz-linear-gradient(top,  #ffb168 0%, #ff7e29 100%); /* FF3.6-15 */
+
+            background: -webkit-linear-gradient(top,  #ffb168 0%,#ff7e29 100%); /* Chrome10-25,Safari5.1-6 */
+
+            background: linear-gradient(to bottom,  #ffb168 0%,#ff7e29 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb168', endColorstr='#ff7e29',GradientType=0 ); /* IE6-9 */
+
+            font-size: 16px;
+
+        }
+
+        .btn-apply-linkedin {
+
+            border-color: #0077b5;
+
+            background: #0077b5; /* Old browsers */
+
+            background: -moz-linear-gradient(top,  #0077b5 0%, #006399 100%); /* FF3.6-15 */
+
+            /*background: -webkit-linear-gradient(top,  #0077b5 0%,#139bbd 100%); /* Chrome10-25,Safari5.1-6 */*/
+
+            background: -webkit-linear-gradient(top,  #0077b5 0%,#006399 100%); /* Chrome10-25,Safari5.1-6 */
+
+            background: linear-gradient(to bottom,  #0077b5 0%,#006399 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0077b5', endColorstr='#006399',GradientType=0 ); /* IE6-9 */
+
+        }
+
+        .btn-apply-monster {
+
+            border-color: #532894;
+
+            background: #713b9b; /* Old browsers */
+
+            background: -moz-linear-gradient(top,  #713b9b 0%, #672994 100%); /* FF3.6-15 */
+
+            background: -webkit-linear-gradient(top,  #713b9b 0%,#672994 100%); /* Chrome10-25,Safari5.1-6 */
+
+            background: linear-gradient(to bottom,  #713b9b 0%,#672994 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#713b9b', endColorstr='#672994',GradientType=0 ); /* IE6-9 */
+
+        }
+
+     .btn-apply-seek {
+
+          border-color: #e60378;
+
+          background: #ee2ab7; /* Old browsers */
+
+          background: -moz-linear-gradient(top,  #ee2ab7 0%, #da1c5c 100%); /* FF3.6-15 */
+
+          background: -webkit-linear-gradient(top,  #ee2ab7 0%,#da1c5c 100%); /* Chrome10-25,Safari5.1-6 */
+
+          background: linear-gradient(to bottom,  #ee2ab7 0%,#da1c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee2ab7', endColorstr='#da1c5c',GradientType=0 ); /* IE6-9 */
+
+        }
+
+
+
+    
+
+
+
+
+
+    
+
+         
+
+            Or apply with these other sources
+
+            
+
+                    
+
+                        Apply with LinkedIn
+
+                    
+
+                
+
+        
+
+        Terms of use
+
+    
+
+                        
+
+                    
+
+	
+
+
+
+                    
+
+
+
+                     
+
+                      
+
+
+
+                        
+
+                        
+
+                            
+
+                        
+
+                        
+
+
+
+                    
+
+                    
+
+
+
+                    Refer Job:
+
+                        
+
+                            
+
+                        
+
+                        
+
+
+
+
+
+
+
+#ulShareList{
+
+	margin: 0px;
+
+	padding: 0px;
+
+	display: inline;
+
+}
+
+
+
+#ulShareList li{
+
+	margin: 0px;
+
+	padding: 0px 2px 0px 2px;
+
+	list-style-type: none;
+
+	display: inline;
+
+}
+
+#ulShareList img{
+
+	width: 16px;
+
+	height: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+	
+
+    
+
+    
+
+
+
+                        
+
+                    
+
+
+
+                    
+
+                    
+
+                        &nbsp;Add to Saved Jobs
+
+                        
+
+                            
+
+                        
+
+                    
+
+                    
+
+
+
+
+
+            
+
+
+
+            
+
+            
+
+            
+
+            
+
+
+
+            Back
+
+        
+
+    
+
+
+
+    
+
+    
+
+        
+
+    Data Analyst
+
+    About Turnaround
+
+
+
+    By studying the impact of adversity on the developing brain, Turnaround for Children is on to something big. It is connecting the dots between poverty, stress and academic performance. 
+
+    Turnaround translates the science that explains the impact of stress on learning and behavior into tools and strategies that teachers and administrators can use to cultivate safe environments, reduce stress, increase readiness to learn and accelerate student development and academic achievement. Turnaround acts as a catalyst for change by raising awareness about and addressing the challenges that affect all schools facing adversity, particularly those in high-poverty communities.
+
+    Over the past 14 years, the nonprofit organization has grown from an idea into an organization with a $13.4 million annual operating budget and over 60 employees. Currently Turnaround partners with 10 schools in New York City, Newark, New Jersey and Washington, D.C., serving more than 4,100 students and nearly 500 teachers. Turnaround's central office is located in midtown Manhattan.
+
+
+
+    Locations
+
+    
+
+        This position is based in New York City however it may require occasional local travel to offsite area locations, Newark New Jersey and Washington D.C.
+
+    
+
+  
+
+    FLSA
+
+    
+
+        This is an exempt level position that is not eligible for overtime.
+
+    
+
+About the Position
+
+    
+
+        The Data Analyst will play a primary role in establishing Turnaround as a first-class data shop by leading the organization's data visualization, business intelligence and reporting functions. By generating and clearly communicating data-driven insights about our program, this role will help ensure that students receive the interventions needed to thrive in school and in life. The Analyst will do this through asking the right questions and doing the right analyses for three streams of work: 1) building and managing data visualization tools through Tableau software, 2) ad hoc requests and 3) high-impact pilot projects. In addition, the Analyst will lead systems planning for the Organizational Learning and Impact team, including consolidating database systems and designing comprehensive documentation of the team's tools and routines. 
+
+    
+
+    Responsibilities
+
+    
+
+        Including but not limited to:
+
+            
+
+                Design, publish and continually refine a suite of data visualization tools built in Tableau software; share reports and presentations targeted to various internal and external audiences and ensure reports are clear and effective;
+
+
+
+                Review existing data systems (including multiple SQL databases, Tableau, Excel and "Tracker" field data entry web app) and recommend and implement priority improvements including database consolidation;
+
+                
+
+                Establish a full set of data procedures and guidelines aligned to real practice, managed through the team's task management system (Asana);
+
+
+
+                Work with field and program staff to understand school-based data needs and develop solutions to fulfill them;
+
+                
+
+                Contribute to the design of measurement and evaluation plans on an annual basis;                
+
+                
+
+                Represent Turnaround and the OLI team with Turnaround's leadership teams and external stakeholders as surrogate to the VP, OLI;                
+
+                
+
+                Support, as necessary, the collection and compilation of data from Turnaround's partner schools;                
+
+                     
+
+                Manage ad hoc data analysis projects on the OLI team;
+
+                
+
+                Supervise interns and other external capacity, as needed;                
+
+
+
+                Occasional travel to Newark, New Jersey and Washington, D.C. as needed.
+
+            
+
+
+
+    
+
+    Essential Qualifications and Experience
+
+    
+
+        
+
+            Exceptional analytical skills with experience providing data analysis in a fast-paced, quality-critical environment, preferably to both technical and non-technical audiences;
+
+
+
+            Experience designing and improving data systems in a dynamic organizational setting;
+
+
+
+            Knowledge of Tableau, R or other data visualization tools required;
+
+
+
+            Strong written and verbal communication skills and the ability to work across teams on meeting data needs, including with middle and senior level leaders;
+
+
+
+            Proven track record of asking the right question to understand needs and develop effective solutions;
+
+
+
+            Strong and sustained attention to detail with a high bar for accuracy; calm under pressure;
+
+
+
+            Track record of establishing effective working relationships with colleagues at all levels and across teams;
+
+
+
+            At least five years of work experience;
+
+
+
+            Intermediate user skills with relational databases (e.g., SQL, Access, Salesforce); should be able to write queries;
+
+            
+
+            Demonstrated interest or experience in K - 12 education preferred;
+
+            
+
+            Bachelor's degree required- Master's degree preferred;
+
+            
+
+            Strong commitment to the work and mission of Turnaround for Children and a desire to learn and grow through this opportunity           
+
+
+
+        
+
+        
+
+          
+
+    Physical Demands and Work Environment
+
+    
+
+            
+
+                Ability to sit for prolonged periods of time 
+
+
+
+                Ability to use a computer and office technologies
+
+                
+
+                Work is primarily performed in a professional office setting with varying noise levels; occasional partner site visits may be required
+
+
+
+                Consult and collaborate with internal partners to assess shared need and develop a cohesive approach to maximize impact of program model
+
+                
+
+                This role may manage people and is responsible for, communicating performance expectations, creating goal alignment, integrating project and change management, giving and seeking feedback, providing coaching, measuring progress and holding people accountable, supporting employee development and recognizing achievement and lessons learned
+
+
+
+            
+
+
+
+    
+
+
+
+    Apply Now
+
+    
+
+        Please click Apply Now to complete our online application. All applicants must submit a resume together with an in-depth cover letter outlining the ways in which their skills and experience align with our specific needs.
+
+
+
+        Applicants should also include details of their current or most recent salary and any location restrictions.
+
+    
+
+
+
+    
+
+        Compensation is competitive based on background and experience and includes excellent benefits. Turnaround for Children is an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, or protected veteran status.
+
+    
+
+    
+
+                
+
+
+
+    
+
+    
+
+    
+
+        .ErrorMessage
+
+        {
+
+            color: Red;
+
+        }
+
+    
+
+
+
+    
+
+	
+
+		
+
+			
+
+			Send to a Friend
+
+			
+
+		
+
+	
+
+	
+
+		
+
+			
+
+			                    					            
+
+            
+
+				
+
+                    
+
+                        
+
+                            &nbsp; 
+
+                                    Please wait...
+
+                        
+
+                    
+
+                
+
+			            
+
+
+
+            
+
+				
+
+
+
+                
+
+                        
+
+                
+
+
+
+                Email this Job Ad to your friend(s) by adding their email address(es) along with your details to the field below:   *Separate each recipient email address with a comma.
+
+
+
+                
+
+                    Recipient email address(es):              
+
+                                                                
+
+                    &nbsp;    
+
+                
+
+
+
+                
+
+                    Your First Name:                     
+
+                     
+
+                    &nbsp;                                                               
+
+                
+
+
+
+                
+
+                    Your Last Name:                    
+
+                                                                  
+
+                     &nbsp;    
+
+                
+
+
+
+                Select which language the email should be sent in.
+
+
+
+                 
+
+                    Language:
+
+                    
+
+					English (US)
+
+
+
+				
+
+                
+
+
+
+                                                  
+
+                    
+
+                                        
+
+
+
+                                                  
+
+                    Send                        
+
+                
+
+            
+
+			
+
+                
+
+
+
+	    
+
+			
+
+		
+
+		
+
+			
+
+			
+
+			
+
+		
+
+	
+
+	
+
+
+
+
+
+    
+
+    
+
+	
+
+		
+
+			
+
+			&nbsp;
+
+			
+
+		
+
+	
+
+	
+
+		
+
+			
+
+			
+
+				
+
+			
+
+				
+
+					
+
+						This Job Opening is already listed as one of your Interests. You cannot add the same Job Opening to your list of Interests more than one time.
+
+To see your list of Interests, navigate to the Application Status tab within My Profile
+
+					
+
+				
+
+				
+
+					
+
+				
+
+					
+
+				
+
+			
+
+		
+
+			
+
+			
+
+		
+
+		
+
+			
+
+			
+
+			
+
+		
+
+	
+
+	
+
+
+
+
+
+     
+
+
+
+
+
+  
+
+      function closeApplyWithDialog() {
+
+          $find('ctl00_siteContent_applyWithIntegrationsLoginPopup_dlgApplyWithIntegrationAccountWarning_MPE').hide();
+
+    }
+
+ 
+
+   
+
+   
+
+
+
+        .btnPopup {
+
+            width: 35px;
+
+        }
+
+
+
+        .divInstrText {
+
+            vertical-align: middle; 
+
+            display:block;
+
+            margin-left: 50px;
+
+            padding-top: 10px; 
+
+            padding-left: 10px; 
+
+        }
+
+
+
+        .iconWarning {
+
+            float: left;
+
+            padding-top: 10px; 
+
+            padding-left: 10px; 
+
+            display:block; 
+
+            margin:auto;
+
+            text-align:center; 
+
+        }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+
+			Account Warning
+
+			
+
+		
+
+	
+
+	
+
+		
+
+			
+
+			
+
+
+
+             
+
+                
+
+            
+
+
+
+		    
+
+				
+
+    	    
+
+
+
+            
+
+                Log In
+
+                Cancel
+
+                OK
+
+            
+
+		
+
+			
+
+		
+
+		
+
+			
+
+			
+
+			
+
+		
+
+	
+
+	
+
+ 
+
+
+
+    
+
+
+
+        function fnCloseJobNotSaved() {
+
+            $find('ctl00_siteContent_dlgJobNotSaved_MPE').hide();
+
+		}
+
+
+
+		
+
+    
+
+
+
+    
+
+    
+
+    
+
+	api_key: d5rq82veziaa
+
+	authorize: true
+
+    
+
+    
+
+        
+
+        
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+try {  
+
+	 var _gaq = _gaq || [];
+
+	 _gaq.push(['_setAccount', 'UA-35694034-1']);
+
+	 _gaq.push (['_gat._anonymizeIp']);
+
+	 _gaq.push(['._setDomainName', 'csod.com']);
+
+	 _gaq.push(['._trackPageview']);
+
+
+
+	 (function() {
+
+	 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+	 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+	 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+})();
+
+} catch (err) { }
+
+
+
+__LogOutUrl = __TimeOutUrl = '/ats/careersite/logout.aspx?site=3&c=turnaroundusa';
+
+
+
+//
+
+
+
+
+
+
+
+
+

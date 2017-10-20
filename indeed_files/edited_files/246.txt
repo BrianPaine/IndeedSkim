@@ -1,0 +1,704 @@
+
+
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+    
+	
+	
+	
+	
+
+    
+    
+    Search and apply for jobs at Piper Companies | Careers at Piper Companies
+
+    
+    var mainPath = "https://careers.pipercompanies.com/";
+    var google_apiKey = 'AIzaSyDciGPsq6WXQ5X8hIQOEYBbzXlGvMOUc-Y';
+
+    var myTitle = 'My Location';
+    var jobsPerPage = 10;
+    var jobsOnMap = [];
+    var map;
+
+    var mapIcons = {
+    	mypositionIcon: {
+    		icon: "https://careers.pipercompanies.com/images/mylocation-icon.png"
+    	},
+    	jobIcon: {
+    		icon: "https://careers.pipercompanies.com/renderIcon.php?type=normal&num=",
+    		iconHover: "https://careers.pipercompanies.com/renderIcon.php?type=hover&num="
+    	}
+    }
+	
+    
+    
+    
+    
+    
+    
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-57589822-1', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+    ga('linker:autoLink', ['pipercompanies.com'] );
+    ga('send', 'pageview');
+    ga('create', 'UA-101414918-1', 'auto', 'advertoTracker');
+    ga('advertoTracker.send', 'pageview');
+	
+
+    
+    {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "url": "https://careers.pipercompanies.com",
+    "logo": "https://careers.pipercompanies.com/images/social.jpg"
+    }
+    
+    
+    {
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Piper Companies",
+    "alternateName": "",
+    "url": "https://careers.pipercompanies.com"
+    }
+    
+
+
+	
+		
+							
+					
+	
+	Careers
+	
+		Search Jobs
+		Connect With Us
+	
+
+
+    Data Scientist
+
+        
+
+    
+
+        
+
+            Job Attributes
+
+            
+
+        
+
+        
+
+            Job Id:
+15595
+
+Job Category:
+Data Analytics & Business Intelligence
+
+Job Location:
+Plymouth Meeting, PA&nbsp;&nbsp;19462
+
+Security Clearance:
+No Clearance
+
+Business Unit:
+Piper Companies
+        
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                JOB DESCRIPTIONPiper Companies is looking for a Data Scientist who is creative, innovative and intellectually curious who is interested in joining a local Healthcare Analytics team for an exciting opportunity to work in one of the world&#39;s leading, large-scale data insights team.
+
+Responsibilities of the Data Scientist:
+
+
+	You will play an important part in designing and delivering statistical / machine learning studies and predictive analytics solutions in a range of challenging analytical areas. &nbsp;&nbsp;
+	This team works hand-in-hand with statisticians, epidemiologists and disease area experts across the wider global team, leveraging a vast variety of anonymous information from sources such as electronic health records.
+
+
+&nbsp;Qualifications of the Data Scientist:
+
+
+	Experience of statistical / machine learning projects in academia or commercial sector end to end with proven delivery capability including capturing requirements, designing analysis plans, interfacing with clients and report / manuscript writing.
+	Excellent knowledge of supervised machine learning methods.
+	Strong programming skills in Python and/or R. Experience in SPARK or Scala is highly beneficial.
+
+
+Compensation of the Data Scientist:
+
+
+	Competitive salary + bonus potential
+	Stimulating, Innovative, Fun &amp; friendly global work environment
+	Extremely interesting and challenging work; cutting-edge group, one of the only companies doing this work in healthcare
+	Great benefits including great office culture, healthcare &nbsp;and competitive compensation package
+
+
+Please send resumes to Nicole Bernhard at nbernhard@pipercompanies.com
+            
+
+
+
+            
+
+            
+        Apply Now
+        
+        
+            CONTACT INFORMATION (Required)
+            
+            
+                
+                    
+                        
+                            
+                            First Name:
+                            First Name
+                        
+                    
+                    
+                        
+                            
+                            Last Name:
+                            Last Name
+                        
+                    
+                
+                
+                    
+                        
+                            
+                            Email Address:
+                            Email Address
+                        
+                    
+                    
+                        
+                            
+                            Phone Number:
+                            Phone Number
+                        
+                    
+                
+                
+                    
+                        
+                            
+                            City:
+                            City
+                        
+                    
+                    
+                        
+                            
+                                State
+                                AlabamaAlaskaArizonaArkansasCaliforniaColoradoConnecticutDelawareDistrict of ColumbiaFloridaGeorgiaHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew HampshireNew JerseyNew MexicoNew YorkNorth CarolinaNorth DakotaOhioOklahomaOregonPennsylvaniaRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVermontVirginiaWashingtonWest VirginiaWisconsinWyomingPuerto Rico                            
+                            State:
+                        
+                    
+                    
+                        
+                            
+                            Zip Code:
+                            Zip Code
+                        
+                    
+                
+
+                
+                    
+                        
+                            
+                                Security Clearance
+                                No ClearanceConfidential / Public TrustSecretTop Secret(TS / SSBI)TS / SCICounterintelligence Scope (CI / CI Poly)Full Scope / Lifestyle (FSP / FS / LS / Lifestyle Poly)                            
+                            Security Clearance:
+                        
+                    
+                    
+                        
+                            
+                                Work Authorization
+                                I am authorized to work in this country for any employerI am authorized to work in this country for my present employer onlyI require sponsorship to work in this countryMy status to work in this country is unknown                            
+                            Work Authorization:
+                        
+                    
+                
+
+                
+                    
+                        
+                            
+                                Education
+                                High School Diploma/GEDAssociates DegreeBachelor of Art/ScienceMasters/MBADoctorate/Ph.D.                            
+                            Education:
+                        
+                    
+                
+
+            
+
+            RESUME (Required)
+            
+                Upload Your Resume or  click here to copy / paste the information.
+                
+                    
+                        
+                            
+                            
+                                No file selected
+                                Choose File
+                                x
+                            
+                        
+                    
+                
+                
+                   
+                    
+                        
+                            
+                                
+                                Google Drive
+                            
+                        
+                        
+                            
+                                
+                                Dropbox
+                            
+                        
+                    
+                
+                
+                
+                
+                
+                Formats accepted: .doc / .docx / .pdf / .txt
+                
+                Don't have a resume? Click here to fill out a short form.
+            
+
+            
+                Copy/paste your resume inside the text editor below:
+                
+                    
+                        
+                    
+                
+            
+
+            
+                ADDITIONAL INFORMATION (Required)
+                
+                
+                    
+                        WORK HISTORY (Required)
+                    
+                    
+                        
+                            
+                                
+                                    
+                                    Employer:
+                                    Employer
+                                
+                            
+                            
+                                
+                                    
+                                    Employer's Location:
+                                    Employer's Location
+                                
+                            
+                        
+                        
+                            
+                                
+                                    
+                                    Job Title:
+                                    Job Title
+                                
+                            
+                            
+                                
+                                    From:
+                                    
+                                
+                            
+                            
+                                
+                                    To:
+                                    
+                                
+                            
+                        
+                    
+                    
+                        Add another experience (optional)
+                    
+                
+                
+                
+                    
+                        EDUCATION (Required)
+                    
+                    
+                        
+                            
+                                
+                                    
+                                    School:
+                                    School
+                                
+                            
+                            
+                                
+                                    
+                                    School's Location:
+                                    School's Location
+                                
+                            
+                        
+                        
+                            
+                                
+                                    
+                                    Degree:
+                                    Degree
+                                
+                            
+                            
+                                
+                                    From:
+                                    
+                                
+                            
+                            
+                                
+                                    To:
+                                    
+                                
+                            
+                        
+                    
+                    
+                        Add another degree (optional)
+                    
+                
+                
+                
+                    
+                        SKILLS (Required)
+                    
+                    
+                        
+                            
+                                
+                                    
+                                    Skill:
+                                    Skill
+                                
+                            
+                            
+                                
+                                    
+                                    Skill:
+                                    Skill
+                                
+                            
+                        
+                    
+                    
+                        Add another skill (optional)
+                    
+                
+            
+
+            
+                
+                    
+                
+            
+
+            
+                The following error(s) occurred:
+                
+                                    
+            
+
+            
+            
+            
+            
+            
+        
+    
+
+
+    
+    
+    	Please wait while your job application is being processed. This may take a few moments.
+    
+            
+
+
+    // The Client ID is relative to the domain where to application is hosted
+    // and it's created in google API Console
+    // https://code.google.com/apis/console/
+    var CLIENT_ID = '407374736050-lnb9dil26sd0ajb8cfg9ik61ikhlihas.apps.googleusercontent.com';
+    // Enter the API key from the Google Developer Console - to handle any unauthenticated
+    // requests in the code.
+    var apiKey = 'AIzaSyDciGPsq6WXQ5X8hIQOEYBbzXlGvMOUc-Y';
+    var SCOPES = [
+        'https://www.googleapis.com/auth/drive.file',
+        'https://www.googleapis.com/auth/drive.readonly'
+        // Add other scopes needed by your application.
+    ];
+    var checkInterval = undefined ;
+    function handleClientLoad() {
+        gapi.client.setApiKey(apiKey);
+        window.setTimeout(function(){
+            checkAuth(true,handleAuthResultOnLoad);
+        }, 1);
+    }
+    /**
+     * Check if the current user has authorized the application.
+     */
+    function checkAuth(immediate,callBackFunction) {
+        gapi.auth.authorize(
+            {'client_id': CLIENT_ID, 'scope': SCOPES.join(' '), 'immediate': immediate},
+            callBackFunction);
+    }
+    /**
+     * Called when authorization server replies.
+     *
+     * @param {Object} authResult Authorization result.
+     */
+    function handleAuthResult(authResult) {
+        if (authResult && !authResult.error) {
+            var token = gapi.auth.getToken();
+            $("#g_auth_token").val(token["access_token"]);
+            callPicker(token);
+            if(checkInterval!=undefined){
+                clearInterval(checkInterval);
+            }
+        }
+    }
+    /**
+     * Called when authorization server replies. and only Triggered on Page Load
+     *
+     * @param {Object} authResult Authorization result.
+     */
+    function handleAuthResultOnLoad(authResult) {
+        if (authResult && authResult.error) {
+            // No access token could be retrieved, force the authorization flow.
+            $("#drive-chooser").click(function(){
+                checkAuth(false,handleAuthResult);
+                //on Chrome IOS
+                if((navigator.userAgent.match('CriOS')) && navigator.userAgent.match('Safari')){
+                    checkInterval = setInterval(function(){checkAuth(true,handleAuthResult);},500);
+                }
+            });
+        }else{
+            $("#drive-chooser").click(function(){
+                checkAuth(true,handleAuthResult);
+            });
+        }
+    }
+
+
+
+    options = {
+        // Required. Called when a user selects an item in the Chooser.
+        success: function(files) {
+            var fileName = files[0].name;
+            $("#cloud").val("dropbox");
+            $("#fileUrl").val(files[0].link);
+            $("#fileName").val(fileName);
+            $("#resume_name span").html(fileName);
+            $("#resume_name").css("display","block");
+            $(".cloud-upload-holder .big-buttons").hide();
+            $('.attach-resume-title, #fakeDivBtn #chooseBtn, #hideAttach, #real, .notes').hide();
+            $("#message-file").fadeOut('slow');
+        },
+        // Optional. Called when the user closes the dialog without selecting a file
+        // and does not include any parameters.
+        cancel: function() {
+        },
+        // Optional. "preview" (default) is a preview link to the document for sharing,
+        // "direct" is an expiring link to download the contents of the file. For more
+        // information about link types, see Link types below.
+        linkType: "direct",
+        // Optional. A value of false (default) limits selection to a single file, while
+        // true enables multiple file selection.
+        multiselect: false,
+        // Optional. This is a list of file extensions. If specified, the user will
+        // only be able to select files with these extensions. You may also specify
+        // file types, such as "video" or "images" in the list. For more information,
+        // see File types below. By default, all extensions are allowed.
+        extensions: ['.pdf', '.doc', '.docx']
+    };
+    // Use the Google Loader script to load the google.picker script.
+    function callPicker(AUTH_TOKEN) {
+        google.load('picker', '1', {"callback" : createPicker});
+    }
+    // Create and render a Picker object for searching images.
+    function createPicker() {
+        var AUTH_TOKEN = $("#g_auth_token").val();
+        var picker = new google.picker.PickerBuilder().
+            addView(google.picker.ViewId.DOCUMENTS).
+            addView(google.picker.ViewId.PDFS).
+            setOAuthToken(AUTH_TOKEN).
+            setCallback(pickerCallback).
+            build();
+        picker.setVisible(true);
+    }
+    // A simple callback implementation.
+    function pickerCallback(data) {
+        var url = 'nothing';
+        if (data[google.picker.Response.ACTION] == google.picker.Action.PICKED) {
+            $(".cloud-btn .big-buttons").hide();
+            var doc = data[google.picker.Response.DOCUMENTS][0];
+            ID = doc["id"];
+            gapi.client.load('drive','v2', function() {
+                var request = gapi.client.drive.files.get({
+                    'fileId': ID,
+                    "projection" : "FULL"
+                });
+                request.execute(function(response) {
+                    console.log(response);
+                    $("#cloud").val("google");
+                    if(response.downloadUrl){
+                        var fileName = response.title;
+                        $("#fileName").val(fileName);
+                        $("#fileUrl").val(response.downloadUrl);
+                    }else{
+                        var fileName = response.title+".pdf";
+                        $("#fileName").val(fileName);
+                        $("#fileUrl").val(response["exportLinks"]["application/pdf"]);
+                    }
+                    $("#message-file").fadeOut('slow');
+                    $("#resume_name span").html(fileName);
+                    $("#resume_name").css("display","block");
+                    $(".cloud-upload-holder .big-buttons").hide();
+                    $('.attach-resume-title, #fakeDivBtn #chooseBtn, #hideAttach, #real, .notes').hide();
+                });
+            });
+        }
+    }
+    // ADD Event Triggers for Dropbox and Google Drive
+    $("#dbx-chooser").click(function(e){
+        Dropbox.choose(options);
+        e.preventDefault();
+    });
+    $("#drive-chooser").click(function(e){
+        checkAuth(true);
+        e.preventDefault();
+    });
+        
+
+        
+
+        New Search
+
+                
+
+            Job Id:
+15595
+
+Job Category:
+Data Analytics & Business Intelligence
+
+Job Location:
+Plymouth Meeting, PA&nbsp;&nbsp;19462
+
+Security Clearance:
+No Clearance
+
+Business Unit:
+Piper Companies
+        
+
+        
+
+    
+
+
+	
+		
+			All rights reserved &copy; 2017 Piper Companies, a ZP/GROUP Company | EEO Policy | Website Disclaimer | Privacy Statement | Terms of Use
+			
+				
+				
+				
+			
+		
+	
+
+
+try{ adverto.init(101055469); }catch(e){}
+
+
+
+ {
+    "@context": "http:\/\/schema.org\/",
+    "@type": "JobPosting",
+    "title": "Data Scientist",
+    "description": "Piper Companies is looking for a Data Scientist who is creative, innovative and intellectually curious who is interested in joining a local Healthcare Analytics team for an exciting opportunity to work in one of the world&#39;s leading, large-scale data insights team.\n\nResponsibilities of the Data Scientist:\n\n\n\tYou will play an important part in designing and delivering statistical \/ machine learning studies and predictive analytics solutions in a range of challenging analytical areas. &nbsp;&nbsp;\n\tThis team works hand-in-hand with statisticians, epidemiologists and disease area experts across the wider global team, leveraging a vast variety of anonymous information from sources such as electronic health records.\n\n\n&nbsp;Qualifications of the Data Scientist:\n\n\n\tExperience of statistical \/ machine learning projects in academia or commercial sector end to end with proven delivery capability including capturing requirements, designing analysis plans, interfacing with clients and report \/ manuscript writing.\n\tExcellent knowledge of supervised machine learning methods.\n\tStrong programming skills in Python and\/or R. Experience in SPARK or Scala is highly beneficial.\n\n\nCompensation of the Data Scientist:\n\n\n\tCompetitive salary + bonus potential\n\tStimulating, Innovative, Fun &amp; friendly global work environment\n\tExtremely interesting and challenging work; cutting-edge group, one of the only companies doing this work in healthcare\n\tGreat benefits including great office culture, healthcare &nbsp;and competitive compensation package\n\n\nPlease send resumes to Nicole Bernhard at nbernhard@pipercompanies.com\n",
+    "identifier": {
+        "@type": "PropertyValue",
+        "name": "Piper Companies",
+        "value": "15595"
+    },
+    "datePosted": "2017-09-26T15:36:50-04:00",
+    "hiringOrganization": {
+        "@type": "Organization",
+        "name": "Piper Companies",
+        "sameAs": "https:\/\/careers.pipercompanies.com"
+    },
+    "jobLocation": {
+        "@type": "Place",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "",
+            "addressLocality": "Plymouth Meeting",
+            "addressRegion": "PA",
+            "postalCode": "19462",
+            "addressCountry": "US"
+        }
+    }
+}

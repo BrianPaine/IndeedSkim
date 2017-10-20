@@ -1,0 +1,1600 @@
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        
+
+        
+
+    Systems & Reporting Analyst - Associate
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+     
+
+    
+
+        
+
+        
+
+     
+
+
+
+    	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+
+        var PopUp = {};
+
+        PopUp.JQ = {};
+
+
+
+
+
+        PopUp.Handlers = {};
+
+        PopUp.Handlers.ClickOpen = function (e) {
+
+            e.preventDefault();
+
+
+
+            var jq = $(this);
+
+            var url = jq.attr("href");
+
+
+
+            PopUp.JQ.ModalIFrame.attr("src", url);
+
+            PopUp.JQ.Modal.modal("show");
+
+        };
+
+        PopUp.Handlers.ClickClose = function (e) {
+
+            PopUp.JQ.ModalIFrame.removeAttr('src');
+
+        }
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+              
+
+         .Center {
+
+               width:62.5rem;
+
+                margin:0 auto;
+
+                }
+
+               .panel-group {
+
+            background-color: #4790be;
+
+            font-family: agenda-medium,sans-serif !important;
+
+            padding-top: 135px;
+
+            padding-left: 45px !important;
+
+        }
+
+        div#ActivateBreadcrumb {
+
+            margin: 0;
+
+            position: absolute;
+
+            height: 32px;
+
+            padding: 120px 12px 5px 12px !important;
+
+        }
+
+        #ActivateBreadcrumb ul#BreadcrumbsUL {
+
+            list-style-type: none;
+
+            /* background-color: #fff; */
+
+            height: 25px;
+
+            margin: 10px 0 15px;
+
+            width: 100%;
+
+            padding-left: 40px;
+
+            padding-top: 10px;
+
+        }
+
+                footer .links .social a.icon-social{
+
+        margin:0 0 0 0 ;
+
+        }
+
+        #ActivateBreadcrumb ul#BreadcrumbsUL li {
+
+            float: left;
+
+            margin: 3px 8px 0 0;
+
+            color: #fff !important;
+
+            font-size: 11px;
+
+            text-transform: uppercase;
+
+        }
+
+        #separator:before {
+
+            content: ">";
+
+            color: #fff;
+
+            font-weight: normal;
+
+        }
+
+        a.btn.btn-default.click-here {
+
+            color: #fff !important;
+
+            background: #333 !important;
+
+            border: none;
+
+            display: block;
+
+            width: 140px;
+
+            font-family: agenda-medium,Arial,Helvetica,sans-serif;
+
+            text-transform: none !important;
+
+            position: relative;
+
+            top: 50%;
+
+            left: 75%;
+
+                       transform: translate(-50%,-50%);
+
+        }
+
+
+
+        a.btn.btn-default.click-heretn {
+
+        color: #fff!important;
+
+        background: #333!important;
+
+        border: none;
+
+        display: block;
+
+        width: 110px;
+
+        font-family: agenda-medium, Arial, Helvetica, sans-serif !important;
+
+        text-transform: none !important;
+
+        position: relative;
+
+        margin-left:-50px;
+
+        top: 50%;
+
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+        margin-top: 25px;
+
+    }
+
+
+
+        footer {
+
+            background-color: #A9A9A9;
+
+            margin-top: 15px;
+
+        }
+
+        li{
+
+        color:#000;
+
+        font-size:14px;
+
+        }
+
+        a {
+
+            color: #fff;
+
+            text-decoration: none;
+
+            line-height: inherit;
+
+        }
+
+        footer .links ul, footer .links ul li {
+
+            list-style-type: none;
+
+            margin: 0;
+
+            padding: 0;
+
+        }
+
+        .row .row {
+
+            width: auto;
+
+            margin-left: -.9375rem;
+
+            margin-right: -.9375rem;
+
+            margin-top: 20px;
+
+            margin-bottom: 0;
+
+            max-width: none;
+
+        }
+
+        footer .links .social a.icon-social img {
+
+            width: 15%;
+
+        }
+
+        footer .secondary {
+
+            padding-top: 1rem;
+
+        }
+
+        footer .secondary .sub-links ul li {
+
+            list-style-type: none;
+
+            display: block;
+
+            margin: 0;
+
+            padding: 0;
+
+            width: 100%;
+
+        }
+
+        footer .secondary .sub-links ul li a {
+
+            font-size: 14px;
+
+            color: #222;
+
+        }
+
+        footer .secondary .sub-links ul {
+
+            float: right;
+
+        }
+
+        footer .secondary .sub-links ul li {
+
+            display: inline;
+
+            margin-left: 1.5rem;
+
+        }
+
+        .tn {
+
+            margin-top: 180px;
+
+            margin-left: 65px;
+
+        }
+
+        span.titlemain {
+
+            position: absolute;
+
+            margin-left: 50px;
+
+            color: #fff;
+
+            width: 900px;
+
+            margin-top:100px;
+
+            font-size: 22px;
+
+            margin-top: 8px;
+
+        }
+
+        input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+
+            -webkit-appearance: none;
+
+            border-radius: 4px !important;
+
+            background-color: #fff;
+
+            font-family: inherit;
+
+            border-style: solid;
+
+            border-width: 1px;
+
+            border-color: #ccc;
+
+            box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+
+            color: rgba(0,0,0,.75);
+
+            display: block !important;
+
+            font-size: .875rem;
+
+            margin: 0 0 1rem 0;
+
+            padding: .5rem;
+
+            width: 100%;
+
+            -webkit-box-sizing: border-box;
+
+            -moz-box-sizing: border-box;
+
+            box-sizing: border-box;
+
+            transition: box-shadow .45s,border-color .45s ease-in-out;
+
+        }
+
+        .fixed-table-toolbar .bars, .fixed-table-toolbar .search, .fixed-table-toolbar .columns {
+
+            position: relative;
+
+            margin-top: 10px;
+
+            margin-bottom: 0 !important;
+
+            line-height: 34px;
+
+        }
+
+        label.placeholder {
+
+            padding-top: 0 !important;
+
+            margin-top: 0 !important;
+
+        }
+
+
+
+                
+
+            
+
+    
+
+
+
+    
+
+        
+
+    
+
+
+
+    
+
+
+
+        //Check to see if the window is top if not then display button
+
+        $(window).scroll(function () {
+
+            if ($(this).scrollTop() > 100) {
+
+                $('#back-to-top').fadeIn();
+
+            } else {
+
+                $('#back-to-top').fadeOut();
+
+            }
+
+        });
+
+
+
+        //Click event to scroll to top
+
+        $('#back-to-top').click(function () {
+
+            $('html, body').animate({ scrollTop: 0 }, 800);
+
+            return false;
+
+        });
+
+
+
+    
+
+
+
+
+
+    Skip to main content
+
+    
+
+        
+
+            
+
+                
+
+                
+
+                
+
+                
+
+                    
+
+                        The search value cannot be empty
+
+
+
+                        Ok
+
+                    
+
+                    &#215;
+
+                
+
+                
+
+                    
+
+                        This link will leave wellcare.com, opening in a new window. WellCare and its subsidiaries are not responsible for non-WellCare content, privacy practices, products or services described on these websites.
+
+                        Continue
+
+                        Return to Site
+
+                    
+
+                    &#215;
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+                            
+
+                                
+
+                                    
+
+
+
+                                        
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                            
+
+                            
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                                
+
+
+
+                                    
+
+                                        
+
+                                            
+
+
+
+                                                
+
+                                            
+
+                                        
+
+                                        
+
+                                            
+
+                                        
+
+                                        
+
+                                            
+
+                                        
+
+                                    
+
+                                    
+
+                                        
+
+                                        MENU
+
+                                    
+
+                                
+
+                                
+
+                                    
+
+                                    
+
+                                        
+
+                                            
+
+                                                
+
+                                                    
+
+                                                
+
+                                                
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                        
+
+                                            Need a Plan
+
+                                        
+
+                                        
+
+                                            Members
+
+                                        
+
+                                        
+
+                                            Providers
+
+                                        
+
+                                        
+
+                                            Corporate                                            
+
+                                                
+
+                                                    
+
+                                                        
+
+                                                            
+
+                                                                
+
+                                                                    Corporate Information
+
+                                                                    
+
+                                                                        
+
+                                                                            About Us
+
+                                                                        
+
+                                                                        
+
+                                                                            Management Team
+
+                                                                        
+
+                                                                        
+
+                                                                            Careers
+
+                                                                        
+
+                                                                    
+
+                                                                
+
+                                                            
+
+                                                            
+
+                                                                
+
+                                                                    Investor Relations
+
+                                                                    
+
+                                                                        
+
+                                                                            Investor Home
+
+                                                                        
+
+                                                                        
+
+                                                                            Corporate Governance
+
+                                                                        
+
+                                                                        
+
+                                                                            News Releases
+
+                                                                        
+
+                                                                        
+
+                                                                            SEC Filings
+
+                                                                        
+
+                                                                        
+
+                                                                            Webcasts and Presentations
+
+                                                                        
+
+                                                                    
+
+                                                                
+
+                                                            
+
+                                                            
+
+                                                                
+
+                                                                    Producer Home
+
+                                                                    
+
+                                                                        
+
+                                                                            Producer Resources
+
+                                                                        
+
+                                                                        
+
+                                                                            Producer Contracting
+
+                                                                        
+
+                                                                    
+
+                                                                
+
+                                                            
+
+                                                            
+
+                                                                
+
+                                                                    Media Center
+
+                                                                    
+
+                                                                        
+
+                                                                            Media Relations
+
+                                                                        
+
+                                                                        
+
+                                                                            News
+
+                                                                        
+
+                                                                        
+
+                                                                            Request Press Kit
+
+                                                                        
+
+                                                                    
+
+                                                                
+
+                                                            
+
+                                                        
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                    
+
+                                    
+
+                                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                            
+
+                                                
+
+
+
+                                                    
+
+                                                        
+
+                                                             Share &nbsp;
+
+                                                        
+
+                                                     
+
+                                                    
+
+
+
+                                                                                         
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+
+
+        
+
+        
+
+            
+
+                
+
+
+
+                
+
+                    
+
+                        
+
+ Information Technology (IT)                                                                                                                                           
+
+                            
+
+                            
+
+                            
+
+                                
+
+
+
+                                    Careers
+
+                                    
+
+                                    
+
+
+
+
+
+    
+
+        
+        Search Jobs
+
+
+    
+
+        
+
+    
+
+        
+        Information Technology (IT) Jobs
+
+
+    
+
+        
+
+    
+
+        
+        Systems, Reporting, &amp; Data Analyst Jobs
+
+
+    
+
+        
+
+    
+
+        
+    Systems &amp; Reporting Analyst - Associate
+
+
+    
+
+
+
+                                
+
+
+
+                            
+
+                                                        
+
+
+
+
+
+
+
+
+
+Systems &amp; Reporting Analyst - Associate Job
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+
+
+    Full Job Title: Systems and Rptg Analyst, Assoc
+
+    Job Number: 1702657
+
+        
+
+            Location:
+
+            
+
+                
+
+                    Tampa, FL
+
+                
+
+            
+
+        
+
+
+
+    Date Posted: 10-2-2017
+
+    
+
+
+
+    
+
+        
+
+ Apply Now             
+
+
+
+
+
+
+
+
+
+        
+
+
+
+                                                                                
+
+                                                                                    
+
+                                                                                           LOCATION:  George Road, Tampa, FL    DEPARTMENT:  Finance    REPORTING TO:  Senior Manager, Pharmacy Analytics  The Associate will run assigned standardized processes while learning the data, table structures and the business.  Associates will be assigned a technical "mentor" within the Team, at a Senior or Lead level, for reference/guidance and will be assigned projects of increasing complexity as skill and knowledge develop. Essential Functions:Running standardized processes per requirements, reviewing/QA'ing results, and distributing as needed.Develop an understanding of the assigned processes sufficient to modify/update code upon request.Test process documentation against the current code, updating as needed for accuracy and clarity.Create Ad Hoc reports, queries and/or analyses upon request.Report analytics and interpretations of data anomalies as data knowledge develops.Education: Bachelor's Degree is preferred ORHigh school diploma or equivalent, plus relevant technical programming certification/technical training equivalent to two (2) years ORHigh school diploma or equivalent, plus two (2) years relevant professional/technical experience and above average performance history Experience: Two (2) plus years' relevant healthcare experience ANDOne (1) plus years' relevant programming and/or analytical experience Licenses/Certifications:  SAS Certification is a plus       Special Skills (e.g. 2nd language):  NA Technical Skills/Requirements: Basic skills/experience in relational database querying.Basic skills/experience in Access, Visio and PowerPoint required.Advanced MS Excel skills required.
+
+                                                                                        
+
+
+
+
+
+
+
+                                                                                    
+
+                                                                                
+
+                                                                                
+
+                                                                                    
+
+ Apply Now                                                                                                                                                                             
+
+                                                                                
+
+ Back to top 
+
+
+
+                        
+
+
+
+                    
+
+                    
+
+
+
+                        
+
+                            
+
+
+
+                            
+
+                                
+
+
+
+                                    
+
+                                    
+
+                                        Join Our Talent Network
+
+                                        and receive job alerts
+
+                                        Click Here
+
+                                    
+
+                                
+
+                        
+
+                    
+
+                    
+
+                
+
+
+
+            
+
+
+
+
+
+            
+
+                
+
+                    
+
+                        
+
+                            Producers
+
+                            
+
+                                
+
+                                    Producer Resources
+
+                                
+
+                                
+
+                                    Producer Contracting
+
+                                
+
+                            
+
+                        
+
+                        
+
+                            Corporate Information
+
+                            
+
+                                
+
+                                    About Us
+
+                                
+
+                                
+
+                                    Management Team
+
+                                
+
+                                
+
+                                    Careers
+
+                                
+
+                                
+
+                                    Press Releases
+
+                                
+
+                                
+
+                                    Community
+
+                                
+
+                                
+
+                                    Compliance
+
+                                
+
+                                
+
+                                
+
+                                    Search Jobs
+
+                                
+
+                                
+
+                                    Contact Us
+
+                                
+
+                            
+
+                        
+
+                        
+
+                            Get Adobe Reader
+
+                            
+
+                                
+
+                                 
+
+                                    If you are unable to view PDFs, please download Adobe Reader.
+
+                                
+
+                            
+
+                        
+
+
+
+                        
+
+                            Follow Us
+
+                            
+
+                                
+
+                                    
+
+                         
+
+                                
+
+                                
+
+                            
+
+                                
+
+                              
+
+                           
+
+                                
+
+                             
+
+
+
+                                    
+
+                               
+
+                                
+
+                                 
+
+                                    
+
+                             
+
+                            
+
+                        
+
+                    
+
+
+
+                    
+
+                        
+
+                            Copyright 2017 WellCare
+
+                        
+
+
+
+                        
+
+                            
+
+                                
+
+                                    Privacy & Legal
+
+                                
+
+                                
+
+                                    Terms of Use
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                  
+
+                        Last Updated On: 12/9/2015
+
+
+
+                    
+
+                
+
+            
+
+
+
+        
+
+    
+
+    
+
+        
+
+            To Top
+
+
+
+        
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    var dataLayer = dataLayer || {
+
+        page: {
+
+            pageInfo:{
+
+                pageName:"us.Systems & Reporting Analyst - Associate in Corporate HQ - Tampa at WellCare",
+
+                referringURL: "",
+
+                sysEnv:"Engine",
+
+                language:"en-US",
+
+                onsiteSearchTerm: "",
+
+                onsiteSearchResults: "ni",
+
+                onsiteSearchJobResultCount: "ni",
+
+                onsiteSearchZip: "",
+
+                onsiteSearchRadius: "",
+
+                onsiteSearchMapFail: "ni",
+
+                onsiteSearchRefinements: "ni",
+
+                testimonialName: "ni"
+
+            },
+
+            category:{
+
+                primaryCategory: "ni",
+
+                pageType: "Job Details"
+
+            },
+
+            attributes:{
+
+                clientID: "290841",
+
+                clientGroup: "0",
+
+                clientPlatform: "",
+
+                reportSuites: "nasrwellcareglobal"
+
+            }
+
+        },
+
+        event:[{
+
+            eventInfo:{
+
+                eventName: "all events listed here by name, comma separated"
+
+            }
+
+        }],
+
+        job:{
+
+            jobInfo:{
+
+                jobID: "74583511",
+
+                jobtitleID: "109192",
+
+                jobName: "Systems &amp; Reporting Analyst - Associate",
+
+                familyID: "970",
+
+                categoryID: "105565",
+
+                schedule: "",
+
+                shift: "",
+
+                locationID: "53455",
+
+                city: "Tampa",
+
+                state: "FL",
+
+                expiredID: "",
+
+                jopexpired: "",
+
+                ATSJobID: "1702657",
+
+                ATSreferencenumber: "1702657",
+
+                TNContactID: ""
+
+            }
+
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        _satellite.pageBottom();
+
+    
+
+
+
+
+
+
+

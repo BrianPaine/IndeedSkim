@@ -1,0 +1,713 @@
+
+
+
+Oklahoma Central Credit Union Careers - Tulsa
+
+  
+
+
+
+
+
+
+
+-->
+
+ 
+  
+  
+
+  
+
+
+
+
+
+
+function clear_search() {document.search_form.search_phrase.value= "";}
+
+
+window.onload=function() {
+     
+    if(""=="yes") {
+          
+     }
+
+           
+  var anchors = document.querySelectorAll('a[href]');
+
+  Array.prototype.forEach.call(anchors, function (element, index) {
+
+    //alert("href is " + element.href);
+    var sSearchString = "oh_jobwrapper/";
+    var sHref = element.href;
+    var nIndex = sHref.toLowerCase().indexOf(sSearchString);
+
+    if (nIndex >0) {
+           //strip CF string prepended by Open Hire call to CFHTTP
+
+            var sNewHref = sHref.substr( nIndex+sSearchString.length );
+           element.href = sNewHref;
+
+  //alert("New href is " + sNewHref);
+
+     } //end strip CF crap prepended by Open Hire call to CFHTTP
+});
+
+}  //end onload
+
+
+
+
+ 
+
+
+
+var $jqPS = jQuery.noConflict(true);
+	$jqPS( function()
+	{
+		$jqPS( '#nav_main li:has(ul)' ).attr('aria-haspopup','true').doubleTapToGo();
+
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+function funcWriteBreadcrumbNav(BreadCrumbList) {
+	var sOutputBreadcrumbNav = new String();
+	var sClass = null;
+	var sUrl = null;
+	var sText = null;
+	var nLevel = null;
+	var aryThisLink = null;
+
+                    var sBreadCrumbOnOff ="Off";
+                    if (sBreadCrumbOnOff.length ==0) sBreadCrumbOnOff = "Off";
+                    if (sBreadCrumbOnOff.toLowerCase() == "off") return sOutputBreadcrumbNav;
+                    if ("" == "8") return sOutputBreadcrumbNav;
+
+//alert("BreadCrumbList is " + BreadCrumbList);
+
+       var sTemp = "";
+	
+	//Added variables to grab information for the current page
+
+	var sCurrentPath = "https://occu-careers.silkroad.com/Careers/UnplacedPages/OH_JobWrapper";
+	var sCurrentPage = "OpenHire Internal Page [do not delete]";
+
+	var arySubNav = unescape(BreadCrumbList);
+	//arySubNav = arySubNav.split("");
+	arySubNav = arySubNav.split(";");
+
+    //sOutputBreadcrumbNav += ""
+
+	var nLen = arySubNav.length;
+	for(var i = 0; i ";
+		// items
+
+         var sIndex = sText.indexOf("_subnav");
+         //   sOutputBreadcrumbNav += sIndex;
+
+        if(sText!=sTemp && sIndex " + sText.toLowerCase() + " &gt; ";
+				if (!bIgnore) sOutputBreadcrumbNav += "" + sText + " &gt; ";
+				
+			//check if page is a bodylink	
+			} else  if (!bIgnore) {
+                             if (i>=nLen-1 && sUrl!=sCurrentPath ){
+				//--write out last page in bc list
+				     sOutputBreadcrumbNav += "" + sText + " ";
+				      //--- bl-last item
+                                 if (sCurrentPage != "OpenHire Internal Page [do not delete]" ) {
+				     sOutputBreadcrumbNav += "&gt; " + sCurrentPage + "";
+                                  }
+			   } else {
+				//--- last item
+				sOutputBreadcrumbNav += "" + sText + "";
+			   }
+                     }
+			
+              sTemp = sText;
+	     }
+
+			
+	}
+	
+    sOutputBreadcrumbNav += "";
+    //sOutputBreadcrumbNav += "";
+
+	return sOutputBreadcrumbNav;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+
+
+			
+
+			
+
+			
+
+			
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+					var productVersion = "2017.5"; var timeoutSeconds = 3600; var timeoutWarningSeconds = 300; var displayTimeWarning = 0; var isCandidateLoggedIn = false; var companyId = 17325; var ep_version = 1;
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+
+
+
+
+
+
+   
+     
+
+Contact Us
+   
+
+
+
+  
+    Show navigation
+    Hide navigation
+    
+
+       WelcomeJob Listings			
+				
+					Search Current Openings
+				
+				
+					Update Your Profile
+				
+				
+					Create a Job Agent
+				
+				
+					Update Job Agent
+				
+				
+					Recruiting Agency Login
+				
+			
+BenefitsAbout Us			
+				
+					Company History
+				
+				
+					Contact Us
+				
+			
+
+
+    
+  
+
+
+  
+     
+#breadcrumbs {
+ display: none;
+}
+
+
+  var sPageName = "OH_JobWrapper";
+  if (sPageName.length !=0) sPageName = sPageName.toLowerCase();
+
+ // if(sPageName !="home.html")
+    document.write(funcWriteBreadcrumbNav("Welcome,https://occu-careers.silkroad.com;Job%20Listings,https://occu-careers.silkroad.com/Careers/EmploymentListings.html"));
+
+  
+
+   
+      
+    
+
+
+
+
+
+
+
+  Your user session will timeout in 5 minutes.  Please click OK to continue with your application.
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+		
+
+			
+
+				
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					10/2/2017
+
+				
+
+			
+
+			
+
+				
+
+					Data Analyst
+
+				
+
+			
+
+			
+
+				
+
+					
+
+						Tracking Code
+
+					
+
+					
+
+						1029-325 
+
+					
+
+				
+
+				
+
+					
+
+						Job Description
+
+					
+
+					
+
+						Job Description: This is a newly created position for an innovative thinker who has a passion for data. (S)he will convert raw data from multiple operational sources into meaningful insight which helps drive our strategic roadmap and make sound business decisions.
+
+Duties:
+
+
+
+Design, implement and maintain a common data reporting process
+
+Manage daily, monthly and quarterly data reporting
+
+Interpret, analyze and present data to drive strategy
+
+Work closely with external vendors for data-driven projects
+
+Help drive our long-term data strategy and vision
+
+Work with our service desk team for automation hand-off / support
+
+
+
+					
+
+				
+
+				
+
+					
+
+						Required Skills
+
+					
+
+					
+
+						Required Skills:
+
+
+
+Strong communication skills - Ability to interpret and explain complex data results with senior management.
+
+Demonstrated knowledge of MS SQL Server including T-SQL, SSMS and SSRS
+
+Good knowledge of IT systems and database security
+
+Advanced Excel (some VBA would be a plus)
+
+Strong analytical and problem-solving skills.
+
+Ability to identify trends and patterns of information
+
+Self-motivated and able to manage multiple projects simultaneously
+
+
+
+&nbsp;
+
+Skills to set the candidate apart:
+
+&nbsp;
+
+
+
+Crystal Reports
+
+Source Control
+
+Database administration / design / architecture
+
+Data Mining and/or statistical data analysis
+
+Direct, hands-on experience with job scheduling software (OpCon, Autosys, Cron, etc.)
+
+Visual Studio (Business Intelligence Projects)
+
+Previous/ existing experience working in a credit union or other financial institution
+
+
+
+					
+
+				
+
+					
+
+						Required Experience
+
+					
+
+					
+
+						
+
+Bachelor degree in computer science, mathematics or statistics preferred.
+
+2+ years of experience in a similar role working with data
+
+
+
+&nbsp;
+
+&nbsp;
+
+					
+
+				
+
+					
+
+						Job Location
+
+					
+
+					
+
+						Tulsa, , United States
+
+					
+
+				
+
+					
+
+						Position Type
+
+					
+
+					
+
+						Full-Time/Regular
+
+					
+
+				
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					
+
+						
+
+							Apply
+
+						
+
+					
+
+					
+
+						
+
+						
+
+						
+
+								
+
+								
+
+								
+
+							
+
+					
+
+				
+
+				
+
+					
+
+						
+
+							
+
+								Connect
+
+							
+
+						
+
+						
+
+							Who do you know at
+
+							
+
+							
+
+								Oklahoma Central Credit Union
+
+							
+
+								
+
+								
+
+							
+
+						
+
+					
+
+				
+
+					
+
+						
+
+							
+
+								Share
+
+							
+
+						
+
+						
+
+							
+
+							
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+							
+
+							
+
+							
+
+						
+
+					
+
+				
+
+			
+
+			
+
+				
+
+					Return To Job Listings
+
+				
+
+				
+
+			
+
+		
+
+	
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright &copy;2017 by Oklahoma Central Credit Union. All Rights Reserved.
+
+
+
+
+
+
+
+
+
+
+
+
+&nbsp;
+
+
+
+   
+
+        
+
+    
+
+
+
+
+
+ 
+
+		,\n\t\t       \n\t\t\t  ","FORMATLOCALEID":1674,"PHONEREGEX":"^([+])?([1]( |-|\\.)?)?(\\(?[1-9]{1}[0-9]{2}\\)?|[1-9]{1}[0-9]{2})( |-|\\.)?([0-9]{3}( |-|\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$"}
+
+		-->
+
+	

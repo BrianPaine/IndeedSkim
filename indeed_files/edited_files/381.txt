@@ -1,0 +1,1496 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    select:focus, a:focus {
+
+        outline: #1e90ff solid 2px
+
+    }
+
+
+
+    input[type=submit] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=button] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=submit]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=button]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=submit]:focus {
+
+        background: #1e90ff;
+
+    }
+
+
+
+    input[type=button]:focus {
+
+        background: #1e90ff
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane {
+
+        text-align: right;
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane button {
+
+        float: none;
+
+    }
+
+
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+
+        /*border: 1px solid #000;*/
+
+        /*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .alert-error {
+
+        color: #990000;
+
+        font-weight: bold;
+
+    }
+
+
+
+    td.top {
+
+        vertical-align: top !important;
+
+    }
+
+
+
+    td.left {
+
+        float: none;
+
+        text-align: left;
+
+    }
+
+
+
+    td.right {
+
+        float: none;
+
+        text-align: right;
+
+    }
+
+
+
+    .nowrapFormLabel {
+
+        white-space: nowrap;
+
+        text-align: right;
+
+    }
+
+
+
+    h1 {
+
+        font-size: 120%
+
+    }
+
+
+
+    h2 {
+
+        font-size: 110%
+
+    }
+
+
+
+    h3 {
+
+        font-size: 100%
+
+    }
+
+
+
+    .hidden-accessibility-text {
+
+        position: absolute;
+
+        left: -2000px;
+
+        top: 0;
+
+        width: 1;
+
+        height: 1;
+
+        overflow: hidden;
+
+        font-size: 0.1em;
+
+    }
+
+
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+
+    .ofcc305table textfield, .ofcc305table select,
+
+    .ofcc305table input, .ofcc305table a {
+
+        font-size:12px !important;
+
+        font-family:Arial,sans-serif,Helvetica !important;
+
+    }
+
+
+
+    #cws-search-results th, #cws-job-alerts th {
+
+        border-top: #CCCCCC 2px solid;
+
+        border-bottom: #CCCCCC 2px solid;
+
+    }
+
+
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+
+        border-bottom: #CCCCCC 2px solid;
+
+        padding-bottom: 3px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Fidelity National Financial: Career Opportunities
+
+ 
+
+      
+
+    
+
+
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_1 { text-decoration:none; }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_2 {  }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_3 { border-style:none; }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_4 {  }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_5 {  }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_6 { border-style:none; }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_7 {  }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_8 {  }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_9 { border-style:none; }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_10 {  }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_11 { border-style:none; }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_12 {  }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_13 { border-style:none; }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_14 {  }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_15 { border-style:none; }
+
+	.ctl00_ContentPlaceHolder1_ctl00_ctl03_ctl00_Menu1_16 {  }
+
+
+
+
+
+
+
+#taleoContent {
+
+  padding: 0px;
+
+  margin: 0px;
+
+  border: none;
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  text-decoration: none;
+
+  text-indent: 0px;
+
+  text-shadow: none;
+
+  text-transform: none;
+
+  white-space: normal;
+
+  word-spacing: normal;
+
+}
+
+
+
+#taleoContent td, #taleoContent th {
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  text-decoration: none;
+
+  text-indent: 0px;
+
+  text-shadow: none;
+
+  text-transform: none;
+
+  white-space: normal;
+
+  word-spacing: normal;
+
+}
+
+
+
+#taleoContent textarea {
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  height: auto;
+
+  width: auto;
+
+}
+
+
+
+#taleoContent textfield {
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  height: auto;
+
+  width: auto;
+
+}
+
+
+
+#taleoContent select {
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  height: auto;
+
+  width: auto;
+
+}
+
+
+
+#taleoContent input {
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  height: auto;
+
+  width: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+            
+
+            
+
+    
+
+
+
+    $(function() {
+
+        $('.homepageRotatingBanner').cycle({
+
+            fx: 'scrollHorz',
+
+            speedIn: 600,
+
+            speedOut: 600,
+
+            timeout: 0,
+
+            easeIn: 'easeOutQuad',
+
+            easeOut: 'easeOutQuad',
+
+            prev: '#bannerPrev',
+
+            next: '#bannerNext',
+
+            pager: '#nav',
+
+            cleartypeNoBg: true,
+
+            pagerAnchorBuilder: function(idx, slide) {
+
+                return '#nav li:eq(' + (idx) + ')';
+
+            }
+
+        });
+
+        $('#nav li').click(function() {
+
+            $('.homepageRotatingBanner').cycle('pause');
+
+        });
+
+
+
+    });
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+ 
+
+    
+
+//
+
+
+
+
+
+    
+
+        
+
+     
+
+    
+
+
+
+
+
+    
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                                
+
+    
+
+    
+
+        // Script to show/hide the admin menu bar.
+
+        
+
+        var adminMenu = document.getElementById('divAdminMenu');
+
+        var adminMenuOpen = document.getElementById('divAdminMenuOpen');
+
+        var menuEntryInstance = 0;
+
+        
+
+        function showMenu() {
+
+            adminMenu.style.display = 'block';
+
+            adminMenuOpen.style.display = 'none';
+
+            menuEntryInstance++;
+
+        }
+
+        function startHideMenu() {
+
+            setTimeout('hideMenu(' + menuEntryInstance + ')', 1500);
+
+        }
+
+        function hideMenu(instance) {
+
+            if (menuEntryInstance == instance) {
+
+                adminMenu.style.display = 'none';
+
+                adminMenuOpen.style.display = 'block';
+
+            }
+
+        }
+
+        
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+	
+
+        
+
+    
+
+     
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                    
+
+                        
+
+		
+
+			
+
+				
+
+					Who We Are
+
+				
+
+			
+
+				
+
+					Our Expertise
+
+				
+
+			
+
+				
+
+					Portfolio
+
+				
+
+			
+
+				
+
+					Investor Info
+
+				
+
+			
+
+		
+
+	
+
+		
+
+			
+
+				
+
+					
+
+						About Us
+
+					
+
+				
+
+			
+
+				
+
+					
+
+						Executive Team
+
+					
+
+				
+
+			
+
+				
+
+					
+
+						Our Precepts
+
+					
+
+				
+
+			
+
+				
+
+					
+
+						Contact Us
+
+					
+
+				
+
+			
+
+				
+
+					
+
+						Career Opportunities
+
+					
+
+				
+
+			
+
+		
+
+			
+
+		
+
+			
+
+		
+
+	
+
+
+
+
+
+                    
+
+             
+
+                
+
+            
+
+        
+
+    
+
+    
+
+        
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                        Career Opportunities
+
+                                    
+
+                                                                
+
+                                
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+    
+
+        
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+
+
+
+
+
+
+ CwsDWRFacade._path = 'http://chm.tbe.taleo.net/chm02/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; 
+
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchm.tbe.taleo.net/chm02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chm.tbe.taleo.net/chm02/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chm.tbe.taleo.net/chm02/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();
+
+
+
+
+
+
+
+
+
+
+
+
+Data Analyst
+
+
+Location:
+CA
+
+
+Company Order Number:
+1273
+
+
+# of openings:
+1
+
+
+
+Description
+Data Analyst
+
+
+
+&nbsp;
+
+
+
+Position Summary
+
+
+
+Responsible for performing in-depth data analysis and developing ad-hoc queries and conversion requirements to meet business needs. Deploy, troubleshoot and resolve data issues, conducting data research and ensure data quality.
+
+
+
+&nbsp;
+
+
+
+Duties
+
+
+
+
+
+&bull;&nbsp;Identify, research and analyze data so that it can be accurately processed.
+
+&bull;&nbsp;Perform analysis and document conversion requirements to translate data sets into standardized formats.
+
+&bull;&nbsp;Perform data analysis functions for assigned business unit including design and development of critical reports.
+
+&bull;&nbsp;Perform structured quality assurance testing including the development of test plans and scripts.
+
+&bull;&nbsp;Proactively identify data issues that need to be fixed and perform detailed data verification and analysis.
+
+&bull;&nbsp;Responsible for the escalation and resolution of data issues.
+
+&bull;&nbsp;Make process and/or system improvement recommendations to assist the business unit in achieving its goals and objectives.
+
+&bull;&nbsp;Work across business units/teams to collect, aggregate, match, consolidate, and confirm data for quality and accuracy.
+
+&bull;&nbsp;Gather reporting requirements for change requests and ad-hoc reports as requested.
+
+&bull;&nbsp;May assist with acquisition, extraction, transforming and standing up of various data sets.
+
+&bull;&nbsp;May design and/or develop and ensure the quality of specific databases for collection, tracking and reporting of research data.
+
+&bull;&nbsp;Performs other related duties as assigned.
+
+
+
+&nbsp;
+
+
+
+Requirements
+
+
+
+&nbsp;
+
+
+
+&bull;&nbsp;Proficient written and oral communication skills in dealing with employees or external customers/clients
+
+&bull;&nbsp;Proficiency in standard office software, such as MS Office, MS Access, MS Word, MS Excel, etc
+
+&bull;&nbsp;Demonstrated experience with data manipulation and analysis
+
+&bull;&nbsp;Working knowledge of relational databases a plus
+
+&bull;&nbsp;Strong ad-hoc SQL query development skills
+
+&bull;&nbsp;Experience working with data analytics-driven solutions with sensitive data sources
+
+&bull;&nbsp;High degree of creative, analytical and problem solving skills
+
+&bull;&nbsp;Ability to gather and interpret information and to develop, recommend and implement solutions
+
+&bull;&nbsp;Team oriented &ndash; ability to build departmental and cross-functional relationships
+
+
+
+&nbsp;
+
+
+
+Education
+
+
+
+
+
+A high school diploma or GED is required; Associate degree a+
+
+
+
+&nbsp;
+
+
+
+
+
+Fidelity National Financial, Inc. is an Equal Opportunity Employer.&nbsp; All new hires must be able to successfully pass a criminal records check.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Are you a returning applicant?
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Applicants:
+
+
+Email:
+
+
+
+
+
+Password:
+
+
+
+
+
+If you do not remember your password click here.
+
+
+
+
+Back to Search Results
+
+
+New Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        //jQuery Calendar
+
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchm.tbe.taleo.net/chm02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+
+    
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+                    
+
+                    
+
+                        
+
+
+
+    
+
+                            
+
+            We have a strong track record of creating value for our shareholders.
+
+            
+
+            
+
+                
+
+                    
+
+                        Explore Investor Material
+
+                    
+
+                    
+
+                        
+
+                            
+
+                            2012 Annual
+
+                            Report                            
+
+                        
+
+                        
+
+                            
+
+                            Electronic
+
+                            Investor Kit
+
+                        
+
+                        
+
+                            
+
+                            Events &
+
+                            Multimedia
+
+                        
+
+                    
+
+                
+
+                        
+
+            
+
+        
+
+    
+
+
+
+
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        © 2013 Fidelity National Financial
+
+                        
+
+                        All Rights Reserved
+
+                    
+
+                    
+
+                       Privacy Policy  |                          
+
+                        Contact Us
+
+                    
+
+                    
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+    
+
+
+
+   
+
+
+
+
+
+    
+
+     
+
+    
+
+
+
+
+
+//
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+  ga('create', 'UA-3212682-9', 'fnf.com');
+
+  ga('send', 'pageview');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3572 @@
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   function launch(page) {
+      OpenWin = this.open(page, "HelpWindow", "toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,width=400,height=600,left=50,top=50'");
+   }
+
+
+	var jobs = new Array();
+
+
+
+	
+		var reqGk = '27046466';
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	Intern, Data Analyst Networks
+				
+							
+								CALABASAS,&nbsp;
+							
+							
+								CA 
+							
+				
+
+	
+
+	
+		
+	
+	
+	
+
+	
+
+
+
+
+
+   
+
+    
+
+    
+
+	
+
+    
+
+        $(document).ready(function() {
+
+            $(function() {
+
+                $("#sales_inquiry_btn_A")
+
+                    .mouseover(function() { 
+
+                        $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_8_Jun14.png");
+
+                    })
+
+                    .mouseout(function() {
+
+                       $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_7_Jun14.png");
+
+                    });
+
+            });
+
+            $(function() {
+
+                $("#sales_inquiry_btn_B")
+
+                    .mouseover(function() { 
+
+                        $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_10_Jun14.png");
+
+                    })
+
+                    .mouseout(function() {
+
+                       $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_9_Jun14.png");
+
+                    });
+
+            });
+
+            $(function() {
+
+                $("#sales_inquiry_btn_C")
+
+                    .mouseover(function() { 
+
+                        $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_8_Jun14.png");
+
+                    })
+
+                    .mouseout(function() {
+
+                       $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_7_Jun14.png");
+
+                    });
+
+            });
+
+            $(function() {
+
+                $("#sales_inquiry_btn_D")
+
+                    .mouseover(function() { 
+
+                        $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_10_Jun14.png");
+
+                    })
+
+                    .mouseout(function() {
+
+                       $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_9_Jun14.png");
+
+                    });
+
+            });
+
+            $(function() {
+
+                $("#sales_inquiry_btn_E")
+
+                    .mouseover(function() { 
+
+                        $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_8_Jun14.png");
+
+                    })
+
+                    .mouseout(function() {
+
+                       $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_7_Jun14.png");
+
+                    });
+
+            });
+
+            $(function() {
+
+                $("#sales_inquiry_btn_F")
+
+                    .mouseover(function() { 
+
+                        $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_10_Jun14.png");
+
+                    })
+
+                    .mouseout(function() {
+
+                       $(this).attr("src", "http://enterprise.alcatel-lucent.com/assets/images/themes/EN_PS_BT_SalesInquiry_9_Jun14.png");
+
+                    });
+
+            });			
+
+        });
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    Careers
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+	
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+	
+
+    
+
+    
+
+    var _elqQ = _elqQ || [];
+
+    _elqQ.push(['elqSetSiteId', '138097979']);
+
+    _elqQ.push(['elqTrackPageView']);
+
+    (function () {
+
+        function async_load() {
+
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+
+            s.src = '/js/elqNow/elqCfg.min.js';
+
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+
+        }
+
+        if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+
+        else if (window.attachEvent) window.attachEvent('onload', async_load); 
+
+    })();
+
+    
+
+    
+
+    
+
+    
+
+	  var _gaq = _gaq || [];
+
+	  _gaq.push(['_setAccount', 'UA-15738636-1']);
+
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+	  })();
+
+	
+
+    
+
+    
+
+    
+
+		$(document).ready(function() {
+
+		var tbval = $('#alu-header-search-q').val();
+
+		$('#alu-header-search-q').focus(function() { $(this).val('');});
+
+		$('#alu-header-search-q').blur(function() { $(this).val(tbval);});
+
+		});
+
+    
+
+    
+
+	
+
+    
+
+	try{Typekit.load();}catch(e){}
+
+
+
+    
+
+    
+
+		$(document).ready(function() {
+
+			$("a[href*='http://']:not([href*='"+location.hostname+"']),[href*='https://']:not([href*='"+location.hostname+"'])").attr( 'target','_blank' );
+
+			$('a[href*="/docs/?id="]').attr('target','_blank');
+
+		});
+
+	
+
+    
+
+    
+
+	
+
+	$(document).ready(function() {
+
+
+
+		function setCookie(cname,cvalue,exdays) {
+
+			var d = new Date();
+
+			d.setTime(d.getTime() + (exdays*24*60*60*1000));
+
+			var expires = "expires=" + d.toGMTString();
+
+			document.cookie = cname+"="+cvalue+"; "+expires;
+
+		}
+
+		
+
+		function getCookie(cname) {
+
+			var name = cname + "=";
+
+			var ca = document.cookie.split(';');
+
+			for(var i=0; i<ca.length; i++) {
+
+				var c = ca[i].trim();
+
+				if (c.indexOf(name) == 0) return c.substring(name.length, c.length);
+
+			}
+
+			return "";
+
+		}
+
+		
+
+		var cookie_policy_acceptance = getCookie("cookie_policy_acceptance");
+
+		
+
+		if (cookie_policy_acceptance != "" && cookie_policy_acceptance == "Yes") {
+
+			$('#cookie_policy').css("display", "none");
+
+		} 
+
+		else {
+
+			$('#cookie_policy').css("display", "block");
+
+		}
+
+		
+
+		$('#cookie_consent_action').click( function() {
+
+			setCookie("cookie_policy_acceptance", "Yes", 365);
+
+			$('#cookie_policy').css("display", "none");
+
+		});
+
+	});
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+input[type="text"] {
+
+    width: 90% !important; float:left;
+
+}
+
+
+
+#alu-header #alu-header-nav .bucket-medium-r-pad {
+
+    float: left;
+
+    margin: 0 40px 0 0;
+
+    overflow: hidden;
+
+    padding: 0 20px 0 0;
+
+    width: 280px;
+
+}
+
+#alu-header #alu-header-nav .bucket-large-c {
+
+    float: left;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 0 60px 0 0;
+
+    width: 475px;
+
+}
+
+#alu-header #alu-header-nav .bucket-large-b {
+
+    float: left;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    width: 400px;
+
+}
+
+
+
+#alu-header #alu-header-nav .bucket-medium-no-pad {
+
+    float: left;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    width: 240px;
+
+}
+
+
+
+#alu-header #alu-header-nav .bucket-large-c {
+
+    float: left;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 0 40px 0 0;
+
+    width: 480px;
+
+}
+
+
+
+#alu-header #alu-header-nav .bucket-large-b {
+
+    float: left;
+
+    margin: 0;
+
+    overflow: hidden;
+
+    padding: 0;
+
+    width: 400px;
+
+}
+
+
+
+	
+
+        
+
+        	
+
+    We use cookies to give you the best experience on our site. These are files stored in your browser to help personalize your web experience. By continuing to use our website you are agreeing to how we use cookies. You can change your browser cookie settings at any time.
+
+    Don't show this message again 
+
+ 
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+            
+
+
+
+   
+
+     
+
+    
+
+    
+
+      
+
+        
+
+      
+
+      
+
+    
+
+     
+
+     
+
+     --> 
+
+     
+
+    
+
+    
+
+      
+
+      
+
+         
+
+
+
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+				var switchTo5x=true;
+
+				
+
+				
+
+				stLight.options({publisher: "5a71721e-b642-4ba6-a23d-2f7534ce4ce0", doNotHash: false, doNotCopy: false, hashAddressBar: false, embeds:true, onhover:false});
+
+				
+
+				var options={ "publisher": "5a71721e-b642-4ba6-a23d-2f7534ce4ce0", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "googleplus", "linkedin", "email", "sharethis"]}};
+
+				var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+
+				
+
+			
+
+        
+
+        	
+
+            	
+
+                    
+
+
+
+	Career Opportunities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    	
+
+
+
+
+
+
+
+
+
+div.page_section {
+
+float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Alcatel Lucent Enterprise has operations in over 50 countries, providing world-class network, cloud, and communications solutions for customers in in a wide range of industries including retail, manufacturing, governments, education, healthcare, and hospitality. Read more about Alcatel-Lucent Enterprise here.
+
+
+
+Our 2100 strong team of employees is growing, with career opportunities in many fields and locations worldwide.
+
+
+
+We offer development programs to broaden your skills, a friendly working environment and excellent employee benefits, while you contribute your valuable previous experience to enrich our presence in various continents. 
+
+
+
+We are an EEO/AA employer. We do not discriminate in hiring on the basis of sex, gender identity, sexual orientation, race, color, religious creed, national origin, physical or mental disability, protected Veteran status, or any other characteristic protected by federal, state, or local law. 
+
+
+
+If you need a reasonable accommodation for any part of the employment process, please contact us by email and let us know the nature of your request and your contact information. Requests for accommodation will be considered on a case-by-case basis. Please note that only inquiries concerning a request for reasonable accommodation will be responded to from this email address. 
+
+
+
+For more information about our commitment to equal employment opportunity, please click here.
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+  
+	
+	
+	
+
+
+
+
+
+	
+  
+  	
+  		
+  	
+  	
+  	
+  	
+  	
+	
+		
+	  	
+	  		
+	
+      
+		     
+		     
+		         Toggle navigation
+		         
+		         
+		         
+		      
+		      
+			      
+			  	 	
+					    Portal Home 
+					    
+						
+						
+					   		
+					   			Create Profile
+					   		
+					    
+					   	
+							
+								
+							
+						
+					
+				
+			 
+	
+	
+      
+      
+		 
+			  
+					
+						
+							
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<a class="pull-right glyphicon glyphicon-question-sign cursor-pointer" 
+												data-toggle="popover" 
+												data-placement="left" 
+												title="" 
+												data-html="true"
+												data-content="
+Asterisk (*): The asterisk can be used within a search as a placeholder for any unknown or wildcard terms. It can also be used alone to see all possible results!
+Example- *Manager  will return all results that have words before the Manager in case you want to see all results with Manager in them without typing each possible combination. 
+Example- Java* will return all results that begin with Java and have another word behind it. For example- Java* would find Java Programmer, Java Developer, etc.
+Quotes: Use quotes to search for an exact word or set of words in the search box. This is helpful when searching. Only use this if you're looking for an exact word or phrase, otherwise you'll exclude many helpful results by mistake.
+Example- 'Business Administrator' will only show you results that match this exact phrase. 
+OR : Use uppercase OR between terms to see results that contain any of the terms.
+Example- Trainer OR Teacher. This will show all results matching either Trainer or Teacher. The OR search will return more results than a single term or quotes search.
+">
+											
+											
+	
+
+
+		Search Requisitions
+	
+
+
+		
+	
+	
+	  	
+	  		
+	  	
+  	
+  	
+  	
+  	
+	  
+			
+					
+					
+					
+					
+					
+					
+					
+					 
+					
+						
+							What
+							
+							Job Title, Keywords, Job Number 
+						
+						
+							Where
+							
+							City, State OR Zip/Postal (optional)
+						
+						
+							Show/Hide Advanced Search
+						
+					
+					
+						
+							
+								Job Category
+								--
+												Marketing
+							
+							
+								Sort by
+									
+														Requisition ID
+														Distance
+														Title
+														City
+														State
+														Date&nbsp;
+													--
+														Asc
+														Desc	
+							
+							
+								Radius (US/CAN Only)
+					        	 - Select - 
+
+5 mi
+
+10 mi
+
+15 mi
+
+20 mi
+
+25 mi
+
+30 mi
+
+35 mi
+
+40 mi
+
+45 mi
+
+50 mi
+
+75 mi
+
+100 mi
+
+250 mi
+
+500 mi	
+							
+						
+					
+					
+						
+							Search
+						
+						
+					
+			 
+		 
+			
+	
+	
+
+
+	
+		  
+
+ 0) && (datePattern.length > 0)) {
+                 var MONTH = "MM";
+                 var DAY = "dd";
+                 var YEAR = "yyyy";
+                 var orderMonth = datePattern.indexOf(MONTH);
+                 var orderDay = datePattern.indexOf(DAY);
+                 var orderYear = datePattern.indexOf(YEAR);
+                 if ((orderDay  orderMonth)) {
+                     var iDelim1 = orderMonth + MONTH.length;
+                     var iDelim2 = orderDay + DAY.length;
+                     var delim1 = datePattern.substring(iDelim1, iDelim1 + 1);
+                     var delim2 = datePattern.substring(iDelim2, iDelim2 + 1);
+                     if (iDelim1 == orderDay && iDelim2 == orderYear) {
+                        dateRegexp = isStrict 
+                             ? new RegExp("^(\\d{2})(\\d{2})(\\d{4})$") 
+                             : new RegExp("^(\\d{1,2})(\\d{1,2})(\\d{4})$");
+                     } else if (iDelim1 == orderDay) {
+                        dateRegexp = isStrict 
+                             ? new RegExp("^(\\d{2})(\\d{2})[" + delim2 + "](\\d{4})$")
+                             : new RegExp("^(\\d{1,2})(\\d{1,2})[" + delim2 + "](\\d{4})$");
+                     } else if (iDelim2 == orderYear) {
+                        dateRegexp = isStrict
+                             ? new RegExp("^(\\d{2})[" + delim1 + "](\\d{2})(\\d{4})$")
+                             : new RegExp("^(\\d{1,2})[" + delim1 + "](\\d{1,2})(\\d{4})$");
+                     } else {
+                        dateRegexp = isStrict
+                             ? new RegExp("^(\\d{2})[" + delim1 + "](\\d{2})[" + delim2 + "](\\d{4})$")
+                             : new RegExp("^(\\d{1,2})[" + delim1 + "](\\d{1,2})[" + delim2 + "](\\d{4})$");
+                     }
+                     var matched = dateRegexp.exec(value);
+                     if(matched != null) {
+                        if (!jcv_isValidDate(matched[2], matched[1], matched[3])) {
+                           if (i == 0) {
+                               focusField = field;
+                           }
+                           fields[i++] = oDate[x][1];
+                           bValid =  false;
+                        }
+                     } else {
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oDate[x][1];
+                        bValid =  false;
+                     }
+                 } else if ((orderMonth  orderDay)) {
+                     var iDelim1 = orderDay + DAY.length;
+                     var iDelim2 = orderMonth + MONTH.length;
+                     var delim1 = datePattern.substring(iDelim1, iDelim1 + 1);
+                     var delim2 = datePattern.substring(iDelim2, iDelim2 + 1);
+                     if (iDelim1 == orderMonth && iDelim2 == orderYear) {
+                         dateRegexp = isStrict 
+                            ? new RegExp("^(\\d{2})(\\d{2})(\\d{4})$")
+                            : new RegExp("^(\\d{1,2})(\\d{1,2})(\\d{4})$");
+                     } else if (iDelim1 == orderMonth) {
+                         dateRegexp = isStrict
+                            ? new RegExp("^(\\d{2})(\\d{2})[" + delim2 + "](\\d{4})$")
+                            : new RegExp("^(\\d{1,2})(\\d{1,2})[" + delim2 + "](\\d{4})$");
+                     } else if (iDelim2 == orderYear) {
+                         dateRegexp = isStrict
+                            ? new RegExp("^(\\d{2})[" + delim1 + "](\\d{2})(\\d{4})$")
+                            : new RegExp("^(\\d{1,2})[" + delim1 + "](\\d{1,2})(\\d{4})$");
+                     } else {
+                         dateRegexp = isStrict
+                            ? new RegExp("^(\\d{2})[" + delim1 + "](\\d{2})[" + delim2 + "](\\d{4})$")
+                            : new RegExp("^(\\d{1,2})[" + delim1 + "](\\d{1,2})[" + delim2 + "](\\d{4})$");
+                     }
+                     var matched = dateRegexp.exec(value);
+                     if(matched != null) {
+                         if (!jcv_isValidDate(matched[1], matched[2], matched[3])) {
+                             if (i == 0) {
+                                  focusField = field;
+                             }
+                             fields[i++] = oDate[x][1];
+                             bValid =  false;
+                          }
+                     } else {
+                         if (i == 0) {
+                             focusField = field;
+                         }
+                         fields[i++] = oDate[x][1];
+                         bValid =  false;
+                     }
+                 } else if ((orderMonth > orderYear && orderMonth  0) {
+          jcv_handleErrors(fields, focusField);
+       }
+       return bValid;
+    }
+    
+    function jcv_isValidDate(day, month, year) {
+	    if (month  12) {
+            return false;
+        }
+        if (day  31) {
+            return false;
+        }
+        if ((month == 4 || month == 6 || month == 9 || month == 11) &&
+            (day == 31)) {
+            return false;
+        }
+        if (month == 2) {
+            var leap = (year % 4 == 0 &&
+               (year % 100 != 0 || year % 400 == 0));
+            if (day>29 || (day == 29 && !leap)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateMinLength.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * A field is considered valid if greater than the specified minimum.
+    * Fields are not checked if they are disabled.
+    *
+    *  Caution: Using validateMinLength() on a password field in a 
+    *  login page gives unnecessary information away to hackers. While it only slightly
+    *  weakens security, we suggest using it only when modifying a password.
+    * @param form The form validation is taking place on.
+    */
+    function validateMinLength(form) {
+        var isValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+
+        var oMinLength = eval('new ' + jcv_retrieveFormName(form) +  '_minlength()');
+
+        for (var x in oMinLength) {
+            if (!jcv_verifyArrayElement(x, oMinLength[x])) {
+                continue;
+            }
+            var field = form[oMinLength[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'password' ||
+                field.type == 'textarea')) {
+
+                /* Adjust length for carriage returns - see Bug 37962 */
+                var lineEndLength = oMinLength[x][2]("lineEndLength");
+                var adjustAmount = 0;
+                if (lineEndLength) {
+                    var rCount = 0;
+                    var nCount = 0;
+                    var crPos = 0;
+                    while (crPos  0) && ((field.value.length + adjustAmount)  0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateInteger.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields are a valid integer.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateInteger(form) {
+        var bValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oInteger = eval('new ' + jcv_retrieveFormName(form) +  '_IntegerValidations()');
+        for (var x in oInteger) {
+            if (!jcv_verifyArrayElement(x, oInteger[x])) {
+                continue;
+            }
+            var field = form[oInteger[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'textarea' ||
+                field.type == 'select-one' ||
+                field.type == 'radio')) {
+
+                var value = '';
+                // get field's value
+                if (field.type == "select-one") {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                } else {
+                    value = field.value;
+                }
+
+                if (value.length > 0) {
+
+                    if (!jcv_isDecimalDigits(value)) {
+                        bValid = false;
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oInteger[x][1];
+
+                    } else {
+                        var iValue = parseInt(value, 10);
+                        if (isNaN(iValue) || !(iValue >= -2147483648 && iValue  0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateFloat.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields are a valid float.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateFloat(form) {
+        var bValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oFloat = eval('new ' + jcv_retrieveFormName(form) +  '_FloatValidations()');
+        for (var x in oFloat) {
+            if (!jcv_verifyArrayElement(x, oFloat[x])) {
+                continue;
+            }
+        	var field = form[oFloat[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+        	
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'textarea' ||
+                field.type == 'select-one' ||
+                field.type == 'radio')) {
+        
+            	var value = '';
+                // get field's value
+                if (field.type == "select-one") {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                } else {
+                    value = field.value;
+                }
+        
+                if (value.length > 0) {
+                    // remove '.' before checking digits
+                    var tempArray = value.split('.');
+                    //Strip off leading '0'
+                    var zeroIndex = 0;
+                    var joinedString= tempArray.join('');
+                    while (joinedString.charAt(zeroIndex) == '0') {
+                        zeroIndex++;
+                    }
+                    var noZeroString = joinedString.substring(zeroIndex,joinedString.length);
+
+                    if (!jcv_isAllDigits(noZeroString) || tempArray.length > 2) {
+                        bValid = false;
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oFloat[x][1];
+
+                    } else {
+	                var iValue = parseFloat(value);
+	                if (isNaN(iValue)) {
+	                    if (i == 0) {
+	                        focusField = field;
+	                    }
+	                    fields[i++] = oFloat[x][1];
+	                    bValid = false;
+	                }
+                    }
+                }
+            }
+        }
+        if (fields.length > 0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateRequired.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    *  Check to see if fields must contain a value.
+    * Fields are not checked if they are disabled.
+    *
+    * @param form The form validation is taking place on.
+    */
+
+    function validateRequired(form) {
+        var isValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+
+        var oRequired = eval('new ' + jcv_retrieveFormName(form) +  '_required()');
+
+        for (var x in oRequired) {
+            if (!jcv_verifyArrayElement(x, oRequired[x])) {
+                continue;
+            }
+            var field = form[oRequired[x][0]];
+
+            if (!jcv_isFieldPresent(field)) {
+                fields[i++] = oRequired[x][1];
+                isValid=false;
+            } else if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'textarea' ||
+                field.type == 'file' ||
+                field.type == 'radio' ||
+                field.type == 'checkbox' ||
+                field.type == 'select-one' ||
+                field.type == 'password')) {
+
+                var value = '';
+                // get field's value
+                if (field.type == "select-one") {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                } else if (field.type == 'radio' || field.type == 'checkbox') {
+                    if (field.checked) {
+                        value = field.value;
+                    }
+                } else {
+                    value = field.value;
+                }
+
+                if (trim(value).length == 0) {
+
+                    if ((i == 0) && (field.type != 'hidden')) {
+                        focusField = field;
+                    }
+                    fields[i++] = oRequired[x][1];
+                    isValid = false;
+                }
+            } else if (field.type == "select-multiple") { 
+                var numOptions = field.options.length;
+                lastSelected=-1;
+                for(loop=numOptions-1;loop>=0;loop--) {
+                    if(field.options[loop].selected) {
+                        lastSelected = loop;
+                        value = field.options[loop].value;
+                        break;
+                    }
+                }
+                if(lastSelected  0) && (field[0].type == 'radio' || field[0].type == 'checkbox')) {
+                isChecked=-1;
+                for (loop=0;loop  0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+    
+    // Trim whitespace from left and right sides of s.
+    function trim(s) {
+        return s.replace( /^\s*/, "" ).replace( /\s*$/, "" );
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+  /*$RCSfile: validateUtilities.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+  /**
+  * This is a place holder for common utilities used across the javascript validation
+  *
+  **/
+
+  /**
+   * Retreive the name of the form
+   * @param form The form validation is taking place on.
+   */
+  function jcv_retrieveFormName(form) {
+
+      // Please refer to Bugs 31534, 35127, 35294, 37315 & 38159
+      // for the history of the following code
+
+      var formName;
+
+      if (form.getAttributeNode) {
+          if (form.getAttributeNode("id") && form.getAttributeNode("id").value) {
+              formName = form.getAttributeNode("id").value;
+          } else {
+              formName = form.getAttributeNode("name").value;
+          }
+      } else if (form.getAttribute) {
+          if (form.getAttribute("id")) {
+              formName = form.getAttribute("id");
+          } else {
+              formName = form.attributes["name"];
+          }
+      } else {
+          if (form.id) {
+              formName = form.id;
+          } else {
+              formName = form.name;
+          }
+      }
+
+      return formName;
+
+  }  
+
+  /**
+   * Handle error messages.
+   * @param messages Array of error messages.
+   * @param focusField Field to set focus on.
+   */
+  function jcv_handleErrors(messages, focusField) {
+      if (focusField && focusField != null) {
+          var doFocus = true;
+          if (focusField.disabled || focusField.type == 'hidden') {
+              doFocus = false;
+          }
+          if (doFocus && 
+              focusField.style && 
+              focusField.style.visibility &&
+              focusField.style.visibility == 'hidden') {
+              doFocus = false;
+          }
+          if (doFocus) {
+              focusField.focus();
+          }
+      }
+      alert(messages.join('\n'));
+  }
+
+  /**
+   * Checks that the array element is a valid
+   * Commons Validator element and not one inserted by
+   * other JavaScript libraries (for example the
+   * prototype library inserts an "extends" into
+   * all objects, including Arrays).
+   * @param name The element name.
+   * @param value The element value.
+   */
+  function jcv_verifyArrayElement(name, element) {
+      if (element && element.length && element.length == 3) {
+          return true;
+      } else {
+          return false;
+      }
+  }
+
+  /**
+   * Checks whether the field is present on the form.
+   * @param field The form field.
+   */
+  function jcv_isFieldPresent(field) {
+      var fieldPresent = true;
+      if (field == null || (typeof field == 'undefined')) {
+          fieldPresent = false;
+      } else {
+          if (field.disabled) {
+              fieldPresent = false;
+          }
+      }
+      return fieldPresent;
+  }
+
+  /**
+   * Check a value only contains valid numeric digits
+   * @param argvalue The value to check.
+   */
+  function jcv_isAllDigits(argvalue) {
+      argvalue = argvalue.toString();
+      var validChars = "0123456789";
+      var startFrom = 0;
+      if (argvalue.substring(0, 2) == "0x") {
+         validChars = "0123456789abcdefABCDEF";
+         startFrom = 2;
+      } else if (argvalue.charAt(0) == "0") {
+         validChars = "01234567";
+         startFrom = 1;
+      } else if (argvalue.charAt(0) == "-") {
+          startFrom = 1;
+      }
+
+      for (var n = startFrom; n  0)) {
+                if (!jcv_checkEmail(field.value)) {
+                    if (i == 0) {
+                        focusField = field;
+                    }
+                    fields[i++] = oEmail[x][1];
+                    bValid = false;
+                }
+            }
+        }
+        if (fields.length > 0) {
+            jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+    /**
+     * Reference: Sandeep V. Tamhankar (stamhankar@hotmail.com),
+     * http://javascript.internet.com
+     */
+    function jcv_checkEmail(emailStr) {
+        if (emailStr.length == 0) {
+            return true;
+        }
+        // TLD checking turned off by default
+        var checkTLD=0;
+        var knownDomsPat=/^(com|net|org|edu|int|mil|gov|arpa|biz|aero|name|coop|info|pro|museum)$/;
+        var emailPat=/^(.+)@(.+)$/;
+        var specialChars="\\(\\)>127) {
+                return false;
+            }
+        }
+        for (i=0; i127) {
+                return false;
+            }
+        }
+        if (user.match(userPat)==null) {
+            return false;
+        }
+        var IPArray=domain.match(ipDomainPat);
+        if (IPArray!=null) {
+            for (var i=1;i255) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        var atomPat=new RegExp("^" + atom + "$");
+        var domArr=domain.split(".");
+        var len=domArr.length;
+        for (i=0;i 0)) {
+
+                if (!jcv_matchPattern(field.value, oMasked[x][2]("mask"))) {
+                    if (i == 0) {
+                        focusField = field;
+                    }
+                    fields[i++] = oMasked[x][1];
+                    isValid = false;
+                }
+            }
+        }
+
+        if (fields.length > 0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+
+    function jcv_matchPattern(value, mask) {
+       return mask.exec(value);
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateIntRange.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields is in a valid integer range.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateIntRange(form) {
+        var isValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oRange = eval('new ' + jcv_retrieveFormName(form) +  '_intRange()');        
+        for (var x in oRange) {
+            if (!jcv_verifyArrayElement(x, oRange[x])) {
+                continue;
+            }
+            var field = form[oRange[x][0]];
+            if (jcv_isFieldPresent(field)) {
+                var value = '';
+                if (field.type == 'hidden' ||
+                    field.type == 'text' || field.type == 'textarea' ||
+                    field.type == 'radio' ) {
+                    value = field.value;
+                }
+                if (field.type == 'select-one') {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                }
+                if (value.length > 0) {
+                    var iMin = parseInt(oRange[x][2]("min"));
+                    var iMax = parseInt(oRange[x][2]("max"));
+                    var iValue = parseInt(value, 10);
+                    if (!(iValue >= iMin && iValue  0) {
+            jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateMaxLength.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * A field is considered valid if less than the specified maximum.
+    * Fields are not checked if they are disabled.
+    *
+    *  Caution: Using validateMaxLength() on a password field in a 
+    *  login page gives unnecessary information away to hackers. While it only slightly
+    *  weakens security, we suggest using it only when modifying a password.
+    * @param form The form validation is taking place on.
+    */
+    function validateMaxLength(form) {
+        var isValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oMaxLength = eval('new ' + jcv_retrieveFormName(form) +  '_maxlength()');        
+        for (var x in oMaxLength) {
+            if (!jcv_verifyArrayElement(x, oMaxLength[x])) {
+                continue;
+            }
+            var field = form[oMaxLength[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'password' ||
+                field.type == 'textarea')) {
+
+                /* Adjust length for carriage returns - see Bug 37962 */
+                var lineEndLength = oMaxLength[x][2]("lineEndLength");
+                var adjustAmount = 0;
+                if (lineEndLength) {
+                    var rCount = 0;
+                    var nCount = 0;
+                    var crPos = 0;
+                    while (crPos  iMax) {
+                    if (i == 0) {
+                        focusField = field;
+                    }
+                    fields[i++] = oMaxLength[x][1];
+                    isValid = false;
+                }
+            }
+        }
+        if (fields.length > 0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+   /*$RCSfile: validateFloatRange.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields are in a valid float range.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateFloatRange(form) {
+        var isValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+        
+        var oRange = eval('new ' + jcv_retrieveFormName(form) +  '_floatRange()');
+        for (var x in oRange) {
+            if (!jcv_verifyArrayElement(x, oRange[x])) {
+                continue;
+            }
+            var field = form[oRange[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+            
+            if ((field.type == 'hidden' ||
+                field.type == 'text' || field.type == 'textarea') &&
+                (field.value.length > 0)) {
+        
+                var fMin = parseFloat(oRange[x][2]("min"));
+                var fMax = parseFloat(oRange[x][2]("max"));
+                var fValue = parseFloat(field.value);
+                if (!(fValue >= fMin && fValue  0) {
+            jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateByte.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields are a valid byte.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateByte(form) {
+        var bValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+        
+        var oByte = eval('new ' + jcv_retrieveFormName(form) + '_ByteValidations()');
+
+        for (var x in oByte) {
+            if (!jcv_verifyArrayElement(x, oByte[x])) {
+                continue;
+            }
+            var field = form[oByte[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'textarea' ||
+                field.type == 'select-one' ||
+                field.type == 'radio')) {
+
+                var value = '';
+                // get field's value
+                if (field.type == "select-one") {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                } else {
+                    value = field.value;
+                }
+
+                if (value.length > 0) {
+                    if (!jcv_isDecimalDigits(value)) {
+                        bValid = false;
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oByte[x][1];
+
+                    } else {
+
+                        var iValue = parseInt(value, 10);
+                        if (isNaN(iValue) || !(iValue >= -128 && iValue  0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+function validateCompareDateOrder(form) {
+            var bValid = true;
+            var focusField = null;
+            var i = 0;
+            var fields = new Array();
+            oTwoFields = eval('new ' + jcv_retrieveFormName(form) + '_compareDateOrder()');
+            
+            for (x in oTwoFields) {
+                var field = form[oTwoFields[x][0]];
+                var secondField = form[oTwoFields[x][2]("secondProperty")];
+                
+                if (field.type == 'text') {
+            
+                    var value;
+                    var secondValue;
+                    
+                    // get field's value
+                    value = field.value;
+                    secondValue = secondField.value;
+                
+                	var beginDate = new Date(value);
+                	var endDate = new Date(secondValue);
+                	
+                    if (beginDate > endDate) {
+                    
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oTwoFields[x][1];
+                        bValid = false;
+                    }
+                }
+            }
+            
+            if (fields.length > 0) {
+                focusField.focus();
+                alert(fields.join('\n'));
+            }
+            
+            return bValid;
+        }
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateShort.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    *  Check to see if fields are a valid short.
+    * Fields are not checked if they are disabled.
+    *
+    * @param form The form validation is taking place on.
+    */
+    function validateShort(form) {
+        var bValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oShort = eval('new ' + jcv_retrieveFormName(form) +  '_ShortValidations()');
+
+        for (var x in oShort) {
+            if (!jcv_verifyArrayElement(x, oShort[x])) {
+                continue;
+            }
+            var field = form[oShort[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'textarea' ||
+                field.type == 'select-one' ||
+                field.type == 'radio')) {
+
+                var value = '';
+                // get field's value
+                if (field.type == "select-one") {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                } else {
+                    value = field.value;
+                }
+
+                if (value.length > 0) {
+                    if (!jcv_isDecimalDigits(value)) {
+                        bValid = false;
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oShort[x][1];
+
+                    } else {
+
+                        var iValue = parseInt(value, 10);
+                        if (isNaN(iValue) || !(iValue >= -32768 && iValue  0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateCreditCard.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields are a valid creditcard number based on Luhn checksum.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateCreditCard(form) {
+        var bValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oCreditCard = eval('new ' + jcv_retrieveFormName(form) +  '_creditCard()');
+
+        for (var x in oCreditCard) {
+            if (!jcv_verifyArrayElement(x, oCreditCard[x])) {
+                continue;
+            }
+            var field = form[oCreditCard[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+            if ((field.type == 'text' ||
+                 field.type == 'textarea') &&
+                (field.value.length > 0)) {
+                if (!jcv_luhnCheck(field.value)) {
+                    if (i == 0) {
+                        focusField = field;
+                    }
+                    fields[i++] = oCreditCard[x][1];
+                    bValid = false;
+                }
+            }
+        }
+        if (fields.length > 0) {
+            jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+    /**
+     * Checks whether a given credit card number has a valid Luhn checksum.
+     * This allows you to spot most randomly made-up or garbled credit card numbers immediately.
+     * Reference: http://www.speech.cs.cmu.edu/~sburke/pub/luhn_lib.html
+     */
+    function jcv_luhnCheck(cardNumber) {
+        if (jcv_isLuhnNum(cardNumber)) {
+            var no_digit = cardNumber.length;
+            var oddoeven = no_digit & 1;
+            var sum = 0;
+            for (var count = 0; count  9) digit -= 9;
+                };
+                sum += digit;
+            };
+            if (sum == 0) return false;
+            if (sum % 10 == 0) return true;
+        };
+        return false;
+    }
+
+    function jcv_isLuhnNum(argvalue) {
+        argvalue = argvalue.toString();
+        if (argvalue.length == 0) {
+            return false;
+        }
+        for (var n = 0; n  "9")) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+//End --> 
+
+
+
+
+				
+					
+						function fnBMprocessJobSearchPaneForm(frm) {
+						// clear values for form validation
+							(function($){
+								$('.fieldData').each(function(){
+									if(!$(this).find('input').is(':text'))
+										return;
+									
+									if ($(this).find('input').hasClass('inputNull')){
+										$(this).find('input').val('');
+									}
+								});
+							})(jQuery);
+							
+							if (frm.searchTerms.value != frm.prevSearchTerm.value) {
+								frm.startRecord.value = 1;
+							}
+					
+							if (frm.pageSize.value != frm.prevPageSize.value) {
+								frm.startRecord.value = 1;
+							}
+							if (frm.searchTerms.value == null || frm.searchTerms.value == '') {
+								frm.searchTerms.value = '*';
+							}		
+							return validatePublicRequirementSearchForm(frm);
+						}
+						
+						function toggleLayer( whichLayer ) {  
+							(function($) {
+								if ($('#' + whichLayer).is(':visible')) {
+									$('#'+whichLayer).fadeOut();
+								} else {
+									$('#'+whichLayer).fadeIn();
+								}
+							})(jQuery);
+						}
+						
+					
+				
+
+						
+					
+				  
+
+ 0) && (datePattern.length > 0)) {
+                 var MONTH = "MM";
+                 var DAY = "dd";
+                 var YEAR = "yyyy";
+                 var orderMonth = datePattern.indexOf(MONTH);
+                 var orderDay = datePattern.indexOf(DAY);
+                 var orderYear = datePattern.indexOf(YEAR);
+                 if ((orderDay  orderMonth)) {
+                     var iDelim1 = orderMonth + MONTH.length;
+                     var iDelim2 = orderDay + DAY.length;
+                     var delim1 = datePattern.substring(iDelim1, iDelim1 + 1);
+                     var delim2 = datePattern.substring(iDelim2, iDelim2 + 1);
+                     if (iDelim1 == orderDay && iDelim2 == orderYear) {
+                        dateRegexp = isStrict 
+                             ? new RegExp("^(\\d{2})(\\d{2})(\\d{4})$") 
+                             : new RegExp("^(\\d{1,2})(\\d{1,2})(\\d{4})$");
+                     } else if (iDelim1 == orderDay) {
+                        dateRegexp = isStrict 
+                             ? new RegExp("^(\\d{2})(\\d{2})[" + delim2 + "](\\d{4})$")
+                             : new RegExp("^(\\d{1,2})(\\d{1,2})[" + delim2 + "](\\d{4})$");
+                     } else if (iDelim2 == orderYear) {
+                        dateRegexp = isStrict
+                             ? new RegExp("^(\\d{2})[" + delim1 + "](\\d{2})(\\d{4})$")
+                             : new RegExp("^(\\d{1,2})[" + delim1 + "](\\d{1,2})(\\d{4})$");
+                     } else {
+                        dateRegexp = isStrict
+                             ? new RegExp("^(\\d{2})[" + delim1 + "](\\d{2})[" + delim2 + "](\\d{4})$")
+                             : new RegExp("^(\\d{1,2})[" + delim1 + "](\\d{1,2})[" + delim2 + "](\\d{4})$");
+                     }
+                     var matched = dateRegexp.exec(value);
+                     if(matched != null) {
+                        if (!jcv_isValidDate(matched[2], matched[1], matched[3])) {
+                           if (i == 0) {
+                               focusField = field;
+                           }
+                           fields[i++] = oDate[x][1];
+                           bValid =  false;
+                        }
+                     } else {
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oDate[x][1];
+                        bValid =  false;
+                     }
+                 } else if ((orderMonth  orderDay)) {
+                     var iDelim1 = orderDay + DAY.length;
+                     var iDelim2 = orderMonth + MONTH.length;
+                     var delim1 = datePattern.substring(iDelim1, iDelim1 + 1);
+                     var delim2 = datePattern.substring(iDelim2, iDelim2 + 1);
+                     if (iDelim1 == orderMonth && iDelim2 == orderYear) {
+                         dateRegexp = isStrict 
+                            ? new RegExp("^(\\d{2})(\\d{2})(\\d{4})$")
+                            : new RegExp("^(\\d{1,2})(\\d{1,2})(\\d{4})$");
+                     } else if (iDelim1 == orderMonth) {
+                         dateRegexp = isStrict
+                            ? new RegExp("^(\\d{2})(\\d{2})[" + delim2 + "](\\d{4})$")
+                            : new RegExp("^(\\d{1,2})(\\d{1,2})[" + delim2 + "](\\d{4})$");
+                     } else if (iDelim2 == orderYear) {
+                         dateRegexp = isStrict
+                            ? new RegExp("^(\\d{2})[" + delim1 + "](\\d{2})(\\d{4})$")
+                            : new RegExp("^(\\d{1,2})[" + delim1 + "](\\d{1,2})(\\d{4})$");
+                     } else {
+                         dateRegexp = isStrict
+                            ? new RegExp("^(\\d{2})[" + delim1 + "](\\d{2})[" + delim2 + "](\\d{4})$")
+                            : new RegExp("^(\\d{1,2})[" + delim1 + "](\\d{1,2})[" + delim2 + "](\\d{4})$");
+                     }
+                     var matched = dateRegexp.exec(value);
+                     if(matched != null) {
+                         if (!jcv_isValidDate(matched[1], matched[2], matched[3])) {
+                             if (i == 0) {
+                                  focusField = field;
+                             }
+                             fields[i++] = oDate[x][1];
+                             bValid =  false;
+                          }
+                     } else {
+                         if (i == 0) {
+                             focusField = field;
+                         }
+                         fields[i++] = oDate[x][1];
+                         bValid =  false;
+                     }
+                 } else if ((orderMonth > orderYear && orderMonth  0) {
+          jcv_handleErrors(fields, focusField);
+       }
+       return bValid;
+    }
+    
+    function jcv_isValidDate(day, month, year) {
+	    if (month  12) {
+            return false;
+        }
+        if (day  31) {
+            return false;
+        }
+        if ((month == 4 || month == 6 || month == 9 || month == 11) &&
+            (day == 31)) {
+            return false;
+        }
+        if (month == 2) {
+            var leap = (year % 4 == 0 &&
+               (year % 100 != 0 || year % 400 == 0));
+            if (day>29 || (day == 29 && !leap)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateMinLength.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * A field is considered valid if greater than the specified minimum.
+    * Fields are not checked if they are disabled.
+    *
+    *  Caution: Using validateMinLength() on a password field in a 
+    *  login page gives unnecessary information away to hackers. While it only slightly
+    *  weakens security, we suggest using it only when modifying a password.
+    * @param form The form validation is taking place on.
+    */
+    function validateMinLength(form) {
+        var isValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+
+        var oMinLength = eval('new ' + jcv_retrieveFormName(form) +  '_minlength()');
+
+        for (var x in oMinLength) {
+            if (!jcv_verifyArrayElement(x, oMinLength[x])) {
+                continue;
+            }
+            var field = form[oMinLength[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'password' ||
+                field.type == 'textarea')) {
+
+                /* Adjust length for carriage returns - see Bug 37962 */
+                var lineEndLength = oMinLength[x][2]("lineEndLength");
+                var adjustAmount = 0;
+                if (lineEndLength) {
+                    var rCount = 0;
+                    var nCount = 0;
+                    var crPos = 0;
+                    while (crPos  0) && ((field.value.length + adjustAmount)  0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateInteger.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields are a valid integer.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateInteger(form) {
+        var bValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oInteger = eval('new ' + jcv_retrieveFormName(form) +  '_IntegerValidations()');
+        for (var x in oInteger) {
+            if (!jcv_verifyArrayElement(x, oInteger[x])) {
+                continue;
+            }
+            var field = form[oInteger[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'textarea' ||
+                field.type == 'select-one' ||
+                field.type == 'radio')) {
+
+                var value = '';
+                // get field's value
+                if (field.type == "select-one") {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                } else {
+                    value = field.value;
+                }
+
+                if (value.length > 0) {
+
+                    if (!jcv_isDecimalDigits(value)) {
+                        bValid = false;
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oInteger[x][1];
+
+                    } else {
+                        var iValue = parseInt(value, 10);
+                        if (isNaN(iValue) || !(iValue >= -2147483648 && iValue  0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateFloat.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields are a valid float.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateFloat(form) {
+        var bValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oFloat = eval('new ' + jcv_retrieveFormName(form) +  '_FloatValidations()');
+        for (var x in oFloat) {
+            if (!jcv_verifyArrayElement(x, oFloat[x])) {
+                continue;
+            }
+        	var field = form[oFloat[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+        	
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'textarea' ||
+                field.type == 'select-one' ||
+                field.type == 'radio')) {
+        
+            	var value = '';
+                // get field's value
+                if (field.type == "select-one") {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                } else {
+                    value = field.value;
+                }
+        
+                if (value.length > 0) {
+                    // remove '.' before checking digits
+                    var tempArray = value.split('.');
+                    //Strip off leading '0'
+                    var zeroIndex = 0;
+                    var joinedString= tempArray.join('');
+                    while (joinedString.charAt(zeroIndex) == '0') {
+                        zeroIndex++;
+                    }
+                    var noZeroString = joinedString.substring(zeroIndex,joinedString.length);
+
+                    if (!jcv_isAllDigits(noZeroString) || tempArray.length > 2) {
+                        bValid = false;
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oFloat[x][1];
+
+                    } else {
+	                var iValue = parseFloat(value);
+	                if (isNaN(iValue)) {
+	                    if (i == 0) {
+	                        focusField = field;
+	                    }
+	                    fields[i++] = oFloat[x][1];
+	                    bValid = false;
+	                }
+                    }
+                }
+            }
+        }
+        if (fields.length > 0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateRequired.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    *  Check to see if fields must contain a value.
+    * Fields are not checked if they are disabled.
+    *
+    * @param form The form validation is taking place on.
+    */
+
+    function validateRequired(form) {
+        var isValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+
+        var oRequired = eval('new ' + jcv_retrieveFormName(form) +  '_required()');
+
+        for (var x in oRequired) {
+            if (!jcv_verifyArrayElement(x, oRequired[x])) {
+                continue;
+            }
+            var field = form[oRequired[x][0]];
+
+            if (!jcv_isFieldPresent(field)) {
+                fields[i++] = oRequired[x][1];
+                isValid=false;
+            } else if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'textarea' ||
+                field.type == 'file' ||
+                field.type == 'radio' ||
+                field.type == 'checkbox' ||
+                field.type == 'select-one' ||
+                field.type == 'password')) {
+
+                var value = '';
+                // get field's value
+                if (field.type == "select-one") {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                } else if (field.type == 'radio' || field.type == 'checkbox') {
+                    if (field.checked) {
+                        value = field.value;
+                    }
+                } else {
+                    value = field.value;
+                }
+
+                if (trim(value).length == 0) {
+
+                    if ((i == 0) && (field.type != 'hidden')) {
+                        focusField = field;
+                    }
+                    fields[i++] = oRequired[x][1];
+                    isValid = false;
+                }
+            } else if (field.type == "select-multiple") { 
+                var numOptions = field.options.length;
+                lastSelected=-1;
+                for(loop=numOptions-1;loop>=0;loop--) {
+                    if(field.options[loop].selected) {
+                        lastSelected = loop;
+                        value = field.options[loop].value;
+                        break;
+                    }
+                }
+                if(lastSelected  0) && (field[0].type == 'radio' || field[0].type == 'checkbox')) {
+                isChecked=-1;
+                for (loop=0;loop  0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+    
+    // Trim whitespace from left and right sides of s.
+    function trim(s) {
+        return s.replace( /^\s*/, "" ).replace( /\s*$/, "" );
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+  /*$RCSfile: validateUtilities.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+  /**
+  * This is a place holder for common utilities used across the javascript validation
+  *
+  **/
+
+  /**
+   * Retreive the name of the form
+   * @param form The form validation is taking place on.
+   */
+  function jcv_retrieveFormName(form) {
+
+      // Please refer to Bugs 31534, 35127, 35294, 37315 & 38159
+      // for the history of the following code
+
+      var formName;
+
+      if (form.getAttributeNode) {
+          if (form.getAttributeNode("id") && form.getAttributeNode("id").value) {
+              formName = form.getAttributeNode("id").value;
+          } else {
+              formName = form.getAttributeNode("name").value;
+          }
+      } else if (form.getAttribute) {
+          if (form.getAttribute("id")) {
+              formName = form.getAttribute("id");
+          } else {
+              formName = form.attributes["name"];
+          }
+      } else {
+          if (form.id) {
+              formName = form.id;
+          } else {
+              formName = form.name;
+          }
+      }
+
+      return formName;
+
+  }  
+
+  /**
+   * Handle error messages.
+   * @param messages Array of error messages.
+   * @param focusField Field to set focus on.
+   */
+  function jcv_handleErrors(messages, focusField) {
+      if (focusField && focusField != null) {
+          var doFocus = true;
+          if (focusField.disabled || focusField.type == 'hidden') {
+              doFocus = false;
+          }
+          if (doFocus && 
+              focusField.style && 
+              focusField.style.visibility &&
+              focusField.style.visibility == 'hidden') {
+              doFocus = false;
+          }
+          if (doFocus) {
+              focusField.focus();
+          }
+      }
+      alert(messages.join('\n'));
+  }
+
+  /**
+   * Checks that the array element is a valid
+   * Commons Validator element and not one inserted by
+   * other JavaScript libraries (for example the
+   * prototype library inserts an "extends" into
+   * all objects, including Arrays).
+   * @param name The element name.
+   * @param value The element value.
+   */
+  function jcv_verifyArrayElement(name, element) {
+      if (element && element.length && element.length == 3) {
+          return true;
+      } else {
+          return false;
+      }
+  }
+
+  /**
+   * Checks whether the field is present on the form.
+   * @param field The form field.
+   */
+  function jcv_isFieldPresent(field) {
+      var fieldPresent = true;
+      if (field == null || (typeof field == 'undefined')) {
+          fieldPresent = false;
+      } else {
+          if (field.disabled) {
+              fieldPresent = false;
+          }
+      }
+      return fieldPresent;
+  }
+
+  /**
+   * Check a value only contains valid numeric digits
+   * @param argvalue The value to check.
+   */
+  function jcv_isAllDigits(argvalue) {
+      argvalue = argvalue.toString();
+      var validChars = "0123456789";
+      var startFrom = 0;
+      if (argvalue.substring(0, 2) == "0x") {
+         validChars = "0123456789abcdefABCDEF";
+         startFrom = 2;
+      } else if (argvalue.charAt(0) == "0") {
+         validChars = "01234567";
+         startFrom = 1;
+      } else if (argvalue.charAt(0) == "-") {
+          startFrom = 1;
+      }
+
+      for (var n = startFrom; n  0)) {
+                if (!jcv_checkEmail(field.value)) {
+                    if (i == 0) {
+                        focusField = field;
+                    }
+                    fields[i++] = oEmail[x][1];
+                    bValid = false;
+                }
+            }
+        }
+        if (fields.length > 0) {
+            jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+    /**
+     * Reference: Sandeep V. Tamhankar (stamhankar@hotmail.com),
+     * http://javascript.internet.com
+     */
+    function jcv_checkEmail(emailStr) {
+        if (emailStr.length == 0) {
+            return true;
+        }
+        // TLD checking turned off by default
+        var checkTLD=0;
+        var knownDomsPat=/^(com|net|org|edu|int|mil|gov|arpa|biz|aero|name|coop|info|pro|museum)$/;
+        var emailPat=/^(.+)@(.+)$/;
+        var specialChars="\\(\\)>127) {
+                return false;
+            }
+        }
+        for (i=0; i127) {
+                return false;
+            }
+        }
+        if (user.match(userPat)==null) {
+            return false;
+        }
+        var IPArray=domain.match(ipDomainPat);
+        if (IPArray!=null) {
+            for (var i=1;i255) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        var atomPat=new RegExp("^" + atom + "$");
+        var domArr=domain.split(".");
+        var len=domArr.length;
+        for (i=0;i 0)) {
+
+                if (!jcv_matchPattern(field.value, oMasked[x][2]("mask"))) {
+                    if (i == 0) {
+                        focusField = field;
+                    }
+                    fields[i++] = oMasked[x][1];
+                    isValid = false;
+                }
+            }
+        }
+
+        if (fields.length > 0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+
+    function jcv_matchPattern(value, mask) {
+       return mask.exec(value);
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateIntRange.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields is in a valid integer range.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateIntRange(form) {
+        var isValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oRange = eval('new ' + jcv_retrieveFormName(form) +  '_intRange()');        
+        for (var x in oRange) {
+            if (!jcv_verifyArrayElement(x, oRange[x])) {
+                continue;
+            }
+            var field = form[oRange[x][0]];
+            if (jcv_isFieldPresent(field)) {
+                var value = '';
+                if (field.type == 'hidden' ||
+                    field.type == 'text' || field.type == 'textarea' ||
+                    field.type == 'radio' ) {
+                    value = field.value;
+                }
+                if (field.type == 'select-one') {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                }
+                if (value.length > 0) {
+                    var iMin = parseInt(oRange[x][2]("min"));
+                    var iMax = parseInt(oRange[x][2]("max"));
+                    var iValue = parseInt(value, 10);
+                    if (!(iValue >= iMin && iValue  0) {
+            jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateMaxLength.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * A field is considered valid if less than the specified maximum.
+    * Fields are not checked if they are disabled.
+    *
+    *  Caution: Using validateMaxLength() on a password field in a 
+    *  login page gives unnecessary information away to hackers. While it only slightly
+    *  weakens security, we suggest using it only when modifying a password.
+    * @param form The form validation is taking place on.
+    */
+    function validateMaxLength(form) {
+        var isValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oMaxLength = eval('new ' + jcv_retrieveFormName(form) +  '_maxlength()');        
+        for (var x in oMaxLength) {
+            if (!jcv_verifyArrayElement(x, oMaxLength[x])) {
+                continue;
+            }
+            var field = form[oMaxLength[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'password' ||
+                field.type == 'textarea')) {
+
+                /* Adjust length for carriage returns - see Bug 37962 */
+                var lineEndLength = oMaxLength[x][2]("lineEndLength");
+                var adjustAmount = 0;
+                if (lineEndLength) {
+                    var rCount = 0;
+                    var nCount = 0;
+                    var crPos = 0;
+                    while (crPos  iMax) {
+                    if (i == 0) {
+                        focusField = field;
+                    }
+                    fields[i++] = oMaxLength[x][1];
+                    isValid = false;
+                }
+            }
+        }
+        if (fields.length > 0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+   /*$RCSfile: validateFloatRange.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields are in a valid float range.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateFloatRange(form) {
+        var isValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+        
+        var oRange = eval('new ' + jcv_retrieveFormName(form) +  '_floatRange()');
+        for (var x in oRange) {
+            if (!jcv_verifyArrayElement(x, oRange[x])) {
+                continue;
+            }
+            var field = form[oRange[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+            
+            if ((field.type == 'hidden' ||
+                field.type == 'text' || field.type == 'textarea') &&
+                (field.value.length > 0)) {
+        
+                var fMin = parseFloat(oRange[x][2]("min"));
+                var fMax = parseFloat(oRange[x][2]("max"));
+                var fValue = parseFloat(field.value);
+                if (!(fValue >= fMin && fValue  0) {
+            jcv_handleErrors(fields, focusField);
+        }
+        return isValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateByte.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields are a valid byte.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateByte(form) {
+        var bValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+        
+        var oByte = eval('new ' + jcv_retrieveFormName(form) + '_ByteValidations()');
+
+        for (var x in oByte) {
+            if (!jcv_verifyArrayElement(x, oByte[x])) {
+                continue;
+            }
+            var field = form[oByte[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'textarea' ||
+                field.type == 'select-one' ||
+                field.type == 'radio')) {
+
+                var value = '';
+                // get field's value
+                if (field.type == "select-one") {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                } else {
+                    value = field.value;
+                }
+
+                if (value.length > 0) {
+                    if (!jcv_isDecimalDigits(value)) {
+                        bValid = false;
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oByte[x][1];
+
+                    } else {
+
+                        var iValue = parseInt(value, 10);
+                        if (isNaN(iValue) || !(iValue >= -128 && iValue  0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+function validateCompareDateOrder(form) {
+            var bValid = true;
+            var focusField = null;
+            var i = 0;
+            var fields = new Array();
+            oTwoFields = eval('new ' + jcv_retrieveFormName(form) + '_compareDateOrder()');
+            
+            for (x in oTwoFields) {
+                var field = form[oTwoFields[x][0]];
+                var secondField = form[oTwoFields[x][2]("secondProperty")];
+                
+                if (field.type == 'text') {
+            
+                    var value;
+                    var secondValue;
+                    
+                    // get field's value
+                    value = field.value;
+                    secondValue = secondField.value;
+                
+                	var beginDate = new Date(value);
+                	var endDate = new Date(secondValue);
+                	
+                    if (beginDate > endDate) {
+                    
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oTwoFields[x][1];
+                        bValid = false;
+                    }
+                }
+            }
+            
+            if (fields.length > 0) {
+                focusField.focus();
+                alert(fields.join('\n'));
+            }
+            
+            return bValid;
+        }
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateShort.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    *  Check to see if fields are a valid short.
+    * Fields are not checked if they are disabled.
+    *
+    * @param form The form validation is taking place on.
+    */
+    function validateShort(form) {
+        var bValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oShort = eval('new ' + jcv_retrieveFormName(form) +  '_ShortValidations()');
+
+        for (var x in oShort) {
+            if (!jcv_verifyArrayElement(x, oShort[x])) {
+                continue;
+            }
+            var field = form[oShort[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+
+            if ((field.type == 'hidden' ||
+                field.type == 'text' ||
+                field.type == 'textarea' ||
+                field.type == 'select-one' ||
+                field.type == 'radio')) {
+
+                var value = '';
+                // get field's value
+                if (field.type == "select-one") {
+                    var si = field.selectedIndex;
+                    if (si >= 0) {
+                        value = field.options[si].value;
+                    }
+                } else {
+                    value = field.value;
+                }
+
+                if (value.length > 0) {
+                    if (!jcv_isDecimalDigits(value)) {
+                        bValid = false;
+                        if (i == 0) {
+                            focusField = field;
+                        }
+                        fields[i++] = oShort[x][1];
+
+                    } else {
+
+                        var iValue = parseInt(value, 10);
+                        if (isNaN(iValue) || !(iValue >= -32768 && iValue  0) {
+           jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one or more
+ * contributor license agreements.  See the NOTICE file distributed with
+ * this work for additional information regarding copyright ownership.
+ * The ASF licenses this file to You under the Apache License, Version 2.0
+ * (the "License"); you may not use this file except in compliance with
+ * the License.  You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+    /*$RCSfile: validateCreditCard.js,v $ $Rev: 478676 $ $Date: 2006-11-23 21:35:44 +0000 (Thu, 23 Nov 2006) $ */
+    /**
+    * Check to see if fields are a valid creditcard number based on Luhn checksum.
+    * Fields are not checked if they are disabled.
+    * @param form The form validation is taking place on.
+    */
+    function validateCreditCard(form) {
+        var bValid = true;
+        var focusField = null;
+        var i = 0;
+        var fields = new Array();
+ 
+        var oCreditCard = eval('new ' + jcv_retrieveFormName(form) +  '_creditCard()');
+
+        for (var x in oCreditCard) {
+            if (!jcv_verifyArrayElement(x, oCreditCard[x])) {
+                continue;
+            }
+            var field = form[oCreditCard[x][0]];
+            if (!jcv_isFieldPresent(field)) {
+              continue;
+            }
+            if ((field.type == 'text' ||
+                 field.type == 'textarea') &&
+                (field.value.length > 0)) {
+                if (!jcv_luhnCheck(field.value)) {
+                    if (i == 0) {
+                        focusField = field;
+                    }
+                    fields[i++] = oCreditCard[x][1];
+                    bValid = false;
+                }
+            }
+        }
+        if (fields.length > 0) {
+            jcv_handleErrors(fields, focusField);
+        }
+        return bValid;
+    }
+
+    /**
+     * Checks whether a given credit card number has a valid Luhn checksum.
+     * This allows you to spot most randomly made-up or garbled credit card numbers immediately.
+     * Reference: http://www.speech.cs.cmu.edu/~sburke/pub/luhn_lib.html
+     */
+    function jcv_luhnCheck(cardNumber) {
+        if (jcv_isLuhnNum(cardNumber)) {
+            var no_digit = cardNumber.length;
+            var oddoeven = no_digit & 1;
+            var sum = 0;
+            for (var count = 0; count  9) digit -= 9;
+                };
+                sum += digit;
+            };
+            if (sum == 0) return false;
+            if (sum % 10 == 0) return true;
+        };
+        return false;
+    }
+
+    function jcv_isLuhnNum(argvalue) {
+        argvalue = argvalue.toString();
+        if (argvalue.length == 0) {
+            return false;
+        }
+        for (var n = 0; n  "9")) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+//End --> 
+
+
+
+				
+	
+					
+					
+			
+		
+	
+
+	
+		
+ 			
+				
+					
+						
+									
+								
+								
+							
+								
+									
+										
+											
+											Option 2: Create a New Profile
+											
+										
+									
+									
+										
+											
+												
+													Create Profile and Apply to Requisition
+												
+												
+											
+										
+									
+									
+										
+											
+											
+											
+										
+									
+								
+							
+  						
+					
+			
+			
+			
+				
+					
+						
+							
+							
+							Share This Requisition
+							
+						    
+						    
+						    
+						    
+							
+							
+							var addthis_share = {
+							    url : 'http://ejob.bz/ATS/jb.do?reqGK=27046466',
+							    title : 'Intern, Data Analyst Networks',
+							    description : 'Alcatel-Lucent Enterprise USA, Inc. - Intern, Data Analyst Networks - CALABASAS, CA'
+							}
+							
+							
+															
+						
+					
+				
+			
+			
+			
+			
+				 
+						
+							
+								Intern, Data Analyst Networks
+							
+						
+						
+						
+							
+								
+									Job Title
+								
+								
+									Intern, Data Analyst Networks
+								
+							
+						
+					
+						
+								
+									
+										Requisition ID
+									
+									
+										27046466
+									
+								
+							
+					
+					
+					
+					
+					
+						
+								
+									
+									Location
+									
+									
+										
+											CALABASAS,&nbsp;
+										
+										
+											CA 
+										
+										91301
+									
+								
+							
+							
+								
+									Other Location
+								
+								
+									
+								
+							
+						
+					
+					
+					
+							
+								
+									Description
+								
+								
+									
+										Looking for a Math, Engineering intern who is an excel and analytics wizard along with basic web development skills (ability to make a dashboard for internal use).
+
+3.0 GPA or higher required and junior level attainment preferred.
+
+									
+									
+								
+							
+						
+					
+					
+					
+					
+						
+						
+					
+				
+				
+					
+						
+				
+				
+
+
+				
+	 
+
+
+
+
+
+
+
+
+
+  
+
+
+
+   
+
+
+
+
+
+                
+
+                
+
+
+
+		
+
+
+
+
+
+
+
+        	
+
+        
+
+     
+
+
+
+
+
+
+
+
+
+	
+	
+	
+		
+		
+		
+	  		api_key: 77t47zqein5gha
+			authorize:true
+		
+		
+		(function($) {
+			$('body').on('click', '.linkedInApply', function(e) {
+				e.preventDefault();
+				IN.User.authorize(function(){
+					$('.bmApplyBttn:first').click();
+				});
+			});
+		})(jQuery);
+		
+			
+			
+		
+	
+
+
+
+
+
+
+
+
+
+
+(function($){
+	$("[data-toggle='tooltip']").tooltip();
+	$("[data-toggle='popover']").popover({trigger: 'click'});
+	$('body').on('click', function (e) {
+	    $('[data-toggle="popover"]').each(function () {
+	        //the 'is' for buttons that trigger popups
+	        //the 'has' for icons within a button that triggers a popup
+	        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+	            $(this).popover('hide');
+	        }
+	    });
+	});
+	$('body').on('focus', '.datetimepicker', function(){
+			var $dpicker = Array('hour', 'minute');
+			$dpicker['hour'] = 0;
+			$dpicker['minute'] = 0;
+			
+			if(!$(this).val()){
+				$dpdate = new Date();
+				$dpicker['hour'] = $dpdate.getHours();
+				$dpicker['minute'] = $dpdate.getMinutes();
+			}
+				$(this).datetimepicker({
+					dateFormat: 'm/d/yy',
+					timeFormat: 'hh:mm TT',
+					controlType:'select',
+					hour:$dpicker['hour'],
+					minute:$dpicker['minute'],
+					ampm: false,
+					secondMin:0,
+					secondMax:0
+				});
+		});
+	
+		$('body').on('focus', '.datepicker', function(){
+			var $dpicker = Array('hour', 'minute');
+			$dpicker['hour'] = 0;
+			$dpicker['minute'] = 0;
+			
+			if(!$(this).val()){
+				$dpdate = new Date();
+				$dpicker['hour'] = $dpdate.getHours();
+				$dpicker['minute'] = $dpdate.getMinutes();
+			}
+				$(this).datepicker({
+					dateFormat: 'm/d/yy'
+				});
+		});
+	})(jQuery);
+
+
+

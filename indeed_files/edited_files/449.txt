@@ -1,0 +1,820 @@
+
+
+
+
+
+    
+
+
+
+        
+        
+        
+        Careers | KIPP Public Charter Schools
+        
+          .datePicker {
+            display:none;
+          }
+          .min-page-height {
+
+            margin-top:225px;
+          }
+          
+        
+        tinymce.init({ selector:'textarea.emailBodytext'
+            ,convert_urls:true
+            ,relative_urls:false
+            ,elementpath:false
+            ,remove_script_host:false });
+    
+
+    
+    
+      if(window.location.hash) {
+        document.body.className += ' is-hidden-chaser'
+      }
+    
+
+ 
+
+  
+  
+    
+
+  
+
+    Search
+    
+    
+      Search
+    
+  
+  
+
+
+    
+
+      
+          
+   
+
+        
+  
+          Families 
+        
+          Teachers 
+        
+          Alumni 
+        More 
+              Students
+              
+                  KIPP Through College
+                
+                  KTC Directors
+                
+                  Find a KIPP School
+                
+                  Student Life
+                
+              Principals
+              
+                  Approach
+                
+                  Leadership
+                
+                  Find a KIPP School
+                
+                  Resource Library
+                
+              Funders
+              
+                  Support KIPP
+                
+                  Results
+                
+                  Impact on Public Ed
+                
+                  Board of Directors
+                
+                  Stories
+                
+              Journalists
+              
+                  News &amp; Press
+                
+                  History
+                
+                  Results
+                
+                  Blog
+                
+                  Contact
+                
+              Policy Makers
+              
+                  Approach
+                
+                  Find a KIPP School
+                
+                  Results
+                
+                  Contact
+                      
+
+    
+  
+
+  
+    
+
+      
+        
+
+
+
+
+
+
+
+        
+              Schools 
+            
+                  What is a Charter School?
+                
+                  Our Structure
+                
+                  KIPP Regions
+                
+                  Find a KIPP School
+                
+                  Student Life
+                
+              Approach 
+            
+                  High Expectations
+                
+                  KIPP Through College
+                
+                  Teaching and Leading
+                
+                  School Environment
+                
+                  Character
+                
+                  Resource Library
+                
+              Careers 
+            
+                  Apply
+                
+                  Who We're Looking For
+                
+                  Why KIPP?
+                
+                  Professional Development
+                
+              About 
+            
+                  Foundation Team
+                
+                  Board of Directors
+                
+                  National Partners
+                
+                  Support KIPP
+                
+                  Diversity
+                
+                  News &amp; Press
+                
+                  History
+                
+                  Contact
+                
+              Results 
+            
+                  National
+                
+                  Regional
+                
+                  Impact on Public Ed
+                
+                  Independent Reports
+                
+                  Stories
+                
+              Blog 
+            Donate
+
+        
+          
+          
+          
+        
+      
+
+    
+  
+
+
+
+        
+            
+            
+             
+             
+
+
+
+        
+        
+          
+ 
+ 
+              KIPP &nbsp; if(!window.sfdcPage) { window.sfdcPage = new ApexDetailPage(); }UserContext.initialize({"ampm":["AM","PM"],"isAccessibleMode":false,"uiSkin":"PortalDefault","salesforceURL":"http://kippcareers.force.com","dateFormat":"M/d/yyyy","language":"en_US","locale":"en_US","userName":"kipp_careers@kippcareers.force.com","userId":"005d0000000gebu","isCurrentlySysAdminSU":false,"renderMode":"RETRO","startOfWeek":"1","vfDomainPattern":"(?:[^.]+).na52.visual.force.com","auraDomain":"na52.lightning.force.com","dateTimeFormat":"M/d/yyyy h:mm a","orgPreferences":[{"index":257,"name":"TabOrganizer","value":true},{"index":113,"name":"GroupTasks","value":true}],"isDefaultNetwork":true,"labelLastModified":"1506975170000","today":"10/9/2017 11:05 AM","timeFormat":"h:mm a","userPreferences":[{"index":112,"name":"HideInlineEditSplash","value":false},{"index":114,"name":"OverrideTaskSendNotification","value":false},{"index":115,"name":"DefaultTaskSendNotification","value":false},{"index":119,"name":"HideUserLayoutStdFieldInfo","value":false},{"index":116,"name":"HideRPPWarning","value":false},{"index":87,"name":"HideInlineSchedulingSplash","value":false},{"index":88,"name":"HideCRUCNotification","value":false},{"index":89,"name":"HideNewPLESplash","value":false},{"index":90,"name":"HideNewPLEWarnIE6","value":false},{"index":122,"name":"HideOverrideSharingMessage","value":false},{"index":91,"name":"HideProfileILEWarn","value":false},{"index":93,"name":"HideProfileElvVideo","value":false},{"index":97,"name":"ShowPicklistEditSplash","value":false},{"index":92,"name":"HideDataCategorySplash","value":false},{"index":128,"name":"ShowDealView","value":false},{"index":129,"name":"HideDealViewGuidedTour","value":false},{"index":132,"name":"HideKnowledgeFirstTimeSetupMsg","value":false},{"index":104,"name":"DefaultOffEntityPermsMsg","value":false},{"index":135,"name":"HideNewCsnSplash","value":false},{"index":101,"name":"HideBrowserWarning","value":false},{"index":139,"name":"HideDashboardBuilderGuidedTour","value":false},{"index":140,"name":"HideSchedulingGuidedTour","value":false},{"index":180,"name":"HideReportBuilderGuidedTour","value":false},{"index":183,"name":"HideAssociationQueueCallout","value":false},{"index":194,"name":"HideQTEBanner","value":false},{"index":193,"name":"HideChatterOnboardingSplash","value":false},{"index":195,"name":"HideSecondChatterOnboardingSplash","value":false},{"index":270,"name":"HideIDEGuidedTour","value":false},{"index":282,"name":"HideQueryToolGuidedTour","value":false},{"index":196,"name":"HideCSIGuidedTour","value":false},{"index":271,"name":"HideFewmetGuidedTour","value":false},{"index":272,"name":"HideEditorGuidedTour","value":false},{"index":205,"name":"HideApexTestGuidedTour","value":false},{"index":206,"name":"HideSetupProfileHeaderTour","value":false},{"index":207,"name":"HideSetupProfileObjectsAndTabsTour","value":false},{"index":213,"name":"DefaultOffArticleTypeEntityPermMsg","value":false},{"index":214,"name":"HideSelfInfluenceGetStarted","value":false},{"index":215,"name":"HideOtherInfluenceGetStarted","value":false},{"index":216,"name":"HideFeedToggleGuidedTour","value":false},{"index":268,"name":"ShowChatterTab178GuidedTour","value":false},{"index":275,"name":"HidePeopleTabDeprecationMsg","value":false},{"index":276,"name":"HideGroupTabDeprecationMsg","value":false},{"index":224,"name":"HideUnifiedSearchGuidedTour","value":false},{"index":226,"name":"ShowDevContextMenu","value":false},{"index":227,"name":"HideWhatRecommenderForActivityQueues","value":false},{"index":228,"name":"HideLiveAgentFirstTimeSetupMsg","value":false},{"index":232,"name":"HideGroupAllowsGuestsMsgOnMemberWidget","value":false},{"index":233,"name":"HideGroupAllowsGuestsMsg","value":false},{"index":234,"name":"HideWhatAreGuestsMsg","value":false},{"index":235,"name":"HideNowAllowGuestsMsg","value":false},{"index":236,"name":"HideSocialAccountsAndContactsGuidedTour","value":false},{"index":237,"name":"HideAnalyticsHomeGuidedTour","value":false},{"index":238,"name":"ShowQuickCreateGuidedTour","value":false},{"index":245,"name":"HideFilePageGuidedTour","value":false},{"index":250,"name":"HideForecastingGuidedTour","value":false},{"index":251,"name":"HideBucketFieldGuide","value":false},{"index":263,"name":"HideSmartSearchCallOut","value":false},{"index":265,"name":"HideSocialProfilesKloutSplashScreen","value":false},{"index":273,"name":"ShowForecastingQuotaAttainment","value":false},{"index":280,"name":"HideForecastingQuotaColumn","value":false},{"index":301,"name":"HideManyWhoGuidedTour","value":false},{"index":298,"name":"HideFileSyncBannerMsg","value":false},{"index":299,"name":"HideTestConsoleGuidedTour","value":false},{"index":302,"name":"HideManyWhoInlineEditTip","value":false},{"index":303,"name":"HideSetupV2WelcomeMessage","value":false},{"index":312,"name":"ForecastingShowQuantity","value":false},{"index":313,"name":"HideDataImporterIntroMsg","value":false},{"index":314,"name":"HideEnvironmentHubLightbox","value":false},{"index":316,"name":"HideSetupV2GuidedTour","value":false},{"index":317,"name":"HideFileSyncMobileDownloadDialog","value":false},{"index":322,"name":"HideEnhancedProfileHelpBubble","value":false},{"index":328,"name":"ForecastingHideZeroRows","value":false},{"index":330,"name":"HideEmbeddedComponentsFeatureCallout","value":false},{"index":341,"name":"HideDedupeMatchResultCallout","value":false},{"index":340,"name":"HideS1BrowserUI","value":false},{"index":346,"name":"HideS1Banner","value":false},{"index":358,"name":"HideEmailVerificationAlert","value":false},{"index":354,"name":"HideLearningPathModal","value":false},{"index":359,"name":"HideAtMentionsHelpBubble","value":false},{"index":368,"name":"LightningExperiencePreferred","value":false}],"networkId":""});
+New Orleans Public Schools
+                    New Orleans, LA
+                    
+              
+                
+                    Type: Leadership &amp; Support Staff
+                    Full Time/Part Time: Full-Time  
+                    Start Date: Immediate
+                    Subject: &nbsp;
+                    Grade: &nbsp;
+                
+                
+                    Organization: KIPP New Orleans Schools
+                    
+                    
+                    
+                        Preferred Locations:
+                    
+                
+                
+                    Contact: &nbsp;   
+                    Email: jobs@kippneworleans.org
+                
+            
+          
+          
+            
+               
+					 Back to search
+                   Create profile/login 
+              
+              
+                You can use your mobile device to email jobs to yourself or others. You can apply to roles at KIPP from a laptop or desktop.
+                  
+                
+                
+                  
+                    Data Analyst
+                  
+                
+                
+                    
+function dpf(f) {var adp = f.adp;if (adp != null) {for (var i = 0;i < adp.length;i++) {adp[i].parentNode.removeChild(adp[i]);}}};function apf(f, pvp) {var adp = new Array();f.adp = adp;var ps = pvp.split(',');for (var i = 0,ii = 0;i < ps.length;i++,ii++) {var p = document.createElement("input");p.type = "hidden";p.name = ps[i];p.value = ps[i + 1];f.appendChild(p);adp[ii] = p;i += 1;}};function jsfcljs(f, pvp, t) {apf(f, pvp);var ft = f.target;if (t) {f.target = t;}f.submit();f.target = ft;dpf(f);};
+APPLY 
+                    
+                
+                
+ 
+ 
+              KIPP &nbsp;New Orleans Public Schools
+                    New Orleans, LA
+                    
+              
+                
+                    Type: Leadership &amp; Support Staff
+                    Full Time/Part Time: Full-Time  
+                    Start Date: Immediate
+                    Subject: &nbsp;
+                    Grade: &nbsp;
+                
+                
+                    Organization: KIPP New Orleans Schools
+                    
+                    
+                    
+                        Preferred Locations:
+                    
+                
+                
+                    Contact: &nbsp;   
+                    Email: jobs@kippneworleans.org
+                
+            
+                
+                
+                EMAIL JOB
+                About KIPP New Orleans Schools:    KIPP New Orleans Schools is a non-profit network of 11 college-preparatory, public charter schools educating 4400 elementary, middle, and high school students. We have a 10-year track record of preparing students for success in college and life, and our goal is to help students develop the knowledge, skills, and character strengths needed to pursue a life filled with choices.   Our schools are part of the free public school system and enrollment is open to all students. As part of the national Knowledge Is Power Program (KIPP) network of 200 schools in 20 states and the District of Columbia, we are committed to partnering with the community to ensure that all children have the knowledge, skills and character needed to achieve their dreams while making the world a better place. We believe that great teachers and school leaders, a supportive learning environment, and an emphasis on both academics and character are the foundation for student success, and we strive to provide these for every child. At KIPP New Orleans Schools, teachers, students, and families are all united around the same goal: college and a choice-filled life. We believe that an excellent college-preparatory education will set students up for success in whatever life path they choose. Through collective hard work and commitment, KIPP students complete college at a rate that is above the national average for all students and four times higher than that of students from similar economic backgrounds.Position Overview The Data Analyst is a member of the regional Data Team and is responsible for managing and analyzing data generated by KIPP New Orleans Schools.  This position is a member of a lean regional team which allows all teammates to hone skills, learn new systems, and innovate to improve the overall success of our region. Duties and Responsibilities:Data Management
+Oversee day-to-day management of the regional student information systemProvision accounts and manage access rights to state data systemsDesign and monitor systems to ensure schools are collecting required data in a timely and accurate way in support of error-free state reportingSupport schools in data collection during student registrationEnsure schools maintain accurate and complete electronic records for all studentsCollaborate with school-based staff to ensure that all data is accurate
+End User Support
+
+Monitor and support Data Managers to ensure that they effectively schedule all studentsLead relevant sections of staff training, particularly those on accessing and utilizing our SIS and state data systemsProvide ongoing support to school staff regarding SIS and state data systems
+Assessment
+
+Provide logistical and technical support to schools during major internal (i.e., Interims) and external (i.e., MAP, LEAP/iLEAP, EOC, ACT) assessment windows
+Compliance Reporting
+
+Complete all data reporting requirements for KNOS Establish a system of ongoing data quality audits to ensure data is being entered accurately and reliably 
+The ideal candidate possesses the following qualifications:
+
+Bachelor’s degree required, graduate work in data analysis preferredMinimum 3-5 years of experience, preferably background in education dataGood strategic thinker, self-starter, and keen attention to detailExcellent data analysis and written communication skillsStrong knowledge of Microsoft Excel and knowledge of Powerschool preferred	 
+Compensation: Salary for this position is competitive and commensurate with experience. Additionally, KIPP New Orleans Schools offers a comprehensive benefits package.
+
+
+                APPLY 
+                
+                
+                EMAIL JOB
+                
+                
+              
+            
+          
+        
+
+
+                
+
+            
+
+        
+
+        
+        
+
+          
+            
+              
+                
+                
+                
+              
+            
+          
+
+          
+
+            
+
+                  
+                
+                  
+
+                    Search
+                    
+                    
+                      Search
+                    
+                   
+                
+                
+                
+                    
+                    
+                    
+                        
+                          
+                            Schools 
+                          
+                          
+                  
+                          
+                            
+                              
+                                What is a Charter School?
+                              
+                            
+                            
+                              
+                                Our Structure
+                              
+                            
+                                    
+                              
+                                KIPP Regions
+                              
+                            
+                                    
+                              
+                                Find a KIPP School
+                              
+                            
+                                    
+                              
+                                Student Life
+                              
+                            
+                          
+                        
+                        
+                        
+
+                          
+                            Approach 
+                          
+                      
+                            
+                    
+                            
+                              
+                              
+                                High Expectations
+                              
+                            
+                              
+                                
+                                  KIPP Through College
+                                
+                              
+                                      
+                                
+                                  Teaching and Leading
+                                
+                              
+                                      
+                                
+                                  School Environment
+                                
+                              
+                                      
+                                
+                                  Character
+                                
+                              
+                                      
+                                
+                                  Resource Library
+                                
+                              
+                            
+                            
+                          
+                            
+
+                            
+                              Careers 
+                            
+                        
+                                    
+                            
+                                  
+                                      
+                                
+                                  Apply
+                                
+                              
+                                      
+                                
+                                  Who&nbsp;We're&nbsp;Looking&nbsp;For
+                                
+                              
+                                      
+                                
+                                  Why KIPP?
+                                
+                              
+                                      
+                                
+                                  Professional Development
+                                
+                              
+                                    
+                              
+                            
+                              
+
+                              
+                                About 
+                              
+                          
+                                      
+                              
+                                    
+                                        
+                                  
+                                    Foundation Team
+                                  
+                                
+                                        
+                                  
+                                    Board of Directors
+                                  
+                                
+                                        
+                                  
+                                    National Partners
+                                  
+                                
+                                        
+                                  
+                                    Support KIPP
+                                  
+                                
+                                        
+                                  
+                                    Diversity
+                                  
+                                
+                                        
+                                  
+                                    News &amp; Press
+                                  
+                                
+                                        
+                                  
+                                    History
+                                  
+                                
+                                        
+                                  
+                                    Contact
+                                  
+                                
+                                      
+                              
+                            
+                              
+
+                              
+                                Results 
+                              
+                          
+                                      
+                              
+                          
+                              
+                        
+                          National
+                        
+                      
+                              
+                        
+                          Regional
+                        
+                      
+                              
+                        
+                          Impact on Public Ed
+                        
+                      
+                              
+                        
+                          Independent Reports
+                        
+                      
+                              
+                        
+                          Stories
+                        
+                      
+                            
+                    
+                  
+                    
+
+                    
+                      Blog 
+                    
+                
+                    
+                    
+                  
+                
+                    
+
+                    
+                      Families 
+                    
+
+                  
+                    
+
+                    
+                      Teachers 
+                    
+
+                  
+                    
+
+                    
+                      Alumni 
+                    
+
+                  
+                
+                    
+
+                    
+                      Students 
+                    
+                
+                            
+                    
+                          
+                              
+                        
+                          KIPP Through College
+                        
+                      
+                              
+                        
+                          KTC Directors
+                        
+                      
+                              
+                        
+                          Find a KIPP School
+                        
+                      
+                              
+                        
+                          Student Life
+                        
+                      
+                            
+                    
+                  
+                    
+
+                    
+                      Principals 
+                    
+                
+                            
+                    
+                          
+                              
+                        
+                          Approach
+                        
+                      
+                              
+                        
+                          Leadership
+                        
+                      
+                              
+                        
+                          Find a KIPP School
+                        
+                      
+                              
+                        
+                          Resource Library
+                        
+                      
+                            
+                    
+                  
+                    
+
+                    
+                      Funders 
+                    
+                
+                            
+                    
+                          
+                              
+                        
+                          Support KIPP
+                        
+                      
+                              
+                        
+                          Results
+                        
+                      
+                              
+                        
+                          Impact on Public Ed
+                        
+                      
+                              
+                        
+                          Board of Directors
+                        
+                      
+                              
+                        
+                          Stories
+                        
+                      
+                            
+                    
+                  
+                    
+
+                    
+                      Journalists 
+                    
+                
+                            
+                    
+                          
+                              
+                        
+                          News &amp; Press
+                        
+                      
+                              
+                        
+                          History
+                        
+                      
+                              
+                        
+                          Results
+                        
+                      
+                              
+                        
+                          Blog
+                        
+                      
+                              
+                        
+                          Contact
+                        
+                      
+                            
+                    
+                  
+                    
+
+                    
+                      Policy Makers 
+                    
+                
+                            
+                    
+                          
+                              
+                        
+                          Approach
+                        
+                      
+                              
+                        
+                          Find a KIPP School
+                        
+                      
+                              
+                        
+                          Results
+                        
+                      
+                              
+                        
+                          Contact
+                        
+                      
+                            
+                    
+                  
+                      
+
+            
+              
+              
+              
+              
+              
+                  
+          
+
+        
+
+      
+
+      Donate
+
+    
+
+  
+
+
+    
+ 
+
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+             
+          ga('create', 'UA-48146462-1', 'auto', {'allowLinker': true});
+          ga('require', 'linker');
+          ga('linker:autoLink', ['kippfoundation.tfaforms.net'] );
+     
+          ga('send', 'pageview');
+          
+  
+    Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["j_id0:j_id1:j_id17"]);
+
+});

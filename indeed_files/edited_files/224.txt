@@ -1,0 +1,558 @@
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    Data Analysts
+
+    
+
+    
+
+        var PORTAL_BASE_PATH = '/v4/ats';
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+            
+
+            
+
+            var _paq = _paq || [];
+
+            (function(){
+
+                
+
+                
+
+            _paq.push([
+
+                'setCustomVariable',
+
+                1,
+
+                'processingCenterId',
+
+                '000',
+
+                'visit'
+
+            ]);
+
+        
+
+                _paq.push(['setCustomVariable', 2, 'ClientCode', '0M555', 'visit']);
+
+                
+
+            _paq.push([
+
+                'setCustomVariable',
+
+                3,
+
+                'script',
+
+                '/v4/ats/web.php',
+
+                'page'
+
+            ]);
+
+        
+
+                
+
+                _paq.push(['disableCookies']);
+
+                _paq.push(['trackPageView']);
+
+                _paq.push(['enableLinkTracking']);
+
+                (function() {
+
+                    var trackerUrl = '/v4/ats/piwik/piwik.php';
+
+                    _paq.push(['setTrackerUrl', trackerUrl ]);
+
+                    _paq.push(['setSiteId', 17 ]);
+
+                    var s = document.getElementsByTagName('script')[0],
+
+                        g = document.createElement('script');
+
+                    g.type  = 'text/javascript';
+
+                    g.async = true;
+
+                    g.defer = true;
+
+                    g.src   = trackerUrl;
+
+                    s.parentNode.insertBefore(g,s);
+
+                })();
+
+
+
+                
+
+            document.addEventListener('click', function(clickEvent) {
+
+                try {
+
+                    var get = function(key) {
+
+                        try {
+
+                            return (
+
+                                clickEvent
+
+                                    .target
+
+                                    .attributes
+
+                                    .getNamedItem('data-analytics-'+key)
+
+                                    .value || undefined
+
+                            );
+
+                        } catch (_) { return undefined; }
+
+                    }
+
+
+
+                    if (!get('category') ) return;
+
+                    if (!get('action') ) return;
+
+
+
+                    _paq.push(['trackEvent'].concat(
+
+                        ['category', 'action', 'name', 'value'].map(get)
+
+                    ));
+
+
+
+                } catch (error) {
+
+                    console.error('Could not track click event due to the following error: ', error);
+
+                }
+
+            });
+
+        
+
+                
+
+            })();
+
+            
+
+            
+
+            
+
+    
+
+    
+
+    
+
+    
+
+        html, body {
+
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+        }
+
+    
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+            
+
+            
+
+                    
+
+    
+
+    
+
+        
+
+            Data Analysts        
+
+    
+
+
+
+
+
+    
+
+        
+
+    
+
+          			
+
+          		   
+
+           		    
+
+                	 
+
+
+
+    
+
+        
+
+             Return to Job OpportunitiesLevel ExperiencedJob Location Tampa, FL - Tampa, FLPosition Type Full TimeEducation Level High School Diploma/GEDSalary Range UndisclosedTravel Percentage NegligibleJob Shift UndisclosedJob Category Undisclosed GS5, LLC, a Northern Virginia based Limited Liability Company, provides a range of analytical, acquisition, and business management support services and products to Intelligence and Command and Control communities within the Department of Defense. Privately owned by the principle founders, the company leverages its domain expertise in intelligence, technical services, acquisition and program management, and engineering support.
+
+
+
+GS5's mission is to provide best-in-class services and solutions essential to our customers.
+
+
+
+GS5 was named Prime Contractor of the Year by the Small Business Administration, was also voted one of Virginia&#8217;s Top 100 Diversity Owned Small Businesses. GS5 was twice named to the Inc. 500 list as one of America&#8217;s Fastest Growing Private Companies; we have also received honorable mention on the Washingtonian magazine&#8217;s "Great Places to Work" list.
+
+
+
+GS5 is an Equal Opportunity/Affirmative Action Employer, Minorities/Women/Veterans/Disabled
+
+
+
+Service * Solutions * Standards * Satisfaction * Success GS5, LLC is looking for TS/SCI Cleared Data Analysts
+
+
+
+Minimum Qualifications:
+
+
+
+Design algorithms and data manipulation capabilities using R and Python
+
+	General understanding of Intelligence Data and how it can be employed
+
+	Experience with JEMA and/or Machine Shop
+
+	Experience with dissecting and interpreting large data sets in support of real world operations
+
+	HS Diploma or GED accepted, Degree preferred
+
+	TS/SCI Level Clearance required
+
+Knowledge &amp; Skills:
+
+
+
+Able to show value of analytics within business processes
+
+	Good SAS skills
+
+	Understanding of and appropriate application of the following analytical concepts:
+
+1. Cox/proportional hazards
+
+2. Decision tree analysis
+
+3. Mathematical programming and optimization
+
+4. Neural networks, genetic algorithms, and other computational methods
+
+5. Regression (linear, logistic, multinomial, and censored)
+
+6. Segmentation and clustering
+
+7. Test Design/Design of experiments
+
+
+
+8. Bayesian analysis
+
+
+
+9. Conjoint analysis
+
+
+
+10. Information design/presentation development
+
+
+
+11. Principal component analysis
+
+
+
+12. Structural equations modeling
+
+
+
+13. Time series analysis and forecasting, smoothing techniques
+
+
+
+14. Able to implement analytics in business processes
+
+
+
+15. Solid quantitative background including proficiency in problem solving, data analysis and modeling
+
+
+
+Good understanding of current analytic technologies including: SAS, UNIX and JCL
+
+	Good communication and interpersonal skills a must
+
+Job Description:
+
+
+
+The Data Analysts are expected to:
+
+
+
+Extracts qualitative and quantitative relationships (i.e., patterns, trends) from large amounts of data. Data addressed by this process are limited to data that can be represented either numerically or categorically. 
+
+	Works under broad supervision. Troubleshoots basic problems and recommends appropriate action. Seasoned professional.
+
+	Use technology to mine complex, voluminous and different varieties of data from various sources and platforms in order to collect, analyze and compile data to meet customer needs
+
+	Identify new sources of data and methods to improve collection, analysis and reporting
+
+	Collect customer requirements
+
+	Determine technical issues
+
+	Build data solutions, tools, and capabilities to enable self service frameworks for data consumers to monitor and report on data
+
+	Improve the quality of data use and usability by driving an understanding and adherence to the principles of data quality management including metadata, lineage, and business definitions
+
+	Work collaboratively with Intelligence and Data analysis teams to produce qualitative and quantitative data that support Intelligence Products
+
+Essential Duties of the Job:
+
+
+
+Ability to communicate task requirement information to client in a clear and concise manner.
+
+	Must be able to sit and stand for prolonged periods of time, as well as lead and participate in meetings and working groups.
+
+	Requires visual acuity to use a keyboard.
+
+	Must be able to attend work each day, during scheduled hours, unless on travel or approved time off.
+
+	Ability to work on computer for long periods, and communicate with individuals by telephone, email and face-to-face.
+
+Physical Demands and Work Environment:
+
+
+
+While performing duties of job, employee is occasionally required to stand; walk; sit; use hand to finger, handle or feel objects, tools, or controls; reach with hands and arms; talk and hear.
+
+	Employee must occasionally lift and/or move up to 25 pounds.
+
+	Specific vision abilities required by the job include close vision, distance vision, color vision, peripheral vision, depth perception, and the ability to adjust focus.
+
+	May be exposed to chemicals related to office equipment.
+
+	The noise level in the work environment is usually moderate (i.e. general office environment).
+
+Benefits:
+
+
+
+401 (K) w/ up to 3.5% Company Match
+
+	Health, Dental &amp; Vision Insurance
+
+	Basic &amp; Supplemental Life Insurance
+
+	Short &amp; Long Term Disability Insurance
+
+	Flexible Spending Account
+
+	Annual Holiday Bonus
+
+	10 Paid Holidays
+
+	Paid Time Off (PTO)
+
+	Gym Membership (varies by location)
+
+	Corporate-Sponsored Events
+
+ Return to Job Opportunities        
+
+        
+
+            
+
+                
+
+                    
+
+    First Time User?
+
+    Create Account
+
+    
+
+
+
+
+
+    Returning user? Please sign in!
+
+    
+
+    
+
+    Sign In
+
+     
+
+        Forgot password?
+
+    
+
+                
+
+            
+
+                    
+
+    
+
+
+
+
+
+    
+
+            
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    var PAYCOM_BASE_PATH = '/v4/ats';
+
+
+
+
+
+
+
+
+
+
+
+    $(document).on('ajaxSend', function (event, request, settings) {
+
+        if (!/^https?:\/\//i.test(settings.url)) {
+
+            if (settings.url.indexOf(PORTAL_BASE_PATH) === -1) {
+
+                settings.url = PORTAL_BASE_PATH + '/' + settings.url;
+
+            }
+
+        }
+
+    });
+
+
+
+
+
+
+

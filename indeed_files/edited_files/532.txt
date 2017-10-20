@@ -1,0 +1,730 @@
+
+
+
+    
+        Data Analyst -        Child &amp; Family Services of Newport County -         Job Board
+    
+    Date.now = Date.now || function() { return +new Date; };
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    (window.NREUM||(NREUM={})).loader_config={xpid:"VQUCVlJbGwEJVVNVBgYC"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);
+    
+    
+    
+
+             {
+            "@context" : "http://schema.org/",
+            "@type" : "JobPosting",
+            "url" : "http://childandfamily.applytojob.com/apply/job_20170901145230_UPXNIRWEQS2C5LC1/Data-Analyst?source=INDE",
+            "title" : "Data Analyst",
+            "description" : "&lt;p&gt;&lt;strong&gt;Brief Overview:&lt;/strong&gt;&amp;nbsp; Provides reporting and insights of the agency behavior data to operations management to enable the ability to make data-driven decisions that can drive services and improve overall program performance.&amp;nbsp;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Accountable for data processing and analysis; collects day-to-day data and analyzes data trends and performance data.&lt;/li&gt;
+&lt;li&gt;Guides decision-making processes through the collection and analysis of available data.&lt;/li&gt;
+&lt;li&gt;Compiles statistical data, interpret data and develop reporting and analysis.&lt;/li&gt;
+&lt;li&gt;Analyzes and understands the key performance indicators (KPIs) related to the Agency and all the multiple data sources.&amp;nbsp; &amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Provides oversight of Agency database, including tracking and organizing enterprise-wide data and generating performance reports.&lt;/li&gt;
+&lt;li&gt;Assists departments with the coordination of audit information, and recommends appropriate data-gathering mechanisms, procedures, etc.&lt;/li&gt;
+&lt;li&gt;Engineers and reports all data types, and integrate multiple data sources.&lt;/li&gt;
+&lt;li&gt;Provides support to the Director of Performance and Quality Improvement (PQI) in the continuous improvement initiatives.&lt;/li&gt;
+&lt;li&gt;Assists the Director of PQI with maintaining current accurate records of all relevant communications, audits, corrective action plans and effectiveness monitoring.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Perform statistical analysis related to areas such as incident reports, employee satisfaction, client satisfaction, talent management, and financial performance.&lt;/li&gt;
+&lt;li&gt;Provides internal support to operations management in the tracking, maintenance, statistical analysis and automation of custom reports.&lt;/li&gt;
+&lt;li&gt;Engages in self-evaluation to establish goals for professional development.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;Seeks and uses supervision from direct supervisor.&lt;/li&gt;
+&lt;li&gt;All other duties as assigned.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Qualifications:&amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp;An earned Bachelor’s degree with (2) years or more of direct experience in database administration function. Applicant must have a solid knowledge of data analytics practices and programming/scripting experience. Proficiency in structured query language (SQL) required; data manipulation. Strong background in dashboard system, experience using Tableau dashboard desired. Experience with applied probability and statistics. Experience with statistical analysis software (i.e. SPSS, SAS, etc.), preferred.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Benefits Summary:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The competitive benefits program offered by Child &amp;amp; Family includes, but is not limited to:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;• Medical, dental, and vision insurance
+&lt;br /&gt;• 401(k)&amp;nbsp;Plan
+&lt;br /&gt;• Life and long-term disability insurance
+&lt;br /&gt;• Discounted child care available at main building
+&lt;br /&gt;• Flexible Spending Account (FSA)
+&lt;br /&gt;• Worksite wellness programs
+&lt;br /&gt;• Generous vacation &amp;amp; sick time
+&lt;br /&gt;• Tuition Assistance Program (TAP)&lt;/p&gt;
+
+&lt;p&gt;EOE/AAP/E-Verify Participant&lt;/p&gt;
+
+&lt;p&gt;Child &amp;amp; Family will not discriminate against any individual on the basis of age, gender, sexual orientation, color, race, creed, national origin, ancestry, religious persuasion, marital status, political belief, pregnancy, military status, veteran status, physical or mental disability that does not prohibit performance of essential job functions with or without reasonable accommodations, genetic predisposition or genetic carrier status, or any other protected category under local, state or federal law, nor will anyone receive special treatment for those reasons, except for reasonable accommodation as required by law. It is our intention that all qualified applicants be given equal opportunity and that selection decisions be based on job-related factors.&lt;/p&gt;
+
+&lt;p&gt;C&amp;amp;F strives to achieve a workforce that includes representation of qualified affirmative action group members in proportion to the qualified and available target group workforce in the community that we serve.&lt;/p&gt;
+",
+            "datePosted" : "2017-09-01",
+            "employmentType" : "FULL_TIME",
+            "hiringOrganization" : {
+                "@type":"Organization",
+                "name":"Child &amp; Family Services of Newport County",
+                "sameAs":"http://childandfamilyri.com/"
+            },
+            "jobLocation" : {
+                "@type": "Place",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Middletown",
+                    "addressRegion": "RI",
+                    "postalCode": "02840, 02841, 02842, 02871"
+                }
+            },
+            "experienceRequirements" : "Experienced"
+        }
+        
+    
+    
+
+    
+    
+        body { min-width: 1140px; }
+        
+            #resumator-apply-with-linkedin-wrapper,
+            #resumator-apply-with-linkedin2-wrapper,
+            #resumator-apply-with-indeed-wrapper { 
+                display: none !important;
+            }
+        
+    
+    	
+
+    
+    
+        /* Basic CMS Settings */
+                                
+        /* Advanced CMS Declarations */
+            
+
+    
+    	
+	
+	
+	
+    var dv_language = 'en_us';    
+    var DV_DEPUTY = "8e11fce62c4d0f3a6d76e89a64aa51ae";
+    var DV_APP_ROOT = "";
+    var DV_ID = "job_20170901145230_UPXNIRWEQS2C5LC1";
+    var DV_SUBDOMAIN = "";
+    var DV_CUSTID = "";
+    var DV_USER_FIRSTNAME = "";
+    var DV_USER_LASTNAME = "";
+    var DV_USER_EMAIL = "";
+    var DV_USER_ID = "";
+        var DV_GA_ID = "";
+        var DV_LOCATION = 'app';
+    var DV_WEBSITE_URL_HTTP = "http://childandfamily.applytojob.com";
+    var DV_WEBSITE_URL_HTTPS = "https://childandfamily.applytojob.com";
+    var DV_ADDRESS_MANDATORY = 1;
+    var DV_CUSTOMER_FEATURES = {
+        DV_FEATURE_HANDSHAKES_PARENT: false,
+        DV_FEATURE_HANDSHAKES_CHILD: false
+    };
+
+        
+        var DV_RESPONSIVE_LAYOUT = true;
+        var doc = document.documentElement;
+        doc.setAttribute('data-useragent', navigator.userAgent);
+    
+
+
+
+
+    
+        
+                            
+                    View Our Website
+                    
+                
+                        
+                View All Jobs
+            
+        
+    
+        
+        
+            
+                            
+                                            
+                                                
+                                            
+                                    
+                    
+    
+
+        
+    
+        
+
+	Help Make A Change In The Communities In Which We Live
+
+
+
+	Welcome to Child &amp; Family (C&amp;F), where we strengthen families, their members, and the communities in which they live. Child &amp; Family is a private, 501(c) 3 Social Service Agency. Every day since 1866, members of the Newport County community have come together at C&amp;F to receive help, to give help and to support the work of others. Throughout the year C&amp;F is working in the community to provide compassionate care to all those who are in need. We are proud of our outstanding reputation, solid financial history and exceptional professional staff.&nbsp; C&amp;F is the oldest and largest social service agency in Newport County.&nbsp; For more details, please visit our website:&nbsp; http://www.childandfamilyri.com/    
+
+
+    
+                    Data Analyst
+            
+                                    
+                        Middletown, RI                    
+                                
+                    Full Time                
+                                    
+                        Performance Quality Improvement                    
+                                
+                    Experienced                
+            
+            
+                
+                    
+                
+                
+                    
+                
+                
+                    
+                
+                            
+            
+
+    
+        
+            
+                
+                    Brief Overview:&nbsp; Provides reporting and insights of the agency behavior data to operations management to enable the ability to make data-driven decisions that can drive services and improve overall program performance.&nbsp;
+
+
+Accountable for data processing and analysis; collects day-to-day data and analyzes data trends and performance data.
+Guides decision-making processes through the collection and analysis of available data.
+Compiles statistical data, interpret data and develop reporting and analysis.
+Analyzes and understands the key performance indicators (KPIs) related to the Agency and all the multiple data sources.&nbsp; &nbsp;
+Provides oversight of Agency database, including tracking and organizing enterprise-wide data and generating performance reports.
+Assists departments with the coordination of audit information, and recommends appropriate data-gathering mechanisms, procedures, etc.
+Engineers and reports all data types, and integrate multiple data sources.
+Provides support to the Director of Performance and Quality Improvement (PQI) in the continuous improvement initiatives.
+Assists the Director of PQI with maintaining current accurate records of all relevant communications, audits, corrective action plans and effectiveness monitoring.&nbsp;&nbsp;&nbsp;&nbsp;
+Perform statistical analysis related to areas such as incident reports, employee satisfaction, client satisfaction, talent management, and financial performance.
+Provides internal support to operations management in the tracking, maintenance, statistical analysis and automation of custom reports.
+Engages in self-evaluation to establish goals for professional development.&nbsp;
+Seeks and uses supervision from direct supervisor.
+All other duties as assigned.
+
+
+Qualifications:&nbsp;&nbsp; &nbsp;An earned Bachelor’s degree with (2) years or more of direct experience in database administration function. Applicant must have a solid knowledge of data analytics practices and programming/scripting experience. Proficiency in structured query language (SQL) required; data manipulation. Strong background in dashboard system, experience using Tableau dashboard desired. Experience with applied probability and statistics. Experience with statistical analysis software (i.e. SPSS, SAS, etc.), preferred.
+
+Benefits Summary:
+
+The competitive benefits program offered by Child &amp; Family includes, but is not limited to:
+
+• Medical, dental, and vision insurance
+• 401(k)&nbsp;Plan
+• Life and long-term disability insurance
+• Discounted child care available at main building
+• Flexible Spending Account (FSA)
+• Worksite wellness programs
+• Generous vacation &amp; sick time
+• Tuition Assistance Program (TAP)
+
+EOE/AAP/E-Verify Participant
+
+Child &amp; Family will not discriminate against any individual on the basis of age, gender, sexual orientation, color, race, creed, national origin, ancestry, religious persuasion, marital status, political belief, pregnancy, military status, veteran status, physical or mental disability that does not prohibit performance of essential job functions with or without reasonable accommodations, genetic predisposition or genetic carrier status, or any other protected category under local, state or federal law, nor will anyone receive special treatment for those reasons, except for reasonable accommodation as required by law. It is our intention that all qualified applicants be given equal opportunity and that selection decisions be based on job-related factors.
+
+C&amp;F strives to achieve a workforce that includes representation of qualified affirmative action group members in proportion to the qualified and available target group workforce in the community that we serve.
+
+                    Read More
+                
+                
+                    
+                        Apply for Position
+                    
+                    
+                                                                        
+
+    
+
+
+
+        
+            Apply for this position        
+
+        Required*
+
+        
+        
+            
+                                
+                    
+                    Apply with LinkedIn
+                
+            
+        
+        
+                                
+                
+                
+                
+
+                                    
+                        
+                        Apply with Indeed
+                    
+                
+                
+                    (function(d, s, id) {
+                        var js, iajs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id)){return;}
+                        js = d.createElement(s); js.id = id;js.async = true;
+                        js.src = "https://apply.indeed.com/indeedapply/static/scripts/app/bootstrap.js";
+                        iajs.parentNode.insertBefore(js, iajs);
+                    }(document, 'script', 'indeed-apply-js'));
+                
+            
+        
+        
+	
+	
+	
+	
+        
+            
+                First Name*
+                                
+            
+
+            
+                Last Name*
+                                
+            
+
+            
+                Email Address*
+                                
+            
+
+                            
+                    Address*
+                                        
+                        
+                        
+                            
+                                
+                            
+                            
+                                
+                            
+                            
+                                
+                            
+                        
+                    
+                
+            
+            
+                Phone*
+                                
+            
+
+                        
+                                    Resume*
+                                                
+                    Attach resume
+                    or
+                    Paste resume
+                
+                
+                    
+                        Attach resume as .pdf, .doc, or .docx (limit 2MB) or
+                        Paste resume
+                    
+                    
+                                            
+                
+                
+                    
+                        
+                            Paste your resume here or
+                            Attach resume file
+                        
+                    
+                    
+                        
+                    
+                
+            
+            
+            
+                            
+                    Cover Letter*
+                    
+                
+            
+            
+            
+            
+            
+            
+            
+            
+                            
+                    What's your citizenship / employment eligibility?*
+                    No answerI am a U.S. Citizen/Permanent ResidentNon-citizen allowed to work for any employerNon-citizen allowed to work for current employerNon-citizen seeking work authorizationI am a Canadian Citizen/Permanent ResidentOther                
+            
+                            
+                    What's your highest level of education completed?*
+                    No answerGED or EquivalentHigh SchoolSome CollegeCollege - AssociatesCollege - Bachelor of ArtsCollege - Bachelor of Fine ArtsCollege - Bachelor of ScienceCollege - Master of ArtsCollege - Master of ScienceCollege - Master of Fine ArtsCollege - Master of Business AdministrationCollege - DoctorateMedical DoctorOther                
+            
+                            
+                    College or University*
+                    
+                
+            
+            
+                            
+                    Are you 18 years of age or older?*
+                    No answerYesNo                
+            
+            
+            
+            
+            
+            
+                            
+                    What languages do you speak fluently?*
+                    
+                
+            
+                            
+                    Desired salary
+                    
+                
+            
+            
+            
+            
+            
+                            
+                    Have you ever been convicted of a felony?*
+                    No answerNoYes                
+            
+                            
+                    If “Yes”, you have been convicted of a felony, please explain the circumstances around the conviction:*
+                                        
+                
+            
+                            
+                    In 150 characters or fewer, tell us what makes you unique. Try to be creative and say something that will catch our eye!*
+                    
+                    150
+                
+            
+                            
+                    References: Please enter names and contact information:*
+                    
+                
+            
+                            
+                    Why are you interested in working for Child & Family?*
+                                    
+                            
+                    How did you hear about Child & Family?*
+                    -- No answer --Current EmployeeCraigslistChild &amp; Family websiteSalve Regina UniversityRoger WilliamsUniversity of Rhode IslandRhode Island CollegeProvidence CollegeBridgewater State UniversitySwearer Center (Brown University)UMASS - DartmouthCommunity College of Rhode IslandClarke UniversityIdealistNewspaperOther                
+                            
+                    Have you ever worked for Child & Family before?*
+                    YesNo                
+                            
+                    Have you ever applied to Child & Family before?*
+                    YesNo                
+                            
+                    Have there been any gaps in your employment?*
+                    YesNo                
+                            
+                    If yes, please explain:
+                                    
+                            
+                    May we contact your present employer?*
+                    YesNo                
+                            
+                    If yes, please provide contact information.  If no, please explain.*
+                                    
+                            
+                    Have you ever been fired or asked to resign from a job?*
+                    YesNo                
+                            
+                    If yes, please explain:
+                                    
+                            
+                    Have you ever been arrested for or convicted of any Level 1 and/or Level 2 offenses as defined by the Rhode Island Department of Children, Youth and Families Criminal Records Check Policy: 900.0040. 
+
+ To view this policy, please copy & paste the following link into your internet browser and review the Level 1 and/or Level 2 offenses listed on pages 15 and 16. 
+
+ http://www.dcyf.ri.gov/docs/crimrcrds_chk_pol.pdf
+                    YesNo                
+                            
+                    If yes, please explain:
+                                    
+                            
+                    Are you available to work 8am -5pm Monday through Friday?*
+                                    
+                            
+                    Are you Bilingual? If so, what language do you speak beyond English?*
+                                    
+                            
+                    Please state your hourly rate of pay required?*
+                                    
+            
+                            
+                    The following questions are entirely optional.
+                    
+                        To comply with government Equal Employment Opportunity / Affirmative Action reporting regulations, we are requesting (but NOT requiring) that you enter this personal data. This information will not be used in connection with any employment decisions, and will be used solely as permitted by state and federal law. Your voluntary cooperation would be appreciated. Learn more.
+                    
+                
+
+                
+                    
+		Gender
+		
+			Decline to answerFemaleMale
+		
+	                
+
+                
+                    
+		Race/Ethnicity
+		
+			Decline to answerWhite (Not Hispanic)African American/Black (Not Hispanic)Hispanic/LatinoAsianPacific IslanderAmerican IndianNative AlaskanNative HawaiianMulti-racial
+		
+	                
+
+                
+                                    
+                        
+                        
+                            Invitation for Job Applicants to Self-Identify as a U.S. Veteran
+                            
+                                
+                                    A “disabled veteran” is one of the following:
+                                        
+                                            a veteran of the U.S. military, ground, naval or air service who is entitled to compensation (or who but for the receipt of military retired pay would be entitled to compensation) under laws administered by the Secretary of Veterans Affairs; or
+                                            a person who was discharged or released from active duty because of a service-connected disability.
+                                        
+                                    
+                                    A “recently separated veteran” means any veteran during the three-year period beginning on the date of such veteran's discharge or release from active duty in the U.S. military, ground, naval, or air service.
+                                    An “active duty wartime or campaign badge veteran” means a veteran who served on active duty in the U.S. military, ground, naval or air service during a war, or in a campaign or expedition for which a campaign badge has been authorized under the laws administered by the Department of Defense.
+                                    An “Armed forces service medal veteran” means a veteran who, while serving on active duty in the U.S. military, ground, naval or air service, participated in a United States military operation for which an Armed Forces service medal was awarded pursuant to Executive Order 12985.
+                                
+                            
+                        
+
+                        
+		Veteran status
+		
+			 I IDENTIFY AS ONE OR MORE OF THE CLASSIFICATIONS OF PROTECTED VETERAN LISTED ABOVE I AM NOT A PROTECTED VETERAN I DON’T WISH TO ANSWER
+		
+	
+	
+                        
+                        
+                            Voluntary Self-Identification of Disability
+                            
+                                Voluntary Self-Identification of Disability Form CC-305
+                                OMB Control Number 1250-0005
+                                Expires 1/31/2020
+                            
+                            
+                                Why are you being asked to complete this form?
+                                
+                                    Because we do business with the government, we must reach out to, hire, and provide equal opportunity to qualified people with disabilities.i To help us measure how well we are doing, we are asking you to tell us if
+                                    you have a disability or if you ever had a disability. Completing this form is voluntary, but we hope that you will choose to fill it out. If you are applying for a job, any answer you give will be kept private and will not be used against you in any way.
+                                    If you already work for us, your answer will not be used against you in any way. Because a person may become disabled at any time, we are required to ask all of our employees to update their information every five years. You may voluntarily self-identify as having a disability on this form without fear of any punishment because you did not identify as having a disability earlier.
+                                
+                                
+                                    How do I know if I have a disability?
+                                
+
+                                
+                                    You are considered to have a disability if you have a physical or mental impairment or medical condition that substantially limits a major life activity, or if you have a history or record of such an impairment or medical condition.
+                                    Disabilities include, but are not limited to:
+                                    
+                                        Blindness
+                                        Deafness
+                                        Cancer
+                                        Diabetes
+                                        Epilepsy
+                                        Autism
+                                        Cerebral palsy
+                                        HIV/AIDS
+                                        Schizophrenia
+                                        Muscular dystrophy
+                                        Bipolar disorder
+                                        Major depression
+                                        Multiple sclerosis (MS)
+                                        Missing limbs or partially missing limbs
+                                        Post-traumatic stress disorder (PTSD)
+                                        Obsessive compulsive disorder
+                                        Impairments requiring the use of a wheelchair
+                                        Intellectual disability (previously called mental retardation)
+                                    
+                                
+
+                                
+                                    Please check one of the boxes below:
+                                    
+                                                                                
+                                            
+                                                
+                                                YES, I HAVE A DISABILITY (or previously had a disability)                                            
+                                            
+                                                
+                                                NO, I DON’T HAVE A DISABILITY                                            
+                                            
+                                                
+                                                I DON’T WISH TO ANSWER                                            
+                                        
+
+                                        
+                                            
+                                                
+                                                    You must enter your name and date
+                                                
+                                            
+                                            
+                                                
+                                                
+                                            
+                                            
+                                                Your Name
+                                                Today's Date
+                                            
+                                        
+                                    
+                                
+
+                                
+                                    Reasonable Accommodation Notice
+                                
+                                
+                                    Federal law requires employers to provide reasonable accommodation to qualified individuals with disabilities. Please tell us if you require a reasonable accommodation to apply for a job or to perform your job. Examples of reasonable accommodation include making a change to the application process or work procedures,
+                                    providing documents in an alternate format, using a sign language interpreter, or using specialized equipment.
+                                    
+                                    iSection 503 of the Rehabilitation Act of 1973, as amended. For more information about this form or the equal employment obligations of Federal contractors, visit the U.S. Department of Labor's Office of Federal Contract Compliance Programs (OFCCP) website at www.dol.gov/ofccp. 
+                                    
+                                    PUBLIC BURDEN STATEMENT: According to the Paperwork Reduction Act of 1995 no persons are required to respond to a collection of information unless such collection displays a valid OMB control number. This survey should take about 5 minutes to complete.
+                                
+                            
+                        
+                    
+                            
+            
+                            
+                
+
+                
+                
+                    Submit Application
+                
+                    
+
+        
+    
+
+                    
+                
+            
+        
+    
+
+
+    
+        
+            
+                &times;Close
+                Forward This Position
+            
+            
+
+                
+                    
+                        Recipient Email Address (one)
+                        
+                    
+
+                    
+                        Your Name
+                        
+                    
+
+                    
+                        Your Email Address
+                        
+                    
+
+                    
+                        Enter a message (optional)
+                        The message cannot contain links
+                        
+                    
+                    
+                        
+		Human Check*
+		
+			
+
+	
+  		
+  		
+  		
+	
+		
+	
+	                    
+                
+                
+                    
+                
+            
+        
+    
+
+
+    
+        
+            Powered by
+            
+        
+    
+
+    
+        	
+	
+	
+	
+    
+        
+            // Set address placeholders
+            $("#resumator-address-value, #resumator-city-value, #resumator-state-value, #resumator-postal-value").placeholder();
+        
+    
+
+    
+    
+    
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-H9NR');
+    
+    
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7232591015","applicationID":"29127175","transactionName":"M1VRZkJTWkdTV0dbDgofcEdDRltZHVVDQg0dH0NdQ1tAXV1a","queueTime":0,"applicationTime":62,"atts":"HxJSEApJSUk=","errorBeacon":"bam.nr-data.net","agent":""}
+

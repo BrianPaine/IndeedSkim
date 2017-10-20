@@ -1,0 +1,780 @@
+
+ 
+        
+           
+           
+           
+          
+          
+ 
+ 
+ <!-- 
+ 
+   Business/Data Analyst in San Diego, California | Business Operations at sharp{"identifier":{"@type":"PropertyValue","name":"SHARP","value":"83523"},"hiringOrganization":{"@type":"Organization","name":"SHARP"},"jobLocation":{"address":{"addressCountry":"United States","@type":"PostalAddress","addressLocality":"San Diego","addressRegion":"California"},"@type":"Place"},"employmentType":"Full-Time","@type":"JobPosting","description":"Business/Data Analyst - 83523Qualifications\n                            \n\nLocation \nThis position is located in Kearny Mesa, San Diego County \n\nHours \n8-hour shift: 8:00 am – 5:00 pm, weekends as needed. \n&nbsp; \n\nRequired Skills and Qualifications \n\n\nBachelor's degree in health, business, computers or equivalent work experience\n\nPrevious experience in a managed care setting\n\nSQL skills including stored procedure development in SQL Server/Transact SQL and/or Oracle\n\nExperience with SSIS or other ETL solution, reporting tools such as SSRS or Power BI.&nbsp; An understanding of database design concepts, data analysis, BI development and exposure to data warehousing.&nbsp; Ability to interact with customers and gather reporting requirements.&nbsp; Ability to meet frequent deadlines and tight schedules. \n&nbsp; \n\nPreferred Skills and Qualifications \n\n\nExperience in a managed care environment \n\nGeneral hospital, medical or other clinical experience&nbsp; \n\n&nbsp;\n                        \nDescription\n                            \nSummary \nUnder the direction of the Director of Medical Economics and Contracts, the Business Data Analyst provides Plan with data, database development and technical support, reporting and analyses that enable data driven decision making. Accesses a variety of databases and data storage devices which requires thorough investigation to ensure data integrity.&nbsp; Utilizes spreadsheets, data links from different sources and databases to include functionality of formulas, queries, importing and exporting of data to other programs, and monitors internal and external data needs on an ongoing basis.&nbsp; Provides summary analyses in written and oral presentation settings. Makes recommendations and/or participates in brainstorming activities related to issues that should be addressed and improvements made that can impact negative financial performance. &nbsp;\nThe Finance division is responsibel for the management of money and processing of reporting of information using a variety of different applications.&nbsp; The Finance division includes many functional areas such as Accounting/Billing, Claims Research, Contracting, Data Analytics, Data and Information Systems and Underwriting/ Actuarial. \n&nbsp;\nSharp Health Plan is San Diego’s largest locally based commercial health plan. With a personal approach and a network of medical groups and physicians, Sharp Health Plan advocates for its members by providing unparalleled quality and access to health care services. It operates as a not-for-profit health plan, committed to delivering the best health care for the best value. \n&nbsp;\nAs the top-rated health plan in California*, Sharp Health Plan serves a growing number of companies, large and small, in San Diego and southern Riverside counties. \n&nbsp;\n* Consumer Assessment of Healthcare Providers and Systems (CAHPS) Survey, 2010 \n&nbsp;\nEssential Physical Requirements may include \n\nIncumbent spends approximately 2-3 hours per day sitting at desk, entering data on computer terminal and talking on telephone.&nbsp; Incumbent spends approximately 1-2 hours per day walking between Plan departments.&nbsp; Must be able to hear and speak clearly by telephone.&nbsp; Must be able to meet frequent deadlines and tight schedules.&nbsp; Must be able to lift 5 – 20 pounds, primarily paper reports and filing. \n&nbsp;\nAdditional physical requirements of position may be discussed during interview. \n\nSharp HealthCare is proud to be an Equal opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, gender identity, transgender status, sexual orientation, protected veteran status or any other protected class.\n&nbsp;\nKeywords: Business Analyst, Finance, Database Development, Database, Data Analytics, Contracts\n                        ","datePosted":"2017-10-05T00:00:00","title":"Business/Data Analyst","@context":"http://schema.org","occupationalCategory":"Business Operations"} 
+   
+   
+   
+  Job details page 
+   
+   
+   
+   
+   
+   
+    0? 'icon icon-star' : 'icon icon-star-empty'}" data-ph-id="ph-page-element-page9-d51qey--d51qey3">  
+     
+       My Favorite Jobs 
+       0 ? 'phs-jobcart-count' : 'phs-jobcart-count hide'}" data-ph-id="ph-page-element-page9-d51qey--d51qey6">${jobCartCount}  
+    0? 'icon icon-star' : 'icon icon-star-empty'}" data-ph-id="ph-page-element-page9-1u4hc8--1u4hc83">  
+     
+       My Favorite Jobs 
+       0 ? 'phs-jobcart-count' : 'phs-jobcart-count hide'}" data-ph-id="ph-page-element-page9-1u4hc8--1u4hc86">${jobCartCount}  
+   
+    
+    
+     
+      
+       
+       
+         Email this job 
+         
+      
+      
+       
+        
+        
+          To access this job from another device, Email this information to yourself. 
+          
+        
+         
+          
+          
+            Name 
+           
+           
+           
+             Name should not be empty 
+              
+         
+         
+          
+          
+            Email Address 
+           
+           
+           
+             Email should not be empty 
+              
+           
+             Please enter a valid Email 
+              
+         
+         
+         
+           Submit 
+          
+        
+       
+      
+     
+    
+    
+     
+     
+      
+       
+      
+      
+      
+        Success! 
+        
+      
+      
+        Email has been sent sucessfully 
+        
+     
+    
+   
+    
+    
+     
+    
+   /* 
+   <!--*/ var phApp = phApp || {"widgetApiEndpoint":"https://careers.sharp.com/widgets","country":"us","deviceType":"desktop","locale":"en_us","absUrl":true,"refNum":"SHARUS","cdnUrl":"https://assets.phenompeople.com/CareerConnectResources/pp","baseUrl":"https://careers.sharp.com/","baseDomain":"https://careers.sharp.com","phenomTrackURL":"careers.sharp.com/phenomtrack.min.js","pageName":"job","siteType":"external","rootDomain":"https://careers.sharp.com"}; phApp.ddo = {"siteConfig":{"status":"success","errorCode":null,"errorMsg":null,"data":{"googleMapApiKey":"AIzaSyAPoqeLpXXx4tqiWHMYJkY42yDS_f3gNJs","urlMap":{"home":"home","category":"c/:category","job":"job/:jobSeqNo/:title","jobcart":"jobcart","search-results":"search-results","glassdoor-reviews":"glassdoor-reviews"},"categoryUrlMap":{"SHARUS_category_70":"c/nursing-management-jobs","SHARUS_category_46":"c/counseling-jobs","SHARUS_category_68":"c/rn-jobs","SHARUS_category_47":"c/business-operations-jobs","SHARUS_category_69":"c/specialty-nurse-jobs","SHARUS_category_48":"c/advanced-practice-nursing-jobs","SHARUS_category_49":"c/clerical-jobs","SHARUS_category_60":"c/medical-assistant-jobs","SHARUS_category_61":"c/allied-health-jobs","SHARUS_category_40":"c/accounting-jobs","SHARUS_category_62":"c/pharmacy-jobs","SHARUS_category_63":"c/physical-therapy-jobs","SHARUS_category_41":"c/speech-therapy-jobs","SHARUS_category_64":"c/case-manager-jobs","SHARUS_category_42":"c/mental-health-jobs","SHARUS_category_65":"c/cna-jobs","SHARUS_category_43":"c/laboratory-jobs","SHARUS_category_66":"c/radiology-jobs","SHARUS_category_44":"c/security-jobs","SHARUS_category_67":"c/dietitian-jobs","SHARUS_category_80":"c/facilities-jobs","SHARUS_category_81":"c/social-services-jobs","SHARUS_category_57":"c/it-jobs","SHARUS_category_58":"c/nursing-assistant-jobs","SHARUS_category_59":"c/human-resources-jobs","SHARUS_category_38":"c/occupational-therapy-jobs","SHARUS_category_39":"c/lvn-jobs","SHARUS_category_71":"c/clinical-nurse-specialist-jobs","SHARUS_category_50":"c/social-worker-jobs","SHARUS_category_51":"c/cardiology-jobs","SHARUS_category_73":"c/radiation-therapy-jobs","SHARUS_category_52":"c/clinical-technician-jobs","SHARUS_category_74":"c/internal-audit-jobs","SHARUS_category_53":"c/executive-jobs","SHARUS_category_54":"c/finance-jobs","SHARUS_category_76":"c/respiratory-therapy-jobs","SHARUS_category_55":"c/psychologist-jobs","SHARUS_category_56":"c/management-jobs","SHARUS_category_45":"c/marketing-jobs"},"botEnabled":false,"crawlerUserAgents":"Screaming Frog|googlebot|yahoo|bingbot|baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|showyoubot|outbrain|pinterest|slackbot|vkShare|W3C_Validator|redditbot|Applebot|WhatsApp|flipboard|tumblr|bitlybot|SkypeUriPreview|nuzzel|Discordbot|Google Page Speed|Qwantify|pinterestbot","siteSettings":{"glassdoor":{},"glassdoorReviews":{},"twitter":{},"linkedIn":{"apiKey":"75qvndrmqmkxfo"},"googleMapApiKey":"AIzaSyAPoqeLpXXx4tqiWHMYJkY42yDS_f3gNJs","oauth":{"linkedIn":{"apiKey":"75qvndrmqmkxfo","clientId":"75qvndrmqmkxfo","clientSecret":"zZj6XmzC20I2DYX3","loginUrl":"https://www.linkedin.com/oauth/v2/authorization","logoutUrl":"https://api.linkedin.com/uas/oauth/invalidateToken","redirectUri":"/socialAuth/li","response_type":"code","scope":""}},"refineSearch":{"enabledFacets":["category","type","industry","workLocation","department"],"facetDisplayNames":{"category":"Category","type":"Job type","industry":"Department","workLocation":"Shift type","department":"Facility"},"facetPlaceholderNames":{"category":"Search in Category","type":"Search in Job type","industry":"Search in Department","workLocation":"Search in Shift type","department":"Search in Facility"},"defaultFacetsToOpen":["type","workLocation"]}},"recommendedTrackingConfig":{"category":{"storageKey":"categories","ddoKeysToStore":["category"],"maxKeysToStore":"4"},"job":{"storageKey":"jobsViewed","ddoKeysToStore":["jobSeqNo"],"maxKeysToStore":"4"},"search-results":[{"storageKey":"keywords","ddoKeysToStore":["keywords"],"maxKeysToStore":"4"},{"storageKey":"locations","ddoKeysToStore":["location","field"],"maxKeysToStore":"4"}]},"trackingConfig":{"ddoDataPath":{"jobDetail":"data.job"},"job_category_click":{"trait14":"key"},"job_category_search_click":{"trait14":"key"},"similar_job_click":{"trait12":"jobSeqNo","related":{"ddo":[{"name":"jobDetail","data":{"trait5":"jobSeqNo","trait14":"category"}}]}},"linkedin_recommended_job_click":{"trait5":"jobSeqNo","trait14":"category"},"recently_viewed_job_click":{"trait5":"jobSeqNo","trait14":"category"},"recommended_job_click":{"trait5":"jobSeqNo","trait14":"category"},"near_job_click":{"trait5":"jobSeqNo","trait14":"category"},"favorite_job_click":{"trait5":"jobSeqNo","trait14":"category"},"job_favorite_delete_click":{"trait5":"jobSeqNo","trait14":"category"},"type_ahead_search":{},"similar_job_see_more_click":{},"linkedin_login_click":{},"linkedin_logout_click":{},"view_all_glassdoor_reviews_click":{},"homepage_category_click":{"trait14":"key"},"category_click":{"trait14":"key"},"job_click":{"trait5":"jobSeqNo","trait14":"category"},"previous_job_click":{"trait5":"jobSeqNo"},"next_job_click":{"trait5":"jobSeqNo"},"linkedin_recommended_category_click":{"trait14":"category"},"back_to_search_results_click":{}},"oauth":{"linkedIn":{"apiKey":"752xe1cieo8utv","clientId":"752xe1cieo8utv","clientSecret":"zZj6XmzC20I2DYX3","loginUrl":"https://www.linkedin.com/oauth/v2/authorization","logoutUrl":"https://api.linkedin.com/uas/oauth/invalidateToken","redirectUri":"/socialAuth/li","response_type":"code","scope":""}},"pageNameMap":{"404":"404_page_view","home":"home_page_view","category":"job_category_page_view","job":"job_details_view","search-results":"search_result_page_view","apply":"apply_page_view","glassdoorReviews":"glassdoor_reviews_page_view","jobcart":"favorites_page_view","jointalentcommunity":"jtc_page_view","featuredOpportunities":"job_category_page_view","businessUnit":"job_category_page_view"}},"reqData":null},"categoryContentV2":{"status":"success","errorCode":null,"errorMsg":null,"data":{"default-category":{"internalId":"default-category","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"default-category","url":"c/defaultcategory-jobs","content":"category default desc"},"SHARUS_category_70":{"internalId":"SHARUS_category_70","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Nursing Management","url":"c/nursing-management-jobs","content":"category default desc"},"SHARUS_category_68":{"internalId":"SHARUS_category_68","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"RN","url":"c/rn-jobs","content":"category default desc"},"SHARUS_category_46":{"internalId":"SHARUS_category_46","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Counseling","url":"c/counseling-jobs","content":"category default desc"},"SHARUS_category_47":{"internalId":"SHARUS_category_47","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Business Operations","url":"c/business-operations-jobs","content":"category default desc"},"SHARUS_category_69":{"internalId":"SHARUS_category_69","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Specialty Nurse","url":"c/specialty-nurse-jobs","content":"category default desc"},"SHARUS_category_48":{"internalId":"SHARUS_category_48","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Advanced Practice Nursing","url":"c/advanced-practice-nursing-jobs","content":"category default desc"},"SHARUS_category_49":{"internalId":"SHARUS_category_49","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Clerical","url":"c/clerical-jobs","content":"category default desc"},"SHARUS_category_60":{"internalId":"SHARUS_category_60","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Medical Assistant","url":"c/medical-assistant-jobs","content":"category default desc"},"SHARUS_category_61":{"internalId":"SHARUS_category_61","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Allied Health","url":"c/allied-health-jobs","content":"category default desc"},"SHARUS_category_40":{"internalId":"SHARUS_category_40","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Accounting","url":"c/accounting-jobs","content":"category default desc"},"SHARUS_category_62":{"internalId":"SHARUS_category_62","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Pharmacy","url":"c/pharmacy-jobs","content":"category default desc"},"SHARUS_category_63":{"internalId":"SHARUS_category_63","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Physical Therapy","url":"c/physical-therapy-jobs","content":"category default desc"},"SHARUS_category_41":{"internalId":"SHARUS_category_41","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Speech Therapy","url":"c/speech-therapy-jobs","content":"category default desc"},"SHARUS_category_42":{"internalId":"SHARUS_category_42","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Mental Health","url":"c/mental-health-jobs","content":"category default desc"},"SHARUS_category_64":{"internalId":"SHARUS_category_64","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Case Manager","url":"c/case-manager-jobs","content":"category default desc"},"SHARUS_category_65":{"internalId":"SHARUS_category_65","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"CNA","url":"c/cna-jobs","content":"category default desc"},"SHARUS_category_43":{"internalId":"SHARUS_category_43","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Laboratory","url":"c/laboratory-jobs","content":"category default desc"},"SHARUS_category_44":{"internalId":"SHARUS_category_44","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Security","url":"c/security-jobs","content":"category default desc"},"SHARUS_category_66":{"internalId":"SHARUS_category_66","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Radiology","url":"c/radiology-jobs","content":"category default desc"},"SHARUS_category_67":{"internalId":"SHARUS_category_67","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Dietitian","url":"c/dietitian-jobs","content":"category default desc"},"SHARUS_category_45":{"internalId":"SHARUS_category_45","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Marketing","url":"c/marketing-jobs","content":"category default desc"},"SHARUS_category_80":{"internalId":"SHARUS_category_80","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Facilities","url":"c/facilities-jobs","content":"category default desc"},"SHARUS_category_81":{"internalId":"SHARUS_category_81","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Social Services","url":"c/social-services-jobs","content":"category default desc"},"SHARUS_category_57":{"internalId":"SHARUS_category_57","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"IT","url":"c/it-jobs","content":"category default desc"},"SHARUS_category_58":{"internalId":"SHARUS_category_58","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Nursing Assistant","url":"c/nursing-assistant-jobs","content":"category default desc"},"SHARUS_category_59":{"internalId":"SHARUS_category_59","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Human Resources","url":"c/human-resources-jobs","content":"category default desc"},"SHARUS_category_38":{"internalId":"SHARUS_category_38","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Occupational Therapy","url":"c/occupational-therapy-jobs","content":"category default desc"},"SHARUS_category_39":{"internalId":"SHARUS_category_39","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"LVN","url":"c/lvn-jobs","content":"category default desc"},"SHARUS_category_71":{"internalId":"SHARUS_category_71","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Clinical Nurse Specialist","url":"c/clinical-nurse-specialist-jobs","content":"category default desc"},"SHARUS_category_50":{"internalId":"SHARUS_category_50","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Social Worker","url":"c/social-worker-jobs","content":"category default desc"},"SHARUS_category_73":{"internalId":"SHARUS_category_73","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Radiation Therapy","url":"c/radiation-therapy-jobs","content":"category default desc"},"SHARUS_category_51":{"internalId":"SHARUS_category_51","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Cardiology","url":"c/cardiology-jobs","content":"category default desc"},"SHARUS_category_74":{"internalId":"SHARUS_category_74","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Internal Audit","url":"c/internal-audit-jobs","content":"category default desc"},"SHARUS_category_52":{"internalId":"SHARUS_category_52","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Clinical Technician","url":"c/clinical-technician-jobs","content":"category default desc"},"SHARUS_category_53":{"internalId":"SHARUS_category_53","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Executive","url":"c/executive-jobs","content":"category default desc"},"SHARUS_category_54":{"internalId":"SHARUS_category_54","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Finance","url":"c/finance-jobs","content":"category default desc"},"SHARUS_category_76":{"internalId":"SHARUS_category_76","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Respiratory Therapy","url":"c/respiratory-therapy-jobs","content":"category default desc"},"SHARUS_category_55":{"internalId":"SHARUS_category_55","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Psychologist","url":"c/psychologist-jobs","content":"category default desc"},"SHARUS_category_56":{"internalId":"SHARUS_category_56","images":{"bannerImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","iconImage":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg"},"imgSrc":"https://assets.phenompeople.com/CareerConnectResources/default/upload.jpg","key":"Management","url":"c/management-jobs","content":"category default desc"}},"reqData":null},"jobDetail":{"status":200,"hits":1,"totalHits":1,"data":{"job":{"customField5":null,"country":"United States","cityState":"San Diego, California","subCategory":null,"customField1":null,"customField2":null,"customField3":null,"companyName":"SHARP","postalCode":"","customField4":null,"jobSourceDependents":["SHARUS","SHARUS"],"category_raw":"Business Operations","type":"Full-Time","experience":"","structureData":{"identifier":{"@type":"PropertyValue","name":"SHARP","value":"83523"},"hiringOrganization":{"@type":"Organization","name":"SHARP"},"jobLocation":{"address":{"addressCountry":"United States","@type":"PostalAddress","addressLocality":"San Diego","addressRegion":"California"},"@type":"Place"},"employmentType":"Full-Time","@type":"JobPosting","description":"Business/Data Analyst - 83523Qualifications\n                            \n\nLocation \nThis position is located in Kearny Mesa, San Diego County \n\nHours \n8-hour shift: 8:00 am \u2013 5:00 pm, weekends as needed. \n&nbsp; \n\nRequired Skills and Qualifications \n\n\nBachelor's degree in health, business, computers or equivalent work experience\n\nPrevious experience in a managed care setting\n\nSQL skills including stored procedure development in SQL Server/Transact SQL and/or Oracle\n\nExperience with SSIS or other ETL solution, reporting tools such as SSRS or Power BI.&nbsp; An understanding of database design concepts, data analysis, BI development and exposure to data warehousing.&nbsp; Ability to interact with customers and gather reporting requirements.&nbsp; Ability to meet frequent deadlines and tight schedules. \n&nbsp; \n\nPreferred Skills and Qualifications \n\n\nExperience in a managed care environment \n\nGeneral hospital, medical or other clinical experience&nbsp; \n\n&nbsp;\n                        \nDescription\n                            \nSummary \nUnder the direction of the Director of Medical Economics and Contracts, the Business Data Analyst provides Plan with data, database development and technical support, reporting and analyses that enable data driven decision making. Accesses a variety of databases and data storage devices which requires thorough investigation to ensure data integrity.&nbsp; Utilizes spreadsheets, data links from different sources and databases to include functionality of formulas, queries, importing and exporting of data to other programs, and monitors internal and external data needs on an ongoing basis.&nbsp; Provides summary analyses in written and oral presentation settings. Makes recommendations and/or participates in brainstorming activities related to issues that should be addressed and improvements made that can impact negative financial performance. &nbsp;\nThe Finance division is responsibel for the management of money and processing of reporting of information using a variety of different applications.&nbsp; The Finance division includes many functional areas such as Accounting/Billing, Claims Research, Contracting, Data Analytics, Data and Information Systems and Underwriting/ Actuarial. \n&nbsp;\nSharp Health Plan is San Diego\u2019s largest locally based commercial health plan. With a personal approach and a network of medical groups and physicians, Sharp Health Plan advocates for its members by providing unparalleled quality and access to health care services. It operates as a not-for-profit health plan, committed to delivering the best health care for the best value. \n&nbsp;\nAs the top-rated health plan in California*, Sharp Health Plan serves a growing number of companies, large and small, in San Diego and southern Riverside counties. \n&nbsp;\n* Consumer Assessment of Healthcare Providers and Systems (CAHPS) Survey, 2010 \n&nbsp;\nEssential Physical Requirements may include \n\nIncumbent spends approximately 2-3 hours per day sitting at desk, entering data on computer terminal and talking on telephone.&nbsp; Incumbent spends approximately 1-2 hours per day walking between Plan departments.&nbsp; Must be able to hear and speak clearly by telephone.&nbsp; Must be able to meet frequent deadlines and tight schedules.&nbsp; Must be able to lift 5 \u2013 20 pounds, primarily paper reports and filing. \n&nbsp;\nAdditional physical requirements of position may be discussed during interview. \n\nSharp HealthCare is proud to be an Equal opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, gender identity, transgender status, sexual orientation, protected veteran status or any other protected class.\n&nbsp;\nKeywords: Business Analyst, Finance, Database Development, Database, Data Analytics, Contracts\n                        ","datePosted":"2017-10-05T00:00:00","title":"Business/Data Analyst","@context":"http://schema.org","occupationalCategory":"Business Operations"},"descriptionTeaser":"Business/Data Analyst - 83523Qualifications Location This position is located in Kearny Mesa, San Diego County Hours 8-hour shift: 8:00 am \u2013 5:00 pm, weekends as needed. &nbsp; Required Skills and Qua","payType":"","stateName":"California","isQuestionsPresent":false,"state":"California","tenant":243,"longitude":"-117.1572551","category_display":"Same job available in 1 categories","positionLevel":"","latlong":{"lon":-117.1572551,"lat":32.7153292},"internalCategoryId":"SHARUS_category_47","active":true,"version":0,"multi_category":[{"category_raw":"Business Operations","category":"Business Operations"}],"stateCountry":"California, United States","reqId":"83523","jobId":"83523","badge":"existing","refNum":"SHARUS","jobUpdated":"2017-10-09T15:18:22.791Z","stateCode":"CA","isHot":false,"city":"San Diego","posterEmail":"","latitude":"32.7153292","description":"Business/Data Analyst - 83523Qualifications\n                            \n\nLocation \nThis position is located in Kearny Mesa, San Diego County \n\nHours \n8-hour shift: 8:00 am \u2013 5:00 pm, weekends as needed. \n&nbsp; \n\nRequired Skills and Qualifications \n\n\nBachelor's degree in health, business, computers or equivalent work experience\n\nPrevious experience in a managed care setting\n\nSQL skills including stored procedure development in SQL Server/Transact SQL and/or Oracle\n\nExperience with SSIS or other ETL solution, reporting tools such as SSRS or Power BI.&nbsp; An understanding of database design concepts, data analysis, BI development and exposure to data warehousing.&nbsp; Ability to interact with customers and gather reporting requirements.&nbsp; Ability to meet frequent deadlines and tight schedules. \n&nbsp; \n\nPreferred Skills and Qualifications \n\n\nExperience in a managed care environment \n\nGeneral hospital, medical or other clinical experience&nbsp; \n\n&nbsp;\n                        \nDescription\n                            \nSummary \nUnder the direction of the Director of Medical Economics and Contracts, the Business Data Analyst provides Plan with data, database development and technical support, reporting and analyses that enable data driven decision making. Accesses a variety of databases and data storage devices which requires thorough investigation to ensure data integrity.&nbsp; Utilizes spreadsheets, data links from different sources and databases to include functionality of formulas, queries, importing and exporting of data to other programs, and monitors internal and external data needs on an ongoing basis.&nbsp; Provides summary analyses in written and oral presentation settings. Makes recommendations and/or participates in brainstorming activities related to issues that should be addressed and improvements made that can impact negative financial performance. &nbsp;\nThe Finance division is responsibel for the management of money and processing of reporting of information using a variety of different applications.&nbsp; The Finance division includes many functional areas such as Accounting/Billing, Claims Research, Contracting, Data Analytics, Data and Information Systems and Underwriting/ Actuarial. \n&nbsp;\nSharp Health Plan is San Diego\u2019s largest locally based commercial health plan. With a personal approach and a network of medical groups and physicians, Sharp Health Plan advocates for its members by providing unparalleled quality and access to health care services. It operates as a not-for-profit health plan, committed to delivering the best health care for the best value. \n&nbsp;\nAs the top-rated health plan in California*, Sharp Health Plan serves a growing number of companies, large and small, in San Diego and southern Riverside counties. \n&nbsp;\n* Consumer Assessment of Healthcare Providers and Systems (CAHPS) Survey, 2010 \n&nbsp;\nEssential Physical Requirements may include \n\nIncumbent spends approximately 2-3 hours per day sitting at desk, entering data on computer terminal and talking on telephone.&nbsp; Incumbent spends approximately 1-2 hours per day walking between Plan departments.&nbsp; Must be able to hear and speak clearly by telephone.&nbsp; Must be able to meet frequent deadlines and tight schedules.&nbsp; Must be able to lift 5 \u2013 20 pounds, primarily paper reports and filing. \n&nbsp;\nAdditional physical requirements of position may be discussed during interview. \n\nSharp HealthCare is proud to be an Equal opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, gender identity, transgender status, sexual orientation, protected veteran status or any other protected class.\n&nbsp;\nKeywords: Business Analyst, Finance, Database Development, Database, Data Analytics, Contracts\n                        ","industry":"Finance","title":"Business/Data Analyst","locale":"en_US","multi_location":null,"jobSeqNo":"SHARUS6034","postedDate":"2017-10-05T00:00:00","workLocation":"Day Job","expiryDate":"2017-10-09T15:18:22.791000","dateCreated":"2017-10-06T00:09:07","internalTypeId":"SHARUS_jobtype_0","cityStateCountry":"San Diego, California, United States","department":"Sharp HealthPlan","languageType":"en","parentRefNum":"SHARUS","isVideolocation":true,"jobBoards":[],"cmsJobId":"83523","jobVisibility":[],"applyUrl":"https://sharp.taleo.net/careersection/external/jobapply.ftl?job=83523","location":"San Diego, California","cityCountry":"San Diego, United States","category":"Business Operations","locationLatlong":null},"isMultiLocationEnabled":false},"eid":"59dbbaffed3fb50b8ff9b1bc"},"flashParams":{}}; phApp.sessionParams = {}; /*-->*/  
+   
+  phApp.urlMap = {"featuredOpportunities":":url", "businessUnit":":url", "category": "c/:category","job": "job/:jobSeqNo/:title","glassdoor-reviews": "glassdoor-reviews", "search-results" : "search-results", "home" : "home", "jobcart" : "jobcart"}  
+  phApp.ddoRealPath = {"jobDetail": "data.job"} 
+    
+    
+   
+   
+   
+   
+    
+    
+     
+      
+       
+       
+         Email this job 
+         
+      
+      
+       
+        
+        
+          To access this job from another device, Email this information to yourself. 
+          
+        
+         
+          
+          
+            Name 
+           
+           
+           
+             Name should not be empty 
+              
+         
+         
+          
+          
+            Email Address 
+           
+           
+           
+             Email should not be empty 
+              
+           
+             Please enter a valid Email 
+              
+         
+         
+         
+           Submit 
+          
+        
+       
+      
+     
+    
+    
+     
+     
+      
+       
+      
+      
+      
+        Success! 
+        
+      
+      
+        Email has been sent sucessfully 
+        
+     
+    
+   
+    
+    
+     
+    
+    0? 'icon icon-star' : 'icon icon-star-empty'}" data-ph-id="ph-2531205736134694-sharp-cart-ph-job-cart-count-v33">  
+     
+       My Favorite Jobs 
+       0 ? 'phs-jobcart-count' : 'phs-jobcart-count hide'}" data-ph-id="ph-2531205736134694-sharp-cart-ph-job-cart-count-v36">${jobCartCount}  
+    0? 'icon icon-star' : 'icon icon-star-empty'}" data-ph-id="ph-2531206055917036-sharp-cart-ph-job-cart-count-v33">  
+     
+       My Favorite Jobs 
+       0 ? 'phs-jobcart-count' : 'phs-jobcart-count hide'}" data-ph-id="ph-2531206055917036-sharp-cart-ph-job-cart-count-v36">${jobCartCount}  
+   
+    
+     
+      
+       
+           
+          
+            Save 
+              
+          
+            Saved 
+             
+       
+       
+       ${jobDetail.title} 
+        
+        ${jobDetail.category}--> 
+        ${jobDetail.type}--> 
+        ${jobDetail.location} 
+        
+       
+       
+        
+        
+          Employee Login 
+          
+        
+        
+          Apply Now 
+          
+        
+            
+           
+             Save 
+               
+           
+             Saved 
+              
+        
+       
+      
+     
+    
+   
+    
+    
+     
+      
+     
+       Back to search results 
+       
+     
+     
+     
+       
+      
+        Previous job 
+        
+      
+      
+        Next job 
+         
+     
+     
+    
+    
+    
+    
+     
+     
+    
+   
+    
+     
+      
+       
+       
+       
+        
+        
+       
+       
+       
+       
+        
+        
+       
+       
+       
+         
+        
+          Back to search results 
+          
+        
+        
+          
+         
+           Previous job 
+           
+         
+         
+           Next job 
+            
+        
+        
+       
+      
+     
+    
+   
+    
+    
+    
+     
+      
+       
+        
+         
+          
+          
+            Connect with LinkedIn to personalize your experience. 
+            
+          
+            
+         
+         
+          
+           
+             Sign in with LinkedIn 
+            
+         
+        
+       
+      
+     
+    
+   
+    
+     
+     
+      
+       
+       
+         Get notified for similar jobs 
+         
+       
+       
+         You'll receive updates once a week 
+         
+      
+      
+       
+        
+        Enter Email address 
+          
+          
+            Activate 
+            Email should not be empty Please enter valid Email  
+        
+       
+      
+     
+     
+      
+      
+       
+      Success! 
+      successfully subscribed for similar jobs 
+      
+     
+     
+      
+      
+       
+      Failure! 
+      Failed to subscribed for similar jobs 
+      
+     
+    
+   
+    
+     
+      
+       
+       
+         Similar Jobs 
+         
+      
+      
+      
+       
+         
+         
+           ${eachJob.title} 
+           
+           
+            
+           ${eachJob.country}, ${eachJob.location}   
+       
+       maxDisplayCount" data-ph-id="ph-page-element-page9-te9nrq--te9nrq16"> 
+        
+        
+          See more 
+          
+       
+      
+      
+       
+       
+         No similar jobs found 
+         
+      
+     
+    
+   
+    
+     
+     
+      
+       
+       
+         Share this Opportunity 
+         
+      
+      
+       
+         
+          
+           
+           
+          
+            Share via email 
+             
+         
+          
+           
+           
+          
+            Share via Facebook 
+             
+         
+          
+           
+           
+          
+            Share via linkedIn 
+             
+         
+          
+           
+           
+          
+            Share via Twitter 
+             
+         
+          
+           
+           
+          
+            Share via Google+ 
+             
+       
+      
+     
+    
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MPJP4TH'); 
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&amp;l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MPJP4TH'); 
+  
+  
+   
+    
+   
+   
+    
+   
+   
+    
+     
+      
+       
+        
+         
+            
+            
+              Toggle menu 
+                
+             
+          
+           
+            
+            
+          
+           
+            
+              
+               
+               
+             
+             
+               Contact Us 
+                
+            
+         
+         
+          
+           
+             
+             
+               Home 
+                
+             
+             
+               Find a Doctor 
+                
+             
+             
+               Locations 
+                
+             
+             
+               Medical Services 
+                
+             
+             
+               Health Insurance 
+                
+             
+             
+               Classes and Events 
+                
+             
+             
+               Health News 
+                
+           
+          
+         
+         
+          
+            
+            
+              Home 
+               
+            
+            
+              Find a Doctor 
+               
+            
+            
+              Locations 
+               
+            
+            
+              Medical Services 
+               
+            
+            
+              Health Insurance 
+               
+            
+            
+              Classes and Events 
+               
+            
+            
+              Health News 
+               
+          
+         
+        
+       
+      
+     
+    
+   
+   
+    
+     
+     
+      
+       
+        
+         
+        
+       
+      
+      
+       
+      
+      
+       
+        
+         
+          
+         
+         
+         
+          
+         
+         
+        
+
+                                            
+
+                                                    
+
+                                                        Apply Now
+
+                                                    
+
+
+
+                                                
+
+                                            --> 
+        
+        
+         
+         
+          
+         
+         
+         
+         
+          
+         
+         
+         
+          
+         
+         
+         
+         
+          
+         
+         
+        
+       
+      
+     
+    
+   
+   
+    
+     
+      
+       
+        
+         
+          
+           
+            
+              
+              
+                About Sharp 
+                 
+              
+              
+                Agency and Headhunter Policy 
+                 
+              
+              
+                Privacy Policy 
+                 
+            
+            
+             Further information for potential applicants. --> 
+             
+             
+             
+               In order to be considered for a position at Sharp HealthCare, please apply online for a specific open opportunity and complete an online employment application. All application information must be complete in order to be considered for employment. 
+               
+             
+               If you need assistance in accessing our job openings, please call 858-499-5285, Monday through Friday, from 8 am to 4 pm, Pacific time. 
+              
+             <!-- 
+
+						If you are an agency or headhunter, review our policy.  -->  
+             
+               Sharp HealthCare is proud to be an Equal Opportunity/Affirmative Action Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, disability, gender identity, transgender status, sexual orientation, protected veteran status or any other protected class. 
+               
+             
+            
+           
+           
+            
+               
+            
+            
+             
+              
+               
+                
+                
+             
+             
+              
+               
+                
+                
+             
+             
+              
+               
+                
+                
+             
+             
+              
+               
+                
+                
+             
+            
+            
+             
+              
+               
+                
+                
+             
+             
+              
+               
+                
+                
+             
+             
+              
+               
+                
+                
+             
+             
+              
+               
+                
+                
+             
+            
+            
+             
+              
+               
+                
+               
+              
+              
+              
+                Sharp Health News 
+               
+               
+            
+           
+          
+         
+        
+        
+         
+          
+          
+            Sharp is a 501©(3) not-for-profit organization. © 2017 Sharp HealthCare. All rights reserved. 
+            
+           
+           
+             En Español 
+             
+           
+           
+             Privacy Policy 
+            
+           
+             and 
+             
+           
+             Terms of Use 
+              
+         
+        
+       
+      
+     
+    
+   
+   
+    
+    
+    
+    
+  
+

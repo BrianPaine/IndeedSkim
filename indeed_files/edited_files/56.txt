@@ -1,0 +1,138 @@
+
+
+
+
+
+
+
+
+window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"49021e70cb","applicationID":"4319438","transactionName":"Z1NWNkIED0cDABAIWF4ZdTFgShNRERMLD0RVGFURQB0=","queueTime":0,"applicationTime":4,"ttGuid":"DF15AC5A913C5FE","agent":""}window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+
+	Job posting details.
+
+
+
+    	
+
+    pre {
+
+	white-space: pre-wrap;       /* css-3 */
+
+	white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+
+	white-space: -pre-wrap;      /* Opera 4-6 */
+
+	white-space: -o-pre-wrap;    /* Opera 7 */
+
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+
+	width: 99%;
+
+	font-family:Arial,Sans-Serif,Verdana;
+
+	font-size:small;
+
+	}
+
+	body {
+
+	font-family:Arial,Sans-Serif,Verdana;
+
+	font-size:small;
+
+	}
+
+	div {
+
+	text-align:left;
+
+	width:90%
+
+	} 
+
+	.labeltext {
+
+	font-weight:bold;
+
+	font-size:larger;
+
+	}
+
+	.titletext {
+
+	font-weight:bold;
+
+	font-size:larger;
+
+	}
+
+	.largetext{
+
+	font-size:larger;
+
+	}	
+
+	
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+            
+
+        
+
+    
+
+    
+
+    
+
+    Data Scientist
+
+    KPMG
+
+    Philadelphia, PA  United States
+
+    
+
+    
+
+    The fastest growing Big Four professional services firm in the U.S., KPMG is known for being a great place to work and build a career. We provide audit, tax and advisory services for organizations in today’s most important industries. Our growth is driven by delivering real results for our clients. It’s also enabled by our culture, which encourages individual development, embraces an inclusive environment, rewards innovative excellence and supports our communities.  With qualities like those, it’s no wonder we’re consistently ranked among the best companies to work for by Fortune Magazine, Consulting Magazine, Working Mother Magazine, Diversity Inc. and others. If you’re as passionate about your future as we are, join our team.KPMG is currently seeking a Data Scientist to join our Advanced Data Analytics Organization.Responsibilities:Retrieve, prepare, and process a rich data variety of data sources such as social media, news, internal/external documents, emails, financial data, and operational dataAnalyze and model structured data and implement algorithms to support analysis using advanced statistical and mathematical methods from statistics, machine learning, data mining, econometrics, and operations researchPerform Statistical Natural Language Processing to mine unstructured data, using methods such as document clustering, topic analysis, named entity recognition, document classification, and sentiment analysisUtilize a diverse array of technologies and tools as needed, to deliver insights, such as R, SAS, Python, Spark, Hadoop, Qlikview, and TableauTranslate advanced business analytics problems into technical approaches that yield actionable recommendations, in diverse domains such as risk management, product development, marketing research, supply chain, and public policy; communicate results and educate others through insightful visualizations, reports and presentationsPerform exploratory data analysis, generate and test working hypotheses, and uncover interesting trends and relationshipsQualifications:Master’s degree from an accredited college/university in Computer Science, Statistics, Mathematics, Engineering, Econometrics, or related fields, with five years of relevant experience and strong knowledge in at least one of the following fields: statistics, data mining, machine learning, statistics, operations research, econometrics, natural language processing, and/or information retrieval; PhD preferredDeep experience in extracting, cleaning, preparing, and modeling data; command-line scripting, data structures, and algorithms; and working in a Linux environmentProficiency in analysis packages (e.g. R, SAS, Matlab) and programming languages (e.g. Python, Ruby, Java, Scala)Ability to translate engagement objectives to a project plan with milestones, and resource/technology requirements, and teach, lead, and manage projects to successful executionAbility to work with clients to assess needs, provide assistance, and resolve problems, using excellent problem-solving skills and verbal/written communication to non-technical audiencesAbility to travel up to 80%KPMG LLP (the U.S. member firm of KPMG International) offers a comprehensive compensation and benefits package. KPMG is an equal opportunity employer. All qualified applicants are considered for employment without regard to race, color, creed, religion, age, sex/gender, national origin, ancestry, citizenship status, marital status, sexual orientation, gender identity or expression, disability,  physical or mental handicap unrelated to ability, pregnancy, veteran status, unfavorable discharge from military service, genetic information, or other legally protected status.  KPMG maintains a drug-free workplace. KPMG will consider for employment qualified applicants with criminal histories in a manner consistent with the requirements of applicable local, state or federal law (including San Francisco Ordinance number 131192). No phone calls or agencies please.
+
+    
+
+    
+
+    
+
+    Click here to apply for this position.
+
+    
+
+    Job code: 65507
+
+    57857576
+
+
+
+    
+
+    
+
+    
+
+    var oElement = document.getElementById('headertext'); oElement.style.display='none';var oElement = document.getElementById('requirementstext'); oElement.style.display='none';var oElement = document.getElementById('footertext'); oElement.style.display='none';
+
+
+
+
+

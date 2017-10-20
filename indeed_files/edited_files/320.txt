@@ -1,0 +1,739 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-MCT6725');
+
+
+
+    
+
+    
+
+    
+
+    Leidos | Data and Reporting Analyst - AUSTIN, TX - Leidos
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Leidos: Solutions for National Security, Health, and Engineering
+
+
+
+@import url("/Views/Client/bff2b909-eb01-464e-a0e4-aea26f795cf8/sites/all/modules/date/date_repeat_field/date_repeat_field.css?ngfk65");
+
+
+
+      @Url.BaseClientHref(Html)"/Views/Client/bff2b909-eb01-464e-a0e4-aea26f795cf8/sites/all/modules/contrib/ckeditor/ckeditor.css?ngfk65");
+
+      @import url("/Views/Client/bff2b909-eb01-464e-a0e4-aea26f795cf8/sites/all/modules/ctools/css/ctools.css?ngfk65");
+
+      @import url("/Views/Client/bff2b909-eb01-464e-a0e4-aea26f795cf8/sites/all/modules/contrib/panels/css/panels.css?ngfk65");
+
+      @import url("/Views/Client/bff2b909-eb01-464e-a0e4-aea26f795cf8/sites/all/modules/contrib/ds/layouts/ds_2col/ds_2col.css?ngfk65");
+
+      @import url("/Views/Client/bff2b909-eb01-464e-a0e4-aea26f795cf8/sites/default/files/ctools/css/6c2ac03e0f5aab0aac5989d097b7429b.css?ngfk65");
+
+      @import url("/Views/Client/bff2b909-eb01-464e-a0e4-aea26f795cf8/sites/all/modules/contrib/custom_search/custom_search.css?ngfk65");
+
+
+
+      @import url("/Views/Client/bff2b909-eb01-464e-a0e4-aea26f795cf8/sites/all/themes/at_core/css/at.layout.css?ngfk65");
+
+      @import url("/Views/Client/bff2b909-eb01-464e-a0e4-aea26f795cf8/sites/all/themes/leidos/css/drupal.css?ngfk65");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        www.leidos.com
+
+                    
+
+                
+
+            
+
+            
+
+            
+
+                
+
+                
+
+                
+
+                    Main menu
+
+                    
+
+                        
+
+                        LeidosBack
+
+                        
+
+                            Leidos
+
+                            
+
+                                AboutBack
+
+                                
+
+                                    Back
+
+                                    About
+
+                                    
+
+                                    Mission, Vision, and Values
+
+                                    International
+
+                                    Subsidiaries
+
+                                    Leadership
+
+                                    History
+
+                                    Corporate Responsibility
+
+                                    Commitment to Quality
+
+                                    Rankings &amp; Awards
+
+                                    Contract Center
+
+                                    Contact Us
+
+                                
+
+                            
+
+                            
+
+                                CapabilitiesBack
+
+                                
+
+                                    Back
+
+                                    Capabilities
+
+                                    
+
+                                        CivilBack
+
+                                        
+
+                                            Back
+
+                                            Civil
+
+                                            Aviation
+
+                                            Cyber Solutions
+
+                                            Energy
+
+                                            Environment &amp; Infrastructure
+
+                                            Exploration &amp; Mission Support
+
+                                             Financial Solutions
+
+                                            Homeland &amp; Transportation Security
+
+                                        
+
+                                    
+
+                                    
+
+                                        Defense &amp; IntelligenceBack
+
+                                        
+
+                                            Back
+
+                                            Defense &amp; Intelligence
+
+                                            Airborne
+
+                                            Command &amp; Control
+
+                                            Data Analytics
+
+                                            Enterprise IT Services
+
+                                            Federal Cybersecurity
+
+                                            Intelligence Services
+
+                                            Operations &amp; Logistics
+
+                                            Sensors
+
+                                            Training
+
+                                        
+
+                                    
+
+                                    
+
+                                    
+
+                                        HealthBack
+
+                                        
+
+                                            Back
+
+                                            Health
+
+                                            Federal Health IT
+
+                                            Hospitals &amp; Health Systems
+
+                                            Life Sciences
+
+                                        
+
+                                    
+
+                                    
+
+                                        Advanced SolutionsBack
+
+                                        
+
+                                            Back
+
+                                            Advanced Solutions
+
+                                            Airborne Systems Integration
+
+                                            Maritime 
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                            
+
+                                CareersBack
+
+                                
+
+                                    Back
+
+                                    Careers
+
+                                    Opportunities
+
+                                    Pay &amp; Benefits
+
+                                    Life at Leidos
+
+                                    FAQs
+
+                                    
+
+                                
+
+                            
+
+                            
+
+                                InvestorsBack
+
+                                
+
+                                    Back
+
+                                    Investors
+
+                                    Stock Data
+
+                                    Corporate Governance
+
+                                    SEC Filings
+
+                                    Quarterly Earnings
+
+                                
+
+                            
+
+                            
+
+                            Search
+
+                        
+
+                    
+
+                    Insights
+
+                      
+
+                
+
+                
+
+                    Leidos Search
+
+                    
+
+                        
+
+                        Leidos
+
+                        cancel
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+    
+
+        
+
+            Home
+
+            
+
+        
+
+        
+
+        
+
+            
+
+        
+
+         
+
+        
+
+            Data and Reporting Analyst
+
+        
+
+        
+
+            
+
+
+
+
+
+        APPLY NOW
+
+    &nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+
+
+
+
+Job Number:
+644045
+
+
+Job Category:
+Information Technology - Databases
+
+
+Location:
+AUSTIN, TX US
+
+
+
+Schedule:
+Full-time
+
+
+Travel:
+None
+
+
+
+Shift:
+Day Job
+
+
+Potential for Teleworking:
+No
+
+
+Clearance Level Must Currently Possess:
+None
+
+
+
+Clearance Level Must Be Able to Obtain:
+Other Clearance
+
+
+
+
+
+
+ 
+Description:Systems Made Simple, a Leidos Company, is seeking a Data and Reporting Analyst, contingent upon contract award, in Austin, TX. Data and Reporting Analyst • Receive ad-hoc query requests from PMO teams, ask questions to define detailed reporting requirements, and deliver neatly formatted summary and detail reports accordingly. • Query multiple databases with undocumented schemas to pull requested information • Document business processes where needed to support the EIS contract • Pull defect and corrective action metrics from different sources to develop contract-level reports on the health of certain systems and flows • Project Manage bulk data cleanup activities as needed Review of electronic federal contract deliverables, by liaising between IT and end user organizations • Auditing GSA contractual deliverables generated by IT systems to ensure contract guidelines are met • Opening and managing trouble tickets assigned to IT for deliverables requiring content corrections • Highlighting root cause issues and working with design teams to address long term fixes • Analyzing ongoing issues and user errors to drive new development, defect resolution, and user training • Determining and implementing process improvements to improve review efficiencies • Performing bulk queries in SQL to analyze data • Project Managing cleanups of data across all customers ESDMS Qualifications:EDUCATION &amp; EXPERIENCE: Typically requires&nbsp;Bachelor's Degree&nbsp;or equivalent and 2 – 4 years of prior relevant experience.  &nbsp; Requires: o Contact Center/Service Desk Reporting Experience o Data Analytics Experience o ITIL Certification required o Microsoft Excel expertise o Database experience in SQL  Requires US Citizen or US Person (Green Card Holder) with the ability to obtain a Moderate level VA clearance (Minimal Background Investigation) Leidos Overview:Leidos is a global science and technology solutions leader working to solve the world’s toughest challenges in the defense, intelligence, homeland security, civil, and health markets. The company’s 33,000 employees support vital missions for government and commercial customers. Headquartered in Reston, Virginia, Leidos reported pro forma annual revenues of approximately $10 billion for the fiscal year ended January 1, 2016 after giving effect to the recently completed combination of Leidos with Lockheed Martin's Information Systems & Global Solutions business (IS&GS). For more information, visit www.Leidos.com.  The company’s diverse employees support vital missions for government and commercial customers. Qualified women, minorities, individuals with disabilities and protected veterans are encouraged to apply. Leidos will consider qualified applicants with criminal histories for employment in accordance with relevant Laws.     Leidos is an Equal Opportunity Employer.
+
+Other Locations: &nbsp;
+ 
+
+
+
+
+        APPLY NOW
+
+    &nbsp;&nbsp;&nbsp;
+
+
+
+    
+
+
+
+
+
+
+
+    $(document).ready(function () {
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    
+
+    
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    leidos
+
+                
+
+                &copy; 2017 Leidos
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+
+
+                            
+
+                                
+
+                                    Privacy Policy
+
+                                    
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                    
+
+                        
+
+
+
+                            
+
+                                
+
+                                    For Customers
+
+                                    For Alumni
+
+                                    For Employees
+
+                                    For Suppliers
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+
+
+                            
+
+                                
+
+                                    Connect on FacebookConnect on LinkedinConnect on TwitterConnect on Youtube
+
+                                
+
+                            
+
+                        
+
+                    
+
+                        
+
+
+
+                            
+
+                                
+
+                                    
+
+                                    Products
+
+                                    
+
+                                    Federal Contract Vehicles
+
+                                    Contact Us
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+                Powered by SmashFly
+
+            
+
+        
+
+    
+
+    
+
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  
+
+ ga('create', 'UA-62142826-1', 'auto', 'clientTracker');
+
+  ga('clientTracker.send', 'pageview');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+jQuery.extend(Drupal.settings, { "basePath": "\/", "pathPrefix": "", "ajaxPageState": { "theme": "leidos", "theme_token": "UW8n68DZExgkd3DftgV6M-xMye8cWqKMl5bRD5LuOlI", "js": { "misc\/jquery.js": 1, "misc\/jquery.once.js": 1, "misc\/drupal.js": 1, "sites\/all\/modules\/contrib\/panels\/js\/panels.js": 1, "sites\/all\/modules\/contrib\/custom_search\/js\/custom_search.js": 1, "sites\/all\/themes\/leidos\/scripts\/about.js": 1, "sites\/all\/themes\/leidos\/scripts\/global.other.js": 1, "sites\/all\/themes\/leidos\/scripts\/libs\/jquery.ui.touch-punch.min.js": 1 }, "css": { "sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css": 1, "sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css": 1, "sites\/all\/modules\/ctools\/css\/ctools.css": 1, "sites\/all\/modules\/contrib\/panels\/css\/panels.css": 1, "public:\/\/ctools\/css\/ba7c915c576eff7e1e480d7b776ea11b_107.css": 1, "public:\/\/ctools\/css\/428335113e401abeed569816112b1350_107.css": 1, "public:\/\/ctools\/css\/ad769e1df062b7772eee1f25acec58d4_107.css": 1, "sites\/all\/modules\/contrib\/custom_search\/custom_search.css": 1, "sites\/all\/themes\/at_core\/css\/at.layout.css": 1, "sites\/all\/themes\/leidos\/css\/drupal.css": 1 } }, "custom_search": { "form_target": "_self", "solr": 0 } });
+
+    
+
+    
+
+    _satellite.pageBottom();
+
+
+
+
+

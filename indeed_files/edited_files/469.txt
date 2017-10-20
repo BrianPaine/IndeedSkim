@@ -1,0 +1,1194 @@
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+        
+
+    
+
+    SQL Report Analyst Job in Richmond, VA | UDig
+
+
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+
+    
+
+     
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+        
+
+        
+
+        
+
+        
+
+            
+
+
+
+        
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+        
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+        ga('create', 'UA-38516124-1', 'auto');
+
+        ga('send', 'pageview');
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+    
+
+
+
+    
+
+        toggle menu
+
+        
+
+    
+
+    Approach
+
+        Our Work
+
+        About
+
+        Careers
+
+        Blog
+
+        Contact Us
+
+    
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        Welcome to Udig
+
+                        
+
+                    
+
+                    
+
+                        Approach
+
+                            Our Work
+
+                            About
+
+                            Careers
+
+                            Blog
+
+                            Contact Us
+
+                        		        	
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+    
+
+        
+
+        
+
+    
+
+
+
+    
+
+        
+
+            
+
+                    
+
+        
+
+            Search Job Openings
+
+        
+
+    
+
+
+
+            
+
+        
+
+
+
+        
+
+
+
+
+
+            
+
+
+
+    
+
+        
+
+            
+
+                    
+
+                        Search 
+
+                    
+
+                    
+
+                        Jobs 
+
+                    
+
+        
+
+                
+
+                    SQL Report Analyst
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+            
+
+                
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        What
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        Where
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    Find Jobs
+
+                
+
+            
+
+        
+
+    
+
+
+
+            
+
+    
+
+        
+
+
+
+    
+
+        SQL Report Analyst
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    Location:
+
+    
+
+        
+
+                Richmond,
+
+            VA
+
+        
+
+    
+
+
+
+
+
+    Posted:
+
+    10/3/2017
+
+
+
+            
+
+        
+
+            
+
+                
+
+                    
+
+        
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        
+
+
+
+                
+
+                
+
+                    
+
+                                
+
+                                    
+
+                                
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            SQL Report AnalystRichmond, VirginiaAbout the role:UDig is seeking a SQL Report Analyst to support our client located in Richmond, Virginia. The ideal candidate will bring the ability to thrive in a highly collaborative and fast-paced work environment.&nbsp;The role is responsible for designing and developing reports primarily using SQL Server Reporting Services (SSRS). The candidate is also responsible for adhering to our client&#39;s development best practices. In addition, supporting and contributing to our client&#39;s SDLC and Agile development process is an essential component of the role.What you&rsquo;ll do:	Adhere to professional software engineering practices & best practices for the full software development life cycle, including coding standards, code reviews, source control management, build processes, testing, and operations.	Analyze business requirements and produce detailed technical designs for innovative software solutions.	Work with the business community to gather requirements and create designs for new reports or changes to existing reports.	Create report requirements and design documents that follow project standards and articulates the solution to develop on an appropriate level, leveraging templates where possible and analyzes the impact to existing systems and alternatives	Conduct walkthroughs of design documents and work with the team to address comments resulting from the reviews.	Determine the impact and potential costs of proposed changes	Create technical training documentation regarding the current function(s) of new or existing reports	Provide technical knowledge transfer for new or existing reports to other technical staff	Create new reports and enhance existing reports, primarily using SQL Server Reporting services (SSRS) using secure coding practices	Produce ad-hoc reports and/or SQL scripts when requested	Work with and/or modify the SQL Server-based data model as required.	Write queries, views or stores procedures to extract data from the SQL Server database.	Provide support of the SQL Server database as needed	Follow established reporting standards and configuration management procedures	Troubleshoot any issues with reports, data load failures or data retrieval issues	Provide performance tuning on existing reports to enhance end user experience	Provide support to the technical staff, internal users and external users in the support and use of new or existing SSRS reports and ad-hoc SQL scripts.	Provide general production support for new and/or existing reports.	Possess and applies advanced knowledge of technology principles, best practices and procedures to the completion of complex software development assignments	Ensure that all code, configuration data, and system documentation is accurate, complete, understandable, and adheres to our client&#39;s standards	Create unit test cases to appropriately verify new or modified reports, executes those scripts and resolves identified issues to ensure comprehensive testing of business software using non-sensitive data	Support the reports testing process by the user community.&nbsp;Assigned system incidents and defects identified during the testing process should be fixed, unit tested and checked into the source control system.	Gather or creates test data necessary to execute test scripts in compliance with our client&#39;s standards.&nbsp;	Execute tests and documents results.	Work with QA on test results, defect remediation and script re-use.What you need: 	Report and database development and unit testing	Report design	Technical reports training	Report maintenance and support	Ascertain and meet customer expectations	Work effectively and independently in a fast paced team environment where priorities can rapidly change	Prioritize own work activities with minimal guidance and coaching	Manage competing priorities to meet goals	Communicate effectively orally and in writing	Develop and manage detailed and accurate work plans and appropriately communicate work plan risks and impacts to management	Provide, maintain and follow technical documentation	Software development methodologies and best practices	Secure coding practices	SQL Server	SQL Server Reporting Services (SSRS)	SQL Service Analysis Services (SSAS) &ndash; preferred	SQL Server Integration Services (SSIS) - preferred	Candidates must have a Bachelor&rsquo;s degree from a four-year college or university in computer science or closely related field and 4 or more years of experience. Preferred experience includes 4 years of System Development Life-Cycle experience working with large, complex systems and two years&rsquo; experience working on Agile Scrum teams.&nbsp;This position will be on a contract basis for a period of up to 12 months with the potential for extension.About UDig: We help companies turn big ideas into actionable plans and measurable results. &nbsp;By providing a practical, technology agnostic approach to projects centered around Digital, Data and Engineering initiatives, we connect strategy with solutions that work.Our diverse team of experts is small enough to provide personal service, yet large enough to execute enterprise initiatives. &nbsp;Based in Richmond, VA our footprint covers the Mid-Atlantic region with consultants engaged on client sites across the country. Learn more at udig.com.
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+        
+
+            
+
+            
+
+            
+
+            
+
+            
+
+        
+
+
+
+                
+
+                
+
+                    
+
+                                
+
+                                    
+
+                                
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+    $(function() {
+
+        $('.social-container a').tooltip();
+
+        $('.social-links a').each(function(index, value) {
+
+            var titleParametersNames = ['text', 'title', 'subject'];
+
+            for (var i = 0; i  -1) {
+
+                    var title = document.title.substr(0, document.title.indexOf('|')).trim();
+
+                    $(value).attr('href', linkHref.replace(titleParametersNames[i] + '=', titleParametersNames[i] + '=' + encodeURIComponent(title)));
+
+                    break;
+
+                }
+
+            }
+
+        });
+
+
+
+        var emailHref = $('.social-links .email').attr('href');
+
+        $('.social-links .email').attr('href', emailHref.replace('body=', 'body=' + encodeURIComponent('\r\n\r\nMore information about this job from UDig: ' + document.location)));
+
+    });
+
+
+
+
+
+
+
+
+
+    
+
+            
+
+
+
+    
+
+        
+
+            
+
+                Sign In
+
+            
+
+            
+
+                
+
+                    
+
+                        Email
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        Password
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                             Remember me
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                                                
+
+                        
+
+                        
+
+                            
+
+                                Forgot your password?
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                    Not a member? 
+
+                    Register
+
+                
+
+            
+
+
+
+            
+
+                
+
+            
+
+                
+
+                Sign in with Facebook
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+    window.fbAsyncInit = function () {
+
+        FB.init({
+
+            appId: '328668867204991',
+
+            channelUrl: 'https://jobs.udig.com/channel.html',
+
+            status: true,
+
+            cookie: true,
+
+            xfbml: true,
+
+            oauth: true
+
+        });
+
+
+
+        FB.getLoginStatus(function (loginResponse) {
+
+            FB.Event.subscribe('auth.authResponseChange', function (authChangeResponse) {
+
+                var signedRequest = authChangeResponse.authResponse.signedRequest;
+
+
+
+                RecruitBrain.SocialMediaUserPanel.SignInWithFacebook('/candidates/facebooksignin', '', '', '', authChangeResponse, '#welcome-text', '#sign-in-form');
+
+            });
+
+        });
+
+    };
+
+
+
+    (function (d, s, id) {
+
+        var js, fjs = d.getElementsByTagName(s)[0];
+
+        if (d.getElementById(id)) return;
+
+        js = d.createElement(s); js.id = id;
+
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+
+        fjs.parentNode.insertBefore(js, fjs);
+
+    } (document, 'script', 'facebook-jssdk'));
+
+        
+
+        
+
+        
+
+        
+
+            Related job openings
+
+        
+
+
+
+            
+
+                
+
+                    
+
+                        
+
+                            Junior Programmer Analyst
+
+                        
+
+                    
+
+                    
+
+                        Junior Programmer Analyst
+
+Richmond, Virginia
+
+About the role:
+
+UDig is seeking a Junior Programmer Analyst to support our client located in ... see more
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                            SSAS Developer
+
+                        
+
+                    
+
+                    
+
+                        SSAS Engineer
+
+Glen Allen, Virginia
+
+About the role:
+
+UDig is seeking a SSAS Engineer to support our client located in Glen Allen, Virginia.
+
+What ... see more
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                            Enterprise Application Architect
+
+                        
+
+                    
+
+                    
+
+                        Enterprise Application Architect
+
+Richmond, Virginia
+
+About the role:
+
+UDig is seeking an Enterprise Application Architect for our client located in ... see more
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                            Full Stack Developer
+
+                        
+
+                    
+
+                    
+
+                        Full Stack Developer
+
+Glen Allen, Virginia
+
+About the role:
+
+UDig is seeking a Full Stack Developer for our client located in Glen Allen, Virginia. ... see more
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                            Senior Full Stack Developer
+
+                        
+
+                    
+
+                    
+
+                        Senior Full Stack Developer
+
+Glen Allen, Virginia
+
+About the role:
+
+UDig is seeking a Senior Full Stack Developer for our client located in Glen ... see more
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                            Data Engineer - Innovation Studio
+
+                        
+
+                    
+
+                    
+
+                        Data Engineer - Innovation Studio
+
+
+
+Richmond, Virginia
+
+
+
+UDig is seeking a Data&nbsp;Engineer to join our growing data consulting practice. ... see more
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                            Sr. Software Engineer (Java)
+
+                        
+
+                    
+
+                    
+
+                        Senior Software Engineer (Java)
+
+Richmond, Virginia
+
+About the role:
+
+UDig is seeking a Senior Software Engineer (Java) for our client located in ... see more
+
+                    
+
+                
+
+            
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+            
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    Who We Serve
+
+                
+
+                
+
+                    RVA IS OUR HOME, TECH TAKES US ANYWHERE.
+
+                
+
+                Clients turn to us because they need help implementing technology business solutions. While we’re constantly on the hunt for new relationships in the Mid-Atlantic region, our biggest wins have been with mid-sized clients in the healthcare, financial services and retail business sectors.
+
+                Our Offices
+
+                    Richmond
+
+                    Northern Virginia
+
+                    Nashville
+
+                
+
+                Consultant Time Entry
+
+            
+
+            
+
+                
+
+                
+
+                    
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+                    Contact Us
+
+
+
+                
+
+
+
+            
+
+        
+
+
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    &copy; 2017 UDig LLC. All rights reserved.
+
+                    800.259.UDIG
+
+                
+
+            
+
+        
+
+    
+
+
+
+    
+
+
+
+    
+
+    
+
+        var applied = false;
+
+
+
+        $(function() {
+
+            $('.job-apply-form').on('submit', function(e) {
+
+                if (applied) {
+
+                    $('.applyAction').val('Already Applied!');
+
+                    $('.applyAction').css('disabled', 'disabled');
+
+                    e.preventDefault();
+
+                } else {
+
+                    applied = true;
+
+                    $('.applyAction').val('Applying...');
+
+                }
+
+            });
+
+        });
+
+    
+
+
+
+
+
+
+
+
+
+    //
+
+
+
+
+
+    
+
+        var _hsq = _hsq || [];
+
+        //_hsq.push(["setContentType", "standard-page"]);
+
+        
+
+
+
+        
+
+        (function(d,s,i,r) {
+
+            if (d.getElementById(i)) { return; }
+
+            var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+
+            n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/553896.js';
+
+            e.parentNode.insertBefore(n, e);
+
+        })(document,"script","hs-analytics",300000);
+
+    
+
+
+
+
+
+
+

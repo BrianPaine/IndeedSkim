@@ -1,0 +1,2222 @@
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ You are using an outdated version of Internet Explorer. This site is better optimized for more modern browsers. Please consider upgrading to the most current version of Internet Explorer: Get the latest version of Internet Explorer [CLOSE]document.getElementById("close").onclick=function(){document.getElementById("note").style.display='none';};
+
+
+
+
+
+ 
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+	Data Analyst
+
+    
+
+	
+
+		
+
+	
+
+	 
+
+    
+
+    
+
+    
+
+        
+
+    document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+     
+
+
+
+
+
+
+
+                
+
+{"@context":"http://schema.org","@type":"JobPosting","datePosted":"2017-10-4","description":"This is a temporary position for Raytheon for an undetermined length Job Description: The RMS business development team is a seeking a talented, investigative data analyst to support our growth oriented team. The ideal candidate will rigorously question assumptions, determine how to most convincingly display data and help lead change management and growth efforts. This position is responsible for performing data analytics to support Business Development and Product Line in making informed decisions with regards to forecasting and planning. The lead will help the respective BD team in defining key performance indicators (KPIs) and help establish action oriented methods of presenting the data. This will be a lead data analyst position, supplying valuable information such as win rates, assessment of growth plans, progress to goals, and more, to Business Development and RMS Business Leaders. In addition to providing data, this position will assist the Director, BD Ops with operational tasks including the administration of NBI and Enterprise Campaign dollars post allocation, updating progress to annual BD goals. This lead will work in collaboration with a council of data analyst to share methodologies and results in order to refine best practices across the organization. Major Responsibilities Include:Perform analysis using internal and external datasets – excels at seeing patterns between datasets to deliver actionable information. Seeks to understand business model and business environment – applies this knowledge towards proactively developing innovative data analysis, dashboards or other resources to help team achieve goalsChange agent – seeks opportunities for how decisions can be improved with data Creatively develops new formats for displaying data in actionable ways using resources such as Tableau Continuous learner – has a passion for learning about data management topics (big data, machine learning, etc.) Performs analysis using structured and unstructured data sources Works across cross-functional teams to deliver timely information to key stakeholders Provide monthly, quarterly and annual metrics to support RMS growth plans and provide the analytics to supports achievement of those plansProvide metrics and analysis that support New Business Investment (NBI) allocation and administrationWill develop a partnership and collaborate with members of the RMS SLT, RMS Program Council, RMS BDE’s, and other members of the RMS leadership team.Required Skills:Minimum of 2 years relevant experience specifically in data analysisAbility to obtain and maintain a DoD Security ClearanceSelf-starter able to work without direct supervision Experience with web-based CRM (Customer Relationship Management) applications or equivalent systems Proficient in Microsoft Office (Word, Excel, PowerPoint, etc.). Must be proficient in pivot table and other Excel analysis methods Desired Skills: Intermediate understanding of SQL and database architecture principalsFamiliar with visualization tools (e.g. Tableau, Crystal Reports, etc.) Comfortable with public speaking and able to lead classroom training sessions A critical thinker and change leader with ability to solve complex, time-sensitive problems – a strategic thinkerExcellent written and verbal communication skillsSuperior ethical standards beyond reproachMinimum Education Required: Bachelor’s Degree in business, finance, information systems or related field, MBA preferred“This position requires a U.S. person or the ability to obtain an Export Authorization from the appropriate government agency for non-U.S. persons.” 104502","employmentType":"Professional Jobs","identifier":"104502BR","industry":" Tucson","title":"Data Analyst","url":"https://jobs.raytheon.com/job/tucson/data-analyst/4679/5890733","workHours":"AZ ","hiringOrganization":{"@type":"Organization","name":"Intelligence, Information and Services"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":" Tucson","addressRegion":"AZ ","addressCountry":"United States","streetAddress":"","postalCode":""}}}
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-73908456-1', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+                createHiddenInput('dimension1', '5890733');
+
+                createHiddenInput('dimension2', '104502BR');
+
+                createHiddenInput('dimension3', '4679');
+
+                createHiddenInput('dimension4', '4679,Intelligence, Information and Services');
+
+                    createHiddenInput('dimension6', 'Data-Science Finance All');
+
+                    createHiddenInput('dimension7', 'Tucson-Arizona-United-States');
+
+                    createHiddenInput('dimension9', 'Data Analyst');
+
+                        createHiddenInput('dimension10', 'JobDetails');
+
+                    createHiddenInput('dimension14', 'Basic JD');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+            gtmValues = { 'JobID': '5890733', 'ReqID': '104502BR', 'OrgID': '4679', 'tbcn-division': '4679,Intelligence, Information and Services' };
+
+                gtmValues['tbcn-jobcategory'] = 'Data-Science Finance All';
+
+                gtmValues['tbcn-location'] = 'Tucson-Arizona-United-States';
+
+                gtmValues['tbcn-jobtitle'] = 'Data Analyst';
+
+                    gtmValues['pagetype'] = 'JobDetails';
+
+                gtmValues['subpagetype'] = 'Basic JD';
+
+            dataLayer.push(gtmValues);
+
+
+
+
+
+
+
+
+
+
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-PGSJR7');
+
+    
+
+
+
+	
+
+	Skip Navigation
+
+    
+
+    
+
+
+
+
+
+
+
+  
+
+    Raytheon
+
+
+
+    
+
+      
+
+        -->
+
+        
+
+    
+
+    
+
+
+
+    
+
+    
+
+    
+
+      
+
+        Cyber
+
+        News
+
+        What We Do
+
+      
+
+    
+
+    
+
+
+
+    
+
+    
+
+      
+
+        Who We Are
+
+        Global
+
+        Investors
+
+        Careers
+
+     	-->
+
+      -->
+
+      -->
+
+      -->
+
+      -->
+
+      <!--  -->
+
+      
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+      
+
+
+
+        
+
+          
+
+          Visit:Cyber
+
+
+
+          
+
+          Who We Are
+
+            
+
+              
+
+              Leaders
+
+              Businesses
+
+              Corporate Responsibility
+
+              Culture
+
+              History
+
+              Diversity
+
+              Raytheon BBN Technologies
+
+              Raytheon Professional Services
+
+              IDIQ Contract Vehicles
+
+              Suppliers
+
+              Customer Tools
+
+              Employee Tools
+
+            
+
+          
+
+          
+
+
+
+          
+
+          What We Do
+
+            
+
+              
+
+              Missile Defense
+
+              C5ISR
+
+              Cyber
+
+              Electronic Warfare
+
+              Precision Weapons
+
+              Services
+
+              Training
+
+              Mission Support
+
+              Innovations
+
+            
+
+          
+
+          
+
+
+
+          
+
+          Global
+
+
+
+          
+
+          News
+
+            
+
+              
+
+              News Feature Archive
+
+              News Releases
+
+              Technology Today Magazine
+
+              Trade Show Calendar
+
+              Social Media
+
+              Media Contacts
+
+            
+
+          
+
+          
+
+
+
+          
+
+          Investors
+
+
+
+          
+
+          Careers
+
+
+
+          
+
+          
+
+            
+
+
+
+            -->
+
+            <!--    -->
+
+            -->
+
+            &nbsp;&nbsp;-->
+
+            -->
+
+            -->
+
+            <!--    -->
+
+            <!---->
+
+          
+
+          
+
+
+
+        
+
+        
+
+
+
+        
+
+        
+
+          
+
+        
+
+      
+
+      
+
+    
+
+    
+
+  
+
+  
+
+
+
+
+
+    
+
+            Careers Menu
+
+    
+
+        
+
+            
+
+                Careers
+
+                  
+
+                          Global Careers
+
+              UK Careers
+
+                    Application Center
+
+                     Resume Upload
+
+                  <!--  Careers in UK
+
+                    Careers in AU
+
+                    Application Center-->
+
+                
+
+            
+
+            
+
+            
+
+                Working With Us
+
+                
+
+             
+
+                    
+
+                        Benefits 
+
+                    
+
+                    
+
+                        Culture
+
+                    
+
+                    
+
+                        Diversity
+
+                    
+
+                    
+
+                        Employee Resource Groups
+
+                    
+
+             
+
+                    Veterans
+
+                
+
+            
+
+            
+
+                Talent Areas 
+
+                
+
+                    
+
+                        Engineering
+
+                    
+
+                    
+
+                        Business Development
+
+                    
+
+                    
+
+                        Communications
+
+                    
+
+                    
+
+                        Contracts
+
+                    
+
+                    
+
+                       Finance
+
+                    
+
+                    
+
+                        Cyber
+
+                    
+
+                    
+
+                        Information Technology
+
+                    
+
+                    
+
+                        Human Resources
+
+                    
+
+                    
+
+                        Legal
+
+                    
+
+                    
+
+                        Supply Chain
+
+                    
+
+                    
+
+                        Security
+
+                    
+
+                    
+
+                        Other
+
+                    
+
+                
+
+            
+
+            
+
+                Career Paths
+
+                
+
+                    Professional
+
+                    Recent Grads &amp; Internships
+
+                    Production and Maintenance
+
+                
+
+            
+
+            
+
+            
+
+                Events
+
+                
+
+                    Event Schedule
+
+                
+
+            
+
+            
+
+               
+
+                FAQ
+
+                
+
+                   Self-Service FAQ
+
+                   Contact Us
+
+                
+
+            
+
+        
+
+        
+
+            Twitter
+
+            Facebook
+
+            LinkedIN
+
+            YouTube
+
+            Instagram
+
+        
+
+    
+
+
+
+    
+
+	
+
+
+
+ 
+
+    
+
+        Finance
+
+    
+
+     
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+	Search Jobs
+
+        
+
+            
+
+                One global team creating trusted, innovative solutions to make the world a safer place. 
+
+            
+
+                
+
+                    Keyword
+
+                    
+
+                
+
+
+
+                    
+
+                        Talent Area
+
+                        Talent Area
+
+Accounting
+
+Administrative Services/Support
+
+Aerospace Engineering
+
+Airline Operations
+
+Algorithms
+
+All
+
+Atmospheric/Space Science
+
+Business Administration
+
+Business Development
+
+Chemical Engineering
+
+Cloud Computing
+
+College
+
+Communications
+
+Computer Engineering
+
+Computer Science
+
+Configuration Management
+
+Contracts
+
+Contracts and Supply Chain
+
+Corporate Affairs and Communications
+
+Cyber
+
+Data Networking
+
+Data Science
+
+Distributed Systems
+
+Electrical Engineering
+
+Embedded Software Engineer
+
+Engineering
+
+Engineering Technology
+
+Environmental
+
+Environmental Health and Safety
+
+Export and Import
+
+Facilities
+
+Finance
+
+Flight and Aircraft
+
+General
+
+General Engineering
+
+General Management
+
+Hardware Engineering
+
+Healthcare Services
+
+Human Resources
+
+Industrial and Labor Relations
+
+Industrial Engineering
+
+Information and Knowledge Systems
+
+Information Technology
+
+Integration and Test Engineering
+
+Intelligence Analyst
+
+Legal
+
+Logistics Engineering
+
+Logistics Management
+
+Machine Learning
+
+Manufacturing
+
+Manufacturing Engineering
+
+Marketing
+
+Mathematics
+
+Mechanical Engineering
+
+Multimedia
+
+Natural Language Processing
+
+Network Communications Research
+
+Optical Engineering
+
+Physics
+
+Product Support
+
+Production and Maintenance
+
+Program Management
+
+Program Planning/Scheduling
+
+Public Relations
+
+Publications and Graphic Arts
+
+Quality Assurance
+
+Quantum Information
+
+Reliability Engineer
+
+Research &amp; Development
+
+Safety
+
+Sales
+
+Security
+
+Sensor Systems
+
+Software Engineering
+
+Speech Processing
+
+Supply Chain
+
+Systems Engineering
+
+Technical
+
+Test Engineering
+
+Training and Development
+
+Transport
+
+
+
+                    
+
+
+
+                    
+
+                        Location
+
+                        Location
+
+Afghanistan
+
+Australia
+
+Canada
+
+Cyprus
+
+Germany
+
+Iraq
+
+Italy
+
+Kuwait
+
+Marshall Islands
+
+Morocco
+
+Oman
+
+Philippines
+
+Poland
+
+Qatar
+
+Saudi Arabia
+
+Singapore
+
+Slovakia
+
+South Korea
+
+Taiwan
+
+United Arab Emirates
+
+United Kingdom
+
+United States
+
+
+
+                    
+
+
+
+
+
+
+
+                            
+
+                                Career Path
+
+                                Career Path
+
+College Jobs
+
+International Jobs
+
+Production Maintenance Jobs
+
+Professional Jobs
+
+
+
+                            
+
+            
+
+           
+
+                  Search Jobs
+
+                  Reset
+
+           
+
+        
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+    
+
+        
+
+        Data Analyst
+
+        	Apply
+
+                 Requisition ID 104502BR          Date updated 10/04/2017     
+
+        This is a temporary position for Raytheon for an undetermined length Job Description: The RMS business development team is a seeking a talented, investigative data analyst to support our growth oriented team. The ideal candidate will rigorously question assumptions, determine how to most convincingly display data and help lead change management and growth efforts. This position is responsible for performing data analytics to support Business Development and Product Line in making informed decisions with regards to forecasting and planning. The lead will help the respective BD team in defining key performance indicators (KPIs) and help establish action oriented methods of presenting the data. This will be a lead data analyst position, supplying valuable information such as win rates, assessment of growth plans, progress to goals, and more, to Business Development and RMS Business Leaders. In addition to providing data, this position will assist the Director, BD Ops with operational tasks including the administration of NBI and Enterprise Campaign dollars post allocation, updating progress to annual BD goals. This lead will work in collaboration with a council of data analyst to share methodologies and results in order to refine best practices across the organization. Major Responsibilities Include:Perform analysis using internal and external datasets – excels at seeing patterns between datasets to deliver actionable information. Seeks to understand business model and business environment – applies this knowledge towards proactively developing innovative data analysis, dashboards or other resources to help team achieve goalsChange agent – seeks opportunities for how decisions can be improved with data Creatively develops new formats for displaying data in actionable ways using resources such as Tableau Continuous learner – has a passion for learning about data management topics (big data, machine learning, etc.) Performs analysis using structured and unstructured data sources Works across cross-functional teams to deliver timely information to key stakeholders Provide monthly, quarterly and annual metrics to support RMS growth plans and provide the analytics to supports achievement of those plansProvide metrics and analysis that support New Business Investment (NBI) allocation and administrationWill develop a partnership and collaborate with members of the RMS SLT, RMS Program Council, RMS BDE’s, and other members of the RMS leadership team.Required Skills:Minimum of 2 years relevant experience specifically in data analysisAbility to obtain and maintain a DoD Security ClearanceSelf-starter able to work without direct supervision Experience with web-based CRM (Customer Relationship Management) applications or equivalent systems Proficient in Microsoft Office (Word, Excel, PowerPoint, etc.). Must be proficient in pivot table and other Excel analysis methods Desired Skills: Intermediate understanding of SQL and database architecture principalsFamiliar with visualization tools (e.g. Tableau, Crystal Reports, etc.) Comfortable with public speaking and able to lead classroom training sessions A critical thinker and change leader with ability to solve complex, time-sensitive problems – a strategic thinkerExcellent written and verbal communication skillsSuperior ethical standards beyond reproachMinimum Education Required: Bachelor’s Degree in business, finance, information systems or related field, MBA preferred“This position requires a U.S. person or the ability to obtain an Export Authorization from the appropriate government agency for non-U.S. persons.” 104502
+
+        
+
+            Business Unit Profile
+
+            Raytheon Company, with 2016 sales of $24 billion and 63,000 employees, is a technology and innovation leader specializing in defense, civil government and cybersecurity solutions. With a history of innovation spanning 95 years, Raytheon provides state-of-the-art electronics, mission systems integration, C5I™ products and services, sensing, effects, and mission support for customers in more than 80 countries. Raytheon is headquartered in Waltham, Massachusetts. Visit us at www.raytheon.com and follow us on Twitter @Raytheon. 
+
+                
+
+            Relocation Eligible 
+
+            No
+
+          
+
+          
+
+            Clearance Type 
+
+            Secret
+
+         
+
+            Expertise 
+
+ 
+
+              Data ScienceFinance
+
+                
+
+            
+
+         
+
+            Type Of Job 
+
+            Temporary - Full Time
+
+         
+
+
+
+ 
+
+
+
+
+
+            Work Location 
+
+ 
+
+              AZ - Tucson
+
+            
+
+          
+
+            Raytheon is an Equal Opportunity/Affirmative Action employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, creed, sex, sexual orientation, gender identity, national origin, disability, or protected Veteran status.
+
+         
+
+
+
+
+
+
+
+	Apply
+
+        		        
+
+    
+
+
+
+
+
+
+
+
+
+        
+
+Email            
+
+            
+
+            Share
+
+            
+
+
+
+	                    Twitter
+
+	                    Facebook
+
+	                    LinkedIn
+
+	                    Google+
+
+                            
+
+            
+
+             
+
+        
+
+    
+
+
+
+    
+
+        
+
+            Explore job location
+
+                Explore Job Location
+
+                    
+
+                
+
+            Explore nearby restaurants, airports, gyms, banks, and more. View the map to see more information.
+
+                View Map
+
+    
+
+
+
+
+
+        
+
+    
+
+   
+
+
+
+        
+
+
+
+        
+
+            Related Content
+
+            
+
+              
+
+                 
+
+     
+
+    
+
+         Work on classified projects and enjoy plenty of recognition
+
+         Whether you’re just starting out on your career journey or a experienced professional, it’s important that you feel recognized and rewarded for your contributions.
+
+Raytheon is proud to offer a comprehensive and competitive benefits package to you, your spouse and your eligible children. In addition to protecting you and your family's health and well-being, we offer important income and work/life benefits to meet your needs. Learn&nbsp;More
+
+     
+
+    
+
+
+
+                
+
+                     
+
+                    
+
+                         Turn unique thinking into one-of-a-kind solutions
+
+                         Diversity. Every company likes to talk about it, but few have embraced it with quite the same commitment as we have here at Raytheon. As a result, diversity has become a competitive imperative and an integral part of our business model, particularly as we continue to grow internationally. Learn More
+
+                     
+
+                    
+
+                
+
+                
+
+                     
+
+                    
+
+                         Work as one to make a difference to millions
+
+                         Here at Raytheon, we innovate across all domains: from land and sea to air, space, and cyberspace.It’s innovation made possible by a strong internal culture and a vision that’s shared by Raytheon employees across the globe – a vision of one global team creating trusted, innovative solutions to make the world a safer place. Learn&nbsp;More
+
+                     
+
+                 
+
+                
+
+                
+
+              
+
+
+
+        
+
+            Download our Corporate Responsibility Report.  
+
+        
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+    Upcoming Events
+
+    
+
+   
+
+            
+
+                
+
+                    
+
+                        Rose-Hulman Campus Screens - Fall 2017
+
+                                   Terra Haute, Indiana
+
+
+
+                        10/09/2017
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        USC - Viterbi Industry Networking Event (VINE), Graduate Day (Fall 2017)
+
+                                   Los Angeles, California
+
+
+
+                        10/09/2017
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        USC - CLDP Campus Screens  Fall 2017
+
+                                   Los Angeles, California
+
+
+
+                        10/09/2017
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        USC - On-Campus Interviews (SCLDP)
+
+                                   Los Angeles,, California
+
+
+
+                        10/09/2017
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        Texas A&amp;M BDLDP Information Session Fall 2017
+
+                                   College Station, Texas
+
+
+
+                        10/09/2017
+
+                    
+
+                
+
+            
+
+            View all events
+
+      
+
+    
+
+    
+
+         Rose-Hulman Campus Screens - Fall 2017
+
+        
+
+             Time: 8:30 am ET - 4:45 pm ET
+
+             Address: Career Services 5500 Wabash Avenue 
+
+Room #2             Terra Haute, Indiana 47803
+
+             Type: Campus Screens
+
+        
+
+
+
+        Register-->
+
+    
+
+    
+
+         USC - Viterbi Industry Networking Event (VINE), Graduate Day (Fall 2017)
+
+        
+
+             Time: 5:00 pm PT - 7:00 pm PT
+
+             Address: University of Southern California Town &amp;amp; Gown 
+
+665 Exposition Blvd.             Los Angeles, California 90089
+
+             Type: Networking Event
+
+        
+
+
+
+        Register-->
+
+    
+
+    
+
+         USC - CLDP Campus Screens  Fall 2017
+
+        
+
+             Time: 8:45 am PT - 5:00 pm PT
+
+             Address: University of Southern California Ronald Tutor Hall (RTH), Rooms 218B, C &amp;amp; D 
+
+3710 McClintock Ave              Los Angeles, California 90089
+
+             Type: Campus Screens
+
+        
+
+
+
+        Register-->
+
+    
+
+    
+
+         USC - On-Campus Interviews (SCLDP)
+
+        
+
+             Time: 9:00 am PT - 5:00 pm PT
+
+             Address: USC Marshall School of Business 630 Childs Way 
+
+Popovich Hall, Suite 310             Los Angeles,, California 90089
+
+             Type: Campus Screens
+
+        
+
+
+
+        Register-->
+
+    
+
+    
+
+         Texas A&amp;M BDLDP Information Session Fall 2017
+
+        
+
+             Time: 6:00 pm CT - 7:30 pm CT
+
+             Address: Texas A&amp;amp;M University Mayes Business School 
+
+             College Station, Texas 77843
+
+             Type: Information Session
+
+        
+
+
+
+        Register-->
+
+    
+
+    
+
+         AUSA Warriors to the Workforce
+
+        
+
+             Time: 9:00 am ET - 4:00 pm ET
+
+             Address: Washington Convention Center 801 Mt Vernon Pl NW 
+
+             Washington, District of Columbia 20001
+
+             Type: Professional Career Fair
+
+        
+
+
+
+        Register-->
+
+    
+
+    
+
+    
+
+        View all events
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+		    Job Alerts
+
+	    
+
+		
+
+
+
+First Name]*$" id="form-field-434341ad76" maxlength="25" name="FirstName" pattern="^[^&lt;>]*$" placeholder="First Name" type="text" />Last Name]*$" id="form-field-9eb7ba3eb9" maxlength="25" name="LastName" pattern="^[^&lt;>]*$" placeholder="Last Name" type="text" />PhoneEmail AddressInterested InEnter a category, location or category/location pair and click add.CategoryLocationAddData Science, Tucson, Arizona, United StatesRemoveFinance, Tucson, Arizona, United StatesRemoveAll, Tucson, Arizona, United StatesRemoveRemove		
+
+		
+
+		    Confirm Email
+
+		    
+
+		
+
+			
+
+		
+
+		    
+
+		
+
+		
+
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+Contact
+
+
+
+Raytheon Company
+
+
+
+870 Winter Street
+
+Waltham,
+
+MA 
+
+02451
+
+
+
+
+
+Contact Us
+
+
+
+
+
+
+
+
+
+Global Presence
+
+Raytheon Australia
+
+Raytheon UK
+
+MORE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Who We Are
+
+
+
+Leaders
+
+Businesses
+
+Corporate Responsibility
+
+Culture
+
+History
+
+Diversity
+
+Raytheon BBN Technologies
+
+Raytheon Professional Services
+
+IDIQ Contract Vehicles
+
+Suppliers
+
+Customer Tools
+
+Employee Tools
+
+
+
+
+
+
+
+
+
+
+
+What We Do
+
+
+
+Missile Defense
+
+C5ISR
+
+Cyber
+
+Electronic Warfare
+
+Precision Weapons
+
+Services
+
+Training
+
+Mission Support
+
+Innovations
+
+
+
+
+
+
+
+
+
+
+
+Global
+
+
+
+Middle East
+
+Europe
+
+Australia
+
+India
+
+
+
+
+
+
+
+
+
+
+
+News
+
+
+
+News Feature Archive
+
+News Releases
+
+Technology Today Magazine
+
+Trade Show Calendar
+
+Social Media
+
+Media Contact
+
+
+
+
+
+
+
+
+
+
+
+Investors
+
+Careers
+
+
+
+
+
+
+
+
+
+
+
+
+
+	STOCK: RTN
+
+ 
+
+
+
+
+
+
+
+
+
+ Copyright &copy; 2017 Raytheon Company.All rights reserved. Legal Notices | Privacy
+
+Raytheon is proud to be an equal opportunity employer, MF/D/V.
+
+
+
+
+
+
+
+Back to Top 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    $(document).ready(function() {
+
+      $('body').addClass('js');
+
+      var $menu = $('#menu'),
+
+      $menulink = $('.menu-link');
+
+      $menulink.click(function() {
+
+        $menulink.toggleClass('active');
+
+        $menu.toggleClass('active');
+
+        return false;
+
+      });
+
+    });
+
+
+
+
+
+
+
+	
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+	
+
+
+
+
+
+
+
+
+
+var _tag = new WebTrends();
+
+_tag.dcsid = "dcst2unra00000kft4auh0tk0_8n6d"; //reserved for jobs.raytheon.com
+
+_tag.dcsCollect();
+
+
+
+
+
+
+
+
+
+
+
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+
+// Insert Twitter Pixel ID and Standard Event data below
+
+twq('init','nvk21');
+
+twq('track','PageView');
+
+
+
+
+
+
+
+
+
+
+
+
+
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+
+
+fbq('init', '1920403514850842');
+
+fbq('track', "PageView");
+
+
+
+
+
+
+
+
+
+
+
+(function(h,o,t,j,a,r){
+
+h.hj=h.hj||function()
+
+{(h.hj.q=h.hj.q||[]).push(arguments)}
+
+;
+
+h._hjSettings=
+
+{hjid:570811,hjsv:5}
+
+;
+
+a=o.getElementsByTagName('head')[0];
+
+r=o.createElement('script');r.async=1;
+
+r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+
+a.appendChild(r);
+
+})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+
+
+
+	    
+
+	          
+
+        
+
+        
+
+            $(window).load(function(){
+
+                if($('.flexslider').length > 0){
+
+                  $('.flexslider').flexslider({
+
+                    animation: "slide",
+
+                    directionNav: false,
+
+                    pausePlay: true
+
+                  });
+
+                }
+
+            });
+
+          
+
+        
+
+
+

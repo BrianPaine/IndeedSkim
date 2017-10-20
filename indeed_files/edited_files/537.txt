@@ -1,0 +1,793 @@
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+      
+
+      
+
+      try { Typekit.load(); } catch (e) { }
+
+
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+  
+
+      
+
+      
+
+      
+
+
+
+
+
+      
+
+      
+
+
+
+
+
+    
+
+    
+
+        var switchTo5x = true;
+
+    
+
+    
+
+    
+
+        stLight.options({ publisher: 'e5b3516c-bf67-4519-a989-d3efd3bf6bf8' });
+
+    
+
+    
+
+        .leftColumn
+
+        {
+
+            position: relative;
+
+            float: left;
+
+            width: 600px;
+
+        }
+
+        .rightColumn
+
+        {
+
+            position: relative;
+
+            float: right;
+
+            width: 250px;
+
+            font-size: 0.7em;
+
+        }
+
+        .bothColumns
+
+        {
+
+            position: relative;
+
+            clear: both;
+
+        }
+
+        .videoApplicationWrapper {
+
+            float: right;
+
+        }
+
+    
+
+
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+                (i[r].q = i[r].q || []).push(arguments)
+
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+
+
+        ga('create', 'UA-44732861-4', 'auto', 'BDHRTracker');
+
+        ga('BDHRTracker.send', 'pageview');
+
+
+
+    
+
+    
+
+     
+
+     
+
+    
+
+    
+
+        $(document).off("click", "#viewOtherJobs");
+
+        $(document).on("click", "#viewOtherJobs", function (e) {
+
+            $("#OtherJobs").html('.. please wait while the "other jobs listing" is loading ...');
+
+            e.preventDefault();
+
+            var options = {
+
+                CCPCode: "",
+
+                InAccountID: "3907",
+
+                ElementID: "OtherJobs",
+
+                ShowAddThisWidget: false,
+
+                ShowEmailSignup: false,
+
+                ShowCompanyName: false,
+
+                ShowCustomContent: false,
+
+                Heading: "",
+
+                ShowJobFeedInJobLink: false,
+
+                JobLinkSource: "Indeed",
+
+                CurrentJobNumber: "261961",
+
+                ServerUrl: "http://jobs.ourcareerpages.com"
+
+            };
+
+
+
+            bdhr.generateListing(options);
+
+        });
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        
+
+   		    
+
+                
+
+                	
+
+                                
+
+    
+
+
+
+
+
+            
+
+           
+
+            CATCH Intelligence
+
+
+
+
+
+                            
+
+                 
+
+                
+
+                    
+
+                                
+
+   
+
+
+
+                            
+
+        	    
+
+            
+
+        
+
+    
+
+
+
+    
+
+    
+
+    
+
+        
+
+   		    
+
+                
+
+
+
+
+
+    
+
+        CATCH Intelligence
+
+    
+
+
+
+
+
+    
+
+        Data Scientist
+
+    
+
+    
+
+    
+
+            Topeka, KS&nbsp;&nbsp;&nbsp;66612
+
+        
+
+
+
+            
+
+        
+
+    
+
+    
+
+
+
+    
+
+	
+
+        
+
+   		    
+
+        
+
+            
+
+          
+
+                  
+
+              	    
+
+    
+
+        
+
+         
+
+        
+
+           
+
+           
+
+           
+
+            
+
+                &nbsp;&nbsp;&nbsp;&nbsp;
+
+                
+
+            
+
+          
+
+            
+
+                Summary of Primary Duties and Responsibilities:
+Reports to the Manager of Operational Analytics, candidate utilizes skills in data preparation, statistics, predictive modeling and machine learning to promote continuous improvement in distribution system reliability leveraging available data and technologies. The job will require a highly motivated individual who can develop algorithms and processes that will utilize data from various data stores and turn the data into actionable information to be used in establishing a directed approach to risk-based maintenance practices.
+&nbsp;
+Individual must use their data and analytical ability to:
+
+find and interpret rich data sources
+manage large amounts of data despite hardware, software, and bandwidth constraints
+merge data sources
+ensure consistency of datasets
+create visualizations to aid in understanding data
+build mathematical models using the data
+present and communicate the data insights/findings
+produce answers in days rather than months
+work by exploratory analysis and rapid iteration
+acquire and present results with dashboards displays of data.
+
+&nbsp;
+Responsibilities may also include developing of various reports for the tracking of key performance indicators utilizing corporate business intelligence tools that will allow for monitoring of progress towards meeting established goals by various organizations within the company. Currently corporate goals track reliability indices of SAIDI, SAIFI, CAIDI, and CEMI.
+&nbsp;
+Education and Experience Requirements:
+Requires a Bachelor's degree in Data Science, Economics, Statistics, Computer Science, Engineering, or Mathematics from an ABET accredited program. A basic understanding of Electric Power System theory and experience in various operational aspects of an electric power distribution system(s) is preferred.
+&nbsp;
+The ideal candidate&nbsp;will have at least 5&nbsp;years of related experience applying and integrating statistical, mathematical, predictive modeling and business analysis skills to manage and manipulate complex data from a variety of sources.&nbsp;
+&nbsp;
+The preferred candidate must demonstrate the following capabilities:
+
+High competency in computer skills and highly knowledgeable in statistical programming languages including Knime, SAS, Python and R, and database querying languages (SQL).
+Knowledgeable in databases, spreadsheets, word processing and development of web enabled interfaces.
+Possess statistics knowledge and understand when different techniques are or are not a valid approach for analyzing datasets.
+A basic understanding of machine learning methods is required.
+Demonstrate an excellent work history in past job functions.
+
+&nbsp;
+Skills, Knowledge and Abilities Required:
+
+Requires the ability to learn various software and major systems in a timely fashion.
+The ability to cleanse data from one raw form into a structured form is frequently required.
+Candidate must possess an intellectual curiosity about the data being analyzed.
+Visualizing and communicating data is incredibly important both for technical and non-technical audiences in creative ways using software tools like Microsoft&rsquo;s Power BI, Tableau, IBM&rsquo;s Watson, etc.
+Candidate must possess excellent oral and written communication skills and the ability to present information to all levels of management and work groups in a concise manner.
+Must be able to work effectively with others in a team environment and build relationships with all customers and work groups through strong client interaction.
+
+&nbsp;
+Licenses, Certifications, Bonding and/or Testing Required:
+Valid driver&rsquo;s license required.
+&nbsp;
+Working Conditions:
+Conditions will vary from office to field environments. Must be able to work additional hours on short notice. Some travel may be required. Must have a satisfactory work record including good attendance.
+&nbsp;
+Disclaimer:&nbsp;The above information has been designed to indicate the general nature and level of work performed by employees within this classification. It is not designed to contain or be interpreted as a comprehensive inventory of all duties, responsibilities, and qualifications required of employees assigned to this job.  Equal Opportunity Employer/ Minority/ Female/ Disabled/ Veteran
+&nbsp;
+&nbsp;
+
+                
+
+            
+
+            
+
+                     Equal Opportunity Employer, including disabled and veterans.
+
+                 
+
+        
+
+        
+
+            
+
+           
+
+            View Company Information
+
+            
+
+            
+
+            To see other positions, click here.
+
+            
+
+            
+
+
+
+
+
+        
+
+
+
+        
+
+    
+
+    
+
+
+
+                  
+
+                   
+
+            
+
+          
+
+		    
+
+	    
+
+    
+
+    
+
+
+
+            
+
+    
+
+    
+
+        $(document).ready(function () {
+
+            initPageFields();
+
+        });
+
+
+
+        function initPageFields() {
+
+            //var showLocationConfirmation = false;
+
+            $(document).off("click", "#btnApply");
+
+            $(document).on("click", "#btnApply", function (e) {
+
+                //if (showLocationConfirmation) {
+
+                //    e.preventDefault();
+
+                //    var addStr = "";
+
+                //    addStr += "";
+
+                //    addStr += "This job is located in " + $(".job_location").html() + ".Please click \"I understand\" below to continue.";
+
+                //    addStr += "";
+
+
+
+                //    var modSettings = {
+
+                //        windowheader: "Confirm Job Location",
+
+                //        successButtonText: "I understand"
+
+                //    };
+
+                //    showModalWindowFromHTMLString(addStr, {}, modSettings, function (modalFormVals) {
+
+                //        showLocationConfirmation = false;
+
+                //        $("#btnApply").click();
+
+                //        return true;
+
+                //    });
+
+                //}
+
+            });
+
+            myCulture = "en";
+
+            //If English "en" else Spanish "es"
+
+            if (myCulture ==  "en") {
+
+                $(document).off("click", "#btnEmailJob");
+
+                $(document).on("click", "#btnEmailJob", function(e) {
+
+                    e.preventDefault();
+
+                    var addStr = "";
+
+                    addStr += "";
+
+                    addStr += "To Email: ";
+
+                    addStr += "From Email: ";
+
+                    addStr += "Comments: ";
+
+                    addStr += "";
+
+
+
+                    var modSettings = {
+
+                        windowheader: "Email this job to a friend",
+
+                        successButtonText: "Send Email"
+
+                    };
+
+
+
+                    showModalWindowFromHTMLString(addStr, {}, modSettings, function(modalFormVals) {
+
+                        if ($.trim($("#toEmail", $(modalFormVals)).val()) == "") {
+
+                            alert("An email address to send this message is required");
+
+                            return false;
+
+                        }
+
+                        if (!validateEmail($.trim($("#toEmail", $(modalFormVals)).val()))) {
+
+                            alert("A valid to email address is required");
+
+                            return false;
+
+                        }
+
+                        if ($.trim($("#fromEmail", $(modalFormVals)).val()) == "") {
+
+                            alert("A from email address to is required");
+
+                            return false;
+
+                        }
+
+                        if (!validateEmail($.trim($("#fromEmail", $(modalFormVals)).val()))) {
+
+                            alert("A valid from email address is required");
+
+                            return false;
+
+                        }
+
+                        if ($.trim($("#emailContent", $(modalFormVals)).val()) == "") {
+
+                            alert("Some comments are required.");
+
+                            return false;
+
+                        }
+
+                        var parms = {
+
+                            job_id: '261961',
+
+                            toEmail: $.trim($("#toEmail", $(modalFormVals)).val()),
+
+                            fromEmail: $.trim($("#fromEmail", $(modalFormVals)).val()),
+
+                            emailContent: $.trim($("#emailContent", $(modalFormVals)).val())
+
+                        }
+
+                        callServerObjectMethod("Job", "emailJobToAFriend", parms, function(userData) {
+
+                        });
+
+                        return true;
+
+                    });
+
+                });
+
+            } else {
+
+                $(document).off("click", "#btnEmailJob");
+
+                $(document).on("click", "#btnEmailJob", function(e) {
+
+                    e.preventDefault();
+
+                    var addStr = "";
+
+                    addStr += "";
+
+                    addStr += "Al correo electrónico: ";
+
+                    addStr += "Desde el e-mail: ";
+
+                    addStr += "Comentarios: ";
+
+                    addStr += "";
+
+
+
+                    var modSettings = {
+
+                        windowheader: "Enviar esta oferta a un amigo",
+
+                        cancelButtonText: "Cancelar",
+
+                        successButtonText: "Enviar correo electrónico"
+
+                    };
+
+
+
+                    showModalWindowFromHTMLString(addStr, {}, modSettings, function(modalFormVals) {
+
+                        if ($.trim($("#toEmail", $(modalFormVals)).val()) == "") {
+
+                            alert("Se requiere una dirección de correo electrónico para enviar este mensaje");
+
+                            return false;
+
+                        }
+
+                        if (!validateEmail($.trim($("#toEmail", $(modalFormVals)).val()))) {
+
+                            alert("Una válida para dirección de correo electrónico se requiere");
+
+                            return false;
+
+                        }
+
+                        if ($.trim($("#fromEmail", $(modalFormVals)).val()) == "") {
+
+                            alert("A partir de la dirección de correo electrónico que se requiere");
+
+                            return false;
+
+                        }
+
+                        if (!validateEmail($.trim($("#fromEmail", $(modalFormVals)).val()))) {
+
+                            alert("Un válido a partir de dirección de correo electrónico se requiere");
+
+                            return false;
+
+                        }
+
+                        if ($.trim($("#emailContent", $(modalFormVals)).val()) == "") {
+
+                            alert("Se requieren algunos comentarios.");
+
+                            return false;
+
+                        }
+
+                        var parms = {
+
+                            job_id: '261961',
+
+                            toEmail: $.trim($("#toEmail", $(modalFormVals)).val()),
+
+                            fromEmail: $.trim($("#fromEmail", $(modalFormVals)).val()),
+
+                            emailContent: $.trim($("#emailContent", $(modalFormVals)).val())
+
+                        }
+
+                        callServerObjectMethod("Job", "emailJobToAFriend", parms, function(userData) {
+
+                        });
+
+                        return true;
+
+                    });
+
+                });
+
+            }
+
+
+
+        }
+
+    
+
+
+
+    
+
+
+
+
+

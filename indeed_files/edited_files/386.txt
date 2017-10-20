@@ -1,0 +1,631 @@
+
+
+
+Cambridge Inc Careers
+
+  
+
+
+
+
+
+
+
+-->
+
+ 
+  
+  
+
+  
+
+
+
+
+
+
+function clear_search() {document.search_form.search_phrase.value= "";}
+
+
+window.onload=function() {
+     
+    if(""=="yes") {
+          
+     }
+
+           
+  var anchors = document.querySelectorAll('a[href]');
+
+  Array.prototype.forEach.call(anchors, function (element, index) {
+
+    //alert("href is " + element.href);
+    var sSearchString = "oh_jobwrapper/";
+    var sHref = element.href;
+    var nIndex = sHref.toLowerCase().indexOf(sSearchString);
+
+    if (nIndex >0) {
+           //strip CF string prepended by Open Hire call to CFHTTP
+
+            var sNewHref = sHref.substr( nIndex+sSearchString.length );
+           element.href = sNewHref;
+
+  //alert("New href is " + sNewHref);
+
+     } //end strip CF crap prepended by Open Hire call to CFHTTP
+});
+
+}  //end onload
+
+
+
+
+ 
+
+
+
+var $jqPS = jQuery.noConflict(true);
+	$jqPS( function()
+	{
+		$jqPS( '#nav_main li:has(ul)' ).attr('aria-haspopup','true').doubleTapToGo();
+
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+function funcWriteBreadcrumbNav(BreadCrumbList) {
+	var sOutputBreadcrumbNav = new String();
+	var sClass = null;
+	var sUrl = null;
+	var sText = null;
+	var nLevel = null;
+	var aryThisLink = null;
+
+                    var sBreadCrumbOnOff ="Off";
+                    if (sBreadCrumbOnOff.length ==0) sBreadCrumbOnOff = "Off";
+                    if (sBreadCrumbOnOff.toLowerCase() == "off") return sOutputBreadcrumbNav;
+                    if ("" == "8") return sOutputBreadcrumbNav;
+
+//alert("BreadCrumbList is " + BreadCrumbList);
+
+       var sTemp = "";
+	
+	//Added variables to grab information for the current page
+
+	var sCurrentPath = "https://cbridgeinc-careers.silkroad.com/Careers/UnplacedPages/OH_JobWrapper";
+	var sCurrentPage = "OpenHire Internal Page [do not delete]";
+
+	var arySubNav = unescape(BreadCrumbList);
+	//arySubNav = arySubNav.split("");
+	arySubNav = arySubNav.split(";");
+
+    //sOutputBreadcrumbNav += ""
+
+	var nLen = arySubNav.length;
+	for(var i = 0; i ";
+		// items
+
+         var sIndex = sText.indexOf("_subnav");
+         //   sOutputBreadcrumbNav += sIndex;
+
+        if(sText!=sTemp && sIndex " + sText.toLowerCase() + " &gt; ";
+				if (!bIgnore) sOutputBreadcrumbNav += "" + sText + " &gt; ";
+				
+			//check if page is a bodylink	
+			} else  if (!bIgnore) {
+                             if (i>=nLen-1 && sUrl!=sCurrentPath ){
+				//--write out last page in bc list
+				     sOutputBreadcrumbNav += "" + sText + " ";
+				      //--- bl-last item
+                                 if (sCurrentPage != "OpenHire Internal Page [do not delete]" ) {
+				     sOutputBreadcrumbNav += "&gt; " + sCurrentPage + "";
+                                  }
+			   } else {
+				//--- last item
+				sOutputBreadcrumbNav += "" + sText + "";
+			   }
+                     }
+			
+              sTemp = sText;
+	     }
+
+			
+	}
+	
+    sOutputBreadcrumbNav += "";
+    //sOutputBreadcrumbNav += "";
+
+	return sOutputBreadcrumbNav;
+}
+
+
+
+
+
+
+
+			
+
+			
+
+			
+
+			
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+					var productVersion = "2017.5"; var timeoutSeconds = 3600; var timeoutWarningSeconds = 300; var displayTimeWarning = 0; var isCandidateLoggedIn = false; var companyId = 17289; var ep_version = 1;
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+
+
+
+
+
+
+   
+     
+
+
+
+   
+
+
+
+  
+    Show navigation
+    Hide navigation
+    
+
+       HomeCareersEmployment Information			
+				
+					Benefits
+				
+				
+					Commitment to Diversity
+				
+			
+Employment Listings			
+				
+					Search Current Openings
+				
+				
+					Update Your Profile
+				
+				
+					Create a Job Agent
+				
+				
+					Update Job Agent
+				
+			
+FAQsNews
+
+    
+  
+
+
+  
+     
+#breadcrumbs {
+ display: none;
+}
+
+
+  var sPageName = "OH_JobWrapper";
+  if (sPageName.length !=0) sPageName = sPageName.toLowerCase();
+
+ // if(sPageName !="home.html")
+    document.write(funcWriteBreadcrumbNav("Careers,https://cbridgeinc-careers.silkroad.com;Employment%20Listings,https://cbridgeinc-careers.silkroad.com/Careers/EmploymentListings.html"));
+
+  
+
+   
+      
+    
+
+
+
+
+
+
+
+  Your user session will timeout in 5 minutes.  Please click OK to continue with your application.
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+		
+
+			
+
+				
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					Data Analyst
+
+				
+
+			
+
+			
+
+				
+
+					
+
+						Tracking Code
+
+					
+
+					
+
+						440-289 
+
+					
+
+				
+
+				
+
+					
+
+						Job Description
+
+					
+
+					
+
+						Cambridge International Systems has a career opportunity for a Data Analyst to support our NAVY/BUMED customer in Falls Church, VA. Qualified candidates must possess an active secret clearance.
+
+The Virtual Health Data Analyst performs descriptive, diagnostic, predictive, and prescriptive analytics on information systems and databases in order to make better data driven informed decisions on factual evidence vice intuition; discover hidden insights from the recognition of patterns within our organization and patient populations; identify the causation of certain events and extrapolating probable future events that will drive our actions towards positive outcomes.
+
+&nbsp;
+
+The Virtual Health Data Analyst:
+
+
+
+Translates numbers into live dashboards.
+
+Reports and answer ad hoc questions using Virtual Health visit/encounter data to report on metrics and to help Navy Medicine make better decisions for Virtual Health delivery.
+
+Analyzes data within Military Health System (MHS) databases and provide reports on an as needed basis.
+
+Works with detailed source data in analyzing and evaluating organizational performance engineering design, reporting and administration under the Balance Scorecard (BSC) framework.&nbsp;
+
+Translates Balanced Scorecard (BSC) performance data into web-based BSC subscriptions.
+
+Performs design analyses to translate user requirements into plans for organizational performance engineering initiatives and implementation plans.
+
+Provides technical and process guidance support weekly.&nbsp;
+
+Provides methodologies for evaluating moderately complex tasks.
+
+Works with analysts and users to identify current operating procedures and clarify program objectives.&nbsp; Outlines steps required to develop BSC-based initiative / implementation plan, including diagrams and charts.&nbsp; Assists users to resolve operations problems and provides technical assistance to users.&nbsp;
+
+Assists in identifying and implementing solutions to improve data quality (medical coding, MEPRS usage, algorithms, data enhancing capabilities).
+
+
+
+&nbsp;
+
+					
+
+				
+
+				
+
+					
+
+						Required Experience
+
+					
+
+					
+
+						
+
+Bachelor&rsquo;s degree from an accredited college or university in engineering, economics, computer science, math/physics, business management or other related disciplines.
+
+US Citizen with active secret clearance.
+
+At least 3 years&rsquo; experience as a data analyst, data scientist or business data analyst with technical expertise regarding data models, database design development, data mining and segmentation techniques.
+
+Strong knowledge of and experience with reporting packages (Business Objects etc.), databases (SQL etc.), programming (XML, JavaScript, or ETL frameworks).&nbsp;
+
+Knowledge of statistics and experience using statistical packages for analyzing datasets (Excel, SPSS, SAS, R, Python Modules, etc.).
+
+Strong analytical skills with the ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracy.
+
+Adept at queries, report writing and presenting findings.&nbsp;
+
+Familiarity with healthcare concepts and patient services, especially in regards to application of data analytics.&nbsp;
+
+Proficiency with the&nbsp; following Navy/MHS information systems: CHCS, AHLTA, Essentris, MEPRS/DMHRSi, MHS Mart (M2), MHS Data Repository (MDR).
+
+
+
+Preferred: Meets or exceeds DOD 8570 requirements for IAM-I (i.e. Security + CE).
+
+					
+
+				
+
+					
+
+						Job Location
+
+					
+
+					
+
+						Arlington, Virginia, United States
+
+					
+
+				
+
+					
+
+						Position Type
+
+					
+
+					
+
+						Full-Time/Regular
+
+					
+
+				
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					
+
+						
+
+							Apply
+
+						
+
+					
+
+					
+
+						
+
+						
+
+						
+
+								
+
+								
+
+								
+
+							
+
+					
+
+				
+
+				
+
+					
+
+						
+
+							
+
+								Share
+
+							
+
+						
+
+						
+
+							
+
+							
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+							
+
+							
+
+							
+
+						
+
+					
+
+				
+
+			
+
+			
+
+				
+
+					Return To Job Listings
+
+				
+
+				
+
+			
+
+		
+
+	
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+© 2016 Cambridge International Systems, Inc. |
+Privacy
+|
+Copyright
+| Site Map |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&nbsp;
+
+
+
+   
+
+        
+
+    
+
+
+
+
+
+ 
+
+		,\n\t\t       \n\t\t\t  ","FORMATLOCALEID":1674,"PHONEREGEX":"^([+])?([1]( |-|\\.)?)?(\\(?[1-9]{1}[0-9]{2}\\)?|[1-9]{1}[0-9]{2})( |-|\\.)?([0-9]{3}( |-|\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$"}
+
+		-->
+
+	

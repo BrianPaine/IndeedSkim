@@ -1,0 +1,784 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .alert-error {
+
+        color: #990000;
+
+        font-weight: bold;
+
+    }
+
+
+
+    td.top {
+
+        vertical-align: top !important;
+
+    }
+
+
+
+    td.left {
+
+        float: none;
+
+        text-align: left;
+
+    }
+
+
+
+    td.right {
+
+        float: none;
+
+        text-align: right;
+
+    }
+
+
+
+    .nowrapFormLabel {
+
+        white-space: nowrap;
+
+        text-align: right;
+
+    }
+
+
+
+    h1 {
+
+        font-size: 120%
+
+    }
+
+
+
+    h2 {
+
+        font-size: 110%
+
+    }
+
+
+
+    h3 {
+
+        font-size: 100%
+
+    }
+
+
+
+    .hidden-accessibility-text {
+
+        position: absolute;
+
+        left: -2000px;
+
+        top: 0;
+
+        width: 1;
+
+        height: 1;
+
+        overflow: hidden;
+
+        font-size: 0.1em;
+
+    }
+
+
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+
+    .ofcc305table textfield, .ofcc305table select,
+
+    .ofcc305table input, .ofcc305table a {
+
+        font-size:12px !important;
+
+        font-family:Arial,sans-serif,Helvetica !important;
+
+    }
+
+
+
+    #cws-search-results th, #cws-job-alerts th {
+
+        border-top: #CCCCCC 2px solid;
+
+        border-bottom: #CCCCCC 2px solid;
+
+    }
+
+
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+
+        border-bottom: #CCCCCC 2px solid;
+
+        padding-bottom: 3px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+})(window,document,'script','dataLayer','GTM-KJNDCHF');
+
+
+
+ 
+
+Opus is looking to add people to our compliance and risk management team
+
+
+
+  
+
+ -->
+
+  
+
+
+
+  
+
+
+
+  
+
+ -->
+
+  
+
+
+
+  
+
+ -->
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+	try {
+
+	  Typekit.load({
+
+		async: true
+
+	  });
+
+	} catch (e) {}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  	
+
+
+
+  	  
+
+
+
+ Opus
+
+ 
+
+      
+
+
+
+  
+
+
+
+ 
+
+
+
+ Solutions
+
+ 
+
+      		
+
+
+
+ Products
+
+ 
+
+      		
+
+
+
+ Regulations
+
+ 
+
+    
+
+
+
+ About
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+ CwsDWRFacade._path = 'http://chp.tbe.taleo.net/chp02/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; 
+
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchp.tbe.taleo.net/chp02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chp.tbe.taleo.net/chp02/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chp.tbe.taleo.net/chp02/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();
+
+
+
+
+
+
+
+
+
+
+
+
+Data Analyst
+
+
+Location:
+New York, NY
+
+
+Department:
+
+
+
+
+Description
+We are looking for junior or entry-level Data Analyst to join our NY-based team on Wall Street.&nbsp;The Data Analyst will be responsible for participating in and eventually managing department projects revolving around data management and processing, supporting research, quality assurance, data collection and data products.&nbsp;This position will also involve being the primary contact for major financial institutions and professional services firms. In addition to these specific duties, you will be asked to participate in and lead adhoc projects that result from client interest and requests for proofs of concept.&nbsp;This is an excellent opportunity for either an energetic recent grad or current data analyst with a year or less experience.
+
+
+
+Responsibilities: 
+
+
+
+
+
+	Managing client projects which will involve specifying for our offshore team what work must be done and then supervising and QA&rsquo;ing that work.
+
+	Developing expertise in entity research by region, entity type, and other business segments to act as department subject matter expert as well as advise on policy and data collection scope.
+
+	Combining detailed level research with data processing management to provide the most efficient and cost-effective data collection and data management system
+
+	Managing client accounts as the primary point of contact.&nbsp;Responsible for answering client questions and enhancing data where necessary.
+
+	Using SQL extensively to manipulate and analyze data.
+
+
+
+
+
+Requirements: 
+
+
+
+
+
+	Bachelor&#39;s Degree
+
+	Strong communication &amp; interpersonal skills
+
+	*Driven, motivated person* that seeks out additional responsibility and is passionate about productivity and process improvement
+
+	SQL and excel skills preferred - must be willing to learn SQL
+
+	Experience with data and statistical analysis a plus
+
+
+
+
+
+&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Are you a returning applicant?
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Applicants:
+
+
+Email:
+
+
+
+
+
+Password:
+
+
+
+
+
+If you do not remember your password click here.
+
+
+
+
+Back to Search Results
+
+
+New Search
+
+
+<!--
+
+
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        //jQuery Calendar
+
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchp.tbe.taleo.net/chp02/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+
+    
+
+
+
+ 
+
+
+
+  
+
+  	
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+  			
+
+Contact Us
+
+  
+
+<!-- Blog
+
+ -->
+
+  
+
+Careers
+
+ 
+
+
+
+  		
+
+  
+
+
+
+  
+
+   
+
+
+
+ 
+
+ 
+
+    			
+
+
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+  	 
+
+
+
+ 
+
+  	
+
+
+
+  
+
+
+
+ 
+
+
+
+ Opus
+
+  
+
+ 
+
+
+
+  
+
+ 
+
+Privacy Policy
+
+
+
+Sitemap
+
+
+
+
+
+
+
+  
+
+ © 2017 Opus Global. All Rights Reserved.
+
+ 
+
+
+
+
+
+  
+
+
+
+  
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

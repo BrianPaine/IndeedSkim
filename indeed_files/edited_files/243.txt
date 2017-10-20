@@ -1,0 +1,598 @@
+
+
+
+
+   .pagination-disabled {opacity:0.4;}
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	 
+
+	
+
+	var _gas = _gas || [];
+
+	_gas.push(['_setAccount', 'UA-23381988-1']); // All ACG
+
+	_gas.push(['_trackPageview']);
+
+	_gas.push(['_gasTrackOutboundLinks']);
+
+	_gas.push(['_gasTrackMailto']);
+
+	_gas.push(['_gasTrackDownloads', {
+
+	category: 'Download',
+
+	extensions: ['']
+
+	}]);
+
+	(function () {
+
+	var ga = document.createElement('script');
+
+	ga.type = 'text/javascript';
+
+	ga.async = true;
+
+	ga.src = '//cdnjs.cloudflare.com/ajax/libs/gas/1.11.0/gas.min.js';
+
+	var s = document.getElementsByTagName('script')[0];
+
+	s.parentNode.insertBefore(ga, s);
+
+	})();
+
+	
+
+            
+
+Employment Opportunities : Human Resources : Arlington Virginia
+
+      
+
+
+
+   
+
+	
+
+	body {
+
+		font-family:Verdana,Arial,Helvetica,sans-serif;
+
+		font-size:12px;
+
+	}
+
+	#contentWrapper {
+
+		left:0;
+
+		margin:0 5px 30px;
+
+		position: relative;
+
+		top:45px;
+
+		width:100%;
+
+	}
+
+	#headinglb {
+
+		background-color:#FFFFFF;
+
+		background-image:url(//d1rn8z435cu2eh.cloudfront.net/rx/headingGradient.jpg);
+
+		background-repeat:repeat-y;
+
+		border-bottom:1px solid #E5E5E3;
+
+		border-right:1px solid #E5E5E3;
+
+		border-top:1px solid #E5E5E3;
+
+		color:#0A58A5
+
+	}
+
+	#headinglb h2 {
+
+		margin:0;
+
+		padding:0 0 0 20px;
+
+	}
+
+	h2 {
+
+		color:#003399;
+
+	}
+
+	h2 {
+
+		font-size:1.2em;
+
+	}
+
+	h2, h3, h4, h5, h6 {
+
+		font-family:Verdana,Arial,Helvetica,sans-serif;
+
+		font-weight:bold;
+
+		padding:10px 0 0;
+
+		text-align:left;
+
+	}
+
+	
+
+    
+
+    
+
+	   function myFocus(element) {
+
+         if (element.value == element.defaultValue) {
+
+           element.value = '';
+
+           element.style.color = "#000";
+
+           element.style.fontWeight = "normal";
+
+         }
+
+       }
+
+       function myBlur(element) {
+
+         if (element.value == '') {
+
+           element.value = element.defaultValue;
+
+           element.style = element.defaultStyle;
+
+         }
+
+       }
+
+        
+
+
+
+
+
+      
+
+      
+
+   
+
+   Skip to Main Content
+
+
+
+
+
+		
+
+	    
+
+	        
+
+	    		
+
+	    
+
+	        
+
+	            
+
+	                
+
+	            
+
+	            
+
+	            
+
+	            
+
+	            
+
+	            
+
+	            
+
+	        
+
+	    
+
+	    
+
+	        
+
+	            &nbsp;County Homepage
+
+	        
+
+	    
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+	Employment Opportunities
+
+
+
+
+
+	Back to a list of current Arlington Job Openings &nbsp; &nbsp; 
+
+
+
+
+
+
+
+	
+	
+
+
+	
+
+		
+
+			
+
+				
+
+			
+
+		
+
+	
+
+
+
+	
+
+	
+
+	
+
+			
+
+				Job Title:
+
+				
+
+					DATABASE ANALYST
+
+				
+
+			
+
+
+
+			
+
+			
+
+				Closing Date/Time:
+
+				
+
+					Thu. 10/12/17 11:59 PM Eastern Time 
+
+				
+
+			
+
+			
+
+			
+
+				Salary:
+
+				
+
+
+
+						$70,844.80 - $108,284.80 Annually 
+
+							
+
+					
+
+				
+
+			
+
+			
+
+				
+
+					Job Type:
+
+					Full-Time
+
+				
+
+			
+
+			
+
+				Location:
+
+				
+
+					2100 Washington Blvd., Arlington, Virginia
+
+				
+
+			
+
+
+
+			
+
+			
+
+			
+
+
+
+
+
+
+
+		
+
+			&nbsp;
+
+		
+
+	
+
+
+
+	
+
+	
+
+		
+
+			
+
+					Print Job Information |
+
+				
+
+					Apply
+
+				
+
+			&nbsp;
+
+		
+
+		
+
+
+
+		
+
+
+
+		
+
+			
+
+				&nbsp;
+
+			
+
+			
+
+				
+
+					
+
+					
+
+						Position Information&nbsp;
+
+						
+
+						
+
+							Benefits&nbsp;
+
+						
+
+							Supplemental Questions
+
+						
+
+					
+
+					&nbsp;
+
+				
+
+			
+
+			
+
+				
+
+					The&nbsp;Department of Human Services (DHS)&nbsp; is seeking a Database Analyst with strong analytical and technical skills, with experience designing, developing, and implementing data warehouse/data marts to support ongoing data analysis, business intelligence functions, and technical solutions around enterprise data; as well as to lead and implement technology projects, especially in SQL server, in support of data migration, data conversion, data interfaces and cross systems integration.The mission of DHS is to strengthen, protect and empower the citizens of Arlington County by providing various services to the community in programs for aging and disability, children and families, housing, public health, mental health, and substance abuse. The Information Systems Bureau (ISB) has seventeen staff managing many applications to support these programs.This employee will support DHS integration efforts by actively participating in the analysis of business information needs, learn business rules, business processes, data collection, and reporting requirements from multiple DHS programs, and develop and implement an informational model that optimizes information sharing across programs and that facilitates coordination of service delivery in the department.Initial challenges for this Database Analyst will include:	Designing, developing and implementing a new DHS data warehouse framework that collects, transforms and loads data from multiple source systems used in the department, optimizes ETL data warehouse processes, and provides and supports data mining and enterprise wide reporting capabilities	Designing, developing, and providing ongoing support for relational, multidimensional, data marts and dashboards based on business functions and specific business requirements to support further analysis, reporting, and visualization by business owners	Researching, implementing and supporting new data analysis and reporting toolsAdditional responsibilities include:	Developing data interfaces and integration modules across multiple systems to meet data needs and to support business processes for an integrated services department	Leading data conversion and system migration efforts to ensure data accurately migrates from source to target systems and meets quality and usability standards	Developing quality control procedures to verify accuracy and timely processing of all expected data, and implementing corrective action plans to ensure data meets user and technical requirements	Participating as an active team member, or as a sole contributor, in technology implementation projects demonstrating strong communication skills; actively contributing to the analysis rather than simply encoding requirements in SQL ServerThe successful candidate will have experience developing SQL stored procedures, SSIS Integration packages, TSQL code, and reports using SQL features, SQL Server Management Services (SSMS), SQL Server Reporting Services (SSRS), SQL Server or Analysis Services (SSAS), and managing data mining processes.&nbsp;
+
+				
+
+				
+
+					
+
+						
+
+							&nbsp;Selection Criteria:
+
+						
+
+					
+
+					
+
+					
+
+						MINIMUM:&nbsp; A combination of education and experience that demonstrates knowledge of databases including developing SQL stored procedures, SSIS Integration Packages, SSRS reports, and SSAS scripts, with considerable experience designing and implementing data warehouse architecture.Typically, this type of knowledge and experience is obtained through graduation from college with a Bachelor's degree in Computer Science, Information Systems Management, Software Engineering, or a related field, as well as considerable directly related experience.DESIRABLE: Experience in developing and implementing interfaces and integration applications across large and disparate systems and working with government agencies or nonprofit organizations to support a variety of business intelligence functions.&nbsp;
+
+					
+
+				
+
+					
+
+						
+
+							&nbsp;Special Requirements:
+
+						
+
+					
+
+					
+
+						The applicant must possess, or obtain by the time of appointment, a valid motor vehicle operator's license from the applicant's place of residence or the applicant must have the ability or willingness to use alternative methods of transportation to perform assigned duties and responsibilities at locations other than the primary worksite. If the applicant possesses or acquires a license, the applicant must authorize Arlington County to obtain, or the applicant must provide, copy of the applicant's official state/district driving record. Any offer of employment may be contingent upon a favorable review of the applicant's driving record.A pre-hire background check will be made on candidates selected for employment. It may include checks of the following: criminal record, driving record, education, professional licensure, and credit history. You may be required to sign a release authorizing the County to obtain your background information.&nbsp;
+
+					
+
+				
+
+					
+
+						
+
+							&nbsp;Additional Information:
+
+						
+
+					
+
+					
+
+						
+
+						Work Hours: Monday through Friday, 8:00 am to 5:00 pm.Your responses to the supplemental questionnaire are considered part of the selection process and are required for this position. Please do not give "see resume" as a response to the questions. Incomplete applications will not be considered. In order to receive full credit for your experience, please ensure that you have included details of all relevant work experience on your application and have completed the Supplemental Questionnaire in its entirety.
+
+					
+
+				
+
+			
+
+			  	&nbsp;
+
+			
+
+		
+
+	
+window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"89019a8e50","agent":"","beacon":"bam.nr-data.net","applicationTime":28,"applicationID":"4449204","transactionName":"NlAGYxEFC0RWBhUIDQ8aN1IREglSQ0oiBw8yUBZBDwER","queueTime":0} 
+
+ 
+
+    
+
+        Contact Us
+
+        &#8226;
+
+        Frequently Asked Questions
+
+        &#8226;
+
+        Terms and Conditions
+
+        &#8226;
+
+        Accessibility
+
+    
+
+    
+
+        2100 Clarendon Blvd.
+
+        Arlington, VA 22201
+
+        Tel: 703-228-3000
+
+        TTY: 703-228-4611
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+

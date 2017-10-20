@@ -1,0 +1,416 @@
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+    Business Intelligence Reporting Analyst
+
+    
+
+    
+
+        var PORTAL_BASE_PATH = '/v4/ats';
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+            
+
+            
+
+            var _paq = _paq || [];
+
+            (function(){
+
+                
+
+                
+
+            _paq.push([
+
+                'setCustomVariable',
+
+                1,
+
+                'processingCenterId',
+
+                '000',
+
+                'visit'
+
+            ]);
+
+        
+
+                _paq.push(['setCustomVariable', 2, 'ClientCode', '0V335', 'visit']);
+
+                
+
+            _paq.push([
+
+                'setCustomVariable',
+
+                3,
+
+                'script',
+
+                '/v4/ats/web.php',
+
+                'page'
+
+            ]);
+
+        
+
+                
+
+                _paq.push(['disableCookies']);
+
+                _paq.push(['trackPageView']);
+
+                _paq.push(['enableLinkTracking']);
+
+                (function() {
+
+                    var trackerUrl = '/v4/ats/piwik/piwik.php';
+
+                    _paq.push(['setTrackerUrl', trackerUrl ]);
+
+                    _paq.push(['setSiteId', 17 ]);
+
+                    var s = document.getElementsByTagName('script')[0],
+
+                        g = document.createElement('script');
+
+                    g.type  = 'text/javascript';
+
+                    g.async = true;
+
+                    g.defer = true;
+
+                    g.src   = trackerUrl;
+
+                    s.parentNode.insertBefore(g,s);
+
+                })();
+
+
+
+                
+
+            document.addEventListener('click', function(clickEvent) {
+
+                try {
+
+                    var get = function(key) {
+
+                        try {
+
+                            return (
+
+                                clickEvent
+
+                                    .target
+
+                                    .attributes
+
+                                    .getNamedItem('data-analytics-'+key)
+
+                                    .value || undefined
+
+                            );
+
+                        } catch (_) { return undefined; }
+
+                    }
+
+
+
+                    if (!get('category') ) return;
+
+                    if (!get('action') ) return;
+
+
+
+                    _paq.push(['trackEvent'].concat(
+
+                        ['category', 'action', 'name', 'value'].map(get)
+
+                    ));
+
+
+
+                } catch (error) {
+
+                    console.error('Could not track click event due to the following error: ', error);
+
+                }
+
+            });
+
+        
+
+                
+
+            })();
+
+            
+
+            
+
+            
+
+    
+
+    
+
+    
+
+    
+
+        html, body {
+
+            font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+        }
+
+    
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+            
+
+            
+
+                    
+
+    
+
+    
+
+        
+
+            Business Intelligence Reporting Analyst        
+
+    
+
+
+
+
+
+    
+
+        
+
+    
+
+
+
+    
+
+        
+
+             Return to Job OpportunitiesJob DetailsLevel ExperiencedJob Location Philadelphia - Philadelphia, PAPosition Type Full TimeEducation Level 4 Year DegreeSalary Range UndisclosedTravel Percentage UndisclosedJob Shift DayJob Category Information TechnologyDescription This position will work to develop and provide new business intelligence solutions to the organization by developing SSRS reports using SQL code.
+
+
+
+This positions primary responsibilities include:
+
+
+
+Creating distributable SSRS reporting, ad-hoc queries, and data extractions to help support overall management, planning and vendor data requirements.
+
+
+
+Experience with relational databases, data extraction, query writing, SQL logic, stored procedures, SSRS report development and Microsoft Word and Excel skills are required. Knowledge and/or understanding of hosted environments like Amazon Web Services a plus.
+
+
+
+Excellent organizational and administrative skills are required. Must be able to communicate effectively in order to train and cross-train staff. Must have the ability to monitor TA performance and error reports. Must be able to work well with others, outside of own department, in order to achieve a common goal. Must be able to initiate and lead stakeholder meetings to gather requirements and schedules for deliverables.Qualifications The ideal candidate will possess:
+
+
+
+Bachelor's degree in computer science or equivalent knowledge
+
+	3-4 years' experience with database management, creating queries and analyzing results
+
+	Knowledge of non-profit fundraising operations a plus
+
+	Responsible for the administration, configuration, development, and ongoing support of reporting and analytical solutions.
+
+	Intermediate working knowledge of SQL and a solid history of project management.
+
+	The desire to be a self-starter by taking the initiative to get stuff done.
+
+	Strong analytical and quantitative skills.
+
+	Experienced with Microsoft Excel and a deep understanding of database design.
+
+	Data Warehouse, business intelligence experience
+
+	Experience designing dashboards with reporting tools such as Power BI, SSRS
+
+	Working experience troubleshooting and writing complex SQL queries and stored procedures
+
+Interested applicants should submit a resume and a cover letter when applying for this position. Return to Job Opportunities        
+
+        
+
+            
+
+                
+
+                    
+
+    First Time User?
+
+    Create Account
+
+    
+
+
+
+
+
+    Returning user? Please sign in!
+
+    
+
+    
+
+    Sign In
+
+     
+
+        Forgot password?
+
+    
+
+                
+
+            
+
+                    
+
+    
+
+
+
+
+
+    
+
+            
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    var PAYCOM_BASE_PATH = '/v4/ats';
+
+
+
+
+
+
+
+
+
+
+
+    $(document).on('ajaxSend', function (event, request, settings) {
+
+        if (!/^https?:\/\//i.test(settings.url)) {
+
+            if (settings.url.indexOf(PORTAL_BASE_PATH) === -1) {
+
+                settings.url = PORTAL_BASE_PATH + '/' + settings.url;
+
+            }
+
+        }
+
+    });
+
+
+
+
+
+
+

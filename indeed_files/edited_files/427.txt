@@ -1,0 +1,1400 @@
+
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    Data Analytics Intern - Consumer Bank Marketing  in  Columbus, OH | JPMorgan Chase &amp; Co.
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    var domain = "https://jpmc-sso.smashfly.com";
+
+    var isResponsive = false;
+
+
+
+
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+    
+
+
+
+
+
+	
+
+
+
+	
+
+		
+
+	    
+
+		    
+
+		    	
+
+
+
+
+
+
+
+        
+
+            
+
+            Referral Sponsor Portal
+
+            Sign Up Now!
+
+            Login 
+
+        
+
+ 
+
+        		
+
+			    
+
+					
+
+				 
+
+				
+
+		        
+
+		            Divisions
+
+		            Locations
+
+		            Programs
+
+		            Why Us
+
+		            
+
+		            	Apply
+
+						
+
+							Student Programs
+
+							Student Events
+
+							Experienced Roles
+
+							Need Advice?
+
+						
+
+		            
+
+		        
+
+		        
+
+		           	Divisions
+
+		            Locations
+
+		            Programs
+
+		            Why Us
+
+		            Apply
+
+						
+
+							Student Programs
+
+							Student Events
+
+							Experienced Roles
+
+							Need Advice?
+
+						
+
+		            
+
+		        
+
+		        
+
+		        	Menu
+
+		        
+
+		    
+
+		    	
+
+	       			Referral Portal
+
+	       		   
+
+	       
+
+		
+
+	    
+
+		
+
+			function sticky_relocate() {
+
+			    var window_top = $(window).scrollTop();
+
+			    var div_top = $('#sticky-anchor').offset().top;
+
+			    if (window_top > div_top) {
+
+			        $('#sticky').addClass('stick');
+
+			    } else {
+
+			        $('#sticky').removeClass('stick');
+
+			    }
+
+			}
+
+
+
+			$(function () {
+
+			    $(window).scroll(sticky_relocate);
+
+			    sticky_relocate();
+
+			})
+
+			$('.hamburger').click(function() {
+
+    			$('#nav-toggle').toggle(true);
+
+    			$("#nav-toggle").toggleClass("menu-toggle");
+
+			});
+
+
+
+            jQuery(document).ready(function() {
+
+                 if ($('.loggedin')[0]) {
+
+                 	$(".refer-link").css('display', 'block');
+
+                 	$('.desktop-nav').css('display','none');
+
+                 	$('.hamburger').css('display','none');
+
+			    	$('#mob-nav').css('display', 'none');
+
+                 }
+
+            });
+
+		
+
+	
+
+			
+
+				
+
+	                
+
+					    
+
+          					Careers / Job Search / Job Details
+
+        				
+
+					    
+
+					        
+
+					    
+
+					    
+
+
+
+
+
+
+
+	
+
+		
+
+		
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+		
+
+		    var addthis_config = { "data_track_clickback": true };
+
+		
+
+		
+
+	
+
+
+
+ 	jQuery(document).ready(function() {
+
+    	$('.addthis_button_expanded').each(function() {
+
+    		$(this).attr('tabindex', '-1');
+
+    	})
+
+	});
+
+
+
+	                    
+
+						
+
+
+
+
+
+        Apply Now
+
+    &nbsp;&nbsp;&nbsp;        
+
+            
+
+                Refer a Friend
+
+            
+
+        
+
+
+
+
+
+
+
+
+
+
+	
+		Data Analytics Intern - Consumer Bank Marketing
+		
+Req #: 170095302
+		Location: 
+		
+		
+		Columbus, 
+		OH,
+                US
+
+		Job Category:  Marketing/Communications
+Potential Referral Amount: 0 US Dollar (USD)
+
+		Big Data.&nbsp; &nbsp;&nbsp;Predictive Analytics. &nbsp;&nbsp;Test and Learn.
+Fact-based Decision Making.&nbsp; &nbsp;&nbsp;Customer Intelligence.
+&nbsp;
+To us, these are more than just the hottest trends shaping business strategy and operations today. &nbsp;They are what we do, day in and day out, and have been doing for more than a decade.&nbsp; If you are looking to begin or accelerate your career in the dynamic field of quantitative data analytics, and if you believe you have the potential to be among the leading practitioners and thinkers in the field, read on to see how an internship at Chase might be the perfect fit for you.
+&nbsp;
+Who We Are
+We are Chase’s Retail Marketing Analytics Center of Excellence, a 90-person team of talented and high-achieving analytics professionals.&nbsp; While we come from a variety of personal, academic, and professional backgrounds, we are united by our passion for using quantitative data analytics and decision sciences to help make Chase the leading provider of retail banking services in the nation.
+(Chase, the retail banking arm of JP Morgan Chase Bank, is a prominent leader in the financial services industry, providing deposit, investment, payment, and lending services to over 50 million residential and small business households.&nbsp; Chase operates an expansive and growing distribution network of over 5500 branches and 18,000 ATMs throughout the United States.)
+&nbsp;
+What We Do
+We solve complex business problems, both structured and unstructured, using advanced analytical methods and leveraging one of the world’s largest data warehouse implementations.&nbsp; We do this in close tandem with our marketing, strategy, and operations business partners, to help them make, execute, and assess critical business decisions.
+&nbsp;
+Our team comprises a number of highly collaborative sub-functions.&nbsp; They are:
+&nbsp;
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Marketing Campaign Lifecycle
+Chase is an industry leader in direct marketing for the purposes of customer acquisition, cross-sell, and retention.&nbsp; Our team is involved in all stages of campaign ideation, design, execution, and analysis, employing best practices in the areas of customer propensity modeling, experimental design, customer lifecycle value determination, and marketing execution.
+&nbsp;
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Media Analytics
+Chase actively engages in advertising and other promotional activity across a number of media channels, including TV, radio, print, and the internet.&nbsp; Our media analytics team uses sophisticated modeling and test design to determine the impact of these engagement activities and to help optimize marketing spend.
+&nbsp;&nbsp;
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Site Analytics
+Chase has one of the nation’s most extensive and fastest-growing financial service distribution networks.&nbsp; Our site analytics team uses sophisticated GIS tools and spatial modeling capabilities to optimize expansion, contraction, and redistribution decisions.
+&nbsp;
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data Mining
+Embedded in our vast quantity of data are numerous insights reflecting our business operations, our products, and the behavior of our customers.&nbsp; Our data mining teams use a variety of data exploration, visualization, and modeling tools and methods to uncover these insights and present them to our business partners to make timely, fact-based decisions.
+&nbsp;
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data Management
+Data is at the heart of everything we do, and Chase captures an extraordinary amount of it.&nbsp; Our team of data experts transforms much of the enterprise’s customer &amp; prospect data into a form readily consumable for rapid modeling and analysis.
+&nbsp;
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Metrics and Reporting
+A business that is not adequately measured and monitored cannot be constructively managed.&nbsp; Our metrics and reporting team defines key business metrics, and manages a suite of reports that contextualize these metrics and highlight important trends and exploitable insights.
+&nbsp;
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Marketing Research:
+While we can learn a lot from studying our data, we often need to engage our customers, prospects, and employees directly to gain insight into their attitudes, beliefs, and behaviors.&nbsp; Our marketing research team gathers this information through primary and secondary methods, including focus groups, surveys, conjoint studies, and one-on-one interviews.
+&nbsp;
+Where We Are
+We are based in Columbus, OH, a strategic location for JPMC’s corporate growth strategy.&nbsp; Capital of Ohio and home to The Ohio State University (currently the largest research university in North America), Columbus is known for its economic diversity and stability, highly educated population, and low cost of living.&nbsp; Columbus is centrally located, within a three-hour drive from five major metropolitan areas and a one-hour flight from many others, including New York, Washington, and Chicago. 
+&nbsp;
+Why You Should Join Us
+We provide an opportunity to be exposed to advanced analytics in a fast-paced, creative, and collegial environment, working with a cadre of talented and dynamic professionals, and supporting a highly engaged and analytically sophisticated audience of business partners.&nbsp; Some additional drivers of career satisfaction often cited by our team members include:
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Being a part of a fact-based decision-making culture, in which the contributions of the &nbsp;team are actively sought in day-to-day business operations as well as in long-term strategic planning
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Access to industry-leading data management, visualization, and analysis tools, including SAS, &nbsp;Enterprise Miner, ArcGIS, Teradata, Tableau, and Cognos
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Substantial opportunity for career growth and mobility, both within the team and within the larger JPMC organization
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An entrepreneurial, innovation-centered culture in which everyone is given the opportunity and encouragement to propose, develop, and/or implement analytical methodologies .
+&nbsp;
+Finally, our highly competitive compensation policy is aligned with our desire to attract the brightest, most ambitious, and most well-rounded individuals.&nbsp; 
+We are looking for that rare breed of analyst who possesses:
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Exceptional unstructured problem solving skills
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Outstanding communications skills
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Professional maturity and demonstrated leadership ability
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; An outgoing, dynamic personality
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Technical proficiency 
+&nbsp;
+You should be very comfortable handling highly unstructured business problems and engaging in all phases of analytical engagement, from clarifying the problem, to helping conduct the analysis, to presenting findings and recommendations to management. &nbsp;
+&nbsp;
+In terms of specific background, you should be in an undergraduate or graduate degree program in a quantitative field of study, with a foundation in one or more of the following analytical disciplines:
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data manipulation and management
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Data visualization
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Linear and non-linear statistical modeling
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Time series and forecasting
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Optimization
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Experimental design
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Campaign analysis
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Marketing research
+·&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Geographic information systems
+&nbsp;
+We are interested in both candidates with professional experience and those coming from top-flight academic programs seeking their first career opportunity.
+	
+
+
+
+        Apply Now
+
+    &nbsp;&nbsp;&nbsp;        
+
+            
+
+                Refer a Friend
+
+            
+
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    $(document).ready(function () {
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+	                
+
+                
+
+			
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                Join our Talent Community
+
+                Not ready to apply? Leave your information with us and we will keep you up to date with new career opportunities.
+
+                Join Now
+
+            
+
+        
+
+        
+
+            Things to note
+
+            Sign in to our application system to continue your job search or update your profile.
+
+            Current employees sign in here.  Contractors sign in here.
+
+            Any information you provide is confidential and will only be viewed by our recruiters in an effort to fill open positions. In addition, the information you provide is subject to our privacy policy practices.
+
+            Please note that J.P. Morgan will not accept unsolicited approaches or speculative CVs, nor will J.P. Morgan be responsible for any related fees, from Third Party Firms who are not preferred suppliers.
+
+            The firm invites all interested and qualified candidates to apply for employment opportunities.
+
+            Need disability related assistance?
+
+            If you are a US or Canadian applicant with a disability who is unable to use our online tools to search and apply for jobs, please click here.
+
+            Important links
+
+            Click here to view the "EEO is the Law" poster.
+
+            Click here to view the "EEO is the Law" supplemental poster.
+
+            Click here to view our U.S. Pay Transparency Policy.
+
+            JPMorgan Chase is an equal opportunity and affirmative action employer Disability/Veteran.
+
+            
+
+    
+
+
+
+
+
+    
+
+        
+
+            
+
+                Your career. Your way.
+
+                
+
+                    Privacy &amp; Security
+
+                    Terms of Use
+
+                    Cookies Policy
+
+                
+
+                
+
+                    Equal Opportunities
+
+                    Site Map
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+
+
+                                
+
+                                  Corporate Twitter Links
+
+                                  
+
+                                
+
+                                
+
+                                    
+
+                                        JPMorgan
+
+                                        
+
+                                    
+
+                                    
+
+                                        Chase
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                       
+
+                            
+
+                                
+
+                                  Corporate Facebook Links
+
+                                  
+
+                                
+
+                                
+
+                                    
+
+                                        JPMorgan Chase
+
+                                        
+
+                                    
+
+                                    
+
+                                        Chase
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                          
+
+                          
+
+                          
+
+                          Corporate LinkedIn Links
+
+                          
+
+                          
+
+                              J.P. Morgan
+
+                                
+
+                              
+
+                              JPMorgan Chase
+
+                                
+
+                              
+
+                              Chase
+
+                            
+
+                          
+
+                        
+
+                        
+
+                          
+
+                          
+
+                          Corporate YouTube Links
+
+                          
+
+                          
+
+                              J.P. Morgan
+
+                                    
+
+                              
+
+                              Chase
+
+                            
+
+                          
+
+                        
+
+                        
+
+                          
+
+                          
+
+                          Corporate Instagram Links
+
+                          
+
+                          
+
+                              J.P. Morgan
+
+                                    
+
+                              
+
+                              Chase
+
+                            
+
+                          
+
+                         
+
+                    
+
+                    
+
+                        jpmorganchase.com
+
+                        jpmorgan.com
+
+                        chase.com
+
+                    
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                Corporate Twitter Links
+
+                                
+
+                                
+
+                                    
+
+                                        J.P. Morgan
+
+                                        
+
+                                    
+
+                                    
+
+                                        Chase
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                
+
+                                Corporate Facebook Links
+
+                                
+
+                                
+
+                                    
+
+                                        J.P. Morgan Chase
+
+                                        
+
+                                    
+
+                                    
+
+                                        Chase
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                          
+
+                          
+
+                          
+
+                          Corporate LinkedIn Links
+
+                          
+
+                          
+
+                              J.P. Morgan
+
+                                
+
+                              
+
+                              JPMorgan Chase
+
+                                
+
+                              
+
+                              Chase
+
+                            
+
+                          
+
+                        
+
+                        
+
+                          
+
+                          
+
+                          Corporate YouTube Links
+
+                          
+
+                          
+
+                              J.P. Morgan
+
+                                    
+
+                              
+
+                              Chase
+
+                            
+
+                          
+
+                        
+
+                        
+
+                          
+
+                              
+
+                              Corporate Instagram Links
+
+                              
+
+
+
+                              
+
+                                  J.P. Morgan
+
+                                        
+
+                                  
+
+                                  Chase
+
+                             
+
+                          
+
+                        
+
+                    
+
+                 
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+    	   &copy; 2017 JPMorgan Chase &amp; Co. All rights reserved. Powered by SmashFly
+
+    	
+
+    
+
+    
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-81855119-1', 'auto');
+
+    ga('send', 'pageview');
+
+
+
+
+
+$(document).ready(function() {
+
+  $('#social-mobile-menu li').click(function() {
+
+    $('.hideme').hide();
+
+    $(this).find('#mobile-drop').show();
+
+  })
+
+});
+
+$(document).on('touchstart', function(e){
+
+  var target = $(e.target);
+
+  if(target.is('.hideme a')) {
+
+    //Do Nothing
+
+  } else {
+
+    $('.hideme').hide();
+
+  }
+
+});
+
+jQuery(document).ready(function() {
+
+  if ($('.loggedin')[0]) {
+
+      $(".talent-community-home").css('display', 'none');
+
+      $(".things-to-note").css('display', 'none');
+
+  }
+
+});
+
+$( "#external-link__twitter" ).focus(function() {
+
+  $(".facebook-drop").removeClass('facebook-open');
+
+  $(".youtube-drop").removeClass('youtube-open');
+
+  $(".linkedin-drop").removeClass('linkedin-open');
+
+  $(".instagram-drop").removeClass('instagram-open');
+
+  $('.twitter-drop').toggleClass('twitter-open');
+
+});
+
+$( "#external-link__facebook" ).focus(function() {
+
+  $(".twitter-drop").removeClass('twitter-open');
+
+  $(".youtube-drop").removeClass('youtube-open');
+
+  $(".linkedin-drop").removeClass('linkedin-open');
+
+  $(".instagram-drop").removeClass('instagram-open');
+
+  $('.facebook-drop').toggleClass('facebook-open');
+
+});
+
+$( "#external-link__youtube" ).focus(function() {
+
+  $(".facebook-drop").removeClass('facebook-open');
+
+  $(".twitter-drop").removeClass('twitter-open');
+
+  $(".linkedin-drop").removeClass('linkedin-open');
+
+  $(".instagram-drop").removeClass('instagram-open');
+
+  $('.youtube-drop').toggleClass('youtube-open');
+
+});
+
+$( "#external-link__linkedin" ).focus(function() {
+
+  $(".facebook-drop").removeClass('facebook-open');
+
+  $(".youtube-drop").removeClass('youtube-open');
+
+  $(".twitter-drop").removeClass('twitter-open');
+
+  $(".instagram-drop").removeClass('instagram-open');
+
+  $('.linkedin-drop').toggleClass('linkedin-open');
+
+});
+
+$( "#external-link__instagram" ).focus(function() {
+
+  $(".facebook-drop").removeClass('facebook-open');
+
+  $(".youtube-drop").removeClass('youtube-open');
+
+  $(".linkedin-drop").removeClass('linkedin-open');
+
+  $(".twitter-drop").removeClass('twitter-open');
+
+  $('.instagram-drop').toggleClass('instagram-open');
+
+});
+
+$( ".brand-links a:first-of-type" ).focus(function() {
+
+  $('.instagram-drop').removeClass('instagram-open');
+
+});
+
+$( ".sitemap" ).focus(function() {
+
+  $('.twitter-drop').removeClass('twitter-open');
+
+});
+
+
+
+
+
+function portal(){
+
+$('button.referrAfriendButton ').click(function(){
+
+var maxTime = 2000; // 2 seconds
+
+var time = 0;
+
+var interval = setInterval(function () {
+
+  if($('#wnd_wnd_title').is(':visible')) {
+
+    // visible, do something
+
+    clearInterval(interval);
+
+    $('#wnd_wnd_title').text("Register for our Referral Network");
+
+  } else {
+
+    if (time > maxTime) {
+
+      // still hidden, after 2 seconds, stop checking
+
+      clearInterval(interval);
+
+      return;
+
+    }
+
+    // not visible yet, do something
+
+    time += 100;
+
+  }
+
+}, 200);  
+
+})
+
+
+
+}
+
+
+
+
+
+ 
+
+
+
+		
+
+			$('.social-share').insertBefore('.applyBtnTopDiv');
+
+            $('.applyBtnTopDiv .sf_applybtn').attr('aria-hidden', 'true');
+
+            $('.applyBtnTopDiv .sf_applybtn').attr('tabindex', '-1');
+
+            $(".sf_referbtn").text("Refer a Candidate");
+
+            
+
+            var divs = document.querySelectorAll(".referrAfriendButton span");
+
+
+
+                [].forEach.call(divs, function(div) {
+
+                  // do whatever
+
+                  div.innerText = "Refer a Candidate";
+
+                });
+
+
+
+            jQuery(document).ready(function() {
+
+                if ($('.loggedout')[0]) {
+
+                    $('.referral-info').css('display', 'none');
+
+                    $('.referrAfriendButton').css('display', 'none');
+
+                    $(".referrAfriend").css('display', 'none');
+
+                } 
+
+                if ($('.loggedin')[0]) {
+
+                    $('a.sf_applybtn').css('display', 'none');
+
+                    $(".referrAfriend").css('display', 'inline-block');
+
+                } 
+
+            });
+
+
+
+        
+
+    
+
+    jQuery(document).ready(function() {
+
+        $(".referrAfriendButton span").text("Refer a Candidate");
+
+    });
+
+    
+
+          
+
+
+
+jQuery(document).ready(function() {
+
+    $('.referrAfriendButton').click(function(){
+
+            setTimeout(function() {
+
+             if ($('.k-window-title').is(':visible')) {
+
+                $('.k-widget.k-window').attr('tabindex', '0');
+
+                $('.k-widget.k-window').css('z-index', '99999999');
+
+                $('.k-widget.k-window').attr('aria-label', 'draggable window');
+
+                $('iframe.k-content-frame').attr('title', 'Refer a Candidate');
+
+                $('.k-window-actions a').attr('aria-label', 'close modal window');
+
+                $('.k-window-actions a').attr('id', 'closeButton');
+
+                $('.k-window-actions a').attr('tabindex', '0');
+
+                $('.k-window-actions a span').attr('aria-hidden', 'true');
+
+
+
+                 window.addEventListener('message', function(e) {
+
+                    var iframe = $("iframe.k-content-frame"); //even better if you add an ID to the iframe
+
+                    var eventName = e.data[0];
+
+                    var data = e.data[1]; // Just if you want validate the action value
+
+                    switch(eventName) { // Just in case that you will need add another action to listening
+
+                        case 'tabAction':
+
+                            setTimeout(function() {
+
+                                window.parent.document.getElementById("closeButton").focus();
+
+                            }, 0);
+
+                        break;
+
+                    }
+
+                }, false);
+
+
+
+
+
+            }
+
+        }, 2250);  
+
+    })
+
+})
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+  if (($(window).width() Refer A Candidate');
+
+    }
+
+    else {
+
+       // Do Nothing
+
+    }
+
+
+
+    $('.referrAfriendButton').on('click',function(e){
+
+        if( $(this).hasClass('disabled') ){
+
+            alert('This page is currently unavailable from a mobile device.  Please use a desktop to refer your candidate. ');
+
+        }
+
+        else{
+
+        // Do nothing  
+
+        };
+
+    });
+
+
+
+
+
+
+
+  if ($('.sf_referbtn')[0]) {
+
+     $('.sf_referbtn').attr({
+
+         href: '#',
+
+         disabled: 'disabled'
+
+     });
+
+     $('.sf_referbtn').addClass('disabled');
+
+    }
+
+    else {
+
+       // Do Nothing
+
+    }
+
+
+
+    $('.sf_referbtn').on('click',function(e){
+
+        if( $(this).hasClass('disabled') ){
+
+            alert('This page is currently unavailable from a mobile device.  Please use a desktop to refer your candidate. ');
+
+        }
+
+        else{
+
+        // Do nothing  
+
+        };
+
+    });
+
+
+
+-->
+
+
+

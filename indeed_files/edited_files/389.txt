@@ -1,0 +1,854 @@
+
+
+
+    
+         - Research Analyst (Data) - Cambridge MA 02139
+        
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                    try {
+                        var _gaq = _gaq || [];
+                            _gaq.push(
+                                ['sys._setAccount', 'UA-17542013-1'],
+                                ['sys._setCustomVar', 1, 'Client', 'mit', 3],
+                                ['sys._setCustomVar', 2, 'Site', 'external', 3],
+                                ['sys._setCustomVar', 3, 'Req', '15246-Research_Analyst_(Data)', 3],
+                                ['sys._setCustomVar', 4, 'ReqLocation', 'Cambridge__MA', 3],
+                                ['sys._setSessionCookieTimeout', 2700000],
+                                ['sys._trackPageview', 'jobDetails']
+                            );
+                            _gaq.push(
+                                ['site._setAccount', 'ga(\'create\', \'UA-17542013-1\', \'auto\');ga(\'create\', \'UA-59827733-1\',{\'name\':\'careers\'});ga(\'create\', \'UA-1592615-30\',{\'name\':\'mitsitewide\'});ga(\'send\', \'pageview\');ga(\'careers.send\',\'pageview\');ga(\'mitsitewide.send\',\'pageview\');'],
+                                ['site._setCustomVar', 2, 'Site', 'external', 3],
+                                ['site._setCustomVar', 3, 'Req', '15246-Research_Analyst_(Data)', 3],
+                                ['site._setCustomVar', 4, 'ReqLocation', 'Cambridge__MA', 3],
+                                ['site._setSessionCookieTimeout', 2700000],
+                                ['site._trackPageview', 'jobDetails']
+                            );
+                        (function() {
+                            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                        })();
+
+                        function trackEvent(category, action, opt_label, opt_value) {
+                            _gaq.push(['sys._trackEvent', category, action, opt_label, opt_value]);
+                            _gaq.push(['site._trackEvent', category, action, opt_label, opt_value]);
+                        }
+                    } catch(err) {}
+                
+
+
+
+
+
+
+
+
+    
+    
+    Skip Navigation
+    
+        
+            
+                
+
+
+    
+
+    
+
+        
+
+    
+
+  
+
+                
+
+      Massachusetts Institute of Technology
+
+    
+
+  
+
+
+
+
+
+  
+
+                
+
+      
+
+
+
+
+
+
+
+      
+
+        
+
+
+
+              
+
+    
+
+
+
+
+
+
+
+
+
+      
+
+      
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+  
+
+
+
+
+
+  
+
+                
+
+      External Candidates
+
+Internal Candidates
+SearchResources
+
+
+
+
+FAQ
+
+Search for Openings at MIT
+
+    
+
+  
+
+
+
+  
+
+
+
+    
+
+  
+
+
+
+
+
+  
+
+
+
+                  
+
+                  
+
+            External Candidates          
+
+
+
+              
+
+
+
+    
+
+        
+
+    
+
+
+
+  
+
+
+    
+
+
+
+
+
+
+ 
+
+
+
+            
+
+                
+            
+            
+                
+                
+            
+            
+                
+                
+            
+            
+                
+                    
+                        
+                            
+                                
+                                    
+                                        
+&nbsp;
+
+                                        
+                                    
+                                
+                            
+                            
+                                
+                                    
+                                        
+                                        
+                                    
+
+
+                                        
+                                            
+
+
+
+
+
+
+
+
+        Sign In to access application status, saved documents and Job Search Agents
+
+                                            
+                                        
+
+
+                                    
+                                        
+
+    
+        
+            
+Job Details            
+    
+
+
+        
+            
+                View Job Cart&nbsp;(0)
+            
+        
+            
+                    
+Send This Job to a Friend                
+            
+    
+        
+View My Account        
+    
+    
+    
+    
+
+            
+                
+                    
+            
+            
+
+                    
+                        Research Analyst (Data)
+                    
+                    
+                        
+                            
+
+
+
+
+
+
+	
+
+		
+
+Job Number:			15246
+
+		
+
+	
+
+	
+
+		
+
+Functional Area:			
+
+			
+
+				Research - Other
+
+			
+
+			
+
+		
+
+	
+
+	
+
+		
+
+Department:			
+
+			
+
+				Abdul Latif Jameel Poverty Action Lab
+
+			
+
+			
+
+		
+
+	
+
+	    
+
+		
+
+School Area:			
+
+			
+
+				Humanities, Arts, & Social Sciences
+
+			
+
+			
+
+		
+
+	
+
+	
+
+		
+
+Employment Type:			
+
+			
+
+				Full-Time
+
+			
+
+			
+
+		
+
+	
+
+	
+
+		
+
+Employment Category:			
+
+			
+
+				Exempt
+
+			
+
+			
+
+		
+
+	
+
+	
+
+		
+
+Visa Sponsorship Available:			
+
+			
+
+				No
+
+			
+
+			
+
+		
+
+	
+
+	
+
+		
+
+Schedule:			
+
+		
+
+	 
+
+                            
+                            
+                        
+                    
+                    
+
+
+
+
+
+
+		
+
+		
+
+		
+
+
+
+
+
+
+
+.sn_table td
+
+{
+
+	padding: 4px 25px;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+	Share:
+
+	
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+        
+			Facebook
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		 
+
+
+
+
+
+
+
+
+
+	
+
+
+
+        
+			LinkedIn
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+
+
+	
+
+		 
+
+	
+
+
+
+
+
+	
+
+
+
+        
+			Twitter
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+    var form = document.jobDetails
+
+
+
+    function availableLocalesChanged() {
+
+        form.functionName.value = 'renderWithNewLocale'
+
+        //alert(form.action + " " + form.functionName.value)
+
+        form.submit()
+
+    }
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+        
+        
+
+        
+
+		
+		
+			 Apply with LinkedIn
+		
+					
+		 			  
+	        	$("#btn-applywLI").attr("type", "button");
+	        	
+	        	$("#btn-applywLI").click(function(){
+	        		top.location.href = "https://www.linkedin.com/uas/oauth2/authorization?response_type=code&client_id=7510wnzmhzsql7&state=15f024e48ae623e6f%7CEXTERNAL%7CCLIENT_MIT%7C11124%7Cen_US&redirect_uri=https://careers.peopleclick.com/careerscp/lisaOAuth2";         	
+	        	})
+		
+	
+        
+
+
+
+
+
+	        
+
+        
+	        
+
+    
+
+    
+
+        
+
+    
+
+
+
+
+	
+
+		
+
+			
+
+        		    Job Description
+
+       			
+
+	      		
+
+					RESEARCH ANALYST (DATA), Abdul Latif Jameel Poverty Action Lab (J-PAL) (multiple openings), to work closely with an MIT faculty member on data analysis. Duties include working with data sets, preparing and running code for data cleaning to spot errors, coding in STATA or R to perform custom analysis of large datasets, adapting modules and code to specific project needs, and generally preparing data for analysis; assisting faculty with literature reviews; liaising with field staff, including possible travel to field sites; providing input on the technical aspects of project reports for funders and academic papers and preparing data for public access; assisting with the technical aspects of applications to Institutional Review Boards; and supervising undergraduate interns who may assist with the PI’s project. The focus of the work is on data quality.
+
+	      		
+
+        	
+
+			
+
+    Job Requirements
+
+      			
+
+          		
+
+					REQUIRED: a bachelor’s degree in economics, mathematics, statistics, or a field of study related to humanities, arts, and sciences; significant training in economics and demonstrated success in coursework, statistics, mathematics, and/or econometrics; hands-on experience with Stata or equivalent statistical package; experience working with large data sets; good oral and written communication skills; and proven ability to handle several different projects/tasks at one time, successfully complete assigned tasks, and meet deadlines. Formal post-undergraduate professional experience is not required. &nbsp;Job #15246  In addition to applying online via the MIT HR website, please register at https://apply.povertyactionlab.org with the J-PAL/IPA common application. After completing a brief registration, choose the "Research" job category and select “General Data Research Associate.”9/28/17
+
+          		
+
+			
+
+
+
+        	
+ 
+              					
+        							MIT is an equal employment opportunity employer. All qualified applicants will receive consideration for employment and will not be discriminated against on the basis of race, color, sex, sexual orientation, gender identity, religion, disability, age, genetic information, veteran status, ancestry, or national or ethnic origin.
+    		  					
+    				
+
+
+
+	          	
+
+	            	
+
+	            		
+
+        
+	            		
+
+	           		
+
+	            	&nbsp;
+
+	            	
+
+	            		Back to top
+
+	            	
+
+	          	
+
+        	        
+
+      	
+
+    				
+
+                
+            
+    
+
+
+        
+            
+                View Job Cart&nbsp;(0)
+            
+        
+            
+                    
+Send This Job to a Friend                
+            
+    
+        
+View My Account        
+    
+    
+    
+    
+
+        
+    
+
+                                        
+                                    
+                                    
+                                        
+                                        
+                                    
+                                
+                            
+                            
+                                
+                                    
+                                        
+                                        
+                                    
+                                
+                            
+                        
+                    
+                
+            
+            
+                
+
+
+         
+
+      
+
+          
+
+    
+
+  
+
+                
+
+      
+
+
+
+Equal Employment Opportunity at MIT
+
+Accessibility Assistance for Job Seekers with a Disability
+
+
+
+
+
+
+
+
+
+
+
+MIT Annual Security Report on Campus Safety
+
+Contact Us
+
+
+
+
+
+    
+
+  
+
+
+
+  
+
+      
+
+    
+
+
+
+
+                
+            
+        
+        
+            webdriver.updateRequestId();
+        
+        jobDetails
+    
+
+

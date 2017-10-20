@@ -1,0 +1,1020 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    select:focus, a:focus {
+
+        outline: #1e90ff solid 2px
+
+    }
+
+
+
+    input[type=submit] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=button] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=submit]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=button]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=submit]:focus {
+
+        background: #1e90ff;
+
+    }
+
+
+
+    input[type=button]:focus {
+
+        background: #1e90ff
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane {
+
+        text-align: right;
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane button {
+
+        float: none;
+
+    }
+
+
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+
+        /*border: 1px solid #000;*/
+
+        /*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .alert-error {
+
+        color: #990000;
+
+        font-weight: bold;
+
+    }
+
+
+
+    td.top {
+
+        vertical-align: top !important;
+
+    }
+
+
+
+    td.left {
+
+        float: none;
+
+        text-align: left;
+
+    }
+
+
+
+    td.right {
+
+        float: none;
+
+        text-align: right;
+
+    }
+
+
+
+    .nowrapFormLabel {
+
+        white-space: nowrap;
+
+        text-align: right;
+
+    }
+
+
+
+    h1 {
+
+        font-size: 120%
+
+    }
+
+
+
+    h2 {
+
+        font-size: 110%
+
+    }
+
+
+
+    h3 {
+
+        font-size: 100%
+
+    }
+
+
+
+    .hidden-accessibility-text {
+
+        position: absolute;
+
+        left: -2000px;
+
+        top: 0;
+
+        width: 1;
+
+        height: 1;
+
+        overflow: hidden;
+
+        font-size: 0.1em;
+
+    }
+
+
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+
+    .ofcc305table textfield, .ofcc305table select,
+
+    .ofcc305table input, .ofcc305table a {
+
+        font-size:12px !important;
+
+        font-family:Arial,sans-serif,Helvetica !important;
+
+    }
+
+
+
+    #cws-search-results th, #cws-job-alerts th {
+
+        border-top: #CCCCCC 2px solid;
+
+        border-bottom: #CCCCCC 2px solid;
+
+    }
+
+
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+
+        border-bottom: #CCCCCC 2px solid;
+
+        padding-bottom: 3px;
+
+    }
+
+
+
+
+
+document.write = function() {};
+
+    
+
+        Purchasing Power
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+    #taleoContent {
+
+  padding: 0px;
+
+  margin: 0px;
+
+  border: none;
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  text-decoration: none;
+
+  text-indent: 0px;
+
+  text-shadow: none;
+
+  text-transform: none;
+
+  white-space: normal;
+
+  word-spacing: normal;
+
+}
+
+
+
+#taleoContent td, #taleoContent th {
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  line-height: normal;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  text-decoration: none;
+
+  text-indent: 0px;
+
+  text-shadow: none;
+
+  text-transform: none;
+
+  white-space: normal;
+
+  word-spacing: normal;
+
+}
+
+
+
+#taleoContent textarea {
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  height: auto;
+
+  width: auto;
+
+}
+
+
+
+#taleoContent textfield {
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  height: auto;
+
+  width: auto;
+
+}
+
+
+
+#taleoContent select {
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  height: auto;
+
+  width: auto;
+
+}
+
+
+
+#taleoContent input {
+
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+
+  font-size: 11px;
+
+  font-size-adjust: none;
+
+  font-style: normal;
+
+  font-stretch: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  height: auto;
+
+  width: auto;
+
+}
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+         
+
+        
+
+        
+
+            PurchasingPower.com
+
+            News & Press Releases
+
+        
+
+        
+
+        
+
+        
+
+        
+
+
+
+
+function jobAlertShowEmailSection() {
+   document.theForm.showEmailSection.value = true;
+   document.theForm.submit();
+}
+function cancelForm() {
+   document.loginForm.showPwdSection.value=false;
+   document.loginForm.showEmailSection.value=false;
+   document.loginForm.action=document.theForm.action;
+   document.loginForm.submit();
+}
+ CwsDWRFacade._path = 'http://chp.tbe.taleo.net/chp04/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; 
+
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chp.tbe.taleo.net/chp04/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chp.tbe.taleo.net/chp04/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();
+
+
+
+
+
+
+
+
+
+
+
+
+
+**Powering People to a Better Life&trade;**
+
+
+
+
+Headquartered in Atlanta, GA, Purchasing Power&nbsp;is a leading specialty e-retailer offering consumer products, vacations and online education services through an easy and convenient payment plan.&nbsp;Our customers love us because we make paying for their purchases stress and hassle-free.&nbsp;Purchasing Power was honored for &ldquo;World Class Customer Service&rdquo; by Smart Business and &quot;Innovation in Customer Service&quot; with a Silver Stevie Award. We are one of &ldquo;Atlanta&rsquo;s Best and Brightest Companies to Work For&rdquo; and have been recognized as one of the fastest-growing companies for the past seven years. Purchasing Power is &lsquo;Powering People to a Better Life&trade;&rsquo; through its employee purchase program, financial literacy efforts and charitable contributions.
+
+
+
+Purchasing Power is a Flexpoint Ford, LLC Company. 
+
+
+
+&nbsp;
+
+
+
+Awards:&nbsp;
+
+
+
+
+
+	
+
+	2016 Internet Retailer Top Mobile E-Retailers, ranked #156
+
+	
+
+	
+
+	2015 National Best &amp; Brightest Companies in Wellness
+
+	
+
+	
+
+	2015 Inc. 5000 Fastest-Growing Private Companies in America
+
+	
+
+	
+
+	2015 Bronze Stevie Award in Consumer Products &amp; Retail Website
+
+	
+
+	
+
+	2014 National Best &amp; Brightest Companies to Work For
+
+	
+
+	
+
+	2014 Inc. 5000 Fastest-Growing Private Companies in America
+
+	
+
+	
+
+	2014 Silver Stevie Award for Innovation in Customer Service
+
+	
+
+
+
+
+
+
+
+&nbsp;
+
+
+
+&nbsp;
+
+
+
+&nbsp;
+
+
+
+&nbsp;
+
+
+
+Description
+Purchasing Power one of Atlanta&rsquo;s fastest growing specialty e-retailers is seeking a Data Analyst. The selected candidate will support client data integration across the company&rsquo;s global enterprise. Manages the retrieval, transformation, delivery, and exchange of data between both internal and external business systems across all business units and client base.&nbsp; Provides daily operational production support.&nbsp; Requires a strong understanding of discipline. Able to apply knowledge and experience to complex problems and develop recommendations. Makes decisions within broad parameters. Acts as an informal resource for others with less experience. Works with team members to provide operational support, documentation, and knowledge sharing of best practices.
+
+&nbsp;
+
+JOB DUTIES:
+
+Develops strong working relationships with Client Services, Underwriting, Accounting and IT.
+
+Owns operational client data integration
+
+Manages file retrieval and delivery for all client data exchanges using file transfer software&mdash;including account administration, host configurations, and job scheduling.
+
+Manages data integration using ETL technology
+
+Understands and conforms to corporate IT data and security standards
+
+Provides feedback from ongoing administration experience to continuously improve the client experience
+
+Responds to eligibility, remittance and deduction questions from various business partners throughout the company
+
+Communicates regarding the impacts and implications of client data integration break points
+
+Performs client platform monitoring and root cause analysis of production incidents.
+
+Leverages tools like Excel or IT-related applications so that operational processing and business targets may be achieved
+
+Manages client file reports for distribution to leaders, team members and business partners
+
+Responds to client inquiries as an additional input to daily workflow for timely resolution
+
+Understands data flows across multiple systems&mdash;including storefront, underwriting, billing and financial systems
+
+&nbsp;
+
+QUALIFICATIONS:
+
+Bachelor&#39;s or Technical degree in an analytical field (e.g. Computer Science, Engineering, Mathematics, Statistics) &ndash; 5 plus years of experience required.
+
+Demonstrated problem solving ability with experience in client/customer data management
+
+Hands-on data mining / analytics experience with a service or technology company
+
+Experience in a related operational business process required
+
+Strong Excel and statistical skills required
+
+Experience with at least 1 scripting language is a plus
+
+Experience with Voluntary Benefits Administration is a plus
+
+Experience with Payroll Deduction is a plus
+
+&nbsp;
+
+COMPENTENCIES: 
+
+Strong analytical skills
+
+Ability to work with a sense of urgency and independence, displaying innovative skills to solve complex problems
+
+Experience with Data Management
+
+Willingness to learn new software applications and workflows related to data management
+
+Demonstrated effective teamwork ability to perform cross-functional operational support
+
+Generates effective solutions based on available information and makes timely decisions
+
+Ability to effectively communicate and collaborate with IT teams and business users
+
+Understanding of file transfer and ETL technologies
+
+Demonstrates a strong commitment to delivering results while maintaining a secure environment
+
+Strong writing skills to proactively maintain/create documentation
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Why Purchasing Power?
+
+We are the leading specialty e-retailer offering consumer products, vacations and online education services through an easy and convenient payment plan. Our customers love us because we make paying for their purchases stress- and hassle-free. The automatic payments help them to avoid penalty fees and ballooning interest associated with other payment options. While the fixed payment duration options empower them to budget more efficiently. Ours is a revolutionary e-commerce experience that gives customers access to a better life combined with a responsible way to buy.
+
+Purchasing Power is &lsquo;Powering People to a Better Life&trade;&rsquo; through its employee purchase program, financial literacy efforts and charitable contributions. 
+
+&nbsp;
+
+For more information, visit www.PurchasingPower.com
+
+&nbsp;
+
+
+	Our people! We are very proud of our people, we &ldquo;Power People to a better life&rdquo;
+	100% company paid benefits for employees
+	Kitchen stocked with gourmet coffee, teas and free snacks
+	Casual work environment 
+	Summer Hours
+	Unlimited PTO 
+	Top of the line hardware
+	On-site massages 
+	Happy Hour Friday
+	Career Development Opportunity
+
+
+
+
+
+&nbsp;
+
+Purchasing Power is an equal opportunity employer. At Purchasing Power, we make all employment decisions, which include hiring, promoting, transferring, demoting, evaluating, compensating and separating, without regard to sex, sexual orientation, gender identity, race, color, religion, age, national origin, pregnancy, citizenship, disability, service in the uniform services, or any other classification protected by federal, state or local law.
+
+&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Are you a returning applicant?
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Applicants:
+
+
+Email:
+
+
+
+
+
+Password:
+
+
+
+
+
+If you do not remember your password click here.
+
+
+
+
+Back to Search Results
+
+
+New Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        //jQuery Calendar
+
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchp.tbe.taleo.net/chp04/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+
+    
+
+
+
+
+
+        
+
+        
+
+                                         
+
+        
+
+        
+
+        
+
+        cool stuff:
+
+        
+
+
+
+More than 265 Current Clients
+
+20+ industries served
+
+$2 Billion+ Revenue to date
+
+More than 50,000 brand name products & services offered
+
+A+ BBB Rating
+
+94% Client Retention Rate
+
+Ranked 9 years (running) on the INC. 5000 Fastest Growing Private Companies
+
+Ranked #35 among Atlanta Business Chronicle’s “Atlanta’s Top 50 Private Companies”
+
+Ranked #103 among the Internet Retailer 2017 Top Mobile 500
+
+2016 Winner “National Best & Brightest Companies to Work For” and “Best & Brightest in Wellness”
+
+2016 Winner “EHBC Executive Choice Award for Voluntary Benefits”
+
+2016 SAP Hybris: Americas Summit Customer Awards—“Success Story of the Year”
+
+2016 Inc. 5000 “Fastest-Growing Private Companies in America”
+
+2016 New Age Electronics’ E-Commerce Retailer of the Year
+
+CEO Richard Carrano has been with the company since 2001
+
+Purchasing Power encourages financial literacy by supporting Junior Achievement (JA) and is a proud Corporate Sponsor of the JA Discovery Center in Atlanta, GA 
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+         
+
+        
+
+        Follow us on Twitter
+
+        
+
+        
+
+        Find us on LinkedIn
+
+        
+
+        
+
+        Watch us on YouTube
+
+        
+
+        
+
+        Copyright 2015. Purchasing Power, LLC. All Rights Reserved
+
+        
+
+         
+
+    
+
+
+
+
+
+
+

@@ -1,0 +1,2071 @@
+
+
+
+
+
+
+
+
+  Employment Opportunities | The Paragon Group
+
+  
+
+
+
+
+
+
+
+  @import "http://theparagongroup-inc.com/modules/aggregator/aggregator.css";
+
+@import "http://theparagongroup-inc.com/modules/nice_menus/nice_menus.css";
+
+@import "http://theparagongroup-inc.com/modules/nice_menus/nice_menus_default.css";
+
+@import "http://theparagongroup-inc.com/modules/node/node.css";
+
+@import "http://theparagongroup-inc.com/modules/system/defaults.css";
+
+@import "http://theparagongroup-inc.com/modules/system/system.css";
+
+@import "http://theparagongroup-inc.com/modules/user/user.css";
+
+@import "http://theparagongroup-inc.com/themes/marinelli/style.css";
+
+  
+
+  
+
+    
+
+
+
+
+
+  
+
+    
+
+
+
+  
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+  
+
+              Home Page
+
+About Us
+
+ServicesNetwork Engineering &amp; Administration
+
+IT Auditing Services
+
+Contact Center Technology
+
+Business Development
+
+IT Service Desk
+
+Wireless Communications
+
+
+
+
+
+Contact Us
+
+Employment Opportunities
+
+Employee ResourcesThe Paragon Group Employee Handbook
+
+Timesheet and Expense Report
+
+New Hire Employment Forms
+
+Benefits Overview
+
+Benefit Contact Information
+
+
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+  
+
+	  
+
+ 
+
+  
+
+
+
+ 
+
+         
+
+       
+
+   
+
+
+
+  
+
+  
+
+  
+
+                  
+
+You are hereEmployment Opportunities 
+
+-->
+
+	  
+
+            
+
+		 Employment Opportunities		 
+
+                            
+
+
+
+
+
+       
+
+           
+
+        function ShowAppDiv(appname)
+
+        {
+
+            document.getElementById('profilediv').style.display='none';
+
+            
+
+            document.getElementById('logindiv').style.display='none';
+
+            document.getElementById('educationdiv').style.display='none';
+
+            document.getElementById('workinfodiv').style.display='none';
+
+            document.getElementById('workhistorydiv').style.display='none';
+
+            document.getElementById('referencediv').style.display='none';
+
+            document.getElementById('skillcodediv').style.display='none';
+
+            document.getElementById(appname).style.display='';
+
+        }
+
+    
+
+    
+
+        .navbutton
+
+        {
+
+            color: blue;
+
+            text-decoration: underline;
+
+            cursor: pointer;
+
+        }
+
+        .grad
+
+        {
+
+            background-color: #e3d3ad; /* for non-css3 browsers */
+
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e3d3ad', endColorstr='#ffffff'); /* for IE */
+
+            background: -webkit-gradient(linear, left top, left bottom, from(#e3d3ad), to(#ffffff)); /* for webkit browsers */
+
+            background: -moz-linear-gradient(top,  #e3d3ad,  #ffffff); /* for firefox 3.6+ */
+
+            border: solid 0px #b2b2b2;
+
+            text-indent:5px;
+
+	    vertical-align:middle;
+
+	    font-size: 10pt;
+
+	    font-weight: bold;
+
+        }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+		    
+
+                View / Apply for Jobs&nbsp;&nbsp;    
+
+			    Job Search&nbsp;&nbsp;
+
+			    Create Account&nbsp;&nbsp;
+
+			    Candidate Login&nbsp;&nbsp;
+
+			    Employer Login&nbsp;&nbsp;
+
+			    Vendor Login-->
+
+			
+
+			
+
+					
+
+			
+
+    
+
+        
+
+         
+
+            function calllinkedin()
+
+            {
+
+            var denum = Math.floor(Math.random()*100001)
+
+            document.location.href='socialsites_processauth.asp?sourcename=&dowhat=authorize&jo_num=273&apply=&sitename=linkedin&source=60&seqno=' + denum;
+
+            }         
+
+         
+
+            
+
+            
+
+
+
+     
+
+    
+
+
+
+    
+
+// for calendar functions (old and new)
+
+var alertstring = '';
+
+function buildalertstring(inname,indesc,incolor)
+
+{
+
+    alertstring = alertstring + '\r\n' + indesc + ''
+
+    if (document.getElementById(inname))
+
+    {
+
+        document.getElementById(inname).style.backgroundColor = incolor;
+
+    }    
+
+}
+
+function clearalert(inname)
+
+{
+
+    if (document.getElementById(inname))
+
+    {
+
+        document.getElementById(inname).style.backgroundColor = '';
+
+    }    
+
+}
+
+function clearalertbox()
+
+{
+
+   if (document.getElementById('requiredfieldsdiv'))
+
+    {
+
+        document.getElementById('requiredfieldsdiv').style.display='none';
+
+        document.getElementById('requiredfieldsdiv').innerHTML = '';
+
+    }
+
+ 
+
+
+
+}
+
+
+
+function showalertmsg(ingreeting)
+
+{
+
+    if (document.getElementById('requiredfieldsdiv'))
+
+    {
+
+        document.getElementById('requiredfieldsdiv').style.display='';
+
+        document.getElementById('requiredfieldsdiv').innerHTML=''
+
+			+ ''
+
+			+ ''
+
+			+ '' + ingreeting + ''
+
+			+ alertstring;
+
+        document.getElementById('requiredfieldsdiv').focus(); 
+
+    }
+
+    else
+
+    {
+
+        alert('The following fields are required.' + alertstring);
+
+    }
+
+}
+
+
+
+function validateEmail(inemail){
+
+var status = false;     
+
+    if (inemail=='' || inemail == ' ')
+
+    {
+
+        status = false;
+
+        
+
+    }
+
+    else
+
+    {
+
+        var emailRegEx = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+
+         if (inemail.search(emailRegEx) == -1) {
+
+              //alert("Please enter a valid email address.");
+
+         }
+
+         else {
+
+    //          alert("Woohoo!  The email address is in the correct format and they are the same.");
+
+              status = true;
+
+         }
+
+    } 
+
+    if (status==true)
+
+    {
+
+        if (EmailInUse(inemail) ==false)
+
+        {
+
+            status=false;
+
+        }
+
+        
+
+    }
+
+    
+
+    return status;
+
+} 
+
+
+
+
+
+function doNothing() {}
+
+
+
+// Global Vars
+
+var tString = '';
+
+var lsf = 0;	// last successful index   
+
+var lasteventitem =''
+
+//global ajax object used for suggestions.
+
+var searchReq = null
+
+function confirmaction(inMessage) {
+
+	if (confirm(inMessage)) { return true; } else {	return false; }
+
+}
+
+
+
+function doAjax(url,targetid) {
+
+    var xmlHttp = GetXmlHttpObject();
+
+    if (xmlHttp == null) {
+
+		alert ("");
+
+        return;
+
+    } else {
+
+        xmlHttp.onreadystatechange = function() {
+
+			if (xmlHttp.readyState == 4) {
+
+				if (targetid != "") {
+
+					var target = document.getElementById(targetid);
+
+					if (target) { target.innerHTML = xmlHttp.responseText };
+
+				}
+
+			}
+
+        }
+
+	    var urlHttp;
+
+		if (url.indexOf("?") > 0 || url.indexOf("&") >= 0) {
+
+			urlHttp = url + "&";
+
+		} else {
+
+			urlHttp = url + "?";
+
+		} 
+
+        urlHttp = urlHttp + "rndnum=" + Math.random();
+
+        xmlHttp.open("GET",urlHttp,true);
+
+        xmlHttp.send(null);
+
+    } 
+
+}
+
+
+
+function searchSuggest(fieldname,suggesttype,state,country,city,keycode) 
+
+{	
+
+ //ignore for blank entries
+
+ if (keycode==40)
+
+	{
+
+		if (document.getElementById(fieldname + '_suggest_list')){
+
+			document.getElementById(fieldname + '_suggest_list').options[0].selected = true;
+
+			document.getElementById(fieldname + '_suggest_list').focus();
+
+			//eval(fieldname + '_suggest_focus')=true		
+
+			document.getElementById(fieldname).value=document.getElementById(fieldname + '_suggest_list').options[document.getElementById(fieldname + '_suggest_list').selectedIndex].value;
+
+			}
+
+	}
+
+ else
+
+  {
+
+	if (document.getElementById(fieldname).value!='' || document.getElementById(fieldname).value!=' ')
+
+	  {
+
+		//assumes searchReq was already created.
+
+		if(searchReq==null)
+
+		{   
+
+	       searchReq =GetXmlHttpObject();
+
+		}
+
+	    if (searchReq!= null)
+
+		{   
+
+			if (searchReq.readyState == 4 || searchReq.readyState == 0) 
+
+			{  //alert('ajax_loadSuggest.asp?fieldname=' + fieldname + '&city=' + city + '&search=' + document.getElementById(fieldname).value + '&suggesttype=' + suggesttype + '&country=' + country + '&state=' + state)
+
+				searchReq.open("GET", 'ajax_loadSuggest.asp?fieldname=' + fieldname + '&city=' + city + '&search=' + encodeURIComponent(document.getElementById(fieldname).value) + '&suggesttype=' + suggesttype + '&country=' + country + '&state=' + state + '&asda=' + Math.random() , true);		
+
+				searchReq.onreadystatechange=function()
+
+                  {
+
+                    if (searchReq.readyState == 4) 
+
+    	                {
+
+    	                    //alert (searchReq.responseText)
+
+							if (searchReq.responseText!='')
+
+							{							
+
+	                	    	document.getElementById(fieldname + '_search_suggest').style.display = ''
+
+	                	    	document.getElementById(fieldname + '_search_suggest').innerHTML = '';
+
+		             	    	document.getElementById(fieldname + '_search_suggest').innerHTML = searchReq.responseText;
+
+							}
+
+							else
+
+							{
+
+								document.getElementById(fieldname + '_search_suggest').innerHTML = '';
+
+								document.getElementById(fieldname + '_search_suggest').style.display = 'none'
+
+							}
+
+        	             }
+
+                  }
+
+              searchReq.send(null);   
+
+            }
+
+		}
+
+	   }
+
+ }	   
+
+}
+
+
+
+function clear_suggestdiv(divname)
+
+{
+
+    if (document.getElementById(divname))
+
+     {
+
+        document.getElementById(divname).innerHTML = '';
+
+        document.getElementById(divname).style.display='none';
+
+     }
+
+}
+
+
+
+function setSearch(fieldname,value)
+
+ {
+
+    document.getElementById(fieldname).value = value;	
+
+    document.getElementById(fieldname + '_search_suggest').innerHTML = '';
+
+ }
+
+
+
+
+
+function hideheadersavebutton(){
+
+    if (top.main) {
+
+		if (top.main.header2) {
+
+			if (top.main.header2.document.getElementById('save'))
+
+			{
+
+				top.main.header2.document.getElementById('save').style.display='none';
+
+			}
+
+	
+
+		}
+
+	}
+
+}
+
+		
+
+function showheadersavebutton(){
+
+	if (top.main) {
+
+		if (top.main.header2) {
+
+			if (top.main.header2.document.getElementById('save'))
+
+			{
+
+				top.main.header2.document.getElementById('save').style.display='';
+
+			}
+
+		}
+
+	}
+
+}
+
+
+
+function checkequestloadlist()
+
+{
+
+   if (document.getElementById('equest_jobfunction').options.length = n) {
+
+		    var msg
+
+		    
+
+		msg = "This fields is limited to %1 characters"
+
+		msg = msg.replace("%1",n)
+
+		alert(msg)
+
+		
+
+	}		
+
+}
+
+
+
+function setuserconfig(configname,configvalue,loadsummaryvalue) 
+
+{
+
+    var RandomFractionalNumber = Math.random();
+
+
+
+    var xmlHttp2=GetXmlHttpObject()
+
+    if (xmlHttp2==null)
+
+        {
+
+            alert ('Your browser does not support AJAX');
+
+            return;
+
+        }
+
+        else
+
+        {
+
+            var url='admin_user_configure_ajax.asp?rndnum=' + RandomFractionalNumber + '&settingname=' + configname + '&' +  configname + '=' + configvalue
+
+            xmlHttp2.onreadystatechange=function()
+
+            {
+
+             if (xmlHttp2.readyState==4)
+
+                {
+
+                
+
+                    var resultslist=xmlHttp2.responseText
+
+                    if (loadsummaryvalue=='yes')
+
+                        {
+
+                            //*** CANNOT FIND THIS FUNCTION loadsummary('yes',RandomFractionalNumber);
+
+                      }
+
+                }
+
+            } 
+
+            xmlHttp2.open("GET",url,true);
+
+            xmlHttp2.send(null);
+
+        }
+
+}
+
+
+
+
+
+
+
+function evalKey() {
+
+    
+
+    // Global Variables
+
+    var i = 0; 
+
+    var success = false;
+
+    if (getBrowserType() =='IE')
+
+     {
+
+        var elem = event.srcElement;
+
+        var tLowElemText = '';
+
+        if (lasteventitem != elem.tagName)
+
+            {
+
+            lasteventitem=elem.tagName
+
+            tstring=''
+
+            }
+
+        // Get the unicode char of the keypress
+
+        var eCode = event.keyCode;
+
+        // Check if it's a vaid ASCII Character
+
+        if (eCode == 27) {
+
+            tString = ''; 
+
+            elem.selectedIndex = 0;
+
+            }
+
+        else if ((eCode > 31) && (eCode 
+
+
+
+function loadcontactdetails(cl_num,jo_num,rndnum) 
+
+{
+
+
+
+
+
+ document.getElementById('contactdetails' + jo_num + '_CL' + cl_num).style.display='';
+
+ if (document.getElementById('contactdetails' + jo_num + '_CL' + cl_num ).innerHTML == '')
+
+ {
+
+    var xmlHttp2=GetXmlHttpObject()
+
+    if (xmlHttp2==null)
+
+        {
+
+            alert ('Your browser does not support AJAX');
+
+             return;
+
+        }
+
+        else
+
+        {
+
+            var url='contact_details_ajax.asp?cl_num=' + cl_num  + '&random=' + Math.random()
+
+            xmlHttp2.onreadystatechange=function()
+
+            {
+
+             if (xmlHttp2.readyState==4)
+
+                {
+
+                
+
+                    var resultslist=xmlHttp2.responseText
+
+                    document.getElementById('contactdetails' + jo_num + '_CL' + cl_num).innerHTML = resultslist
+
+                    
+
+                }
+
+            } 
+
+            xmlHttp2.open("GET",url,true);
+
+            xmlHttp2.send(null);
+
+         }  
+
+   }       
+
+   
+
+}
+
+
+
+
+
+function loadcandidatedetails(ap_num,jo_num,rndnum) 
+
+{
+
+
+
+
+
+ document.getElementById('candidatedetails' + jo_num + '_AP' + ap_num).style.display='';
+
+ if (document.getElementById('candidatedetails' + jo_num + '_AP' + ap_num ).innerHTML == '')
+
+ {
+
+    var xmlHttp2=GetXmlHttpObject()
+
+    if (xmlHttp2==null)
+
+        {
+
+            alert ('Your browser does not support AJAX');
+
+             return;
+
+        }
+
+        else
+
+        {
+
+            var url='candidate_details_ajax.asp?ap_num=' + ap_num  + '&random=' + Math.random()
+
+            xmlHttp2.onreadystatechange=function()
+
+            {
+
+             if (xmlHttp2.readyState==4)
+
+                {
+
+                
+
+                    var resultslist=xmlHttp2.responseText
+
+                    document.getElementById('candidatedetails' + jo_num + '_AP' + ap_num).innerHTML = resultslist
+
+                    
+
+                }
+
+            } 
+
+            xmlHttp2.open("GET",url,true);
+
+            xmlHttp2.send(null);
+
+         }  
+
+   }       
+
+   
+
+}
+
+
+
+
+
+
+
+function loadbusinessdetails(co_num,jo_num,rndnum) 
+
+{
+
+
+
+ document.getElementById('businessdetails' +  jo_num + '_B' + co_num).style.display='';
+
+ if (document.getElementById('businessdetails' + jo_num  + '_B' + co_num).innerHTML == '')
+
+ {
+
+    var xmlHttp2=GetXmlHttpObject()
+
+    if (xmlHttp2==null)
+
+        {
+
+            alert ('Your browser does not support AJAX');
+
+             return;
+
+        }
+
+        else
+
+        {
+
+            var url='business_details_ajax.asp?co_num=' + co_num  + '&random=' + Math.random()
+
+           xmlHttp2.onreadystatechange=function()
+
+            {
+
+             if (xmlHttp2.readyState==4)
+
+                {
+
+                
+
+                    var resultslist=xmlHttp2.responseText
+
+                    document.getElementById('businessdetails' + jo_num + '_B' + co_num).innerHTML = resultslist
+
+                    
+
+                }
+
+            } 
+
+            xmlHttp2.open("GET",url,true);
+
+            xmlHttp2.send(null);
+
+         }  
+
+   }       
+
+   
+
+   
+
+}
+
+
+
+
+
+
+
+
+
+function loaduserdetails(user_num,jo_num,rndnum) 
+
+{
+
+
+
+ document.getElementById('userdetails' +  jo_num + '_U' + user_num).style.display='';
+
+ if (document.getElementById('userdetails' + jo_num  + '_U' + user_num).innerHTML == '')
+
+ {
+
+    var xmlHttp2=GetXmlHttpObject()
+
+    if (xmlHttp2==null)
+
+        {
+
+            alert ('Your browser does not support AJAX');
+
+             return;
+
+        }
+
+        else
+
+        {
+
+            var url='user_details_ajax.asp?user_num=' + user_num  + '&random=' + Math.random()
+
+            xmlHttp2.onreadystatechange=function()
+
+            {
+
+             if (xmlHttp2.readyState==4)
+
+                {
+
+                
+
+                    var resultslist=xmlHttp2.responseText
+
+                    document.getElementById('userdetails' + jo_num + '_U' + user_num).innerHTML = resultslist
+
+                    
+
+                }
+
+            } 
+
+            xmlHttp2.open("GET",url,true);
+
+            xmlHttp2.send(null);
+
+         }  
+
+   }       
+
+   
+
+   
+
+}
+
+
+
+
+
+function loadjobdetails(jo_num,co_num,rndnum,showdetails) 
+
+{
+
+
+
+ document.getElementById('jobdetails' +  jo_num + '_J' + co_num).style.display='';
+
+ if (document.getElementById('jobdetails' + jo_num  + '_J' + co_num).innerHTML == '')
+
+ {
+
+    var xmlHttp2=GetXmlHttpObject()
+
+    if (xmlHttp2==null)
+
+        {
+
+            alert ('Your browser does not support AJAX');
+
+             return;
+
+        }
+
+        else
+
+        {
+
+            
+
+            var url='job_details_ajax.asp?jo_num=' + jo_num  + '&random=' + Math.random()
+
+            if (showdetails=='yes')
+
+            {
+
+                url=url + '&showcategory=yes'
+
+            }
+
+            xmlHttp2.onreadystatechange=function()
+
+            {
+
+             if (xmlHttp2.readyState==4)
+
+                {
+
+                
+
+                    var resultslist=xmlHttp2.responseText
+
+                    document.getElementById('jobdetails' + jo_num + '_J' + co_num).innerHTML = resultslist
+
+                    
+
+                }
+
+            } 
+
+            xmlHttp2.open("GET",url,true);
+
+            xmlHttp2.send(null);
+
+         }  
+
+   }       
+
+   
+
+   
+
+}
+
+
+
+//used on multiple qualifying pages
+
+function trim(str) {
+
+	return str.replace(/^\s*|\s*$/g,"");
+
+}
+
+
+
+function getBrowserType() {
+
+
+
+	var ua = navigator.userAgent.toLowerCase();
+
+	var os,browser,version,data;
+
+
+
+	if (detect('konqueror')) {browser = "Konqueror"; os = "Linux";}
+
+	else if (detect('safari')) browser = "Safari";
+
+	else if (detect('omniweb')) browser = "OmniWeb";
+
+	else if (detect('firefox')) browser = "FireFox";
+
+	else if (detect('opera')) browser = "Opera";
+
+	else if (detect('webtv')) browser = "WebTV";
+
+	else if (detect('icab')) browser = "iCab";
+
+	else if (detect('msie')) browser = "IE"; // Internet Explorer
+
+	else if (!detect('compatible')) {browser = "Netscape"; version = ua.charAt(8);} // Netscape Navigator
+
+	else browser = "An unknown browser";
+
+
+
+	if (!version) version = ua.charAt(stringposition + data.length);
+
+
+
+	//if (!os) {
+
+	//   if (detect('linux')) os = "Linux";
+
+	//   else if (detect('x11')) os = "Unix";
+
+	//   else if (detect('mac')) os = "Mac";
+
+	//   else if (detect('win')) os = "Windows";
+
+	//   else os = "An unknown operating system";
+
+	//}
+
+
+
+	function detect(text) {
+
+	   stringposition = ua.indexOf(text) + 1;
+
+	   data = text;
+
+	   return stringposition;
+
+	}
+
+
+
+	//alert('Browser: ' + browser)
+
+	//alert('Version: ' + version)
+
+	//alert('OS: ' + os)
+
+	//alert('User Agent String (lowercase): ' + ua)
+
+	return browser;
+
+}
+
+
+
+function getMultipleValues(field) {
+
+    var values = '';
+
+    if (field.type == 'select-multiple') {
+
+        // multiple values
+
+		for (var i=0;i = 3) {
+
+			var x = values.substr(0,3);
+
+			x = x.toUpperCase();
+
+			if (x == 'ALL') {
+
+				if (values.length == 3) { return 'All' }
+
+				else { values = values.substr(4,values.length-4) } // remove "all,"
+
+			}
+
+		}
+
+	}
+
+	else {
+
+		// single value (hidden)
+
+		values = field.value
+
+	}
+
+	return values
+
+}
+
+
+
+
+
+function setWindowTitle(newtitle) {
+
+	var usetitle
+
+	usetitle = top.window.document.title
+
+	usetitle = usetitle.substring(usetitle.lastIndexOf(" ("),usetitle.length)
+
+	if (newtitle != "") { usetitle = "SmartSearch - " + newtitle + usetitle} else { usetitle = "SmartSearch Online " + usetitle }
+
+	top.window.document.title = usetitle
+
+}
+
+
+
+
+
+
+
+
+
+
+
+// timers to delay mouseover displays
+
+var timer_quicknote;
+
+var timer_candidate;
+
+var timer_contact;
+
+var timer_business;
+
+var timer_job;
+
+var timer_misc;
+
+
+
+// example: 
+
+//	omouseover="startDelay('timer_misc',250,'doThisFunction(\'parameter\')');"
+
+//	omouseout="stopDelay('timer_misc')
+
+
+
+// start timer to display after mouseover
+
+function startDelay(timer,ms,call) {
+
+	eval(timer + " = setTimeout(call,ms)");
+
+}
+
+
+
+// abandon timer if mouseout before timer ran out
+
+function abortDelay(timer) {
+
+	clearTimeout(eval(timer));
+
+}
+
+
+
+
+
+
+
+function setGradient(id,color) {
+
+	var elem = document.getElementById(id);
+
+	if (elem) {
+
+		switch(''.toLowerCase()) {
+
+			case "safari":
+
+				elem.style.background = "-webkit-gradient(linear, left top, left bottom, from(" + color + "), to(#FFFFFF));" /* for webkit browsers */
+
+				break;
+
+			case "firefox":
+
+				elem.style.background = "-moz-linear-gradient(top, " + color + ", #FFFFFF)"; /* for firefox 3.6+ */
+
+				break;
+
+			case "ie":
+
+				//elem.style.background = "linear-gradient(left top, " + color + ", #FFFFFF)"; /* IE9 */
+
+				elem.style.filter = "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='" + color + "',EndColorStr='#FFFFFF')"; /* for IE */
+
+				break;
+
+			default:
+
+				elem.style.backgroundColor = color;  /* for non-css3 browsers */
+
+		}
+
+	}
+
+}
+
+
+
+function clearGradient(id,color) {
+
+	var elem = document.getElementById(id);
+
+	if (elem) {
+
+		switch(''.toLowerCase()) {
+
+			case "safari":
+
+				elem.style.background = "";
+
+				break;
+
+			case "firefox":
+
+				elem.style.background = "";
+
+				break;
+
+			case "ie":
+
+				elem.style.filter = "";
+
+				break;
+
+			default:
+
+				elem.style.backgroundColor = color;  /* for non-css3 browsers */
+
+		}
+
+	}
+
+}
+
+
+
+// dim main frame in favor of supplied div
+
+// main and show are objects, e.g., document.getElementById('mainpage')
+
+function dimMainFrame(main,show,color) {
+
+	if ("".toLowerCase() == "ie") { 
+
+		main.style.filter = 'alpha(opacity=40)';
+
+		show.style.filter = "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='" + color + "',EndColorStr='#FFFFFF',alpha(opacity=95)";
+
+	} else {
+
+		main.style.opacity = '0.4';
+
+		show.style.opacity = '1.0';
+
+	}
+
+}
+
+
+
+// restore dimmed main frame
+
+// -- main is an object, e.g., document.getElementById('mainpage')
+
+function undimMainFrame(main) {
+
+	if ("".toLowerCase() == "ie") { 
+
+		main.style.filter = 'alpha(opacity=100)';
+
+	} else {
+
+		main.style.opacity = '1.0';
+
+	}
+
+}
+
+
+
+// stop events from propogating up
+
+// example in workinprogress_shortcuts to stop onclick inside div from firing div onclick
+
+function disableEventPropagation(event)
+
+{
+
+   if (event.stopPropagation){
+
+       event.stopPropagation();
+
+   }
+
+   else if(window.event){
+
+      window.event.cancelBubble=true;
+
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            Data Analyst
+
+            
+
+                Columbus, OH&nbsp;
+
+            
+
+        
+
+        
+
+            &nbsp;
+
+            &nbsp;
+
+            &nbsp;
+
+        
+
+        
+
+        
+
+            Posted:&nbsp;
+
+            10/2/2017
+
+        
+
+        
+
+            Category:&nbsp;
+
+            Information Technology
+
+        
+
+        
+
+            Job Type:&nbsp;
+
+            -
+
+        
+
+        &nbsp;
+
+        
+
+            Minimum Experience:&nbsp;
+
+            -
+
+        
+
+        
+
+            Required Education:&nbsp;
+
+            -
+
+        
+
+        
+
+        
+
+            Benefits:&nbsp;
+
+            
+
+                -
+
+            
+
+        
+
+        &nbsp;
+
+        Job Description
+
+        	 
+
+                
+
+                
+
+                
+
+                
+
+                    
+
+                    
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+            
+
+    		The Paragon Group is a Columbus, Ohio based Information Technology firm delivering high quality, cost effective resources to a progressive clientele. Founded in 1998, The Paragon Group has a full time staff of highly skilled, motivated professionals. The Paragon Group provides staff augmentation, temp-to-perm placements, permanent placements, and consulting services both locally and nationally. We are a full time employer and offer a full benefits package. 
+
+&nbsp;
+
+Job Description:
+
+
+
+Work as a Data Analyst on a team that manages vulnerabilities and secure configuration for distributed systems
+
+Contractors will assist with data analysis, reporting, dashboards, etc. for vulnerability and secure configuration data
+
+
+
+	     
+
+        Job Requirements
+
+        
+Must have familiarity with using query languages for data gathering
+Must have advanced Excel skills
+Must have ability to translate data into dashboards/PowerPoints
+Must be proficient at trending data&nbsp;
+
+
+    
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+                
+
+                
+
+                
+
+                    
+
+                        
+
+                            Login to Apply
+
+                        
+
+                        
+
+                        
+
+                            User ID:&nbsp;
+
+                            
+
+                        
+
+                        
+
+                            Password:&nbsp;
+
+                            
+
+                                
+
+                                Forgot password?&nbsp;
+
+                            
+
+                        
+
+                        
+
+                            
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    Other Options
+
+                
+
+                
+
+                
+
+                    
+
+                    
+
+                        
+
+                            &nbsp;&nbsp;&nbsp;Create an account
+
+                        
+
+                        &nbsp;&nbsp;&nbsp;Return to search results
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+	
+
+		Return to search results&nbsp;|&nbsp;Email this job to a friend
+
+		
+
+		
+
+		
+
+				
+
+                    
+
+				
+
+		
+
+		
+
+		
+
+		*Logged in members may also add jobs to their job cart
+
+	   
+
+
+
+
+
+     
+
+     
+
+     
+
+    
+
+
+
+
+
+
+
+
+
+
+
+     
+
+          
+
+    
+
+     
+
+     
+
+        
+
+        
+
+
+
+function processindeed() {
+
+    document.location.href='http://jobs.smartsearchonline.com/paragongroup/jobs/membership_part2.asp?dowhat=processindeed&GUID=F9FA6AAF-9F40-4E3C-BEC8-2B4811CE37A2&apply=yes&resume_text=indeed+apply&job_number=273&jo_num='
+
+}
+
+
+
+    (function(d, s, id) {
+
+    var js, iajs = d.getElementsByTagName(s)[0];
+
+    if (d.getElementById(id)){return;}
+
+    js = d.createElement(s); js.id = id;js.async = true;
+
+    
+
+        js.src = "http://apply.indeed.com/indeedapply/static/scripts/app/bootstrap.js";
+
+    
+
+    iajs.parentNode.insertBefore(js, iajs);
+
+    }(document, 'script', 'indeed-apply-js'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    input
+
+    {
+
+        width: 180px;
+
+    }
+
+
+
+
+
+
+
+
+
+  
+
+      
+
+      
+
+    
+
+
+
+    
+
+   
+
+   
+
+   
+
+        	
+
+        
+
+   	
+
+                  
+
+ 
+
+            
+
+ 
+
+  Current Job Opportunities
+
+   Network Engineer
+
+
+
+Telecom Project Coordinator
+
+
+
+Project Manager
+
+
+
+Help Desk Support
+
+
+
+Revenue Assurance Analyst
+
+
+
+Genesys Engineer
+
+--->
+
+
+
+ 
+
+    
+
+   Download Employment Application/Background Check Release
+
+
+
+Download Benefits Summary
+
+
+
+         
+
+          
+
+        
+
+
+
+
+
+ 
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+The Paragon Group Sales Office: 
+
+104 N. Hamilton Rd.,
+
+Gahanna, Ohio 43230
+
+Office (614) 472-0080
+
+sales@theparagongroup-inc.com
+
+Mailing Address:
+
+1780 Chateaugay Way,
+
+Blacklick, Ohio 43004
+
+
+
+
+
+
+
+
+

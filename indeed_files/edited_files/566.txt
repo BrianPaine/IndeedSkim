@@ -1,0 +1,181 @@
+
+
+
+  
+  
+  
+  
+  Vizi Template
+    
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+
+    
+      Data Analyst
+      &lt;h3&gt;Are you looking for a career filled with purpose and opportunity?&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-family: arial,helvetica,sans-serif; font-size: medium;&quot;&gt;Region 10 PIHP is a Recovery friendly environment that strives to create an employment atmosphere that promotes recovery and discovery, a person-centered approach to treatment/services, and cultural competence.&amp;nbsp; An employee in this or any position is expected to support the employment environment.&lt;/span&gt;&lt;/h3&gt;
+      Port Huron, MI
+        Region 10 PIHP
+        &lt;p&gt;Region 10 Prepaid Inpatient Health Plan Provides public services for mental health and substance use disorders through the Community Mental Health agencies in Genesee, Lapeer, Sanilac and St. Clair counties and a panel of other care providers.&lt;/p&gt;
+&lt;h4&gt;Mission: Promoting opportunities for Recovery, Discovery, Health and Independence for individuals receiving services through ease of access, high quality of care and best value.&lt;/h4&gt;
+        http://www.region10pihp.org
+      keywords: medical,insurance,benefits,performance,support,leadership,analysis,communication,reporting,knowledge,license,degree,skills,transportation,preferred qualifications,requirements,how to apply
+      Professional Level II
+      
+      $52,700.00/Year
+        Overview: &lt;p&gt;In addition to a career filled with purpose and opportunity, Region 10 PIHP offers a comprehensive benefits package including:&lt;/p&gt;
+&lt;p&gt;Blue Cross Blue Shield (BCBS) PPO Medical Insurance Plan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;80% Coinsurance - Employee pays: $0 per pay for single plan; $20 per pay for two-person plan; $25 per pay for family plan&lt;/li&gt;
+&lt;li&gt;90% Coinsurance - Employee pays: $30 per pay for single plan; $95 per pay for two-person plan; $100 per pay for family plan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dental and Vision Insurance - No cost to employee&lt;/p&gt;
+&lt;p&gt;Group Life Insurance - No cost to employee&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Short and Long-Term Disability - No cost to employee&lt;/p&gt;
+&lt;p&gt;Flexible Spending Account (FSA) - Voluntary&lt;/p&gt;
+&lt;p&gt;Paid Time Off (PTO) - Includes vacation and sick time&lt;/p&gt;
+&lt;p&gt;12 Paid Holidays per Year&lt;/p&gt;
+&lt;p&gt;Leaves of Absence for Medical or Family Reasons&lt;/p&gt;
+&lt;p&gt;Retirement Plans: &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Participation in Social Security - Includes Employee Voluntary Contribution and Employer Discretionary Contribution&lt;/li&gt;
+&lt;li&gt;Social Security Alternative - Includes Employee Contribution with Employer Matching Contribution, Employee Voluntary Contribution, and Employer Discretionary Contribution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*&lt;em&gt;All benefits begin on first day of employment&lt;/em&gt;&lt;/p&gt;
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 331
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 224
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 1124
+        
+        Responsibilities: &lt;strong&gt;Essential Functions:&lt;/strong&gt;&lt;br /&gt;An employee at this level is required to perform some or all of the following duties, which do not include all tasks to be performed:&lt;br /&gt;&amp;bull; Lead staff for conducting data analytics for performance improvement projects&lt;br /&gt;&amp;bull; Develop methods for monitoring of performance indicators&lt;br /&gt;&amp;bull; Develop data reports and queries related to identified areas&lt;br /&gt;&amp;bull; Provide data support for gap analysis and network management&lt;br /&gt;&amp;bull; Provide interpretation of data analysis for staff&lt;br /&gt;&amp;bull; Create documentation of system processes related to report and query development&lt;br /&gt;&amp;bull; Provide staff support related to oversight and contract monitoring of contractor
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 362
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 464
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 295
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 510
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 33
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 412
+        
+        Requirements: &lt;strong&gt;Minimum Qualifications: (An employee must have the following credentials, training, and experience.)&lt;/strong&gt;&lt;br /&gt;&amp;bull; Bachelor&amp;rsquo;s Degree&lt;br /&gt;&amp;bull; Advanced knowledge of Microsoft Word, Excel, and Access&lt;br /&gt;&amp;bull; Working knowledge of statistics&lt;br /&gt;&amp;bull; Excellent written communication skills&lt;br /&gt;&amp;bull; Strong organizational skills&lt;br /&gt;&amp;bull; Ability to present complex information in a concise format&lt;br /&gt;&amp;bull; Knowledge of HIPAA requirements&lt;br /&gt;&amp;bull; Valid State of Michigan Driver&amp;rsquo;s License&lt;br /&gt;&amp;bull; Must have access to transportation&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Preferred Qualifications:&lt;/strong&gt;&lt;br /&gt;&amp;bull; Master&amp;rsquo;s Degree&lt;br /&gt;&amp;bull; Experience with data analytic software&lt;br /&gt;&amp;bull; Experience utilizing PCE System software related to administrative reporting&lt;br /&gt;&amp;bull; Experience working at Pre-Paid Inpatient Health Plan (PIHP) and/or Community Mental Health (CMH)&lt;br /&gt;&amp;bull; Knowledge of State of Michigan Medicaid Provider Manual&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;NOTICE TO APPLICANTS:&lt;/strong&gt;&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;When submitting an application, be sure to include evidence that the minimum qualifications are met (resume, copy of license, copy of educational transcripts,description of years of experience, skill based experience/training, letters of reference, etc.).&lt;/li&gt;
+&lt;li&gt;This position will be hired as employment-at-will.&lt;/li&gt;
+&lt;li&gt;Applicants that meet the initial screening may be subject to a pre-interview test lasting up to two (2) hours.&lt;/li&gt;
+&lt;li&gt;Any offer of employment is contingent upon a Criminal Background Check, as well as a 5 Panel Drug Screen. Potential candidates will be sent for a drug screen at a designated location at their own expense. When results are negative for the drug screen, the candidate will be reimbursed for the cost of the screening.&lt;/li&gt;
+&lt;li&gt;Region 10 PIHP embraces an employment environment that promotes recovery and discovery, a person-centered approach to treatment/services, and cultural competence. An employee in this or any position is expected to support the employment environment.&lt;/li&gt;
+&lt;li&gt;Region 10 PIHP provides equal employment opportunities (EEO) to applicants for employment without regard to race, color, religion, sex, national origin, age, disability or genetics. In addition to federal law requirements, Region 10 PIHP complies with applicable state and local laws governing nondiscrimination in employment.&lt;/li&gt;
+&lt;/ul&gt;
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 287
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 302
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 90
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 1143
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 508
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 3266
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 3418
+            Entity of type com.vizirecruiter.common.domain.model.Label with id: 2625
+        
+    
+
+  
+    document.viziConfig = {
+      template: 'template1',
+      pathPrefix: '/'
+};
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+
+     {
+    "@context" : "http://schema.org/",
+    "@type" : "JobPosting",
+    "title" : "Data Analyst",
+    "description" : "Introduction&lt;h3&gt;Are you looking for a career filled with purpose and opportunity?&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-family: arial,helvetica,sans-serif; font-size: medium;&quot;&gt;Region 10 PIHP is a Recovery friendly environment that strives to create an employment atmosphere that promotes recovery and discovery, a person-centered approach to treatment/services, and cultural competence.&amp;nbsp; An employee in this or any position is expected to support the employment environment.&lt;/span&gt;&lt;/h3&gt;Overview&lt;p&gt;In addition to a career filled with purpose and opportunity, Region 10 PIHP offers a comprehensive benefits package including:&lt;/p&gt;
+&lt;p&gt;Blue Cross Blue Shield (BCBS) PPO Medical Insurance Plan:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;80% Coinsurance - Employee pays: $0 per pay for single plan; $20 per pay for two-person plan; $25 per pay for family plan&lt;/li&gt;
+&lt;li&gt;90% Coinsurance - Employee pays: $30 per pay for single plan; $95 per pay for two-person plan; $100 per pay for family plan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Dental and Vision Insurance - No cost to employee&lt;/p&gt;
+&lt;p&gt;Group Life Insurance - No cost to employee&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Short and Long-Term Disability - No cost to employee&lt;/p&gt;
+&lt;p&gt;Flexible Spending Account (FSA) - Voluntary&lt;/p&gt;
+&lt;p&gt;Paid Time Off (PTO) - Includes vacation and sick time&lt;/p&gt;
+&lt;p&gt;12 Paid Holidays per Year&lt;/p&gt;
+&lt;p&gt;Leaves of Absence for Medical or Family Reasons&lt;/p&gt;
+&lt;p&gt;Retirement Plans: &amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Participation in Social Security - Includes Employee Voluntary Contribution and Employer Discretionary Contribution&lt;/li&gt;
+&lt;li&gt;Social Security Alternative - Includes Employee Contribution with Employer Matching Contribution, Employee Voluntary Contribution, and Employer Discretionary Contribution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*&lt;em&gt;All benefits begin on first day of employment&lt;/em&gt;&lt;/p&gt;Responsibilities&lt;strong&gt;Essential Functions:&lt;/strong&gt;&lt;br /&gt;An employee at this level is required to perform some or all of the following duties, which do not include all tasks to be performed:&lt;br /&gt;&amp;bull; Lead staff for conducting data analytics for performance improvement projects&lt;br /&gt;&amp;bull; Develop methods for monitoring of performance indicators&lt;br /&gt;&amp;bull; Develop data reports and queries related to identified areas&lt;br /&gt;&amp;bull; Provide data support for gap analysis and network management&lt;br /&gt;&amp;bull; Provide interpretation of data analysis for staff&lt;br /&gt;&amp;bull; Create documentation of system processes related to report and query development&lt;br /&gt;&amp;bull; Provide staff support related to oversight and contract monitoring of contractorRequirements&lt;strong&gt;Minimum Qualifications: (An employee must have the following credentials, training, and experience.)&lt;/strong&gt;&lt;br /&gt;&amp;bull; Bachelor&amp;rsquo;s Degree&lt;br /&gt;&amp;bull; Advanced knowledge of Microsoft Word, Excel, and Access&lt;br /&gt;&amp;bull; Working knowledge of statistics&lt;br /&gt;&amp;bull; Excellent written communication skills&lt;br /&gt;&amp;bull; Strong organizational skills&lt;br /&gt;&amp;bull; Ability to present complex information in a concise format&lt;br /&gt;&amp;bull; Knowledge of HIPAA requirements&lt;br /&gt;&amp;bull; Valid State of Michigan Driver&amp;rsquo;s License&lt;br /&gt;&amp;bull; Must have access to transportation&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Preferred Qualifications:&lt;/strong&gt;&lt;br /&gt;&amp;bull; Master&amp;rsquo;s Degree&lt;br /&gt;&amp;bull; Experience with data analytic software&lt;br /&gt;&amp;bull; Experience utilizing PCE System software related to administrative reporting&lt;br /&gt;&amp;bull; Experience working at Pre-Paid Inpatient Health Plan (PIHP) and/or Community Mental Health (CMH)&lt;br /&gt;&amp;bull; Knowledge of State of Michigan Medicaid Provider Manual&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;NOTICE TO APPLICANTS:&lt;/strong&gt;&lt;br /&gt;
+&lt;ul&gt;
+&lt;li&gt;When submitting an application, be sure to include evidence that the minimum qualifications are met (resume, copy of license, copy of educational transcripts,description of years of experience, skill based experience/training, letters of reference, etc.).&lt;/li&gt;
+&lt;li&gt;This position will be hired as employment-at-will.&lt;/li&gt;
+&lt;li&gt;Applicants that meet the initial screening may be subject to a pre-interview test lasting up to two (2) hours.&lt;/li&gt;
+&lt;li&gt;Any offer of employment is contingent upon a Criminal Background Check, as well as a 5 Panel Drug Screen. Potential candidates will be sent for a drug screen at a designated location at their own expense. When results are negative for the drug screen, the candidate will be reimbursed for the cost of the screening.&lt;/li&gt;
+&lt;li&gt;Region 10 PIHP embraces an employment environment that promotes recovery and discovery, a person-centered approach to treatment/services, and cultural competence. An employee in this or any position is expected to support the employment environment.&lt;/li&gt;
+&lt;li&gt;Region 10 PIHP provides equal employment opportunities (EEO) to applicants for employment without regard to race, color, religion, sex, national origin, age, disability or genetics. In addition to federal law requirements, Region 10 PIHP complies with applicable state and local laws governing nondiscrimination in employment.&lt;/li&gt;
+&lt;/ul&gt;",
+    "datePosted" : "2017-09-08T17:05:44.220Z",
+    "hiringOrganization" : {
+      "@type" : "Organization",
+        "sameAs" : "http://www.region10pihp.org",
+      "name" : "Region 10 PIHP"
+    },
+    "jobLocation" : {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+          "streetAddress": "3111
+     Electric Avenue",
+          "addressLocality": "Port Huron",
+          "addressRegion": "MI",
+          "postalCode": "48060",
+          "addressCountry": "US"
+      }
+    }
+  }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+

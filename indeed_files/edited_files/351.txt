@@ -1,0 +1,582 @@
+
+
+
+Halfaker and Associates Careers
+
+  
+
+
+
+
+
+
+
+ 
+  
+  
+
+  
+
+
+
+
+
+
+function clear_search() {document.search_form.search_phrase.value= "";}
+
+window.onload=function()
+{
+
+if(""=="yes")
+{
+  
+}
+}
+
+
+
+ 
+<script src="https://halfakercareers.silkroad.com:443/eprise/main/SiteGen/Skins/ps_resp_layout/SupportPages/doubletaptogo.min.js"
+
+	$( function()
+	{
+		$( '#nav_main li:has(ul)' ).attr('aria-haspopup','true').doubleTapToGo();
+
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+function funcWriteBreadcrumbNav(BreadCrumbList) {
+	var sOutputBreadcrumbNav = new String();
+	var sClass = null;
+	var sUrl = null;
+	var sText = null;
+	var nLevel = null;
+	var aryThisLink = null;
+
+                    var sBreadCrumbOnOff ="Off";
+                    if (sBreadCrumbOnOff.length ==0) sBreadCrumbOnOff = "Off";
+                    if (sBreadCrumbOnOff.toLowerCase() == "off") return sOutputBreadcrumbNav;
+                    if ("" == "8") return sOutputBreadcrumbNav;
+
+//alert("BreadCrumbList is " + BreadCrumbList);
+
+       var sTemp = "";
+	
+	//Added variables to grab information for the current page
+
+	var sCurrentPath = "/hcext/UnplacedPages/OH_JobWrapper";
+	var sCurrentPage = "OpenHire Internal Page [do not delete]";
+
+	var arySubNav = unescape(BreadCrumbList);
+	//arySubNav = arySubNav.split("");
+	arySubNav = arySubNav.split(";");
+
+    //sOutputBreadcrumbNav += ""
+
+	var nLen = arySubNav.length;
+	for(var i = 0; i ";
+		// items
+
+         var sIndex = sText.indexOf("_subnav");
+         //   sOutputBreadcrumbNav += sIndex;
+
+        if(sText!=sTemp && sIndex " + sText.toLowerCase() + " &gt; ";
+				sOutputBreadcrumbNav += "" + sText + "&gt; ";
+				
+			//check if page is a bodylink	
+			} else if (i>=nLen-1 && sUrl!=sCurrentPath){
+				//--write out last page in bc list
+				sOutputBreadcrumbNav += "" + sText + "&gt; ";
+				//--- bl-last item
+				sOutputBreadcrumbNav += "" + sCurrentPage + "";
+			} else {
+				//--- last item
+				sOutputBreadcrumbNav += "" + sText + "";
+			}
+			
+              sTemp = sText;
+	     }
+
+			
+	}
+	
+    sOutputBreadcrumbNav += "";
+    //sOutputBreadcrumbNav += "";
+
+	return sOutputBreadcrumbNav;
+}
+
+
+
+
+
+
+
+			
+
+			
+
+			
+
+			
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+					var productVersion = "2017.5"; var timeoutSeconds = 3600; var timeoutWarningSeconds = 300; var displayTimeWarning = 0; var isCandidateLoggedIn = false; var companyId = 17219; var ep_version = 1;
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+
+
+
+
+
+
+   
+     
+
+
+
+   
+
+
+  
+    Show navigation
+    Hide navigation
+    
+
+       HomeEmployment Listings			
+				
+					Search Current Openings
+				
+				
+					Update Your Profile
+				
+				
+					Create a Job Agent
+				
+				
+					Update Job Agent
+				
+			
+Life at HalfakerContinuing to Serve			
+				
+					Hiring Military and Veterans
+				
+			
+Benefits
+
+    
+  
+
+  
+     
+  var sPageName = "OH_JobWrapper";
+  if (sPageName.length !=0) sPageName = sPageName.toLowerCase();
+
+  if(sPageName !="home.html")
+    document.write(funcWriteBreadcrumbNav("Home,/;Employment%20Listings,/hcext/EmploymentListings.html"));
+
+  
+
+   
+      
+    
+
+
+
+
+
+
+
+  Your user session will timeout in 5 minutes.  Please click OK to continue with your application.
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+		
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					Data Analyst
+
+				
+
+			
+
+			
+
+				
+
+					
+
+						Tracking Code
+
+					
+
+					
+
+						667-219 
+
+					
+
+				
+
+				
+
+					
+
+						Job Description
+
+					
+
+					
+
+						Halfaker and Associates, an award winning high growth small business, creates innovative and customer-centric technology solutions in the areas of Cyber Security, Data Analytics, Software Engineering and IT Infrastructure to improve the health, security and well-being of all Americans. Our commitment to excellence and our vision to &ldquo;Continue to Serve&rdquo; has resulted in steady growth and an expanding client base across government agencies in the health, defense, security and intelligence sectors. Headquartered in Arlington, VA, we have employees nationwide and were recently named a 2016 Top Work Place by the Washington Post. Please take a moment to browse through our website and learn more about what it means to serve with Halfaker.
+
+&nbsp;
+
+Halfaker has an opening for a Senior Data Visualization Associate to join our talented, dynamic team in support of the Data Analytics Support Services for the Financial Services Center program. The key responsibilities for this position include:
+
+
+
+Serve as first responder to data problems
+
+Perform initial data management task, such as conduct data profiling,&nbsp;assess data quality, write SQL queries to extract, and integrate data
+
+Conduct basic to intermediate data analytics tasks, such as Exploratory Data Analysis (EDA), running summary statistics, and performing data mining tasks using R, Python, SAS, or Spotfire
+
+Develop data visualization products using Tibco Spotfire
+
+
+
+					
+
+				
+
+				
+
+					
+
+						Required Skills
+
+					
+
+					
+
+						
+
+Intermediate to advance SQL experience
+
+Ability to program using R, Python, or SQL to conduct exploratory data analysis
+
+Basic understanding of the statistics behind the most common data mining techniques
+
+Understand the concepts of visualizing data using various Business Intelligence &amp; Analytics tools
+
+Experience using Tibco Spotfire or comparable data visualization product
+
+Experience working at the US Department of Veterans Affairs
+
+Experience performing analysis on financial metrics, supply chain, and fraud detection
+
+Experience applying and implementing Knowledge Discovery and Data Mining (KDDM) frameworks and CRISP-DM methodology
+
+Strong verbal and written communication skills
+
+Strong attention to detail and excellent customer service
+
+Advanced degree
+
+Experience with IBM Rational suite
+
+Proficiency in Microsoft Office suite
+
+
+
+					
+
+				
+
+					
+
+						Required Experience
+
+					
+
+					
+
+						
+
+Bachelor&rsquo;s degree or equivalent work experience
+
+5+ years of relevant experience
+
+
+
+Halfaker and Associates is committed to hiring and retaining a diverse workforce. We are proud to be an Equal Opportunity/Affirmative Action Employer, making decisions without regard to race, color, religion, creed, sex, sexual orientation, gender identity, marital status, national origin, age, veteran status, disability, or any other protected class. U.S. Citizenship is required for most positions.
+
+					
+
+				
+
+					
+
+						Job Location
+
+					
+
+					
+
+						Austin, Texas, United States
+
+					
+
+				
+
+					
+
+						Position Type
+
+					
+
+					
+
+						Full-Time/Regular
+
+					
+
+				
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					
+
+						
+
+							Apply
+
+						
+
+					
+
+					
+
+						
+
+						
+
+						
+
+								
+
+								
+
+								
+
+							
+
+					
+
+				
+
+				
+
+					
+
+						
+
+							
+
+								Share
+
+							
+
+						
+
+						
+
+							
+
+							
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+							
+
+							
+
+							
+
+						
+
+					
+
+				
+
+			
+
+			
+
+				
+
+					Return To Job Listings
+
+				
+
+				
+
+			
+
+		
+
+	
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+Site Map |
+&copy; 2017 Halfaker and Associates, LLC. All rights reserved. 
+
+
+
+&nbsp;
+
+
+
+   
+
+        
+
+    
+
+
+
+
+
+ 
+
+		,\n\t\t       \n\t\t\t  ","FORMATLOCALEID":1674,"PHONEREGEX":"^([+])?([1]( |-|\\.)?)?(\\(?[1-9]{1}[0-9]{2}\\)?|[1-9]{1}[0-9]{2})( |-|\\.)?([0-9]{3}( |-|\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$"}
+
+		-->
+
+	

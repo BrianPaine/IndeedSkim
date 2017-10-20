@@ -1,0 +1,595 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Steward Health Care | CAREERS
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+  
+
+  
+
+    
+
+      
+
+        
+
+          
+
+            
+
+              Steward.org
+
+            
+
+          
+
+        
+
+        
+
+      
+
+    
+
+    
+
+      
+
+        
+
+              
+
+        
+
+        
+
+          
+
+            
+
+              Returning Applicant?LOG IN NOW 
+
+            
+
+            
+
+          
+
+        
+
+      
+
+    
+
+    Returning Applicant?LOG IN NOW 
+
+    
+
+      
+
+        
+
+          
+
+            
+
+              
+
+                 Toggle navigation    
+
+              
+
+               
+
+                
+
+      
+
+    
+
+    
+
+  -->
+
+                
+
+                    Home  
+
+                    Job Search  
+
+                    All Jobs  
+
+                    
+
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+
+                  
+
+                
+
+                <!----> 
+
+              
+
+            
+
+          
+
+           
+
+        
+
+        facebook--> 
+
+      
+
+    
+
+  
+
+  
+
+     
+
+
+
+      
+
+      
+
+      
+
+          
+
+      
+
+      
+
+   
+
+    
+
+  
+
+
+
+
+
+
+
+    
+
+        It has been determined that you are currently running a &quot;Popup Blocker&quot;. In order to continue, please allow this site from within your &quot;Popup
+
+        Blocker&quot; preferences.
+
+    
+
+
+
+
+
+
+
+
+
+
+
+	function toggleElement(element){
+
+		if(document.getElementById(element).style.display == 'none'){
+
+	   		document.getElementById(element).style.display = '';
+
+	 	}
+
+	 	else if(document.getElementById(element).style.display != 'none'){
+
+	   		document.getElementById(element).style.display = 'none';
+
+	 	}
+
+	}
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+			
+
+      		
+
+		
+
+	
+
+
+
+  	
+
+  	
+
+	
+
+	  	
+
+		  	Send this job to a friend
+
+		
+
+  	
+
+
+
+  	
+
+		
+
+			Data Analyst
+
+		
+
+			
+
+				Category:
+
+				Management/ Professional
+
+                Schedule:
+
+				
+
+			
+
+			
+
+				Facility:
+
+				SHCN
+
+                Shift:
+
+				
+
+			
+
+			
+
+				Department:
+
+				Steward Health Care Network
+
+                Hours:
+
+				
+
+			
+
+			
+
+				Req Number:
+
+				42731                         
+
+                Union:
+
+                No
+
+			
+
+    
+
+    
+
+	  	Job Details:
+
+      		
+
+		POSITION SUMMARY:Reporting to the Lead of Strategic Analytics, the Data Analyst participates on a team to meet the information, reporting, and analytic needs of Steward Health Care Network (SHCN).  KEY RESPONSIBILITIES:  As an experienced member of the Analytics Team, the Data Analyst performs the following functions:•&nbsp;Develop comprehensive, timely and accurate analyses, reports and presentations on utilization, care retention, risk performance, care management, and quality metrics on population health efforts contracts for SHCN•&nbsp;Develop, compile and disseminate key reports and dashboards to SHCN leadership teams•&nbsp;Provide support to key analytic initiatives by consolidating disparate data files and cleaning data so analyses and reporting is accurate•&nbsp;Support ad hoc analytic requests, providing accurate and timely data, analysis and insightful interpretations•&nbsp;Support senior analysts and managers with analytic projects and development of performance/projection models•&nbsp;Work with SHCN staff&nbsp; to assure data accuracy and integrity•&nbsp;Support all necessary miscellaneous duties/tasks to support the analytic needs of the organization  REQUIRED KNOWLEDGE &amp; SKILLS:  •&nbsp;Possess strong analytic and technical skills plus an ability to translate complicated data into useable information•&nbsp;Possess strong skills in Excel, Access and PowerPoint and preferably SQL•&nbsp;Demonstrated knowledge of relationships between health plans and providers, including a working knowledge of health care data&nbsp; (preferred, but not required)•&nbsp;Excellent verbal and written communication skills, outstanding interpersonal skills and ability to relate positively with individuals at all levels of the organization•&nbsp;Creative, flexible, and self-motivated with sound judgment; ability to plan and implement•&nbsp;Commitment to service excellence and learning new health analytic concepts  EDUCATION/EXPERIENCE/LICENSURE/TECHNICAL/OTHER:I.&nbsp;Education:&nbsp; Bachelor's degree in mathematics, analytics, information systems, health administration or relevant field requiredII.&nbsp;Experience: At least 1-2 years of analytic experience, preferably in healthcare environmentIII.&nbsp;Certification/Licensure:&nbsp; N/AIV.&nbsp;Software/Hardware: SQL, Excel, Access, PowerPoint and/or other query/analytic tools 
+
+	    
+
+    
+
+  	
+
+	
+
+  	
+
+		
+
+		    
+
+            
+
+                Current Steward Health Care System Employees - Click Here to Apply
+
+            
+
+            
+
+                
+
+                
+
+                    All Other Applicants - Click Here to Apply
+
+                
+
+            
+
+	
+
+	
+
+	
+
+		External Application Confirm
+
+		
+
+			Are you sure you want to continue as a EXTERNAL applicant?
+
+			
+
+				
+
+					Yes
+
+				
+
+				
+
+					No
+
+				
+
+				
+
+			
+
+		
+
+	
+
+	
+
+	
+
+		Internal Application Confirm
+
+		
+
+			Are you sure you want to continue as a INTERNAL applicant?
+
+			
+
+				
+
+					Yes
+
+				
+
+				
+
+					No
+
+				
+
+				
+
+			
+
+		
+
+						
+
+	
+
+
+
+	
+
+
+
+	
+
+
+
+	
+
+	  	
+
+		  	
+
+			
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+  back to top
+
+
+
+
+
+
+
+ 
+
+   Copyright &copy; 2016  Steward Health Care 
+
+
+
+
+
+
+
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+      ga('create', 'UA-7554596-44', 'auto');
+
+      ga('send', 'pageview');
+
+     
+
+
+
+
+
+
+
+ 
+
+  	
+
+		
+
+		
+
+			
+
+			
+
+			
+
+				var urlFusebox = "https://www.healthcaresource.com/steward/index.cfm";
+
+
+
+				var intservergroupid = "4000";
+
+
+
+				var intapplicationid = "2004";
+
+
+
+			
+
+			var struserlogin = 'anonymous';
+
+			var struserlogin_hcs = '';
+
+			var blnimpersonation = 'no';
+
+			var struseremail = '';
+
+			var strpm10role = '';
+
+			
+
+			
+
+			
+
+			try {
+
+				sendToPendo(urlFusebox,intservergroupid,intapplicationid,struserlogin,struserlogin_hcs,blnimpersonation,struseremail,strpm10role);	
+
+			}
+
+			catch (e) {
+
+				console.log(e);
+
+			}
+
+		
+
+	

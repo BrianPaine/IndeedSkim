@@ -1,0 +1,695 @@
+
+
+
+
+
+
+
+
+
+    
+        
+    Data Scientist at Arimo, Inc.
+
+
+        
+
+        
+            
+        
+
+        
+        
+        
+
+        
+            
+        
+
+        
+        try{Typekit.load();}catch(e){}
+
+        
+        
+
+        
+    
+    
+    
+    
+    
+    
+    
+        
+
+ {
+    "@context" : "http://schema.org/",
+    "@type" : "JobPosting",
+    "title" : "Data Scientist",
+    "description" : "&lt;p&gt;Independently named by FastCompany as &lt;a href=&quot;https://www.fastcompany.com/most-innovative-companies/2016/sectors/data-science&quot;&gt;one of the world&amp;rsquo;s most innovative companies in data science&lt;/a&gt;, Arimo&amp;rsquo;s Behavioral AI software is aimed at delivering predictive insights in commercial IoT applications.&lt;/p&gt;
+&lt;p&gt;Arimo&#39;s capabilities harness the behavior&amp;nbsp;of machines, devices, customers, and other entities to provide the most accurate predictions utilizing Deep Learning. With Arimo Behavioral AI&amp;trade;, leading companies are creating competitive advantage through new predictive insights, and delivering new services to their customers.&lt;/p&gt;
+&lt;p&gt;Our strong team includes executives with deep product and engineering experience. They have held senior positions at Google, Yahoo, Amazon, SAP, Microsoft, and VMware. Team members hold advanced degrees in computer science and business from leading universities. Arimo is funded by Andreessen Horowitz, Lightspeed Ventures, and Bloomberg Beta. To learn more, visit us at &lt;a href=&quot;http://www.arimo.com&quot;&gt;www.arimo.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Arimo is growing rapidly and now offering a position for &lt;strong&gt;Data Scientist&lt;/strong&gt;. Passionate about digging into massive data sets and extracting&amp;nbsp;data-driven insights to address complex business problems through analysis and visualization? Join us and become a part of this exciting journey!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract, analyze, and apply data-mining and machine learning techniques to large structured and unstructured datasets&lt;/li&gt;
+&lt;li&gt;Design and analyze experiments to test new features &amp;amp; products&lt;/li&gt;
+&lt;li&gt;Develop new algorithms and models for product improvement&lt;/li&gt;
+&lt;li&gt;Work with product managers, designers, and engineers to build new features and products&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Required Skills and Qualifications&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2+ years of experience working with large amounts of real data&lt;/li&gt;
+&lt;li&gt;Expertise in at least one statistical software package, preferably R&lt;/li&gt;
+&lt;li&gt;Experience with visualization tools such as d3, matplotlib, ggplot&lt;/li&gt;
+&lt;li&gt;Experience with ETL &amp;amp; ML tools in R, Python, and Java such as scikit-learn, pandas, matplotlib, statsmodel, iPython, Weka&lt;/li&gt;
+&lt;li&gt;Proficiency in SQL&lt;/li&gt;
+&lt;li&gt;Advanced skills in a scripting language such as Python&lt;/li&gt;
+&lt;li&gt;Experience in Hadoop/Spark and/or other MapReduce paradigms is a plus&lt;/li&gt;
+&lt;li&gt;Experience in Deep Learning is a plus&lt;/li&gt;
+&lt;li&gt;Ability to translate business objectives into actionable analyses&lt;/li&gt;
+&lt;li&gt;Ability to communicate findings clearly to both technical and non-technical audiences&lt;/li&gt;
+&lt;li&gt;Top-down thinker, excellent communicator, and great problem solver. Must be an active team player&lt;/li&gt;
+&lt;li&gt;Open-minded and excited to learn new things. Have strong opinions but willing to change with new data&lt;/li&gt;
+&lt;li&gt;Ms/Ph.D. in a CS or related discipline with domain expertise in Machine Learning, Statistics, Information Retrieval, or Graph Analysis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Arimo offers competitive compensation packages commensurate with your experience. Offer includes full benefits, company stock options, continual career &amp;amp; compensation growth, and many other perks.&lt;/p&gt;",
+
+    "jobLocation" : {
+        "@type" : "Place",
+        "address" : {
+            "@type" : "PostalAddress",
+            "addressLocality" : "Mountain View",
+            "addressRegion" : "CA",
+            "postalCode" : "None",
+            "addressCountry": "United States"
+        }
+    },
+
+    "datePosted" : "2017-09-27",
+    "employmentType" : "FULL_TIME",
+
+    "identifier": {
+        "@type": "PropertyValue",
+        "name": "Arimo, Inc.",
+        "value": "fk0ahw"
+    },
+
+    "hiringOrganization" : {
+        "@type" : "Organization",
+        "name" : "Arimo, Inc."
+         ,"sameAs": "http://www.arimo.com/"
+    }
+}
+
+
+    
+
+
+        
+        
+
+        
+    window.addEventListener("message", receiveMessage, false);
+
+    function receiveMessage(event)
+    {
+        if (event.origin !== "https://app.recruiterbox.com")
+            return;
+
+        var data = event.data;
+
+        if (data === 'FINISHED_LOADING_LINKEDIN_JS') {
+            $('.js-apply-with-linkedin').removeClass('hide');
+        } else if (data === 'PROFILE_DATA_BEING_FETCHED') {
+            show_application_form();
+            show_loading_overlay();
+        } else if (data.message == 'ERROR_WHILE_FETCHING_PROFILE_DATA') {
+            hide_loading_overlay();
+            show_application_form();
+            _RB.logToRollbar(data.error);
+        } else if (data.message == 'LINKEDIN_PROFILE_DATA') {
+            populateFields(data.firstName, data.lastName, data.emailAddress, data.summary, data.publicProfileUrl)
+        }
+    }
+
+    function populateFields(first_name, last_name, email, summary, linkedin_public_profile_url) {
+        hide_loading_overlay();
+        show_application_form();
+        var first_name_field = $('#id_candidate_first_name');
+        var last_name_field = $('#id_candidate_last_name');
+        var email_field = $('#id_candidate_email');
+        var summary_field = $('#id_linkedin_profile_summary');
+        var linkedin_public_profile_url_field = $('#id_linkedin_public_profile_url');
+
+        first_name_field.val(first_name);
+        last_name_field.val(last_name);
+        email_field.val(email);
+        summary_field.val(summary);
+        linkedin_public_profile_url_field.val(linkedin_public_profile_url);
+    }
+
+    function clickOnLinkedinButton() {
+        var iframe = document.querySelector("#js-linkedin-btn-iframe");
+        var iframeWindow = iframe.contentWindow;
+        iframeWindow.postMessage("CLICK_ON_LINKEDIN_BUTTON", "*");
+    }
+
+
+    
+
+
+    
+
+        
+            
+
+
+
+
+
+        
+
+        
+            
+                
+                    
+
+
+    
+    
+    
+        
+            
+            
+                
+            
+            
+        
+        
+            
+                
+                    www.arimo.com
+                
+                
+                    Website
+                    
+                
+            
+        
+    
+
+    
+    
+
+
+                
+            
+        
+
+        
+            
+        
+
+        
+            
+            
+                
+    
+
+    
+    
+    
+
+
+
+    (function (d, s, id) {
+        var js, iajs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.async = true;
+        js.src = "https://apply.indeed.com/indeedapply/static/scripts/app/bootstrap.js";
+        iajs.parentNode.insertBefore(js, iajs);
+    }(document, 'script', 'indeed-apply-js'));
+
+
+    
+        
+            Data Scientist
+            
+                Mountain View, CA, United States
+                
+                Full-time
+                
+
+                
+            
+        
+    
+    
+        
+
+            
+              
+              
+              Independently named by FastCompany as one of the world’s most innovative companies in data science, Arimo’s Behavioral AI software is aimed at delivering predictive insights in commercial IoT applications.
+Arimo's capabilities harness the behavior of machines, devices, customers, and other entities to provide the most accurate predictions utilizing Deep Learning. With Arimo Behavioral AI™, leading companies are creating competitive advantage through new predictive insights, and delivering new services to their customers.
+Our strong team includes executives with deep product and engineering experience. They have held senior positions at Google, Yahoo, Amazon, SAP, Microsoft, and VMware. Team members hold advanced degrees in computer science and business from leading universities. Arimo is funded by Andreessen Horowitz, Lightspeed Ventures, and Bloomberg Beta. To learn more, visit us at www.arimo.com
+Arimo is growing rapidly and now offering a position for Data Scientist. Passionate about digging into massive data sets and extracting data-driven insights to address complex business problems through analysis and visualization? Join us and become a part of this exciting journey!
+Responsibilities
+
+Extract, analyze, and apply data-mining and machine learning techniques to large structured and unstructured datasets
+Design and analyze experiments to test new features &amp; products
+Develop new algorithms and models for product improvement
+Work with product managers, designers, and engineers to build new features and products
+
+Required Skills and Qualifications
+
+2+ years of experience working with large amounts of real data
+Expertise in at least one statistical software package, preferably R
+Experience with visualization tools such as d3, matplotlib, ggplot
+Experience with ETL &amp; ML tools in R, Python, and Java such as scikit-learn, pandas, matplotlib, statsmodel, iPython, Weka
+Proficiency in SQL
+Advanced skills in a scripting language such as Python
+Experience in Hadoop/Spark and/or other MapReduce paradigms is a plus
+Experience in Deep Learning is a plus
+Ability to translate business objectives into actionable analyses
+Ability to communicate findings clearly to both technical and non-technical audiences
+Top-down thinker, excellent communicator, and great problem solver. Must be an active team player
+Open-minded and excited to learn new things. Have strong opinions but willing to change with new data
+Ms/Ph.D. in a CS or related discipline with domain expertise in Machine Learning, Statistics, Information Retrieval, or Graph Analysis
+
+Arimo offers competitive compensation packages commensurate with your experience. Offer includes full benefits, company stock options, continual career &amp; compensation growth, and many other perks.
+              
+              
+            
+
+            
+                
+                
+                    
+                        
+                            Apply for this opening
+                        
+                        
+                            
+                                
+                                    
+                                        
+                                        Apply with Linkedin
+                                    
+                                
+                            
+                        
+                        
+                            
+                                
+                                    
+
+                                    Apply with Indeed
+                                
+                            
+                        
+                    
+
+                    Apply for this opening at 
+                        http://arimo.recruiterbox.com/jobs/fk0ahw?apply=true
+                    
+                    
+                        
+                            
+                                
+                                     Other openings at Arimo, Inc.
+                                
+                                See all the jobs at Arimo, Inc. here: 
+                                    http://arimo.recruiterbox.com/jobs
+                                
+                                
+                            
+                        
+                    
+                
+                
+
+                
+                    
+                        
+                        Fetching your Linkedin profile ...
+                    
+                    
+
+
+
+    
+        
+            
+                Application Form
+            
+            
+                
+                    
+                        
+                        Apply with Linkedin
+                    
+                
+            
+            
+                
+                    
+                        
+
+                        Apply with Indeed
+                    
+                
+            
+        
+
+        
+
+        
+            
+
+            
+                
+                    
+                        First Name
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Last Name
+                        
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Email
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Phone
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Resume
+                         *
+                    
+                    
+                    
+                
+            
+
+            
+                
+                
+                
+                
+                
+                
+                
+                
+            
+
+        
+    
+
+
+                
+
+                
+                    Thanks for your time
+                
+            
+        
+
+        
+            
+                
+
+
+    
+        
+            Apply for this opening
+
+            
+                
+
+                
+                    
+                    Apply with Linkedin
+                
+            
+
+            
+                
+                    
+
+                    Apply with Indeed
+                
+            
+
+        
+
+    
+        share this opening with friends
+
+        
+
+        
+
+        
+
+        
+
+    
+    
+
+
+                
+
+                
+                    
+                         Other openings at Arimo, Inc.
+                    
+                    See all the jobs at Arimo, Inc. here: 
+                        http://arimo.recruiterbox.com/jobs
+                    
+                    
+                
+
+                
+            
+        
+    
+
+                
+            
+            
+        
+
+        
+
+        
+            
+                
+                    
+                        
+                    
+                    
+                        powered by
+                        Recruiterbox
+                    
+                
+            
+        
+    
+    
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSXJKT');
+
+
+
+    
+    
+    
+    
+    window.jQuery || document.write('')
+
+    focus_first_field_application_form();
+    $.fn.scrollView = function () {
+        return this.each(function () {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top
+        }, 400);
+        });
+    }
+
+    $(window).on('ready',function() {
+        $("#application_form_holder").scrollView();
+        $('.eeoc-form-description')
+        .popover()
+        .on('shown.bs.popover', function () {
+            var span = $('#super-user-email');
+            if (span) {
+                var a = document.createElement('a');
+                a.href = 'mailto:annieha@arimo.com';
+                a.target = '_blank';
+                a.text = 'annieha@arimo.com';
+                span[0].appendChild(a);
+            }
+        });
+        
+        $('[data-toggle="popover"]').popover()
+        
+
+        $( '#div_apply_to_job a.btn-apply' ).click( show_application_form );
+        $( '.js-apply-for-job' ).click( show_application_form );
+
+        $('.date_input_box').datepicker({ dateFormat: 'dd M yy' });
+
+        
+
+        $('[data-loading-text]').button();
+        $('[data-loading-text]').on('click', function(){
+            $(this).button('loading');
+        });
+
+        $('.js-apply-with-indeed').click(function () {
+            var new_url = getApplyWithIndeedUrl();
+            window.location.href = new_url;
+        });
+    });
+
+    function getApplyWithIndeedUrl() {
+        var indeed_fragment = "apply_with_indeed=true";
+        var current_url = window.location.href;
+
+        if (current_url.indexOf(indeed_fragment) !== -1) {
+            return current_url;
+        }
+
+        if (current_url.indexOf('?') !== -1) {
+            return current_url + '&' + indeed_fragment;
+        }
+
+        return current_url + '?' + indeed_fragment;
+    }
+
+    function focus_first_field_application_form(e) {
+        e && e.preventDefault();
+        $('#job_application_form').find(':input:not(:hidden):first').focus();
+    }
+
+    function handleCancelButtonClick() {
+            $('#application_form_holder').hide();
+            $('#eeoc_cancel_message').show();
+    }
+
+    function indeedApplySuccess(elem) {
+        $('#indeed_application_form').submit()
+    }
+
+    function show_application_form(e) {
+        if ( e ) {
+            e.preventDefault();
+        }
+        $('#div_apply_to_job').hide();
+        $('#application_form_holder').slideDown(function() {
+            $('#application_holder').scrollView();
+            focus_first_field_application_form();
+        });
+    }
+
+    function show_loading_overlay() {
+        $('#application_holder').addClass('application-form-loading');
+        $('#loading-overlay').removeClass('hide');
+    }
+
+    function hide_loading_overlay() {
+        $('#application_holder').removeClass('application-form-loading');
+        $('#loading-overlay').addClass('hide');
+    }
+
+    (function handle_character_limit_on_paragraph() {
+        var show_limit_message = function(e) {
+            var $target = $(e.currentTarget);
+            var max_character = Number($target.data('maxlength'));
+            var current_length = $target.val().length;
+            var remaining_length = max_character - current_length;
+            var message_text = 'Not more than ' + max_character + ' characters';
+
+            if(remaining_length  0) {
+                message_text = remaining_length + ' characters remaining';
+            }
+
+            var message = $('', {
+                class: 'js-max-length-message text-muted',
+                text: ' ('+ message_text +')'
+            });
+            $target.siblings('.js-max-length-message').remove();
+            $target.siblings('label').after(message);
+        };
+
+        var handle_keydown = function(e) {
+            var $target = $(e.currentTarget);
+            var max_character = Number($target.data('maxlength'));
+            var current_length = $target.val().length;
+
+            if ([8, 13, 27, 38, 40, 9, 39, 37].indexOf(e.keyCode) > -1) {
+                return true;
+            }
+
+            if (current_length >= max_character) {
+                return false;
+            }
+        }
+
+        $('textarea[maxlength]')
+            .each(function(idx, item){
+                var $target = $(item);
+                var maxlength = $target.attr('maxlength');
+                $target.removeAttr('maxlength').data('maxlength', maxlength);
+            })
+                .on('keyup', show_limit_message)
+                .on('keydown', handle_keydown)
+                .on('input', show_limit_message)
+                .trigger('keyup');
+    })();
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+

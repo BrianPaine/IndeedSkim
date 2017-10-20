@@ -1,0 +1,1622 @@
+
+
+
+
+
+
+
+
+       
+
+          
+
+          
+
+
+
+
+
+<!--
+
+
+
+	CT and RI Banking Position Details | Savings Institute
+
+
+
+
+
+
+
+
+
+    
+
+  
+
+    .gradient {
+
+       filter: none;
+
+    }
+
+  
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+         var baseUrl = "/"; 
+
+    
+
+
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+                (i[r].q = i[r].q || []).push(arguments)
+
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+
+
+        ga('create', 'UA-18829915-1', 'auto');
+
+        ga('send', 'pageview');
+
+
+
+    
+
+
+
+    
+
+    
+
+        var ezt = ezt || [];
+
+
+
+        (function () {
+
+            var elem = document.createElement('script');
+
+            elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://pixel") + ".quantserve.com/aquant.js?a=p-rZ0dcDP0xtFE4";
+
+            elem.async = true;
+
+            elem.type = "text/javascript";
+
+            var scpt = document.getElementsByTagName('script')[0];
+
+            scpt.parentNode.insertBefore(elem, scpt);
+
+        }());
+
+
+
+        ezt.push({
+
+            qacct: 'p-rZ0dcDP0xtFE4',
+
+            orderid: '',
+
+            revenue: ''
+
+        });
+
+    
+
+    
+
+      
+
+    
+
+    
+
+    
+
+    
+
+        function kVoid() { return; }
+
+        function kenshoo_conv(type, value, orderId, promoCode, valueCurrency) {
+
+            var hostProtocol = (("https:" == document.location.protocol) ? "https" : "http");
+
+            var url = hostProtocol + "://1179.xg4ken.com/media/redir.php?track=1&id=d23e7a19-c1a7-4a69-8f4a-fedac73950b8&type="
+
+            + type + "&val=" + value + "&orderId=" + orderId + "&valueCurrency=" + valueCurrency + "&promoCode=" + promoCode + "&ref=" + document.referrer;
+
+            var a = new Image(1, 1);
+
+            a.src = url;
+
+            a.onload = function () { kVoid(); }
+
+        }
+
+    
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+        
+
+
+
+            skip to content
+
+            skip to sitemap
+
+			
+
+        
+
+            
+
+                
+
+                    
+
+
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+
+
+                            
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+
+
+                                            
+
+    
+
+
+
+	
+
+	Search
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+                                        
+
+                                    
+
+                                    
+
+    
+
+ Locations Contact Us Rates  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+
+
+
+
+
+
+    
+
+        Online Banking Login
+
+    
+
+    
+
+
+
+        
+
+            User ID
+
+            
+
+            Click button to log in
+
+            
+
+        
+
+        
+
+            Enroll a Person
+
+            Enroll a Business
+
+        
+
+
+
+        
+
+            
+
+                additional logins
+
+                
+
+            
+
+            
+
+  Credit Card Login
+
+                    401(k)
+
+                    Access Portfolio
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+                
+
+                
+
+                    
+
+                        
+
+                            
+
+
+
+                                
+
+                                    
+
+                                        
+
+    
+
+PersonalBankingCheckingSavingsOnline BankingMobile BankingCredit CardsDebit CardsDigital WalletsLoansMortgagesHELOC & Home Equity LoansMortgage ConsultantsPersonal LoansInsurance & AnnuitiesInsuranceAnnuities   <!--  Open an account --> 
+    apply for a loan branches &amp; atms %view rates   contact us   BusinessBankingCheckingBusiness Online ExpressCredit CardsServicesCash ManagementCredit Card ProcessingBusiness Deposits Quick Remote CapturePayroll ProcessingPositive Pay Fraud ProtectionWire TransfersAutomatic Clearing House (ACH)LoansVelocity Small Business LendingEquipment LeasingCommercial Lines of CreditCommercial MortgagesTerm LoansResidential Development LoansSBA LoansCommunity Association ServicesCommercial Bankers   <!--  Open an account --> 
+    apply for a loan branches &amp; atms %view rates   contact us   ResourcesResourcesRatesFraud Prevention TipsCalculatorsReorder ChecksAutomatic Loan PaymentBankSmarts eNewsletter   <!--     Open an account --> 
+    apply for a loan branches &amp; atms %view rates   contact us   AboutBank With UsBranch LocationsFlash ATMsGet In TouchContact UsPersonal Banking Contact UsMortgage Consultants Contact UsBusiness Banking Contact UsInsurance Contact UsEquipment Leasing Contact UsAssociation Lending Contact UsEASI Telephone BankingRefer A FriendAbout UsCareersSI Financial Group FoundationCommunityNewsInvestor RelationsDisclosures.BANK Migration   <!--  Open an account --> 
+    apply for a loan branches &amp; atms %view rates   contact us   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    
+
+                                
+
+
+
+                            
+
+                            
+
+                                
+
+
+
+
+
+    
+
+        
+
+            Online Banking Login
+
+            
+
+				User ID
+
+                
+
+                Click button to log in
+
+                
+
+            
+
+            
+
+                
+
+                    Enroll a Person
+
+                    Enroll a Business
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    additional logins
+
+    
+
+                
+
+                
+
+                    Credit Card Login
+
+                    401(k)
+
+                    Access Portfolio
+
+                
+
+            
+
+            
+
+
+
+        
+
+
+
+    
+
+
+
+
+
+                            
+
+                        
+
+                    
+
+
+
+
+
+
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                    
+
+    
+
+PersonalBankingCheckingSavingsOnline BankingMobile BankingCredit CardsDebit CardsDigital WalletsLoansMortgagesHELOC & Home Equity LoansMortgage ConsultantsPersonal LoansInsurance & AnnuitiesInsuranceAnnuitiesBusinessBankingCheckingBusiness Online ExpressCredit CardsServicesCash ManagementCredit Card ProcessingBusiness Deposits Quick Remote CapturePayroll ProcessingPositive Pay Fraud ProtectionWire TransfersAutomatic Clearing House (ACH)LoansVelocity Small Business LendingEquipment LeasingCommercial Lines of CreditCommercial MortgagesTerm LoansResidential Development LoansSBA LoansCommunity Association ServicesCommercial BankersResourcesResourcesRatesFraud Prevention TipsCalculatorsReorder ChecksAutomatic Loan PaymentBankSmarts eNewsletterAboutBank With UsBranch LocationsFlash ATMsGet In TouchContact UsPersonal Banking Contact UsMortgage Consultants Contact UsBusiness Banking Contact UsInsurance Contact UsEquipment Leasing Contact UsAssociation Lending Contact UsEASI Telephone BankingRefer A FriendAbout UsCareersSI Financial Group FoundationCommunityNewsInvestor RelationsDisclosures.BANK Migration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    
+
+
+
+                                        
+
+    
+
+
+
+	
+
+	Search
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+                                    
+
+
+
+                                    
+
+                                        
+
+    
+
+
+
+	
+
+
+		        
+
+           
+
+
+
+                                            
+
+
+                     <!--     Open an account --> 
+    apply for a loan branches &amp; atms %view rates  
+    contact us 
+              
+    
+
+	
+
+
+
+
+
+
+
+
+
+                                    
+
+
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+    
+
+
+
+	
+
+        
+            
+
+    
+
+
+
+
+
+
+
+            
+
+
+
+            
+
+    
+
+        
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+About UsCareersPositions AvailableSI Financial Group FoundationGrant ApplicationCommunityNewsInvestor RelationsDisclosuresBusiness Online Banking User AgreementCommunity Reinvestment Act Notice - Main OfficeCommunity Reinvestment Act Notice - Branch OfficeCT Privacy Protection PolicyDigital Wallets Terms of Use E-Sign Disclosure and Online Banking and eStatement Agreement Equal Housing LenderHome Mortgage Disclosure Act Notice Internet Terms and Conditions of UseMobile Check Deposit User AgreementNon Deposit Products DisclosureNondiscriminatory Appraisal & Underwriting Notification of Claims of Copyright Infringement Online Privacy Policy SI MasterPass Privacy Policy SI MasterPass Terms of Use Unlawful Internet Gambling Enforcement Act USA Patriot Act Notice .BANK Migration
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        
+
+                            
+
+
+
+                        
+
+
+
+                    
+
+
+
+                
+
+
+
+                
+
+                    
+
+
+
+
+
+                
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+
+
+HomeAboutAbout UsCareersPosition Details
+
+
+
+                        
+
+                        
+
+
+
+ 
+
+
+
+    Position Details
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+                        
+
+Savings Institute Bank &amp; Trust welcomes friendly professionals who are dedicated to providing superior customer service and helping our customers find the right solution.  Send Your R&eacute;sum&eacute;
+
+
+
+
+
+
+
+
+
+
+
+                    
+
+                    
+
+                        
+
+
+
+	        
+
+
+
+
+
+
+
+
+
+                    
+
+                
+
+                
+
+                    
+
+
+
+	
+
+
+		        
+      
+
+			
+
+            
+
+            
+
+				Data Analyst
+
+			
+
+        
+
+
+
+		
+      
+
+			
+
+            
+
+            
+
+				North Windham, CT
+
+			
+
+        
+
+
+
+		          
+      
+
+			
+
+            
+
+            
+
+				Savings Institute Bank &amp; Trust Company has an immediate opening for a Data Analyst in its IT Department located in North Windham, CT.
+
+Responsibilities include:
+SQL SSMS Query Design and Data Mining
+Efficiencies using Ad-Hoc reporting
+Document Imaging
+Electronic Records Retention
+Administration of the Technology Oversight Program
+Provide quality control over all Information Technology controls
+End User Productivity
+End User Satisfaction
+Optimum Technology Performance
+
+Successful candidates will have:
+High School Diploma
+Experience utilizing database reporting software such as Crystal Reports, SQL Server Reporting Services, Business Objects Enterprise tools or other report writing tools.
+Experience handling documents digitally
+Comparable combination of education and experience.
+Ability to operate office equipment
+Proficient in Microsoft Office (Excel, Word), Outlook Email, and Adobe *.pdf documents
+Experience with HelpDesk administration software
+
+Benefits include: Competitive pay, 401K, paid vacations and holidays, health/dental insurance, tuition reimbursement and bonuses.
+
+AN EQUAL OPPORTUNITY EMPLOYER
+&nbsp;
+
+
+			
+
+        
+
+
+
+		 
+    
+  
+
+	
+
+
+
+
+
+                    
+
+                
+
+            
+
+        
+
+
+
+        
+
+
+
+
+
+            
+
+                
+
+Savings Institute Bank &amp; Trust offers personal banking, business banking, loans and more.   Bank in CT&nbsp;&nbsp;&bull;&nbsp; Bank in RI&nbsp;&nbsp;&bull;&nbsp; Mortgage Loans&nbsp;&nbsp;&bull;&nbsp; Business Loans 800.423.0142  Facebook Linkedin 
+
+
+
+
+
+
+
+
+
+
+
+            
+
+        
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+Personal
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+    
+        
+                                       
+                                Banking          
+                                
+                                       
+                                Checking          
+                                
+                                                                    
+                        
+                                       
+                                Savings          
+                                
+                                                                    
+                        
+                                       
+                                Online Banking          
+                                
+                                                                    
+                        
+                                       
+                                Mobile Banking          
+                                
+                                                                    
+                        
+                                       
+                                Credit Cards          
+                                
+                                                                    
+                        
+                                       
+                                Debit Cards          
+                                
+                                                                    
+                        
+                                       
+                                Digital Wallets          
+                                
+                                                                    
+                        
+                                                                    
+                        
+                                       
+                                Loans          
+                                
+                                       
+                                Mortgages          
+                                
+                                                                    
+                        
+                                       
+                                HELOC & Home Equity Loans          
+                                
+                                                                    
+                        
+                                       
+                                Mortgage Consultants          
+                                
+                                                                    
+                        
+                                       
+                                Personal Loans          
+                                
+                                                                    
+                        
+                                                                    
+                        
+                                       
+                                Insurance & Annuities          
+                                
+                                       
+                                Insurance          
+                                
+                                                                    
+                        
+                                       
+                                Annuities          
+                                
+                                                                    
+                        
+                                                                    
+                        
+    
+
+
+
+
+
+    (function ($) {
+        var kendoTreeView = $('.sfNavTreeview').not('div.k-treeview .sfNavTreeview').kendoTreeView({
+            animation: false,
+            expand: function (e) {
+                if (window.DataIntelligenceSubmitScript) {
+                    DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                        predicate: "Toggle navigation",
+                        object: this.dataItem(e.node).text,
+                        objectMetadata: [
+                                                    {
+                                                        'K': 'PageTitle',
+                                                        'V': document.title
+                                                    },
+                                                    {
+                                                        'K': 'PageUrl',
+                                                        'V': location.href
+                                                    }
+                        ]
+                    });
+                }
+            }
+        }).data('kendoTreeView');
+    })(jQuery);
+
+
+                
+
+                
+
+                    
+
+Business
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+    
+        
+                                       
+                                Banking          
+                                
+                                       
+                                Checking          
+                                
+                                                                    
+                        
+                                       
+                                Business Online Express          
+                                
+                                                                    
+                        
+                                       
+                                Credit Cards          
+                                
+                                                                    
+                        
+                                                                    
+                        
+                                       
+                                Services          
+                                
+                                       
+                                Cash Management          
+                                
+                                                                    
+                        
+                                       
+                                Credit Card Processing          
+                                
+                                                                    
+                        
+                                       
+                                Business Deposits Quick Remote Capture          
+                                
+                                                                    
+                        
+                                       
+                                Payroll Processing          
+                                
+                                                                    
+                        
+                                       
+                                Positive Pay Fraud Protection          
+                                
+                                                                    
+                        
+                                       
+                                Wire Transfers          
+                                
+                                                                    
+                        
+                                       
+                                Automatic Clearing House (ACH)          
+                                
+                                                                    
+                        
+                                                                    
+                        
+                                       
+                                Loans          
+                                
+                                       
+                                Velocity Small Business Lending          
+                                
+                                                                    
+                        
+                                       
+                                Equipment Leasing          
+                                
+                                                                    
+                        
+                                       
+                                Commercial Lines of Credit          
+                                
+                                                                    
+                        
+                                       
+                                Commercial Mortgages          
+                                
+                                                                    
+                        
+                                       
+                                Term Loans          
+                                
+                                                                    
+                        
+                                       
+                                Residential Development Loans          
+                                
+                                                                    
+                        
+                                       
+                                SBA Loans          
+                                
+                                                                    
+                        
+                                       
+                                Community Association Services          
+                                
+                                                                    
+                        
+                                       
+                                Commercial Bankers          
+                                
+                                                                    
+                        
+                                                                    
+                        
+    
+
+
+
+
+
+    (function ($) {
+        var kendoTreeView = $('.sfNavTreeview').not('div.k-treeview .sfNavTreeview').kendoTreeView({
+            animation: false,
+            expand: function (e) {
+                if (window.DataIntelligenceSubmitScript) {
+                    DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                        predicate: "Toggle navigation",
+                        object: this.dataItem(e.node).text,
+                        objectMetadata: [
+                                                    {
+                                                        'K': 'PageTitle',
+                                                        'V': document.title
+                                                    },
+                                                    {
+                                                        'K': 'PageUrl',
+                                                        'V': location.href
+                                                    }
+                        ]
+                    });
+                }
+            }
+        }).data('kendoTreeView');
+    })(jQuery);
+
+
+                
+
+                
+
+                    
+
+Resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+    
+        
+                                       
+                                Resources          
+                                
+                                       
+                                Rates          
+                                
+                                                                    
+                        
+                                       
+                                Fraud Prevention Tips          
+                                
+                                                                    
+                        
+                                       
+                                Calculators          
+                                
+                                                                    
+                        
+                                       
+                                Reorder Checks          
+                                
+                                                                    
+                        
+                                       
+                                Automatic Loan Payment          
+                                
+                                                                    
+                        
+                                       
+                                BankSmarts eNewsletter          
+                                
+                                                                    
+                        
+                                                                    
+                        
+    
+
+
+
+
+
+    (function ($) {
+        var kendoTreeView = $('.sfNavTreeview').not('div.k-treeview .sfNavTreeview').kendoTreeView({
+            animation: false,
+            expand: function (e) {
+                if (window.DataIntelligenceSubmitScript) {
+                    DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                        predicate: "Toggle navigation",
+                        object: this.dataItem(e.node).text,
+                        objectMetadata: [
+                                                    {
+                                                        'K': 'PageTitle',
+                                                        'V': document.title
+                                                    },
+                                                    {
+                                                        'K': 'PageUrl',
+                                                        'V': location.href
+                                                    }
+                        ]
+                    });
+                }
+            }
+        }).data('kendoTreeView');
+    })(jQuery);
+ Online Privacy Terms &amp; Conditions Sitemap Accessibility 
+
+
+
+
+
+
+
+
+
+                
+
+                
+
+                    
+
+About
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+    
+
+    
+        
+                                       
+                                Bank With Us          
+                                
+                                       
+                                Branch Locations          
+                                
+                                                                    
+                        
+                                       
+                                Flash ATMs          
+                                
+                                                                    
+                        
+                                                                    
+                        
+                                       
+                                Get In Touch          
+                                
+                                       
+                                Contact Us          
+                                
+                                                                    
+                        
+                                       
+                                Personal Banking Contact Us          
+                                
+                                                                    
+                        
+                                       
+                                Mortgage Consultants Contact Us          
+                                
+                                                                    
+                        
+                                       
+                                Business Banking Contact Us          
+                                
+                                                                    
+                        
+                                       
+                                Insurance Contact Us          
+                                
+                                                                    
+                        
+                                       
+                                Equipment Leasing Contact Us          
+                                
+                                                                    
+                        
+                                       
+                                Association Lending Contact Us          
+                                
+                                                                    
+                        
+                                       
+                                EASI Telephone Banking          
+                                
+                                                                    
+                        
+                                       
+                                Refer A Friend          
+                                
+                                                                    
+                        
+                                                                    
+                        
+                                       
+                                About Us          
+                                
+                                       
+                                Careers          
+                                
+                                                                    
+                        
+                                       
+                                SI Financial Group Foundation          
+                                
+                                                                    
+                        
+                                       
+                                Community          
+                                
+                                                                    
+                        
+                                       
+                                News          
+                                
+                                                                    
+                        
+                                       
+                                Investor Relations          
+                                
+                                                                    
+                        
+                                       
+                                Disclosures          
+                                
+                                                                    
+                        
+                                       
+                                .BANK Migration          
+                                
+                                                                    
+                        
+                                                                    
+                        
+    
+
+
+
+
+
+    (function ($) {
+        var kendoTreeView = $('.sfNavTreeview').not('div.k-treeview .sfNavTreeview').kendoTreeView({
+            animation: false,
+            expand: function (e) {
+                if (window.DataIntelligenceSubmitScript) {
+                    DataIntelligenceSubmitScript._client.sentenceClient.writeSentence({
+                        predicate: "Toggle navigation",
+                        object: this.dataItem(e.node).text,
+                        objectMetadata: [
+                                                    {
+                                                        'K': 'PageTitle',
+                                                        'V': document.title
+                                                    },
+                                                    {
+                                                        'K': 'PageUrl',
+                                                        'V': location.href
+                                                    }
+                        ]
+                    });
+                }
+            }
+        }).data('kendoTreeView');
+    })(jQuery);
+
+
+                
+
+            
+
+
+
+            
+
+                
+
+
+
+
+
+                    
+
+//note: IF YOU CHANGE THIS ELEMENT, YOU MUST DO SO
+// ON ALL TEMPLATES INDIVIDUALLY SINCE A JAVASCRIPT 
+//CONTENT BLOCK CAN'T BE 'SHARED' AMONG TEMPLATES
+now = new Date
+theYear=now.getYear()
+if (theYear Online Privacy&nbsp;|&nbsp;Terms &amp; Conditions Copyright &copy; ' + theYear + ' Savings Institute Bank &amp; Trust. Site design by ZAG Interactive. ABA Routing #211174181');
+
+
+
+                
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+        
+
+    
+
+
+
+
+
+//
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+
+
+    
+
+
+
+
+

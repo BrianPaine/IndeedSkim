@@ -1,0 +1,1310 @@
+
+
+
+
+
+
+    
+
+    
+
+
+
+	function openWin(URL)
+
+	{
+
+		aWindow=window.open(URL, "help", "toolbar=no,width=350,height=250,status=no,scrollbars=yes,resize=yes,menubar=no");
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        
+
+		
+
+		
+
+				RealPage Careers - Browse and Search Openings
+
+		        
+
+		
+
+        
+
+        
+
+        
+
+        
+
+        
+
+            var SITEVAR = {
+
+                'domain': 'www.realpage.com',
+
+                'base': 'https://www.realpage.com/careers',
+
+                'theme': 'https://www.realpage.com/careers/wp-content/themes/realpage',
+
+                'full': 'https://www.realpage.com/careers/',
+
+                'mobile': false,
+
+                'path': '/careers/'
+
+            };
+
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/www.realpage.com\/careers\/","name":"Careers","potentialAction":{"@type":"SearchAction","target":"https:\/\/www.realpage.com\/careers\/?s={search_term_string}","query-input":"required name=search_term_string"}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        
+
+
+
+        
+
+            You are using an outdated browser. Please upgrade your browser to improve your experience.
+
+        
+
+                    
+
+
+
+                
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                Share
+
+                            
+
+                            
+
+                                
+
+                            
+
+                        
+
+                     
+
+                
+
+
+
+                
+
+                    
+
+                        
+
+                            
+
+                                Consumer Support
+
+                            
+
+                            
+
+                                Client Portal
+
+                            
+
+                            
+
+                                Contact
+
+                                
+
+                                    1.877.325.7243
+
+                                
+
+                            
+
+                            
+
+                                Search
+
+                                
+
+                                    
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                    
+
+                
+
+
+
+                
+
+                    
+
+                        Careers Company Services Vendor --> Contact Sales Login -->
+
+                         -->
+
+                        
+
+                            
+
+                            
+
+                            Cancel
+
+                        
+
+                         
+
+                         1.877.325.7243 Support
+
+                     
+
+                 
+
+
+
+                
+
+                    
+
+                        
+
+                            
+
+                                Toggle navigation
+
+                                
+
+                                
+
+                                
+
+                             -->
+
+                             -->
+
+                            
+
+                            
+
+                         
+
+                        
+
+                            
+
+                                 Asset Optimization
+
+                                    
+
+                                        
+
+                                            
+
+                                                YieldStar Overview
+
+                                                    
+
+                                                        About Us
+
+                                                        Advisory Services
+
+                                                        Business Intelligence
+
+                                                        Investment Analytics
+
+                                                        MPF Research
+
+                                                        Performance Benchmarking
+
+                                                        Revenue Management
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                        
+
+                                            
+
+                                                RealPage&reg; Investment Analytics Powered By MPF
+
+                                                Get the Most Transparency for Precision Investing
+
+                                                
+
+                                                Learn More
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+
+
+                                 Asset & Investment Mgmt
+
+                                    
+
+                                        
+
+                                            
+
+                                                AIM Overview
+
+                                                    
+
+                                                        Investment Accounting
+
+                                                        Portfolio Asset Management
+
+                                                        Certified Consultants
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                        
+
+                                            
+
+                                                Portfolio Asset Management
+
+                                                The One Solution for All Your Real Estate Assets
+
+                                                
+
+                                                Learn More
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                                 Property Management
+
+                                    
+
+                                        
+
+                                            
+
+                                                Property Management Overview
+
+                                                    
+
+                                                        Accounting
+
+                                                        Budgeting
+
+                                                        Document Management
+
+                                                        Facilities
+
+                                                        Learning Management
+
+                                                        OneSite Property Management
+
+                                                        Spend Management
+
+                                                        Vendor Credentialing
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                        
+
+                                            
+
+                                                Markets Overview
+
+                                                    
+
+                                                        Affordable
+
+                                                        Conventional
+
+                                                        Commercial
+
+                                                        Military
+
+                                                        Senior
+
+                                                        Single-Family
+
+                                                        Student
+
+                                                        Vacation
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                        
+
+                                            
+
+                                                Property Management Software
+
+                                                One Property Management Solution That Brings It All Together.
+
+                                                
+
+                                                Learn More
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                                 Resident Services
+
+                                    
+
+                                        
+
+                                            
+
+                                                Resident Services Overview
+
+                                                    
+
+                                                        Package Delivery
+
+                                                        Payments
+
+                                                        Renters Insurance
+
+                                                        Resident Portal
+
+                                                        Utility Management
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                        
+
+                                            
+
+                                                Payments
+
+                                                Make Collecting Rent Online Simple
+
+                                                
+
+                                                Learn More
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                                 Leasing & Marketing
+
+                                    
+
+                                        
+
+                                            
+
+                                                Leasing & Marketing Overview
+
+                                                    
+
+                                                        Contact Center
+
+                                                        Lead2Lease
+
+                                                        Online Leasing
+
+                                                        Resident Screening
+
+                                                        Websites & Gallery
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                        
+
+                                            
+
+                                                Online Leasing
+
+                                                Transform the Leasing Experience
+
+                                                
+
+                                                Learn More
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+
+
+                            
+
+                                
+
+
+
+                                    
+
+                                        
+
+                                            
+
+                                                Contact Sales
+
+                                                1.877.325.7243
+
+                                            
+
+                                        
+
+                                        
+
+                                            
+
+                                                Careers
+
+                                                Company
+
+                                                Services
+
+                                                Support
+
+                                            
+
+                                        
+
+                                    
+
+
+
+                                 
+
+                             
+
+
+
+
+
+                        
+
+                     
+
+                 
+
+            
+
+        
+
+            
+
+
+
+    
+
+
+
+    
+
+        
+
+    
+
+         / Careers
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    Current Openings
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+
+
+                    
+
+
+
+
+
+
+
+Job Details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = ('');
+
+		theform.__PXLBV.value = ('');
+
+	}
+
+	function pxslbp(eventTarget, eventArgument) {
+
+		var theform;
+
+		if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = eventTarget;
+
+		theform.__PXLBV.value = eventArgument;
+
+		theform.submit();
+
+	}
+
+//-->
+
+
+
+
+
+Invalid zipcode/postal code format for this country.');
+
+                }
+
+            } catch (e) {
+
+                hasError = true;
+
+            }
+
+            if (hasError) {
+
+                _zipCodeValue.title = 'Invalid Postal Code';
+
+                _zipCodeValue.style.backgroundColor = 'yellow';
+
+            }
+
+        }
+
+        return _validationReturn;
+
+    }
+
+    return true;
+
+}
+
+
+
+function removeZipLabelError(_zipCodeValue) {
+
+    var withSuccess = true;
+
+    try {
+
+        var lenght = _zipCodeValue.parentNode.childNodes.length;
+
+        var index = 0;
+
+        while (index 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ToggleCheckBoxs(chk){
+
+var tab = document.getElementById ( 'CheckBoxTable' );
+
+var elems = tab.getElementsByTagName ( 'input' );
+
+var len = elems.length;
+
+ for ( var i = 0; i  1){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+var pkval = nameparts[1];
+
+ txt.value = pkval;
+
+ }
+
+ }
+
+else
+
+elems[i].checked = false;
+
+}
+
+ if(chk.type == 'checkbox'){
+
+ if(chk.checked == false){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+txt.value="";
+
+}}}}
+
+
+
+
+
+
+
+    function SendResume(){
+
+        document.PXForm.ParseResume.value = 1;
+
+        document.PXForm.submit();
+
+    }
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+
+			
+
+			
+
+				Requisition Number
+
+				17-1152 
+
+			
+
+			
+
+				Post Date
+
+				9/29/2017
+
+			
+
+			
+
+				Title
+
+				Data Analyst
+
+			
+
+			
+
+				Job Family
+
+				Product Development
+
+			
+
+			
+
+				Location
+
+				CA-Costa Mesa
+
+			
+
+			
+
+				Description
+
+				Summary
+
+• Responsible for the daily processing of incoming resident data files for specific Clients that have been assigned, based on the Clients’ incoming schedules.
+
+• Review and resolve any exceptions and work items that have generated during the processing of the resident data files prior to billing.
+
+• Monitor, track and distribute Outgoing A/R (Accounts Receivable) files based on Client specific schedules. Including the distribution of Move Out A/R files based on processing schedule.
+
+• Monthly processing of rent data for participating Resident Onebill Clients.
+
+
+
+Required Knowledge/Skills/Abilities:
+
+• High school diploma or GED
+
+• Strong verbal and written communication skills
+
+• Strong computer skills – MS Office Excel (Intermediate-Advanced), Access, Word, Outlook
+
+• Data mining and analytical skills 
+
+• Detail-oriented
+
+• Ability to manage multiple projects/assignments at one time
+
+• Must be able to work in a fast-paced environment 
+
+
+
+			
+
+			
+
+			
+
+			
+
+				
+
+				Apply On-line
+
+			
+
+			
+
+				
+
+				Send This Job to a Friend
+
+			
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+                
+
+
+
+
+
+            
+
+                
+
+                    Careers
+
+                    
+
+                
+
+                Connect With Us
+
+                RealPage Careers Networks
+
+                
+
+                    
+
+                        
+
+                            LinkedIn
+
+                            Twitter
+
+                            Facebook
+
+                        
+
+                        
+
+                            
+
+                    
+
+                
+
+            
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+        Browse Open Jobs
+
+        Search Open Jobs
+
+        Edit Your Profile
+
+        View Applications
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                            RealWorld
+
+                            User Groups
+
+                            Webinars
+
+                        
+
+                        
+
+                            Company
+
+                            
+
+                                About Us
+
+                                App Partner Program
+
+                                Careers
+
+                                Where We'll Be
+
+                                Investor Relations
+
+                                Press Room
+
+                            
+
+                        
+
+                    
+
+                
+
+                
+
+                    
+
+                        
+
+                            Services
+
+                            
+
+                                Professional Services
+
+                                Support for Vendors
+
+                                Resident Technology Services
+
+                                Technology as a Service
+
+                                Training
+
+                            
+
+                        
+
+                        
+
+                            Contact
+
+                            
+
+                                1.877.325.7243
+
+                                Media Relations
+
+                                Client Portal
+
+                                Level One Login
+
+                                Consumer Support
+
+                            
+
+                            Contact Sales
+
+                        
+
+                    
+
+                    
+
+                        
+
+                            Become an Insider
+
+                            
+
+                                
+
+                        
+
+                        
+
+                            Join our community
+
+                            
+
+                                
+
+                                
+
+                                
+
+                                
+
+                                
+
+                            
+
+                        
+
+                    
+
+                    
+
+                
+
+                
+
+            
+
+            
+
+        
+
+        
+
+    
+
+    
+
+    
+
+        
+
+            &copy;
+
+                var d = new Date(); document.write(d.getFullYear());
+
+                RealPage, Inc. 1-877-325-7243 •  All trademarks are the properties of their respective owners.  Privacy Policy  •  Privacy Shield  •  DMCA Notice
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        window.jQuery || document.write('')
+
+        
+
+
+
+
+
+window.jQuery || document.write('')
+
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+

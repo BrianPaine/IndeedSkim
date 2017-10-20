@@ -1,0 +1,4620 @@
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AtmcUrl = 'https://eventactions.com/ea.aspx';
+
+var AtmcLogoUrl = 'https://eventactions.com/ea/images/poweredby_120x40.gif';
+
+
+
+var rssLinks=[];function addRSSLinks(){for(var i=0;i<rssLinks.length;i++)controller.addHead(rssLinks[i].tag,rssLinks[i].attrs);}
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+    
+
+    
+
+	Working at Dell
+
+    
+
+	
+
+		
+
+	
+
+    
+
+    
+
+    
+
+        
+
+    document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+     
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-21908846-1', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                createHiddenInput('dimension3', '375');
+
+                createHiddenInput('dimension10', 'Homepage');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+Dell = window.Dell || {};
+
+Dell.Metrics = Dell.Metrics || {};
+
+Dell.Metrics.sc = Dell.Metrics.sc || {};
+
+Dell.Metrics.sc.country = "us";         /***dynamic value based on site***/
+
+Dell.Metrics.sc.language = "en";      /***dynamic value based on site***/
+
+Dell.Metrics.sc.segment = "corp";      /***dynamic value based on site***/
+
+Dell.Metrics.sc.customerset = "";  /***dynamic value based on site***/
+
+Dell.Metrics.sc.cms = "external";     /***always set to external***/
+
+Dell.Metrics.sc.pagename = "";  /***relevant unique page name or empty string***/
+
+Dell.Metrics.sc.applicationname = "TalentBrew"; /***relevant application name***/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+
+
+
+
+
+
+
+
+
+
+                gtmValues = { 'OrgID': '375', 'pagetype': 'Homepage' };
+
+                dataLayer.push(gtmValues);
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-N9RMXC');
+
+    
+
+
+
+
+
+
+
+	
+
+	
+
+	Skip Navigation
+
+    
+
+	    
+
+	        
+
+	            body
+
+{display:none !important;}
+
+
+
+
+
+if (self === top)
+
+{ var antiClickjack = document.getElementById("antiClickjack"); antiClickjack.parentNode.removeChild(antiClickjack); }
+
+else
+
+{ top.location = self.location; }
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+
+
+            
+
+                
+
+                
+
+                    
+
+                        
+
+                    
+
+                
+
+
+
+                
+
+                
+
+                    -->
+
+                    
+
+                        Home
+
+                        About Careers at Dell
+
+                        Hiring Events
+
+                        Employee Testimonials
+
+                        Students
+
+                        Veterans
+
+                    
+
+                
+
+
+
+                
+
+                
+
+                    
+
+                        
+
+                        
+
+                        
+
+                            
+
+                                
+
+                            
+
+                        
+
+
+
+                        
+
+                        
+
+                            
+
+                                
+
+                            
+
+                        
+
+
+
+                        
+
+                        
+
+
+
+    
+
+
+
+        
+
+        
+
+            
+
+            Sign In
+
+        
+
+
+
+        
+
+        
+
+            
+
+                
+
+                
+
+            
+
+            Sign Out
+
+        
+
+    
+
+    
+
+        
+
+
+
+            
+
+            
+
+                    My Account
+
+                
+
+                    
+
+                            Place orders quickly and easily
+
+                                                    View orders and track your shipping status
+
+                                                    Enjoy members-only rewards and discounts
+
+                    
+
+                
+
+                
+
+                        
+
+                            
+
+                                Sign In
+
+                            
+
+                        
+
+                                            
+
+                            
+
+                                Create an account
+
+                            
+
+                        
+
+                
+
+                    
+
+                    
+
+                        Premier Sign In
+
+                    
+
+                                    
+
+                    
+
+                        PartnerDirect  Sign In
+
+                    
+
+            
+
+
+
+            
+
+            
+
+                Account Settings
+
+                
+
+                
+
+                    Order Status
+
+                
+
+                
+
+                
+
+                    My Products
+
+                
+
+                
+
+                
+
+                    Dell Preferred Account
+
+                
+
+                
+
+                
+
+                    Dell Advantage Rewards
+
+                
+
+                    
+
+                    
+
+                        Premier Sign In
+
+                    
+
+                                    
+
+                    
+
+                        PartnerDirect  Sign In
+
+                    
+
+                
+
+                    
+
+                        
+
+                            Sign Out
+
+                        
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+
+
+                        
+
+                            
+
+                        
+
+
+
+                        
+
+                        
+
+
+
+                    
+
+                
+
+            
+
+        
+
+
+
+        
+
+            
+
+
+
+            
+
+
+
+
+
+                
+
+                
+
+
+
+
+
+    
+
+    
+
+            Careers Site Homepage
+
+            About Careers at Dell
+
+            Hiring Events
+
+            Employee Testimonials
+
+            Students
+
+            Veterans
+
+            
+
+<!--                -->
+
+
+
+-->
+
+<!--                -->
+
+-->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Laptops &amp; 2-in-1 PCs for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Laptops &amp; 2-in-1 PCs for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Desktops &amp; All-in-One PCs for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Desktops &amp; All-in-One PCs for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Tablets for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Tablets for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+Alienware Laptops-->
+
+
+
+View all Laptops for Gaming-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+Alienware Desktops-->
+
+
+
+View all Desktops for Gaming-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            Workstations-->
+
+<!--                            Thin Clients-->
+
+<!--                            Servers &amp; Storage-->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Networking for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Networking for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Monitors for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Monitors for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Printers &amp; Ink for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Printers &amp; Ink for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Software for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Software for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Electronics &amp; Accessories for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Electronics &amp; Accessories for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                -->
+
+<!--            -->
+
+<!--            -->
+
+<!--                -->
+
+
+
+-->
+
+<!--                -->
+
+-->
+
+<!--                            View All Solutions &amp; Services-->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            Education-->
+
+<!--                                            Energy-->
+
+<!--                                            Federal Government-->
+
+<!--                                            Financial Services-->
+
+<!--                                            Healthcare-->
+
+<!--                                            Manufacturing-->
+
+<!--                                            Original Equipment Manufacturers-->
+
+<!--                                            Retail-->
+
+<!--                                            State &amp; Local Government-->
+
+<!--                                            Telecommunications, Media &amp; Entertainment-->
+
+<!--                                            Web Development-->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            View All Dell Services-->
+
+<!--                                            Application Services-->
+
+<!--                                            Business Process Outsourcing-->
+
+<!--                                            Digital Business Services-->
+
+<!--                                            IT Consulting-->
+
+<!--                                            IT Support &amp; Lifecycle Services-->
+
+<!--                                            Managed Services-->
+
+<!--                                            Training Services-->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            Big Data-->
+
+<!--                            Cloud-->
+
+<!--                            Data Center-->
+
+<!--                            End User-->
+
+<!--                            Internet of Things-->
+
+<!--                            Mobile-->
+
+<!--                            Security-->
+
+<!--                -->
+
+<!--            -->
+
+<!--            -->
+
+<!--                -->
+
+
+
+-->
+
+<!--                -->
+
+-->
+
+<!--                            View All Support-->
+
+<!--                            Support by Product-->
+
+<!--                            Support Library-->
+
+<!--                            Order Support-->
+
+<!--                            Warranty-->
+
+<!--                            Support Services-->
+
+<!--                            Contact Us-->
+
+<!--                -->
+
+<!--            -->
+
+<!--            -->
+
+<!--                -->
+
+
+
+-->
+
+<!--                -->
+
+-->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Laptop Deals for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Laptop Deals for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Desktop Deals for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Desktop Deals for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Tablet Deals for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Tablet Deals for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            Server Deals-->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Outlet for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Outlet for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View Dell Advantage Rewards for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View Dell Advantage Rewards for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            Employee, Student, Military Discounts-->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all TV Deals for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all TV Deals for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Financing for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Financing for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Coupons for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Coupons for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Accessory Deals for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Accessory Deals for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                            -->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                -->
+
+
+
+-->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Home-->
+
+
+
+View all Monitor Deals for Home-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                            -->
+
+-->
+
+-->
+
+
+
+For Work-->
+
+
+
+View all Monitor Deals for Work-->
+
+<!--                                                -->
+
+<!--                                            -->
+
+<!--                                -->
+
+<!--                            -->
+
+<!--                -->
+
+<!--            -->
+
+-->
+
+DSG Job Postings-->
+
+
+
+    
+
+
+
+
+
+
+
+
+
+                
+
+                
+
+
+
+
+
+    
+
+    
+
+            Careers Site Homepage
+
+            About Careers at Dell
+
+            Hiring Events
+
+            Employee Testimonials
+
+            Students
+
+            Veterans
+
+            
+
+                
+
+                    Products
+
+                        
+
+                
+
+                
+
+                            
+
+                                
+
+                                    Laptops &amp; 2-in-1 PCs
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Laptops &amp; 2-in-1 PCs for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Laptops &amp; 2-in-1 PCs for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Desktops &amp; All-in-One PCs
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Desktops &amp; All-in-One PCs for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Desktops &amp; All-in-One PCs for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Tablets
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Tablets for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Tablets for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Gaming
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    Alienware Laptops
+
+
+
+                                                    View all Laptops for Gaming
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    Alienware Desktops
+
+
+
+                                                    View all Desktops for Gaming
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            Workstations
+
+                            Thin Clients
+
+                            Servers &amp; Storage
+
+                            
+
+                                
+
+                                    Networking
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Networking for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Networking for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Monitors
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Monitors for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Monitors for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Printers &amp; Ink
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Printers &amp; Ink for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Printers &amp; Ink for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Software
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Software for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Software for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Electronics &amp; Accessories
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Electronics &amp; Accessories for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Electronics &amp; Accessories for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                
+
+            
+
+            
+
+                
+
+                    Solutions &amp; Services
+
+                        
+
+                
+
+                
+
+                            View All Solutions &amp; Services
+
+                            
+
+                                
+
+                                    Industries
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            Education
+
+                                            Energy
+
+                                            Federal Government
+
+                                            Financial Services
+
+                                            Healthcare
+
+                                            Manufacturing
+
+                                            Original Equipment Manufacturers
+
+                                            Retail
+
+                                            State &amp; Local Government
+
+                                            Telecommunications, Media &amp; Entertainment
+
+                                            Web Development
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Dell Services
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            View All Dell Services
+
+                                            Application Services
+
+                                            Business Process Outsourcing
+
+                                            Digital Business Services
+
+                                            IT Consulting
+
+                                            IT Support &amp; Lifecycle Services
+
+                                            Managed Services
+
+                                            Training Services
+
+                                
+
+                            
+
+                            Big Data
+
+                            Cloud
+
+                            Data Center
+
+                            End User
+
+                            Information &amp; Data Management
+
+                            Internet of Things
+
+                            Mobile
+
+                            Security
+
+                
+
+            
+
+            
+
+                
+
+                    Support
+
+                        
+
+                
+
+                
+
+                            View All Support
+
+                            Support by Product
+
+                            Support Library
+
+                            Order Support
+
+                            Warranty
+
+                            Support Services
+
+                            Contact Us
+
+                
+
+            
+
+            
+
+                
+
+                    Deals
+
+                        
+
+                
+
+                
+
+                            
+
+                                
+
+                                    Laptop Deals
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Laptop Deals for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Laptop Deals for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Desktop Deals
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Desktop Deals for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Desktop Deals for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Tablet Deals
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Tablet Deals for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Tablet Deals for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            Server Deals
+
+                            
+
+                                
+
+                                    Dell Outlet
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Outlet for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Outlet for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Dell Advantage Rewards
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View Dell Advantage Rewards for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View Dell Advantage Rewards for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            Employee, Student, Military Discounts
+
+                            
+
+                                
+
+                                    TV Deals
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all TV Deals for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all TV Deals for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Financing
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Financing for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Financing for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Coupons
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Coupons for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Coupons for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Accessory Deals
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Accessory Deals for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Accessory Deals for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                            
+
+                                
+
+                                    Monitor Deals
+
+                                    
+
+                                
+
+
+
+                                
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Home
+
+
+
+                                                    View all Monitor Deals for Home
+
+                                                
+
+                                            
+
+                                            
+
+                                                
+
+                                                    
+
+
+
+                                                    For Work
+
+
+
+                                                    View all Monitor Deals for Work
+
+                                                
+
+                                            
+
+                                
+
+                            
+
+                
+
+            
+
+            
+
+                DSG Job Postings
+
+            
+
+    
+
+
+
+
+
+            
+
+
+
+        
+
+    
+
+ 
+
+
+
+
+
+        
+
+
+
+    Outdated browser detected. We noticed you’re using an outdated version of Internet Explorer and some of our site features might not look and behave the way you’d expect while using this browser version. Please update now for the best experience: Internet Explorer 11
+
+
+
+
+
+
+
+
+
+	            
+
+                    
+
+                    
+
+	                
+
+	                
+
+    	                
+
+        	                
+
+                	            BUILD YOUR FUTURE, CHANGE AN INDUSTRY&#39;S.
+
+                	            Every great story has a beginning.  This is ours - and it could be yours.  If you&#39;re ready to fast forward your career, greatness begins here.
+
+        	                
+
+                        
+
+	                
+
+	                
+
+    	            
+
+    	                
+
+    	                    
+
+
+
+
+
+    
+
+    	Search all Dell jobs:
+
+    	
+
+            
+
+    		    Keyword
+
+    		    
+
+            
+
+            
+
+                Location
+
+    		    
+
+                    
+
+    		
+
+            
+
+    		    Radius
+
+    	        Radius
+
+5 miles
+
+15 miles
+
+25 miles
+
+35 miles
+
+50 miles
+
+
+
+    		
+
+            
+
+            Search
+
+    		
+
+    	
+
+     
+
+
+
+
+
+
+
+
+
+        Click here to search by job category
+
+             
+
+                     
+
+                         Business Support Jobs
+
+                     
+
+                     
+
+                         Communications Jobs
+
+                     
+
+                     
+
+                         Corporate Development & Strategy Jobs
+
+                     
+
+                     
+
+                         Engineering Jobs
+
+                     
+
+                     
+
+                         Finance Jobs
+
+                     
+
+                     
+
+                         Graduates Jobs
+
+                     
+
+                     
+
+                         Human Resources Jobs
+
+                     
+
+                     
+
+                         Information Technology Jobs
+
+                     
+
+                     
+
+                         Inside Sales Jobs
+
+                     
+
+                     
+
+                         Internship Jobs
+
+                     
+
+                     
+
+                         Legal Jobs
+
+                     
+
+                     
+
+                         Marketing Jobs
+
+                     
+
+                     
+
+                         Materials & Procurement Jobs
+
+                     
+
+                     
+
+                         New Graduates Jobs
+
+                     
+
+                     
+
+                         Product Services Jobs
+
+                     
+
+                     
+
+                         Professional Services Jobs
+
+                     
+
+                     
+
+                         Revenue Jobs
+
+                     
+
+                     
+
+                         RSA Jobs
+
+                     
+
+                     
+
+                         Sales Jobs
+
+                     
+
+                     
+
+                         SecureWorks Jobs
+
+                     
+
+                     
+
+                         Services Jobs
+
+                     
+
+                     
+
+                         Virtustream Jobs
+
+                     
+
+             
+
+
+
+
+
+
+
+
+
+
+
+    	                
+
+    	           
+
+	            
+
+	            	            
+
+	        
+
+	    
+
+	
+
+
+
+		
+
+
+
+
+
+
+
+    
+
+     Notification to applicants:
+
+        
+
+         Thank you for your interest in Dell. All applicants are required to create a login account with a secure, private password before completing an application. This and other personal information are the property of the applicant and will never be required for an application to be submitted for consideration to Dell Human Resources.
+
+        
+
+        
+
+    
+
+    
+
+
+
+    
+
+    Life at Dell
+
+    
+
+        
+
+            We pride ourselves on being a great place to work. We think of
+
+            our team members as an extended family and work to foster an
+
+            environment that benefits our workforce and generates personal
+
+            and professional innovation. See what our employees have to say
+
+            about working at Dell.
+
+            
+
+                Learn more about life at
+
+                Dell
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                    
+
+                        "Dell is such a dynamic and fast-paced company that no two days are the same. Every day is a brand new day with brand new challenges. What has kept me at Dell for 15+ years? My answer is simple: learning and job enrichment."
+
+                        -Harsha
+
+                    
+
+                
+
+                
+
+                    
+
+                    
+
+                        "If you are the best at what you do, if you are looking to be challenged, and to elevate and thrive in a collaborative working environment – here is the place for you. You get to work with and learn from the best and build a fulfilling, successful career."
+
+                        -Mithu
+
+                    
+
+                
+
+                
+
+                    
+
+                    
+
+                        "Dell is a great company to work for and one of the reasons I joined was its culture. I can identify myself with the openness, positivity and the commitment to help people fulfill their dreams and objectives."
+
+                        -Janine
+
+                    
+
+                
+
+                
+
+                    
+
+                    
+
+                        "Remote working has enabled me to meet both the needs of my growing family and my progressive career."
+
+                        -Fiona
+
+                    
+
+                
+
+                
+
+                    
+
+                    
+
+                        "I have been able to combine several roles in my life while working at Dell EMC. I am a happy mother of two little kids, a full time employee and a PhD candidate in engineering. I think no other company allows you to pursue your personal dreams while working for the industry."
+
+                        -Madeline
+
+                    
+
+                
+
+                
+
+                    
+
+                    
+
+                        "Often we tend to stay in our comfort zone, in the end being complacent. At Dell EMC I learned how to embrace change in my life in my career, shaping me into a better man today."
+
+                        -Yee
+
+                    
+
+                
+
+                
+
+                    
+
+                    
+
+                        "People here are passionate and it shows. They love to solve problems, build things and be at the leading edge of technology."
+
+                        -Udi
+
+                    
+
+                
+
+                
+
+                    
+
+                    
+
+                        "Like the military, dell values team work, dedication and ethical behavior."
+
+                        -Brice
+
+                    
+
+                
+
+            
+
+        
+
+    
+
+<!---->
+
+
+
+
+
+
+
+
+
+    
+
+    	
+
+    		     
+
+    		
+
+    	
+
+    	    A look inside Dell
+
+    	    Hear more about what it’s like to work at Dell. With opportunities around the world, we’re fueled by collaboration and our desire to make the world a better place.
+
+    	
+
+    
+
+    Click here for jobs in flexible locations >
+
+    
+
+    Locations
+
+    Use this map to explore Dell job opportunities around the world
+
+    
+
+
+
+-->
+
+
+
+
+
+
+
+    
+
+        
+
+
+
+
+
+    
+
+                 Recent Jobs
+
+                 
+
+                         
+
+                                     Inside Sales Representative (17000RYT)
+
+                                         Casablanca, R&#233;gion du Grand Casablanca
+
+                         
+
+                         
+
+                                     Sr. Advisor, Project Program Management (17000VRT)
+
+                                         Bayan Lepas, Penang
+
+                         
+
+                         
+
+                                     Systems Engineer
+
+                                         Kuala Lumpur, Kuala Lumpur
+
+                         
+
+                 
+
+    
+
+
+
+
+
+
+
+    
+
+        Follow Dell Careers
+
+        
+
+                Facebook
+
+                Twitter
+
+                LinkedIn
+
+                Glassdoor
+
+                YouTube
+
+                Instagram
+
+        
+
+    
+
+
+
+
+
+    Useful Links
+
+    
+
+                Schedule of hiring events
+
+                Students
+
+                Veterans
+
+                Corporate careers site
+
+                Pivotal
+
+                SecureWorks
+
+                VMware
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+        
+
+	    
+
+		    Sign up for Job Alerts
+
+		
+
+Email AddressInterested InEnter category and/or location, then click ADD. You must have at least one entry in the list below in order to subscribe.CategoryLocationAddRemove		
+
+		
+
+		    Confirm Email
+
+		    
+
+		
+
+			
+
+		
+
+		    
+
+		
+
+		
+
+	    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+	
+
+
+
+	
+
+	
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                    
+
+                            Dell Technologies
+
+                            Pivotal
+
+                            SecureWorks
+
+                            Vmware
+
+                            Corporate Blog
+
+                           <!-- Sitemap-->
+
+                    
+
+                
+
+            
+
+            
+
+        
+
+                
+
+                
+
+
+
+
+
+    
+
+            
+
+                
+
+            
+
+        &nbsp;United States&nbsp;
+
+    
+
+    
+
+            Africa
+
+            Albania
+
+            Algeria
+
+            Angola
+
+            Anguilla
+
+            Antigua & Barbuda
+
+            Argentina
+
+            Armenia
+
+            Aruba
+
+            Asia Pacific
+
+            Australia
+
+            Austria
+
+            Azerbaijan
+
+            Bahamas
+
+            Bahrain
+
+            Barbados
+
+            Belarus
+
+            Belgium
+
+            Belize
+
+            Benin
+
+            Bermuda
+
+            Bolivia
+
+            Bosnia-Herzegovina
+
+            Botswana
+
+            Brazil
+
+            British Virgin Islands
+
+            Bulgaria
+
+            Burkina Faso
+
+            Burundi
+
+            Cameroon
+
+            Canada
+
+            Cape Verde
+
+            Cayman Islands
+
+            Central African Republic
+
+            Chad
+
+            Chile
+
+            China
+
+            CIS
+
+            Colombia
+
+            Comoros
+
+            Congo
+
+            Costa Rica
+
+            Croatia
+
+            Cyprus
+
+            Czech Republic
+
+            Democratic Republic of the Congo
+
+            Denmark
+
+            Djibouti
+
+            Dominica
+
+            Dominican Republic
+
+            Ecuador
+
+            Egypt
+
+            El Salvador
+
+            Equatorial Guinea
+
+            Estonia
+
+            Ethiopia
+
+            Finland
+
+            France
+
+            French Guiana
+
+            French Overseas Territories
+
+            French Polynesia
+
+            Gabon
+
+            Gambia
+
+            Georgia
+
+            Germany
+
+            Ghana
+
+            Greece
+
+            Grenada
+
+            Guadeloupe
+
+            Guatemala
+
+            Guinea
+
+            Guyana
+
+            Haiti
+
+            Honduras
+
+            Hong Kong
+
+            Hungary
+
+            Iceland
+
+            India
+
+            Indonesia
+
+            Iraq
+
+            Ireland
+
+            Israel
+
+            Italy
+
+            Ivory Coast
+
+            Jamaica
+
+            Japan
+
+            Jordan
+
+            Kazakhstan
+
+            Kenya
+
+            Korea
+
+            Kuwait
+
+            Kyrgyzstan
+
+            Latin America & Caribbean
+
+            Latvia
+
+            Lebanon
+
+            Lesotho
+
+            Liberia
+
+            Libya
+
+            Lithuania
+
+            Luxembourg
+
+            Macedonia
+
+            Madagascar
+
+            Malawi
+
+            Malaysia
+
+            Mali
+
+            Malta
+
+            Martinique
+
+            Mauritania
+
+            Mauritius
+
+            Mayotte
+
+            Mexico
+
+            Middle East
+
+            Moldova
+
+            Montenegro
+
+            Montserrat
+
+            Morocco
+
+            Mozambique
+
+            Namibia
+
+            Netherlands
+
+            Netherlands Antilles/Curaçao
+
+            New Caledonia
+
+            New Zealand
+
+            Nicaragua
+
+            Niger
+
+            Nigeria
+
+            Norway
+
+            Oman
+
+            Pakistan
+
+            Panama
+
+            Paraguay
+
+            Peru
+
+            Philippines
+
+            Poland
+
+            Portugal
+
+            Puerto Rico
+
+            Qatar
+
+            Reunion
+
+            Romania
+
+            Russia
+
+            Rwanda
+
+            Saudi Arabia
+
+            Senegal
+
+            Serbia
+
+            Seychelles
+
+            Sierra Leone
+
+            Singapore
+
+            Slovakia
+
+            Slovenia
+
+            Somalia
+
+            South Africa
+
+            Spain
+
+            St. Kitts & Nevis
+
+            St. Lucia
+
+            St. Vincent & Grenadines
+
+            Suriname
+
+            Swaziland
+
+            Sweden
+
+            Switzerland
+
+            Taiwan
+
+            Tajikistan
+
+            Tanzania
+
+            Thailand
+
+            Togo
+
+            Trinidad & Tobago
+
+            Tunisia
+
+            Turkey
+
+            Turkmenistan
+
+            Turks & Caicos Islands
+
+            Uganda
+
+            Ukraine
+
+            United Arab Emirates
+
+            United Kingdom
+
+            United States
+
+            Uruguay
+
+            US Virgin Islands
+
+            Uzbekistan
+
+            Venezuela
+
+            Vietnam
+
+            Yemen
+
+            Zambia
+
+            Zimbabwe
+
+    
+
+
+
+             -->
+
+        
+
+    
+
+
+
+    
+
+    
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                        © 2017 Dell
+
+                        Terms of Sale
+
+                        Privacy Statement
+
+                        Ads & Emails
+
+                        Legal & Regulatory
+
+                        Corporate Social Responsibility
+
+                        Contact
+
+                
+
+
+
+            
+
+            
+
+        
+
+    
+
+    
+
+
+
+    
+
+        var searchSuggestionAPI = 'http://pilot.search.dell.com/queryunderstandingapi/2/suggest';
+
+    
+
+ 
+
+
+
+
+
+			 
+
+		
+
+	
+
+	
+
+	
+
+
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+	
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	
+
+    Dell = window.Dell || {};
+
+    Dell.HomepageUtils = Dell.HomepageUtils || {};
+
+    Dell.HomepageUtils.AppSettings = Dell.HomepageUtils.AppSettings || {};
+
+
+
+    Dell.HomepageUtils.AppSettings.apiBaseUrl = '/csbapi/';
+
+
+
+    Dell.HomepageUtils.AppSettings.mobileSearchUrl = '/en-us/search';
+
+    Dell.HomepageUtils.AppSettings.desktopSearchUrl = 'http://search.dell.com/results.aspx';
+
+    
+
+
+
+
+
+
+
+
+
+ 
+
+        var searchSuggestionAPI = 'http://pilot.search.dell.com/queryunderstandingapi/2/suggest';
+
+    
+
+
+
+
+
+
+
+
+
+
+
+$(document).ready( function() {
+
+$('#DF1483_Email').attr('placeholder', 'Email Address');
+
+$('#SubmitButton').val('Subscribe');
+
+
+
+$('.nav li a').click(function(e) {
+
+    $('.feeds li').removeClass('active');
+
+    $('.nav a').removeClass('active');
+
+    var thisTab = $(this).attr('class');
+
+    $('.feeds li.'+thisTab).addClass('active');
+
+    $(this).addClass('active');
+
+    e.preventDefault();
+
+});
+
+
+
+$('a.youtube').click( function() { $('.resultDiv_gsvb').each( function() {
+
+    if (!$(this).children('p').length) {
+
+    var title=$(this).attr('title');
+
+    $(this).append($(''+title+''));
+
+} }); });
+
+});
+
+//adding randomization of jobs
+
+function shuffleList() {   
+
+    var origList = $(".values ul li").detach();
+
+    var newList = origList.clone();
+
+
+
+    for (var i = 0; i < newList.length; i++) {
+
+        //select a random index; the number range will decrease by 1 on each iteration
+
+        var randomIndex = randomInt(newList.length - i);
+
+
+
+        //place the randomly-chosen element into our copy and remove from the original:
+
+        newList[i] = origList.splice(randomIndex, 1);
+
+
+
+        //place the element back into into the HTML
+
+        $(".values ul").append(newList[i]);
+
+    }
+
+}
+
+
+
+function randomInt(maxNum) { //returns a random integer from 0 to maxNum-1
+
+    return Math.floor(Math.random() * maxNum);
+
+}
+
+
+
+shuffleList();
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+

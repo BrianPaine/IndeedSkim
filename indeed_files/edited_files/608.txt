@@ -1,0 +1,492 @@
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    Jr. Data Load Analyst  in  Alexandria, VA  | CACI International
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+	
+
+
+
+		
+
+			
+
+				
+
+					
+
+						Small Business&nbsp;&nbsp;|
+
+						&nbsp;Suppliers
+
+					
+
+				
+
+				
+
+					
+
+						
+
+						
+
+							About Us
+
+							|
+
+							What We Do
+
+							|
+
+							Media &amp; Events
+
+							|
+
+							Investors
+
+							|
+
+							Careers
+
+							|
+
+							Contracts
+
+							|
+
+							Contact Us	
+
+						
+
+						
+
+							Join Our Talent Network
+
+						
+
+						
+
+							About Us
+
+							What We Do
+
+							Media &amp; Events
+
+							Investors
+
+							Careers
+
+							Contracts
+
+							Contact Us
+
+							Small Business
+
+							Suppliers
+
+						
+
+						
+
+		       				
+
+		    			
+
+					
+
+				
+
+			
+
+			
+
+				
+
+					
+
+					
+
+	                
+
+	                
+
+                
+
+            
+
+			
+
+		
+
+		
+
+		
+
+			
+
+				
+
+				
+
+                Careers
+
+                 &#124; Jr. Data Load Analyst - Alexandria, VA
+
+                
+
+				
+
+				
+
+				
+
+				
+
+				
+
+	
+
+		
+
+		Share This Job
+
+		
+
+			
+
+			
+
+			
+
+
+
+			
+
+			
+
+			
+
+		
+
+		    var addthis_config = { "data_track_clickback": true };
+
+		
+
+		
+
+	
+
+
+
+                
+
+				
+
+
+
+
+
+        Apply Now
+
+    &nbsp;&nbsp;&nbsp;
+
+
+
+
+
+
+
+
+	
+		Jr. Data Load Analyst
+		Req #: 134772
+		Location: 
+		
+		
+		Alexandria, 
+		VA
+US
+
+		Job Category:  Information Systems
+Security Clearance: NACI
+Clearance Status: Must be Obtainable
+
+		Job Description:RESPONSIBILITIES/Duties: Works under the direction of the Project Manager and Senior Analysts. Will be directly responsible for importing data to CACI’s hosted Relativity instance. Will perform data exports and productions to the specifications required by the various Government agencies and coordinate the appropriate delivery. Provides activities related to the administration of computerized databases. The Jr. Analyst must communicate effectively with Project Managers in the scenarios including but not limited to, clarification of forms/instructions, missing information, and status updates. May assist several Project Managers on a multitude of cases simultaneously. Conducts quality control and auditing of databases in a client/server environment to ensure accurate and appropriate use of data. Applies knowledge and experience with database technologies, development methodologies, and front-end (e.g., COGNOS)/back-end programming languages (e.g., SQL). Includes maintenance of database dictionaries, overall monitoring of standards and procedures, file design and storage, and integration of systems through database design Qualifications: 1-2 years of related experience. Must possess fundamental litigation concepts, processes, and procedures on technical assignments. Performs work that requires practical experience and training. Experience in Relativity preferred. Typically requires bachelor's degree or equivalent.CACI employs a diverse range of talent to create an environment that fuels innovation and fosters continuous improvement and success. Join CACI, where you will have the opportunity to make an immediate impact by providing information solutions and services in support of national security missions and government transformation for Intelligence, Defense, and Federal Civilian customers. A Fortune magazine World's Most Admired Company in the IT Services industry, CACI is a member of the Fortune 1000 Largest Companies, the Russell 2000 Index, and the S&P SmallCap600 Index. CACI provides dynamic careers for over 20,000 employees worldwide. CACI is an Equal Opportunity Employer - Females/Minorities/Protected Veterans/Individuals with Disabilities.
+	
+
+
+
+
+        Apply Now
+
+    &nbsp;&nbsp;&nbsp;
+
+
+
+    
+
+
+
+
+
+
+
+    $(document).ready(function () {
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+    
+
+        
+
+            Featured Careers
+
+            Explore our featured opportunities available on multiple current and future programs.Take A Look
+
+        
+
+        
+
+            Benefits
+
+            CACI is proud to provide benefits that address your and your family's needs, today and for the future.Explore
+
+        
+
+        
+
+            Hiring Events
+
+            Visit us at an upcoming hiring event to learn more about what makes us an employer of choice.View Calendar
+
+        
+
+        
+
+            Our Culture
+
+            CACI has a vibrant culture and strong foundation of innovation - firmly based on ethics and integrity.Learn More
+
+        
+
+        
+
+            Talent Network
+
+            Join our Talent Network to be notified of events and careers at CACI.
+
+            Subscribe Today
+
+        
+
+    
+
+
+
+	
+
+        
+
+
+
+
+
+    
+
+        
+
+        
+
+                
+
+                  
+
+                      
+
+                      
+
+                  
+
+                      
+
+                      
+
+                      
+
+                      
+
+                      
+
+                      
+
+                  
+
+                
+
+            
+
+            
+
+                Equal Opportunity Employer&nbsp;|&nbsp;
+
+                E-Verify&nbsp;|&nbsp;
+
+                Recruitment Fraud Alert&nbsp;&nbsp;|&nbsp;
+
+                FAQs&nbsp;&nbsp;|&nbsp;
+
+            
+
+            
+
+                &copy; 2017 CACI International &nbsp;|&nbsp;
+
+                Terms of Use &nbsp;|&nbsp;
+
+                &nbsp;Powered by SmashFly
+
+            
+
+            
+
+                
+
+                
+
+                
+
+                
+
+             -->
+
+
+
+            
+
+        
+
+    
+
+
+
+
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+
+
+    ga('create', 'UA-26557372-2', 'auto', 'SFcareersCACI');
+
+    ga('create', 'UA-85562145-1', 'auto', 'clientTracker');
+
+    ga('SFcareersCACI.send', 'pageview');
+
+    ga('clientTracker.send', 'pageview');
+
+
+
+  
+
+		
+
+	

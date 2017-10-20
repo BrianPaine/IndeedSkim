@@ -1,0 +1,1096 @@
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+    
+
+	Careers at Cox Communications
+
+    
+
+	
+
+		
+
+	
+
+	
+
+	
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+    document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+     
+
+
+
+
+
+
+
+                
+
+{"@context":"http://schema.org","@type":"JobPosting","datePosted":"2017-10-6","description":"DescriptionThe Consumer Analytics group in Marketing at Cox Communications, Inc. is looking for a Data Analyst I who is incredibly passionate about data, who has a proven track record of transforming raw data into analytic insight, and who desires to make a difference by leveraging the right techniques to arrive at the right answers.&nbsp; Your primary role will be to work on high-impact business problems and develop viable solutions through data analysis, predictive modeling, and advanced analytics techniques.&nbsp; The candidate should have a combination of excellent analytic skill, strong business acumen, and excellent interpersonal and communication skills. They will work closely with other Analytics team members in Marketing, Product, Operations, and Technology.&nbsp; This is a great opportunity to be part of an analytics team that does leading-edge work in a great organization.Primary Roles and ResponsibilitiesIndependently execute analytical projects supporting decisions on revenue, products and customer metrics.Develop innovative, intuitive, and data-driven methods for measuring program effectivenessConduct statistical and quantitative analyses including multivariate regression, segmentation, clustering, and pricing/demand models Extract and clean data from multiple data sources of any sizeTranslate business problems into analytical problems.&nbsp; Develop analytical solutions including metrics, methodology, and output. Infer business meaning of results to provide recommendations to stakeholders.Develop effective presentations to communicate results to business leaders.Facilitate the production of dashboards, complex models and analyses through code.Support development of complex analytical models and analytical projects, moving them towards successful completion.Qualifications
+Minimum
+
+1+ year of experience using SAS for modeling and analysis and/or SQL for data analysis 
+Excellent data extraction and manipulation skills using standard tools (SAS, SQL, or similar) 
+Proficient in Microsoft Office (Excel, Word, PowerPoint)
+&nbsp;
+&nbsp;
+Preferred
+
+BS/BA in quantitative field strongly desired. 
+Experience with Econometric modeling and Machine Learning methodology 
+Experience with customer lifecycle management, customer segmentation and customer lifetime value scoring
+&nbsp;About Cox Communications
+&nbsp;
+Cox Communications is a broadband communications and entertainment company, providing advanced digital video, Internet, telephone and home security and automation services over its own nationwide IP network. Cox Business is a facilities-based provider of voice, video and data solutions for commercial customers, and Cox Media is a full-service provider of national and local cable spot and digital media advertising. Cox is known for its pioneering efforts in broadband, voice and commercial services, industry-leading customer care and its outstanding workplaces. Cox Communications, a wholly owned subsidiary of Cox Enterprises, is available at www.cox.com and www.coxmedia.com.Organization: Cox Communications, Inc.Primary Location: US-GA-Atlanta-6205-B Peachtree Dunwoody RdEmployee Status: RegularJob Level: Individual ContributorShift: Day JobTravel: NoSchedule: Full-timeUnposting Date: 2017-10-13","educationRequirements":"About Cox Communications
+&nbsp;
+Cox Communications is a broadband communications and entertainment company, providing advanced digital video, Internet, telephone and home security and automation services over its own nationwide IP network. Cox Business is a facilities-based provider of voice, video and data solutions for commercial customers, and Cox Media is a full-service provider of national and local cable spot and digital media advertising. Cox is known for its pioneering efforts in broadband, voice and commercial services, industry-leading customer care and its outstanding workplaces. Cox Communications, a wholly owned subsidiary of Cox Enterprises, is available at www.cox.com and www.coxmedia.com.","employmentType":"Full-time","identifier":"1716095","industry":"Cox Communications, Inc.","qualifications":"
+Minimum
+
+1+ year of experience using SAS for modeling and analysis and/or SQL for data analysis 
+Excellent data extraction and manipulation skills using standard tools (SAS, SQL, or similar) 
+Proficient in Microsoft Office (Excel, Word, PowerPoint)
+&nbsp;
+&nbsp;
+Preferred
+
+BS/BA in quantitative field strongly desired. 
+Experience with Econometric modeling and Machine Learning methodology 
+Experience with customer lifecycle management, customer segmentation and customer lifetime value scoring
+&nbsp;","title":"Data Analyst I","url":"https://jobs.cox.com/job/atlanta/data-analyst-i/1623/5909872","workHours":"Day Job","hiringOrganization":{"@type":"Organization","name":"Cox Communications, Inc."},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Atlanta","addressRegion":"GA","addressCountry":"US","streetAddress":"2017-10-13","postalCode":"30328"}}}
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-44417651-6', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+                createHiddenInput('dimension1', '5909872');
+
+                createHiddenInput('dimension2', '1716095');
+
+                createHiddenInput('dimension3', '1623');
+
+                createHiddenInput('dimension4', '1623,Cox Communications, Inc.');
+
+                    createHiddenInput('dimension6', 'Analytics');
+
+                    createHiddenInput('dimension7', 'Atlanta-Georgia-United-States');
+
+                    createHiddenInput('dimension9', 'Data Analyst I');
+
+                        createHiddenInput('dimension10', 'JobDetails');
+
+                    createHiddenInput('dimension14', 'Basic JD');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+    
+
+    
+
+
+
+    (function(h,o,t,j,a,r){
+
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+
+        h._hjSettings={hjid:647288,hjsv:6};
+
+        a=o.getElementsByTagName('head')[0];
+
+        r=o.createElement('script');r.async=1;
+
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+
+        a.appendChild(r);
+
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+            gtmValues = { 'JobID': '5909872', 'ReqID': '1716095', 'OrgID': '1623', 'tbcn-division': '1623,Cox Communications, Inc.' };
+
+                gtmValues['tbcn-jobcategory'] = 'Analytics';
+
+                gtmValues['tbcn-location'] = 'Atlanta-Georgia-United-States';
+
+                gtmValues['tbcn-jobtitle'] = 'Data Analyst I';
+
+                    gtmValues['pagetype'] = 'JobDetails';
+
+                gtmValues['subpagetype'] = 'Basic JD';
+
+            dataLayer.push(gtmValues);
+
+
+
+
+
+
+
+
+
+
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-PHPKTJ');
+
+    
+
+
+
+  
+
+	
+
+	Skip Navigation
+
+    
+
+        
+
+            
+
+
+
+    var $buoop = {vs:{i:9,f:40,o:12.1,s:7},c:2,
+
+        text : "Please update your browserWithout the most up-to-date version of your browser, you will not be able to view jobs.coxenterprises.com correctly.To check what browser version you're currently using, please go to WhatBrowser.org. For instructions on how to upgrade, select one of the resources below:Google ChromeFirefoxInternet ExplorerSafariOpera If you are a Cox employee, please visit the Cox Employee Site to search and apply for jobs. "
+
+    }; 
+
+function $buo_f(){ 
+
+ var e = document.createElement("script"); 
+
+ e.src = "//browser-update.org/update.min.js"; 
+
+ document.body.appendChild(e);
+
+};
+
+try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+
+catch(e){window.attachEvent("onload", $buo_f)}
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            Cox Enterprises
+
+            Cox Communications
+
+            Cox Automotive
+
+            Cox Media Group
+
+        
+
+    
+
+
+
+
+
+    
+
+        Menu
+
+        
+
+                    CCI Home
+
+                    Why CCI
+
+                    Careers at Cox
+
+                    Call Centers
+
+                    Our People
+
+                    University Relations
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+        Menu
+
+        
+
+                    Careers Home
+
+                    Why Cox
+
+                    Our People
+
+                    Industry Innovation
+
+                    Diversity
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+        Menu
+
+        
+
+                    Careers Home
+
+                    Why Cox Automotive
+
+                    Our Brands
+
+                    Our People
+
+                    Campus
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+        Menu
+
+        
+
+                    Careers Home
+
+                    Why CMG
+
+                    Our People
+
+                    CMG in the Community
+
+                    Campus/Early Career
+
+        
+
+    
+
+
+
+
+
+
+
+        
+
+        
+
+	    
+
+	        
+
+	                
+
+
+
+At Cox, you don’t just have a job, but the opportunity to grow and advance across many dynamic industries.
+
+
+
+	        
+
+	    
+
+	    
+
+	    
+
+            
+
+
+
+
+
+
+
+    Search All Cox Communications Jobs
+
+	
+
+        
+
+		    Keyword or Job Number
+
+		    
+
+        
+
+        
+
+            Location
+
+		    
+
+        
+
+        
+
+		    Radius
+
+	        Radius
+
+5 miles
+
+15 miles
+
+25 miles
+
+35 miles
+
+50 miles
+
+
+
+        
+
+        
+
+        Go
+
+		
+
+	    
+
+		COX EMPLOYEE SITE
+
+		SEARCH ALL COX JOBS
+
+ 
+
+
+
+        
+
+        
+
+	
+
+	     
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+	Apply Now
+
+                Data Analyst I
+
+        
+
+        Location: Atlanta, Georgia
+
+ Job Number: 1716095                 Brand: Cox Communications
+
+        DescriptionThe Consumer Analytics group in Marketing at Cox Communications, Inc. is looking for a Data Analyst I who is incredibly passionate about data, who has a proven track record of transforming raw data into analytic insight, and who desires to make a difference by leveraging the right techniques to arrive at the right answers.  Your primary role will be to work on high-impact business problems and develop viable solutions through data analysis, predictive modeling, and advanced analytics techniques.  The candidate should have a combination of excellent analytic skill, strong business acumen, and excellent interpersonal and communication skills. They will work closely with other Analytics team members in Marketing, Product, Operations, and Technology.  This is a great opportunity to be part of an analytics team that does leading-edge work in a great organization.Primary Roles and ResponsibilitiesIndependently execute analytical projects supporting decisions on revenue, products and customer metrics.Develop innovative, intuitive, and data-driven methods for measuring program effectivenessConduct statistical and quantitative analyses including multivariate regression, segmentation, clustering, and pricing/demand models Extract and clean data from multiple data sources of any sizeTranslate business problems into analytical problems.  Develop analytical solutions including metrics, methodology, and output. Infer business meaning of results to provide recommendations to stakeholders.Develop effective presentations to communicate results to business leaders.Facilitate the production of dashboards, complex models and analyses through code.Support development of complex analytical models and analytical projects, moving them towards successful completion.QualificationsMinimum1+ year of experience using SAS for modeling and analysis and/or SQL for data analysisExcellent data extraction and manipulation skills using standard tools (SAS, SQL, or similar)Proficient in Microsoft Office (Excel, Word, PowerPoint)PreferredBS/BA in quantitative field strongly desired. Experience with Econometric modeling and Machine Learning methodologyExperience with customer lifecycle management, customer segmentation and customer lifetime value scoringAbout Cox CommunicationsCox Communications is a broadband communications and entertainment company, providing advanced digital video, Internet, telephone and home security and automation services over its own nationwide IP network. Cox Business is a facilities-based provider of voice, video and data solutions for commercial customers, and Cox Media is a full-service provider of national and local cable spot and digital media advertising. Cox is known for its pioneering efforts in broadband, voice and commercial services, industry-leading customer care and its outstanding workplaces. Cox Communications, a wholly owned subsidiary of Cox Enterprises, is available at www.cox.com and www.coxmedia.com.Organization: Cox Communications, Inc.Primary Location: US-GA-Atlanta-6205-B Peachtree Dunwoody RdEmployee Status: RegularJob Level: Individual ContributorShift: Day JobTravel: NoSchedule: Full-timeUnposting Date: 2017-10-13
+
+	Apply Now
+
+        		    
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+    
+
+        
+
+            Share this opportunity
+
+            
+
+	                LinkedIn
+
+	                Facebook
+
+	                Twitter
+
+	                Google+
+
+	                Email
+
+                            
+
+        
+
+    
+
+
+
+    Get job listings that match your profile
+
+
+
+
+
+****************************************************************************************ATTENTION: Our career site will be under maintenance on Monday 9/18 from 10PM thru 1AM EST. We will experience intermittent service disruptions. We apologize for any inconvenience.****************************************************************************************
+
+-->
+
+
+
+    
+
+        Join Our Talent Community
+
+        Join here to receive the latest company information, news and upcoming events across Cox businesses.
+
+    
+
+
+
+    
+
+            Sign up for job alerts
+
+        
+
+    
+
+Your Email AddressEnter category and/or location, then click add. You must enter at least one criteria to sign up.Interested InCategoryLocationAddAnalytics, Atlanta, Georgia, United StatesRemoveRemove            
+
+            
+
+                Confirm Email
+
+                
+
+            
+
+    		
+
+            
+
+                
+
+            
+
+            
+
+        
+
+    
+
+
+
+
+
+
+
+    jobs.cox.com is the only official website for employment opportunities with Cox Enterprises and its affiliates. Applications for employment on any other website will not be considered. Cox does not hold online interviews on social media sites such as Google hangouts. If you have been requested to apply for an employment opportunity other than through jobs.cox.com, or, if you have sought out career opportunities with Cox and found a different website in your search, you should NOT submit your application, nor should you provide any personal identifying information such as a social security number, birth certificate, financial institution information, driver’s license number or passport information.
+
+
+
+
+
+	
+
+	
+
+
+
+	
+
+	
+
+	    
+
+	        
+
+    	        
+
+
+
+    
+
+        Careers Website
+
+        
+
+                LinkedIn
+
+                Facebook
+
+                Twitter
+
+                Instagram
+
+        
+
+    
+
+
+
+    
+
+
+
+                Cox Enterprises
+
+                Cox
+
+                Cox Automotive
+
+                Cox Media Group
+
+    
+
+
+
+
+
+    	    
+
+	        
+
+    
+
+        I want to...
+
+        
+
+            View &amp; Pay My Bill
+
+            Manage My Account
+
+            Use My Services Tools
+
+            See TV Listings
+
+            Check My WebMail
+
+            Watch TV Online
+
+            Set DVR Recording
+
+            Get Cox Apps
+
+            See What's Happening on My Connection
+
+        
+
+    
+
+    
+
+    
+
+        Shop
+
+        
+
+            Bundles &amp; Promotions
+
+            Contour &amp; TV
+
+            Internet
+
+            Home Phone
+
+            Homelife
+
+        
+
+    
+
+    
+
+    
+
+        About Cox
+
+        
+
+            About Us Home
+
+            Newsroom
+
+            Take Charge!
+
+            Careers
+
+            Contract Positions
+
+            Diversity
+
+            Supplier Relations
+
+            Advertise with Us
+
+            Retail &amp; Payment Locations
+
+        
+
+    
+
+
+
+
+
+	   
+
+        
+
+            
+
+                
+
+    
+
+        Cox Media
+
+        Cox Enterprises
+
+        Kudzu
+
+    
+
+    
+
+        YouTube
+
+        Facebook
+
+        Twitter
+
+        Google+
+
+    
+
+
+
+
+
+
+
+    
+
+        Policies
+
+        Privacy Statement
+
+        About Our Ads
+
+        Sitemap
+
+    
+
+    &copy; 1998-2017 Cox Communications, Inc.
+
+
+
+
+
+
+
+    
+
+        
+
+        
+
+                Twitter
+
+                YouTube
+
+                LinkedIn
+
+                Facebook
+
+                Instagram
+
+                Glassdoor
+
+        
+
+    
+
+
+
+
+
+            
+
+        
+
+	    
+
+	
+
+	
+
+    
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+(function(c, d, e, g, a)
+
+{g = c.createElement(d); g.type = "text/java" + d; g.async = !0; g.src = e; a = c.getElementsByTagName(d)[0]; a.parentNode.insertBefore(g, a) }
+
+(document, "script", "//tag.retargeter.com/rt/3949/rt.min.js?t="+Math.floor(Date.now() / 86400000)));
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+
+

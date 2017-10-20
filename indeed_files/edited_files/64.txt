@@ -1,0 +1,303 @@
+
+
+
+
+
+Analyst Internship | Source One Management Services, LLC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Log In
+
+
+
+
+Register
+
+
+
+
+Jobs
+
+
+
+
+Back to Source One's Website
+
+
+
+
+
+
+
+
+
+
+
+
+Analyst Internship
+
+
+
+
+
+
+
+Email
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+
+
+
+
+Tweet!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+
+
+
+
+
+
+
+
+Location: Philadelphia, PA
+
+
+
+
+
+Date Posted: 06-08-2017
+
+ -->
+
+
+
+
+
+Apply Now
+
+
+
+
+
+
+Source One Management Services is in search of energetic, self-motivated individuals to join our consulting team in the Greater Philadelphia Area and Chicago, IL offices. As part of our internship program, you will have the opportunity to be a part of a team made up of driven, innovative industry leaders who work diligently to obtain the best results for our clients. As a member of the Source One team, you will become part of a company that prospers within a success-driven environment and continues to grow in size, revenue and expertise.&nbsp; Working at Source One will challenge you to invest heavily in your own professional development, and allow you to take control of your career path by exposing you to a variety of categories and industries where you are given the ability to help shape impactful, strategic recommendations.
+
+
+
+What will I do?
+
+
+
+As a strategic sourcing intern, you will work collaboratively by assisting a team of analysts and consultants, actively participating in the execution and implementation of the Source One strategic sourcing process. The qualified candidate is expected to perform industry research, contract review, data collection, data analysis, data entry as needed, and assist in the report-drafting process for our clients. The position will require heavy use of Microsoft Excel in order to perform data manipulation and analysis, assisting in the identification of issues and solutions through client and supplier discussions, researching and understanding market trends and utilizing market intelligence to shape recommendations for our clients.
+
+
+
+Who should apply?
+
+
+
+The qualified candidate should meet the following minimum requirements:
+
+
+
+	Excellent communication skills, written and verbal (English)
+
+	Demonstrate leadership abilities through course work, previous work experiences and/or increasing levels of responsibility in a professional setting
+
+	Possess a driven, self-motivated attitude exemplifying professionalism, confidence and business acumen
+
+	Above average computer skills, including the entire suite of Microsoft Office
+
+	Extensive experience with Microsoft Excel and knowledge of advanced functions
+
+	Demonstrate aptitude for analytics and solution-based problem solving
+
+	Ability to work both autonomously and in a team based setting
+
+	Ability to self-manage and prioritize workload across multiple projects
+
+	
+
+		Prior experience in Procurement, Consulting, or Technology preferred (not required)
+
+	
+
+	
+
+
+
+
+
+&nbsp;
+
+Company Insights
+
+
+
+Since 1992, Source One has been and is a premier procurement services provider and strategic sourcing consulting firm. Our team of spend management and category experts support best-in-class organizations by ensuring their procurement and sourcing capabilities are optimized and that they are getting the most value at the best possible price from their suppliers. Simply put, we help our customers save money by renegotiating existing contracts, streamlining and optimizing processes, and acting as decision support for their procurement and sourcing needs operating under three main verticals: IT &amp; Telecom, Marketing, and Supply Chain.
+
+
+
+As a group of out-of-the-box thinkers and motivated individuals, we are always eager to have new members to the team to gain fresh ideas and insights for continuous process improvement and growth.
+
+We take pride in recruiting, developing and retaining highly talented individuals. Offered to our full-time employees, in addition to competitive salaries, an attractive vacation policy and benefits which includes 401K with company contribution and disability, life, and medical insurance, we offer a challenging and rewarding work environment with extensive support from our team, an open and dynamic working environment in a growing company and unlimited growth prospects within Source One.
+
+Please visit us on the web at www.sourceoneinc.com.
+
+&nbsp;
+
+Want to have a career at Source One? Here&rsquo;s how to apply:
+
+
+
+Please apply on our web portal: http://jobs.sourceoneinc.com/
+
+
+
+We ask that you make sure to include your salary requirements. Please do not contact anyone at the company directly.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Apply Now
+
+window.jQuery || document.write('\x3C/script>')
+window.catsPortalID = parseInt('31851');
+
+
+
+    or
+
+            
+            
+
+            (function(d, s, id) {
+                var js, iajs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)){return;}
+                js = d.createElement(s); js.id = id;js.async = true;
+                js.src = "https://apply.indeed.com/indeedapply/static/scripts/app/bootstrap.js";
+                iajs.parentNode.insertBefore(js, iajs);
+            }(document, 'script', 'indeed-apply-js'));
+            
+        
+    
+
+
+
+
+
+
+var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-12680876-1']);_gaq.push(['_trackPageview']);_gaq.push(['_setDomainName', 'catsone.com']);
+(function() {try{
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);}catch(err){}
+})();
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-2282967-1', 'auto');
+ga('send', 'pageview');
+document.observe("dom:loaded", function() {
+  $$PROT('a[href*="index.php?m=portal&a=register&portalID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartReg', 's1']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=login&portalID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartLog', 's1']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=details&jobOrderID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'ViewJob', 's1']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=apply&jobOrderID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartApp', 's1']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=sendToFriend&jobOrderID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartRec', 's1']);
+  }); });
+  $$PROT('#jobApplication').each(function(e){ Event.observe(e, 'submit', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'FinApp', 's1']);
+  }); });
+  $$PROT('#sendToFriend').each(function(e){ Event.observe(e, 'submit', function(event) {
+ 	if(sendToFriendSuccess == true){    _gaq.push(['_trackEvent', 'Portal', 'FinRec', 's1']);
+ 	}  }); });
+  $$PROT('#loginForm').each(function(e){ Event.observe(e, 'submit', function(event) {
+	if(loginSuccess == true){    _gaq.push(['_trackEvent', 'Portal', 'FinLog', 's1']);
+	}  }); });
+});document.observe("dom:loaded",function(){_gaq.push(['_setCustomVar',1,'isFree',1,3]);_gaq.push(['_setCustomVar',2,'isBranded',1,3]);_gaq.push(['_setCustomVar',3,'isTrial',0,3]);_gaq.push(['_setCustomVar',4,'isLogged',0,2]);});
+var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(66466644);
+
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+})();
+
+
+    var _paq = _paq || [];
+    // tracker methods like "setCustomDimension" should be called before "trackPageView"
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    // you can set up to 5 custom variables for each visitor
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//piwik.catsone.com/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', "14924"]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+
+
+
+
+

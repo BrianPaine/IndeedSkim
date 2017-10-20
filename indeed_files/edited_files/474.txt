@@ -1,0 +1,474 @@
+
+
+
+
+
+
+
+
+    
+
+    window['adrum-start-time'] = new Date().getTime();
+
+    (function (config) {
+
+      config.appKey = 'AD-AAB-AAE-WVD';
+
+      config.adrumExtUrlHttp = 'http://cdn.appdynamics.com';
+
+      config.adrumExtUrlHttps = 'https://cdn.appdynamics.com';
+
+      config.beaconUrlHttp = 'http://col.eum-appdynamics.com';
+
+      config.beaconUrlHttps = 'https://col.eum-appdynamics.com';
+
+      config.xd = { enable: false };
+
+    })(window['adrum-config'] || (window['adrum-config'] = {}));
+
+    if ('https:' === document.location.protocol) {
+
+      document.write(unescape('%3Cscript')
+
+        + " src='https://cdn.appdynamics.com/adrum/adrum-4.3.3.0.js' "
+
+        + " type='text/javascript' charset='UTF-8'"
+
+        + unescape('%3E%3C/script%3E'));
+
+    } else {
+
+      document.write(unescape('%3Cscript')
+
+        + " src='http://cdn.appdynamics.com/adrum/adrum-4.3.3.0.js' "
+
+        + " type='text/javascript' charset='UTF-8'"
+
+        + unescape('%3E%3C/script%3E'));
+
+    }
+
+    
+
+  
+
+  
+
+  
+
+  
+
+  CVE Technology Group Inc - Data Analyst
+
+  -->
+
+  
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+    
+
+      
+
+        CVE Technology Group Inc
+
+      
+
+      
+
+ 
+
+
+
+
+  .icon-building:before {
+
+    content: "\e623";
+
+  }
+
+
+
+  .custom-link-color {
+
+    padding-right: 10px;
+
+    color: &#39;#000000&#39;
+  }
+
+ 
+
+
+
+
+
+  
+
+    
+
+      Apply
+
+    
+
+    
+
+      
+
+        
+
+      Data Analyst
+
+        
+
+      
+
+      
+
+      
+
+            Allen, TX
+
+                     &bull; 
+
+CVE HR Dept      
+
+    
+
+    
+
+  
+
+  
+
+    
+
+      Apply
+
+    
+
+    Description
+
+    Job DescriptionCVE is looking for a passionate Data Reporting Analyst to turn data into information, information into insight and insight into business decisions.This position will conduct full lifecycle activities to include requirements analysis and design, develop analysis and reporting capabilities, and continuously monitor data reports.Duties and ResponsibilitiesInterpret data, analyze results using statistical techniques and provide ongoing reportsAssist team with dashboard and report generationCreate and manage reports in Excel formatAcquire data from primary or secondary data sources and maintain databases/data systemsIdentify, analyze, and interpret trends or patterns in complex data setsFilter in “clean” data, and review computer reports, printoutsWork closely with management to prioritize business and information needsQualificationsProven working experience as a data analystStrong knowledge of and experience with reporting packagesKnowledge of statistics and experience using statistical packages for analyzing large datasets (Excel)1-4 years of reporting analysisMust be professional in conduct and practice, and also reliableCreative, Responsive and adaptive in a dynamic environmentFamiliarity with accounting, finance, and business development practices and principlesAbility to independently, resourcefully, and creatively research and implement new reporting solutionsWorking knowledge of analysis and reporting toolsDaily* Collect raw data and generate failure rate for QV1-3, Assy, and RF on a daily basis.Weekly* Collect raw data and generate failure rate for QV1-3, Assy, and RF on a weekly basis.Collect and prepare/generate data for weekly presentations for QA manager meetings.Collect UAR/Valid data from customers and generate data charts/report to prepare presentation for weekly Director Meetings.Fill out, deliver, and monitor SCAR activity and close opened accounts per supplier.Monitor QV productivity/cell logs provided by quality/best buy associate.MonthlyCollect raw data and generate failure rate for QV1-3, Assy, and RF on a monthly basis.Collect and prepare/generate quality data for monthly closing presentation for Executive Meetings.Analyze and classify each phone as valid or invalid/true bounce or non-bounce for warranty phones from Best Buy (redo), T-mobile (bounce), and AT&T (bounce).Job Type: Full-time
+
+      Requirements
+
+      A Bachelor's degree or equivalentAbility to "analyze", troubleshoot and resolve non-routine problemsAbility to learn new technologies within big data & analytics spaceAbility to quickly adapt to a changing environmentStrong communication skills, both verbal and writtenWillingness and ability to learn new technologiesStrong technical problem solving skillsStrong critical thinking and analysis skills
+
+  
+
+  
+
+    Apply
+
+  
+
+  
+
+      
+
+View All Jobs  
+
+
+
+
+
+  function inIframe() {
+
+    try {
+
+      return window.self !== window.top;
+
+    } catch (e) {
+
+      return true;
+
+    }
+
+  }
+
+
+
+  if (inIframe()) {
+
+    var applyLinks = document.getElementsByClassName('apply-link-marker');
+
+    for(var i = 0; i<applyLinks.length; i++) {
+
+      applyLinks[i].target = "_blank";
+
+    }
+
+  }
+
+
+
+
+
+      
+
+        Powered by
+
+      
+
+    
+
+  
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+    !function () {
+
+
+
+      window.atsPublic = window.atsPublic || {};
+
+      window.atsPublic.baseUrl = function () {
+
+        return "/Recruiting";
+
+      };
+
+      window.ATSPublicBaseUrl = 'https://recruiting.paylocity.com/Recruiting/';
+
+    }();
+
+
+
+    $(document).ready(function () {
+
+      $('#applicant-tracking').show();
+
+
+
+      if ($("#LayoutLogoImage").length === 0) {
+
+        $("#LayoutLogoName").css("display", "block");
+
+      }
+
+      $('#LayoutLogoSection').css("visibility", "visible");
+
+
+
+
+
+    });
+
+  
+
+  
+
+  
+
+
+
+var initialized = false;
+
+(function () {
+
+ var options = {
+
+    trackingId: 'UA-55373488-1', 
+
+    productType: 'Recruiting'
+
+  };
+
+ function init() {
+
+  (function (i, s, o, g, r, a, m) {
+
+    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+
+      (i[r].q = i[r].q || []).push(arguments)
+
+    }, i[r].l = 1 * new Date(); a = s.createElement(o),
+
+    m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+
+
+    ga('create', options.trackingId, 'auto');
+
+
+
+    if (options.originalLoginId) {
+
+      ga('set', 'dimension2', options.originalLoginId);
+
+    }
+
+    if (options.originalCompanyId) {
+
+      ga('set', 'dimension3', options.originalCompanyId);
+
+    }
+
+    if (options.productType) {
+
+      ga('set', 'dimension4', options.productType);
+
+    }
+
+    if (options.userType) {
+
+      ga('set', 'dimension5', options.userType);
+
+    }
+
+    if (options.activeLoginId) {
+
+      ga('set', 'dimension6', options.activeLoginId);
+
+    }
+
+    if (options.activeCompanyId) {
+
+      ga('set', 'dimension7', options.activeCompanyId);
+
+    }
+
+    if (options.onboardingModuleNumber) {
+
+      ga('set', 'dimension11', options.onboardingModuleNumber);
+
+    }
+
+    if (options.atsModuleNumber) {
+
+      ga('set', 'dimension15', options.atsModuleNumber);
+
+    }
+
+    ga('send', 'pageview');
+
+  };
+
+
+
+  if (options.trackingId) {
+
+    init();
+
+    initialized = true;
+
+  }
+
+}());
+
+function trackEvent(category, action, value) {
+
+  if (initialized) {
+
+    ga('send', 'event', category, action, value);
+
+  }
+
+}
+
+var trackLink = function (category, action, url) {
+
+if (initialized) {
+
+  ga('send', 'event', category, action, url, {
+
+    'hitCallback': function () {
+
+       document.location = url;
+
+      }
+
+    });
+
+  }
+
+}
+
+
+
+  
+
+    
+
+      
+
+        
+
+          
+
+            Please confirm
+
+          
+
+          
+
+        
+
+        
+
+          
+
+            Are you sure?
+
+          
+
+        
+
+        
+
+          Yes
+
+          No
+
+        
+
+      
+
+    
+
+  
+
+
+
+
+

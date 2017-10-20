@@ -1,0 +1,202 @@
+
+
+
+
+
+Data Analyst | Definitive Logic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Log In
+
+
+
+
+Register
+
+
+
+
+Jobs
+
+
+
+
+Back to Website
+
+
+
+
+
+
+
+
+
+
+
+
+Data Analyst
+
+
+
+Email
+
+
+
+
+
+
+        
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+
+Tweet!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+
+
+
+Location: Washington, DC
+
+
+Date Posted: 09-15-2017
+
+
+
+
+
+Apply Now
+
+
+
+
+
+
+Definitive Logic's is seeking mid-career data analytics and business intelligence consultants to support commercial and public sector clients. Application Consultants work at the direction of a Senior Architect to understand client requirements and &nbsp;then developer database and analytics applications based on design specifications.&nbsp;&nbsp;REQUIRED:- 3-5 years of experience developing and supporting data systems- Bachelor's Degree in Computer Science, Mathematics, Engineering, Management Information Systems (MIS), or Business&nbsp;- Database/SQL query experience- Experience with programming (Javascript, Java, C#) desired, but not required- Strong verbal and written communication skills, attention to detail and timely follow through.- Active Secret clearanceAbout Definitive LogicDefinitive Logic is a growing small business with a focus on providing technical solutions to public sector and commercial organizations. &nbsp;We invest in developing our team members into technical leaders in their fields on interest. &nbsp;If you are looking to be a member of a talented company with a small business culture, we look forward to hearing from you.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Apply Now
+
+window.jQuery || document.write('\x3C/script>')
+window.catsPortalID = parseInt('67647');
+
+
+
+    or
+
+            
+            
+
+            (function(d, s, id) {
+                var js, iajs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)){return;}
+                js = d.createElement(s); js.id = id;js.async = true;
+                js.src = "https://apply.indeed.com/indeedapply/static/scripts/app/bootstrap.js";
+                iajs.parentNode.insertBefore(js, iajs);
+            }(document, 'script', 'indeed-apply-js'));
+            
+        
+    
+
+
+
+
+
+
+var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-12680876-1']);_gaq.push(['_trackPageview']);_gaq.push(['_setDomainName', 'catsone.com']);
+(function() {try{
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);}catch(err){}
+})();
+
+document.observe("dom:loaded", function() {
+  $$PROT('a[href*="index.php?m=portal&a=register&portalID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartReg', 'definitivelogic']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=login&portalID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartLog', 'definitivelogic']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=details&jobOrderID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'ViewJob', 'definitivelogic']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=apply&jobOrderID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartApp', 'definitivelogic']);
+  }); });
+  $$PROT('a[href*="index.php?m=portal&a=sendToFriend&jobOrderID="]').each(function(e){ Event.observe(e, 'click', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'StartRec', 'definitivelogic']);
+  }); });
+  $$PROT('#jobApplication').each(function(e){ Event.observe(e, 'submit', function(event) {
+    _gaq.push(['_trackEvent', 'Portal', 'FinApp', 'definitivelogic']);
+  }); });
+  $$PROT('#sendToFriend').each(function(e){ Event.observe(e, 'submit', function(event) {
+ 	if(sendToFriendSuccess == true){    _gaq.push(['_trackEvent', 'Portal', 'FinRec', 'definitivelogic']);
+ 	}  }); });
+  $$PROT('#loginForm').each(function(e){ Event.observe(e, 'submit', function(event) {
+	if(loginSuccess == true){    _gaq.push(['_trackEvent', 'Portal', 'FinLog', 'definitivelogic']);
+	}  }); });
+});document.observe("dom:loaded",function(){_gaq.push(['_setCustomVar',1,'isFree',1,3]);_gaq.push(['_setCustomVar',2,'isBranded',1,3]);_gaq.push(['_setCustomVar',3,'isTrial',0,3]);_gaq.push(['_setCustomVar',4,'isLogged',0,2]);});
+var clicky_site_ids = clicky_site_ids || [];
+clicky_site_ids.push(66466644);
+
+(function() {
+  var s = document.createElement('script');
+  s.type = 'text/javascript';
+  s.async = true;
+  s.src = '//static.getclicky.com/js';
+  ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+})();
+
+
+    var _paq = _paq || [];
+    // tracker methods like "setCustomDimension" should be called before "trackPageView"
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    // you can set up to 5 custom variables for each visitor
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//piwik.catsone.com/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', "24490"]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+
+
+
+
+

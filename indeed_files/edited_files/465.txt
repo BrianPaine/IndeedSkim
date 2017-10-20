@@ -1,0 +1,494 @@
+
+
+
+
+
+
+
+
+ 
+
+	function openWin(URL)
+
+	{
+
+		aWindow=window.open(URL, "help", "toolbar=no,width=350,height=250,status=no,scrollbars=yes,resize=yes,menubar=no");
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+Pekin Insurance - Careers
+
+
+
+
+
+	
+
+		
+
+			
+
+		
+
+		
+
+		
+
+			
+
+				Home-->
+
+				Browse Open Jobs
+
+				Search Open Jobs
+
+				Submit Your Resume-->
+
+				
+
+                
+
+    				Edit Your Profile
+
+                
+
+				
+
+				View Submitted Applications
+
+				
+
+			 
+
+		 
+
+		
+
+			
+
+		
+
+
+
+
+
+
+
+Job Details
+
+
+
+
+
+
+
+
+
+	
+
+		Apply Online
+
+	
+
+	
+
+	
+
+		Send This Job to a Friend
+
+	
+
+	
+
+	
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = ('');
+
+		theform.__PXLBV.value = ('');
+
+	}
+
+	function pxslbp(eventTarget, eventArgument) {
+
+		var theform;
+
+		if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = eventTarget;
+
+		theform.__PXLBV.value = eventArgument;
+
+		theform.submit();
+
+	}
+
+//-->
+
+
+
+
+
+Invalid zipcode/postal code format for this country.');
+
+                }
+
+            } catch (e) {
+
+                hasError = true;
+
+            }
+
+            if (hasError) {
+
+                _zipCodeValue.title = 'Invalid Postal Code';
+
+                _zipCodeValue.style.backgroundColor = 'yellow';
+
+            }
+
+        }
+
+        return _validationReturn;
+
+    }
+
+    return true;
+
+}
+
+
+
+function removeZipLabelError(_zipCodeValue) {
+
+    var withSuccess = true;
+
+    try {
+
+        var lenght = _zipCodeValue.parentNode.childNodes.length;
+
+        var index = 0;
+
+        while (index 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ToggleCheckBoxs(chk){
+
+var tab = document.getElementById ( 'CheckBoxTable' );
+
+var elems = tab.getElementsByTagName ( 'input' );
+
+var len = elems.length;
+
+ for ( var i = 0; i  1){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+var pkval = nameparts[1];
+
+ txt.value = pkval;
+
+ }
+
+ }
+
+else
+
+elems[i].checked = false;
+
+}
+
+ if(chk.type == 'checkbox'){
+
+ if(chk.checked == false){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+txt.value="";
+
+}}}}
+
+
+
+
+
+
+
+    function SendResume(){
+
+        document.PXForm.ParseResume.value = 1;
+
+        document.PXForm.submit();
+
+    }
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+
+			
+
+			
+
+				Requisition Number
+
+				17-0098
+
+			
+
+			
+
+				Post Date
+
+				9/21/2017
+
+			
+
+			
+
+				Title
+
+				DATA ANALYST INTERN
+
+			
+
+			
+
+				Department
+
+				Information Technology - FAIA
+
+			
+
+			
+
+				City
+
+				Pekin
+
+			
+
+			
+
+				State
+
+				IL
+
+			
+
+			
+
+				Description
+
+				
+
+If you think insurance companies are boring, stodgy, and old-fashioned, then you’ve never heard about Pekin Insurance! Our nearly 100 years of experience keeps us grounded. Our cutting-edge, forward-thinking, laser-sharp focus on the future keeps us
+
+ out front. We like to call it a Beyond the expected® attitude toward serving independent agents, policyholders, and our employees.
+
+Oh sure, we’re one of the top ranked Property &amp; Casualty insurance companies in the industry (107 out of 3,000) and our sister company Pekin Life Insurance Company is in the top 15% of its market. Plus, we were rated one of the top 12 best places to
+
+ work in I.T. by Computerworld magazine. However, none of these achievements were even remotely possible without our most valuable resource, our employees.
+
+When you join the Pekin Insurance team, you’re joining an elite force of more than 800 highly talented individuals who thrive in our upbeat, work hard, play hard environment. People who land here include accountants, marketers, salespeople, information
+
+ technology gurus, underwriting pros, and a lot more.
+
+Our home base includes two modern, high-tech office facilities located in Pekin, Illinois, where you’ll find amenities such as an on-site café, modern office spaces, training center, and an on-campus lodge for social activities. Forget what you think
+
+ you know about insurance companies and learn more about Pekin Insurance.
+
+Pekin Insurance’s summer internship program gives you the opportunity to do real work that makes an impact! Our competitively paid 11-week program begins on May 29th and concludes on August 10th. Some interns may even have the opportunity to extend their
+
+ internship beyond the program end date!
+
+An internship with Pekin Insurance allows you to engage in activities such as the following:
+
+
+
+Professional development gained through real-world job experiences Volunteering within the Pekin community Networking with Senior Leaders Social events and team building exercises Mentorship and job shadowing opportunities 
+
+Data Analyst Intern
+
+Position Objective: Pekin Insurance® is looking for summer internship support in our IT department. The Data Analyst Intern requires a highly motivated individual with the ability to contribute to a dynamic, team environment. The intern will be directly
+
+ responsible for supporting data related activities that could include data strategy, design, planning, profiling, definitions, metrics, movement, and quality improvements. These activities could fall in the areas of data governance, business intelligence,
+
+ reporting, data warehouse, big data, data visualization and/or analytics. This role will interact with customers and leaders frequently in support of these activities. This position requires the ability to excel at multi-tasking and participate in various
+
+ levels of team interactions.
+
+Job Responsibilities:
+
+
+
+Communicates with customers and leaders on status of assigned projects or routine tasks
+
+Works with peers assigned to similar tasks Gathers basic information by asking relevant questions Assists in researching all known issues and potential solutions Follows procedure and/or checklists to resolve common task-level problems Assists with outstanding requests and ensures timely resolution Assists with producing data metrics in a timely manner Reviews data white papers both internally and externally Profiles data and measures data quality Maps data from sources to targets Researches technology tools available on the market for data management Supports Data Management team members as needed Performs other duties as may be assigned 
+
+
+
+			
+
+			
+
+				Requirements
+
+				
+
+Education and Experience:
+
+
+
+Student pursuing a Bachelor’s degree in Computer Science or related Field (Must be a Junior or Senior)
+
+Minimum GPA of 3.0 Some experience with data gathering, analysis and system requirements a plus Some experience of documenting process and procedures a plus 
+
+Knowledge/Skills/Abilities:
+
+
+
+Basic understanding of Microsoft Office Suite (Project, Visio, Word, Excel, etc.)
+
+Ability to listen, explain and interpret ideas and policies Good sense of timing and the ability to recognize problems Ability to organize and reason in a logical manner Communicates effectively, verbally and in writing, using a variety of communication methods to build productive relationships
+
+Ability to manage time and complete multiple tasks while continually meeting deadlines
+
+Ability to express ideas in easily understandable terms Ability to interpret and make conclusions based on available information Ability to work with people and work under stress Ability to handle pressure and stress in a dynamic and changing environment Easily adapts to changes in responsibilities, work processes, timeframes, performance expectations, organizational culture or work environment
+
+
+
+
+
+			
+
+			
+
+				
+
+				Apply On-line
+
+			
+
+			
+
+				
+
+				Send This Job to a Friend
+
+			
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+		
+
+		
+
+			Copyright &copy; var d = new Date(); document.write(d.getFullYear()); Ultimate Software
+
+		
+
+		
+
+	
+
+ 
+
+ 
+

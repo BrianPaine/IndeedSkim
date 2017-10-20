@@ -1,0 +1,714 @@
+
+
+
+
+
+
+
+
+
+    
+        
+    Jr. Data Quality Analyst at Label Insight
+
+
+        
+
+        
+            
+        
+
+        
+        
+        
+
+        
+            
+        
+
+        
+        try{Typekit.load();}catch(e){}
+
+        
+        
+
+        
+    
+    
+    
+    
+    
+    
+    
+        
+
+ {
+    "@context" : "http://schema.org/",
+    "@type" : "JobPosting",
+    "title" : "Jr. Data Quality Analyst",
+    "description" : "&lt;p&gt;We are looking for a motivated, detail-oriented professional to join our Data Quality team in the role of Jr. Data Quality Analyst. You will be responsible to measure the accuracy of our data capture processes, review the quality of raw data and correct critical data errors, analyze trends, and drive continuous improvement. This position provides a great opportunity to grow and develop a career in a fast-paced startup environment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Evaluate data accuracy by studying existing system rules&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Review quality of raw data and correct data errors in a timely manner&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Analyze data quality trends and use metrics to drive enhancements to our data capture platform&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Improve SQL query logic by analyzing false positive errors&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Drive continuous improvement in core processes to improve data quality and reduce cycle time&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Establish Key Performance Indicators to recommend process improvements&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Work alongside industry experts on cutting edge and dynamic projects&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Lead individual quarterly projects as assigned&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Work internally with the Data, Engineering, and Product teams to execute project plans&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Provide status updates to management addressing project status, risks, and issues&lt;/span&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Preferred Qualities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Motivated and conscientious self-starter with attention to detail&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;High level of perseverance and time management&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Thrives in a fast-paced, team environment&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Excellent verbal and written communication&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Innovative and resourceful problem solver&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Intellectually honest, uses data to inform decisions&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Preferred Requirements:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Bachelor&amp;rsquo;s degree&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;1 to 3 years of work experience&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Familiarity with quality testing principles and statistical analysis&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Proficient with Microsoft Excel functions and formulas&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Basic knowledge of SQL and mySQL Workbench&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Skilled with Google suite applications&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Who we are:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Label Insight is a high-growth technology company founded with the mission of helping CPG companies and retailers to help their consumers understand what&amp;rsquo;s in the products they use and consume. Our world class SaaS data platform is transforming the way brands and retailers interact with and share product data in order to bring product transparency to the consumer.&lt;/p&gt;
+&lt;p&gt;Our team is unique because it&amp;rsquo;s comprised not only of tech engineers and data scientists, but food science, nutrition experts and product formulation specialists, that enable the enriched attribution capability of our tools. We&amp;rsquo;ve also attracted top senior executive talent with decades of leadership experience to help manage our rapid growth and scale.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Our Values:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As a team, we share a common set of values: We are innovative problem solvers. We believe in transparency, both in our product and in our work. We have curious minds and aren&amp;rsquo;t afraid to challenge the status quo. We value scientific inquiry. We aren&amp;rsquo;t afraid to take risks, and fail fast to learn and improve. We embrace uniqueness. We are lifelong learners and value intellectual honesty.&amp;nbsp;&lt;/p&gt;",
+
+    "jobLocation" : {
+        "@type" : "Place",
+        "address" : {
+            "@type" : "PostalAddress",
+            "addressLocality" : "St. Louis",
+            "addressRegion" : "Missouri",
+            "postalCode" : "63103",
+            "addressCountry": "United States"
+        }
+    },
+
+    "datePosted" : "2017-10-07",
+    "employmentType" : "FULL_TIME",
+
+    "identifier": {
+        "@type": "PropertyValue",
+        "name": "Label Insight",
+        "value": "fk0ffco"
+    },
+
+    "hiringOrganization" : {
+        "@type" : "Organization",
+        "name" : "Label Insight"
+        
+    }
+}
+
+
+    
+
+
+        
+        
+
+        
+    window.addEventListener("message", receiveMessage, false);
+
+    function receiveMessage(event)
+    {
+        if (event.origin !== "https://app.recruiterbox.com")
+            return;
+
+        var data = event.data;
+
+        if (data === 'FINISHED_LOADING_LINKEDIN_JS') {
+            $('.js-apply-with-linkedin').removeClass('hide');
+        } else if (data === 'PROFILE_DATA_BEING_FETCHED') {
+            show_application_form();
+            show_loading_overlay();
+        } else if (data.message == 'ERROR_WHILE_FETCHING_PROFILE_DATA') {
+            hide_loading_overlay();
+            show_application_form();
+            _RB.logToRollbar(data.error);
+        } else if (data.message == 'LINKEDIN_PROFILE_DATA') {
+            populateFields(data.firstName, data.lastName, data.emailAddress, data.summary, data.publicProfileUrl)
+        }
+    }
+
+    function populateFields(first_name, last_name, email, summary, linkedin_public_profile_url) {
+        hide_loading_overlay();
+        show_application_form();
+        var first_name_field = $('#id_candidate_first_name');
+        var last_name_field = $('#id_candidate_last_name');
+        var email_field = $('#id_candidate_email');
+        var summary_field = $('#id_linkedin_profile_summary');
+        var linkedin_public_profile_url_field = $('#id_linkedin_public_profile_url');
+
+        first_name_field.val(first_name);
+        last_name_field.val(last_name);
+        email_field.val(email);
+        summary_field.val(summary);
+        linkedin_public_profile_url_field.val(linkedin_public_profile_url);
+    }
+
+    function clickOnLinkedinButton() {
+        var iframe = document.querySelector("#js-linkedin-btn-iframe");
+        var iframeWindow = iframe.contentWindow;
+        iframeWindow.postMessage("CLICK_ON_LINKEDIN_BUTTON", "*");
+    }
+
+
+    
+
+
+    
+
+        
+            
+
+
+
+
+
+        
+
+        
+            
+                
+                    
+
+
+    
+    
+    
+        
+            
+            
+                Label Insight
+            
+            
+        
+        
+    
+
+    
+    
+
+
+                
+            
+        
+
+        
+            
+        
+
+        
+            
+            
+                
+    
+
+    
+    
+    
+
+
+
+    (function (d, s, id) {
+        var js, iajs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.async = true;
+        js.src = "https://apply.indeed.com/indeedapply/static/scripts/app/bootstrap.js";
+        iajs.parentNode.insertBefore(js, iajs);
+    }(document, 'script', 'indeed-apply-js'));
+
+
+    
+        
+            Jr. Data Quality Analyst
+            
+                St. Louis, Missouri, United States
+                
+                Full-time
+                
+
+                
+            
+        
+    
+    
+        
+
+            
+              
+              
+              We are looking for a motivated, detail-oriented professional to join our Data Quality team in the role of Jr. Data Quality Analyst. You will be responsible to measure the accuracy of our data capture processes, review the quality of raw data and correct critical data errors, analyze trends, and drive continuous improvement. This position provides a great opportunity to grow and develop a career in a fast-paced startup environment.
+Responsibilities:
+
+Evaluate data accuracy by studying existing system rules
+Review quality of raw data and correct data errors in a timely manner
+Analyze data quality trends and use metrics to drive enhancements to our data capture platform
+Improve SQL query logic by analyzing false positive errors
+Drive continuous improvement in core processes to improve data quality and reduce cycle time
+Establish Key Performance Indicators to recommend process improvements
+Work alongside industry experts on cutting edge and dynamic projects
+Lead individual quarterly projects as assigned
+Work internally with the Data, Engineering, and Product teams to execute project plans
+Provide status updates to management addressing project status, risks, and issues 
+
+Preferred Qualities:
+
+Motivated and conscientious self-starter with attention to detail
+High level of perseverance and time management
+Thrives in a fast-paced, team environment
+Excellent verbal and written communication
+Innovative and resourceful problem solver
+Intellectually honest, uses data to inform decisions
+
+Preferred Requirements:
+
+Bachelor’s degree
+1 to 3 years of work experience
+Familiarity with quality testing principles and statistical analysis
+Proficient with Microsoft Excel functions and formulas
+Basic knowledge of SQL and mySQL Workbench
+Skilled with Google suite applications
+
+Who we are:
+Label Insight is a high-growth technology company founded with the mission of helping CPG companies and retailers to help their consumers understand what’s in the products they use and consume. Our world class SaaS data platform is transforming the way brands and retailers interact with and share product data in order to bring product transparency to the consumer.
+Our team is unique because it’s comprised not only of tech engineers and data scientists, but food science, nutrition experts and product formulation specialists, that enable the enriched attribution capability of our tools. We’ve also attracted top senior executive talent with decades of leadership experience to help manage our rapid growth and scale.
+Our Values:
+As a team, we share a common set of values: We are innovative problem solvers. We believe in transparency, both in our product and in our work. We have curious minds and aren’t afraid to challenge the status quo. We value scientific inquiry. We aren’t afraid to take risks, and fail fast to learn and improve. We embrace uniqueness. We are lifelong learners and value intellectual honesty. 
+              
+              
+            
+
+            
+                
+                
+                    
+                        
+                            Apply for this opening
+                        
+                        
+                            
+                                
+                                    
+                                        
+                                        Apply with Linkedin
+                                    
+                                
+                            
+                        
+                        
+                            
+                                
+                                    
+
+                                    Apply with Indeed
+                                
+                            
+                        
+                    
+
+                    Apply for this opening at 
+                        http://labelinsight.recruiterbox.com/jobs/fk0ffco?apply=true
+                    
+                    
+                        
+                            
+                                
+                                     Other openings at Label Insight
+                                
+                                See all the jobs at Label Insight here: 
+                                    http://labelinsight.recruiterbox.com/jobs
+                                
+                                
+                            
+                        
+                    
+                
+                
+
+                
+                    
+                        
+                        Fetching your Linkedin profile ...
+                    
+                    
+
+
+
+    
+        
+            
+                Application Form
+            
+            
+                
+                    
+                        
+                        Apply with Linkedin
+                    
+                
+            
+            
+                
+                    
+                        
+
+                        Apply with Indeed
+                    
+                
+            
+        
+
+        
+
+        
+            
+
+            
+                
+                    
+                        First Name
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Last Name
+                        
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Email
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Phone
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Resume
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Cover Letter
+                        
+                    
+                    
+                    
+
+
+                
+            
+
+            
+                
+                
+                
+                
+                
+                
+                
+                
+            
+
+        
+    
+
+
+                
+
+                
+                    Thanks for your time
+                
+            
+        
+
+        
+            
+                
+
+
+    
+        
+            Apply for this opening
+
+            
+                
+
+                
+                    
+                    Apply with Linkedin
+                
+            
+
+            
+                
+                    
+
+                    Apply with Indeed
+                
+            
+
+        
+
+    
+        share this opening with friends
+
+        
+
+        
+
+        
+
+        
+
+    
+    
+
+
+                
+
+                
+                    
+                         Other openings at Label Insight
+                    
+                    See all the jobs at Label Insight here: 
+                        http://labelinsight.recruiterbox.com/jobs
+                    
+                    
+                
+
+                
+            
+        
+    
+
+                
+            
+            
+        
+
+        
+
+        
+            
+                
+                    
+                        
+                    
+                    
+                        powered by
+                        Recruiterbox
+                    
+                
+            
+        
+    
+    
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSXJKT');
+
+
+
+    
+    
+    
+    
+    window.jQuery || document.write('')
+
+    focus_first_field_application_form();
+    $.fn.scrollView = function () {
+        return this.each(function () {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top
+        }, 400);
+        });
+    }
+
+    $(window).on('ready',function() {
+        $("#application_form_holder").scrollView();
+        $('.eeoc-form-description')
+        .popover()
+        .on('shown.bs.popover', function () {
+            var span = $('#super-user-email');
+            if (span) {
+                var a = document.createElement('a');
+                a.href = 'mailto:chammel@labelinsight.com';
+                a.target = '_blank';
+                a.text = 'chammel@labelinsight.com';
+                span[0].appendChild(a);
+            }
+        });
+        
+        $('[data-toggle="popover"]').popover()
+        
+
+        $( '#div_apply_to_job a.btn-apply' ).click( show_application_form );
+        $( '.js-apply-for-job' ).click( show_application_form );
+
+        $('.date_input_box').datepicker({ dateFormat: 'dd M yy' });
+
+        
+
+        $('[data-loading-text]').button();
+        $('[data-loading-text]').on('click', function(){
+            $(this).button('loading');
+        });
+
+        $('.js-apply-with-indeed').click(function () {
+            var new_url = getApplyWithIndeedUrl();
+            window.location.href = new_url;
+        });
+    });
+
+    function getApplyWithIndeedUrl() {
+        var indeed_fragment = "apply_with_indeed=true";
+        var current_url = window.location.href;
+
+        if (current_url.indexOf(indeed_fragment) !== -1) {
+            return current_url;
+        }
+
+        if (current_url.indexOf('?') !== -1) {
+            return current_url + '&' + indeed_fragment;
+        }
+
+        return current_url + '?' + indeed_fragment;
+    }
+
+    function focus_first_field_application_form(e) {
+        e && e.preventDefault();
+        $('#job_application_form').find(':input:not(:hidden):first').focus();
+    }
+
+    function handleCancelButtonClick() {
+            $('#application_form_holder').hide();
+            $('#eeoc_cancel_message').show();
+    }
+
+    function indeedApplySuccess(elem) {
+        $('#indeed_application_form').submit()
+    }
+
+    function show_application_form(e) {
+        if ( e ) {
+            e.preventDefault();
+        }
+        $('#div_apply_to_job').hide();
+        $('#application_form_holder').slideDown(function() {
+            $('#application_holder').scrollView();
+            focus_first_field_application_form();
+        });
+    }
+
+    function show_loading_overlay() {
+        $('#application_holder').addClass('application-form-loading');
+        $('#loading-overlay').removeClass('hide');
+    }
+
+    function hide_loading_overlay() {
+        $('#application_holder').removeClass('application-form-loading');
+        $('#loading-overlay').addClass('hide');
+    }
+
+    (function handle_character_limit_on_paragraph() {
+        var show_limit_message = function(e) {
+            var $target = $(e.currentTarget);
+            var max_character = Number($target.data('maxlength'));
+            var current_length = $target.val().length;
+            var remaining_length = max_character - current_length;
+            var message_text = 'Not more than ' + max_character + ' characters';
+
+            if(remaining_length  0) {
+                message_text = remaining_length + ' characters remaining';
+            }
+
+            var message = $('', {
+                class: 'js-max-length-message text-muted',
+                text: ' ('+ message_text +')'
+            });
+            $target.siblings('.js-max-length-message').remove();
+            $target.siblings('label').after(message);
+        };
+
+        var handle_keydown = function(e) {
+            var $target = $(e.currentTarget);
+            var max_character = Number($target.data('maxlength'));
+            var current_length = $target.val().length;
+
+            if ([8, 13, 27, 38, 40, 9, 39, 37].indexOf(e.keyCode) > -1) {
+                return true;
+            }
+
+            if (current_length >= max_character) {
+                return false;
+            }
+        }
+
+        $('textarea[maxlength]')
+            .each(function(idx, item){
+                var $target = $(item);
+                var maxlength = $target.attr('maxlength');
+                $target.removeAttr('maxlength').data('maxlength', maxlength);
+            })
+                .on('keyup', show_limit_message)
+                .on('keydown', handle_keydown)
+                .on('input', show_limit_message)
+                .trigger('keyup');
+    })();
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+

@@ -1,0 +1,48 @@
+
+            function handleCaptcha(response) {
+                var vid = getQueryString("vid"); // getQueryString is implemented below
+                var uuid = getQueryString("uuid");
+                var name = '_pxCaptcha';
+                var cookieValue =  btoa(JSON.stringify({r:response,v:vid,u:uuid}));
+                var cookieParts = [name, '=', cookieValue, '; path=/'];
+                var domainName = getDomain();
+                if (domainName) {
+                    cookieParts.push('; domain=' + domainName);
+                }
+                document.cookie = cookieParts.join('');
+                var originalURL = getQueryString("url");
+                var originalHost = window.location.host;
+                var newHref = window.location.protocol + "//" + originalHost;
+                if (originalURL) {
+                    newHref = newHref + originalURL;
+                }
+                window.location.href = newHref;
+            }
+
+            function getQueryString(name, url) {
+                if (!url) url = window.location.href;
+                name = name.replace(/[\[\]]/g, "\\$&");
+                var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, " "));
+            }
+
+            function getDomain() {
+                var regExMatcher = /([\w-]*\.)?(([\w-]*\.)+(com|net|local))$/;
+                var matches = regExMatcher.exec(window.location.host);
+                var domain = '';
+                if (matches && matches.length >= 3) {
+                    domain = matches[2];
+                    if (domain && domain[0] != '.') {
+                        domain = '.' + domain;
+                    }
+                }
+                return domain;
+            }
+
+            document.addEventListener("DOMContentLoaded", function (e) {
+                document.getElementById("uuid").innerText = "UUID: " + getQueryString("uuid");
+            });
+        Captcha -->Please verify you're a human to continue.

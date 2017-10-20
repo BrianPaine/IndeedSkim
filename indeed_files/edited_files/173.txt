@@ -1,0 +1,708 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Reynolds and Reynolds Careers
+
+
+
+     
+
+     
+
+    
+
+    
+
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+    
+
+    
+
+        try {
+
+        var pageTracker = _gat._getTracker("UA-5725766-1");
+
+        pageTracker._trackPageview();
+
+        } catch(err) {}
+
+    
+
+    
+
+    
+
+    
+
+        $(function(){
+
+            $("#emailCont").click(function() {
+
+                if($("#slideDown").css("top") == '35px') {
+
+                    $("#emailButton").attr("src","/images/subscribeDown.jpg");
+
+                    $("#slideDown").animate({
+
+                        top: '-362px'
+
+                    },function() {$("#slideDown").hide()});
+
+                } else {
+
+                    $("#slideDown").show();
+
+                    $("#emailButton").attr("src","/images/subscribeUp.jpg");
+
+                    $("#slideDown").animate({
+
+                        top: '35px'
+
+                    });
+
+                }
+
+            });
+
+        });
+
+    
+
+    
+
+        // google analytics event tracking
+
+        var _gaq = _gaq || [];
+
+        _gaq.push(['_setAccount', 'UA-5725766-1']);
+
+        _gaq.push(['_trackPageview']);
+
+
+
+        (function () {
+
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+        })();
+
+    
+
+
+
+
+
+    
+
+        
+
+	        
+
+            
+
+	            
+
+                    
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+
+
+                
+
+	            
+
+		            
+
+		                
+
+		            
+
+
+
+	            
+
+	            
+
+		            
+
+	                        	
+
+	            
+
+	                Reynolds
+
+	                Solutions
+
+	                Support
+
+	                Careers
+
+	                Shop
+
+	                Company
+
+	                
+
+	                    
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                        
+
+                                            
+
+                                                
+
+                                                    &nbsp;
+
+                                                        
+
+                                                        
+
+                                                        
+
+                                                        
+
+                                                            
+
+                                                        
+
+                                                    
+
+                                                
+
+                                            
+
+                                        
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                        
+
+                    
+
+	            
+
+	            
+
+                    
+
+                        
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                            
+
+                        
+
+                    
+
+                
+
+	        
+
+	        
+
+            google.load("elements", "1", {packages: "transliteration"});
+
+            
+
+            
+
+	    
+
+	    
+
+	    
+
+	          
+
+	        
+
+
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+
+
+
+
+                
+
+                
+
+
+
+if (document.getElementById("careerslink"))
+
+{
+
+    document.getElementById("careerslink").id = "careerselected";
+
+}
+
+if (document.getElementById("careerslink-fr"))
+
+{
+
+    document.getElementById("careerslink-fr").id = "careerscurrent-fr";
+
+}
+
+
+
+
+
+
+
+
+
+
+
+LocationsDayton, OH (Headquarters)Houston, TXCollege Station, TXCelina, OHNationwide
+
+
+
+
+
+
+
+Job CategoriesAccounting / FinanceAdministrative / ClericalConsultingCustomer ServiceHousekeepingInformation TechnologyMaintenanceManufacturing / General LaborMarketing / Public RelationsProduct / Project ManagementProfessionalRecruitingSalesSoftware DevelopmentTrainingWarehouseInternshipsPart-timeAll Openings
+
+
+
+
+
+Benefits / CultureLife at ReynoldsAssociates on the RecordMilitary ApplicantsGreen Initiatives
+
+
+
+
+
+International
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+  
+
+
+
+
+
+    
+
+
+
+
+
+ 
+
+
+
+    &nbsp;
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                            Open Positions NationwideAccounting / FinanceAdministrative / ClericalConsultingCustomer ServiceHousekeepingInformation TechnologyMaintenanceManufacturing / General LaborMarketing / Public RelationsProduct / Project ManagementProfessionalRecruitingSalesSoftware DevelopmentTrainingWarehouseInternshipsPart-timeAll Openings
+
+                        
+
+                    
+
+                
+
+            
+
+            &nbsp;
+
+            
+
+
+
+	
+
+        
+
+            Nationwide Career Opportunity - Internships
+
+            Data Analyst InternDayton, OHPosition Description:In this role, you will help create real world analytics projects to better understand automotive customer behavior and integrate the analytics into products and services that match their behavior. This involves working with a team of Data Analysts in the Product Planning department, to complete the analysis and communicate this information in written form, as well as assist in implementing your analysis into automotive dealership products and services. If you are looking for a career that encompasses data analysis, econometrics, and integrating big data, then this is the internship for you!Training:Combination of classroom, computer assisted, and on the job training.Requirements:Currently pursuing a degree, preferably in Mathematics, Statistics, Econometrics, Marketing Research or related fieldsStrong analytical skills. Experience in Excel and analytics tools a plusSelf-Driven attitudeDetail oriented and ability to multitaskTo apply for this position, email your resume directly to Apply@reyrey.com.Reynolds and Reynolds promotes a healthy lifestyle by providing a non-smoking environment. Reynolds and Reynolds encourages applicants of all ages and experience to apply, as we do not discriminate on the basis of age.
+
+        
+
+    
+
+
+
+
+
+    Job Interest Form
+
+    I am interested in a Data Analyst Intern career
+
+    First Name*
+
+    
+
+    Last Name*
+
+    
+
+    Email*
+
+    
+
+    Phone ex.: (555) 555-5555
+
+    
+
+    Location*
+
+    
+
+	Dayton, Ohio
+
+
+
+
+
+    Submit
+
+    
+
+    * - required fields
+
+
+
+
+
+    
+
+    function validateEmail(email) {
+
+        var reg = /^(([^()[\]\\.,;:\s@\"]+(\.[^()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+        return reg.test(email);
+
+    }
+
+
+
+    function validatePhone(phone) {
+
+        var returnResult = "";
+
+        var reg = /^(?:\+?1[-. ]?)?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+
+        if (reg.test(phone)) {
+
+            returnResult = phone.replace(reg, "($1) $2-$3");
+
+        }
+
+        else {
+
+            returnResult = "";
+
+        }
+
+        return returnResult;
+
+    }
+
+
+
+    function emailSuccess() {
+
+        $('.jobDetailsInterestForm').fadeOut('fast', function () {
+
+            $(this).before('Thank you for your interest.');
+
+            setTimeout('$.fancybox.close()', 1000);
+
+            _gaq.push(['_trackEvent', 'Application', 'Submit', 'Careers Upload Resume Mobile']);
+
+        });
+
+
+
+        $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_firstName').val('');
+
+        $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_lastName').val('');
+
+        $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_email').val('');
+
+        $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_phone').val('');
+
+        $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_postingLocation').val('');
+
+        $('#submitText').replaceWith('Submit');
+
+    }
+
+
+
+    function emailError() {
+
+    }
+
+
+
+    $(document).ready(function () {
+
+        $('.modalbox').fancybox();
+
+
+
+        $('.jobDetailsSend').on('click', function () {
+
+            var firstName = $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_firstName').val();
+
+            var lastName = $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_lastName').val();
+
+            var email = $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_email').val();
+
+            var phone = $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_phone').val();
+
+            var location = $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_postingLocation option:selected').text();
+
+            var locationEmail = $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_postingLocation').val();
+
+            var job = $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_jobTitle').html();
+
+            var emailValid = validateEmail(email);
+
+            var phoneValid = validatePhone(phone);
+
+
+
+            if (emailValid == false) {
+
+                $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_email').addClass('error');
+
+            }
+
+            else if (emailValid == true) {
+
+                $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_email').removeClass('error');
+
+            }
+
+
+
+            if (firstName.length  0) {
+
+                $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_firstName').removeClass('error');
+
+            }
+
+
+
+            if (lastName.length  0) {
+
+                $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_lastName').removeClass('error');
+
+            }
+
+
+
+            if (phoneValid == "") {
+
+                $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_phone').addClass('error');
+
+                $('#phoneExample').show();
+
+            }
+
+            else {
+
+                $('#MainContent_ContentPlaceHolder2_ContentPlaceHolder1_phone').removeClass('error');
+
+                $('#phoneExample').hide();
+
+            }
+
+
+
+            if (emailValid == true && firstName.length > 0 && lastName.length > 0 && phoneValid != "") {
+
+                $('.jobDetailsSend').replaceWith('submitting...');
+
+
+
+                PageMethods.SendEmail(firstName, lastName, email, phoneValid, location, locationEmail, job, emailSuccess, emailError);
+
+            }
+
+
+
+            return false;
+
+        });
+
+    });
+
+
+
+
+
+        
+
+        &nbsp;
+
+
+
+
+
+                
+
+                    
+
+	                    
+
+	                    
+
+	                    
+
+	                    
+
+		                    Copyright&nbsp;&copy;&nbsp;
+
+		                        2017&nbsp;The Reynolds and Reynolds Company. 
+
+		                        All rights reserved.&nbsp;&nbsp;&nbsp; 
+
+		                        Privacy Policy &nbsp; &nbsp; &nbsp; 
+
+		                        Safe Harbor Policy &nbsp; &nbsp; &nbsp; 
+
+                                Legal Notices &nbsp; &nbsp; &nbsp; 
+
+		                        Contact Us
+
+		                    
+
+	                    
+
+	                    
+
+	                    
+
+	                    
+
+                    
+
+                
+
+            
+
+            
+
+        
+
+     
+
+
+
+
+

@@ -1,0 +1,648 @@
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+    
+
+    
+
+    
+
+	Data Analyst Description at Encore Capital Group
+
+    
+
+	
+
+		
+
+	
+
+    
+
+    
+
+        
+
+    document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+     
+
+
+
+
+
+
+
+                
+
+{"@context":"http://schema.org","@type":"JobPosting","datePosted":"2017-10-6","description":"Job DescriptionPosition Summary:The Data Analyst is primarily responsible for using data extraction tools such as IBM iSeries, SAS, MS Access and Excel to implement various collections and/or valuation processes (examples include pre-purchase valuation, marketing campaigns, portfolio loads, legal placements, agency placements). The Data Analyst also develops and runs reports, analyses and tools to ensure accuracy and identify issues, trends and opportunities and maintains departmental databases. The Data Analyst works closely with members of the team and other departments to communicate ongoing results and strategy changes.This job may entail Salesforce Administration work including, but not limited to, configuration, deployment, administration, report building, etc within the Salesforce environment.ResponsibilitiesDevelop and implement technical solutions to execute business strategy / processes. 60%Develop and maintain monitoring reports and analytical tools to ensure accuracy, identify trends / issues / opportunities. 20%Make recommendations to improve business processes. 10%Perform ad hoc data extraction, analyses and segmentations as required. 10%QualificationsEducation:Required: Bachelor; Quantitative fieldLanguages:Required: EnglishWork Experience:Required: 1 - 2 years experience in an analytical / quantitative role, or equivalent education and experience. Experience in designing and running queries. Proficiency with MS Office, especially Excel.Preferred:   Advanced proficiency with MS Office, especially Excel.Position TitleData AnalystLocationCA - San DiegoCategoryOperations Decision SciencePosition StatusFull time","employmentType":"Regular","identifier":"Data-Analyst_REQ02193-4","title":"Data Analyst","url":"https://www.encore-jobs.com/job/san-diego/data-analyst/420/5902049","hiringOrganization":{"@type":"Organization","name":"Encore Capital Group"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"San Diego","addressRegion":"California","addressCountry":"United States","streetAddress":"","postalCode":""}}}
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-27389589-1', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+                createHiddenInput('dimension1', '5902049');
+
+                createHiddenInput('dimension2', 'Data-Analyst_REQ02193-4');
+
+                createHiddenInput('dimension3', '420');
+
+                createHiddenInput('dimension4', '420,');
+
+                    createHiddenInput('dimension6', 'Operations-Decision-Science');
+
+                    createHiddenInput('dimension7', 'San-Diego-California-United-States');
+
+                    createHiddenInput('dimension9', 'Data Analyst');
+
+                        createHiddenInput('dimension10', 'JobDetails');
+
+                    createHiddenInput('dimension14', 'Basic JD');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+            gtmValues = { 'JobID': '5902049', 'ReqID': 'Data-Analyst_REQ02193-4', 'OrgID': '420', 'tbcn-division': '420,' };
+
+                gtmValues['tbcn-jobcategory'] = 'Operations-Decision-Science';
+
+                gtmValues['tbcn-location'] = 'San-Diego-California-United-States';
+
+                gtmValues['tbcn-jobtitle'] = 'Data Analyst';
+
+                    gtmValues['pagetype'] = 'JobDetails';
+
+                gtmValues['subpagetype'] = 'Basic JD';
+
+            dataLayer.push(gtmValues);
+
+
+
+
+
+
+
+
+
+
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-MPSQRF');
+
+    
+
+
+
+	
+
+	Skip Navigation
+
+    
+
+	    
+
+	        
+
+	                
+
+
+
+
+
+
+
+    
+
+        Connect With Us
+
+        
+
+                LinkedIn
+
+                Twitter
+
+        
+
+    
+
+
+
+    
+
+                Corporate Home
+
+                About Encore
+
+                Account Managers
+
+                Benefits
+
+    
+
+
+
+
+
+	            Show Menu
+
+	            &nbsp;
+
+	        
+
+	    
+
+	
+
+		
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+	Search Jobs
+
+        
+
+		    Keyword Search
+
+		    
+
+        
+
+        
+
+            City, Region, Postal Code
+
+		    
+
+        
+
+        
+
+		    Search radius
+
+	        Radius
+
+5 miles
+
+15 miles
+
+25 miles
+
+35 miles
+
+50 miles
+
+
+
+        
+
+        
+
+        Go
+
+	
+
+	&nbsp;
+
+		Go
+
+
+
+
+
+    
+
+		Bright Minds. 
+
+Open Communication.
+
+		Enter a World of Opportunity.
+
+		By promoting a culture of learning, we bring together people from diverse backgrounds and skill sets to generate innovative solutions. Working here, you’ll thrive in a professional environment infused with creativity and collaboration. Discover what happens when passion drives performance.
+
+    
+
+
+
+
+
+
+
+
+
+     
+
+        
+
+
+
+    
+
+        Data Analyst
+
+	Apply Now
+
+                            
+
+        
+
+          Job DescriptionPosition Summary:The Data Analyst is primarily responsible for using data extraction tools such as IBM iSeries, SAS, MS Access and Excel to implement various collections and/or valuation processes (examples include pre-purchase valuation, marketing campaigns, portfolio loads, legal placements, agency placements). The Data Analyst also develops and runs reports, analyses and tools to ensure accuracy and identify issues, trends and opportunities and maintains departmental databases. The Data Analyst works closely with members of the team and other departments to communicate ongoing results and strategy changes.This job may entail Salesforce Administration work including, but not limited to, configuration, deployment, administration, report building, etc within the Salesforce environment.ResponsibilitiesDevelop and implement technical solutions to execute business strategy / processes. 60%Develop and maintain monitoring reports and analytical tools to ensure accuracy, identify trends / issues / opportunities. 20%Make recommendations to improve business processes. 10%Perform ad hoc data extraction, analyses and segmentations as required. 10%QualificationsEducation:Required: Bachelor; Quantitative fieldLanguages:Required: EnglishWork Experience:Required: 1 - 2 years experience in an analytical / quantitative role, or equivalent education and experience. Experience in designing and running queries. Proficiency with MS Office, especially Excel.Preferred:   Advanced proficiency with MS Office, especially Excel.Position TitleData AnalystLocationCA - San DiegoCategoryOperations Decision SciencePosition StatusFull time
+
+          
+
+        
+
+        
+
+	Apply Now
+
+        		    
+
+
+
+
+
+       
+
+        
+
+            
+
+            Sign up to Receive Job Alerts-->
+
+            Sign up to Receive  Job Alerts
+
+        
+
+Email AddressAreas of InterestSearch for a category, location, or category/location pair, select a term from the suggestions, and click “Add”.CategoryLocationAddRemove        
+
+        
+
+            Confirm Email
+
+            
+
+        
+
+		
+
+        
+
+            
+
+        
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+	
+
+	
+
+	    
+
+            
+
+             Home
+
+             Locations
+
+             Contact Us
+
+             Sitemap
+
+             Privacy Policy and State Disclosures
+
+             
+
+            &copy;2015 Encore Capital Group All Rights Reserved. 
+
+            &nbsp;
+
+            Midland Credit Management
+
+            Midland Funding LLC
+
+            
+
+            Credit Research Institute
+
+        
+
+        
+
+        
+
+   
+
+        
+
+        
+
+        
+
+
+
+	
+
+	
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+   
+
+   
+
+    
+
+ 
+
+
+

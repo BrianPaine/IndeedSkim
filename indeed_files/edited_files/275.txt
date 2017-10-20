@@ -1,0 +1,223 @@
+            
+            
+                    
+
+    
+        
+        
+            
+    
+    
+    
+    
+                    Business Data Analyst - Generalist - Levy Careers
+                
+
+
+
+
+
+        
+
+
+
+
+    tpt.backend = {
+        "browser": {
+            "name": "unknown",
+            "version": null,
+            "isMobile": false
+        },
+        "pageParameters": {
+            "personSort": null,
+            "personSortDirection": null,
+            "jobSort": null,
+            "jobSortDirection": null
+        },
+        "jobLabel": "folder"
+    };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+try{Typekit.load();}catch(e){}
+
+        
+                    
+    
+        
+            
+                
+
+
+    
+        Who We Are
+        Life at Levy
+        Talent Community
+                    Search jobs
+                                        Sign in
+                        
+            
+            
+                
+
+    
+
+
+    Careers
+    THE COOLEST JOB IN FOOD AND SPORTS.
+            
+            
+                        
+                    
+        
+    Business Data Analyst - Generalist
+    
+    
+                            Apply now
+            
+
+    
+        
+                            
+                    
+                        Department:
+                    
+                    
+                        Analytics
+                    
+                
+                            
+                    
+                        Location:
+                    
+                    
+                        Illinois
+                    
+                
+                            
+                    
+                        
+                    
+                    
+                        JOB DESCRIPTIONThe Data Analyst is an analyst position with the E15 Group. As a Business Data Analyst - Generalist, you would become a primary resource supporting projects across multiple industries, spanning a client base that includes the world’s most recognizable sports franchises such as the Chicago Cubs and Golden State Warriors to global tech giants such as Amazon and Google. In this role you would contribute on project teams focused on leveraging advanced analytical methods to deliver insights in the areas of business intelligence, business optimization, and consumer behavior.Some of the core responsibilities of the Business Data Analyst - Generalist are:Analyzing data (from a variety of sources) to answer business questions and optimize our clients’ businessesManaging various workflows relating to projects for key client and internal stakeholders as well as understanding their overall strategies and business objectivesIdentifying opportunities to change and improve existing methods of analysis and reportingIdentifying opportunities to change and improve existing processes to capture and leverage data and institutionalize learningSupporting the periodic reporting on operational and financial metrics for specific clients, and creating an economic valuation of E15’s bottom-line impactSupporting the periodic reporting and analysis of consumer insights data (surveys, syndicated data, focus groups, etc.)Managing or directly completing ad hoc analytics projects as appropriateABOUT E15At E15, we are the spark that ignites. Our team delivers next-generation insights based on data, not hunches, to drive business in across a variety of industries and business sectors. E15 brings unmatched industry intelligence and cutting edge analytics to sports, entertainment, hospitality, and retail industries to help companies make forward-looking decisions to benefit their business and their customers. www.e15group.comABOUT COMPASS GROUPCompass is a world-class provider of contract foodservice and support services, renowned for our great people, our great service, and our great results. Compass operates in over 50 countries and employs more than 500k people across its 5 sectors: Business &amp; Industry, Healthcare &amp; Seniors, Education, Sports &amp; Leisure, and Defense, Offshore, Remote. Boasting a diverse portfolio of clients across the globe, including the likes of Apple, Google, Boeing, Nike and Coca-Cola, Compass is the global leader in food services. www.compass-group.comABOUT LEVYLevy is the leader in Sports and Entertainment dining, catering such renowned sports venues at Wrigley Field in Chicago, STAPLES Center and Dodger Stadium in Los Angeles, Ford Field in Detroit and Churchill Downs in Louisville. Levy also caters events including Super Bowls, World Series, NASCAR Racing, the Kentucky Derby, the U.S. Open Tennis Tournament and the Grammy Awards. www.levyrestaurants.comLevy is an equal opportunity employer.&nbsp; At Levy we are committed to treating all Applicants and Team Members fairly based on their abilities, achievements, and experience without regard to race, national origin, sex, age, disability, veteran status, sexual orientation, gender identity, or any other classification protected by law.
+                    
+                
+                            
+                    
+                        
+                    
+                    
+                        REQUIRED SKILLSBachelor’s (or higher) degree in business analytics, computer science, data science, statistics, economics, finance, psychology, marketing, consumer behavior, or a related fieldExperience (work or school assignments) in at least one of the following tools:SQLStatistical software package (R and Python strongly preferred)Data visualization (Tableau strongly preferred)Expertise in Excel modeling, with work or school experience in financial modeling a plusExperience using data visualization tools, visual features of statistical software tools or PowerPoint to communicate complex ideas to non-technical audiencesCan share examples of working effectively in a team environmentCan share examples of how they have used data to solve complex problemsCan share examples of how they have used creativity to achieve excellent outcomes
+                    
+                
+                    
+    
+
+    
+                    
+
+    Share
+    
+        Share Business Data Analyst - Generalist with Facebook
+        Share Business Data Analyst - Generalist with LinkedIn
+        Share Business Data Analyst - Generalist with Twitter
+        Share Business Data Analyst - Generalist with Google+
+        Share Business Data Analyst - Generalist with Viadeo
+                    Share Business Data Analyst - Generalist with a friend via e-mail
+            
+
+        
+                            Apply now
+            
+
+        
+        
+                                                &lt; Back to search results
+                                    
+    
+            
+            
+                
+                    
+                        Don't be a stranger.
+                        Contact Us
+                        980 North Michigan Ave. 
+                        Chicago, IL 60611-4501 
+                        (312) 664-8200
+                        Copyright &copy; 2017 Levy Restaurants. All Rights Reserved. Terms &amp; conditions
+                    
+                    
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                    
+                
+            
+        
+
+        
+            $(document).ready(function(){
+                $('#navBarMobile').slicknav({
+                    label: ''
+                });
+
+                // Logo on on scroll down
+                var didScroll;
+                var lastScrollTop = 0;
+                var delta = 5;
+                var navbarHeight = $('.mainNavigation').outerHeight();
+
+                $(window).scroll(function(event){
+                    didScroll = true;
+                });
+
+                setInterval(function() {
+                    if (didScroll) {
+                        hasScrolled();
+                        didScroll = false;
+                    }
+                }, 250);
+
+                function hasScrolled() {
+                    var st = $(this).scrollTop();
+                    // Make sure they scroll more than delta
+                    if(Math.abs(lastScrollTop - st)  lastScrollTop && st > navbarHeight){
+                        // Scroll Down
+                        $('.logo').removeClass('logoInBanner');
+                        $('.mainNavigation').removeClass('removeLogo').addClass('addLogo');
+                        $('.navBarLogoLink').show();
+                    } else {
+                        // Scroll Up Top
+                        if(st <= 0) {
+                            $('.mainNavigation').removeClass('addLogo').addClass('removeLogo');
+                            $('.logo').addClass('logoInBanner');
+                            $('.navBarLogoLink').hide();
+                        }
+                    }
+                    
+                    lastScrollTop = st;
+                }
+
+            });
+        
+    
+
+
+                                                    
+    
+    
+    
+
+    

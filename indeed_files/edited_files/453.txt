@@ -1,0 +1,633 @@
+
+       
+          
+          
+  <!--
+
+
+  
+  
+
+  Junior Analyst in CT | Primacy Careers
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+
+	
+	
+	
+	
+	
+	
+	
+  
+
+
+  
+  
+
+  
+  
+  
+  
+  -->
+  
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KR5R32');
+
+
+Back
+
+	
+	
+		
+		
+			Toggle Menu
+			
+		
+		
+	
+	
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+
+			
+
+				
+
+					About
+
+					Work
+
+					Industries
+
+					Capabilities
+
+					Blog
+
+					Careers
+
+					contact
+
+					News
+
+					Search
+
+				
+
+				
+
+					follow us
+
+					
+
+					
+
+						follow primacy
+
+						
+
+                            Facebook
+
+                            Twitter
+
+                            LinkedIn
+
+                            Google+
+
+                            Instagram
+
+                            Youtube
+
+                            Vimeo
+
+						
+
+					
+
+					
+
+				
+
+			
+
+		
+
+		
+
+
+
+	
+
+
+
+	
+
+	
+
+
+
+	
+
+		
+
+			
+
+
+
+				
+
+				
+
+					
+
+						
+
+							
+
+																
+
+                        about
+
+                 /               Careers
+
+           								Junior Analyst
+
+							
+
+							
+
+						
+
+					
+
+				
+
+				
+
+				
+
+					
+
+					
+
+						
+
+						   Department: Analytics
+
+							   							   Office: CT
+
+							   
+
+						
+
+					
+
+					
+
+				
+
+
+
+				
+
+				
+
+					
+
+						
+
+							Responsible for providing data-driven insight and practical, proactive optimization recommendations across the Primacy client base. This individual will support the evolution of Primacy Analytics capabilities and work with the Performance Analytics Manager and Senior Strategist to provide the world-class analysis and campaign optimization necessary to accomplish their strategic objectives. By consistently delivering value, Primacy analytics team will become an inseparable part of our client relationships.						
+
+					
+
+				
+
+				
+
+
+
+				
+
+				
+
+					
+
+						
+
+							Responsibilities&nbsp;
+
+
+
+Media Analytics: Monitoring and reporting of brand conversations, analysis of the quantity and sentiment of the conversations, measurement of Paid Search efforts showing clear tie between workstreams and ROI, and development of media segments/profiles
+
+Website Funnel/Experience Reporting: Identification of friction points (errors, lack of engagement, abandonment, etc.) in online conversion processes and digital experiences
+
+Measurement and Test Planning: Development of data infrastructure, test plans, learning objectives, measurement methodology, tool selection, implementation, measurement and ongoing process refinement
+
+Behavioral Segmentation: Isolation of key segmentation variables, segment of users into actionable groups
+
+Assist in the planning and implementation of Tagging defined in Analytics Architecture
+
+
+
+Qualifications
+
+
+
+1-2 years of Digital Marketing analytics experience
+
+Ideally Google Analytics certified or willing to obtain certification within 90 days
+
+Working knowledge of Google platforms including Google Analytics and Google Tag Manager
+
+Proficient with MS Excel and PowerPoint
+
+Familiarity with data visualization platforms such as Google Data Studio and DOMO and A/B testing platforms such as Google Optimize a plus
+
+Eager to learn new technologies
+
+						
+
+					
+
+				
+
+				
+
+
+
+			
+
+		
+
+		
+
+				
+
+			
+
+			
+
+				
+
+					
+
+					
+
+						
+
+							
+
+								We'd love to hear more.
+
+							
+
+						
+
+					
+
+					
+
+				
+
+
+
+				
+
+					
+
+					
+
+						
+
+							Please complete the form below to apply for a job with Primacy. All bold fields are required.
+
+						
+
+					
+
+					
+
+				
+
+
+
+				
+
+					
+
+										
+
+						
+
+							
+
+								Name
+
+								
+
+							
+
+						
+
+						
+
+							
+
+								Phone
+
+								
+
+							
+
+						
+
+					
+
+					
+
+						
+
+							
+
+								Email
+
+								
+
+							
+
+						
+
+					
+
+					
+
+						
+
+							
+
+								Address
+
+								
+
+							
+
+						
+
+						
+
+							
+
+								Address 2
+
+								
+
+							
+
+						
+
+					
+
+					
+
+						
+
+							
+
+								City
+
+								
+
+							
+
+						
+
+						
+
+							
+
+								State
+
+								
+
+									StateAlabamaAlaskaArizonaArkansasCaliforniaColoradoConnecticutDelawareDistrict of ColumbiaFloridaGeorgiaHawaiiIdahoIllinoisIndianaIowaKansasKentuckyLouisianaMaineMarylandMassachusettsMichiganMinnesotaMississippiMissouriMontanaNebraskaNevadaNew HampshireNew JerseyNew MexicoNew YorkNorth CarolinaNorth DakotaOhioOklahomaOregonPennsylvaniaRhode IslandSouth CarolinaSouth DakotaTennesseeTexasUtahVermontVirginiaWashingtonWest VirginiaWisconsinWyoming								
+
+							
+
+						
+
+					
+
+					
+
+						
+
+							
+
+								ZIP Code
+
+								
+
+							
+
+						
+
+					
+
+					
+
+						
+
+							
+
+								
+
+							
+
+						
+
+					
+
+					
+
+						
+
+							
+
+								
+
+									Attach Resumé:
+
+									
+
+								
+
+							
+
+						
+
+					
+
+					
+
+						
+
+                            
+
+								Submit
+
+							
+
+						
+
+					
+
+				
+
+
+
+
+
+			
+
+			
+
+		
+
+			
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                        
+
+                    
+
+
+
+                    
+
+                        Hartford
+
+                        NYC
+
+                        Boston
+
+                        West Palm
+
+                    
+
+
+
+                    &copy; 2017 Primacy | Privacy Policy
+
+
+
+                    
+
+                
+
+            
+
+            
+
+        
+
+
+
+
+
+    var addthis_config = {
+        "data_track_clickback": true,
+        "data_ga_property": 'UA-8905448-1',
+        "ui_click": true,
+        "ui_508_compliant": true
+    };
+
+    (function () {
+        var at = document.createElement('script'); at.type = 'text/javascript'; at.async = true;
+        at.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 's7.addthis.com/js/250/addthis_widget.js#pubid=ra-4fd6350b798030d1';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(at, s);
+    })();
+
+
+
+
+
+
+
+
+	  var sf14gv = 15046;
+	  (function() {
+	  var sf14g = document.createElement('script'); sf14g.type = 'text/javascript'; sf14g.async = true;
+	  sf14g.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 't.sf14g.com/sf14g.js';
+	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sf14g, s);
+	  })();
+ 
+

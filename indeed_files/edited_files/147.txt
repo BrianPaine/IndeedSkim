@@ -1,0 +1,365 @@
+
+
+  var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);
+      
+      Data Analyst - OIM
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+  
+  
+      
+      
+        
+          Skip to Main Content
+        
+        
+          
+            
+
+	
+
+	
+
+		Agencies | Governor 
+
+	
+
+		Search Virginia.Gov
+
+	
+
+		
+
+
+
+
+
+          
+          
+            
+  
+  Home
+  Search Jobs
+    Create Account
+    Log In
+  Help
+
+
+  
+    
+
+	
+
+		 Department of Human Resource Management 
+
+	
+
+		 Agency List
+
+	
+
+		Frequently Asked Questions 
+
+
+
+
+  
+
+
+            
+              
+                
+                  Data Analyst - OIM
+  
+
+	Below you will find the details for the position including any supplementary documentation and questions you should review before applying for the opening. &nbsp;To apply for the position, please click the Apply for this Job link/button.
+
+
+
+	If you would like to&nbsp;bookmark this position for later review, click on the Bookmark link.&nbsp; If you would like to print a copy of this position for your records, click on the Print Preview link.
+  
+  
+      Bookmark this Posting |
+    Print Preview |
+        Apply for this Job
+  
+
+      
+        Please see Special Instructions for more details.
+        Applicants needing sponsorship need not apply.  The Department of Health accepts online applications only.  A completed application, including all previous employment, salary history, and education must be submitted online at https://virginiajobs.peopleadmin.com for consideration.  No faxed, mailed or emailed application will be accepted.  This position will remain open until 11:59 p.m. EST on the closing date.
+      
+
+  
+    
+      Position Information
+      
+      
+           
+
+              Position Information
+              
+              
+                    
+                      Working Title
+                        Data Analyst - OIM
+                    
+                    
+                      Role Title
+                        Info Technology Specialist II - 39112
+                    
+                    
+                      Job Open Date
+                        09/30/2017
+                    
+                    
+                      Job Close Date
+                        10/13/2017
+                    
+                    
+                      Open Until Filled
+                        No
+                    
+                    
+                      Is this position funded in whole or in part by the American Recovery & Reinvestment Act (Stimulus Package)?
+                        No
+                    
+                    
+                      Hiring Range
+                        Negotiable to $75,000
+                    
+                    
+                      Agency
+                        Dept of Health (601)
+                    
+                    
+                      Agency Website
+                        www.vdh.virginia.gov
+                    
+                    
+                      Location
+                        Richmond (City) - 760
+                    
+                    
+                      Sublocation
+                        Richmond /Headquarters
+                    
+                    
+                      Position Number
+                        00026
+                    
+                    
+                      Job Posting Number
+                        1029763
+                    
+                    
+                      Type of Recruitment
+                        General Public - G
+                    
+                    
+                      Does this position have telework options?
+                        Yes
+                    
+                    
+                      Bilingual/Multilingual Skill Requirement/Preference
+                        No
+                    
+                    
+                      Job Type
+                        Full-Time (Salaried)
+                    
+                    
+                      Job Type Detail
+                        Full-Time Salaried - Non-Faculty- FTS-1
+                    
+                    
+                      Pay Band
+                        05
+                    
+                    
+                      Job Description
+                        This is a re-advertisement.  Applicants who have previously applied need not apply.  This position is part of the Virginia Department of Health (VDH) &#8211; Office of Information Management&#8217;s (OIM) Data Management team.  The purpose of this position is to provide development, systems analysis, technical support and peer troubleshooting to help improve decision making, optimize performance, and produce reports to fulfill NCHS reporting requirements.  Works closely with the other data analysts in contribution to designing and supplying reports and statistics internally and other agencies that use vital event statistics to evaluate and administer health programs, and respond to legislative/regulations/mandates.  Participates in development of the team&#8217;s capabilities for reliable, accurate and advanced datasets and the mechanisms to access them in safe, controlled fashion.  Develops standard and ad hoc reports and data visualizations using tools such as Tableau; and evaluates user reporting requests, and provides solutions.  Develops database objects, supports agency-wide data warehousing, data mart, and operational data store infrastructure; develops in SQL or PL/SQL on a regular basis; develops data visualizations and reports using tools such as Tableau; communicated with the team, supervisors, peers, data consumers and other technical staff in a professional and efficient manner; and evaluates user reporting requests, provides suggestions for a solution, and develops the solution using full application life cycle development practices and change control methodology.
+                    
+                    
+                      Minimum Qualifications
+                        Working experience with relational databases (Oracle preferred), SQL, PL/SQL, and/or T-SQL and spreadsheet concepts (Microsoft Excel preferred). Working experience with statistical packages (SAS, SPSS, or R).  Familiar with data visualization platform such as Tableau.  Good oral and written communication skills.
+                    
+                    
+                      Preferred Qualifications
+                        Relational database such as Oracle is preferred.  Spreadsheet concept (i.e. Microsoft Excel) is preferred.  A college degree with major study in statistics, mathematics or related field and/or equivalent experience and training.
+                    
+                    
+                      Special Requirements
+                        Employment is contingent upon satisfactory results of state and federal criminal history background check, the Department of Social Service&#8217;s Child Abuse and Neglect Central Registry check, U.S. HHS IG Exclusion List, employment reference check and E-Verify.  Other financial, credit, driving, or other background checks prior to employment may be required for certain positions.
+                    
+                    
+                      Special Instructions to Applicants
+                        Applicants needing sponsorship need not apply.  The Department of Health accepts online applications only.  A completed application, including all previous employment, salary history, and education must be submitted online at https://virginiajobs.peopleadmin.com for consideration.  No faxed, mailed or emailed application will be accepted.  This position will remain open until 11:59 p.m. EST on the closing date.
+                    
+                
+           
+           
+
+              Contact Information
+              
+              
+                    
+                      Name
+                        Robin Jackson
+                    
+                    
+                      Phone
+                        
+                    
+                    
+                      Fax
+                        
+                    
+                    
+                      Email
+                        robin.c.jackson@vdh.virginia.gov
+                    
+                    
+                      Address
+                        
+                    
+                
+           
+      
+    
+  
+    Posting Specific Questions
+      
+          Required fields are indicated with an asterisk (*).
+
+     * 
+  Do you have an Interagency Placement Screening Form (Yellow Form) as issued under Policy 1.30 Layoff? (Commonwealth of Virginia Employees Only); 
+    
+        Yes
+        No
+        Not Applicable
+    
+
+
+
+   * 
+  Do you have a Preferential Hiring Form (Blue Form) as issued under Policy 1.30 Layoff? (Commonwealth of Virginia Employees Only) 
+    
+        Yes
+        No
+        Not Applicable
+    
+
+
+
+   * 
+  How did you find this employment opportunity?
+    
+        State Recruitment Management System (RMS)
+        Agency Website or Bulletin Board
+        Job Board (Indeed, Monster, Dice, etc.)
+        Social Media (Twitter, Facebook, LinkedIn, etc.)
+        Newspaper or Professional Journal (Please specify below)
+        Career Fair or Job Event (Please specify below)
+        VEC (Virginia Employment Commission)
+        Radio/TV (Please specify below)
+        Other (Please specify below)
+    
+
+
+
+   * 
+  Please specify the actual source from your response to question #3 above (Name of newspaper, Journal Title, Job Board, Career Fair, Agency Website, Social Media Type, etc.)  If unknown or none, enter: N/A.
+    (Open Ended Question)
+
+
+
+
+
+
+      
+    Applicant Documents
+      
+          Required Documents
+    
+
+
+Optional Documents
+    
+
+
+
+
+      
+
+
+
+
+
+                
+              
+              
+            
+          
+          
+            
+
+	Virginia is an Equal Opportunity Employer.
+
+
+
+          
+        
+      
+    
+
+        
+          var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+          document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        
+        
+          try {
+            var pageTracker = _gat._getTracker("UA-74769278-1");
+            pageTracker._trackPageview();
+          } catch(err) {}
+        
+
+        
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-52617323-2', 'auto');
+          ga('set', 'dimension1', 'virginiajobs.peopleadmin.com');
+          ga('send', 'pageview');
+        
+
+    
+    
+    
+  if (typeof NREUMQ !== "undefined") { if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","bam.nr-data.net","9de8d44d4a","958191","IAxfREQOCl4DQkpBDRAXWF5REklBDl8S",0,264,new Date().getTime(),"","","","",""]);}
+

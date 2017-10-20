@@ -1,0 +1,637 @@
+
+
+
+
+
+
+
+
+
+
+       
+          
+          
+          
+         
+  <!--
+
+    
+    
+    
+    Data Insights Analyst
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        var ccglobal={},ccSearch={}
+        ccglobal.refNum="DELOA004X"
+        ccglobal.clientToken="DELOA003X"
+        ccglobal.countryElement="us_en"
+        ccglobal.contextPath="/us/en"
+        ccglobal.language="us_en_US_"
+        ccglobal.userType="external"
+        ccglobal.phenomTrackURL="jobs2.deloitte.com/beacon/phenomtrack.min.js"
+        ccglobal.personalization="true"
+        ccglobal.screenHeight = screen.height;
+        ccglobal.screenWidth = screen.width;
+        ccglobal.deviceType = "desktop";
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        ccglobal.pagetype="JOBDETAIL"
+        ccglobal.historycount="4"
+        ccglobal.jobSeqNo="DELOA004X158673"
+        ccglobal.jobRefNum="DELOA004X"
+    
+    
+    
+
+    
+    
+    
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-39868386-11', 'auto');
+	  ga('require', 'displayfeatures');
+	  ga('send', 'pageview');
+
+
+    
+        
+
+    var loop11_key = "e3b5ee967ef71e3727508241e0d102eaa52505d5";
+    var l11_clientOptions = {"crossDomainSupport":true};
+    var l11_clientOptions = {"cookieDomain":".DELOITTE.COM"};
+    document.write(unescape("%3cscript src='//cdn.loop11.com/my/loop11.js' type='text/javascript'%3e%3c/script%3e"));
+
+    
+    
+
+
+
+
+
+ 
+   
+    
+     
+     
+   
+    
+     
+     Enter job title or location 
+      
+         Search menu open clear text     Search jobs   
+      
+      
+       
+       
+        
+        
+        
+        
+        Recent Searches 
+         
+        
+       
+      
+     
+    
+   
+  
+  
+   
+   Deloitte home 
+   About Deloitte 
+    Job cart   
+    
+     
+     
+      Location:  
+     United States  
+      
+       
+         
+       
+       
+        
+          Global (English) English   
+        
+       
+      
+       Available in 145 locations and 34 languages
+       
+      
+      
+       
+      
+   
+   
+   Students 
+   Experienced 
+    Careers  
+     
+     
+      
+     
+      
+   
+  
+ 
+
+
+ 
+ 
+
+
+
+
+    
+
+    
+        
+    
+        
+            
+                
+                    
+                        This site uses cookies to provide you with a more responsive and personalized service. By using this site you agree to our use of cookies. Please read our&nbsp;cookie notice&nbsp;for more information on the cookies we use and how to delete or block them.&nbsp;
+                    
+                    
+                        Accept and close
+                    
+                
+            
+        
+    
+    
+        /*tracking*/
+        function cookieclick(e){
+            $(document).trigger('cookieClick',e);
+        }
+    
+
+    
+
+
+    
+
+
+    var cc_sitecatalyst = {};
+    cc_sitecatalyst.pageTitle = "",cc_sitecatalyst.pageName="",cc_sitecatalyst.pageTemplate="",
+    cc_sitecatalyst.noJobResults = false,cc_sitecatalyst.category="",cc_sitecatalyst.experienceLevel="",
+    cc_sitecatalyst.jobName="",cc_sitecatalyst.jobType="",cc_sitecatalyst.jobRegion="",
+    cc_sitecatalyst.jobCountry="";
+    
+    
+    
+    
+    
+        cc_sitecatalyst.pageTitle = "Careers Job Description";
+        cc_sitecatalyst.pageName = "jobDescription";
+        cc_sitecatalyst.pageTemplate = "careers-jobdetails-template";
+        cc_sitecatalyst.jobType = "Experienced";
+        cc_sitecatalyst.jobCountry = "United States"
+        cc_sitecatalyst.jobRegion = "Tennessee"
+        cc_sitecatalyst.jobName = "Data Insights Analyst"
+        $(".sitecatalyst-init").attr("data-careerspagetitle",cc_sitecatalyst.pageTitle);
+    
+    
+    
+
+    var dataLayer = {
+        "channel": "Careers",
+        "country": "us",
+        "language": "en",
+        "urlCountry": "us",
+        "careersPageTitle":cc_sitecatalyst.pageTitle,
+        "pagename":cc_sitecatalyst.pageName,
+        "jobSearchKeyWord": "",
+        "jobType": cc_sitecatalyst.jobType,
+        "jobCountry": cc_sitecatalyst.jobCountry,
+        "jobRegion": cc_sitecatalyst.jobRegion,
+        "jobName": cc_sitecatalyst.jobName,
+        "changeSearch": false,
+        "noJobResultPage": cc_sitecatalyst.noJobResults,
+        "secondLevel": "Careers",
+        "siteSection": "jobs",
+        "contentType": "Jobs",
+        "pageTemplate" : cc_sitecatalyst.pageTemplate,
+        "experienceLevel" :  cc_sitecatalyst.experienceLevel,
+        "preprocessingComplete" : false,
+        "careerspromoClicked":""
+    };
+    function setCQIdsFromPage(isAjaxResult){
+        var anchorTags = $('a');
+        var cqIds
+        $.each(anchorTags, function( index, value ) {
+            var anchorTag = anchorTags[index]
+            if($(anchorTag).attr('data-cq-id') !== undefined) {
+                var cqId = $(anchorTag).data('cq-id');
+                if(cqId !== undefined){
+                    if(cqIds !== undefined){
+                        cqIds = cqIds+","+cqId
+                    }
+                    else {
+                        cqIds = cqId
+                    }
+                }
+            }
+        });
+        dataLayer.promoIdList = cqIds
+        if(isAjaxResult){
+            dataLayer.preprocessingComplete = true
+        }
+    }
+
+
+
+
+    
+        
+            The job has been added to the Job cart.
+            
+                
+                    
+                        
+                            Data Insights Analyst
+                            
+                                Deloitte US | Deloitte Services LP
+                            
+                            
+                                
+                                    
+                                        
+                                            Same job available in 2  locations
+                                            collapsed
+                                            
+                                        
+                                        
+                                            
+                                                Hermitage, Tennessee, United States
+                                            
+                                                Nashville, Tennessee, United States
+                                            
+                                        
+                                    
+                                
+                            
+                            
+                                
+    
+        
+        Share via Facebook
+    
+
+
+    $('.facebook-btn').popupWindow({
+        height: 550,
+        width: 525,
+        top: 50,
+        left: 300
+    });
+
+    
+        
+        Share via Twitter
+    
+
+
+    $('.twitter-btn').popupWindow({
+        height: 550,
+        width: 525,
+        top: 50,
+        left: 300
+    });
+
+    
+        
+        Share via LinkedIn
+    
+
+
+    $('.linkedin-btn').popupWindow({
+
+        height: 550,
+        width: 525,
+        top: 50,
+        left: 300
+    });
+
+    
+         Share via Email
+
+
+    function social_email_job(e){
+        $(document).trigger('emailclick',e);
+    }
+
+    
+        
+        Share via GooglePlus
+    
+
+
+    $(document).ready(function(e){
+        $('.googleplus-btn').click(function () {
+            window.open("https://plus.google.com/share?url=" + window.location.href, "", "height=550,width=525,left=300,top=100,menubar=0");
+            return false;
+        })
+    })
+
+                            
+                            Add to job cart button
+
+    var cartObj={}
+    cartObj.jobId="DELOA004X158673"
+    cartObj.title="Data Insights Analyst"
+    cartObj.category="Information Technology"
+    cartObj.postedDate="2017-09-21"
+    cartObj.addmessage="Added"
+    
+        
+            cartObj.location="Same job available in 2 locations"
+        
+    
+    ccglobal.jobObj=cartObj
+    ccglobal.eid="59dbb9c8e4b0c620d34285b4"
+    JDjobCartCheck()
+
+
+                            
+                                
+                                    
+                                    Apply now button
+                                    
+                             
+                        
+                    
+                
+                
+                    
+                        
+                            
+                                
+                                     Back to Search results
+                                    
+                                         Previous job
+                                        Next job 
+                                    
+                                
+                            
+                            
+                                
+                                    Position summary
+                                     Deloitte Services LP includes internal support areas such as Marketing and Communications, Human Resources/Talent, Information Technology, Facilities Management, and Financial Support Services. Application InsightsData Insights AnalystLocation: Hermitage/Nashville, TN About the teamThe Application Insights team serve our customers—the business and technical teams—with data-driven insights to guide data-focused, informed business and investment decisions and solve business challenges. The team prioritizes accelerating user adoption and measuring the success of applications. Their competencies range from establishing and maintaining client relationships, understanding client desired outcomes, setting performance metrics sets, defining KPI’s, establishing analytics tracks, to preparing data for analytic purposes, performing statistical analysis, creating data visualizations, and being able to develop insights and present them to different audiences through diverse mediums. Role DescriptionThe Data Insights Analyst will gather client requirements, collect, combine, visualize and analyze data from disparate sources to deliver relevant and actionable statistics and insights for business decision support.  The success of this candidate is predicated on providing insights that enable owners and stakeholders to:Gauge productivity and efficiency gains on developed applications and product features (where to invest further, or reduce investment)Leverage data assets and create outcome focused insights for decision supportProvide Change Management teams with insight on where to focus their efforts to improve efficiencies Job responsibilities:Access, clean, store, visualize, analyze, and interpret raw data culled from various data sources available for final consumption by clients of differing levels of technical/business understanding and need, as appropriate.Create relevant and visually compelling data visualizations that incorporate advanced filtering and functionality for optimal data interaction for analysts and business users.Identify key application features, define and deliver KPIs for business applications.Analyze customer usage data, identify patterns and derive insights for application and client or portfolio success.Correlate different data points and attributes to identify clusters of opportunity for business process improvement, practitioner productivity gains, cost savings or analytic insight.Transform data points and audience measurement into compelling insights in clearly distilled and displayed deliverables that effectively communicate the relevant and reliable messages. Independently manage project deadlines to ensure the timely delivery of requested insights.Contribute ideas and assist in cultivating concepts during team brainstorm gatherings, working on special projects and partnering with peers and other data departments. Bachelor’s degree in Business Administration, Statistics, Information Systems, Computer Science, Statistics, Data Curation or related field3 plus years of experience in IT related field including business analytics experience, research and insightsExperience Analytics Tools: Tableau, SSMS, SPSS, Data mining software (such as QDA Miner, Rapid Miner, etc.), ETL: MS Visual Studio or Alteryx Experience with Adobe Digital Analytics (Site Catalyst/Omniture), or other digital analytics toolPossess excellent verbal and written communication skillsAbility to juggle multiple projects and prioritize accordingly in a deadline driven environmentMotivated self-starter who has a strong desire and curiosity to learn about data science, advanced analytics and statistical methodsResourceful problem-solver with a willingness and determination to find and tell the most compelling storyAmbition to deliver exceptional and impactful insights that deliver desired outcomesExtremely attentive to detailOrganized and diligent with strong time management skills Proficient in Microsoft Office, specifically PowerPoint and Excel Data Analysis Pack&nbsp;How you’ll growAt Deloitte, we’ve invested a great deal to create a rich environment in which our professionals can grow. We want all our people to develop in their own way, playing to their own strengths as they hone their leadership skills. And, as a part of our efforts, we provide our professionals with a variety of learning and networking opportunities—including exposure to leaders, sponsors, coaches, and challenging assignments—to help accelerate their careers along the way. No two people learn in exactly the same way. So, we provide a range of resources including live classrooms, team-based learning, and eLearning. DU: The Leadership Center in India, our state-of-the-art, world-class learning Center in the Hyderabad offices is an extension of the Deloitte University (DU) in Westlake, Texas, and represents a tangible symbol of our commitment to our people’s growth and development. Explore DU: The Leadership Center in India&nbsp;BenefitsAt Deloitte, we know that great people make a great organization. We value our people and offer employees a broad range of benefits. Learn more about what working at Deloitte can mean for you. &nbsp;Deloitte’s cultureOur positive and supportive culture encourages our people to do their best work every day. We celebrate individuals by recognizing their uniqueness and offering them the flexibility to make daily choices that can help them to be healthy, centered, confident, and aware. We offer well-being programs and are continuously looking for new ways to maintain a culture that is inclusive, invites authenticity, leverages our diversity, and where our people excel and lead healthy, happy lives.&nbsp; Learn more about Life at Deloitte.&nbsp;Corporate citizenshipDeloitte is led by a purpose: to make an impact that matters. This purpose defines who we are and extends to relationships with our clients, our people and our communities.&nbsp; We believe that business has the power to inspire and transform. We focus on education, giving, skill-based volunteerism, and leadership to help drive positive social impact in our communities.&nbsp; Learn more about Deloitte’s impact on the world.  Requisition code: E18NATSASCJY004-ITL4
+                                
+                            
+                            
+                                
+    Email this job to:
+    
+        
+        
+        
+            
+                
+                    Name
+                    
+                
+            
+            
+                
+                    Email address
+                    
+                
+            
+            
+                
+                    
+                
+            
+        
+    
+
+
+    $(document).ready(function(){
+        var inputHeight = $("").attr("type", "hidden");
+        inputHeight.attr("name", "screenHeight");
+        var inputWidth = $("").attr("type", "hidden");
+        inputWidth.attr("name", "screenWidth");
+        inputHeight.val(ccglobal.screenHeight);
+        inputWidth.val(ccglobal.screenWidth);
+        $('form#emailthisjob').append($(inputHeight));
+        $('form#emailthisjob').append($(inputWidth));
+    })
+    function emailSubmit(e){
+        $(document).trigger('emailJobSubmit',e)
+    }
+
+                            
+                            
+                                
+                                     Back to Search results
+                                    
+                                         Previous job
+                                        Next job 
+                                    
+                                
+                            
+                        
+                    
+                    
+                        
+                        
+                        
+                    
+                    
+                        
+                        ccglobal.boilertext={"DELOA004X":{"country":"United States","boilerText":"As used in this posting, “Deloitte” means Deloitte Services LP, a subsidiary of Deloitte LLP. Please see www.deloitte.com/us/about for a detailed description of the legal structure of Deloitte LLP and its subsidiaries. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or protected veteran status, or any other legally protected basis, in accordance with applicable law.See notices of various ban-the-box laws where available. https://www2.deloitte.com/us/en/pages/careers/articles/ban-the-box-notices.html"},"United States":{"refNum":"DELOA004X","boilerText":"As used in this posting, “Deloitte” means Deloitte Services LP, a subsidiary of Deloitte LLP. Please see www.deloitte.com/us/about for a detailed description of the legal structure of Deloitte LLP and its subsidiaries. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or protected veteran status, or any other legally protected basis, in accordance with applicable law.See notices of various ban-the-box laws where available. https://www2.deloitte.com/us/en/pages/careers/articles/ban-the-box-notices.html"}}
+                        getsearchContext()
+                        getPrevNextJob("DELOA004X158673")
+                        setRecommendation()
+                    
+                
+            
+        
+    
+
+
+    
+        _satellite.pageBottom();
+    
+
+
+
+
+
+
+
+
+
+    
+ 
+  Get Connected
+  
+   Home
+   About us
+   Deloitte University Press
+   Press releases
+   Social media
+   Alumni
+   Email subscriptions
+   Submit RFP
+   US office locations
+   Global office directory
+   Newsroom
+   Contact us
+  
+ 
+ 
+  Services
+  
+   Advisory
+   Audit
+   Consulting
+   Mergers and Acquisitions
+  
+ 
+ 
+  Industries
+  
+   Consumer &amp; Industrial Products
+   Energy &amp; Resources
+   Financial Services
+   Life Sciences &amp; Health Care
+   Manufacturing
+   Public Sector
+   Real Estate
+   Technology, Media &amp; Telecommunications
+  
+ 
+ 
+  Careers
+  
+   Job search
+   Labor Condition Applications
+ Assistance for Disabled Applicants
+   EEO/Affirmative Action Documents
+  Ban the Box Notices
+   Students
+   Experienced hires
+   Executives
+   Life at Deloitte
+  
+ 
+ 
+  Legal
+  
+   About Deloitte
+   Terms of use
+   Privacy
+   Cookies
+   Safe harbor
+  
+ 
+
+
+ © 2017. See Terms of Use for more information.
+ Deloitte refers to one or more of Deloitte Touche Tohmatsu Limited, a UK private company limited by guarantee (“DTTL”), its network of member firms, and their related entities. DTTL and each of its member firms are legally separate and independent entities. DTTL (also referred to as “Deloitte Global”) does not provide services to clients. In the United States, Deloitte refers to Deloitte LLP, the US member firm of DTTL, and its subsidiaries where certain services may not be available to attest clients under the rules and regulations of public accounting. Please see www.deloitte.com/about to learn more about our global network of member firms.
+
+
+ 
+  Follow us on facebook
+  Follow us on twitter
+  Follow us on linkedin
+  Follow us on youtube
+  Follow us on google
+  Follow us on glassdoor
+  Follow us on instagram
+ 
+
+
+
+    backToTop
+
+
+
+
+    
+    setlastVisitCookie()
+    
+    setvisitStatusCookie()
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

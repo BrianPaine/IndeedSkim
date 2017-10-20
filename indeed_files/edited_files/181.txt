@@ -1,0 +1,815 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+Data Analyst-Faneuil, Inc.
+
+
+
+
+
+
+
+
+    var deviceMode="desktop";
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+    var tbCloseLabel="Close";
+
+
+
+
+
+
+
+
+
+    if ( (BrowserDetect.browser=="Opera") ||
+    (BrowserDetect.browser=="Netscape" && BrowserDetect.version"48" && BrowserDetect.version
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+
+
+        
+        
+
+
+
+
+
+
+
+    var windowBeforeUnloadMsg = '';
+    setHookOnWindowBeforeUnload(false);
+
+    
+
+
+$(document).ready(function () { 
+	$("div.sidebar").css({backgroundSize: "cover"});
+	$("div.sidebar h2").css({backgroundSize: "100% 100%"});
+	$("div.sidebar h3").css({backgroundSize: "100% 100%"});
+	$("div.bgLight").css({backgroundSize: "cover"});
+	$("div.bgLight h2").css({backgroundSize: "100% 100%"});
+	$("div.bgLight h3").css({backgroundSize: "100% 100%"});
+
+   if(document.getElementById("caMain") && !(document.getElementById("caSidebar")) ){
+		$("#caMain").css({width: "80%"}).css({maxWidth: "80%"});
+   }
+   // Skip Navigation
+   if(document.getElementById("mainRegion")){
+      $("#skipper").click(function () {
+      	$('#mainRegion').attr('tabIndex', -1);
+      	$('#mainRegion').focus();}
+      ); 
+   }
+   else{ 
+      $("#skipper").remove(); 
+   } 
+});
+
+
+if (BrowserDetect.browser == "Explorer" && BrowserDetect.version >"9.0") {
+	var link = document.createElement( "link" );
+	link.href = "styles/ie10.css";
+	link.type = "text/css";
+	link.rel = "stylesheet";
+	link.media = "screen";
+
+	document.getElementsByTagName( "head" )[0].appendChild( link );
+}
+
+
+
+
+
+	Press Enter to Skip to the main content Or Press Tab to continue
+
+
+
+    &nbsp;
+
+
+
+
+    
+        
+            
+                No JavaScript
+            
+
+            
+                Your browser does not support JavaScript or JavaScript is not enabled! This site contains functionality that requires JavaScript.
+            
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+        
+        	
+        	
+                Member Sign In
+			 | 
+			Not a Member? 
+	        Join Now!
+	       
+
+	       
+	      
+        
+
+	
+
+	
+	
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+ Home 
+
+ Job Search 
+
+ By Category 
+
+ By Location 
+
+ All Open Jobs 
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+			
+				
+					Data Analyst
+				
+
+				
+			
+
+			
+
+		
+
+		
+			
+				
+						Overview
+				
+
+				
+					
+  Date Posted:
+    9/26/2017
+  
+  Requisition Number:
+    3174
+  
+  
+  
+  
+  City:
+    San Francisco
+  
+  State:
+    CA
+  
+  
+  Category:
+    Toll Operations
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+      
+        Description
+      
+    
+    
+      Position Summary/Objective
+
+
+
+Under the general direction of the Express Lanes Supervisor, the Express Lanes Data Analyst, for overseeing the Express Lanes Operators located in the Regional Operations Center 375 Beale Street in San Francisco.  The data analyst role is to assist the supervisor meet and exceed the contractual performance measures established for this operational team/work unit.  
+
+
+
+Essential Responsibilities 
+
+
+
+
+
+	Agency Coordination and Communications Including but not limited to:
+
+
+
+	
+
+		Metropolitan Transpiration Commission Tolling Groups;
+
+		Caltrans D4 TMC;
+
+		511 Operations, and
+
+		Tolling System Integrator. 
+
+	
+
+	
+
+	Toll Operations Center Operations
+
+	
+
+		Manage and schedule staff operating MTC Dynamic Pricing Systems;
+
+		Observing current traffic conditions;
+
+		Monitor Tolling Systems Hardware and Software, and
+
+		Assist FasTrak Customer Service Center with inquiries related to Trip Building, Violations, and Toll Rates.
+
+	
+
+	
+
+	Manage Traffic Incidents
+
+	
+
+		Communicate all traffic incidents in the EL to determine if rate changes and or messaging requires changing;
+
+		Provide recommended actions in response to calculated toll rates and traffic incidents, and
+
+		Document traffic incidents.
+
+	
+
+	
+
+	Manage Toll Rates
+
+	
+
+		Observe traffic and toll rates to determine system pricing performance;
+
+		Recommend and/or perform rate changes, and
+
+		Apply messaging to toll rates signs.
+
+	
+
+	
+
+	Monitor, Report, and Document Tolling System Anomalies
+
+	
+
+		This may include toll rate sign failures;
+
+		Trip Building;
+
+		Hardware failures;
+
+		Software, and
+
+		Toll Rate calculations.
+
+	
+
+	
+
+
+
+
+
+ 
+
+
+
+Preferred skill sets and traits:
+
+
+
+
+
+	Commitment to outstanding client relations; 
+
+	Excellent communication and interpersonal skills;
+
+	Extensive computing and Microsoft Office experience;
+
+	Training; 
+
+	Strong analytical and critical thinking;
+
+	Strong organizational skills and ability to multitask;
+
+	Strong work ethic;
+
+	Interest in Bay Area transportation and regional government;
+
+	Flexibility, and
+
+	Time Management 
+
+
+
+
+
+ 
+
+
+
+Physical Demands
+
+
+
+The physical demands described here are representative of those that must be met by an employee to successfully perform the essential functions of this job.
+
+
+
+ 
+
+
+
+While performing the duties of this job, the employee is regularly required to see, talk and hear. The employee frequently is required to stand; walk; use hands to finger, handle or feel; reach with hands and arms: and sitting for extended periods of time.
+
+
+
+ No heavy lifting is expected. Exertion of up to 10 lbs. of force occasionally may be required. 
+
+
+
+Position Type/Expected Hours of Work
+
+
+
+This is a full-time non-exempt position. Days and hours of work are Monday through Friday from 4:30 am to 8:30 pm. 
+
+
+
+Travel 
+
+
+
+No travel is expected for this position.
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+    
+  
+  
+    
+      
+        Minimum Requirements
+      
+    
+    
+      Required Education and Experience
+
+
+
+
+
+	Must have high school diploma or equivalent;
+
+	4 year degree preferred;
+
+	Previous transportation management experience preferred;
+
+	1 year previous data mining and analysis experience;
+
+	Candidates must have ability to interact directly with client and partner agencies, and
+
+	Excellent computer and data entry skills. Dependable, accurate, and detail-oriented.
+
+
+    
+  
+  
+
+
+				
+				
+						
+						
+							&nbsp;
+						
+				
+
+				
+					
+						
+						
+							
+								
+									Apply Now
+								
+
+							
+
+						
+
+					
+
+				
+			
+	 
+
+	 
+	 
+			
+				
+					
+						
+						
+								
+									
+									
+										Save this Job
+									
+
+								
+
+						
+
+						
+						
+							
+									Refer this Job
+							
+
+						
+
+						
+
+						
+					
+						
+					
+
+					
+					
+					
+						
+							
+								
+									
+									
+										
+											
+												Apply Now
+											
+
+											
+										
+
+									
+
+								
+	
+							
+						
+
+					
+
+				
+
+				
+
+			
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Copyright &copy; 2000 - 2017 by Kronos Incorporated. 
+
+
+
+
+
+	 
+
+	All rights reserved.
+
+	
+
+
+
+
+
+	&nbsp;|&nbsp;&nbsp;Privacy Policy
+
+	
+
+	 
+
+
+
+
+
+		U. S. Patents 7,080,057; 7,310,626; 7,558,767; 7,562,059; 7,472,097; 7,606,778; 8,086,558 and 8,046,251.
+
+	
+
+
+
+
+
+	
+	
+          
+              var KronosUTMDomain = "kronostm.com";   // default SysVar value: "auto"
+              var KronosUTMGifPath = "https://wfsa-img.kronostm.com/__utm.gif"; // default SysVar value: "common/jsutils/urchin/__utm.gif"
+          
+          
+          
+              // Urchin tracking (UTM)
+              urchinTracker();
+          
+	
+
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

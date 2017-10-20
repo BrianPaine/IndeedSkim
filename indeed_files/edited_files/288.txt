@@ -1,0 +1,77 @@
+
+Abercrombie &amp; Fitch CareersGo to the main content section.|My Account Options|Sign InThis service is set to disconnect automatically after {0} minutes of inactivity. Your session will end in {1} minutes.Click OK to reset the timer to {0} minutes.You have been signed out.This service is set to sign out after {0} minutes of inactivity.Job SearchMy JobpageBasic Search|Advanced Search|My Submissions|My Job Cart|Beginning of the main content section.Return to the home pagePrintable FormatReturn to previous position on page&nbsp;&nbsp;&nbsp;Primary Location&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Other Locations&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Schedule&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refer a friend for this jobRefer a friendRefer a candidateSubmit a candidate's profile &nbsp;&nbsp;
+var _ftl = {
+ _acts:[['reqListAllJobsPage','joblist'],['requisitionDescriptionPage','jobdetail'],['requisitionDescriptionViewPage','jobview'],['requisitionDescriptionPrintablePage','jobprint'],['unavailableRequisitionPrintablePage','jobprintunavailable'],['reqListBasicPage','jobsearch'],['reqListAdvancedPage','moresearch'],['unavaibleRequisitionPage','unavailablerequisition'],['myJobCartPage','mycart'],['reqListPersonalizedPage','myjobs'],['mySavedSearchesPage','mysearches'],['applicationStatusDetailPage','applicationstatusdetail'],['applicationStatusDetailPrintableFormatPage','applicationstatusdetailprint'],['myReferralsPage','myreferrals'],['mySubmissionsPage','mysubmissions'],['withdrawApplicationConfirmationPage','withdrawapplicationconfirm'],['confirmCandidatePage','confirmcandidate'],['correspondenceListPage','emaillist'],['correspondenceDetailPage','emaildetail'],['correspondencePrintableFormatPage','emailprint'],['requestErrorPage','error'],['notAvailablePage','notavailable'],['noJavaScriptPage','nojavascript'],['unsupportedPage','unsupported'],['selectorPage','selector'],['ftlpspage','ftlps']],
+ _ints:['topNavInterface','requisitionDescriptionInterface','bottomBarInterface'],
+ topNavInterface: {
+  _ctls: [],
+  _hles: ['userNameLabel','ID171','ID177','jobCartAction','technicalHelpInfoTop','ID469','ID500','ID539','ID577','ID623','ID661'],
+  _pars: [],
+  _prps: [['ID171','ID166','title',""],['ID177','ID166','alt',""],['ID469','jobSearchTabAction','title',""],['ID500','myJobPageTabActionS','title',""],['ID539','basicSearchTabAction','title',""],['ID577','advancedSearchTabAction','title',""],['ID623','mySubmissionsTabAction','title',""],['ID661','myJobCartTabAction','title',""]],
+  _mpts: [],
+  _hpts: [],
+  _lsts: []
+ },
+ requisitionDescriptionInterface: {
+  _ctls: [],
+  _hles: ['ID798','pagerDivID793.Previous','ID903','pagerDivID793.Next','ID1134','ID1222','UP_EMAIL_ON_REQ','ID1293','ID1337','requisitionDescriptionTitleLabel','requisitionDescriptionTitle','ID1691','ID1732','ID1760','ID1801','ID1829','ID1868','ID1947','ID1983','pagerDivID1663.Previous','ID2074','pagerDivID1663.Next','ID2305'],
+  _pars: ['ID798'],
+  _prps: [['ID903','pagerDivID793.Previous','title',""],['ID1134','pagerDivID793.Next','title',""],['ID1222','ID1194','childNodes[0].title',""],['ID1293','ID1264','childNodes[0].title',""],['ID1337','ID1300','childNodes[0].title',""],['ID1732','ID1731','style.display',"true,'block','none'"],['ID1801','ID1800','style.display',"true,'block','none'"],['ID1868','ID1848','childNodes[0].title',""],['ID1947','ID1918','childNodes[0].title',""],['ID1983','ID1954','childNodes[0].title',""],['ID2074','pagerDivID1663.Previous','title',""],['ID2305','pagerDivID1663.Next','title',""],['ID1214','ID1194','style.display',"true,'inline','none'"],['ID1255','ID1229','style.display',"true,'inline','none'"],['ID1285','ID1264','style.display',"true,'inline','none'"],['ID1329','ID1300','style.display',"true,'inline','none'"],['ID1367','ID1344','style.display',"true,'inline','none'"],['ID1481','ID1474','style.display',",'none','inline'"],['ID1541','ID1534','style.display',",'none','inline'"],['ID1605','ID1598','style.display',",'none','inline'"],['ID1663','ID1662','style.display',"true,'block','none'"],['ID1874','ID1848','style.display',"true,'inline','none'"],['ID1909','ID1883','style.display',"true,'inline','none'"],['ID1939','ID1918','style.display',"true,'inline','none'"],['ID1975','ID1954','style.display',"true,'inline','none'"],['ID2013','ID1990','style.display',"true,'inline','none'"]],
+  _mpts: [],
+  _hpts: [],
+  _lsts: ['descRequisition'],
+  descRequisition: {
+   _size: 1,
+   _hles: ['ID1206','ID1214','ID1247','ID1255','ID1280','ID1285','ID1320','ID1324','ID1329','ID1348','ID1354','ID1367','reqTitleLinkAction','ID1449','ID1481','ID1511','ID1541','ID1575','ID1605','ID1639','ID1663','ID1720','ID1860','ID1874','ID1901','ID1909','ID1934','ID1939','ID1966','ID1970','ID1975','ID1994','ID2000','ID2013'],
+   _hlid: ['reqlistitem.no','reqlistitem.applyonlinejobdesc','reqlistitem.no','reqlistitem.referjobdesc','reqlistitem.applyemailsubjectapplication','reqlistitem.applyemailjobdesc','reqlistitem.no','reqlistitem.addedtojobcart','reqlistitem.displayjobcartactionjobdesc','reqlistitem.shareURL','reqlistitem.title','reqlistitem.shareable','reqlistitem.title','reqlistitem.description','reqlistitem.primarylocation','reqlistitem.primarylocation','reqlistitem.otherlocations','reqlistitem.otherlocations','reqlistitem.jobschedule','reqlistitem.jobschedule','reqlistitem.displayreferfriendaction','reqlistitem.no','reqlistitem.no','reqlistitem.applyonlinejobdesc','reqlistitem.no','reqlistitem.referjobdesc','reqlistitem.applyemailsubjectapplication','reqlistitem.applyemailjobdesc','reqlistitem.no','reqlistitem.addedtojobcart','reqlistitem.displayjobcartactionjobdesc','reqlistitem.shareURL','reqlistitem.title','reqlistitem.shareable'],
+   _pars: ['ID1206','ID1247','ID1280','ID1320','ID1324','ID1348','ID1354','ID1720','ID1860','ID1901','ID1934','ID1966','ID1970','ID1994','ID2000'],
+   _prps: [['ID1214','ID1194','style.display',"true,'inline','none'"],['ID1255','ID1229','style.display',"true,'inline','none'"],['ID1285','ID1264','style.display',"true,'inline','none'"],['ID1329','ID1300','style.display',"true,'inline','none'"],['ID1367','ID1344','style.display',"true,'inline','none'"],['ID1481','ID1474','style.display',",'none','inline'"],['ID1541','ID1534','style.display',",'none','inline'"],['ID1605','ID1598','style.display',",'none','inline'"],['ID1663','ID1662','style.display',"true,'block','none'"],['ID1874','ID1848','style.display',"true,'inline','none'"],['ID1909','ID1883','style.display',"true,'inline','none'"],['ID1939','ID1918','style.display',"true,'inline','none'"],['ID1975','ID1954','style.display',"true,'inline','none'"],['ID2013','ID1990','style.display',"true,'inline','none'"]],
+   _grps: [],
+   _mpts: [],
+   _hpts: ['ID1434','ID1446','ID1458','ID1518','ID1582']
+  }
+ },
+ bottomBarInterface: {
+  _ctls: [],
+  _hles: ['technicalHelpInfoBottom'],
+  _pars: [],
+  _prps: [],
+  _mpts: [],
+  _hpts: [],
+  _lsts: []
+ },
+ setup: function() {
+  var api = _ftl_api;
+  api.fillForm('topNavInterface', []);
+  ftltab_initTabBar('topNavInterface','topNavInterface.tabLevel1','');
+  ftltab_initTabBar('topNavInterface','topNavInterface.tabLevel2a','topNavInterface.tabJS');
+  ftltab_initTabBar('topNavInterface','topNavInterface.tabLevel2b','topNavInterface.tabMY');
+  api.fillInterface('topNavInterface', ['Welcome to A%26F Careers!','My Job Cart','My Job Cart','My Job Cart','','Go to the section Job Search','Go to the section My Jobpage','Open the page Basic Search','Open the page Advanced Search','Open the page My Submissions','Open the page My Job Cart']);
+  api.fillForm('requisitionDescriptionInterface', []);
+  api.fillInterface('requisitionDescriptionInterface', ['','Previous','Go to the previous job','Next','Go to the next job','Apply for this position online','Apply by Email','Apply to this position by email','Add this position to the job cart','Job Description - Analyst - Reporting (170004U)','Job Description','Tell us about a friend who might be interested in this job. All privacy rights will be protected.','false','Tell us about a person who might be interested in working for our organization. All privacy rights will be protected.','true',' ','Apply for this position online','Apply to this position by email','Add this position to the job cart','Previous','Go to the previous job','Next','Go to the next job']);
+  api.fillList('requisitionDescriptionInterface', 'descRequisition', ['117941','true','117941','false','Submission for the position: Analyst - Reporting - (Job Number: 170004U)','false','117941','false','true','https://abercrombie.taleo.net/careersection/jobdetail.ftl?job=170004U%26lang=en','Analyst - Reporting','true','Analyst - Reporting','!*!%3CDIV align=left%3E%0A%3CDIV%3E%3CFONT size=2%3E%3CB%3EDepartment:%3C/B%3E DTC / Contact Center%3C/FONT%3E%3C/DIV%3E%0A%3CDIV%3E%3CFONT size=2%3E%3CB%3EPosition:%3C/B%3E Analyst, Contact Center Reporting%3C/FONT%3E%3C/DIV%3E%0A%3CDIV%3E%3CFONT size=2%3E%3CB%3ELocation:%3C/B%3E Home Office – New Albany, OH%3C/FONT%3E%3C/DIV%3E%0A%3CDIV%3E%3CFONT size=2%3E%26nbsp;%3C/FONT%3E%3C/DIV%3E%0A%3CDIV align=left%3E%3CFONT size=2%3EThis individual will be responsible for reporting and analysis of all contact center performance and adherence to agreed upon service level and metric agreements.%26nbsp; S/he will work with sites on billing and creating purchase orders.%26nbsp; S/he will also be responsible for consolidated reporting, analysis of trends and anomalies, and provide recommendations for increased performance, customer satisfaction, and cost savings. %3C/FONT%3E%3C/DIV%3E%0A%3CDIV align=left%3E%3CB%3E%3CU%3E%3CFONT size=2%3E%26nbsp;%3C/FONT%3E%3C/U%3E%3C/B%3E%3C/DIV%3E%0A%3CDIV align=left%3E%3CB%3E%3CFONT size=2%3EWhat will You be Doing?%3C/FONT%3E%3C/B%3E%3C/DIV%3E%0A%3CDIV align=left%3E%0A%3CUL%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EUnderstand full contract terms and service level agreements with all domestic and international sites%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EUnderstand and utilize full suite of operational tools within integrated telecom solution to enhance performance and drive return on investment%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EDirect contact with site volume and staffing and site monitor stations to ensure service levels are being met and addressed in a proactive manner%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EUtilize trend analysis along with promotional information to produce volume projections and adjust accordingly as changes occur, ensuring proper coverage%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3ECreate and produce reporting on service levels and performance by site%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3ECreate strategies to improve customer support and maximizing expense%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3ECreate standard reporting for each contact center and test security%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EEscalate performance issues real-time to sites and management%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EProvide opportunity recommendations to management, technology, quality assurance, and training groups%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3ETrack and validate invoiced contact center expense%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EAd hoc analysis and monitoring as needed%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3ETrend analysis%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%3C/UL%3E%3C/DIV%3E%0A%3CDIV%3E%3CFONT size=2%3E%26nbsp;%3C/FONT%3E%3C/DIV%3E%0A%3CDIV%3E%3CB%3E%3CFONT size=2%3EWhat Do You Need to Bring?%3C/FONT%3E%3C/B%3E%3C/DIV%3E%0A%3CUL%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EBachelor%27s Degree %3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EProficiency in MS Office, Excel, SQL, Tableau, Relational Databases%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EDeep analytical thinking capabilities%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EExperience working with large data sets %3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EHighly motivated/self-starter with a sense of ownership, willingness to learn, high degree of curiosity and desire to succeed%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%0A%3CLI%3E%0A%3CDIV%3E%3CFONT size=2%3EMust perform well in high pressure situations, balance competing priorities, and demonstrate the ability to work without direct supervision%3C/FONT%3E%3C/DIV%3E%3C/LI%3E%3C/UL%3E%0A%3CP style=%22MARGIN-BOTTOM: 0px; MARGIN-TOP: 0px%22%3E%3CFONT size=2%3EAbercrombie %26amp; Fitch is an Equal Opportunity Employer %3CFONT color=#ffffff size=3 face=%22Times New Roman%22%3E*LI-ME1%3C/FONT%3E%3C/FONT%3E%3C/P%3E%3C/DIV%3E','OH-Columbus','OH-Columbus','','','Full-time','Full-time','false','117941','117941','true','117941','false','Submission for the position: Analyst - Reporting - (Job Number: 170004U)','false','117941','false','true','https://abercrombie.taleo.net/careersection/jobdetail.ftl?job=170004U%26lang=en','Analyst - Reporting','true']);
+  api.fillForm('bottomBarInterface', []);
+  api.fillInterface('bottomBarInterface', ['']);
+ api.updateFloats();
+ },
+ init: function() {
+  var api = _ftl_api;
+  secform_initForm(document.getElementById('ftlform'));
+  api.restoreScroll('ftlform');
+  ftlconfirm_init('topNavInterface','topNavInterface.confirmBeaconReset');
+  ftlconfirm_init('topNavInterface','topNavInterface.confirmBeaconTimedOut');
+  ftlUtil_installSessionBeacon('topNavInterface','3600000','2400000','300000');
+  api.addOnSet('rdPager.currentPage',"ftlPager_refresh('requisitionDescriptionInterface','rdPager')");
+  ftlPager_init('requisitionDescriptionInterface','requisitionDescriptionInterface.pagerDivID793');
+  api.addOnSet('rdPager.currentPage',"ftlPager_refresh('requisitionDescriptionInterface','rdPager')");
+  ftlPager_init('requisitionDescriptionInterface','requisitionDescriptionInterface.pagerDivID1663');
+  addthis_setup('_cs_addthis_requisitionDescriptionInterface.UP_ADDTHIS', 'en', true);
+  addthis_setup('_cs_addthis_requisitionDescriptionInterface.BOTTOM_ADDTHIS', 'en', true);
+  requisition_prepareNoteHiding('requisitionDescriptionInterface');
+  requisition_setPageTitle('requisitionDescriptionInterface');
+ }
+}
+ftlUtil_loadAddthisJS();
+
+_ftl_api.setup();
+ABERCROMBIE &amp; FITCH IS AN EQUAL OPPORTUNITY / AFFIRMATIVE ACTION EMPLOYER © ABERCROMBIE &amp; FITCH 2012

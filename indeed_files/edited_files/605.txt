@@ -1,0 +1,669 @@
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  Careers - AdTheorent
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"http:\/\/adtheorent.com\/","name":"AdTheorent","potentialAction":{"@type":"SearchAction","target":"http:\/\/adtheorent.com\/?s={search_term_string}","query-input":"required name=search_term_string"}}
+{"@context":"http:\/\/schema.org","@type":"Organization","url":"http:\/\/adtheorent.com\/careers","sameAs":["https:\/\/www.facebook.com\/AdTheorent","https:\/\/www.linkedin.com\/company\/adtheorent","https:\/\/twitter.com\/adtheorent"],"@id":"#organization","name":"AdTheorent","logo":""}
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+(function(url){
+	if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){ return; }
+	var addEvent = function(evt, handler) {
+		if (window.addEventListener) {
+			document.addEventListener(evt, handler, false);
+		} else if (window.attachEvent) {
+			document.attachEvent('on' + evt, handler);
+		}
+	};
+	var removeEvent = function(evt, handler) {
+		if (window.removeEventListener) {
+			document.removeEventListener(evt, handler, false);
+		} else if (window.detachEvent) {
+			document.detachEvent('on' + evt, handler);
+		}
+	};
+	var evts = 'contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');
+	var logHuman = function() {
+		var wfscr = document.createElement('script');
+		wfscr.type = 'text/javascript';
+		wfscr.async = true;
+		wfscr.src = url + '&r=' + Math.random();
+		(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);
+		for (var i = 0; i < evts.length; i++) {
+			removeEvent(evts[i], logHuman);
+		}
+	};
+	for (var i = 0; i < evts.length; i++) {
+		addEvent(evts[i], logHuman);
+	}
+})('//adtheorent.com/?wordfence_logHuman=1&hid=6EEA86841BA56198A18A51CEA72E0F53');
+
+  
+    
+      
+        You are using an outdated browser. Please upgrade your browser to improve your experience.      
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+  
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+    
+    
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+      
+    
+    
+      
+    
+    
+      
+    
+  
+  
+    
+    
+    
+    
+    
+      
+    
+    
+      
+    
+    
+      
+    
+    
+      
+    
+  
+
+
+
+    
+        Solutions
+
+	Machine Learning Technology
+	Cross-Environment Map
+	Barometric
+
+
+Studio A\T
+About
+
+	Company Overview
+	Testimonials &#038; Accolades
+	Meet The Team
+	Careers
+	Press Coverage
+	Press Releases
+	Intelligence
+	Events
+
+
+Contact
+    
+
+
+
+
+  
+      
+          
+              
+                
+                
+                
+              
+              
+                
+                  
+                 -->
+                
+              
+              Solutions
+Studio A\T
+
+About
+Contact
+          
+      
+  
+
+  
+      
+          Machine Learning TechnologyMobile &#038; cross screen predictive targeting, predictive creative &#038; self-learning insights powered by machine learning.
+Cross-Environment MapThe most comprehensive cross-environment ID mapping infrastructure in market.                           
+BarometricServes, tracks and organizes petabytes of data across channels allowing for superior attribution.
+      
+  
+
+
+  
+    .about-ul ul{
+      margin-bottom: 0px !important;
+    }
+
+    .new-news{
+      margin-top: 0px !important;
+      margin-bottom: 40px !important;
+    }
+
+    .about-ul .sub-nav__text-wrapper p{
+      display: none;
+    }
+
+  
+  
+      
+          
+          Company Overview 
+Testimonials &#038; Accolades&nbsp;
+Meet The Team&nbsp;
+Careers&nbsp;
+        
+          
+                                
+                      
+                          
+                              Press Coverage
+                              <!--Coverage description here-->
+                          
+                      
+                  
+                                
+                      
+                          
+                              Press Releases
+                              <!--Press Releases description here-->
+                          
+                      
+                  
+                                
+                      
+                          
+                              Intelligence
+                              <!--Intelligence description here-->
+                          
+                      
+                  
+                                
+                      
+                          
+                              Events
+                              <!--Events description here.-->
+                          
+                      
+                  
+                        
+      
+  
+    
+      
+         -->
+          
+    
+        
+            
+                Careers
+            
+        
+    
+
+    
+        
+            
+                
+                
+                    
+                        Company Culture
+                    
+                    
+                        AdTheorent is a rapidly growing and recognized leader in the field of advertising technology and services. Our exceptional technology and solutions &#8211; conceived and developed in house &#8211; are a source of pride for our entire team. AdTheorent&#8217;s culture is inclusive with targeted emphasis on the value and contributions of each employee. We work hard to communicate with each employee about his or her career trajectory and options for professional development, and the state of the business in general. Most important, we are open and honest with employees, which engenders the same in return.
+                    
+
+                    
+                    
+                      
+                        Explore Open Positions
+                        
+                                        
+                
+                    LA - Mid Market Sales Manager                
+            
+                    
+                
+                    NYC - Data And Analytics Associate                
+            
+                    
+                
+                    NYC - Data Scientist                
+            
+                    
+                
+                    NYC - Digital Sales Manager                
+            
+                    
+                
+                    NYC - Director of Product Marketing                
+            
+                    
+                
+                    NYC - Sales Engineer                
+            
+                    
+                
+                    NYC - Sales Planner                
+            
+                    
+                
+                    NYC - Sr. Product Manager &#8211; Data                
+            
+                    
+                
+                    NYC - Vice President Account Management                
+            
+                    
+                
+                    NYC - VP of Creative Services &#038; Studio A\T                
+            
+                    
+                
+                    NYC - Yield Manager                
+            
+                    
+                
+                    Pittsburgh, PA - Data Analyst/Developer                
+            
+                    
+                
+                    Pittsburgh, PA - ETL Developer                
+            
+                    
+                
+                    Pittsburgh, PA - Software Engineer                
+            
+                                
+                      
+                     
+                 
+
+                
+                
+                    
+                                            
+                    
+                        
+                            
+                            
+                        
+                    
+                
+            
+        
+    
+
+    
+    
+
+    
+    
+        
+            
+                
+                    
+                        Explore Open Positions
+                    
+                    
+                                    
+                
+                    LA - Mid Market Sales Manager                
+            
+                    
+                
+                    NYC - Data And Analytics Associate                
+            
+                    
+                
+                    NYC - Data Scientist                
+            
+                    
+                
+                    NYC - Digital Sales Manager                
+            
+                    
+                
+                    NYC - Director of Product Marketing                
+            
+                    
+                
+                    NYC - Sales Engineer                
+            
+                    
+                
+                    NYC - Sales Planner                
+            
+                    
+                
+                    NYC - Sr. Product Manager &#8211; Data                
+            
+                    
+                
+                    NYC - Vice President Account Management                
+            
+                    
+                
+                    NYC - VP of Creative Services &#038; Studio A\T                
+            
+                    
+                
+                    NYC - Yield Manager                
+            
+                    
+                
+                    Pittsburgh, PA - Data Analyst/Developer                
+            
+                    
+                
+                    Pittsburgh, PA - ETL Developer                
+            
+                    
+                
+                    Pittsburgh, PA - Software Engineer                
+            
+                            
+                
+            
+        
+    
+
+         /.main -->
+                   -->
+                       /.sidebar -->
+              <!--  /.content -->
+    <!--  /.wrap -->
+    
+ 
+
+
+    
+        
+            <!--
+                
+                    
+                
+                287,000,000,000&nbsp;Ads Served
+            -->
+            
+                AdTheorent is an IAB Member&nbsp;&nbsp;|&nbsp;&nbsp;Privacy Policy
+            
+            
+                
+                                            
+                            
+                                
+                                    
+                                
+                            
+                        
+                    
+                                            
+                            
+                                
+                                    
+                                
+                            
+                        
+                    
+                                            
+                            
+                                
+                                    
+                                
+                            
+                        
+                    
+                                    
+            
+        
+    
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68166131-1', 'auto');
+  ga('send', 'pageview');
+
+
+
+llactid=21371
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+	
+	
+    (function(){ var ord = Math.random() * 10000000000;var elem = document.createElement("script");
+    elem.src = (document.location.protocol == "https:" ? "https://" : "http://") + "trkn.us/info/request.js?sid=5b9fa705-bff5-495f-a9b4-61224545683c&ord="+ord;
+    elem.async = true;elem.type = "text/javascript";var scpt = document.getElementsByTagName("script")[0];
+    scpt.parentNode.insertBefore(elem, scpt); })();
+    
+    
+    
+
+  
+

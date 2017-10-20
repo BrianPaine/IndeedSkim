@@ -1,0 +1,506 @@
+
+
+
+
+
+
+
+
+	Data Analyst #450252 Virginia, Springfield
+
+
+
+
+
+   
+
+   
+
+   
+
+
+
+
+
+
+
+   
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           
+
+            You are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience.
+
+        
+
+
+
+        
+
+            
+
+           
+
+
+
+
+
+
+
+
+
+            
+
+        
+
+
+
+        
+
+            
+
+
+
+      
+
+ 
+
+
+
+            
+
+  
+
+  
+
+      var leftVal = (screen.width - 1000) / 2;
+
+      var topVal = 0;
+
+      var winOpts = "resizable=yes,scrollbars=yes,width=1000,height=550,left=" + leftVal + ",top=" + topVal;
+
+      var winOpts2 = 'resizeable=yes,scrollbars=yes,width=500,height=600';
+
+
+
+      function popUp(pPage) {
+
+         var popUpWin = window.open(pPage, 'popWin', winOpts);
+
+         popUpWin.focus();
+
+      }
+
+      function popUp2(pPage) {
+
+         popUpWin = window.open(pPage, 'popWin', winOpts2);
+
+         popUpWin.focus();
+
+      }
+
+      $(function () {
+
+          if ($('body').html().indexOf('Job ' + 'Not ' + 'Found') >= 0) {
+
+              $('.actions').hide();
+
+              $('article').html('Job ' + 'Not ' + 'Found');
+
+          }
+
+      });
+
+   
+
+
+
+   
+
+   
+
+
+
+
+
+            You are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience.
+
+        
+
+
+
+                
+
+                    
+
+                        Data Analyst
+
+                        
+
+                   Virginia, Springfield
+
+                     
+
+                   
+
+
+
+                        
+
+                   
+
+                   
+
+                   
+
+                   
+
+                   
+
+                    
+
+                    
+
+                      
+
+
+
+                       
+
+                      
+
+                      
+
+                   
+
+                   
+
+                   
+
+                   
+
+                   
+
+                        
+
+                    
+
+                    
+
+                    
+
+                    	
+
+                        
+
+                        	Apply
+
+                        	
+
+
+
+                            View All Jobs
+
+                        
+
+                        
+
+                    	
+
+                    
+
+                    
+
+                    
+
+                         Share This Job
+
+                         
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+   var addthis_config = { "data_track_addressbar": true };
+
+
+
+
+
+                    
+
+
+
+                    
+
+                    
+
+                    
+
+                    
+
+                     
+
+                    	Job Description
+
+                      
+
+ Strategy and Management Services, Inc. (SAMS) offers a variety of enterprise-wide, complex services and solutions to our customers. SAMS exceeds expectations with people who make a difference by providing support to our clients in the areas of Operations, IT, and Facilities Management. Our people make a difference to clients!
+
+
+
+ Due to continued growth, we are currently seeking a Data Analyst at Springfield, VA. This position is contingent upon contract award.&nbsp;In this position, he/she will be responsible for supporting a project which provides all Case Management services necessary to enable the job placement of displaced defense contractors (including veterans, members or the National Guard/Reserves and transitioning service members) across the Commonwealth.
+
+
+
+ Major areas of responsibility or tasks performed critical to success:
+
+
+
+ &bull; Perform data analysis and conduct studies of existing data and techniques
+
+
+
+ &bull; Have the ability to support and maintain case management for targeted individuals across the Commonwealth. Identify the number the individuals that could be served.
+
+
+
+ &bull; Be able to help monitor and document important benchmarks for the industry.
+
+
+
+ &bull; Be able to help develop and provide case management services designed for large groups of diverse industries and employers.
+
+
+
+ &bull; Have demonstrated the ability to collect and analyze data from case management services and help provide timely detailed reports.
+
+                    
+
+                    
+
+                    
+
+                    		Skills & Requirements
+
+                      
+
+ Qualification:
+
+
+
+ &bull; Bachelor&rsquo;s Degree from accredited university desired
+
+
+
+ &bull; Five or more years of experience required
+
+
+
+ &bull; Must be able to collect and analyze data and provide regular reports of all program parameters.
+
+
+
+ &bull; Must have exceptional communication and collaboration skills, and the ability to solve problems.
+
+                    
+
+                    
+
+                    
+
+                      
+
+                      
+
+                    	
+
+                        
+
+                        	Apply
+
+                        	
+
+
+
+                            View All Jobs
+
+                           
+
+                        
+
+                        
+
+                     
+
+                    
+
+                
+
+
+
+
+
+           
+
+
+
+            
+
+Join the SAMS team!
+
+
+
+SAMS&rsquo; goal is to exceed expectations with people who make a difference. We provide clients with quality service coupled with a high level of professionalism and expertise.
+
+
+
+Our people are encouraged to be proactive and realize their full potential as valued members of the company. We also understand how important it is to have a supportive working environment and interact with great co-workers.
+
+
+
+If you possess a confident spirit, enjoy working in an energetic and flexible environment, then SAMS would love to talk with you. We offer professional growth and development opportunities and excellent benefits.
+
+
+
+Benefits:
+
+
+
+
+
+	Competitive Salaries
+
+	Flexible Medical, Dental, and Vision Plans
+
+	Group Life Insurance LTD and STD
+
+	Paid Time Off (PTO)
+
+	Paid Holidays
+
+	Tuition and professional development assistance
+
+	401(k) with matching contributions
+
+
+
+
+
+We are always looking for talented, innovative professionals who are passionate about their work and have demonstrated the right skills and work ethic to succeed in our entrepreneurial environment.
+
+
+
+Veterans &ndash; SAMS wants you!
+
+
+
+As a Service-Disabled, Veteran-Owned Small Business, SAMS appreciates your service and sacrifice. SAMS cordially invites all qualified and talented multiple disciplined veterans to apply.
+
+
+
+
+
+
+
+             
+
+         
+
+
+
+        
+
+            
+
+           
+
+              
+
+                
+
+                
+
+            
+
+                
+
+
+
+   
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+
+
+
+
+  ga('create', 'UA-128380-1', 'auto');
+
+
+
+ ga('set', 'dimension1', '7103');
+ga('set', 'dimension3', '450252');
+
+
+
+
+  ga('send', 'pageview');
+
+
+
+
+
+     
+
+     
+
+
+
+
+

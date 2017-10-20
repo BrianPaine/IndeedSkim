@@ -1,0 +1,660 @@
+
+
+
+UNFI Careers
+
+  
+
+
+
+
+
+
+
+-->
+
+ 
+  
+  
+
+  
+
+
+
+
+
+
+function clear_search() {document.search_form.search_phrase.value= "";}
+
+
+window.onload=function() {
+     
+    if(""=="yes") {
+          
+     }
+
+           
+  var anchors = document.querySelectorAll('a[href]');
+
+  Array.prototype.forEach.call(anchors, function (element, index) {
+
+    //alert("href is " + element.href);
+    var sSearchString = "oh_jobwrapper/";
+    var sHref = element.href;
+    var nIndex = sHref.toLowerCase().indexOf(sSearchString);
+
+    if (nIndex >0) {
+           //strip CF string prepended by Open Hire call to CFHTTP
+
+            var sNewHref = sHref.substr( nIndex+sSearchString.length );
+           element.href = sNewHref;
+
+  //alert("New href is " + sNewHref);
+
+     } //end strip CF crap prepended by Open Hire call to CFHTTP
+});
+
+}  //end onload
+
+
+
+
+ 
+
+
+
+var $jqPS = jQuery.noConflict(true);
+	$jqPS( function()
+	{
+		$jqPS( '#nav_main li:has(ul)' ).attr('aria-haspopup','true').doubleTapToGo();
+
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+function funcWriteBreadcrumbNav(BreadCrumbList) {
+	var sOutputBreadcrumbNav = new String();
+	var sClass = null;
+	var sUrl = null;
+	var sText = null;
+	var nLevel = null;
+	var aryThisLink = null;
+
+                    var sBreadCrumbOnOff ="Off";
+                    if (sBreadCrumbOnOff.length ==0) sBreadCrumbOnOff = "Off";
+                    if (sBreadCrumbOnOff.toLowerCase() == "off") return sOutputBreadcrumbNav;
+                    if ("" == "8") return sOutputBreadcrumbNav;
+
+//alert("BreadCrumbList is " + BreadCrumbList);
+
+       var sTemp = "";
+	
+	//Added variables to grab information for the current page
+
+	var sCurrentPath = "https://unfijobs.silkroad.com/unficareersext/UnplacedPages/OH_JobWrapper";
+	var sCurrentPage = "OpenHire Internal Page [do not delete]";
+
+	var arySubNav = unescape(BreadCrumbList);
+	//arySubNav = arySubNav.split("");
+	arySubNav = arySubNav.split(";");
+
+    //sOutputBreadcrumbNav += ""
+
+	var nLen = arySubNav.length;
+	for(var i = 0; i ";
+		// items
+
+         var sIndex = sText.indexOf("_subnav");
+         //   sOutputBreadcrumbNav += sIndex;
+
+        if(sText!=sTemp && sIndex " + sText.toLowerCase() + " &gt; ";
+				if (!bIgnore) sOutputBreadcrumbNav += "" + sText + " &gt; ";
+				
+			//check if page is a bodylink	
+			} else  if (!bIgnore) {
+                             if (i>=nLen-1 && sUrl!=sCurrentPath ){
+				//--write out last page in bc list
+				     sOutputBreadcrumbNav += "" + sText + " ";
+				      //--- bl-last item
+                                 if (sCurrentPage != "OpenHire Internal Page [do not delete]" ) {
+				     sOutputBreadcrumbNav += "&gt; " + sCurrentPage + "";
+                                  }
+			   } else {
+				//--- last item
+				sOutputBreadcrumbNav += "" + sText + "";
+			   }
+                     }
+			
+              sTemp = sText;
+	     }
+
+			
+	}
+	
+    sOutputBreadcrumbNav += "";
+    //sOutputBreadcrumbNav += "";
+
+	return sOutputBreadcrumbNav;
+}
+
+
+
+
+
+
+
+			
+
+			
+
+			
+
+			
+
+		
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+					var productVersion = "2017.5"; var timeoutSeconds = 3600; var timeoutWarningSeconds = 300; var displayTimeWarning = 0; var isCandidateLoggedIn = false; var companyId = 16935; var ep_version = 1;
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					
+
+					 
+
+
+
+
+
+
+
+   
+     
+
+
+
+
+var ssaUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel.dsp.townsquaremedia.com/iap/92abe482f1f7bdeb';new Image().src = ssaUrl;
+   
+
+
+
+  
+    Show navigation
+    Hide navigation
+    
+
+       HomeDriversWhy UNFI?Jobs			
+				
+					Search Current Openings
+				
+				
+					Update Your Profile
+				
+				
+					Create a Job Agent
+				
+				
+					Update Job Agent
+				
+				
+					Recruiting Agency Login
+				
+			
+BenefitsCultureVeterans
+
+    
+  
+
+
+  
+     
+#breadcrumbs {
+ display: none;
+}
+
+
+  var sPageName = "OH_JobWrapper";
+  if (sPageName.length !=0) sPageName = sPageName.toLowerCase();
+  if(sPageName !="home.html")
+    document.write(funcWriteBreadcrumbNav("Home,https://unfijobs.silkroad.com;Jobs,https://unfijobs.silkroad.com/unficareersext/EmploymentListings.html"));
+
+  
+
+   
+      
+    
+
+
+
+
+
+
+
+  Your user session will timeout in 5 minutes.  Please click OK to continue with your application.
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+		
+
+			
+
+				
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					Business Data Analyst
+
+				
+
+			
+
+			
+
+				
+
+					
+
+						Tracking Code
+
+					
+
+					
+
+						12220-935 
+
+					
+
+				
+
+				
+
+					
+
+						Job Description
+
+					
+
+					
+
+						POSITION PURPOSE:&nbsp;&nbsp;&nbsp;
+
+This position is responsible for supporting data initiatives related to data integrity and normalization as well as supporting the integration of data into the enterprise data warehouse. It will report to the Enterprise Data Warehousing Manager and perform the necessary analysis of data as determined by business priorities. The position will be responsible for ensuring the data&rsquo;s fitness for purpose by executing source data analysis, performing data profiling, creating data mapping documentation, proposing business rules, and executing data and report validation.
+
+&nbsp;
+
+EEO / VETERANS / DISABLED
+
+&nbsp;
+
+ESSENTIAL FUNCTIONS AND BASIC DUTIES:&nbsp;&nbsp;&nbsp;
+
+
+
+Use data analytics tools to perform data profiling and propose business data rules
+
+Apply data modeling concepts when executing source data analysis and creating data mapping
+
+Build SQL queries to support all aspects of data analysis and validation
+
+Construct and execute data and report test cases
+
+Collaborate with business partners to understand the source system data and its functional purpose
+
+Provide data support for operational or business strategic projects
+
+Participate in data incident root cause analysis
+
+Facilitate meetings and lead projects
+
+
+
+					
+
+				
+
+				
+
+					
+
+						Required Skills
+
+					
+
+					
+
+						QUALIFICATIONS:
+
+&nbsp;
+
+Required Education:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+
+
+Bachelor degree (Business, Supply Chain, Computer Science or other related area) or equivalent on the job experience&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+Required Knowledge:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+
+
+
+
+Strong SQL skills
+
+Working knowledge of relational databases, data concepts and design
+
+Proficient in the use Microsoft Office software
+
+Fundamental understanding of the software development lifecycle
+
+Required Skills and Abilities:
+
+
+
+
+
+Must possess strong data analytical skills and be data oriented
+
+Must have the ability to respond to internal and external customer issues, prioritize issues, efficiently troubleshoot problems and recommend solutions in a timely manner
+
+Must be able to work independently and collaborate with team members
+
+Must be organized and adaptable in a rapidly changing environment
+
+Must have strong verbal and written communication skills
+
+
+
+					
+
+				
+
+					
+
+						Required Experience
+
+					
+
+					
+
+						Required Experience:
+
+
+
+3-5 years of business experience, either as a programmer or data analyst
+
+System implementation experience is preferred
+
+Exposure to Infosphere Information Analyzer, Teradata, Microsoft SQL Server, Microsoft Master Data Services is preferred
+
+
+
+					
+
+				
+
+					
+
+						Job Location
+
+					
+
+					
+
+						Providence, Rhode Island, United States
+
+					
+
+				
+
+					
+
+						Position Type
+
+					
+
+					
+
+						Full-Time/Regular
+
+					
+
+				
+
+			
+
+			
+
+			
+
+			
+
+				
+
+					
+
+						
+
+							Apply
+
+						
+
+					
+
+					
+
+						
+
+						
+
+						
+
+								
+
+								
+
+								
+
+							
+
+					
+
+				
+
+				
+
+					
+
+						
+
+							
+
+								Share
+
+							
+
+						
+
+						
+
+							
+
+							
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+								
+
+							
+
+							
+
+							
+
+						
+
+					
+
+				
+
+			
+
+			
+
+				
+
+					Return To Job Listings
+
+				
+
+				
+
+			
+
+		
+
+	
+
+ 
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+&copy;2017 United Natural Foods, Inc.
+ Site Map 
+
+
+
+
+
+
+
+
+
+
+
+&nbsp;
+
+
+
+   
+
+        
+
+    
+
+
+
+
+
+ 
+
+		,\n\t\t       \n\t\t\t  ","FORMATLOCALEID":1674,"PHONEREGEX":"^([+])?([1]( |-|\\.)?)?(\\(?[1-9]{1}[0-9]{2}\\)?|[1-9]{1}[0-9]{2})( |-|\\.)?([0-9]{3}( |-|\\.)?[0-9]{4}|[a-zA-Z0-9]{7})$"}
+
+		-->
+
+	

@@ -1,0 +1,280 @@
+
+
+
+                                                                                            
+    
+    
+                        
+        
+        
+        AGS, LLC Careers - Data Analyst
+                    
+            
+                                        
+                                            
+                
+            
+                                        
+        
+                        
+        
+
+        
+        
+        
+        
+                                
+                
+            
+        
+                
+    
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            var enableTracking = true;
+            var trackerId = "UA-15090121-1";
+            var pageTracker = _gat._getTracker("UA-15090121-1");
+        } catch(err) {}
+    
+    
+
+    function trackPage() {
+        try {
+            if (enableTracking && enableTracking == true) {//enableTracking var is set during analytics script reg.
+                var pageTracker = _gat._getTracker(trackerId);
+                var varIndex = 1;
+                try {
+                pageTracker._setCustomVar(varIndex++, "UserId", getUserId(), 1);
+                pageTracker._setCustomVar(varIndex++, "CompanyId", getCompanyId(), 1);
+                }//to track pages which does not have a User
+                catch (userIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "SubsidiaryId", getSubsidiaryId(), 1);
+                } //to track pages which does not have a subsidiaryId
+                catch (subsidiaryIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "JobId", getJobId(), 3);
+                    pageTracker._setCustomVar(varIndex++, "CategoryId", getCategoryId(), 3);
+                }//to track pages which does not have a jobref
+                catch (jodIdError) {
+                }
+                if (enableAnonymizeIP && enableAnonymizeIP == true) {
+                    _gat._anonymizeIp();
+                }
+
+                pageTracker._trackPageview();
+            }
+        }
+        catch (error) {
+
+        }
+    }
+
+
+    function getUserId() { return ''; }
+
+
+    function getCompanyId() { return 'q4C9Vfwu'; }
+
+    
+        function getJobId() { return 'oPf75fw0'; }
+    
+    
+        function getCategoryId() { return '16384'; }
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+
+
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            enableTracking = true;
+            trackerId = "UA-45222648-1";
+            pageTracker = _gat._getTracker("UA-45222648-1");
+        } catch(err) {}
+    
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+        
+            if (window.self !== window.parent) {
+                document.documentElement.className += ' jv-iframe';
+            }
+        
+            /* ==========  NOTICE  ================= 
+ *
+ *		Please DON'T EDIT this file.
+ * 		USE the LESS FILE instead. - Ray
+ * 		Download: http://lesselements.com
+ *
+ * ===================================== */ 
+ 
+body{font-size:12px;font-family:Verdana,Geneva,sans-serif;line-height:1.5;color:#333}a{color:#0070c0}a:visited{color:#0061a7}a:hover{color:#008ef3}h1,h2,h3,h4,h5{margin-top:0;font-weight:700}h2{font-size:16px}h3{font-size:16px}h3.h2{font-size:14px}h3.jv-step-header{font-size:14px}.jv-apply-meta,.jv-job-detail-meta{font-size:14px;font-weight:700;color:#333}ul{padding-left:20px}li{padding:0 0 5px 5px}.jv-page{width:auto;max-width:900px}.jv-wrapper{overflow:hidden}.jv-button{font-size:12px;line-height:1.5;font-weight:400;padding:6px 24px;border-radius:.2em}.jv-button-primary{background-color:#4f78ca;border-color:#4f78ca;color:#fff}.jv-button-primary:hover{background-color:#8aa5dc;border-color:#8aa5dc;color:#fff}.jv-logo{display:none}.jv-page-header{border-bottom:1px solid #000;margin-bottom:30px}#jv-site-logo{display:block;margin:20px 0 10px}.jv-powered-by,.jv-powered-by:visited,.jv-powered-by:hover{color:#333;text-decoration:none}.jv-search-tools{margin-top:30px}.jv-search-tools:before,.jv-search-tools:after{content:" ";display:table;clear:both}.jv-form .jv-form-field-label{width:100px}.jv-search-form{background-color:transparent;border:0;padding:0;margin-bottom:50px;float:left;width:50%}.jv-search-form .jv-form-field{display:block}.jv-search-form .jv-form-field-control{margin-right:10px}.jv-search-form select{width:300px}.jv-search-form .jv-form-buttons{display:block;width:auto;text-align:left;margin-left:104px}.jv-job-list{color:#333;margin-bottom:50px}.jv-job-list td,.jv-job-list th,.jv-job-list .jv-job-list-type,.jv-job-list .jv-job-list-cat,.jv-job-list .jv-job-list-location{vertical-align:middle;text-align:left}.jv-job-list .jv-job-list-name{width:60%}.jv-job-list .jv-job-list-type{width:13%}.jv-job-list .jv-job-list-location{width:20%}.jv-job-list .jv-job-list-id{width:7%}.jv-job-list th{padding:6px 0;font-weight:700;color:#999}.jv-job-list td{padding:8px 0;border-color:#e5e5e5}.jv-job-list tbody tr:nth-child(2n+1){background-color:#e5e5e5}.jv-icon{padding:6px 0 6px 30px;background:url() no-repeat 3px 50%}.jv-icon-email{background-image:url("http://careers.jobvite.com/common/images/icon-email-bw.png")}.jv-icon-plus{background-image:url("http://careers.jobvite.com/common/images/icon-add-bw.png")}.jv-icon-check{background-image:url("http://careers.jobvite.com/common/images/icon-check-bw.png")}.jv-icon-facebook{background-image:url("http://careers.jobvite.com/common/images/favicon_facebook.png")}.jv-icon-linkedin{background-image:url("http://careers.jobvite.com/common/images/favicon_linkedin.png")}.seeker-tools{float:right;width:45%;position:relative;left:20px}.seeker-tools *{-ms-box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.seeker-tools ul{margin:0;padding:0;list-style:none}.seeker-tools li{margin:0;padding:0}.seeker-tools li{margin:0 0 5px}.jv-apply-section{padding:1.5em 0}.jv-thanks{border-top:1px solid #ccc;border-bottom:1px solid #ccc;padding:15px 0;min-width:15px 0 30px}
+    
+    
+        
+                    
+        
+                            
+                            
+        
+            
+            
+                                    
+                                                    AGS, LLC Careers                                            
+                            
+        
+                
+                
+        
+    
+                    
+                                
+                Data Analyst
+    
+    
+                                        
+                            500 - Product Management            
+                    Las Vegas,
+                            Nevada
+                
+                        
+        
+    
+                        
+                        
+    
+        Apply
+    
+                            
+                        
+                        
+                AGS is a full-service designer and manufacturer of gaming products for the casino floor. The Company’s roots are in the Class II, Native American market, and it has recently expanded its product lines to include top performing slot games for the Class III commercial marketplace, as well as live felt table games and mobile gaming.The recent acquisition of Cadillac Jack®, entry into the table games market, and addition of a mobile gaming segment with the acquisition of RocketPlay, denote a dramatic expansion of AGS products. Increased slot titles and jurisdictional licenses have made AGS the second largest supplier of Class II games in the world and its presence in Class III casinos continues to keep the pace. The diverse line of table products can help casino operators find exactly what they need for any part of the pit and most are available to play for fun online. Last, but not least, the company aims to capture a whole new audience by offering its content through mobile gaming.Here at AGS, we realize that a huge part of our success is attributed to the hard work and dedication of our people. We strongly believe that embracing change, empowering our employees, and building a positive team environment are of paramount importance in achieving even more success with limitless potential.The Data Analyst assists the Product Management department by managing performance data for the Company’s slot operations in the United States and Mexico.  The Data Analyst will also work within cross-departmental teams to accomplish goals set by Senior Management.Essential Functions:Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions.Access, cleanse and consolidate performance data from casinos in which AGS games are placed.Consolidate performance data into a single performance report and work with systems and accounting teams to ensure accuracy and completeness of data each month.Contact customers to obtain missing performance reports and provide consolidated data to various groups within the organization.Ensure consistency of performance data across all company business intelligence systems and databases.Education/Minimum Years of Service:High School Diploma or GED requiredBachelor’s degree in business or equivalent requiredJob Knowledge/Work Experience:Demonstrable track record of working with and servicing internal stakeholdersStrong communication skills.Ability to work on complex problems with limited oversightComputer/Technical Skills:MS Office suite: Excel, Word, PowerPoint, Access, OutlookAdvanced knowledge of Excel functions and abilitiesExperience with enterprise reporting softwareThank you for your interest in a position at AGS.  The best way to get your resume in front of the assigned recruiter and hiring manager is to visit the AGS Careers Page at http://www.playags.com/careers/ and apply directly to the position in which you are interested.  *Posted positions are not open to third party recruiters and unsolicited resume submissions will be considered free referrals.AGS is an Equal Opportunity Employer
+            
+                            
+                    
+                
+                    
+    
+        Apply
+    
+                            
+        Apply Later    
+            
+        
+            &larr; Back to Current Openings        
+    
+    
+                                
+    
+        
+        Share
+        
+            
+                lang: en_US            
+            
+            
+                
+                    LinkedIn
+                
+            
+            
+                
+                    Facebook
+                
+            
+            
+                
+                    Twitter
+                
+            
+            
+                
+                    Email
+                
+            
+        
+    
+                    
+                                        
+            
+                Similar Jobs
+                                                        
+                    
+                        
+                            
+                                
+                                    {{ job.title }}
+                                
+                            
+                        
+                    
+                
+            
+            
+                
+    
+                    
+            
+                    
+        
+            
+                                                                        
+                    
+                        Powered by Jobvite
+                            
+        
+    
+            
+    
+        
+        
+    
+            
+    
+    
+        angular.module('preloadedData', []).constant('preloadedData', {
+                                        applyLinkUrl: '${job.applyLinkUrl}',
+                jobCategoryId: 'aCV9Vfwl',
+                jobCategoryName: '500 - Product Management',
+                jobId: 'oPf75fw0',
+                jobReqId: '433                                               ',
+                jobTitle: 'Data Analyst',
+                jobLocationId: 'CudGVfw2',
+                                                                jobviteAnalytics: 'UA-15090121-1',
+                                        companyAnalytics: 'UA-45222648-1',
+                                                                                                    enableRecommendedJobs: true,
+                                                    enableResumeParsing: true,
+                                        numberFormat: "##,###,###,###,###.####",
+                                    companyEId: 'q4C9Vfwu',
+            linkedInApiKey: '7557fkcarvxieo',
+            facebookApiId: '48354194572',
+            dropBoxApiKey: 'w5fg28zznqcyg4w',
+            baseUrl: '/ags',
+            cdnURL: '',
+            releaseVersion: '171003110732',
+            careersiteName: 'ags',
+            careersiteDomainName: '${careersiteDomainName}',
+            careersiteSourceTypeId: 'P8K2WfwA'
+        }).constant('i18n', {
+            I18N_RESUME_PREVIEW: 'Resume Preview',I18N_NO_RESUME_FOUND: 'No resume found',I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',I18N_RECOMMENDER: 'Recommender:',I18N_CURRENT: 'Current',I18N_PAST: 'Past',I18N_EDUCATION: 'Education',I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',I18N_PATENTS: 'Patents',I18N_SUMMARY: 'Summary',I18N_SPECIALTIES: 'Specialties',I18N_EXPERIENCE: 'Experience',I18N_RECOMMENDATIONS: 'Recommendations',I18N_PRESENT: 'Present',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec'        });
+        Jobvite = {
+            baseUrl: 'https://app.jobvite.com'
+        }
+    
+                    
+    
+
+    

@@ -1,0 +1,440 @@
+
+ 
+ 
+ 
+ 
+<!--
+	
+		MarshBerry  |  Insurance Management Consulting, Merger and Acquisition Services, Sales Management, Agency Benchmarking
+		
+	  	
+		
+		
+		
+        
+         
+         
+        
+        
+                
+        
+		
+		
+        
+		
+		
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.marshberry.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4.11"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;return g&&g.fillText?(g.textBaseline="top",g.font="600 32px Arial","flag"===a?(g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3):"diversity"===a?(g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e):("simple"===a?g.fillText(h(55357,56835),0,0):g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8"),diversity:d("diversity")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8&&c.supports.diversity||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		
+		
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+		.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+		        
+
+		
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        
+        
+        
+            var pageTracker = _gat._getTracker("UA-4103637-2");
+            pageTracker._trackPageview();
+        
+
+		
+		try{Typekit.load();}catch(e){}
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+
+About Us
+Events
+News &#038; Publications
+Careers
+Contact Us
+
+
+
+	
+    
+    
+    
+	
+    
+    
+    
+
+
+
+
+	
+		
+    	
+    	 
+    			Home
+    	    	
+            
+
+                        		
+        		      M&#038;A Advisory
+        		      
+        		              		              		          
+        		          				
+        		          		
+Acquisition Search
+Buy Side Advisory
+Sell Side Advisory
+Due Diligence
+Recent Transactions*
+
+
+Merger &amp; Acquisition Advisory
+We believe that MarshBerry&#8217;s seasoned professionals and industry experience can be a tremendous value for virtually any buyer or seller in the insurance distribution arena. Our proficiency spans all stages of an acquisition or sale – from the earliest planning and strategy work through the all-important post-closing management.
+More Information
+
+        		          	
+        		            
+        		             		      
+        		
+        	
+    		    				  
+            
+            
+
+                        		
+        		      Financial Consulting
+        		      
+        		              		              		          
+        		          				
+        		          		
+Perpetuation Planning
+Valuation
+Business Planning
+
+
+Financial Consulting
+MarshBerry’s Financial Consulting services offer professional guidance in areas critical to the success of your agency. Consultation is led by a team of experienced professionals and backed by a comprehensive reservoir of data, research and resources.
+More Information
+
+        		          	
+        		            
+        		             		      
+        		
+        	
+    		    				  
+            
+            
+
+                        		
+        		      Information Services
+        		      
+        		              		              		          
+        		          				
+        		          		
+Employee Engagement Survey
+Perspectives for High Performance (PHP)
+Professional Speaking &#038; Publishing
+ResourceHub
+
+
+Information Services
+MarshBerry&#8217;s proprietary data, research and knowledge pertaining to the insurance distribution system is accessible in a variety of ways that enable our clients to satisfy their individual preferences and needs.
+More Information
+
+        		          	
+        		            
+        		             		      
+        		
+        	
+    		    				  
+            
+            
+
+                        		
+        		      Organic Growth Consulting
+        		      
+        		              		              		          
+        		          				
+        		          		
+Sales Performance
+Talent Acquisition
+
+
+Organic Growth Consulting
+Professional guidance critical to net growth: Talent Acquisition, Sales Performance and Training.
+More Information
+
+        		          	
+        		            
+        		             		      
+        		
+        	
+    		    				  
+            
+            
+
+                        		
+        		      Peer Exchange Networks
+        		      
+        		              		              		          
+        		          				
+        		          		
+Membership
+Partner Benefits
+Upcoming Peer Exchange Network Events
+
+
+Executive-Level Peer Exchange Networks
+Executive-level Peer Exchange Networks are designed to help you improve agency value, drive predictable organic growth and enable agencies to realize their fullest business potential.
+More Information
+
+        		          	
+        		            
+        		             		      
+        		
+        	
+    		    				  
+            
+        
+                
+        
+    
+    	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+    MarshBerry CareersData Analyst &#8211; Beachwood, OH
+Talent Acquisition Specialist &#8211; Grandville, MI
+Data Analyst Intern &#8211; Beachwood, OH
+Administrative Assistant &#8211; Beachwood, Ohio (Temporary)
+
+
+	Data Analyst &#8211; Beachwood, OH
+Data Analyst
+MarshBerry is currently seeking a Data Analyst for our Beachwood, OH office. The Data Analyst will be responsible for administration of MarshBerry’s proprietary database, assisting with product development and research projects. The Data Analyst enters client data, produces reports, analyzes reports and reviews results with clients.  Collaborates with Data Administrators, Senior Data Analysts and Consultants on client projects and enhancements to performance benchmarking reports. Supports the Senior Data Analyst and Senior Vice President of Intellectual Capital with market research, surveys and various data analytics projects.
+The main responsibilities include:
+
+Serve as project manager for assigned clients and responsible for data collection, formatting and report generation on a quarterly or annual basis.
+
+
+Answer client inquiries regarding Intellectual Capital products and services.
+
+
+Extract data and generate reports for special requests and projects.
+Establish and maintain positive client relationships.
+Assist with market research, surveys, client presentations, and various data analytics projects.
+Assist with product development and enhancements to MarshBerry products &amp; services.
+Develop and update procedures on a continual basis.
+
+
+Analyze client data and perform consulting calls with clients.
+Qualify leads through reactive methods to introduce our services and opportunities.
+Provide guidance to Analysts and Consultants on formatting of accounts, calculations of ratios, etc.
+Train new Data Administrators and Interns in Intellectual Capital processes and knowledge.
+
+
+Completes projects in desired timeframe utilizing prioritization skills to keep multiple projects progressing on target.
+Special projects and other tasks as assigned.
+
+Qualifications we are seeking:
+
+Bachelor’s Degree in Business, Accounting, Finance, Economics or Mathematics preferred or equivalent combination of education and experience. 
+
+
+At least 1 – 3 years of prior relevant experience including experience collecting and analyzing data.
+
+
+High level of computer and software competency; proficient with database administration and infrastructure. Proficient in Microsoft Office Word, Excel, Access and PowerPoint.
+
+
+Analytical, proactive problem solving skills; techniques to identify and resolve issues in a timely manner, gathers and analyzes information skillfully. 
+Confidentiality; maintains confidentiality of proprietary information and that of clients.
+
+
+Strong communication skills; both written and verbal with demonstrated creativity with regard to work. Excellent spelling, grammar as well as good phone skills.
+
+
+Exceptional organizational skills; using systematic methods to perform work and creativity to recommend or create new work methods or procedures.
+Ability to multi task; able to complete projects and responsibilities with extreme attention to detail according to required timelines and deadlines, along with capacity to work under pressure to create accurate results, demonstrating accuracy and thoroughness and monitors works to ensure quality.
+Limited overnight travel as needed.
+
+Apply Now for this Position
+
+
+
+
+
+
+
+
+
+	
+	
+    
+    
+    	
+                        
+		&copy; 2017 MarshBerry. All rights reserved.
+        Securities offered though MarshBerry Capital, Inc., Member FINRA and SIPC, and an affiliate of Marsh, Berry & Co., Inc.28601 Chagrin Blvd., Suite 400, Woodmere, Ohio 44122, 440-354-3230  Contact Us
+        
+        
+        M&#038;A Advisory
+Financial Consulting
+Organic Growth Consulting
+Information Services
+Peer Exchange Networks
+
+        Home
+About MarshBerry
+Locations
+MarshBerry Leadership
+Mission/Core Values
+What We Do
+
+        News &#038; Publications
+
+	MarshBerry Publications
+	For The Record
+	The Broker Tear Sheet
+	Dealmaker&#8217;s Dialogue
+
+
+News &#038; Articles
+Archive
+
+        Contact Us
+Open Opportunities
+Events
+Disclaimers &#038; Terms of Use
+Site Map
+Business Continuity Plan
+Privacy Policy
+
+        
+        
+        The documents and the information contained herein is for information purposes only. It is not intended as, and does not constitute, an offer or solicitation for the purchase or sale of any financial instrument. Except where otherwise indicated, the information provided is based on matters as they exist as of the date of preparation, and may not be updated or otherwise revised to reflect information that subsequently becomes available, or changes occurring after the date hereof. Past performance is not necessarily indicative of future results.
+   
+    
+     
+	
+
+	
+
+
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+	(function(d,s,i,r) {
+	if (d.getElementById(i)){return;}
+	var n = d.createElement(s),e = document.getElementsByTagName(s)[0];
+	n.id=i;n.src = '//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/242518.js';
+	e.parentNode.insertBefore(n, e);
+	})(document, "script", "hs-analytics",300000);
+
+
+
+
+
+/*  */
+
+
+
+/*  */
+
+
+
+
+/*  */
+
+
+
+
+/*  */
+
+
+
+    
+   
+    
+        function(d,s,i,r) {
+            if (d.getElementById(i)){return;}
+            var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+            n.id=i;n.src='//js.hubspot.com/analytics/'+(Math.ceil(new Date()/r)*r)+'/242518.js';
+            e.parentNode.insertBefore(n, e);
+        }
+		document,"script","hs-analytics",300000;
+    
+
+	
+
+
+
+

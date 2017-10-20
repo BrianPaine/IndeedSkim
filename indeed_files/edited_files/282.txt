@@ -1,0 +1,649 @@
+
+
+
+
+
+
+	
+
+	Details: Data Analyst
+
+	
+
+	
+
+	
+
+	
+
+	  
+
+				var Site = {
+
+					assetRoot: '/'
+
+				}
+
+			
+
+			
+
+		
+
+	
+jQuery(document).ready(function() {
+if (jQuery('#form').length > 0) {
+var validateForm = function() {
+}
+Validation.addFunction('form', 'validateForm', validateForm, false);
+Validation.interceptForm('form');
+if(jQuery('span.required').length){
+Validation.addInstructions('form');
+}
+}
+});
+ 
+
+	
+
+
+
+
+
+	
+
+		
+
+  
+
+    
+
+
+	     [ University of Illinois System | Urbana-Champaign | Chicago | Springfield ] 
+
+
+
+.hidden {
+    display: none;
+}
+
+#logo {   
+    margin: 0 0 0 5px;
+    padding: 8px 0 0;
+}
+
+
+
+
+
+					
+
+						
+
+							Home
+
+							
+
+						
+
+					
+
+						
+
+							Job Board
+
+							
+
+						
+
+					
+
+						
+
+							Search Jobs
+
+							
+
+						
+
+					
+
+						
+
+							Contact
+
+							
+
+						
+
+					
+
+						
+
+							Login / Register
+
+							
+
+						
+
+					
+
+				
+
+jQuery(document).ready(function(){
+
+  jQuery(jQuery('.e-menu-main a')[1]).attr('href','https://uajobs.hr.uillinois.edu/employment/job-board/?start=1&per=5000');
+
+ 
+
+  if(window.location.href == 'https://uajobs.hr.uillinois.edu/employment/job-board/' || window.location.href == 'https://uajobs.hr.uillinois.edu/employment/job-board/')
+
+{ 
+
+  window.location.href = 'https://uajobs.hr.uillinois.edu/employment/job-board/?start=1&per=5000';
+
+}
+
+ 
+
+
+
+});
+
+
+
+  
+
+  
+
+    
+
+      
+
+    
+
+    
+
+      
+
+
+
+	confirmApply = function(url) {
+
+		if (confirm("You are about to apply for this position and must complete all forms, are you sure you want to apply?")) {
+
+			window.location = url;
+
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+			
+
+				
+
+
+
+					
+
+						Job Details 
+
+					
+
+
+
+				
+
+				 
+
+					
+
+						Title:
+
+					
+
+					
+
+						Data Analyst 
+
+					
+
+				 
+
+					
+
+						Job Category:
+
+					
+
+					
+
+						Academic Professional 
+
+					
+
+				 
+
+					
+
+						Location:
+
+					
+
+					
+
+						Urbana 
+
+					
+
+				 
+
+					
+
+						Description:
+
+					
+
+					
+
+						University of Illinois
+
+
+
+Office of Business &amp; Financial Services
+
+
+
+Strategic Procurement
+
+
+
+Data Analyst
+
+
+
+Urbana Campus
+
+
+
+&nbsp;
+
+
+
+The University of Illinois seeks a Data Analyst to analyze existing information sources and produce reports to assist the decision making of OBFS operational units to improve efficiency, reduce costs, and grow customer satisfaction. The Data Analyst needs to be familiar with data query tools, statistical analysis, and data presentation tools. Additional responsibilities include: 
+
+					
+
+				 
+
+					
+
+						Duties:
+
+					
+
+					
+
+						1. Develop reports for executive management, regulatory agencies, audit firms, FOIA requests and compliance assurance; on both a recurring and as-needed basis.
+
+
+
+&nbsp;
+
+
+
+2.&nbsp; Assimilate, aggregate and query financial data to provide recommendations based on statistical analysis.
+
+
+
+&nbsp;
+
+
+
+3.&nbsp; Develop and maintain a University financial systems data dictionary.
+
+
+
+&nbsp;
+
+
+
+4.&nbsp; Monitor data integrity of financial systems and notify appropriate personnel of data impairments.
+
+
+
+&nbsp;
+
+
+
+5.&nbsp; Assist with financial procurement-related data analysis, including:
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+A. analyzing sourcing trends for generating new revenue streams,
+
+
+
+&nbsp;
+
+
+
+B. conduct market trend research and benchmarking analysis,
+
+
+
+&nbsp;
+
+
+
+C. support Request-For-Proposal bid teams with pricing analysis and evaluation,
+
+
+
+&nbsp;
+
+
+
+D. analyze vendor performance including price and discount verifications,
+
+
+
+&nbsp;
+
+
+
+E. analyze data to determine potential risk exposure,
+
+
+
+&nbsp;
+
+
+
+F. spend categorization &amp; management,
+
+
+
+&nbsp;
+
+
+
+G. operational performance measurement.
+
+
+
+&nbsp;
+
+
+
+6.&nbsp; Assess adequacy of existing data for reporting requests.
+
+
+
+&nbsp;
+
+
+
+7.&nbsp; Develop solutions for automating complex repeatable queries that normalize and cleanse data.
+
+
+
+&nbsp;
+
+
+
+8.&nbsp; Assist customers with troubleshooting technical issues, conducting queries and retrieving data from various systems.
+
+
+
+&nbsp;
+
+
+
+9.&nbsp; Work with other OBFS and university-wide units responsible for systems management to obtain, understand, and interface financial data.
+
+
+
+&nbsp;
+
+
+
+10.&nbsp; Serve on University, campus, and departmental committees/teams as required.
+
+
+
+&nbsp;
+
+
+
+11.&nbsp; Research industry best practices in data mining and financial regulatory data requirements. 
+
+					
+
+				 
+
+					
+
+						Qualifications:
+
+					
+
+					
+
+						Candidates must possess a bachelor's degree in statistics, information systems, business administration or a related field with two years of professional experience in financial reporting, data analysis, information technology, statistical analysis, or business administration.&nbsp; Other requirements include:&nbsp; experience in SAS programming language; knowledge and experience with one or more of the following technical data query and reporting tools: including but not limited to: Oracle PL/SQL, Microsoft Access, Microsoft Excel, Microsoft SharePoint, Quest Toad, and SAP Business Objects; knowledge and experience with statistical analysis techniques; ability to read, analyze and interpret general business periodicals, professional journals, technical procedures, and government regulations; ability to write complex financial reports, business correspondence, and procedure documents; ability to effectively present information and respond to questions from groups of colleagues, vendors, management, and auditors; ability to work independently or as part of the team to meet goals and objectives of each project; strong interpersonal skills that reflect courtesy, diplomacy, and a collaborative approach to develop and maintain effective work relationships; ability to work independently and exercise good judgment and discretion in the performance of all work assignments; ability to multi-task and prioritize work accordingly to meet deadlines while staying on task with daily assignments; excellent verbal and written communication skills to effectively interact with University and departmental officials/staff.
+
+
+
+&nbsp;
+
+
+
+Preferred qualifications include: knowledge on Ellucian Banner Finance ERP system; knowledge on Jaggaer eProcurement software; knowledge on University of Illinois EDW data warehouse; functional knowledge of procurement and contract management procedures; familiarity with Illinois Procurement Code; experience in public sector, within, or in support of a financial operation; NIGP Certified Public Procurement Buyer (CPPB) certification.
+
+
+
+&nbsp;
+
+
+
+This is a full-time, 12-month Academic Professional position. For full consideration, candidates must apply and submit a letter of application, resume, and names/addresses/phone numbers of three professional references by October 10, 2017 at https://uajobs.hr.uillinois.edu/.
+
+
+
+&nbsp;
+
+
+
+The University of Illinois conducts background checks on all job candidates upon acceptance of a contingent offer of employment.&nbsp;&nbsp; Background checks will be performed in compliance with the Fair Credit Reporting Act.
+
+
+
+&nbsp;
+
+
+
+HR Service Center
+
+
+
+449 Henry Administration Building, MC 341
+
+
+
+506 South Wright Street
+
+
+
+Urbana, IL&nbsp; 61801
+
+
+
+(217) 333-2600
+
+
+
+&nbsp;
+
+
+
+The University of Illinois is an affirmative action/equal opportunity employer dedicated to building a community of excellence, equity and diversity. The System Offices welcome applications from women, underrepresented minorities, individuals with disabilities, protected veterans, sexual minority groups and other candidates who will lead and contribute to the diversification and enrichment of ideas and perspectives. 
+
+					
+
+				 
+
+					
+
+						Close Date:
+
+					
+
+					
+
+						10/10/2017 
+
+					
+
+				  
+
+	
+
+	
+
+				
+
+					
+
+				
+
+			 
+
+		Back to Job Search
+
+	
+
+	
+
+
+    
+
+    
+
+    
+
+  
+
+  
+
+    
+
+
+	The University of Illinois may conduct background checks on all job candidates upon acceptance of a contingent offer.&nbsp; &nbsp;Background checks will be performed in compliance with the Fair Credit Reporting Act.
+
+
+
+&nbsp;
+
+
+
+
+
+
+	About the University&nbsp;|&nbsp;Campuses&nbsp;|&nbsp;Trustees&nbsp;|&nbsp;President&nbsp;|&nbsp;Administration
+
+© Copyright 2008 The Board of Trustees of the University of Illinois&nbsp;|&nbsp;Web Privacy Statement
+
+108 Henry Administration Bldg, Urbana, IL 61801&nbsp;| Contact System Human Resource Services |&nbsp;InfoSource@uillinois.edu
+
+
+
+
+  
+
+
+
+	
+
+
+
+
+
+ 
+
+					jQuery(document).ready(function() {
+
+						checkIECompatibilityMode();
+
+					})
+
+					function checkIECompatibilityMode(){
+
+						if(System.getBrowser()== 'IE'){
+
+							var agentStr = navigator.userAgent;
+
+					        var mode;
+
+					        if (agentStr.indexOf("Trident/5.0") > -1) {
+
+					            if (agentStr.indexOf("MSIE 7.0") > -1)
+
+					                mode = "IE9 Compatibility View";
+
+					            else
+
+					                mode = "IE9";
+
+					        }
+
+					        else if (agentStr.indexOf("Trident/4.0") > -1) {
+
+					            if (agentStr.indexOf("MSIE 7.0") > -1)
+
+					                mode = "IE8 Compatibility View";
+
+					            else
+
+					                mode = "IE8";
+
+					        }
+
+					        else if(agentStr.indexOf("Trident/6.0")){
+
+					        	mode = "IE10";
+
+					        }
+
+					        else
+
+					            mode = "IE7";					
+
+
+
+							var url='https://uajobs.hr.uillinois.edu/IECompatibility.cfm?mode='+mode;
+
+							if(mode=='IE9 Compatibility View' || mode=='IE8 Compatibility View' || mode=='IE7'){
+
+								Modal.displayModal(url);
+
+							}
+
+						}
+
+					}
+
+						
+
+				 

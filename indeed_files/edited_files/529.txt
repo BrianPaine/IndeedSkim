@@ -1,0 +1,311 @@
+
+
+
+
+    
+
+        
+        
+        
+
+    	Search Jobs | U-M Careers
+
+        
+        
+        
+        
+        
+
+    	
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+                
+        
+            // GOOGLE ANALYTICS
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-7526267-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        
+
+    
+
+    
+    
+    
+
+        
+
+            
+            
+                
+
+                    
+                    
+                        
+                            
+                                
+                            
+                        
+                    
+
+                    
+                    
+                        
+                        
+                        
+                            
+                                    
+                                        
+                                        
+                                            facebook
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            twitter
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            rss
+                                        
+                                    
+                                
+                                    
+                                        
+                                        
+                                            plus
+                                        
+                                    
+                                                        
+
+                    
+
+                    
+                    
+                        
+                            
+                                
+                                    Login
+                                
+                            
+                            
+                                
+                                    Help
+                                
+                            
+                        
+                    
+
+                
+            
+
+            
+            
+
+                                                    
+                                            
+                
+                
+                
+                    
+                        
+                            
+                        
+                        
+                            
+                                Data Analyst                            
+                        
+                    
+                
+
+                
+
+                    
+                    
+                    
+                        
+                            
+                                
+                                    Home
+                                
+                                                        
+                                
+                                    Search Jobs
+                                
+                                                        
+                                
+                                    Benefits
+                                
+                                                        
+                                
+                                    Choose Michigan
+                                
+                                                        
+                                
+                                    Temporary Employment
+                                
+                                                                                    
+                                
+                                    Career Development
+                                
+                                                    
+                    
+
+		    
+		    		    	                    	                    			    
+                    
+                    
+
+                                                    
+                                
+                            
+                        
+    
+        
+
+Apply Now
+Clicking "Apply Now" opens the link in a new window.
+
+
+
+
+How to ApplyA cover letter is required for consideration for this position and should be attached as the first page of your resume. The cover letter should address your specific interest in the position and outline skills and experience that directly relate to this position.Job SummaryDepartment Summary The Office of the Vice President for Student Life (OVPSL) is charged with facilitating a positive Michigan experience for students and supporting their overall development. This is reflected in the Division of Student Life&rsquo;s mission: &ldquo;Student Life is committed to facilitating student learning and the development of the whole student while cultivating a diverse and inclusive campus community. Through our programs, services, facilities and partnerships, we provide opportunities for students&#39; transformation and enrich their education.&rdquo; Job SummaryNOTE:&nbsp; THIS IS A 1-YEAR LIMITED TERM POSITION WITH THE POTENTIAL TO REEVALUATE FOR EXTENSION!This is a research position in the Office of the Vice President of Student Life. The position will primarily support the roll-out of a new assessment project that is occurring across the Division of Student Life. The position is responsible for carrying out research projects using student and college data, utilizing a variety of analytical and evaluative procedures, and with minimal supervision. The job involves quantitative analyses and interpretation of data related to student learning and diversity, equity, and inclusion initiatives. This position also writes reports (with graphs/tables or other visuals) to succinctly translate data into actionable, data-informed insights in an effective and informative mannerResponsibilities*Data Analysis (50%)&nbsp;	Uses advanced research and statistical methods to conduct comprehensive data analyses, while ensuring data integrity. 	Links data across an array of surveys to conduct longitudinal and cross-sectional analyses of repeat measures for evidence of change. 	Analyzes data, within initiatives and across units to report unique program impact and aggregate impact of Student Life.	Uses statistical software to produce aggregate data for dissemination.	Transforms raw data to prepared datasets for analysis and reporting.	Tracks and organizes data and databases.	Responds to internal ad-hoc requests with accuracy and efficiency.	Follows ethical standards for research including ensuring the security of data, protecting student privacy, and maintaining the confidentiality of unitary data.&nbsp;Data Reporting (45%)&nbsp;	Produces research reports, both recurring and new, in easily understandable formats to communicate key points for succinct and meaningful consumption for a wide range of key stakeholders.	Prepare visualizations of and narratives about data to tell a compelling story. 	Develops and maintains assigned internal publications (such as the Fact Book).&nbsp;Other Duties (5%)&nbsp;	Prepares regular status reports which may include weekly, monthly, annual, and special project status reporting.	Completes special projects and other miscellaneous duties as assigned.Required Qualifications*	Master&#39;s degree	Previous experience in the formation of viable inquiries and data collection.	Experience working with surveys and survey data.	Experience working with large, complex datasets.	Knowledge and application of research methods and techniques. 	Knowledge of and experience with descriptive and inferential statistical methods and interpretations. &nbsp;&nbsp;Desired Qualifications*	Doctoral degree in higher education, social sciences, statistics, or other related fields.	Demonstrated ability to translate findings into meaningful take-away messages for different audiences of stakeholders.	Demonstrated ability to connect meaning across multiple sources of data to provide added-value and context to findings. 	Experience in managing and analyzing institutional data. 	Experience with technical and research report writing.	Experience working in a higher education setting.	Knowledge of the aims of higher education and the purpose of Student Life/Affairs to aid in analyzing data and communicating findings.Position CriteriaIn addition to the required and desired qualifications, the hiring team will be evaluating the candidate for	Proficient in the use of statistical software.	Ability to effectively prioritize and successfully perform duties autonomously, as well as using a team approach, in a high traffic and multi-tasked work environment.	Demonstrated capacity in quantitative research methods and familiarity with statistical research packages, such as SPSS.	Integrity in general and specifically in data management and reporting.	Excellent analytical, writing and communication skills	Demonstrated ability to report findings in a clear, concise, accurate, and compelling manner to a broad educational audience, including the use of visual/graphic tools.	Demonstrated ability to take appropriate initiative and seek guidance, as needed.	Demonstrated ability to collaborate with others to achieve desired results. 	Demonstrated ability to produce tangible output within short deadlines.U-M EEO/AA StatementThe University of Michigan is an equal opportunity/affirmative action employer.
+                        
+
+                    
+                        
+
+                            
+                            
+                                Job Detail
+                                
+                                    
+                                        Job Opening ID
+                                        147042
+                                    
+                                    
+                                        Working Title
+                                        Data Analyst
+                                    
+                                    
+                                        Job Title
+                                        Research Area Specialist Assoc
+                                    
+                                    
+                                        Work Location
+                                        Ann Arbor Campus
+                                        Ann Arbor, MI  
+                                    
+                                    
+                                        Full/Part Time
+                                        Full-Time
+                                    
+                                    
+                                        Regular/Temporary
+                                        Regular
+                                    
+                                    
+                                        FLSA Status
+                                        Exempt
+                                    
+                                    
+                                        Organizational Group
+                                        Dsa Central Administ
+                                    
+                                    
+                                        Department
+                                        Student Life Research
+                                    
+                                    
+                                        Posting Begin/End Date
+                                        9/01/2017 &ndash; 10/15/2017
+                                    
+                                    
+                                    
+                                    
+                                                                                                                    
+                                            Career Interest
+                                            
+                                                                                                    Research
+                                                                                            
+                                        
+                                                                    
+                            
+
+                            
+                            Apply Now
+
+                        
+
+                    
+                
+            
+
+            
+            
+            
+                
+                                                                                
+                        
+                            
+                        
+                    
+                                        
+                        
+                            Contact
+                        
+                        
+                            
+                                
+                                    Non-discrimination Statement
+                                
+                            
+                            
+                                
+                                    Accessibility
+                                
+                            
+                            
+                                
+                                    Security &amp; Safety Annual Report
+                                
+                            
+                            
+                                
+                                    Labor Law Notices
+                                
+                            
+                        
+                    
+                                        
+                        &copy; 2017 The Regents of the University of Michigan
+                    
+                
+            
+
+        
+
+    
+
+
+

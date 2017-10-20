@@ -1,0 +1,623 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+
+document.cookie = "jsEnabled=true;path=/";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+
+if (icimsWindow) {
+try {
+
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+
+try {
+
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+
+}
+
+LMI Government Consulting | Position Openings |Junior Data Analyst
+
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var isMobile = false;
+
+var redirectUrl = 'https:\/\/careers-lmi.icims.com\/jobs\/1331\/junior-data-analyst\/job?in_iframe=1&mode=job&iis=Job+Board&iisn=Indeed';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ var link = 'https://careers-lmi.icims.com/connect/interests?csrf=1FAE88C5B8850AA1&in_iframe=1&hashed=-435623232'; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn07.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/portal/login.js');
+var jobId = "1331";
+
+
+var icimsSD = {"person":{},"companyName":"Logistics Management Institute","env":"prod","job":{"zipCode":"62225","jid":1331,"jobUrls":[{"name":"careers","url":"https://careers-lmi.icims.com/jobs/1331/junior-data-analyst/job"}],"location":"Scott AFB, Illinois, United States","title":"Junior Data Analyst"},"version":"1.015","key":"2","cid":"IGh1vUJjzfcpJs40Y8P8gqOpe2xYpnZuGJX8WURHjA4E6Zjb/VdyQQcKtJ9J"};
+var isWidgetLoaded = false;
+window.mobile = false;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+
+
+
+
+
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+
+ResourceBundle.prototype.get = function(message, variables) {
+if (typeof(resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof(resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+
+
+function icims_resizeIFrameHeight() {
+
+icims_resizeIFrame('https://careers-lmi.icims.com');
+
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-lmi.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+icims_resizeIFrameHeight();
+
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i  0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+
+if (icimsWindow) {
+var bodyTag = window.parent.document.getElementsByTagName('body')[0];
+var skipLink = window.parent.document.getElementById('icims_skiplink');
+if (bodyTag && !skipLink) {
+skipLink = document.createElement('a');
+skipLink.textContent = 'Skip to Content';
+skipLink.setAttribute('id', 'icims_skiplink');
+skipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+skipLink.setAttribute('href', '#icims_content_iframe');
+if (bodyTag.firstElementChild) {
+bodyTag.insertBefore(skipLink, bodyTag.firstElementChild);
+} else {
+bodyTag.appendChild(skipLink);
+}
+}
+}
+
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+
+});
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+
+icimsAddOnload(function() {
+try {
+if (icimsWindow && parent) {
+parent.document.title = document.title;
+}
+} catch (e) {}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+
+{"hiringOrganization":{"@type":"Organization","name":"Logistics Management Institute","sameAs":"www.lmi.org"},"jobLocation":[{"address":{"addressCountry":"US","@type":"PostalAddress","addressLocality":"Scott AFB","addressRegion":"IL"},"@type":"Place"}],"@type":"JobPosting","description":"Overview\nThis position is on the consulting staff of a government consulting firm headquartered in Tysons, VA. Work location will be on site in client space in Scott AFB, IL.\nResponsibilities\n\n Provide daily support for analysis of personal property rates and performance, including rate updates, rates research, and cost comparisons based on shipment types\n Develop reports identifying shipment volumes and types by distribution channel and code of service, and conduct peak season capacity analysis using indicators such as carrier blackouts, shipment status assessment, carrier refusal behavior, and other program leading and lagging indicators\n Provide stakeholders with training support for using analytics interfaces and assist with developing solutions and trend analysis\n Supports all personal property payment processes, and future electronic billing initiatives, all of which encompass the electronic billing and payment process for personal property shipments\n Any additional ad hoc report, task, or support as needed\n\nQualifications\n&nbsp;\n\n Bachelor's Degree in a related technical discipline, or the equivalent combination of education, professional training, or work experience.\n Secret clearance is required.\n Knowledge of Microsoft Excel, including use of Visual Basic, SQL, pivot tables, and filters.\n 1-3 years of experience in analyzing large sets of data and presenting both graphical and tabular results.\n Experience or knowledge of personal property and/or commercial surface transportation a plus.\n Experience with Oracle Business Analytics solutions.\n","@id":"1331","datePosted":"2017-08-28T04:00:00.000Z","title":"Junior Data Analyst","occupationalCategory":"Data/Analytics","@context":"http://schema.org"}
+
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+
+
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome page
+
+
+
+
+
+
+
+
+Returning Candidate?
+
+Log back in!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Junior Data Analyst
+
+
+
+
+
+Job Locations
+
+
+US-IL-Scott AFB
+
+
+
+
+Posted Date
+
+
+1 month ago
+
+
+
+
+Job ID
+
+2017-1331
+
+
+# of Openings
+
+1
+
+
+Category
+
+Data/Analytics
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Overview
+
+
+
+
+
+
+
+
+
+This position is on the consulting staff of a government consulting firm headquartered in Tysons, VA. Work location will be on site in client space in Scott AFB, IL.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Responsibilities
+
+
+
+
+
+
+
+
+
+Provide daily support for analysis of personal property rates and performance, including rate updates, rates research, and cost comparisons based on shipment typesDevelop reports identifying shipment volumes and types by distribution channel and code of service, and conduct peak season capacity analysis using indicators such as carrier blackouts, shipment status assessment, carrier refusal behavior, and other program leading and lagging indicatorsProvide stakeholders with training support for using analytics interfaces and assist with developing solutions and trend analysisSupports all personal property payment processes, and future electronic billing initiatives, all of which encompass the electronic billing and payment process for personal property shipmentsAny additional ad hoc report, task, or support as needed
+
+
+
+
+
+
+
+
+
+
+
+
+
+Qualifications
+
+
+
+
+
+
+
+
+
+&nbsp;Bachelor's Degree in a related technical discipline, or the equivalent combination of education, professional training, or work experience.Secret clearance is required.Knowledge of Microsoft Excel, including use of Visual Basic, SQL, pivot tables, and filters.1-3 years of experience in analyzing large sets of data and presenting both graphical and tabular results.Experience or knowledge of personal property and/or commercial surface transportation a plus.Experience with Oracle Business Analytics solutions.
+
+
+
+
+
+
+
+
+Options
+
+
+
+
+
+
+Apply for this job onlineApplyShareEmail this job to a friendRefer
+
+
+
+
+
+
+
+
+
+
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+
+
+Share on your newsfeed
+
+
+
+
+
+
+
+
+
+
+
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (icimsWindow) {
+try {
+window.parent.document.getElementById('icims_content_iframe').title = document.title;
+} catch (e) {}
+}
+
+
+window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"4e547d37d0","agent":"","beacon":"bam.nr-data.net","applicationTime":48,"applicationID":"36299807,3836168,19453878","transactionName":"ZQdXYRMAD0ZUBkAIVlxNdkASFQ5YGhVbE01TDhpfDgNOcnAx","queueTime":16}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// New Relic PageViewName Logging. Ensure this cannot ever halt page execution.
+try {
+var pageViewName ='portal/job/GET';
+newrelic.setPageViewName(pageViewName);
+} catch (e) {}
+
+
+
+
+
+
+

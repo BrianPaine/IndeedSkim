@@ -1,0 +1,1024 @@
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+    
+
+	Database Analyst at Nestle Nespresso
+
+    
+
+	
+
+		
+
+	
+
+    
+
+    
+
+        
+
+    document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+     
+
+
+
+
+
+
+
+                
+
+{"@context":"http://schema.org","@type":"JobPosting","datePosted":"2017-9-19","description":"Our story began over 25 years ago with a simple but revolutionary idea – to create the perfect cup of coffee. An industry pioneer, Nestlé Nespresso has become an international reference for the highest quality coffee and an iconic symbol of refined elegance. We are now in more than 50 countries and our team has grown well beyond 7,000 employees. We are part of Nestlé SA in Switzerland, the world's largest food company. Nespresso USA continues to drive momentum and innovation in our market segment, and in North America, we're just getting started. Nestle Nespresso USA is searching for a driven, detail oriented, Database Analyst to lead deep dive analyses and advanced analytics projects to support database/CRM activation. This role will work closely with the CRM Insights Manager to develop and execute analytics plans including: promotional dashboards, big picture business analyses, and other vendor driven projects. Responsibilities-Act as primary point of contact for database related questions for internal and external stakeholders-Drive database and technological advancements to improve level and efficiency of analyses as well as database hygiene-Generate queries and in general leverage data to address key business questions-Mine data for insights and key trends that address business questions and inform strategic decisions- Deepen understanding of the Nespresso consumer through customer level analysis- Drive omni channel strategy through holistic, cross-channel analyses-Communicate key insights and recommendations to stakeholders-Determine where predictive and attribution modeling will best enhance the businesses core competencies-Work with CRM Insights Manager to develop a deployment plan and implementation of the model-Review business objectives and key trends with CRM Insights Manager and other CRM counterparts to develop predictive model-based segmentation strategies-Create personalized communication strategy that increases consumers’ engagement with the brand and lifetime valueREQUIREMENTS:• Bachelor’s Degree required, preferably in business, marketing, statistics, or computer science• 4+ years of experience in an analytics focused role• 2+ years of experience in direct to consumer marketing analytics• Advanced SQL querying skills required• Prior experience using data analysis tools required (SPSS, SAS, etc.)• Prior experience using business intelligence tools strongly preferred (Cognos, SAP Business Objects, etc.)• Prior experience using data visualization tools preferred (Tableau, Power BI, etc.)• Strong analytical skills• Ability to clearly deliver insights and findings• Ability to integrate multiple data sources into a single narrative• Strong strategic thinking skills• Strong presentation skillsThe Nestle companies are equal opportunity and affirmative action employers and are looking for diversity in candidates for employment: Minority/Female/Disabled/Protected Veteran","employmentType":"Professional","identifier":"17006809","qualifications":"REQUIREMENTS:• Bachelor’s Degree required, preferably in business, marketing, statistics, or computer science• 4+ years of experience in an analytics focused role• 2+ years of experience in direct to consumer marketing analytics• Advanced SQL querying skills required• Prior experience using data analysis tools required (SPSS, SAS, etc.)• Prior experience using business intelligence tools strongly preferred (Cognos, SAP Business Objects, etc.)• Prior experience using data visualization tools preferred (Tableau, Power BI, etc.)• Strong analytical skills• Ability to clearly deliver insights and findings• Ability to integrate multiple data sources into a single narrative• Strong strategic thinking skills• Strong presentation skillsThe Nestle companies are equal opportunity and affirmative action employers and are looking for diversity in candidates for employment: Minority/Female/Disabled/Protected Veteran","title":"Database Analyst","url":"https://www.nespressojobs.com/job/new-york/database-analyst/5736/5761202","hiringOrganization":{"@type":"Organization","name":"Nestle Nespresso"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"New York","addressRegion":"New York","addressCountry":"US","streetAddress":"","postalCode":""}}}
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-82515202-1', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+                createHiddenInput('dimension1', '5761202');
+
+                createHiddenInput('dimension2', '17006809');
+
+                createHiddenInput('dimension3', '5736');
+
+                createHiddenInput('dimension4', '5736,Nestle Nespresso');
+
+                    createHiddenInput('dimension6', 'Market-Research Corporate');
+
+                    createHiddenInput('dimension7', 'New-York-New-York-United-States');
+
+                    createHiddenInput('dimension9', 'Database Analyst');
+
+                        createHiddenInput('dimension10', 'JobDetails');
+
+                    createHiddenInput('dimension14', 'Basic JD');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+            gtmValues = { 'JobID': '5761202', 'ReqID': '17006809', 'OrgID': '5736', 'tbcn-division': '5736,Nestle Nespresso' };
+
+                gtmValues['tbcn-jobcategory'] = 'Market-Research Corporate';
+
+                gtmValues['tbcn-location'] = 'New-York-New-York-United-States';
+
+                gtmValues['tbcn-jobtitle'] = 'Database Analyst';
+
+                    gtmValues['pagetype'] = 'JobDetails';
+
+                gtmValues['subpagetype'] = 'Basic JD';
+
+            dataLayer.push(gtmValues);
+
+
+
+
+
+
+
+
+
+
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-PV5XL3');
+
+    
+
+
+
+	
+
+	Skip Navigation
+
+    
+
+    
+
+        
+
+                
+
+
+
+body
+
+{display:none !important;}
+
+
+
+
+
+
+
+if (self === top)
+
+{ var antiClickjack = document.getElementById("antiClickjack"); antiClickjack.parentNode.removeChild(antiClickjack); }
+
+
+
+else
+
+{ top.location = self.location; }
+
+
+
+
+
+    
+
+        Menu
+
+        
+
+                    Nespresso.com
+
+                    Career Opportunities
+
+                    Working at Nespresso
+
+                    Join Nespresso
+
+        
+
+    
+
+
+
+
+
+        
+
+    
+
+
+
+	    
+
+
+
+    
+
+        
+
+            
+
+                Exceptional Coffees.Extraordinary Careers.
+
+            
+
+        
+
+    
+
+
+
+	 
+
+	    
+
+	
+
+        
+
+            Search Our Jobs
+
+	        
+
+
+
+
+
+
+
+
+
+	Search
+
+        
+
+                
+
+                    Keyword
+
+                    
+
+                
+
+
+
+                    
+
+                        Category
+
+                        Choose category
+
+Corporate
+
+Customer Service
+
+Market Research
+
+Marketing
+
+Retail
+
+Sales
+
+
+
+                    
+
+
+
+
+
+                
+
+                    State
+
+                    Choose state
+
+Arizona
+
+California
+
+Colorado
+
+Florida
+
+Illinois
+
+Maryland
+
+Massachusetts
+
+Minnesota
+
+New Jersey
+
+New York
+
+Oregon
+
+Texas
+
+Virginia
+
+Washington
+
+
+
+                
+
+
+
+                
+
+                    City
+
+                    Choose city
+
+Arlington
+
+Aventura
+
+Bellevue
+
+Bloomington
+
+Boca Raton
+
+Boston
+
+Chevy Chase
+
+Chicago
+
+Dallas
+
+Fairfax
+
+Garden City
+
+Glendale
+
+Lone Tree
+
+Long Island City
+
+Los Angeles
+
+Miami
+
+Miami Beach
+
+Minneapolis
+
+New York
+
+Newport Beach
+
+Newton
+
+Orlando
+
+Palo Alto
+
+Paramus
+
+Portland
+
+San Diego
+
+San Francisco
+
+San Jose
+
+Santa Monica
+
+Scottsdale
+
+Skokie
+
+Thousand Oaks
+
+Walnut Creek
+
+White Plains
+
+
+
+                
+
+
+
+            
+
+            Search
+
+            Reset
+
+        
+
+
+
+  
+
+
+
+
+
+
+
+    Search with your LinkedIn Profile
+
+
+
+
+
+        
+
+    
+
+    
+
+	
+
+		
+
+
+
+
+
+    
+
+
+
+    
+
+        Database Analyst
+
+        	Apply Now
+
+                
+
+                Job Number 17006809 
+
+            
+
+            
+
+                Company Nestle Nespresso
+
+            
+
+            Location New York, New York
+
+
+
+        
+
+    
+
+        Our story began over 25 years ago with a simple but revolutionary idea – to create the perfect cup of coffee. An industry pioneer, Nestlé Nespresso has become an international reference for the highest quality coffee and an iconic symbol of refined elegance. We are now in more than 50 countries and our team has grown well beyond 7,000 employees. We are part of Nestlé SA in Switzerland, the world's largest food company. Nespresso USA continues to drive momentum and innovation in our market segment, and in North America, we're just getting started. Nestle Nespresso USA is searching for a driven, detail oriented, Database Analyst to lead deep dive analyses and advanced analytics projects to support database/CRM activation. This role will work closely with the CRM Insights Manager to develop and execute analytics plans including: promotional dashboards, big picture business analyses, and other vendor driven projects. Responsibilities-Act as primary point of contact for database related questions for internal and external stakeholders-Drive database and technological advancements to improve level and efficiency of analyses as well as database hygiene-Generate queries and in general leverage data to address key business questions-Mine data for insights and key trends that address business questions and inform strategic decisions- Deepen understanding of the Nespresso consumer through customer level analysis- Drive omni channel strategy through holistic, cross-channel analyses-Communicate key insights and recommendations to stakeholders-Determine where predictive and attribution modeling will best enhance the businesses core competencies-Work with CRM Insights Manager to develop a deployment plan and implementation of the model-Review business objectives and key trends with CRM Insights Manager and other CRM counterparts to develop predictive model-based segmentation strategies-Create personalized communication strategy that increases consumers’ engagement with the brand and lifetime valueREQUIREMENTS:• Bachelor’s Degree required, preferably in business, marketing, statistics, or computer science• 4+ years of experience in an analytics focused role• 2+ years of experience in direct to consumer marketing analytics• Advanced SQL querying skills required• Prior experience using data analysis tools required (SPSS, SAS, etc.)• Prior experience using business intelligence tools strongly preferred (Cognos, SAP Business Objects, etc.)• Prior experience using data visualization tools preferred (Tableau, Power BI, etc.)• Strong analytical skills• Ability to clearly deliver insights and findings• Ability to integrate multiple data sources into a single narrative• Strong strategic thinking skills• Strong presentation skillsThe Nestle companies are equal opportunity and affirmative action employers and are looking for diversity in candidates for employment: Minority/Female/Disabled/Protected Veteran
+
+	Apply Now
+
+        		    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+        
+
+            Share this Job
+
+            
+
+	                Facebook
+
+	                Twitter
+
+	                Google+
+
+	                Email
+
+                            
+
+        
+
+    
+
+
+
+    
+
+        
+
+            About this Location
+
+            Check out where you could be working before you apply.
+
+        
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+                
+
+                        
+
+                    The Coffee Experience
+
+                    <!--The Coffee Experience-->
+
+                    Learn More
+
+                        
+
+                                            
+
+                            
+
+                        
+
+                
+
+                
+
+                        
+
+                    New Locations
+
+                    <!--New Locations-->
+
+                    Learn More
+
+                        
+
+                                            
+
+                            
+
+                        
+
+                
+
+        
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+        
+
+	    
+
+		    Join our Talent Community
+
+				    Sign up to receive job alerts from Nespresso.
+
+
+
+EmailInterested InSearch for a category, location, or category/location pair, select a term from the suggestions, and click “add.”CategoryLocationAddMarket Research, New York, New York, United StatesRemoveCorporate, New York, New York, United StatesRemoveRemove		
+
+		
+
+		    Confirm Email
+
+		    
+
+		
+
+			
+
+		
+
+		    
+
+		
+
+		
+
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+                 Related Jobs
+
+                         
+
+                         
+
+                                     Regional Manager Offices, East Coast
+
+                                     New York, New York
+
+                         
+
+                         
+
+                                     B2B Sales Analyst
+
+                                     New York, New York
+
+                         
+
+                         
+
+                                     Brand Manager
+
+                                     New York, New York
+
+                         
+
+                 
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+            
+
+            
+
+        
+
+                
+
+                        
+
+                    New Locations
+
+                    <!--New Locations-->
+
+                    Learn More
+
+                        
+
+                                            
+
+                            
+
+                        
+
+                
+
+                
+
+                        
+
+                    The Coffee Experience
+
+                    <!--The Coffee Experience-->
+
+                    Learn More
+
+                        
+
+                                            
+
+                            
+
+                        
+
+                
+
+        
+
+
+
+
+
+            
+
+
+
+
+
+	
+
+	
+
+	
+
+        
+
+
+
+    
+
+        Stay Connected to Nespresso
+
+        
+
+                Facebook
+
+                Twitter
+
+                Pinterest
+
+                Glassdoor
+
+        
+
+    
+
+
+
+
+
+    Nestlé Nespresso USA is an equal opportunity and affirmative action employer and is looking for diversity in qualified candidates for employment:
+
+    Minority/Female/Disabled/Protected Veteran. If you require an accommodation in order to view or apply to open positions, please dial 711 and provide this number to the operator: 1-877-204-8650.
+
+    For technical assistance: email NesCareersSupport@icareerhelp.com or phone 1-877-204-8650.
+
+    Frequently Asked Questions: http://www.nestle.com/ask-nestle.
+
+    Corporate Site&nbsp;&#124;&nbsp;Sitemap
+
+
+
+
+
+	
+
+	
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+	
+
+
+
+
+
+
+

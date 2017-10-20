@@ -1,0 +1,858 @@
+
+
+
+
+
+
+
+
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+  ga('create', 'UA-36267901-1', 'timewarner.com');
+
+  ga('send', 'pageview');
+
+
+
+
+
+
+
+
+
+ cmSetClientID('51290000|391_36', true, 'data.coremetrics.com', 'timewarner.com');
+
+
+
+
+
+
+
+var isTagpageview=true;
+
+
+
+function tagPageView() {
+
+
+
+        cmCreatePageviewTag('jobdetails - ' + document.frmWebAnalyticsInfo.WAAutoOrOptReq.value, '201', null, null, document.frmWebAnalyticsInfo.WAJobAttributes.value);
+
+        
+
+
+
+}
+
+
+
+
+
+
+
+        
+
+    
+
+    
+
+    
+
+               
+
+        
+
+         
+
+        //ldp256 accessibility changes starts
+
+             $(document).ready(function() {
+
+                 $(document.body).mousemove(function(event) {
+
+                     BodyMouseMove();
+
+                 });
+
+                 $(document.body).keyup(function(event) {
+
+                     BodyKeyUp();
+
+                 });
+
+                 $(document.body).focus(function(event) {
+
+                     BodyFocus();
+
+                 });
+
+                 var addOnClick = "no";
+
+                 if (addOnClick == "yes") {
+
+                     $(document.body).click(function(event) {
+
+                         hideAllLayer();
+
+                     });
+
+                 }
+
+
+
+                 // the footer isn't always easy to detect as empty.  This is an additional test to hide the footer when the branding table exists but contains no content
+
+                 if ($("[role=contentinfo]") && $("[role=contentinfo]").text().trim() == "") {
+
+                     $("[role=contentinfo]").remove();
+
+                     if ($("#ctl00_Footer")) {
+
+                         $("#ctl00_Footer").hide();
+
+                     }
+
+                 }
+
+             });
+
+        //ldp256 accessibility changes ends
+
+
+
+             function AddRfToken() {
+
+                 var forms = document.forms;
+
+
+
+                 for (i = 0; i  0) {
+
+                        
+
+                      }
+
+                     else
+
+                      {
+
+                    
+
+                         var hdElement = forms[i].hdRft;
+
+
+
+                         if (typeof (hdElement) == 'undefined') {
+
+
+
+                             var input = document.createElement("input");
+
+
+
+                             input.setAttribute("type", "hidden");
+
+
+
+                             input.setAttribute("name", "hdRft");
+
+
+
+                             input.setAttribute("value", js_rft);
+
+
+
+                             document.forms[i].appendChild(input);
+
+                         }
+
+                         else {
+
+
+
+                             hdElement.value = js_rft;
+
+                         }
+
+                     }
+
+                 }
+
+             }
+
+
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+          
+
+           
+
+           
+
+        
+
+         
+
+   Time Warner, Inc. - Job details
+
+       
+
+        .h1Title
+
+        {
+
+        	margin:0;
+
+		    padding: 6px 0 0px 0;
+
+        }
+
+	    .h1Tab
+
+        {
+
+	    	margin: 0pt; 
+
+		    padding: 1px 0pt 1pt; 
+
+		    overflow: hidden;	       	
+
+        }
+
+       .twitter-share-button {
+
+              position:relative;           
+
+              margin-left:3px;
+
+      }
+
+      
+
+      iframe { vertical-align: top; }
+
+      
+
+      
+
+    
+
+     if (navigator.appVersion.indexOf('Win') != -1) {if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } } else if (navigator.appVersion.indexOf('Mac') != -1) { if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } } else {if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } }  var js_rft = '^OSuTVqBIlmOW9GIzW+FzuW9F260slUf1FyXK7BJQOL6X70s9jw/1tDzmU3hkIbPk7Ki7KzAiRZkzTCylPYta/VOmX0+cU11bD/r8jf2gxlGASbgJCGBk43OgojXUQc5FUlkb6el20mdE+ZJHsWe9SZ6ZXSLb2I+RrSq+f7thbmz5OLWjK/KKZ4zUXR14hO4nZTLWVOJjH+gbEFgJ+zOJZaPfA0Cq2XAh'
+
+    var MSG_SiteSwitch = "Recruitment for the selected job(s) will be in the language of the job posting(s).  To continue, the language of this site will change to match the language of the selected job(s).  You will need to provide your resume/CV in the language of the selected job(s) in order to maximize your visibility to the recruitment personnel.";var MSG_SocialMediaSiteSwitch = "Posting to social networks should be in the language of the job posting.  To continue, the language of this site will change to match the language of the selected job."; var js_LaunchGQ_DotNet ="No";
+
+    
+
+     
+
+      
+
+        var SR_READY = "";
+
+        var SR_PRIDE = "%5eXPo1WBzaZuM%3d";
+
+        var SR_STID = "36";
+
+        var SR_CLID = "391";
+
+        var SR_LOCALE = "1033";
+
+        var SR_FN = "";
+
+        var SR_LN = "";        
+
+       function setReadyForSocialReferral(ready, clid, stid, pride, localeid,button,fn,ln) {
+
+            SR_READY = ready;
+
+            SR_PRIDE = pride;
+
+            SR_STID = stid;
+
+            SR_CLID = clid;
+
+            SR_LOCALE = localeid;
+
+            SR_FN = fn;
+
+            SR_LN = ln;
+
+            if (SR_READY == "yes") {
+
+                LaunchSocialReferralMenu(document.getElementById(button));
+
+            }
+
+        }
+
+        function LaunchSocialReferralMenu(button) {
+
+            var jobstr = document.getElementById("jobid").value;
+
+            var urlstring = "../tgnewui/referral/home/referralworkflowoptions?siteid=" + SR_STID + "&partnerid=" + SR_CLID + "&localeid=" + SR_LOCALE + "&bruid=" + SR_PRIDE + "&jobids=" + jobstr+ "&fn=" + SR_FN + "&ln=" + SR_LN
+
+            window.dialogBuilder.showDialog(button, urlstring);
+
+
+
+        }     
+
+        function ApplyNow()
+
+	    {			    
+
+			var ApplyURL = "-1";
+
+			if (ApplyURL=="-1" ) ApplyURL= "";
+
+			if (ApplyURL.length>0 )
+
+			{				
+
+			    window.location.href=ApplyURL; 
+
+			}
+
+			else
+
+			//In case GTG if the job siteid is different than the current siteid
+
+			//display warning pop-up to confirm site switched to job site
+
+			{			   
+
+				var CurrentSite = '36';var JobSiteId = '';if (JobSiteId == ''){JobSiteId = '36';}if (CurrentSite != JobSiteId ){if(confirm(MSG_SiteSwitch)){}else{return;}var newLocaleId = getLocaleId(JobSiteId,'36,5144,5145,5243,5244,5384||1,23,34,52,27,90||1033,1031,1036,1040,3082,1046');ApplyJobNow(newLocaleId);}else{ApplyJobNow('1033');}
+
+			}
+
+		}		
+
+			
+
+		function ApplyJobNow(strLocale)
+
+        {
+
+	        var strGQId;
+
+	        var iLen, iIndx;
+
+	        var arrGQId;
+
+	        var arrGQIds;
+
+	        var lngNewSelection = 0;
+
+	        var lngSiteLocale = 1033;
+
+	        var strSwitchSiteQS;
+
+	        strGQId = "0";	// from Querystring
+
+	        strSwitchSiteQS = "";
+
+
+
+	        //var lngSelect = 1;
+
+	        var lngSelect = 1;
+
+	        
+
+	        if  (strGQId == '')
+
+	        {	
+
+	            strGQId= document.frmJobDetail.JobInfo.value;
+
+			    arrGQId = (strGQId.substring(2, strGQId.length - 2)).split("%%");
+
+			    iLen = arrGQId.length;
+
+			    arrGQIds = arrGQId[lngSelect-1].split('|');
+
+			    if (arrGQIds[2] != 0)
+
+			    {
+
+				    if (strLocale == lngSiteLocale)
+
+				    {
+
+				        if (js_LaunchGQ_DotNet.toUpperCase() == 'YES')
+
+				        {
+
+				            openWindow11("gqlogin.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&fjd=true&referer=&gqid="+ arrGQIds[2] + "&jobinfo=__" + arrGQId[lngSelect-1] + "__&applycount=1&type=search_jobdetail");
+
+				        }
+
+				        else
+
+				        { 
+
+					        openWindow11("https://careers.timewarner.com/" + strLocale + "/asp/tg/GQLogin.asp?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&fjd=true&referer=&gqid="+ arrGQIds[2] + "&jobinfo=__" + arrGQId[lngSelect-1] + "__&applycount=1&type=search_jobdetail&srcqs=");
+
+					    }
+
+				    }
+
+				    else
+
+				    {
+
+				        document.frmMassApply.GQID.value = arrGQIds[2];
+
+				        if(strSwitchSiteQS == '')
+
+				        {
+
+					        document.frmMassApply.action= "apply.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&src=jd&qs=partnerid%3d391%26siteid%3d36%26jobId%3d793797";
+
+					    }
+
+					    else
+
+					    {
+
+					        document.frmMassApply.action= "apply.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&src=jd&qs=";
+
+					    }
+
+					    document.frmMassApply.submit();
+
+				    }
+
+			    }
+
+			    else
+
+			    {
+
+				    document.frmMassApply.action= "apply.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==";
+
+				    document.frmMassApply.submit();
+
+			    }	        
+
+			        		        
+
+	        }
+
+	        else
+
+	        {
+
+	           	
+
+		        if (strGQId != 0)
+
+		        {
+
+			        if (strLocale == lngSiteLocale)
+
+			        {
+
+			            if (js_LaunchGQ_DotNet.toUpperCase() == 'YES')
+
+				        {
+
+				            openWindow11("gqlogin.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&fjd=true&referer=&gqid=" + document.frmMassApply.GQID.value + "&jobinfo=__793797|1|0__&applycount=1&type=search_jobdetail");
+
+				        }
+
+				        else
+
+				        { 
+
+				            openWindow11("https://careers.timewarner.com/" + strLocale + "/asp/tg/GQLogin.asp?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&fjd=true&referer=&gqid=" + document.frmMassApply.GQID.value + "&jobinfo=__793797|1|0__&applycount=1&type=search_jobdetail&srcqs=");
+
+				        }
+
+			        }
+
+			        else
+
+			        {
+
+			            if(strSwitchSiteQS == '')
+
+				        {
+
+				            document.frmMassApply.action= "apply.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&src=jd&qs=partnerid%3d391%26siteid%3d36%26jobId%3d793797";
+
+				        }
+
+				        else
+
+				        {
+
+				            document.frmMassApply.action= "apply.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&src=jd&qs=";
+
+				        }
+
+				        document.frmMassApply.submit();
+
+			        }
+
+ 	            }
+
+ 	            else
+
+ 		        {
+
+ 			        document.frmMassApply.action = "apply.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==";
+
+			        document.frmMassApply.submit();
+
+ 		        }
+
+ 	        }
+
+        }
+
+        
+
+        //Send to friend email    
+
+        function sendToFriend()
+
+        {
+
+	        openWindowBySize2('about:blank?sessionid=7be7def111a82d4ab98461c117e91800327d', 450, 360);	        
+
+	        document.frmSendToFriend.submit();
+
+        }
+
+        
+
+        function socialNetworkReferral(button) {
+
+		  if (SR_READY == "yes")
+
+            LaunchSocialReferralMenu(button);
+
+        else {
+
+            document.frmSocialNetworkReferral.ButtonId.value = button.id;
+
+            openWindowBySize2('about:blank?sessionid=7be7def111a82d4ab98461c117e91800327d', 900, 720);
+
+            document.frmSocialNetworkReferral.submit();
+
+	        }
+
+		}
+
+        
+
+        
+
+        function showjob(lngNewSelection)
+
+	    {   		    
+
+		    document.frmJobDetail.action = "jobdetails.aspx?partnerid=391&amp;siteid=36&amp;jobId=793797";
+
+		    document.frmJobDetail.CurSel.value= lngNewSelection;
+
+		    document.frmJobDetail.submit();
+
+	    }
+
+        
+
+        function launchSocialMedia()
+
+	    {
+
+	        var lngSiteLocale = '1033';
+
+	        var jobSiteID = '36';
+
+	        var newLocaleId = getLocaleId(jobSiteID,'36,5144,5145,5243,5244,5384||1,23,34,52,27,90||1033,1031,1036,1040,3082,1046');
+
+	        var strSwitchSiteQS = '';
+
+	        
+
+
+
+	        if (newLocaleId == lngSiteLocale || newLocaleId == '')
+
+		    {
+
+			    openWindow1('about:blank?sessionid=7be7def111a82d4ab98461c117e91800327d');
+
+		        document.frmSocialMedia.submit();
+
+		    }
+
+		    else
+
+		    {
+
+		        alert(MSG_SocialMediaSiteSwitch);
+
+		        if(strSwitchSiteQS == '')
+
+		        {
+
+			        document.frmMassApply.action= "apply.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&src=jdsm&qs=partnerid%3d391%26siteid%3d36%26jobId%3d793797";
+
+			    }
+
+			    else
+
+			    {
+
+			        document.frmMassApply.action= "apply.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&src=jdsm&qs=";
+
+			    }
+
+			    document.frmMassApply.submit();
+
+		    }
+
+        }
+
+        
+
+        //Save to jobcart
+
+        function saveToJobCart()
+
+	    {
+
+		    var strTemp;
+
+		    var lIdx;
+
+		    var lLen;
+
+		    var arrSubInfo;
+
+
+
+		    if (document.frmJobDetail.jobcartcnt.value > 50)
+
+			    alert (MSG_cim_jobdetail_JobCart);
+
+		    else
+
+		    {
+
+			    document.frmSaveToCart.chkJobClientIds.value = ReplaceInString(document.frmSaveToCart.chkJobClientIds.value, "%%", "");
+
+			    arrSubInfo = document.frmSaveToCart.chkJobClientIds.value.split("|");		    
+
+
+
+			    if(arrSubInfo.length != 3)
+
+			    {
+
+				    strTemp =  arrSubInfo[0] + "|" + arrSubInfo[1];
+
+				    document.frmSaveToCart.chkJobClientIds.value = strTemp;
+
+			    }
+
+			    openWindow3('about:blank?sessionid=7be7def111a82d4ab98461c117e91800327d');
+
+			    document.frmSaveToCart.submit();
+
+		    }
+
+	    }
+
+	    function goToSearchPage()
+
+	    {	   
+
+		    document.frmSearch.submit();
+
+	    }
+
+	    
+
+	    //QC #197940
+
+	    function reload(sParam)
+
+	    {
+
+		if (typeof(sParam) != 'undefined') 
+
+		{
+
+			if (sParam == 'ApplyAsRegularJob')
+
+				ApplyAsRegularJob();
+
+			return;
+
+		}
+
+		var sGQId =  "0";
+
+		var arrGQId;
+
+		var iLen = 0;
+
+		if (sGQId == '' )
+
+		{
+
+			sGQId= document.frmJobDetail.JobInfo.value;
+
+			arrGQId = (sGQId.substring(2, sGQId.length - 2)).split("%%");
+
+			iLen = arrGQId.length;
+
+		}
+
+		
+
+		if ((iLen == 1) || (sGQId != ''))
+
+		{
+
+			 
+
+		document.frmJobDetail.target = "_self";
+
+		 
+
+		document.frmJobDetail.action = "Logout.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&gqclose=yes&crl=yes&Exit=^VPbBpv82eWbDhCwKzWDUrT6iCUhsWNOr+koga53E/lzXlNjlAug5wQQ9zAIHEB3h8MY31WF6yImrg3MfBPqXIKPCcmzA0IykWELm092vYMWN56jFCqIqBYPAPplngQPw5d4oT8a8x48GxtpGXaqcL6G9CSlaVR5e8mtbVD17aR9PZroHr6up/eRUSh08Dm3aaAHCAKymBWJuOnZSpEXHndnjgwqEAI7FtQCMJLZxP/tC9Rf9eSlNo6ebafY4vF+CwHywlxit0HJxBt+I6HD3QDexpO/vA7QF";
+
+		document.frmJobDetail.submit();
+
+		}
+
+	  }
+
+	  $(document).ready(function() {
+
+            
+
+            var n = "_Tools' href='logout.aspx?PartnerId=391&SiteId=36&exit=^pP/g/8E1Z0KyOvbXc0lpaOaNE/W30JqVHu5F6su/QzL1ElwyNVAJjkxhcubYWToQeFmsKcnn3A9DG4lxKxGaKEyuXXSOF668&pb=14041' aria-labelledby='Job_Seeker_____Tools imgcompleted0' title='Careers Home  Page' >Careers Home  Page_Tools' href='home.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&pb=14041' aria-labelledby='Job_Seeker_____Tools imgcompleted1' title='Job Seeker     Tools' >Job Seeker     ToolsSearch  openingsSearch  resultsCurrent pageJob  details &nbsp;&nbsp;)";
+
+            if (n.length <= 1)
+
+                $("#ctl00_ProgressBar").hide();
+
+             });
+
+    
+
+
+
+                
+
+        
+
+    var MSG_GEN_EntValdEmlAddr = "Please enter a valid e-mail address.\nDelete all the invalid characters, including spaces, from your e-mail address.";var MSG_GEN_PlsRmDblQut = "Please remove the  DOUBLE QUOTE (\")  you have entered.";var MSG_GEN_EnterVal = "Please enter a value for |QUESTION|";var MSG_GEN_EnterValidPassword = "Please enter a valid password.\nDelete all the invalid characters, including spaces, from your password.";var MSG_GEN_EnterValRange = "Please enter a value for |QUESTION| between |MIN| and |MAX|.";var MSG_GEN_EntValdPasswd = "Spaces are not allowed in the e-mail or in the password field. Please remove the spaces and try again.";var MSG_GEN_FromToDate = "The From date should be less than the To date.";var MSG_GEN_PlsDelPrdFrmBgnOfYrEmlAddr = "Please delete the period from the beginning of your e-mail address.";var MSG_GEN_PlsDelPrdFrmEndOfYrEmlAddr = "Please delete the period from the end of your e-mail address.";var MSG_GEN_PlsEntValdDate = "Please enter a valid date.";var MSG_GEN_PlsEntValdEmlAddr = "Please enter a valid e-mail address.";var MSG_GEN_PlsEntVldNumber = "Please enter a valid number.";var MSG_GEN_PlsEntVldSSN = "Please enter a valid SSN.";var MSG_GEN_SSNFormat = "The SSN should be in xxx-xx-xxxx format.";var MSG_GEN_UserNameInvalidChars = "The username must not include the following characters: ";var MSG_GEN_UserNameLen = "Please enter a valid username.";var MSG_GEN_UserNameLength = "The username must be less than 100 characters.";var MSG_GEN_UserNameSpaces = "The username must not include any spaces.";var MSG_TSV_EnterValidInputSearchFields = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_TSV_EnterValidInputText = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_TSV_EnterValidInputTextArea = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_InputValidationFail = "[QUESTION] requires a valid entry."; var MSG_RCF_LNPronunciation = "Last name pronunciation key: Please enter a value."; var MSG_RCF_FNPronunciation = "First name pronunciation key: Please enter a value."; var MSG_RCF_Valid_LNPronunciation = "Please enter a valid last name pronunciation key."; var MSG_RCF_Valid_FNPronunciation = "Please enter a valid first name pronunciation key."; var MSG_RCF_FirstName = "Please enter a first name."; var MSG_RCF_Valid_FirstName = "Please enter a valid first name."; var MSG_RCF_MiddleName = "Please enter a middle name."; var MSG_RCF_Valid_MiddleName = "Please enter a valid middle name."; var MSG_RCF_LastName = "Please enter a last name."; var MSG_RCF_Valid_LastName = "Please enter a valid last name."; var MSG_RCF_Address1 = "Please enter an address line 1."; var MSG_RCF_Address2 = "Please enter an address line 2."; var MSG_RCF_Country = "Please select a country name."; var MSG_RCF_City = "Please enter a city name."; var MSG_RCF_Valid_City = "Please enter a valid city name."; var MSG_RCF_State = "Please select a State/Region/Province."; var MSG_RCF_Zip = "Please enter a Zip/Postal code."; var MSG_RCF_HomePhone = "Please enter a home phone number."; var MSG_RCF_Valid_HomePhone = "Please enter a valid home phone number."; var MSG_RCF_WorkPhone = "Please enter a work phone number."; var MSG_RCF_Valid_WorkPhone = "Please enter a valid work phone number."; var MSG_RCF_CellPhone = "Please enter a phone number."; var MSG_RCF_Valid_CellPhone = "Please enter a valid phone number."; var MSG_RCF_Fax = "Please enter a fax number."; var MSG_RCF_Valid_Fax = "Please enter a valid fax number."; var MSG_RCF_Homepage = "Please enter a web address. Web addresses start with http:// or https://.";var MSG_SORTASCN = "Click to sort ascending";var MSG_SORTDSCN = " Click to sort descending";
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+-->
+
+
+
+
+
+    
+
+                      Time Warner Careers                                                        <!--                       div#ctl00_MainContent_GridFormatter_datatable{margin-top:-6px;}      .IN-widget{margin-bottom:5px;}      .fb_reset{margin-bottom:-6px;}      .twitter-share-button{margin-bottom:5px;}                                div#ctl00_MainContent_GridFormatter_datatable{margin-top:-5px;}                           /*--  WT#184136 --*/   div.subnav-login{   display:none;   }                      -->             $(document).ready(function(){    var curl = window.location.href.toLowerCase();        if(curl.indexOf("home.aspx")>=0 && $("div#ctl00_MainContent_divNonLoginUser").index()>=0){                               $("div#ctl00_MainContent_divNotUserAnonymous table:eq(0) td.BGBRANDINGdom1light").css({"background-color":"#f1f1f1", "border-top":"2px solid white"});     $("span#ctl00_MainContent_spnNonLoggedLoginText").parent().parent().prev().prev().css({"background-color":"#999999", "font-size":"12px"});     $("div#ctl00_MainContent_divNotUserAnonymous table tr:eq(0)").css({"background-color":"#999999", "font-size":"12px"});     $("div#ctl00_MainContent_divNotUserAnonymous table:eq(0)").attr({"cellspacing":"0", "cellpadding":"5px"});     $("div#ctl00_MainContent_divNotUserAnonymous table:eq(0)").css({"border":"1px solid #f1f1f1", "margin":"5px"});     $("span#ctl00_MainContent_spnForgotPassword").parent().parent().parent().parent().parent().prev().css("display", "none");     $("div#ctl00_MainContent_divNotUserAnonymous input").css({"width":"130px"});     $("div#ctl00_MainContent_divNotUserAnonymous select#Language").css({"width":"125px"});     $("#ctl00_MainContent_spnSocialMediaIcons").parent().css({"text-align":"center"});          var trs=$("div#ctl00_MainContent_divNotUserAnonymous table:eq(0) tr");     var trCount=0;     $.each(trs, function(){                                         if(trCount>=3 && trCount=0){       $("td#ctl00_MainContent_SAVE_AGENT_BUTTON1 input").addClass("REGbutton");      $("#ctl00_MainContent_button97, #ctl00_MainContent_button3, #ctl00_MainContent_button2, #ctl00_MainContent_button971, #ctl00_MainContent_button31, #ctl00_MainContent_button21, #ctl00_MainContent_button4, #ctl00_MainContent_button41").css({"white-space":"nowrap", "width":"170px", "background":"url('/img/images_391_036/images/twi/button_170.gif') no-repeat scroll 0 0 transparent"});       $("#ctl00_MainContent_button1, #ctl00_MainContent_button11").css({"white-space":"nowrap", "width":"200px", "background":"url('/img/images_391_036/images/twi/button_200.gif') no-repeat scroll 0 0 transparent"});    }        if(curl.indexOf("jobdetails.aspx")>=0 ){     $(".Fieldlabel").parent().next().attr({"width":"87%"});     $("button.REGbutton").parent().css({"padding-top":"15px"});          $("#button1").css({"white-space":"nowrap", "width":"150px", "background":"url('/img/images_391_036/images/twi/button_150.gif') no-repeat scroll 0 0 transparent"});     $("#button11").css({"white-space":"nowrap", "width":"150px", "background":"url('/img/images_391_036/images/twi/button_150.gif') no-repeat scroll 0 0 transparent"});     var button2=$("body").find('button#button2');     $("#button2").css({"white-space":"nowrap", "width":"150px", "background":"url('/img/images_391_036/images/twi/button_150.gif') no-repeat scroll 0 0 transparent"});     $("#button21").css({"white-space":"nowrap", "width":"150px", "background":"url('/img/images_391_036/images/twi/button_150.gif') no-repeat scroll 0 0 transparent"});     var button3=$("body").find('button#button3');     $("#button3").css({"white-space":"nowrap", "width":"150px", "background":"url('/img/images_391_036/images/twi/button_150.gif') no-repeat scroll 0 0 transparent"});     $("#button31").css({"white-space":"nowrap", "width":"150px", "background":"url('/img/images_391_036/images/twi/button_150.gif') no-repeat scroll 0 0 transparent"});       }                /*Removing underlines for links.*/      if(curl.indexOf("profiledetail.aspx")>=0){        $("div#ctl00_MainContent_phSocialNetworkingNonTab").css({"padding-bottom":"5px"});     $("#qa label").css({"font-weight":"normal"});          $(".EduExpBORDER .SMALLbutton, .EduExpBORDER .actions").parent().css({"text-align":"center"});     $(".EduExpBORDER .SMALLbutton, .EduExpBORDER .actions").click(function(){      $(this).parent().css({"text-align":"center"});     });    }        /*Over riding other than PAGETitle class elements except page headings & unbolding form labels.*/    if(curl.indexOf("attachform.aspx")>=0){     $(".PAGEtitle:gt(0)").css({"color":"#000000", "font-size":"12px", "font-family":"Arial, serif, sans-serif"});       $(".FORMlabel label").css({"font-weight":"normal"});     $("div[id*='questionContainer_']").css({"text-align":"left"});       }    /*Over riding other than PAGETitle class elements except page headings & unbolding form labels.*/    if(curl.indexOf("answerquestions.aspx")>=0){     $(".PAGEtitle:gt(0)").css({"color":"#000000", "font-size":"12px", "font-family":"Arial, serif, sans-serif"});       $(".FORMlabel label").css({"font-weight":"normal"});           }           /*Adjusting gap between page title and below the line.*/    if(curl.indexOf("profileprovider.aspx")>=0){     $(".h1Title, h1").css({"padding":"0px", "margin":"0px"});     $("div#ctl00_MainContent_phSocialNetworkingNonTab").css({"padding-bottom":"5px"});     $("#qa label").css({"font-weight":"normal"});    }         if(curl.indexOf("viewassessments.aspx")>=0 || curl.indexOf("tgeventmanager.aspx")>=0){     $("table#tblControl tr td table tr td table").eq(0).css({"width":"100%"});     $("body").css({"margin-top":"0px"});    }    if(curl.indexOf("agentmanager.aspx")>=0 ){     $("#ctl00_MainContent_btnCreateAgent, #ctl00_MainContent_button90, #ctl00_MainContent_button91").css({"background":"transparent url('/img/images_391_036/images/twi/button_230.gif') no-repeat scroll center top","width":"230px"});     $("#ctl00_MainContent_button99, #ctl00_MainContent_button98").css({"background":"transparent url('/img/images_391_036/images/twi/button_250.gif') no-repeat scroll center top","width":"250px"});        }    if(curl.indexOf("jobcart.aspx")>=0 ){     $("table[width='91%']").attr({"width":"100%"}); /* Pagetitle Table width*/     $(".LRGbutton").css({"background":"transparent url('/img/images_391_036/images/twi/button_200.gif') no-repeat scroll center top","width":"200px"});    }    if(curl.indexOf("defaultlogin.aspx")>=0 ){     $("input#email, input#password").css({"width":"250px", "border":"1px solid #7f9db9", "height":"18px"});     $("#ctl00_MainContent_LogIn").css({"white-space":"nowrap", "width":"130px", "background":"url('/img/images_391_036/images/twi/button_130.png') no-repeat scroll 0 0 transparent"});    }            /*=========================================== PREVIOUS CODE =================================================*/    setTimeout(function(){     $("div.hovertext").css({"max-width":"600px", "padding":"5px"});     $(".yui-skin-sam .yui-dt TABLE").attr({"cellspacing":"1"});          if(curl.indexOf("home.aspx")>=0){      /*Hiding Hidden Row Data Column at Featured Jobs Grid.*/      var columnIndex = $("table[summary*='Featured jobs'] thead tr th#yui-dt0-th-currentRowHiddenData").index();      var rowsArray = $("table[summary*='Featured jobs'] tbody.yui-dt-data tr");      $("table[summary*='Featured jobs'] thead tr th#yui-dt0-th-currentRowHiddenData").hide();      $.each(rowsArray, function(){       $(this).find("td:eq("+columnIndex+")").hide();      });      }          if(curl.indexOf("searchresults.aspx")>=0){      /*Hiding Hidden Row Data Column at Featured Jobs Grid.*/      var columnIndex = $("table[summary*='Search results'] thead tr th#yui-dt0-th-currentRowHiddenData").index();      var rowsArray = $("table[summary*='Search results'] tbody.yui-dt-data tr");      $("table[summary*='Search results'] thead tr th#yui-dt0-th-currentRowHiddenData").hide();      $.each(rowsArray, function(){       $(this).find("td:eq("+columnIndex+")").hide();      });      }    },1000);    /*=========================================== PREVIOUS CODE =================================================*/   });                $(document).ready(function(){     var curl = window.location.href.toLowerCase();     /*--PLEASE DO NOT DELETE - Script to hide Recruiter field on Job details page - WT# 166178*/     if(curl.indexOf("jobdetails.aspx")>=0){      $("span#Recruiter, span#Recruteur RH, span#HR Manager, span#Specialista selezione, span#Recrutador, span#Selector de personal").parent().parent().css({"display":"none"});     }     /*--PLEASE DO NOT DELETE - Script to hide Recruiter field on Job details page - WT# 166178*/    });                                                            Company                          About Us              Management              Operating Divisions              Corporate Governance              Corporate Responsibility              TW Investments                         Global Media Group                Strategy                                                      Investor Relations                                                Newsroom                                      Press Releases              Press Contacts              Media &amp; Identity Materials                                                    Blog                                         Careers                          Working With Us              Areas of Operation              Search For Jobs                                                          Facebook link              Twitter link              Youtube link              Instagram link                                                                                                                                                                   Company                                                  Investor Relations                                                  Newsroom                                                  Careers                                                  Blog                                                                                                                                              Working With Us                          Why Time Warner              Benefits              Career Development              Diversity              Going Green              Our Stories              Stay Connected                                            Areas of Operation                          Our Divisions              Job Spotlight              Industries              Interests              Internships              Locations                                                        Search For Jobs                                Login to access your profile or create a new account.                                                         &nbsp;?
+
+
+
+        
+
+        _Tools' href='logout.aspx?PartnerId=391&SiteId=36&exit=^pP/g/8E1Z0KyOvbXc0lpaOaNE/W30JqVHu5F6su/QzL1ElwyNVAJjkxhcubYWToQeFmsKcnn3A9DG4lxKxGaKEyuXXSOF668&pb=14041' aria-labelledby='Job_Seeker_____Tools imgcompleted0' title='Careers Home  Page' >Careers Home  Page_Tools' href='home.aspx?SID=^y1ehk30nb54C10uOw2qpyYRl1UBreLyde5jVbe/gEauUi1x9kLA2nQ==&pb=14041' aria-labelledby='Job_Seeker_____Tools imgcompleted1' title='Job Seeker     Tools' >Job Seeker     ToolsSearch  openingsSearch  resultsCurrent pageJob  details &nbsp;&nbsp;
+
+        
+
+            
+
+Job detailsTweetJob 1 of 1    Submit to job &nbsp;&nbsp;Send to friend &nbsp;&nbsp;Save to cart &nbsp;&nbsp; &nbsp;&nbsp;    Posting Job Title  Analyst, Research   Time Warner  Division  Turner   Business Unit_TBS  CORPO 	  Industry AdvertisingCable/Broadcast Television NetworksGames – Development & PublishingOnline Content/Services	   Area of Interest  Research   Location  United States - New York - New York   Requisition #  160576BR   Position Type  Full Time   Posting Job Description  This is our storyWe are the now and the next. The power behind the people building the future. We are born from the spirit of innovation. We are created from the idea that people around the world want more, need more, deserve more. We are the home of the global digital revolution. We are CNN.What part will you play?Under the Manager of CNN Brand and Multiplatform Research, the Analyst will be responsible for helping tell CNN's Global reach story based on: usage & perception of our brand and competitors across the various platforms (TV, digital, mobile and social)Optimizing how the different CNN platforms work in combination by monitoring performance data, and giving feedback on internal business strategiesHarnessing the power of social media by evaluating CNN's growth on Facebook, Snapchat, and other platforms for trends What will you be doing? &nbsp;Play a role in CNN's primary brand research, which include focus groups, surveys, and in-depth interviews Support clients in PR, Program & Content Strategy and other areas to help them tell success stories around CNN programs Create and update multi-platform analytics templates for CNN programs Create tracking and be the point person for collaboration in cross-team special-events reports Update and organize digital performance trackers to monitor CNN product performance Get exposure to CNN's primary brand research by communicating with research vendors and clientsAttending focus group and in-depth interview sessions; and keeping the team organized on primary documents, trackers, and key dates Support client relationships by addressing ad hoc questions related to CNNgo, CNN social, and off-platform performance of CNN products Work with the Program & Content Strategy team to evaluate program and event performance on CNNgo, CNN's news- and series-streaming service, which is available on Web and various streaming apps Maintain highest data standards with our clients and continually work to improve learnings from emerging products that develop Stay informed of news landscape by monitoring product and competitor news and sharing findings with the team&nbsp;What do we need from you?1-2 years of media research experienceExperience in an adjacent field such as advertising or marketing Bachelor's degree required with communications, media, marketing or mathematics degree preferred Exposure to TV and digital data, including Nielsen NPM, comScore, Omniture Strong MS Office skills, particularly Excel, is a plus Familiarity with PowerPoint, Pivot Tables and Macros, is a plus Interest in news, politics and news brands Ability to multitask and work well under pressure Demonstrates the ability to collaborate, meet deadlines, and produce accurate, detailed results But wait, there’s more!Paid time off every year to volunteer2015 Best Company for&nbsp;Working&nbsp;MothersAn in-house&nbsp;learning and development team&nbsp;to help shape and grow your careerPart of the Time Warner family of powerhouse brands like HBO, Cartoon Network, Adult Swim, TNT, and TBSSee what it’s like to work at CNN! Follow us on Instagram, Twitter and Facebook.Turner Broadcasting System, Inc. and its subsidiaries are Equal Opportunity Employers and E-Verify users. Qualified applicants will receive consideration for employment without regard to race, color, religion, sex, national origin, sexual orientation, gender identity, disability, or protected veteran status.&nbsp;     Submit to job &nbsp;&nbsp;Send to friend &nbsp;&nbsp;Save to cart &nbsp;&nbsp; &nbsp;&nbsp;  
+
+     
+
+	    	    
+
+        
+
+    
+
+                var curl = window.location.href.toLowerCase();     if(curl.indexOf("communicationhistory.aspx")>=0){      document.write("");     }                                                                             Disclamer              Help              International Privacy Policies                                                                                                       Legal and Privacy              Caution Concerning Forward-Looking Statements              Sitemap              Contact Us              Shop                        © Time Warner 2014. All Rights Reserved.                                           .wrapper, .site-nav-container {      padding-left: 16px;      padding-right: 16px;  }  		  
+
+ 
+
+ 
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,398 @@
+
+
+
+
+    
+
+		
+
+        
+
+            Job Opportunities
+
+        
+
+		
+
+			
+
+			
+
+		
+
+		
+
+    	/* keeps popup on top */
+
+	  	function checkPopup()
+
+	  	{
+
+	    	try
+
+	    	{
+
+	      		if (newwindow != null && !newwindow.closed)
+
+	      		{
+
+		      		newwindow.focus();
+
+	      		}
+
+	    	}
+
+	    	catch(e)
+
+	    	{
+
+  	
+
+    		}
+
+	  	}
+
+  		
+
+	
+
+    
+
+    
+
+        
+
+            
+
+                It has been determined that you are currently running a &quot;Popup Blocker&quot;. In order to continue, please allow this site from within your &quot;Popup
+
+                Blocker&quot; preferences.
+
+            
+
+        
+
+
+
+	function toggleElement(element)
+
+	{
+
+		if(document.getElementById(element).style.display == 'none')
+
+		{
+
+	   		document.getElementById(element).style.display = '';
+
+	 	}
+
+	 	else if(document.getElementById(element).style.display != 'none')
+
+		{
+
+	   		document.getElementById(element).style.display = 'none';
+
+	 	}
+
+	}
+
+
+
+
+
+
+
+//
+
+
+
+
+
+
+
+  
+
+	  
+
+		  
+
+      
+
+		
+
+	
+
+
+
+  
+
+  
+
+  
+
+	  
+
+		  Send this job to a friend
+
+		
+
+  
+
+
+
+  
+
+    
+
+      
+
+      	DATA ANALYST
+
+			
+
+	  
+
+    
+
+      Department:
+
+      PATIENT CENTER MEDICAL HOME
+
+    
+
+    
+
+    
+
+      Schedule:
+
+      Full Time
+
+    
+
+    
+
+      Shift:
+
+      Day Shift
+
+    
+
+    
+
+      Hours:
+
+      40
+
+    
+
+    
+
+    
+
+		  Job Details:
+
+      
+
+        
+
+		    
+
+			    JOB DESCRIPTION: A position responsible for creating actionable and regular reporting to support the South Georgia Primary Care Network, the Patient Centered Medical Home and CareAlliance Quality Improvement initiatives through data collection and analytics .This position has a shared responsibility for the successful use of Disease Registries, pre-visit chart review process, patient self-support plans and the system-wide coordination of care.QUALIFICATIONS:Bachelor's degree in a healthcare related field or equivalent experience with an emphasis on health care system analysis preferredExperience with an electronic health record preferredSkilled in use of Information TechnologyProficiency in Microsoft Office products- especially Excel and Access (required)Proficient in using analytical toolsDemonstrate organizational and multi-tasking skillsStrong interpersonal and presentation skills (required)Participation in various committees and work groupsExperience working directly with primary care practices is highly preferred. 
+
+		    
+
+				
+
+	    
+
+    
+
+  
+
+  
+
+
+
+            
+
+            
+
+            
+
+                Click Here to Apply Online
+
+            
+
+            
+
+        
+
+        
+
+        
+
+        
+
+         &nbsp;
+
+            
+
+                Are you a current employee of Tift Regional Health System?
+
+                
+
+                    
+
+                        Yes
+
+                    
+
+                    
+
+                        No
+
+                    
+
+                    
+
+                
+
+            
+
+        
+
+
+
+
+
+        
+
+            Internal Application Confirm
+
+            
+
+                Are you a current employee of Tift Regional Health System?
+
+                
+
+                    
+
+                        Yes
+
+                    
+
+                    
+
+                        No
+
+                    
+
+                    
+
+                
+
+            
+
+        
+
+
+
+	
+
+
+
+
+
+
+
+
+
+  
+
+	  
+
+    
+
+	
+
+
+
+
+
+
+
+
+
+  back to top
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+  	
+
+		
+
+		
+
+			
+
+			
+
+			
+
+				var urlFusebox = "https://www.healthcaresource.com/tiftregional/index.cfm";
+
+
+
+				var intservergroupid = "4000";
+
+
+
+				var intapplicationid = "2004";
+
+
+
+			
+
+			var struserlogin = 'anonymous';
+
+			var struserlogin_hcs = '';
+
+			var blnimpersonation = 'no';
+
+			var struseremail = '';
+
+			var strpm10role = '';
+
+			
+
+			
+
+			
+
+			try {
+
+				sendToPendo(urlFusebox,intservergroupid,intapplicationid,struserlogin,struserlogin_hcs,blnimpersonation,struseremail,strpm10role);	
+
+			}
+
+			catch (e) {
+
+				console.log(e);
+
+			}
+
+		
+
+	

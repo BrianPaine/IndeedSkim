@@ -1,0 +1,996 @@
+
+
+
+
+
+
+    -->
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+
+
+    Data Analyst - Grow Op Farms, llc
+
+    
+
+        * {
+
+            -webkit-box-sizing: border-box;
+
+            -moz-box-sizing: border-box;
+
+            box-sizing: border-box;
+
+        }
+
+
+
+        html {
+
+            font-family: 'Montserrat', sans-serif;
+
+            -ms-text-size-adjust: 100%;
+
+            -webkit-text-size-adjust: 100%;
+
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+        }
+
+
+
+        body, html {
+
+            font-family: 'Montserrat', sans-serif;
+
+            font-size: 14px;
+
+            line-height: 1.42857143;
+
+            background-color:#262626;
+
+            color: #333333;
+
+            padding: 0;
+
+            margin: 0;
+
+        }
+
+
+
+        a img {
+
+            border: none;
+
+        }
+
+
+
+        #outside {
+
+            text-align: left;
+
+            position: relative;
+
+        }
+
+
+
+        #header {
+
+            text-align: center;
+
+            position: relative;
+
+            height: 135px;
+
+            background-color:#262626;
+
+        }
+
+
+
+        ul.topnav {
+
+            list-style-type: none;
+
+            margin: 0;
+
+            padding: 0;
+
+            overflow: hidden;
+
+        }
+
+
+
+            ul.topnav li {
+
+                float: left;
+
+                margin-left: 45px;
+
+            }
+
+
+
+        ul.topnav li a {
+
+            background-color: transparent;
+
+            color: #FFFFFF;
+
+            text-align: center;
+
+            font-family: 'Montserrat', sans-serif;
+
+            font-weight: 400;
+
+            line-height:40px;
+
+            text-decoration:none;
+
+        }
+
+
+
+        ul.topnav li a:hover {
+
+            border-bottom-style: solid;
+
+            border-bottom-color: #009547;
+
+            border-bottom-width: 0px 0px 2px;
+
+        }
+
+
+
+
+
+
+
+
+
+        ul.topnav li.icon {
+
+            display: none;
+
+        }
+
+
+
+        @media (max-width: 768px) {
+
+            ul.topnav li:not(:first-child) {
+
+                display: none;
+
+            }
+
+
+
+            ul.topnav li.icon {
+
+                float: right;
+
+                display: inline-block;
+
+            }
+
+
+
+            ul.social, ul.mini-nav {
+
+                display: none;
+
+            }
+
+        }
+
+
+
+        @media (max-width: 768px) {
+
+            ul.topnav.responsive {
+
+                position: relative;
+
+            }
+
+
+
+                ul.topnav.responsive li.icon {
+
+                    position: absolute;
+
+                    right: 0;
+
+                    top: 0;
+
+                }
+
+
+
+                ul.topnav.responsive li {
+
+                    float: none;
+
+                    display: inline;
+
+                }
+
+
+
+                    ul.topnav.responsive li a {
+
+                        display: block;
+
+                        text-align: left;
+
+                    }
+
+        }
+
+
+
+        #contentouter {
+
+            padding: 16px;
+
+            background-color: white;
+
+        }
+
+
+
+        #content {
+
+            clear: both;
+
+        }
+
+
+
+        #inner_footer {
+
+            background-color: #262626;
+
+            text-align: center;
+
+            color: #444;
+
+            padding-top: 15px;
+
+            padding-bottom: 10px;
+
+            font-size: 10px;
+
+            height: 120px;
+
+        }
+
+
+
+            #inner_footer a {
+
+                color: #444;
+
+                text-decoration: none;
+
+            }
+
+
+
+        @media (max-width: 768px) {
+
+            body, html {
+
+                padding: 0 !important;
+
+                background-color: #fff !important;
+
+            }
+
+
+
+            #outside {
+
+                margin: 0 !important;
+
+                width: auto !important;
+
+            }
+
+
+
+            #contentouter {
+
+                border: 0;
+
+            }
+
+        }
+
+    
+
+    
+
+        function toggleMenu() {
+
+            document.getElementsByClassName("topnav")[0].classList.toggle("responsive");
+
+        }
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        #contentouter {
+
+            border: 0;
+
+        }
+
+
+
+        #outside {
+
+            border: 0;
+
+        }
+
+
+
+        body {
+
+            background-color: white;
+
+        }
+
+    
+
+    
+
+        /*** Start Client Styles ***/
+
+
+
+        /* Use these styles for full width headers */
+
+        #contentouter, #header, #innerfooterwrapper {
+
+            max-width: 1246px;
+
+            margin: 0 auto;
+
+        }
+
+
+
+        ul.topnav {
+
+            font-family:'Montserrat';
+
+            font-size: 17px;
+
+            font-weight: bold;
+
+        }
+
+
+
+        .errormsg {
+
+            background-color: transparent;
+
+            padding: 4px 8px;
+
+            margin-bottom: 10px;
+
+            text-align: center;
+
+            font-weight: bold;
+
+            color: red;
+
+        }
+
+
+
+            .errormsg li {
+
+                padding-bottom: 3px;
+
+                color: black;
+
+                font-weight: normal;
+
+            }
+
+
+
+        @media only screen and (max-width: 450px) {
+
+            body {
+
+                background-color: #fff !important;
+
+            }
+
+
+
+            .as_mobile_body {
+
+                font-size: 14px !important;
+
+            }
+
+
+
+            .as_outer {
+
+                background-color: transparent !important;
+
+            }
+
+
+
+            .buttons a {
+
+                font-size: 14px !important;
+
+                padding: 7px 50px;
+
+                margin: auto;
+
+            }
+
+
+
+            .buttons {
+
+                font-size: 14px !important;
+
+            }
+
+        }
+
+
+
+        #pagetitle {
+
+            padding-top: 25px;
+
+            width: 1140px;
+
+            margin-left: auto;
+
+            margin-right: auto;
+
+            font-size: 23px;
+
+            color: white;
+
+            text-shadow: 1px 1px 3px #444;
+
+        }
+
+
+
+        #copyrightstripe {
+
+            height: 108px;
+
+            background-color: #262626;
+
+        }
+
+
+
+        #copyright {
+
+            padding-top: 50px;
+
+            float: left;
+
+            color: white;
+
+        }
+
+
+
+        #copyright a {
+
+            text-decoration:none;
+
+            color: white;
+
+        }
+
+
+
+
+
+        #footersocial {
+
+            padding-top: 50px;
+
+            float: right;
+
+        }
+
+
+
+        #copyrightstripewrapper {
+
+            margin-left: auto;
+
+            margin-right: auto;
+
+            width: 1140px;
+
+        }
+
+
+
+        #topbar {
+
+            height: 35px;
+
+            background-color: white;
+
+            border-bottom-color: #e8e8e8;
+
+            border-bottom-width: 2px;
+
+            border-bottom-style: solid;
+
+        }
+
+
+
+        #logo {
+
+            height: 104px;
+
+            width: 231px;
+
+            background-image: url(http://www2.applicantstack.com/userdata/growop/lgog-white2.png);
+
+        }
+
+
+
+        #headerleft {
+
+            float: left;
+
+            height: 147px;
+
+            width: 300px;
+
+        }
+
+
+
+        #headerright {
+
+            float: right;
+
+            height: 147px;
+
+            width: 939px;
+
+        }
+
+
+
+        #topnavwrapper {
+
+            padding-top:100px;
+
+            margin-right:100px;
+
+            height: 40px;
+
+            width: 929px;
+
+            float: left;
+
+        }
+
+
+
+        #topmenu {
+
+            padding-top: 10px;
+
+            font-size: 12px;
+
+            color: #999999;
+
+            height: 33px;
+
+            width: 420px;
+
+            background-color: white;
+
+        }
+
+
+
+            #topmenu a {
+
+                text-decoration: none;
+
+                color: #999999;
+
+            }
+
+
+
+                #topmenu a:hover {
+
+                    text-decoration: none;
+
+                    color: #006fb5;
+
+                }
+
+
+
+                #topmenu a:visited {
+
+                    text-decoration: none;
+
+                }
+
+
+
+        .fa-twitter, .fa-linkedin, .fa-facebook, .fa-rss {
+
+            color: #818181;
+
+            padding-right: 4px;
+
+        }
+
+
+
+        #contenttitle {
+
+            font-size: 20px;
+
+            color: #009547;
+
+        }
+
+
+
+        .displaytable th, .sectionhead, .formtable div.sectionhead {
+
+            background-color: #42732e;
+
+            color: white !important;
+
+            padding-left: 6px;
+
+            border: none;
+
+
+
+        }
+
+
+
+        #ascontainer .buttons button, #ascontainer .buttons a {
+
+            background-color: #42732e;
+
+            border: none;
+
+        }
+
+
+
+        .buttons a {
+
+            font-size: 14px !important;
+
+            padding: 8px 8px 8px 8px;
+
+            margin: auto;
+
+            color: white !important;
+
+            text-decoration: none;
+
+            border-radius: 3px;
+
+        }
+
+
+
+        .buttons {
+
+            font-size: 14px !important;
+
+            padding: 8px 8px 8px 8px;
+
+        }
+
+
+
+        #asbreadcrumbs  {
+
+            font-size:14px;
+
+            font-family:'Montserrat'
+
+        }
+
+
+
+        /*** End Client Styles ***/
+
+    
+
+
+
+
+
+    
+
+        
+
+
+
+            
+
+
+
+                
+
+                    
+
+                
+
+
+
+                
+
+
+
+                    
+
+                        
+
+                            Home
+
+                            About
+
+                            Facility
+
+                            Strains
+
+                            Gear
+
+                            Partners
+
+                            Contact
+
+                            Team Panda
+
+                            &#9776;
+
+                        
+
+                    
+
+                
+
+
+
+            
+
+
+
+            
+
+                
+
+                    
+
+                        
+
+                        
+
+                            
+
+	// Load jQuery if not defined or less than version 1.9.1 (required by bootstrap)
+
+	var jquery_is_loaded = true;
+
+	if (typeof jQuery === 'undefined') {
+
+		jquery_is_loaded = false;
+
+	}
+
+	else{
+
+		var jquery_version = jQuery.fn.jquery.split(' ')[0].split('.');
+
+		if ((jquery_version[0] < 2 && jquery_version[1] < 9) || (jquery_version[0] == 1 && jquery_version[1] == 9 && jquery_version[2] < 1)) {
+
+			jquery_is_loaded = false;
+
+		}
+
+	}
+
+	if(!jquery_is_loaded){
+
+		load_script('https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js');
+
+	}
+
+	
+
+	// Load bootstrap if not loaded
+
+	if (typeof $.fn.popover != 'function'){
+
+		load_script('https://www2.applicantstack.com/links/bootstrap/all/js/bootstrap.js');
+
+		load_link('https://www2.applicantstack.com/links/bootstrap/all/css/bootstrap.css');
+
+		load_link('https://www2.applicantstack.com/links/bootstrap/all/css/bootstrap-theme.css');
+
+	}
+
+	
+
+	function load_script(src){
+
+		var h = document.getElementsByTagName('head')[0];
+
+		var e = document.createElement('script');
+
+		e.src = src;
+
+		h.appendChild(e);
+
+	}
+
+	function load_link(href){
+
+		var h = document.getElementsByTagName('head')[0];
+
+		var e = document.createElement('link');
+
+		e.rel = 'stylesheet';
+
+		e.type = 'text/css';
+
+		e.href = href;
+
+		h.appendChild(e);
+
+	}
+
+Job Openings &gt;&gt; Data AnalystData AnalystSummaryTitle:Data AnalystID:1087Department:SalesSalary Range:$11/hrDescriptionGrow Op Farms, the leading I-502 producer by volume of top-shelf cannabis in the state of Washington is hiring a Data Analyst for their Spokane location. This position is responsible for the evaluation of sales data, and with that data helping to identify trends, patterns, and areas of opportunity for our sales team. This position is expected to support and adhere to Grow Op Code of Ethics and Business Standards.
+
+
+
+Responsibilities
+
+
+
+	Evaluates client account information (purchases, past order history).
+
+	Analyzes market data.
+
+	Identifies current inventory.
+
+	Recommends future orders and sales.
+
+	Partners with clients on their sales orders.
+
+	Performs all other duties/responsibilities as necessary or assigned.
+
+
+
+Qualifications
+
+
+
+
+
+	to perform this job successfully, an individual must have:
+
+	a High School Diploma or a General Education Degree or an equivalent combination of education and experience.
+
+	Advanced knowledge of spreadsheets, including proficiency in Microsoft Offices products (i.e. Word and Excel) and Google Drive (i.e. Docs and Sheets).
+
+	Previous experience with data analysis preferred.
+
+
+
+&nbsp;&nbsp;Apply Now&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refer to a Friend&nbsp;&nbsp;
+
+                        
+
+                    
+
+                
+
+            
+
+
+
+            
+
+
+
+            
+
+                
+
+                    
+
+                        Powered by ApplicantStack&trade; Hiring Software
+
+                    
+
+
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+

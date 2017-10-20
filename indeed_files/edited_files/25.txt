@@ -1,0 +1,269 @@
+
+
+                                                                                            
+    
+    
+                        
+        
+        
+        Goji Careers - Data Analyst
+                    
+            
+                                        
+                                            
+                
+            
+                                        
+        
+                        
+        
+
+        
+        
+        
+        
+                                
+                
+            
+        
+                
+    
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            var enableTracking = true;
+            var trackerId = "UA-15090121-1";
+            var pageTracker = _gat._getTracker("UA-15090121-1");
+        } catch(err) {}
+    
+    
+
+    function trackPage() {
+        try {
+            if (enableTracking && enableTracking == true) {//enableTracking var is set during analytics script reg.
+                var pageTracker = _gat._getTracker(trackerId);
+                var varIndex = 1;
+                try {
+                pageTracker._setCustomVar(varIndex++, "UserId", getUserId(), 1);
+                pageTracker._setCustomVar(varIndex++, "CompanyId", getCompanyId(), 1);
+                }//to track pages which does not have a User
+                catch (userIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "SubsidiaryId", getSubsidiaryId(), 1);
+                } //to track pages which does not have a subsidiaryId
+                catch (subsidiaryIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "JobId", getJobId(), 3);
+                    pageTracker._setCustomVar(varIndex++, "CategoryId", getCategoryId(), 3);
+                }//to track pages which does not have a jobref
+                catch (jodIdError) {
+                }
+                if (enableAnonymizeIP && enableAnonymizeIP == true) {
+                    _gat._anonymizeIp();
+                }
+
+                pageTracker._trackPageview();
+            }
+        }
+        catch (error) {
+
+        }
+    }
+
+
+    function getUserId() { return ''; }
+
+
+    function getCompanyId() { return 'qSu9Vfwa'; }
+
+    
+        function getJobId() { return 'oZm96fwk'; }
+    
+    
+        function getCategoryId() { return '4'; }
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+
+
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            enableTracking = true;
+            trackerId = "UA-41923196-1";
+            pageTracker = _gat._getTracker("UA-41923196-1");
+        } catch(err) {}
+    
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+        
+            if (window.self !== window.parent) {
+                document.documentElement.className += ' jv-iframe';
+            }
+        
+        
+    
+        
+                    
+        
+                            
+                            
+        
+            
+                                    
+                                                    Goji Careers                                            
+                            
+        
+                
+                        
+    
+                    
+                                
+                Data Analyst
+    
+    
+                                        
+                            Analytics            
+                    Boston,
+                            Massachusetts
+                
+                        
+        
+    
+                        
+                        
+    
+        Apply
+    
+                            
+                        
+            Description
+                        
+                Job Title:&nbsp;Data AnalystDepartment:&nbsp;Analytics Reports to:&nbsp;VP of Product and Analytics Location: Boston, MA FLSA/Tax Status: Non-Exempt/Full Time&nbsp;Job Summary:Insurance is a complex product that everyone needs but few understand. At Goji, our mission is to deliver something that consumers aren&rsquo;t getting anywhere else &ndash; clarity and peace of mind. In a market that bombards consumers with gimmicky ways to save, we provide consumers an easy way to comparison shop top brands. By combining human expertise with smart technology, Goji has helped over 700,000 people make better, more informed decisions. As a result, we have grown quickly to become one of the largest independent, online insurance agencies in the country. &nbsp;Business intelligence, data analytics and technology innovation are at the core of what differentiates us in a large industry that is ripe for disruption. We have built a vast database of proprietary and third-party information that we are leveraging to optimize every part of our business &ndash; including marketing, sales, customer service and finance. Thus, we are looking for a Data Analyst who can add some mental horsepower to solve complex problems, including: &nbsp;End-to-end reporting and business intelligence infrastructure to improve existing business processes and support the launch of new projects Robust customer lifetime models that can identify key drivers of lifetime value of a customer (LTV) and cost of acquiring a customer (CAC) Regression testing new sales and marketing strategies to determine/maximize return on investment (ROI)Lead scoring system to optimize across the thousands of leads that we generate/acquire each day &nbsp;Data Analyst Job Responsibilities:Build automated reports/dashboards to share results with the team on periodic basis (daily, weekly, monthly, quarterly and annually)Combine, filter and reconcile data from multiple sources into new tables/views for reporting; Support building of basic ETLs if necessary  Build SQL views and run complex queries for reporting and business intelligenceHelp build and maintain key performance indicators (for operational and financial dashboards)Analyze large data sets using statistical techniques to identify trends or patterns Assist in building and maintaining models, analyses and reports for management and investors Assist in database administration and designWork closely with business stakeholders to prioritize, plan and implement their information and analytics needs Retrospect and identify new process improvement opportunities to take the team to the next level&nbsp;Required Job Qualifications:BS in Mathematics, Statistics, Economics, Information Management or Business AdministrationStrong analytical skills with the ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracyProficiency and extensive experience with SQL Passion for rigorous analytical techniques and for connecting analytics to business ROI (i.e. not just what the data shows but why it&rsquo;s important and what the next steps should be)Knowledge of statistics and experience using tools for analyzing and reporting a plus (for example, Periscope, Excel, R, SPSS/SAS)Knowledge of a scripting programming language like Python a plus Great communication skills, including ability to explain technical concepts/ideas in front of both technical and non-technical peopleAbility to work both collaboratively as part of a team and independently to dive deep and solve tough problems Propensity to seek out, accept and integrate feedback professionallySelf-motivated, quick/continuous learner with a passion for innovation&nbsp;If you are interested in applying for this position, please email your resume to andrew.griffin@goji.com&nbsp;
+            
+                            
+                    
+                
+                    
+    
+        Apply
+    
+                            
+        Apply Later    
+            
+        
+            &larr; Back to Current Openings        
+    
+    
+                                
+    
+        
+        Share
+        
+            
+                lang: en_US            
+            
+            
+                
+                    LinkedIn
+                
+            
+            
+                
+                    Facebook
+                
+            
+            
+                
+                    Twitter
+                
+            
+            
+                
+                    Email
+                
+            
+        
+    
+                    
+                                        
+            
+                Similar Jobs
+                                                        
+                    
+                        
+                            
+                                
+                                    {{ job.title }}
+                                
+                            
+                        
+                    
+                
+            
+            
+                
+    
+                    
+            
+                    
+        
+            
+                                                                        
+                    
+                        Powered by Jobvite
+                            
+        
+    
+            
+    
+        
+        
+    
+            
+    
+    
+        angular.module('preloadedData', []).constant('preloadedData', {
+                                        applyLinkUrl: '${job.applyLinkUrl}',
+                jobCategoryId: 'aqV9Vfw9',
+                jobCategoryName: 'Analytics',
+                jobId: 'oZm96fwk',
+                jobReqId: '267                                               ',
+                jobTitle: 'Data Analyst',
+                jobLocationId: 'C67jVfwb',
+                                                                jobviteAnalytics: 'UA-15090121-1',
+                                        companyAnalytics: 'UA-41923196-1',
+                                                                                                    enableRecommendedJobs: true,
+                                                    enableResumeParsing: true,
+                                        numberFormat: "##,###,###,###,###.####",
+                                    companyEId: 'qSu9Vfwa',
+            linkedInApiKey: '7557fkcarvxieo',
+            facebookApiId: '48354194572',
+            dropBoxApiKey: 'w5fg28zznqcyg4w',
+            baseUrl: '/goji',
+            cdnURL: '',
+            releaseVersion: '171003110732',
+            careersiteName: 'goji',
+            careersiteDomainName: '${careersiteDomainName}',
+            careersiteSourceTypeId: 'PQEOWfwY'
+        }).constant('i18n', {
+            I18N_RESUME_PREVIEW: 'Resume Preview',I18N_NO_RESUME_FOUND: 'No resume found',I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',I18N_RECOMMENDER: 'Recommender:',I18N_CURRENT: 'Current',I18N_PAST: 'Past',I18N_EDUCATION: 'Education',I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',I18N_PATENTS: 'Patents',I18N_SUMMARY: 'Summary',I18N_SPECIALTIES: 'Specialties',I18N_EXPERIENCE: 'Experience',I18N_RECOMMENDATIONS: 'Recommendations',I18N_PRESENT: 'Present',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec'        });
+        Jobvite = {
+            baseUrl: 'https://app.jobvite.com'
+        }
+    
+                    
+    
+
+    

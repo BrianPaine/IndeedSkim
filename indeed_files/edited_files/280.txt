@@ -1,0 +1,1598 @@
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+<!--
+
+
+
+
+
+	Business Intelligence Analyst	 - Careers@GKN
+
+
+
+         
+
+        
+
+    
+
+        
+
+        
+
+        
+
+            (function (i, s, o, g, r, a, m) {
+
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function ()
+
+                { (i[r].q = i[r].q || []).push(arguments) }
+
+        , i[r].l = 1 * new Date(); a = s.createElement(o),
+
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-48084654-2', 'auto');
+
+            ga('send', 'pageview');
+
+        
+
+    
+
+        
+
+        
+
+	
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+ var code='L4wgFDMKIbzZc05vTOgQ3A%3d%3d';
+ var weburl='/WebServices/ClientService.asmx/SendErrorNotification';
+function OnJSError(errorMsg, url, lineNumber){var ErrorMSG = 'There is a javascript error on the page.\n';
+ErrorMSG += 'Line Number:' + lineNumber + '\n';
+ErrorMSG += 'Original Error Msg:' + errorMsg + '\n';
+ ErrorMSG += 'URL:' + url + '\n';
+JSErrorHandler(weburl,code,ErrorMSG);
+
+
+return false;
+}
+window.onerror = OnJSError;
+
+
+
+
+
+
+    
+
+	
+
+
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+
+
+    
+
+	
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+        
+
+            
+
+            
+
+
+
+                
+
+                    
+
+                        GKN Logo
+
+		                
+
+		                
+
+	                
+
+                
+
+
+
+                
+
+                    
+
+                    
+
+                 
+
+                
+
+               
+
+
+
+
+
+
+
+    
+
+	  
+
+        
+
+            
+
+                My GKN Careers Profile Profile
+
+            
+
+             
+
+                 
+
+                     
+
+		
+
+                            
+
+                                
+
+                                    
+
+
+
+
+
+
+
+			
+
+
+
+    
+
+
+
+        
+
+            Login
+
+        
+
+    
+
+        
+
+				
+
+        
+
+            
+
+					
+
+                
+
+                    function LoginControlValidate() {
+
+
+
+                        $Eploy(".js-its-c-login-input").each(function (e) {
+
+                            if (!$Eploy(this).val() == "") {
+
+                                $Eploy(this).removeClass("its-c-login__input--error");
+
+                            } else {
+
+                                $Eploy(this).addClass("its-c-login__input--error");
+
+                            }
+
+                        });
+
+
+
+                    }
+
+
+
+
+
+                    function LoginControlLoading(sGroup, ID, isSocial) {
+
+
+
+                        if (isSocial.toLowerCase() == "false") {
+
+                            if (Page_ClientValidate(sGroup)) {
+
+                                $Eploy("#" + ID + "_divLoginContainer").addClass("is-loading");
+
+                            }
+
+                        } else {
+
+                            $Eploy("#" + ID + "_divLoginContainer").addClass("is-loading");
+
+                        }
+
+                        
+
+
+
+                    }
+
+
+
+
+
+                    $Eploy(function () {
+
+
+
+                        var body = $Eploy("body");
+
+
+
+                        body.on("focus", ".js-its-c-login-input", function (e) {
+
+
+
+                            $Eploy(this).removeClass("its-c-login__input--error");
+
+
+
+                        });
+
+
+
+                        body.on("blur", ".js-its-c-login-input", function (e) {
+
+
+
+                            if (!$Eploy(this).val() == "") {
+
+                                $Eploy(this).removeClass("its-c-login__input--error");
+
+                            } else {
+
+                                $Eploy(this).addClass("its-c-login__input--error");
+
+                            }
+
+
+
+                        });
+
+
+
+
+
+                    });
+
+
+
+                
+
+            
+
+				
+
+        
+
+
+
+            
+
+        
+
+        
+
+            
+
+                
+
+            
+
+
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                    
+
+                    
+
+                        Email Address
+
+                        
+
+                        
+
+
+
+                        
+
+
+
+                        
+
+                            
+
+                        
+
+                        
+
+
+
+                    
+
+                
+
+            
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+                    
+
+                    
+
+                    
+
+                        Password
+
+                        
+
+                        
+
+
+
+                        
+
+
+
+                        
+
+                            
+
+                        
+
+
+
+                    
+
+                
+
+            
+
+
+
+
+
+            
+
+                Remember username
+
+            
+
+
+
+            
+
+                
+
+
+
+    var Drawcaptchactl00_ctl00_MyCandidateNavigation_LoginBox_ctl00 = false;
+
+    function reloadRecaptcharecaptcha_widgetctl00_ctl00_MyCandidateNavigation_LoginBox_ctl00(widgetID, callback) {        
+
+        reloadRecaptcha(widgetID, callback, Drawcaptchactl00_ctl00_MyCandidateNavigation_LoginBox_ctl00);
+
+    }
+
+
+
+    var verifyCallbackrecaptcha_widgetctl00_ctl00_MyCandidateNavigation_LoginBox_ctl00 = function(response) {
+
+        if(response){
+
+            $Eploy('#ctl00_ctl00_MyCandidateNavigation_LoginBox_ctl00_captcha_CaptchaFieldctl00_ctl00_MyCandidateNavigation_LoginBox_ctl00').val(response);
+
+        }
+
+    };
+
+
+
+    function Checkrecaptchactl00_ctl00_MyCandidateNavigation_LoginBox_ctl00Required(sender, args) 
+
+    {  
+
+        if($Eploy('#recaptcha_widgetctl00_ctl00_MyCandidateNavigation_LoginBox_ctl00').data('loaded')){
+
+            args.IsValid = !Drawcaptchactl00_ctl00_MyCandidateNavigation_LoginBox_ctl00 || checkRecaptchaSubmitted('ctl00_ctl00_MyCandidateNavigation_LoginBox_ctl00_captcha_CaptchaFieldctl00_ctl00_MyCandidateNavigation_LoginBox_ctl00');
+
+        }
+
+        else
+
+        {
+
+            args.IsValid = true;
+
+        }
+
+    }
+
+
+
+            
+
+
+
+            
+
+                
+
+                Forgot Password?
+
+            
+
+        
+
+            
+
+					
+
+            
+
+                
+
+                    Or
+
+                
+
+                
+
+						
+
+FacebookGoogleLinkedIn
+
+					
+
+
+
+
+
+            
+
+            
+
+				
+
+        
+
+            
+
+            
+
+                $Eploy(function () {
+
+                    setScreenWidth_ctl00_ctl00_MyCandidateNavigation_LoginBox_ctl00_hdnScreenWidth();
+
+                });
+
+                function setScreenWidth_ctl00_ctl00_MyCandidateNavigation_LoginBox_ctl00_hdnScreenWidth() {
+
+                    $Eploy("#ctl00_ctl00_MyCandidateNavigation_LoginBox_ctl00_hdnScreenWidth").val(parent.window.top.screen.width);
+
+                }
+
+            
+
+
+
+        
+
+			
+
+        
+
+        
+
+
+
+    
+
+
+
+
+
+		
+
+
+
+                                
+
+                                
+
+                                    Register for an account
+
+                                
+
+                            
+
+                         
+
+	
+
+                
+
+             
+
+        
+
+    
+
+
+
+    
+
+    
+
+     
+
+
+
+
+
+
+
+            
+
+                
+
+	        
+
+		    
+
+
+
+        
+
+    
+
+    
+
+        
+
+
+
+
+
+
+
+    
+
+
+
+    Home
+
+    About GKN
+
+    Our Divisions
+
+    Investors
+
+    Sustainability
+
+    Our technology
+
+    Careers
+
+    Newsroom
+
+
+
+    
+
+    
+
+        
+
+    
+
+        
+
+    
+
+
+
+    
+
+
+
+    
+
+        
+
+            
+
+            
+
+                
+
+                
+
+	
+
+	
+
+    
+
+        function SearchEventLog() {
+
+            var KeywordsText = $("#" + 'Keywords').val();
+
+            var LocationsControlId = $("#" + 'ctl00_ctl00_quicksearch_TopSearch_LocationsList').find(":selected").text();
+
+
+
+            if (KeywordsText == $("#" + 'Keywords').attr("data-blank-resource")) {
+
+                KeywordsText = "No Keywords";
+
+            }
+
+            
+
+            //if (LocationsControlId == "All Locations") {
+
+               // LocationsControlId = "";
+
+            //}
+
+            //if (PositionsControlId == "All Positions") {
+
+                //PositionsControlId = "";
+
+           // }
+
+
+
+            ga('send', 'event', 'EPLOY - Search', 'Job Search Made', KeywordsText + ', ' + LocationsControlId);
+
+            //debugger;
+
+        }
+
+    
+
+    
+
+    
+
+        
+
+        Search
+
+        
+
+		    
+
+                
+
+            
+
+            
+
+            
+
+                
+
+		All Locations
+
+		Belgium
+
+		Brazil
+
+		China
+
+		Denmark
+
+		France
+
+		Germany
+
+		India
+
+		Italy
+
+		Japan
+
+		Korea
+
+		Mexico
+
+		Netherlands
+
+		Norway
+
+		Poland
+
+		Romania
+
+		Slovenia
+
+		Spain
+
+		Sweden
+
+		Turkey
+
+		United Kingdom
+
+		United States
+
+
+
+	
+
+            
+
+            
+
+                Go
+
+            
+
+
+
+          
+
+
+
+        		
+
+
+
+	    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+        
+
+    
+
+    
+
+    
+
+        
+
+            
+
+                
+
+                
+
+                
+
+            
+
+        
+
+        
+
+    
+
+        
+
+            
+
+        Business Intelligence Analyst	 
+
+
+
+        
+
+        
+
+            
+
+            
+
+                
+
+    
+
+    
+
+        
+
+            Home
+
+        
+
+        
+
+            Vacancies
+
+        
+
+        
+
+            Business Intelligence Analyst	
+
+        
+
+    
+
+
+
+
+
+            
+
+            
+
+            
+
+                
+
+                    
+
+                        
+
+	
+
+	
+
+    
+
+	
+
+	
+
+        
+
+            
+
+                
+
+                
+
+                    Login to Save this vacancy
+
+                
+
+            
+
+                
+
+            
+
+            
+
+
+
+            
+
+            Country:United StatesWork Location:Cromwell, CTState:ConnecticutAdvertising End Date:05 Nov 2017Job Type:Regular
+
+        
+
+
+
+        
+
+
+
+        About The Opportunity
+
+		The Operations/Business Intelligence Analyst will work as part of the IT and Systems Integration teams to support reporting, dashboards, and analytics for data in our operations and ERP systems. The key focus of this position is the distribution of operational and business information in order to support operations, engineering, quality, and management end users in the business. A strong knowledge of SQL is required, as well as experience in a manufacturing environment. Experience with SAP ERP, process data historians, and MES is preferred.
+
+	Key Responsibilities
+
+		&nbsp;Overall:
+
+
+
+    Manage projects that support company and customer initiatives.
+
+    Develop reports and data distribution tools to help meet needs of end users in engineering, quality, operations, and management.
+
+    Assist in the design and maintaining of information collection and distribution servers and systems. This may include database maintenance and backups.
+
+    Assist during the design phase of new business and manufacturing processes to ensure that data is being acquired in desirable formats.
+
+    Assist with implementation of SAP ERP, Industry 4.0 and MES initiatives currently underway.
+
+    &nbsp;Be an Individual contributor and drive continuous improvement as part of our team.
+
+
+
+
+
+Software:
+
+
+
+
+
+    Experience with SAP or other ERP systems.
+
+    SCADA / MES System software utilizing Wonderware System Platform, Wonderware Historian, and Wonderware MES.
+
+    Reporting tools such as Wonderware Historian Client, Wonderware Intelligence, Tableau, Dream Reports by ODS, SQL Reporting Services.
+
+    SQL Server 2012 &ndash; 2016.
+
+    Familiarity with Red Hat Linux.
+
+    Familiarity with Windows Server 2012 R2 and virtualized environments.
+
+    Familiarity with object-oriented programming concepts.
+
+
+
+Hardware:
+
+
+
+    Thin Clients using ACP Thin Manager
+
+    Familiarity with Operations and Business computing equipment.
+
+    Understanding of TCP/IP networks.
+
+
+
+Education:
+
+Bachelor's&nbsp;Degree in Information Systems, Computer Science, Electrical Engineering or equivalent training/Experience
+
+Essential:
+
+
+
+    MUST BE U.S Citizen or Permanent Resident.
+
+    Minimum of 3-5 years of related experience with SQL databases and reporting in an Operations / Business environment.&nbsp;
+
+    Experience with SAP (ECC6 on Hana) and Wonderware software (Historian, MES, System Platform, Intelligence).
+
+    Interest in Manufacturing Intelligence, Industry 4.0 technology, and automation.
+
+    Willingness to learn new reporting tools and automation software as required.
+
+
+
+Physical Requirements
+
+&bull; Specific Vision abilities required; including close vision, distance vision, color vision, peripheral vision, depth perception and ability to focus with a specific requirement for corrected vision at 20/25 or better;
+
+&bull; Must be able to work in a production environment and travel throughout the facilities and corporation to obtain information needed to perform job functions;
+
+&bull; Prolonged sitting and computer use, and have the ability to move around a manufacturing environment;
+
+	About Us
+
+		
+
+GKN is a global engineering business. We design, manufacture and service systems and components&nbsp;for most of the world&rsquo;s leading aircraft, vehicle and machinery manufacturers.&nbsp;We are continuously evolving, pioneering new technologies and reinventing existing ones, stretching ourselves to better in everything we do.&nbsp;GKN operates three divisions: GKN Aerospace, GKN Driveline and GKN Powder Metallurgy employing 56,000 people in more than 30 countries.
+
+GKN Aerospace is the world&rsquo;s leading multi-technology tier 1 aerospace supplier. With 55 manufacturing locations in 14 countries, we serve over 90% of the world&rsquo;s aircraft and engine manufacturers. We design and manufacture innovative smart aerospace systems and components. Our technologies are used in aircraft ranging from the most used single aisle aircraft and the largest passenger planes in the world to business jets and the world&rsquo;s advanced 5th generation fighter aircraft.
+
+	
+
+
+
+        
+
+            Diversity and Inclusion
+
+        
+
+         
+
+       As a global engineering company, innovation is what differentiates us from our competitors and is central to our success.
+
+A balance of cultures, ethnicities and genders help bring new ideas and creativity to GKN. We need people of different backgrounds, with different skills and perspectives to spark originality, imagination and creativeness in our teams around the world.  
+
+GKN is an equal opportunity employer.  
+
+We treat all our employees and applicants fairly and are committed to ensuring that there is no discrimination or harassment against any employee or qualified applicant on the grounds of age, race, creed, color, national origin, ancestry, marital status, affectional or sexual orientation, gender identity or expression, disability, nationality, sex, or veteran status or any other characteristic protected by law. 
+
+
+
+        
+
+
+
+
+
+        
+
+            
+
+            Apply
+
+            
+
+                   
+
+
+
+        
+
+         
+
+         
+
+           
+
+     
+
+
+
+       
+
+//
+
+       
+
+	
+
+
+
+
+
+    
+
+
+
+   
+
+
+
+	                
+
+                    
+
+                        
+
+    
+
+    
+
+
+
+    
+
+        
+
+        Apply
+
+
+
+        
+
+
+
+        Back to Vacancies
+
+
+
+    
+
+
+
+
+
+                    
+
+                        
+
+                  
+
+		                
+
+    
+
+    
+
+	
+
+        
+
+            Share this vacancy
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+	                
+
+                
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+
+
+   
+
+	
+
+		
+
+			
+
+                
+
+				    
+
+					    
+
+						    © GKN plc All rights reserved. GKN plc is registered in England. 
+
+						    Registered office:
+
+                            PO Box 55, Ipsley House, Ipsley Church Lane, 
+
+						    Redditch, Worcestershire B98 0TL
+
+                            (Use postcode B98 0AJ for satellite navigation)
+
+                                Tel: +44 (0)1527 517 715
+
+                                Fax: +44 (0)1527 517 700
+
+						    
+
+						    Company number 4191106.
+
+					    
+
+					    
+
+						    GKN at LinkedIn
+
+						    GKN at Facebook
+
+						    GKN at Twitter
+
+						    Email GKN
+
+					    
+
+				    
+
+
+
+				    
+
+					    
+
+						    Popular Links
+
+                                    About GKN
+
+                                    Locations
+
+                                    Governance
+
+                                    Investors
+
+                                    Corporate identity guidelines
+
+                                    GKN Hearts of Gold
+
+                                    Modern Slavery Statement
+
+					    
+
+				    
+
+
+
+				    
+
+					    
+
+						    Our Divisions
+
+                                    GKN Aerospace
+
+                                    GKN Driveline
+
+                                    GKN Powder Metallurgy
+
+                                                          &nbsp;GKN Suppliers
+
+                                     GKN Driveline suppliers
+
+                                     GKN Aerospace suppliers
+
+					    
+
+				    
+
+                
+
+			
+
+		
+
+	
+
+
+
+
+
+    
+
+	    
+
+            
+
+		        
+
+			        
+
+                              Search
+
+                              Sitemap
+
+                              Accessibility
+
+                              Terms and conditions
+
+                              Privacy policy
+
+                              Cookie policy
+
+			        
+
+                    
+
+                        Copyright&nbsp;&#169;&nbsp;2017
+
+                    Powered By Eploy Applicant Tracking System
+
+
+
+                    
+
+		        
+
+            
+
+	    
+
+    
+
+
+
+
+
+    
+
+    
+
+        
+
+    
+
+
+
+	
+
+
+
+
+
+    
+
+	    Page has changed!
+
+	    Some of the values on this page have changed. What do you want to do?
+
+        
+
+        
+
+            Cancel, stay hereDiscard and ContinueSave and Continue
+
+          
+
+     
+
+
+
+    
+
+        Page has changed!
+
+        Some of the values on this page have changed. What do you want to do?
+
+		
+
+        Cancel, stay hereDiscard and Continue
+
+        
+
+     
+
+
+
+    
+
+        Page has changed!
+
+        Some of the values on this page have changed. What do you want to do?
+
+		
+
+        Cancel, stay hereDiscard and Continue
+
+        
+
+     
+
+
+
+    
+
+	    
+
+        
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+//
+
+
+
+
+
+
+
+    
+
+    
+
+  
+
+
+
+
+

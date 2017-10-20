@@ -1,0 +1,751 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function icims_stripIFrameParameter(url) {
+url = url.replace(/\?in_iframe=1\&?/, '?');
+url = url.replace(/\&in_iframe=1\&?/, '&');
+url = url.replace(/(\?|&)$/, '');
+return url;
+}
+
+document.cookie = "jsEnabled=true;path=/";
+var icimsWindow = false;
+try {
+icimsWindow = window.top.location.href.indexOf('') >= 0;
+} catch (e) {}
+
+if (icimsWindow) {
+try {
+
+if (window.history.replaceState) {
+parent.updateUrl(icims_stripIFrameParameter(window.location.href));
+}
+} catch (e) {}
+
+try {
+
+var windowUrl = window.top.location.href;
+if (windowUrl.match(/\?in_iframe=1\&?/) || windowUrl.match(/\&in_iframe=1\&?/)) {
+document.cookie = 'icims_iframeRedirReferer=' + encodeURIComponent(document.referrer) + ';path=/';
+window.top.location.href = icims_stripIFrameParameter(windowUrl);
+}
+} catch (e) {}
+
+}
+
+Careers Center - Data Analyst
+
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(2),u=e(3),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}finally{f.emit("fn-end",[c.now()],t)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],3:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],4:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=m(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){v[e]=m(e).concat(n)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(t)}function g(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var v={},y={},b={on:l,emit:t,get:w,listeners:m,context:n,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(2),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=h.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+h.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===d.readyState&&i()}function i(){f("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),f=e("handle"),c=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1059.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=n.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),f("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var isMobile = false;
+
+var redirectUrl = 'https:\/\/careers-youthvillages.icims.com\/jobs\/1256\/data-analyst\/job?in_iframe=1&mode=job&iis=Job+Board&iisn=Indeed.com';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ var link = 'https://careers-youthvillages.icims.com/connect/interests?csrf=0F86C73AF6ECFAD7&in_iframe=1&hashed=-435621526'; 
+
+
+var _c2a = _c2a || [];
+
+
+
+_c2a.push(['View', '1256', null, 'Data Analyst']);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(function () {
+var initialize = function() {
+// Require _c2a object
+if(typeof _c2a === 'undefined') return;
+// Prevent multiple initializations
+if(typeof _c2a === 'object' && _c2a.initialized === true) return;
+var pendingCommands = _c2a || [];
+var i = 0;
+var commandHandler = {
+initialized: true,
+push: function(arr) {
+try {
+if(typeof Click2Apply === 'object' && Object.prototype.toString.call(arr) === '[object Array]') {
+var eventName = arr[0];
+var s_jobId = arr[1];
+var s_userId = arr[2];
+var s_title = arr[3];
+switch (eventName) {
+case "View":
+Click2Apply.analytics.View({
+jobid: s_jobId,
+title: s_title
+});
+break;
+case "Start":
+Click2Apply.analytics.Start({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+case "Apply":
+Click2Apply.analytics.Apply({
+jobid: s_jobId,
+userId: s_userId
+});
+break;
+}
+}
+} catch (e){};
+}
+}
+for(i=0; i < pendingCommands.length; i++) {
+commandHandler.push(pendingCommands[i]);
+}
+_c2a = commandHandler;
+}
+var loadScript = function () {
+var c2a = document.createElement('script'),
+scriptElem = document.getElementsByTagName('script')[0],
+scriptUrl = 'https://code.click2apply.net/js/1.0/click2apply.js?',
+atsId = '1043',
+recruiterId = '';
+c2a.type = 'text/javascript';
+c2a.async = true;
+c2a.src = scriptUrl + (recruiterId ? 'recruiter_id=' + recruiterId : 'ats_id=' + atsId);
+if (c2a.readyState) { // IE.
+c2a.onreadystatechange = function() {
+if (c2a.readyState == "loaded" || c2a.readyState == "complete") {
+c2a.onreadystatechange = null;
+initialize();
+};
+};
+} else { // Others.
+c2a.onload = initialize;
+}
+scriptElem.parentNode.insertBefore(c2a, scriptElem);
+};
+if (window.addEventListener) {
+window.addEventListener('load', loadScript, false);
+} else if (window.attachEvent) {
+window.attachEvent('onload', loadScript);
+} else if (typeof window.onload === 'function'){
+var originalOnload = window.onload;
+window.onload = function() {
+originalOnload();
+loadScript();
+}
+} else {
+window['onload'] = loadScript;
+}
+})();
+
+
+
+
+
+var isNewAesthetics = true;
+var mobileWidthThreshold = 767;
+icimsAsyncLoadScript('https://cdn07.icims.com/a/images.icims.com/content/platform_103.1.170929.1506726811/script/portal/login.js');
+var jobId = "1256";
+
+
+var icimsSD = {"person":{},"companyName":"Youth Villages","env":"prod","job":{"zipCode":"38133","jid":1256,"jobUrls":[{"name":"careers","url":"https://careers-youthvillages.icims.com/jobs/1256/data-analyst/job"}],"location":"Memphis, Tennessee, United States","title":"Data Analyst"},"version":"1.015","key":"2","cid":"IIalSDAbJ1tafGh6PMHF6YOIqBZiWtFnxIPzlWAdQksT5bD7huB1Oa4Uc9Mj"};
+var isWidgetLoaded = false;
+window.mobile = false;
+loadWidget();
+function loadWidget() {
+if(typeof icimsSD !== 'undefined') {
+icimsSD["callback"] = sdWidgetReadyCallback;
+$.ajaxSetup({
+cache: true
+});
+$.getScript('https://cdn06.icims.com/social_1/social.icims.com/js/socialDistro.js');
+}
+}
+
+
+
+
+
+function ResourceBundle(lang) {
+var messageFormat = new MessageFormat(lang);
+var resourceBundle = new Array();
+resourceBundle['utils.js.ErrorCannotOpenPopUpPleas_686'] = 'Error: Cannot open pop-up. Please make sure pop-up blockers are disabled.';
+resourceBundle['utils.js.PleaseSpecifyAValidPageNu_691'] = 'Please specify a valid page number';
+resourceBundle['utils.js.Loading_690'] = 'Loading';
+resourceBundle['utils.js.Updating_689'] = 'Updating';
+resourceBundle['utils.js.MsgtextPleaseWait_1153'] = '{msgText}, please wait...';
+resourceBundle['handlebarshelpers.js.welcome-text'] = 'Welcome, {name}!';
+resourceBundle['utils.js.Sending_688'] = 'Sending';
+resourceBundle['utils.js.Saving_687'] = 'Saving';
+
+ResourceBundle.prototype.get = function(message, variables) {
+if (typeof(resourceBundle[message]) === 'undefined') {
+return '';
+}
+if (typeof(resourceBundle[message]) === 'string') {
+resourceBundle[message] = messageFormat.compile(resourceBundle[message]);
+}
+return resourceBundle[message](variables);
+}
+}
+var resourceBundle = new ResourceBundle('');
+
+
+function icims_resizeIFrameHeight() {
+
+icims_resizeIFrame('https://careers-youthvillages.icims.com');
+
+}
+function icims_scroll(x, y) {
+icims_scrollIFrame(x, y, 'https://careers-youthvillages.icims.com');
+}
+if (window.attachEvent) {
+window.attachEvent('onresize', icims_resizeIFrameHeight);
+} else if (window.addEventListener) {
+window.addEventListener('resize', icims_resizeIFrameHeight, true);
+}
+icimsAddOnload(function() {
+icimsCheckCookie();
+icims_resizeIFrameHeight();
+
+if (document.querySelectorAll) {
+var errorMsg = document.querySelectorAll('.iCIMS_ErrorMessage');
+if (errorMsg && errorMsg.length > 0) {
+for (var i = 0; i  0) {
+try {
+errorMsg[i].focus();
+} catch (e) {}
+break;
+}
+}
+}
+}
+
+if (icimsWindow) {
+var bodyTag = window.parent.document.getElementsByTagName('body')[0];
+var skipLink = window.parent.document.getElementById('icims_skiplink');
+if (bodyTag && !skipLink) {
+skipLink = document.createElement('a');
+skipLink.textContent = 'Skip to Content';
+skipLink.setAttribute('id', 'icims_skiplink');
+skipLink.setAttribute('style', 'left: -9999px; position: absolute; top: -1px;');
+skipLink.setAttribute('href', '#icims_content_iframe');
+if (bodyTag.firstElementChild) {
+bodyTag.insertBefore(skipLink, bodyTag.firstElementChild);
+} else {
+bodyTag.appendChild(skipLink);
+}
+}
+}
+
+var messages = document.getElementsByClassName('iCIMS_GenericMessage');
+var primaryMessage, secondaryMessage, focusMessage;
+if (messages) {
+for (var index = 0; index < messages.length; index++) {
+if (ICIMS.hasClass(messages[index], 'iCIMS_SuccessMessage') || (ICIMS.hasClass(messages[index], 'iCIMS_ErrorMessage') && !ICIMS.hasClass(messages[index], 'iCIMS_FieldError'))) {
+
+primaryMessage = primaryMessage || messages[index];
+} else if (ICIMS.hasClass(messages[index], 'iCIMS_SystemMessage')) {
+secondaryMessage = secondaryMessage || messages[index];
+}
+if (primaryMessage) {
+break;
+}
+}
+focusMessage = primaryMessage || secondaryMessage;
+if (focusMessage) {
+focusMessage.focus();
+}
+}
+
+});
+var icimsIframeResizeTimer = setInterval(icims_resizeIFrameHeight, 500);
+
+try {
+if (window.orientation) {
+window.addEventListener("orientationchange", icims_resizeIFrameHeight, false);
+}
+} catch (e) {}
+
+var isHub = false;
+if (!window.history.replaceState || isHub) {
+icimsAddOnload(function() {
+var links = document.getElementsByTagName("a");
+for (var i = 0; i < links.length; i++) {
+if (!links[i].target) {
+var href = links[i].getAttribute('href')
+if (href) {
+var prevInnerHTML = links[i].innerHTML;
+links[i].setAttribute('href', icims_stripIFrameParameter(href));
+
+links[i].innerHTML = prevInnerHTML;
+}
+if (href && href != '#') {
+links[i].target = icimsWindow ? "_top" : "_parent";
+}
+}
+}
+});
+}
+
+icimsAddOnload(function() {
+try {
+if (icimsWindow && parent) {
+parent.document.title = document.title;
+}
+} catch (e) {}
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W8W92P');
+
+{"hiringOrganization":{"@type":"Organization","name":"Youth Villages","sameAs":"www.youthvillages.org"},"jobLocation":[{"address":{"addressCountry":"US","@type":"PostalAddress","addressLocality":"Memphis","addressRegion":"TN"},"@type":"Place"}],"@type":"JobPosting","description":"Overview\nCompany OverviewYouth Villages has been a national leader in the implementation of research-based treatment philosophies in the field of children's mental and behavioral health. Our commitment to helping troubled children and their families find success spans 20+ years and includes a comprehensive array of programs and services.\n&nbsp;\nIf you are looking for a positive career move where you are meeting the challenges of life and striving to make a positive difference, then Youth Villages is the place for you. We are looking for people with a strong sense of purpose and focus to continually build confidence in yourself and our organization. \nResponsibilities\nPosition Summary\nUse SQL, SPSS, Excel, and PowerPoint to create/update reports on demographics, program participation, and outcomes for various internal and external customers.&nbsp;&nbsp;Compile and analyze data from electronic medical records database in response to ad hoc requests by internal and external customers.&nbsp;Create presentations based on customer\u2019s needs/requirements.&nbsp;&nbsp;Complete descriptive analysis for projects as directed; work with Research Statistician on multivariate analysis as needed.&nbsp;\nPosition Specific Competencies\n&nbsp;\nAnalytical Thinking\nBreaks down problems and issues into sub-components and then assesses the costs, benefits and risks of various options prior to selecting a particular approach.\n&nbsp;\nInnovative Thinking\nLooks out for new and innovative approaches that will improve efficiency. Embraces and champions new ideas and encourages others to do likewise. Recognizes and rewards people and teams who are creative and innovative.\n&nbsp;\nStrategic Thinking\nCan analyze organizational strengths and weaknesses and then combine these with knowledge of the field, market and organization to develop long-term strategy.\n&nbsp;\nDependability\nMakes and fulfills commitments. Has established a pattern of working independently, meeting reasonable deadlines, and accepting responsibility for his or her actions. Willingly makes promises and fully intends to keep them. Arrives at work on time and ready to contribute. Shows up for meetings well-prepared. Works with accuracy and efficiency.\n&nbsp;\nFlexibility\nAdjusts quickly and effectively to changing conditions and demands. Discusses change as a necessary and inevitable aspect of organizational life as well as an opportunity to learn new things.&nbsp; Has a similar view and approach to potentially stressful situations.\n&nbsp;\nWork Ethic\nIs keenly aware of the time frame in which tasks or projects need to be done. Accepts and mirrors the level of urgency conveyed by manager or customer being served. Puts first priority on the needs of the organization or the needs of its customers.\nQualifications\nEducation Requirements\nMaster\u2019s degree in social or physical science or a data-related business field from an accredited university and one or two years related experience, or equivalent combination of education and experience\n&nbsp;\nExperience Requirements\nCompetency in research methods required, as is experience with data management and analysis.\nKnowledge of SPSS, R, and/or SQL is preferred.&nbsp;\nKnowledge of Youth Villages\u2019 programs is helpful.\n&nbsp;\nExperience growth and development through our continuous training, as well as tuition and licensure reimbursement, or pursue opportunities to advance both clinically and administratively with Youth Villages.\n&nbsp;&nbsp;\nAdditional BenefitsMedical, Dental, Prescription Drug Coverage and VisionRetirement Savings Pension Plan403 (b)2 weeks paid vacation12 paid sick days per year10&nbsp;paid holidaysMileage &amp; Cell Phone Reimbursement (when applicable)\nEOE","@id":"1256","datePosted":"2017-09-29T04:00:00.000Z","title":"Data Analyst","occupationalCategory":"Administrative/Corporate","@context":"http://schema.org"}
+
+try {
+document.body.className += " iCIMS_other iCIMS_other";
+} catch(e) {}
+
+
+Please Enable Cookies to Continue
+Please enable cookies in your browser to experience all the personalized features of this site, including the ability to apply for a job.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome page
+
+
+
+
+
+
+
+
+Returning Candidate?
+
+Log back in!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data Analyst
+
+
+
+
+Requisition ID
+
+2017-1256
+
+
+Job Locations
+
+TN-Memphis
+
+
+Program
+
+Administrative/Corporate
+
+
+Relocation Assistance
+
+No
+
+
+Position Type
+
+Full-Time/Regular
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Overview
+
+
+
+
+
+
+
+
+
+Company OverviewYouth Villages has been a national leader in the implementation of research-based treatment philosophies in the field of children's mental and behavioral health. Our commitment to helping troubled children and their families find success spans 20+ years and includes a comprehensive array of programs and services.&nbsp;If you are looking for a positive career move where you are meeting the challenges of life and striving to make a positive difference, then Youth Villages is the place for you. We are looking for people with a strong sense of purpose and focus to continually build confidence in yourself and our organization. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Responsibilities
+
+
+
+
+
+
+
+
+
+Position SummaryUse SQL, SPSS, Excel, and PowerPoint to create/update reports on demographics, program participation, and outcomes for various internal and external customers.&nbsp;&nbsp;Compile and analyze data from electronic medical records database in response to ad hoc requests by internal and external customers.&nbsp;Create presentations based on customer&rsquo;s needs/requirements.&nbsp;&nbsp;Complete descriptive analysis for projects as directed; work with Research Statistician on multivariate analysis as needed.&nbsp;Position Specific Competencies&nbsp;Analytical ThinkingBreaks down problems and issues into sub-components and then assesses the costs, benefits and risks of various options prior to selecting a particular approach.&nbsp;Innovative ThinkingLooks out for new and innovative approaches that will improve efficiency. Embraces and champions new ideas and encourages others to do likewise. Recognizes and rewards people and teams who are creative and innovative.&nbsp;Strategic ThinkingCan analyze organizational strengths and weaknesses and then combine these with knowledge of the field, market and organization to develop long-term strategy.&nbsp;DependabilityMakes and fulfills commitments. Has established a pattern of working independently, meeting reasonable deadlines, and accepting responsibility for his or her actions. Willingly makes promises and fully intends to keep them. Arrives at work on time and ready to contribute. Shows up for meetings well-prepared. Works with accuracy and efficiency.&nbsp;FlexibilityAdjusts quickly and effectively to changing conditions and demands. Discusses change as a necessary and inevitable aspect of organizational life as well as an opportunity to learn new things.&nbsp; Has a similar view and approach to potentially stressful situations.&nbsp;Work EthicIs keenly aware of the time frame in which tasks or projects need to be done. Accepts and mirrors the level of urgency conveyed by manager or customer being served. Puts first priority on the needs of the organization or the needs of its customers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Qualifications
+
+
+
+
+
+
+
+
+
+Education RequirementsMaster&rsquo;s degree in social or physical science or a data-related business field from an accredited university and one or two years related experience, or equivalent combination of education and experience&nbsp;Experience RequirementsCompetency in research methods required, as is experience with data management and analysis.Knowledge of SPSS, R, and/or SQL is preferred.&nbsp;Knowledge of Youth Villages&rsquo; programs is helpful.&nbsp;Experience growth and development through our continuous training, as well as tuition and licensure reimbursement, or pursue opportunities to advance both clinically and administratively with Youth Villages.&nbsp;&nbsp;Additional BenefitsMedical, Dental, Prescription Drug Coverage and VisionRetirement Savings Pension Plan403 (b)2 weeks paid vacation12 paid sick days per year10&nbsp;paid holidaysMileage &amp; Cell Phone Reimbursement (when applicable)EOE
+
+
+
+
+
+
+
+
+Options
+
+
+
+
+
+
+Apply for this job onlineApplyShareEmail this job to a friendRefer
+
+
+
+
+
+
+
+
+
+
+Sorry the Share function is not working properly at this moment. Please refresh the page and try again later.
+
+
+Share on your newsfeed
+
+
+
+
+
+
+
+
+
+
+
+Need help finding the right job?
+
+
+
+
+We can recommend jobs specifically for you!
+
+Click here to get started.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Application FAQsSoftware Powered by iCIMSwww.icims.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+if (icimsWindow) {
+try {
+window.parent.document.getElementById('icims_content_iframe').title = document.title;
+} catch (e) {}
+}
+
+
+window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"4e547d37d0","agent":"","beacon":"bam.nr-data.net","applicationTime":56,"applicationID":"41492417,3408490,19453878","transactionName":"ZQdXYRMAD0ZUBkAIVlxNdkASFQ5YGhVbE01TDhpfDgNOcnAx","queueTime":12}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// New Relic PageViewName Logging. Ensure this cannot ever halt page execution.
+try {
+var pageViewName ='portal/job/GET';
+newrelic.setPageViewName(pageViewName);
+} catch (e) {}
+
+
+
+
+
+
+

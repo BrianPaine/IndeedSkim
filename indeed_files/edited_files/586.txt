@@ -1,0 +1,1351 @@
+
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+    Business Analyst  in  Columbus, OH  | JPMorgan Chase &amp; Co.
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+
+    
+
+    var domain = "https://jpmc-sso.smashfly.com";
+
+    var isResponsive = false;
+
+
+
+
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+     
+
+    
+
+
+
+
+
+	
+
+
+
+	
+
+		
+
+	    
+
+		    
+
+		    	
+
+
+
+
+
+
+
+        
+
+            
+
+            Referral Sponsor Portal
+
+            Sign Up Now!
+
+            Login 
+
+        
+
+ 
+
+        		
+
+			    
+
+					
+
+				 
+
+				
+
+		        
+
+		            Divisions
+
+		            Locations
+
+		            Programs
+
+		            Why Us
+
+		            
+
+		            	Apply
+
+						
+
+							Student Programs
+
+							Student Events
+
+							Experienced Roles
+
+							Need Advice?
+
+						
+
+		            
+
+		        
+
+		        
+
+		           	Divisions
+
+		            Locations
+
+		            Programs
+
+		            Why Us
+
+		            Apply
+
+						
+
+							Student Programs
+
+							Student Events
+
+							Experienced Roles
+
+							Need Advice?
+
+						
+
+		            
+
+		        
+
+		        
+
+		        	Menu
+
+		        
+
+		    
+
+		    	
+
+	       			Referral Portal
+
+	       		   
+
+	       
+
+		
+
+	    
+
+		
+
+			function sticky_relocate() {
+
+			    var window_top = $(window).scrollTop();
+
+			    var div_top = $('#sticky-anchor').offset().top;
+
+			    if (window_top > div_top) {
+
+			        $('#sticky').addClass('stick');
+
+			    } else {
+
+			        $('#sticky').removeClass('stick');
+
+			    }
+
+			}
+
+
+
+			$(function () {
+
+			    $(window).scroll(sticky_relocate);
+
+			    sticky_relocate();
+
+			})
+
+			$('.hamburger').click(function() {
+
+    			$('#nav-toggle').toggle(true);
+
+    			$("#nav-toggle").toggleClass("menu-toggle");
+
+			});
+
+
+
+            jQuery(document).ready(function() {
+
+                 if ($('.loggedin')[0]) {
+
+                 	$(".refer-link").css('display', 'block');
+
+                 	$('.desktop-nav').css('display','none');
+
+                 	$('.hamburger').css('display','none');
+
+			    	$('#mob-nav').css('display', 'none');
+
+                 }
+
+            });
+
+		
+
+	
+
+			
+
+				
+
+	                
+
+					    
+
+          					Careers / Job Search / Job Details
+
+        				
+
+					    
+
+					        
+
+					    
+
+					    
+
+
+
+
+
+
+
+	
+
+		
+
+		
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+		
+
+		    var addthis_config = { "data_track_clickback": true };
+
+		
+
+		
+
+	
+
+
+
+ 	jQuery(document).ready(function() {
+
+    	$('.addthis_button_expanded').each(function() {
+
+    		$(this).attr('tabindex', '-1');
+
+    	})
+
+	});
+
+
+
+	                    
+
+						
+
+
+
+
+
+        Apply Now
+
+    &nbsp;&nbsp;&nbsp;        
+
+            
+
+                Refer a Friend
+
+            
+
+        
+
+
+
+
+
+
+
+
+
+
+	
+		Business Analyst
+		
+Req #: 170099226
+		Location: 
+		
+		
+		Columbus, 
+		OH,
+                US
+
+		Job Category:  Technology
+Potential Referral Amount: 3000 US Dollar (USD)
+
+		JPMorgan Chase &amp; Co. (NYSE: JPM) is a leading global financial services firm with assets of $2.5 trillion and operations worldwide. The firm is a leader in investment banking, financial services for consumers and small business, commercial banking, financial transaction processing, and asset management. A component of the Dow Jones Industrial Average, JPMorgan Chase &amp; Co. serves millions of consumers in the United States and many of the world’s most prominent corporate, institutional and government clients under its J.P. Morgan and Chase brands. Information about JPMorgan Chase &amp; Co. is available at http://www.jpmorganchase.com/.
+&nbsp;
+Technology Controls Technology Controls (TC) delivers streamlined and consistent solutions supporting JPMorgan Chase’s Controls and IT Risk agendas with a focus on risk reduction, stability, security, delivery, resiliency and efficiencies. TC’s focus on standardization, consistency and simplicity fosters long-term productivity, quality and innovation across JPMorgan Chase. The disciplines within this organization are Oversight &amp; Controls Technology, Cloud Controls, Identity &amp; Access Management, IT Risk &amp; Controls, and Third Party Risk Management. Global Identity &amp; Access Management Global Identity and Access Management provides identity and access management solutions for the firm's infrastructure and applications. The team ensures that appropriate access controls are in place and applied effectively and continuously. As a Business Analyst in Technology Controls you will be a member of a cross functional team that defines and delivers new features and functionality to improve the controls enforced by our suite of applications. Responsibilities Include: • Working with key stakeholders to identify the solutions that meet their needs • Advising stakeholders on options, risks, and aligning of priorities • Collaborating and partnering with Audit and control teams • Participating in audits and providing responses • Mentoring or leading other team members • Defining user stories and acceptance criteria • Obtaining stakeholder signoff • Leading cross functional feature teams in the delivery of new functionality • Creating user help for end users and internal support teams • Performing card (user story) sign-off • Providing direction for testing of new functionality • Facilitating implementation of new functionality through training and demonstrations • Collaborating with business users and technology partners at all levels Basic Qualifications:
+
+Bachelor's degree in Information Science / Information Technology, Computer Science, Engineering, Mathematics, Physics, or a related field
+5+ years of technical Business Analysis experience within a SDLC; desired Agile methods
+Functionally decompose complex problems into simple, straightforward solutions and ability to present recommended solutions to all levels of the organization
+Experience with service-oriented architecture and web services
+Ability to lead in a matrixed organizational structure
+Demonstrated self-starter with good judgment and resourcefulness
+Experience performing detailed data analysis, including ability to create, run, and modify SQL queries
+Understanding of data integration and reporting
+Experience with process and technical documentation
+Interest in information security and knowledge of Identity and Access Management controls
+Preferred &nbsp;Qualifications:
+
+Understanding of Cloud Technology and its core components
+One or more security-related certifications, such as CISSP, CEH, CISA, CISM, etc
+	
+
+
+
+        Apply Now
+
+    &nbsp;&nbsp;&nbsp;        
+
+            
+
+                Refer a Friend
+
+            
+
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    $(document).ready(function () {
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+	                
+
+                
+
+			
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                Join our Talent Community
+
+                Not ready to apply? Leave your information with us and we will keep you up to date with new career opportunities.
+
+                Join Now
+
+            
+
+        
+
+        
+
+            Things to note
+
+            Sign in to our application system to continue your job search or update your profile.
+
+            Current employees sign in here.  Contractors sign in here.
+
+            Any information you provide is confidential and will only be viewed by our recruiters in an effort to fill open positions. In addition, the information you provide is subject to our privacy policy practices.
+
+            Please note that J.P. Morgan will not accept unsolicited approaches or speculative CVs, nor will J.P. Morgan be responsible for any related fees, from Third Party Firms who are not preferred suppliers.
+
+            The firm invites all interested and qualified candidates to apply for employment opportunities.
+
+            Need disability related assistance?
+
+            If you are a US or Canadian applicant with a disability who is unable to use our online tools to search and apply for jobs, please click here.
+
+            Important links
+
+            Click here to view the "EEO is the Law" poster.
+
+            Click here to view the "EEO is the Law" supplemental poster.
+
+            Click here to view our U.S. Pay Transparency Policy.
+
+            JPMorgan Chase is an equal opportunity and affirmative action employer Disability/Veteran.
+
+            
+
+    
+
+
+
+
+
+    
+
+        
+
+            
+
+                Your career. Your way.
+
+                
+
+                    Privacy &amp; Security
+
+                    Terms of Use
+
+                    Cookies Policy
+
+                
+
+                
+
+                    Equal Opportunities
+
+                    Site Map
+
+                
+
+            
+
+        
+
+        
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+
+
+                                
+
+                                  Corporate Twitter Links
+
+                                  
+
+                                
+
+                                
+
+                                    
+
+                                        JPMorgan
+
+                                        
+
+                                    
+
+                                    
+
+                                        Chase
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                       
+
+                            
+
+                                
+
+                                  Corporate Facebook Links
+
+                                  
+
+                                
+
+                                
+
+                                    
+
+                                        JPMorgan Chase
+
+                                        
+
+                                    
+
+                                    
+
+                                        Chase
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                          
+
+                          
+
+                          
+
+                          Corporate LinkedIn Links
+
+                          
+
+                          
+
+                              J.P. Morgan
+
+                                
+
+                              
+
+                              JPMorgan Chase
+
+                                
+
+                              
+
+                              Chase
+
+                            
+
+                          
+
+                        
+
+                        
+
+                          
+
+                          
+
+                          Corporate YouTube Links
+
+                          
+
+                          
+
+                              J.P. Morgan
+
+                                    
+
+                              
+
+                              Chase
+
+                            
+
+                          
+
+                        
+
+                        
+
+                          
+
+                          
+
+                          Corporate Instagram Links
+
+                          
+
+                          
+
+                              J.P. Morgan
+
+                                    
+
+                              
+
+                              Chase
+
+                            
+
+                          
+
+                         
+
+                    
+
+                    
+
+                        jpmorganchase.com
+
+                        jpmorgan.com
+
+                        chase.com
+
+                    
+
+                    
+
+                        
+
+                            
+
+                                
+
+                                Corporate Twitter Links
+
+                                
+
+                                
+
+                                    
+
+                                        J.P. Morgan
+
+                                        
+
+                                    
+
+                                    
+
+                                        Chase
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                        
+
+                            
+
+                                
+
+                                Corporate Facebook Links
+
+                                
+
+                                
+
+                                    
+
+                                        J.P. Morgan Chase
+
+                                        
+
+                                    
+
+                                    
+
+                                        Chase
+
+                                    
+
+                                
+
+                            
+
+                        
+
+                          
+
+                          
+
+                          
+
+                          Corporate LinkedIn Links
+
+                          
+
+                          
+
+                              J.P. Morgan
+
+                                
+
+                              
+
+                              JPMorgan Chase
+
+                                
+
+                              
+
+                              Chase
+
+                            
+
+                          
+
+                        
+
+                        
+
+                          
+
+                          
+
+                          Corporate YouTube Links
+
+                          
+
+                          
+
+                              J.P. Morgan
+
+                                    
+
+                              
+
+                              Chase
+
+                            
+
+                          
+
+                        
+
+                        
+
+                          
+
+                              
+
+                              Corporate Instagram Links
+
+                              
+
+
+
+                              
+
+                                  J.P. Morgan
+
+                                        
+
+                                  
+
+                                  Chase
+
+                             
+
+                          
+
+                        
+
+                    
+
+                 
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+        
+
+    	   &copy; 2017 JPMorgan Chase &amp; Co. All rights reserved. Powered by SmashFly
+
+    	
+
+    
+
+    
+
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-81855119-1', 'auto');
+
+    ga('send', 'pageview');
+
+
+
+
+
+$(document).ready(function() {
+
+  $('#social-mobile-menu li').click(function() {
+
+    $('.hideme').hide();
+
+    $(this).find('#mobile-drop').show();
+
+  })
+
+});
+
+$(document).on('touchstart', function(e){
+
+  var target = $(e.target);
+
+  if(target.is('.hideme a')) {
+
+    //Do Nothing
+
+  } else {
+
+    $('.hideme').hide();
+
+  }
+
+});
+
+jQuery(document).ready(function() {
+
+  if ($('.loggedin')[0]) {
+
+      $(".talent-community-home").css('display', 'none');
+
+      $(".things-to-note").css('display', 'none');
+
+  }
+
+});
+
+$( "#external-link__twitter" ).focus(function() {
+
+  $(".facebook-drop").removeClass('facebook-open');
+
+  $(".youtube-drop").removeClass('youtube-open');
+
+  $(".linkedin-drop").removeClass('linkedin-open');
+
+  $(".instagram-drop").removeClass('instagram-open');
+
+  $('.twitter-drop').toggleClass('twitter-open');
+
+});
+
+$( "#external-link__facebook" ).focus(function() {
+
+  $(".twitter-drop").removeClass('twitter-open');
+
+  $(".youtube-drop").removeClass('youtube-open');
+
+  $(".linkedin-drop").removeClass('linkedin-open');
+
+  $(".instagram-drop").removeClass('instagram-open');
+
+  $('.facebook-drop').toggleClass('facebook-open');
+
+});
+
+$( "#external-link__youtube" ).focus(function() {
+
+  $(".facebook-drop").removeClass('facebook-open');
+
+  $(".twitter-drop").removeClass('twitter-open');
+
+  $(".linkedin-drop").removeClass('linkedin-open');
+
+  $(".instagram-drop").removeClass('instagram-open');
+
+  $('.youtube-drop').toggleClass('youtube-open');
+
+});
+
+$( "#external-link__linkedin" ).focus(function() {
+
+  $(".facebook-drop").removeClass('facebook-open');
+
+  $(".youtube-drop").removeClass('youtube-open');
+
+  $(".twitter-drop").removeClass('twitter-open');
+
+  $(".instagram-drop").removeClass('instagram-open');
+
+  $('.linkedin-drop').toggleClass('linkedin-open');
+
+});
+
+$( "#external-link__instagram" ).focus(function() {
+
+  $(".facebook-drop").removeClass('facebook-open');
+
+  $(".youtube-drop").removeClass('youtube-open');
+
+  $(".linkedin-drop").removeClass('linkedin-open');
+
+  $(".twitter-drop").removeClass('twitter-open');
+
+  $('.instagram-drop').toggleClass('instagram-open');
+
+});
+
+$( ".brand-links a:first-of-type" ).focus(function() {
+
+  $('.instagram-drop').removeClass('instagram-open');
+
+});
+
+$( ".sitemap" ).focus(function() {
+
+  $('.twitter-drop').removeClass('twitter-open');
+
+});
+
+
+
+
+
+function portal(){
+
+$('button.referrAfriendButton ').click(function(){
+
+var maxTime = 2000; // 2 seconds
+
+var time = 0;
+
+var interval = setInterval(function () {
+
+  if($('#wnd_wnd_title').is(':visible')) {
+
+    // visible, do something
+
+    clearInterval(interval);
+
+    $('#wnd_wnd_title').text("Register for our Referral Network");
+
+  } else {
+
+    if (time > maxTime) {
+
+      // still hidden, after 2 seconds, stop checking
+
+      clearInterval(interval);
+
+      return;
+
+    }
+
+    // not visible yet, do something
+
+    time += 100;
+
+  }
+
+}, 200);  
+
+})
+
+
+
+}
+
+
+
+
+
+ 
+
+
+
+		
+
+			$('.social-share').insertBefore('.applyBtnTopDiv');
+
+            $('.applyBtnTopDiv .sf_applybtn').attr('aria-hidden', 'true');
+
+            $('.applyBtnTopDiv .sf_applybtn').attr('tabindex', '-1');
+
+            $(".sf_referbtn").text("Refer a Candidate");
+
+            
+
+            var divs = document.querySelectorAll(".referrAfriendButton span");
+
+
+
+                [].forEach.call(divs, function(div) {
+
+                  // do whatever
+
+                  div.innerText = "Refer a Candidate";
+
+                });
+
+
+
+            jQuery(document).ready(function() {
+
+                if ($('.loggedout')[0]) {
+
+                    $('.referral-info').css('display', 'none');
+
+                    $('.referrAfriendButton').css('display', 'none');
+
+                    $(".referrAfriend").css('display', 'none');
+
+                } 
+
+                if ($('.loggedin')[0]) {
+
+                    $('a.sf_applybtn').css('display', 'none');
+
+                    $(".referrAfriend").css('display', 'inline-block');
+
+                } 
+
+            });
+
+
+
+        
+
+    
+
+    jQuery(document).ready(function() {
+
+        $(".referrAfriendButton span").text("Refer a Candidate");
+
+    });
+
+    
+
+          
+
+
+
+jQuery(document).ready(function() {
+
+    $('.referrAfriendButton').click(function(){
+
+            setTimeout(function() {
+
+             if ($('.k-window-title').is(':visible')) {
+
+                $('.k-widget.k-window').attr('tabindex', '0');
+
+                $('.k-widget.k-window').css('z-index', '99999999');
+
+                $('.k-widget.k-window').attr('aria-label', 'draggable window');
+
+                $('iframe.k-content-frame').attr('title', 'Refer a Candidate');
+
+                $('.k-window-actions a').attr('aria-label', 'close modal window');
+
+                $('.k-window-actions a').attr('id', 'closeButton');
+
+                $('.k-window-actions a').attr('tabindex', '0');
+
+                $('.k-window-actions a span').attr('aria-hidden', 'true');
+
+
+
+                 window.addEventListener('message', function(e) {
+
+                    var iframe = $("iframe.k-content-frame"); //even better if you add an ID to the iframe
+
+                    var eventName = e.data[0];
+
+                    var data = e.data[1]; // Just if you want validate the action value
+
+                    switch(eventName) { // Just in case that you will need add another action to listening
+
+                        case 'tabAction':
+
+                            setTimeout(function() {
+
+                                window.parent.document.getElementById("closeButton").focus();
+
+                            }, 0);
+
+                        break;
+
+                    }
+
+                }, false);
+
+
+
+
+
+            }
+
+        }, 2250);  
+
+    })
+
+})
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+  if (($(window).width() Refer A Candidate');
+
+    }
+
+    else {
+
+       // Do Nothing
+
+    }
+
+
+
+    $('.referrAfriendButton').on('click',function(e){
+
+        if( $(this).hasClass('disabled') ){
+
+            alert('This page is currently unavailable from a mobile device.  Please use a desktop to refer your candidate. ');
+
+        }
+
+        else{
+
+        // Do nothing  
+
+        };
+
+    });
+
+
+
+
+
+
+
+  if ($('.sf_referbtn')[0]) {
+
+     $('.sf_referbtn').attr({
+
+         href: '#',
+
+         disabled: 'disabled'
+
+     });
+
+     $('.sf_referbtn').addClass('disabled');
+
+    }
+
+    else {
+
+       // Do Nothing
+
+    }
+
+
+
+    $('.sf_referbtn').on('click',function(e){
+
+        if( $(this).hasClass('disabled') ){
+
+            alert('This page is currently unavailable from a mobile device.  Please use a desktop to refer your candidate. ');
+
+        }
+
+        else{
+
+        // Do nothing  
+
+        };
+
+    });
+
+
+
+-->
+
+
+

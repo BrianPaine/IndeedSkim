@@ -1,0 +1,2837 @@
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  <!--
+
+
+
+
+
+
+
+	
+		
+			/*');setTimeout(function(){d.capturing=!0;a()},0)}function k(a,b){var e=f.getElementsByTagName("script")[0],c=f.createElement("script"),d;for(d in a)c[d]=a[d];b&&c.setAttribute("class",b);e.parentNode.insertBefore(c,e)}var d=e.Mobify={},c=d.Tag={};d.points=[+new Date];d.tagVersion=[7,0];c.ua=e.navigator.userAgent;c.getOptions=h;c.init=function(a){c.options=a;if(""!==g("mobify-path"))if(m(),a.skipPreview||"true"!=g("mobify-path")&&!/mobify-path=true/.test(e.location.hash)){var b=h(a);if(b){var d=function(){b.post&&b.post()};a=function(){b.pre&&b.pre();k({id:"mobify-js",src:b.url,onerror:n,onload:d},"mobify")};!1===b.capture?a():l(a)}}else l(p)}})(window,document);(function(){var e="//cdn.mobify.com/sites/jtv-mobile/production/adaptive.min.js";var t="//cdn.mobify.com/sites/jtv-tablet/production/adaptive.min.js";Mobify.Tag.init({mode:function(e){if(/ipad|android(?!.*mobile)/i.test(e)){return"tablet"}else if(/ip(hone|od)|android.*(mobile)|blackberry.*applewebkit|bb1\d.*mobile/i.test(e)){return"smartphone"}return"desktop"},smartphone:{url:e},tablet:{url:t},desktop:{capture:false,url:"//a.mobify.com/jtv-tablet/a.js"}})})();/*]]>*/
+		
+	
+
+
+
+	
+
+
+
+Careers - Business Analytics Data Analyst | JTV
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	try { 
+		if (window.external.msIsSiteMode()) {
+			//update the badge value
+			window.external.msSiteModeRefreshBadge();
+			
+			// ICON RIGHT CLICK BEHAVIOR 
+			window.external.msSiteModeClearJumplist(); // clear the list 
+			window.external.msSiteModeCreateJumplist('Shopping'); // create a shopping list
+
+			
+			
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+			
+
+	        window.external.msSiteModeShowJumpList(); // display the list
+
+
+			// ICON HOVER BEHAVIOR 
+			btn1 = window.external.msSiteModeAddThumbBarButton("http://demandware.edgesuite.net/aaby_prd/on/demandware.static/Sites-jtv-Site/-/default/dw7e5f6ca9/images/favicon_32x32.ico", 'Home'); // show these 4 buttons
+			btn2 = window.external.msSiteModeAddThumbBarButton("http://demandware.edgesuite.net/aaby_prd/on/demandware.static/Sites-jtv-Site/-/default/dwfda36d00/images/ie9/icon_myaccount.ico", 'Account');
+			btn3 = window.external.msSiteModeAddThumbBarButton("http://demandware.edgesuite.net/aaby_prd/on/demandware.static/Sites-jtv-Site/-/default/dw5d0cd8f3/images/ie9/icon_wishlist.ico", 'Wishlist');
+			btn4 = window.external.msSiteModeAddThumbBarButton("http://demandware.edgesuite.net/aaby_prd/on/demandware.static/Sites-jtv-Site/-/default/dw23ba4e19/images/ie9/icon_cart.ico", 'Cart');
+
+			document.addEventListener('msthumbnailclick', handler1, false); // handle button clicks
+			function handler1 (btn) {
+				switch(btn.buttonID)
+				{
+					case 1:
+						parent.location.href = "http://www.jtv.com/on/demandware.store/Sites-jtv-Site"; // display page when button clicked
+						break;
+					case 2: 
+						parent.location.href = "/login";
+						break;
+					case 3:
+						parent.location.href = "https://www.jtv.com/on/demandware.store/Sites-jtv-Site/default/Wishlist-Show";
+						break;
+					case 4:
+						parent.location.href = "/on/demandware.store/Sites-jtv-Site/default/Cart-Show";
+						break;
+					default:
+						alert('Unknown Button');
+				}
+			}
+			window.external.msSiteModeShowThumbBar();    
+
+			function iconCounter() // show number of items in cart as overlay 
+			{
+				jQuery.getJSON("/on/demandware.store/Sites-jtv-Site/default/Cartcount-Start", function(data){
+					window.external.msSiteModeSetIconOverlay(data.icon, 'Cart');
+					window.external.msSiteModeActivate();
+				});
+			}
+			
+		}
+		else if($.browser.msie && parseInt($.browser.version) === 9) {
+			jQuery(document).ready(function() { 
+				jQuery('body').prepend('Drag this Demandware icon to your taskbar for easy access and recieve special discounts.');
+			});
+		}
+	} catch (e) { 
+		if(typeof(console) !== 'undefined') {console.log(e);}
+	}
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var s_account="jtvdwprod";
+
+
+ 
+ 
+ 
+  	
+	var jsPath = "http://demandware.edgesuite.net/aaby_prd/on/demandware.static/Sites-jtv-Site/-/default/v1507564480784/js";
+	var libPath = "http://demandware.edgesuite.net/aaby_prd/on/demandware.static/Sites-jtv-Site/-/default/v1507564480784/lib";
+	var loadedLibs = new Array();
+	
+	//Load a browser object in the jQuery object to keep functionality similar to deprecated $.browser
+	if (jQuery){
+		var browser = {			
+			msie: null,
+			version: 0
+		}
+		browser.msie = navigator.userAgent.match(/MSIE/i) === null ? false : true;
+		if(browser.msie){
+			browser.version = navigator.userAgent.match(/MSIE [0-99]+\.*[0-99]*/i);
+			browser.version = browser.version[0].substr(5, browser.version[0].length);
+		}
+		
+		jQuery.browser = browser;
+	}
+	
+	if (!Array.prototype.indexOf) { 
+	    Array.prototype.indexOf = function(obj, start) {
+	         for (var i = (start || 0), j = this.length; i = 0) return;
+			switch (lib){
+				case 'jcarousel':
+					if (typeof jQuery.jcarousel === "undefined"){			
+						deferJS(library.jcarousel);
+					}
+					break;
+					
+				case 'blockui':
+					if (typeof jQuery.blockUI === 'undefined'){
+						deferJS(library.blockui);
+					}
+					break;		
+				case 'qtip':
+					if (typeof jQuery.qtip === 'undefined'){
+						deferJS(library.qtip);
+					}
+					break;					
+				case 'lightbox':
+					if (typeof jQuery.lightBox === 'undefined'){
+						deferJS(library.lightbox);
+					}
+					break;
+					
+				case 'mcgzoom':
+					if (typeof jQuery.mcgZoom === 'undefined'){
+						deferJS(library.mcgzoom);
+					}
+					break;
+				case 'validate':
+					if (typeof jQuery.validate === 'undefined'){
+						deferJS(library.validate);
+					}
+					break;
+					
+				case 'swfobject':
+					if (typeof swfobject === 'undefined'){
+						deferJS(library.swfobject);
+					}
+					break;		
+				case 'tooltip':
+					if (typeof jQuery.tooltip === 'undefined'){
+						deferJS(library.tooltip);
+					}
+					break;		
+				case 'certonamanager':
+					if (typeof certonaInfoManager === 'undefined'){
+						loadJS(library.certonamanager);
+					}
+					break;
+				case 'dotdotdot':
+					if (typeof jQuery.dotdotdot === 'undefined'){
+						loadJS(library.dotdotdot);
+					}
+					break;						
+				case 'app':
+					loadJS(library.app);
+					break;
+				case 'mcgia':
+					loadJS(library.mcgia);
+					break;
+				default:
+					deferJS(library[lib]);
+					break;
+			}
+			
+
+		}catch(e) {
+			
+		}
+		loadedLibs[loadedLibs.length] = lib;
+	}
+	
+	function deferJS(scriptLocation) {
+		 (function(d) {
+			 var element = document.createElement("script");
+			 element.id = scriptLocation.replace(/^.*[\\\/]/, '');
+			 element.type = 'text/javascript';
+			 element.async = true;
+			 element.src = scriptLocation;
+			 d.getElementsByTagName('head')[0].appendChild(element);
+		 })(document);
+	}
+	
+	function loadJS(scriptLocation) {
+		document.write('');
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+load_js_lib('jqueryui');
+load_js_lib('jcarousel');
+load_js_lib('validate');
+load_js_lib('mcgzoom');
+load_js_lib('lightbox');
+load_js_lib('mcgia');
+load_js_lib('flyout');
+// load_js_lib('jtvscripts'); removed per https://www.pivotaltracker.com/story/show/131102321
+load_js_lib('mtagconfig');
+load_js_lib('app');
+load_js_lib('redesign');
+load_js_lib('blockui')
+load_js_lib('swfobject');
+load_js_lib('qtip');
+load_js_lib('dotdotdot');
+load_js_lib('modernizr');
+*/
+
+
+
+var _caq = _caq || [];
+var ca = document.createElement("script");
+ca.type = "text/javascript";
+ca.async = true;
+ca.id = "_casrc";
+ca.src = "//t.channeladvisor.com/v2/50000219.js";
+var nottheletter_s = document.getElementsByTagName("script")[0];
+nottheletter_s.parentNode.insertBefore(ca, nottheletter_s);
+
+
+$(function() {
+app.URLs.loadingSmallImg = "http://demandware.edgesuite.net/aaby_prd/on/demandware.static/Sites-jtv-Site/-/default/dwd9e2a894/images/quickview/QV_Loading.gif";
+MiniCart.url = '/on/demandware.store/Sites-jtv-Site/default/Cart-MiniAddProduct';
+});
+
+
+
+
+  certonaBaseURL = 'www.res-x.com/ws/r2/resonance.aspx?appid=jtv01&';
+
+
+
+
+/* Use of the cdata tag helps this script validate, since it lives inside an xml document */
+/*  */
+
+
+
+
+	
+	
+	  var gts = gts || [];
+	
+	
+	
+	  gts.push(["id", "228079"]);
+	  gts.push(["locale", "en"]);
+	  gts.push(["google_base_subaccount_id", "3538403"]);
+	  gts.push(["google_base_country", "us"]);
+	  gts.push(["google_base_language", "en"]);
+	
+	  (function() {
+	    var scheme = (("https:" == document.location.protocol) ? "https://" : "http://");
+	    var gts = document.createElement("script");
+	    gts.type = "text/javascript";
+	    gts.async = true;
+	    gts.src = scheme + "www.googlecommerce.com/trustedstores/gtmp_compiled.js";
+	    var firstScriptNode = document.getElementsByTagName("script")[0];
+	    firstScriptNode.parentNode.insertBefore(gts, firstScriptNode);
+	  })();
+	
+	
+	
+		var dataLayer = dataLayer || [];
+	
+		if(dataLayer != null) {
+			dataLayer.push ({
+				'googleTrustedStoresBadge': {
+					'id': '22879',
+					'locale': 'en',
+					
+					'google_base_subaccount_id' : '3538403'
+				}
+			});
+		}
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.twoColRight .contentRow{width: 100%;}.threeColContent .contentRow{width: 100%;}.oneItem .hl_container{width:98%;}.twoItem .hl_container, .twoItem .mini_container{width:49%;}.threeItem .hl_container, .threeItem .mini_container{width:33%;}.fourItem .hl_container, .fourItem .mini_container{width:24.5%;}.fiveItem .hl_container, .fiveItem .mini_container{width:19%;}.sixItem .hl_container, .sixItem .mini_container{width:16%;}.sevenItem .hl_container, .sevenItem .mini_container{width:13%;}.eightItem .hl_container, .eightItem .mini_container{width:13.9%;}.nineItem .hl_container, .nineItem .mini_container{width:10.98%;}.tenItem .hl_container, .tenItem .mini_container{width:9.8%;}.tall{height:auto;}.seo_footer { border: 1px solid #CCCCCC; font: 1.1em Helvetica, Arial, sans-serif; padding: 10px; width: 96%; height: auto;}/***** Positioning attributes *****/.left, .topLeft, .bottomLeft {float: left; clear: left;}.center {text-align: center; display: block; clear: both; margin: 0 auto;}.right, .topRight, .bottomRight {float: right; clear: right;}/***** General Highlights *****/.hl_container {display: inline; float: left; width: auto; margin-bottom: 3px;}.hl_border {border-left: 1px dashed #cccccc; min-height: 180px; height: auto; margin-bottom: 12px;}.hl_container h2.hl_title {padding-left: 2px;}.hl_container h3.hl_title {font: normal 1.8em Georgia, Times, serif; color: #0E4069; margin-bottom: 2px; padding: 0 3px 0 15px ;}.hl_container h3.hl_title a {color: #0E4069; text-decoration: none; padding-right: 9px; background: url(/on/demandware.static/Sites-Site/Sites-jtv-Library/default/v1267633311144/styles/heading_arrow.gif) no-repeat center right;}.hl_container h3.hl_title a:hover{color: #333; text-decoration: none;}.hl_container img.hl_image {border: none;}.hl_container p.hl_copy{font-size: 1.1em; padding-left: 15px; margin: -5px 0 0 0; width: auto;}.hl_container select {font-size: 1.0em;}.hl_container ul.hl_link, .hl_container ul.hl_dd_link {text-align: left; margin-top: 8px; padding: 2px 8px 0 7px;}.hl_container ul.hl_link {width: auto; margin-bottom: 5px;}.hl_container ul.hl_link.left {clear: none;}.hl_container ul.hl_dd_link {width: 145px;}.hl_container ul.hl_link li, .hl_container ul.hl_dd_link li {font: normal 1.1em Helvetica, Arial, sans-serif;}.hl_container ul.hl_dd_link li {margin-bottom: 6px;}.hl_container ul.hl_dd_link li select{width: 110px;}.hl_container ul.hl_link li a {display: block; padding-left: 15px; line-height: 1.35em; color:#333333}/*** headlines ***/.hl_container ul.top-list {width: auto; margin-bottom: 0; padding-bottom: 5px; border-bottom: 1px dashed #cccccc;}.hl_container ul.top-list.solid {width: auto; margin-bottom: 0; padding: 0; border-bottom: 1px solid #cccccc;}.hl_container ul.top-list li {display: inline; padding-right: 6px;}.hl_container ul.top-list li h1, .hl_container ul.top-list li h2, .hl_container ul.top-list li h3, .hl_container ul.top-list li h4, .hl_container ul.top-list li h5, .hl_container ul.top-list li h6 {display: inline;}.hl_container ul.top-list li h1 a {font-weight: normal; text-decoration: none; background-image: none; padding: 0;}.hl_container ul.top-list li h1.hl_title {font: normal 1.6em Georgia, "Times New Roman", Times, serif;}.hl_container ul.top-list li h2.hl_title {font: normal 1.8em Georgia, "Times New Roman", Times, serif; margin-bottom: 1px; background: none; text-decoration: none;}.hl_container ul.top-list li h2.hl_title a {font-weight: normal; text-decoration: none; background-image: none; padding: 0; width: auto;}.hl_container ul.top-list li a {font-weight: bold; padding-left: 8px; background: url(/on/demandware.static/Sites-Site/Sites-jtv-Library/default/v1267633311144/styles/li_arrow.gif) no-repeat center left;}/***** Mini-highlights *****/.mini_container {width: auto; float: left; display: inline; height: auto; max-height: 135px; margin: 10px 0; padding: 0; text-align: center;}.mini_border {border-left: 1px dashed #cccccc;}.mini_border_white {border-left: 1px dashed #ffffff;}.mini_image {text-align: center;}.mini_image.center {display:inline;}.mini_image.top {position: relative; left: 0;}.mini_container h3.mini_title {font-size: 1.1em; font-weight: bold !important; min-width: auto; margin: 3px 0; padding: 0 4px;text-align:center;font-family:Arial;}.mini_container h3.mini_title.bottom {position: relative; left: 0;}.mini_container h3.mini_title a, .mini_container h3.mini_title a:hover {color: #333; text-decoration: underline;}.mini_container ul.hl_dd_link {text-align: left; margin-top: 8px; padding: 2px 8px 8px 7px;}/*** containers for 2x2 ***/.tl_container {width: auto; float: left;}.tr_container {width: 311px; float: right;}.btm_container {width: 370px; float: none;}/*** clear divs ***/.clear_widget{clear: both; height: 35px; width: 100%; margin: 15px 0;}.clear_section {clear: both; height: 12px; width: 100%; margin: 7px 0;}.clear_row {width: 99%; border-bottom: 1px dashed #cccccc; clear: both; height: 1px; width: 99%; margin: 10px 0 15px; display: block;}.clear_copy {clear: left; height: 1px; width: 1%;}/***** LINE DRAW *****/.line {border-bottom: 1px dashed #cccccc; margin: 10px 0;}.noline, .noline_top, .noline_right, .noline_left, .noline_bottom {border:none; }.noline, .noline_bottom {border: none; margin: 0; height: 1px;}h1.hl_title .bigLetter{font-size:1.6em;}h1.hl_title .littleWord{font-size:1.3em;}/***** Carousel ******/.productcarousel{text-align:center;}.productcarousel p.productimage{text-align:center;}.productcarousel .name{padding-bottom:5px;}.productcarousel .name a{font: bold 1.2em #333333 Helvetica, Arial, sans-serif;text-decoration:none;}.productcarousel .name a:hover{text-decoration:underline;}.productcarousel .pricing{font-weight:bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+
+
+
+
+
+
+
+
+
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PW7HCQ'); -->
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+  document.createElement('video');document.createElement('audio');document.createElement('track');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+window.lpTag=window.lpTag||{};if(typeof window.lpTag._tagCount==='undefined'){window.lpTag={site:'91057978'||'',section:lpTag.section||'',autoStart:lpTag.autoStart===false?false:true,ovr:lpTag.ovr||{},_v:'1.5.1',_tagCount:1,protocol:location.protocol,events:{bind:function(app,ev,fn){lpTag.defer(function(){lpTag.events.bind(app,ev,fn);},0);},trigger:function(app,ev,json){lpTag.defer(function(){lpTag.events.trigger(app,ev,json);},1);}},defer:function(fn,fnType){if(fnType==0){this._defB=this._defB||[];this._defB.push(fn);}else if(fnType==1){this._defT=this._defT||[];this._defT.push(fn);}else{this._defL=this._defL||[];this._defL.push(fn);}},load:function(src,chr,id){var t=this;setTimeout(function(){t._load(src,chr,id);},0);},_load:function(src,chr,id){var url=src;if(!src){url=this.protocol+'//'+((this.ovr&&this.ovr.domain)?this.ovr.domain:'lptag.liveperson.net')+'/tag/tag.js?site='+this.site;}var s=document.createElement('script');s.setAttribute('charset',chr?chr:'UTF-8');if(id){s.setAttribute('id',id);}s.setAttribute('src',url);document.getElementsByTagName('head').item(0).appendChild(s);},init:function(){this._timing=this._timing||{};this._timing.start=(new Date()).getTime();var that=this;if(window.attachEvent){window.attachEvent('onload',function(){that._domReady('domReady');});}else{window.addEventListener('DOMContentLoaded',function(){that._domReady('contReady');},false);window.addEventListener('load',function(){that._domReady('domReady');},false);}if(typeof(window._lptStop)=='undefined'){this.load();}},start:function(){this.autoStart=true;},_domReady:function(n){if(!this.isDom){this.isDom=true;this.events.trigger('LPT','DOM_READY',{t:n});}this._timing[n]=(new Date()).getTime();},vars:lpTag.vars||[],dbs:lpTag.dbs||[],ctn:lpTag.ctn||[],sdes:lpTag.sdes||[],ev:lpTag.ev||[]};lpTag.init();}else{window.lpTag._tagCount+=1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+	 
+
+	
+
+	
+
+	
+
+		
+
+			 
+
+				
+
+
+
+
+	 
+
+
+	
+
+
+
+ 
+
+
+
+	
+
+		 /* Top Bar */    body { border-top: none; }        /* Sprinkles */    #siteheader #topline {        background: url('http://demandware.edgesuite.net/aaby_prd/on/demandware.static/-/Sites-jtv-Library/default/dw7ddc1248/promo/2017Q4/bg-birthday-masthead@2x.png');        background-size: contain;         background-position: top center;         background-repeat: no-repeat;         padding-top: 6px;     }         /*Search Button */     .j-button.searchButton {         background-color: #23ACD5 !important;     }         /* Nav */     #navbararea, #navBarContainer {         background-color: #23ACD5;     }     #siteheader ul#navBar li.navMenuItem>div {         border: 1px solid #f6f6f6;         border: 1px solid rgba(255,255,255,.3);     }     ul#navBar .TVLogo, ul#navBar .TVLogo:hover {         box-shadow: none !important;         background-color: #23ACD5 !important;     }         /* My Account #siteheader #account #acctmenu a, .tiny-arrow-down { color: #23ACD5 !important; } */ /* Mini Cart .carticon, #siteheader #socialaccountcart #minicartheader a { color: #23ACD5 !important; } */         /* Live Chat Button */     #lpChat .lp_survey_area .lp_buttons_area .lp_close_survey_button, #lpChat .lp_survey_area .lp_buttons_area .lp_next_button, #lpChat .lp_survey_area .lp_buttons_area .lp_submit_button, .lp_mobile #lpChat>.lp_maximized>.lp_header, .lp_tablet #lpChat>.lp_maximized>.lp_header, .lp_desktop #lpChat>.lp_maximized>.lp_header, .LPMcontainer.LPMoverlay {         background-color: #23ACD5 !important;     }         /* Footer */     #footer {         border-top: solid 4px #23ACD5;     }         /* Logo */     .bday-logo {         float: left;         padding: 1px 4px 4px 4px;     }         /* Textbar Fix */    .textbar-container {        height: auto !important;    }    .textbar-text, .textbar-details {        line-height: 1 !important;        vertical-align: top !important;    }    .textbar-details, .textbar-details a {        vertical-align: top !important;        line-height: 1 !important;        top: 1px !important;    }    /* Masthead Fix */    .tagline, .subtagline, .links { text-align: center !important; }    .tagline {        font-family: 'Lato', sans-serif !important;        margin: 18px auto 0 auto !important;    }    .subtagline, .links {        font-family: 'Lato', sans-serif !important;        margin: 0 auto !important;    }    .subtagline {font-size: 16px !important;}    .links {display: block !important; margin: 2px auto 0 auto !important;}                    
+
+	
+
+ 
+	
+
+			
+
+			
+
+				
+
+
+
+	 
+
+
+	
+
+
+
+ 
+
+
+
+	
+
+		 .subtagline {font-family: Arial, Helvetica, sans-serif;font-size: 19px;font-weight: bold;color: #d7295f;text-decoration: none;font-style: normal;margin-top: 0px;margin: 0 0 0 55px; line-height: 19px;  }.tagline {color: #d7295f;font-family: Arial,Helvetica,sans-serif;font-size: 21px;font-style: normal;font-weight: bold;line-height: 19px;margin: 27px 0 0 55px;text-decoration: none; line-height: 25px; }.links {font-family: Arial, Helvetica, sans-serif;font-size: 11px;font-weight: normal;color: #999;text-decoration: underline;font-style: normal;margin: 0 0 0 55px;line-height: 11px; }.links a { font-weight: normal; color: #999; text-decoration: underline; font-style: normal; }.links a:hover { font-weight: normal; color: #333; text-decoration: underline; font-style: normal; }.links a:visted { font-weight: normal; color: #666; text-decoration: underline; font-style: normal; }SAVE an EXTRA 15%on Clearance Items!DETAILS
+
+	
+
+ 
+	
+
+			
+
+		
+
+		
+
+			
+
+				
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+	
+
+		
+
+		       
+
+            
+
+                0&nbsp;Items
+
+            
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+var mc_top = 0;
+
+var v = parseInt($("#mc_content").css("top"),10);
+
+mc_top = isNaN(v) ? 0 : v;
+
+setMiniCartMargin();
+
+
+
+$(window).scroll(function() {
+
+	setMiniCartMargin();  	
+
+});
+
+
+
+function setMiniCartMargin() {	
+
+	if($(window).scrollTop() > mc_top+10) {		
+
+		var top =  ($(window).scrollTop());
+
+		$("#mc_content > div").css("margin-top", top-mc_top-10 + "px");
+
+	} else {
+
+		$("#mc_content > div").css("margin-top", "0px");
+
+	}  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		 
+
+		
+
+			
+
+			
+
+				
+
+					
+
+						
+
+							
+
+								
+
+									View Your Cart &raquo;
+
+								
+
+							
+
+						
+
+						
+
+					
+
+				
+
+				
+
+				
+
+					
+
+				
+
+			
+
+			
+
+		
+
+	
+
+	
+
+
+
+
+
+ 
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+				
+
+				
+
+				
+
+							
+
+				
+
+				
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+My Account
+	 
+								
+		
+			
+	
+		Login to see your information  &raquo;
+		New Customer? Create an Account  &raquo;
+	
+
+			Order Status
+			Wish List
+		
+						
+	 
+
+
+
+
+				
+
+				
+
+				
+
+					800-581-3002
+
+					
+
+
+	jtv blog
+
+
+
+ 								 
+
+				
+
+			
+
+			
+
+				
+
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+		
+
+		
+
+		
+
+		
+
+			Search
+
+		
+
+	
+
+	
+
+
+
+	
+
+	
+
+	
+
+	
+
+	 var cx = '013357202174079907832:hgu8q31ukkh';
+
+	 var key = 'AIzaSyCNcvOq3RqiSLFEKk1r1JeplRhx0BbvjYQ';
+
+	 var sayt_params = {
+
+	    country: 'us',
+
+	    language: 'en',
+
+	    extra_params: {
+
+	      safe: false
+
+	    }
+
+	  };
+
+	  var setSaytCallback = function(sayt) {
+
+	    if (sayt == null) {
+
+	      if (typeof(console) !== 'undefined') {
+
+	      		console.log('sayt is null');
+
+	      }
+
+	    } else {
+
+	      window['__gcs_sayt'] = sayt;
+
+	      completionObject = sayt['completionController'];
+
+	    }
+
+	  };
+
+	// Autocomplete options
+
+	  var autoCompletionOptions = {
+
+	    'maxCompletions' : 5,
+
+	    'styleOptions' : {
+
+	       xAlign: 'left'
+
+	     }
+
+	  };
+
+	 // this adds the calls to the sites input box for SAYT
+
+	 //SAYT_box is the id of the input box
+
+	 //searchForm is the id of the form SAYT_box belongs to
+
+	 if( typeof(setupSayt) !== 'undefined') {
+
+		setupSayt(cx, key, 'q', 'searchform', setSaytCallback, autoCompletionOptions, sayt_params);
+
+	   }
+
+	 
+
+	 
+
+	 	
+
+	 
+
+	 
+
+	 //SiteCatalyst analytics.  this is done here by hyjacking the submit because of
+
+	 //site search redirects.  theres another piece on the landing page.
+
+	 $("#searchform").submit(function(event){
+
+		 if($("#q").val()){
+
+			if(typeof(mcgia_o) == "object"){
+
+				mcgia_o.searchterm($("#q").val());
+
+				mcgia_o.search();
+
+				s.events = "event64";
+
+				s.tl();
+
+			}
+
+		 }
+
+		 else{
+
+			mcgia_o.searchterm(null);
+
+			}
+
+		 return true;
+
+		 
+
+	 });
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+				
+
+			
+
+		
+
+	
+
+	
+
+		
+
+		
+
+	
+		
+		
+			
+				
+					
+	 
+
+
+	
+
+
+
+ 
+
+
+
+	
+
+		ul#navBar li .sub_lists ul li a {width: 100%;color: #333;text-align: left;line-height: 15px;height: 15px;font-size: 11px;text-decoration: none;text-transform:none;}ul#navBar li .sub_lists ul li a:hover {text-decoration: underline;}.sub_lists ul {padding-right: 15px;}.dropdown-links-wrapper {	float:left;}.dropdown-link-col {	display:inline-block;	float:left;	vertical-align:top;	color: rgb(85, 85, 85);	font-family:Arial,Helvetica,sans-serif;	font-size:11px;	margin:10px 0 0 0;	padding:0px 14px;	text-transform:uppercase;}.dropdown-link-col-header {	display:block;	vertical-align:top;	color: rgb(85, 85, 85);	font-family:Arial,Helvetica,sans-serif;	font-size:11px;	text-transform:uppercase;	font-weight: bold !important;	letter-spacing: normal;	margin: 5px 0;}.col-border {	border-right: 1px solid #ddd;}.dropdown-top-padding {padding-top:10px;}#andiv {	width: 500px;}.watchlive-menu-container {	padding:16px;	min-width:500px;	width:auto;}.da-explainer {	color: #454545;	font-weight: bold;	line-height: 1.2 !important;	max-width: 130px;	text-transform: none;	width: auto;}	    			                       	Happening Now				Watch Us Live				Recent Items				Weekly Product Recap				Program Guide				Channel Finder                                           	            	Specialty Shows                                American Beauty Star                                Girlfriend Friday                                Looks for Less                                Personalized Style                                Primetime Gemstones                                Rockafellas                                Meet Our Hosts                                    JTV Extra                                Upcoming Shows                                JTV Experience                                 &nbsp;                Drop Auctions                                Drop Auctions                                 We provide the product and you pick the price!                          					        
+
+	
+
+ 
+	
+				
+				
+					tvAIRING NOW
+					
+				
+			
+		
+		
+		
+			
+				
+					
+	 
+
+
+	
+
+
+
+ 
+
+
+
+	
+
+		.jewelry-menu-container {	min-width: 760px;	width:auto;	padding:10px;}            	                        	Shop by Type				Rings				Earrings				Bracelets								Necklaces				Watches				Jewelry Sets                                Jewelry Accessories				New Jewelry				Jewelry Sale				Men's Jewelry				Children's Jewelry				All Jewelry                                            	            	Shop by Gemstone				Amethyst Jewelry                                                              Chrome Diopside Jewelry				                                Diamond Jewelry				Moissanite Fire Jewelry				Morganite Jewelry				Opal Jewelry				Pearl Jewelry                                Spinel Jewelry                                Quartz Jewelry                                                         	Tanzanite Jewelry				Topaz Jewelry				All Gemstone Jewelry                                                            	Specialty Stores<!-- Spring Trends -->Gold Jewelry              Online Exclusives				Opportunity Buys                                Fashion Jewelry				Bridal Jewelry				Estate Jewelry				Metal Jewelry				Animal Jewelry                                 Birthstone Jewelry                               The Vault	                               Design Your Own Engagement Ring			                   				                            		                        	JTV Brands and Collections				Artisan Gem Collections				Bella Luce				Genusis Pearl Jewelry                                Moda Al Massimo				Off Park Jewelry				Park Avenue Diamonds				Southwest Style Jewelry                                Splendido Oro								Timna Jewelry Collection				Vanna K Jewelry				All Jewelry Brands                              
+
+	
+
+ 
+	
+				
+				
+					jewelry
+				
+			
+		
+
+		
+			
+				
+					
+	 
+
+
+	
+
+
+
+ 
+
+
+
+	
+
+		.gemstones-menu-container {	padding:10px;    width:auto;	min-width:770px;}          	                        Shop by type        	Loose Gemstones            Gemstone Kits            Sets and Parcels            Matched Pairs            Mineral Specimens            Settings            Gemology Tools            Gemstone Education            Gemstone Sale            All Gemstones                                                            Shop by stone            Amethyst            Apatite            Aquamarine            Citrine             Chrome Diopside            Demantoid            Emerald            Fluorite             Garnet            Kunzite            Moissanite                                                           &nbsp;            Morganite            Opal            Peridot             Rhodolite             Ruby             Sapphire            Spinel            Tanzanite            Topaz            Tourmaline            Zultanite                                                            Specialty Stores            Created Gemstones            Precious Gems | The VaultOnline Exclusives                       Unique Gems            Sonja Kreis Designs            Sisk Gemological Reference                                                                    Brands &amp; Collections            The Presidents Collection            Build A Bargain            Cor-de-Rosa Morganite            Masasi Blue Garnet            Masasi Bordeaux Garnet            Zandrite            Colheita Fire Opal            Gemvue            Gemoro                             
+
+	
+
+ 
+	
+				
+				
+					gemstones
+				
+			
+		
+
+		
+			
+				
+					
+	 
+
+
+	
+
+
+
+ 
+
+
+
+	
+
+		.jewelschool-menu-container {        padding:10px;        min-width:750px;		width:auto;}	                				            	Beads by type				Bead Sets				Bead Strands				Bead Strand Sets				Glass				Man Made				Natural							        					            	Shop by brand				Art Clay&trade;				Beadalon&reg;				JOOLTOOL&trade;				Soft Flex				Wubbers					        					            	Shop by type				Beads				Jewelry Making Kits				Jewelry Making Tools				Findings &amp; Accessories				Storage &amp; Organization				Jewel School Outlet                                 Project Kits						        					Education &amp; resources            					Books and DVDs				Free Jewel School Projects				Jewel School Blog				Jewel School Glossary				Watch Project Videos						        					            	Experts				Dale Armstrong				Wyatt White				Patti Bullard				Jackie Truty						    		
+
+	
+
+ 
+	
+				
+				
+					jewel school
+				
+			
+		
+
+		
+			
+				
+					
+	 
+
+
+	
+
+
+
+ 
+
+
+
+	
+
+		.gifts-menu-container {	min-width:560px;	width:auto;	padding:10px;}	    					            	Shop by typeGifts for Her		Gifts for HimGifts for Children	Jewelry StorageJewelry Accessories	All Gifts					        					            	Shop by brand				Mele & Company				Cross                                Case                                Wolf						        					            	Gifts by price				Gifts under $25				Gifts $25-$50				Gifts $50-$100				Gifts $100-$250				Gifts $250-$500										            	Occasion		Wedding Gifts	                              					        
+
+	
+
+ 
+	
+				
+				
+					gifts
+				
+			
+		
+
+		
+			
+				
+					
+	 
+
+
+	
+
+
+
+ 
+
+
+
+	
+
+		.clearance-menu-container {	min-width:460px;	width:auto;	padding:10px;}            	                        Shop by type            Jewelry            Rings            Loose Gemstones            Jewel School            Gifts            All Clearance                        	                        Shop Deals<!-- Red Tag - Extra 40% Off!White Tag - Extra 25% Off!Blue Tag - Extra 15% Off! -->            Best Deals - Extra 25% Off!            Brand Sale           &nbsp;                Drop Auctions                                Drop Auctions                                 We provide the product and you pick the price!                                                      <!---->                        Shop by price        	Under $25            $25 - $50            $50 - $100            $100 - $250            $250 - $500            $500 and up                                    <!--                         Shop by % off            20% off            30% off            40% off            50% off            60% off                    -->        
+
+	
+
+ 
+	
+				
+				
+					clearance
+				
+			
+		
+
+		
+			
+				
+					
+	 
+
+
+	
+
+
+
+ 
+
+
+
+	
+
+		.learninglibrary-menu-container {	min-width:210px;	width:auto;	padding:10px;}            	        	        	            Featured Articles            Articles by Category            Glossary            Gemopedia            Gemstone Enhancement            Jewelry Education            Free Jewel School Projects            JTV Blog            JTV Experts            JTV Collections                              
+
+	
+
+ 
+	
+							
+				
+					learning library
+				
+			
+		
+		 
+	
+
+
+
+	/* Use of the cdata tag helps this script validate, since it lives inside an xml document */
+	/* ]>/g;
+		codesRegex = /&.+;/g;
+		text = elem.html().replace(tagsRegex, '').replace(codesRegex, '');
+		return text;
+	}
+
+	jQuery("#navBar").find("li a.navHead").click(
+			function(obj) {
+				var a;
+				a = jQuery(obj.target);
+				navBarReportLink(obj.target, navBarGetChildText(a),
+						navBarGetChildText(a));
+			});
+
+	jQuery("#navBar").find("li div.nav_content a").click(
+			function(obj) {
+				var elem, a;
+				a = jQuery(obj.target);
+				elem = a.parents("li.navMenuItem").find("a.navHead");
+				navBarReportLink(obj.target, navBarGetChildText(elem),
+						navBarGetChildText(a));
+			});
+
+	function navBarReportLink(target, linkText, headerText) {
+		var s, lt, targetLink;
+		targetLink = (target.nodeName.toLowerCase() == 'a') ? target.href
+				: jQuery(target).parents('a').attr('href');
+		s = s_gi(s_account)
+		s.linkTrackVars = 'eVar13,prop26';
+		s.eVar13 = headerText;
+		s.prop26 = linkText + ": " + headerText;
+		lt = (targetLink) ? s.lt(targetLink) : '';
+		if (!lt) {
+			s.tl(target, 'o', 'Header Link');
+		}
+	}
+	/* ]]> */
+	
+	$(document).ready(function() {
+		//Find every middle align
+		$("#navBarContainer").find(".nav_malign").each(function(index) {
+			var left_offset=0;
+			var right_offset=0;
+			var max_adjust=0;
+			var adjustmentNeeded=0;
+			//calculate total left offset from the navBarContainer
+			$(this).parentsUntil("#navBarContainer").each(function() {
+				left_offset += $(this).position().left;
+			});
+			
+			//Find the right offset
+			right_offset = $("#navBarContainer").width() - (left_offset + $(this).width());
+			adjustmentNeeded = ((right_offset + left_offset)/2)-left_offset;
+			max_adjust = $(this).parent().width() - $(this).width();
+			if (adjustmentNeeded > 0) { //Guarantee its not pushed too far to the right
+				$(this).removeClass("nav_malign");
+				$(this).addClass("nav_lalign");
+			} else if (adjustmentNeeded < max_adjust) { //Guarantee its not pushed too far to the left
+				$(this).removeClass("nav_malign");
+				$(this).addClass("nav_ralign");  
+			} else {
+				$(this).css("margin-left", adjustmentNeeded);
+			}
+		});
+	});
+
+
+
+
+
+		
+
+	
+
+	
+
+		
+
+		
+	 
+
+
+	
+
+
+
+ 
+
+
+
+	
+
+		
+
+	
+
+ 
+	
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+	
+
+		jQuery("#welcome").html("Hello, Guest");
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+    About JTV
+
+     
+
+        About
+
+        Company History
+
+        Careers
+
+        Meet The Hosts
+
+        Executive Bios
+
+        Affiliates
+
+        JTV Experts
+
+        JTV Reviews
+
+        Press Center
+
+    
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+	
+
+			
+
+			
+
+				
+
+					
+
+								
+
+							
+
+								
+
+								
+
+														
+
+																
+
+							
+
+						
+
+						
+
+					
+
+					
+
+					
+
+				
+
+						
+
+					
+
+					
+
+						
+
+						
+
+
+Business Analytics Data AnalystOverview:Jewelry Television® (JTV) is one of the leading retailers of jewelry and gemstones in the United States. Privately-held with a proven 23-year history, JTV leverages an omni-digital strategy designed to elevate the customer experience through holistic, digitally-driven touch points, including broadcasting live programming 24 hours a day, seven days a week to 86 million U.S. households, an industry leading mobile optimized e-commerce platform, and a robust social media presence. As part of its commitment to the development and distribution of educational content and consumer satisfaction, the company employs numerous Graduate Gemologists and Accredited Jewelry Professionals. Employees enjoy the opportunity to perform in a fast paced, high energy environment.The Analytics Database Developer position is a technical, hands-on role. The position is responsible for building JTV’s Business Analytics Data environment, including development, deployment and monitoring of Business Analytics’ database environment. This position will work closely with the Enterprise Data Warehouse (EDW) team. The ideal candidate will have experience in developing schema objects, designing complex data structures from unstructured data, and administering the entire Oracle environment.The Database Developer will be primarily be responsible for building necessary data aggregates for the Business Analytics team. The Database Developer will develop deep knowledge of JTV’s transactional datasets and be able to interpret and prepare datasets for the Business Analytics team. The candidate will also contribute to knowledge base of the software engineers who develop and design the enterprise data warehouse, applications, and reporting. They will also work on tuning the database for performance, availability and migrating the databases as part of consolidation.Responsibilities and Accountabilities:•	Identify, develop, manage, and execute analyses and econometric modeling to uncover areas of opportunity and present written business recommendations that will help shape the future of JTV.  Report on key insights and trends using statistical rigor to simplify and inform the larger team of noteworthy story lines;•       Work with cross-departmental teams to become a source of pure knowledge and a leader in quantitative and statistical analysis.  Analyze and solve business problems at their root, stepping back to understand the broader context;•	Recognize and adopt best practices in reporting and analysis: data integrity, test design, analysis, validation, and documentation.  Develop solutions that utilize the highest standards of analytical rigor and data integrity;•	Use data mining, model building, and other analytical techniques to develop predictive models.  Write high quality code to retrieve and analyze data;•	Learn and understand a broad range of JTV’s data resources and know how, when, and which to use;•	Drive development of quantitative and statistical models necessary for evaluation and implementation of new strategies with product managers. Build scalable database solutions when required; •	Manage and execute entire projects or components of large projects from start to finish including project management, data gathering and manipulation, synthesis and modeling, problem solving, and communication of insights and recommendations;•	Experience with statistical analysis, regression modeling and forecasting, time series analysis, data mining, financial analysis, dynamic pricing, demand modeling, game theory and customer/product segmentation;•	Participate in periodic reviews with JTV Executive Leadership team;•	Lead process management changes that result from analysis and ensure the changes are implemented throughout organization.Basic Qualifications & Education•	Bachelor’s degree or advanced degree in Economics, Business Analytics, Mathematics, Statistics, or related field;•	Experience solving complex quantitative business challenges; •	Experience in the development of pricing analysis or merchandising analysis is a strong plus;•	Verbal/written communication & data presentation skills, including an ability to effectively communicate with both business and technical teams;•	Working knowledge of accounting, financial, operational, and marketing principles;•	Experience using R, Stata, SQL, and databases in a business environment with large-scale, complex datasets;•	Comfortable performing exploratory data analysis independently;•	Demonstrated problem solving ability with emphasis on drawing inferences with data;•	Ability to learn and quickly apply new tools and techniques; •	Strong desktop business software skills (Excel, Access, PowerPoint, macros);  •	Works under limited supervision, using established procedures•	Advanced knowledge of PCs and related software applications;•	Excellent interpersonal and verbal/written communication skillsProfessional traits that are not unique to this position, but necessary for JTV leaders•	Exhibits solid business judgment; •	Has relentlessly high standards;•	Dives deep into complex issues but has capacity to distill into concise business recommendations;•	Thinks strategically and can demonstrate tactical execution;•	Thinks big and is willing to defend a position;•	Has exceptional listening skillsPlease send interest and resumes to: Halie SharpeEmail: halie.sharpe@jtv.com 
+
+
+
+
+
+
+
+
+					 
+
+					
+
+						
+
+					
+
+				
+
+			
+
+		
+
+	
+
+		var cid = "careers-business-analytics-data-analyst";
+
+		var matchString1 = "help";
+
+		var matchString2 = "meet";
+
+
+
+		if (cid.toLowerCase().indexOf(matchString1) == -1 && cid.toLowerCase().indexOf(matchString2) == -1){
+
+			jQuery('.accountSummaryHeader').css('display', 'none');
+
+			jQuery('#acct_info_wrapper').css('border-style', 'none');
+
+		}				
+
+	
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+
+ 
+
+  
+
+  	
+
+    
+
+      
+
+        
+
+            
+
+                
+
+                	
+
+						
+
+					
+
+									
+
+                
+
+                	
+
+                		
+
+                	
+
+                					
+
+				
+
+					
+
+						
+
+					
+
+											
+
+				
+
+					
+
+						
+
+					
+
+												
+
+                
+
+                	
+
+                		
+
+                	
+
+                					
+
+				
+
+					
+
+						
+
+					
+
+						            
+
+            
+
+        
+
+        
+
+        
+
+	        
+
+                
+
+                	
+
+                		
+
+                	
+
+                	
+
+						
+
+							Subscribe
+
+						
+
+					
+
+                
+
+	        
+
+ 		
+
+ 		
+
+         
+
+        	
+
+				
+
+					
+
+				
+
+				
+
+					
+
+				
+
+				
+
+					
+
+				
+
+			
+
+ 		
+
+ 		 		
+
+      
+
+    
+
+  
+
+  	
+
+  	
+
+  	
+
+  	
+
+    	
+
+        	
+
+        		 
+
+        			
+	 
+
+
+	
+
+
+
+ 
+
+
+
+	
+
+		                                    JTV Preferred Account -->            No Payments + No Interest if paid in full in 6 months on all JTV Preferred Account purchases.                        800-581-3002                                                                                                                          &copy;2000-2017 America's Collectibles Network, Inc. All Rights Reserved.
+
+	
+
+ 
+	
+
+				
+
+				
+
+					
+	 
+
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+    
+        Shop JTV
+        
+            Jewelry
+            Gemstones
+            Jewelry Making
+            Gifts
+            Clearance
+        
+    
+    
+        Watch JTV
+        
+            Watch Us Live
+            Channel Finder
+            Program Guide
+            Meet Our Hosts
+        
+    
+    
+        Learn
+        
+            Learning Library
+            Featured Articles
+            Glossary
+            Gemopedia
+            Jewel School Videos
+        
+    
+        
+        About Us
+        
+            About Us
+            Closed Captioning
+            Privacy Policy
+            Terms and Conditions
+            Careers
+        
+    
+    
+    
+        Help
+        
+            Help Page
+            Order Status
+            Contact Us
+            Site Map
+             Track Your Return
+            
+        
+    
+    
+	
+
+		
+
+	
+
+ 
+	
+
+				
+
+				
+
+      		
+
+      	
+
+    
+
+ 
+
+ 
+
+   JTV on Google+
+
+   
+
+   
+
+
+ 
+
+
+
+
+
+
+
+
+	
+		
+		
+		
+		
+			
+				
+					
+						
+	 
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  		
+
+	
+
+		
+
+		  
+
+			
+
+			  
+
+			    
+
+							
+
+					
+
+				
+
+			  
+
+			
+
+		  
+
+	
+
+
+
+
+
+
+
+  
+
+	var carousel    = new Object();
+
+	carousel.id     =  'hc_home1_rr';
+
+	carousel.scheme = 'home1_rr';
+
+	if(document.title === "Shopping Cart"){
+
+	 carousel.onClick = "mcgia_o.evarClick(\"eVar53\", \"Shopping Cart\")";
+
+	} else {
+
+	 carousel.onClick = "mcgia_o.evarClick(\"eVar53\", \" category horizontal\")";
+
+  }
+
+	var args                = new Object();
+
+	args.carousels          = [carousel];
+
+	
+
+	var cch = new certonaCarouselHandler();
+
+	cch.init(args);
+
+
+
+	certonaInfoManager.addScheme("home1_rr");
+
+	
+
+	certonaInfoManager.setRetailCategory("");
+
+	
+
+
+
+	certonaInfoManager.addListener(cch.loadCarousels);
+
+
+
+
+
+
+
+ 
+	
+					
+					
+				
+			
+		
+		
+			
+				
+					
+						
+						
+							
+							
+								
+					                0&nbsp;Items
+					            
+							
+							
+							  
+							  
+							
+						
+						
+							
+							My Wish List
+							
+							  
+							  
+							
+						
+					
+					
+					
+					
+						Close 
+						
+							Item
+							Description
+							Qty.
+							Price
+						
+						
+						
+							
+
+
+
+
+
+
+						
+						
+						
+						
+							
+								Estimated Order Total:
+								0
+								Total Due Today:
+								0
+								edit your cart
+								
+							
+						
+					
+					
+					
+					
+						Close 
+						
+							Item
+							Description
+							Qty.
+							Price
+						
+						
+						
+						
+						
+						
+							
+							
+								Page
+									
+										1
+									
+								of 1
+							
+							
+							edit wish list
+							
+						
+					
+				
+			
+		
+	
+
+	
+
+
+//*****Left Buttons Logic*****
+
+//Variables
+var newDiv;
+var anonTag;
+var newImg;
+var itemWrapper;
+var leftButtons;
+var wishlistInitilized = false;
+
+//Request buttons
+//Test Code
+leftButtons = [{
+	"title":"Recently Viewed Items",
+	"blue_icon_url":"http://demandware.edgesuite.net/aaby_prd/on/demandware.static/Sites-jtv-Site/-/default/dwd879ca17/images/icon_recentlyviewed.png",
+	"white_icon_url":"http://demandware.edgesuite.net/aaby_prd/on/demandware.static/Sites-jtv-Site/-/default/dwf92a353b/images/icon_recentlyviewed_white.png"
+}];
+
+//*****Right Buttons Logic*****
+var wishListPageSize = 5;
+var mfwishlist = {"WishListProducts":"0"};
+var mfwsnpages = 1;
+
+//********* Wish List *********
+
+//Build Wish List, and update pagination
+$(document).ready(function() {
+	//Display buttons
+	for (var i=0; i<leftButtons.length; i++) {
+		newDiv = document.createElement("div");
+		newDiv.id = "magicFooterLeftButton" + i;
+		var clockIcon = $('');
+		$(newDiv).append(clockIcon);
+		var newDivHTML = $(newDiv).html();
+		$(newDiv).html(newDivHTML + "" + leftButtons[i].title + "");
+		newDiv.className = "magicFooterLeftButton magicFooterButton";
+		var mgfRightIcon = $('');
+
+		if (document.getElementById('magicFooterMenuBar') != null) {	
+			document.getElementById('magicFooterMenuBar').appendChild(newDiv);
+			$(document.getElementById("magicFooterLeftButton" + i)).append(mgfRightIcon);
+		}
+	}
+	//Some variation of this will need to be called every time any button is opened
+	//Click JSON Button 0: open content
+	$('#magicFooterLeftButton0').click(function() {
+		toggleActive(".magicFooterContent", "#magicFooterLeftButton0");
+	});
+
+	//Quick State check/init stuff
+	if (state == undefined || state == "menu" || state == "") {
+		state = "menu";
+		$("#magicFooterMenuBar").removeClass("magicFooterClosed");
+		$('#magicFooterArrowUp').addClass('magicFooterHiddenIcon');
+		$('#magicFooterArrowDown').removeClass('magicFooterHiddenIcon');		
+	}
+	if (msieversion() > 10 || msieversion() == 0) {hasCSS3 = true;}
+	else {$(".magicFooterTransition").css("transition", "none");}
+});
+
+function initWS() {
+	$.getJSON("/on/demandware.store/Sites-jtv-Site/default/Serialize-WishList", function(list) {
+		mfwishlist = list;
+		WishListPage(1);
+		mfwsnpages = Math.ceil(mfwishlist.WishListProducts.length / wishListPageSize);
+		
+		//Pagination magic
+		if (mfwishlist.WishListProducts.length > wishListPageSize) {
+			for (i=2; i itemEnd ? itemEnd : mfwishlist.WishListProducts.length); 
+	
+	for (var i=itemStart; i";
+		mfButton.appendChild(anonTag);
+		itemWrapper.appendChild(mfButton);
+		
+		if (document.getElementById('magicFooterWishListPopUpMain') != null) {
+			document.getElementById('magicFooterWishListPopUpMain').appendChild(itemWrapper);
+			//NOTE: This is SUPER ugly hack to get IE7 to actually display the table.  I'd love to change this to something more intelligent.  This is both the solution and source of my problems in IE7....
+			$("#magicFooterWishListPopUpMain").children().last().html($("#magicFooterWishListPopUpMain").children().last().html());
+		}
+	}
+	
+	//Add To Cart Wrapper
+	$(".add-to-cart").click(function() {
+		window.location.href = '/on/demandware.store/Sites-jtv-Site/default/cart-AddProduct?pid=' + this.name;
+	});
+}
+
+//Wish List Selection Change
+$("#mFWLS").change(function() {
+	WishListPage ($("#mFWLS").val());
+});
+
+//Wish List Navigation
+function MFNav (direction) {
+	var mFNum = parseInt($("#mFWLS").val());
+	var mFTarget = "#mFWLSO" + mFNum; 
+	$(mFTarget).removeAttr('selected');
+	mFNum = mFNum + direction;
+	mFTarget = "#mFWLSO" + mFNum;
+	$("#mFWLS").val(mFNum);
+	$(mFTarget).attr('selected','selected');
+	WishListPage (mFNum);
+}
+
+//Button Navigation Left
+$("#mFWLNL").click(function() {
+	if ($("#mFWLS").val() > 1) {
+		MFNav(-1);
+	}
+});
+
+//Button Navigation Right
+$("#mFWLNR").click(function() {
+	if ($("#mFWLS").val()  0) {      // If Internet Explorer, return version number
+		return parseInt (ua.substring (msie+5, ua.indexOf (".", msie )));
+	} else {             // If another browser, return 0
+		return 0;
+	}
+}
+
+function animateOpen (target) {
+	$(target).removeClass("magicFooterClosed");
+	if (hasCSS3 == false) {
+		$(target).slideDown(animationSpeed, function() {});
+	}	
+}
+
+function animateClose (target) {
+	if (hasCSS3 == false) {
+		$(target).slideUp(animationSpeed, function() {});//$(target).addClass("magicFooterClosed");
+	} else {
+		$(target).addClass("magicFooterClosed");
+	}
+}
+
+function giveButtonFocus (target) {
+	$(target).addClass('magicFooterActiveParent');
+	$(target + 'BlueIcon').addClass('magicFooterHiddenIcon');
+	$(target + 'WhiteIcon').removeClass('magicFooterHiddenIcon');
+}
+
+function removeButtonFocus (target) {
+	$(target).removeClass('magicFooterActiveParent');
+	$(target + 'WhiteIcon').addClass('magicFooterHiddenIcon');
+	$(target + 'BlueIcon').removeClass('magicFooterHiddenIcon');
+}
+
+function toggleActive (caller, callerParent) {
+	if (active == "none") {
+		$(caller).css("z-index", "1");
+		animateOpen (caller);
+		giveButtonFocus(callerParent);
+		state = "active";
+		active = caller;
+		activeParent = callerParent;
+		s.prop27 = "Full State View";
+		s.tl();
+		if (caller == ".magicFooterCartPopUp") {//Analytics for when people view the cart
+			mcgia_o.fireevent("scView");
+			mcgia_o.writeEvents();
+		}
+	} else {
+		animateClose (active);
+		$(active).css("z-index", "-1");
+		removeButtonFocus(activeParent);
+		
+		if (caller != "none" && caller != active) {
+			animateOpen (caller);
+			$(caller).css("z-index", "1");
+			giveButtonFocus (callerParent);
+			state = "active";
+			active = caller;
+			activeParent = callerParent;
+		} else {
+			state = "menu";
+			active = "none";
+			activeParent = "none";
+		}
+	}
+}
+
+//Click arrow logic
+$('.magicFooterArrow').click(function() {
+	//Logic: If (its open) Then {close everything} else {open menu bar}
+	switch (state) {
+	case "closed":
+		animateOpen ('#magicFooterMenuBar');
+		$('#magicFooterArrowUp').addClass('magicFooterHiddenIcon');
+		$('#magicFooterArrowDown').removeClass('magicFooterHiddenIcon');
+		state="menu";
+		break;
+	case "menu":
+		animateClose ('#magicFooterMenuBar');
+		$('#magicFooterArrowDown').addClass('magicFooterHiddenIcon');
+		$('#magicFooterArrowUp').removeClass('magicFooterHiddenIcon');
+		state="closed";
+		break;
+	case "active":
+		toggleActive ("none");
+		break;
+	}
+	setCookie("state", state, 1);
+});
+
+//View Cart
+$('#magicFooterCart').click(function() {
+	toggleActive(".magicFooterCartPopUp", "#magicFooterCart");
+});
+//Close Button
+$('#magicFooterCartClose').click(function() {
+	toggleActive(".magicFooterCartPopUp", "#magicFooterCart");
+});
+
+//View Wish List
+$('#magicFooterWishList').click(function() {
+	if (!wishlistInitilized) {
+		initWS();
+		wishlistInitilized = true;
+	}
+	toggleActive(".magicFooterWishListPopUp", "#magicFooterWishList");
+});
+//Close Button
+$('#magicFooterWishListClose').click(function() {
+	toggleActive(".magicFooterWishListPopUp", "#magicFooterWishList");
+});
+
+function RefreshCart() {
+	$.get("/on/demandware.store/Sites-jtv-Site/default/Cart-FooterRefresh", function (cartHTML) {
+		$("#magicFooterCartPopUpMain").html(cartHTML);
+	});
+	$.getJSON("/on/demandware.store/Sites-jtv-Site/default/Serialize-CartInfo", function(cart) {
+		$("#magicFooterCartText").text(cart.ItemCount + " Item(s)");
+		$("#mfcpubrEstimate").text(cart.Estimate);
+		$("#mfcpubrTotal").text(cart.Total);
+	});
+}
+
+//***Analytics! Hooray!***
+function gotoCheckout () {
+	mcgia_o.fireevent("scCheckout");
+	mcgia_o.writeEvents();
+	window.location.href="https://www.jtv.com/on/demandware.store/Sites-jtv-Site/default/Cart-MiniCheckout"
+}
+
+function gotoCart () {
+	window.location.href="https://www.jtv.com/cart"
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+mcgia_o.setTaggingStatus(0);
+
+
+
+
+
+mcgia_o.setEvarAndReleaseCookie('eVar13');
+
+mcgia_o.setEvarAndReleaseCookie('eVar53');
+
+mcgia_o.setEvarAndReleaseCookie('eVar57');
+
+
+
+mcgia_o.write();
+
+
+
+
+
+
+
+
+
+
+
+_satellite.pageBottom();
+
+
+
+// */
+// -->
+
+
+
+
+
+
+
+
+

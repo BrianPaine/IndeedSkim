@@ -1,0 +1,762 @@
+
+
+
+
+	
+
+	
+
+	
+
+	State of Utah
+
+	
+
+#header ul li.active a span,
+
+#feature .center,
+
+#feature h2,
+
+#feature p#button a,
+
+#primary-photo span,
+
+#contact h3 a {
+
+	behavior: url('iepngfix.htc');
+
+}
+
+
+
+#feature .center {
+
+   background: url(/agencypageassets/utah/feature1.png) right bottom no-repeat;
+
+}
+
+
+
+#header {
+
+   background: none;
+
+   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/agencypageassets/utah/ie/header_bg.png', sizingMethod='scale');
+
+}
+
+
+
+#header ul li.active {background: none;}
+
+
+
+#header ul li.active a,
+
+#header ul li a:hover {
+
+   background: url(/agencypageassets/utah/header-select.gif) left top no-repeat;
+
+}
+
+
+
+#header ul li a, #header ul li a span {
+
+   float: left;
+
+   cursor: pointer;
+
+}
+
+
+
+/* --------------------------- HOMEPAGE */
+
+
+
+#feature p#button a {
+
+   cursor: pointer;
+
+}
+
+
+
+#top ul#callouts li h3 a {
+
+   font-size: 70%;
+
+}
+
+
+
+#bottom #stories ul li a img {
+
+   float: left;
+
+}
+
+
+
+ul.sub-categories li h3 {
+
+	font-size: 125%;
+
+}
+
+
+
+iframe#neogovApp {
+
+   float: left;
+
+}
+
+
+
+/* --------------------------- FOOTER */
+
+
+
+#contact {
+
+	background: none;
+
+	border-bottom: 1px solid #23395c;
+
+}
+
+
+
+#legal {
+
+	background: none;
+
+	border-top: 1px solid #23395c;
+
+}
+
+
+
+/*#navigation {
+
+	border-top: 1px solid #112544;
+
+}*/
+
+.template {
+
+    color: black;
+
+    font-family: "Times New Roman",Times,serif;
+
+    font-weight: normal;
+
+}
+
+.template_overage {
+
+    background-color: white;
+
+    color: red;
+
+    font-family: "Times New Roman",Times,serif;
+
+    font-weight: bold;
+
+}
+
+
+
+#bottom .CBMS_Header h4, #bottom .CBMS_SelectedList h4 {
+
+    color: #000000;
+
+    font-size: 12px;
+
+}
+
+#tblNEOGOVSearchCriteria {
+
+    clear: right;
+
+}
+
+.CBMS_Checklist {
+
+    border: medium none;
+
+}
+
+.CBMS_Checklist {
+
+    border: 1px solid #CCCCCC;
+
+    height: 10em;
+
+    list-style: none outside none;
+
+    overflow: auto;
+
+    width: 16em;
+
+}
+
+.CBMS_Checklist, .CBMS_Checklist li {
+
+    margin-left: 0;
+
+    padding: 0;
+
+}
+
+.CBMS_Checklist label {
+
+    display: block;
+
+    padding-left: 25px;
+
+    text-indent: -25px;
+
+}
+
+.CBMS_Checklist label:hover, .CBMS_Checklist label.hover {
+
+    background: none repeat scroll 0 0 #777777;
+
+    color: #FFFFFF;
+
+}
+
+* html .CBMS_Checklist label {
+
+    height: 1%;
+
+}
+
+.CBMS_Checklist {
+
+    margin-bottom: 0.4em;
+
+}
+
+.CBMS_Checklist {
+
+    font-size: 0.9em;
+
+    height: 12em;
+
+    width: 100%;
+
+}
+
+.CBMS_Checklist .alt {
+
+    background: none repeat scroll 0 0 #F5F5F5;
+
+}
+
+.CBMS_Checklist input {
+
+    vertical-align: middle;
+
+}
+
+.CBMS_Checklist label:hover, .CBMS_Checklist label.hover {
+
+    background: none repeat scroll 0 0 #DDDDDD;
+
+    color: #000000;
+
+}
+
+#selectedList h1 {
+
+    margin-bottom: -2em;
+
+}
+
+.CBMS {
+
+    padding: 0 !important;
+
+    width: 100% !important;
+
+}
+
+.CBMS_Header {
+
+    margin-bottom: 0;
+
+}
+
+.CBMS_Header h4 {
+
+    display: inline;
+
+}
+
+.CBMS_Helper {
+
+    float: right;
+
+    font-size: 0.9em;
+
+}
+
+.CBMS_Options {
+
+    clear: both;
+
+    width: 100%;
+
+}
+
+.CBMS_SelectedList {
+
+    color: #333333;
+
+    font-size: 0.9em;
+
+}
+
+.CBMS_SelectedList h4 {
+
+    display: inline;
+
+    margin-bottom: 0;
+
+}
+
+.NEOGOV_joblist, .gj-content{
+
+	width: 100% !important;
+
+	padding-right: 0;
+
+}
+
+.NEOGOV_joblist{
+
+	border: 1px solid black;
+
+}
+
+.PoweredByCell{
+
+	padding-bottom: 5px;
+
+}
+
+.recordset{
+
+	padding-top: 10px;
+
+}
+
+
+
+		
+
+
+
+Skip to Main Content
+
+
+
+
+
+	
+
+		
+
+			Job Opportunities
+
+
+	
+	
+
+	
+	
+
+
+
+	
+
+		
+
+			
+
+				
+
+			
+
+		
+
+	
+
+
+
+
+
+
+
+	
+
+		
+
+			
+
+	
+			
+				
+					Job #:
+				
+						
+							13600
+						
+					
+			
+		
+			
+				
+					Job Title:
+				
+						
+							Intelligence Analyst
+						
+					
+			
+		
+			
+				
+					Opening Date/Time:
+				
+							
+								
+									&nbsp;
+									Fri. 09/29/17 12:00 AM Mountain Time 
+							
+						
+			
+		
+			
+				
+					Closing Date/Time:
+				
+							
+								
+									&nbsp;
+									Mon. 10/09/17 11:59 PM Mountain Time 
+							
+						
+			
+		
+			
+				
+					Salary:
+				
+
+		
+
+	$15.95 - $29.75 Hourly
+
+							
+
+	
+
+
+			
+		
+			
+				
+					Job Type:
+				
+							
+								Full Time
+							
+						
+			
+		
+			
+				
+					Location:
+				
+							
+								Salt Lake County, Utah
+							
+						
+			
+		
+			
+				
+					Department:
+				
+							
+								180 Department of Public Safety
+							
+						
+			
+		
+			
+				
+					Number of Openings:
+				
+							
+								1 
+							
+						
+			
+		
+			
+				
+					Benefits:
+				
+							
+								This position is eligible for a full benefits package including medical, dental, life, and long-term disability insurance, a retirement plan, plus paid leave to include annual, sick, and holiday pay.  The State requires employees to receive their pay through direct deposit.  If selected, you will receive more information about these benefit options and enrollment information through our onboarding process and during your first week or two on the job. 
+							
+						
+			
+		
+			
+				
+					Criminal Background Check:
+				
+							
+								Selected applicants must be willing to provide authorization and information necessary for a full background investigation which may  include a polygraph. 
+							
+						
+			
+		
+			
+				
+					Driver License Requirements:
+				
+							
+								Employees hired for this recruitment will be subject to the Driver Eligibility standards found at the following link:  https://rules.utah.gov/publicat/code/r027/r027-007.htm#T3 
+							
+						
+			
+		
+			
+				
+					Physical Address:
+				
+							
+								410 West 9800 South, Sandy 
+							
+						
+			
+		
+			
+				
+					Recruiter Name:
+				
+							
+								Mary Christensen 
+							
+						
+			
+		
+			
+				
+					Recruiter Telephone Number:
+				
+							
+								801-965-4659 
+							
+						
+			
+		
+			
+				
+					Recruiter Email Address:
+				
+							
+								mjchristensen@utah.gov 
+							
+						
+			
+		
+			
+				
+					Overtime Exempt:
+				
+							
+								No 
+							
+						
+			
+		
+			
+				
+					Schedule Code:
+				
+							
+								TL - Time Limited - At will:  Employees in this position serve at the pleasure of the appointing officer in an at will status and may be terminated at any time without cause.  This is not a career service position. 
+							
+						
+			
+		
+			
+				
+					Schedule Code Description:
+				
+							
+								TL- Time Limited working at will of hiring official 
+							
+						
+			
+		
+			
+				
+					EEO Statement:
+				
+							
+								The State of Utah is an equal opportunity employer. Hiring is done without regard to race, color, religion, national origin, sex, sexual orientation, gender identity, age or disability. Reasonable accommodations provided to known disabilities of individuals in compliance with the Americans with Disabilities Act. For accommodation information or if you need special accommodations to complete the application process, contact the Dept. of Human Resource Mgmt. at 801-538-3025 or TTY 801-538-3696. 
+							
+						
+			
+		
+ 
+
+			
+
+				&nbsp;
+
+			
+
+		
+
+
+
+		
+
+			
+
+				
+
+						Print Job Information |
+
+					
+
+						Apply
+
+					
+
+				&nbsp;
+
+			
+
+			
+
+
+
+			
+
+
+
+			
+
+				
+
+					
+
+						
+
+							
+
+							
+
+								Job Description&nbsp;
+
+								
+
+									Benefits&nbsp;
+
+								
+
+									Supplemental Questions
+
+								
+
+							
+
+							&nbsp;
+
+						
+
+					
+
+				
+
+				
+
+					
+
+						
+
+							&nbsp;Intelligence Analyst - Statewide Information &amp; Analysis CenterAre you looking for a career rather than just a job? The Utah Statewide Information &amp; Analysis Center (SIAC) is the first step on your new career path. You'll be able to provide assistance to the diverse citizens and make a difference in our communities.General Duties:As an Intelligence Analyst, you will:	serve as an all-source intelligence analyst for the Utah Statewide Information &amp; Analysis Center (SIAC)	focus in an assigned subject area (i.e. Terrorism, gangs, drug trafficking, etc.)	access and analyze information gathered from databases and shared by local, state, tribal, and federal law enforcement and private sector partners	develop finished intelligence reports that are provided to federal, state, and local public safety entities and other partners	Monitor and review threat intelligenceIdeal CandidateThe ideal candidate will:	understand research methods, techniques, and/or sources of information	organize information in a clear and concise manner	speak clearly, concisely and effectively; listen to, and understand, information and ideas as presented verbally	compile, code, categorize, calculate, tabulate, audit, verify, or process information or dataPreference may be given to:	applicants with a college degree in a related field and/or experience	applicants who already possess a FBI/DHS secret/top secret clearance	current employees of the Utah Department of Public SafetyThe Agency:The&nbsp;Utah Statewide Information &amp; Analysis Center (SIAC) is a key piece of the overall mission to the Department of Public Safety. It&nbsp;is a public safety partnership designed to collect, analyze, and disseminate intelligence to protect Utahns.For more information on the Utah&nbsp;SIAC or the Department of Public Safety, please click this link: https://siac.utah.gov/&nbsp;
+
+						
+
+						
+
+							
+
+								
+
+									&nbsp;Supplemental Information:
+
+								
+
+							
+
+							
+
+								
+
+									Risks found in the typical office setting, which is adequately lighted, heated and ventilated, e.g., safe use of office equipment, avoiding trips and falls, observing fire regulations, etc.		Typically, the employee may sit comfortably to perform the work; however, there may be some walking; standing; bending; carrying light items; driving an automobile, etc. Special physical demands are not required to perform the work.
+
+							
+
+						
+
+					
+
+					  	&nbsp;
+
+					
+
+				
+
+			
+
+		
+
+	
+
+
+
+
+
+		
+
+	
+
+
+
+
+
+	var button = document.getElementById('ApplySearchButton');
+
+	button.setAttribute('type','submit');
+
+	button.setAttribute('value','Apply Search');
+
+
+
+
+

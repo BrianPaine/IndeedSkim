@@ -1,0 +1,438 @@
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	Data Reporting Analyst - ABC/Amega, Inc.
+
+	
+
+		* {
+
+			-webkit-box-sizing: border-box;
+
+			-moz-box-sizing: border-box;
+
+			box-sizing: border-box;
+
+		}
+
+		html {
+
+			font-family: sans-serif;
+
+			-ms-text-size-adjust: 100%;
+
+			-webkit-text-size-adjust: 100%;
+
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+		}
+
+		body, html {
+
+			font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+			font-size: 13px;
+
+			line-height: 1.42857143;
+
+			color: #333333;
+
+			background-color: #f6f6f6 !important;
+
+			padding-top: 2px;
+
+			padding-bottom: 4px;
+
+			margin: 0;
+
+		}
+
+		body {
+
+			padding-left: 20px;
+
+			padding-right: 20px;
+
+		}
+
+		a img {
+
+			border:none;
+
+		}
+
+		#outside {
+
+			text-align:left;
+
+			position:relative;
+
+			margin:16px auto;
+
+			max-width:900px;
+
+		}
+
+		#header {
+
+			font-size: 36px;
+
+		}
+
+		#header a {
+
+			color: black;
+
+			text-decoration: none;
+
+		}
+
+		#contentouter {
+
+			padding: 16px;
+
+			border-left: 1px solid #ccc;
+
+			border-top: 1px solid #ccc;
+
+			border-bottom: 1px solid #999;
+
+			border-right: 1px solid #999;
+
+			background-color: white;
+
+		}
+
+		#content {
+
+			clear: both;
+
+/*			padding-top: 10px;*/
+
+/*			font-size: 13px;*/
+
+/*			line-height: 16px;*/
+
+		}
+
+		#inner_footer {
+
+			text-align:center;
+
+			color: #444;
+
+			padding-top: 15px;
+
+			padding-bottom: 10px;
+
+			font-size: 10px;
+
+		}
+
+		#inner_footer a{
+
+			color: #444;
+
+			text-decoration: none;
+
+		}
+
+		@media (max-width: 768px) {
+
+			body, html {
+
+				padding: 0 !important;
+
+				background-color: #fff !important;
+
+			}
+
+			#outside {
+
+				margin:0 !important;
+
+				width: auto !important;
+
+			}
+
+			#contentouter {
+
+				border: 0;
+
+			}
+
+		}
+
+	
+
+	
+
+	
+
+	
+
+		
+
+		
+
+	
+
+	
+
+
+
+	
+
+			
+
+	
+
+	
+
+	
+
+		#contentouter {border:0;}
+
+		#outside {border:0;}
+
+		body {background-color:white;}		
+
+	
+
+
+
+
+
+
+
+	
+
+					
+
+			
+
+		
+
+		
+
+			
+
+				
+
+				
+
+				
+
+	// Load jQuery if not defined or less than version 1.9.1 (required by bootstrap)
+
+	var jquery_is_loaded = true;
+
+	if (typeof jQuery === 'undefined') {
+
+		jquery_is_loaded = false;
+
+	}
+
+	else{
+
+		var jquery_version = jQuery.fn.jquery.split(' ')[0].split('.');
+
+		if ((jquery_version[0] < 2 && jquery_version[1] < 9) || (jquery_version[0] == 1 && jquery_version[1] == 9 && jquery_version[2] < 1)) {
+
+			jquery_is_loaded = false;
+
+		}
+
+	}
+
+	if(!jquery_is_loaded){
+
+		load_script('https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js');
+
+	}
+
+	
+
+	// Load bootstrap if not loaded
+
+	if (typeof $.fn.popover != 'function'){
+
+		load_script('https://www2.applicantstack.com/links/bootstrap/all/js/bootstrap.js');
+
+		load_link('https://www2.applicantstack.com/links/bootstrap/all/css/bootstrap.css');
+
+		load_link('https://www2.applicantstack.com/links/bootstrap/all/css/bootstrap-theme.css');
+
+	}
+
+	
+
+	function load_script(src){
+
+		var h = document.getElementsByTagName('head')[0];
+
+		var e = document.createElement('script');
+
+		e.src = src;
+
+		h.appendChild(e);
+
+	}
+
+	function load_link(href){
+
+		var h = document.getElementsByTagName('head')[0];
+
+		var e = document.createElement('link');
+
+		e.rel = 'stylesheet';
+
+		e.type = 'text/css';
+
+		e.href = href;
+
+		h.appendChild(e);
+
+	}
+
+Job Openings &gt;&gt; Data Reporting AnalystData Reporting AnalystSummaryTitle:Data Reporting AnalystID:23Department:Information TechnologyDescription
+
+	Write easy to understand instructions for running reports
+
+	Write easy to read report explanation documents
+
+	Assist with the organization of report development
+
+	Assist with and/or run daily, weekly, monthly, quarterly, yearly reporting per client requirements
+
+	Assists in the creation, evaluation and testing of existing or new reports
+
+	Create basic database queries to extract data for reporting
+
+	Run weekly and monthly, automated and/or manual, reports for internal departments and clients of a more complex nature
+
+	Run one off reports for internal and external departments as needed
+
+	Gather requirements from end users and/or Clients as they pertain to new reports or changes to existing reports.
+
+	Provide analytical insight into generated reports and data as it pertains to the business of ABC-Amega.
+
+
+
+
+
+Required Education/Experience
+
+
+
+Bachelor&#39;s Degree in MIS, Math, Statistics, or Business and 0-3 years&#39; Experience.
+
+
+
+Must have experience in MS Excel, MS Access, and familiarity with VBA and basic SQL.
+
+
+
+What&rsquo;s In It For You?
+
+
+
+
+
+	Paid time off
+
+	Medical and Dental
+
+	401(k) with match
+
+	Free parking
+
+	Tuition reimbursement
+
+	Modern environment in a growing area in Buffalo
+
+	Flexible schedule (part time opportunities included!)
+
+	No weekends
+
+	Your birthday paid off!
+
+
+
+
+
+Other amenities in our building include:
+
+
+
+
+
+	On a bus route
+
+	Free weekly yoga
+
+	Activity room with a patio and pool table
+
+	A sandwich/salad caf&eacute;
+
+	Doggy day care
+
+	24 hour fitness center
+
+	Massage studio/spa
+
+	Salon
+
+
+
+&nbsp;&nbsp;Apply Now&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Refer to a Friend&nbsp;&nbsp;.buttons a, .buttons button{font-size:120%;}Alternatively, you can apply to this job using your profile on one of the following sites:
+
+
+
+(function(d, s, id) {
+
+var js, iajs = d.getElementsByTagName(s)[0];
+
+if (d.getElementById(id)){return;}
+
+js = d.createElement(s); js.id = id;js.async = true;
+
+js.src = "https://apply.indeed.com/indeedapply/static/scripts/app/bootstrap.js";
+
+iajs.parentNode.insertBefore(js, iajs);
+
+}(document, 'script', 'indeed-apply-js'));
+
+					
+
+				
+
+				
+
+			
+
+		
+
+	
+
+	
+
+		Copyright 2017 ABC/Amega, Inc.. All rights reserved.Powered by ApplicantStack&trade; Hiring Automation Software
+
+	
+
+
+
+
+
+
+

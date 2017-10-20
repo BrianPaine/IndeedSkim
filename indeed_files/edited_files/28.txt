@@ -1,0 +1,657 @@
+
+
+  
+    
+      
+    {"@context":"http://schema.org","@type":"JobPosting","url":"https://apply.pepsicojobs.com/jobs/129285BR/Data+Reporting+Sr+Analyst?lang=en-US","title":"Data Reporting Sr Analyst","description":"\n\n\nPosition Description:  The Accounting Operations Sr. Analyst provides insightful analysis of business activity related to Supplier Financial Services (SFS) within PepsiCo North America Shared Services (NASS). Key responsibilities include SQL query and VBA macro writing, and consolidating, analyzing and communicating data related to spend, trade liabilities, cash flow and Days Payable Outstanding (DPO). The position is also responsible for addressing performance gaps and opportunities through automation and performing ad hoc analyses that facilitate problem-solving and influence sound decision-making by the Business Units served by NASS. Primary customers include NASS leadership and associates, divisional controllers and PepsiCo cross-functional teams.   Key Responsibilities:\n\nUse in-depth knowledge and expertise with various querying and reporting tools and languages to mine, consolidate and analyze data for ad hoc requests and research assignments\nDevelop and refine queries and reports that address the unique and evolving needs of the Business Units\nIdentify and effect systems and process improvement opportunities through automation and participate in cross-functional collaboration to help develop and implement solutions\nResearch, analyze and explain cash flow impacts relative to Accounts Payable\nReview, analyze and report results on certain liability accounts for the Business Units on a period basis\nPrepare and analyze KPI's and interpret analytical findings\nProvide insights and analysis as needed in support of special projects\nManage one direct report\n\n The successful candidate will possess excellent analytical skills, be capable of building collaborative relationships to work effectively with others, and drive for results in a dynamic environment.   Minimum Job Requirements:\n\nDegree in related field of study (e.g., Finance, Mathematics, Information Systems, Engineering, etc) preferred\nAt least 5+ years of relevant business experience and practical exposure in some of the following roles: financial planning and analysis, data mining and root cause analysis, summary and interpretation of financial data\nHighly advanced Excel skills and proficiency in PowerPoint\nERP system reporting experience, preferably in both Oracle and SAP; BW experience a plus\nSQL query and VBA macro writing expertise\nDemonstrated excellent analytical skills\nStrong written and verbal communication skills\n\n\nAll qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, or disability status.PepsiCo is an equal opportunity employer Minorities/Females/People with Disabilities/Protected Veterans/Sexual Orientation/Gender Identity.  \nIf you'd like more information about your EEO rights as an applicant under the law, please download the available EEO is the Law (http://pep.jobs/eeo-poster) &amp; EEO is the Law Supplement (http://pep.jobs/eeo-poster-supplement) documents by copying and pasting the appropriate URL in the address bar of your web browser.\nTo view our Pay Transparency Statement, please click here: Pay Transparency Statement\nJob Ref: 129285BR\n\n","qualifications":"UNAVAILABLE","responsibilities":"UNAVAILABLE","skills":"UNAVAILABLE","workHours":"UNAVAILABLE","jobBenefits":"UNAVAILABLE","datePosted":"2017-10-03T00:05:53+0000","employmentType":"UNAVAILABLE","educationRequirements":"UNAVAILABLE","salaryCurrency":"USD","baseSalary":{"@type":"MonetaryAmount","currency":"USD","value":{"@type":"QuantitativeValue","minValue":0,"maxValue":0}},"industry":"UNAVAILABLE","hiringOrganization":{"@type":"Organization","name":"Pepsico","sameAs":"https://apply.pepsicojobs.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Plano","addressRegion":"TX","streetAddress":"UNAVAILABLE","postalCode":"UNAVAILABLE","addressCountry":"US"}}}
+
+    
+
+    
+
+
+
+
+
+
+
+Apply For Pepsico Data Reporting Sr Analyst job - Finance - Plano, TX
+
+
+
+
+  window.slug = '';
+
+
+
+  window.logoutRedirectUrl = '/jobs';
+
+
+
+  //(DH) Jibe data object init (do not remove)
+  window._jibe = {};
+  window._jibe.analytics = {};
+  window._jibe.env = 'prod';
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+    
+  // translations
+  window.i18n = {
+    DEFAULT_TRANSLATIONS: {"UI":{"NEARBY_HUNDRED_MILES":"within 100 miles","SKIP_TO_MAIN":"Skip to Main Content","NEARBY_FIVE_KM":"within 5 kilometers","CAREERS_TITLE":"{{companyName}} Careers","NEARBY_TEN_KM":"within 10 kilometers","CONTINUE":"Continue","NEARBY_TWENTYFIVE_KM":"within 25 kilometers","HEADER_LOGGED_IN":"Logged in as {{user}}","NEARBY_FIFTY_KM":"within 50 kilometers","HEADER_LOGOUT":"Logout","NEARBY_HUNDRED_KM":"within 100 kilometers","HEADER_TITLE":"{{companyName}} Apply","EXACT_LOCATION":"Exact location only","MENU_HOME":"Careers Home","MENU_LOGOUT":"Logout","LOGIN_ERROR":"You must be logged in to access your submitted applications.","SELECT_LANGS":"Select Language","MENU_SEARCH":"Search Jobs","NEXT":"Next","PREVIOUS":"Previous","JOIN_NOW":"Join Now","SHOW_FILTERS":"Show Filters","HIDE_FILTERS":"Hide Filters","JOIN_TALENTNETWORK":"Join our talent network","FILTERS":"Filters","JOIN_TALENTNETWORK_TAG":"and we will contact you when a job matches your skillset.","UNSUPPORTED":"We're sorry, but your browser is not supported. To use our site, we recommend using the latest version of Safari, Firefox, Chrome, or Internet Explorer. If you are using a later version of Internet Explorer, please make sure you are not in compatibility mode of an older version of the browser.","BACK_TO_TOP":"Back to Top","NEARBY_SELECT_EXACT_LOCATION":"Exact location only","NEARBY_SELECT_5_MILES":"within 5 miles","NEARBY_SELECT_MILES":"within {{nearbyDistance}} miles","NEARBY_SELECT_KM":"within {{nearbyDistance}} kilometers","NEARBY_SELECT_10_MILES":"within 10 miles","NEARBY_SELECT_15_MILES":"within 15 miles","NEARBY_SELECT_25_MILES":"within 25 miles","NEARBY_SELECT_50_MILES":"within 50 miles","NEARBY_SELECT_100_MILES":"within 100 miles","ACTIVE_FILTER_LABEL":"Active Filters","UPLOAD":"Upload","CLEAR_ALL_FILTERS":"Clear All","UNSUPPORTED_NEW":"A web browser is a piece of software on your computer. It lets you visit webpages and use web applications.\n                It's important to have the latest version of a browser. Newer browsers save you time, keep you safer, and let you do more online.\n                Try a different browser – all are free and easy to install\n                If you are using a later version of Internet Explorer, please make sure you are not in compatibility mode of an older version of the browser.\n                Click the Update Browser button above to see which browsers are available for your system and to download a new one","JOBAPPLY_ERROR":"An error occurred while attempting to apply to this job.","BY_PUBLIC_TRANSIT":"","BY_CAR":"","MINUTES":"mins","BACK":"Back","MILES":"Miles","KILOMETERS":"KM","EXACT":"Exact","FOOTER_CURRENT_YEAR":"&copy; {{currentYear}}","SUBMIT":"Submit","MORE_THAN":"More Than","CANCEL":"Cancel","HEADER_LOGIN":"Sign In","MENU_LOGIN":"Sign In","NEARBY_FIVE_MILES":"within 5 miles","NEARBY_TEN_MILES":"within 10 miles","NEARBY_TWENTYFIVE_MILES":"within 25 miles","NEARBY_FIFTY_MILES":"within 50 miles","HEADER_TITLE_STAGING":"{{companyName}} Apply","HEADER_TITLE_PROD":"{{companyName}} Apply"},"UPLOAD":{"ADDITIONAL_DOCS":{"HEADER":"Upload Additional Documents","DESCRIPTION":"If you have additional documents you would like to share, please choose from the options below to upload them. Otherwise, click \"Next\" to continue.","CHOOSE":"Select document type","RESTRICTIONS":"You can upload one file for each document type","PREVIOUS":"Select from previously uploaded files","OPTIONS_HEADER":"Or, upload a new document using one of the following:","PREVIOUS_HEADER":"Use a previously uploaded document:","TYPE_IN":"Type In Document"},"ERROR_MESSAGE":"There was an error uploading your resume.","CV":{"ERROR_MESSAGE":"There was an error uploading your cover letter.","CHOOSE":"Would you like to attach a cover letter?","CLIENT_INSTRUCTIONS":"If you have a cover letter, please choose from the options below to upload it.","OPTIONS_HEADER":"Or, upload a new cover letter using one of the following:","SAVE_AS_COVER_LETTER_TXT":"Your most current entry into this box will be saved as a link entitled cover_letter.txt and will be stored in Previously Uploaded Documents.","SAVE_AS_RESUME_TXT":"Your most current entry into this box will be saved as a link entitled resume.txt and will be stored in Previously Uploaded Documents.","BASIC_HEADER":"Or, enter your cover letter below:","EMAIL_HEADER":"Email Your Cover Letter","EMAIL_INSTRUCTIONS":"To submit your cover letter for this position, please complete one of the options below:","EMAIL_INSTRUCTIONS_FORWARD":"Forward an email with your cover letter attached to: {{email}}","EMAIL_INSTRUCTIONS_REPLY":"Or, reply to the email sent to {{email}} with your cover letter attached.","EMAIL_NOW":"My Cover Letter is Sent","EMAIL_CV_TEMPLATE":{"SUBJECT":"Your job application isn't complete!","BODY":"Hi,Thanks for starting your application to {{companyName}}.To complete your application you must:Reply to this email from your laptop or desktop computer with your cover letter attached.Thank you for your interest,The Recruiting Team"},"IN_PROGRESS":"Please wait while we upload your cover letter...","INSTRUCTIONS":"Upload a cover letter using one of the following:","MUST":"Please upload or select a saved cover letter to continue"},"REUSE":"Reuse this document","COVER_LETTER_ERROR":"There was an error uploading your cover letter.","RESUME_ERROR":"There was an error uploading your resume.","COVER_LETTER_HEADER":"Upload your Cover Letter","PREVIOUS_COVER_LETTER":"Select From Previous Cover Letters","EMAIL":"Email","APPLY_WITH_COVER_LETTER":"Apply With Cover Letter","APPLY_WITHOUT_COVER_LETTER":"Apply Without Cover Letter","RESUME":{"CLIENT_INSTRUCTIONS":""},"DOC_TYPES":{"COVER_LETTER":"Cover Letter","REFERENCE_LIST":"Reference List","LETTER_OF_RECOMMENDATION":"Letter of Recommendation","TRANSCRIPT":"Transcript","PORTFOLIO":"Portfolio","WRITING_SAMPLE":"Writing Sample","EMPLOYEMENT_CERTIFICATE":"Employment Certificate","CERTIFICATIONS":"Certifications","OTHER":"Other"},"SELECTED":"Upload Selected Document","AUTOFILL":"We will use your resume to autofill as much of your application as we can.","FILE_TYPES_HEADER":"Accepted file types:","FILE_TYPE_LIST":".pdf, .doc, .docx, .html, .rtf","FILE_SIZE_HEADER":"File Size:","FILE_SIZE_MAX":"Up to 1","RESUME_HEADER":"Upload Your Resume","PREVIOUS_RESUME":"Select From Previous Resumes","TYPE_IN":"Type-in Resume","TYPE_IN_HEADER":"Enter or paste your desired text","OPTIONS_HEADER":"Or, upload a new resume using one of the following:","PREVIOUS_HEADER":"Use a previously uploaded resume:","CHOOSE_ANOTHER":"","APPLY_WITH_RESUME":"Use Saved Resume or Upload New Resume","APPLY_WITHOUT_RESUME":"Apply without Resume","BASIC_HEADER":"Or, enter your resume below:","DROPBOX":"Dropbox","UPLOADED_FILES_HEADER":"Uploaded Files","EMAIL_HEADER":"Email Your Resume","EMAIL_INSTRUCTIONS":"To submit your resume for this position, please complete one of the options below:","EMAIL_INSTRUCTIONS_FORWARD":"Forward an email with your resume attached to: {{email}}","EMAIL_INSTRUCTIONS_REPLY":"Or, reply to the email sent to {{email}} with your resume attached.","EMAIL_LABEL":"Please enter your email address:","EMAIL_LATER":"I'll Send It Later","EMAIL_NOW":"My Resume is Sent","EMAIL_RESUME_TEMPLATE":{"SUBJECT":"Your job application isn't complete!","BODY":"Hi,Thanks for starting your application to {{companyName}}.To complete your application you must do one of the following:Forward an email from your mobile device with your resume attached to {{fromEmail}}ORReply to this email from your laptop or desktop computer with your resume attached.Thank you for your interest,The Recruiting Team"},"FILE_HEADER":"Files","FILE_NAME":"File Name","FILE_UPLOAD":"File Upload","FILES_PREVIOUS_DIRECTORY":"Previous directory","GOOGLE_DRIVE":"Google Drive","HOW_TO_PROCEED":"How would you like to proceed?","IN_PROGRESS":"Please wait while we upload your resume...","INSTRUCTIONS":"Upload a resume using one of the following:","INVALID_EMAIL":"You must enter a valid email address","LINKEDIN":"LinkedIn","PREVIEW_RESUME":"Preview Your Resume","PREVIOUSLY_UPLOADED":"Previously uploaded documents","WELCOME":"Welcome","WELCOME_THANKS":"Thank you for exploring career opportunities with {{companyName}}!","WELCOME_THANKS_AGAIN":"Thanks again for your interest.","MUST":"Please upload or select a saved resume to continue","TOO_SMALL":"The file you are trying to upload is too small, please verify you are using the right file and try again.","TOO_LARGE":"The file you are trying to upload is too large, please verify you are using the right file and try again.","WRONG_MIME_TYPE":"The type of file you are trying to upload is not supported, please try a different one.","EASYAPPLY-LINKEDIN-BUTTON":"Upload your resume using LinkedIn","EASYAPPLY-INSTRUCTIONS":"Please select a Resume Upload Option","EASYAPPLY-LINKEDIN-BUTTON-DESC":"By using LinkedIn we are able to quickly and efficiently pull all profile and job information with a single click.","EASYAPPLY-OTHER-OPTIONS":"Or, one of the following:"},"JOBS":{"404":"&nbsp;","LESS":"Less","NEARBY_CITIES_EMPTY":"No openings nearby.","FILTER_LOCATIONS_LINK":"Locations","APPEND_MORE":"More Results","NEARBY_CITY":"Nearby Locations","APPLY":"Apply","APPLY_NOW":"Apply Now","MORE_BRANDS":"More brands...","BROWSING":"Browse jobs by","LESS_BRANDS":"Less brands...","CATEGORIES_LINK":"Categories","CATEGORY_SEARCH_PLACEHOLDER":"All categories","BRAND_SEARCH_PLACEHOLDER":"All brands","CITY_HEADER":"By City","COUNTRY_HEADER":"By Country","CURRENT_LOCATION":"Your current location","CURRENT_LOCATION_DENIED":"Your browser settings have prevented us from using your current location. Please enable locations and try again.","CURRENT_LOCATION_ERROR":"Your browser was unable to retrieve your current location.","DESCRIPTION_HEADER":"Job Description","DID_YOU_MEAN":"Did you mean ","FILTER":"Filter","FOR":"for","HIDE_DESCRIPTION":"Show Less","IN":"in","KEYWORD_SEARCH_PLACEHOLDER":"Try \"Sales\"","LESS_CATEGORIES":"Less categories...","LOCATION_SEARCH_PLACEHOLDER":"Try \"New York\"","LOCATIONS_LINK":"Locations","MORE":"More","GEN_ERROR":"General Error","MORE_CATEGORIES":"More categories...","NOT_FOUND":"We've got plenty of jobs over here.","RESULTS":"results","SEARCH":"Search","SEARCHING":"Searching...","SEE_JOBS_BY":"See jobs by","SHOW_DESCRIPTION":"Show More","STATE_HEADER":"By State / Province","USE_CURRENT_LOCATION":"Use my current location","WITH":"with","RECENT_SEARCH":"Recent Searches","KEYWORD_SEARCH_LABEL":"Search Keyword, Category or Job Title","LOCATION_SEARCH_LABEL":"Search Locations","ALL_LOCATIONS":"All locations","SORT_BY":"Sort by","LOCATION":"Location","CATEGORY":"Category","POSTED":"Posted","BRAND":"BRANDS","RELEVANCE":"Relevance","TITLE":"Title","CATEGORIES":"Categories","BRANDS":"Brands","CITIES":"Cities","SELECTED":"You've Selected","DIDYOUMEAN":"Did you mean","VIEW_RESULTS":"View Results","NORESULTS":"No Search Results","VIEW_LANG_RESULTS":"Switch region to view additional jobs in other languages","JOBS":"Jobs","READ_MORE":"Read More","ALL_JOBS":"All Jobs","SELECT_CATEGORY":"Select Category","SELECT_BRANDS":"Select Brands","SELECT_CITIES":"Select Cities","MULTIPLE":"Multiple","MULTIPLE_LOCATIONS":"Multiple Locations:","SHARE_JOB":"Share This Job","SEARCH_LOCATIONS_LINK":"Locations","JOB_DESCRIPTION_CATEGORIES_LINK":"Categories:","RESULTS_SINGULAR":"result","COMMUTE_SEARCH_LABEL":"Time","CHANGE_SEARCH_BY_LOCATION":"Change to Search By Location","SEARCH_BY_LOCATION":"Search Location","CHANGE_SEARCH_BY_COMMUTE":"Change to Search By Commute","SEARCH_BY_COMMUTE":"Search by Commute","STRETCH_SEARCH_LABEL":"Distance","JOB_DESCRIPTION_LOCATIONS_LINK":"Locations:","ALERT":{"SUCCESS":"Your job alert was successfully created.","SIMPLE_SUBMIT":"Submit","SIMPLE_CANCEL":"Cancel","SIMPLE_GET_JOB_ALERT":"Get Job Alert","SIMPLE_REMOVE_JOB_ALERT":"Signed Up For Job Alerts!","NO_EMAIL":"Please enter a valid email.","EMAIL_PLACEHOLDER":"Enter email address","ERROR":"Unfortunately, our network is not responding. Please try again later.","TITLE":"Get future jobs matching this search.","BUTTON_TEXT":"Get Alerts"},"BRANDS_LINK":"Brands","JOB_ID":"Job ID","EXPERIENCE_LEVEL":"Experience Level","FIND":"Find Jobs","DISTANCE_SEARCH_PLACEHOLDER":"Select distance"},"APPLY":{"UPLOAD_RESUME_ERROR":"There was an error uploading your resume.","UPLOAD_CV_ERROR":"There was an error uploading your cover letter.","GO_HOME_LI":"Return to LinkedIn","UPLOAD_EMAIL_ERROR_MESSAGE":"There was an error sending you an email. Please try again.","ASSESSMENT_HEADER":"You are almost done...just a few more steps to go!","ASSESSMENT_MESSAGE":"ContentYou are about to enter an assessment system which is proprietary software developed and produced by Kenexa Technology, Inc. The content in this questionnaire has been developed by Kenexa Technology, Inc., Kenexa’s Suppliers and/or Yum Restaurant Services Group, Inc.’s (“Company”) third party content providers and is protected by International Copyright Law. Under no condition may the content be copied, transmitted, reproduced or reconstructed, in whole or in part, in any form whatsoever, without express written consent by Kenexa Technology, Inc. or the applicable third party content provider. Under no circumstances will Kenexa Technology, Inc. be responsible for content created or provided by Company’s third party content providers.IN NO EVENT SHALL KENEXA, AN IBM COMPANY, KENEXA’S SUPPLIERS OR THE COMPANY’S THIRD PARTY CONTENT PROVIDERS, BE LIABLE FOR ANY DAMANGES WHATSOEVER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF VOCATIONAL OPPORTUNITY ARISING OUT OF THE USE OF, THE PERFORMANCE OF, OR THE INABILITY TO USE THIS KENEXA ASSESSMENT SYSTEM OR THE CONTENT, REGARDLESS OF WHETHER OR NOT THEY HAVE BEEN ADVISED ABOUT THE POSSIBILITY OF SUCH DAMAGES.IdentityBy clicking below, you are also confirming your identity for purposes of the questionnaire. You may not receive assistance, refer to any written material, or use a calculator (or similar device) while completing the questionnaire.Unless otherwise directed by the Questionnaire Administrator, you are only authorized to take each requested questionnaire once. Failure to comply may result in disqualification. All Kenexa SelectorTM questionnaires are monitored.","COMPLETE_HEADER":"Your application for {{jobTitle}} has been successfully submitted! ","COMPLETE_MESSAGE":"A member of our Talent Acquisition Team will review your application, and contact you if your skills and experience match the position requirements. We invite you to view the job openings available in our Career section and to further explore the functionalities of your account.","COMPLETE_RESUME_DEFAULT":"If you uploaded a resume, it was attached to your application.","COMPLETE_RESUME_DROPBOX":"Your resume from Dropbox was attached to your application.","COMPLETE_RESUME_EMAIL":"If you have not emailed your resume yet, please check your inbox and follow the instructions emailed to you to expedite your application submission.","COMPLETE_RESUME_FILE":"The resume you uploaded was attached to your application.","COMPLETE_RESUME_GOOGLE":"Your resume from Google Drive was attached to your application.","COMPLETE_RESUME_LINKEDIN":"Your Linkedin profile was attached to your application.","COMPLETE_RESUME_SKYDRIVE":"Your resume from SkyDrive was attached to your application.","COMPLETE_RESUME_TEXT":"The resume you entered was attached to your application.","COMPLETE_SURVEY_POPUP":"We are currently conducting a survey based on your recent application/recruiting experience. We value your feedback, and would appreciate if you took just a few moments to respond to a few questions","GO_HOME":"Careers Home","KNOCKOUT_HEADER":"You are not eligible for this position.","KNOCKOUT_MESSAGE":"Thank you for your interest in this position. Based on your application, we have determined that you are not eligible at this time. If you feel this is a mistake, you can go back and update your application.","PROGRESS_HEADER":"Your Progress","REMOVE_QUESTION":"Remove","REPEAT_QUESTION":"Add Another","SELECT_ALL":"Select All","SELECT_LIST_PLACEHOLDER":"Select..","OPTIONAL":"Optional"},"LOGIN":{"FORGOT":{"USERNAME":"Forgot Username?","TITLE":"Reset Password","SUBMIT":"Submit","LOGIN_LINK":"Return to Login?","SUCCESS_CREATED":"An email will be sent to the specified account shortly.","SUCCESS_UPDATED":"Your account has been successfully updated.","INVALID_FORGOT":"Incorrect username and email combination.","INVALID_SESSION":"Session has expired.","INVALID_UPDATE":"Password given not valid."},"FORGOT_USERNAME":{"TITLE":"Forgot Username"},"PRIVACY_POLICY":{"BODY":"\n\tPepsiCo, Inc., along with our subsidiaries and affiliates\n\t(collectively, “PepsiCo”) respect your privacy concerns. To learn more\n\tabout our privacy practices or to exercise your rights, please visit\n\tour appropriate Career Online Privacy Notice.\n\n\nBy clicking the box \"AGREE\" box, I acknowledge that I have read\n\tand understood the appropriate Career Online Privacy Notice. In\n\tparticular, I understand my personal data may be transferred to a\n\tcountry where the laws do not necessarily provide the same level of\n\tdata protection as provided under the EU data protection law or another\n\tsimilar law.\nPlease be advised that PepsiCo requires background and drug\n\tscreening as part of the hiring process in some countries.\n\t\nBy submitting your resume, you are acknowledging confirmation of this message.","ERROR":"You must accept to continue","TITLE":"Privacy Policy","SUBMIT":"Agree","CANCEL":"Disagree"},"CURRENT_PASSWORD":"Current Password","PLACEHOLDER":{"CURRENT_PASSWORD":"Current Password","USERNAME":"Username","PASSWORD":"Password","CONFIRM_PASSWORD":"Confirm Password","FIRSTNAME":"First name","LASTNAME":"Last name","GENDER":"Gender","EMAIL":"Email"},"VALIDATIONS":{"SECURITY_ANSWER":"Security Answer not filled","USERNAME":"Username not filled","EMAIL":"Email not filled","EMAIL_FORMAT":"Invalid email","PASSWORD":"Password not filled","WRONG_INFO":"Wrong information. Please try again!","PASSWORD_MISMATCH":"Passwords Do Not Match","AGREE":"Please Agree to the Privacy Policy","FIRSTNAME":"First name not filled","LASTNAME":"Last name not filled","GENDER":"Gender not selected","CONTACT":"At least one method of contact is required"},"LINK":"Or, Login to your account","REGISTER":{"LINK":"Or, create your account","TITLE":"Register","SUBMIT":"Register","LOGIN_LINK":"Already a user? Login!","INVALID_REGISTRATION":"Invalid registration used. Please verify fields."},"HELPER_TEXT":"","INVALID_LOGIN":"Incorrect username and password combination.","ATS_UNAVAILABLE":"The applicant tracking system is unavailable at this time, please try again later.","TITLE":"Login","SUBMIT":"Log In","FORGOT_LINK":"Forgot password?","REGISTER_LINK":"Not a user? Register!","USERNAME":"Username","PASSWORD":"Password","CONFIRM_PASSWORD":"Confirm Password","FIRSTNAME":"First name","LASTNAME":"Last name","GENDER":"Gender","EMAIL":"Email","SELECT_ONE":"Select..."},"JIBE1_ERROR":{"AP101":"Your username or password is incorrect.","AP102":"The login identifier is invalid.","AP103":"There is no email address registered to this user account.","AP104":"The New Password Confirmation does not match the New Password.","AP105":"You are not permitted to change your password.","AP106":"Please supply the correct Current Password.","AP107":"New Password cannot be shorter than 8 characters.","AP108":"New Password cannot be longer than 20 characters.","AP109":"New Password must contain at least one lowercase character (a-z).","AP110":"New Password must contain at least one uppercase character (A-Z).","AP111":"New Password must contain at least one numeric character (0-9).","AP112":"New Password must contain at least one special character character (~ ! @ # $ %% ^ & * ( ) - _ + =).","AP113":"New Password can contain only the following characters (a-Z, A-Z, 0-9) and these symbols: ~ ! @ # $ %% ^ & * ( ) - _ + ="},"KENEXA":{"ERROR_MESSAGE":{"CREATE":{"251":"Password must be at least eight characters.","252":"Your password must contain at least one of the following special characters: {}[],.;:'\\\"?/|\\\\`~!@#$%^&*()_-+=.","311":"Your log in credentials cannot be validated. You may have created an account in the past, if so please click the 'forgot your password' link to reset your password.","315":"Your password may not be the same as your login e-mail address.","319":"Your password must contain at least one of the following special characters: {}[],.;:'\"?/|`~!@#$%^&*()_-+=.","320":"Your password must be between 8 and 25 characters.","322":"Invalid Security Question.","327":"Your username must not include the following characters: .","404":"The answers you provided do not match the answers to your security questions. Please try again.","428":"Security questions and answers must be unique."},"LOGIN":{"202":"Unable to find that email/password in the system.","203":"The account has been locked out due to excessive invalid login attempts. Please try again later.","204":"The login was successful; however, a password reset is required.","205":"The site requested is inactive or does not exist."},"QUESTIONS":{"328":"The username/Email was not recognized. Please check the spelling and try again."},"FORGOT":{"16":"The answer to your security question must be less than 50 characters.","211":"Your new password must not be the same as a recently used password.","212":"Password cannot be the same as the username.","243":"You have attempted to change your password twice within a 24hrs period. For your security, password changes are only allowed once per day. Please wait 24hrs to reset your password again.","251":"Password must be at least eight characters.","252":"Your password must contain at least one of the following special characters: {}[],.;:'\"?/|`~!@#$%^&*()_-+=.","253":"Your password must not be the same as any of the 5 preceding passwords.","404":"Incorrect Security Answer."}},"RESET":{"HEADER":"Password Recovery","SUBMIT":"Reset Password"},"SECURITY":{"QUESTION":{"1":"What is the name of your first school?","2":"Where is your favorite vacation spot?","3":"What is your mother's maiden name?","4":"What is your first pet’s name?","5":"What is the first car you owned?","6":"What is the name of your favorite restaurant?","7":"What is your paternal grandfather’s first name?","8":"What is your father’s middle name?","9":"What is the city of your first school?","10":"What is the name of the street on which you lived when you were 5 years old?","LABEL":"Security Question"},"ANSWER":{"LABEL":"Security Answer"}}},"NOTIFICATIONS":{"NOT_LOGGED_IN":"You must be logged in to continue.","UNKNOWN_ERROR":"An unknown server error occurred. Please reload the page and try again."},"NO_CATEGORIES":"No Categories","NO_BRANDS":"No brands","NO_CITY":"No city","NO_STATE":"No state","No_COUNTRY":"No country","NO_LOCATIONS":"No locations","VALIDATIONS":{"CURRENTDAY":"Please select today","CONTINUOUS":"This end date has to be the same month or sooner to the above start date. A single history cannot have the same month for start and end dates.","TODAY":"Please select today's date {{param}}","AT_LEAST_ONE":"You must choose at least one answer.","DATEFORMAT":"Please enter a valid date.","EMAIL":"Please enter a valid email address.","EQUAL_TO":"Must be equal to {{param}}.","EQUAL_TO_DATE":"Date must be the same as {{param}}.","GENERIC":"Please enter a valid input.","GREATER_THAN":"Must be greater than {{param}}.","GREATER_THAN_DATE":"Date must be after {{param}}.","GREATER_THAN_EQUAL_TO":"Must be greater than or equal to {{param}}.","GREATER_THAN_EQUAL_TO_DATE":"Date must be equal to or after {{param}}.","LESS_THAN":"Must be less than {{param}}.","LESS_THAN_DATE":"Date must be before {{param}}.","LESS_THAN_EQUAL_TO":"Must be less than or equal to {{param}}.","LESS_THAN_EQUAL_TO_DATE":"Date must be equal to or before {{param}}.","MAXDATE":"Please select a date before {{param}}.","MAXLENGTH":"Please enter no more than {{param}} characters.","MAXVALUE":"Please enter a value less than or equal to {{param}}.","MINDATE":"Please select a date after {{param}}.","MINLENGTH":"Please enter at least {{param}} characters.","MINVALUE":"Please enter a value greater than or equal to {{param}}.","NUMERIC":"Please enter a valid number.","PATTERN":"This is not a valid format.","PHONE":"Please enter a valid phone number.","SAMEMONTH":"Start and end date for same job can't be in the same month","REQUIRED":"This field is required.","SSN":"Please enter a valid SSN.","TEXTUAL":"Please only enter text.","ZIPCODE":"Please enter a valid postal code."},"JOB_ALERTS":{"CONFIRMATION_SUCCESS":"Your job alert was successfully created.","CONFIRMATION_SUCCESS_SUBTEXT":"Check your inbox, starting tomorrow, for jobs containing the following keywords","ERROR_EMAIL":"Email empty or invalid","ERROR_SELECT":"You must select a keyword and/or location","ERROR_NETWORK":"Your job alert was NOT created.","ERROR_NETWORK_SUBTEXT":"Unfortunately, our network is not responding. Please try again later."},"SEARCH":{"NO_CATEGORIES":"No categories","NO_LOCATIONS":"No locations","NO_BRANDS":"No brands","NO_CITIES":"No cities","NO_STATE":"No states","NO_COUNTRY":"No country"},"TALENTNETWORK":{"HEADER":"Join Our Talent Network","SUCCESS_MESSAGE":"Thank you for joining our Talent Network. We will keep you updated.","JOIN_CC":"Join our talent network and we will contact you when a job matches your skillset.","JOIN_CC_BUTTON":"Join Now"},"GET_REFERRED":{"BUTTON":"Get Referred","TOOLTIP_BTN":"How Get Referred Works","TOOLTIP_TITLE":"What is Get Referred?","INSTRUCTIONS":"Get Referred™ is a new way for you to explore career opportunities at {{companyName}}. With Get Referred™, you now have the ability to search your social and professional networks for {{companyName}} employees and ask them to personally refer you for an open position. The process is very easy. Simply choose the job you would like to be referred for, upload your CV and cover letter, search your networks for someone you know who works at {{companyName}} and then send in your request!"},"DATEPICKER":{"TODAY":"Today","JANUARY":"January","SELECT_YEAR":"Select Year","FEBRUARY":"February","MARCH":"March","APRIL":"April","MAY":"May","JUNE":"June","JULY":"July","AUGUST":"August","SEPTEMBER":"September","OCTOBER":"October","NOVEMBER":"November","DECEMBER":"December"},"candidate_connect":{"email_signup":{"success_title":"Success!","success_paragraph":"Thanks for subscribing. Check your email shortly for a confirmation.","success_button":"Continue","error_invalid":"Please enter a valid email address.","error_network":"There was an error processing your request. Please try again later.","error_existing_email":"This candidate profile already exists.","error_blank_input":"Please fill out this field."},"cc_signup":{"error_blank_input":"Please fill out all fields."}},"PROFILE":{"COMPLETED_APPLICATIONS":"Completed Applications","HEADER":"User Profile","NO_COMPLETED_APPLICATIONS":"You have not completed any applications","UNABLE":"We were unable to retrieve your submitted applications. Try refreshing the page.","LOGOUT_ERROR":"There was an error logging out. Please try again.","MANAGE_PROFILE":"Manage Profile"},"COMPLETE":{"TRACKING_PIXELS":""},"FOOTER":{"HOME":"PepsiCo.com","HELP":"Applicant Help","HELP_TEXT":"We understand that sometimes questions arise while applying for a position. We're here to help.","HELP_LINK":"Get Help","APPS":"Mobile Apps","APPS_TEXT":"Our new multimedia app puts the possibilities of PepsiCo in the palm of your hand. Download for:","APPS_IPHONE":"iPhone","APPS_IPAD":"iPad","APPS_GOOGLE":"Google Play","TWITTER_CONTENT":"We're always tweeting about new careers possibilities, things happening in the office and maybe even what we had for lunch.","TWITTER_FOLLOW":"Follow @PepsiCoJOBS!","TWITTER_TITLE":"possibilities on twitter","GLASSDOOR":"Read what current and previous employees have to say on Glassdoor about working at PepsiCo:","TOU":"Terms of Use","PRIVACY":"Privacy Policy","CONTACT":"Contact Us"},"HEADER":{"LOGO_LINK":"http://www.pepsicojobs.com/en","PEOPLE":"People of PepsiCo","WHY":"Why Work at PepsiCo","SEARCH":"Job Search","TAGLINE":"Careers"},"TITLE":{"DETAILS":"Job Details","NETWORK":"Talent Network","RESULTS":"Job Search Results"},"refreshTime":"2017-10-09T13:10:47.560Z"},
+    ALL_TRANSLATIONS: undefined,
+    language: 'en',
+    locale: 'en-US',
+    preferredLanguage: 'en',
+    dir: 'ltr'
+  };
+
+
+  
+  
+
+    
+      Skip to Main Content
+    
+
+    
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NRG7DP');
+
+      
+
+        
+	
+		
+
+
+  
+    
+      
+        Sign In
+      
+    
+  
+
+
+
+		
+  
+  
+  
+    
+    
+  
+    
+    
+       
+        
+          
+            
+              
+            
+          
+        
+        
+          
+            
+              
+            
+          
+        
+        
+          
+            
+              
+            
+          
+        
+        
+          
+            
+              
+            
+          
+        
+      
+
+    
+  
+  
+
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+		
+
+	
+		
+
+	
+		
+		
+			
+  Toggle navigation
+  
+  
+  
+
+			Pepsico Apply
+			| Careers
+		
+		
+
+	  	
+				
+					People of PepsiCo
+					Why Work at PepsiCo
+					Job Search
+				
+				
+
+  
+    
+      
+        Sign In
+      
+    
+  
+
+
+
+
+	Careers Home
+	Search Jobs
+	
+		    
+			
+
+
+
+
+
+
+
+
+
+
+
+	  	
+	
+
+
+
+
+
+
+
+        
+
+  
+
+    
+    
+  Pepsico Careers
+
+
+
+    
+    
+        
+        
+        
+        
+
+
+
+
+  Share This Job
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+  
+    
+      
+    
+  
+
+
+
+
+  var addthis_share = {
+    data_track_addressbar: false,
+    ui_language: 'en',
+    url_transforms: {
+        add: {
+            lang: 'en-US'
+        }
+    }
+  }
+
+
+
+
+
+
+
+
+        
+        Data Reporting Sr Analyst
+
+        
+        
+          
+
+            
+            Locations:
+            
+            Plano, TX
+          
+        
+
+        
+        
+          
+
+            
+              
+                Categories:&nbsp;Finance
+              
+            
+
+          
+        
+
+        
+
+
+
+  
+  
+    
+      
+        Apply
+      
+    
+  
+
+  
+
+  
+  
+
+
+
+
+        
+
+Job Description
+
+
+
+  
+
+
+
+
+
+  
+
+
+Position Description:  The Accounting Operations Sr. Analyst provides insightful analysis of business activity related to Supplier Financial Services (SFS) within PepsiCo North America Shared Services (NASS). Key responsibilities include SQL query and VBA macro writing, and consolidating, analyzing and communicating data related to spend, trade liabilities, cash flow and Days Payable Outstanding (DPO). The position is also responsible for addressing performance gaps and opportunities through automation and performing ad hoc analyses that facilitate problem-solving and influence sound decision-making by the Business Units served by NASS. Primary customers include NASS leadership and associates, divisional controllers and PepsiCo cross-functional teams.   Key Responsibilities:
+
+Use in-depth knowledge and expertise with various querying and reporting tools and languages to mine, consolidate and analyze data for ad hoc requests and research assignments
+Develop and refine queries and reports that address the unique and evolving needs of the Business Units
+Identify and effect systems and process improvement opportunities through automation and participate in cross-functional collaboration to help develop and implement solutions
+Research, analyze and explain cash flow impacts relative to Accounts Payable
+Review, analyze and report results on certain liability accounts for the Business Units on a period basis
+Prepare and analyze KPI's and interpret analytical findings
+Provide insights and analysis as needed in support of special projects
+Manage one direct report
+
+ The successful candidate will possess excellent analytical skills, be capable of building collaborative relationships to work effectively with others, and drive for results in a dynamic environment.   Minimum Job Requirements:
+
+Degree in related field of study (e.g., Finance, Mathematics, Information Systems, Engineering, etc) preferred
+At least 5+ years of relevant business experience and practical exposure in some of the following roles: financial planning and analysis, data mining and root cause analysis, summary and interpretation of financial data
+Highly advanced Excel skills and proficiency in PowerPoint
+ERP system reporting experience, preferably in both Oracle and SAP; BW experience a plus
+SQL query and VBA macro writing expertise
+Demonstrated excellent analytical skills
+Strong written and verbal communication skills
+
+
+All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, protected veteran status, or disability status.PepsiCo is an equal opportunity employer Minorities/Females/People with Disabilities/Protected Veterans/Sexual Orientation/Gender Identity.  
+If you'd like more information about your EEO rights as an applicant under the law, please download the available EEO is the Law (http://pep.jobs/eeo-poster) &amp; EEO is the Law Supplement (http://pep.jobs/eeo-poster-supplement) documents by copying and pasting the appropriate URL in the address bar of your web browser.
+To view our Pay Transparency Statement, please click here: Pay Transparency Statement
+Job Ref: 129285BR
+
+
+
+  
+
+
+
+
+
+
+
+
+        
+<!--  -->
+
+
+    
+
+   
+
+
+
+        
+  
+    
+      
+
+      
+      
+        Applicant Help
+        We understand that sometimes questions arise while applying for a position. We're here to help.
+        Get Help
+      
+    
+
+      
+        
+        
+          Mobile Apps
+          Our new multimedia app puts the possibilities of PepsiCo in the palm of your hand. Download for:
+          iPhone
+          iPad
+          Google Play
+        
+
+    
+    
+      
+        
+          
+
+          possibilities on twitter
+          We're always tweeting about new careers possibilities, things happening in the office and maybe even what we had for lunch.
+          Follow @PepsiCoJOBS!
+        
+      
+        Read what current and previous employees have to say on Glassdoor about working at PepsiCo:
+        
+        
+          
+        
+
+        
+        
+
+        
+
+        
+      
+    
+
+    
+
+    Applicant Help
+     Mobile Apps -->
+
+    
+      
+        Mobile Apps 
+
+         -->
+      
+      
+        iPhone
+        iPad
+        Google Play
+      
+    
+
+
+
+
+
+    
+      
+        
+          possibilities on twitter
+          We're always tweeting about new careers possibilities, things happening in the office and maybe even what we had for lunch.
+          Follow @PepsiCoJOBS!
+        
+      
+      
+        
+
+        
+          
+        
+
+        
+
+        
+
+        
+
+        
+      
+    
+
+  
+
+  
+		
+			
+        PepsiCo.com
+        
+      		Contact Us
+        
+        
+    		Terms of Use
+        
+        
+    		Privacy Policy
+        
+
+        
+        
+        
+
+        
+
+        
+    	
+		
+	
+
+  
+   _linkedin_data_partner_id = "21511"; 
+   (function(){var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript";b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s);})(); 
+  
+
+
+
+      
+
+    
+
+    
+
+
+  
+
+
+  window.console = window.console || {
+    log: function () {},
+    info: function () {},
+    debug: function () {},
+    error: function () {},
+    warn: function () {}
+  };
+
+
+
+  function isMobileSafari() {
+    return navigator.userAgent.match(/(iPod|iPhone|iPad)/) && navigator.userAgent.match(/AppleWebKit/)
+  }
+
+  if (!window.history || !window.history.pushState || isMobileSafari()) {
+    window.useHTML4 = true;
+    window.History = { options: { html4Mode: true} };
+  }
+
+
+
+
+  window.globalExports = window.globalExports || {};
+  window.currentContext = '';
+  window.jibeTrackifEnabled = undefined;
+
+
+
+
+
+    
+  
+
+
+    
+
+    
+ /**
+   * @description: send an arbitrary payload to the server-side for later consumption.
+   * @param {Object} payload - a json payload that contains arbitrary data
+   * @param {String} payload.event_name - the unique name to associate with the event
+   * @param {String} payload.slug - the job id to associate with the event
+   * @param {String} payload.language - the locale to associate with the event
+   */
+  function sendEvent(payload) {
+    // validation check
+    if (!(payload || payload.event_name)) {
+      console.error('insufficient data for meaningful response.');
+      return;
+    }
+
+    else {
+
+      // send ajax request to backend for consumption
+      $.ajax({
+        method: 'POST',
+        url: '/api/impression',
+        data: payload,
+        success: function (res) {
+          // console.log('successful ajax call with response: ', res);
+        }
+      });
+    }
+  }
+
+    
+
+
+  //MIXPANEL FAKE FOR LOCAL
+  mixpanel = {
+    track: function(){
+      // console.log(JSON.stringify(Array.prototype.slice.call(arguments),null,4));
+    }
+  };
+
+
+     
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  // core
+  ga('create', 'UA-15416203-7');
+  ga('send', 'pageview');
+
+  // client-specific
+
+    
+    ga('create', 'UA-46451933-1', {
+      name: 'PepsiCo_Tracker'
+    });
+
+    ga('PepsiCo_Tracker' + '.send', 'pageview');
+
+
+
+    
+
+    
+
+  function skipToMain() {
+    document.querySelector('.ui-text-input').scrollIntoView();
+    setTimeout(function() {
+      document.querySelector('.ui-text-input').focus();
+    }, 100);
+  }
+
+
+
+    
+
+    
+  
+

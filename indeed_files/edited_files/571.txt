@@ -1,0 +1,948 @@
+
+
+
+
+
+
+var isTagpageview=true;
+
+
+
+function tagPageView() {
+
+}
+
+
+
+
+
+
+
+        
+
+    
+
+    
+
+    
+
+               
+
+        
+
+         
+
+        //ldp256 accessibility changes starts
+
+             $(document).ready(function() {
+
+                 $(document.body).mousemove(function(event) {
+
+                     BodyMouseMove();
+
+                 });
+
+                 $(document.body).keyup(function(event) {
+
+                     BodyKeyUp();
+
+                 });
+
+                 $(document.body).focus(function(event) {
+
+                     BodyFocus();
+
+                 });
+
+                 var addOnClick = "no";
+
+                 if (addOnClick == "yes") {
+
+                     $(document.body).click(function(event) {
+
+                         hideAllLayer();
+
+                     });
+
+                 }
+
+
+
+                 // the footer isn't always easy to detect as empty.  This is an additional test to hide the footer when the branding table exists but contains no content
+
+                 if ($("[role=contentinfo]") && $("[role=contentinfo]").text().trim() == "") {
+
+                     $("[role=contentinfo]").remove();
+
+                     if ($("#ctl00_Footer")) {
+
+                         $("#ctl00_Footer").hide();
+
+                     }
+
+                 }
+
+             });
+
+        //ldp256 accessibility changes ends
+
+
+
+             function AddRfToken() {
+
+                 var forms = document.forms;
+
+
+
+                 for (i = 0; i  0) {
+
+                        
+
+                      }
+
+                     else
+
+                      {
+
+                    
+
+                         var hdElement = forms[i].hdRft;
+
+
+
+                         if (typeof (hdElement) == 'undefined') {
+
+
+
+                             var input = document.createElement("input");
+
+
+
+                             input.setAttribute("type", "hidden");
+
+
+
+                             input.setAttribute("name", "hdRft");
+
+
+
+                             input.setAttribute("value", js_rft);
+
+
+
+                             document.forms[i].appendChild(input);
+
+                         }
+
+                         else {
+
+
+
+                             hdElement.value = js_rft;
+
+                         }
+
+                     }
+
+                 }
+
+             }
+
+
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+          
+
+           
+
+           
+
+        
+
+         
+
+   JLL Careers - Job details
+
+       
+
+        .h1Title
+
+        {
+
+        	margin:0;
+
+		    padding: 6px 0 0px 0;
+
+        }
+
+	    .h1Tab
+
+        {
+
+	    	margin: 0pt; 
+
+		    padding: 1px 0pt 1pt; 
+
+		    overflow: hidden;	       	
+
+        }
+
+       .twitter-share-button {
+
+              position:relative;           
+
+              margin-left:3px;
+
+      }
+
+      
+
+      iframe { vertical-align: top; }
+
+      
+
+      
+
+    
+
+     if (navigator.appVersion.indexOf('Win') != -1) {if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } } else if (navigator.appVersion.indexOf('Mac') != -1) { if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } } else {if (document.all) { document.write(""); } else if (document.layers) { document.write(""); } else if (document.images) { document.write(""); } }  var js_rft = '^m+FrV3YcSpd98TxBAajHarim8opoUBuIhhb+NI7hNDJk0TNzh4on05SBxSLtTmjKZqLyQ6Vger825QUgjI36gYUoU5AsoDnSmzF4/Z4z/B0N78mZoPVGOjxIaDXwyZ/KOCf1YIkKVcKEuMURyJ7Cjsew6S4eZWvM1cWn5d1nMyH0rAVeA28cV8HpgUFC2fkEAHkFU4GP5Ru22HEthOmw4uvzL31qV26q'
+
+    var MSG_SiteSwitch = "Recruitment for the selected job(s) will be in the language of the job posting(s).  To continue, the language of this site will change to match the language of the selected job(s).  You will need to provide your resume/CV in the language of the selected job(s) in order to maximize your visibility to the recruitment personnel.";var MSG_SocialMediaSiteSwitch = "Posting to social networks should be in the language of the job posting.  To continue, the language of this site will change to match the language of the selected job."; var js_LaunchGQ_DotNet ="No";
+
+    
+
+     
+
+      
+
+        var SR_READY = "";
+
+        var SR_PRIDE = "%5eXPo1WBzaZuM%3d";
+
+        var SR_STID = "5324";
+
+        var SR_CLID = "25611";
+
+        var SR_LOCALE = "1033";
+
+        var SR_FN = "";
+
+        var SR_LN = "";        
+
+       function setReadyForSocialReferral(ready, clid, stid, pride, localeid,button,fn,ln) {
+
+            SR_READY = ready;
+
+            SR_PRIDE = pride;
+
+            SR_STID = stid;
+
+            SR_CLID = clid;
+
+            SR_LOCALE = localeid;
+
+            SR_FN = fn;
+
+            SR_LN = ln;
+
+            if (SR_READY == "yes") {
+
+                LaunchSocialReferralMenu(document.getElementById(button));
+
+            }
+
+        }
+
+        function LaunchSocialReferralMenu(button) {
+
+            var jobstr = document.getElementById("jobid").value;
+
+            var urlstring = "../tgnewui/referral/home/referralworkflowoptions?siteid=" + SR_STID + "&partnerid=" + SR_CLID + "&localeid=" + SR_LOCALE + "&bruid=" + SR_PRIDE + "&jobids=" + jobstr+ "&fn=" + SR_FN + "&ln=" + SR_LN
+
+            window.dialogBuilder.showDialog(button, urlstring);
+
+
+
+        }     
+
+        function ApplyNow()
+
+	    {			    
+
+			var ApplyURL = "-1";
+
+			if (ApplyURL=="-1" ) ApplyURL= "";
+
+			if (ApplyURL.length>0 )
+
+			{				
+
+			    window.location.href=ApplyURL; 
+
+			}
+
+			else
+
+			//In case GTG if the job siteid is different than the current siteid
+
+			//display warning pop-up to confirm site switched to job site
+
+			{			   
+
+				ApplyJobNow('1033');
+
+			}
+
+		}		
+
+			
+
+		function ApplyJobNow(strLocale)
+
+        {
+
+	        var strGQId;
+
+	        var iLen, iIndx;
+
+	        var arrGQId;
+
+	        var arrGQIds;
+
+	        var lngNewSelection = 0;
+
+	        var lngSiteLocale = 1033;
+
+	        var strSwitchSiteQS;
+
+	        strGQId = "0";	// from Querystring
+
+	        strSwitchSiteQS = "";
+
+
+
+	        //var lngSelect = 1;
+
+	        var lngSelect = 1;
+
+	        
+
+	        if  (strGQId == '')
+
+	        {	
+
+	            strGQId= document.frmJobDetail.JobInfo.value;
+
+			    arrGQId = (strGQId.substring(2, strGQId.length - 2)).split("%%");
+
+			    iLen = arrGQId.length;
+
+			    arrGQIds = arrGQId[lngSelect-1].split('|');
+
+			    if (arrGQIds[2] != 0)
+
+			    {
+
+				    if (strLocale == lngSiteLocale)
+
+				    {
+
+				        if (js_LaunchGQ_DotNet.toUpperCase() == 'YES')
+
+				        {
+
+				            openWindow11("gqlogin.aspx?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU&fjd=true&referer=&gqid="+ arrGQIds[2] + "&jobinfo=__" + arrGQId[lngSelect-1] + "__&applycount=1&type=search_jobdetail");
+
+				        }
+
+				        else
+
+				        { 
+
+					        openWindow11("https://sjobs.brassring.com/" + strLocale + "/asp/tg/GQLogin.asp?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU&fjd=true&referer=&gqid="+ arrGQIds[2] + "&jobinfo=__" + arrGQId[lngSelect-1] + "__&applycount=1&type=search_jobdetail&srcqs=");
+
+					    }
+
+				    }
+
+				    else
+
+				    {
+
+				        document.frmMassApply.GQID.value = arrGQIds[2];
+
+				        if(strSwitchSiteQS == '')
+
+				        {
+
+					        document.frmMassApply.action= "apply.aspx?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU&src=jd&qs=jobId%3d1078018%26partnerid%3d25611%26siteid%3d5324%26codes%3dD_Indeed";
+
+					    }
+
+					    else
+
+					    {
+
+					        document.frmMassApply.action= "apply.aspx?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU&src=jd&qs=";
+
+					    }
+
+					    document.frmMassApply.submit();
+
+				    }
+
+			    }
+
+			    else
+
+			    {
+
+				    document.frmMassApply.action= "apply.aspx?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU";
+
+				    document.frmMassApply.submit();
+
+			    }	        
+
+			        		        
+
+	        }
+
+	        else
+
+	        {
+
+	           	
+
+		        if (strGQId != 0)
+
+		        {
+
+			        if (strLocale == lngSiteLocale)
+
+			        {
+
+			            if (js_LaunchGQ_DotNet.toUpperCase() == 'YES')
+
+				        {
+
+				            openWindow11("gqlogin.aspx?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU&fjd=true&referer=&gqid=" + document.frmMassApply.GQID.value + "&jobinfo=__1078018|1|0__&applycount=1&type=search_jobdetail");
+
+				        }
+
+				        else
+
+				        { 
+
+				            openWindow11("https://sjobs.brassring.com/" + strLocale + "/asp/tg/GQLogin.asp?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU&fjd=true&referer=&gqid=" + document.frmMassApply.GQID.value + "&jobinfo=__1078018|1|0__&applycount=1&type=search_jobdetail&srcqs=");
+
+				        }
+
+			        }
+
+			        else
+
+			        {
+
+			            if(strSwitchSiteQS == '')
+
+				        {
+
+				            document.frmMassApply.action= "apply.aspx?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU&src=jd&qs=jobId%3d1078018%26partnerid%3d25611%26siteid%3d5324%26codes%3dD_Indeed";
+
+				        }
+
+				        else
+
+				        {
+
+				            document.frmMassApply.action= "apply.aspx?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU&src=jd&qs=";
+
+				        }
+
+				        document.frmMassApply.submit();
+
+			        }
+
+ 	            }
+
+ 	            else
+
+ 		        {
+
+ 			        document.frmMassApply.action = "apply.aspx?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU";
+
+			        document.frmMassApply.submit();
+
+ 		        }
+
+ 	        }
+
+        }
+
+        
+
+        //Send to friend email    
+
+        function sendToFriend()
+
+        {
+
+	        openWindowBySize2('about:blank?sessionid=7b8f3df29395aa4132b9612004f32cd5337d', 450, 360);	        
+
+	        document.frmSendToFriend.submit();
+
+        }
+
+        
+
+        function socialNetworkReferral(button) {
+
+		  if (SR_READY == "yes")
+
+            LaunchSocialReferralMenu(button);
+
+        else {
+
+            document.frmSocialNetworkReferral.ButtonId.value = button.id;
+
+            openWindowBySize2('about:blank?sessionid=7b8f3df29395aa4132b9612004f32cd5337d', 900, 720);
+
+            document.frmSocialNetworkReferral.submit();
+
+	        }
+
+		}
+
+        
+
+        
+
+        function showjob(lngNewSelection)
+
+	    {   		    
+
+		    document.frmJobDetail.action = "jobdetails.aspx?jobId=1078018&amp;partnerid=25611&amp;siteid=5324&amp;codes=D_Indeed";
+
+		    document.frmJobDetail.CurSel.value= lngNewSelection;
+
+		    document.frmJobDetail.submit();
+
+	    }
+
+        
+
+        function launchSocialMedia()
+
+	    {
+
+	        var lngSiteLocale = '1033';
+
+	        var jobSiteID = '5324';
+
+	        var newLocaleId = getLocaleId(jobSiteID,'');
+
+	        var strSwitchSiteQS = '';
+
+	        
+
+
+
+	        if (newLocaleId == lngSiteLocale || newLocaleId == '')
+
+		    {
+
+			    openWindow1('about:blank?sessionid=7b8f3df29395aa4132b9612004f32cd5337d');
+
+		        document.frmSocialMedia.submit();
+
+		    }
+
+		    else
+
+		    {
+
+		        alert(MSG_SocialMediaSiteSwitch);
+
+		        if(strSwitchSiteQS == '')
+
+		        {
+
+			        document.frmMassApply.action= "apply.aspx?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU&src=jdsm&qs=jobId%3d1078018%26partnerid%3d25611%26siteid%3d5324%26codes%3dD_Indeed";
+
+			    }
+
+			    else
+
+			    {
+
+			        document.frmMassApply.action= "apply.aspx?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU&src=jdsm&qs=";
+
+			    }
+
+			    document.frmMassApply.submit();
+
+		    }
+
+        }
+
+        
+
+        //Save to jobcart
+
+        function saveToJobCart()
+
+	    {
+
+		    var strTemp;
+
+		    var lIdx;
+
+		    var lLen;
+
+		    var arrSubInfo;
+
+
+
+		    if (document.frmJobDetail.jobcartcnt.value > 50)
+
+			    alert (MSG_cim_jobdetail_JobCart);
+
+		    else
+
+		    {
+
+			    document.frmSaveToCart.chkJobClientIds.value = ReplaceInString(document.frmSaveToCart.chkJobClientIds.value, "%%", "");
+
+			    arrSubInfo = document.frmSaveToCart.chkJobClientIds.value.split("|");		    
+
+
+
+			    if(arrSubInfo.length != 3)
+
+			    {
+
+				    strTemp =  arrSubInfo[0] + "|" + arrSubInfo[1];
+
+				    document.frmSaveToCart.chkJobClientIds.value = strTemp;
+
+			    }
+
+			    openWindow3('about:blank?sessionid=7b8f3df29395aa4132b9612004f32cd5337d');
+
+			    document.frmSaveToCart.submit();
+
+		    }
+
+	    }
+
+	    function goToSearchPage()
+
+	    {	   
+
+		    document.frmSearch.submit();
+
+	    }
+
+	    
+
+	    //QC #197940
+
+	    function reload(sParam)
+
+	    {
+
+		if (typeof(sParam) != 'undefined') 
+
+		{
+
+			if (sParam == 'ApplyAsRegularJob')
+
+				ApplyAsRegularJob();
+
+			return;
+
+		}
+
+		var sGQId =  "0";
+
+		var arrGQId;
+
+		var iLen = 0;
+
+		if (sGQId == '' )
+
+		{
+
+			sGQId= document.frmJobDetail.JobInfo.value;
+
+			arrGQId = (sGQId.substring(2, sGQId.length - 2)).split("%%");
+
+			iLen = arrGQId.length;
+
+		}
+
+		
+
+		if ((iLen == 1) || (sGQId != ''))
+
+		{
+
+			 
+
+		document.frmJobDetail.target = "_self";
+
+		 
+
+		document.frmJobDetail.action = "Logout.aspx?SID=^LBFGOzelUQk8nImkr4XTpNlyaFIypsyg2zMPJyVZ8tuQtfFqreHgSd/HhACf2aqU&gqclose=yes&crl=yes&Exit=^VPbBpv82eWbDhCwKzWDUrT6iCUhsWNOr+koga53E/lzXlNjlAug5wQQ9zAIHEB3h/wTIH+ld1Juf/KBSJ9E2P2Se9/ttvXnZD6IZhDW3OKdEMFQdjNYHNR23QPQTbcnAPfxRiFpVgJKD4nVV7QSRR4reOv9a7CXE9hTYWWwYTQKk+HL+6Vj30A7y1WNdTcXZ9puRk3b709qrG6h9h9sf+XpIECIy/uPbO5+M46KHGkKu30NI0TT0Euexpu40k54NzpyTDrKVY80hp1Lduh/b2/AV8wqbBFCPoPpa90lgTca9z5NNVIF+m0g/LIcDgRKjbokM4E9DZE1PF/ZyPEIPhaedQJATrRfiYQEEO+W1MgNF5O7dk0f7Ow==";
+
+		document.frmJobDetail.submit();
+
+		}
+
+	  }
+
+	  $(document).ready(function() {
+
+            
+
+            var n = "HomeSearch  openingsSearch  resultsCurrent pageJob  details &nbsp;&nbsp;)";
+
+            if (n.length <= 1)
+
+                $("#ctl00_ProgressBar").hide();
+
+             });
+
+    
+
+
+
+                
+
+        
+
+    var MSG_GEN_EntValdEmlAddr = "Please enter a valid e-mail address.\nDelete all the invalid characters, including spaces, from your e-mail address.";var MSG_GEN_PlsRmDblQut = "Please remove the  DOUBLE QUOTE (\")  you have entered.";var MSG_GEN_EnterVal = "Please enter a value for |QUESTION|";var MSG_GEN_EnterValidPassword = "Please enter a valid password.\nDelete all the invalid characters, including spaces, from your password.";var MSG_GEN_EnterValRange = "Please enter a value for |QUESTION| between |MIN| and |MAX|.";var MSG_GEN_EntValdPasswd = "Spaces are not allowed in the e-mail or in the password field. Please remove the spaces and try again.";var MSG_GEN_FromToDate = "The From date should be less than the To date.";var MSG_GEN_PlsDelPrdFrmBgnOfYrEmlAddr = "Please delete the period from the beginning of your e-mail address.";var MSG_GEN_PlsDelPrdFrmEndOfYrEmlAddr = "Please delete the period from the end of your e-mail address.";var MSG_GEN_PlsEntValdDate = "Please enter a valid date.";var MSG_GEN_PlsEntValdEmlAddr = "Please enter a valid e-mail address.";var MSG_GEN_PlsEntVldNumber = "Please enter a valid number.";var MSG_GEN_PlsEntVldSSN = "Please enter a valid SSN.";var MSG_GEN_SSNFormat = "The SSN should be in xxx-xx-xxxx format.";var MSG_GEN_UserNameInvalidChars = "The username must not include the following characters: ";var MSG_GEN_UserNameLen = "Please enter a valid username.";var MSG_GEN_UserNameLength = "The username must be less than 100 characters.";var MSG_GEN_UserNameSpaces = "The username must not include any spaces.";var MSG_TSV_EnterValidInputSearchFields = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_TSV_EnterValidInputText = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_TSV_EnterValidInputTextArea = "This entry should contain valid HTML characters.  Please reference the help file for a list of basic valid HTML tags.";var MSG_InputValidationFail = "[QUESTION] requires a valid entry."; var MSG_RCF_LNPronunciation = "Last name pronunciation key: Please enter a value."; var MSG_RCF_FNPronunciation = "First name pronunciation key: Please enter a value."; var MSG_RCF_Valid_LNPronunciation = "Please enter a valid last name pronunciation key."; var MSG_RCF_Valid_FNPronunciation = "Please enter a valid first name pronunciation key."; var MSG_RCF_FirstName = "Please enter a first name."; var MSG_RCF_Valid_FirstName = "Please enter a valid first name."; var MSG_RCF_MiddleName = "Please enter a middle name."; var MSG_RCF_Valid_MiddleName = "Please enter a valid middle name."; var MSG_RCF_LastName = "Please enter a last name."; var MSG_RCF_Valid_LastName = "Please enter a valid last name."; var MSG_RCF_Address1 = "Please enter an address line 1."; var MSG_RCF_Address2 = "Please enter an address line 2."; var MSG_RCF_Country = "Please select a country name."; var MSG_RCF_City = "Please enter a city name."; var MSG_RCF_Valid_City = "Please enter a valid city name."; var MSG_RCF_State = "Please select a State/Region/Province."; var MSG_RCF_Zip = "Please enter a Zip/Postal code."; var MSG_RCF_HomePhone = "Please enter a home phone number."; var MSG_RCF_Valid_HomePhone = "Please enter a valid home phone number."; var MSG_RCF_WorkPhone = "Please enter a work phone number."; var MSG_RCF_Valid_WorkPhone = "Please enter a valid work phone number."; var MSG_RCF_CellPhone = "Please enter a phone number."; var MSG_RCF_Valid_CellPhone = "Please enter a valid phone number."; var MSG_RCF_Fax = "Please enter a fax number."; var MSG_RCF_Valid_Fax = "Please enter a valid fax number."; var MSG_RCF_Homepage = "Please enter a web address. Web addresses start with http:// or https://.";var MSG_SORTASCN = "Click to sort ascending";var MSG_SORTDSCN = " Click to sort descending";
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+-->
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+#day{
+
+	margin-right:4px;
+
+}
+
+.TEXT, .text, #ctl00_MainContent_spnResumeName{
+
+	font-size:13px;
+
+}
+
+.EduExpHEADER, .HEADERtext1, .yui-skin-sam .yui-dt th, .yui-skin-sam .yui-dt th a {
+
+    color: #FFFFFF;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+}
+
+.globalWrapper {
+
+	WIDTH: 100%;
+
+}
+
+.TGHeaderStrap {
+
+	height:12px; background-color:#bc141a; width:975px;
+
+}
+
+/* Progress bar fix to apply only for Safari */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {table.breadcrumbtable{width:100%;}}
+
+.logintable {
+
+	border: 2px solid #CCCCCC;
+
+	margin: 5px;
+
+}
+
+.logintable .BGBRANDINGdom1light {
+
+	padding: 3px
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+    
+
+    
+
+    
+
+    
+
+    
+
+        
+
+        
+
+        Achieve Your Ambitions
+
+        What’s your ambition? Is it a big goal or small steps? Professional or personal? We’d like to know. Because we make your ambitions our business. And helping you achieve them is what we do best.
+
+        We’ve worked hard to create an entrepreneurial, inclusive culture. One that embraces the human side of business to make us better at the business side of business. This way, we make the most of every opportunity for our clients, our community and each other.
+
+    Join us to develop your strengths and enjoy a fulfilling career full of varied experiences. Keep those ambitions in your sights, and imagine where JLL can take you! 
+
+        
+
+        
+
+        
+
+        
+
+    
+
+    
+
+ 
+
+
+
+
+
+  
+
+  
+
+        
+
+          
+
+			 
+
+                     var sURL = window.location.href.toLowerCase();
+
+                     if (sURL.indexOf("viewassessments.aspx")>=0 || sURL.indexOf("selectresume.aspx")>=0)
+
+                         { document.write("");}    
+
+                   &nbsp;?
+
+
+
+        
+
+        HomeSearch  openingsSearch  resultsCurrent pageJob  details &nbsp;&nbsp;
+
+        
+
+            
+
+Job details&nbsp;Job 1 of 1    Apply to job &nbsp;&nbsp;Save to cart &nbsp;&nbsp;    Position Title  Data Analyst   Auto Req ID  65301BR   Job Description  OVERVIEWSupport our client-dedicated Integrated Facilities Management team through involvement in business systems tied to financial, work order data, facility statistics, etc.&nbsp;ESSENTIAL FUNCTIONSPreparation and analysis of regular and ad-hoc reportsRun day to day reporting and forecasting activitiesMonthly, quarterly & annual report generationMaintain and enhance reportingComplete and support regular and ad-hoc reporting including informal and formal internal and documents, reports, graphs, charts and presentations.Organize and maintain team data collection, reporting and communication.Support and implement “Best in Class” reporting.Support team’s efforts to develop efficient reporting strategies including automation and simplification of reporting processes while preserving data integritySupport operational analysis and performance to ensure flawless execution against KPIs and other associated metricsWork closely with and support Sourcing Group in implementing reporting routines to ensure seamless and timely service delivery&nbsp;Develop and maintain positive client relationshipConflict resolution and solution analysisSupport cost-savings and process improvement initiativesParticipate in the development and distribution of best practices, process documentation, and user support materials for reporting.Identify tactical and strategic opportunities, gaps and financial risks through collaboration with cross-functional teams.Analyze performance data to forecast/trend.Support finance with reactive and adaptive budget reportingBuild transparency of Supplier spend and key risks related to our Suppliers. Lead reporting of results and opportunities.Administer and maintain Supplier contract files to ensure compliancy and all necessary contract documentation requirements.Ensure compliance to Sourcing and contracting policies and procedures.Manage Supplier scorecards, contract compliance and service obligations.Support Sourcing Managers in standardized RFP/bid and contract processes.Ability to innovate new programs or processes that will benefit our Client and Jones Lang LaSalle.Any and all other duties and tasks assigned&nbsp;EDUCATION AND EXPERIENCEMinimum of 5 years of work experience with data analysis or database managementMinimum 5 years of work experience with Microsoft Business Intelligence stack (SharePoint, PowerPivot, PowerView, SSRS)&nbsp;KNOWLEDGE, SKILLS, AND ABILITIESStrong SQL, data cleansing, data integration skillsExcellent PC skills, proficient in MS applicationsVery strong in Microsoft Excel, Word & PowerPoint (Excel super user preferred)Excellent Inter-personal skillsOrganization skillsStrong analytical abilitySelf-motivated, able to set priorities and work autonomouslyResults driven – ability to analyze, act, and implement to achieve desired resultsOutstanding customer service skillsAbility to translate innovative ideas to help our teams and clients work smarterProven ability to deliver results in challenging environmentsMotivated to grow and perform in a high performance organizationAbility to work in a fast paced environment with strict timelines.May solve highly technical complex problems and be called on to consult for other projects.&nbsp;Start a lasting career with JLL today!Total Rewards reflects JLL’s investment in employees’ needs and preferences in Career, Recognition, Well-being, Benefits and Pay.&nbsp; We offer a competitive salary and benefits package. To be considered, please visit our Web site at www.us.am.joneslanglasalle.com/UnitedStates/EN-US/Pages/Careers.aspx to apply online.&nbsp;&nbsp; All resumes MUST BE submitted via our web site. Please reference Job &nbsp;65301BR#LI&nbsp;   Full/Part Time  Full-Time   Regular/Temporary  Regular   Org Marketing Statement  About JLLJLL (NYSE: JLL) is a leading professional services firm that specializes in real estate and investment management. A Fortune 500 company, JLL helps real estate owners, occupiers and investors achieve their business ambitions. In 2016, JLL had revenue of $6.8 billion and fee revenue of $5.8 billion and, on behalf of clients, managed 4.4 billion square feet, or 409 million square meters, and completed sales acquisitions and finance transactions of approximately $145 billion. At the end of the second quarter of 2017, JLL had nearly 300 corporate offices, operations in over 80 countries and a global workforce of more than 80,000. As of June 30, 2017, LaSalle Investment Management had $57.6 billion of real estate under asset management. JLL is the brand name, and a registered trademark, of Jones Lang LaSalle Incorporated. For further information, visit www.jll.com. JLL is focused on winning in the marketplace and being the industry leader, executing better than anyone else and innovating to create great products and services. We operate in an atmosphere of teamwork, ethics and excellence. Our clients see the results as we address their needs, solve their problems and bring new ideas. As a distinguished market leader, we offer challenging career opportunities in an exciting environment. Our future success as a firm depends on our ability to attract and develop the very best people in the business. Our values define who we are, underscore our commitment to clients and provide direction for everything we do. Our unique culture has been recognized by industry experts and our peers. We are: • A LinkedIn "Top Company: Where the World Wants to Work Now" • A “best company to work for” in multiple locations around the globe, including Chicago, San Francisco, London, Ireland, Shanghai and Hong Kong • World’s Most Ethical Companies from Ethisphere Institute for seven consecutive years • America’s 100 Most Trustworthy Companies from Forbes Magazine • #1 Top Corporate Real Estate Firm from Watkins Research Group, Inc. for six consecutive years This partial list of awards demonstrates our record of achievement and our commitment to fostering an award-winning culture. For further information, visit www.jll.com. Information Security StatementEmployees are expected, at all times, to perform their responsibilities in accordance with the JLL Code of Business Ethics and the firm’s corporate policies. Employees granted access to the firm’s information technology are expected to follow the firm’s guidance designed to promote best practices for information security, data privacy and the appropriate use of technology systems.   EEO Statement  JLL is committed to developing and maintaining a diverse workforce, and strongly believes in equal opportunity extended to all individuals in all aspects of the employment relationship.  Please visit www.JLL.com for additional information on JLL’s commitment to equal opportunity.     Apply to job &nbsp;&nbsp;Save to cart &nbsp;&nbsp;  
+
+     
+
+	    	    
+
+        
+
+    
+
+        var sURL = window.location.href.toLowerCase();              if (sURL.indexOf("viewassessments.aspx")>=0)              {document.write("");}                            if (sURL.indexOf("searchopenings.aspx")>=0 || sURL.indexOf("answerquestions.aspx")>=0 || sURL.indexOf("previewresume.aspx")>=0)              {document.write("");}                            if (sURL.indexOf("communicationhistory.aspx")>=0)              {document.write("");}                            if(sURL.indexOf("profileprovider.aspx")>=0)              {document.write(""); }                                                                                        JLL Is an Equal Opportunity Employer        JLL is committed to    developing and maintaining a diverse workforce. &nbsp;JLL strongly believes in    equal opportunity extended to all individuals in all aspects of the employment    relationship, including recruitment, hiring, training, promotion, transfer,    discipline, layoff, recall and termination without regard to race, color,    religion, creed, age, sex, pregnancy (including childbirth and related conditions),    family responsibility (e.g. child care, elder care), national origin or    ancestry, citizenship, marital status, sexual orientation, gender identity or    expression, transgender status, veteran’s status, genetic information, or    status as a qualified individual with a disability, protected leave status or    any other protected characteristic in accordance with applicable law. &nbsp;The    company also endeavors to make reasonable accommodations for known physical or    mental limitations of otherwise qualified employees and applicants with    disabilities unless the accommodations would impose an undue hardship on the    operation of our business and ensures that employment decisions are based only    on valid job requirements.         JLL will not discharge or in any other manner discriminate against employees or    applicants because they have inquired about, discussed, or disclosed their own    pay or the pay of another employee or applicant. However, employees who have    access to the compensation information of other employees or applicants as a    part of their essential job functions cannot disclose the pay of other    employees or applicants to individuals who do not otherwise have access to    compensation information, unless the disclosure is (a) in response to a formal    complaint or charge, (b) in furtherance of an investigation, proceeding,    hearing, or action, including an investigation conducted by JLL, or (c)    consistent with JLL’s legal duty to furnish information.        If you have questions about careers at JLL or are disabled and require further    assistance in applying for a position, please contact us at careers@am.jll.com                   		  
+
+ 
+
+ 
+
+
+
+           
+
+
+
+
+
+
+
+
+
+
+

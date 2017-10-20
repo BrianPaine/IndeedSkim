@@ -1,0 +1,332 @@
+
+
+
+
+                                                                                            
+    
+    
+                        
+        
+        
+        Foresters Financial Careers - Analyst (Entry-Level)
+                    
+            
+                                        
+                                            
+                
+            
+                                        
+        
+                        
+        
+
+        
+        
+        
+        
+                                
+                
+            
+        
+                
+    
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            var enableTracking = true;
+            var trackerId = "UA-15090121-1";
+            var pageTracker = _gat._getTracker("UA-15090121-1");
+        } catch(err) {}
+    
+    
+
+    function trackPage() {
+        try {
+            if (enableTracking && enableTracking == true) {//enableTracking var is set during analytics script reg.
+                var pageTracker = _gat._getTracker(trackerId);
+                var varIndex = 1;
+                try {
+                pageTracker._setCustomVar(varIndex++, "UserId", getUserId(), 1);
+                pageTracker._setCustomVar(varIndex++, "CompanyId", getCompanyId(), 1);
+                }//to track pages which does not have a User
+                catch (userIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "SubsidiaryId", getSubsidiaryId(), 1);
+                } //to track pages which does not have a subsidiaryId
+                catch (subsidiaryIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "JobId", getJobId(), 3);
+                    pageTracker._setCustomVar(varIndex++, "CategoryId", getCategoryId(), 3);
+                }//to track pages which does not have a jobref
+                catch (jodIdError) {
+                }
+                if (enableAnonymizeIP && enableAnonymizeIP == true) {
+                    _gat._anonymizeIp();
+                }
+
+                pageTracker._trackPageview();
+            }
+        }
+        catch (error) {
+
+        }
+    }
+
+
+    function getUserId() { return ''; }
+
+
+    function getCompanyId() { return 'qfh9Vfwk'; }
+
+    
+        function getJobId() { return 'oLu65fwa'; }
+    
+    
+        function getCategoryId() { return '131072'; }
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+
+
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            enableTracking = true;
+            trackerId = "UA-34939840-1";
+            pageTracker = _gat._getTracker("UA-34939840-1");
+        } catch(err) {}
+    
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+        
+            if (window.self !== window.parent) {
+                document.documentElement.className += ' jv-iframe';
+            }
+        
+                
+        
+        
+        
+        try{Typekit.load({ async: true });}catch(e){}
+        
+.jv-page {max-width:940px;width:100%;margin:0 auto;}
+.jv-page-header {background-size:cover;background-position:left center;background-color:transparent;background-repeat:no-repeat;}
+.jv-logo {visibility:hidden;height:190px;}
+
+.jv-search-form, .jv-featured-jobs {float:left;width:50%;background:transparent;border:none;}
+.jv-search-form .jv-form-field-label {display:none;}
+.jv-search-form .jv-form-field-select {width:48%;display:inline-block;}
+.jv-search-form .jv-form-field-select .jv-form-field-control {width:100%;}
+.jv-search-form .jv-form-field-select select {width:100%;min-width:150px;}
+.jv-search-form .jv-search-field {display:inline-block;width:80%;}
+.jv-search-form .jv-search-field .jv-form-field-control {width:100%;}
+.jv-search-form .jv-search-field input {width:100%;}
+
+.jv-job-list td {border:none;}
+
+.jv-button {border-radius:0;font-family: "museo-slab",serif;}
+.jv-button-primary {background:#5E2750!important;border-color:#5E2750!important;}
+
+
+* {box-sizing:border-box;}    
+body {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 12px;
+    font-weight:normal;
+    color: #676767;
+}    
+a, a:visited {color:#f15744;}
+a:hover {text-decoration:underline;color:#f15744;}
+h1,h2,h3 {
+    font-family: "museo-slab",serif;
+    font-weight:500;
+}
+h2 {margin:.8em 0 .5em;color:#5E2750;line-height:1;}
+h3.h2 {font-size:1.5em;color:#5bbbb7;}
+p {margin:0 0 10px 0;}
+p + ul {margin-top:0;}
+p.note {font-size:1.1em;font-style:italic;}
+
+.top-menu {margin:1em 0;padding:0;}
+.top-menu li {display:inline-block;margin-right:-4px; }
+.top-menu li a {display:block;padding:0 5px;font-family: "museo-slab",serif;font-weight:500;font-size:12px;line-height:1;color:#5bbbb7;border-left:2px solid #5bbbb7;}
+.top-menu li a:hover {color:#5E2750;border-color:#5E2750;text-decoration:none;}
+
+.wrap {overflow:hidden;border:2px solid #5E2750;background:#f7f7f7;}
+
+.tools { margin-bottom: 30px; }
+.tools h3 {font-size: 22px; color:#5E2750;margin-bottom:5px;}
+.tools a {margin:0 3% 0 0;display:inline-block;}
+.tools a img {position:relative;top:5px;margin-right:10px;}
+
+@media (max-width: 940px) {
+    .jv-wrapper {padding:0 1em;}
+    .top-menu {margin:1em;}
+    .top-menu li a {padding:0 8px;}
+}
+
+    
+
+    
+    
+        
+                    
+        
+                            
+                            
+        
+            
+                
+                    
+                
+            
+        
+                
+    
+        About Us
+        Financial Advisor Opportunities
+        Corporate Opportunities
+        Careers at Foresters Financial
+        Leaders in Our Business
+        Recruitment Events
+    
+                        
+    
+                    
+                                
+                Analyst (Entry-Level)
+    
+    
+                                        
+                            Insurance            
+                    Edison,
+                            New Jersey
+                
+                        
+        
+    
+                        
+                        
+    
+        Apply
+    
+                            
+                        
+            Description
+                        
+                COMPANY DESCRIPTION:  Foresters Financial is a financial services firm with administrative and operations offices located in Edison, NJ and on Wall Street as well as regional sales offices located nationwide.&nbsp;POSITION SUMMARY: Under the guidance of the Model Office supervisor, assist in the management of projects related to the life insurance systems.&nbsp; Work with appropriate supervision to complete plan file testing, product conversions, data scrubbing and system troubleshooting.&nbsp; Additional functions include acting as a liaison with the vendor (LIDP), IT support and mainframe operations.&nbsp; The incumbent would possess a detailed understanding of FLIAC&rsquo;s various departments, systems, workflows, functions and products.&nbsp;ESSENTIAL DUTIES AND RESPONSIBILITIES:Assist in the development of the various test plans for conversions.Assist in new product development by understanding the plan file capabilities.Implement test plans by processing various transactions during conversion.Compute/review data manually to ensure the accuracy of products.Collaborate with the vendor (LIDP), IT staff and mainframe operations on problem resolution (i.e., response time, printing, interfaces and system upgrades).Resolve system issues that occur on the interfaces in all departments.Act as training and troubleshooting resource for the company&rsquo;s administrative system issues.Provide input to develop training procedures for new products converted onto the system.Liaise between the various service departments to gather ideas on improving or upgrading the administrative system.&nbsp;EDUCATIONAL REQUIREMENTS:Bachelor&rsquo;s degree required (Mathematics majors preferred)&nbsp;EXPERIENCE AND BACKGROUND REQUIREMENTS:Insurance experience a plus; System conversion experience a plusProficient in Microsoft Outlook, Word and Excel with accurate data entry skills; Access a plusStrong quantitative, analytical and problem solving skillsAbility to work effectively in a project management environmentExcellent verbal and written communication skillsDetail-oriented with excellent organizational skills&nbsp;PHYSICAL REQUIREMENTS:&nbsp; Lifting stacks of reports and boxes up to 40 lbs.&nbsp;Foresters Financial is an Equal Opportunity Employer.
+            
+                            
+                    
+                
+                    
+    
+        Apply
+    
+                            
+        Apply Later    
+            
+        
+            &larr; Back to Current Openings        
+    
+    
+                                
+    
+        
+        Share
+        
+            
+                lang: en_US            
+            
+            
+                
+                    LinkedIn
+                
+            
+            
+                
+                    Facebook
+                
+            
+            
+                
+                    Twitter
+                
+            
+            
+                
+                    Email
+                
+            
+        
+    
+                        
+    
+                    
+            
+                    
+        
+            
+                                                                        
+                    
+                        Foresters Financial™ and Foresters™ are trade names and trademarks of The Independent Order of Foresters (a fraternal benefit society) and its subsidiaries, including Foresters Financial Services, Inc. Foresters Financial Services, Inc. does not provide legal, tax or estate planning services. All investing involves risk, including the risk that you may lose money.
+                    Powered by Jobvite
+                            
+        
+    
+            
+    
+        
+        
+    
+            
+    
+    
+        angular.module('preloadedData', []).constant('preloadedData', {
+                                        applyLinkUrl: '${job.applyLinkUrl}',
+                jobCategoryId: 'aFV9Vfwo',
+                jobCategoryName: 'Insurance',
+                jobId: 'oLu65fwa',
+                jobReqId: 'NJ17-105-0928                                     ',
+                jobTitle: 'Analyst (Entry-Level)',
+                jobLocationId: 'CBqtVfw9',
+                                                                jobviteAnalytics: 'UA-15090121-1',
+                                        companyAnalytics: 'UA-34939840-1',
+                                                                                                                resumeOptional: true,
+                                        enableResumeParsing: true,
+                                        numberFormat: "##,###,###,###,###.####",
+                                    companyEId: 'qfh9Vfwk',
+            linkedInApiKey: '7557fkcarvxieo',
+            facebookApiId: '48354194572',
+            dropBoxApiKey: 'w5fg28zznqcyg4w',
+            baseUrl: '/foresters',
+            cdnURL: '',
+            releaseVersion: '171003110732',
+            careersiteName: 'foresters',
+            careersiteDomainName: '${careersiteDomainName}',
+            careersiteSourceTypeId: 'PrBjWfw1'
+        }).constant('i18n', {
+            I18N_RESUME_PREVIEW: 'Resume Preview',I18N_NO_RESUME_FOUND: 'No resume found',I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',I18N_RECOMMENDER: 'Recommender:',I18N_CURRENT: 'Current',I18N_PAST: 'Past',I18N_EDUCATION: 'Education',I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',I18N_PATENTS: 'Patents',I18N_SUMMARY: 'Summary',I18N_SPECIALTIES: 'Specialties',I18N_EXPERIENCE: 'Experience',I18N_RECOMMENDATIONS: 'Recommendations',I18N_PRESENT: 'Present',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec'        });
+        Jobvite = {
+            baseUrl: 'https://app.jobvite.com'
+        }
+    
+                        
+            var images = ['banner-1new.png', 'banner-2new.png', 'banner-3new.png', 'banner-4new.png', 'banner-5new.png'];
+            $('.jv-page-header').css({'background-image': 'url(//careers.jobvite.com/foresters/' + images[Math.floor(Math.random() * images.length)] + ')'});
+        
+    
+    
+
+    

@@ -1,0 +1,440 @@
+
+
+
+
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o
+
+
+	 
+	 
+
+Analyst &#8211; Pricing, North America &#8211; Spotify Jobs
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+img#wpstats{display:none}
+
+
+
+
+
+
+
+	
+		body {
+			opacity: 0;
+			background-color: #fff;
+		}
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-96101180-1', 'auto');
+	ga('send', 'pageview');
+
+
+	
+
+	
+		
+	
+		
+			
+				
+					
+						
+					
+				
+
+				
+					Search Jobs
+Locations
+Job Categories
+Backstage
+Students
+
+					
+						
+					
+
+					
+						
+					
+				
+			
+		
+	
+
+	
+	
+		Search Jobs
+Locations
+Job Categories
+Backstage
+Students
+
+		
+			
+				
+			
+		
+	
+
+
+
+
+
+	
+		
+			
+				Analyst &#8211; Pricing, North America
+									
+						Ad Sales / Business Support / Finance / Sales &amp; Marketing in New York, USA					
+							
+
+			
+				
+					We are looking for an ambitious and energetic professional to join our Pricing &amp; Inventory team as a Analyst, Pricing &amp; Yield for Americas.  The Pricing &amp; Inventory team works across our Global AdSales organization to deliver world-class pricing solutions that deliver the highest yield for our inventory set.  This role will report into the Head of Pricing and supports the Ads Revenue organisation to ensure they close deals that maximise long-term revenue.  The role is highly cross-functional, working across Product marketing, Sales leadership, Product and Operations to ensure our products are priced &amp; executed appropriately.
+Responsibilities include, but are not limited to: seller &amp; management reporting, deal approvals, pricing new ad offers, revenue reporting, and sales operations. You will help accelerate revenue through identification of levers and bottlenecks to leadership all within the framework of an ever-changing revenue landscape. Above all, your work will impact the way the world experiences music.
+What you’ll do
+
+Manage pricing ratecards and deal approvals
+
+
+Define pricing value.  Build pricing strategies to maximise revenue and be responsible for yield management across all of our various channels and formats for the Americas
+Create, implement, and enforce better operational practices to enhance the pitch-to-pay process
+
+
+Foster a collaborative working partnership with sellers
+Handle day to day requests and questions from sales 
+Work with finance to help develop budgets &amp; forecasts 
+Help build &amp; package new products
+Work from our office in New York or Los Angeles
+
+Who you are
+
+Passion for data and the insights they unlock
+Strong communicator and ability to relate to others
+Bachelor&#8217;s degree; MBA preferred but not required
+3-5 years experience in Digital Advertising Pricing &amp; Inventory roles Proven results creating and implementing strategies that drive growth, optimize pricing, and accurately and holistically report on business performance
+Strong analytical &amp; leadership skills
+Great communication and presentation skills, with a knack for presenting complex data in a simple and easy-to-understand manner
+Exceptional ability to multi-task and prioritize
+Good Microsoft Excel skills
+You flourish working in a constantly changing, but always-exciting environment
+
+We strongly believe that diversity of experience, perspectives, and background will lead to a better workplace for our employees and a better product for our users and our creators. This is something we value deeply and we encourage everyone to come be a part of changing the way the world listens to music.
+				
+			
+
+			
+				
+					Share
+
+					
+						Save					
+
+					
+	
+	
+	
+	
+
+				
+
+									Apply now
+							
+		
+	
+
+
+
+	
+	
+
+					
+				
+					Similar jobs
+				
+			
+		
+		
+		
+			
+				
+					
+	
+		
+			Job
+			Category
+			Location
+		
+	
+
+	
+					
+	
+		
+			Senior Legal Counsel, Employment law
+		
+	
+	
+		Business Support, Legal	
+	
+		Stockholm, Sweden	
+
+					
+	
+		
+			Premium Coordinator
+		
+	
+	
+		Business Development, Business Development, PR &amp; Marketing, Sales &amp; Marketing	
+	
+		Stockholm, Sweden	
+
+					
+	
+		
+			Pricing &#038; Inventory Analyst, APAC
+		
+	
+	
+		Business Support, Finance	
+	
+		Sydney, Australia	
+
+					
+	
+		
+			Account Director, Stockholm
+		
+	
+	
+		Ad Sales, Business Development, Business Development, Sales &amp; Marketing	
+	
+		Stockholm, Sweden	
+
+				
+	{{# items }}
+		
+			
+				
+					{{{ title }}}
+				
+			
+			
+				{{# categories }}
+					{{{ name }}}
+				{{/ categories }}
+			
+			
+				{{# locations }}
+					{{{ name }}}
+				{{/ locations }}
+			
+		
+	{{/ items }}
+	{{^ items }}
+		
+			
+				There is no job like that on the playlist right now. Try something else.
+			
+		
+	{{/ items }}
+
+	
+
+				
+			
+		
+
+					
+			
+				
+					
+						
+							More jobs						
+					
+				
+			
+			
+
+	
+	
+		
+			
+				Related content
+			
+		
+
+		
+			
+				
+									
+						
+
+							
+															
+
+							
+								Business Support							
+
+															See more jobs in Business Support.
+													
+					
+									
+						
+
+							
+															
+
+							
+								Sales &amp; Marketing							
+
+															See more jobs in Sales &amp; Marketing.
+													
+					
+									
+						
+
+							
+															
+
+							
+								New York							
+
+															See more jobs in New York.
+													
+					
+							
+		
+	
+	
+	
+		
+			Spotify
+
+			Company
+
+	About
+	Press
+	News
+
+
+Communities
+
+	For Artists
+	Developers
+	Brands
+
+
+Useful links
+
+	Help
+	Gift
+	Web Player
+
+
+
+							
+					
+						
+							
+							
+								
+									
+									Instagram
+								
+							
+						
+							
+							
+								
+									
+									Twitter
+								
+							
+						
+							
+							
+								
+									
+									Facebook
+								
+							
+						
+							
+							
+								
+									
+									LinkedIn
+								
+							
+											
+				
+			
+		
+
+		
+			Legal
+Cookies
+
+			
+				&copy; 2017 Spotify AB&nbsp;&nbsp;|&nbsp;&nbsp;Powered by WordPress.com VIP
+			
+
+			Powered by WordPress.com VIP
+		
+	
+
+	
+
+	
+
+
+/* Cookie Policy.","cookieAcceptText":"Ok, I understand"};
+/* ]]> */
+
+
+
+
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:5.4',blog:'128040440',post:'8273',tz:'2',srv:'www.spotifyjobs.com'} ]);
+	_stq.push([ 'clickTrackerInit', '128040440', '8273' ]);
+
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"949ceaf672","applicationID":"35929145","transactionName":"MQZWYhAFXhdYAUBfWwhMdVUWDV8KFghbVA==","queueTime":0,"applicationTime":135,"atts":"HUFBFFgfTUgbAxYMTxse","errorBeacon":"bam.nr-data.net","agent":""}
+

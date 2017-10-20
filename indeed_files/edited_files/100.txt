@@ -1,0 +1,809 @@
+
+
+
+    Cars.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    window.carsStatic = "/static/www/6e57abebe7cf";
+
+
+
+    
+
+    
+
+
+
+
+    // TEMP flag used by static SRP apiBootstrapper
+    if (!window.CARS) window.CARS = {};
+    window.CARS.isServerSideRendered = true;
+
+
+
+
+
+
+
+
+    if (window.performance && window.performance.clearMarks) {window.performance.clearMarks();}
+    if (window.performance && window.performance.mark) {window.performance.mark("pageLoadStart");}
+
+
+
+
+
+
+
+    
+    
+        
+            
+                
+                    
+                        
+                            
+                                
+                            
+                            
+                                
+                                    
+                                        Buy
+                                        
+                                            
+                                                 
+                                                
+                                                    
+                                                        
+                                                            
+                                                                Find Cars for Sale
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Find Cars for Sale by Owner
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Used Cars for Sale
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Research Car Models
+                                                            
+                                                        
+                                                    
+                                                    
+                                                        
+                                                            
+                                                                Find a Dealer
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Review a Dealer
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Review a Car
+                                                            
+                                                        
+                                                    
+                                                    
+                                                        
+                                                            
+                                                                Estimate Used Car Values
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Estimate Your Payments
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Certified Pre-Owned Cars
+                                                            
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                                        Sell &amp; Trade
+                                        
+                                            
+                                                 
+                                                
+                                                    
+                                                        
+                                                            
+                                                                Sell Your Car
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Find Your Car&#x27;s Value
+                                                            
+                                                        
+                                                    
+                                                    
+                                                        
+                                                            
+                                                                How to Sell Your Car
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                My Cars.com Listing
+                                                            
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                                        Service &amp; Repair
+                                        
+                                            
+                                                 
+                                                
+                                                    
+                                                        
+                                                            
+                                                                Get a Service Estimate
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Do it Yourself Repairs
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Find a Service Center
+                                                            
+                                                        
+                                                    
+                                                    
+                                                        
+                                                            
+                                                                Service &amp; Repair Advice
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Safety &amp; Recall Notices
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Car Maintenance 101
+                                                            
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                                        Videos &amp; Reviews
+                                        
+                                            
+                                                 
+                                                
+                                                    
+                                                        
+                                                            
+                                                                Latest Car News
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Latest Car Reviews
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Latest Videos
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Awards
+                                                            
+                                                        
+                                                    
+                                                    
+                                                        
+                                                            
+                                                                Multi-Car Comparisons
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Updates &amp; Trends
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Help for First-Time Buyers
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Child Car Seat Checks
+                                                            
+                                                        
+                                                    
+                                                    
+                                                        
+                                                            
+                                                                Detroit Auto Show
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                Chicago Auto Show
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                New York Auto Show
+                                                            
+                                                        
+                                                        
+                                                            
+                                                                LA Auto Show
+                                                            
+                                                        
+                                                    
+                                                
+                                            
+                                        
+                                    
+                                    
+                                
+                                
+                                        
+                                
+                                
+                                    
+                                
+                            
+                        
+                    
+                
+            
+        
+    
+
+
+        
+
+
+
+    
+        
+        
+
+
+            
+
+            ignition.modules.register('jobdetail');
+
+
+
+    
+    
+    	Data Analyst
+    
+    
+    
+    	Chicago, Illinois
+    
+    
+    	Full-Time/Regular
+    
+    
+    	RITM0021385
+    
+    
+    	&nbsp;
+    
+    
+    	&nbsp;
+    
+    
+    	Job Description
+    
+    
+    	&nbsp;
+    
+    
+    	Cars.com is one of Chicago&rsquo;s original tech companies. Our online platform makes it easier for consumers to shop for, sell and service their cars. With our expert content, mobile app features, millions of new and used vehicle listings, a comprehensive set of research tools and the largest database of consumer reviews in the industry, Cars.com offers innovative products to connect consumers with dealers across the country.
+Data is the driver for our future at Cars. We&rsquo;re searching for collaborative, analytical, and innovative engineers to help utilize the almost 20 years of data we have at our disposal. If you are passionate about using data to solve problems and build game changing products, we&rsquo;d love to work with you!
+    
+    
+    	&nbsp;
+    
+    
+    	&nbsp;
+    
+        
+        	Required Skills
+        
+        
+        	&nbsp;
+        
+        
+        	
+Partner with business stakeholders to develop analytical solutions&nbsp;
+Build complex queries on large data sets used to make informed decisions and demonstrate Cars.com value to local and national customers&nbsp;
+Translate business needs into data visualizations&nbsp;
+Collaborate with data platform teams influencing processes and technologies used to deliver solutions&nbsp;
+Foster self-service analytic environment by providing domain and tool expertise&nbsp;
+Perform root cause analysis on reporting and data issues&nbsp;
+
+        
+        
+        	&nbsp;
+        
+        
+        	&nbsp;
+        
+        
+        	Required Experience
+        
+        
+        	&nbsp;
+        
+        
+        	
+3-5 years in SQL programming&nbsp;
+Experience with data visualization tools such as Tableau, Power BI or QlikView&nbsp;
+Ability to work with large databases such as Oracle, Teradata and/or a big data environment&nbsp;
+Solid understanding of Data Warehousing concepts and technologies&nbsp;
+Ability to communicate with internal and external teams both verbally and written&nbsp;
+Bachelor&rsquo;s degree in Computer Science, Mathematics, Engineering or related field&nbsp;
+
+Preferred
+
+Experience with Agile methodologies&nbsp;
+Proficiency in Python or R&nbsp;
+Experience with Hive or Impala&nbsp;
+Experience with cloud based technologies like AWS&nbsp;
+
+        
+    
+        
+        
+           
+                Apply For This Position
+            
+            Back to Job Openings
+        
+        
+            
+            
+                
+            
+        
+    
+    
+
+
+
+            
+
+        
+    
+
+    
+
+
+
+    
+        
+            
+
+            
+                Our Company
+
+                
+                    
+                        
+                    
+                
+            
+
+            
+                    
+                        
+                            About Cars.com
+                        
+                    
+                    
+                        
+                            Investor Relations
+                        
+                    
+                    
+                        
+                            Contact Cars.com
+                        
+                    
+                    
+                        
+                            Mobile Apps
+                        
+                    
+                    
+                        
+                            Site Map
+                        
+                    
+                    
+                        
+                            Careers
+                        
+                    
+                    
+                        
+                            Fraud Awareness
+                        
+                    
+                    
+                        
+                            Licensing &amp; Reprints
+                        
+                    
+            
+        
+        
+            
+
+            
+                Our Partners
+
+                
+                    
+                        
+                    
+                
+            
+
+            
+                    
+                        
+                            Auto.com
+                        
+                    
+                    
+                        
+                            NewCars.com
+                        
+                    
+                    
+                        
+                            RepairPal.com
+                        
+                    
+
+                
+                    
+                
+            
+        
+
+        
+            
+                    
+                        
+                            
+                                
+                            
+                        
+                    
+                    
+                        
+                            
+                                
+                            
+                        
+                    
+                    
+                        
+                            
+                                
+                            
+                        
+                    
+                    
+                        
+                            
+                                
+                            
+                        
+                    
+                    
+                        
+                            
+                                
+                            
+                        
+                    
+            
+        
+    
+
+    
+        
+            
+                    
+                        Terms of Service
+                    
+                    
+                        Privacy Statement
+                    
+                    
+                        Ad Choices
+                    
+                
+            
+            &copy; 2017 Cars.com
+                All rights reserved.
+            
+        
+    
+
+
+
+
+
+
+    
+
+    
+        var fontDiv = document.getElementById('font-div');
+        // Load Fonts Asyncronously
+        var ua = window.navigator.userAgent;
+        var link1 = document.createElement('link');
+        link1.setAttribute('rel', 'stylesheet');
+        link1.setAttribute('type', 'text/css');
+        var link2 = document.createElement('link');
+        link2.setAttribute('rel', 'stylesheet');
+        link2.setAttribute('type', 'text/css');
+        if (typeof window.FontFace === 'function') {
+            link1.setAttribute('href', "/static/www/6e57abebe7cf/app/fonts/css/data-sourcesanspro-woff2.css");
+            link2.setAttribute('href', "/static/www/6e57abebe7cf/app/fonts/css/data-effra-woff2.css");
+            fontDiv.appendChild(link1);
+            fontDiv.appendChild(link2);
+        } else if (ua && ua.indexOf("Android 4.") > -1 && ua.indexOf("like Gecko") > -1 && ua.indexOf("Chrome") === -1) {
+            link1.setAttribute('href', "/static/www/6e57abebe7cf/app/fonts/css/data-sourcesanspro-ttf.css");
+            link2.setAttribute('href', "/static/www/6e57abebe7cf/app/fonts/css/data-effra-ttf.css");
+            fontDiv.appendChild(link1);
+            fontDiv.appendChild(link2);
+        } else {
+            link1.setAttribute('href', "/static/www/6e57abebe7cf/app/fonts/css/data-sourcesanspro-woff.css");
+            link2.setAttribute('href', "/static/www/6e57abebe7cf/app/fonts/css/data-effra-woff.css");
+            fontDiv.appendChild(link1);
+            fontDiv.appendChild(link2);
+        }
+    
+
+
+
+
+
+    
+    
+
+        
+            ignition.load();
+        
+
+
+    (function () {
+        const tagjs = document.createElement("script");
+        const s = document.getElementsByTagName("script")[0];
+        tagjs.text = "{'site':'4IGCP5L'}";
+        tagjs.async = true;
+        tagjs.src = "//s.btstatic.com/tag.js";
+        s.parentNode.insertBefore(tagjs, s);
+    }());
+
+
+    
+
+
+_satellite.pageBottom();
+
+
+    var ua = navigator.userAgent;
+    if (ua.indexOf('Safari') !== -1) {
+        var version = ua.match(/Version\/(\d+)/) || [];
+        if (parseInt(version[1]) <= 8) {
+            document.getElementsByClassName('page')[0].style.display = 'block';
+        }
+    }
+
+
+
+
+    var userSummary;
+    var userSummaryValue = localStorage.getItem("cars.userSummary");
+    if (userSummaryValue) {
+        try {
+            userSummary = JSON.parse(userSummaryValue);
+        } catch(e) {}
+        }
+
+    if (userSummary && userSummary.email) {
+        _etmc.push(["setOrgId", "carscomconsumer"]);
+        _etmc.push(["setUserInfo", {"email": userSummary.email}]);
+        _etmc.push(["trackPageView"]);
+        }
+
+
+
+
+    ( function ( document, window, index ) {
+        if (isNotFlatNav()) {
+            return;
+        }
+
+        var dHeight			= 0,
+            wHeight			= 0,
+            wScrollBefore	= 300,
+            wScrollCurrent	= window.pageYOffset;
+            wScrollDiff		= 0;
+
+        var globalNavTop = 0;
+        var globalNavBar = document.getElementsByClassName("flat-nav")[0];
+        var cobrandBar = document.getElementsByTagName("cars-cobrand-bar");
+        var bannerBar = document.getElementsByTagName("cars-mobile-app-banner");
+        var carsLogo = document.getElementById("cars-com-logo");
+        var navMenu = document.getElementsByClassName("global-nav__menu")[0];
+        var angularProfileComponent = document.getElementsByTagName("cars-nav-user-settings");
+
+
+
+        var preventDefault = function(event) {
+            if (window.innerWidth  globalNavTop ? "0px" : (globalNavTop - wScrollCurrent) + "px");
+        }
+
+        function checkLogoAnimation() {
+            if (wScrollCurrent  0) {
+                globalNavTop = cobrandBar[0].getBoundingClientRect().height;
+                adjustNavBarTop();
+
+                cobrandBar[0].addEventListener("DOMSubtreeModified", function() {
+                    globalNavTop = cobrandBar[0].getBoundingClientRect().height;
+                    adjustNavBarTop();
+                }, false);
+            }
+        }
+
+        function addMobileBannerEvent() {
+            if (bannerBar.length > 0) {
+                globalNavTop = bannerBar[0].getBoundingClientRect().height;
+                adjustNavBarTop();
+
+                bannerBar[0].addEventListener("DOMSubtreeModified", function() {
+                    globalNavTop = bannerBar[0].getBoundingClientRect().height;
+                    adjustNavBarTop();
+                }, false);
+            }
+        }
+
+        function toggleMobileMenu() {
+            var isChecked = document.getElementById("mobile-trigger-controller").checked;
+            var body = document.getElementsByTagName("body")[0];
+
+            if (isChecked) {
+                body.classList.add('hide-overflow');
+                window.addEventListener("touchmove", preventDefault, options);
+                navMenu.style.top = (globalNavBar.getBoundingClientRect().top + globalNavBar.getBoundingClientRect().height) + "px";
+            } else {
+                body.classList.remove('hide-overflow');
+                window.removeEventListener("touchmove", preventDefault, options);
+            }
+        }
+
+        function addNavHamburgerEvent() {
+            document.getElementById("global-nav_menu-trigger").addEventListener("click", function() {
+                setTimeout(function() {
+                    toggleMobileMenu();
+                }, 0);
+            });
+        }
+
+        function addProfileScrollLockFix() {
+            if (angularProfileComponent.length > 0) {
+                var profileToggleElement = angularProfileComponent[0].getElementsByClassName("cui-flyout");
+
+                if (profileToggleElement.length > 0) {
+                    profileToggleElement[0].addEventListener("click", function(event) {
+                        var menuToggleElement = document.getElementById("mobile-trigger-controller");
+
+                        if (menuToggleElement.checked) {
+                            setTimeout(function() {
+                                menuToggleElement.checked = false;
+                                toggleMobileMenu();
+                                // Re-add the hide-overflow class because we clicked the profile logo
+                                document.getElementsByTagName("body")[0].classList.add('hide-overflow');
+                            }, 0);
+                        }
+                    });
+                }
+            }
+        }
+
+        function addWindowScrollEvent() {
+            window.addEventListener( 'scroll', function() {
+                var body = document.body;
+                var html = document.documentElement;
+                dHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+                wHeight = window.innerHeight;
+                wScrollCurrent = window.pageYOffset;
+                wScrollDiff = wScrollBefore - wScrollCurrent;
+
+                checkLogoAnimation();
+
+                // scrolled to the very top; element sticks to the top
+                if( wScrollCurrent  0 && document.body.classList.contains('header--hidden') ) {
+                    document.body.classList.remove('header--hidden');
+                // scrolled down
+                } else if( wScrollDiff = dHeight && document.body.classList.contains('header--hidden') ) {
+                        document.body.classList.remove('header--hidden');
+                    } else {
+                        document.body.classList.add('header--hidden');
+                    }
+                }
+                wScrollBefore = wScrollCurrent;
+
+                adjustNavBarTop();
+            });
+        }
+    }( document, window, 0 ));
+
+
+
+
+
+
+

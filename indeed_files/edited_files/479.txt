@@ -1,0 +1,1058 @@
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+	
+
+	
+
+    
+
+	Data and Reporting Analyst at Spectrum
+
+    
+
+    
+
+        
+
+    
+
+    
+
+    document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+     
+
+
+
+
+
+
+
+                
+
+{"@context":"http://schema.org","@type":"JobPosting","datePosted":"2017-10-5","description":"JOB SUMMARYResponsible for supporting the Enterprise Service Delivery Reporting team to analyze engineering data and processes.  Multiple tools and resources will be used for regular reporting, ad hoc reporting and statistical analysis.  Responsible for ensuring that data is communicated with accuracy across the organization and at various levels.MAJOR DUTIES AND RESPONSIBILITIESActively and consistently support all efforts to simplify and enhance the customer experienceWorks directly with the Service Delivery and Engineering leaders and internal business customers to understand reporting requirements and execute production of regular/ad hoc reports with a high degree of accuracy and in a timely manner.Manipulates and analyzes large data sources from multiple platforms.Assists with the establishment of dashboards, reports, and adhoc analysis.Produces regular and adhoc reports to support various sales and marketing channels.Evaluates reporting results through data investigation and analysis.Identifies trends, patterns and opportunities for improvement based on data and results of reporting.Monitors ongoing data feeds and perform root cause analysis and investigations on data quality issues.May assist with developing, optimizing and maintaining complex data and reporting solutions (creating tables, views, stored procedures, triggers, error handling, etc.).Performs other duties as requested by supervisor.REQUIRED QUALIFICATIONSSkills /Abilities and KnowledgeAbility to read, write, speak and understand EnglishAbility to learn complex data structure, prevailing data and business rules to produce precise sets for analyticsExperience with data research using ExcelExperience with reports & dashboards in SalesforceExperience with Tableau and SAS not required but preferredA curious and investigative nature to identify and to resolve possible data inaccuraciesAbility to double check and confirm results of queries and identify data issues before delivering to businessA strong aptitude for numbersMotivated self starter and self learnerOrganized and methodicalExcellent work ethicCan do attitudeEducationBA /BS in computer science, management information systems, statistics, mathematics or equivalent technical or semi-technical undergraduate degree OR equivalent experienceRelated Work Experience                                                                                           Number Of YearsExperience with complex reporting and data analysis                                                      5Experience with Excel                                                                                                                    5                               PREFERRED QUALIFICATIONSSkills /Abilities and KnowledgeExperience in creating complex Excel Macros (VBA knowledge preferred)Experience in the Cable IndustryKnowledge of current analytics trendsRelated Work Experience                                                                                           Number Of YearsExperience in cable industry                                                                                                       2-3VBA Macro                                                                                                                                         2-3WORKING CONDITIONSOffice environmentMinimal travel as requiredEOE Race/Sex/Vet/DisabilityCharter is an equal opportunity employer that complies with the laws and regulations set forth in the following EEO Is the Law poster: http://www.dol.gov/ofccp/regs/compliance/posters/pdf/eeopost.pdfCharter is committed to diversity, and values the ways in which we are different.","employmentType":"Full Time","identifier":"205224BR","industry":"Information Technology Services","title":"Data and Reporting Analyst","url":"https://jobs.spectrum.com/job/maryland-heights/data-and-reporting-analyst/4673/5900669","hiringOrganization":{"@type":"Organization","name":"Corporate"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Maryland Heights","addressRegion":"Missouri","addressCountry":"United States","streetAddress":"13736 Riverport Dr","postalCode":""}}}
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-72328535-2', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+                createHiddenInput('dimension1', '5900669');
+
+                createHiddenInput('dimension2', '205224BR');
+
+                createHiddenInput('dimension3', '4673');
+
+                createHiddenInput('dimension4', '4673,Corporate');
+
+                    createHiddenInput('dimension6', 'Information-Technology-Services');
+
+                    createHiddenInput('dimension7', 'Maryland-Heights-Missouri-United-States');
+
+                    createHiddenInput('dimension9', 'Data and Reporting Analyst');
+
+                        createHiddenInput('dimension10', 'JobDetails');
+
+                    createHiddenInput('dimension14', 'Basic JD');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+            gtmValues = { 'JobID': '5900669', 'ReqID': '205224BR', 'OrgID': '4673', 'tbcn-division': '4673,Corporate' };
+
+                gtmValues['tbcn-jobcategory'] = 'Information-Technology-Services';
+
+                gtmValues['tbcn-location'] = 'Maryland-Heights-Missouri-United-States';
+
+                gtmValues['tbcn-jobtitle'] = 'Data and Reporting Analyst';
+
+                    gtmValues['pagetype'] = 'JobDetails';
+
+                gtmValues['subpagetype'] = 'Basic JD';
+
+            dataLayer.push(gtmValues);
+
+
+
+
+
+
+
+
+
+
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-PPZLKZ');
+
+    
+
+
+
+	
+
+	Skip to Main Content
+
+    
+
+	    
+
+	        
+
+	            
+
+    
+
+
+
+    Careers
+
+    
+
+
+
+
+
+
+
+	Menu 
+
+	
+
+	
+
+
+
+    
+
+                
+
+                    Explore
+
+                    
+
+                            Company Overview
+
+                            Benefits
+
+                            University
+
+                            Military
+
+                            Events
+
+                            Map
+
+                            Diversity/Inclusion
+
+                    
+
+                   
+
+                Already Applied?
+
+    
+
+
+
+
+
+
+
+
+
+	                     
+
+	        
+
+	    
+
+	    
+
+	     
+
+	     
+
+                 
+
+                    
+
+
+
+
+
+
+
+	Search
+
+	
+
+	Find A Job
+
+	
+
+        
+
+		    Keyword
+
+		    
+
+        
+
+        
+
+            Location
+
+		    
+
+                
+
+		
+
+        
+
+		    Radius
+
+	        Miles
+
+5 miles
+
+15 miles
+
+25 miles
+
+35 miles
+
+50 miles
+
+
+
+		
+
+        
+
+        Search
+
+		
+
+	
+
+	Already a Spectrum Employee? Click here to browse jobs
+
+ 
+
+
+
+    OR use your profile to search.
+
+
+
+
+
+                
+
+
+
+	     
+
+	     
+
+	    
+
+	
+
+	
+
+	    
+
+		
+
+
+
+
+
+
+
+
+
+    
+
+
+
+    
+
+        Data and Reporting Analyst
+
+        	Apply Now
+
+                         Date posted 10/05/2017         
+
+        Job Title: Data and Reporting Analyst-->
+
+        Requisition Number: 205224BR
+
+                  Location: United States - Missouri - Maryland Heights
+
+                          Area of Interest: Information Technology Services
+
+                  Position Type: Full Time
+
+        
+
+        
+
+          
+
+        
+
+    
+
+        
+
+            JOB SUMMARYResponsible for supporting the Enterprise Service Delivery Reporting team to analyze engineering data and processes.  Multiple tools and resources will be used for regular reporting, ad hoc reporting and statistical analysis.  Responsible for ensuring that data is communicated with accuracy across the organization and at various levels.MAJOR DUTIES AND RESPONSIBILITIESActively and consistently support all efforts to simplify and enhance the customer experienceWorks directly with the Service Delivery and Engineering leaders and internal business customers to understand reporting requirements and execute production of regular/ad hoc reports with a high degree of accuracy and in a timely manner.Manipulates and analyzes large data sources from multiple platforms.Assists with the establishment of dashboards, reports, and adhoc analysis.Produces regular and adhoc reports to support various sales and marketing channels.Evaluates reporting results through data investigation and analysis.Identifies trends, patterns and opportunities for improvement based on data and results of reporting.Monitors ongoing data feeds and perform root cause analysis and investigations on data quality issues.May assist with developing, optimizing and maintaining complex data and reporting solutions (creating tables, views, stored procedures, triggers, error handling, etc.).Performs other duties as requested by supervisor.REQUIRED QUALIFICATIONSSkills /Abilities and KnowledgeAbility to read, write, speak and understand EnglishAbility to learn complex data structure, prevailing data and business rules to produce precise sets for analyticsExperience with data research using ExcelExperience with reports & dashboards in SalesforceExperience with Tableau and SAS not required but preferredA curious and investigative nature to identify and to resolve possible data inaccuraciesAbility to double check and confirm results of queries and identify data issues before delivering to businessA strong aptitude for numbersMotivated self starter and self learnerOrganized and methodicalExcellent work ethicCan do attitudeEducationBA /BS in computer science, management information systems, statistics, mathematics or equivalent technical or semi-technical undergraduate degree OR equivalent experienceRelated Work Experience                                                                                           Number Of YearsExperience with complex reporting and data analysis                                                      5Experience with Excel                                                                                                                    5                               PREFERRED QUALIFICATIONSSkills /Abilities and KnowledgeExperience in creating complex Excel Macros (VBA knowledge preferred)Experience in the Cable IndustryKnowledge of current analytics trendsRelated Work Experience                                                                                           Number Of YearsExperience in cable industry                                                                                                       2-3VBA Macro                                                                                                                                         2-3WORKING CONDITIONSOffice environmentMinimal travel as requiredEOE Race/Sex/Vet/DisabilityCharter is an equal opportunity employer that complies with the laws and regulations set forth in the following EEO Is the Law poster: http://www.dol.gov/ofccp/regs/compliance/posters/pdf/eeopost.pdfCharter is committed to diversity, and values the ways in which we are different.
+
+        
+
+        
+
+      
+
+
+
+        More on Spectrum: Charter Communications reaffirms its commitment to providing equal opportunities for employment and advancement to qualified employees and applicants.  Individuals will be considered for positions for which they meet the minimum qualifications and are able to perform without regard to race, color, gender, age, religion, disability, national origin, veteran status, sexual orientation, gender identity, current unemployment status, or any other basis protected by federal, state or local laws. Charter Communications is an Equal Opportunity Employer - Minority/Female/Disability/Veteran/Current Unemployment Status.
+
+
+
+		Spectrum is an Equal Opportunity Employer - Minority/Female/Disability/Veteran/Current Unemployment Status.
+
+
+
+		
+
+        FCC Unit: 01393 - Maryland Heights Riverport  Dr
+
+        
+
+         Business Unit: Corporate
+
+                            
+
+        Data and Reporting Analyst-->
+
+        
+
+	Apply Now
+
+        	Apply Later
+
+		    
+
+
+
+
+
+    
+
+    
+
+    
+
+    
+
+        
+
+        
+
+
+
+    
+
+            
+
+    
+
+    About this location
+
+    
+
+    
+
+    
+
+ 
+
+
+
+
+
+
+
+
+
+        
+
+            Share this job
+
+            
+
+	                Facebook
+
+	                LinkedIn
+
+	                Twitter
+
+	                Google+
+
+	                Email
+
+                            
+
+        
+
+    
+
+
+
+
+
+        
+
+                
+
+                
+
+                
+
+                        
+
+                            
+
+                            
+
+                        
+
+                                            
+
+                    Company Profile
+
+                    <!--Company Profile-->
+
+                        
+
+                    
+
+                    
+
+                
+
+                
+
+                
+
+                
+
+                        
+
+                            
+
+                            
+
+                        
+
+                                            
+
+                    Mission Media
+
+                    <!--Mission Media-->
+
+                        
+
+                    
+
+                    
+
+                
+
+                
+
+                
+
+                
+
+                        
+
+                            
+
+                            
+
+                        
+
+                                            
+
+                    Commitment to Diversity
+
+                    <!--Commitment to Diversity-->
+
+                        
+
+                    
+
+                    
+
+                
+
+        
+
+
+
+
+
+    	
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    	    
+
+    
+
+
+
+
+
+	
+
+		
+
+			
+
+			
+
+			
+
+		
+
+	
+
+
+
+	
+
+
+
+	A Day in the Life
+
+		
+
+			  Curious about a typical day as a Spectrum employee? Check out these stories of how our people spend their day. Hear stories and watch original video featuring members of our team.
+
+			 Go
+
+		
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	    
+
+		
+
+		
+
+		    Join Our Talent Network
+
+				    Be the first to know about career events, new openings, exclusive updates, and get job info that matches what you’re looking for.
+
+		
+
+		
+
+		
+
+
+
+                
+
+                First Name]*$" id="form-field-d244c37691" maxlength="25" name="FirstName" pattern="^[^&lt;>]*$" type="text" />
+
+                 
+
+                
+
+                Last Name]*$" id="form-field-a33d4ad2d7" maxlength="25" name="LastName" pattern="^[^&lt;>]*$" type="text" />
+
+                 
+
+                
+
+                Phone
+
+                 
+
+                
+
+                Your Email Address
+
+                 
+
+                
+
+                Interested InSelect a category and/or location and click &quot;Add.&quot;Job CategoryChoose one...Ad Buying and InventoryAd SalesAdmin ClericalAdvertisingBusinessBusiness DevelopmentCable TelevisionCloud ComputingConstructionContent DevelopmentCorporate CommunicationsCreativeCustomer OperationsCustomer ServiceDirect MarketingDirect SalesEditorialEngineeringExecutive ManagementField TechnicianFinance and AccountingGovernment and Corporate AffairsGraphic DesignHuman ResourcesInformation Technology ServicesInstallerInteractive EntertainmentInteractive MarketingInternationalInternshipLegalLibrarian ScienceMagazine PublishingMarket ResearchMarketingNewsOnlineOperationsOtherProcurementProduct ManagementProductionProject ManagementPublic RelationsReal EstateRecruitingResearch and DevelopmentRetailSalesSales and DistributionSecuritySportsStrategic PlanningTV ProductionTV ProgrammingVideo OperationsVOIPDesired LocationChoose one..., New YorkAda, MichiganAkron, OhioAlbany, New YorkAlexandria, MinnesotaAlliance, NebraskaAlliance, OhioAltoona, WisconsinAmsterdam, New YorkAnaheim, CaliforniaAndover, MassachusettsAppleton, WisconsinArlington, TexasArnold, MissouriAsheville, North CarolinaAshland, KentuckyAshtabula, OhioAstoria, OregonAstoria, New YorkAtascadero, CaliforniaAthens, AlabamaAthens, GeorgiaAuburn, New YorkAuburndale, FloridaAugusta, MaineAustin, TexasAustin, MinnesotaBakersfield, CaliforniaBallwin, MissouriBangor, MaineBarre, VermontBaxter, MinnesotaBay City, MichiganBellefontaine, OhioBelleview, FloridaBelleville, IllinoisBellflower, CaliforniaBeloit, WisconsinBillings, MontanaBinghamton, New YorkBirmingham, AlabamaBoone, North CarolinaBowling Green, OhioBowling Green, KentuckyBozeman, MontanaBradenton, FloridaBrea, CaliforniaBridgeton, MissouriBroadview Heights, OhioBrooklyn, New YorkBroomfield, ColoradoBrownsville, TennesseeBrownsville, TexasBuffalo, New YorkBuffalo, MinnesotaBunnell, FloridaBurbank, CaliforniaButte, MontanaCadillac, MichiganCañon City, ColoradoCanton, OhioCantonment, FloridaCape Canaveral, FloridaCarlsbad, CaliforniaCarrollton, GeorgiaCarson City, NevadaCasper, WyomingCelina, OhioCentennial, ColoradoCenter Conway, New HampshireCenterville, OhioCerritos, CaliforniaCharlotte, North CarolinaChatsworth, CaliforniaCheektowaga, New YorkCheyenne, WyomingChicago, IllinoisChicopee, MassachusettsCincinnati, OhioCity of Industry, CaliforniaCity of Saint Peters, MissouriClarksburg, West VirginiaClarksville, TennesseeClearwater, FloridaClermont, FloridaCleveland, TennesseeCleveland, OhioCleveland Heights, OhioClintonville, WisconsinCoeur d'Alene, IdahoCollege Point, New YorkColorado Springs, ColoradoColumbia, TennesseeColumbia, MissouriColumbus, OhioColumbus, NebraskaCookeville, TennesseeCoos Bay, OregonCoppell, TexasCorning, New YorkCorona, CaliforniaCorpus Christi, TexasCortland, New YorkCoshocton, OhioCosta Mesa, CaliforniaCottage Grove, OregonCoudersport, PennsylvaniaCrescent City, CaliforniaCrestwood, KentuckyCulver City, CaliforniaDallas, TexasDallas, OregonDalton, GeorgiaDavison, MichiganDayton, OhioDaytona Beach, FloridaDe Forest, WisconsinDecatur, AlabamaDeFuniak Springs, FloridaDeLand, FloridaDelaware, OhioDenver, ColoradoDiamond Bar, CaliforniaDodgeville, WisconsinDothan, AlabamaDuluth, GeorgiaDuluth, MinnesotaDurango, ColoradoEagle Pass, TexasEast Machias, MaineEast Syracuse, New YorkEdwardsville, IllinoisEl Centro, CaliforniaEl Paso, TexasEl Segundo, CaliforniaEllensburg, WashingtonEllsworth, MaineElyria, OhioEnglewood, ColoradoErie, PennsylvaniaEufaula, AlabamaEvansville, IndianaFallon, NevadaFaribault, MinnesotaFarmers Branch, TexasFarmington Hills, MichiganFayetteville, North CarolinaFenton, MissouriFindlay, OhioFlorence, KentuckyFlorence, South CarolinaFlushing, New YorkFond du Lac, WisconsinFontana, CaliforniaFort Morgan, ColoradoFort Worth, TexasFremont, NebraskaFremont, OhioGainesville, GeorgiaGarden Grove, CaliforniaGardendale, AlabamaGardnerville, NevadaGarfield Heights, OhioGarland, TexasGastonia, North CarolinaGeneva, New YorkGeorgetown, KentuckyGillette, WyomingGilroy, CaliforniaGlendora, CaliforniaGlens Falls, New YorkGorham, New HampshireGrand Haven, MichiganGrand Island, NebraskaGrand Junction, ColoradoGrants Pass, OregonGreen Bay, WisconsinGreenfield, WisconsinGreensboro, North CarolinaGreenville, South CarolinaGreenville, MichiganGreenwood Village, ColoradoGreer, South CarolinaGrove City, OhioHamilton, OhioHammond, LouisianaHarlingen, TexasHazard, KentuckyHelena, MontanaHemet, CaliforniaHenderson, KentuckyHickory, North CarolinaHilo, HawaiiHolland, MichiganHolly Ridge, North CarolinaHonolulu, HawaiiHopkinsville, KentuckyHornell, New YorkHorseheads, New YorkHoughton, MichiganHoulton, MaineHurst, TexasIndependence, OhioIndianapolis, IndianaIndio, CaliforniaIronton, OhioIrving, TexasIrwindale, CaliforniaIthaca, New YorkJackson, TennesseeJackson, WyomingJacksonville, North CarolinaJamaica, New YorkJamestown, New YorkJanesville, WisconsinJasper, IndianaJeffersonville, IndianaJuneau, WisconsinKahului, HawaiiKalispell, MontanaKannapolis, North CarolinaKansas City, MissouriKearney, NebraskaKennewick, WashingtonKenosha, WisconsinKerrville, TexasKettering, OhioKilleen, TexasKingsport, TennesseeKingston, New YorkKissimmee, FloridaKlamath Falls, OregonLa Grande, OregonLancaster, OhioLaramie, WyomingLaredo, TexasLatham, New YorkLeavenworth, KansasLebanon, TennesseeLecanto, FloridaLewiston, MaineLexington, KentuckyLima, OhioLincoln, NebraskaLincoln City, OregonLivonia, MichiganLodi, OhioLondon, KentuckyLong Beach, CaliforniaLorain, OhioLos Angeles, CaliforniaLouisville, KentuckyLudington, MichiganMadison, WisconsinMaitland, FloridaManchester, KentuckyMankato, MinnesotaMansfield, OhioMaple Heights, OhioMarion, IndianaMarshfield, WisconsinMartin, TennesseeMaryland Heights, MissouriMarysville, OhioMaryville, TennesseeMcAllen, TexasMcMinnville, TennesseeMedford, OregonMelbourne, FloridaMentor, OhioMexico, MissouriMiamisburg, OhioMiddlesboro, KentuckyMiddletown, New YorkMilford, OhioMililani Town, HawaiiMilledgeville, GeorgiaMilwaukee, WisconsinMonroe, MichiganMonroe, North CarolinaMontgomery, AlabamaMontrose, ColoradoMoreno Valley, CaliforniaMorrisville, North CarolinaMount Pleasant, MichiganMount Sterling, KentuckyMount Vernon, New YorkMount Vernon, OhioMt. Vernon, IllinoisMyrtle Beach, South CarolinaNebraska City, NebraskaNederland, TexasNegaunee, MichiganNew Braunfels, TexasNew Philadelphia, OhioNew Port Richey, FloridaNew York, New YorkNewark, OhioNewburgh, IndianaNewburgh, New YorkNewbury Park, CaliforniaNewnan, GeorgiaNewport, North CarolinaNewtown, ConnecticutNiagara Falls, New YorkNorth Canton, OhioNorth Olmsted, OhioNorth Platte, NebraskaNorth Wilkesboro, North CarolinaNorth Windham, ConnecticutNorwalk, OhioNorwich, New YorkOcoee, FloridaO'Fallon, MissouriOgallala, NebraskaOlean, New YorkOnalaska, WisconsinOneida, New YorkOneonta, New YorkOntario, CaliforniaOrlando, FloridaOrmond Beach, FloridaOsage Beach, MissouriOswego, New YorkOverland, MissouriOverland Park, KansasOwosso, MichiganOxnard, CaliforniaPalisades Park, New JerseyPalm Bay, FloridaPalmdale, CaliforniaPanorama City, CaliforniaPasadena, CaliforniaPendleton, OregonPerrysburg, OhioPetoskey, MichiganPiedmont, AlabamaPinellas Park, FloridaPineville, KentuckyPiqua, OhioPittsfield, MassachusettsPittsford, New YorkPlainwell, MichiganPlano, TexasPlattsburgh, New YorkPlymouth, New HampshirePolson, MontanaPort Clinton, OhioPortage, MichiganPortland, MainePotsdam, New YorkQueens, New YorkRacine, WisconsinRaleigh, North CarolinaRancho Cucamonga, CaliforniaRawlins, WyomingRedlands, CaliforniaReno, NevadaRichland Hills, TexasRiverside, CaliforniaRiverview, FloridaRoanoke Rapids, North CarolinaRochester, New YorkRochester, MinnesotaRockland, MaineRome, New YorkRosemount, MinnesotaRouses Point, New YorkSaco, MaineSaginaw, MichiganSaint Ann, MissouriSaint Petersburg, FloridaSalida, ColoradoSalisbury, North CarolinaSan Antonio, TexasSan Bernardino, CaliforniaSan Diego, CaliforniaSan Luis Obispo, CaliforniaSan Marcos, TexasSanford, FloridaSanta Clarita, CaliforniaSanta Monica, CaliforniaSaranac Lake, New YorkSaratoga Springs, New YorkSault Ste. Marie, MichiganSavannah, TennesseeSchenectady, New YorkScott City, MissouriScottsbluff, NebraskaSeguin, TexasSevierville, TennesseeSheboygan, WisconsinSidney, OhioSikeston, MissouriSimpsonville, South CarolinaSlidell, LouisianaSmyrna, GeorgiaSparks, NevadaSparta, WisconsinSpartanburg, South CarolinaSpringfield, NebraskaSpringfield, OhioSt. Louis, MissouriStamford, ConnecticutStaten Island, New YorkSterling, ColoradoStevens Point, WisconsinStrongsville, OhioSuffolk, VirginiaSummerville, South CarolinaSyracuse, New YorkTampa, FloridaTerre Haute, IndianaThibodaux, LouisianaThomaston, GeorgiaToledo, OhioTown and Country, MissouriTraverse City, MichiganTroutman, North CarolinaTroy, OhioTujunga, CaliforniaTullahoma, TennesseeTurlock, CaliforniaTwo Rivers, WisconsinUlster Park, New YorkUrbana, OhioUtica, New YorkVan Nuys, CaliforniaVancouver, WashingtonVestal, New YorkVestavia Hills, AlabamaViera, FloridaWaco, TexasWaite Park, MinnesotaWalker, MichiganWalworth, WisconsinWarren, OhioWatertown, New YorkWauwatosa, WisconsinWaynesville, North CarolinaWells, MaineWenatchee, WashingtonWesley Chapel, FloridaWest Bend, WisconsinWest Columbia, South CarolinaWest Seneca, New YorkWetumpka, AlabamaWhitmore Lake, MichiganWildwood, FloridaWilliamston, South CarolinaWilmington, CaliforniaWinslow, MaineWinsted, ConnecticutWinston-Salem, North CarolinaWisconsin Rapids, WisconsinWoodland Hills, CaliforniaWorcester, MassachusettsYakima, WashingtonYoungstown, OhioYuma, ArizonaZanesville, OhioZeeland, MichiganZephyr Cove, NevadaAddRemove
+
+                 
+
+
+
+		
+
+		
+
+		
+
+		
+
+
+
+		
+
+		    Confirm Email
+
+		    
+
+		
+
+			
+
+		
+
+		    
+
+		
+
+		
+
+		
+
+		    
+
+	    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		
+
+	
+
+	
+
+	
+
+	    
+
+	    
+
+        
+
+  
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+	Charter Communications is an Equal Employment Opportunity Employer- Minority/Female/Veteran/Disability.
+
+
+
+	
+
+
+
+		EEO Information - English
+
+		Información EEO - Español
+
+		FCC Notices
+
+		Spectrum.com
+
+		Site Map
+
+	
+
+
+
+        
+
+
+
+
+
+    
+
+        Social Media
+
+        
+
+                View on Twitter
+
+                View on Facebook
+
+                View on LinkedIn
+
+                View on YouTube
+
+        
+
+    
+
+
+
+
+
+			            
+
+	    	
+
+	    
+
+	    
+
+	
+
+	
+
+    
+
+    
+
+
+
+    
+
+    
+
+    -->
+
+    -->
+
+    
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+	
+
+
+
+
+
+	
+
+	
+
+
+

@@ -1,0 +1,691 @@
+
+
+	
+
+	
+
+	Job Information: Data Analyst Job
+
+   
+
+   
+
+	
+
+		
+
+		
+
+		
+
+			
+
+   			
+
+   			
+
+			
+
+		
+
+		
+
+		
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	function jsNewWindow(jsTarget, jsWidth, jsHeight) {
+
+		var winWidth = jsWidth;
+
+		var winHeight = jsHeight;
+
+		var winleft = 0;
+
+		var winTop = 0;
+
+		if (((winWidth == null) && (winHeight == null)) || ((winWidth == 0) && (winHeight == 0))) {
+
+   		if (screen) {
+
+      		winWidth = (screen.width - 100);
+
+      		winHeight = (screen.height - 150);
+
+      		winleft = (screen.width/2)-winWidth/2;
+
+      		winTop = (screen.height/2)-(winHeight+50)/2;
+
+   		}
+
+		}
+
+		window.open(jsTarget,"","top="+winTop+",left="+winleft+",width=" + winWidth + ",height=" + winHeight + ",toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes");
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+	
+
+
+
+	
+
+
+
+		
+
+			&nbsp;
+
+			
+
+				
+
+					
+
+						
+
+							
+
+							
+
+
+
+								
+
+									&nbsp;
+
+								
+
+
+
+								
+
+									-->
+
+									
+
+										
+
+											
+
+
+
+												
+
+
+
+													
+
+													
+
+													addthis_pub = 'juliaf';
+
+													addthis_logo = 'https://client.hrservicesinc.com/images/mystaffingpro.gif';
+
+													
+
+														addthis_brand = 'myStaffingPro'
+
+													
+
+													addthis_options = 'google, facebook, twitter, linkedin, 2tag'
+
+													
+
+
+
+													
+
+													Share
+
+													
+
+
+
+												
+
+												
+
+
+
+												
+
+												
+
+													
+
+												Email Opening
+
+												
+
+											
+
+											
+
+
+
+												
+
+Apply Now
+
+												
+
+											
+
+										
+
+									
+
+								
+
+							
+
+						
+
+						
+
+						
+
+							
+
+								
+
+									
+
+									
+
+
+
+										
+
+											Title
+
+											Data Analyst&nbsp;
+
+										
+
+
+
+
+	EOE Statement	
+
+	We are an equal employment opportunity employer.  All qualified applicants will receive consideration for employment without regard to race, color, religion, gender, national origin, disability status, protected veteran status or any other characteristic protected by law.	&nbsp;
+
+
+
+
+
+	About the Organization	
+
+	Atlas Research is a management consulting company based in Washington, DC that helps clients overcome challenges in government, business, health, and social services.
+
+RECENT AWARDS:
+Inc 5000 - Fastest Growing Private Companies (2016)
+Inc. Magazine
+
+Award of Excellence (2016)
+SECAF (Small and Emerging Contractors Advisory Forum)
+
+Washington Future50 Awards (2016)
+SmartCEO
+
+Inc 5000 - Fastest Growing Private Companies (2015)
+Inc. Magazine
+
+Government Contractor of the Year (<25M) (2015)
+Fairfax County Chamber of Commerce and Professional Services Council
+
+Government Contractor of the Year (2015)
+SECAF (Small and Emerging Contractors Advisory Forum)
+
+Small Industry Star Award - Ryung Suh, MD (2015)
+SmartCEO
+
+Caregiver Friendly® Award (2015)
+Today's Caregiver Magazine
+	&nbsp;
+
+
+
+
+
+	Category	
+
+	Consulting                                                                                          	&nbsp;
+
+
+
+
+
+	Description	
+
+	Atlas Research is seeking a Data Analyst to provide data analysis, data modeling, and data reporting support to the Department of Veterans Affairs. The data analyst will assist the project team with defining business requirements and then translating business requirements into conceptual, logical, and physical data models.
+
+
+
+ 
+
+
+
+Responsibilities:
+
+
+
+
+
+	Work closely with the client to capture and document business requirements, formulate data collection plans, key performance metrics, develop queries to extract accurate and timely information from existing data environments.
+
+	Employ data analysis skills to create solutions through application of appropriate analytical techniques and methods.
+
+	Assist with modeling, data architecture, and meta-data for common customer information domains.
+
+	Conduct analyses of data quality exceptions identified, resolved, to include sources, types of issues, and impacts, and propose recommendations for business process and systems changes to improve data quality, efficiency, or reduce costs.
+
+	Assist in defining near-term processes, procedures, and business rules with line of business teams for ensuring data quality standards for Customer Data Domains are being met, and for an approach to exception resolution that accounts for the combination of target and legacy systems as sources and consumers.
+
+	Administer and ensure compliance by line of business teams during exception resolution processing. Directly perform exception resolution as required.
+
+	Prepare briefings and reports on analysis methodologies and results.
+
+	Work under general supervision with few direct instructions.
+
+	Ensure effective communication with senior staff members.
+
+
+
+	&nbsp;
+
+
+
+
+
+	Exempt/Non-Exempt	
+
+	Exempt	&nbsp;
+
+
+
+
+
+	Full-Time/Part-Time	
+
+	Full-Time	&nbsp;
+
+
+
+
+
+	Location	
+
+	Washington, DC	&nbsp;
+
+
+
+
+
+	Number of Openings	
+
+	1	&nbsp;
+
+
+
+
+
+	Position	
+
+	Data Analyst	&nbsp;
+
+
+
+
+
+	Position Requirements	
+
+		3+ years of overall IT experience	2+ years of experience with data analysis and data visualization	Experience with Microsoft Excel, Access, and Visual Basic for Applications (VBA)	1+ years of experience with business intelligence or visualization software, such as Tableau Desktop, Microsoft Power BI, or QlikView	Experience with client service and interacting with all levels of management	Experience with One Note	Ability to produce reports, dashboards, and presentations with various analytical tools	Ability to work in a fast-paced environment and prioritize competing tasks	Strong communication skills	BA/BS required	Ability to work in the U.S without sponsorship indefinitely	&nbsp;
+
+
+
+
+
+	Tags	
+
+		&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This position is currently accepting applications.
+
+Apply Now
+
+
+
+										
+
+											
+
+										
+
+									
+
+									
+
+								
+
+
+
+									
+
+										
+
+											
+
+												
+
+													
+
+													
+
+												
+
+											
+
+										
+
+
+
+
+
+											
+
+											
+
+											
+
+												
+
+													WE ALSO RECOMMEND
+
+												
+
+												
+
+													Other Jobs Within Same Category
+
+												
+
+												
+
+													
+
+														Management Analyst II in Washington, DCPosted on: 10/3/2017[Apply Now]Management Analyst III in Washington, DCPosted on: 10/1/2017[Apply Now]Internship in Washington, DCPosted on: 9/29/2017[Apply Now]Analyst (Healthcare Management Consulting) in Washington, DCPosted on: 9/29/2017[Apply Now]Health Operations Consultant in Washington, DCPosted on: 9/28/2017[Apply Now]
+
+													
+
+												
+
+
+
+
+
+												
+
+													Other Jobs Within 60 Miles
+
+
+
+												
+
+												
+
+													
+
+Vice President FInance in Washington, DCPosted on: 9/21/2017[Apply Now]Data Analyst/Modeler in Washington, DCPosted on: 4/21/2017[Apply Now]Strategic Human Capital Management Consultant in Washington, DCPosted on: 9/15/2017[Apply Now]Internship in Washington, DCPosted on: 9/29/2017[Apply Now]Requirements Analyst in Washington, DCPosted on: 5/15/2017[Apply Now]
+
+													
+
+
+
+												
+
+											
+
+
+
+
+
+
+
+										
+
+									
+
+
+
+
+
+							
+
+						
+
+						
+
+					
+
+				
+
+				
+
+					
+
+				
+
+ 
+
+				
+
+					
+
+						
+
+
+
+									
+
+											
+
+						  					
+
+						  						
+
+						  							Follow us
+
+						  						
+
+						  						
+
+						  						
+
+														
+
+													
+
+														
+
+													
+
+														
+
+													
+
+														
+
+													
+
+												
+
+											
+
+						  						
+
+													
+
+														See who works here:
+
+														
+
+															
+
+														
+
+													
+
+												
+
+												
+
+												
+
+										
+
+									
+
+								
+
+						
+
+					
+
+				
+
+			
+
+		
+
+		&nbsp;
+
+	
+
+
+
+
+
+	
+
+		
+
+     
+
+	
+
+		
+
+	
+
+	
+
+		
+
+AppOne.comTM   ©1999-2017 HR Services, Inc.Click here for technical assistance.
+
+    	
+
+
+
+	
+
+
+
+
+
+  
+
+window['adrum-start-time'] = new Date().getTime();
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+
+  ga('create', 'UA-2382526-26', 'auto');
+
+  ga('send', 'pageview');
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+

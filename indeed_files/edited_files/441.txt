@@ -1,0 +1,636 @@
+
+
+
+
+
+
+
+
+
+
+    
+
+	
+
+	function openWin(URL)
+
+	{
+
+		aWindow=window.open(URL, "help", "toolbar=no,width=350,height=250,status=no,scrollbars=yes,resize=yes,menubar=no");
+
+	}
+
+	
+
+
+
+
+
+ 
+
+ 
+
+
+
+Security Benefit - Current Openings
+
+        
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+  
+
+  
+
+ 
+
+     
+
+    
+
+       
+
+  
+
+
+
+ 
+
+
+
+  
+
+
+
+ 
+
+  
+
+  
+
+  
+
+    
+
+
+
+    
+
+      
+
+          
+
+     -->
+
+  
+
+      
+
+    
+
+        
+
+            
+
+                
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                
+
+            
+
+        
+
+        
+
+   
+
+   
+
+     
+
+           
+
+     
+
+
+
+
+
+        
+
+        Home     
+
+  | Careers   
+
+  | Current Openings
+
+ 
+
+       
+
+        
+
+                   
+
+                 
+
+    
+
+        
+
+            Browse Open Jobs
+
+            Search Open Jobs
+
+            Edit Your Profile
+
+            
+
+                Create Online Profile
+
+                      
+
+            
+
+        
+
+    
+
+       
+
+        
+
+       
+
+        
+
+      
+
+            
+
+            
+
+
+
+       
+
+
+
+
+
+
+
+
+
+Job Details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = ('');
+
+		theform.__PXLBV.value = ('');
+
+	}
+
+	function pxslbp(eventTarget, eventArgument) {
+
+		var theform;
+
+		if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = eventTarget;
+
+		theform.__PXLBV.value = eventArgument;
+
+		theform.submit();
+
+	}
+
+//-->
+
+
+
+
+
+Invalid zipcode/postal code format for this country.');
+
+                }
+
+            } catch (e) {
+
+                hasError = true;
+
+            }
+
+            if (hasError) {
+
+                _zipCodeValue.title = 'Invalid Postal Code';
+
+                _zipCodeValue.style.backgroundColor = 'yellow';
+
+            }
+
+        }
+
+        return _validationReturn;
+
+    }
+
+    return true;
+
+}
+
+
+
+function removeZipLabelError(_zipCodeValue) {
+
+    var withSuccess = true;
+
+    try {
+
+        var lenght = _zipCodeValue.parentNode.childNodes.length;
+
+        var index = 0;
+
+        while (index 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ToggleCheckBoxs(chk){
+
+var tab = document.getElementById ( 'CheckBoxTable' );
+
+var elems = tab.getElementsByTagName ( 'input' );
+
+var len = elems.length;
+
+ for ( var i = 0; i  1){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+var pkval = nameparts[1];
+
+ txt.value = pkval;
+
+ }
+
+ }
+
+else
+
+elems[i].checked = false;
+
+}
+
+ if(chk.type == 'checkbox'){
+
+ if(chk.checked == false){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+txt.value="";
+
+}}}}
+
+
+
+
+
+
+
+    function SendResume(){
+
+        document.PXForm.ParseResume.value = 1;
+
+        document.PXForm.submit();
+
+    }
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+
+			
+
+			
+
+				Requisition Number
+
+				17-0164
+
+			
+
+			
+
+				Post Date
+
+				10/6/2017
+
+			
+
+			
+
+				Title
+
+				Data Analyst
+
+			
+
+			
+
+				City
+
+				Topeka
+
+			
+
+			
+
+				State
+
+				KS
+
+			
+
+			
+
+				Description
+
+				Security Benefit is a foremost provider of retirement savings and income vehicles for America’s pre - and post retirees. We are dedicated to independent financial advisors and helping them meet their client’s retirement needs. We are also a thought leader
+
+ and innovator bringing fresh solutions to the challenges of retirement. Headquartered in Topeka, KS, we are a fast-paced business that has experienced significant growth in the past few years and we expect to continue on a steady growth trajectory.
+
+
+
+The Data Analyst is the data context expert for Investments and ensures data accuracy through ensuring quality, reliability and availability of investment related data. Duties and responsibilities include:
+
+
+
+• Contribute to the development and implementation of standardized procedures for supporting the data management and data governance function according to best practices and industry standards.
+
+• Assist in managing vendor relationships for data and ensuring optimization of feeds.
+
+• Performs the day-to-day operational maintenance of data; input, manipulation, and exception reporting.
+
+• Work with business unit personnel, members of Investment Accounting, Investments, Operations, data and outsourced vendors, Procurement, and IT to develop best practices around data management and governance.
+
+• Establishes regular data validation processes to ensure data integrity and recommends new reports, feeds, and processes to support the business model.
+
+• Manage workflow with respect to data needs for audits and other business processes that require deadlines, such as trading and month end.
+
+• Assist in daily data and or operations processes as well as projects, research and analytical/quantitative analysis.
+
+
+
+• Assist front office by reviewing and analyzing data for completeness, validity and reasonableness.
+
+
+
+• Provide advice and technical support and understand downstream impacts of data processes.
+
+• Prepare periodic reports for management.
+
+
+
+
+
+			
+
+			
+
+				Requirements
+
+				• A bachelor’s degree with an emphasis in Finance, Accounting, MIS or Business Administration
+
+• Ability to analyze financial documentation and turn into concise data points, develop procedures and communicate detail in both verbal and written form
+
+• Previous Investment Operations experience
+
+• A high level of computer literacy and familiarity with electronic office and industry tools.
+
+• The mind-set to see through to conclusion specific tasks ensuring deadlines and quality standards are met
+
+• The ability to work well as part of a team and with minimal supervision
+
+• Working knowledge of SQL and Bloomberg
+
+• Evident interpersonal, organizational, administrative and problem solving abilities
+
+• Knowledge of industry data repositories, Crystal, Business Objectives, Access, DWH solutions ETL solutions preferred
+
+
+
+Consider joining our progressive team in our nationally recognized company. Visit the career section of our website at www.securitybenefit.com to complete an online application and submit your resume. EOE
+
+
+
+			
+
+			
+
+				
+
+				Apply Online
+
+			
+
+			
+
+				
+
+				Send This Job to a Friend
+
+			
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+                  
+
+                  
+
+            
+
+        
+
+
+
+       
+
+       
+
+       
+
+       
+
+            
+
+                
+
+                
+
+                
+
+                
+
+            
+
+         
+
+
+
+    
+
+ 
+
+            
+
+
+
+
+
+
+
+            
+
+             
+
+
+
+
+
+  
+
+          
+
+ 
+
+    
+
+     
+
+   
+
+      
+
+
+
+  
+
+ 
+
+
+
+
+
+ 
+
+  
+
+  
+
+
+

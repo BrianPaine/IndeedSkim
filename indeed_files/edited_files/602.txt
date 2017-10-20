@@ -1,0 +1,712 @@
+
+
+
+
+
+
+
+
+
+    
+        
+    Data Analyst, Applecart Advocacy at Applecart
+
+
+        
+
+        
+            
+        
+
+        
+        
+        
+
+        
+            
+        
+
+        
+        try{Typekit.load();}catch(e){}
+
+        
+        
+
+        
+    
+    
+    
+    
+    
+    
+    
+        
+
+ {
+    "@context" : "http://schema.org/",
+    "@type" : "JobPosting",
+    "title" : "Data Analyst, Applecart Advocacy",
+    "description" : "&lt;p&gt;Applecart seeks a motivated client relations specialist to help direct our new advocacy/public affairs effort. Applecart deploys proprietary technology that powers political campaigns, advocacy groups, and corporations that are&amp;nbsp;&lt;strong&gt;&lt;em&gt;serious about winning&lt;/em&gt;&lt;/strong&gt;. We work with some of the nation&amp;rsquo;s most prominent political groups, corporations, and non-profit organizations to activate and communicate with key target audiences at cutting-edge scale and efficiency. Part high-level strategic consultancy, part cutting edge data R+D lab, Applecart offers proven solutions derived from objective, iterative experimentation.&lt;/p&gt;
+&lt;p&gt;Our core offering is our proprietary Social Graph, which leverages publicly-available data to map real-world relationships between individuals at national scale. Recently we have taken our Social Graph, honed in politics, into the advocacy space. Your work will directly help leading trade associations influence policy outcomes, increasing fundraising yields, and optimize messaging spending and operations&lt;em&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;As a Data Analyst on our Advocacy team, you will be responsible for working with a team of strategists and data scientists to deliver custom analytics products, reports, and analyses to Applecart&amp;rsquo;s high profile advocacy clients&lt;em&gt;.&lt;/em&gt;&amp;nbsp;The job will entail fielding client inquiries, working with our sales and research teams to integrate testing into client projects, and creating and supervising the production of sales and reporting materials. The ideal candidate will be self-motivated and organized, with excellent written and verbal communication skills. SQL skills required; Python familiarity strongly preferred. Self-direction, attention to detail, and responsibility are paramount. Pay is competitive and commensurate to education and experience.&lt;/p&gt;
+&lt;p&gt;&lt;u&gt;Responsibilities&lt;/u&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Work collaboratively with a team of analysts and strategists to deliver custom analyses, standardized analytics products, and presentations&lt;/li&gt;
+&lt;li&gt;Support our sales team by helping to customize sales products and to generate estimates&lt;/li&gt;
+&lt;li&gt;Deliver quality analytics products to clients in a timely fashion, with impeccable attention to detail&lt;/li&gt;
+&lt;li&gt;Problem-solve creatively to deliver data-driven solutions to client challenges on tight timelines&lt;/li&gt;
+&lt;li&gt;Work quickly and fluently in SQL to produce deliverables responsive to client requests&lt;/li&gt;
+&lt;li&gt;Translate data sets, models, and technical concepts into actionable, client-friendly deliverables&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;u&gt;Basic Qualifications&lt;/u&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1-3 years of work experience in data analysis&lt;/li&gt;
+&lt;li&gt;1-3 years working in advocacy, public affairs, political campaigns, advertising, public policy, or government&lt;/li&gt;
+&lt;li&gt;Strong proficiency in SQL, Excel, and PowerPoint&lt;/li&gt;
+&lt;li&gt;Experience and success at managing multiple tight and often conflicting timelines, while maintaining a cool confidence&lt;/li&gt;
+&lt;li&gt;Outstanding attention to detail that means taking the quality of work personally&lt;/li&gt;
+&lt;li&gt;Strong interest in or passion for politics, the legislative process, and analytics technology&lt;/li&gt;
+&lt;li&gt;Demonstrated strong written communication skills&lt;/li&gt;
+&lt;li&gt;Experience producing intuitive, client-ready data visualizations&lt;/li&gt;
+&lt;li&gt;Experience performing quality assurance on large datasets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;u&gt;Preferred Qualifications&lt;/u&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comfortable working in a fast paced, highly collaborative, dynamic work environment&lt;/li&gt;
+&lt;li&gt;History of being a self-starter&lt;/li&gt;
+&lt;li&gt;Comfort identifying problems small and large and proactively working solve them&lt;/li&gt;
+&lt;li&gt;Experience with Python&lt;/li&gt;
+&lt;li&gt;Success at translating data and technical processes to materials easily understood by a nontechnical audience&lt;/li&gt;
+&lt;/ul&gt;",
+
+    "jobLocation" : {
+        "@type" : "Place",
+        "address" : {
+            "@type" : "PostalAddress",
+            "addressLocality" : "New York",
+            "addressRegion" : "New York",
+            "postalCode" : "10007",
+            "addressCountry": "United States"
+        }
+    },
+
+    "datePosted" : "2017-10-06",
+    "employmentType" : "FULL_TIME",
+
+    "identifier": {
+        "@type": "PropertyValue",
+        "name": "Applecart",
+        "value": "fk0mr3v"
+    },
+
+    "hiringOrganization" : {
+        "@type" : "Organization",
+        "name" : "Applecart"
+         ,"sameAs": "http://applecart.co"
+    }
+}
+
+
+    
+
+
+        
+        
+
+        
+    window.addEventListener("message", receiveMessage, false);
+
+    function receiveMessage(event)
+    {
+        if (event.origin !== "https://app.recruiterbox.com")
+            return;
+
+        var data = event.data;
+
+        if (data === 'FINISHED_LOADING_LINKEDIN_JS') {
+            $('.js-apply-with-linkedin').removeClass('hide');
+        } else if (data === 'PROFILE_DATA_BEING_FETCHED') {
+            show_application_form();
+            show_loading_overlay();
+        } else if (data.message == 'ERROR_WHILE_FETCHING_PROFILE_DATA') {
+            hide_loading_overlay();
+            show_application_form();
+            _RB.logToRollbar(data.error);
+        } else if (data.message == 'LINKEDIN_PROFILE_DATA') {
+            populateFields(data.firstName, data.lastName, data.emailAddress, data.summary, data.publicProfileUrl)
+        }
+    }
+
+    function populateFields(first_name, last_name, email, summary, linkedin_public_profile_url) {
+        hide_loading_overlay();
+        show_application_form();
+        var first_name_field = $('#id_candidate_first_name');
+        var last_name_field = $('#id_candidate_last_name');
+        var email_field = $('#id_candidate_email');
+        var summary_field = $('#id_linkedin_profile_summary');
+        var linkedin_public_profile_url_field = $('#id_linkedin_public_profile_url');
+
+        first_name_field.val(first_name);
+        last_name_field.val(last_name);
+        email_field.val(email);
+        summary_field.val(summary);
+        linkedin_public_profile_url_field.val(linkedin_public_profile_url);
+    }
+
+    function clickOnLinkedinButton() {
+        var iframe = document.querySelector("#js-linkedin-btn-iframe");
+        var iframeWindow = iframe.contentWindow;
+        iframeWindow.postMessage("CLICK_ON_LINKEDIN_BUTTON", "*");
+    }
+
+
+    
+
+
+    
+
+        
+            
+
+
+
+
+
+        
+
+        
+            
+                
+                    
+
+
+    
+    
+    
+        
+            
+            
+                
+            
+            
+        
+        
+            
+                
+                    applecart.co
+                
+                
+                    Website
+                    
+                
+            
+        
+    
+
+    
+    
+
+
+                
+            
+        
+
+        
+            
+        
+
+        
+            
+            
+                
+    
+
+    
+    
+    
+
+
+
+    (function (d, s, id) {
+        var js, iajs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.async = true;
+        js.src = "https://apply.indeed.com/indeedapply/static/scripts/app/bootstrap.js";
+        iajs.parentNode.insertBefore(js, iajs);
+    }(document, 'script', 'indeed-apply-js'));
+
+
+    
+        
+            Data Analyst, Applecart Advocacy
+            
+                New York, United States
+                
+                Full-time
+                
+
+                
+            
+        
+    
+    
+        
+
+            
+              
+              
+              Applecart seeks a motivated client relations specialist to help direct our new advocacy/public affairs effort. Applecart deploys proprietary technology that powers political campaigns, advocacy groups, and corporations that are serious about winning. We work with some of the nation’s most prominent political groups, corporations, and non-profit organizations to activate and communicate with key target audiences at cutting-edge scale and efficiency. Part high-level strategic consultancy, part cutting edge data R+D lab, Applecart offers proven solutions derived from objective, iterative experimentation.
+Our core offering is our proprietary Social Graph, which leverages publicly-available data to map real-world relationships between individuals at national scale. Recently we have taken our Social Graph, honed in politics, into the advocacy space. Your work will directly help leading trade associations influence policy outcomes, increasing fundraising yields, and optimize messaging spending and operations.
+As a Data Analyst on our Advocacy team, you will be responsible for working with a team of strategists and data scientists to deliver custom analytics products, reports, and analyses to Applecart’s high profile advocacy clients. The job will entail fielding client inquiries, working with our sales and research teams to integrate testing into client projects, and creating and supervising the production of sales and reporting materials. The ideal candidate will be self-motivated and organized, with excellent written and verbal communication skills. SQL skills required; Python familiarity strongly preferred. Self-direction, attention to detail, and responsibility are paramount. Pay is competitive and commensurate to education and experience.
+Responsibilities:
+
+Work collaboratively with a team of analysts and strategists to deliver custom analyses, standardized analytics products, and presentations
+Support our sales team by helping to customize sales products and to generate estimates
+Deliver quality analytics products to clients in a timely fashion, with impeccable attention to detail
+Problem-solve creatively to deliver data-driven solutions to client challenges on tight timelines
+Work quickly and fluently in SQL to produce deliverables responsive to client requests
+Translate data sets, models, and technical concepts into actionable, client-friendly deliverables
+
+Basic Qualifications:
+
+1-3 years of work experience in data analysis
+1-3 years working in advocacy, public affairs, political campaigns, advertising, public policy, or government
+Strong proficiency in SQL, Excel, and PowerPoint
+Experience and success at managing multiple tight and often conflicting timelines, while maintaining a cool confidence
+Outstanding attention to detail that means taking the quality of work personally
+Strong interest in or passion for politics, the legislative process, and analytics technology
+Demonstrated strong written communication skills
+Experience producing intuitive, client-ready data visualizations
+Experience performing quality assurance on large datasets
+
+Preferred Qualifications:
+
+Comfortable working in a fast paced, highly collaborative, dynamic work environment
+History of being a self-starter
+Comfort identifying problems small and large and proactively working solve them
+Experience with Python
+Success at translating data and technical processes to materials easily understood by a nontechnical audience
+
+              
+              
+            
+
+            
+                
+                
+                    
+                        
+                            Apply for this opening
+                        
+                        
+                            
+                                
+                                    
+                                        
+                                        Apply with Linkedin
+                                    
+                                
+                            
+                        
+                        
+                            
+                                
+                                    
+
+                                    Apply with Indeed
+                                
+                            
+                        
+                    
+
+                    Apply for this opening at 
+                        http://applecart.recruiterbox.com/jobs/fk0mr3v?apply=true
+                    
+                    
+                        
+                            
+                                
+                                     Other openings at Applecart
+                                
+                                See all the jobs at Applecart here: 
+                                    http://applecart.recruiterbox.com/jobs
+                                
+                                
+                            
+                        
+                    
+                
+                
+
+                
+                    
+                        
+                        Fetching your Linkedin profile ...
+                    
+                    
+
+
+
+    
+        
+            
+                Application Form
+            
+            
+                
+                    
+                        
+                        Apply with Linkedin
+                    
+                
+            
+            
+                
+                    
+                        
+
+                        Apply with Indeed
+                    
+                
+            
+        
+
+        
+
+        
+            
+
+            
+                
+                    
+                        First Name
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Last Name
+                        
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Email
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Phone
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Resume
+                         *
+                    
+                    
+                    
+                
+            
+                
+                    
+                        Cover Letter
+                         *
+                    
+                    
+                    
+                
+            
+
+            
+                
+                
+                
+                
+                
+                
+                
+                
+            
+
+        
+    
+
+
+                
+
+                
+                    Thanks for your time
+                
+            
+        
+
+        
+            
+                
+
+
+    
+        
+            Apply for this opening
+
+            
+                
+
+                
+                    
+                    Apply with Linkedin
+                
+            
+
+            
+                
+                    
+
+                    Apply with Indeed
+                
+            
+
+        
+
+    
+        share this opening with friends
+
+        
+
+        
+
+        
+
+        
+
+    
+    
+
+
+                
+
+                
+                    
+                         Other openings at Applecart
+                    
+                    See all the jobs at Applecart here: 
+                        http://applecart.recruiterbox.com/jobs
+                    
+                    
+                
+
+                
+            
+        
+    
+
+                
+            
+            
+        
+
+        
+
+        
+            
+                
+                    
+                        
+                    
+                    
+                        powered by
+                        Recruiterbox
+                    
+                
+            
+        
+    
+    
+
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MSXJKT');
+
+
+
+    
+    
+    
+    
+    window.jQuery || document.write('')
+
+    focus_first_field_application_form();
+    $.fn.scrollView = function () {
+        return this.each(function () {
+        $('html, body').animate({
+            scrollTop: $(this).offset().top
+        }, 400);
+        });
+    }
+
+    $(window).on('ready',function() {
+        $("#application_form_holder").scrollView();
+        $('.eeoc-form-description')
+        .popover()
+        .on('shown.bs.popover', function () {
+            var span = $('#super-user-email');
+            if (span) {
+                var a = document.createElement('a');
+                a.href = 'mailto:Alan@applecart.co';
+                a.target = '_blank';
+                a.text = 'Alan@applecart.co';
+                span[0].appendChild(a);
+            }
+        });
+        
+        $('[data-toggle="popover"]').popover()
+        
+
+        $( '#div_apply_to_job a.btn-apply' ).click( show_application_form );
+        $( '.js-apply-for-job' ).click( show_application_form );
+
+        $('.date_input_box').datepicker({ dateFormat: 'dd M yy' });
+
+        
+
+        $('[data-loading-text]').button();
+        $('[data-loading-text]').on('click', function(){
+            $(this).button('loading');
+        });
+
+        $('.js-apply-with-indeed').click(function () {
+            var new_url = getApplyWithIndeedUrl();
+            window.location.href = new_url;
+        });
+    });
+
+    function getApplyWithIndeedUrl() {
+        var indeed_fragment = "apply_with_indeed=true";
+        var current_url = window.location.href;
+
+        if (current_url.indexOf(indeed_fragment) !== -1) {
+            return current_url;
+        }
+
+        if (current_url.indexOf('?') !== -1) {
+            return current_url + '&' + indeed_fragment;
+        }
+
+        return current_url + '?' + indeed_fragment;
+    }
+
+    function focus_first_field_application_form(e) {
+        e && e.preventDefault();
+        $('#job_application_form').find(':input:not(:hidden):first').focus();
+    }
+
+    function handleCancelButtonClick() {
+            $('#application_form_holder').hide();
+            $('#eeoc_cancel_message').show();
+    }
+
+    function indeedApplySuccess(elem) {
+        $('#indeed_application_form').submit()
+    }
+
+    function show_application_form(e) {
+        if ( e ) {
+            e.preventDefault();
+        }
+        $('#div_apply_to_job').hide();
+        $('#application_form_holder').slideDown(function() {
+            $('#application_holder').scrollView();
+            focus_first_field_application_form();
+        });
+    }
+
+    function show_loading_overlay() {
+        $('#application_holder').addClass('application-form-loading');
+        $('#loading-overlay').removeClass('hide');
+    }
+
+    function hide_loading_overlay() {
+        $('#application_holder').removeClass('application-form-loading');
+        $('#loading-overlay').addClass('hide');
+    }
+
+    (function handle_character_limit_on_paragraph() {
+        var show_limit_message = function(e) {
+            var $target = $(e.currentTarget);
+            var max_character = Number($target.data('maxlength'));
+            var current_length = $target.val().length;
+            var remaining_length = max_character - current_length;
+            var message_text = 'Not more than ' + max_character + ' characters';
+
+            if(remaining_length  0) {
+                message_text = remaining_length + ' characters remaining';
+            }
+
+            var message = $('', {
+                class: 'js-max-length-message text-muted',
+                text: ' ('+ message_text +')'
+            });
+            $target.siblings('.js-max-length-message').remove();
+            $target.siblings('label').after(message);
+        };
+
+        var handle_keydown = function(e) {
+            var $target = $(e.currentTarget);
+            var max_character = Number($target.data('maxlength'));
+            var current_length = $target.val().length;
+
+            if ([8, 13, 27, 38, 40, 9, 39, 37].indexOf(e.keyCode) > -1) {
+                return true;
+            }
+
+            if (current_length >= max_character) {
+                return false;
+            }
+        }
+
+        $('textarea[maxlength]')
+            .each(function(idx, item){
+                var $target = $(item);
+                var maxlength = $target.attr('maxlength');
+                $target.removeAttr('maxlength').data('maxlength', maxlength);
+            })
+                .on('keyup', show_limit_message)
+                .on('keydown', handle_keydown)
+                .on('input', show_limit_message)
+                .trigger('keyup');
+    })();
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+

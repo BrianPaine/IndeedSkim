@@ -1,0 +1,125 @@
+
+       
+          
+          
+  <!--
+window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o
+
+
+
+
+
+
+
+
+    
+    window.jQuery || document.write('')
+
+
+
+window.jQuery || document.write('')
+<!--
+
+
+    body {
+        margin:0;
+        min-width: 0px;
+    }
+            #container.signup {
+            background: #000000        }
+                .company_inside h3 {
+            background: #000000;
+        }
+        .blue-btn-flat  {
+            background: #000000;
+        }
+    
+Big Brothers Big Sisters IR Careers
+
+
+        
+    -->
+    
+        
+        You need to enable JavaScript to fill out an application
+
+        Please enable Javascript in your browser and try again.
+
+        For more information, please visit Activate Javascript and then refresh this page
+    
+    
+        #container {
+            display: none !important;
+        }
+    
+
+
+
+
+
+
+
+all jobs 
+
+
+
+
+
+Data Analyst @ Big Brothers Big Sisters IR
+ Description 
+Big Brothers Big Sisters Independence Region 
+Position: Data Analyst 
+Location: Philadelphia, PA
+ 
+AGENCY OVERVIEW 
+JOIN A FORWARD-THINKING ORGANIZATION THAT HAS BEEN PROVEN TO MAKE A POSITIVE IMPACT ON CHILDREN’S LIVES. Big Brothers Big Sisters Independence Region (BBBS IR) is proud to have achieved a 4-star rating by Charity Navigator, their highest level of distinction. BBBS IR is the second largest BBBS Agency in the nation. Our mission is to provide children facing adversity with strong and enduring, professionally supported one-to-one mentoring relationships that change their lives for the better, forever. Our vision is that all children achieve success in life.
+ 
+JOB SUMMARY
+BBBS IR seeks a full-time Data Analyst to provide evaluative support to the entire Agency via skilled data analysis via skilled data analysis. This position will provide a unique opportunity to learn about financial and grant reporting in the non-profit industry. This position is responsible for data analysis &amp; research, benchmarking, some grant reporting, budgeting and reconciliation reports, reports on Agency performance results, and Agency metric tracking. This support position also collaborates and interacts with internal staff and some outside funders. This position will be fully responsible for compiling all key Program impact reports and various Agency dashboard reports. The Data Analyst reports directly to the Controller on a finance team of four staff members. The position is based in a routine office environment.
+ 
+JOB RESPONSIBILITIES 
+ 
+Grants: Working closely with the Development and Government Relations teams, provide invoicing, budgeting, program reporting, and expense utilization tracking support for grants from government, foundations, and corporations. Working in tandem with the Accounting Manager &amp; Controller, reconcile all grant financial data; prepare and distribute grant variance reports; aid in annual grant audit preparation; and create, maintain, and distribute statistical and evaluative tools for Agency stakeholders as appropriate.
+Timesheet Compliance: Ensure staff compliance with timesheet standards, follow up with individual staff and supervisors for missing information, train new staff on using the Agency’s HRIS system, and help troubleshoot; monitor and compile monthly grant time allocated in timesheets.
+Program Reporting: Create scheduled internal outcomes report related to program for the program staff including the Leadership Team; provide required reports for funding sources; aid in creating measurements of success to help define the Agency’s community impact and strength of service; and compile program survey information and supervise temporary/seasonal survey collector.
+Other Special Projects: Carry out additional analysis projects as assigned by Supervisor. 
+ Qualifications 
+ JOB QUALIFICATIONS 
+Academic/Professional Requirements: Minimum – must have a bachelor’s degree one to two years in the field of financial and/or data analysis is required. Expert level ability in Microsoft Excel, and intermediate level in Access is strongly preferred. Familiarity with VBA, data visualization software (Tableau, Power BI), and GIS Analysis. Paylocity HRIS/Webtime, CRM and non-profit accounting software is a plus.
+Personal Attributes: Extremely well organized with strong communications skills; excellent math skills, able to prioritize and effectively respond to staff and agency needs; able to manage and perform in pressure situations; a self-starter, able to effectively problem solve; able to provide excellent service to our internal customers as well as our external partners.
+ 
+BENEFITS
+BBBS IR provides a Total Rewards Package to full-time employees: vacation time, personal days, sick time, paid holidays, medical/dental/prescription/vision insurance and an Employee Assistance Program, 403b retirement plan, agency-paid life and AD&amp;D insurance, Flexible Spending Account options, paid lunch break, and other Agency provided perks and benefits.  Please note that certain conditions and eligibility requirements apply.
+BBBS also has "Summer Fridays"- 1pm dismissal on Fridays during Summer 2017.
+APPLICATION INSTRUCTIONS 
+Please submit cover letters, resumes, and salary expectations online at: https://www.gatherdocs.com/listing/3708
+Note: only those applicants believed to be viable candidates for this opportunity will be contacted. No phone calls please.BBBS IR promotes a culture of inclusion and seeks talented staff from diverse backgrounds. BBBS IR does not discriminate on the basis of race, color, sex, sexual orientation, gender identity, religion, national or ethnic origin, age, disability, veteran status or any other legally protected factor. 
+ Location
+
+ This job is open at the following location: 
+
+
+
+
+Philadelphia, PA- - Philadelphia, Pennsylvania
+
+
+
+
+
+
+
+ Apply Now 
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"38ae7073b1","applicationID":"2658917","transactionName":"NVFbMRZWD0tTWkVbVwwbbBcNGAhWVlxJHEgKRA==","queueTime":0,"applicationTime":12,"atts":"GRZYR15MHEU=","errorBeacon":"bam.nr-data.net","agent":""}

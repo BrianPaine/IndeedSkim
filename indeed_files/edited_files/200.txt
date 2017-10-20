@@ -1,0 +1,60 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loading Content
+
+
+
+
+
+
+
+   function forwardAsReplace(){
+
+
+
+        location.replace('/applicants/jsp/shared/ReloadFrame.jsp?time=1507571823174');
+
+   }
+
+
+
+
+
+
+
+
+
+    
+
+        Loading Page.&nbsp;&nbsp;Please Wait.
+
+    
+
+
+
+
+
+
+

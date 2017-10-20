@@ -1,0 +1,218 @@
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+Delta Career Opportunities
+
+
+
+
+
+
+
+
+
+
+
+
+	Skip to main content
+	
+		
+			
+				
+					delta.com
+				
+			
+			
+				HOME |
+				DELTA.COM
+				
+
+		function adjustLocale()
+
+		{
+
+			
+
+			var locParams = document.getElementById('localeDD').value.split(",");
+
+			PSCommon.reloadPageUrlWithParam(locParams[0],locParams[1]);
+
+		}
+
+
+
+
+
+
+
+
+
+
+
+ -->
+			
+		
+		
+		
+			
+				
+				
+					Search All Jobs
+				
+				
+					
+						Returning Candidates
+					
+				
+					
+						FAQ
+					
+				
+					
+						I Was Referred
+					
+					
+			
+		
+		
+		
+			
+			
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+        
+
+
+
+		Let us tell you a little more...
+
+		
+
+		
+
+
+
+		Associate Business Analyst
+
+		
+
+		Requisition #:&nbsp;268914
+
+		
+
+		
+
+		
+
+			
+
+				Atlanta, 
+
+			
+
+		
+
+		
+
+		
+
+		Responsible for consultation to the internal and/or external customer. Learn and possess expertise in the customer area he/she supports and has technical understanding of the business unit's systems, capabilities, and respective technologies. Analyze customer processes and requirements. Prepare specified project documentation according to Delta standards. Assist in business process redesign as needed. Maintain communication with customer and team members and promote a team environment.YOUR RESPONSIBILITIES IN THIS ROLE:- Gather, develop, coordinate, and maintain business requirements for various projects and/or systems from initial phase to final implementation, assuring requirements meet standards.- Interact with users, other portfolios, vendors, development team and business for full life cycle of project.- Write project documents bridging the gap between the business and technical teams.- Present verbal reviews of project documentation to business and project team.- - Troubleshoot, coordinate, and maintain production systems/programs/applications, as needed.- Produce scheduled and ad hoc reports as necessary.- Assist in maintenance and communication of project status reports and tracking.- Provide user support and coordinate resolution of issues to include change management, root cause analysis, and appropriate escalation as needed.- Develop use cases, functional specifications and provide functional testing, ensuring system is functionally appropriate, technically sound, and well integrated.- Coordinate and assist in project cost estimation and timeline forecasts.- Assist in the development of project definitions, cost/benefit and risk analysis, work plans, progress reports, and presentations.- Assist in establishing end user training.- Practices safety-conscious behavior in all operational processes and procedures.WHAT ARE WE LOOKING FOR? / WHAT EXPERIENCE DO YOU NEED? - Bachelors Degree in Computer Science, Information Systems, or Business Administration with 18 months to two (2) years of IT and/or business experience, or any equivalent combination of experience, education, and/or training.- Candidate must be highly motivated, and keen to work in a fast paced organization with a passion for data analysis and reporting- Strong analytical, oral and written communication skills.
+
+		
+
+				
+
+	
+
+
+
+	
+
+
+	
+
+		
+
+		
+
+		
+
+		
+
+		
+
+
+	
+
+	
+
+	
+
+	var cursorFocus = function(elem) {
+
+		  var x = window.scrollX, y = window.scrollY;
+
+		  elem.focus();
+
+		  window.scrollTo(x, y);
+
+		}
+
+		//document.jbdescForm.ApplyForJob.focus();
+
+		cursorFocus(document.jbdescForm.ApplyForJob);
+
+		
+
+	
+
+	
+
+	
+			
+			
+			
+				As an equal opportunity employer, Delta Air Lines recognizes that our strength lies in our people. We are committed to diversity.
+			
+			
+			
+				
+					
+
+
+
+
+				
+			
+				
+	
+

@@ -1,0 +1,1602 @@
+
+
+
+
+
+
+       
+         
+         
+  <!--
+
+	
+	
+    
+        Quantitative Research Analyst Jobs in Philadelphia Area | SIG Careers
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        var tenant_refnum = "SUSQA004Y"
+        var phenomTrackURL = "careers.sig.com/beacon/phenomtrack.min.js"
+        var langg = "en";
+    
+    
+    
+    
+    
+
+var pageType=''
+    
+    
+    
+    
+    
+        pageType= "JOBDETAIL"
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+
+
+
+
+$('#iframe_video').attr('src','')
+
+if(document.all && !document.addEventListener){
+
+		$('#kword').attr('placeholder','')
+
+	}
+
+
+
+
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-39868386-12', 'auto');
+
+ga('require', 'displayfeatures');
+
+ga('create', 'UA-43555975-1', 'auto', {'name': 'sigTracker','allowLinker':true}); // Creating new tracker for sig property
+
+ga('require', 'displayfeatures');
+
+ga('sigTracker.require', 'displayfeatures');
+
+ga('sigTracker.require','linker'); // loads the auto link plugin for the sig property
+
+ga('sigTracker.linker:autoLink', ['icims.com', 'formstack.com']); //auto link to the chosen sites
+
+ga('send', 'pageview');
+
+ga('sigTracker.send', 'pageview'); // Send page view for the sig property tracker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+You are using an unsupported browser. Some features may not work correctly.Close
+
+    
+
+    
+        Menu
+        
+        
+            
+            	
+            		
+            	
+					Meet Our Team
+            
+            	
+            		
+            	
+					Beyond Work + Benefits
+            
+            	
+            		
+            	
+					News + Events
+            
+        
+        
+        
+             About Trading Quant Research Technology Campus Programs gamer blogCareers                                        
+
+
+
+                                        
+        
+        
+
+        
+    
+
+
+
+
+        
+
+
+    
+        
+            
+                    
+                    
+                        
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+                    
+                    
+                
+                
+
+
+
+
+
+    Search Jobs
+
+    
+        
+        
+        
+            Keywords
+            
+        
+
+        
+            Location
+
+            
+
+All
+
+Beijing
+
+Boston
+
+Boca Raton
+
+Chicago
+
+Dublin
+
+Hong Kong
+
+Northern New Jersey
+
+New York
+
+Philadelphia Area
+
+Stamford
+
+San Francisco
+
+Shanghai
+
+Sydney
+
+
+        
+
+        
+            Job Type:
+            
+
+All
+
+Experienced
+
+Recent Graduate/Student
+
+
+            
+        
+
+        
+        
+
+        
+        Category
+            
+
+All
+
+Accounting
+
+Additional Opportunities
+
+Corporate Research
+
+Human Resources, Recruiting &amp; Marketing
+
+Institutional Research, Sales &amp; Trading
+
+Legal &amp; Compliance
+
+Operations
+
+Private Equity/Venture Capital
+
+Quantitative Research
+
+Technology
+
+Trading
+
+
+        
+        
+        
+            
+            
+                View All Jobs
+                Search
+            
+        
+
+        
+                    
+                        
+                        Favorites ()
+                           
+                    
+                
+                
+            
+        
+    
+    
+
+
+    $( "#kword" ).autocomplete({
+        source: '/job/jobSuggestion'
+    });
+    $(document).ready(function(){
+        $("#category option:first").attr('selected', true)
+        var ls_desk_fav = "SUSQA004Y"+"_desk_fav";
+        var jobArray = JSON.parse(localStorage.getItem(ls_desk_fav));
+        if(jobArray != null) {
+            $("#fav_count").html(jobArray.length)
+        }
+        else{
+            $("#fav_count").html(0)
+        }
+    })
+    $('#searchSubmit').click(function(e){
+    	
+    })
+
+
+        
+
+    pageType = "JOBDETAIL";
+    jobId = "SUSQA004Y670"
+
+
+
+    
+    
+        var jobId = 'SUSQA004Y670';
+    
+    
+        
+            JOB DESCRIPTION
+            
+                
+                    
+                    
+                    
+                    
+                    Quantitative Research Analyst
+                
+                Share
+            
+            
+            
+            
+                
+                
+                    Share
+                    
+                        
+                            
+                            
+                            
+                                Email this Job
+                                
+                            
+                            
+                            
+                            
+                            
+
+                        
+                    
+                        
+                            
+                                
+                                    LinkedIn
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
+                        
+                    
+                        
+                            
+                            
+                                
+                                    Twitter
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+
+                        
+                    
+                        
+                            
+                            
+                            
+                            
+                                
+                                    Facebook
+                                
+                            
+                            
+                            
+                            
+
+                        
+                    
+
+                
+            
+            
+            
+                
+                    
+                    
+                    
+                    Location:Philadelphia Area
+                
+            
+
+            
+            
+                
+                
+                    Apply
+                
+                
+            
+            
+            
+            
+                
+                
+                    Apply
+
+                    
+                        
+                            
+                                
+                                    Linkedin
+                                
+                            
+                            
+                            
+                            
+                            
+                            
+                        
+                    
+                        
+                            
+                            
+                                
+                                    
+                                    Dropbox
+                                
+                            
+                            
+                            
+                            
+                            
+                        
+                    
+                        
+                            
+                            
+                            
+                            
+                                
+                                    Google Drive
+                                
+                            
+                            
+                            
+                        
+                    
+                        
+                            
+                            
+                            
+                            
+                            
+                                
+                                    
+                                
+                            
+                            
+                        
+                    
+
+                    
+
+
+                
+        
+            
+            
+            
+            OverviewSIG&rsquo;s Quantitative Researchers find solutions to complex problems that occur in the world of trading. They use research as a tool to better understand global markets, varying products, and the network of exchanges on which we trade. Quants move SIG's business forward by improving, identifying, and implementing trading strategies for the firm.&nbsp;In this role, you will examine global markets, utilize terabytes of trading data, and leverage your statistical analytic skills to build models and strategies for a variety of financial instruments. By using your quantitative and computational experience, you will help us increase profitability for the firm while decreasing our risk in the capital markets. Our collaborative environment enables you to work closely with traders and developers as you continuously advance the sophistication and results of your research. The impact of your work becomes quickly apparent as it affects our trading environment on a daily basis.&nbsp;What we're looking forPh.D. or equivalent degree in Mathematics, Physics, Statistics, Electrical Engineering, Computer Science, Operations Research, or related discipline.Strong practical computing skills in object oriented languages.Demonstrated experience working with and drawing conclusions from large datasets.
+        
+
+        
+        
+        
+        
+        
+        
+        Job Location
+            
+        
+
+
+
+
+
+
+
+    
+        Existing User Login
+            X
+        
+        
+            Name
+            
+        
+        
+            Email
+            
+        
+        
+            
+        
+        
+            Forgot Password
+        
+    
+
+
+
+
+
+
+
+    
+        Request Password
+            X
+        
+        
+            * Email
+            
+        
+        
+            
+        
+    
+
+
+
+
+
+
+
+    
+        Forgot Password
+            X
+        
+        
+            Re-register with a new email address
+            
+        
+        OR
+
+        
+            Continue using Einsatest2june20@mailinator.com
+            
+        
+    
+
+
+
+
+
+
+
+
+    
+        Email Resume
+            X
+        
+        
+            Email
+            
+        
+        
+            
+        
+    
+
+
+
+
+
+
+
+    
+        Email Resume
+            X
+        
+        
+            We've sent you an e-mail from
+            To submit your resume please reply to the above e-mail with your resume attached. 
+            OR
+            Send an e-mail to the above address with your resume attached. 
+        
+        
+            
+        
+        
+            
+        
+    
+
+
+
+
+
+
+
+    
+        Email this Job
+            X
+        
+        
+            
+           
+            
+
+            *Required Fields
+            
+                * Sender's Name
+                
+            
+            
+                * Recipient's Email
+                
+            
+
+
+            
+                
+            
+        
+
+    
+
+
+
+
+ 
+
+
+
+
+
+
+    
+    var geocoder;
+    var map;
+    var infoWindow=new google.maps.InfoWindow();
+    var marker;
+    var lat=40.0131418;
+    var lng=-75.23040379999999;
+    var mapAddress = ''
+    mapAddress="Philadelphia Area"
+    function initialize(){
+        geocoder = new google.maps.Geocoder();
+        var latlng = new google.maps.LatLng(lat,lng);
+        var mapOptions = {
+            zoom: 15,
+            center: latlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+        google.maps.event.addListener(map, 'zoom_changed', function() {
+            var c=map.getZoom();
+            if(c'+mapAddress+''
+                    infowindow = new google.maps.InfoWindow({
+                        content: contentString,
+                        maxWidth:200
+                    });
+                    new google.maps.event.addListener(marker, 'click', function() {
+                        if (infoWindow) {
+                            infoWindow.close();
+                        }
+                        infowindow.open(map,marker);
+                    });
+
+                } else {
+                    alert("Location not found");
+                }
+            } else {
+                //alert('Geocoder failed due to: ' + status);
+            }
+        });
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    
+
+    
+
+
+    
+    jQuery("#containerDropbox").click(function(){
+        Dropbox.choose({
+            linkType: "direct",
+            success: function (files) {
+                console.log("file link IE==="+files[0].link);
+                var refNum = 'SUSQA004Y' ;
+                var isQuickApply = true ;
+                var jobId = '';
+                var actualJobId ='';
+                var title = encodeURIComponent("");
+                var location = encodeURIComponent("");
+                var applySource = 'DropBox';
+                var applyUrl = '';
+                var docTitle = files[0].name;
+                var entityMap = {
+                    "&": "&amp;",
+                    "": "&gt;",
+                    '"': '&quot;',
+                    "'": '&#39;',
+                    "/": '&#x2F;'
+                };
+                function escapeHtml(string) {
+                    return String(string).replace(/[&"'\/]/g, function (s) {
+                        return entityMap[s];
+                    });
+                }
+                if(/[&"'/]/i.test(docTitle) == true && false) {
+                    alert('Please choose a file which name does not contains special characters.');
+                }
+                else {
+                    if (true  || false) {
+                        $("#overlay4").show();
+                        $("#customloader4").show();
+                        jQuery.ajax({
+                                    type: 'POST',
+                                    data: 'fileUrl=' + files[0].link + "&refNum=" + refNum,
+                                    url: 'https://careers.sig.com/applyForm/checkFileSize',
+                                    success: function (data) {
+                                        var obj = jQuery.parseJSON(data)
+                                        if (obj.fileType == "true") {
+                                            if (obj.uploadFile == 'true') {
+                                                jQuery.ajax({
+
+                                                    type: 'POST',
+                                                    data: 'fileUrl=' + files[0].link + "&jobSeqNo=" + jobId + "&refNum=" + refNum + "&isQuickApply=" + isQuickApply + "&actualJobId=" + actualJobId + "&title=" + title + "&location=" + location + "&applySource=" + applySource + "&applyUrl=" + applyUrl,
+                                                    url: 'https://careers.sig.com/applyForm/downLoadContentFromDropbox',
+                                                    success: function (data) {
+                                                       alert("Successfully Imported");
+                                                        var resumeFileName = escapeHtml(data);
+                                                        window.location.href = "https://careers.sig.com' + '/apply-form?resumeFileName=" + resumeFileName;
+                                                    }
+                                                });
+                                            }
+                                            else {
+                                                $("#overlay4").hide();
+                                                $("#customloader4").hide();
+                                                alert("Please choose file less than " + obj.fileSize + "MB");
+                                            }
+                                        }
+
+                                        else {
+                                            $("#overlay4").hide();
+                                            $("#customloader4").hide();
+                                            alert("Please choose file of extension " + obj.fileTypeNames);
+                                        }
+
+                                    }
+                                }
+                        );
+                    }
+                    else {
+                        jQuery.ajax({
+                            type: 'POST',
+                            data: 'fileUrl=' + files[0].link + "&jobSeqNo=" + jobId + "&refNum=" + refNum + "&isQuickApply=" + isQuickApply + "&actualJobId=" + actualJobId + "&title=" + title + "&location=" + location + "&applySource=" + applySource + "&applyUrl=" + applyUrl,
+                            url: 'https://careers.sig.com/applyForm/downLoadContentFromDropbox',
+                            beforeSend: function () {
+                                $("#overlay4").show();
+                                $("#customloader4").show();
+                            },
+                            success: function (data) {
+                                alert("Suceessfully Imported");
+                                var resumeFileName = escapeHtml(data);
+                                window.location.href = "https://careers.sig.com' + '/apply-form?resumeFileName=" + resumeFileName;
+                            }
+                        });
+                    }
+                }
+
+            },
+            cancel: function() {
+
+            }
+        });
+    })
+
+    
+    
+
+
+    
+    var ls_desk_fav = "SUSQA004Y"+"_desk_fav";
+    var jobID ="SUSQA004Y670";
+    var len = 0;
+    var refNum = "SUSQA004Y";
+    var jobArray = new Array();
+    $(document).ready(function(){
+        jobArray = JSON.parse(localStorage.getItem(ls_desk_fav));
+        if(jobArray != null) {
+            len = jobArray.length;
+        } else {
+            jobArray = new Array();
+        }
+        if(len>0) {
+            for(var i =0; i ');
+            }
+        }
+    })//end of function
+
+    function setLocalData(obj) {
+        if(jobArray != null) {
+            len = jobArray.length;
+        } else {
+            jobArray = new Array();
+        }
+        jobArray[len] = new Array(3);
+        var jobID = obj.id;
+        jobArray[len][0]  = "SUSQA004Y670";
+        jobArray[len][1]  = "Quantitative Research Analyst";
+        jobArray[len][2]  = "Philadelphia Area";
+        localStorage.setItem(ls_desk_fav, JSON.stringify(jobArray));
+        jobArray = JSON.parse(localStorage.getItem(ls_desk_fav));
+        len = jobArray.length;
+        $("#fav_count").html(len)
+        $("#favoriteid"+jobID).html('');
+
+    }
+
+    function removeLocalItem(obj) {
+        var jobID = obj.id;
+        jobArray = JSON.parse(localStorage.getItem(ls_desk_fav));
+        var len = jobArray.length;
+        for(var i =0; i ');
+                break;
+            }
+        }
+
+    }
+
+    $("#notify_button").click(function () {
+        if (emailValidate()) {
+            $("#desc_overlaydiv").hide();
+            var timestamp = new Date();
+            var jobtitle = "Quantitative Research Analyst";
+            var formSubmitData = {
+                'refNum':"SUSQA004Y",
+                'category':"Quantitative Research",
+                'title':encodeURIComponent(jobtitle),
+                'jobid':'SUSQA004Y670',
+                'email':$('#maild_id').val(),
+                'timestamp':timestamp.getTime()
+            };
+            var requestData = JSON.stringify(formSubmitData);
+            $.ajax({url:'/jobAlert/subscribe',
+                type:'POST',
+                data:'requestData=' + requestData,
+                cache:false,
+                success:function (response) {
+                    //$('ul#jresult').append(response);
+                    $("#get_notified_main").hide();
+                    alert(response);
+                }
+            });
+        }
+    });
+
+
+    function emailValidate() {
+        $("#mail_id_error").text("");
+        var email = $('#maild_id').val();
+        if (email.trim().length Please enter valid email ',
+                    required: "Email is required "
+                },
+                name:
+                {
+                    required: 'Name is required '
+                }
+            },
+            rules:{
+                email:{
+                    required: true,
+                    email:true
+                },
+                name:{
+                    required:true
+                }
+            }
+        });
+    });
+
+    
+
+
+
+        var formSubmitData = {
+            'refNum' : "SUSQA004Y",
+            'jobid' : "SUSQA004Y670",
+            'category' : encodeURIComponent("Quantitative Research"),
+            'timestamp' : jQuery.now()
+        };
+        $("#jobloading").show();
+        var requestData = JSON.stringify(formSubmitData);
+        $.ajax({
+            url:'/similar-jobs',
+            type:'POST',
+            data:'requestData='+requestData,
+            success: function(response) {
+                $("#similarjobsdiv").html(response);
+                $("#jobloading").hide();
+            }
+        });
+
+
+
+        
+
+
+    
+        
+              
+
+
+
+
+
+   
+
+
+
+
+
+   
+
+
+
+
+
+      
+
+
+
+         connect with us  
+
+
+
+         
+
+
+
+
+
+            Linkedin  
+
+
+
+
+
+            facebook
+
+
+
+
+
+         
+
+
+
+
+
+          
+
+
+
+
+
+      
+
+
+
+
+
+   
+
+
+
+
+
+   
+
+
+
+
+
+      
+
+
+
+
+
+      
+
+
+
+
+
+         
+
+
+
+
+
+            &nbsp;
+
+
+
+
+
+         
+
+
+
+               
+
+
+
+         
+
+
+
+
+
+            
+
+
+
+
+
+               
+
+
+
+
+
+                  &nbsp;
+
+
+
+
+
+               
+
+
+
+
+
+               
+
+
+
+
+
+                  About
+
+
+
+
+
+                  
+
+                     About
+
+
+
+
+
+                     Approach
+
+
+
+
+
+                     Culture
+
+
+
+
+
+                     Meet Our Team
+
+
+
+
+
+                     News + Events
+
+
+
+
+
+                     Speaker Series
+
+
+
+
+
+                     Beyond Work + Benefits
+
+
+
+
+
+ Institutional Brokerage
+
+
+
+
+
+                     ETF Group
+
+
+
+
+
+                     Global Private Equity
+
+
+
+
+
+                     Locations
+
+
+
+
+
+                  
+
+
+
+
+
+               
+
+
+
+
+
+               
+
+
+
+
+
+                  Quant Trading
+
+
+
+
+
+                  
+
+
+
+
+
+                     Quantitative Trading
+
+
+
+
+
+                     Products
+
+
+
+
+
+                     Game Theory
+
+
+
+
+
+                     Decision Making in Trading
+
+
+
+
+
+                  
+
+
+
+
+
+               
+
+
+
+
+
+               
+
+
+
+
+
+                  Quant Research
+
+
+
+
+
+                  
+
+
+
+
+
+                     Quantitative Research
+
+
+
+
+
+                     Day of a quantitative researcher
+
+
+
+
+
+                  
+
+
+
+
+
+               
+
+
+
+
+
+
+
+               
+
+
+
+
+
+                  Technology
+
+
+
+
+
+                  
+
+
+
+
+
+                     Technology
+
+
+
+
+
+                     Day of a Developer
+
+
+
+
+
+                  
+
+
+
+
+
+               
+
+
+
+
+
+               
+
+
+
+
+
+                  Campus Programs
+
+
+
+
+
+                  
+
+
+
+
+
+                     Trading
+
+
+
+
+
+                     Technology
+
+
+
+
+
+                     Quantitative Research
+
+
+
+
+
+                     Research
+
+
+
+
+
+                     Trading Operations
+
+
+
+
+
+                     Co-op
+
+
+
+
+
+                     Search Campus Openings
+
+
+
+
+
+                  
+
+
+
+
+
+               
+
+               
+
+                        
+
+                                Gamer Blog
+
+                        
+
+                        
+
+                        
+
+                    
+
+
+
+               
+
+
+
+
+
+                  Careers
+
+
+
+
+
+                  
+
+                     trading
+
+
+
+
+
+                     technology
+
+
+
+
+
+                     quantitative research
+
+
+
+
+
+                     private equity / venture Capital
+
+
+
+
+
+                     operations
+
+
+
+
+
+                     legal &amp; compliance
+
+
+
+
+
+                     institutional research, sales &amp; trading
+
+
+
+
+
+                     human resources, recruiting &amp; marketing
+
+
+
+
+
+                     corporate research
+
+
+
+
+
+                     additional opportunities
+
+
+
+
+
+                     accounting
+
+
+
+
+
+                  
+
+
+
+
+
+               
+
+
+
+
+
+                     &nbsp;      
+
+
+
+              
+
+
+
+            
+
+
+
+   &nbsp;      
+
+
+
+         
+
+
+
+
+
+         &nbsp;
+
+
+
+            
+
+
+
+      
+
+
+
+
+
+   
+
+
+
+
+
+   
+
+
+
+
+
+      Disclosures | Privacy Statement
+
+
+
+
+
+      Copyright &copy; 2014 Susquehanna International Group, LLP. All rights reserved. Susquehanna Financial Group, LLLP (SFG), an affiliate of SIG, is a       member of FINRA.
+
+
+
+
+
+   
+
+
+
+
+
+   
+
+    
+        
+    
+
+    
+
+
+
+
+
+
+    //var pageType = "jobDetails"
+     $(function() {
+        // Invoke the plugin
+         if(document.all && !window.atob){
+         }else{
+            $('input, textarea').placeholder();
+         }
+    });
+    $(document).on('click','.menu_ipad', function () {
+        $('.menu_ipad1').toggleClass('open');
+    });
+
+
+
+
+
+
+

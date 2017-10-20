@@ -1,0 +1,1554 @@
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+	Data Analyst Description at Allina Health
+
+	
+
+	
+
+		
+
+	
+
+	
+
+	
+
+		
+
+	document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+	
+
+    
+
+	 
+
+
+
+
+
+
+
+                
+
+{"@context":"http://schema.org","@type":"JobPosting","datePosted":"2017-5-11","description":"Req ID: 33594 Data management and analysisDatabase development and administrationAssists in performance improvement initiatives through data collection and documentation reviewConducts preliminary analysis and identifies opportunities for improvementCoordinates or collects and maintains currency of data for regulatory compliance, such as National Patient Safety Goals and risk monitors","educationRequirements":"Bachelor’s degree in statistics, measurement, or related field","employmentType":"Full-Time","identifier":"33594BR","industry":"Minneapolis boasts being both cosmopolitan yet small enough that you can find a place to call home whether on a lake, golf course, or in an adjoining suburb. With the fast pace of activity there are professional sports, theater, or enough parks for a quiet walk. The area has numerous schools and colleges, both public or private, and enough teams for all weekend athletes to join.Located in Minneapolis Population = 380,000 Service Area = 2,882,245Community Resource Links:Community Information School DiggerExplore Minnesota MN Dept of EducationMinneapolis St. Paul MagazineSt. Paul Pioneer PressTwin Cities Living MagazineStar Tribune","qualifications":"ExperiencePrevious healthcare (quality, risk and/or nursing) experience requiredTwo or more years of work related experience in healthcare.Experience with performance improvement methodology and quality tools highly preferredExperience with Business Objects (Clarity Reports), Excellian and HDM preferredSkillsDemonstrated proficiency in Excel, Access, and PowerPoint requiredProficient with SQLProficient Analytical and Data Management skills, including statistical analysisAbility to translate clinical user requests and requirements into analytical products and output using existing systemsProven facilitation skills and ability to manage multiple change initiativesDetail-oriented with strong organizational, communication/interpersonal and problem solving skills","title":"Data Analyst","url":"https://jobs.allinahealth.org/job/minneapolis/data-analyst/1378/4668333","workHours":"40","hiringOrganization":{"@type":"Organization","name":"Abbott Northwestern Hospital"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Minneapolis","addressRegion":"Minnesota","addressCountry":"United States","streetAddress":"800 East 28th Street","postalCode":""}}}
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-57805233-1', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+            var jobDetailsType = 'ajd';
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+                createHiddenInput('dimension1', '4668333');
+
+                createHiddenInput('dimension2', '33594BR');
+
+                createHiddenInput('dimension3', '1378');
+
+                createHiddenInput('dimension4', '1378,Abbott Northwestern Hospital');
+
+                    createHiddenInput('dimension6', 'Finance');
+
+                    createHiddenInput('dimension7', 'Minneapolis-Minnesota-United-States');
+
+                    createHiddenInput('dimension9', 'Data Analyst');
+
+                        createHiddenInput('dimension10', 'JobDetails');
+
+                    createHiddenInput('dimension14', 'AJD');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+            gtmValues = { 'JobID': '4668333', 'ReqID': '33594BR', 'OrgID': '1378', 'tbcn-division': '1378,Abbott Northwestern Hospital' };
+
+                gtmValues['tbcn-jobcategory'] = 'Finance';
+
+                gtmValues['tbcn-location'] = 'Minneapolis-Minnesota-United-States';
+
+                gtmValues['tbcn-jobtitle'] = 'Data Analyst';
+
+                    gtmValues['pagetype'] = 'JobDetails';
+
+                gtmValues['subpagetype'] = 'AJD';
+
+            dataLayer.push(gtmValues);
+
+
+
+
+
+
+
+
+
+
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-WTDRMP');
+
+    
+
+
+
+	
+
+	Skip Navigation
+
+	
+
+		
+
+			
+
+				    -->
+
+
+
+    
+
+                Careers Home
+
+        allinahealth.org (link opens in new window)
+
+        Current Employees(link opens in new window) 
+
+        Physicians(link opens in new window)
+
+    
+
+
+
+
+
+					            
+
+					            
+
+			
+
+		
+
+		
+
+		
+
+
+
+
+
+
+
+    
+
+        &#8220;I&#8217;m committed to providing a comfortable experience for all patients and visitors.&#8221; 
+
+        Ahmed I. 
+
+        Lead parking valet attendant
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Search
+
+	
+
+        Search Jobs
+
+        
+
+		    Keyword
+
+		    
+
+        
+
+        
+
+            City, state, or zip
+
+		    
+
+        
+
+        
+
+		    Radius
+
+	        Radius
+
+5 miles
+
+15 miles
+
+25 miles
+
+35 miles
+
+50 miles
+
+
+
+        
+
+        
+
+        Search
+
+		
+
+	
+
+ 
+
+
+
+	
+
+		
+
+
+
+    Search by Category
+
+    
+
+        
+
+        
+
+                Administrative Jobs
+
+                
+
+                Advanced Practitioner Jobs
+
+                
+
+                Biomedical Jobs
+
+                
+
+                Cardio/Respiratory/Sleep/Neuro Jobs
+
+                
+
+                Care Management Jobs
+
+                
+
+                Complementary Therapy Jobs Jobs
+
+                
+
+                Education and Training Jobs
+
+                
+
+                Executive and Management Jobs
+
+                
+
+                Facilities and Engineering Jobs
+
+                
+
+                Finance Jobs
+
+                
+
+                Health Information Services Jobs
+
+                
+
+                Health Unit Coordinator Jobs
+
+                
+
+                Home Health and Hospice Jobs
+
+                
+
+                Housekeeping Jobs
+
+                
+
+                Human Resources Jobs
+
+                
+
+                Information Services Jobs
+
+                
+
+                Laboratory Jobs
+
+                
+
+                Legal and Compliance Jobs
+
+                
+
+                Marketing Jobs
+
+                
+
+                Medical Assistant and Nursing Assistant Jobs
+
+                
+
+                Mental Health and Social Services Jobs
+
+                
+
+                Nurse Jobs
+
+                
+
+                Nursing Jobs
+
+                
+
+                Nursing Leadership Jobs
+
+                
+
+                Nutrition and Food Service Jobs
+
+                
+
+                Ophthalmic Jobs
+
+                
+
+                Paramedic and EMT Jobs
+
+                
+
+                Pharmacy Jobs
+
+                
+
+                Physician Jobs
+
+                
+
+                Quality and Performance Jobs
+
+                
+
+                Radiology Jobs
+
+                
+
+                Rehab Therapy Jobs
+
+                
+
+                Research Jobs
+
+                
+
+                Security Jobs
+
+                
+
+                Supply Chain Management Jobs
+
+                
+
+                Surgical Services Jobs
+
+                
+
+        
+
+            More
+
+        
+
+
+
+
+
+
+
+    Search by Campus
+
+        
+
+        
+
+            Abbott Northwestern Hospital
+
+            Allina Health clinics
+
+            Allina Health EMS
+
+            Allina Health Laboratory
+
+            Allina Health Pharmacy
+
+            Buffalo Hospital
+
+            Cambridge Medical Center
+
+            Corporate Offices
+
+            Courage Kenny Rehabilitation Institute
+
+            District One Hospital
+
+            Home Care Services
+
+            Mercy Hospital (Coon Rapids)
+
+            Mercy Hospital Unity (Fridley)
+
+            New Ulm Medical Center
+
+            Owatonna Hospital
+
+            Phillips Eye Institute
+
+            Regina Hospital
+
+            River Falls Area Hospital
+
+            St Francis Regional Med Center
+
+            United Hospital
+
+            WestHealth - ANW
+
+        
+
+    
+
+
+
+
+
+
+
+ Search by Location                     
+
+                
+
+                            
+
+                                Apple Valley Jobs
+
+                               
+
+                            
+
+                                Blaine Jobs
+
+                               
+
+                            
+
+                                Bloomington Jobs
+
+                               
+
+                            
+
+                                Brooklyn Center Jobs
+
+                               
+
+                            
+
+                                Brooklyn Park Jobs
+
+                               
+
+                            
+
+                                Buffalo Jobs
+
+                               
+
+                            
+
+                                Burnsville Jobs
+
+                               
+
+                            
+
+                                Cambridge Jobs
+
+                               
+
+                            
+
+                                Champlin Jobs
+
+                               
+
+                            
+
+                                Chaska Jobs
+
+                               
+
+                            
+
+                                Coon Rapids Jobs
+
+                               
+
+                            
+
+                                Cottage Grove Jobs
+
+                               
+
+                            
+
+                                Eagan Jobs
+
+                               
+
+                            
+
+                                Edina Jobs
+
+                               
+
+                            
+
+                                Elk River Jobs
+
+                               
+
+                            
+
+                                Faribault Jobs
+
+                               
+
+                            
+
+                                Farmington Jobs
+
+                               
+
+                            
+
+                                Forest Lake Jobs
+
+                               
+
+                            
+
+                                Fridley Jobs
+
+                               
+
+                            
+
+                                Glencoe Jobs
+
+                               
+
+                            
+
+                                Golden Valley Jobs
+
+                               
+
+                            
+
+                                Hastings Jobs
+
+                               
+
+                            
+
+                                Hopkins Jobs
+
+                               
+
+                            
+
+                                Hutchinson Jobs
+
+                               
+
+                            
+
+                                Inver Grove Heights Jobs
+
+                               
+
+                            
+
+                                Isanti Jobs
+
+                               
+
+                            
+
+                                Jordan Jobs
+
+                               
+
+                            
+
+                                Lakeville Jobs
+
+                               
+
+                            
+
+                                Mankato Jobs
+
+                               
+
+                            
+
+                                Maplewood Jobs
+
+                               
+
+                            
+
+                                Minneapolis Jobs
+
+                               
+
+                            
+
+                                Mora Jobs
+
+                               
+
+                            
+
+                                New Ulm Jobs
+
+                               
+
+                            
+
+                                Northfield Jobs
+
+                               
+
+                            
+
+                                Owatonna Jobs
+
+                               
+
+                            
+
+                                Plymouth Jobs
+
+                               
+
+                            
+
+                                Prescott Jobs
+
+                               
+
+                            
+
+                                Ramsey Jobs
+
+                               
+
+                            
+
+                                Richfield Jobs
+
+                               
+
+                            
+
+                                River Falls Jobs
+
+                               
+
+                            
+
+                                Saint Paul Jobs
+
+                               
+
+                            
+
+                                Saint Peter Jobs
+
+                               
+
+                            
+
+                                Savage Jobs
+
+                               
+
+                            
+
+                                Shakopee Jobs
+
+                               
+
+                            
+
+                                Shoreview Jobs
+
+                               
+
+                            
+
+                                Stillwater Jobs
+
+                               
+
+                            
+
+                                Vadnais Heights Jobs
+
+                               
+
+                            
+
+                                Waconia Jobs
+
+                               
+
+                            
+
+                                West Saint Paul Jobs
+
+                               
+
+                            
+
+                                Woodbury Jobs
+
+                               
+
+                
+
+                    More
+
+                
+
+
+
+
+
+		
+
+	
+
+	
+
+		
+
+
+
+	
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        Data Analyst
+
+                       
+
+        
+
+        
+
+    
+
+        
+
+    <!--             Date posted 
+
+            05/11/2017 
+
+         -->
+
+            
+
+                
+
+                    Requisition #
+
+                    33594BR
+
+                
+
+            
+
+             
+
+                Business Unit name
+
+                Abbott Northwestern Hospital
+
+            
+
+            
+
+                Physical Location
+
+                Minneapolis, Minnesota
+
+            
+
+              
+
+             Posted Date
+
+             11-May-2017
+
+              
+
+                         
+
+                Schedule Type 
+
+                Full-Time
+
+                
+
+                         
+
+                Dept. Name
+
+                Quality Management
+
+                
+
+                         
+
+                Hours Per Week
+
+                40
+
+                
+
+
+
+             
+
+                Contract
+
+                Noncontract
+
+                
+
+              
+
+            
+
+            
+
+             
+
+                Introduction
+
+                Allina Health is dedicated to the prevention and treatment of illness and enhancing the greater health of individuals, families and communities throughout Minnesota and western Wisconsin. A not-for-profit health care system, Allina Health cares for patients from beginning to end-of-life through its 90+ clinics, 12 hospitals, 16 pharmacies, specialty care centers and specialty medical services that provide home care, senior transitions, hospice care, home oxygen and medical equipment, and emergency medical transportation services. Allina Health is a vibrant, growing organization with opportunities to suit your professional skills and a diverse work environment to match your specific interests. We believe employees are our greatest asset and are dedicated to helping you develop and maximize your professional skills.Abbott Northwestern Hospital, located in south Minneapolis, is the largest not-for-profit hospital in the Twin Cities and is recognized as an ANCC Magnet-designated hospital. It is known around the region and across the U.S. for its centers of excellence: cancer care through the Virginia Piper Cancer Institute; cardiovascular services in partnership with the Minneapolis Heart Institute; the Spine Institute; Neuroscience Institute; Orthopaedic Institute; perinatology, obstetrics and gynecology through WomenCare; physical rehabilitation through Courage Kenny Rehabilitation InstituteTM; and more. With 5,697 employees, 1,397 physicians and 633 beds, Abbott Northwestern Hospital cares for nearly 370,000 patients and their families each year from the Twin Cities area and throughout the Upper Midwest.
+
+                
+
+              
+
+                Responsibilities
+
+                Req ID: 33594 Data management and analysisDatabase development and administrationAssists in performance improvement initiatives through data collection and documentation reviewConducts preliminary analysis and identifies opportunities for improvementCoordinates or collects and maintains currency of data for regulatory compliance, such as National Patient Safety Goals and risk monitors
+
+            
+
+                
+
+             
+
+                Education 
+
+                Bachelor’s degree in statistics, measurement, or related field
+
+            
+
+                        
+
+                Qualification/Skills 
+
+                ExperiencePrevious healthcare (quality, risk and/or nursing) experience requiredTwo or more years of work related experience in healthcare.Experience with performance improvement methodology and quality tools highly preferredExperience with Business Objects (Clarity Reports), Excellian and HDM preferredSkillsDemonstrated proficiency in Excel, Access, and PowerPoint requiredProficient with SQLProficient Analytical and Data Management skills, including statistical analysisAbility to translate clinical user requests and requirements into analytical products and output using existing systemsProven facilitation skills and ability to manage multiple change initiativesDetail-oriented with strong organizational, communication/interpersonal and problem solving skills
+
+                
+
+            
+
+            
+
+                Work Schedule 
+
+                M-F Days
+
+                
+
+            
+
+            
+
+                Location/Community Information 
+
+                Minneapolis boasts being both cosmopolitan yet small enough that you can find a place to call home whether on a lake, golf course, or in an adjoining suburb. With the fast pace of activity there are professional sports, theater, or enough parks for a quiet walk. The area has numerous schools and colleges, both public or private, and enough teams for all weekend athletes to join.Located in Minneapolis Population = 380,000 Service Area = 2,882,245Community Resource Links:Community Information School DiggerExplore Minnesota MN Dept of EducationMinneapolis St. Paul MagazineSt. Paul Pioneer PressTwin Cities Living MagazineStar Tribune
+
+                
+
+            
+
+            
+
+                Closing 
+
+                If you are interested in becoming part of our award winning team of professionals, please apply online today. Allina Health is committed to providing Equal Employment Opportunities to all employees and applicants. EO M/F/Disability/Vet Employer.
+
+                
+
+
+
+            
+
+                Campus/Facilities 
+
+                Abbott Northwestern Hospital
+
+            
+
+            
+
+           
+
+           
+
+               Requisition #
+
+               33594BR
+
+               Finance
+
+           
+
+            
+
+
+
+        
+
+        
+
+        
+
+	Apply Now
+
+        		    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+    !-->
+
+    Current employeesApply or check status of a previous application
+
+    External applicantsCheck the status of a previous application or update your resume
+
+ 
+
+    
+
+        Get Job Recommendations
+
+        Connect with LinkedIn to view openings that best match your previous positions.
+
+        
+
+            Get Started
+
+        
+
+    
+
+
+
+    
+
+    Location
+
+    
+
+    
+
+
+
+
+
+
+
+    
+
+        
+
+                Recently Viewed Jobs
+
+                            
+
+                    There are no recently viewed jobs
+
+                
+
+                
+
+
+
+    
+
+            Similar Jobs
+
+                    
+
+                    
+
+                                IS Data Analyst
+
+                                Minneapolis, Minnesota
+
+                    
+
+                    
+
+                                Lead IS Auditor
+
+                                Minneapolis, Minnesota
+
+                    
+
+                    
+
+                                Director of Audit Services
+
+                                Minneapolis, Minnesota
+
+                    
+
+                    
+
+                                Director of Finance
+
+                                Minneapolis, Minnesota
+
+                    
+
+                    
+
+                                Financial Analyst - Seeking new grads!
+
+                                Minneapolis, Minnesota
+
+                    
+
+            
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    Join our talent community to stay up-to-date on the latest news, career opportunities and events. (link opens in new window)
+
+
+
+
+
+    Events, education and volunteer opportunities
+
+    Learn more about residency, internship and volunteer opportunities to grow and thrive in your career or visit us at upcoming events(link opens in new window).
+
+
+
+
+
+
+
+
+
+        
+
+            Share with a friend
+
+            
+
+	                LinkedIn
+
+	                Twitter
+
+	                Facebook
+
+	                Google+
+
+	                Email
+
+                            
+
+        
+
+    
+
+
+
+
+
+	
+
+	
+
+
+
+	
+
+	
+
+		
+
+
+
+    
+
+        Follow Allina Health careers
+
+        
+
+                LinkedIn (link opens in new window)
+
+                Facebook (link opens in new window)
+
+                Twitter (link opens in new window)
+
+                Glassdoor (link opens in new window)
+
+        
+
+    
+
+
+
+    
+
+        
+
+            
+
+                Terms of Use (link opens in new window)
+
+                Accessibility (link opens in new window)
+
+                        Contact Us
+
+                        Sitemap
+
+            
+
+        
+
+    
+
+
+
+
+
+    
+
+        &#169; 2017 ALLINA HEALTH SYSTEM. TM – A TRADEMARK OF ALLINA HEALTH SYSTEM. EO M/F/Disability/Vet Employer.
+
+    
+
+
+
+ 
+
+This web site is optimized for the latest browsers, please update your browser to the latest version for a better browsing experience. 
+
+
+
+
+
+		
+
+			            
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+    	
+
+		 
+
+    $(document).ready(function(){
+
+	$('.video-carousel').slick({
+
+	    dots: true
+
+ });
+
+    });
+
+
+
+    
+
+	
+
+	
+
+
+
+
+
+ga('create', 'UA-30787604-5', 'auto', 'secondTracker');
+
+ga('secondTracker.send', 'pageview');
+
+
+
+	
+
+
+
+
+

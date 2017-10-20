@@ -1,0 +1,937 @@
+
+
+	
+		
+		
+		
+		
+		
+				
+			
+				.gradient {
+		   			filter: none;
+				}
+			
+		
+		Data Analytics Developer/Analyst - Butte, MT - Northwestern Energy Jobs
+		
+		
+		
+				
+		
+				
+		
+				
+				
+				
+					
+			
+      		
+      	
+		
+		-->
+		
+			$(function() {
+				$('input,textarea').placeholder();
+				A.supportsPlaceholders = $.support.placeholder = 'placeholder' in document.createElement('input');
+				V.init();
+				A.useN = true;
+				A.newValidation = true;
+				A.isMobile = 0;
+				
+							});
+		
+		
+			function breakout() {
+				if(window.top != window.self) {
+					window.top.location="https://northwesternenergy.applicantpro.com//jobs/647995-70537.html";
+				}
+			}
+		
+			
+	
+		
+			
+								
+										
+										
+										
+									
+								
+					
+												
+							Home
+							Jobs
+						
+						
+						
+							@media print {
+							    .navbar {
+							        display: block;
+							        border-width:0 !important;
+							    }
+
+							    .navbar-toggle {
+							        display:none;
+							    }
+
+							    #email_me_job{
+							    	display: none;
+							    }
+
+							    #job_piper_alerts_widget{
+							    	display: none;
+							    }
+
+							    a[href]:after {  
+							    	display:none; 
+							    }
+
+							    .navbar-brand{
+							    	display: block;
+							    	text-decoration: none;
+							    	text-align: center;
+							    }
+							}
+
+							/*Safari Only hack*/
+							@media print and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+								.navbar-brand { 
+									display: none;
+								} 
+							}
+
+							/* Explorer Only hack */
+							.navbar-brand { display:none\0; }
+						
+						
+						
+							
+								Data Analytics Developer/Analyst - Butte, MT
+								
+									Toggle navigation
+									
+									
+									
+								
+							
+							
+								
+									
+										Data Analytics Developer/Analyst									
+									
+										JobsLogin									
+								
+							
+						
+
+	$(function() {
+		$('#email_me_job').on('click', function() {
+			Analytics.addAction('email_me_job_button', { listing_id : 647995 });
+		});
+		
+		Analytics.addParams({ listing_id : '647995' });
+	});
+
+ 
+	{"@context":"http:\/\/schema.org\/","@type":"JobPosting","title":"Data Analytics Developer\/Analyst","url":"https:\/\/northwesternenergy.applicantpro.com\/jobs\/647995.html","description":"NORTHWESTERN ENERGY\r\nINTERNAL\/EXTERNAL POSTING: JOB REQUISITION # 2444\r\nPOSTING DATES: September 28, 2017 through October 11, 2017\r\n\r\n\r\n\r\n\r\nTitle\r\n\r\n\r\nData Analytics Developer\/Analyst\r\n\r\n\r\n\r\n\r\nDepartment\/Division\r\n\r\n\r\nFI Business Technology\r\n\r\n\r\n\r\n\r\nWork Location\r\n\r\n\r\nButte, MT\r\n\r\n\r\n\r\n\r\nGuidepost\r\n\r\n\r\n5-8 ($40,500 to $104,400)\r\n\r\n\r\n\r\n\r\nEmployment Status\r\n\r\n\r\nRegular Full-Time\r\n\r\n\r\n\r\n\r\nEmployment Physical\r\n\r\n\r\nNot Required\r\n\r\n\r\n\r\n\r\nDrug Test\r\n\r\n\r\nNot Required\r\n\r\n\r\n\r\n\r\nBackground Check\r\n\r\n\r\nRequired\r\n\r\n\r\n\r\n\r\nRelocation Benefit\r\n\r\n\r\nNegotiable\r\n\r\n\r\n\r\n\r\nSUMMARY OF JOB DESCRIPTION\r\nThe Data Analytics Developer\/Analyst is a valuable part of the Business Technology Applications Team. The successful candidate will work in a team environment to provide modeling of complex business problems, discovering business insights and identifying opportunities through the use of statistical, algorithmic, mining and visualization techniques. In addition to advanced analytic skills, this individual is also proficient at integrating and preparing large, varied datasets, architecting specialized databases and computing environments, and communicating results.\r\nThe Data Analytics Developer\/Analyst should be adept at knowledge discovery and data inference and exploration, as well as predictive and prescriptive analytics approaches. This often involves employing a variety of techniques for leveraging troves of information to reveal hidden insight that lies beneath the surface. They must also be adept at applying analytic techniques and integrating ad hoc data sources.\r\nIn addition, the successful candidate must be a self-starter that pursues self-education, is customer focused, supports the organization's goals and values, and is willing to work extended hours as necessary. The successful candidate is expected to travel with a laptop computer and other necessary peripherals. The expectation is that if hired the employee will take laptop home each night for system support and disaster recovery purposes.\r\nDESCRIPTION OF ESSENTIAL FUNCTIONS\r\nDATA SYSTEM REQUIREMENTS\r\n\r\nProven data analytic skills, pattern recognition, math, and statistics are required.\r\nMust possess complex modeling skills to solve business problems.\r\nProgramming skills in SQL, R, Python and similar tools.\r\nMust possess good communication skills with solid business acumen in order to describe the value of findings to the business.\r\nUnderstanding of and ability to develop machine learning algorithms.\r\nMust possess business solution experience.\r\nUnderstanding of application and database architecture.\r\nThe basic understanding of \"what's next\" and having the vision to bring ideas forward to be shared openly.\r\nUnderstanding and adherence to least privilege methodology.\r\nUnderstanding of a virtual architecture, including virtual delivery of applications and desktops would be helpful.\r\nFundamental understanding of Windows server operating systems.\r\nMust follow defined processes to resolve incidents, requiring the use of incident management system. \r\nPerform off-hour maintenance work on nights and weekends.\r\nFollow change management procedures and policies in developing and implementing changes.\r\n\r\nCOLLEAGUE SUPPORT\r\n\r\nStrong employee service skills required.\r\nAbility to tell an employee no is essential.\r\nRespond to requests via telephone, in person, email, or help desk tickets.\r\nRespond timely to requests, resolving issues, and documenting changes within established parameters and escalating those which need higher level review.\r\n\r\nGENERAL BUSINESS TECHNOLOGY SUPPORT\r\n\r\nAdhere to Northwestern Energy's Professional Knowledge Worker Competencies.\r\nComply with internal controls, policies, practices, procedures, and standards.\r\nExcellent oral and written communication skills. \r\nWork with other BT staff on projects and troubleshooting problems.\r\nUnderstanding of network infrastructure, including all layers of the Open Systems Interconnection (OSI) model. \r\nUnderstanding of the Confidentiality, Integrity and Availability (CIA) Triad.\r\n\r\nGENERAL QUALIFICATIONS\r\n\r\nBachelor's degree from four-year accredited college with some related experience or equivalent combination of education and experience.\r\nMust be of the highest character.\r\nAbility to develop positive colleague, team, and leadership relationships to facilitate Business Technology business partnerships.\r\nMust be able to work in a team environment and adapt to changing responsibilities and priorities.\r\nMust be able to continually learn and enhance technical skills and knowledge.\r\nMust have strong organization skills to coordinate workload and individual development.\r\nMust have strong written and oral communication skills.\r\nOccasional travel will be required (day trips and overnight).\r\nMay be required to serve in an on-call rotation.\r\nMust be a free thinker with the ability to find and present creative solutions to varying business challenges.\r\n\r\nKEY ABILITIES NEEDED TO COMPLETE ESSENTIAL FUNCTIONS\r\n*All positions require the ability to perform the essential functions of the position with or without reasonable accommodations. Detailed physical job analysis available upon request.\r\n\r\nEffectively work without direct supervision while positively contributing to the team's processes and goals\r\nAdhere to NorthWestern Energy's Professional Knowledge Worker Competencies\r\nPrioritize work tasks taking into consideration BT strategies and directions\r\nIdentify, analyze, diagnose, research and resolve problems \r\nMaintain strong customer focus\r\nRead, analyze, and interpret necessary documents and regulations \r\nWrite reports, business correspondence, and procedure manuals \r\nDemonstrate a good safety record \r\nDemonstrate the physical, perceptual, and mental abilities required to perform the job\r\nTolerate frequent sitting and standing at the work station and performing computer use\r\nDemonstrate motivation and initiative to work alone or with others in the absence of direct supervision\r\nSee, walk, climb and balance, reach with hands and arms, sit, stoop, kneel, crawl and crouch 1\/3 of the time.&nbsp; \r\nStand, sit and use hands to type, finger, handle or feel will be required more than 2\/3 of the time as well as being able to talk or hear over 2\/3 of the time.&nbsp; \r\nLift up to 10 pounds and up to 40 pounds occasionally\r\nPerform safe driving in varying conditions\r\nTravel with a laptop computer and other necessary training peripherals\r\nTake laptop home each night for disaster recovery purposes\r\nUse office equipment properly \r\nAssist in defining the evolving role of data science\r\nIntegrate and prepare large, varied datasets.\r\nReveal hidden insight amid varied datasets and ad hoc data sources.\r\nTroubleshoot complex technical issues\r\nAct independently within the confines of a team \r\n\r\nThis job description reflects management's assignment of essential functions and key responsibilities. It does not prescribe or restrict responsibilities that may be assigned.\r\nSELECTION PROCESS\r\nWhen considering applicants for this position, the selection process will take into consideration the needs of NorthWestern, including such factors as reorganization requirements, diversity opportunities, relocation requirements, employee development and job succession. If any of the preceding language conflicts with the applicable bargaining unit agreements, the bargaining unit agreement will prevail.&nbsp;&nbsp; \r\nAPPLICATION PROCEDURES\r\nExternal applicants should apply online at http:\/\/www.northwesternenergy.com. Internal applicants should apply online at iConnect. In compliance with the ADA Amendments Act, should you have a disability that requires assistance and\/or reasonable accommodation with the job application process, please contact the Human Resources department via phone at 1-800-245-6977, or via email at job.inquiries@northwestern.com. \r\n&nbsp;NorthWestern Energy\r\nHuman Resources Department Job # 2444\r\n3010 West 69th Street\r\nSioux Falls, SD 57108\r\n&nbsp;We are an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, gender, age, disability, veteran status, genetic information or any other protected class in accordance with applicable federal or state laws and statutes.","identifier":{"@type":"PropertyValue","name":"Northwestern Energy","sameAs":"647995"},"datePosted":"2017-09-28 00:00:00","validThrough":"2017-10-11 00:00:00T23:59","employmentType":"REGULAR FULL TIME","baseSalary":{"@type":"MonetaryAmount","currency":"USD","value":{"@type":"QuantitativeValue","value":"","unitText":""}},"hiringOrganization":{"@type":"Organization","name":"Northwestern Energy","sameAs":"https:\/\/northwesternenergy.applicantpro.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Butte","addressRegion":"MT","postalCode":"59701","addressCountry":"US"}}}
+
+	
+		
+			
+				
+					 28-Sep-2017 to 11-Oct-2017 (MST) Business Technology Butte, MT, USA Regular Full Time				
+				
+							
+			
+								Email Me Similar Jobs								Email Me This Job
+			
+		
+		
+		NORTHWESTERN ENERGY
+
+INTERNAL/EXTERNAL POSTING: JOB REQUISITION # 2444
+
+POSTING DATES: September 28, 2017 through October 11, 2017
+
+
+
+
+
+
+
+
+
+Title
+
+
+
+
+
+Data Analytics Developer/Analyst
+
+
+
+
+
+
+
+
+
+Department/Division
+
+
+
+
+
+FI Business Technology
+
+
+
+
+
+
+
+
+
+Work Location
+
+
+
+
+
+Butte, MT
+
+
+
+
+
+
+
+
+
+Guidepost
+
+
+
+
+
+5-8 ($40,500 to $104,400)
+
+
+
+
+
+
+
+
+
+Employment Status
+
+
+
+
+
+Regular Full-Time
+
+
+
+
+
+
+
+
+
+Employment Physical
+
+
+
+
+
+Not Required
+
+
+
+
+
+
+
+
+
+Drug Test
+
+
+
+
+
+Not Required
+
+
+
+
+
+
+
+
+
+Background Check
+
+
+
+
+
+Required
+
+
+
+
+
+
+
+
+
+Relocation Benefit
+
+
+
+
+
+Negotiable
+
+
+
+
+
+
+
+
+
+SUMMARY OF JOB DESCRIPTION
+
+The Data Analytics Developer/Analyst is a valuable part of the Business Technology Applications Team. The successful candidate will work in a team environment to provide modeling of complex business problems, discovering business insights and identifying opportunities through the use of statistical, algorithmic, mining and visualization techniques. In addition to advanced analytic skills, this individual is also proficient at integrating and preparing large, varied datasets, architecting specialized databases and computing environments, and communicating results.
+
+The Data Analytics Developer/Analyst should be adept at knowledge discovery and data inference and exploration, as well as predictive and prescriptive analytics approaches. This often involves employing a variety of techniques for leveraging troves of information to reveal hidden insight that lies beneath the surface. They must also be adept at applying analytic techniques and integrating ad hoc data sources.
+
+In addition, the successful candidate must be a self-starter that pursues self-education, is customer focused, supports the organization's goals and values, and is willing to work extended hours as necessary. The successful candidate is expected to travel with a laptop computer and other necessary peripherals. The expectation is that if hired the employee will take laptop home each night for system support and disaster recovery purposes.
+
+DESCRIPTION OF ESSENTIAL FUNCTIONS
+
+DATA SYSTEM REQUIREMENTS
+
+
+
+Proven data analytic skills, pattern recognition, math, and statistics are required.
+
+Must possess complex modeling skills to solve business problems.
+
+Programming skills in SQL, R, Python and similar tools.
+
+Must possess good communication skills with solid business acumen in order to describe the value of findings to the business.
+
+Understanding of and ability to develop machine learning algorithms.
+
+Must possess business solution experience.
+
+Understanding of application and database architecture.
+
+The basic understanding of "what's next" and having the vision to bring ideas forward to be shared openly.
+
+Understanding and adherence to least privilege methodology.
+
+Understanding of a virtual architecture, including virtual delivery of applications and desktops would be helpful.
+
+Fundamental understanding of Windows server operating systems.
+
+Must follow defined processes to resolve incidents, requiring the use of incident management system. 
+
+Perform off-hour maintenance work on nights and weekends.
+
+Follow change management procedures and policies in developing and implementing changes.
+
+
+
+COLLEAGUE SUPPORT
+
+
+
+Strong employee service skills required.
+
+Ability to tell an employee no is essential.
+
+Respond to requests via telephone, in person, email, or help desk tickets.
+
+Respond timely to requests, resolving issues, and documenting changes within established parameters and escalating those which need higher level review.
+
+
+
+GENERAL BUSINESS TECHNOLOGY SUPPORT
+
+
+
+Adhere to Northwestern Energy's Professional Knowledge Worker Competencies.
+
+Comply with internal controls, policies, practices, procedures, and standards.
+
+Excellent oral and written communication skills. 
+
+Work with other BT staff on projects and troubleshooting problems.
+
+Understanding of network infrastructure, including all layers of the Open Systems Interconnection (OSI) model. 
+
+Understanding of the Confidentiality, Integrity and Availability (CIA) Triad.
+
+
+
+GENERAL QUALIFICATIONS
+
+
+
+Bachelor's degree from four-year accredited college with some related experience or equivalent combination of education and experience.
+
+Must be of the highest character.
+
+Ability to develop positive colleague, team, and leadership relationships to facilitate Business Technology business partnerships.
+
+Must be able to work in a team environment and adapt to changing responsibilities and priorities.
+
+Must be able to continually learn and enhance technical skills and knowledge.
+
+Must have strong organization skills to coordinate workload and individual development.
+
+Must have strong written and oral communication skills.
+
+Occasional travel will be required (day trips and overnight).
+
+May be required to serve in an on-call rotation.
+
+Must be a free thinker with the ability to find and present creative solutions to varying business challenges.
+
+
+
+KEY ABILITIES NEEDED TO COMPLETE ESSENTIAL FUNCTIONS
+
+*All positions require the ability to perform the essential functions of the position with or without reasonable accommodations. Detailed physical job analysis available upon request.
+
+
+
+Effectively work without direct supervision while positively contributing to the team's processes and goals
+
+Adhere to NorthWestern Energy's Professional Knowledge Worker Competencies
+
+Prioritize work tasks taking into consideration BT strategies and directions
+
+Identify, analyze, diagnose, research and resolve problems 
+
+Maintain strong customer focus
+
+Read, analyze, and interpret necessary documents and regulations 
+
+Write reports, business correspondence, and procedure manuals 
+
+Demonstrate a good safety record 
+
+Demonstrate the physical, perceptual, and mental abilities required to perform the job
+
+Tolerate frequent sitting and standing at the work station and performing computer use
+
+Demonstrate motivation and initiative to work alone or with others in the absence of direct supervision
+
+See, walk, climb and balance, reach with hands and arms, sit, stoop, kneel, crawl and crouch 1/3 of the time.&nbsp; 
+
+Stand, sit and use hands to type, finger, handle or feel will be required more than 2/3 of the time as well as being able to talk or hear over 2/3 of the time.&nbsp; 
+
+Lift up to 10 pounds and up to 40 pounds occasionally
+
+Perform safe driving in varying conditions
+
+Travel with a laptop computer and other necessary training peripherals
+
+Take laptop home each night for disaster recovery purposes
+
+Use office equipment properly 
+
+Assist in defining the evolving role of data science
+
+Integrate and prepare large, varied datasets.
+
+Reveal hidden insight amid varied datasets and ad hoc data sources.
+
+Troubleshoot complex technical issues
+
+Act independently within the confines of a team 
+
+
+
+This job description reflects management's assignment of essential functions and key responsibilities. It does not prescribe or restrict responsibilities that may be assigned.
+
+SELECTION PROCESS
+
+When considering applicants for this position, the selection process will take into consideration the needs of NorthWestern, including such factors as reorganization requirements, diversity opportunities, relocation requirements, employee development and job succession. If any of the preceding language conflicts with the applicable bargaining unit agreements, the bargaining unit agreement will prevail.&nbsp;&nbsp; 
+
+APPLICATION PROCEDURES
+
+External applicants should apply online at http://www.northwesternenergy.com. Internal applicants should apply online at iConnect. In compliance with the ADA Amendments Act, should you have a disability that requires assistance and/or reasonable accommodation with the job application process, please contact the Human Resources department via phone at 1-800-245-6977, or via email at job.inquiries@northwestern.com. 
+
+&nbsp;NorthWestern Energy
+
+Human Resources Department Job # 2444
+
+3010 West 69th Street
+
+Sioux Falls, SD 57108
+
+&nbsp;We are an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, national origin, gender, age, disability, veteran status, genetic information or any other protected class in accordance with applicable federal or state laws and statutes.		
+		
+			Northwestern Energy
+			https://northwesternenergy.applicantpro.com
+		
+	
+	
+		
+	$(function() {
+		A.setTempName('apply');
+		A.getResponse('getCsrfToken', '', function(result) {
+			if(result && "token" in result) {
+				$('input[name="csrf_token"]').val(result.token);
+				A.attachParam('csrf_token', result.token);
+			}
+		});
+		
+		$('#job_piper_alerts_widget').show();
+		
+		// Hide job piper to reduce confusion
+		$('#contact_number').on('keyup', function() {
+			$('#job_piper_alerts_widget').fadeOut(200);
+		});
+		$('#apply').on('submit', function () {
+			var $t = $(this), formIsValid = V.form('apply'), appData;
+			
+			if(formIsValid) {
+				
+				appData = AS.get('applicationInfo') || {};
+				appData.job_listing_id = '647995';
+				appData.i = '0';
+				appData.first_name = $('#first_name').val();
+				appData.last_name = $('#last_name').val(); 
+				appData.email = $('#email').val();
+				appData.contact_number = $('#contact_number').val();
+				appData.contact_number_type = $('#contact_number_type').val();
+				appData.text_approval = $('#text_approval').val();
+				AS.set('applicationInfo', appData, 2700);
+				
+				$('#apply_container').animate({ opacity: 0 }, 200);
+				A.setTempName('apply');
+				A.getHTML('initialForm', 'apply', '', function(result) {
+					if(result) {
+						$('#apply_container').html(result).animate({ opacity: 1 }, 200);
+						// Hide job piper to reduce confusion
+						$('#job_piper_alerts_widget').fadeOut(200);
+					}
+				});
+			}
+			return false;
+		});
+		
+		$('#contact_number_type').on('change', function () {
+			if (this.value == 2) {
+				$('#text_approval_div').show();
+				$('#text_approval').attr('disabled', false);
+			} else {
+				$('#text_approval_div').hide();
+				$('#text_approval').attr('disabled', true);
+			}
+		});
+		
+		var appData = AS.get('applicationInfo');
+		if(typeof(appData) != 'undefined') {
+			for(var i in appData) {
+				// make sure there's a value and that the field is a string, not an int, and skip the job_id and i
+				if(appData[i] && isNaN(parseInt(i)) && i != 'job_listing_id' && i != 'i')
+					$('#' + i).val(appData[i]);
+			}
+		}
+		
+		$('#seek_button').on('click', function() {
+			authSocSeek();
+		});
+	});
+	
+	window.funID = '3465';
+	
+	
+
+	
+		Apply Now
+			
+	
+		
+			You have JavaScript disabled on your browser. You will not be able to apply for this position without enabling javascript. If you need assistance with enabling javascript, please click here for assistance.
+		
+		
+						
+				
+				
+								
+					
+						* Fields Are Required
+					
+				
+				
+					
+						What is your full name?
+					
+				
+				
+					
+						First Name
+						
+					
+					
+						Last Name
+						
+					
+				
+				
+					
+						How can we contact you?
+					
+					
+						Email
+						
+					
+				
+				
+					
+						Phone Number
+						
+					
+					
+						Number Type
+						
+							Home
+							Cell
+							Work
+						
+					
+				
+								
+					
+						
+							What is your preferred method of communication?
+						
+						
+							Email
+							Text Message
+						
+					
+				
+								
+				
+					
+						Apply for this Position
+						Apply for this Position
+						By clicking the button above, I agree to ApplicantPro's Applicant Information Use Policy.					
+				
+			
+		
+	
+
+	
+		Sign Up For Job Alerts!
+	
+	
+		
+			$(function() {
+				var sidebar_options = { 
+					api_key: "jp_apppro_northwesternenergy", 
+					style: "sidebar", 
+					title: "Data Analytics Developer/Analyst", 
+					source: "4_job" 
+				};
+				referWidget("create", sidebar_options, "refer-widget");
+			});
+		
+		
+	
+
+
+	
+		Share this Page
+	
+	
+						
+		
+		
+		
+					
+	
+
+
+											 
+					
+												
+														Hiring Software Maintained By ApplicantPro - &copy; 2017
+														
+									
+										
+										Refresh
+									
+								
+													
+						
+						
+							$(function() {
+								$('.footer-links:last-child').css('border-left', '0');
+								$('.footer-links:last-child a').css('color', $('body .panel-footer').css('background-color'));
+							});
+						
+					
+					 
+				 
+			 
+		 
+		
+		
+	body {
+		margin-bottom: 60px !important;
+	}
+
+
+	var faqButtons = [{"page":"instructions","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"resume","link":"https:\/\/intercom.help\/applicant-support\/resumes"},{"page":"additional_questions","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"screening","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"employment","link":"https:\/\/intercom.help\/applicant-support\/employment-history"},{"page":"education","link":"https:\/\/intercom.help\/applicant-support\/education"},{"page":"references","link":"https:\/\/intercom.help\/applicant-support\/references"},{"page":"eeoc","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"disclosure","link":"https:\/\/intercom.help\/applicant-support\/applicant-statement"},{"page":"source","link":"https:\/\/intercom.help\/applicant-support\/source"},{"page":"submit","link":"https:\/\/intercom.help\/applicant-support\/submit-application","label":"Common Submit Questions"},{"page":"thank_you","link":"https:\/\/intercom.help\/applicant-support\/general","label":"Common Application Questions"},{"page":"my_account","link":"https:\/\/intercom.help\/applicant-support\/my-account","label":"Common Account Questions"},{"page":"login","link":"https:\/\/intercom.help\/applicant-support\/login","label":"Common Login Questions"},{"page":"listing_info","link":"https:\/\/intercom.help\/applicant-support\/job-listing","label":"Common Job Questions"}];
+	$(function() {
+		$('#faq_bar_form').on('submit', function() {
+			var value = $('#faq_bar_searchCriteria').val();
+			if(value) {
+				A.setTempName('support');
+				A.setTempDir('/jobs/');
+				A.set('recordSearch', { from_page_url : window.location.href, keyword : value });
+				var newWindow = window.open("https://intercom.help/applicant-support/#search_query=" + encodeURIComponent(value), "_blank");
+			} else
+				N.addError("Please enter a search term to search our FAQs");
+			return false;
+		});
+		
+		$('#common_faq_button').on('click', function() {
+			var newWindow = window.open($(this).data('link'), "_blank");
+		});
+		
+		var path = window.location.pathname, name;
+		switch(true) {
+			case path.indexOf('login.php') != -1 || path.indexOf('forgot_password.php') != -1:
+				name = 'login';
+				break;
+				
+			case path.indexOf('/account/') != -1:
+				name = 'my_account';
+				break;
+				
+			case path.indexOf('/jobs/') != -1:
+			case path.indexOf('/internaljobs/') != -1:
+				name = 'listing_info';
+				break;
+				
+			case path.indexOf('/apply/') != -1:
+				name = '';
+				break;
+		}
+		changeCommonQuestionsText(name);
+	});
+	
+	function changeCommonQuestionsText(name) {
+		var label = "", $button = $('#common_faq_button'), newButtonText = $('[data-file="' + name + '"]').text(), found = false;
+		for(var i in faqButtons) {
+			if(faqButtons[i]['page'] == name) {
+				$button.show();
+				label = faqButtons[i]['label'] ? faqButtons[i]['label'] : 'Common ' + (newButtonText.search(/questions?/ig) != -1 ? newButtonText : newButtonText + ' Questions');
+				$button.text(label);
+				$button.data('link', faqButtons[i]['link']);
+				found = true;
+				break;
+			}
+		}
+		
+		if(!found)
+			$button.hide();
+	}
+
+
+	
+		
+			
+		
+		Go
+				Common Questions
+			
+
+
+		
+				
+			!function(e,r,t){e.referWidget=e.referWidget||function(){(e.referWidget.q=e.referWidget.q||[]).push(arguments)},e.referWidget.l=1*new Date;var n=r.createElement("script"),i=r.getElementsByTagName("script")[0];n.async=1,n.src=t,i.parentNode.insertBefore(n,i)}(window,document, "https://widget-dot-refer-io.appspot.com/refer.js");
+		
+		
+		
+		
+		Admin Login		
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57286717-2', 'auto');
+  ga('send', 'pageview');
+
+
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		<!-- scripts 
+	
+		jQl.loadjQ('/js/all.min.js?ver=1.1.16498.2');
+	
+	-->
+	
+	
+	
+		
+	
+				var exit_survey_enabled = '0';
+		var fired = '0';
+		var thanks = '0'
+		$(function() {
+			$('#leaving').on('change', function() { 
+				if($(this).val() != 0)
+					$('#notice').css('display', 'block');
+				else
+					$('#notice').css('display', 'none');
+
+				if( $(this).val() == 'Other' ) 
+					$('#reason').css('display', 'block'); 
+				else 
+					$('#reason').css('display', 'none'); 
+			});
+		});
+
+		if(exit_survey_enabled != 0) {
+			$('#left').on('click', function() {
+				var answer = $('#leaving').val();
+				if(answer != 0) {
+					var domain_id = '3465';
+					var job = '647995';
+					var app = '';
+
+					if(answer == 'Other') {
+						if( $('#reason').val() != '' ) {
+							answer = $('#reason').val();
+						} else {
+							answer = 'Other (Non Specified)';
+						}					
+					}
+					$.post("/jobs/edit.php", {n: 'conversion', f: 'survey', v :{app_id : app, domain: domain_id, job_id: job, answer: answer} });
+
+					$('#ouibounce-modal').hide();
+				  							$('#ouibounce-referio-modal').css('display', 'block');
+									}
+			});
+		}
+
+		// if you want to use the 'fire' or 'disable' fn,
+		// you need to save OuiBounce to an object
+		if(exit_survey_enabled != 0 && fired == 0 && thanks == 0) {
+			var modal = '';
+
+			$('html').on( 'mouseleave', function() {
+				if(fired == 0) {
+					fired = 1;
+					modal = ouibounce(document.getElementById('ouibounce-modal'), {
+							aggressive: false,
+						  	timer: 0,
+						  	callback: function() { 
+						  		$('#top-nav').css('z-index', '0'); 
+						  		$.get("/jobs/view.php", {n: 'conversion', f: 'survey_fired'}); 
+								if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+									modal.disable();
+						  	}
+						});
+					modal.fire();
+				}
+			});
+
+			setInterval( function() { 
+				$('select').click(
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+
+				$('select').mouseleave( 
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+			}, 1000);
+
+			$('body').on('click', function() {
+			  	$('#ouibounce-modal').hide();
+			  	$('#ouibounce-referio-modal').hide();
+			});
+
+			$('#ouibounce-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal-footer button').on('click', function(e) {
+			  	$('#ouibounce-referio-modal').hide();
+			});
+		}
+	
+	
+		<!--
+	
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://northwesternenergy.applicantpro.com/stats/" : "http://northwesternenergy.applicantpro.com/stats/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	
+	
+		try {
+		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 5630);
+		piwikTracker.trackPageView();
+		piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+	
+	
+	-->
+		
+		$(function() {
+			Analytics.addAction();
+		});
+	
+
+		
+	
+	
+		$(function() {
+			$('select').attr('role', 'combobox');
+			$('.dropdown').attr('role', 'combobox');
+		});
+	
+
+	
+

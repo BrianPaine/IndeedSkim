@@ -1,0 +1,271 @@
+
+
+                                                                                            
+    
+    
+                        
+        
+        
+        EquiLend Careers - Data Analyst
+                    
+            
+                                        
+                                            
+                
+            
+                                        
+        
+                        
+        
+
+        
+        
+        
+        
+                                
+                
+            
+        
+                
+    
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            var enableTracking = true;
+            var trackerId = "UA-15090121-1";
+            var pageTracker = _gat._getTracker("UA-15090121-1");
+        } catch(err) {}
+    
+    
+
+    function trackPage() {
+        try {
+            if (enableTracking && enableTracking == true) {//enableTracking var is set during analytics script reg.
+                var pageTracker = _gat._getTracker(trackerId);
+                var varIndex = 1;
+                try {
+                pageTracker._setCustomVar(varIndex++, "UserId", getUserId(), 1);
+                pageTracker._setCustomVar(varIndex++, "CompanyId", getCompanyId(), 1);
+                }//to track pages which does not have a User
+                catch (userIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "SubsidiaryId", getSubsidiaryId(), 1);
+                } //to track pages which does not have a subsidiaryId
+                catch (subsidiaryIdError) {
+                }
+                try {
+                    pageTracker._setCustomVar(varIndex++, "JobId", getJobId(), 3);
+                    pageTracker._setCustomVar(varIndex++, "CategoryId", getCategoryId(), 3);
+                }//to track pages which does not have a jobref
+                catch (jodIdError) {
+                }
+                if (enableAnonymizeIP && enableAnonymizeIP == true) {
+                    _gat._anonymizeIp();
+                }
+
+                pageTracker._trackPageview();
+            }
+        }
+        catch (error) {
+
+        }
+    }
+
+
+    function getUserId() { return ''; }
+
+
+    function getCompanyId() { return 'q4AaVfwt'; }
+
+    
+        function getJobId() { return 'oPDP5fw6'; }
+    
+    
+        function getCategoryId() { return '17179869184'; }
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+
+
+    
+    
+        try {
+            var enableAnonymizeIP = false;
+            enableTracking = true;
+            trackerId = "UA-103421605-1";
+            pageTracker = _gat._getTracker("UA-103421605-1");
+        } catch(err) {}
+    
+    
+
+    try {
+        trackPage();
+    } catch(trackingError) {}
+        
+            if (window.self !== window.parent) {
+                document.documentElement.className += ' jv-iframe';
+            }
+        
+            
+    
+    
+        
+                    
+        
+                            
+                            
+        
+            
+                                    
+                                                    EquiLend Careers                                            
+                            
+        
+                
+                        
+    
+                    
+                                
+                Data Analyst
+    
+    
+                                        
+                            Product Development            
+                    New York,
+                            New York
+                
+                        
+        
+    
+                        
+                        
+    
+        Apply For This Job
+    
+                            
+                        
+            Description
+                        
+                Data Analyst RoleEquiLend is seeking a Data Analyst to work closely with all EquiLend/BondLend product teams with a focus on gathering and analyzing data for Product Owners to facilitate data driven product decisions. This individual will be hands-on and involved in all phases of a project where relevant, from analysis to post implementation analytics. The selected candidate will often be involved in multiple projects, working primarily with other analysts but also with development engineers, application support, product specialists, and sales. &nbsp;Strong skills required in data gathering, data analysis and communication. A working knowledge of SQL and RDBMS is also required.&nbsp;Data Analyst ResponsibilitiesWork closely with product owners and analysts to outline business requirements and necessary data to vet decisionsApply critical thinking skills to formulate and identify data points for Business Intelligence analyticsAssist product specialists in the generation of client facing reports and presentationsEnsure that the necessary data is captured for projects from a requirements perspective Ability to extract data from databases and analyze for trends or lack thereof Break down high-level information into details and communicate these details in a manner understood by relevant audiences, often using graphical interfacesAnalyze client business requirements, live production data and make recommendations to internal teams in order to drive data-driven design decisionsCreate post-implementation metrics to help highlight success/adoption of features or lack thereof to facilitate future decision makingLearn the underlying securities finance business, the EquiLend/BondLend systems at a detailed technical level&nbsp;Data Analyst RequirementsThree to five years of analyst experienceCollege degree required; graduates with a technical degree background preferred (MIS, CS, physics, mathematics, software engineering)Excellent organizational and time management skills; able to effectively manage multiple work streams Strong analytical and problem solving skills; able to handle complex information with accuracy and intense attention to detailStrong skills in data visualization, presenting data in a manner easily understoodSelf-motivated with ability to prioritize, meet deadlines, and manage changing prioritiesStrong written and verbal communication skills Experienced in facilitating discussions with internal teams; experience with clients a plus Demonstrated ability to build rapport and interact effectively with all levels and across all areas of an organizationGood judgment, high ethical standards and a strong work ethic are a must Knowledge of securities finance or capital markets is highly regardedExperience with: MS Office tools, with a strong focus on Excel (macros, VBA, Pivot tables)SQLUNIXVisioExperience in agile implementation methodologies and creation of associated artifacts a plus but not required&nbsp;About EquiLendIn 2000, a group of 10 global financial institutions joined together, looking for ways to optimize efficiency in the securities finance industry by developing a standardized and centralized global platform for trading and post-trade services. EquiLend Holdings LLC was formed in 2001, and the platform went live in 2002.Since our launch, we have increased our network to more than 100 clients, released a number of new functions and enhancements, introduced the platform to the global fixed income securities finance community (BondLend) and launched a global securities finance market data service (DataLend).&nbsp;Owners include BlackRock, Credit Suisse, Goldman Sachs, J.P. Morgan Clearing, J.P. Morgan Chase, Bank of America Merrill Lynch, Morgan Stanley, Northern Trust, State Street and UBS.&nbsp;
+            
+                            
+                    
+                
+                    
+    
+        Apply For This Job
+    
+                            
+        Apply Later    
+            
+        
+            &larr; Back to Current Openings        
+    
+    
+                                
+    
+        
+        Share
+        
+            
+                lang: en_US            
+            
+            
+                
+                    LinkedIn
+                
+            
+            
+                
+                    Facebook
+                
+            
+            
+                
+                    Twitter
+                
+            
+            
+                
+                    Email
+                
+            
+        
+    
+                    
+                                        
+            
+                Similar Jobs
+                                                        
+                    
+                        
+                            
+                                
+                                    {{ job.title }}
+                                
+                            
+                        
+                    
+                
+            
+            
+                
+    
+                    
+            
+                    
+        
+            
+                                                                        
+                    
+                        Powered by Jobvite
+                            
+        
+    
+            
+    
+        
+        
+    
+            
+    
+    
+        angular.module('preloadedData', []).constant('preloadedData', {
+                                        applyLinkUrl: '${job.applyLinkUrl}',
+                jobCategoryId: 'aWV9VfwF',
+                jobCategoryName: 'Product Development',
+                jobId: 'oPDP5fw6',
+                jobReqId: '1003-2017                                         ',
+                jobTitle: 'Data Analyst',
+                jobLocationId: 'CaqeWfwu',
+                                                                jobviteAnalytics: 'UA-15090121-1',
+                                        companyAnalytics: 'UA-103421605-1',
+                                                                            jobAlertsLocationRequired: true,
+                                                    enableRecommendedJobs: true,
+                                                    enableResumeParsing: true,
+                                        numberFormat: "##,###,###,###,###.####",
+                                    companyEId: 'q4AaVfwt',
+            linkedInApiKey: '7557fkcarvxieo',
+            facebookApiId: '48354194572',
+            dropBoxApiKey: 'w5fg28zznqcyg4w',
+            baseUrl: '/equilend',
+            cdnURL: '',
+            releaseVersion: '171003110732',
+            careersiteName: 'equilend',
+            careersiteDomainName: '${careersiteDomainName}',
+            careersiteSourceTypeId: 'PFzMXfwH'
+        }).constant('i18n', {
+            I18N_RESUME_PREVIEW: 'Resume Preview',I18N_NO_RESUME_FOUND: 'No resume found',I18N_LINKEDIN_PROFILE: 'LinkedIn Profile',I18N_FILE_UPLOAD_ERROR: 'Could not upload file.',I18N_RECOMMENDATION_TYPE: 'Recommendation Type:',I18N_RECOMMENDER: 'Recommender:',I18N_CURRENT: 'Current',I18N_PAST: 'Past',I18N_EDUCATION: 'Education',I18N_RECOMMENDATIONS_RECEIVED: 'Recommendations Received',I18N_PATENTS: 'Patents',I18N_SUMMARY: 'Summary',I18N_SPECIALTIES: 'Specialties',I18N_EXPERIENCE: 'Experience',I18N_RECOMMENDATIONS: 'Recommendations',I18N_PRESENT: 'Present',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SU: 'Su',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MO: 'Mo',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TU: 'Tu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WE: 'We',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TH: 'Th',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FR: 'Fr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SA: 'Sa',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUN: 'Sun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MON: 'Mon',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUE: 'Tue',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WED: 'Wed',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THU: 'Thu',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRI: 'Fri',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SAT: 'Sat',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SUNDAY: 'Sunday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MONDAY: 'Monday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_TUESDAY: 'Tuesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_WEDNESDAY: 'Wednesday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_THURSDAY: 'Thursday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FRIDAY: 'Friday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SATURDAY: 'Saturday',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JANUARY: 'January',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEBRUARY: 'February',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MARCH: 'March',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APRIL: 'April',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAY: 'May',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUNE: 'June',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JULY: 'July',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUGUST: 'August',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEPTEMBER: 'September',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCTOBER: 'October',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOVEMBER: 'November',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DECEMBER: 'December',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JAN: 'Jan',JV_COMMON_DIRECTIVES_WEEKCALENDAR_FEB: 'Feb',JV_COMMON_DIRECTIVES_WEEKCALENDAR_MAR: 'Mar',JV_COMMON_DIRECTIVES_WEEKCALENDAR_APR: 'Apr',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUN: 'Jun',JV_COMMON_DIRECTIVES_WEEKCALENDAR_JUL: 'Jul',JV_COMMON_DIRECTIVES_WEEKCALENDAR_AUG: 'Aug',JV_COMMON_DIRECTIVES_WEEKCALENDAR_SEP: 'Sep',JV_COMMON_DIRECTIVES_WEEKCALENDAR_OCT: 'Oct',JV_COMMON_DIRECTIVES_WEEKCALENDAR_NOV: 'Nov',JV_COMMON_DIRECTIVES_WEEKCALENDAR_DEC: 'Dec'        });
+        Jobvite = {
+            baseUrl: 'https://app.jobvite.com'
+        }
+    
+                    
+    
+
+    

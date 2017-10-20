@@ -1,0 +1,88 @@
+Data Analyst at ExecThread{"@context":"http://schema.org","@type":"WebSite","name":"Breezy HR","alternateName":"Breezy HR: Modernize your recruiting process","url":"https://breezy.hr/"}
+{"@context":"http://schema.org/","@type":"JobPosting","url":"https://execthread.breezy.hr/p/b0e52d0ca08f-data-analyst?source=GoogleJobs","title":"Data Analyst","employmentType":"FULL_TIME","datePosted":"2017-09-13","hiringOrganization":{"@type":"Organization","name":"ExecThread"},"jobLocation":{"@type":"Place","address":{"addressCountry":{"@type":"Country","name":"US"},"addressRegion":"NY","addressLocality":"New York"}},"image":"https://nimble-media.s3.amazonaws.com/attachments/15550/Logo.png","description":"ABOUT US\n\nFounded in 2015 and headquartered in New York City, ExecThread, Inc., is a venture-backed start-up and premium network of highly qualified and carefully vetted executives and aspiring executives who discreetly share job opportunities with each other. ExecThread takes a unique, community-driven approach to accessing the hidden executive job market by crowdsourcing senior-level career opportunities from its members. As a result, ExecThread is now the largest aggregator of unpublished senior-level job opportunities. To sign-up for ExecThread, click here.\n\nJOB DESCRIPTION\n\nWe&rsquo;re looking for a Interaction Designer who wants to work at an agile startup that&rsquo;s leveraging advanced technology to power a unique service and create a highly monetizable and impactful business. You&rsquo;ll be working closely with our talented engineering &amp; product team to ensure a premium service for our highly engaged members.\n\nRESPONSIBILITIES\n\n\n\t\n\tAssist our Lead Interactive Designer as we create and update our design initiatives here at ExecThread\n\t\n\t\n\tConceptualize the product from start to finish. Including whatever steps are necessary to effectively communicate the best experience for our members. This might include storyboarding, user flows, wireframes, high-fidelity comps and clickable prototypes\n\t\n\t\n\tTest and validate design concepts throughout the process\n\t\n\t\n\tDevelop a component style guide\n\t\n\n\nSKILLS &amp; REQUIREMENTS\n\n\n\t\n\tPrevious experience working on a design team\n\t\n\t\n\tFamiliarity with creating wireframes and high fidelity comps for responsive web\n\t\n\t\n\tInterested in both web &amp; mobile application design and development\n\t\n\t\n\tStrong written and verbal communication skills\n\t\n\t\n\tKnowledge of relevant design tools for wireframing, comping and prototyping\n\t\n\n\nBENEFITS\n\n\n\t\n\tCompetitive salary and equity-based compensation\n\t\n\t\n\tDental, Health &amp; Vision Insurance\n\t\n\t\n\tPre-tax transit benefits\n\t\n\t\n\tSubsidized 401k program\n\t\n\t\n\tSubsidized professional development programs\n\t\n\t\n\tUnlimited Vacation (plus a mandatory day off on your birthday:)\n\t\n\t\n\tPre-tax medical flex-spending account\n\t\n\t\n\tClose to multiple convenient transit options (1 block from Grand Central Station)\n\t\n\t\n\tOpen floor plan\n\t\n\t\n\tAutonomous &amp; flexible work environment\n\t\n\t\n\tOptional team outings like surfing, movies in the park, &amp; broadway shows\n\t\n\n"}
+Data AnalystNew York, NYFull-Time%BUTTON_APPLY_TO_POSITION% Apply Using LinkedInABOUT US
+
+Founded in 2015 and headquartered in New York City, ExecThread, Inc., is a venture-backed start-up and premium network of highly qualified and carefully vetted executives and aspiring executives who discreetly share job opportunities with each other. ExecThread takes a unique, community-driven approach to accessing the hidden executive job market by crowdsourcing senior-level career opportunities from its members. As a result, ExecThread is now the largest aggregator of unpublished senior-level job opportunities. To sign-up for ExecThread, click here.
+
+JOB DESCRIPTION
+
+We&rsquo;re looking for a Interaction Designer who wants to work at an agile startup that&rsquo;s leveraging advanced technology to power a unique service and create a highly monetizable and impactful business. You&rsquo;ll be working closely with our talented engineering &amp; product team to ensure a premium service for our highly engaged members.
+
+RESPONSIBILITIES
+
+
+	
+	Assist our Lead Interactive Designer as we create and update our design initiatives here at ExecThread
+	
+	
+	Conceptualize the product from start to finish. Including whatever steps are necessary to effectively communicate the best experience for our members. This might include storyboarding, user flows, wireframes, high-fidelity comps and clickable prototypes
+	
+	
+	Test and validate design concepts throughout the process
+	
+	
+	Develop a component style guide
+	
+
+
+SKILLS &amp; REQUIREMENTS
+
+
+	
+	Previous experience working on a design team
+	
+	
+	Familiarity with creating wireframes and high fidelity comps for responsive web
+	
+	
+	Interested in both web &amp; mobile application design and development
+	
+	
+	Strong written and verbal communication skills
+	
+	
+	Knowledge of relevant design tools for wireframing, comping and prototyping
+	
+
+
+BENEFITS
+
+
+	
+	Competitive salary and equity-based compensation
+	
+	
+	Dental, Health &amp; Vision Insurance
+	
+	
+	Pre-tax transit benefits
+	
+	
+	Subsidized 401k program
+	
+	
+	Subsidized professional development programs
+	
+	
+	Unlimited Vacation (plus a mandatory day off on your birthday:)
+	
+	
+	Pre-tax medical flex-spending account
+	
+	
+	Close to multiple convenient transit options (1 block from Grand Central Station)
+	
+	
+	Open floor plan
+	
+	
+	Autonomous &amp; flexible work environment
+	
+	
+	Optional team outings like surfing, movies in the park, &amp; broadway shows
+	
+
+%BUTTON_APPLY_TO_POSITION%%FOOTER_POWERED_BY%breezy(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-176681-19', 'auto');
+ga('send', 'pageview');

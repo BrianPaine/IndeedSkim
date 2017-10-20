@@ -1,0 +1,572 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .alert-error {
+
+        color: #990000;
+
+        font-weight: bold;
+
+    }
+
+
+
+    td.top {
+
+        vertical-align: top !important;
+
+    }
+
+
+
+    td.left {
+
+        float: none;
+
+        text-align: left;
+
+    }
+
+
+
+    td.right {
+
+        float: none;
+
+        text-align: right;
+
+    }
+
+
+
+    .nowrapFormLabel {
+
+        white-space: nowrap;
+
+        text-align: right;
+
+    }
+
+
+
+    h1 {
+
+        font-size: 120%
+
+    }
+
+
+
+    h2 {
+
+        font-size: 110%
+
+    }
+
+
+
+    h3 {
+
+        font-size: 100%
+
+    }
+
+
+
+    .hidden-accessibility-text {
+
+        position: absolute;
+
+        left: -2000px;
+
+        top: 0;
+
+        width: 1;
+
+        height: 1;
+
+        overflow: hidden;
+
+        font-size: 0.1em;
+
+    }
+
+
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+
+    .ofcc305table textfield, .ofcc305table select,
+
+    .ofcc305table input, .ofcc305table a {
+
+        font-size:12px !important;
+
+        font-family:Arial,sans-serif,Helvetica !important;
+
+    }
+
+
+
+    #cws-search-results th, #cws-job-alerts th {
+
+        border-top: #CCCCCC 2px solid;
+
+        border-bottom: #CCCCCC 2px solid;
+
+    }
+
+
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+
+        border-bottom: #CCCCCC 2px solid;
+
+        padding-bottom: 3px;
+
+    }
+
+
+
+
+
+Career Opportunities 
+
+ 
+
+body { 
+
+font-family: Verdana; 
+
+font-size: 11px; 
+
+font-style: normal; 
+
+font-weight: normal; 
+
+} 
+
+TD, TH { 
+
+font-family: Verdana; 
+
+font-size: 11px; 
+
+font-style: normal; 
+
+font-weight: normal; 
+
+} 
+
+textarea {font-family:Verdana; font-size:10px;} 
+
+textfield {font-family:Verdana; font-size:10px;} 
+
+select {font-family:Verdana; font-size:10px;} 
+
+input {font-family:Verdana; font-size:10px;} 
+
+
+
+
+
+ CwsDWRFacade._path = 'https://chk.tbe.taleo.net/chk06/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; 
+
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchk.tbe.taleo.net/chk06/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chk.tbe.taleo.net/chk06/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chk.tbe.taleo.net/chk06/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();
+
+
+
+
+
+
+
+
+
+
+
+
+Business/Data Analyst
+
+
+Location:
+Charlotte
+
+
+Onsite Required:
+
+
+
+Travel Required:
+TBD
+
+
+Job Code:
+1585
+
+
+# of openings:
+1
+
+
+
+Description
+NTT DATA SERVICES
+
+
+
+NTT DATA Services, currently seeks a&nbsp;Business/Data Analyst&nbsp;to&nbsp;join our team in&nbsp;Charlotte, NC.
+
+
+
+Overview:
+
+
+
+At NTT DATA Services, we know that with the right people on board, anything is possible. The quality, integrity, and commitment of our employees have been key factors in our company&rsquo;s growth and market presence. &nbsp; By hiring the best people and helping them grow both professionally and personally, we ensure a bright future for NTT DATA and for the people who work here.&nbsp;Our Consulting practice helps solve problems and drive change by providing the expertise and specialized counsel to clients with industry-centric solutions. &nbsp;
+
+
+
+Basic Qualifications:
+
+
+
+
+
+	5-7 years Data Analysis experience
+
+
+
+
+
+Skills required/desired:&nbsp;
+
+
+
+
+
+	Business analyst for a BI project using Informatica / PL-SQL / AUTOSYS / Oracle.&nbsp;
+
+	Work with interfacing applications to identify changes to the systems and communicate impact of the change to development and support teams.
+
+	Maintain Interface documentation and agreements.&nbsp;
+
+	Coordinate test environments and test data availability between the systems.&nbsp;
+
+	Follow up with requirements, data modelling and testing teams for the SDLC process.&nbsp;
+
+	Provide weekly status reports and ensure completion of tasks assigned.&nbsp;
+
+	Responsible for continued system improvements to help reduce development costs.&nbsp;
+
+	Perform custom, ad-hoc data analysis and reporting based on stakeholder requests within SLA
+
+	Individual should possess broad-based technical and business knowledge to anticipate emerging issues and recommend subsequent strategies and business directions
+
+	Ability to influence change across a matrix organization and collaborate with business and technology teams to deliver solutions
+
+	&nbsp;Individual should have the capabilities to identify key technical and business problems, develop, and evaluate alternative solutions and make recommendations
+
+	Individual should be able to work independently with considerable latitude
+
+	Ability to work across a high performing team
+
+	Must have strong Excel in relation to large data sets (i.e., v-lookup, pivot&nbsp;tables, use of aggregate functions) and Visio workflow ability
+
+	Must be familiar with data modelling concepts
+
+	Ability to read/write&nbsp;Data Model &nbsp;and&nbsp;Data Mapping documents
+
+	Have a general understand Database structures
+
+	Ability to generate reports using basic queries
+
+	Strong skills in Excel &amp; SQL
+
+	Strong analytical skills with the ability to collect, organize, analyze, and disseminate significant amounts of information with attention to detail and accuracy
+
+	Interpret data, analyze results using statistical techniques and provide ongoing reports
+
+	Develop and implement data collection systems and other strategies that optimize statistical efficiency and data quality
+
+	Filter and &ldquo;clean&rdquo; data, and review computer reports, printouts, and performance indicators to locate and correct code problems
+
+	Work closely with management to prioritize business and information needs
+
+	Locate and define new process improvement opportunities
+
+
+
+
+
+Responsibilities:
+
+
+
+&bull;&nbsp;&nbsp; &nbsp;Partners with key business and technology teams to define business requirements, perform user acceptance testing and implement complex changes
+
+&bull; &nbsp; &nbsp;Identifies and leads process improvement efforts for the Trust line of business
+
+&bull;&nbsp;&nbsp; &nbsp;Facilitates communication to resolve problems and advance strategies
+
+&bull;&nbsp;&nbsp; &nbsp;Acts as the workstreams interface with both Business and IT Partners
+
+&bull;&nbsp;&nbsp; &nbsp;Lead cross functional teams to design and develop the new capabilities on the platform and help define a roadmap of new features and enhancements
+
+&nbsp;
+
+
+
+About NTT DATA Services
+
+
+
+NTT DATA Services partners with clients to navigate and simplify the modern complexities of business and technology, delivering the insights, solutions and outcomes that matter most. We deliver tangible business results by combining deep industry expertise with applied innovations in digital, cloud and automation across a comprehensive portfolio of consulting, applications, infrastructure and business process services.
+
+
+
+NTT DATA Services, headquartered in Plano, Texas, is a division of NTT DATA Corporation, a top 10 global business and IT services provider with 100,000+ professionals in more than 50 countries, and NTT Group, a partner to 85 percent of the Fortune 100. Visit&nbsp;nttdataservices.com&nbsp;to learn more.
+
+
+
+The Company is an equal opportunity employer and makes employment decisions on the basis of merit and business needs.&nbsp; The Company will consider all qualified applicants for employment without regard to race, color, religious creed, citizenship, national origin, ancestry, age, sex, sexual orientation, genetic information, physical or mental disability, veteran or marital status, or any other class protected by law.&nbsp; To comply with applicable laws ensuring equal employment opportunities to qualified individuals with a disability, the Company will make reasonable accommodations for the known physical or mental limitations of an otherwise qualified individual with a disability who is an applicant or an employee unless undue hardship to the Company would result.
+
+
+
+&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Are you a returning applicant?
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Applicants:
+
+
+Email:
+
+
+
+
+
+Password:
+
+
+
+
+
+If you do not remember your password click here.
+
+
+
+
+Back to Search Results
+
+
+New Search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        //jQuery Calendar
+
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchk.tbe.taleo.net/chk06/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

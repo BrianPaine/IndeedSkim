@@ -1,0 +1,632 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    select:focus, a:focus {
+
+        outline: #1e90ff solid 2px
+
+    }
+
+
+
+    input[type=submit] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=button] {
+
+        background: #00438C;
+
+    }
+
+
+
+    input[type=submit]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=button]:hover {
+
+        background: #1e31ff;
+
+    }
+
+
+
+    input[type=submit]:focus {
+
+        background: #1e90ff;
+
+    }
+
+
+
+    input[type=button]:focus {
+
+        background: #1e90ff
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane {
+
+        text-align: right;
+
+    }
+
+
+
+    .ui-dialog .ui-dialog-buttonpane button {
+
+        float: none;
+
+    }
+
+
+
+        /*a.ui-dialog-titlebar-close.ui-corner-all.ui-state-focus {*/
+
+        /*border: 1px solid #000;*/
+
+        /*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .alert-error {
+
+        color: #990000;
+
+        font-weight: bold;
+
+    }
+
+
+
+    td.top {
+
+        vertical-align: top !important;
+
+    }
+
+
+
+    td.left {
+
+        float: none;
+
+        text-align: left;
+
+    }
+
+
+
+    td.right {
+
+        float: none;
+
+        text-align: right;
+
+    }
+
+
+
+    .nowrapFormLabel {
+
+        white-space: nowrap;
+
+        text-align: right;
+
+    }
+
+
+
+    h1 {
+
+        font-size: 120%
+
+    }
+
+
+
+    h2 {
+
+        font-size: 110%
+
+    }
+
+
+
+    h3 {
+
+        font-size: 100%
+
+    }
+
+
+
+    .hidden-accessibility-text {
+
+        position: absolute;
+
+        left: -2000px;
+
+        top: 0;
+
+        width: 1;
+
+        height: 1;
+
+        overflow: hidden;
+
+        font-size: 0.1em;
+
+    }
+
+
+
+    .ofcc305table TD, .ofcc305table TH, .ofcc305table textarea,
+
+    .ofcc305table textfield, .ofcc305table select,
+
+    .ofcc305table input, .ofcc305table a {
+
+        font-size:12px !important;
+
+        font-family:Arial,sans-serif,Helvetica !important;
+
+    }
+
+
+
+    #cws-search-results th, #cws-job-alerts th {
+
+        border-top: #CCCCCC 2px solid;
+
+        border-bottom: #CCCCCC 2px solid;
+
+    }
+
+
+
+    #cws-search-results tr:last-of-type td, #cws-job-alerts tr:last-of-type td {
+
+        border-bottom: #CCCCCC 2px solid;
+
+        padding-bottom: 3px;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+	Myers and Stauffer LC
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif; font-size:14px; color:#666;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function jobAlertShowEmailSection() {
+   document.theForm.showEmailSection.value = true;
+   document.theForm.submit();
+}
+function cancelForm() {
+   document.loginForm.showPwdSection.value=false;
+   document.loginForm.showEmailSection.value=false;
+   document.loginForm.action=document.theForm.action;
+   document.loginForm.submit();
+}
+ CwsDWRFacade._path = 'https://chm.tbe.taleo.net/chm01/ats/dwr-cws';
+var DWRFacade = CwsDWRFacade; 
+
+var timer;
+var calendarArray = new Array ();
+function startSessionTimer(){
+	timer=setTimeout("sessionAboutToEnd()", 86100000);
+}
+function sessionAboutToEnd(){
+	var oHead = document.getElementsByTagName('head')[0];
+	loadScript(oHead, 'https://staticchm.tbe.taleo.net/chm01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/js/UIv8/engine.js',  function() {
+		var answer = confirm("Your session is about to expire. Would you like to continue your session?");
+		if(answer){
+			dwr.engine.setErrorHandler( function(errorString, exception) {
+				window.location = "https://chm.tbe.taleo.net/chm01/ats/sessionTimedOut.jsp?locale=enUS"
+			});
+			CwsDWRFacade.refreshSession();
+			clearTimeout(timer);
+			startSessionTimer();
+		} else {
+			window.location = "https://chm.tbe.taleo.net/chm01/ats/sessionTimedOut.jsp?locale=enUS";
+		}
+	});
+}
+startSessionTimer();
+
+
+
+
+
+
+
+
+
+
+
+
+Data Analyst
+
+
+Career Site Location:
+GA, Atlanta
+
+
+Job Code:
+MS_FS210
+
+
+Req ID:
+6244
+
+
+Exempt/Non-Exempt:
+Exempt
+
+
+Status Category:
+Full-Time
+
+
+Scheduled Hours Per Week:
+40
+
+
+# of Openings:
+1
+
+
+
+Description
+Myers and Stauffer LC is a certified public accounting and health care reimbursement consulting firm, specializing in audit, accounting, data management and consulting services to government-sponsored health care programs (primarily state Medicaid agencies, and the federal Center for Medicare and Medicaid Services). We have 40 years of experience assisting our government clients with complex health care reimbursement and provider compliance issues, operate 18 offices and have 800 associates nationwide.
+
+
+
+At Myers and Stauffer you will have a career that is rewarding on every level of the organization. We are committed to providing our employees with:
+
+&bull;&nbsp;&nbsp; &nbsp;Professional growth and development opportunities
+
+&bull;&nbsp;&nbsp; &nbsp;Educational opportunities leading to certifications
+
+&bull;&nbsp;&nbsp; &nbsp;A diverse, dynamic, and challenging work environment
+
+&bull;&nbsp;&nbsp; &nbsp;Strong leadership, communication, and feedback
+
+&bull;&nbsp;&nbsp; &nbsp;A well-balanced lifestyle, that includes personal and family time in addition to professional and networking opportunities
+
+&bull;&nbsp;&nbsp; &nbsp;Creative and innovative solutions to challenges facing our government clients
+
+
+
+As a Data Analyst, successful candidates will work with various Medicaid and/or Children&rsquo;s Health Insurance Program (CHIP) program integrity engagements, perform analysis of health care claim payments, assist in meeting project deadlines, and assist in preparing written documentation that supports findings and conclusions.&nbsp;
+
+
+
+Essential Functions:&nbsp;
+
+&bull;&nbsp;&nbsp; &nbsp;Identify and implement analyses and/or audits relating to healthcare claims data with a focus on provider fraud, waste, and abuse in an ad-hoc, exploratory environment
+
+&bull;&nbsp;&nbsp; &nbsp;Possess a strong knowledge of SQL Server and other related technologies and have a track record of developing and implementing analyses utilizing various technologies
+
+&bull;&nbsp;&nbsp; &nbsp;Keep up to date with new technology developments and can advise on their relevant integration in the company&#39;s environment
+
+&bull;&nbsp;&nbsp; &nbsp;Support other teams within the company by providing technical assistance in their engagements
+
+&bull;&nbsp;&nbsp; &nbsp;Maintain security and confidentiality of all protected health information encountered during performance of work duties
+
+&bull;&nbsp;&nbsp; &nbsp;Additional responsibilities as assigned
+
+
+
+Requirements:
+
+&bull;&nbsp;&nbsp; &nbsp;Bachelor&rsquo;s degree in related field required;
+
+&bull;&nbsp;&nbsp; &nbsp;Professional certification(s) preferred but not mandatory
+
+&bull;&nbsp;&nbsp; &nbsp;Internship to three years of experience in data analysis or analytics preferred
+
+&bull;&nbsp;&nbsp; &nbsp;Proficient in use of SQL Server and additional technologies
+
+&bull;&nbsp;&nbsp; &nbsp;Strong analytical and problem solving skills
+
+&bull;&nbsp;&nbsp; &nbsp;Organized and detail oriented
+
+&bull;&nbsp;&nbsp; &nbsp;Effectively multi-task with planning and efficiency
+
+&bull;&nbsp;&nbsp; &nbsp;Must be able to manage multiple deadlines and prioritize assignments
+
+&bull;&nbsp;&nbsp; &nbsp;Demonstrated ability to communicate verbally and in writing with all levels of an organization, both internally and externally
+
+&bull;&nbsp;&nbsp; &nbsp;Proficiency in SSIS, SSRS and Powershell is preferred but not mandatory
+
+&bull;&nbsp;&nbsp; &nbsp;Experience in healthcare analytics and/or fraud and abuse detection is preferred but not mandatory
+
+
+
+Equal Opportunity Employer committed to employment of Females, Minorities, Persons with Disabilities and Veterans. An E-Verify Employer. Drug-free workplace.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Are you a returning applicant?
+
+
+
+
+
+
+
+
+
+
+
+
+Previous Applicants:
+
+
+Email:
+
+
+
+
+
+Password:
+
+
+
+
+
+If you do not remember your password click here.
+
+
+
+
+Back to Search Results
+
+
+New Search
+
+
+
+
+
+
+
+
+
+REASONABLE ACCOMMODATION
+
+
+
+If you are a qualified individual with a disability&nbsp;you may request reasonable accommodation if you are unable or limited in your ability to use or access this site as a result of your disability. You can request a reasonable accommodation by calling 844-558-1414 (toll free)&nbsp;or send an email to accom@cbiz.com.
+
+
+EQUAL OPPORTUNITY EMPLOYER
+
+
+
+CBIZ is an equal opportunity employer and reviews applications for employment without regard to the applicant&rsquo;s race, color, religion, national origin, ancestry, age, gender, marital status, military status, veteran status, sexual orientation, disability, or medical condition or any other reason prohibited by law. If you would like more information about your EEO rights as an applicant under the law, please click click here.
+
+
+PAY TRANSPARENCY PROTECTION NOTIFICATION
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        //jQuery Calendar
+
+        jQuery(document).ready(function($) {
+	$('.jquerycalendar').datepicker({
+altField:'',altFormat:'',appendText:'',buttonImage:'https://staticchm.tbe.taleo.net/chm01/ats/cacheable/R17-09-06-04-44-43-17.B1_prod/img/UIv8/calendar.gif',buttonImageOnly:true,buttonText:'Calendar',changeMonth:true,changeYear:true,closeText:'\'Close\'',constrainInput:true,currentText:'Today',dateFormat:'mm/dd/yy',monthYearDateFormat:'MM/yy',dayNames:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesShort:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],dayNamesMin:['Su','Mo','Tu','We','Th','Fr','Sa'],defaultDate:null,duration:'normal',firstDay:0,gotoCurrent:false,hideIfNoPrevNext:false,isRTL:false,maxDate:null,minDate:null,monthNames:['January','February','March','April','May','June','July','August','September','October','November','December'],monthNamesShort:['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],navigationAsDateFormat:false,nextText:'Next',numberOfMonths:1,prevText:'Previous',shortYearCutoff:'+10',showAnim:'show',showButtonPanel:false,showCurrentAtPos:0,showMonthAfterYear:false,showOn:'button',showOptions:{},showOtherMonths:false,stepMonths:1,yearRange:'1940:2030'});});
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

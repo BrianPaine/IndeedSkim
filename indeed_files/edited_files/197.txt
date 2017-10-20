@@ -1,0 +1,1209 @@
+
+
+
+
+			
+				if (top === self) { /*not in a frame*/ } else { /*in a frame*/ location.replace(window.location+"&nohd"); }  	
+		
+	
+	
+	
+
+	
+		Data Analyst - Careers At Critical Signal Technologies	
+
+	
+
+	
+
+	
+
+	
+
+
+-->
+
+
+-->
+
+
+	
+	
+	
+
+	
+	
+
+-->
+	
+	
+	
+
+		 							
+	 
+		
+	 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html {
+	margin: 0px auto 0px auto;
+	overflow-x: hidden;
+	background: 		url("https://reports.hrmdirect.com/employment/client/1genericfiles/bkgd_gradient.png") repeat-x scroll 0 0 ;
+	font-family: 		"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 			12px;
+	color: 			#333333;
+	line-height: 			18px;
+	
+				
+	background-image: url("/employment/client/1genericfiles/bkgd_gradient.png");	background-repeat: repeat-x;	background-position: 0 0;				
+}
+
+
+body {
+	overflow-x: hidden;
+	text-align:center;
+	font-size:                  12px;
+	margin: 0px;
+	height: 100%;
+	/*min-width: 980px;*/
+    width: 100%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************  STAND-ALONE HEADER   *************/
+
+div.hrmHeader{
+        background-color: #CCCCCC;
+	background-image:url("") ;
+	width: 100%;
+	position:relative;
+	z-index:10;
+	text-align:center;
+	background: -moz-linear-gradient(center top , #FEFEFE, #CCCCCC) repeat scroll 0 0 transparent;background: -webkit-gradient(linear, left top, left bottom, from(#FEFEFE), to(#CCCCCC));        border-bottom:   1px solid #cccccc;
+        border-bottom-style:   ;
+        border-bottom-color:   ;
+	}
+
+div.hrmHeaderLogo {
+	float:left;
+}
+
+div.hrmHeaderContainer {
+	text-align:center;
+	max-width:950px;
+    width: 100%;
+	position:relative;
+	margin: 0px auto;
+	padding: 30px 0px 15px 0px;
+	}
+
+div.hrmHeaderBlurb {
+	float:right;
+	width: 400px;
+	text-align:left;
+}
+
+div.hrmHeaderBlurbTitle {
+	margin:20px 0px 15px 0px;
+}
+
+span.hrmHeaderBlurbTitle {
+	font-size:px;
+	color:;
+	font-weight:;
+	font-family:;
+}
+
+div.hrmHeaderBlurbText {
+}
+
+p.hrmHeaderBlurbText {
+	font-size:px;
+	color:;
+	font-weight:;
+	font-family:;}
+
+div.hrmHeaderFooter {
+	background-color: #FEFEFE;
+	width: 100%;
+	height: 10px;
+	position:relative;
+	z-index:9;
+	
+            -moz-box-shadow: 0px 3px 4px rgba(188, 188, 188, 0.3);
+	    -webkit-box-shadow: 0px 3px 4px rgba(188, 188, 188, 0.3);
+	    box-shadow:0px 3px 4px rgba(188, 188, 188, 0.3);
+		
+			background: -moz-linear-gradient(center top , #FEFEFE, #CCCCCC) repeat scroll 0 0 transparent;
+		background: -webkit-gradient(linear, left top, left bottom, from(#FEFEFE), to(#CCCCCC));
+	        border-bottom: ;
+}
+
+
+
+
+div.hrmBorders {
+	position:fixed;
+	z-index: -10;
+        top: 0;
+	margin: 0px 0px 0px -25px;
+
+	height: 50000px;
+	max-width: 948px;
+    width:100%;
+
+	background:                 #ffffff;
+	            border: solid #DDDDDD;
+            border-top-width: 0px;
+            border-right-width: 1px;
+            border-bottom-width: 0px;
+            border-left-width: 1px;
+		        -moz-box-shadow: 0px 4px 10px rgba(188, 188, 188, 0.5);
+	    -webkit-box-shadow: 0px 4px 10px rgba(188, 188, 188, 0.5);
+	    box-shadow:0px 4px 10px rgba(188, 188, 188, 0.5);
+	
+    }
+
+div.hrmContainer{
+	position:relative;
+	z-index: 2;
+	height: ;
+	overflow:visible;
+	margin: 0px auto;
+	padding:0px 26px 50px 26px;
+	border:  solid #999;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+
+/*  TODO:  Is this necessary?   */
+		/*			min-width: 900px;
+			max-width: 900px;
+			width:expression(document.body.clientWidth  900? "900px" : "auto");
+		*/
+    max-width: 900px;
+    width: 100%;
+    text-align:left !important;
+	background: 		transparent;
+
+
+
+	}
+
+
+/*
+img {
+background: none;
+background: transparent;
+background-color: none;
+background-color: transparent;
+}
+*/
+
+        h1 {
+           color: #444;
+           font-size: 24px;
+           font-style: normal;
+	   font-weight: bold;
+ 	   margin: 10px 0px;
+	   padding: 0px;
+        }
+
+	h4 {
+	    margin:0;
+	    font-size:1.3em;
+	    font-weight:bold;
+	    color: 		#004890;
+	}
+
+/*   TODO:  Is this necessary?    */
+		/*
+			ul li {
+			    padding: 		;
+			    background:		;
+			    list-style:		;
+			}
+		*/
+
+	div.homeLink {
+	  font-size: 0.9em;
+	  font-style: italic;
+	  text-align: right;
+	  padding: 0.5em 0;
+	}
+
+p {
+	margin-top:0px;
+	font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+div.hrmWelcomeContent {
+	clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.hrmWelcomeContent {
+	position: relative
+}
+
+
+div.hrmWelcomeFooter {
+    padding:10px 7%;
+    text-align:center;
+    }
+
+
+
+div.hrmWelcomeTextInnerContainer {
+			position: relative;
+		padding-bottom: 90px;
+		margin-bottom: 20px;
+		}
+
+margin-bottom: 20px;
+
+
+form {
+	margin: 0px !important
+}
+
+
+
+
+
+
+
+
+
+
+/* -------------------  APPLY, OPENINGS AND SEARCH BUTTONS   ------------------- */
+
+
+button, input[type="submit"], input[type="button"], a.button, div.openingsButton a.button {
+     background:#004890;
+   -moz-border-radius: 0.2em;
+    -webkit-border-radius: 0.2em;
+		    -moz-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+        -webkit-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+	    box-shadow:0 4px 10px rgba(188, 188, 188, 0.8);
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    	
+    background: -moz-linear-gradient(center top , #004890, #0C2A52) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, from(#004890), to(#0C2A52));
+    border: 1px solid #0C2A52;
+    border-radius:0.2em;
+    color: #FEF4E9 !important;
+    cursor: pointer;
+    /* font-family: Helvetica,Arial,sans-serif; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0 0 0 0;
+    outline: medium none;
+    padding: 4px 16px 4px 16px;
+    * padding: 4px 7px 4px 7px;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: ;
+}
+
+button:hover, input[type="submit"]:hover, input[type="button"]:hover, a.button:hover {
+    background:#0C2A52;
+    background: -moz-linear-gradient(center top , #0C2A52, #0C2A52) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom,from(#0C2A52),to(#0C2A52));
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0C2A52), to(#0C2A52));
+    text-decoration: none !important;
+}
+
+a.applyByEmail, a.applyOnline, a#apply-with-linked-in-button {
+	display: inline-block;
+        background:#0C2A52;
+        background: -moz-linear-gradient(top, #004890, #0C2A52);
+        background: -webkit-gradient(linear, left top, left bottom, from(#004890), to(#0C2A52));
+        border:solid 0px ;
+	border-radius:0.2em;
+	border: 1px solid #0C2A52;
+        color:#FFFFFF !important;
+	font-size: 15px !important;
+	/* font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif !important; */
+	cursor:pointer;
+        font-style:normal;
+        font-weight:normal;
+	line-height: 17px;
+        margin:0 0 0 0;
+        outline:none;
+        padding: 7px 37px 7px 37px;
+        text-align:center;
+        text-decoration:none !important;
+        text-transform:;
+        -moz-border-radius:0.2em;
+        -webkit-border-radius:0.2em;
+		    -moz-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+        -webkit-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+	    box-shadow:0 4px 10px rgba(188, 188, 188, 0.8);
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    	
+	}
+
+span.IN-widget > span > span > a > span {
+        -moz-border-radius:0.2em;
+        -webkit-border-radius:0.2em;
+		    -moz-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+        -webkit-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+	    box-shadow:0 4px 10px rgba(188, 188, 188, 0.8);
+    	
+}
+
+span.IN-widget > span > span > a > span:first-child {
+        -moz-border-radius: none;
+        -webkit-border-radius: none;
+        -moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+span.IN-widget span {
+	margin-top: 0px !important;
+	margin-right: 0px !important;
+	margin-bottom: 0px !important;
+	margin-left: 0px !important;
+	padding-top: 0px !important;
+	padding-right: 0px !important;
+	padding-bottom: 0px !important;
+	padding-left: 0px !important;
+}
+
+a.applyByEmail:hover, a#applyOnline:hover, a#apply-with-linked-in-button:hover{
+    background:#004890;
+    background: -moz-linear-gradient(center top , #0C2A52, #0C2A52) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom,from(#0C2A52),to(#0C2A52));
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#0C2A52), to(#0C2A52));
+    text-decoration: none !important;
+}
+
+div.applyDivContainer {
+    text-align:center;
+    width:100%;
+    position:relative;
+    padding: 5px 0px 20px 0px;
+}
+
+div.applyDiv {
+    text-align:center;
+    margin: 0px auto !important;
+/*    width: 450px;
+    height: 30px;
+*/    display: inline-block;
+    position:relative;
+    padding:10px 0px;
+}
+
+div#orApplyByLinkedIn {
+        padding: 10px 20px;
+        width: 60px;
+        float: left;
+        display: inline;
+}
+
+a.applyByEmail {
+	float:left;    display: inline;
+}
+
+div#applyByLinkedIn {
+    float: left;
+    display: inline;
+}
+
+a.applyOnline {
+    display: inline;
+    margin:10px 0px 0px 0px !important;
+}
+
+
+a.referralButton {
+    background: #482121;
+	background: #708E9D;
+    color: #FFF !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius:3px;
+        width:400px;
+        padding: 6px 52px;
+		    -moz-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+        -webkit-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+	    box-shadow:0 4px 10px rgba(188, 188, 188, 0.8);
+    	
+	text-decoration:none !important;
+	font-size: 15px !important;
+	}
+a.referralButton:hover {
+        background:#3A1A1A;
+}
+div.referralDiv {
+        margin: 20px auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------  TITLE HEADER & CONTENT BLOCK   ------------------- */
+
+
+div.careersTitle {
+	font-size: 			24px;
+	line-height: 			24px;
+	height: 				;
+	color: 				#004890;
+	font-weight:                      normal;
+	font-family: 			"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-transform:                 none;
+	text-align:                 ;
+        border-bottom-color:         ;
+        border-bottom-style:          ;
+        border-bottom-width:         ;
+        margin:                            13px 0px;
+
+	margin-top: 13px;        margin-right: 0px;        margin-bottom: 13px;        margin-left: 0px;	letter-spacing: 1px;
+        
+}
+
+
+div.introText {
+    position:  relative;
+    float:left;
+    width: 100%;
+/*
+    overflow: hidden;
+    margin: 0px 0px 0px -5px;
+    padding: 0px 0px 0px 5px;
+*/
+/*
+	*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------  SEARCH div & CELLS   ------------------- */
+
+
+div.hrmSearchContainer {
+	clear:left;
+	margin-top:10px;	margin-bottom: 10px;
+}
+div.hrmSearch {
+        margin: 5px 5px 10px 0px;
+        float:left;
+        display:inline;
+}
+
+div.hrmSearchButton {
+        margin: 7px 5px 10px 3px;
+        float:left;
+        display:inline;
+        }
+
+select, option {
+          font-size: 11px;
+	  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        }
+
+
+
+
+
+.chzn-container, .chzn-results li {
+    line-height: 100% !important;
+    padding: 2px 2px 5px 0px !important;
+    font-size: 11px !important;
+    color: 			#777777;
+    }
+
+.chzn-select {
+    width:170px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.chzn-container span{
+    text-align: center !important;
+}
+
+a.chzn-single {
+		    -moz-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+        -webkit-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+	    box-shadow:0 4px 10px rgba(188, 188, 188, 0.8);
+    	
+	text-decoration: none !important;
+
+}
+
+
+.chzn-container-single .chzn-single {
+	text-decoration: none !important;
+	/* color: 			#333333;  */
+	color: 			#777777;
+	}
+
+
+
+
+
+div.openingsButton {
+        clear: left;
+        margin: 0px 5px 10px 0px;
+        padding: 7px 0px 0px 0px;
+        position: relative;
+        display: block;
+	/*width: 65%;*/
+}
+
+
+div.openingsButton span, div.openingsButton a {
+	float:left;
+}
+div.openingsButton span {
+	line-height: 27px;
+}
+
+div.openingsButtonForm {
+    padding-top:40px;
+    	}
+
+
+
+
+
+
+input#reqKeywordSearch {
+	color: 		#777;
+	font-family: 	"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-align:	center;
+	height: 22px;
+	width:200px;
+	margin: 0px;
+	padding: 0px 7px 2px 7px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+	border-width: 1px !important;
+	border-color: #AAA !important;
+	border-style: solid !important;
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(0.5, white));
+	background-image: -webkit-linear-gradient(center bottom, #eeeeee 0%, white 50%);
+	background-image: -moz-linear-gradient(center bottom, #eeeeee 0%, white 50%);
+	background-image: -o-linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+	background-image: -ms-linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+	background-image: linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+		    -moz-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+        -webkit-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+	    box-shadow:0 4px 10px rgba(188, 188, 188, 0.8);
+    	
+	text-decoration: none !important;
+	margin: 2px 2px 5px 0px !important;
+}
+
+div.hrmKeywordSearch input.defaultTextActive {
+	color: #999999 !important;
+	font-style: italic;
+	font-size: 11px;
+}
+
+
+
+
+
+
+
+input#reqId {
+	color: 		#777;
+	font-family: 	"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	text-align:	center;
+	height: 22px;
+	width:154px;
+	margin: 0px;
+	padding: 0px 7px 2px 7px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+	border-width: 1px !important;
+	border-color: #AAA !important;
+	border-style: solid !important;
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(0.5, white));
+	background-image: -webkit-linear-gradient(center bottom, #eeeeee 0%, white 50%);
+	background-image: -moz-linear-gradient(center bottom, #eeeeee 0%, white 50%);
+	background-image: -o-linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+	background-image: -ms-linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+	background-image: linear-gradient(top, #eeeeee 0%,#ffffff 50%);
+}
+
+
+input#reqLookupButton {
+	vertical-align: bottom;
+}
+
+
+div#reqIdLookupFieldContainer {
+	height:26px;
+	display: inline-block;
+	margin: 7px 7px 0px 2px;
+		    -moz-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+        -webkit-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+	    box-shadow:0 4px 10px rgba(188, 188, 188, 0.8);
+    	
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+	*display:inline;
+	*zoom:1;
+}
+
+
+.clearBoth {
+    clear:both;
+}
+
+.clearLeft {
+    clear:left;
+}
+
+.clearRight {
+    clear:right;
+}
+
+
+hr.clearBoth {
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------  LINKEDIN WIDGET   ------------------- */
+
+
+div.LinkedInWidget {
+	display: block;
+	overflow: hidden;
+	white-space:nowrap;
+	text-align: left;
+	width: 200px;
+	height: 250px;
+	padding: 5px;
+        border: 1px solid #DDD;
+	background: #FFFFFF;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+		    -moz-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+        -webkit-box-shadow: 0 4px 10px rgba(188, 188, 188, 0.8);
+	    box-shadow:0 4px 10px rgba(188, 188, 188, 0.8);
+    	
+        }
+
+iframe#linkedIn {
+        width: 100%;
+        height: 100%;
+}
+
+div.LinkedInMask {
+	position:absolute;
+	background-color: #FFFFFF;
+	height: 45px;
+	width: 200px;
+}
+
+div.LinkedInMask img {
+	padding: 0px 0px 0px 0px;
+	width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------  FACEBOOK LIKE WIDGET   ------------------- */
+
+
+div.tdfb {
+	height: 66px;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+        float:left;
+        width:50%;
+	overflow:hidden;
+	min-width: 350px;
+	width:expression(document.body.clientWidth 
+	
+	
+	
+	 div.borders { position:absolute !important; } 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+						
+				
+				
+					
+						 
+							
+								
+							
+																			
+																	
+										Career Opportunities with Critical Signal Technologies
+
+A great place to work.
+									
+															
+												
+						
+					
+				
+				
+				
+				
+		
+
+
+
+
+									
+				
+					
+						
+
+
+
+
+
+
+
+				Careers At Critical Signal Technologies								
+								
+						
+								
+																	
+																					
+											
+
+												setTimeout(function(){
+													$('.framed #frame #body').css('position': 'relative').css('top': 'auto').css('left': 'auto');
+													}, 1000);
+												
+											
+											
+-->
+      
+											
+											
+      
+
+-->
+
+												
+												
+
+												 
+											
+											
+											
+												
+												
+												
+																															
+												Share with friends or Subscribe!
+												                                            
+													
+
+ 
+
+ 
+
+ 
+
+ 												
+												
+																									
+																								
+											
+															
+									
+																
+								
+								
+				       
+								
+									
+									Current job opportunities are posted here as they become available.
+
+Subscribe to our RSS feeds to receive instant updates as new positions become available.								
+								
+								
+								
+								
+
+																			       
+											      
+										       
+																			
+													
+-->
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+		    
+
+
+
+-->
+
+
+-->
+		    
+		    Back To Openings		    
+	  
+
+	
+	
+	
+	
+
+
+	
+
+	
+	
+	
+		     
+
+				
+		Data Analyst	
+	
+	
+			
+		
+		      			      	Department:
+					General & Admin		      					
+		      			      	Location:
+					Novi, MI					
+		      		      		      		      		      		      		
+
+
+
+START YOUR APPLICATION
+
+
+		
+	
+		SUMMARY:&nbsp; The Data Analyst collects and analyzes data to be used for reporting on the various business practices at CST.
+
+RESPONSIBILITIES:
+
+
+	Provide reporting, analysis and insightful recommendations to the management team on performance metrics
+	Write and maintain SQL queries, stored procedures, and views
+	Generate standard or custom reports summarizing business, financial, or patient statistics for review by executives, managers, and clients
+	Collaborate closely with managers to prioritize and identify key issues that, when solved, will help grow orders, sales and profit
+	Collaborate with end users to identify needs and opportunities for improved data management and delivery
+	Quality check reports of other data analysts to guarantee integrity of data and ensure queries are not strenuous to our database
+	Using SQL, perform mass inserts, and updates to our database
+	Analyze processes throughout the departments and identify possible inefficiencies
+	Participate in an on-call schedule rotation
+	All other tasks as assigned
+
+
+QUALIFICATIONS:
+
+
+	Bachelor&rsquo;s Degree in Information Systems or equivalent work experience
+	Proficiency in Reporting Software such as Crystal Reports
+	Understanding of rational databases
+	Proficiency in Standard Query Language (SQL)
+	Proficient with ODBC connections
+	Intermediate to advance skills in Microsoft Excel
+	Excellent organizational skills
+	Strong attention to detail
+	Displays exceptional professionalism
+	Commitment to excellent customer service
+	Excellent problem solving and analytical skills
+	Ability to work independently with little supervision
+
+
+
+
+			
+     START YOUR APPLICATIONOR					
+
+					 
+						$.ajax({
+							url: 'https://api.clearcompany.com/v2/careers/indeed/jobs/621180/button',
+							dataType: 'JSONP',
+							type: 'GET',
+							success: function (data) {
+								$(document).ready(function() {
+									$('#indeedButton').html(data.buttonHtml);
+									$('#indeedContainer').show();
+
+									// Code from Indeed to initialize Indeed Apply
+									(function() {window.IndeedApply||function(f,g){function h(){var a=c.getElementById("indeed-apply-js").attributes["data-indeed-apply-qs"],b="";a&&""!=a.value&&(b="&"+a.value);return[""].join("")}var b=window,c=document,d=document.location.href;b.IndeedApply=b.IndeedApply||{};var b=c.body,m=/^https:\/\//.test(d),k;if(!b)return k=arguments.callee,setTimeout(function(){k(f, g)},100);var d=c.createElement("div"),a=c.createElement("iframe"),e;d.style.display="none";b.insertBefore(d,b.firstChild).id="indeed-apply-iframe-holder";a.frameBorder="0";a.id="indeed-apply-iframe";a.allowTransparency="true";d.appendChild(a);try{a.contentWindow.document.open()}catch(n){e="javascript:var d=document.open();d.domain='"+c.domain+"';",a.src=e+"void(0);"}try{var l=a.contentWindow.document;l.write(h());l.close()}catch(p){a.src=e+'d.write("'+h().replace(/"/g,'\\"')+'");d.close();'}}
+									("https://apply.indeed.com/indeedapply/env?","https://apply.indeed.com/indeedapply/env?https=1");})();
+									// End code from Indeed to initialize Indeed Apply
+								});
+							}
+						});
+					
+										
+				
+
+	 	
+<!--	
+
+     function load(){
+	  window.location.hash="job"; 
+     }
+
+-->
+
+
+function load() {
+	var urllocation = location.href; //find url parameter
+	if(urllocation.indexOf("#") == -1 || urllocation.indexOf("#job") > -1){
+		window.location.hash="job"; 
+	}
+}
+
+	
+
+
+  Visit Our Home Page &copy; 2017 Critical Signal Technologies	
+					
+						Applicant Tracking System Powered by&nbsp;
+					
+				
+
+				
+
+
+-->
+			
+		
+
+
+
+
+
+
+
+		 
+		 
+		7/2/13 AF: changed hosting to google instead of hrm
+		-->
+		
+		
+
+
+		 
+	
+		
+			$(".chzn-select").chosen();
+			$(".chzn-select-deselect").chosen({allow_single_deselect:true});
+
+			// for each filter with an aria-label defined, 
+			// add the label to the visible chozen container element
+			$('[data-aria-label]').each( function(index, hiddenSelect){
+				var $hiddenSelect = $(hiddenSelect);
+				var ariaValue = $hiddenSelect.data('ariaLabel');
+				$hiddenSelect.siblings('.chzn-container').attr('aria-label', ariaValue);
+			})
+		
+
+		
+			$(document).ready(function()
+			{
+			    $(".defaultText").focus(function(srcc)
+			    {
+				if ($(this).val() == $(this)[0].title)
+				{
+				    $(this).removeClass("defaultTextActive");
+				    $(this).val("");
+				}
+			    });
+			    
+			    $(".defaultText").blur(function()
+			    {
+				if ($(this).val() == "")
+				{
+				    $(this).addClass("defaultTextActive");
+				    $(this).val($(this)[0].title);
+				}
+			    });
+			    
+			    $(".defaultText").blur();        
+			});
+		
+					
+
+
+
+
+		
+		$(document).ready(function(){
+		
+			$(".btn-slide").click(function(){
+				$("#panel").slideToggle("slow");
+				$(this).toggleClass("active"); return false;
+			});	
+			 
+		});
+		
+		
+		$(document).ready(function(){
+		
+			$(".btn-slide2").click(function(){
+				$("#panel2").slideToggle("slow");
+				$(this).toggleClass("active"); return false;
+			});	
+			 
+		});
+		
+
+
+
+		
+				api_key: iifgk1p3q57c
+				authorize: false													
+			
+		-->
+		
+		
+		
+		
+				
+	
+

@@ -1,0 +1,1489 @@
+
+
+
+
+
+
+
+
+ 
+
+	function openWin(URL)
+
+	{
+
+		aWindow=window.open(URL, "help", "toolbar=no,width=350,height=250,status=no,scrollbars=yes,resize=yes,menubar=no");
+
+	}
+
+
+
+
+
+
+
+
+
+Careers
+
+
+
+
+
+
+
+0&&parent.frames.length) {
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+        
+
+            
+
+                
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                                
+
+                        
+
+                            
+
+                        
+
+                            
+
+                    
+
+                    
+
+                        
+
+                            
+
+                        
+
+                            Careers&nbsp;&nbsp;|&nbsp;&nbsp;Contact&nbsp;
+
+                    
+
+                    
+
+                        
+
+                            
+
+                        
+
+                            
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                                
+
+                        
+
+                            
+
+                        
+
+                            
+
+                                
+
+                        
+
+                            
+
+                        
+
+                            
+
+                                
+
+                        
+
+                            
+
+                        
+
+                            
+
+                                
+
+                        
+
+                            
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                        
+
+                            
+
+                        
+
+                            
+
+                    
+
+                    
+
+                        
+
+                            
+
+                        
+
+                            
+
+                        
+
+							
+
+                        
+
+                            
+
+                                
+
+                                    
+
+                                        
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+                                
+
+                                
+
+                                    
+
+										
+
+										
+
+                                        
+
+												
+
+										
+
+                                    
+
+                                
+
+                                
+
+									
+
+                                    
+
+                                        
+
+												
+
+									
+
+                                
+
+                                
+
+									
+
+                                    
+
+                                        
+
+                                            
+
+                                    
+
+                                
+
+                                
+
+									
+
+                                    
+
+                                        
+
+                                            
+
+                                     
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+                                            
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+                                            
+
+                                
+
+                                
+
+                                
+
+                                    
+
+                                        
+
+                                
+
+                            
+
+                            
+
+                                &nbsp;
+
+                            
+
+                                &nbsp;
+
+                            
+
+                                &nbsp;
+
+                            
+
+                                &nbsp;
+
+                            
+
+                                &nbsp;
+
+                            
+
+                                &nbsp;
+
+                           
+
+                        
+
+                        
+
+                            
+
+                        
+
+                            
+
+                        
+
+                            
+
+                        
+
+                            
+
+                                
+
+									
+
+									
+
+									
+
+
+
+
+
+
+
+Job Details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = ('');
+
+		theform.__PXLBV.value = ('');
+
+	}
+
+	function pxslbp(eventTarget, eventArgument) {
+
+		var theform;
+
+		if (window.navigator.appName.toLowerCase().indexOf("netscape") > -1) {
+
+			theform = document.forms["PXForm"];
+
+		}
+
+		else {
+
+			theform = document.PXForm;
+
+		}
+
+		theform.__PXLBN.value = eventTarget;
+
+		theform.__PXLBV.value = eventArgument;
+
+		theform.submit();
+
+	}
+
+//-->
+
+
+
+
+
+Invalid zipcode/postal code format for this country.');
+
+                }
+
+            } catch (e) {
+
+                hasError = true;
+
+            }
+
+            if (hasError) {
+
+                _zipCodeValue.title = 'Invalid Postal Code';
+
+                _zipCodeValue.style.backgroundColor = 'yellow';
+
+            }
+
+        }
+
+        return _validationReturn;
+
+    }
+
+    return true;
+
+}
+
+
+
+function removeZipLabelError(_zipCodeValue) {
+
+    var withSuccess = true;
+
+    try {
+
+        var lenght = _zipCodeValue.parentNode.childNodes.length;
+
+        var index = 0;
+
+        while (index 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function ToggleCheckBoxs(chk){
+
+var tab = document.getElementById ( 'CheckBoxTable' );
+
+var elems = tab.getElementsByTagName ( 'input' );
+
+var len = elems.length;
+
+ for ( var i = 0; i  1){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+var pkval = nameparts[1];
+
+ txt.value = pkval;
+
+ }
+
+ }
+
+else
+
+elems[i].checked = false;
+
+}
+
+ if(chk.type == 'checkbox'){
+
+ if(chk.checked == false){
+
+var nametxt = document.getElementById('NameOfTheHiddenField');
+
+var txt = document.getElementById(nametxt.value);
+
+txt.value="";
+
+}}}}
+
+
+
+
+
+
+
+    function SendResume(){
+
+        document.PXForm.ParseResume.value = 1;
+
+        document.PXForm.submit();
+
+    }
+
+
+
+
+
+	
+
+		
+
+	
+
+
+
+
+
+	
+
+		
+
+			
+
+			
+
+			
+
+				Requisition Number
+
+				17-0565
+
+			
+
+			
+
+				Post Date
+
+				8/29/2017
+
+			
+
+			
+
+				Title
+
+				Data Analyst
+
+			
+
+			
+
+				Organization Name
+
+				Macmillan Learning
+
+			
+
+			
+
+				City
+
+				Austin
+
+			
+
+			
+
+				State
+
+				TX
+
+			
+
+			
+
+				Description
+
+				Macmillan Learning is a part of the family-owned Holtzbrinck group of companies and is one of the leading educational technology companies. Through deep partnership with the world's best researchers, educators, administrators, and developers, we facilitate
+
+ teaching and learning opportunities that spark student engagement and improve outcomes. We provide educators with tailored solutions designed to inspire student curiosity and measure progress. Macmillan Learning is comprised of renowned brands including Bedford/St.
+
+ Martins, W.H. Freeman, Worth Publishers, Sapling Learning, SkyFactor, Intellus Learning, Late Nite Labs, and Hayden-McNeil. We are an Equal Opportunity Employer committed to reflecting a broad representation of differences -- race, ethnicity, religion, sex,
+
+ sexual orientation, gender identity/expression, physical ability, age, family status, economic background and status, geographical background and status, and perspective-- in our workplace. The successful candidate for this position will become an employee
+
+ of Bedford Freeman &amp; Worth Publishing Group, LLC (“BFW”), d/b/a Macmillan Learning. Bedford Freeman &amp; Worth Publishing Group, LLC has developed an affirmative action program in compliance with the NY Department of Education’s guidance. Portions of the affirmative
+
+ action program are available for review by applicants and employees by contacting Human Resources.
+
+			
+
+			
+
+				Requirements
+
+				Us: an organization that really wants to shift to making data-driven decisions rather than leading with narrative.
+
+
+
+You: a mid-level data analyst that is really excited by this prospect!
+
+
+
+The Customer Experience team at Macmillan Learning is working very hard to shift from a narrative-lead story to a data-lead story and need a strong Data Analyst who is curious, flexible, and Customer-focused to help us make this important shift. Lots of people
+
+ say they are data-driven, but we’re actually doing it – understanding that a story built with data at the center will surely meet the needs of our Customer. We are looking for someone who can help us to ask the right questions and data-dive to find the answers.
+
+ The right person will be comfortable stepping out and trying a few different things before raising a flag and declaring victory, but who will be confident enough to lead the data analysis efforts for the team. We’re a Salesforce-leaning shop, so hopefully
+
+ you’re comfortable working with Salesforce, Wave, and the data it produces. Check out the full job description and if this sounds like you then we look forward to talking to you about Macmillan being your new work family!
+
+
+
+The Data Analyst works to develop and present opportunities to improve business practices by collecting, analyzing, and transforming data into useful and meaningful information that encourages more effective, strategic, and operational insight and collaborative
+
+ decision-making. This role is also responsible for developing and maintaining a web-based delivery system for visibility and reporting data to stakeholders.
+
+
+
+Required skills and experience:
+
+• Strong communication skills, verbally, in writing, and presentation
+
+• Demonstrated proficiency in technology
+
+• Proven analytical and problem-solving skills
+
+• Self-motivated
+
+• Strong research skills
+
+• Strong organization and time management skills
+
+• Working knowledge of data structure and modeling
+
+• Knowledge of or experience with MySQL 
+
+• Experience with BI tools
+
+• Experience with SIPOC analysis, process mapping, Lean, Six Sigma, or other related tools and methodologies
+
+
+
+Super-awesome high-five if you also have:
+
+• Experience with CRM systems, e.g. Salesforce
+
+• Lean Six Sigma or similar certification
+
+• Experience with Moodle and/or another LMS (Blackboard, Canvas, D2L, Sakai)
+
+• Programming or prototyping experience, e.g. HTML, LaTeX, Javascript, PHP
+
+• Experience with online homework systems
+
+			
+
+			
+
+				
+
+				Apply On-line
+
+			
+
+			
+
+				
+
+				Send This Job to a Friend
+
+			
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+								 
+
+                            
+
+                        
+
+                    
+
+                    
+
+                        
+
+                            
+
+                        
+
+                            
+
+                        
+
+                            
+
+                        
+
+                            
+
+                        
+
+                            
+
+                        
+
+                            
+
+                    
+
+                    
+
+                        
+
+                            
+
+                        
+
+                            
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+                    
+
+                        
+
+                            
+
+                                &nbsp;About Us&nbsp;|&nbsp;Careers&nbsp;|&nbsp;Contact&nbsp;|&nbsp;Site
+
+                                            Map&nbsp;|&nbsp;Terms of Use&nbsp;|&nbsp;Privacy Notice&nbsp;&nbsp;
+
+                                
+
+                                    Visit a Publisher&rsquo;s website
+
+                                    &nbsp;
+
+                                    ADULT TRADE
+
+                                    - - - - - - - - - -
+
+                                    Farrar, Straus &amp; Giroux
+
+                                    First Second Books
+
+                                    Henry Holt
+
+                                    Macmillan Audio
+
+                                    Picador
+
+                                    St. Martin's Press
+
+                                    Tor/Forge
+
+                                    &nbsp;
+
+                                    CHILDREN&rsquo;S
+
+                                    - - - - - - - - - -
+
+                                    Feiwel &amp; Friends
+
+                                    Farrar, Straus & Giroux Books for Young
+
+                                        Readers
+
+                                    Henry Holt Books for Young Readers
+
+                                    Priddy Books
+
+                                    Square Fish Books
+
+                                    Tor Starscape
+
+                                    &nbsp;
+
+                                    COLLEGE &amp; ACADEMIC
+
+                                    - - - - - - - - - -
+
+                                    Bedford/St. Martin's
+
+                                    Palgrave Macmillan
+
+                                    W.H. Freeman
+
+                                    Worth Publishers
+
+                                    &nbsp;
+
+                                    MAGAZINES &amp; JOURNALS
+
+                                    - - - - - - - - - -
+
+                                    Nature
+
+                                    Scientific American
+
+                                
+
+                                
+
+                                    
+
+                            
+
+                                Macmillan 2007&nbsp;
+
+                        
+
+                    
+
+                
+
+            
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+        
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+            
+
+                
+
+        
+
+    
+
+
+
+    
+
+    
+
+
+
+    
+
+_uacct = "UA-1012302-36";
+
+urchinTracker();
+
+    
+
+
+
+
+
+ 

@@ -1,0 +1,690 @@
+
+
+
+
+        
+            /**********************Job Listing Page Start **********************************************/
+
+body {
+
+    font: 14px/25px “Roboto”, Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    background: #DEF1F2;
+
+    color: #444444;
+
+}
+
+
+
+.headerSection {
+
+    display: block;
+
+    margin: 0 auto;
+
+    height: 80px;
+
+    border-bottom: 1px solid #AEAFB1;
+
+    background: #fff;
+
+}
+
+
+
+.headerSection:before {
+
+    display: block;
+
+    width: 1170px;
+
+    margin: 0 auto;
+
+    background: url("//magento.com/sites/all/themes/mag_redesign/images/magento-logo.svg") 0 15px no-repeat #fff;
+
+    background-size: 160px 46px;
+
+    height: 80px;
+
+    content: '';
+
+}
+
+
+
+.headerSection .headerImage {
+
+    display: none;
+
+}
+
+
+
+.apexp {
+
+    display: block;
+
+    width: 1400px;
+
+    border-left: 1px solid #AEAFB1;
+
+    border-right: 1px solid #AEAFB1;
+
+    margin: 0 auto;
+
+}
+
+
+
+.pbBody {
+
+    padding: 20px 0;
+
+    width: 1170px;
+
+    margin: 0 auto;
+
+}
+
+
+
+.detailList {
+
+    width: 100%;
+
+}
+
+
+
+.detailList td,
+
+.detailList th {
+
+    padding: 10px;
+
+    border-bottom: 1px solid #e1e0e2;
+
+    vertical-align: top;
+
+}
+
+
+
+.detailList td td,
+
+.detailList th td,
+
+.detailList td th,
+
+.detailList th th {
+
+    padding: 0;
+
+    border-bottom: none;
+
+}
+
+
+
+.detailList .labelCol {
+
+    width: 20%;
+
+    font-weight: bold;
+
+    text-align: right;
+
+}
+
+
+
+.pbBottomButtons {
+
+    width: 1170px;
+
+    margin: 0 auto;
+
+    padding: 10px 0 30px;
+
+    text-align: center;
+
+}
+
+.pbBottomButtons table {
+
+    width: 100%;
+
+}
+
+
+
+.pbBottomButtons .pbTitle {
+
+    display: none;
+
+}
+
+
+
+.list {
+
+    width: 98%;
+
+    padding-left: 10px;
+
+}
+
+
+
+body .pbBody table.list tr.headerRow td, body .pbBody table.list tr.headerRow th {
+
+    border-width: 0 0 1px 0px;
+
+    color: #e85821;
+
+    font-size: 22px;
+
+    font-weight: Normal;
+
+    padding: 5px 2px 4px 5px;
+
+    vertical-align: top;
+
+
+
+}
+
+
+
+/*****Border Lines Between Listings*****/
+
+body .pbBody table.list tr th, body .pbBody table.list tr td {
+
+    border: 1px solid #D4DADC;
+
+    color: #b8b6b8;
+
+}
+
+
+
+body .pbBody table.list tr.dataRow th, body .pbBody table.list tr.dataRow td {
+
+    border-width: 0 0 1px;
+
+    padding: 2px;
+
+    vertical-align: top;
+
+}
+
+
+
+th {
+
+    text-align: left;
+
+}
+
+
+
+/*****Description of Positions*****/
+
+body .pbBody table.list tr th, body .pbBody table.list tr td {
+
+    color: #666666;
+
+    font-size: 14px;
+
+    font-weight: Normal;
+
+}
+
+
+
+/*****Title Read More add Hover*****/
+
+a {
+
+    color: #000000;
+
+}
+
+
+
+a:hover {
+
+    color: #000000;
+
+}
+
+
+
+.jobPostingSummaryDiv {
+
+
+
+}
+
+
+
+.jobPostingSummaryInnerDiv {
+
+    margin-top: 10px;
+
+}
+
+
+
+/*****Job Title Font Size*****/
+
+.jobPostingTitleDiv {
+
+    font-size: 18px;
+
+}
+
+
+
+/*****Job Title Color*****/
+
+.jobPostingTitleDiv a {
+
+    text-decoration: none !important;
+
+    color: #000000 !important;
+
+}
+
+
+
+/*****Read More Font Size*****/
+
+.moreLinkSpan {
+
+    display: block;
+
+    font-size: 14px;
+
+    margin-top: 10px;
+
+}
+
+
+
+.moreLinkSpan a {
+
+    text-decoration: none !important;
+
+}
+
+
+
+.jobPostingTableRowA {
+
+}
+
+
+
+.jobPostingTableRowB {
+
+}
+
+
+
+.jobPostingTableColumnA {
+
+    padding-top: 10px !important;
+
+}
+
+
+
+.jobPostingTableColumnB {
+
+    padding-top: 10px !important;
+
+}
+
+
+
+.searchTableTitleColumn {
+
+    padding-bottom: 10px;
+
+    text-align: left;
+
+    padding-left: 10px;
+
+}
+
+
+
+.searchTableTitle {
+
+
+
+}
+
+
+
+.searchTable {
+
+    width: 100%;
+
+}
+
+
+
+.searchTableLabelColumn {
+
+    width: 100px;;
+
+    text-align: right;
+
+    padding-bottom: 5px;
+
+    padding-right: 10px;
+
+    padding-top: 5px;
+
+}
+
+
+
+.searchTableInputColumn {
+
+    text-align: left;
+
+    padding-bottom: 5px;
+
+    padding-left: 5px;
+
+    padding-top: 5px;
+
+}
+
+
+
+/**********************Job Listing Page END **********************************************/
+
+
+
+/*****Search Apply Now Etc Buttons*****/
+
+.btn {
+
+    border-color: transparent;
+
+    border-radius: 0;
+
+    background-color: #f46f25;
+
+    color: #FFF;
+
+    padding: 15px 30px;
+
+    box-shadow: none;
+
+    text-shadow: none;
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: all 0.5s ease-out;
+
+}
+
+
+
+.btn:hover {
+
+    color: #333;
+
+    background-color: #e6e6e6;
+
+}
+
+
+
+.sfdc_richtext {
+
+    font-size: 3%;
+
+}
+
+
+
+.MsoNormal {
+
+    background-color: white !important;
+
+}
+
+
+
+/****************Job Detail Page END*************************/
+
+/************** Candidate Application start *****************/
+
+.Custom108Tab .secondaryPalette, .individualPalette .Custom108Block .secondaryPalette {
+
+    border-color: white;
+
+}
+
+
+
+/*****Page Background*****/
+
+body .bPageBlock, body #bodyCell .bResource .secondaryPalette, body .secondaryPalette.bPageBlock, body .overlayDialog .secondaryPalette.bPageBlock, body .individualPalette .secondaryPalette.bPageBlock, body .bodyDiv .genericTable, body .genericPageBlockTable, body .bodyDiv .bSubBlock, body .bComponentBlock .bPageBlock, body .bMyDashboard .bPageBlock, body.rlHoverFrame .bPageBlock, body.subjectSelectionPopup div.choicesBox, body.lookupTab .secondaryPalette.bPageBlock, body.popupTab .secondaryPalette.bPageBlock, body.UserTagStatsPage .secondaryPalette.bPageBlock {
+
+    background-color: white;
+
+    border-bottom: medium none;
+
+    border-left: medium none;
+
+    border-radius: 0 0 0 0;
+
+    border-right: medium none;
+
+}
+
+
+
+/*****Sub Header Font Personal info Education History*****/
+
+.apexp .bPageBlock.apexDefaultPageBlock .pbBody .pbSubheader {
+
+    border-top: 1px solid;
+
+    color: #000000;
+
+    border-color: gray;
+
+    padding-top: 2px;
+
+}
+
+
+
+.Custom108Tab .tertiaryPalette, .individualPalette .Custom108Block .tertiaryPalette, .layoutEdit .individualPalette .Custom108Block .tertiaryPalette {
+
+    background-color: white;
+
+    border-color: #4A4A56;
+
+}
+
+
+
+/*****Red Required Field Line*****/
+
+.bPageBlock .requiredInput .requiredBlock {
+
+    background-color: #FFFFFF;
+
+    bottom: 1px;
+
+    left: -4px;
+
+    position: absolute;
+
+    top: 1px;
+
+    width: 3px;
+
+}
+
+
+
+/*****Required Fields*****/
+
+.bPageBlock .requiredInput {
+
+    height: 100%;
+
+    position: relative;
+
+}
+
+
+
+.message {
+
+    border-radius: 4px 4px 4px 4px;
+
+}
+
+
+
+.errorM6, .errorM4, .errorM3, .errorM2, .errorS1 {
+
+    border-color: #CC0000;
+
+}
+
+
+
+.message {
+
+    background-color: #FFFFCC;
+
+    border-style: solid;
+
+    border-width: 1px;
+
+    color: #000000;
+
+    margin: 4px 20px;
+
+    padding: 6px 8px 6px 6px;
+
+}
+
+
+
+.bPageBlock .detailList .errorMsg {
+
+    padding-left: 3px;
+
+    color: #D74C3B;
+
+    font-weight: bold;
+
+}
+
+
+
+.errorM3 .msgIcon, .errorMedium {
+
+    background-image: url("/img/msg_icons/error24.png");
+
+    background-position: 0 0;
+
+    height: 24px;
+
+    width: 24px;
+
+}
+
+
+
+.message .messageTable .messageCell {
+
+    vertical-align: middle;
+
+}
+
+
+
+.message .messageText h4 {
+
+    display: block;
+
+    font-weight: bold;
+
+}
+
+
+
+body .x-btn button, body .btn, body .btnImportant, body .btnDisabled, body .btnCancel, body .menuButton .menuButtonButton, body .menuButton .menuButtonMenu a, body .menuButton .menuButtonMenu input.theOption, h1, h2, h3, h4, h5, h6 {
+
+    font-family: “Roboto”, Arial, serif;
+
+}
+
+
+
+/*****Header Sub Header Font Size*****/
+
+
+
+.footerSection {
+
+    display: none;
+
+}
+         
+	
+	
+		
+		.sfdc_richtext{ 
+			font-size: 99%;
+		}
+	
+
+
+
+		
+        	
+         if(!window.sfdcPage) { window.sfdcPage = new ApexDetailPage(); }UserContext.initialize({"ampm":["AM","PM"],"isAccessibleMode":false,"uiSkin":"Theme3","salesforceURL":"https://magento.secure.force.com?refURL=http%3A%2F%2Fmagento.secure.force.com%2Fcareers%2FVanaHCM__Job_Detail","dateFormat":"M/d/yyyy","language":"en_US","locale":"en_US","userName":"career_portal@join-1512606c3bd.force.com","userId":"00515000006xXfJ","isCurrentlySysAdminSU":false,"renderMode":"RETRO","startOfWeek":"1","vfDomainPattern":"using--(?:[^.]+).na69.visual.force.com","auraDomain":"using.lightning.force.com","dateTimeFormat":"M/d/yyyy h:mm a","orgPreferences":[{"index":257,"name":"TabOrganizer","value":true},{"index":113,"name":"GroupTasks","value":true}],"siteUrlPrefix":"/careers","isDefaultNetwork":true,"labelLastModified":"1507471092000","today":"10/9/2017 6:08 PM","timeFormat":"h:mm a","userPreferences":[{"index":112,"name":"HideInlineEditSplash","value":false},{"index":114,"name":"OverrideTaskSendNotification","value":false},{"index":115,"name":"DefaultTaskSendNotification","value":false},{"index":119,"name":"HideUserLayoutStdFieldInfo","value":false},{"index":116,"name":"HideRPPWarning","value":false},{"index":87,"name":"HideInlineSchedulingSplash","value":false},{"index":88,"name":"HideCRUCNotification","value":false},{"index":89,"name":"HideNewPLESplash","value":false},{"index":90,"name":"HideNewPLEWarnIE6","value":false},{"index":122,"name":"HideOverrideSharingMessage","value":false},{"index":91,"name":"HideProfileILEWarn","value":false},{"index":93,"name":"HideProfileElvVideo","value":false},{"index":97,"name":"ShowPicklistEditSplash","value":false},{"index":92,"name":"HideDataCategorySplash","value":false},{"index":128,"name":"ShowDealView","value":false},{"index":129,"name":"HideDealViewGuidedTour","value":false},{"index":132,"name":"HideKnowledgeFirstTimeSetupMsg","value":false},{"index":104,"name":"DefaultOffEntityPermsMsg","value":false},{"index":135,"name":"HideNewCsnSplash","value":false},{"index":101,"name":"HideBrowserWarning","value":false},{"index":139,"name":"HideDashboardBuilderGuidedTour","value":false},{"index":140,"name":"HideSchedulingGuidedTour","value":false},{"index":180,"name":"HideReportBuilderGuidedTour","value":false},{"index":183,"name":"HideAssociationQueueCallout","value":false},{"index":194,"name":"HideQTEBanner","value":false},{"index":193,"name":"HideChatterOnboardingSplash","value":false},{"index":195,"name":"HideSecondChatterOnboardingSplash","value":false},{"index":270,"name":"HideIDEGuidedTour","value":false},{"index":282,"name":"HideQueryToolGuidedTour","value":false},{"index":196,"name":"HideCSIGuidedTour","value":false},{"index":271,"name":"HideFewmetGuidedTour","value":false},{"index":272,"name":"HideEditorGuidedTour","value":false},{"index":205,"name":"HideApexTestGuidedTour","value":false},{"index":206,"name":"HideSetupProfileHeaderTour","value":false},{"index":207,"name":"HideSetupProfileObjectsAndTabsTour","value":false},{"index":213,"name":"DefaultOffArticleTypeEntityPermMsg","value":false},{"index":214,"name":"HideSelfInfluenceGetStarted","value":false},{"index":215,"name":"HideOtherInfluenceGetStarted","value":false},{"index":216,"name":"HideFeedToggleGuidedTour","value":false},{"index":268,"name":"ShowChatterTab178GuidedTour","value":false},{"index":275,"name":"HidePeopleTabDeprecationMsg","value":false},{"index":276,"name":"HideGroupTabDeprecationMsg","value":false},{"index":224,"name":"HideUnifiedSearchGuidedTour","value":false},{"index":226,"name":"ShowDevContextMenu","value":false},{"index":227,"name":"HideWhatRecommenderForActivityQueues","value":false},{"index":228,"name":"HideLiveAgentFirstTimeSetupMsg","value":false},{"index":232,"name":"HideGroupAllowsGuestsMsgOnMemberWidget","value":false},{"index":233,"name":"HideGroupAllowsGuestsMsg","value":false},{"index":234,"name":"HideWhatAreGuestsMsg","value":false},{"index":235,"name":"HideNowAllowGuestsMsg","value":false},{"index":236,"name":"HideSocialAccountsAndContactsGuidedTour","value":false},{"index":237,"name":"HideAnalyticsHomeGuidedTour","value":false},{"index":238,"name":"ShowQuickCreateGuidedTour","value":false},{"index":245,"name":"HideFilePageGuidedTour","value":false},{"index":250,"name":"HideForecastingGuidedTour","value":false},{"index":251,"name":"HideBucketFieldGuide","value":false},{"index":263,"name":"HideSmartSearchCallOut","value":false},{"index":265,"name":"HideSocialProfilesKloutSplashScreen","value":false},{"index":273,"name":"ShowForecastingQuotaAttainment","value":false},{"index":280,"name":"HideForecastingQuotaColumn","value":false},{"index":301,"name":"HideManyWhoGuidedTour","value":false},{"index":298,"name":"HideFileSyncBannerMsg","value":false},{"index":299,"name":"HideTestConsoleGuidedTour","value":false},{"index":302,"name":"HideManyWhoInlineEditTip","value":false},{"index":303,"name":"HideSetupV2WelcomeMessage","value":false},{"index":312,"name":"ForecastingShowQuantity","value":false},{"index":313,"name":"HideDataImporterIntroMsg","value":false},{"index":314,"name":"HideEnvironmentHubLightbox","value":false},{"index":316,"name":"HideSetupV2GuidedTour","value":false},{"index":317,"name":"HideFileSyncMobileDownloadDialog","value":false},{"index":322,"name":"HideEnhancedProfileHelpBubble","value":false},{"index":328,"name":"ForecastingHideZeroRows","value":false},{"index":330,"name":"HideEmbeddedComponentsFeatureCallout","value":false},{"index":341,"name":"HideDedupeMatchResultCallout","value":false},{"index":340,"name":"HideS1BrowserUI","value":false},{"index":346,"name":"HideS1Banner","value":false},{"index":358,"name":"HideEmailVerificationAlert","value":false},{"index":354,"name":"HideLearningPathModal","value":false},{"index":359,"name":"HideAtMentionsHelpBubble","value":false},{"index":368,"name":"LightningExperiencePreferred","value":false}],"networkId":""});
+
+		
+   function redirectPage(url){
+    window.parent.location.href = url;
+   }
+  
+			&nbsp;&nbsp;
+			&nbsp;&nbsp;
+			&nbsp;&nbsp;TitleOperations Support AnalystLocationCampbellDepartment NameDescriptionOperations Support AnalystTHE COMPANYTrusted by more than 240,000 businesses worldwide, Magento Commerce is the leading provider of open omnichannel innovation to retailers, brands and branded manufacturers across retail B2C and B2B industries. In addition to its flagship open source eCommerce platform, Magento Commerce boasts a strong portfolio of cloud-based omnichannel solutions empowering merchants to successfully integrate digital and physical shopping experiences. With over $50B in gross merchandise volume transacted on the platform, Magento Commerce is the dominant provider to the Internet Retailer Top 1000, counting more than double the clients to the next closest competitor, and to the Internet Retailer Hot 100. Magento Commerce is supported by a vast global network of solution and technology partners, a highly active global developer community and the largest eCommerce marketplace for extensions available for download on the Magento Marketplace. RESPONSIBILITIESMagento is looking for a customer focused and service-minded individual to join our global Customer Support team.  The Support Business Analyst is someone who is flexible, assertive with an eye for detail. You are a “data forensics detective” with an ability to catch trends and seasonality. This role will be creating, updating and maintaining reports and analytics to help determine where our teams are succeeding (or where they need to improve) and identify all gaps and bottlenecks by looking at ticket and escalation trend data within the different support and engineering teams. The ultimate goal is to ensures our customer support department (as well as all supporting groups) are providing the best customer service (timeliness and quality).Job Duties
+Create, maintain and improve reports and dashboards in Salesforce and Zendesk for multiple teams within Customer Support.Support and maintain executed metrics to track trends and performance in Salesforce/Zendesk and Power BI for our Global Support Operations.Utilize programming and analytical tools including SQL and Power BI to manage data and design data models.Analyze data and identify deficiencies in reporting requests with the ability to improve.Present end-to-end workflow demonstrations for internal clients on created reports and analytics.Collaborate with team on process improvement projects.Documentation of all reports (methodology, assumption, data sources, metrics and logic)
+ Qualifications
+
+BA/BS degreeSolid working knowledge of ticketing and CRM systems such as Salesforce and Zendesk Knowledge of Power BI or other advanced BI platformsData modeling experienceIntermediate to advanced working knowledge of Excel and PowerPointSQLExperience in working with a growing enterprise/cloud software company with thousands of customersAttention to detailProblem solvingAble to reprioritize tasks and work with competing BI demandsTeam playerSelf-motivated
+ WORKING FOR MAGENTO Working at Magento means becoming part of one of the fastest growing commerce solutions companies on the planet. More than 240,000 merchants rely on us to fuel their growth.  A career at Magento puts you on the cutting-edge of the commerce industry and offers many opportunities for advancement. And, as a part of our family of products and services, you’ll also gain valuable exposure to a wealth of commerce knowledge, experience, a global customer and employee base, and world-class resources.We’re always looking for talented people who want to help shape the future of commerce, and who believe in the power of collaboration.
+page1__form1__block1__j_id17__j_id18__3__j_id20 = window.onload; window.onload=function() { if (page1__form1__block1__j_id17__j_id18__3__j_id20!= null) page1__form1__block1__j_id17__j_id18__3__j_id20();};&nbsp;
+	
+    	 
+    
+Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["page1:form1"]);
+
+});

@@ -1,0 +1,650 @@
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+    
+
+	Data Analyst at DXC-Technology
+
+    
+
+	
+
+		
+
+	
+
+    
+
+    
+
+        
+
+    document.getElementsByTagName("html")[0].className = document.getElementsByTagName("html")[0].className.replace("no-js", "js");
+
+     
+
+
+
+
+
+
+
+                
+
+{"@context":"http://schema.org","@type":"JobPosting","datePosted":"2017-10-6","description":"DXC Technology (NYSE: DXC) is the world’s leading independent, end-to-end IT services company, helping clients harness the power of innovation to thrive on change. Created by the merger of CSC and the Enterprise Services business of Hewlett Packard Enterprise, DXC Technology serves nearly 6,000 private and public sector clients across 70 countries. The company’s technology independence, global talent and extensive partner alliance combine to deliver powerful next-generation IT services and solutions. DXC Technology is recognized among the best corporate citizens globally. For more information, visit&nbsp;www.dxc.technology.&nbsp;DXC Technology has an immediate need in our US Public Sector group for a Seat Deployment Analyst- Secret Clearance in Boise, ID, Plano, TX, El Paso, TX, Dublin, OH, Charleston, WV, or Clarksville, VA. Job Description: • Regional Data Analyst is responsible for managing data for the USMC WIN 10 EUD Upgrade Project• Monitor, Track, and Report HDD Inventory and DD250 forms for SIPR Hard drives • Manually compare DD250 and HDD Inventory forms against deployment schedule ensuring that proper documentation is gathered and reported• Analyze and interpret customer data submission orders and report discrepancies• Aligning seats on WSM/BO with projects on tactical plan ensuring that all customer data is submitted accurately and on time in accordance to project timelines. • Monitor , validate, requests for upgrade against current schedule • Use Milestone tracker in SharePoint to input to track project milestones and report deficiencies• Monitor orders and assist PMs with initial schedule creation• Utilizing customer provided data pull into project for Site Data Schedule for project creation and assignment• Create multiple reports and Metrics to include but no limited to Tactical Plan Report, Actuals Report, Enterprise Delivery Report, etc. , DXC Seat Delivery","employmentType":"Full-time","identifier":"1651888","qualifications":"Qualifications: 
+MS ProjectMS Excel Detailed ability to analyze and report on complex and dynamic projectsAble to quickly analyze manual schedules.Analyze detailed spreadsheets. Ability to obtain DoD security clearance","title":"Data Analyst","url":"https://jobs.dxc.technology/job/boise/data-analyst/16055/5911332","hiringOrganization":{"@type":"Organization","name":"DXC-Technology"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Boise","addressRegion":"Idaho","addressCountry":"United States","streetAddress":"","postalCode":""}}}
+
+
+
+    
+
+    
+
+    
+
+        (function (i, s, o, g, r, a, m) {
+
+            i['GoogleAnalyticsObject'] = r;
+
+            i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date();
+
+            a = s.createElement(o),
+
+            m = s.getElementsByTagName(o)[0];
+
+            a.async = 1;
+
+            a.src = g;
+
+            m.parentNode.insertBefore(a, m);
+
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-43658109-6', 'auto');
+
+        ga('require', 'displayfeatures');
+
+
+
+
+
+        setTimeout(function () {
+
+            function createHiddenInput(id, value) {
+
+                var input = document.createElement('input');
+
+                input.type = 'hidden';
+
+                input.id = id;
+
+                input.value = value;
+
+                if (document.body != null) {
+
+                    document.body.appendChild(input);
+
+                }
+
+            }
+
+
+
+                createHiddenInput('dimension1', '5911332');
+
+                createHiddenInput('dimension2', '1651888');
+
+                createHiddenInput('dimension3', '16055');
+
+                createHiddenInput('dimension4', '16055,');
+
+                    createHiddenInput('dimension6', 'Services');
+
+                    createHiddenInput('dimension7', 'Boise-Idaho-United-States');
+
+                    createHiddenInput('dimension9', 'Data Analyst');
+
+                        createHiddenInput('dimension10', 'JobDetails');
+
+                    createHiddenInput('dimension14', 'Basic JD');
+
+                sendCustomDimensions();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                function sendCustomDimensions() {
+
+                    var dimensions = {
+
+                    1: 'dimension1',
+
+                    2: 'dimension2',
+
+                    3: 'dimension3',
+
+                    4: 'dimension4',
+
+                    5: 'dimension5',
+
+                    6: 'dimension6',
+
+                    7: 'dimension7',
+
+                    8: 'dimension8',
+
+                    9: 'dimension9',
+
+                    10: 'dimension10',
+
+                    11: 'dimension11',
+
+                    13: 'dimension13',
+
+                    14: 'dimension14'
+
+                    };
+
+
+
+                var dimensionsToSend = {};
+
+                for (var cd in dimensions) {
+
+                    if (dimensions.hasOwnProperty(cd)) {
+
+                        var cdElement = document.getElementById(dimensions[cd]);
+
+                        if (document.getElementById(dimensions[cd]) != undefined) {
+
+                            dimensionsToSend[dimensions[cd]] = cdElement.value;
+
+                        }
+
+                    }
+
+                }
+
+
+
+                if (window['adBlocker'] == undefined) var adBlockerStatus = "Active";
+
+                else var adBlockerStatus = "Inactive";
+
+                dimensionsToSend["dimension12"] = adBlockerStatus;
+
+                createHiddenInput('dimension12', adBlockerStatus);
+
+
+
+                if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+                	var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+                	if (visitorIdCookieData.length > 0) {
+
+                		dimensionsToSend["dimension15"] = visitorIdCookieData;
+
+                		createHiddenInput('dimension15', visitorIdCookieData);
+
+                	}
+
+                }
+
+
+
+                if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+                	var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+                	dimensionsToSend["dimension16"] = sessionIdCookieData.SearchSessionId;
+
+                	createHiddenInput('dimension16', sessionIdCookieData.SearchSessionId);
+
+                }
+
+
+
+
+
+                if (Object.keys(dimensionsToSend).length >= 1) {
+
+                    ga('send', 'pageview', dimensionsToSend);
+
+                }
+
+            }
+
+        }, 700);
+
+         
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+    
+
+        var gtmValues = {};
+
+        dataLayer = [];
+
+
+
+            gtmValues = { 'JobID': '5911332', 'ReqID': '1651888', 'OrgID': '16055', 'tbcn-division': '16055,' };
+
+                gtmValues['tbcn-jobcategory'] = 'Services';
+
+                gtmValues['tbcn-location'] = 'Boise-Idaho-United-States';
+
+                gtmValues['tbcn-jobtitle'] = 'Data Analyst';
+
+                    gtmValues['pagetype'] = 'JobDetails';
+
+                gtmValues['subpagetype'] = 'Basic JD';
+
+            dataLayer.push(gtmValues);
+
+
+
+
+
+
+
+
+
+
+
+
+
+			setTimeout(function () {
+
+				if (typeof Cookies.get("SearchVisitorId") != 'undefined') {
+
+					var visitorIdCookieData = Cookies.getJSON("SearchVisitorId");
+
+					if (visitorIdCookieData.length > 0) {
+
+						gtmValues['visitorID'] = visitorIdCookieData;
+
+					}
+
+				}
+
+
+
+				if (typeof Cookies.getJSON("SearchSessionId") == 'object') {
+
+					var sessionIdCookieData = Cookies.getJSON("SearchSessionId");
+
+					gtmValues['sessionID'] = sessionIdCookieData.SearchSessionId;
+
+				}
+
+			}, 200);
+
+    
+
+    
+
+    
+
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-TZV8L4');
+
+    
+
+
+
+	
+
+	Skip Navigation
+
+    
+
+	    
+
+	        
+
+	            
+
+	                    
+
+
+
+
+
+	                
+
+	                    Thrive on change
+
+	                    We are technology independent. Our partnerships with the world’s leading technology providers give us the agility to deliver the best, most proven solutions to de-risk technology investments.
+
+	                
+
+	                	            
+
+	            
+
+	       	
+
+	            
+
+
+
+
+
+    
+
+	Search Jobs
+
+	
+
+	    Search Jobs
+
+	    
+
+        
+
+		    Keyword
+
+		    
+
+        
+
+        
+
+            Location
+
+		    
+
+                
+
+		
+
+        
+
+		    Radius
+
+	        Radius
+
+5 miles
+
+15 miles
+
+25 miles
+
+35 miles
+
+50 miles
+
+
+
+		
+
+        
+
+        Search
+
+		
+
+	
+
+    
+
+ 
+
+
+
+
+
+	            
+
+	    
+
+	
+
+		
+
+
+
+
+
+    
+
+    
+
+
+
+    
+
+        Data Analyst
+
+        	Apply Now
+
+                
+
+        Requisition ID 1651888
+
+                Posting Date 10/06/2017 
+
+                Category Services
+
+        Location Boise, Idaho | United States
+
+        
+
+        Schedule Full-time
+
+                                        Employee Status Day Job
+
+                
+
+        
+
+
+
+        
+
+            DXC Technology (NYSE: DXC) is the world’s leading independent, end-to-end IT services company, helping clients harness the power of innovation to thrive on change. Created by the merger of CSC and the Enterprise Services business of Hewlett Packard Enterprise, DXC Technology serves nearly 6,000 private and public sector clients across 70 countries. The company’s technology independence, global talent and extensive partner alliance combine to deliver powerful next-generation IT services and solutions. DXC Technology is recognized among the best corporate citizens globally. For more information, visit www.dxc.technology. DXC Technology has an immediate need in our US Public Sector group for a Seat Deployment Analyst- Secret Clearance in Boise, ID, Plano, TX, El Paso, TX, Dublin, OH, Charleston, WV, or Clarksville, VA. Job Description: • Regional Data Analyst is responsible for managing data for the USMC WIN 10 EUD Upgrade Project• Monitor, Track, and Report HDD Inventory and DD250 forms for SIPR Hard drives • Manually compare DD250 and HDD Inventory forms against deployment schedule ensuring that proper documentation is gathered and reported• Analyze and interpret customer data submission orders and report discrepancies• Aligning seats on WSM/BO with projects on tactical plan ensuring that all customer data is submitted accurately and on time in accordance to project timelines. • Monitor , validate, requests for upgrade against current schedule • Use Milestone tracker in SharePoint to input to track project milestones and report deficiencies• Monitor orders and assist PMs with initial schedule creation• Utilizing customer provided data pull into project for Site Data Schedule for project creation and assignment• Create multiple reports and Metrics to include but no limited to Tactical Plan Report, Actuals Report, Enterprise Delivery Report, etc. , DXC Seat Delivery
+
+            
+
+            
+
+                Qualifications: 
+MS ProjectMS Excel Detailed ability to analyze and report on complex and dynamic projectsAble to quickly analyze manual schedules.Analyze detailed spreadsheets. Ability to obtain DoD security clearance
+
+            
+
+        
+
+        
+
+        
+
+        EEO Tagline: DXC Technology is EEO F/M/Protected Veteran/ Individual with Disabilities
+
+        
+
+        	Apply Now
+
+        		    
+
+
+
+
+
+    
+
+    
+
+    
+
+	
+
+	
+
+
+
+		
+
+		    
+
+	                
+
+        
+
+            Job Recommendations
+
+            Use your LinkedIn profile to find the right DXC match for you.
+
+            
+
+                
+
+                Job Match
+
+            
+
+        
+
+    
+
+
+
+
+
+	            
+
+	    
+
+		    Job Alerts
+
+				    Join our Talent Community to stay in-the-loop on our latest opportunities and events.
+
+
+
+First Name]*$" id="form-field-b25bde8286" maxlength="25" name="FirstName" pattern="^[^&lt;>]*$" type="text" />Last Name]*$" id="form-field-05efbffc37" maxlength="25" name="LastName" pattern="^[^&lt;>]*$" type="text" />Email AddressInterested InTo sign up for job alerts: enter a category, location, or category/location pair below and click &quot;Add.&quot; Once all desired alerts are added, click &quot;Sign-up.&quot;CategoryLocationAddServices, Boise, Idaho, United StatesRemoveRemove		
+
+		
+
+		    Confirm Email
+
+		    
+
+		
+
+			
+
+		
+
+		    Sign-up
+
+		
+
+		
+
+		
+
+
+
+
+
+	        
+
+	    
+
+	
+
+	
+
+	    
+
+	        DXC Technology is an Equal Opportunity/Affirmative Action employer. All qualified candidates will receive consideration for employment without regard to disability, protected veteran status, race, color, religious creed, national origin, citizenship, marital status, sex, sexual orientation/gender identity, age (40 or over), or genetic information. DXC's commitment to diversity and inclusive selection practices includes ensuring qualified long-term unemployed job seekers receive equal consideration for employment. EEO is the Law Poster.
+
+If you are an individual with a disability, a disabled veteran, or a wounded warrior and you are unable or limited in your ability to access or use this site as a result of your disability, you may request a reasonable accommodation by contacting us via email. Please note: DXC will respond only to requests for accommodations due to a disability.
+
+We participate in E-Verify. Participation Poster (EN), Participation Poster (ES), Poster (EN), Poster (ES) [pdf files]
+
+Sitemap
+
+	            
+
+        
+
+	    	    
+
+	
+
+	
+
+    
+
+
+
+    
+
+    
+
+
+
+
+
+    
+
+    
+
+	
+
+
+
+
+
+	
+
+
+

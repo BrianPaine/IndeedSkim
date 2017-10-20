@@ -1,0 +1,1948 @@
+
+
+
+
+/*  Rapid+JS v3.1.0 Released on 2017-01-27T16:33Z | (c) Yottaa, Inc. | https://www.yottaa.com/rapidjs-license */ (function(h,T){T(h)})('undefined'!==typeof window?window:this,function(h,T){function ja(a,b,c,d){if(f.sequenceWrites&&'script'==a.nodeName.toLowerCase()){for(var g in A)if(0'),d.selector=e.select(d.selector).parentNode):d.selector=e.select(d.selector),l=Yo.sequence.resource(''), e.def(d.onBefore)&&l.beforeLoading(d.onBefore),e.def(d.onLoad)&&l.afterLoaded(d.onLoad),l.type='inner',l.how=g.how,l.newNode=a,l.before=d.selector,l.me=d.selector,f.delayed.push(l),domCompleteTriggered&&l.execute();g.state=2;g.string=''}break}}0==c&&b.yo_write(a);e.log('write hander = '+a)}function U(a,b){for(;a.firstChild;)a.removeChild(a.firstChild);ma(a,b)}function ma(a,b,c){var d=document.createElement('div');d.innerHTML='string'===typeof b?b:b.innerHTML;for(b=d.childNodes;0b.top-a.height&&a.bottomb.left-a.width&&a.rightg;g++)b[g]||(d=0|16*c(),b[g]=a[19==g?d&3|8:d&15]);return b.join('')}function ra(){var a=f.rum.key?f.rum.key:e.getCookie('yo-rum-key'),b=0,c=0,d=0;if(0!=e.def(h.localStorage)){for(var g=0;gc.date+18E5,b.visitor={date:(new Date).getTime(),hit:c.hit+1,session_hit:d?1:c.session_hit+1,visitor_id:c.visitor_id?c.visitor_id:H(),sessions:d?c.sessions+1:c.sessions,session_id:d?H():c.session_id}):b.visitor={date:(new Date).getTime(),hit:1,session_hit:1,sessions:1,visitor_id:H(),session_id:H()};localStorage.setItem('rapid-js-visitor-2',JSON.stringify(b.visitor));localStorage.removeItem('rapid-js-qed'); c=localStorage.getItem('rapid-js-qoe-2');null!=c&&(b.qoe=JSON.parse(c));if(1==b.nt)for(a in b.navigationtiming={},c=h.performance.timing,c)'toJSON'!=a&&(b.navigationtiming[a]=c[a]);_sendData(b)}}var f={defaultDelay:5E3,defaultType:'none',log:!1,throttle:20,sequenceXHR:!1,sequenceWrites:!1,sendTimingData:!1,timingDataURL:'',offset:100,loadOnDOM:!1,scan:['script','img'],resources:[],abTesting:[],write:[],intervalID:null,lazyCheckSize:!0,pre:'data-yo-',srcAttrs:['data-yo-src','data-yo-srcset'],afterShockLoaded:!1}, q={log:function(){if(f.log&&(q.def(h)&&q.def(h.console)&&q.def(h.console.log)||q.def(self)&&q.def(self.console)&&q.def(self.console.log))){for(var a='',b=0;bc?Math.max(0,d+c):c:0;ca&&(document.cookie='yo-disable-instanton=true;Max-Age=2',h.location.reload(!0));a=document.documentElement.getElementsByTagName('head')[0].children[a];for(var d=0;da&&(document.cookie= 'yo-disable-instanton=true;Max-Age=2',h.location.reload(!0));document.documentElement.getElementsByTagName('head')[0].children[a].textContent=b};var K={},A={},y=function(a,b,c){this.writeContent='';this.writeLocation=a;this.writeSelector=c;this.offScreenDom=null;this.node=b;this.scripts=[];this.id='yo_write_'+Math.floor(1E9*Math.random());e.log('creating WriteContext',this.id,this.node.src);y.prototype.getId=function(a){return this.id};y.prototype.collectDocumentWrite=function(a){this.writeContent+= a;e.log('write override',this.getId(),this.node.src,a)};y.prototype.addScript=function(a){this.scripts.push(a)};y.prototype.getWriteSelector=function(a){return this.writeSelector};y.prototype.executeDeferredScripts=function(){for(var a=0;a '+b);if('replace'==this.how)U(d,b);else if('eval'==this.how||'gpt'==this.how)try{b=b.replace('','').replace('\x3c/scri'+'ipt>',''),'gpt'==this.how&&(b='googletag.cmd.push(function() { googletag.pubads().enableSyncRendering = function(){}; '+b+'});'),h.eval(b)}catch(l){e.log('Error eval',l)}else e.writeHTML(d,b,this.how);k.publish({topic:'sequence/afterloaded/'+this.key,message:this})}else if('xhr'==c){this.xhr.onreadystatechange&&(this.xhr.original_oonreadystatechange=this.xhr.onreadystatechange); var g=this;this.xhr.onreadystatechange=function(a){4==g.xhr.readyState&&k.publish({topic:'sequence/afterloaded/'+g.key,message:[a,this]});g.xhr.original_oonreadystatechange&&g.xhr.original_oonreadystatechange.call(arguments)};this.xhr.xhr_send.apply(this.xhr,this.xhr._yo.send_args)}else'image'==c&&this.loadImage(this);ka();return a}};_delayed=function(){return x};var L=function(a){var b=new (_delayed());b.key=b.url=a;b.match=!0;e.undef(f.resources)&&(f.resources=[]);for(var c=-1,d=0;d=l)){var l=document.createElement('img'),k=f.rum.beaconUrl+'?';for(a in g)b[a]=g[a];e.log('Sending timing data to ',k);for(a in b)k+=a+'='+encodeURIComponent(b[a])+'&';l.src=k}}ha=d}};_captureResource=function(){if(0!=e.def(h.performance)&&0!=e.def(h.performance.getEntries)&&0!=e.def(h.localStorage)){for(var a=h.performance.timing,b=0,c=0,d=a.domInteractive-a.navigationStart,g=a.domContentLoadedEventEnd-a.navigationStart, k=a.domComplete-a.navigationStart,m=a.loadEventEnd-a.navigationStart,q=h.performance.getEntries(),a=q.length,u=0;uf.rum.advanced.alertTime?I.push({duration:r.duration,type:0,zone:n,name:r.name,size:r.decodedBodySize,page:h.location.href}): r.decodedBodySize>f.rum.advanced.alertSize&&I.push({duration:r.duration,type:1,zone:n,name:r.name,size:r.decodedBodySize,page:h.location.href})}if(h.performance.getEntriesByName)for(d=document.getElementsByTagName('script'),u=0;ud.date+18E5,d={v:2,entries:a,timeSavings:b,sessionTime:g?b:d.sessionTime+b,journeyTime:d.journeyTime+b,qed:c,page:h.location.href,violations:I,jsErrors:R,date:(new Date).getTime()});localStorage.setItem('rapid-js-qoe-2',JSON.stringify(d))}};w=function(a,b,c,d,g){e.undef(g)&&(g={alertTime:1E3,alertSize:1024E3,domInteractiveCoef:200, domContentLoadedEventCoef:150,domCompleteCoef:100,loadEventCoef:50});f.rum={beaconUrl:a,requests:b,key:c,post:d,advanced:g};k.subscribe({topic:'core/js/error',callback:function(a,b){R.push(a)}})};k.subscribe({topic:'core/load',callback:function(){e.def(f.rum)&&e.def(f.rum.beaconUrl)&&(ra(),f.rum.requests&&(_sendResourceTiming(),k.subscribe({topic:/.*afterloaded.*/,callback:function(){_sendResourceTiming()}})),e.addEvent(h,'unload',function(){e.log('unload window event triggered');_captureResource()}))}}); w('https://qoe.yottaa.com/log-nt',!1,'key',!0);var z={};v={};_abTest=function(a,b,c,d,g,f,k,m){return Yo.sequence.resource(d).none().beforeLoading(function(){e.log('adding the google segmentation using a custom (dimension'+a+', '+b+', '+c+')',g,f);Yo.stats().errors.has&&(c+='_error');if('universal'==g){var d=!1;h.ga=function(){if(e.def(a)&&2_gaq[b].length||'_trackPageview'!=_gaq[b][0]?('_setAccount'==_gaq[b][0]&&(z.uaCode=_gaq[b][1]),a[a.length]=_gaq[b]):z.delayedTrack=!0;_gaq=a}};v.universal=function(a,b,c,d){return _abTest(a,void 0,b,c,'universal',void 0,d)};v.classic=function(a,b,c,d,e,f){return _abTest(a,b,c,d,'classic',e,f)};v.omniture=function(a,b,c,d){var e=s.t;s.t=function(){c&&(s[c]=d+s[c]); s['eVar'+a]=b;return e.apply(this,arguments)}};v.abTesting=function(a){e.undef(a.variants)&&(a.variants={});e.undef(a.splitBy)&&(a.splitBy='percentage');e.undef(a.stickiness)&&(a.stickiness='session');e.undef(a.version)&&(a.version='0');e.undef(a.analytics)&&(a.analytics={});e.undef(a.analytics.valuePrefix)&&(a.analytics.valuePrefix='yo_abtesting_');e.undef(a.analytics.name)&&(a.analytics.name='yottaa_abtest');e.undef(a.valuePrefix)&&(a.valuePrefix='');f.abTesting[a.name]=a};v.abVariant=function(a, b){var c=f.abTesting[name];e.undef(c)&&e.log('Test',name,'was not defined');c.variants.push(b)};k.subscribe({topic:'core/load',callback:function(){_executeAllAbTest()}});var ia={releaseDate:'2017-01-27',errors:{has:!1},config:f},S=function(){return ia};k.subscribe({topic:'core/configure',callback:function(a){S.config=f}});k.subscribe({topic:'core/start',callback:function(){S.config=f}});e.addEvent(h,'error',function(a){var b=a.message,c=a.lineno,d=a.filename;3==arguments.length&&(b=arguments[0],d=arguments[1], c=arguments[2]);e.log('errorCapture',b,c,d);k.publish({topic:'core/js/error',persistent:!0,message:{message:b,filename:d,line:c}});ia.errors={has:!0}});h.Yo||(h.Yo={});w={utils:e,pubsub:k,configure:function(a){if('string'===typeof a){var b='ul= dl= dt= sd= sr= vp='.split(' ');b[0]+=navigator.language;b[1]+=encodeURIComponent(h.location.href.substring(0,1E3));b[2]+=encodeURIComponent(document.title);b[3]+=h.screen.colorDepth;b[4]+=h.screen.width+','+h.screen.height;b[5]+=h.screen.availWidth+','+h.screen.availHeight; document.write('\x3c/scri'+'ipt>')}else for(b in a)'resources'==b?f.resources=f.resources.concat(a.resources):f[b]=a[b];k.publish({topic:'core/configure',message:f})},sequence:m,rum:w,abTesting:v,insert:{HEAD_START:'head_start',HEAD_END:'head_end',BODY_START:'body_start',BODY_END:'body_end',location:function(a){null!=document.body?document.write(""):document.write("\x3c/script>");k.publish({topic:'tag/location/'+ a,persistent:!0})},resource:function(a,b,c,d){var g=Yo.sequence.script(a);g.loaded=!0;k.subscribe({topic:'tag/location/'+b,callback:function(){var a=e.select('#yo_tag_'+b);Yo.sequence.node(a);c&&''!=c||(c='none');g[c](d);g.loaded=!1;g.load(a)}});return g},script:function(a,b,c,d){var e=Yo.sequence.script(a);e.loaded=!0;k.subscribe({topic:'tag/location/'+b,callback:function(){c&&''!=c||(c='none');e[c](d);e.loaded=!1;e.eval()}});return e},content:function(a,b,c,d){var g=document.createElement('script'); c&&''!=c||(c='none');g.setAttribute('type','yo/sequencing/'+c+'/'+d);var f=Yo.sequence.content(g);f.loaded=!0;0==b.indexOf('css:')?k.subscribe({topic:'core/load',callback:function(){e.def(a.nodeName)?g.appendChild(a):g.innerHTML=a;var c=b.split(':');f.before=e.select(c[1]);3==c.length&&('after'==c[2]?null==f.before.nextSibling?(f.before=f.before.parentNode,f.how='append'):f.before=f.before.nextSibling:'prepend'==c[2]?0
+
+Yo.sequence.createTimer(20);
+
+
+
+Yo.sequence.resource('about:blank').none();
+
+Yo.sequence.resource('javascript:').none();
+
+Yo.sequence.resource('jirafe').none();
+
+Yo.sequence.resource('analytics').none();
+
+Yo.sequence.resource('ZoomViewer.js').none();
+
+Yo.sequence.resource('gtm.js').none();
+
+Yo.sequence.resource('ASprod').none();
+
+Yo.sequence.resource('mobile_xt').none();
+
+
+
+Yo.sequence.resource('fbds.js').defer(5000);
+
+Yo.sequence.resource('http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js').remove();
+
+
+
+
+
+Yo.sequence.resource(/.*/).defer(0);
+
+
+
+  Yo.sequence.createElement(document);
+
+
+
+	
+
+	
+		
+				var prodRetail = true;
+			
+		
+		Careers | Annie Selke
+
+	
+
+	
+		
+		
+		
+		
+		
+		
+	
+    
+	
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+	WebFont.load({
+
+		custom: {
+
+			families: ['AvenirLTStd-Book', 'Gotham SSm A']
+
+		}
+
+	});
+
+
+
+
+
+	
+
+	/**
+
+	 * @license
+
+	 * MyFonts Webfont Build ID 2721189, 2014-01-09T12:38:55-0500
+
+	 * 
+
+	 * The fonts listed in this notice are subject to the End User License
+
+	 * Agreement(s) entered into by the website owner. All other parties are 
+
+	 * explicitly restricted from using the Licensed Webfonts(s).
+
+	 * 
+
+	 * You may obtain a valid license at the URLs below.
+
+	 * 
+
+	 * Webfont: Avenir 45 Book by Linotype
+
+	 * URL: http://www.myfonts.com/fonts/linotype/avenir/45-book/
+
+	 * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+
+	 * Licensed pageviews: 250,000
+
+	 * 
+
+	 * 
+
+	 * License: http://www.myfonts.com/viewlicense?type=web&buildid=2721189
+
+	 * 
+
+	 * Â© 2014 MyFonts Inc
+
+	*/
+
+	@import url("//hello.myfonts.net/count/2985a5"); 
+
+	@font-face {font-family: 'AvenirLTStd-Book';src: url('http://cdn-us-ec.yottaa.net/582d2c4c32f01c22a2000001/annieselke.com/v~13.44/_ui/desktop/theme-freshamerican/webfonts/2985A5_0_0.eot?yocs=7_&yoloc=us');src: url('http://cdn-us-ec.yottaa.net/582d2c4c32f01c22a2000001/annieselke.com/v~13.44/_ui/desktop/theme-freshamerican/webfonts/2985A5_0_0.eot?#iefix&yocs=7_&yoloc=us') format('embedded-opentype'),url('http://cdn-us-ec.yottaa.net/582d2c4c32f01c22a2000001/annieselke.com/v~13.44/_ui/desktop/theme-freshamerican/webfonts/2985A5_0_0.woff?yocs=7_1_&yoloc=us') format('woff'),url('http://cdn-us-ec.yottaa.net/582d2c4c32f01c22a2000001/annieselke.com/v~13.44/_ui/desktop/theme-freshamerican/webfonts/2985A5_0_0.ttf?yocs=7_1_&yoloc=us') format('truetype');}
+
+
+
+  
+
+  
+
+
+
+  
+
+  
+
+
+
+
+
+
+
+
+	
+	
+	
+
+   //  --> 
+
+
+		/**/
+	
+	
+
+	/**/
+
+
+
+
+	/**/
+
+		
+            setTimeout(function(){var a=document.createElement("script");
+                var b=document.getElementsByTagName("script")[0];
+                a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0041/9091.js?"+Math.floor(new Date().getTime()/3600000);
+                a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+        
+        
+
+
+
+
+ -->
+
+
+
+
+
+function yo_loader(url){ 
+
+ 
+
+ try{(new Image()).src = url;}catch(e){ } 
+
+ }
+
+
+
+
+
+yo_loader("http://annieselke.com/yo-app-sequencer.png?v=YFYvyc19V45EyEYiYN3w4ap68YWSVDiu-wtbirgOUYuDM3SipogSlxj68s1kFiEINwfbRwrmgR3fMKC-0AwFYyo7qhe7gCgH90DL-pyWXX4=&t=IDnkYg-bBZh2HMV6IJRfXg==&s=baf27c517b87d106e8aacb519ccad4e0");
+
+
+
+
+
+
+/* Jirafe */
+
+
+
+(function(){
+    var d=document,g=d.createElement('script'),s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript';g.defer=g.async=true;g.src=d.location.protocol+'//beacon.jirafe.us/jirafe_api.js';
+        s.parentNode.insertBefore(g,s);
+})();
+var jirafe_site_id = "1345764";
+var jirafe_org_id = "";
+
+function jirafe_deferred(jirafe_api){
+	
+	
+		jirafe_api.set_cookie_domain('.annieselke.com');
+	
+	
+	
+	
+    var data = {
+        "customer": {
+            "firstname": "Anonymous",
+            "lastname": "",
+            "id": "anonymous",
+            "email": "anonymous"
+        }
+    };
+
+    /* Custom Marketing Attribution
+
+       You can pass in an array of url parameters to extract from the URL. Array position is important, 
+       and will be interpreted left-to-right as least specific (highest-level attribution) to most specific. 
+
+       For example...
+       
+       data.attribution = jirafe_parseAttribution(["atr1", "atr2", "atr3", "atr4"]);       
+
+       ...will extract url parameters from...
+
+       http://www.store.com?atr1=email&atr2=newsletter&atr3=2013-05&atr4=cta_button
+
+       ...and set data.attribution to the following...
+
+       data.attribution = ["email", "newsletter", "2013-05", "cta_button"];
+
+    */
+    data.attribution = jirafe_parseAttribution(["jirafe_atr1", "jirafe_atr2", "jirafe_atr3", "jirafe_atr4", "jirafe_atr5"]);
+
+    
+            var type = "other";
+        
+
+    jirafe_api.pageview(jirafe_org_id, jirafe_site_id, type, data);
+}
+
+
+
+Yo.sequence.node(document.body);
+
+
+
+
+	
+
+
+	
+	if ( typeof GTM == "undefined" || !GTM) {
+		var GTM = {}
+	}
+
+	GTM.type = "";
+	GTM.productCurrency = "USD";
+	GTM.userAccountId = "";
+	GTM.activeBrand = "annie";
+	GTM.loginState = "guest";
+	GTM.merchCategoryID = "non hierarchical";
+	GTM.merchCategoryName = "non hierarchical";
+	GTM.merchSubcategoryID = "non hierarchical";
+	GTM.merchSubcategoryName = "non hierarchical";
+	GTM.pageTitle = "other";
+	GTM.pageType = "other";
+	GTM.webCategoryName = "N/A";
+	GTM.webSubcategoryName = "N/A";
+	GTM.productListName = "Careers";
+	GTM.productPositionFactor = "1";
+	
+	GTM.legacy_companyConnection = "";
+	GTM.legacy_customerType = "new";
+	GTM.legacy_country = "";
+	GTM.legacy_region = "";
+	GTM.legacy_checkout_categoryName = "";
+	GTM.legacy_checkout_categoryID = "";
+	GTM.legacy_checkout_subcategoryName = "";
+	GTM.legacy_checkout_subcategoryID = "";
+	GTM.legacy_checkout_productName = "";
+	GTM.legacy_checkout_productID = "";
+	GTM.legacy_checkout_productBase = "";
+	GTM.legacy_checkout_productPrice = "";
+	GTM.legacy_checkout_productColor = "";
+	GTM.legacy_checkout_numberOfItems = "";
+	GTM.legacy_checkout_revenue = "";
+	GTM.legacy_checkout_promoCode = "";
+	GTM.legacy_checkout_companyConnection = "";
+	GTM.legacy_category_categoryName = "";
+	GTM.legacy_category_categoryID = "";
+	
+
+	
+	
+	
+
+
+			
+				
+	
+
+
+Free Shipping on orders $50+* |  SEE DETAILS &#9656;
+
+
+
+.global-banner {
+        text-align: center;
+		padding-bottom: 20px;
+                }
+
+.shippingbannerMain{
+		font-family: Avenir-Light,Arial,sans-serif;
+  		font-size: 15px;
+  		text-align: center;
+		text-decoration: none;
+		color: #9ec3f0;
+  		line-height: 1.4;
+
+	}
+	
+.shippingbannerDetails{
+		font-family: Avenir-Heavy,Arial,sans-serif;
+  		font-size: 14px;
+  		text-align: center;
+		text-decoration: none;
+		color: #9ec3f0;
+  		line-height: 1.4;
+	}
+	
+
+
+					
+					
+						Login
+							|
+						
+
+/*items - 
+	{{= subTotal.formattedValue}}
+/*]]>*/
+
+
+
+	var rolloverPopupUrl = '/cart/rollover/MiniCart';
+	var refreshMiniCartUrl = '/cart/MiniCart/SUBTOTAL/?';
+
+
+
+	Cart&nbsp;(0 Items)
+
+
+
+				
+					
+					
+						
+
+
+	
+
+		
+				
+
+
+			
+			
+				
+					
+						
+								Annie Selke
+							
+								Pine Cone Hill
+
+							
+								Dash & Albert
+
+							
+								The Outlet
+
+							
+								Ideas and Inspirations
+							
+					
+
+				
+	
+		
+		
+
+
+			
+		
+
+
+		
+		
+			
+				
+		
+			
+				
+
+				Rugs
+					
+					
+				
+	
+				
+						
+							
+									
+												Featured Rugs
+											
+												
+													New Rugs
+												
+													Outdoor Area Rugs & Patio Rugs
+												
+													Herringbone Rugs 
+												
+													Blue Rugs 
+												
+													Stair Runner Rugs 
+												
+													Geometric Rugs
+												
+													Stripe Rugs 
+												
+													Bunny Williams Rugs
+												
+													Rug Pads
+												
+												Shop Rugs By Material
+												
+													Outdoor Area Rugs & Patio Rugs
+												
+													Cotton Rugs
+												
+													Wool Rugs
+												
+													Jute Rugs
+												
+													Sisal Rugs 
+												
+													All Rugs By Material
+												
+							
+								
+											
+													Shop Rugs By Size
+												
+													
+														2' x 3' Rugs
+													
+														6' x 9' Rugs
+													
+														8' x 10' Rugs 
+													
+														9' x 12' Rugs
+													
+														10' x 14' Rugs
+													
+														Runner Rugs
+													
+														All Rug Sizes
+													
+									
+											
+													Shop Rugs by Color
+												
+													
+														Blue Rugs 
+													
+														Neutral Rugs
+													
+														Grey Rugs
+													
+														Bright Rugs
+													
+														All Rugs By Color
+													
+									
+							
+								
+											
+													Rug Collections
+												
+													
+														Kids Rugs
+													
+														Coastal Rugs
+													
+														Bohemian Rugs
+													
+														Kitchen Rugs
+													
+														Moroccan-Inspired Rugs
+													
+														Rugs For Small Spaces 
+													
+														Luxury Rugs
+													
+														Customer Favorite Rugs
+													
+									
+											
+												Sale Rugs
+											
+												
+													Sale Rugs
+												
+													Clearance Rugs
+												
+									
+							
+									
+										Rugs in every hue of blue.
+										Shop Now&nbsp;&#9654; 
+										
+						
+					
+				
+		
+				Bedding
+					
+					
+				
+	
+				
+						
+							
+									
+												Shop By Category
+											
+												
+													Duvet Covers
+												
+													Sheets
+												
+													Coverlets
+												
+													Matelassé Coverlets
+												
+													Quilts
+												
+													Bedspreads
+												
+													Blankets
+												
+													Bed Skirts
+												
+													Shams
+												
+													Box Spring Covers
+												
+													Pillow Cases
+												
+													Bedding Basics
+												
+													Luxury Bedding & Bath 
+												
+													Sale Bedding 
+												
+							
+								
+											
+													Shop By Color
+												
+													
+														Bedding in Shades of Blue
+													
+														White & Ivory Bedding 
+													
+														Natural & Brown Bedding 
+													
+														Bedding in Shades of Grey
+													
+														Pink & Coral Bedding 
+													
+														More Bedding Colors
+													
+									
+							
+								
+											
+													Featured Bedding 
+												
+													
+														What's New In Bedding 
+													
+														Mood Indigo Collection
+													
+														Marianna Collection
+													
+														Charlotte Collection
+													
+														Palm Springs
+													
+														Ines Bedding 
+													
+														C3-Classic Colorful Coordinates
+													
+														Best Selling White & Ivory Bedding 
+													
+														Moroccan Living
+													
+														Linen Bedding
+													
+														Bohemian Bedding
+													
+														Neutral Bedding
+													
+														Luxury Bedding Inspiration 
+													
+									
+							
+									
+										Beautiful, quality bedding for the sweetest slumber ever.
+										Shop Bedding&nbsp;&#9654; 
+										
+						
+					
+				
+		
+				Furniture
+					
+					
+				
+	
+				
+						
+							
+									
+												Bedroom
+											
+												
+													Beds & Headboards
+												
+													Nightstands
+												
+													Ottomans, Benches & Stools 
+												
+													All Bedroom
+												
+												Living Room
+												
+													Sofas & Loveseats
+												
+													Chairs
+												
+													Ottomans, Benches & Stools 
+												
+													Tables & Cabinets
+												
+													All Living Room
+												
+							
+								
+											
+													Outdoor Furniture
+												
+													
+														Patio Tables & Outdoor Tables
+													
+														Outdoor Sofas & Loveseats
+													
+														Patio Chairs & Outdoor Chairs
+													
+														Bar Carts
+													
+														Patio Furniture & Outdoor Furniture
+													
+									
+							
+								
+											
+													Shop By Category
+												
+													
+														New Furniture
+													
+														Sofas & Loveseats
+													
+														Chairs
+													
+														Beds & Headboards
+													
+														Ottomans, Benches & Stools 
+													
+														Tables & Cabinets
+													
+														Patio Furniture & Outdoor Furniture
+													
+														Fabric By The Yard
+													
+									
+							
+									
+										Custom furniture ships for free! Pick your frame + fabric for a statement piece.
+										Shop Now&nbsp;&#9654; 
+										
+						
+					
+				
+		
+				Bath
+					
+					
+				
+	
+				
+						
+							
+									
+												Bathroom
+											
+												
+													Bath and Spa
+												
+													Towels
+												
+													Bath Rugs
+												
+													Shower Curtains
+												
+													Luxury Bath
+												
+													All Bath
+												
+													Sale Bath 
+												
+							
+									
+										Bring home the spa feeling with super-soft, super-absorbent towels.
+										Shop Now&nbsp;&#9654; 
+										
+						
+					
+				
+		
+				Décor & Pillows
+					
+					
+				
+	
+				
+						
+							
+									
+												Décor
+											
+												
+													New Décor
+												
+													Art
+												
+													Accents 
+												
+													Mirrors
+												
+													Poufs
+												
+													Candles & Diffusers
+												
+													Storage Bins & Baskets
+												
+													Window Curtains
+												
+													Lighting
+												
+												Throws
+												
+													Outdoor Throws
+												
+													Knit Throws
+												
+													Luxury Throws
+												
+													All Throws
+												
+													Sale Throws
+												
+							
+								
+											
+													Pillows
+												
+													
+														All Pillows
+													
+														Decorative Pillows
+													
+														Outdoor Decorative Throw Pillows
+													
+														Luxury Pillows
+													
+														Bright Pillows
+													
+														Embroidered Pillows
+													
+														Sheepskin Pillows
+													
+														Animal Pillows 
+													
+														Sale Pillows
+													
+									
+							
+								
+											
+													Tabletop
+												
+													
+														Napkins
+													
+														Table Runners
+													
+														Dinner Plates & Glassware
+													
+														Bowls
+													
+														Serving Trays
+													
+														All Table Linens
+													
+														All Tabletop
+													
+									
+											
+												Fresh Pet
+											
+												
+													WOUFs
+												
+													Wamps
+												
+													All Fresh Pet
+												
+													Sale Fresh Pet
+												
+									
+							
+									
+										Finish your space with our curated collection of home décor.
+										Shop Now&nbsp;&#9654; 
+										
+						
+					
+				
+		
+				Sleepwear
+					
+					
+				
+	
+				
+						
+							
+									
+												Sleepwear By Category
+											
+												
+													Robes
+												
+													Pajamas
+												
+													Night Shirts
+												
+													All Sleepwear
+												
+													Sale Sleepwear
+												
+							
+									
+										Lounge in style with our comfortable and colorful sleepwear.
+										Shop Now&nbsp;&#9654; 
+										
+						
+					
+				
+		
+				Accessories
+					
+					
+				
+	
+				
+						
+							
+									
+												Accessory Categories
+											
+												
+													New Accessories
+												
+													Jewelry
+												
+													Scarves
+												
+													Tote Bags
+												
+													All Accessories
+												
+							
+								
+											
+													Sale
+												
+													
+														Sale Scarves & Totes
+													
+									
+							
+									
+										Fabulously fresh accessories, perfect for gift giving.
+										Shop Now&nbsp;&#9654; 
+										
+						
+					
+				
+		
+				Collections
+					
+					
+				
+	
+				
+						
+							
+									
+												Featured Collections
+											
+												
+													Mood Indigo Collection
+												
+													Marianna Collection
+												
+													Charlotte Collection
+												
+													33 Main Rooms
+												
+													Palm Springs
+												
+													Artisanal Collection
+												
+													Ines Bedding 
+												
+													C3-Classic Colorful Coordinates
+												
+													Bright Bohemian
+												
+													Bunny Williams Collection
+												
+													Berkshire Collection
+												
+													Cintia & Regina
+												
+													Outdoor Living
+												
+							
+								
+											
+													Our Favorite Rooms
+												
+													
+														Worlds: What's Your Decorating Style?
+													
+														Moroccan Living
+													
+														Never Boring Neutral Rooms
+													
+														Coastal Living Rooms
+													
+														Small Spaces Living
+													
+														Bohemian Rooms
+													
+														Luxury Rooms
+													
+									
+							
+									
+										
+										Shop Our Collections Now&nbsp;&#9654; 
+										
+						
+					
+				
+		
+				GIFTS
+					
+					
+				
+	
+				
+		
+				Sale
+					
+					
+				
+	
+				
+						
+							
+								
+											
+													Shop More Sale Categories
+												
+													
+														New To Outlet
+													
+														Sale Bedding 
+													
+														Sale Rugs
+													
+														Sale Pillows
+													
+														Sale Throws
+													
+														Sale Sleepwear
+													
+														Sale Scarves & Totes
+													
+														Sale Fresh Pet
+													
+														Clearance
+													
+									
+							
+									
+										
+										Shop Our Sale&nbsp;&#9654; 
+										
+						
+					
+				
+		
+		
+	
+			
+					
+	
+			
+				Home
+				
+			
+		
+							&#062;&nbsp;Careers
+					
+	
+
+			
+				Careers
+			
+
+			
+About UsOur CompaniesFAQsShipping & ReturnsPrivacyExclusions Policy
+				
+
+					
+  Want to join our team?  
+
+ The following positions are open: 
+
+Housekeeper
+Assistant Innkeeper
+Junior Online Merchandiser 
+Electrician
+Order Picking & Warehouse Shipping Associate
+Quality Control Inspector
+Data Analyst
+
+
+
+
+
+   Housekeeper   
+
+ Housekeepers needed for a high-end, 8 room Inn located in the heart of Lenox.  Experience is required, previous Inn or Bed & Breakfast experience is highly desired.  This individual will be cleaning guest rooms and bathrooms, common areas, kitchen and dining space as well as doing laundry tasks.  Must be extremely meticulous with the thought that no detail is too small.  The right candidate understands the need for a high-level of guest service as they would be a part of a team to make the guest’s experience excellent and memorable.  Proven reliability is needed.  Part and full-time positions are available; mornings, weekends and holidays are required and a part of the normal schedule.  
+
+ To apply please contact Becca at 413-400-3333 or email your resume to  innkeeper@thirtythreemain.com. 
+
+   Assistant Innkeeper   
+
+ Assistant Innkeeper is needed for a high-end, 8 room Inn located in the heart of Lenox.  Previous experience working in an Inn or Bed & Breakfast is highly desired.  The right candidate would be an organized person who multi-tasks with ease whose highest motivation is to provide the guests with an excellent and memorable experience that is beyond their expectations.  Duties will include guest relations including checking in and out, making reservations, communicating with guests via telephone and email, coordinating with housekeeping and maintenance for swift resolutions to any problems.  Making and serving breakfast to guests will also be a responsibility.  The ideal person is familiar with the local area including most cultural attractions.   A positive & friendly attitude is required, excellent verbal and written skills are needed.  Must be available for flexible hours including mornings and evenings, the regular schedule will include weekends and holidays. 
+
+ To apply please contact Becca at 413-400-3333 or email your resume to  innkeeper@thirtythreemain.com. 
+
+    Junior Online Merchandiser  
+
+
+
+  Reports to: Online Merchandising Manager
+  Primary Responsibility:  Verifying the accuracy of product and image assets, as well as categories on the site with a goal of the best customer experience.  Own the accuracy of online data and images.
+  Evaluated On:  Smooth process for adding new products to the site with the emphasis on accuracy.  Product and category accuracy on the site.  Clear communication of any areas that need attention or have issues on the site.
+ Coordinate the smooth process of adding new products and collections to all websites
+
+  Collaborate with internal and external teams for the launch of new campaigns 
+
+  Audit websites for correct products, copy, images, content, promotion info, product descriptions and meta-data
+
+ Update and maintain categories, visual assets and product data in web platform (Hybris)
+
+  Run weekly and monthly reports for Merchandising Manager
+
+ Upload product images and web assets to image server
+
+ Maintain mobile website images, merchandising, and information
+
+ Effectively manage time and workflow
+
+   Other duties as needed
+
+
+
+
+
+    Requirements:  
+  Bachelor's degree in Marketing, Merchandising Management, or equivalent work experience.
+
+
+ 0-1+ years of merchandising, marketing, web analytics or database management experience, preferably with an online focus 
+
+
+   Proven interest in and strong working knowledge of marketing and merchandising.
+
+
+   	Advanced Microsoft Office and Adobe proficiency including Excel, Outlook, Word, and Indesign. 
+
+
+Must have excellent proof reading, verbal and written communication skills. 
+
+ Willingness to take initiative, think creatively and solve problems.
+
+
+Ability to function well in a fast-paced environment. 
+
+Excellent team liaison skills.
+ 
+
+
+
+
+
+
+To apply please email your cover letter and resume to jmoro@annieselke.com.
+
+
+     Data Analyst    
+
+
+  Primary Responsibility:   
+ 	Collect, organize, and analyze product lifecycle data, in order to make data-driven recommendations to drive revenue and profitability.  
+
+ 	Analyze business procedures and recommend specific requirements that will allow product data to be more accurate and accessible.
+
+   Day-to-Day Responsibilities:   
+ Gather, format, and analyze data throughout the product lifecycle.
+
+  Identify, analyze, and interpret trends or patterns using statistical techniques.
+
+  Format reports in charts, graphs and tables that easily translate into actionable items.
+
+  Monitor product performance, identify improvements, and provide ongoing reports.
+li>
+
+  Conduct full lifecycle analysis to include data requirements, structure, and design.
+
+ Maintain the highest level of accuracy of product data by filtering and cleaning data.
+
+  Provide quality assurance of imported data by monitoring master data including creation and updates.
+
+
+    Evaluated On:  
+ 
+  Accuracy and reliability of data reports. 
+
+  Consistency of product data. 
+
+  Quality, validity, and credibility of analysis. 
+
+ Ability to produce actionable recommendations based on data.
+ 
+ 
+
+    Requirements:  
+   Accuracy and attention to detail are paramount.
+
+  Ability to number crunch large amounts of data using Excel pivot tables and other database applications.
+
+  Understanding of basic statistical methods.
+
+ 
+
+
+To apply please email your cover letter and resume to jmoro@annieselke.com.
+
+     Electrician     
+
+ Licensed electrician needed for maintenance and facility management dept.  This is a multi-faceted position that will not only include electrical work but also carpentry, basic plumbing, landscape & snow removal, warehouse support and other projects as needed.  Work includes both maintaining the inside and outside of the facility.    A valid, Massachusetts Electrical license is necessary for this position. This is a full time, year-round position with an excellent benefit package.  Position is contingent on a favorable background check. 
+
+ To apply, send resume & salary requirements to  jmoro@annieselke.com.
+
+     Order Picking & Warehouse Shipping Associates    
+
+ Detail-oriented warehouse worker needed on first and second shift for a wholesale rug company. Duties will include picking stock to fill orders, packing orders for shipping, stocking shelves and unloading shipping containers. 
+
+
+    Qualifications:  
+   Must be able to accurately read item codes, document inventory adjustments and complete paperwork or basic computer work as needed.
+ Must have a consistent work history with proven reliability.
+   Previous Shipping or warehouse experience is helpful, but will train the right person.
+   Must be able to lift 50 lbs. continuously throughout the day.
+
+First shift runs Mon-Friday, 7am-3:30pm
+Second shift runs Mon-Thurs, 2pm-12 midnight.
+ 
+
+To apply please email your resume to jmoro@annieselke.com.
+   Quality Control Inspector   
+
+ Detail-oriented person needed to perform final visual inspections of textile products including measuring, checking for color and material flaws. QC Inspectors will also fold, package, and label the final product. 1+ year of QC experience is desired. Basic computer skills are necessary to look up product specifications and print labels. Must be able to continuously lift boxes throughout the day weighing up to 50 lbs. and be able to stand all day.
+
+ To apply, please email cover letter and resume to jmoro@annieselke.com. 
+
+
+			
+		
+		
+	
+		
+		
+			
+				
+	
+				
+             The Company             About Us             Careers             Press   Press Inquiries             Request Trade Account              33 Main                 Catalog                 Request a Catalog                 View Our Catalog  All Catalogs                                                                      Help and Info             FAQs             Shipping &amp; Returns             Exclusions Policy             Privacy                 Stores                 Our Stores Find a Store                 Luxe Stores                                                           Contact Us                      877 586 4771                          Customer Service:             Email Us: info@annieselke.com                          125 Pecks RoadPittsfield MA 01201                          
+ 
+  
+  96
+ 
+  
+ 
+  Normal
+  0
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  false
+  false
+  false
+  
+  EN-US
+  X-NONE
+  X-NONE
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+  
+
+ /* Style Definitions */
+table.MsoNormalTable
+	{mso-style-name:"Table Normal";
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0in 5.4pt 0in 5.4pt;
+	mso-para-margin:0in;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+
+                                 
+@font-face {
+  font-family: "Sentinel-Light";
+  src: url("//asset.annieselke.com/webfonts/Sentinel/Sentinel-Light.ttf") format("truetype");
+  src: url("//asset.annieselke.com/webfonts/Sentinel/Sentinel-Light.woff") format("woff");
+}
+ 
+@font-face {
+  font-family: "Sentinel-Medium";
+  src: url("//asset.annieselke.com/webfonts/Sentinel/Sentinel-Medium.ttf") format("truetype");
+  src: url("//asset.annieselke.com/webfonts/Sentinel/Sentinel-Medium.woff") format("woff");
+}
+ 
+@font-face {
+  font-family: "Sprightly";
+  src: url("//asset.annieselke.com/webfonts/Sprightly/Sprightly-Regular.ttf") format("truetype");
+  src: url("//asset.annieselke.com/webfonts/Sprightly/Sprightly-Regular.woff") format("woff");
+}
+
+
+
+	
+		
+					
+	Sign Up For Our Emails + Save 15%
+	
+		
+		We could not submit your request at this time. Please try again later.
+	
+	
+	
+	
+	
+	
+		
+
+			
+		
+			
+				https://www.facebook.com/annieselke/
+			
+				https://twitter.com/annieselkeco/
+			
+			https://www.pinterest.com/AnnieSelke/
+			
+				http://www.youtube.com/annieselkecompanies
+			
+				https://www.instagram.com/annieselke/
+			
+				https://plus.google.com/+pineconehill/posts
+			
+		
+
+			
+
+	
+
+			
+			
+			
+				
+					
+						The Companies
+					
+					About Us
+					FAQs
+					Shipping & Returns
+					Privacy
+					Store Finder
+					Store Finder
+					Request Trade Account
+					Request Designer Account 
+					Press
+					Careers
+					Request a Catalog
+					View Our Catalog
+					Exclusions Policy
+					
+				
+						
+Pine Cone Hill
+
+						
+						Lighting
+
+						
+						
+						
+						C3-Classic Colorful Coordinates
+
+						
+						
+				
+						
+Dash & Albert
+
+						
+						
+						Herringbone Rugs 
+
+						
+						
+						
+						Furniture
+
+						
+						Dash & Albert Europe
+						
+				
+						
+
+						Outdoor Throws
+
+						
+						
+						Storage Bins & Baskets
+
+						Totes & Bags
+
+						
+				
+						
+The Outlet
+
+						
+						Classic Collection
+
+						
+						
+						
+						
+						
+						Sale Pillows
+
+						
+						
+						
+						
+						
+						
+						
+						Clearance
+
+							
+				
+
+Yo.sequence.displayNow();
+
+
+						
+
+						Luxury Duvet Covers
+
+						
+						Luxury Sheets
+
+						
+						
+						
+						
+						
+						Store Finder
+							
+						
+					
+						Contact Us
+					
+					125 Pecks RoadPittsfield MA 01201info@annieselke.comCustomer Service877 586 4771Outlet 800 442 8157Outlet HoursMonday – Saturday: 10-5pmSunday: 12-4pm
+a.back-to-top {
+  display: none;
+  width: 100px;
+  height: 98px;
+  text-indent: -9999px;
+  position: fixed;
+  z-index: 999;
+  bottom: 50px;
+}
+
+
+
+				
+				
+&copy; 2017 The Annie Selke Companies / Fresh American LLC., All Rights Reserved | Privacy Policy  
+
+		
+
+
+
+  var _bsw = _bsw || [];
+
+  _bsw.push(['_bswId', '73237e7e458da88cb55050ca01d8879f3bdb809bd884fe64a7a0001cd572913e']);
+
+  (function() {
+
+    var bsw = document.createElement('script'); bsw.type = 'text/javascript'; bsw.async = true;
+
+    bsw.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'js.bronto.com/s/b.min.js';
+
+    var t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(bsw, t);
+
+  })();
+
+
+
+
+
+
+		
+	
+		
+	
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+Yo.sequence.displayNow();
+
+
+
+

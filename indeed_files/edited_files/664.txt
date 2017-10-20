@@ -1,0 +1,760 @@
+
+
+	
+		
+		
+		
+		
+		
+				
+			
+				.gradient {
+		   			filter: none;
+				}
+			
+		
+		Data Analyst - Washington, DC - CGH Technologies, Inc. Jobs
+		
+		
+		
+				
+		
+				
+		
+				
+				
+				
+					
+			
+      		
+      	
+		
+		-->
+		
+			$(function() {
+				$('input,textarea').placeholder();
+				A.supportsPlaceholders = $.support.placeholder = 'placeholder' in document.createElement('input');
+				V.init();
+				A.useN = true;
+				A.newValidation = true;
+				A.isMobile = 0;
+				
+							});
+		
+		
+			function breakout() {
+				if(window.top != window.self) {
+					window.top.location="https://cghtechl.applicantpro.com//jobs/624824-5929.html";
+				}
+			}
+		
+			
+	
+		
+			
+								
+										
+										
+										
+									
+								
+					
+												
+							Home
+							Jobs
+						
+						
+						
+							@media print {
+							    .navbar {
+							        display: block;
+							        border-width:0 !important;
+							    }
+
+							    .navbar-toggle {
+							        display:none;
+							    }
+
+							    #email_me_job{
+							    	display: none;
+							    }
+
+							    #job_piper_alerts_widget{
+							    	display: none;
+							    }
+
+							    a[href]:after {  
+							    	display:none; 
+							    }
+
+							    .navbar-brand{
+							    	display: block;
+							    	text-decoration: none;
+							    	text-align: center;
+							    }
+							}
+
+							/*Safari Only hack*/
+							@media print and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+								.navbar-brand { 
+									display: none;
+								} 
+							}
+
+							/* Explorer Only hack */
+							.navbar-brand { display:none\0; }
+						
+						
+						
+							
+								Data Analyst - Washington, DC
+								
+									Toggle navigation
+									
+									
+									
+								
+							
+							
+								
+									
+										Data Analyst									
+									
+										JobsLogin									
+								
+							
+						
+
+	$(function() {
+		$('#email_me_job').on('click', function() {
+			Analytics.addAction('email_me_job_button', { listing_id : 624824 });
+		});
+		
+		Analytics.addParams({ listing_id : '624824' });
+	});
+
+ 
+	{"@context":"http:\/\/schema.org\/","@type":"JobPosting","title":"Data Analyst","url":"https:\/\/cghtechl.applicantpro.com\/jobs\/624824.html","description":"\r\n\r\n\r\n\r\nCGH Technologies, Inc. (CGH) is a business solutions firm, specializing in Data Management, Software Engineering, and Business Intelligence solutions. Located within the Washington corridor, CGH has worked successfully with Government, Commercial and International sectors, providing management, development and maintenance, and support of large and complex environments. CGH has an exciting opportunity for a seasoned Data Analyst to join the CGH Team.\r\n&nbsp;\r\nPurpose:\r\n&nbsp;\r\n&nbsp;\r\nResponsibilities:\r\n\r\n&nbsp;&nbsp;Analyze, validate, formulate and document business, functional and technical requirements. \r\n&nbsp;&nbsp;Liaise among business stakeholders to elicit and communicate business, functional and technical requirements. Conduct requirement walkthroughs and manage the requirements change control process. \r\n&nbsp;&nbsp;Model relevant \"as-is\" and proposed \"to-be\" processes using work flow diagrams. \r\nConduct problem analysis to identify problems in current business and technical processes. Explain in detail how you will accomplish this task. \r\n&nbsp;Prepare clear, business, functional and technical requirements, use cases, and communication plans. Explain in detail how you will accomplish this task.\r\nAbility to translate\/dissect business requirements for software developers.&nbsp;\r\n\r\n\r\n\r\n\r\n\r\nQualifications \r\n\r\n\r\n\r\n\r\n&nbsp;\r\nNumber of Years Experience Required:\r\n\r\n5-7&nbsp; years of relevant technical or business work experience\r\nMinimum of 5 years of experience as a requirements analyst working with project sponsor to understand and document project objectives, scope, gaps and to establish vision \r\nMinimum of 5 years of experience working with business owners to understand current processes and to document and prioritize requirements specifications, business processes and recommendations \r\nMinimum of 5 years of experience assisting in the collection and consolidation of required information and data \r\nMinimum of 5 years of experience working with business users to define accurate, meaningful and measurable requirements \r\n\r\n&nbsp;\r\nMinimum Education and Certifications Required:&nbsp; \r\n\r\nBachelor's degree in related field\r\n\r\n&nbsp;\r\nTechnical Skills Required:\r\n\r\n&nbsp;Use case tools a plus\r\n\r\n&nbsp;\r\nComputer Skills:\r\n\r\nProficient with Microsoft Excel\r\nProficieint with Visio\r\n\r\n&nbsp;\r\nOther Knowledge, Skills, and Abilities Required:\r\n\r\nExperience in Agile software development a plus\r\nExcellent presentation and written communication skills. \r\nWorking knowledge of requirements elicitation, analysis and documentation \r\nWorking knowledge of business analysis, quality assurance, and workflow tools and\/or practices \r\nEffective professional relationship building skills \r\nDemonstrated ability to quickly learn existing business processes and combine knowledge from multiple disciplines in order to produce an optimal business solution \r\nStrong analytical thinking and problem solving skills \r\nExcellent written and verbal communication skills to both business users and technical staff\r\nExtensive knowledge of the Aviation industry\r\nFAA experience preferred\r\n\r\n&nbsp;\r\nCandidates selected will be subject to a Government background investigation and must meet eligibility requirements.\r\nCGH offers a comprehensive benefits package to include medical, dental, short- and long-term disability insurance, life insurance, commuter benefit, and flexible spending account.&nbsp; Other benefits include 401K, paid government holidays, and Paid Time Off (PTO).\r\n&nbsp;\r\nCGH is an Equal Opportunity Employer\r\n\r\n\r\n\r\n","identifier":{"@type":"PropertyValue","name":"CGH Technologies, Inc.","sameAs":"624824"},"datePosted":"2017-08-17 00:00:00","validThrough":"2018-06-30 00:00:00T23:59","employmentType":"FULL TIME","baseSalary":{"@type":"MonetaryAmount","currency":"USD","value":{"@type":"QuantitativeValue","value":"","unitText":""}},"hiringOrganization":{"@type":"Organization","name":"CGH Technologies, Inc.","sameAs":"https:\/\/cghtechl.applicantpro.com"},"jobLocation":{"@type":"Place","address":{"@type":"PostalAddress","addressLocality":"Washington","addressRegion":"DC","postalCode":"20024","addressCountry":"US"}}}
+
+	
+		
+			
+				
+					 Washington, DC, USA Full Time				
+				
+							
+			
+								Email Me Similar Jobs								Email Me This Job
+			
+		
+		
+		
+
+
+
+
+
+
+
+CGH Technologies, Inc. (CGH) is a business solutions firm, specializing in Data Management, Software Engineering, and Business Intelligence solutions. Located within the Washington corridor, CGH has worked successfully with Government, Commercial and International sectors, providing management, development and maintenance, and support of large and complex environments. CGH has an exciting opportunity for a seasoned Data Analyst to join the CGH Team.
+
+&nbsp;
+
+Purpose:
+
+&nbsp;
+
+&nbsp;
+
+Responsibilities:
+
+
+
+&nbsp;&nbsp;Analyze, validate, formulate and document business, functional and technical requirements. 
+
+&nbsp;&nbsp;Liaise among business stakeholders to elicit and communicate business, functional and technical requirements. Conduct requirement walkthroughs and manage the requirements change control process. 
+
+&nbsp;&nbsp;Model relevant "as-is" and proposed "to-be" processes using work flow diagrams. 
+
+Conduct problem analysis to identify problems in current business and technical processes. Explain in detail how you will accomplish this task. 
+
+&nbsp;Prepare clear, business, functional and technical requirements, use cases, and communication plans. Explain in detail how you will accomplish this task.
+
+Ability to translate/dissect business requirements for software developers.&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+Qualifications 
+
+
+
+
+
+
+
+
+
+&nbsp;
+
+Number of Years Experience Required:
+
+
+
+5-7&nbsp; years of relevant technical or business work experience
+
+Minimum of 5 years of experience as a requirements analyst working with project sponsor to understand and document project objectives, scope, gaps and to establish vision 
+
+Minimum of 5 years of experience working with business owners to understand current processes and to document and prioritize requirements specifications, business processes and recommendations 
+
+Minimum of 5 years of experience assisting in the collection and consolidation of required information and data 
+
+Minimum of 5 years of experience working with business users to define accurate, meaningful and measurable requirements 
+
+
+
+&nbsp;
+
+Minimum Education and Certifications Required:&nbsp; 
+
+
+
+Bachelor's degree in related field
+
+
+
+&nbsp;
+
+Technical Skills Required:
+
+
+
+&nbsp;Use case tools a plus
+
+
+
+&nbsp;
+
+Computer Skills:
+
+
+
+Proficient with Microsoft Excel
+
+Proficieint with Visio
+
+
+
+&nbsp;
+
+Other Knowledge, Skills, and Abilities Required:
+
+
+
+Experience in Agile software development a plus
+
+Excellent presentation and written communication skills. 
+
+Working knowledge of requirements elicitation, analysis and documentation 
+
+Working knowledge of business analysis, quality assurance, and workflow tools and/or practices 
+
+Effective professional relationship building skills 
+
+Demonstrated ability to quickly learn existing business processes and combine knowledge from multiple disciplines in order to produce an optimal business solution 
+
+Strong analytical thinking and problem solving skills 
+
+Excellent written and verbal communication skills to both business users and technical staff
+
+Extensive knowledge of the Aviation industry
+
+FAA experience preferred
+
+
+
+&nbsp;
+
+Candidates selected will be subject to a Government background investigation and must meet eligibility requirements.
+
+CGH offers a comprehensive benefits package to include medical, dental, short- and long-term disability insurance, life insurance, commuter benefit, and flexible spending account.&nbsp; Other benefits include 401K, paid government holidays, and Paid Time Off (PTO).
+
+&nbsp;
+
+CGH is an Equal Opportunity Employer
+
+
+
+
+
+
+
+		
+		
+			CGH Technologies, Inc.
+			https://cghtechl.applicantpro.com
+		
+	
+	
+		
+	$(function() {
+		A.setTempName('apply');
+		A.getResponse('getCsrfToken', '', function(result) {
+			if(result && "token" in result) {
+				$('input[name="csrf_token"]').val(result.token);
+				A.attachParam('csrf_token', result.token);
+			}
+		});
+		
+		$('#job_piper_alerts_widget').show();
+		
+		// Hide job piper to reduce confusion
+		$('#contact_number').on('keyup', function() {
+			$('#job_piper_alerts_widget').fadeOut(200);
+		});
+		$('#apply').on('submit', function () {
+			var $t = $(this), formIsValid = V.form('apply'), appData;
+			
+			if(formIsValid) {
+				
+				appData = AS.get('applicationInfo') || {};
+				appData.job_listing_id = '624824';
+				appData.i = '0';
+				appData.first_name = $('#first_name').val();
+				appData.last_name = $('#last_name').val(); 
+				appData.email = $('#email').val();
+				appData.contact_number = $('#contact_number').val();
+				appData.contact_number_type = $('#contact_number_type').val();
+				appData.text_approval = $('#text_approval').val();
+				AS.set('applicationInfo', appData, 2700);
+				
+				$('#apply_container').animate({ opacity: 0 }, 200);
+				A.setTempName('apply');
+				A.getHTML('initialForm', 'apply', '', function(result) {
+					if(result) {
+						$('#apply_container').html(result).animate({ opacity: 1 }, 200);
+						// Hide job piper to reduce confusion
+						$('#job_piper_alerts_widget').fadeOut(200);
+					}
+				});
+			}
+			return false;
+		});
+		
+		$('#contact_number_type').on('change', function () {
+			if (this.value == 2) {
+				$('#text_approval_div').show();
+				$('#text_approval').attr('disabled', false);
+			} else {
+				$('#text_approval_div').hide();
+				$('#text_approval').attr('disabled', true);
+			}
+		});
+		
+		var appData = AS.get('applicationInfo');
+		if(typeof(appData) != 'undefined') {
+			for(var i in appData) {
+				// make sure there's a value and that the field is a string, not an int, and skip the job_id and i
+				if(appData[i] && isNaN(parseInt(i)) && i != 'job_listing_id' && i != 'i')
+					$('#' + i).val(appData[i]);
+			}
+		}
+		
+		$('#seek_button').on('click', function() {
+			authSocSeek();
+		});
+	});
+	
+	window.funID = '423';
+	
+	
+
+	
+		Apply Now
+				with our quick 3 minute application!
+			
+	
+		
+			You have JavaScript disabled on your browser. You will not be able to apply for this position without enabling javascript. If you need assistance with enabling javascript, please click here for assistance.
+		
+		
+						
+				
+				
+								
+					
+						* Fields Are Required
+					
+				
+				
+					
+						What is your full name?
+					
+				
+				
+					
+						First Name
+						
+					
+					
+						Last Name
+						
+					
+				
+				
+					
+						How can we contact you?
+					
+					
+						Email
+						
+					
+				
+				
+					
+						Phone Number
+						
+					
+					
+						Number Type
+						
+							Home
+							Cell
+							Work
+						
+					
+				
+								
+					
+						
+							What is your preferred method of communication?
+						
+						
+							Email
+							Text Message
+						
+					
+				
+								
+				
+					
+						Apply for this Position
+						Apply for this Position
+						By clicking the button above, I agree to ApplicantPro's Applicant Information Use Policy.					
+				
+			
+		
+	
+
+	
+		Sign Up For Job Alerts!
+	
+	
+		
+			$(function() {
+				var sidebar_options = { 
+					api_key: "jp_apppro_cghtechl", 
+					style: "sidebar", 
+					title: "Data Analyst", 
+					source: "4_job" 
+				};
+				referWidget("create", sidebar_options, "refer-widget");
+			});
+		
+		
+	
+
+
+	
+		Resources
+	
+	
+		Company Website	
+
+	
+		Share this Page
+	
+	
+						
+		
+		
+		
+					
+	
+
+
+											 
+					
+												
+														Hiring Software Maintained By ApplicantPro - &copy; 2017
+														
+									
+										
+										Refresh
+									
+								
+													
+						
+						
+							$(function() {
+								$('.footer-links:last-child').css('border-left', '0');
+								$('.footer-links:last-child a').css('color', $('body .panel-footer').css('background-color'));
+							});
+						
+					
+					 
+				 
+			 
+		 
+		
+		
+	body {
+		margin-bottom: 60px !important;
+	}
+
+
+	var faqButtons = [{"page":"instructions","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"resume","link":"https:\/\/intercom.help\/applicant-support\/resumes"},{"page":"additional_questions","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"screening","link":"https:\/\/intercom.help\/applicant-support\/additional-job-questions"},{"page":"employment","link":"https:\/\/intercom.help\/applicant-support\/employment-history"},{"page":"education","link":"https:\/\/intercom.help\/applicant-support\/education"},{"page":"references","link":"https:\/\/intercom.help\/applicant-support\/references"},{"page":"eeoc","link":"https:\/\/intercom.help\/applicant-support\/general"},{"page":"disclosure","link":"https:\/\/intercom.help\/applicant-support\/applicant-statement"},{"page":"source","link":"https:\/\/intercom.help\/applicant-support\/source"},{"page":"submit","link":"https:\/\/intercom.help\/applicant-support\/submit-application","label":"Common Submit Questions"},{"page":"thank_you","link":"https:\/\/intercom.help\/applicant-support\/general","label":"Common Application Questions"},{"page":"my_account","link":"https:\/\/intercom.help\/applicant-support\/my-account","label":"Common Account Questions"},{"page":"login","link":"https:\/\/intercom.help\/applicant-support\/login","label":"Common Login Questions"},{"page":"listing_info","link":"https:\/\/intercom.help\/applicant-support\/job-listing","label":"Common Job Questions"}];
+	$(function() {
+		$('#faq_bar_form').on('submit', function() {
+			var value = $('#faq_bar_searchCriteria').val();
+			if(value) {
+				A.setTempName('support');
+				A.setTempDir('/jobs/');
+				A.set('recordSearch', { from_page_url : window.location.href, keyword : value });
+				var newWindow = window.open("https://intercom.help/applicant-support/#search_query=" + encodeURIComponent(value), "_blank");
+			} else
+				N.addError("Please enter a search term to search our FAQs");
+			return false;
+		});
+		
+		$('#common_faq_button').on('click', function() {
+			var newWindow = window.open($(this).data('link'), "_blank");
+		});
+		
+		var path = window.location.pathname, name;
+		switch(true) {
+			case path.indexOf('login.php') != -1 || path.indexOf('forgot_password.php') != -1:
+				name = 'login';
+				break;
+				
+			case path.indexOf('/account/') != -1:
+				name = 'my_account';
+				break;
+				
+			case path.indexOf('/jobs/') != -1:
+			case path.indexOf('/internaljobs/') != -1:
+				name = 'listing_info';
+				break;
+				
+			case path.indexOf('/apply/') != -1:
+				name = '';
+				break;
+		}
+		changeCommonQuestionsText(name);
+	});
+	
+	function changeCommonQuestionsText(name) {
+		var label = "", $button = $('#common_faq_button'), newButtonText = $('[data-file="' + name + '"]').text(), found = false;
+		for(var i in faqButtons) {
+			if(faqButtons[i]['page'] == name) {
+				$button.show();
+				label = faqButtons[i]['label'] ? faqButtons[i]['label'] : 'Common ' + (newButtonText.search(/questions?/ig) != -1 ? newButtonText : newButtonText + ' Questions');
+				$button.text(label);
+				$button.data('link', faqButtons[i]['link']);
+				found = true;
+				break;
+			}
+		}
+		
+		if(!found)
+			$button.hide();
+	}
+
+
+	
+		
+			
+		
+		Go
+				Common Questions
+			
+
+
+		
+				
+			!function(e,r,t){e.referWidget=e.referWidget||function(){(e.referWidget.q=e.referWidget.q||[]).push(arguments)},e.referWidget.l=1*new Date;var n=r.createElement("script"),i=r.getElementsByTagName("script")[0];n.async=1,n.src=t,i.parentNode.insertBefore(n,i)}(window,document, "https://widget-dot-refer-io.appspot.com/refer.js");
+		
+		
+		
+		
+				
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57286717-2', 'auto');
+  ga('send', 'pageview');
+
+
+		
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		<!-- scripts 
+	
+		jQl.loadjQ('/js/all.min.js?ver=1.1.16498.2');
+	
+	-->
+	
+	
+	
+		
+	
+				var exit_survey_enabled = '0';
+		var fired = '0';
+		var thanks = '0'
+		$(function() {
+			$('#leaving').on('change', function() { 
+				if($(this).val() != 0)
+					$('#notice').css('display', 'block');
+				else
+					$('#notice').css('display', 'none');
+
+				if( $(this).val() == 'Other' ) 
+					$('#reason').css('display', 'block'); 
+				else 
+					$('#reason').css('display', 'none'); 
+			});
+		});
+
+		if(exit_survey_enabled != 0) {
+			$('#left').on('click', function() {
+				var answer = $('#leaving').val();
+				if(answer != 0) {
+					var domain_id = '423';
+					var job = '624824';
+					var app = '';
+
+					if(answer == 'Other') {
+						if( $('#reason').val() != '' ) {
+							answer = $('#reason').val();
+						} else {
+							answer = 'Other (Non Specified)';
+						}					
+					}
+					$.post("/jobs/edit.php", {n: 'conversion', f: 'survey', v :{app_id : app, domain: domain_id, job_id: job, answer: answer} });
+
+					$('#ouibounce-modal').hide();
+				  							$('#ouibounce-referio-modal').css('display', 'block');
+									}
+			});
+		}
+
+		// if you want to use the 'fire' or 'disable' fn,
+		// you need to save OuiBounce to an object
+		if(exit_survey_enabled != 0 && fired == 0 && thanks == 0) {
+			var modal = '';
+
+			$('html').on( 'mouseleave', function() {
+				if(fired == 0) {
+					fired = 1;
+					modal = ouibounce(document.getElementById('ouibounce-modal'), {
+							aggressive: false,
+						  	timer: 0,
+						  	callback: function() { 
+						  		$('#top-nav').css('z-index', '0'); 
+						  		$.get("/jobs/view.php", {n: 'conversion', f: 'survey_fired'}); 
+								if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+									modal.disable();
+						  	}
+						});
+					modal.fire();
+				}
+			});
+
+			setInterval( function() { 
+				$('select').click(
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+
+				$('select').mouseleave( 
+					function(e) {
+						e = e || window.event;
+						e.stopPropagation();
+						if( typeof(modal) != "undefined" && typeof(modal.disable) != "undefined" )
+							modal.disable();
+					}
+				);
+			}, 1000);
+
+			$('body').on('click', function() {
+			  	$('#ouibounce-modal').hide();
+			  	$('#ouibounce-referio-modal').hide();
+			});
+
+			$('#ouibounce-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal').on('click', function(e) {
+			  	e.stopPropagation();
+			});
+
+			$('#ouibounce-referio-modal .modal-footer button').on('click', function(e) {
+			  	$('#ouibounce-referio-modal').hide();
+			});
+		}
+	
+	
+		<!--
+	
+		var pkBaseURL = (("https:" == document.location.protocol) ? "https://cghtechl.applicantpro.com/stats/" : "http://cghtechl.applicantpro.com/stats/");
+		document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+	
+	
+		try {
+		var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 967);
+		piwikTracker.trackPageView();
+		piwikTracker.enableLinkTracking();
+		} catch( err ) {}
+	
+	
+	-->
+		
+		$(function() {
+			Analytics.addAction();
+		});
+	
+
+		
+	
+	
+		$(function() {
+			$('select').attr('role', 'combobox');
+			$('.dropdown').attr('role', 'combobox');
+		});
+	
+
+	
+//
+
+
